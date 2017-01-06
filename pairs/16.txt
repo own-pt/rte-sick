@@ -1,0 +1,39 @@
+sentence A = Two dogs are wrestling and hugging.
+sentence B = A brown dog is attacking another animal in front of the tall man in pants.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Canine+,Entity+,Wrestling+,?,Embracing+,?
+CONCEPTS B: ?,Human+,Canine+,Entity+,Attack=,?,Animal=,?,FrontFn=,?,?,SubjectiveWeakNegativeAttribute+,Man=,?,Trousers+,?
+
+CONLL A:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02084071-n|Canine+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	wrestling	wrestle	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01504699-v|Wrestling+
+5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+6	hugging	hug	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	01424456-v|Embracing+
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	00245112-a|Human+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	attacking	attack	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01119169-v|Attack=
+6	another	another	DET	DT	fPOS=DET++DT	7	det	_	?|?
+7	animal	animal	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	00015388-n|Animal=
+8	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+9	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	08573472-n|FrontFn=
+10	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+12	tall	tall	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	02385102-a|SubjectiveWeakNegativeAttribute+
+13	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	10287213-n|Man=
+14	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+15	pants	pant	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	04489008-n|Trousers+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+

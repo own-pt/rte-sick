@@ -1,0 +1,45 @@
+sentence A = The player is missing the basket and a crowd is in background.
+sentence B = The player is dunking the basketball into the net and a crowd is in background.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: ?,Human+,Entity+,Process+,?,Container+,?,?,SubjectiveAssessmentAttribute=,Entity+,?,Region+,?
+CONCEPTS B: ?,Human+,Entity+,Wetting+,?,Basketball=,?,?,Fabric+,?,?,SubjectiveAssessmentAttribute=,Entity+,?,Region+,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10439851-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	missing	miss	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02632353-v|Process+
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	basket	basket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	02801938-n|Container+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	crowd	crowd	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	conj	_	08182379-n|SubjectiveAssessmentAttribute=
+10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	12	cop	_	02604760-v|Entity+
+11	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+12	background	background	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	ccomp	_	14513259-n|Region+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10439851-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	dunking	dunk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01577093-v|Wetting+
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	basketball	basketball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00480993-n|Basketball=
+7	into	into	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	net	net	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03819595-n|Fabric+
+10	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	crowd	crowd	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nsubj	_	08182379-n|SubjectiveAssessmentAttribute=
+13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	15	cop	_	02604760-v|Entity+
+14	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+15	background	background	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	conj	_	14513259-n|Region+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
