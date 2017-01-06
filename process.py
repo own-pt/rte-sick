@@ -161,7 +161,7 @@ with open('SICK.txt', newline='') as csvfile:
             for t in conllb:
 
                 o.write("{}\n".format("\t".join(t)))
-        break
+
 
 
         
