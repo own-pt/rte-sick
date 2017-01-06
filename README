@@ -22,7 +22,11 @@ https://github.com/tensorflow/models/tree/master/syntaxnet
 
 https://github.com/tensorflow/models/blob/master/syntaxnet/universal.md
 
-5. Fix the paths in env.sh, process.py, and parse.sh to point to your
-local installation path
+5. Download the SUMO knowledge base from:
+
+https://github.com/ontologyportal/sumo
+
+6. Fix the paths in env.sh, process.py, and parse.sh to point to your
+local installation paths.
 
 Execute: python3 process.py
