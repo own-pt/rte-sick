@@ -1,0 +1,20 @@
+To reproduce:
+
+1. Download SICK.txt from here: http://clic.cimec.unitn.it/composes/sick.html
+
+2. Install Freeling 4.0 from:
+
+http://nlp.cs.upc.edu/freeling/
+
+3. Install SyntaxNet from: 
+
+https://github.com/tensorflow/models/tree/master/syntaxnet
+
+4. Download the English UD pre-trained model from:
+
+https://github.com/tensorflow/models/blob/master/syntaxnet/universal.md
+
+5. Fix the paths in env.sh, process.py, and parse.sh to point to your
+local installation path
+
+Execute: python3 process.py
