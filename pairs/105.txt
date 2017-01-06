@@ -1,0 +1,34 @@
+sentence A = Four children are doing backbends in the gym.
+sentence B = Four girls are doing backbends and playing outdoors.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,HumanChild=,Entity+,IntentionalProcess+,?,?,?,ExerciseCenter=,?
+CONCEPTS B: ?,Human+,Entity+,BodyMotion+,?,?,DramaticActing+,Outdoors+,?
+
+CONLL A:
+
+1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	09917593-n|HumanChild=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01712704-v|IntentionalProcess+
+5	backbends	backbends	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	?|?
+6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	gym	gym	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03472112-n|ExerciseCenter=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	girls	girl	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	10129825-n|Human+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00010435-v|BodyMotion+
+5	backbends	backbends	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	compound	_	?|?
+6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+7	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	01719302-v|DramaticActing+
+8	outdoors	outdoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	00110659-r|Outdoors+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
