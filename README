@@ -1,7 +1,7 @@
-The idea is to run the sentences A and B from the SICK.txt through
-FreeLing, and use its tokenization to feed SynaxNet to obtain the UD
-dependencies.  We generate a CONLL file with the SynaxNet output,
-augmented with the lemmas and senses obtained from FreeLing.
+The idea is to run the sentences A and B from the SICK.txt corpus
+through FreeLing, and use its tokenization to feed SynaxNet to obtain
+the UD dependencies.  We generate a CONLL file with the SynaxNet
+output, augmented with the lemmas and senses obtained from FreeLing.
 
 We needed to disable FreeLing's MWE module.
 
