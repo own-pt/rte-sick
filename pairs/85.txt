@@ -1,0 +1,42 @@
+sentence A = People wearing costumes are gathering in a forest and are looking in the same direction.
+sentence B = A little girl in costume looks like a woman.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GroupOfPeople=,Dressing+,Clothing+,Entity+,Meeting+,?,?,Forest=,?,Entity+,Searching=,?,?,equal+,DirectionalAttribute=,?
+CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,?,Clothing+,SubjectiveAssessmentAttribute+,?,?,Woman=,?
+
+CONLL A:
+
+1	People	people	ADJ	JJ	Number=Plur|fPOS=NOUN++NNS	3	amod	_	07942152-n|GroupOfPeople=
+2	wearing	wear	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	3	compound	_	00050652-v|Dressing+
+3	costumes	costume	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	03113657-n|Clothing+
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	02604760-v|Entity+
+5	gathering	gather	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02428924-v|Meeting+
+6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	forest	forest	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	09284015-n|Forest=
+9	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	11	aux	_	02604760-v|Entity+
+11	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	02153709-v|Searching=
+12	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+14	same	same	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	02062670-a|equal+
+15	direction	direction	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	13827426-n|DirectionalAttribute=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	10129825-n|Human+
+4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+5	costume	costume	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	03113657-n|Clothing+
+6	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
+7	like	like	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	10787470-n|Woman=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+

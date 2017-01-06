@@ -1,0 +1,40 @@
+sentence A = Two people in snowsuits are lying in the snow and making snow angels.
+sentence B = Two angels are making snow on the lying children.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,GroupOfPeople=,?,?,Entity+,PhysicalAttribute+,?,?,Snowing=,?,Attribute+,Snowing=,Angel=,?
+CONCEPTS B: ?,Angel=,Entity+,Process+,Snowing=,?,?,PhysicalAttribute+,HumanChild=,?
+
+CONLL A:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	07942152-n|GroupOfPeople=
+3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	snowsuits	snowsuits	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	?|?
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	02604760-v|Entity+
+6	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02690708-v|PhysicalAttribute+
+7	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	15043763-n|Snowing=
+10	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+11	making	make	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	conj	_	02621395-v|Attribute+
+12	snow	snow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	15043763-n|Snowing=
+13	angels	angel	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	dobj	_	09538915-n|Angel=
+14	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?
+2	angels	angel	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	09538915-n|Angel=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	making	make	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00120316-v|Process+
+5	snow	snow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	xcomp	_	15043763-n|Snowing=
+6	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	lying	lie	VERB	VBG	Number=Sing|fPOS=NOUN++NN	9	amod	_	02690708-v|PhysicalAttribute+
+9	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	09917593-n|HumanChild=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
