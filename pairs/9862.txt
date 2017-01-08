@@ -1,0 +1,50 @@
+sentence A = One boy in orange shorts is standing on a rock cliff over the water and the other boy in black shorts is jumping of it into the water.
+sentence B = A baby is sneezing and frightening another baby.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Human+,?,OrangeColor+,NormativeAttribute+,Entity+,PhysicalAttribute+,?,?,Mineral+,Cliff=,?,?,Water=,?,?,equal+,Human+,?,Black=,NormativeAttribute+,Entity+,Ambulating=,?,?,?,?,Water=,?
+CONCEPTS B: ?,HumanBaby=,Entity+,Breathing+,?,IntentionalPsychologicalProcess+,?,HumanBaby=,?
+
+CONLL A:
+
+1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10285313-n|Human+
+3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	orange	orange	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	04965179-n|OrangeColor+
+5	shorts	short	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	04204755-n|NormativeAttribute+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+8	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+10	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	14696793-n|Mineral+
+11	cliff	cliff	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	09246464-n|Cliff=
+12	over	over	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+14	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	14845743-n|Water=
+15	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
+16	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	18	det	_	?|?
+17	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	18	amod	_	02069355-a|equal+
+18	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	23	nsubj	_	10285313-n|Human+
+19	in	in	ADP	IN	fPOS=ADP++IN	21	case	_	?|?
+20	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	21	amod	_	00392812-a|Black=
+21	shorts	short	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	18	nmod	_	04204755-n|NormativeAttribute+
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	23	aux	_	02604760-v|Entity+
+23	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	7	conj	_	01963942-v|Ambulating=
+24	of	of	ADP	IN	fPOS=ADP++IN	25	case	_	?|?
+25	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	23	nmod	_	?|?
+26	into	into	ADP	IN	fPOS=ADP++IN	28	case	_	?|?
+27	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	28	det	_	?|?
+28	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	23	nmod	_	14845743-n|Water=
+29	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	baby	baby	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	09827683-n|HumanBaby=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	sneezing	sneeze	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00004819-v|Breathing+
+5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+6	frightening	frighten	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01779165-v|IntentionalPsychologicalProcess+
+7	another	another	DET	DT	fPOS=DET++DT	8	det	_	?|?
+8	baby	baby	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	09827683-n|HumanBaby=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

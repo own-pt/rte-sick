@@ -1,0 +1,20 @@
+# sent_id = 5575b
+# text = The woman is using a sledgehammer to break a concrete block that is on another man.
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	using	use	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01158872-v|IntentionalProcess+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	sledgehammer	sledgehammer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03731695-n|Device+
+7	to	to	PART	TO	fPOS=PART++TO	8	mark	_	?|?
+8	break	break	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	6	acl	_	02681524-v|EndFn+
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+10	concrete	concrete	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	11	amod	_	00013160-a|Physical+
+11	block	block	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	13914608-n|ShapeAttribute+
+12	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	16	nsubj	_	?|?
+13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	16	cop	_	02604760-v|Entity+
+14	on	on	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+15	another	another	DET	DT	fPOS=DET++DT	16	det	_	?|?
+16	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	acl:relcl	_	10287213-n|Man=
+17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+

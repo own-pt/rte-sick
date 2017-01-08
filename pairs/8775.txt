@@ -1,0 +1,34 @@
+sentence A = No young child is riding a three wheeled scooter down the sidewalk.
+sentence B = A toddler is riding a plastic scooter toy.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,HumanYouth=,HumanChild=,Entity+,Carrying=,?,?,Transportation+,LandVehicle+,?,?,Sidewalk=,?
+CONCEPTS B: ?,NonFullyFormed+,Entity+,Carrying=,?,SubjectiveAssessmentAttribute+,LandVehicle+,RecreationOrExerciseDevice+,?
+
+CONLL A:
+
+1	No	no	DET	DT	fPOS=DET++DT	3	neg	_	?|?
+2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
+3	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	09917593-n|HumanChild=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01955984-v|Carrying=
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+7	three	3	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod:npmod	_	?|?
+8	wheeled	wheel	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	9	amod	_	01935476-v|Transportation+
+9	scooter	scooter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03791053-n|LandVehicle+
+10	down	down	ADP	RP	fPOS=ADP++IN	12	case	_	?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	sidewalk	sidewalk	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	5	nmod	_	04215402-n|Sidewalk=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	toddler	toddler	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10714465-n|NonFullyFormed+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01955984-v|Carrying=
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+6	plastic	plastic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	02364954-a|SubjectiveAssessmentAttribute+
+7	scooter	scooter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	03791053-n|LandVehicle+
+8	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03964744-n|RecreationOrExerciseDevice+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

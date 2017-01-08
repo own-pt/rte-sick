@@ -1,0 +1,38 @@
+sentence A = A boy is running away from the fishing line.
+sentence B = There is no boy hanging a fishing rod and running in front of a fish.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Human+,Entity+,Hunting+,?,?,?,FishingSport=,Position+,?
+CONCEPTS B: ?,Entity+,?,Human+,PhysicalAttribute+,?,FishingSport=,LengthMeasure@,?,Hunting+,?,FrontFn=,?,?,Fish=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10285313-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01143838-v|Hunting+
+5	away	away	ADV	RB	fPOS=ADV++RB	4	advmod	_	00234951-r|?
+6	from	from	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	fishing	fishing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	00453935-n|FishingSport=
+9	line	line	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	00582388-n|Position+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
+4	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	10285313-n|Human+
+5	hanging	hang	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	01482075-v|PhysicalAttribute+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	fishing	fishing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	00453935-n|FishingSport=
+8	rod	rod	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	13650921-n|LengthMeasure@
+9	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+10	running	run	VERB	VBG	Number=Sing|fPOS=NOUN++NN	5	conj	_	01143838-v|Hunting+
+11	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+12	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	08573472-n|FrontFn=
+13	of	of	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	fish	fish	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	02512053-n|Fish=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?

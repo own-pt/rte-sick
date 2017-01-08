@@ -1,0 +1,34 @@
+sentence A = There is no dog turning on the grass and pursuing a flying ball.
+sentence B = A yellow dog is chasing a ball.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Entity+,?,Canine+,Process+,?,?,Grass=,?,IntentionalAgent+,?,FlyingAircraft=,Ball=,?
+CONCEPTS B: ?,SubjectiveAssessmentAttribute+,Canine+,Entity+,Pursuing+,?,Ball=,?
+
+CONLL A:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
+4	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	02084071-n|Canine+
+5	turning	turn	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	00146138-v|Process+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	12102133-n|Grass=
+9	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+10	pursuing	pursue	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	02375131-v|IntentionalAgent+
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+12	flying	fly	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	13	compound	_	01941093-v|FlyingAircraft=
+13	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	02778669-n|Ball=
+14	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	chasing	chase	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02001858-v|Pursuing+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02778669-n|Ball=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

@@ -1,0 +1,31 @@
+sentence A = Three small dogs are sniffing at something.
+sentence B = Butter is being chopped into a container by a man.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Smelling+,?,?,?
+CONCEPTS B: Butter=,Entity+,Entity+,Cutting+,?,?,Container+,?,?,Hominid=,?
+
+CONLL A:
+
+1	Three	3	NUM	CD	Definite=Def|PronType=Art|fPOS=DET++DT	3	amod	_	?|?
+2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	02084071-n|Canine+
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	02604760-v|Entity+
+5	sniffing	sniff	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02125032-v|Smelling+
+6	at	at	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+7	something	something	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	?|?
+8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	Butter	butter	PROPN	NNP	Number=Sing|fPOS=PROPN++NNP	4	nsubjpass	_	07848338-n|Butter=
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+3	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	4	auxpass	_	02604760-v|Entity+
+4	chopped	chop	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	01258091-v|Cutting+
+5	into	into	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	container	container	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03094503-n|Container+
+8	by	by	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02472293-n|Hominid=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

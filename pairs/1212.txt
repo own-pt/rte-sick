@@ -1,0 +1,29 @@
+sentence A = A woman is talking on a telephonic device.
+sentence B = Two boys are talking on the phone.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Woman=,Entity+,Speaking+,?,?,Device+,Device=,?
+CONCEPTS B: ?,Human+,Entity+,Speaking+,?,?,Telephone=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00941990-v|Speaking+
+5	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	telephonic	telephonic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	03123434-a|Device+
+8	device	device	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03183080-n|Device=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	10285313-n|Human+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00941990-v|Speaking+
+5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	phone	phone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04401088-n|Telephone=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

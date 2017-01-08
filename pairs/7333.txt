@@ -1,0 +1,32 @@
+sentence A = Three men are looking into the distance.
+sentence B = Some men in the distance are staring at three big hills.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Hominid=,Entity+,SubjectiveAssessmentAttribute+,?,?,LengthMeasure+,?
+CONCEPTS B: ?,Hominid=,?,?,LengthMeasure+,Entity+,Looking=,?,?,SubjectiveWeakPositiveAttribute+,Hill=,?
+
+CONLL A:
+
+1	Three	3	DET	DT	Number=Plur|PronType=Dem|fPOS=DET++DT	2	det	_	?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02472293-n|Hominid=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
+5	into	into	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	distance	distance	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05084201-n|LengthMeasure+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubj	_	02472293-n|Hominid=
+3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	distance	distance	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	05084201-n|LengthMeasure+
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	02604760-v|Entity+
+7	staring	stare	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02132745-v|Looking=
+8	at	at	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+9	three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	11	nummod	_	?|?
+10	big	big	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+11	hills	hill	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	09303008-n|Hill=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

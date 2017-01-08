@@ -1,0 +1,35 @@
+sentence A = Two dogs are playing inside.
+sentence B = Two brown and white dogs are fighting on a grassy area in front of a tree.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Canine+,Entity+,DramaticActing+,Indoors+,?
+CONCEPTS B: ?,Human+,?,White=,Canine+,Entity+,ViolentContest+,?,?,FloweringPlant+,SubjectiveAssessmentAttribute+,?,FrontFn=,?,?,ContentBearingObject+,?
+
+CONLL A:
+
+1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?
+2	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02084071-n|Canine+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	inside	inside	ADV	RB	fPOS=ADV++RB	4	advmod	_	00110815-r|Indoors+
+6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	Two	2	VERB	VBN	NumType=Card|fPOS=NUM++CD	5	nummod	_	?|?
+2	brown	brown	ADJ	JJ	Number=Plur|fPOS=NOUN++NNS	5	amod	_	00245112-a|Human+
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	00393105-a|White=
+5	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubj	_	02084071-n|Canine+
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	02604760-v|Entity+
+7	fighting	fight	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01090335-v|ViolentContest+
+8	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+10	grassy	grassy	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	11	compound	_	00209620-a|FloweringPlant+
+11	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	14514039-n|SubjectiveAssessmentAttribute+
+12	in	in	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+13	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	08573472-n|FrontFn=
+14	of	of	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+16	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	13912260-n|ContentBearingObject+
+17	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

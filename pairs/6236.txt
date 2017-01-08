@@ -1,0 +1,34 @@
+sentence A = Two dogs are cheerfully playing together on the grass.
+sentence B = A big dog and a small white dog are playing together.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Canine+,Entity+,EmotionalState+,DramaticActing+,Meeting=,?,?,Grass=,?
+CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Canine+,?,?,SubjectiveStrongNegativeAttribute+,White=,Canine+,Entity+,DramaticActing+,Meeting=,?
+
+CONLL A:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02084071-n|Canine+
+3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	cop	_	02604760-v|Entity+
+4	cheerfully	cheerfully	ADJ	JJ	fPOS=ADV++RB	0	ROOT	_	00230749-r|EmotionalState+
+5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	advcl	_	01719302-v|DramaticActing+
+6	together	together	ADV	RB	fPOS=ADV++RB	5	advmod	_	00507927-r|Meeting=
+7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	12102133-n|Grass=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	big	big	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	02084071-n|Canine+
+4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+6	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+7	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	8	amod	_	00393105-a|White=
+8	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	conj	_	02084071-n|Canine+
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	10	aux	_	02604760-v|Entity+
+10	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+11	together	together	ADV	RB	fPOS=ADV++RB	10	advmod	_	00507927-r|Meeting=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?

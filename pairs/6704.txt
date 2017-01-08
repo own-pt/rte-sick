@@ -1,0 +1,40 @@
+sentence A = The group of people is sitting on the ground outside a monument.
+sentence B = A group of people is sitting on both sides of a red stone structure.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Group=,?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,?,LandArea=,?,?,Monument+,?
+CONCEPTS B: ?,Group=,?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,?,Object+,?,?,Red=,Mineral+,Artifact+,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	07942152-n|GroupOfPeople=
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02655135-v|PhysicalAttribute+
+6	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	ground	ground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	09334396-n|LandArea=
+10	outside	outside	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	monument	monument	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03743902-n|Monument+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	07942152-n|GroupOfPeople=
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02655135-v|PhysicalAttribute+
+6	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	both	both	DET	DT	fPOS=DET++DT	9	det	_	?|?
+9	sides	side	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	08510666-n|Object+
+10	of	of	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+12	red	red	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	00381097-a|Red=
+13	stone	stone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	14696793-n|Mineral+
+14	structure	structure	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04341686-n|Artifact+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

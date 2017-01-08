@@ -1,0 +1,40 @@
+sentence A = Three men are walking across a rope and wood bridge over a river.
+sentence B = Three people are walking across a rope and wood bridge over a river.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Hominid=,Entity+,Walking=,?,?,String+,?,Wood=,Bridge+,?,?,River=,?
+CONCEPTS B: ?,GroupOfPeople=,Entity+,Walking=,?,?,String+,?,Wood=,Bridge+,?,?,River=,?
+
+CONLL A:
+
+1	Three	3	NUM	CD	Definite=Def|PronType=Art|fPOS=DET++DT	2	nummod	_	?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02472293-n|Hominid=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01904930-v|Walking=
+5	across	across	ADV	RB	fPOS=ADP++IN	10	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+7	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	04108268-n|String+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
+9	wood	wood	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	conj	_	15098161-n|Wood=
+10	bridge	bridge	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02898711-n|Bridge+
+11	over	over	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	river	river	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09411430-n|River=
+14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	07942152-n|GroupOfPeople=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01904930-v|Walking=
+5	across	across	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+7	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	04108268-n|String+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
+9	wood	wood	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	conj	_	15098161-n|Wood=
+10	bridge	bridge	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02898711-n|Bridge+
+11	over	over	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	river	river	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	09411430-n|River=
+14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

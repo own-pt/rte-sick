@@ -1,0 +1,43 @@
+sentence A = One man in a big city is holding up a sign and begging for money.
+sentence B = A man in a big city is holding a sign and begging for money.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,Hominid=,?,?,SubjectiveWeakPositiveAttribute+,City=,Entity+,Process+,Increasing+,?,Character+,?,Requesting+,?,Currency=,?
+CONCEPTS B: ?,Hominid=,?,?,SubjectiveWeakPositiveAttribute+,City=,Entity+,PhysicalAttribute+,?,Character+,?,Requesting+,?,Currency=,?
+
+CONLL A:
+
+1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	02472293-n|Hominid=
+3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+5	big	big	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+6	city	city	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	08524735-n|City=
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+8	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01217043-v|Process+
+9	up	up	ADP	IN	fPOS=ADP++RP	8	compound:prt	_	00097011-r|Increasing+
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	sign	sign	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	06811625-n|Character+
+12	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
+13	begging	beg	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	8	conj	_	00759269-v|Requesting+
+14	for	for	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+15	money	money	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	13384557-n|Currency=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	02472293-n|Hominid=
+3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+5	big	big	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+6	city	city	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	08524735-n|City=
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+8	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02701210-v|PhysicalAttribute+
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	sign	sign	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	06811625-n|Character+
+11	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
+12	begging	beg	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	8	conj	_	00759269-v|Requesting+
+13	for	for	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+14	money	money	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	13384557-n|Currency=
+15	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?

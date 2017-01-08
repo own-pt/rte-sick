@@ -1,0 +1,43 @@
+sentence A = A young woman with Indian clothing and henna on her hand is going through paperwork.
+sentence B = A girl with Indian clothing and henna on her hand is going through paperwork.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,HumanYouth=,Woman=,?,LandArea@,Clothing=,?,Substance+,?,?,Hand+,Entity+,WhenFn=,?,IntentionalProcess+,?
+CONCEPTS B: ?,Human+,?,LandArea@,Clothing=,?,Substance+,?,?,Hand+,Entity+,WhenFn=,?,IntentionalProcess+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01646941-a|HumanYouth=
+3	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nsubj	_	10787470-n|Woman=
+4	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+5	Indian	indian	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	02928347-a|LandArea@
+6	clothing	clothing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	03051540-n|Clothing=
+7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+8	henna	henna	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	conj	_	14988741-n|Substance+
+9	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	11	nmod:poss	_	?|?
+11	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	05564590-n|Hand+
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	02604760-v|Entity+
+13	going	go	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02618149-v|WhenFn=
+14	through	through	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+15	paperwork	paperwork	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	00582071-n|IntentionalProcess+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	13	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	10129825-n|Human+
+3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	Indian	indian	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	02928347-a|LandArea@
+5	clothing	clothing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	03051540-n|Clothing=
+6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+7	henna	henna	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	14988741-n|Substance+
+8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	10	nmod:poss	_	?|?
+10	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	05564590-n|Hand+
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	02604760-v|Entity+
+12	going	go	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02618149-v|WhenFn=
+13	through	through	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+14	paperwork	paperwork	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	00582071-n|IntentionalProcess+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?

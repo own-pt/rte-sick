@@ -1,0 +1,39 @@
+sentence A = A dog with a golden coat is swimming through the water.
+sentence B = A dog is swimming in a lake and the sun is shining on him.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Canine+,?,?,SubjectiveWeakPositiveAttribute+,Coat=,Entity+,Swimming+,?,?,Water=,?
+CONCEPTS B: ?,Canine+,Entity+,Swimming+,?,?,Lake=,?,?,Sol=,Entity+,RadiatingLight+,?,?,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	02084071-n|Canine+
+3	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+5	golden	golden	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00670938-a|SubjectiveWeakPositiveAttribute+
+6	coat	coat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	03057021-n|Coat=
+7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	cop	_	02604760-v|Entity+
+8	swimming	swim	NOUN	NN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01960911-v|Swimming+
+9	through	through	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	14845743-n|Water=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02084071-n|Canine+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	swimming	swim	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01960911-v|Swimming+
+5	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	lake	lake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09328904-n|Lake=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	sun	sun	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	09450163-n|Sol=
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	02604760-v|Entity+
+12	shining	shine	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	02763740-v|RadiatingLight+
+13	on	on	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+14	him	him	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	12	nmod	_	?|?
+15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

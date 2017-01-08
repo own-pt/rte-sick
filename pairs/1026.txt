@@ -1,0 +1,48 @@
+sentence A = An old woman is wearing a shirt with a rose pattern upon it and is clumsily carrying two newspapers.
+sentence B = A woman is wearing sunglasses of large size and is holding newspapers in both hands.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,SubjectiveAssessmentAttribute+,Woman=,Entity+,Putting+,?,Shirt=,?,?,MotionUpward=,ShapeAttribute+,?,?,?,Entity+,SubjectiveAssessmentAttribute+,Transportation+,?,Newspaper=,?
+CONCEPTS B: ?,Woman=,Entity+,RecreationOrExercise+,Device+,?,SubjectiveWeakPositiveAttribute+,Attribute+,?,Entity+,Obligation+,Newspaper=,?,?,Hand+,?
+
+CONLL A:
+
+1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	old	old	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01638438-a|SubjectiveAssessmentAttribute+
+3	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10787470-n|Woman=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00052374-v|Putting+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	04197391-n|Shirt=
+8	with	with	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+10	rose	rise	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	01968569-v|MotionUpward=
+11	pattern	pattern	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	05930736-n|ShapeAttribute+
+12	upon	upon	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	11	nmod	_	?|?
+14	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	17	aux	_	02604760-v|Entity+
+16	clumsily	clumsily	ADV	RB	fPOS=ADV++RB	17	advmod	_	00190359-r|SubjectiveAssessmentAttribute+
+17	carrying	carry	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	01449974-v|Transportation+
+18	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	19	nummod	_	?|?
+19	newspapers	newspaper	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	17	dobj	_	06267145-n|Newspaper=
+20	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	02604760-v|Entity+
+4	wearing	wear	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	00075021-v|RecreationOrExercise+
+5	sunglasses	sunglass	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	04355933-n|Device+
+6	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+8	size	size	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	05098942-n|Attribute+
+9	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	11	aux	_	02604760-v|Entity+
+11	holding	hold	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	5	conj	_	02203362-v|Obligation+
+12	newspapers	newspaper	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	dobj	_	06267145-n|Newspaper=
+13	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	both	both	DET	DT	fPOS=DET++DT	15	det	_	?|?
+15	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	nmod	_	05564590-n|Hand+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

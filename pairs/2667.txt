@@ -1,0 +1,29 @@
+sentence A = Several ferrets are climbing into the cage.
+sentence B = Several ferrets are climbing out of the cage.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: ?,Carnivore+,Entity+,Increasing+,?,?,TrapOrCage+,?
+CONCEPTS B: ?,Carnivore+,Entity+,Increasing+,Giving+,?,?,TrapOrCage+,?
+
+CONLL A:
+
+1	Several	several	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	?|?
+2	ferrets	ferret	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02443484-n|Carnivore+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00433232-v|Increasing+
+5	into	into	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	cage	cage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02936714-n|TrapOrCage+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	Several	several	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	?|?
+2	ferrets	ferret	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02443484-n|Carnivore+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00433232-v|Increasing+
+5	out	out	ADP	IN	fPOS=ADP++IN	8	case	_	00233413-r|Giving+
+6	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	cage	cage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02936714-n|TrapOrCage+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

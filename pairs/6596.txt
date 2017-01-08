@@ -1,0 +1,37 @@
+sentence A = A small bee is landing on a bunch of yellow flowers.
+sentence B = There is no small bee landing on a bunch of yellow flowers.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Bee=,Entity+,Arriving+,?,?,Collection+,?,SubjectiveAssessmentAttribute+,Flower+,?
+CONCEPTS B: ?,Entity+,?,SubjectiveStrongNegativeAttribute+,Bee=,Arriving+,?,?,Collection+,?,SubjectiveAssessmentAttribute+,Flower+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	bee	bee	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02206856-n|Bee=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	landing	landing	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00052334-n|Arriving+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	bunch	bunch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	07959943-n|Collection+
+9	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+11	flowers	flower	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	11669335-n|Flower+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	?|?
+4	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+5	bee	bee	NOUN	NN	Tense=Past|VerbForm=Part|fPOS=AUX++VBN	2	nsubj	_	02206856-n|Bee=
+6	landing	landing	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	acl	_	00052334-n|Arriving+
+7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	bunch	bunch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	07959943-n|Collection+
+10	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+12	flowers	flower	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	nmod	_	11669335-n|Flower+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?

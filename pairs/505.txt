@@ -1,0 +1,45 @@
+sentence A = A man wearing a dyed black shirt is sitting at the table and laughing.
+sentence B = A black shirt is being worn by a man who is sitting at the table and laughing.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,Man=,Putting+,?,Coloring+,Black=,Shirt=,PhysicalAttribute+,SittingDown+,?,?,ContentBearingObject+,?,Laughing=,?
+CONCEPTS B: ?,Black=,Shirt=,PhysicalAttribute+,PhysicalAttribute+,Putting+,?,?,Man=,?,PhysicalAttribute+,SittingDown+,?,?,ContentBearingObject+,?,Laughing=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10287213-n|Man=
+3	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	2	acl	_	00052374-v|Putting+
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+5	dyed	dye	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	7	amod	_	00283090-v|Coloring+
+6	black	black	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	amod	_	00392812-a|Black=
+7	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	04197391-n|Shirt=
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02655135-v|PhysicalAttribute+
+9	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+10	at	at	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	table	table	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	nmod	_	08266235-n|ContentBearingObject+
+13	and	and	CONJ	CC	fPOS=CONJ++CC	12	cc	_	?|?
+14	laughing	laugh	VERB	VBG	Number=Sing|fPOS=NOUN++NN	12	conj	_	00031820-v|Laughing=
+15	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00392812-a|Black=
+3	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubjpass	_	04197391-n|Shirt=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02655135-v|PhysicalAttribute+
+5	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	6	auxpass	_	02655135-v|PhysicalAttribute+
+6	worn	wear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	00052374-v|Putting+
+7	by	by	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	10287213-n|Man=
+10	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	12	nsubj	_	?|?
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	02655135-v|PhysicalAttribute+
+12	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	9	acl:relcl	_	01543123-v|SittingDown+
+13	at	at	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	table	table	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	12	nmod	_	08266235-n|ContentBearingObject+
+16	and	and	CONJ	CC	fPOS=CONJ++CC	15	cc	_	?|?
+17	laughing	laugh	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	conj	_	00031820-v|Laughing=
+18	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

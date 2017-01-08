@@ -1,0 +1,35 @@
+sentence A = A woman is playing with a brown dog in a garden.
+sentence B = A woman is petting a dog near a stone path.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Woman=,Entity+,DramaticActing+,?,?,Human+,Canine+,?,?,CultivatedLandArea+,?
+CONCEPTS B: ?,Woman=,Entity+,Touching+,?,Canine+,?,?,Rock=,Transitway+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	amod	_	00245112-a|Human+
+8	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02084071-n|Canine+
+9	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	garden	garden	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03417345-n|CultivatedLandArea+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	petting	pet	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01425892-v|Touching+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02084071-n|Canine+
+7	near	near	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+9	stone	stone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	09416076-n|Rock=
+10	path	path	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	08616311-n|Transitway+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

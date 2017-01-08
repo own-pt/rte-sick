@@ -1,0 +1,32 @@
+sentence A = A man on a motorcycle is riding on one wheel.
+sentence B = A person is performing acrobatics on a motorcycle.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Hominid=,?,?,PassengerVehicle+,Entity+,Transportation+,?,?,VehicleWheel=,?
+CONCEPTS B: ?,Human=,Entity+,IntentionalProcess+,Sport+,?,?,PassengerVehicle+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	02472293-n|Hominid=
+3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	03790512-n|PassengerVehicle+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02102398-v|Transportation+
+8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	one	1	NUM	CD	NumType=Card|fPOS=NUM++CD	10	nummod	_	?|?
+10	wheel	wheel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	04574999-n|VehicleWheel=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	performing	perform	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01712704-v|IntentionalProcess+
+5	acrobatics	acrobatics	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	00434075-n|Sport+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03790512-n|PassengerVehicle+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

@@ -1,0 +1,31 @@
+sentence A = Two men are fighting in a cattle pen.
+sentence B = Two men are fighting in a pen for cattle.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,Hominid=,Entity+,ViolentContest+,?,?,Cow=,StationaryArtifact+,?
+CONCEPTS B: ?,Hominid=,Entity+,ViolentContest+,?,?,StationaryArtifact+,?,Cow=,?
+
+CONLL A:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02472293-n|Hominid=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	fighting	fight	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01090335-v|ViolentContest+
+5	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	cattle	cattle	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	8	compound	_	02402425-n|Cow=
+8	pen	pen	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03907227-n|StationaryArtifact+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02472293-n|Hominid=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	fighting	fight	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01090335-v|ViolentContest+
+5	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	pen	pen	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03907227-n|StationaryArtifact+
+8	for	for	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+9	cattle	cattle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02402425-n|Cow=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

@@ -1,0 +1,31 @@
+sentence A = A man is typing on a machine used for stenography.
+sentence B = The man needs a stenograph to operate.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Hominid=,Entity+,Writing+,?,?,Automobile=,IntentionalProcess+,?,Procedure+,?
+CONCEPTS B: ?,Hominid=,Attribute+,?,Device+,?,Guiding+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	typing	type	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01004692-v|Writing+
+5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	machine	machine	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02958343-n|Automobile=
+8	used	use	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	7	acl	_	01158872-v|IntentionalProcess+
+9	for	for	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+10	stenography	stenography	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	06350127-n|Procedure+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	02472293-n|Hominid=
+3	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02627934-v|Attribute+
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	stenograph	stenograph	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	04314632-n|Device+
+6	to	to	PART	TO	fPOS=PART++TO	7	mark	_	?|?
+7	operate	operate	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	5	acl	_	01224744-v|Guiding+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?

@@ -1,0 +1,30 @@
+sentence A = Three people are driving four wheel ATVs in a field.
+sentence B = There are no people driving ATVs.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: ?,GroupOfPeople=,Entity+,Transportation+,?,VehicleWheel=,?,?,?,FieldOfStudy=,?
+CONCEPTS B: ?,Entity+,?,GroupOfPeople=,Transportation+,?,?
+
+CONLL A:
+
+1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	07942152-n|GroupOfPeople=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	driving	drive	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01930874-v|Transportation+
+5	four	4	ADP	RP	fPOS=ADV++RB	7	compound	_	?|?
+6	wheel	wheel	ADV	WRB	VerbForm=Inf|fPOS=VERB++VB	7	compound	_	04574999-n|VehicleWheel=
+7	ATVs	atvs	PROPN	NNP	Number=Sing|fPOS=PROPN++NNP	4	dobj	_	?|?
+8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05996646-n|FieldOfStudy=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
+4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nsubj	_	07942152-n|GroupOfPeople=
+5	driving	drive	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	01930874-v|Transportation+
+6	ATVs	atvs	NOUN	NN	Number=Sing|fPOS=PROPN++NNP	5	dobj	_	?|?
+7	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?

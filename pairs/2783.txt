@@ -1,0 +1,27 @@
+sentence A = The woman is not walking the dog.
+sentence B = The woman is walking the dog.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: ?,Woman=,Entity+,not=,Walking=,?,Canine+,?
+CONCEPTS B: ?,Woman=,Entity+,Walking=,?,Canine+,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	02604760-v|Entity+
+4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	00024073-r|not=
+5	walking	walk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01904930-v|Walking=
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02084071-n|Canine+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	walking	walk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01904930-v|Walking=
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02084071-n|Canine+
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

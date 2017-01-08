@@ -1,0 +1,34 @@
+sentence A = A skier dressed in black is catching a tiny bit of air.
+sentence B = A man is skiing down a snowy hill.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Human+,Dressing+,?,Black=,Entity+,Grabbing+,?,SubjectiveStrongNegativeAttribute+,EngineeringComponent+,?,AirTransportation+,?
+CONCEPTS B: ?,Hominid=,Entity+,Transportation+,earlier+,?,Covering+,Hill=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	skier	skier	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10605253-n|Human+
+3	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	2	acl	_	00046534-v|Dressing+
+4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+5	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	00392812-a|Black=
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	catching	catch	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01439190-v|Grabbing+
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+9	tiny	tiny	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	01392249-a|SubjectiveStrongNegativeAttribute+
+10	bit	bit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	02844307-n|EngineeringComponent+
+11	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+12	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	00300441-n|AirTransportation+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	skiing	ski	VERB	VBG	VerbForm=Ger|fPOS=AUX++VBG	0	ROOT	_	01938426-v|Transportation+
+5	down	down	ADP	IN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	4	compound:prt	_	00096089-r|earlier+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	snowy	snowy	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	8	compound	_	01698231-a|Covering+
+8	hill	hill	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	09303008-n|Hill=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

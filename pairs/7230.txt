@@ -1,0 +1,40 @@
+sentence A = A person with a green shirt is jumping onto the grass.
+sentence B = A young boy is jumping in the air with his knees bent and arms spread.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Human=,?,?,Green=,Shirt=,Entity+,Ambulating=,?,?,Grass=,?
+CONCEPTS B: ?,HumanYouth=,Human+,Entity+,Ambulating=,?,?,AirTransportation+,?,?,Knee+,Grass+,?,Sleeve+,Putting+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	00007846-n|Human=
+3	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+5	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00375969-a|Green=
+6	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	04197391-n|Shirt=
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+8	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+9	onto	onto	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	12102133-n|Grass=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
+3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10285313-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	00300441-n|AirTransportation+
+9	with	with	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+10	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	12	nmod:poss	_	?|?
+11	knees	knee	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	compound	_	05573602-n|Knee+
+12	bent	bent	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	12106786-n|Grass+
+13	and	and	CONJ	CC	fPOS=CONJ++CC	12	cc	_	?|?
+14	arms	arm	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	15	compound	_	04236377-n|Sleeve+
+15	spread	spread	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	conj	_	07445896-n|Putting+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

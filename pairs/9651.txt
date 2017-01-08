@@ -1,0 +1,44 @@
+sentence A = A brown and white dog is catching a dirty tennis ball in a dirt field.
+sentence B = A brown and white dog is biting a dirty tennis ball in a dirt field.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Human+,?,White=,Canine+,Entity+,Grabbing+,?,Dirty=,Tennis=,Ball=,?,?,SubjectiveAssessmentAttribute+,FieldOfStudy=,?
+CONCEPTS B: ?,Human+,?,White=,Canine+,Entity+,SubjectiveStrongNegativeAttribute+,?,Dirty=,Tennis=,Ball=,?,?,SubjectiveAssessmentAttribute+,FieldOfStudy=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+2	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	00245112-a|Human+
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	00393105-a|White=
+5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	02084071-n|Canine+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	catching	catch	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01439190-v|Grabbing+
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+9	dirty	dirty	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	11	amod	_	00419289-a|Dirty=
+10	tennis	tennis	NOUN	NN	Number=Plur|fPOS=NOUN++NNS	11	compound	_	00482298-n|Tennis=
+11	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	02778669-n|Ball=
+12	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+14	dirt	dirt	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	compound	_	14498096-n|SubjectiveAssessmentAttribute+
+15	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	05996646-n|FieldOfStudy=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+2	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	00245112-a|Human+
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	00393105-a|White=
+5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	02084071-n|Canine+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	biting	bite	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02079313-a|SubjectiveStrongNegativeAttribute+
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+9	dirty	dirty	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	11	amod	_	00419289-a|Dirty=
+10	tennis	tennis	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	00482298-n|Tennis=
+11	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	02778669-n|Ball=
+12	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+14	dirt	dirt	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	compound	_	14498096-n|SubjectiveAssessmentAttribute+
+15	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	05996646-n|FieldOfStudy=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

@@ -1,0 +1,41 @@
+sentence A = The adults and children are being gathered near an outdoor seating arrangement.
+sentence B = Adults and children are standing and playing in front of steps near a desert area.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,FullyFormed+,?,HumanChild=,Entity+,Entity+,Meeting+,?,?,located+,Communication+,Designing+,?
+CONCEPTS B: FullyFormed+,?,HumanChild=,Entity+,PhysicalAttribute+,?,DramaticActing+,?,FrontFn=,?,RadiatingSound+,?,?,LandArea+,SubjectiveAssessmentAttribute+,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	adults	adult	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubjpass	_	09605289-n|FullyFormed+
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	conj	_	09917593-n|HumanChild=
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	02604760-v|Entity+
+6	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	7	auxpass	_	02604760-v|Entity+
+7	gathered	gather	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	02428924-v|Meeting+
+8	near	near	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+9	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+10	outdoor	outdoor	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	12	amod	_	01692222-a|located+
+11	seating	seat	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	12	compound	_	01543998-v|Communication+
+12	arrangement	arrangement	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	05075602-n|Designing+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+CONLL B:
+
+1	Adults	adult	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	09605289-n|FullyFormed+
+2	and	and	CONJ	CC	fPOS=CONJ++CC	1	cc	_	?|?
+3	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	1	conj	_	09917593-n|HumanChild=
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	02604760-v|Entity+
+5	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+7	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	01719302-v|DramaticActing+
+8	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+9	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	08573472-n|FrontFn=
+10	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+11	steps	step	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	nmod	_	07383823-n|RadiatingSound+
+12	near	near	PROPN	NNP	fPOS=ADP++IN	15	case	_	?|?
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+14	desert	desert	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	compound	_	08505573-n|LandArea+
+15	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	14514039-n|SubjectiveAssessmentAttribute+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

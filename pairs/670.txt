@@ -1,0 +1,33 @@
+sentence A = One man is doing a bicycle trick in midair.
+sentence B = A cyclist is fearlessly performing a trick in the air.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Hominid=,Entity+,IntentionalProcess+,?,Bicycle=,RecreationOrExercise+,?,Region+,?
+CONCEPTS B: ?,Human+,Entity+,StateOfMind+,IntentionalProcess+,?,RecreationOrExercise+,?,?,AirTransportation+,?
+
+CONLL A:
+
+1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01712704-v|IntentionalProcess+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	bicycle	bicycle	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	amod	_	02834778-n|Bicycle=
+7	trick	trick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00427580-n|RecreationOrExercise+
+8	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+9	midair	midair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	08600147-n|Region+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	cyclist	cyclist	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	09986189-n|Human+
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	fearlessly	fearlessly	ADV	RB	fPOS=ADV++RB	5	advmod	_	00199687-r|StateOfMind+
+5	performing	perform	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01712704-v|IntentionalProcess+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	trick	trick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	00427580-n|RecreationOrExercise+
+8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	00300441-n|AirTransportation+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

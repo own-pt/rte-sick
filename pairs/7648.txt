@@ -1,0 +1,45 @@
+sentence A = A little boy is proudly wearing a green soccer strip and is running on the grass.
+sentence B = A little boy is wearing a green soccer strip and is running on the grass.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,SubjectiveAssessmentAttribute+,RecreationOrExercise+,?,Green=,Soccer=,SelfConnectedObject+,?,Entity+,Attribute+,?,?,Grass=,?
+CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,RecreationOrExercise+,?,Green=,Soccer=,SelfConnectedObject+,?,Entity+,Attribute+,?,?,Grass=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	10285313-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+5	proudly	proudly	ADV	RB	fPOS=ADV++RB	6	advmod	_	00189846-r|SubjectiveAssessmentAttribute+
+6	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00075021-v|RecreationOrExercise+
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+8	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00375969-a|Green=
+9	soccer	soccer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	00478262-n|Soccer=
+10	strip	strip	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	09449510-n|SelfConnectedObject+
+11	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	02604760-v|Entity+
+13	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	01525666-v|Attribute+
+14	on	on	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+16	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	12102133-n|Grass=
+17	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10285313-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00075021-v|RecreationOrExercise+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+7	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	00375969-a|Green=
+8	soccer	soccer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	00478262-n|Soccer=
+9	strip	strip	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	09449510-n|SelfConnectedObject+
+10	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	02604760-v|Entity+
+12	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	01525666-v|Attribute+
+13	on	on	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	12102133-n|Grass=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

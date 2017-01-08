@@ -1,0 +1,34 @@
+sentence A = The kitten is eagerly drinking some milk from the bowl.
+sentence B = One small child is greedily drinking water from the cup.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Feline+,Entity+,EmotionalState+,Drinking+,?,Milk=,?,?,Dish+,?
+CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,SubjectiveAssessmentAttribute+,Drinking=,Water=,?,?,Cup=,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	kitten	kitten	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02122948-n|Feline+
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	eagerly	eagerly	ADV	RB	fPOS=ADV++RB	5	advmod	_	00200777-r|EmotionalState+
+5	drinking	drink	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01171183-v|Drinking+
+6	some	some	DET	DT	fPOS=DET++DT	7	det	_	?|?
+7	milk	milk	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	07844042-n|Milk=
+8	from	from	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	bowl	bowl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02880940-n|Dish+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?
+2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	09917593-n|HumanChild=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+5	greedily	greedily	ADV	RB	fPOS=ADV++RB	6	advmod	_	00276391-r|SubjectiveAssessmentAttribute+
+6	drinking	drink	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01170052-v|Drinking=
+7	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	14845743-n|Water=
+8	from	from	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	cup	cup	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03147509-n|Cup=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

@@ -1,0 +1,41 @@
+sentence A = Two old ladies are wearing worn dresses at home.
+sentence B = A woman in a white dress and a woman in a blue dress are standing on a stage.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,SubjectiveAssessmentAttribute+,Human+,Entity+,CoveringFn=,CoveringFn=,Clothing+,?,Address+,?
+CONCEPTS B: ?,Woman=,?,?,White=,Dress+,?,?,Woman=,?,?,SubjectiveStrongNegativeAttribute+,Dress+,Entity+,PhysicalAttribute+,?,?,Attribute+,?
+
+CONLL A:
+
+1	Two	2	NOUN	NN	NumType=Card|fPOS=NUM++CD	3	compound	_	?|?
+2	old	old	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	01643620-a|SubjectiveAssessmentAttribute+
+3	ladies	lady	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	09989290-n|Human+
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	02604760-v|Entity+
+5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00047745-v|CoveringFn=
+6	worn	wear	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00047745-v|CoveringFn=
+7	dresses	dress	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	02728440-n|Clothing+
+8	at	at	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+9	home	home	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	08559508-n|Address+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nsubj	_	10787470-n|Woman=
+3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+5	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00393105-a|White=
+6	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	03236735-n|Dress+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	10787470-n|Woman=
+10	in	in	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+12	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
+13	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	03236735-n|Dress+
+14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	15	aux	_	02604760-v|Entity+
+15	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+16	on	on	ADP	IN	fPOS=ADP++IN	18	case	_	?|?
+17	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	18	det	_	?|?
+18	stage	stage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	13939892-n|Attribute+
+19	.	.	PUNCT	.	fPOS=PUNCT++.	15	punct	_	?|?

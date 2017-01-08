@@ -1,0 +1,27 @@
+sentence A = A dog is running downhill.
+sentence B = A dog is running up a grassy hill.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: ?,Canine+,Entity+,Attribute+,SubjectiveAssessmentAttribute+,?
+CONCEPTS B: ?,Canine+,Entity+,Attribute+,Increasing+,?,FloweringPlant+,Hill=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02084071-n|Canine+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+5	downhill	downhill	ADJ	JJ	fPOS=ADV++RB	4	xcomp	_	00322423-r|SubjectiveAssessmentAttribute+
+6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02084071-n|Canine+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+5	up	up	ADP	IN	fPOS=ADP++IN	8	case	_	00097011-r|Increasing+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	grassy	grassy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	00209620-a|FloweringPlant+
+8	hill	hill	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09303008-n|Hill=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

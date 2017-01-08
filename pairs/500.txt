@@ -1,0 +1,42 @@
+sentence A = A black person is running along a white stand and a dog barks behind him.
+sentence B = A little dog is sprinting and its owner is trying to catch it.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Black=,Human=,Entity+,Attribute+,SubjectiveAssessmentAttribute+,?,White=,SubjectiveAssessmentAttribute=,?,?,Canine+,RadiatingSound+,?,?,?
+CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Walking+,?,?,Human+,Entity+,IntentionalProcess+,?,Grabbing+,?,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00392812-a|Black=
+3	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	00007846-n|Human=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+6	along	along	ADP	IN	fPOS=ADP++IN	9	case	_	00069164-r|SubjectiveAssessmentAttribute+
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	00393105-a|White=
+9	stand	stand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	06210363-n|SubjectiveAssessmentAttribute=
+10	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+12	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	compound	_	02084071-n|Canine+
+13	barks	bark	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	conj	_	07376621-n|RadiatingSound+
+14	behind	behind	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+15	him	him	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	13	nmod	_	?|?
+16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	cop	_	02604760-v|Entity+
+5	sprinting	sprint	NOUN	NN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01928579-v|Walking+
+6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+7	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	8	nmod:poss	_	?|?
+8	owner	owner	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	10388924-n|Human+
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
+10	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	02530167-v|IntentionalProcess+
+11	to	to	PART	TO	fPOS=PART++TO	12	mark	_	?|?
+12	catch	catch	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	10	xcomp	_	01439190-v|Grabbing+
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	12	dobj	_	?|?
+14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

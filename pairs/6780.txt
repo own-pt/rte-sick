@@ -1,0 +1,39 @@
+sentence A = The dog is jumping for a Frisbee in the snow.
+sentence B = A black dog in the snow is jumping off the ground and catching a stick.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Canine+,Entity+,Ambulating=,?,?,Artifact+,?,?,Snowing=,?
+CONCEPTS B: ?,Black=,Canine+,?,?,Snowing=,Entity+,Ambulating=,?,?,LandArea=,?,Grabbing+,?,Plant+,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02084071-n|Canine+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+5	for	for	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	Frisbee	frisbee	PROPN	NNP	Number=Sing|fPOS=PROPN++NNP	4	nmod	_	03397947-n|Artifact+
+8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	15043763-n|Snowing=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00392812-a|Black=
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	02084071-n|Canine+
+4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	15043763-n|Snowing=
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+8	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+9	off	off	ADP	IN	fPOS=ADP++RP	11	case	_	00232936-r|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	ground	ground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	09334396-n|LandArea=
+12	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
+13	catching	catch	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	8	conj	_	01439190-v|Grabbing+
+14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	stick	stick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	dobj	_	04317420-n|Plant+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?

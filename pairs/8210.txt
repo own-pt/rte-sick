@@ -1,0 +1,32 @@
+sentence A = A girl has black and orange patches on the cheeks.
+sentence B = A girl has colored patches on the cheeks.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Human+,Damaging+,Black=,?,OrangeColor+,TimeDuration+,?,?,TraitAttribute+,?
+CONCEPTS B: ?,Human+,Damaging+,SurfaceChange+,TimeDuration+,?,?,TraitAttribute+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	10129825-n|Human+
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	00065639-v|Damaging+
+4	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00392812-a|Black=
+5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+6	orange	orange	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	conj	_	04965179-n|OrangeColor+
+7	patches	patch	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	dobj	_	15246353-n|TimeDuration+
+8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	cheeks	cheek	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	04838210-n|TraitAttribute+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10129825-n|Human+
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	00065639-v|Damaging+
+4	colored	color	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	0	ROOT	_	00283911-v|SurfaceChange+
+5	patches	patch	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	15246353-n|TimeDuration+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	cheeks	cheek	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	04838210-n|TraitAttribute+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

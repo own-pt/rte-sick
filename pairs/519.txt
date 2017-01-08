@@ -1,0 +1,47 @@
+sentence A = The woman wearing silver pants, pink bellbottoms and a pink scarf isn't riding a bike.
+sentence B = The woman wearing silver pants, pink bellbottoms and a pink scarf is riding a bike.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: ?,Woman=,Dressing+,Silver=,Trousers+,?,Pink+,?,?,?,Pink+,Clothing+,Entity+,not=,Transportation+,?,Bicycle=,?
+CONCEPTS B: ?,Woman=,Dressing+,Silver=,Trousers+,?,Pink+,?,?,?,Pink+,Clothing+,Entity+,Transportation+,?,Bicycle=,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nsubj	_	10787470-n|Woman=
+3	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	2	acl	_	00050652-v|Dressing+
+4	silver	silver	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	5	compound	_	14654954-n|Silver=
+5	pants	pant	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	dobj	_	04489008-n|Trousers+
+6	,	,	PUNCT	,	fPOS=PUNCT++,	5	punct	_	?|?
+7	pink	pink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	00379595-a|Pink+
+8	bellbottoms	bellbottoms	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	conj	_	?|?
+9	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+11	pink	pink	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	12	compound	_	00379595-a|Pink+
+12	scarf	scarf	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	04143897-n|Clothing+
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	15	aux	_	02604760-v|Entity+
+14	not	not	PART	RB	fPOS=PART++RB	15	neg	_	00024073-r|not=
+15	riding	ride	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02102398-v|Transportation+
+16	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	?|?
+17	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	dobj	_	02834778-n|Bicycle=
+18	.	.	PUNCT	.	fPOS=PUNCT++.	15	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nsubj	_	10787470-n|Woman=
+3	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	2	acl	_	00050652-v|Dressing+
+4	silver	silver	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	5	compound	_	14654954-n|Silver=
+5	pants	pant	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	dobj	_	04489008-n|Trousers+
+6	,	,	PUNCT	,	fPOS=PUNCT++,	5	punct	_	?|?
+7	pink	pink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	00379595-a|Pink+
+8	bellbottoms	bellbottoms	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	conj	_	?|?
+9	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+11	pink	pink	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	12	compound	_	00379595-a|Pink+
+12	scarf	scarf	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	04143897-n|Clothing+
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	14	aux	_	02604760-v|Entity+
+14	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02102398-v|Transportation+
+15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+16	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	02834778-n|Bicycle=
+17	.	.	PUNCT	.	fPOS=PUNCT++.	14	punct	_	?|?

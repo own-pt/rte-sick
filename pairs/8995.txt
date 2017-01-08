@@ -1,0 +1,41 @@
+sentence A = A wet kid is wearing sand and is walking on a little hat.
+sentence B = A little kid is wearing a hat and is walking in the wet sand.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Wetting=,HumanChild=,Entity+,CoveringFn=,Sand=,?,Entity+,Walking=,?,?,SubjectiveStrongNegativeAttribute+,Hat+,?
+CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,CoveringFn=,?,Hat+,?,Entity+,Walking=,?,?,Wetting=,Sand=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	wet	wet	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00214951-v|Wetting=
+3	kid	kid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	09917593-n|HumanChild=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00047745-v|CoveringFn=
+6	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	15019030-n|Sand=
+7	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+9	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	01904930-v|Walking=
+10	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+12	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+13	hat	hat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	03497657-n|Hat+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	kid	kid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	09917593-n|HumanChild=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00047745-v|CoveringFn=
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	hat	hat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03497657-n|Hat+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
+10	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	01904930-v|Walking=
+11	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+13	wet	wet	NOUN	NN	Degree=Sup|fPOS=ADJ++JJS	14	amod	_	00214951-v|Wetting=
+14	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	15019030-n|Sand=
+15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

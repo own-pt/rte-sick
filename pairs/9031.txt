@@ -1,0 +1,32 @@
+sentence A = Two dogs are playing on a rocky beach.
+sentence B = Two dogs are playing on a beach made of rocks.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,Canine+,Entity+,DramaticActing+,?,?,TextureAttribute+,ShoreArea=,?
+CONCEPTS B: ?,Canine+,Entity+,DramaticActing+,?,?,ShoreArea=,Process+,?,Rock=,?
+
+CONLL A:
+
+1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?
+2	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02084071-n|Canine+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	rocky	rocky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	02243567-a|TextureAttribute+
+8	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09217230-n|ShoreArea=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?
+2	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02084071-n|Canine+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	09217230-n|ShoreArea=
+8	made	make	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	01617192-v|Process+
+9	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+10	rocks	rock	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	09416076-n|Rock=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

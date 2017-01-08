@@ -1,0 +1,34 @@
+sentence A = A dog, which is white, is standing on fallen leaves.
+sentence B = A white dog is standing on fallen leaves.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,Canine+,?,?,Entity+,White=,?,Entity+,PhysicalAttribute+,?,Getting+,Leaf=,?
+CONCEPTS B: ?,White=,Canine+,Entity+,PhysicalAttribute+,?,Getting+,Leaf=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	02084071-n|Canine+
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
+4	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	6	nsubj	_	?|?
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
+6	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	00393105-a|White=
+7	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	?|?
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+9	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+10	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	fallen	fall	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	02229828-v|Getting+
+12	leaves	leaf	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	nmod	_	13152742-n|Leaf=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00393105-a|White=
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	fallen	fall	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	02229828-v|Getting+
+8	leaves	leaf	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	13152742-n|Leaf=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

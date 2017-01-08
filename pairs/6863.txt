@@ -1,0 +1,36 @@
+sentence A = A brown dog is running through the grass which is tall and green.
+sentence B = A brown dog is running through tall green grass.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,Human+,Canine+,Entity+,Attribute+,?,?,Grass=,?,Entity+,SubjectiveWeakNegativeAttribute+,?,Green=,?
+CONCEPTS B: ?,Human+,Canine+,Entity+,Attribute+,?,SubjectiveWeakNegativeAttribute+,Green=,Grass=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00245112-a|Human+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+6	through	through	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	12102133-n|Grass=
+9	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	11	nsubj	_	?|?
+10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	11	cop	_	02604760-v|Entity+
+11	tall	tall	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	acl:relcl	_	02385102-a|SubjectiveWeakNegativeAttribute+
+12	and	and	CONJ	CC	fPOS=CONJ++CC	11	cc	_	?|?
+13	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	conj	_	00375969-a|Green=
+14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00245112-a|Human+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+6	through	through	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+7	tall	tall	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	compound	_	02385102-a|SubjectiveWeakNegativeAttribute+
+8	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	00375969-a|Green=
+9	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	12102133-n|Grass=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

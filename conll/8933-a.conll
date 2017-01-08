@@ -1,0 +1,19 @@
+# sent_id = 8933a
+# text = Two males are standing on a cliff edge and one is jumping into the water.
+1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?
+2	males	male	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	09624168-n|Human+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+5	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	cliff	cliff	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	09246464-n|Cliff=
+8	edge	edge	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03264136-n|Object+
+9	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+10	one	one	NUM	CD	NumType=Card|fPOS=NUM++CD	12	nsubj	_	?|?
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	02604760-v|Entity+
+12	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01963942-v|Ambulating=
+13	into	into	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	14845743-n|Water=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+

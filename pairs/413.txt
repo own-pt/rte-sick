@@ -1,0 +1,41 @@
+sentence A = Two men are taking a break from a trip on a snowy road.
+sentence B = Two men are breaking into a car during a trip on a snowy road.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Hominid=,Entity+,PhysicalAttribute+,?,TimeInterval+,?,?,Motion+,?,?,Covering+,Roadway+,?
+CONCEPTS B: ?,Hominid=,Entity+,EndFn+,?,?,Automobile=,?,?,Motion+,?,?,Covering+,Roadway+,?
+
+CONLL A:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02472293-n|Hominid=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02267989-v|PhysicalAttribute+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	break	break	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	15271008-n|TimeInterval+
+7	from	from	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	trip	trip	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	07317519-n|Motion+
+10	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+12	snowy	snowy	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	01698231-a|Covering+
+13	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04096066-n|Roadway+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02472293-n|Hominid=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	breaking	break	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02681524-v|EndFn+
+5	into	into	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02958343-n|Automobile=
+8	during	during	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	trip	trip	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	07317519-n|Motion+
+11	on	on	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+13	snowy	snowy	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	01698231-a|Covering+
+14	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	04096066-n|Roadway+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

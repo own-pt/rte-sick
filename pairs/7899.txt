@@ -1,0 +1,50 @@
+sentence A = A white rally car is throwing mud into the air and is approaching a bend in the track.
+sentence B = A black rally car is throwing mud into the air and is approaching a bend in the track.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,White=,PsychologicalProcess+,Automobile=,Entity+,Impelling+,Soil=,?,?,AirTransportation+,?,Entity+,Arriving=,?,Transitway+,?,?,RailroadTrack+,?
+CONCEPTS B: ?,Black=,PsychologicalProcess+,Automobile=,Entity+,Impelling+,Soil=,?,?,AirTransportation+,?,Entity+,Arriving=,?,Transitway+,?,?,RailroadTrack+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?
+2	white	white	ADV	RB	Number=Sing|fPOS=NOUN++NN	3	amod	_	00393105-a|White=
+3	rally	rally	ADV	RB	fPOS=ADV++RB	4	amod	_	00045646-n|PsychologicalProcess+
+4	car	car	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	02958343-n|Automobile=
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	aux	_	02604760-v|Entity+
+6	throwing	throw	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01508368-v|Impelling+
+7	mud	mud	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	14956325-n|Soil=
+8	into	into	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	00300441-n|AirTransportation+
+11	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	02604760-v|Entity+
+13	approaching	approach	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	02053941-v|Arriving=
+14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	bend	bend	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	dobj	_	02829696-n|Transitway+
+16	in	in	ADP	IN	fPOS=ADP++IN	18	case	_	?|?
+17	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	18	det	_	?|?
+18	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	04463679-n|RailroadTrack+
+19	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?
+2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00392812-a|Black=
+3	rally	rally	ADV	RB	fPOS=ADV++RB	4	compound	_	00045646-n|PsychologicalProcess+
+4	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	02958343-n|Automobile=
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	aux	_	02604760-v|Entity+
+6	throwing	throw	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01508368-v|Impelling+
+7	mud	mud	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	14956325-n|Soil=
+8	into	into	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	00300441-n|AirTransportation+
+11	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	02604760-v|Entity+
+13	approaching	approach	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	02053941-v|Arriving=
+14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	bend	bend	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	dobj	_	02829696-n|Transitway+
+16	in	in	ADP	IN	fPOS=ADP++IN	18	case	_	?|?
+17	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	18	det	_	?|?
+18	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	04463679-n|RailroadTrack+
+19	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

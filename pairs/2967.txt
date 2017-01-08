@@ -1,0 +1,31 @@
+sentence A = A large green ball is hitting a potato.
+sentence B = A large green colored ball is hitting a potato.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Green=,Ball=,Entity+,Impacting+,?,PotatoTuber=,?
+CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Green=,SurfaceChange+,Ball=,Entity+,Impacting+,?,PotatoTuber=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?
+2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+3	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	00375969-a|Green=
+4	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	02778669-n|Ball=
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	cop	_	02604760-v|Entity+
+6	hitting	hit	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	8	advmod	_	01236164-v|Impacting+
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	potato	potato	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	07710616-n|PotatoTuber=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+3	green	green	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	5	amod	_	00375969-a|Green=
+4	colored	color	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	5	compound	_	00283911-v|SurfaceChange+
+5	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	02778669-n|Ball=
+6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	aux	_	02604760-v|Entity+
+7	hitting	hit	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01236164-v|Impacting+
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	potato	potato	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	07710616-n|PotatoTuber=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

@@ -1,0 +1,11 @@
+# sent_id = 7183a
+# text = Two little boys are not wearing tuxedos.
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	compound	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	10285313-n|Human+
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	02604760-v|Entity+
+5	not	not	PART	RB	fPOS=PART++RB	6	neg	_	00024073-r|not=
+6	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	00052374-v|Putting+
+7	tuxedos	tuxedo	ADV	RB	Number=Plur|fPOS=NOUN++NNS	6	dobj	_	03201776-n|Clothing+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+

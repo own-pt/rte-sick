@@ -1,0 +1,41 @@
+sentence A = A father is pulling his daughter on a go-kart and another girl is looking away.
+sentence B = Two small children are playing with a toy car in the street.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,SocialRole+,Entity+,Transportation+,?,BiologicalAttribute+,?,?,PoweredVehicle+,?,?,BiologicalAttribute+,Entity+,SubjectiveAssessmentAttribute+,?,?
+CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,DramaticActing+,?,?,RecreationOrExerciseDevice+,Automobile=,?,?,Roadway=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	father	father	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10107303-n|SocialRole+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	pulling	pull	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02057499-v|Transportation+
+5	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	6	nmod:poss	_	?|?
+6	daughter	daughter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	09992837-n|BiologicalAttribute+
+7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	go-kart	go-kart	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03444034-n|PoweredVehicle+
+10	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+11	another	another	DET	DT	fPOS=DET++DT	12	det	_	?|?
+12	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nsubj	_	09992837-n|BiologicalAttribute+
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	14	aux	_	02604760-v|Entity+
+14	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	02133435-v|SubjectiveAssessmentAttribute+
+15	away	away	ADV	RB	fPOS=ADV++RB	14	advmod	_	00234951-r|?
+16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?
+2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	09917593-n|HumanChild=
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	02604760-v|Entity+
+5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+6	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	03964744-n|RecreationOrExerciseDevice+
+9	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02958343-n|Automobile=
+10	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04334599-n|Roadway=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

@@ -1,0 +1,40 @@
+sentence A = A man is spraying a super soaker into the mouth of a dog.
+sentence B = The man is spraying a super soaker into the mouth of the dog.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,Man=,Entity+,Spraying=,?,SubjectiveAssessmentAttribute+,Process+,?,?,Mouth+,?,?,Canine+,?
+CONCEPTS B: ?,Man=,Entity+,Spraying=,?,SubjectiveAssessmentAttribute+,Process+,?,?,Mouth+,?,?,Canine+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10287213-n|Man=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	spraying	spray	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01372682-v|Spraying=
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	super	super	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	advmod	_	00528761-a|SubjectiveAssessmentAttribute+
+7	soaker	soaker	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	11502102-n|Process+
+8	into	into	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05302499-n|Mouth+
+11	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	02084071-n|Canine+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10287213-n|Man=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	spraying	spray	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01372682-v|Spraying=
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	super	super	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	advmod	_	00528761-a|SubjectiveAssessmentAttribute+
+7	soaker	soaker	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	11502102-n|Process+
+8	into	into	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05302499-n|Mouth+
+11	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	02084071-n|Canine+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

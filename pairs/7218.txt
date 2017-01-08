@@ -1,0 +1,39 @@
+sentence A = A brown dog is running across the yard with a toy in its mouth.
+sentence B = A brown dog is dropping a colored toy from its mouth.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Human+,Canine+,Entity+,Attribute+,?,?,LandArea=,?,?,RecreationOrExerciseDevice+,?,?,Mouth+,?
+CONCEPTS B: ?,Human+,Canine+,Entity+,MotionDownward=,?,SurfaceChange+,RecreationOrExerciseDevice+,?,?,Mouth+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00245112-a|Human+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+6	across	across	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	yard	yard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	04610879-n|LandArea=
+9	with	with	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03964744-n|RecreationOrExerciseDevice+
+12	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+13	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	14	nmod:poss	_	?|?
+14	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	05302499-n|Mouth+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	00245112-a|Human+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	dropping	drop	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01977701-v|MotionDownward=
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	colored	color	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	compound	_	00283911-v|SurfaceChange+
+8	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03964744-n|RecreationOrExerciseDevice+
+9	from	from	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	11	nmod:poss	_	?|?
+11	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	05302499-n|Mouth+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

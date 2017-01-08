@@ -1,0 +1,28 @@
+sentence A = Someone is boiling okra in a pot.
+sentence B = The man is not playing the drums.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Entity+,Boiling=,FloweringPlant+,?,?,SubjectiveAssessmentAttribute+,?
+CONCEPTS B: ?,Hominid=,Entity+,not=,DramaticActing+,?,Drum=,?
+
+CONLL A:
+
+1	Someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	02604760-v|Entity+
+3	boiling	boil	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00375021-v|Boiling=
+4	okra	okra	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	12171966-n|FloweringPlant+
+5	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	pot	pot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	13774404-n|SubjectiveAssessmentAttribute+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	02604760-v|Entity+
+4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	00024073-r|not=
+5	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	drums	drum	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	03249569-n|Drum=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

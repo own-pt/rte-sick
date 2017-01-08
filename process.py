@@ -138,15 +138,27 @@ with open('SICK.txt', newline='') as csvfile:
     for row in reader:
         (pair_ID,sentence_A,sentence_B,entailment_label,relatedness_score,entailment_AB,entailment_BA,sentence_A_original,sentence_B_original,sentence_A_dataset,sentence_B_dataset,SemEval_set) = (row)
         (sentence_A, sentence_B) = (fix_sentence(sentence_A), fix_sentence(sentence_B))
+
+        (conlla,sensesa) = process(sentence_A, sumo, glos)
+        (conllb,sensesb) = process(sentence_B, sumo, glos)
+        with open("{}-a.conll".format(pair_ID), 'w') as o:
+            o.write("# sent_id = {}a\n".format(pair_ID));
+            o.write("# text = {}\n".format(sentence_A));
+            for t in conlla:
+                o.write("{}\n".format("\t".join(t)))
+
+        with open("{}-b.conll".format(pair_ID), 'w') as o:
+            o.write("# sent_id = {}b\n".format(pair_ID));
+            o.write("# text = {}\n".format(sentence_B));
+            for t in conllb:
+                o.write("{}\n".format("\t".join(t)))
+        
         with open("{}.txt".format(pair_ID), 'w') as o:
             o.write("sentence A = {}\n".format(sentence_A))
             o.write("sentence B = {}\n".format(sentence_B))
             o.write("entailm AB = {}.\n".format(entailment_AB))
             o.write("entailm BA = {}.\n".format(entailment_BA))
             o.write("\n")
-
-            (conlla,sensesa) = process(sentence_A, sumo, glos)
-            (conllb,sensesb) = process(sentence_B, sumo, glos)
 
             o.write("CONCEPTS A: {}\n".format(",".join(sensesa)))
             o.write("CONCEPTS B: {}\n".format(",".join(sensesb)))

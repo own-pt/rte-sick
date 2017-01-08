@@ -1,0 +1,32 @@
+sentence A = The man is not putting chicken into the container.
+sentence B = A man is putting some food in a box.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Hominid=,Entity+,not=,Putting=,ChickenMeat+,?,?,Container+,?
+CONCEPTS B: ?,Hominid=,Entity+,Putting=,?,SubjectiveAssessmentAttribute+,?,?,Box=,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	00024073-r|not=
+5	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01494310-v|Putting=
+6	chicken	chicken	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	07644967-n|ChickenMeat+
+7	into	into	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	container	container	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03094503-n|Container+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01494310-v|Putting=
+5	some	some	DET	DT	fPOS=DET++DT	6	det	_	?|?
+6	food	food	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	05811214-n|SubjectiveAssessmentAttribute+
+7	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	box	box	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02883344-n|Box=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

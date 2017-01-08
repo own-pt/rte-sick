@@ -1,0 +1,34 @@
+sentence A = The man is seasoning the sausages.
+sentence B = The man is not adding seasoning to the/some water in a bowl.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Hominid=,Entity+,Putting+,?,PreparedFood+,?
+CONCEPTS B: ?,Hominid=,Entity+,not=,Putting=,Putting+,?,?,?,?,Water=,?,?,Dish+,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	seasoning	season	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02191766-v|Putting+
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	sausages	sausage	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	07675627-n|PreparedFood+
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	00024073-r|not=
+5	adding	add	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00182406-v|Putting=
+6	seasoning	season	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	advcl	_	02191766-v|Putting+
+7	to	to	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+9	/	/	PUNCT	,	fPOS=PUNCT++,	11	punct	_	?|?
+10	some	some	DET	DT	fPOS=DET++DT	11	det	_	?|?
+11	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	14845743-n|Water=
+12	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+14	bowl	bowl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	02880940-n|Dish+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

@@ -1,0 +1,37 @@
+sentence A = A girl with a black bag is on a crowded train.
+sentence B = An Asian woman in a crowd is not carrying a black bag.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Human+,?,?,Black=,Container+,Entity+,?,?,SocialInteraction+,Train=,?
+CONCEPTS B: ?,AsianEthnicity=,Woman=,?,?,SubjectiveAssessmentAttribute=,Entity+,not=,Transportation+,?,Black=,Container+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	10129825-n|Human+
+3	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+5	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00392812-a|Black=
+6	bag	bag	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	02773037-n|Container+
+7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	11	cop	_	02604760-v|Entity+
+8	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+10	crowded	crowd	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	02027612-v|SocialInteraction+
+11	train	train	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	04468005-n|Train=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+CONLL B:
+
+1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	Asian	asian	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	02968525-a|AsianEthnicity=
+3	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10787470-n|Woman=
+4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	crowd	crowd	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	08182379-n|SubjectiveAssessmentAttribute=
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+8	not	not	PART	RB	fPOS=PART++RB	9	neg	_	00024073-r|not=
+9	carrying	carry	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01449974-v|Transportation+
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+11	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00392812-a|Black=
+12	bag	bag	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	02773037-n|Container+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?

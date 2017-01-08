@@ -1,0 +1,44 @@
+sentence A = A middle aged man and woman are riding bikes down a road beside the water.
+sentence B = A middle aged man and woman are riding bikes down a road near the water.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,Region+,Growth+,Man=,?,Woman=,Entity+,Transportation+,Bicycle=,?,?,Roadway+,?,?,Water=,?
+CONCEPTS B: ?,Region+,Growth+,Man=,?,Woman=,Entity+,Transportation+,Bicycle=,?,?,Roadway+,?,?,Water=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?
+2	middle	middle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	08523483-n|Region+
+3	aged	age	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	4	amod	_	00248026-v|Growth+
+4	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10287213-n|Man=
+5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+6	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	conj	_	10787470-n|Woman=
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	8	aux	_	02604760-v|Entity+
+8	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02102398-v|Transportation+
+9	bikes	bike	NOUN	NNS	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	dobj	_	02834778-n|Bicycle=
+10	down	down	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	04096066-n|Roadway+
+13	beside	beside	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	14845743-n|Water=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?
+2	middle	middle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	08523483-n|Region+
+3	aged	age	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	4	amod	_	00248026-v|Growth+
+4	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10287213-n|Man=
+5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+6	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	conj	_	10787470-n|Woman=
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	8	aux	_	02604760-v|Entity+
+8	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02102398-v|Transportation+
+9	bikes	bike	NOUN	NNS	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	dobj	_	02834778-n|Bicycle=
+10	down	down	ADP	IN	fPOS=ADP++RP	12	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	04096066-n|Roadway+
+13	near	near	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	14845743-n|Water=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?

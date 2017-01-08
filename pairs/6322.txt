@@ -1,0 +1,34 @@
+sentence A = A tan dog is running through the snow.
+sentence B = A yellow dog is stopping on white snow on a sunny day.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,ColorAttribute+,Canine+,Entity+,Attribute+,?,?,Snowing=,?
+CONCEPTS B: ?,SubjectiveAssessmentAttribute+,Canine+,Entity+,Process+,?,White=,Snowing=,?,?,Happiness+,Day=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	tan	tan	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00384533-a|ColorAttribute+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+6	through	through	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	15043763-n|Snowing=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	stopping	stop	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02680814-v|Process+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	00393105-a|White=
+8	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	15043763-n|Snowing=
+9	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+11	sunny	sunny	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00363938-a|Happiness+
+12	day	day	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	15155220-n|Day=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

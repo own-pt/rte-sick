@@ -1,0 +1,36 @@
+sentence A = A child is smiling at the camera and swimming underwater.
+sentence B = A child is swimming on the water's surface in a pool.
+entailm AB = A_contradicts_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,HumanChild=,Entity+,Smiling=,?,?,Camera=,?,Swimming+,?,?
+CONCEPTS B: ?,HumanChild=,Entity+,Swimming+,?,?,Water=,?,Region+,?,?,StaticWaterArea+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	09917593-n|HumanChild=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	smiling	smile	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00028565-v|Smiling=
+5	at	at	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02942699-n|Camera=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	swimming	swim	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01960911-v|Swimming+
+10	underwater	underwater	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	?|?
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	09917593-n|HumanChild=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	swimming	swim	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01960911-v|Swimming+
+5	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod:poss	_	14845743-n|Water=
+8	's	's	PART	POS	fPOS=PART++POS	7	case	_	?|?
+9	surface	surface	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	08660339-n|Region+
+10	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09397607-n|StaticWaterArea+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

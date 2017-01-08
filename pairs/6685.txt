@@ -1,0 +1,35 @@
+sentence A = Three boys are jumping off a platform.
+sentence B = A boy is jumping on a platform and two other boys are sitting absentmindedly.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: ?,Human+,Entity+,Ambulating=,?,?,PerformanceStage+,?
+CONCEPTS B: ?,Human+,PhysicalAttribute+,Ambulating=,?,?,PerformanceStage+,?,?,equal+,Human+,PhysicalAttribute+,SittingDown+,StateOfMind+,?
+
+CONLL A:
+
+1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	10285313-n|Human+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+5	off	off	ADP	IN	fPOS=ADP++IN	7	case	_	00232936-r|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	platform	platform	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03961939-n|PerformanceStage+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10285313-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02655135-v|PhysicalAttribute+
+4	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	platform	platform	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03961939-n|PerformanceStage+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	11	nummod	_	?|?
+10	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	02069355-a|equal+
+11	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	nsubj	_	10285313-n|Human+
+12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	13	aux	_	02655135-v|PhysicalAttribute+
+13	sitting	sit	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	4	conj	_	01543123-v|SittingDown+
+14	absentmindedly	absentmindedly	ADV	RB	fPOS=ADV++RB	13	advmod	_	00066190-r|StateOfMind+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

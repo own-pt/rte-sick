@@ -1,0 +1,38 @@
+sentence A = A woman is carefully applying cosmetics to her eyelid.
+sentence B = A woman is using an eye pencil and is applying eye liner to her eyelid.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Woman=,Entity+,SubjectiveAssessmentAttribute+,Covering+,Mixture+,?,?,Eyelid+,?
+CONCEPTS B: ?,Woman=,Entity+,IntentionalProcess+,?,Organ+,Pencil=,?,Entity+,IntentionalProcess+,Organ+,Impelling+,?,?,Eyelid+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	10787470-n|Woman=
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	cop	_	02604760-v|Entity+
+4	carefully	carefully	ADV	RB	fPOS=ADV++RB	6	advmod	_	00153568-r|SubjectiveAssessmentAttribute+
+5	applying	apply	ADJ	JJ	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	amod	_	01363648-v|Covering+
+6	cosmetics	cosmetic	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	03113152-n|Mixture+
+7	to	to	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	9	nmod:poss	_	?|?
+9	eyelid	eyelid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	05313822-n|Eyelid+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	using	use	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01158872-v|IntentionalProcess+
+5	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	eye	eye	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	05311054-n|Organ+
+7	pencil	pencil	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03908204-n|Pencil=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	10	aux	_	02604760-v|Entity+
+10	applying	apply	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	4	conj	_	01158872-v|IntentionalProcess+
+11	eye	eye	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	05311054-n|Organ+
+12	liner	liner	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	00131608-n|Impelling+
+13	to	to	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	15	nmod:poss	_	?|?
+15	eyelid	eyelid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	05313822-n|Eyelid+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

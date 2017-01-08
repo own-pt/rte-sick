@@ -1,0 +1,33 @@
+sentence A = A man and a woman are sitting comfortably on the bench.
+sentence B = Two people are sitting comfortably on the bench.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Man=,?,?,Woman=,PhysicalAttribute+,SittingDown+,StateOfMind+,?,?,Seat+,?
+CONCEPTS B: ?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,StateOfMind+,?,?,Seat+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10287213-n|Man=
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	10787470-n|Woman=
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	02655135-v|PhysicalAttribute+
+7	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+8	comfortably	comfortably	ADV	RB	fPOS=ADV++RB	7	advmod	_	00155020-r|StateOfMind+
+9	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	bench	bench	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	02828884-n|Seat+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+CONLL B:
+
+1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	07942152-n|GroupOfPeople=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+5	comfortably	comfortably	ADV	RB	fPOS=ADV++RB	4	advmod	_	00155020-r|StateOfMind+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	bench	bench	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02828884-n|Seat+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

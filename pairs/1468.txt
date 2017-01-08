@@ -1,0 +1,41 @@
+sentence A = Three young men are furiously running, jumping and kicking near a vending machine.
+sentence B = Three young men are running, jumping and kicking near a vending machine.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,HumanYouth=,Hominid=,Entity+,EmotionalState+,Attribute+,?,Ambulating=,?,Expressing+,?,?,Selling+,Automobile=,?
+CONCEPTS B: ?,HumanYouth=,Hominid=,Entity+,Attribute+,?,Ambulating=,?,Expressing+,?,?,Selling+,Automobile=,?
+
+CONLL A:
+
+1	Three	3	DET	DT	Number=Plur|PronType=Dem|fPOS=PRON++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	fPOS=ADV++RBS	3	amod	_	01646941-a|HumanYouth=
+3	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	02472293-n|Hominid=
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	02604760-v|Entity+
+5	furiously	furiously	ADV	RB	fPOS=ADV++RB	6	advmod	_	00224280-r|EmotionalState+
+6	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+7	,	,	PUNCT	,	fPOS=PUNCT++,	6	punct	_	?|?
+8	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	advcl	_	01963942-v|Ambulating=
+9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
+10	kicking	kick	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	8	conj	_	00907147-v|Expressing+
+11	near	near	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	14	case	_	?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+13	vending	vend	VERB	VBG	Number=Sing|fPOS=NOUN++NN	14	amod	_	02302817-v|Selling+
+14	machine	machine	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	02958343-n|Automobile=
+15	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+CONLL B:
+
+1	Three	3	DET	DT	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	3	det	_	?|?
+2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01646941-a|HumanYouth=
+3	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	02472293-n|Hominid=
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	02604760-v|Entity+
+5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+6	,	,	PUNCT	,	fPOS=PUNCT++,	5	punct	_	?|?
+7	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	01963942-v|Ambulating=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+9	kicking	kick	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	00907147-v|Expressing+
+10	near	near	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	13	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+12	vending	vend	VERB	VBG	Number=Sing|fPOS=NOUN++NN	13	amod	_	02302817-v|Selling+
+13	machine	machine	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	02958343-n|Automobile=
+14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

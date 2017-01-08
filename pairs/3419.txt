@@ -1,0 +1,26 @@
+sentence A = A man is freeing a fish.
+sentence B = A woman is deboning a fish.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Hominid=,Entity+,Communication+,?,Region@,?
+CONCEPTS B: ?,Woman=,Entity+,?,?,Region@,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	freeing	free	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00902424-v|Communication+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	fish	fish	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	08688076-n|Region@
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	deboning	deboning	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	fish	fish	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	08688076-n|Region@
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

@@ -1,0 +1,31 @@
+sentence A = A woman is peeling food.
+sentence B = A man is passionately playing a guitar in front of an audience.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Woman=,Entity+,Removing+,SubjectiveAssessmentAttribute+,?
+CONCEPTS B: ?,Hominid=,Entity+,SubjectiveAssessmentAttribute+,DramaticActing+,?,Guitar=,?,FrontFn=,?,?,Perception+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	peeling	peel	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	00049900-v|Removing+
+5	food	food	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	05811214-n|SubjectiveAssessmentAttribute+
+6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	passionately	passionately	ADV	RB	fPOS=ADV++RB	5	advmod	_	00209874-r|SubjectiveAssessmentAttribute+
+5	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03467517-n|Guitar=
+8	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+9	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	08573472-n|FrontFn=
+10	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	audience	audience	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	08221897-n|Perception+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

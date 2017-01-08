@@ -1,0 +1,31 @@
+sentence A = A child is making a snow ball.
+sentence B = A kid in orange is playing outside with a snowball.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,HumanChild=,Entity+,Attribute+,?,Snowing=,Ball=,?
+CONCEPTS B: ?,HumanChild=,?,OrangeColor+,Entity+,DramaticActing+,?,?,?,Artifact+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	09917593-n|HumanChild=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	making	make	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02621395-v|Attribute+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	snow	snow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	15043763-n|Snowing=
+7	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02778669-n|Ball=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	kid	kid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	09917593-n|HumanChild=
+3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	orange	orange	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	04965179-n|OrangeColor+
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+6	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+7	outside	outside	ADP	IN	fPOS=ADP++IN	6	advmod	_	?|?
+8	with	with	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	snowball	snowball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	04251560-n|Artifact+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

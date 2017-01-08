@@ -1,0 +1,42 @@
+sentence A = An adult is in the amphitheater and is talking to a boy.
+sentence B = The man is standing outdoor and the boy is falling over the bottom of the stairs.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,FullyFormed+,Entity+,?,?,StationaryArtifact+,?,Entity+,Speaking+,?,?,Human+,?
+CONCEPTS B: ?,Man=,Entity+,PhysicalAttribute+,located+,?,?,Human+,Entity+,Decreasing+,SubjectiveAssessmentAttribute+,?,Object+,?,?,Artifact+,?
+
+CONLL A:
+
+1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	adult	adult	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	09605289-n|FullyFormed+
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
+4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	amphitheater	amphitheater	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	02704949-n|StationaryArtifact+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+9	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	00941990-v|Speaking+
+10	to	to	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	10285313-n|Human+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10287213-n|Man=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+5	outdoor	outdoor	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	4	advmod	_	01692222-a|located+
+6	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	10285313-n|Human+
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
+10	falling	fall	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	01970826-v|Decreasing+
+11	over	over	ADP	IN	fPOS=ADP++IN	13	case	_	00226550-r|SubjectiveAssessmentAttribute+
+12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	bottom	bottom	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	08511970-n|Object+
+14	of	of	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+16	stairs	stair	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	nmod	_	04314914-n|Artifact+
+17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

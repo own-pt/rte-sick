@@ -1,0 +1,42 @@
+sentence A = There is no bmx biker jumping dirt ramps in front of a body of water.
+sentence B = Some bikers are getting airborne on a track near water and a skyline.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: ?,Entity+,?,?,?,Ambulating=,Text+,StationaryArtifact+,?,FrontFn=,?,?,Animal=,?,Water=,?
+CONCEPTS B: ?,?,Entity+,Process+,AirTransportation+,?,?,StationaryArtifact+,?,Water=,?,?,Region+,?
+
+CONLL A:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	?|?
+4	bmx	bmx	NOUN	NN	fPOS=PART++TO	5	compound	_	?|?
+5	biker	biker	NOUN	NN	VerbForm=Inf|fPOS=VERB++VB	2	nsubj	_	?|?
+6	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	acl	_	01963942-v|Ambulating=
+7	dirt	dirt	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	compound	_	07223811-n|Text+
+8	ramps	ramp	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	dobj	_	04051549-n|StationaryArtifact+
+9	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+10	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	08573472-n|FrontFn=
+11	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	body	body	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	05216365-n|Animal=
+14	of	of	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+15	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	14845743-n|Water=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+CONLL B:
+
+1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?
+2	bikers	biker	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	?|?
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00120316-v|Process+
+5	airborne	airborne	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	4	xcomp	_	01522895-a|AirTransportation+
+6	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+8	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	04037625-n|StationaryArtifact+
+9	near	near	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	amod	_	?|?
+10	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	14845743-n|Water=
+11	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	skyline	skyline	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	08585657-n|Region+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

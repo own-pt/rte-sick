@@ -1,0 +1,24 @@
+sentence A = A woman is slicing potatoes.
+sentence B = A woman is slicing carrots.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Woman=,Entity+,Separating+,PotatoTuber=,?
+CONCEPTS B: ?,Woman=,Entity+,Separating+,Carrot=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10787470-n|Woman=
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	02604760-v|Entity+
+4	slicing	slice	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	01254477-v|Separating+
+5	potatoes	potato	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	07710616-n|PotatoTuber=
+6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10787470-n|Woman=
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	02604760-v|Entity+
+4	slicing	slice	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	01254477-v|Separating+
+5	carrots	carrot	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	07730207-n|Carrot=
+6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

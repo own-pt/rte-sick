@@ -1,0 +1,34 @@
+sentence A = A young man is pushing a motocross bike down a dirt hill.
+sentence B = A dog is swimming after a tennis ball.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,HumanYouth=,Hominid=,Entity+,Pushing=,?,?,Bicycle=,?,?,Text+,Hill=,?
+CONCEPTS B: ?,Canine+,Entity+,Swimming+,?,?,Tennis=,Ball=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
+3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02472293-n|Hominid=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	pushing	push	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01871979-v|Pushing=
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	motocross	motocross	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	?|?
+8	bike	bike	VERB	VB	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02834778-n|Bicycle=
+9	down	down	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+11	dirt	dirt	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	compound	_	07223811-n|Text+
+12	hill	hill	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	09303008-n|Hill=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02084071-n|Canine+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	swimming	swim	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01960911-v|Swimming+
+5	after	after	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	tennis	tennis	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	8	compound	_	00482298-n|Tennis=
+8	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02778669-n|Ball=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

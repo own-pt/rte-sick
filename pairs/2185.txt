@@ -1,0 +1,23 @@
+sentence A = People are not playing cricket.
+sentence B = People are playing cricket.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: GroupOfPeople=,Entity+,not=,DramaticActing+,Cricket=,?
+CONCEPTS B: GroupOfPeople=,Entity+,DramaticActing+,Cricket=,?
+
+CONLL A:
+
+1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	07942152-n|GroupOfPeople=
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+3	not	not	PART	RB	fPOS=PART++RB	4	neg	_	00024073-r|not=
+4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	cricket	cricket	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	dobj	_	00476389-n|Cricket=
+6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	07942152-n|GroupOfPeople=
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	3	aux	_	02604760-v|Entity+
+3	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+4	cricket	cricket	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	dobj	_	00476389-n|Cricket=
+5	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?

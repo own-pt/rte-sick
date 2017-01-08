@@ -1,0 +1,48 @@
+sentence A = A person who rides bikes, in a black and red uniform, is standing on a dirt bike.
+sentence B = A bike rider in a black and red uniform is standing on a dirt bike.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,Human=,?,Transportation+,Bicycle=,?,?,?,Black=,?,Red=,UniformClothing=,?,Entity+,PhysicalAttribute+,?,?,Text+,Bicycle=,?
+CONCEPTS B: ?,Bicycle=,Human+,?,?,Black=,?,Red=,UniformClothing=,Entity+,PhysicalAttribute+,?,?,Text+,Bicycle=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nsubj	_	00007846-n|Human=
+3	who	who	PRON	WP	PronType=Int|fPOS=PRON++WP	4	nsubj	_	?|?
+4	rides	ride	VERB	VBZ	Number=Plur|fPOS=NOUN++NNS	2	acl:relcl	_	02102398-v|Transportation+
+5	bikes	bike	NOUN	NNS	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	dobj	_	02834778-n|Bicycle=
+6	,	,	PUNCT	,	fPOS=PUNCT++,	4	punct	_	?|?
+7	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+9	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	amod	_	00392812-a|Black=
+10	and	and	CONJ	CC	fPOS=CONJ++CC	9	cc	_	?|?
+11	red	red	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	9	conj	_	00381097-a|Red=
+12	uniform	uniform	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04509592-n|UniformClothing=
+13	,	,	PUNCT	,	fPOS=PUNCT++,	15	punct	_	?|?
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	15	aux	_	02604760-v|Entity+
+15	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+16	on	on	ADP	IN	fPOS=ADP++IN	19	case	_	?|?
+17	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	19	det	_	?|?
+18	dirt	dirt	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	19	compound	_	07223811-n|Text+
+19	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	02834778-n|Bicycle=
+20	.	.	PUNCT	.	fPOS=PUNCT++.	15	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	02834778-n|Bicycle=
+3	rider	rider	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	10530150-n|Human+
+4	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+6	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	amod	_	00392812-a|Black=
+7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+8	red	red	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	6	conj	_	00381097-a|Red=
+9	uniform	uniform	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	04509592-n|UniformClothing=
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	02604760-v|Entity+
+11	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+12	on	on	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+14	dirt	dirt	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	compound	_	07223811-n|Text+
+15	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	02834778-n|Bicycle=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?

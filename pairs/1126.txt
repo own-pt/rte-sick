@@ -1,0 +1,28 @@
+sentence A = A sea turtle is hunting for fish.
+sentence B = A sea turtle is hunting for food.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Sea=,Clothing+,Entity+,Hunting+,?,Region@,?
+CONCEPTS B: ?,Sea=,Clothing+,Entity+,Hunting+,?,SubjectiveAssessmentAttribute+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	sea	sea	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	09426788-n|Sea=
+3	turtle	turtle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	04502197-n|Clothing+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	02604760-v|Entity+
+5	hunting	hunting	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	00452293-n|Hunting+
+6	for	for	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+7	fish	fish	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	08688076-n|Region@
+8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	sea	sea	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	09426788-n|Sea=
+3	turtle	turtle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	04502197-n|Clothing+
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	02604760-v|Entity+
+5	hunting	hunting	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	00452293-n|Hunting+
+6	for	for	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+7	food	food	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	05811214-n|SubjectiveAssessmentAttribute+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

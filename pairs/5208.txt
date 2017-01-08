@@ -1,0 +1,32 @@
+sentence A = A woman is putting some sticky goo in a bowl.
+sentence B = The woman is putting pasta into a dish.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Woman=,Entity+,Putting=,?,Liquid+,Substance+,?,?,Dish+,?
+CONCEPTS B: ?,Woman=,Entity+,Putting=,Pasta=,?,?,PreparedFood+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01494310-v|Putting=
+5	some	some	DET	DT	fPOS=DET++DT	7	det	_	?|?
+6	sticky	sticky	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00053691-a|Liquid+
+7	goo	goo	NOUN	NN	fPOS=ADP++IN	4	dobj	_	14956661-n|Substance+
+8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	bowl	bowl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02880940-n|Dish+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01494310-v|Putting=
+5	pasta	pasta	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07698915-n|Pasta=
+6	into	into	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	dish	dish	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	07557434-n|PreparedFood+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

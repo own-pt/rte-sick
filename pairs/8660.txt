@@ -1,0 +1,34 @@
+sentence A = A group of rollerbladers is lining up on the street.
+sentence B = A group of rollerbladers is lining up on the road.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,Group=,?,?,Entity+,Combining+,Increasing+,?,?,Roadway=,?
+CONCEPTS B: ?,Group=,?,?,Entity+,Combining+,Increasing+,?,?,Roadway+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	rollerbladers	rollerbladers	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	?|?
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+6	lining	line	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01270784-v|Combining+
+7	up	up	NOUN	NN	fPOS=ADP++RP	6	compound:prt	_	00097011-r|Increasing+
+8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	04334599-n|Roadway=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	rollerbladers	rollerbladers	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	?|?
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+6	lining	line	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01270784-v|Combining+
+7	up	up	ADP	IN	fPOS=ADP++RP	6	advmod	_	00097011-r|Increasing+
+8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	04096066-n|Roadway+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

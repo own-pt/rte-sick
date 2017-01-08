@@ -1,0 +1,34 @@
+sentence A = A boy, who is young, is playing a wind instrument.
+sentence B = A young boy is playing a wind instrument.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,Human+,?,?,Entity+,HumanYouth=,?,Entity+,DramaticActing+,?,Wind=,MusicalInstrument=,?
+CONCEPTS B: ?,HumanYouth=,Human+,Entity+,DramaticActing+,?,Wind=,MusicalInstrument=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10285313-n|Human+
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
+4	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	6	nsubj	_	?|?
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
+6	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	01646941-a|HumanYouth=
+7	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	?|?
+8	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+9	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+11	wind	wind	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	11525955-n|Wind=
+12	instrument	instrument	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	03800933-n|MusicalInstrument=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
+3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10285313-n|Human+
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	02604760-v|Entity+
+5	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	wind	wind	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	8	compound	_	11525955-n|Wind=
+8	instrument	instrument	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03800933-n|MusicalInstrument=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

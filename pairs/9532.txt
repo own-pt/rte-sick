@@ -1,0 +1,43 @@
+sentence A = Two race cars are on a road in front of a grassy parking area.
+sentence B = Two cars for racing are on a road in front of a grassy parking area.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,Racing=,Automobile=,Entity+,?,?,Roadway+,?,FrontFn=,?,?,FloweringPlant+,Region+,SubjectiveAssessmentAttribute+,?
+CONCEPTS B: ?,Automobile=,?,Motion+,Entity+,?,?,Roadway+,?,FrontFn=,?,?,FloweringPlant+,Region+,SubjectiveAssessmentAttribute+,?
+
+CONLL A:
+
+1	Two	2	NUM	CD	Degree=Pos|fPOS=ADJ++JJ	3	nummod	_	?|?
+2	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	07458453-n|Racing=
+3	cars	car	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubj	_	02958343-n|Automobile=
+4	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	7	cop	_	02604760-v|Entity+
+5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	04096066-n|Roadway+
+8	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+9	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	08573472-n|FrontFn=
+10	of	of	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+12	grassy	grassy	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	14	compound	_	00209620-a|FloweringPlant+
+13	parking	parking	VERB	VBG	Number=Sing|fPOS=NOUN++NN	14	compound	_	13778671-n|Region+
+14	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	14514039-n|SubjectiveAssessmentAttribute+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+CONLL B:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	cars	car	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nsubj	_	02958343-n|Automobile=
+3	for	for	SCONJ	IN	fPOS=SCONJ++IN	4	mark	_	?|?
+4	racing	race	VERB	VBG	Number=Sing|fPOS=NOUN++NN	2	acl	_	02058994-v|Motion+
+5	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	8	cop	_	02604760-v|Entity+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	04096066-n|Roadway+
+9	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+10	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	08573472-n|FrontFn=
+11	of	of	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+13	grassy	grassy	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	15	compound	_	00209620-a|FloweringPlant+
+14	parking	parking	VERB	VBG	Number=Sing|fPOS=NOUN++NN	15	compound	_	13778671-n|Region+
+15	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	14514039-n|SubjectiveAssessmentAttribute+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?

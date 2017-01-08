@@ -1,0 +1,37 @@
+sentence A = A white bird is landing swiftly in the water.
+sentence B = A crane, which is large and white, is flying near the water.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,White=,Bird=,Entity+,Landing+,SubjectiveAssessmentAttribute+,?,?,Water=,?
+CONCEPTS B: ?,Crane=,?,?,Entity+,SubjectiveWeakPositiveAttribute+,?,White=,?,Entity+,FlyingAircraft=,?,?,Water=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00393105-a|White=
+3	bird	bird	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	01503061-n|Bird=
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	02604760-v|Entity+
+5	landing	land	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01979901-v|Landing+
+6	swiftly	swiftly	ADV	RB	fPOS=ADV++RB	5	advmod	_	00053274-r|SubjectiveAssessmentAttribute+
+7	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	14845743-n|Water=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	crane	crane	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	03126707-n|Crane=
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
+4	which	which	PRON	WDT	PronType=Int|fPOS=PRON++WDT	6	nsubj	_	?|?
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
+6	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	01382086-a|SubjectiveWeakPositiveAttribute+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+8	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	conj	_	00393105-a|White=
+9	,	,	PUNCT	,	fPOS=PUNCT++,	11	punct	_	?|?
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	02604760-v|Entity+
+11	flying	fly	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01941093-v|FlyingAircraft=
+12	near	near	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+14	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	14845743-n|Water=
+15	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?

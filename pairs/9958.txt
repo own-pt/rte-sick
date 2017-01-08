@@ -1,0 +1,34 @@
+sentence A = The rhino is being fed on the grass.
+sentence B = The young boys are playing outdoors and the man is smiling nearby.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,HoofedMammal+,Entity+,Entity+,Feeding+,?,?,Grass=,?
+CONCEPTS B: ?,HumanYouth=,Human+,Entity+,DramaticActing+,Outdoors+,?,?,Man=,Entity+,Smiling=,Near=,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	rhino	rhino	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	02391994-n|HoofedMammal+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	02604760-v|Entity+
+5	fed	feed	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	01178565-v|Feeding+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	12102133-n|Grass=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
+3	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	10285313-n|Human+
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	5	aux	_	02604760-v|Entity+
+5	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+6	outdoors	outdoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	00110659-r|Outdoors+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	10287213-n|Man=
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	12	cop	_	02604760-v|Entity+
+11	smiling	smile	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00028565-v|Smiling=
+12	nearby	nearby	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	00071321-r|Near=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

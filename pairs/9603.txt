@@ -1,0 +1,28 @@
+sentence A = A yellow dog is running down a sandy path.
+sentence B = A golden retriever is running.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,SubjectiveAssessmentAttribute+,Canine+,Entity+,Attribute+,earlier+,?,part+,Transitway+,?
+CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Hunting+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+6	down	down	ADP	IN	fPOS=ADP++IN	9	case	_	00096089-r|earlier+
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	sandy	sandy	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	00142040-a|part+
+9	path	path	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	08616311-n|Transitway+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	golden	golden	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	00670938-a|SubjectiveWeakPositiveAttribute+
+3	retriever	retriever	NOUN	NN	fPOS=ADV++RB	5	nsubj	_	02099029-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01143838-v|Hunting+
+6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

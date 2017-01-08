@@ -1,0 +1,38 @@
+sentence A = A young lady in a bikini is standing on the beach.
+sentence B = A girl in a black hat is wearing a bikini at the beach.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,HumanYouth=,Human+,?,?,Clothing+,Entity+,PhysicalAttribute+,?,?,ShoreArea=,?
+CONCEPTS B: ?,Human+,?,?,Black=,Hat+,Entity+,CoveringFn=,?,Clothing+,?,?,ShoreArea=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01646941-a|HumanYouth=
+3	lady	lady	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	09989290-n|Human+
+4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	bikini	bikini	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	02837789-n|Clothing+
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+8	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+9	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	09217230-n|ShoreArea=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10129825-n|Human+
+3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+5	black	black	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	amod	_	00392812-a|Black=
+6	hat	hat	NOUN	NN	PronType=Rel|fPOS=PRON++WDT	2	nmod	_	03497657-n|Hat+
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+8	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00047745-v|CoveringFn=
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	bikini	bikini	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	02837789-n|Clothing+
+11	at	at	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	09217230-n|ShoreArea=
+14	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?

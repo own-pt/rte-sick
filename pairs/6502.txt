@@ -1,0 +1,33 @@
+sentence A = The man is taking a picture of himself and another guy.
+sentence B = An electronic man is held as a device.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Man=,Entity+,PhysicalAttribute+,?,Icon+,?,?,?,?,Device+,?
+CONCEPTS B: ?,ElectricDevice+,Hominid=,Entity+,PhysicalAttribute+,?,?,Device=,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10287213-n|Man=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02267989-v|PhysicalAttribute+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	picture	picture	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03931044-n|Icon+
+7	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+8	himself	himself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes|fPOS=PRON++PRP	6	nmod	_	?|?
+9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
+10	another	another	DET	DT	fPOS=DET++DT	11	det	_	?|?
+11	guy	guy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	conj	_	03471779-n|Device+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	electronic	electronic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	02718497-a|ElectricDevice+
+3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	02472293-n|Hominid=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	auxpass	_	02604760-v|Entity+
+5	held	hold	VERB	VBN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	02701210-v|PhysicalAttribute+
+6	as	as	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	device	device	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03183080-n|Device=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

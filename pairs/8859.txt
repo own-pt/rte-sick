@@ -1,0 +1,52 @@
+sentence A = A little girl in a green coat and a boy holding a red sled are walking in the snow.
+sentence B = A little girl in a green coat and a boy holding a red sled are lying in the snow.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,?,?,Green=,Coat=,?,?,Human+,Keeping+,?,Red=,LandVehicle+,Entity+,Walking=,?,?,Snowing=,?
+CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,?,?,Green=,Coat=,?,?,Human+,Process+,?,Red=,LandVehicle+,Entity+,PhysicalAttribute+,?,?,Snowing=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nsubj	_	10129825-n|Human+
+4	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00375969-a|Green=
+7	coat	coat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	03057021-n|Coat=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	conj	_	10285313-n|Human+
+11	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	10	acl	_	02681795-v|Keeping+
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+13	red	red	AUX	VBN	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=AUX++VBD	14	compound	_	00381097-a|Red=
+14	sled	sled	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	11	dobj	_	04235291-n|LandVehicle+
+15	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	16	aux	_	02604760-v|Entity+
+16	walking	walk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01904930-v|Walking=
+17	in	in	ADP	IN	fPOS=ADP++IN	19	case	_	?|?
+18	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	?|?
+19	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	15043763-n|Snowing=
+20	.	.	PUNCT	.	fPOS=PUNCT++.	16	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nsubj	_	10129825-n|Human+
+4	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00375969-a|Green=
+7	coat	coat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	03057021-n|Coat=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	conj	_	10285313-n|Human+
+11	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	10	acl	_	01217043-v|Process+
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+13	red	red	AUX	VBN	Degree=Pos|fPOS=ADJ++JJ	14	compound	_	00381097-a|Red=
+14	sled	sled	VERB	VBN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	04235291-n|LandVehicle+
+15	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	16	aux	_	02604760-v|Entity+
+16	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02690708-v|PhysicalAttribute+
+17	in	in	ADP	IN	fPOS=ADP++IN	19	case	_	?|?
+18	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	?|?
+19	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	15043763-n|Snowing=
+20	.	.	PUNCT	.	fPOS=PUNCT++.	16	punct	_	?|?

@@ -1,0 +1,35 @@
+sentence A = The man isn't cautiously feeding a mouse to the snake.
+sentence B = The man is cautiously feeding a mouse to the snake.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: ?,Hominid=,Entity+,not=,SubjectiveAssessmentAttribute+,Feeding+,?,Mouse=,?,?,Snake=,?
+CONCEPTS B: ?,Hominid=,Entity+,SubjectiveAssessmentAttribute+,Feeding+,?,Mouse=,?,?,Snake=,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02472293-n|Hominid=
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	02604760-v|Entity+
+4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	00024073-r|not=
+5	cautiously	cautiously	ADV	RB	fPOS=ADV++RB	0	ROOT	_	00292503-r|SubjectiveAssessmentAttribute+
+6	feeding	feed	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	advcl	_	01178565-v|Feeding+
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	mouse	mouse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	10335563-n|Mouse=
+9	to	to	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	snake	snake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	01726692-n|Snake=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	cautiously	cautiously	ADV	RB	fPOS=ADV++RB	5	advmod	_	00292503-r|SubjectiveAssessmentAttribute+
+5	feeding	feed	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01178565-v|Feeding+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	mouse	mouse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	10335563-n|Mouse=
+8	to	to	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	snake	snake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	01726692-n|Snake=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

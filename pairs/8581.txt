@@ -1,0 +1,38 @@
+sentence A = A tan dog which is dirty is rolling in the dirt and looking right at the camera.
+sentence B = A dog is rolling on the ground.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,ColorAttribute+,Canine+,?,Entity+,Dirty=,Entity+,Motion+,?,?,SubjectiveAssessmentAttribute+,?,FrontFn+,Hand+,?,?,Camera=,?
+CONCEPTS B: ?,Canine+,Entity+,Motion+,?,?,LandArea=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	tan	tan	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00384533-a|ColorAttribute+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	02084071-n|Canine+
+4	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	6	nsubj	_	?|?
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
+6	dirty	dirty	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	acl:relcl	_	00419289-a|Dirty=
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+8	rolling	roll	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01866192-v|Motion+
+9	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	dirt	dirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	14498096-n|SubjectiveAssessmentAttribute+
+12	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
+13	looking	look	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	8	conj	_	02693319-v|FrontFn+
+14	right	right	NOUN	NN	fPOS=ADV++RB	17	advmod	_	05565337-n|Hand+
+15	at	at	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
+16	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	17	det	_	?|?
+17	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	02942699-n|Camera=
+18	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02084071-n|Canine+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	rolling	roll	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01866192-v|Motion+
+5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	ground	ground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09334396-n|LandArea=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

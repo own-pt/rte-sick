@@ -1,0 +1,48 @@
+sentence A = A person is wearing a red jacket and holding a beer.
+sentence B = The woman is wearing a red jacket and holding a glass in front of the man in a t-shirt, which is white.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Human=,Entity+,CoveringFn=,?,Red=,Coat=,?,Process+,?,Beer=,?
+CONCEPTS B: ?,Woman=,Entity+,Putting+,?,Red=,Coat=,?,PhysicalAttribute+,?,Cup=,?,FrontFn=,?,?,Man=,?,?,Shirt+,?,?,Entity+,White=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00047745-v|CoveringFn=
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	red	red	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00381097-a|Red=
+7	jacket	jacket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03589791-n|Coat=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	02700867-v|Process+
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	beer	beer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	07886849-n|Beer=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00052374-v|Putting+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	red	red	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00381097-a|Red=
+7	jacket	jacket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03589791-n|Coat=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	02701210-v|PhysicalAttribute+
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	glass	glass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	03438257-n|Cup=
+12	in	in	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+13	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	03398467-n|FrontFn=
+14	of	of	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+16	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	10287213-n|Man=
+17	in	in	ADP	IN	fPOS=ADP++IN	19	case	_	?|?
+18	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	19	det	_	?|?
+19	t-shirt	t-shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	03595614-n|Shirt+
+20	,	,	PUNCT	,	fPOS=PUNCT++,	19	punct	_	?|?
+21	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	23	nsubj	_	?|?
+22	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	23	cop	_	02604760-v|Entity+
+23	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	19	acl:relcl	_	00393105-a|White=
+24	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

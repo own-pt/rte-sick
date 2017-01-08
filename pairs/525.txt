@@ -1,0 +1,49 @@
+sentence A = The woman wearing silver pants, pink bellbottoms and a pink scarf is riding a bike.
+sentence B = A woman who is taking off a pink boa is stopping her bicycle on a bridge built for pedestrians.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Woman=,Dressing+,Silver=,Trousers+,?,Pink+,?,?,?,Pink+,Clothing+,Entity+,Transportation+,?,Bicycle=,?
+CONCEPTS B: ?,Woman=,?,Entity+,PhysicalAttribute+,?,?,Pink+,ConstrictorSnake+,Entity+,Process+,?,Bicycle=,?,?,Bridge+,Increasing+,?,Walking+,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nsubj	_	10787470-n|Woman=
+3	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	2	acl	_	00050652-v|Dressing+
+4	silver	silver	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	5	compound	_	14654954-n|Silver=
+5	pants	pant	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	dobj	_	04489008-n|Trousers+
+6	,	,	PUNCT	,	fPOS=PUNCT++,	5	punct	_	?|?
+7	pink	pink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	00379595-a|Pink+
+8	bellbottoms	bellbottoms	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	conj	_	?|?
+9	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+11	pink	pink	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	12	compound	_	00379595-a|Pink+
+12	scarf	scarf	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	04143897-n|Clothing+
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	14	aux	_	02604760-v|Entity+
+14	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02102398-v|Transportation+
+15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+16	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	02834778-n|Bicycle=
+17	.	.	PUNCT	.	fPOS=PUNCT++.	14	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	10787470-n|Woman=
+3	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	5	nsubj	_	?|?
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	2	acl:relcl	_	02267989-v|PhysicalAttribute+
+6	off	off	ADP	RP	fPOS=ADP++RP	5	compound:prt	_	00232936-r|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	pink	pink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	00379595-a|Pink+
+9	boa	boa	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	01741943-n|ConstrictorSnake+
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	02604760-v|Entity+
+11	stopping	stop	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02680814-v|Process+
+12	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	13	nmod:poss	_	?|?
+13	bicycle	bicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	02834778-n|Bicycle=
+14	on	on	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
+15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	?|?
+16	bridge	bridge	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	17	compound	_	02898711-n|Bridge+
+17	built	build	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	00252990-v|Increasing+
+18	for	for	ADP	IN	fPOS=ADP++IN	19	case	_	?|?
+19	pedestrians	pedestrian	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	17	nmod	_	10412055-n|Walking+
+20	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?

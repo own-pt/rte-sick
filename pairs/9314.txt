@@ -1,0 +1,31 @@
+sentence A = A snowboarder is grinding down a long concrete rail.
+sentence B = A person is doing acrobatics on a snowboard.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,SportsPosition@,Entity+,Impacting+,earlier+,?,SubjectiveAssessmentAttribute+,Physical+,RailroadTrack+,?
+CONCEPTS B: ?,Human=,Entity+,IntentionalProcess+,Sport+,?,?,BoardOrBlock+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	snowboarder	snowboarder	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10617665-n|SportsPosition@
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	grinding	grind	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00331082-v|Impacting+
+5	down	down	ADP	IN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	9	case	_	00095320-r|earlier+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+7	long	long	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	01433493-a|SubjectiveAssessmentAttribute+
+8	concrete	concrete	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	compound	_	00013160-a|Physical+
+9	rail	rail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04463679-n|RailroadTrack+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01712704-v|IntentionalProcess+
+5	acrobatics	acrobatics	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	00434075-n|Sport+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	snowboard	snowboard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	04251791-n|BoardOrBlock+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

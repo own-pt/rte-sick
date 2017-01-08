@@ -1,0 +1,34 @@
+sentence A = A toddler is playing with a plastic scooter toy.
+sentence B = A woman in blue has a yellow ball in the mitt.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,NonFullyFormed+,Entity+,DramaticActing+,?,?,SubjectiveAssessmentAttribute+,LandVehicle+,RecreationOrExerciseDevice+,?
+CONCEPTS B: ?,Woman=,?,SubjectiveStrongNegativeAttribute+,Damaging+,?,SubjectiveAssessmentAttribute+,Ball=,?,?,Hand+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	toddler	toddler	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10714465-n|NonFullyFormed+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+7	plastic	plastic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	02364954-a|SubjectiveAssessmentAttribute+
+8	scooter	scooter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	03791053-n|LandVehicle+
+9	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03964744-n|RecreationOrExerciseDevice+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10787470-n|Woman=
+3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	blue	blue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	00425002-a|SubjectiveStrongNegativeAttribute+
+5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	00065639-v|Damaging+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+8	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02778669-n|Ball=
+9	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	mitt	mitt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	05564590-n|Hand+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

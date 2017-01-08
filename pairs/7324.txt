@@ -1,0 +1,38 @@
+sentence A = Three men are staring at the big green hills in the distance.
+sentence B = Some men are staring at the big green hills in the distance.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Hominid=,Entity+,Looking=,?,?,SubjectiveWeakPositiveAttribute+,Green=,Hill=,?,?,LengthMeasure+,?
+CONCEPTS B: ?,Hominid=,Entity+,Looking=,?,?,SubjectiveWeakPositiveAttribute+,Green=,Hill=,?,?,LengthMeasure+,?
+
+CONLL A:
+
+1	Three	3	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02472293-n|Hominid=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	staring	stare	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02132745-v|Looking=
+5	at	at	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+7	big	big	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+8	green	green	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	00375969-a|Green=
+9	hills	hill	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	09303008-n|Hill=
+10	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	distance	distance	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	05084201-n|LengthMeasure+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02472293-n|Hominid=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	staring	stare	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02132745-v|Looking=
+5	at	at	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+7	big	big	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+8	green	green	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	00375969-a|Green=
+9	hills	hill	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	09303008-n|Hill=
+10	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	distance	distance	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	05084201-n|LengthMeasure+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

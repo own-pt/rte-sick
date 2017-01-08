@@ -1,0 +1,34 @@
+sentence A = There is no man holding a sign and seeking money.
+sentence B = A man is holding a sign and is seeking money.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: ?,Entity+,?,Hominid=,PhysicalAttribute+,?,Character+,?,IntentionalProcess+,Currency=,?
+CONCEPTS B: ?,Hominid=,Entity+,PhysicalAttribute+,?,Character+,?,Entity+,IntentionalProcess+,Currency=,?
+
+CONLL A:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
+4	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	02472293-n|Hominid=
+5	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	02701210-v|PhysicalAttribute+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+7	sign	sign	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	06811625-n|Character+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
+9	seeking	seek	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	conj	_	02530167-v|IntentionalProcess+
+10	money	money	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	13384557-n|Currency=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02701210-v|PhysicalAttribute+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	sign	sign	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	06811625-n|Character+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+9	seeking	seek	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	02530167-v|IntentionalProcess+
+10	money	money	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	13384557-n|Currency=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

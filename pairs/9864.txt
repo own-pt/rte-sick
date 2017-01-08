@@ -1,0 +1,48 @@
+sentence A = A large dog and a small dog are standing next to the kitchen counter and are investigating.
+sentence B = A smiling boy in winter clothes is waving his mittened hands outside a building in the snow.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Canine+,?,?,SubjectiveStrongNegativeAttribute+,Canine+,Entity+,PhysicalAttribute+,Position+,?,?,Kitchen=,Table+,?,Entity+,Investigating+,?
+CONCEPTS B: ?,Smiling=,Human+,?,WinterSeason+,Clothing+,Entity+,Rotating+,?,?,Hand+,?,?,Building=,?,?,Snowing=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	02084071-n|Canine+
+4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+7	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	conj	_	02084071-n|Canine+
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	9	aux	_	02604760-v|Entity+
+9	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+10	next	next	ADV	RB	Degree=Pos|fPOS=ADJ++JJ	9	advmod	_	01294975-a|Position+
+11	to	to	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+13	kitchen	kitchen	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	14	compound	_	03619890-n|Kitchen=
+14	counter	counter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	03116530-n|Table+
+15	and	and	CONJ	CC	fPOS=CONJ++CC	9	cc	_	?|?
+16	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	17	cop	_	02604760-v|Entity+
+17	investigating	investigate	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	conj	_	00785962-v|Investigating+
+18	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	smiling	smile	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	00028565-v|Smiling=
+3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10285313-n|Human+
+4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+5	winter	winter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	15237782-n|WinterSeason+
+6	clothes	clothes	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nmod	_	02728440-n|Clothing+
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+8	waving	wave	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01446901-v|Rotating+
+9	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	10	nmod:poss	_	?|?
+10	mittened	mittened	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	8	dobj	_	?|?
+11	hands	hand	VERB	VBZ	Number=Plur|fPOS=NOUN++NNS	8	dobj	_	05564590-n|Hand+
+12	outside	outside	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+14	building	building	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	02913152-n|Building=
+15	in	in	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
+16	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	17	det	_	?|?
+17	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	15043763-n|Snowing=
+18	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?

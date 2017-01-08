@@ -1,0 +1,39 @@
+sentence A = A skateboarder is making a jump off a ramp.
+sentence B = A woman dressed in black is wearing inline skates and performing a trick on a rail.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Human+,Entity+,Attribute+,?,Transportation+,?,?,StationaryArtifact+,?
+CONCEPTS B: ?,Woman=,Dressing+,?,Black=,Entity+,CoveringFn=,?,Clothing+,?,IntentionalProcess+,?,RecreationOrExercise+,?,?,Handle+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	skateboarder	skateboarder	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10604380-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	making	make	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02621395-v|Attribute+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	jump	jump	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00303849-n|Transportation+
+7	off	off	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	ramp	ramp	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04051549-n|StationaryArtifact+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10787470-n|Woman=
+3	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	2	acl	_	00046534-v|Dressing+
+4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+5	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	00392812-a|Black=
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00047745-v|CoveringFn=
+8	inline	inline	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	?|?
+9	skates	skate	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	dobj	_	04225729-n|Clothing+
+10	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
+11	performing	perform	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	conj	_	01712704-v|IntentionalProcess+
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	trick	trick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	00427580-n|RecreationOrExercise+
+14	on	on	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+16	rail	rail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	04047401-n|Handle+
+17	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

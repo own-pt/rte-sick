@@ -1,0 +1,28 @@
+sentence A = Someone is stirring chili in a kettle.
+sentence B = Someone is stirring chili in a pot.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Entity+,PsychologicalProcess+,FruitOrVegetable+,?,?,Device+,?
+CONCEPTS B: ?,Entity+,PsychologicalProcess+,FruitOrVegetable+,?,?,SubjectiveAssessmentAttribute+,?
+
+CONLL A:
+
+1	Someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	02604760-v|Entity+
+3	stirring	stir	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02116118-v|PsychologicalProcess+
+4	chili	chili	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	07721456-n|FruitOrVegetable+
+5	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	kettle	kettle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	03612814-n|Device+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+CONLL B:
+
+1	Someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	02604760-v|Entity+
+3	stirring	stir	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02116118-v|PsychologicalProcess+
+4	chili	chili	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	07721456-n|FruitOrVegetable+
+5	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	pot	pot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	13774404-n|SubjectiveAssessmentAttribute+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?

@@ -1,0 +1,35 @@
+sentence A = A man is taking pictures of a lake.
+sentence B = The man is putting away the camera and walks away from the beach.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Hominid=,Entity+,PhysicalAttribute+,Icon+,?,?,Lake=,?
+CONCEPTS B: ?,Hominid=,Entity+,Putting=,?,?,Camera=,?,Walking=,?,?,?,ShoreArea=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	taking	take	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02267989-v|PhysicalAttribute+
+5	pictures	picture	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	03931044-n|Icon+
+6	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	lake	lake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	09328904-n|Lake=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01494310-v|Putting=
+5	away	away	ADP	RP	Mood=Imp|VerbForm=Fin|fPOS=VERB++VB	4	compound:prt	_	00234951-r|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02942699-n|Camera=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	walks	walk	VERB	VB	Number=Plur|fPOS=NOUN++NNS	4	conj	_	01904930-v|Walking=
+10	away	away	ADV	RB	fPOS=ADV++RB	9	advmod	_	00234951-r|?
+11	from	from	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	09217230-n|ShoreArea=
+14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

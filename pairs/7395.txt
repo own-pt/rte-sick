@@ -1,0 +1,34 @@
+sentence A = A man and a child are kayaking through gentle waters.
+sentence B = The man and the child are kayaking through gentle waters.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,Hominid=,?,?,HumanChild=,Entity+,?,?,SocialRole+,Water=,?
+CONCEPTS B: ?,Hominid=,?,?,HumanChild=,Entity+,?,?,SocialRole+,Water=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	02472293-n|Hominid=
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	09917593-n|HumanChild=
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	7	aux	_	02604760-v|Entity+
+7	kayaking	kayaking	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	?|?
+8	through	through	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	gentle	gentle	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	01590484-a|SocialRole+
+10	waters	water	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	14845743-n|Water=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	02472293-n|Hominid=
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	09917593-n|HumanChild=
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	7	aux	_	02604760-v|Entity+
+7	kayaking	kayaking	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	?|?
+8	through	through	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	gentle	gentle	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	01590484-a|SocialRole+
+10	waters	water	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	14845743-n|Water=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

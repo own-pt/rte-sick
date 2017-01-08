@@ -1,0 +1,16 @@
+# sent_id = 8331a
+# text = Two bmx bikers are jumping dirt ramps in front of the water.
+1	Two	2	VERB	VBN	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?
+2	bmx	bmx	ADP	IN	Number=Sing|fPOS=NOUN++NN	3	compound	_	?|?
+3	bikers	biker	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	?|?
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	02604760-v|Entity+
+5	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+6	dirt	dirt	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	compound	_	07223811-n|Text+
+7	ramps	ramp	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	04051549-n|StationaryArtifact+
+8	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+9	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	08573472-n|FrontFn=
+10	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	14845743-n|Water=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+

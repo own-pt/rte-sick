@@ -1,0 +1,37 @@
+sentence A = A cluster of four brown dogs are playing in a field of brown grass.
+sentence B = Four dogs are not playing in a grassy area.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: ?,Collection+,?,?,Human+,Canine+,Entity+,DramaticActing+,?,?,FieldOfStudy=,?,Human+,Grass=,?
+CONCEPTS B: ?,Canine+,Entity+,not=,DramaticActing+,?,?,FloweringPlant+,GeographicArea+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	cluster	cluster	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	07959943-n|Collection+
+3	of	of	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	four	4	NUM	CD	Number=Plur|Person=1|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	5	nummod	_	?|?
+5	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	6	compound	_	00245112-a|Human+
+6	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	02084071-n|Canine+
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	8	aux	_	02604760-v|Entity+
+8	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+9	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	05996646-n|FieldOfStudy=
+12	of	of	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+13	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	14	compound	_	00245112-a|Human+
+14	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	12102133-n|Grass=
+15	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+CONLL B:
+
+1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	02084071-n|Canine+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	02604760-v|Entity+
+4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	00024073-r|not=
+5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+6	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	grassy	grassy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	00209620-a|FloweringPlant+
+9	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	08497294-n|GeographicArea+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

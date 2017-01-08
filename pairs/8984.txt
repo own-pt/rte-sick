@@ -1,0 +1,34 @@
+sentence A = A girl with a bikini is playing in the dunes.
+sentence B = A girl with a bikini is playing in the sand.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Human+,?,?,Clothing+,Entity+,DramaticActing+,?,?,Sand+,?
+CONCEPTS B: ?,Human+,?,?,Clothing+,Entity+,DramaticActing+,?,?,Sand=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10129825-n|Human+
+3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	bikini	bikini	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	02837789-n|Clothing+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	aux	_	02604760-v|Entity+
+7	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	dunes	dune	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	09270735-n|Sand+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10129825-n|Human+
+3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	bikini	bikini	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	02837789-n|Clothing+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	15019030-n|Sand=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

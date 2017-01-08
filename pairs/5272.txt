@@ -1,0 +1,29 @@
+sentence A = A person is folding a piece of paper.
+sentence B = Someone is folding a piece of paper.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,Human=,Entity+,Folding+,?,TimeDuration+,?,Newspaper=,?
+CONCEPTS B: ?,Entity+,Folding+,?,TimeDuration+,?,Newspaper=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	folding	fold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01277974-v|Folding+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	piece	piece	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	15246353-n|TimeDuration+
+7	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+8	paper	paper	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	06267145-n|Newspaper=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	Someone	someone	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	02604760-v|Entity+
+3	folding	fold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01277974-v|Folding+
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	piece	piece	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	15246353-n|TimeDuration+
+6	of	of	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+7	paper	paper	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	06267145-n|Newspaper=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?

@@ -1,0 +1,34 @@
+sentence A = A man with tattoos is lounging on a couch and is looking for a pencil.
+sentence B = A cow is eating hay.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Hominid=,?,SurfaceChange+,Entity+,IntentionalProcess+,?,?,Sofa=,?,Entity+,SubjectiveAssessmentAttribute+,?,?,Pencil=,?
+CONCEPTS B: ?,FemaleCow=,Entity+,Process+,Hay=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	02472293-n|Hominid=
+3	with	with	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	tattoos	tattoo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	00263353-n|SurfaceChange+
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+6	lounging	lounge	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01528339-v|IntentionalProcess+
+7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	couch	couch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	04256520-n|Sofa=
+10	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	02604760-v|Entity+
+12	looking	look	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	conj	_	02133435-v|SubjectiveAssessmentAttribute+
+13	for	for	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	pencil	pencil	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	03908204-n|Pencil=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	cow	cow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02403454-n|FemaleCow=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	02604760-v|Entity+
+4	eating	eat	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	01157517-v|Process+
+5	hay	hay	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	07802026-n|Hay=
+6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

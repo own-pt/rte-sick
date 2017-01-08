@@ -1,0 +1,34 @@
+sentence A = A motorcycle racer is riding a red and black bike.
+sentence B = The motorcycle racer is riding a red and black bike.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,PassengerVehicle+,Automobile+,Entity+,Transportation+,?,Red=,?,Black=,PassengerVehicle+,?
+CONCEPTS B: ?,PassengerVehicle+,Automobile+,Entity+,Transportation+,?,Red=,?,Black=,PassengerVehicle+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	03790512-n|PassengerVehicle+
+3	racer	racer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	04037443-n|Automobile+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02102398-v|Transportation+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+7	red	red	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00381097-a|Red=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
+9	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	conj	_	00392812-a|Black=
+10	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03790512-n|PassengerVehicle+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	03790512-n|PassengerVehicle+
+3	racer	racer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	04037443-n|Automobile+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02102398-v|Transportation+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+7	red	red	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00381097-a|Red=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
+9	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	conj	_	00392812-a|Black=
+10	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03790512-n|PassengerVehicle+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

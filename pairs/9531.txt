@@ -1,0 +1,38 @@
+sentence A = A white car and a yellow car are racing down the track.
+sentence B = A white bike and a yellow bike are racing down the track.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,White=,Automobile=,?,?,SubjectiveAssessmentAttribute+,Automobile=,Entity+,Motion+,earlier+,?,StationaryArtifact+,?
+CONCEPTS B: ?,White=,Bicycle=,?,?,SubjectiveAssessmentAttribute+,Bicycle=,Entity+,Motion+,earlier+,?,StationaryArtifact+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00393105-a|White=
+3	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	02958343-n|Automobile=
+4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+7	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	conj	_	02958343-n|Automobile=
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	9	aux	_	02604760-v|Entity+
+9	racing	race	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02058994-v|Motion+
+10	down	down	ADP	IN	fPOS=ADP++IN	12	case	_	00096089-r|earlier+
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04037625-n|StationaryArtifact+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00393105-a|White=
+3	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	02834778-n|Bicycle=
+4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+7	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	conj	_	02834778-n|Bicycle=
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	9	aux	_	02604760-v|Entity+
+9	racing	race	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02058994-v|Motion+
+10	down	down	ADV	RB	fPOS=ADP++IN	12	case	_	00096089-r|earlier+
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04037625-n|StationaryArtifact+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?

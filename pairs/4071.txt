@@ -1,0 +1,36 @@
+sentence A = The man is throwing knives at a tree.
+sentence B = A man is inside the house and is throwing blades at a close target.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Hominid=,Entity+,Impelling+,CuttingDevice+,?,?,ContentBearingObject+,?
+CONCEPTS B: ?,Man=,Entity+,?,?,Auditorium+,?,Entity+,Impelling+,PlantLeaf+,?,?,Near=,Entity+,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	throwing	throw	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01508368-v|Impelling+
+5	knives	knife	VERB	VBZ	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	03623556-n|CuttingDevice+
+6	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	13912260-n|ContentBearingObject+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	10287213-n|Man=
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
+4	inside	inside	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	house	house	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	04417809-n|Auditorium+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	9	aux	_	02604760-v|Entity+
+9	throwing	throw	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	6	conj	_	01508368-v|Impelling+
+10	blades	blade	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	dobj	_	13131883-n|PlantLeaf+
+11	at	at	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+13	close	close	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	00444519-a|Near=
+14	target	target	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	05981230-n|Entity+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

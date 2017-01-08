@@ -1,0 +1,37 @@
+sentence A = There are no little boys playing outside with a soccer ball on the green grass.
+sentence B = Two children are playing soccer in the park.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Entity+,?,SubjectiveStrongNegativeAttribute+,Human+,DramaticActing+,?,?,?,Soccer=,Ball=,?,?,Green=,Grass=,?
+CONCEPTS B: ?,HumanChild=,Entity+,DramaticActing+,Soccer=,?,?,Park+,?
+
+CONLL A:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	?|?
+4	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+5	boys	boy	NOUN	NNS	fPOS=SCONJ++IN	2	nsubj	_	10285313-n|Human+
+6	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	acl	_	01719302-v|DramaticActing+
+7	outside	outside	ADV	RB	fPOS=ADV++RB	6	advmod	_	?|?
+8	with	with	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+10	soccer	soccer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	00478262-n|Soccer=
+11	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	02778669-n|Ball=
+12	on	on	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+14	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	00375969-a|Green=
+15	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	12102133-n|Grass=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+CONLL B:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	09917593-n|HumanChild=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	soccer	soccer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00478262-n|Soccer=
+6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	08615374-n|Park+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

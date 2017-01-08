@@ -1,0 +1,27 @@
+sentence A = There is no man driving the car.
+sentence B = A man is driving a car.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: ?,Entity+,?,Hominid=,Transportation+,?,Automobile=,?
+CONCEPTS B: ?,Hominid=,Entity+,Transportation+,?,Automobile=,?
+
+CONLL A:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
+4	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	02472293-n|Hominid=
+5	driving	drive	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	01930874-v|Transportation+
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02958343-n|Automobile=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	driving	drive	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01930874-v|Transportation+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02958343-n|Automobile=
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

@@ -1,0 +1,32 @@
+sentence A = A man is squatting in brush and taking a photograph.
+sentence B = A woman is crouching and holding a camera.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Hominid=,Entity+,BodyMotion+,?,Device+,?,PhysicalAttribute+,?,Photograph=,?
+CONCEPTS B: ?,Woman=,Entity+,Inclining+,?,Process+,?,Camera=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	squatting	squat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01545314-v|BodyMotion+
+5	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+6	brush	brush	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02908217-n|Device+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+8	taking	take	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	02267989-v|PhysicalAttribute+
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	photograph	photograph	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	03925226-n|Photograph=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	crouching	crouch	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02062632-v|Inclining+
+5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+6	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01217043-v|Process+
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	02942699-n|Camera=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

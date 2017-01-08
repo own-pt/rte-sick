@@ -1,0 +1,34 @@
+sentence A = Two dogs on a lawn are playing with a plastic toy.
+sentence B = Two dogs are running and catching a tennis ball.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Canine+,?,?,Lawn=,Entity+,DramaticActing+,?,?,SubjectiveAssessmentAttribute+,RecreationOrExerciseDevice+,?
+CONCEPTS B: ?,Canine+,Entity+,Attribute+,?,Grabbing+,?,Tennis=,Ball=,?
+
+CONLL A:
+
+1	Two	2	PRON	PRP	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	dogs	dog	VERB	VBZ	Number=Plur|fPOS=NOUN++NNS	7	nsubj	_	02084071-n|Canine+
+3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	lawn	lawn	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	08591592-n|Lawn=
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	02604760-v|Entity+
+7	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+8	with	with	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+10	plastic	plastic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	02364954-a|SubjectiveAssessmentAttribute+
+11	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	03964744-n|RecreationOrExerciseDevice+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+CONLL B:
+
+1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?
+2	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02084071-n|Canine+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+6	catching	catch	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01439190-v|Grabbing+
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	tennis	tennis	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	00482298-n|Tennis=
+9	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	02778669-n|Ball=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

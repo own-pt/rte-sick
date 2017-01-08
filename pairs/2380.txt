@@ -1,0 +1,31 @@
+sentence A = There is no person slicing a carrot into pieces.
+sentence B = A person is slicing a carrot into pieces.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: ?,Entity+,?,Human=,Separating+,?,Carrot=,?,PreparedFood+,?
+CONCEPTS B: ?,Human=,Entity+,Separating+,?,Carrot=,?,PreparedFood+,?
+
+CONLL A:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
+4	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	00007846-n|Human=
+5	slicing	slice	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	01254477-v|Separating+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	carrot	carrot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	07730207-n|Carrot=
+8	into	into	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+9	pieces	piece	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	07654667-n|PreparedFood+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	slicing	slice	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01254477-v|Separating+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	carrot	carrot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07730207-n|Carrot=
+7	into	into	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+8	pieces	piece	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	07654667-n|PreparedFood+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

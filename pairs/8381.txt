@@ -1,0 +1,34 @@
+sentence A = The young girl in blue is having fun on a slide.
+sentence B = The young girl in blue is enjoying a slide.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,HumanYouth=,Human+,?,SubjectiveStrongNegativeAttribute+,Entity+,Damaging+,TraitAttribute+,?,?,Artifact+,?
+CONCEPTS B: ?,HumanYouth=,Human+,?,SubjectiveStrongNegativeAttribute+,Entity+,IntentionalPsychologicalProcess+,?,Artifact+,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10129825-n|Human+
+4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+5	blue	blue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	00425002-a|SubjectiveStrongNegativeAttribute+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	having	have	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	00065639-v|Damaging+
+8	fun	fun	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	04649261-n|TraitAttribute+
+9	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	slide	slide	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	03029603-n|Artifact+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10129825-n|Human+
+4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+5	blue	blue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	00425002-a|SubjectiveStrongNegativeAttribute+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	enjoying	enjoy	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01820302-v|IntentionalPsychologicalProcess+
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	slide	slide	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	03029603-n|Artifact+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

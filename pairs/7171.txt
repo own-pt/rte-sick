@@ -1,0 +1,36 @@
+sentence A = A dog is standing with its two front paws on a rock in a field.
+sentence B = A black climber is rocking a dog.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Canine+,Entity+,PhysicalAttribute+,?,?,?,FrontFn=,Hand+,?,?,Mineral+,?,?,SubjectiveAssessmentAttribute+,?
+CONCEPTS B: ?,Black=,FloweringPlant+,Entity+,Rotating+,?,Canine+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02084071-n|Canine+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+5	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+6	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	9	nmod:poss	_	?|?
+7	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	9	nummod	_	?|?
+8	front	front	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	9	amod	_	08573472-n|FrontFn=
+9	paws	paw	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	05564590-n|Hand+
+10	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	14696793-n|Mineral+
+13	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	14514039-n|SubjectiveAssessmentAttribute+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00392812-a|Black=
+3	climber	climber	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	13102409-n|FloweringPlant+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	02604760-v|Entity+
+5	rocking	rock	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01875295-v|Rotating+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02084071-n|Canine+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

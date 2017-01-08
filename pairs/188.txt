@@ -1,0 +1,40 @@
+sentence A = Various people are eating at red tables in a crowded restaurant with purple lights.
+sentence B = A small group of people is waiting to eat in a restaurant.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,GroupOfPeople=,Entity+,Eating=,?,Red=,ContentBearingObject+,?,?,SocialInteraction+,Restaurant+,?,SocialRole+,RadiatingVisibleLight+,?
+CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Group=,?,GroupOfPeople=,Entity+,PsychologicalProcess+,?,Eating=,?,?,Restaurant+,?
+
+CONLL A:
+
+1	Various	various	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	02507772-a|SubjectiveWeakPositiveAttribute+
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	07942152-n|GroupOfPeople=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01166351-v|Eating=
+5	at	at	ADP	IN	fPOS=ADV++RB	7	case	_	?|?
+6	red	red	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	7	amod	_	00381097-a|Red=
+7	tables	table	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	08266235-n|ContentBearingObject+
+8	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+10	crowded	crowd	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	02027612-v|SocialInteraction+
+11	restaurant	restaurant	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04081281-n|Restaurant+
+12	with	with	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+13	purple	purple	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	01591394-a|SocialRole+
+14	lights	light	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	nmod	_	11473954-n|RadiatingVisibleLight+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	00031264-n|Group=
+4	of	of	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+5	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nmod	_	07942152-n|GroupOfPeople=
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	waiting	wait	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02637938-v|PsychologicalProcess+
+8	to	to	PART	TO	fPOS=PART++TO	9	mark	_	?|?
+9	eat	eat	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	7	advcl	_	01166351-v|Eating=
+10	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	restaurant	restaurant	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04081281-n|Restaurant+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

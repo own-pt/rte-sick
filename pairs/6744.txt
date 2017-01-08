@@ -1,0 +1,37 @@
+sentence A = Three people are sitting on a bench under some palm trees.
+sentence B = The people are sitting on a bench in front of a restaurant.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,?,Seat+,?,?,UnilateralGiving+,ContentBearingObject+,?
+CONCEPTS B: ?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,?,Seat+,?,FrontFn=,?,?,Restaurant+,?
+
+CONLL A:
+
+1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	07942152-n|GroupOfPeople=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	bench	bench	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02828884-n|Seat+
+8	under	under	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+9	some	some	DET	DT	fPOS=DET++DT	11	det	_	?|?
+10	palm	palm	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	06706676-n|UnilateralGiving+
+11	trees	tree	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	13912260-n|ContentBearingObject+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	07942152-n|GroupOfPeople=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	bench	bench	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02828884-n|Seat+
+8	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+9	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	08573472-n|FrontFn=
+10	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	restaurant	restaurant	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04081281-n|Restaurant+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

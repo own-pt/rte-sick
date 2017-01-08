@@ -1,0 +1,39 @@
+sentence A = The dark skinned male is standing on one hand in front of a yellow building.
+sentence B = A black man is skillfully break dancing on the pavement.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,SubjectiveWeakNegativeAttribute+,Separating+,Human+,Entity+,PhysicalAttribute+,?,?,Hand+,?,FrontFn=,?,?,SubjectiveAssessmentAttribute+,Building=,?
+CONCEPTS B: ?,Black=,Hominid=,Entity+,SubjectiveAssessmentAttribute+,EndFn+,Dancing+,?,?,Sidewalk=,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	4	det	_	?|?
+2	dark	dark	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	amod	_	00409440-a|SubjectiveWeakNegativeAttribute+
+3	skinned	skin	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	4	amod	_	01262936-v|Separating+
+4	male	male	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	09624168-n|Human+
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+6	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	one	1	NUM	CD	NumType=Card|fPOS=NUM++CD	9	nummod	_	?|?
+9	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	05564590-n|Hand+
+10	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+11	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	08573472-n|FrontFn=
+12	of	of	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+14	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+15	building	building	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	02913152-n|Building=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00392812-a|Black=
+3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	02472293-n|Hominid=
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
+5	skillfully	skillfully	ADJ	JJ	fPOS=ADV++RB	6	advmod	_	00455933-r|SubjectiveAssessmentAttribute+
+6	break	break	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	02681524-v|EndFn+
+7	dancing	dance	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	acl	_	01708676-v|Dancing+
+8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	pavement	pavement	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	04215402-n|Sidewalk=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

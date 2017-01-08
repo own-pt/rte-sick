@@ -1,0 +1,44 @@
+sentence A = A woman is wearing a blue helmet and is riding a bicycle in a parking lot.
+sentence B = A woman is parking a blue bicycle and is wearing lots of riding helmets.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Woman=,Entity+,CoveringFn=,?,SubjectiveStrongNegativeAttribute+,Clothing+,?,Entity+,Carrying=,?,Bicycle=,?,?,Region+,SubjectiveAssessmentAttribute+,?
+CONCEPTS B: ?,Woman=,Entity+,Putting+,?,SubjectiveStrongNegativeAttribute+,Bicycle=,?,Entity+,CoveringFn=,LandArea+,?,Carrying=,Clothing+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00047745-v|CoveringFn=
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	blue	blue	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	compound	_	00425002-a|SubjectiveStrongNegativeAttribute+
+7	helmet	helmet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03513376-n|Clothing+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
+10	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	01955984-v|Carrying=
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	bicycle	bicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	02834778-n|Bicycle=
+13	in	in	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+15	parking	parking	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	compound	_	13778671-n|Region+
+16	lot	lot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	13774404-n|SubjectiveAssessmentAttribute+
+17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	parking	park	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01493380-v|Putting+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	blue	blue	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	compound	_	00425002-a|SubjectiveStrongNegativeAttribute+
+7	bicycle	bicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02834778-n|Bicycle=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
+10	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	00047745-v|CoveringFn=
+11	lots	lot	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	dobj	_	08674970-n|LandArea+
+12	of	of	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+13	riding	ride	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	01955984-v|Carrying=
+14	helmets	helmet	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	nmod	_	03513376-n|Clothing+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

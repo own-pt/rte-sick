@@ -1,0 +1,35 @@
+sentence A = A young boy isn't climbing a wall made of rock.
+sentence B = The young boy is climbing the wall made of rock.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: ?,HumanYouth=,Human+,Entity+,not=,Increasing+,?,Wall=,Attribute+,?,Mineral+,?
+CONCEPTS B: ?,HumanYouth=,Human+,Entity+,Increasing+,?,Wall=,Attribute+,?,Mineral+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
+3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	10285313-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+5	not	not	PART	RB	fPOS=PART++RB	6	neg	_	00024073-r|not=
+6	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00433232-v|Increasing+
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	wall	wall	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	compound	_	04546855-n|Wall=
+9	made	make	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	02621395-v|Attribute+
+10	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+11	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	14696793-n|Mineral+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
+3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10285313-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00433232-v|Increasing+
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	wall	wall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	04546855-n|Wall=
+8	made	make	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02621395-v|Attribute+
+9	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+10	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	14696793-n|Mineral+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

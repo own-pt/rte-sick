@@ -1,0 +1,28 @@
+sentence A = A woman is not cutting shrimps.
+sentence B = A man is chopping butter into a container.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Woman=,Entity+,not=,Decreasing+,PrawnMeat=,?
+CONCEPTS B: ?,Hominid=,Entity+,Cutting+,Butter=,?,?,Container+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	00024073-r|not=
+5	cutting	cut	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00429060-v|Decreasing+
+6	shrimps	shrimp	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	07794159-n|PrawnMeat=
+7	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	chopping	chop	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01258091-v|Cutting+
+5	butter	butter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07848338-n|Butter=
+6	into	into	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	container	container	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03094503-n|Container+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

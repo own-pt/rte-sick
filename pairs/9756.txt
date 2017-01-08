@@ -1,0 +1,41 @@
+sentence A = A dog is running on concrete and is holding a blue ball.
+sentence B = The large dog is walking outside and is holding a colorful toy in its mouth.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Canine+,Entity+,Attribute+,?,Concrete=,?,Entity+,Process+,?,SubjectiveStrongNegativeAttribute+,Ball=,?
+CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Walking=,located+,?,Entity+,Process+,?,ColorAttribute+,RecreationOrExerciseDevice+,?,?,Mouth+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02084071-n|Canine+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+5	on	on	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+6	concrete	concrete	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	14820180-n|Concrete=
+7	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	9	aux	_	02604760-v|Entity+
+9	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01217043-v|Process+
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+11	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
+12	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	02778669-n|Ball=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01904930-v|Walking=
+6	outside	outside	ADV	RB	fPOS=ADV++RB	5	advmod	_	01692222-a|located+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+9	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	01217043-v|Process+
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+11	colorful	colorful	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00394562-a|ColorAttribute+
+12	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	03964744-n|RecreationOrExerciseDevice+
+13	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	15	nmod:poss	_	?|?
+15	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	05302499-n|Mouth+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

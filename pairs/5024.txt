@@ -1,0 +1,32 @@
+sentence A = The woman is putting makeup on the man.
+sentence B = A man's face is being painted by a woman.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,Woman=,Entity+,Putting=,Mixture+,?,?,Man=,?
+CONCEPTS B: ?,Man=,?,Face+,Entity+,Entity+,Painting=,?,?,Woman=,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10787470-n|Woman=
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	cop	_	02604760-v|Entity+
+4	putting	put	ADJ	JJ	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	advmod	_	01494310-v|Putting=
+5	makeup	makeup	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	03714235-n|Mixture+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	10287213-n|Man=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod:poss	_	10287213-n|Man=
+3	's	's	PART	POS	fPOS=PART++POS	2	case	_	?|?
+4	face	face	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubjpass	_	05600637-n|Face+
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+6	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	7	auxpass	_	02604760-v|Entity+
+7	painted	paint	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	01362736-v|Painting=
+8	by	by	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	10787470-n|Woman=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

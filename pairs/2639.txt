@@ -1,0 +1,30 @@
+sentence A = Two boys are playing a video game.
+sentence B = Two boys on a couch are reading a book.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Human+,Entity+,DramaticActing+,?,TelevisionBroadcasting+,Game=,?
+CONCEPTS B: ?,Human+,?,?,Sofa=,Entity+,Reading=,?,Book+,?
+
+CONLL A:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	10285313-n|Human+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	video	video	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	06277280-n|TelevisionBroadcasting+
+7	game	game	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00455599-n|Game=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubj	_	10285313-n|Human+
+3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	couch	couch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	04256520-n|Sofa=
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	02604760-v|Entity+
+7	reading	read	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	00625119-v|Reading=
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	book	book	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	02870092-n|Book+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

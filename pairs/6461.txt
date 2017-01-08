@@ -1,0 +1,36 @@
+sentence A = Two men are riding an orange raft on the shore.
+sentence B = Two men are rafting near a rider in orange on the shore.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Hominid=,Entity+,Carrying=,?,OrangeColor+,SubjectiveAssessmentAttribute+,?,?,ShoreArea=,?
+CONCEPTS B: ?,Hominid=,Entity+,Transportation+,?,?,SocialRole+,?,OrangeColor+,?,?,ShoreArea=,?
+
+CONLL A:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02472293-n|Hominid=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01955984-v|Carrying=
+5	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	orange	orange	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	compound	_	04965179-n|OrangeColor+
+7	raft	raft	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	13774404-n|SubjectiveAssessmentAttribute+
+8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	shore	shore	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09433442-n|ShoreArea=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02472293-n|Hominid=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	rafting	raft	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01842508-v|Transportation+
+5	near	near	ADP	IN	Number=Sing|fPOS=NOUN++NN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	rider	rider	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	10403876-n|SocialRole+
+8	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+9	orange	orange	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	04965179-n|OrangeColor+
+10	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	shore	shore	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	09433442-n|ShoreArea=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

@@ -1,0 +1,35 @@
+sentence A = A man is spilling orange juice and standing still.
+sentence B = A man is drinking orange juice and walking on a sunny day.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Hominid=,Entity+,Motion+,OrangeColor+,Juice=,?,PhysicalAttribute+,?,?
+CONCEPTS B: ?,Hominid=,Entity+,Drinking+,OrangeColor+,Juice=,?,Walking=,?,?,Happiness+,Day=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
+4	spilling	spill	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	02069888-v|Motion+
+5	orange	orange	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	compound	_	04965179-n|OrangeColor+
+6	juice	juice	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	07923748-n|Juice=
+7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+8	standing	stand	VERB	VBG	Number=Sing|fPOS=NOUN++NN	6	conj	_	01546111-v|PhysicalAttribute+
+9	still	still	ADV	RB	fPOS=ADV++RB	8	advmod	_	00027384-r|?
+10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	drinking	drink	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01171183-v|Drinking+
+5	orange	orange	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	compound	_	04965179-n|OrangeColor+
+6	juice	juice	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07923748-n|Juice=
+7	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+8	walking	walk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01904930-v|Walking=
+9	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+11	sunny	sunny	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00363938-a|Happiness+
+12	day	day	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	15155220-n|Day=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

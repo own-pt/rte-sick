@@ -1,0 +1,28 @@
+sentence A = A cute panda is lying down.
+sentence B = A panda that is cute is lying down.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,SubjectiveStrongPositiveAttribute+,Carnivore+,Entity+,PhysicalAttribute+,earlier+,?
+CONCEPTS B: ?,Carnivore+,?,Entity+,SubjectiveStrongPositiveAttribute+,Entity+,PhysicalAttribute+,earlier+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	cute	cute	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00167278-a|SubjectiveStrongPositiveAttribute+
+3	panda	panda	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02510455-n|Carnivore+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02690708-v|PhysicalAttribute+
+6	down	down	ADV	RB	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	5	advmod	_	00096089-r|earlier+
+7	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	panda	panda	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	02510455-n|Carnivore+
+3	that	that	PRON	WDT	Number=Sing|PronType=Dem|fPOS=PRON++DT	5	nsubj	_	?|?
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	02604760-v|Entity+
+5	cute	cute	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	2	acl:relcl	_	00167278-a|SubjectiveStrongPositiveAttribute+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02690708-v|PhysicalAttribute+
+8	down	down	ADV	RB	fPOS=ADV++RB	7	advmod	_	00096089-r|earlier+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

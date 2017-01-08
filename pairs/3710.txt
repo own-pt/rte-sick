@@ -1,0 +1,30 @@
+sentence A = A toy train is striking a toy car.
+sentence B = A toy train is hitting a toy car.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,RecreationOrExerciseDevice+,Train=,Entity+,Impacting+,?,RecreationOrExerciseDevice+,Automobile=,?
+CONCEPTS B: ?,RecreationOrExerciseDevice+,Train=,Entity+,Impacting+,?,RecreationOrExerciseDevice+,Automobile=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	03964744-n|RecreationOrExerciseDevice+
+3	train	train	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	04468005-n|Train=
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	02604760-v|Entity+
+5	striking	strike	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01410223-v|Impacting+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	03964744-n|RecreationOrExerciseDevice+
+8	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02958343-n|Automobile=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	03964744-n|RecreationOrExerciseDevice+
+3	train	train	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	04468005-n|Train=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	02604760-v|Entity+
+5	hitting	hit	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01236164-v|Impacting+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	03964744-n|RecreationOrExerciseDevice+
+8	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02958343-n|Automobile=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

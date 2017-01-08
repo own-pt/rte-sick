@@ -1,0 +1,31 @@
+sentence A = A kitten is playing with a blue rope toy.
+sentence B = The little cat is playing with a toy.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Feline+,Entity+,DramaticActing+,?,?,SubjectiveStrongNegativeAttribute+,String+,RecreationOrExerciseDevice+,?
+CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Whip+,Entity+,DramaticActing+,?,?,RecreationOrExerciseDevice+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	kitten	kitten	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02122948-n|Feline+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+7	blue	blue	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	8	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
+8	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	04108268-n|String+
+9	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03964744-n|RecreationOrExerciseDevice+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02985606-n|Whip+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+6	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03964744-n|RecreationOrExerciseDevice+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

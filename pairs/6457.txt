@@ -1,0 +1,36 @@
+sentence A = The orange rescue boat is rushing across the water.
+sentence B = The rescue boat, which is orange, is rushing across the water.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,OrangeColor+,Removing+,WaterVehicle=,Entity+,Translocation+,?,?,Water=,?
+CONCEPTS B: ?,Removing+,WaterVehicle=,?,?,Entity+,OrangeColor+,?,Entity+,Translocation+,?,?,Water=,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	4	det	_	?|?
+2	orange	orange	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	04965179-n|OrangeColor+
+3	rescue	rescue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	compound	_	00093483-n|Removing+
+4	boat	boat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	02858304-n|WaterVehicle=
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+6	rushing	rush	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00459498-v|Translocation+
+7	across	across	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	14845743-n|Water=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	rescue	rescue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	00093483-n|Removing+
+3	boat	boat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	02858304-n|WaterVehicle=
+4	,	,	PUNCT	,	fPOS=PUNCT++,	3	punct	_	?|?
+5	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	7	nsubj	_	?|?
+6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	cop	_	02604760-v|Entity+
+7	orange	orange	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	acl:relcl	_	04965179-n|OrangeColor+
+8	,	,	PUNCT	,	fPOS=PUNCT++,	10	punct	_	?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
+10	rushing	rush	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	00459498-v|Translocation+
+11	across	across	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	14845743-n|Water=
+14	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?

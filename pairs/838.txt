@@ -1,0 +1,40 @@
+sentence A = The boy on the grass is lying and is hiding the football between his feet.
+sentence B = The little kid is playing football and falling into the grass.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Human+,?,?,Grass=,Entity+,PhysicalAttribute+,?,Entity+,Concealing=,?,Football+,?,?,Foot+,?
+CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,DramaticActing+,Football+,?,Getting+,?,?,Grass=,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10285313-n|Human+
+3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	12102133-n|Grass=
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02690708-v|PhysicalAttribute+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
+10	hiding	hide	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	7	conj	_	02144835-v|Concealing=
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	00468480-n|Football+
+13	between	between	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	15	nmod:poss	_	?|?
+15	feet	foot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	05563266-n|Foot+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	kid	kid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	09917593-n|HumanChild=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+6	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	00468480-n|Football+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+8	falling	fall	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	02229828-v|Getting+
+9	into	into	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	12102133-n|Grass=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

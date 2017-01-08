@@ -1,0 +1,36 @@
+sentence A = A small guinea pig is gnawing and eating a piece of carrot on the floor.
+sentence B = A guinea pig is devouring a carrot.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Guinea=,Pig=,Entity+,Damaging+,?,Eating=,?,TimeDuration+,?,Carrot=,?,?,Floor+,?
+CONCEPTS B: ?,Guinea=,Human+,Entity+,Eating+,?,Carrot=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?
+2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	guinea	guinea	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	compound	_	08947319-n|Guinea=
+4	pig	pig	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	02395406-n|Pig=
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+6	gnawing	gnaw	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00275253-v|Damaging+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+8	eating	eat	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	conj	_	01168468-v|Eating=
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	piece	piece	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	15246353-n|TimeDuration+
+11	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+12	carrot	carrot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	07730207-n|Carrot=
+13	on	on	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	floor	floor	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	03365592-n|Floor+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	guinea	guinea	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	08947319-n|Guinea=
+3	pig	pig	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10179649-n|Human+
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	02604760-v|Entity+
+5	devouring	devour	VERB	VBG	fPOS=ADP++IN	0	ROOT	_	01196653-v|Eating+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	carrot	carrot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	07730207-n|Carrot=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

@@ -1,0 +1,60 @@
+sentence A = Two men, a woman, and two young boys are sitting in front of a large gathering of people outside a building.
+sentence B = Two men, a woman, and two young boys are standing in front of a large gathering of people outside a building.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: ?,Man=,?,?,Woman=,?,?,?,HumanYouth=,Human+,PhysicalAttribute+,SittingDown+,?,FrontFn=,?,?,SubjectiveWeakPositiveAttribute+,GroupOfPeople+,?,GroupOfPeople=,?,?,Building=,?
+CONCEPTS B: ?,Man=,?,?,Woman=,?,?,?,HumanYouth=,Human+,Entity+,PhysicalAttribute+,?,FrontFn=,?,?,SubjectiveWeakPositiveAttribute+,GroupOfPeople+,?,GroupOfPeople=,?,?,Building=,?
+
+CONLL A:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	nsubj	_	10287213-n|Man=
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	10787470-n|Woman=
+6	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
+7	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+8	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	10	nummod	_	?|?
+9	young	young	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	01646941-a|HumanYouth=
+10	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	conj	_	10285313-n|Human+
+11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	12	aux	_	02655135-v|PhysicalAttribute+
+12	sitting	sit	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01543123-v|SittingDown+
+13	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+14	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	08573472-n|FrontFn=
+15	of	of	ADP	IN	fPOS=ADP++IN	18	case	_	?|?
+16	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	18	det	_	?|?
+17	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	18	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+18	gathering	gathering	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	07975026-n|GroupOfPeople+
+19	of	of	ADP	IN	fPOS=ADP++IN	20	case	_	?|?
+20	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	18	nmod	_	07942152-n|GroupOfPeople=
+21	outside	outside	ADP	IN	fPOS=ADP++IN	23	case	_	?|?
+22	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	23	det	_	?|?
+23	building	building	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	02913152-n|Building=
+24	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?
+CONLL B:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	nsubj	_	10287213-n|Man=
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	10787470-n|Woman=
+6	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
+7	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+8	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	10	nummod	_	?|?
+9	young	young	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	01646941-a|HumanYouth=
+10	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	conj	_	10285313-n|Human+
+11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	12	aux	_	02604760-v|Entity+
+12	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+13	in	in	ADP	IN	fPOS=ADV++RB	14	case	_	?|?
+14	front	front	NOUN	NN	fPOS=ADP++IN	12	nmod	_	08573472-n|FrontFn=
+15	of	of	ADP	IN	fPOS=ADP++IN	18	case	_	?|?
+16	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	18	det	_	?|?
+17	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	18	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+18	gathering	gathering	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	07975026-n|GroupOfPeople+
+19	of	of	ADP	IN	fPOS=ADP++IN	20	case	_	?|?
+20	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	18	nmod	_	07942152-n|GroupOfPeople=
+21	outside	outside	ADP	IN	fPOS=ADP++IN	23	case	_	?|?
+22	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	23	det	_	?|?
+23	building	building	NOUN	NN	Number=Sing|fPOS=NOUN++NN	20	nmod	_	02913152-n|Building=
+24	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?

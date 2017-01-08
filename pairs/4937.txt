@@ -1,0 +1,30 @@
+sentence A = The military officer is barking at the recruits.
+sentence B = The recruits are barking at the military officer.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,MilitaryOrganization=,PoliceOfficer=,Entity+,RadiatingSound+,?,?,SocialRole+,?
+CONCEPTS B: ?,SocialRole+,Entity+,RadiatingSound+,?,?,MilitaryOrganization=,PoliceOfficer=,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	military	military	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01518386-a|MilitaryOrganization=
+3	officer	officer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10448983-n|PoliceOfficer=
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	02604760-v|Entity+
+5	barking	bark	ADJ	JJ	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01047745-v|RadiatingSound+
+6	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	recruits	recruit	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	10512372-n|SocialRole+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	recruits	recruit	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	10512372-n|SocialRole+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	barking	bark	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01047745-v|RadiatingSound+
+5	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	military	military	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	01518386-a|MilitaryOrganization=
+8	officer	officer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	10448983-n|PoliceOfficer=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

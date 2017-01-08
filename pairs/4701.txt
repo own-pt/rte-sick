@@ -1,0 +1,36 @@
+sentence A = A group of men is playing soccer on the beach.
+sentence B = A group of men is playing with a ball on the beach.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Group=,?,Hominid=,Entity+,DramaticActing+,Soccer=,?,?,ShoreArea=,?
+CONCEPTS B: ?,Group=,?,Hominid=,Entity+,DramaticActing+,?,?,Ball=,?,?,ShoreArea=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	men	man	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	2	nmod	_	02472293-n|Hominid=
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	aux	_	02604760-v|Entity+
+6	playing	play	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01719302-v|DramaticActing+
+7	soccer	soccer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	00478262-n|Soccer=
+8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	09217230-n|ShoreArea=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	men	man	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	2	nmod	_	02472293-n|Hominid=
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+6	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	02778669-n|Ball=
+10	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	09217230-n|ShoreArea=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

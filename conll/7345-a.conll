@@ -1,0 +1,18 @@
+# sent_id = 7345a
+# text = One man is climbing a rock wall and another man is holding a rope.
+1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00433232-v|Increasing+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	14696793-n|Mineral+
+7	wall	wall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	04546855-n|Wall=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	another	another	DET	DT	fPOS=DET++DT	10	det	_	?|?
+10	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	02472293-n|Hominid=
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	12	aux	_	02604760-v|Entity+
+12	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01217043-v|Process+
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+14	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	dobj	_	04108268-n|String+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+

@@ -1,0 +1,28 @@
+sentence A = A dog is biting a can.
+sentence B = A can is being bitten by a dog.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,Canine+,Entity+,SubjectiveStrongNegativeAttribute+,?,?,?
+CONCEPTS B: ?,?,Entity+,Entity+,Process+,?,?,Canine+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02084071-n|Canine+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	biting	bite	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02079313-a|SubjectiveStrongNegativeAttribute+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	can	can	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	?|?
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Case=Nom|Number=Sing|Person=1|PronType=Prs|fPOS=PRON++PRP	2	det	_	?|?
+2	can	can	NOUN	NN	VerbForm=Fin|fPOS=AUX++MD	5	nsubjpass	_	?|?
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	02604760-v|Entity+
+5	bitten	bite	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	02120451-v|Process+
+6	by	by	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02084071-n|Canine+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

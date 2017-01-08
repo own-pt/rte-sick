@@ -1,0 +1,36 @@
+sentence A = A cat is jumping high into the air in the country.
+sentence B = A dog is jumping high into the air in the country.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Whip+,Entity+,Ambulating=,SubjectiveStrongPositiveAttribute+,?,?,AirTransportation+,?,?,GeographicArea+,?
+CONCEPTS B: ?,Canine+,Entity+,Ambulating=,SubjectiveStrongPositiveAttribute+,?,?,AirTransportation+,?,?,GeographicArea+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02985606-n|Whip+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+5	high	high	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	xcomp	_	02339120-a|SubjectiveStrongPositiveAttribute+
+6	into	into	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	00300441-n|AirTransportation+
+9	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	country	country	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	08497294-n|GeographicArea+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02084071-n|Canine+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+5	high	high	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	xcomp	_	02339120-a|SubjectiveStrongPositiveAttribute+
+6	into	into	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	00300441-n|AirTransportation+
+9	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	country	country	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	08497294-n|GeographicArea+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

@@ -1,0 +1,33 @@
+sentence A = A man is standing on a roof top and playing a violin.
+sentence B = A man is standing on a roof.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Hominid=,Entity+,PhysicalAttribute+,?,?,Roof=,PositionalAttribute+,?,DramaticActing+,?,Violin=,?
+CONCEPTS B: ?,Hominid=,Entity+,PhysicalAttribute+,?,?,Roof=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+5	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	roof	roof	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	04105068-n|Roof=
+8	top	top	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	08663354-n|PositionalAttribute+
+9	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+10	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01719302-v|DramaticActing+
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	violin	violin	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	04536866-n|Violin=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	roof	roof	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04105068-n|Roof=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

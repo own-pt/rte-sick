@@ -1,0 +1,40 @@
+sentence A = Two women with folded arms, who are young, are looking at the screen.
+sentence B = Two young women with folded arms are looking at the screen.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,Woman=,?,Folding+,Sleeve+,?,?,Entity+,HumanYouth=,?,Entity+,SubjectiveAssessmentAttribute+,?,?,Device+,?
+CONCEPTS B: ?,HumanYouth=,Woman=,?,Folding+,Sleeve+,Entity+,SubjectiveAssessmentAttribute+,?,?,Device+,?
+
+CONLL A:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	women	woman	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	nsubj	_	10787470-n|Woman=
+3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	folded	fold	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	5	amod	_	01277974-v|Folding+
+5	arms	arm	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	04236377-n|Sleeve+
+6	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
+7	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	9	nsubj	_	?|?
+8	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	9	cop	_	02604760-v|Entity+
+9	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	2	acl:relcl	_	01646941-a|HumanYouth=
+10	,	,	PUNCT	,	fPOS=PUNCT++,	12	punct	_	?|?
+11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	12	aux	_	02604760-v|Entity+
+12	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
+13	at	at	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	screen	screen	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	04151581-n|Device+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?
+CONLL B:
+
+1	Two	2	NOUN	NN	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?
+2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01646941-a|HumanYouth=
+3	women	woman	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nsubj	_	10787470-n|Woman=
+4	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+5	folded	fold	VERB	VBN	Number=Sing|fPOS=NOUN++NN	6	amod	_	01277974-v|Folding+
+6	arms	arm	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nmod	_	04236377-n|Sleeve+
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	8	aux	_	02604760-v|Entity+
+8	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
+9	at	at	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	screen	screen	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	04151581-n|Device+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?

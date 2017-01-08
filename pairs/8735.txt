@@ -1,0 +1,32 @@
+sentence A = A young couple is lying on a bed together.
+sentence B = A young couple is lying on a couch together.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,HumanYouth=,Entity+,Entity+,PhysicalAttribute+,?,?,Bed=,Meeting=,?
+CONCEPTS B: ?,HumanYouth=,Entity+,Entity+,LyingDown=,?,?,Sofa=,Meeting=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
+3	couple	couple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	13743605-n|Entity+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02690708-v|PhysicalAttribute+
+6	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	bed	bed	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	9	compound	_	02818832-n|Bed=
+9	together	together	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	00507927-r|Meeting=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
+3	couple	couple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	13743605-n|Entity+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01985029-v|LyingDown=
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	couch	couch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	04256520-n|Sofa=
+9	together	together	ADV	RB	fPOS=ADV++RB	5	advmod	_	00507927-r|Meeting=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

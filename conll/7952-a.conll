@@ -1,0 +1,16 @@
+# sent_id = 7952a
+# text = Two tall basketball players are scrambling for the ball on the court.
+1	Two	2	NOUN	NN	NumType=Card|fPOS=NUM++CD	4	nummod	_	?|?
+2	tall	tall	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	compound	_	02385102-a|SubjectiveWeakNegativeAttribute+
+3	basketball	basketball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	compound	_	00480993-n|Basketball=
+4	players	player	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	10439851-n|Human+
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	02604760-v|Entity+
+6	scrambling	scramble	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01472807-v|Putting+
+7	for	for	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	02778669-n|Ball=
+10	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	court	court	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	08329453-n|Government+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+

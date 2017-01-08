@@ -1,0 +1,46 @@
+sentence A = The player in purple, white and black is playing near the end of the field.
+sentence B = A player in purple, white and black is playing near the end of the field.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,Actor=,?,ColorAttribute+,?,White=,?,Black=,Entity+,Game+,?,?,Region+,?,?,FieldOfStudy=,?
+CONCEPTS B: ?,Actor=,?,ColorAttribute+,?,White=,?,Black=,Entity+,Game+,?,?,Region+,?,?,FieldOfStudy=,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	09765278-n|Actor=
+3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	purple	purple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	04970059-n|ColorAttribute+
+5	,	,	PUNCT	,	fPOS=PUNCT++,	4	punct	_	?|?
+6	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	4	conj	_	00393105-a|White=
+7	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+8	black	black	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	conj	_	00392812-a|Black=
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
+10	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01072949-v|Game+
+11	near	near	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	end	end	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	08566028-n|Region+
+14	of	of	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+16	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	05996646-n|FieldOfStudy=
+17	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	09765278-n|Actor=
+3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	purple	purple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	04970059-n|ColorAttribute+
+5	,	,	PUNCT	,	fPOS=PUNCT++,	4	punct	_	?|?
+6	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	4	conj	_	00393105-a|White=
+7	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+8	black	black	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	conj	_	00392812-a|Black=
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
+10	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01072949-v|Game+
+11	near	near	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	end	end	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	08566028-n|Region+
+14	of	of	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+16	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	05996646-n|FieldOfStudy=
+17	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?

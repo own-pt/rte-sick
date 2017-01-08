@@ -1,0 +1,30 @@
+sentence A = Some bells are ringing near a cook slicing peppers.
+sentence B = A cook is slicing some bell peppers.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Bell=,Entity+,RadiatingSound=,?,?,Human+,Separating+,SpicePepper=,?
+CONCEPTS B: ?,Human+,Entity+,Separating+,?,Bell=,SpicePepper=,?
+
+CONLL A:
+
+1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?
+2	bells	bell	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02824448-n|Bell=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	ringing	ring	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02180898-v|RadiatingSound=
+5	near	near	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+7	cook	cook	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	09963320-n|Human+
+8	slicing	slice	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	9	amod	_	01254477-v|Separating+
+9	peppers	pepper	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	07815588-n|SpicePepper=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	cook	cook	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	09963320-n|Human+
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	cop	_	02604760-v|Entity+
+4	slicing	slice	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01254477-v|Separating+
+5	some	some	DET	DT	fPOS=DET++DT	7	det	_	?|?
+6	bell	bell	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	7	compound	_	02824448-n|Bell=
+7	peppers	pepper	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	07815588-n|SpicePepper=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

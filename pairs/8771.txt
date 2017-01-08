@@ -1,0 +1,31 @@
+sentence A = A toddler is riding a plastic scooter toy.
+sentence B = A toddler is not riding a plastic scooter toy.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: ?,NonFullyFormed+,Entity+,Carrying=,?,SubjectiveAssessmentAttribute+,LandVehicle+,RecreationOrExerciseDevice+,?
+CONCEPTS B: ?,NonFullyFormed+,Entity+,not=,Carrying=,?,SubjectiveAssessmentAttribute+,LandVehicle+,RecreationOrExerciseDevice+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	toddler	toddler	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10714465-n|NonFullyFormed+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01955984-v|Carrying=
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+6	plastic	plastic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	02364954-a|SubjectiveAssessmentAttribute+
+7	scooter	scooter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	03791053-n|LandVehicle+
+8	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03964744-n|RecreationOrExerciseDevice+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	toddler	toddler	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10714465-n|NonFullyFormed+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	00024073-r|not=
+5	riding	ride	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01955984-v|Carrying=
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+7	plastic	plastic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	02364954-a|SubjectiveAssessmentAttribute+
+8	scooter	scooter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	03791053-n|LandVehicle+
+9	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03964744-n|RecreationOrExerciseDevice+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

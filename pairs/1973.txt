@@ -1,0 +1,35 @@
+sentence A = The woman is playing a guitar, which is acoustic, and singing.
+sentence B = One person is playing the guitar and singing.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Woman=,Entity+,DramaticActing+,?,Guitar=,?,?,Entity+,FieldOfStudy@,?,?,MakingVocalMusic=,?
+CONCEPTS B: ?,Human=,Entity+,DramaticActing+,?,Guitar=,?,MakingVocalMusic=,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03467517-n|Guitar=
+7	,	,	PUNCT	,	fPOS=PUNCT++,	6	punct	_	?|?
+8	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	10	nsubj	_	?|?
+9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	10	cop	_	02604760-v|Entity+
+10	acoustic	acoustic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	acl:relcl	_	02868489-a|FieldOfStudy@
+11	,	,	PUNCT	,	fPOS=PUNCT++,	10	punct	_	?|?
+12	and	and	CONJ	CC	fPOS=CONJ++CC	10	cc	_	?|?
+13	singing	sing	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	10	conj	_	01731031-v|MakingVocalMusic=
+14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03467517-n|Guitar=
+7	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+8	singing	sing	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01731031-v|MakingVocalMusic=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

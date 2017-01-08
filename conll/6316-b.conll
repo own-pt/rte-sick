@@ -1,0 +1,16 @@
+# sent_id = 6316b
+# text = A yellow dog is running on white snow on a sunny day.
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	00393105-a|White=
+8	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	15043763-n|Snowing=
+9	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+11	sunny	sunny	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00363938-a|Happiness+
+12	day	day	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	15155220-n|Day=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+

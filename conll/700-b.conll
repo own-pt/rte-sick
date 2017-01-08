@@ -1,0 +1,18 @@
+# sent_id = 700b
+# text = A dog in a bucket is biting a tree which is probably a pine.
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	02084071-n|Canine+
+3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	bucket	bucket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	02909870-n|Container+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	biting	bite	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02079313-a|SubjectiveStrongNegativeAttribute+
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	13912260-n|ContentBearingObject+
+10	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	14	nsubj	_	?|?
+11	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	14	cop	_	02604760-v|Entity+
+12	probably	probably	ADV	RB	fPOS=ADV++RB	14	advmod	_	00296131-r|SubjectiveAssessmentAttribute+
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+14	pine	pine	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	acl:relcl	_	11608250-n|PineTree=
+15	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+

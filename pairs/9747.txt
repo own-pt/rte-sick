@@ -1,0 +1,46 @@
+sentence A = A little boy is sticking his tongue out for the camera and another boy is looking on.
+sentence B = Two kids are looking up at the camera and one is sticking out his tongue.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Attaching+,?,Tongue=,Giving+,?,?,Camera=,?,?,Human+,Entity+,SubjectiveAssessmentAttribute+,?,?
+CONCEPTS B: ?,HumanChild=,Entity+,SubjectiveAssessmentAttribute+,Increasing+,?,?,Camera=,?,?,Entity+,Attaching+,Giving+,?,Tongue=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10285313-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	02604760-v|Entity+
+5	sticking	stick	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01614581-v|Attaching+
+6	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	7	nmod:poss	_	?|?
+7	tongue	tongue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	05301072-n|Tongue=
+8	out	out	ADP	RP	fPOS=ADP++RP	5	compound:prt	_	00233413-r|Giving+
+9	for	for	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02942699-n|Camera=
+12	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+13	another	another	DET	DT	fPOS=DET++DT	14	det	_	?|?
+14	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nsubj	_	10285313-n|Human+
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	16	aux	_	02604760-v|Entity+
+16	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	02133435-v|SubjectiveAssessmentAttribute+
+17	on	on	ADP	IN	fPOS=ADP++RP	16	nmod	_	?|?
+18	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	Two	2	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	compound	_	?|?
+2	kids	kid	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	09917593-n|HumanChild=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
+5	up	up	ADP	RP	fPOS=ADP++RP	4	compound:prt	_	00097011-r|Increasing+
+6	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02942699-n|Camera=
+9	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+10	one	one	NUM	CD	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	?|?
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	02604760-v|Entity+
+12	sticking	stick	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	01614581-v|Attaching+
+13	out	out	ADP	IN	fPOS=ADP++IN	15	case	_	00233413-r|Giving+
+14	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	15	nmod:poss	_	?|?
+15	tongue	tongue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	05301072-n|Tongue=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

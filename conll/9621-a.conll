@@ -1,0 +1,18 @@
+# sent_id = 9621a
+# text = Two people are seated on a camel and another camel is in the foreground.
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubjpass	_	07942152-n|GroupOfPeople=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	auxpass	_	02604760-v|Entity+
+4	seated	seat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	01543998-v|Communication+
+5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	camel	camel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02437136-n|Camel=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	another	another	DET	DT	fPOS=DET++DT	10	det	_	?|?
+10	camel	camel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nsubj	_	02437136-n|Camel=
+11	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	14	cop	_	02604760-v|Entity+
+12	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+14	foreground	foreground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	conj	_	03382708-n|Region+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+

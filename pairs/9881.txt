@@ -1,0 +1,29 @@
+sentence A = A person is dancing on a roof.
+sentence B = A white dog is standing on fallen leaves.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Human=,Entity+,Dancing+,?,?,Roof=,?
+CONCEPTS B: ?,White=,Canine+,Entity+,PhysicalAttribute+,?,Getting+,Leaf=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	cop	_	02604760-v|Entity+
+4	dancing	dance	NOUN	NN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01708676-v|Dancing+
+5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	roof	roof	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04105068-n|Roof=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00393105-a|White=
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	fallen	fall	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	02229828-v|Getting+
+8	leaves	leaf	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	13152742-n|Leaf=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

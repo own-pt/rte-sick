@@ -1,0 +1,42 @@
+sentence A = A shirtless man is escorting a horse that is pulling a carriage along a paved road.
+sentence B = A shirtless man is leading a horse that is pulling a carriage.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,?,Man=,Entity+,Meeting+,?,Horse=,?,Entity+,Transportation+,?,UnpoweredVehicle+,?,?,Covering+,Roadway+,?
+CONCEPTS B: ?,?,Hominid=,Entity+,FrontFn+,?,Horse=,?,Entity+,Transportation+,?,UnpoweredVehicle+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	shirtless	shirtless	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	?|?
+3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10287213-n|Man=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	02604760-v|Entity+
+5	escorting	escort	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02025829-v|Meeting+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02374451-n|Horse=
+8	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	10	nsubj	_	?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
+10	pulling	pull	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	7	acl:relcl	_	02057499-v|Transportation+
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	carriage	carriage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	02968473-n|UnpoweredVehicle+
+13	along	along	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+15	paved	pave	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	16	amod	_	01267098-v|Covering+
+16	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	04096066-n|Roadway+
+17	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	shirtless	shirtless	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	?|?
+3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02472293-n|Hominid=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	leading	lead	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00198904-a|FrontFn+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02374451-n|Horse=
+8	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	10	nsubj	_	?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	10	aux	_	02604760-v|Entity+
+10	pulling	pull	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	acl:relcl	_	02057499-v|Transportation+
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	carriage	carriage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	02968473-n|UnpoweredVehicle+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

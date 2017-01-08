@@ -1,0 +1,26 @@
+sentence A = A cat is playing a keyboard.
+sentence B = A musician is playing two keyboards.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Whip+,Entity+,DramaticActing+,?,ComputerInputDevice+,?
+CONCEPTS B: ?,Musician+,Entity+,DramaticActing+,?,ComputerInputDevice+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02985606-n|Whip+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	keyboard	keyboard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03614007-n|ComputerInputDevice+
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	musician	musician	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	nsubj	_	10340312-n|Musician+
+3	is	be	VERB	VBZ	Number=Plur|fPOS=NOUN++NNS	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	6	nummod	_	?|?
+6	keyboards	keyboard	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	03614007-n|ComputerInputDevice+
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

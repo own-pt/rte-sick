@@ -1,0 +1,38 @@
+sentence A = A girl in a uniform, which is blue, is raising her arm.
+sentence B = The girl in the blue and white uniform is cheering.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Human+,?,?,UniformClothing=,?,?,Entity+,Blue=,?,Entity+,Increasing+,?,Sleeve+,?
+CONCEPTS B: ?,Human+,?,?,Blue=,?,White=,UniformClothing=,Entity+,Communication+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	10129825-n|Human+
+3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	uniform	uniform	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	04509592-n|UniformClothing=
+6	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
+7	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	9	nsubj	_	?|?
+8	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	9	cop	_	02604760-v|Entity+
+9	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	01606058-a|Blue=
+10	,	,	PUNCT	,	fPOS=PUNCT++,	12	punct	_	?|?
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	02604760-v|Entity+
+12	raising	raise	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00229605-v|Increasing+
+13	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	14	nmod:poss	_	?|?
+14	arm	arm	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	dobj	_	04236377-n|Sleeve+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	10129825-n|Human+
+3	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+5	blue	blue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	01606058-a|Blue=
+6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+7	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	conj	_	00393105-a|White=
+8	uniform	uniform	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	04509592-n|UniformClothing=
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
+10	cheering	cheer	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00859153-v|Communication+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?

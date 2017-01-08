@@ -1,0 +1,37 @@
+sentence A = A woman is using an eye pencil and is applying eye liner to her eyelid.
+sentence B = A woman is removing cosmetics from her eyelid.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: ?,Woman=,Entity+,IntentionalProcess+,?,Organ+,Pencil=,?,Entity+,IntentionalProcess+,Organ+,Impelling+,?,?,Eyelid+,?
+CONCEPTS B: ?,Woman=,Entity+,LeavingAnOrganization+,Mixture+,?,?,Eyelid+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	using	use	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01158872-v|IntentionalProcess+
+5	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	eye	eye	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	05311054-n|Organ+
+7	pencil	pencil	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03908204-n|Pencil=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	10	aux	_	02604760-v|Entity+
+10	applying	apply	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	4	conj	_	01158872-v|IntentionalProcess+
+11	eye	eye	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	05311054-n|Organ+
+12	liner	liner	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	00131608-n|Impelling+
+13	to	to	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	15	nmod:poss	_	?|?
+15	eyelid	eyelid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	05313822-n|Eyelid+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	removing	remove	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02404224-v|LeavingAnOrganization+
+5	cosmetics	cosmetic	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	03113152-n|Mixture+
+6	from	from	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	8	nmod:poss	_	?|?
+8	eyelid	eyelid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05313822-n|Eyelid+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

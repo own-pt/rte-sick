@@ -1,0 +1,45 @@
+sentence A = A boy in a striped shirt is jumping in front of a water fountain.
+sentence B = A boy is jumping on the side of a stone water fountain in front of a building.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Human+,?,?,VisualAttribute+,Shirt=,Entity+,Ambulating=,?,FrontFn=,?,?,Water=,Creek+,?
+CONCEPTS B: ?,Human+,Entity+,Ambulating=,?,?,Object+,?,?,Mineral+,Water=,Creek+,?,FrontFn=,?,?,Building=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10285313-n|Human+
+3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+5	striped	striped	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	01790807-a|VisualAttribute+
+6	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	04197391-n|Shirt=
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+8	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+9	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+10	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	03398467-n|FrontFn=
+11	of	of	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+13	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	14845743-n|Water=
+14	fountain	fountain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	09443453-n|Creek+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10285313-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	side	side	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	08510666-n|Object+
+8	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+10	stone	stone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	14696793-n|Mineral+
+11	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	14845743-n|Water=
+12	fountain	fountain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	09443453-n|Creek+
+13	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+14	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	08573472-n|FrontFn=
+15	of	of	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
+16	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	?|?
+17	building	building	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	02913152-n|Building=
+18	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

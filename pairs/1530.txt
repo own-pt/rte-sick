@@ -1,0 +1,22 @@
+sentence A = A horse is standing.
+sentence B = A horse is running.
+entailm AB = A_contradicts_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Horse=,Entity+,PhysicalAttribute+,?
+CONCEPTS B: ?,Horse=,Entity+,Attribute+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02374451-n|Horse=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+5	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02374451-n|Horse=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+5	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

@@ -1,0 +1,26 @@
+sentence A = The man is putting away the bread.
+sentence B = The woman is slicing herbs.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Hominid=,Entity+,Putting=,?,?,BreadOrBiscuit+,?
+CONCEPTS B: ?,Woman=,Entity+,Separating+,FloweringPlant+,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01494310-v|Putting=
+5	away	away	ADP	RP	fPOS=ADP++IN	4	compound:prt	_	00234951-r|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	bread	bread	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07679356-n|BreadOrBiscuit+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	slicing	slice	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01254477-v|Separating+
+5	herbs	herb	NOUN	NNS	fPOS=INTJ++UH	4	dobj	_	12205694-n|FloweringPlant+
+6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

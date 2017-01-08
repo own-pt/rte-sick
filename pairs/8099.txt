@@ -1,0 +1,37 @@
+sentence A = A young boy in a helmet is riding a bike on the road.
+sentence B = The little boy is riding a bicycle in a race.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,HumanYouth=,Human+,?,?,Clothing+,Entity+,Transportation+,?,Bicycle=,?,?,Roadway+,?
+CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Carrying=,?,Bicycle=,?,?,Racing=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
+3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10285313-n|Human+
+4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	helmet	helmet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	03513376-n|Clothing+
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+8	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02102398-v|Transportation+
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	02834778-n|Bicycle=
+11	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	04096066-n|Roadway+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10285313-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01955984-v|Carrying=
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	bicycle	bicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02834778-n|Bicycle=
+8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	07458453-n|Racing=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

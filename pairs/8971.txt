@@ -1,0 +1,41 @@
+sentence A = A dog has its head inside a red and green gift bag.
+sentence B = The red and brown dog is not digging its nose inside a holiday gift bag.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Canine+,Damaging+,?,Head=,?,?,Red=,?,Green=,PsychologicalAttribute+,Container+,?
+CONCEPTS B: ?,Red=,?,Human+,Canine+,Entity+,not=,Making+,?,Nose+,?,?,Vacationing=,PsychologicalAttribute+,Container+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	02084071-n|Canine+
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	0	ROOT	_	00065639-v|Damaging+
+4	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	5	nmod:poss	_	?|?
+5	head	head	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	05538625-n|Head=
+6	inside	inside	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+8	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00381097-a|Red=
+9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
+10	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	conj	_	00375969-a|Green=
+11	gift	gift	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	12	compound	_	05624042-n|PsychologicalAttribute+
+12	bag	bag	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	02773037-n|Container+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+2	red	red	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	00381097-a|Red=
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	00245112-a|Human+
+5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	02084071-n|Canine+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+7	not	not	PART	RB	fPOS=PART++RB	8	neg	_	00024073-r|not=
+8	digging	dig	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01309701-v|Making+
+9	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	10	nmod:poss	_	?|?
+10	nose	nose	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	05598147-n|Nose+
+11	inside	inside	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+13	holiday	holiday	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	15137890-n|Vacationing=
+14	gift	gift	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	compound	_	05624042-n|PsychologicalAttribute+
+15	bag	bag	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	02773037-n|Container+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?

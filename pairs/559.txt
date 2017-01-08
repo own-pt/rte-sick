@@ -1,0 +1,43 @@
+sentence A = The backyard light is playing tricks in the dark on the brown and black dog.
+sentence B = A dark black dog and a light brown dog are playing in the backyard.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Lawn+,RadiatingVisibleLight+,Entity+,DramaticActing+,RecreationOrExercise+,?,?,Unilluminated=,?,?,Human+,?,SubjectiveWeakNegativeAttribute+,Canine+,?
+CONCEPTS B: ?,SubjectiveWeakNegativeAttribute+,SubjectiveWeakNegativeAttribute+,Canine+,?,?,SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,DramaticActing+,?,?,Lawn+,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	backyard	backyard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	02772197-n|Lawn+
+3	light	light	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	11473954-n|RadiatingVisibleLight+
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
+5	playing	play	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	01719302-v|DramaticActing+
+6	tricks	trick	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	00427580-n|RecreationOrExercise+
+7	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	dark	dark	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	13983515-n|Unilluminated=
+10	on	on	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+12	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	amod	_	00245112-a|Human+
+13	and	and	CONJ	CC	fPOS=CONJ++CC	12	cc	_	?|?
+14	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	conj	_	01131935-a|SubjectiveWeakNegativeAttribute+
+15	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	02084071-n|Canine+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?
+2	dark	dark	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	amod	_	00409440-a|SubjectiveWeakNegativeAttribute+
+3	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	01131935-a|SubjectiveWeakNegativeAttribute+
+4	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	02084071-n|Canine+
+5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+7	light	light	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	01186408-a|SubjectiveWeakPositiveAttribute+
+8	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	00245112-a|Human+
+9	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	conj	_	02084071-n|Canine+
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	11	aux	_	02604760-v|Entity+
+11	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+12	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+14	backyard	backyard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	02772197-n|Lawn+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?

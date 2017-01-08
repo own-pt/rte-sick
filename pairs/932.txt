@@ -1,0 +1,34 @@
+sentence A = A bubble blew, dyeing the girl's shirt red.
+sentence B = The young girl is blowing a bubble that is huge.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Bubble+,Exhaling+,?,Coloring+,?,Human+,?,Shirt=,Red+,?
+CONCEPTS B: ?,HumanYouth=,Human+,Entity+,Exhaling+,?,Bubble+,?,Entity+,SubjectiveWeakNegativeAttribute+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	bubble	bubble	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	09229709-n|Bubble+
+3	blew	blow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	00007012-v|Exhaling+
+4	,	,	PUNCT	,	fPOS=PUNCT++,	3	punct	_	?|?
+5	dyeing	dye	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	3	acl	_	00283090-v|Coloring+
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod:poss	_	10129825-n|Human+
+8	's	's	PART	POS	fPOS=PART++POS	7	case	_	?|?
+9	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	04197391-n|Shirt=
+10	red	red	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	0	ROOT	_	04962784-n|Red+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10129825-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	blowing	blow	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00007012-v|Exhaling+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	bubble	bubble	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	09229709-n|Bubble+
+8	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	10	nsubj	_	?|?
+9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	10	cop	_	02604760-v|Entity+
+10	huge	huge	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	acl:relcl	_	01387319-a|SubjectiveWeakNegativeAttribute+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

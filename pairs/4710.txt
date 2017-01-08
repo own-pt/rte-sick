@@ -1,0 +1,35 @@
+sentence A = Some pieces of butter are being added to the stand mixer.
+sentence B = Pieces of butter are being added to the stand mixer.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,TimeDuration+,?,Butter=,Entity+,Entity+,Putting=,?,?,SubjectiveAssessmentAttribute=,Device+,?
+CONCEPTS B: TimeDuration+,?,Butter=,Entity+,Entity+,Putting=,?,?,SubjectiveAssessmentAttribute=,Device+,?
+
+CONLL A:
+
+1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?
+2	pieces	piece	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubjpass	_	15246353-n|TimeDuration+
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	butter	butter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	07848338-n|Butter=
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	02604760-v|Entity+
+6	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	7	auxpass	_	02604760-v|Entity+
+7	added	add	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	00182406-v|Putting=
+8	to	to	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+10	stand	stand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	06210363-n|SubjectiveAssessmentAttribute=
+11	mixer	mixer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	03775199-n|Device+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+CONLL B:
+
+1	Pieces	piece	NOUN	NNS	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	nsubjpass	_	15246353-n|TimeDuration+
+2	of	of	ADP	IN	fPOS=ADP++IN	3	case	_	?|?
+3	butter	butter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	1	nmod	_	07848338-n|Butter=
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	02604760-v|Entity+
+5	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	6	auxpass	_	02604760-v|Entity+
+6	added	add	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	00182406-v|Putting=
+7	to	to	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+9	stand	stand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	06210363-n|SubjectiveAssessmentAttribute=
+10	mixer	mixer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03775199-n|Device+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

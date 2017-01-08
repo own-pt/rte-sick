@@ -1,0 +1,31 @@
+sentence A = The young lady is measuring the ankle of another woman.
+sentence B = The woman is measuring the other woman.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,HumanYouth=,Human+,Entity+,Measuring+,?,Ankle+,?,?,Woman=,?
+CONCEPTS B: ?,Woman=,Entity+,Measuring+,?,equal+,Woman=,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
+3	lady	lady	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	09989290-n|Human+
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	02604760-v|Entity+
+5	measuring	measure	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	00647094-v|Measuring+
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	ankle	ankle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	05578442-n|Ankle+
+8	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	another	another	DET	DT	fPOS=DET++DT	10	det	_	?|?
+10	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	10787470-n|Woman=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	measuring	measure	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	00647094-v|Measuring+
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	02069355-a|equal+
+7	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	10787470-n|Woman=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

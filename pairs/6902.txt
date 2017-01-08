@@ -1,0 +1,53 @@
+sentence A = There is no young man with brown hair and sunglasses sitting in front of some cans of soda.
+sentence B = The man with brown hair is wearing sunglasses and is sitting at a table with cans of soda and other drinks.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: ?,PhysicalAttribute+,?,HumanYouth=,Man=,?,Human+,Hair=,?,Device+,SittingDown+,?,FrontFn=,?,?,Toilet+,?,Soda=,?
+CONCEPTS B: ?,Man=,?,Human+,Hair=,PhysicalAttribute+,CoveringFn=,Device+,?,PhysicalAttribute+,SittingDown+,?,?,ContentBearingObject+,?,Toilet+,?,Soda=,?,equal+,Beverage=,?
+
+CONLL A:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02655135-v|PhysicalAttribute+
+3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	?|?
+4	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	01646941-a|HumanYouth=
+5	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	10287213-n|Man=
+6	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	8	compound	_	00245112-a|Human+
+8	hair	hair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	05254795-n|Hair=
+9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
+10	sunglasses	sunglass	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	conj	_	04355933-n|Device+
+11	sitting	sit	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	5	acl	_	01543123-v|SittingDown+
+12	in	in	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+13	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	08573472-n|FrontFn=
+14	of	of	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+15	some	some	DET	DT	fPOS=DET++DT	16	det	_	?|?
+16	cans	can	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	nmod	_	04446521-n|Toilet+
+17	of	of	ADP	IN	fPOS=ADP++IN	18	case	_	?|?
+18	soda	soda	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	07927512-n|Soda=
+19	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10287213-n|Man=
+3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	compound	_	00245112-a|Human+
+5	hair	hair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	05254795-n|Hair=
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	cop	_	02655135-v|PhysicalAttribute+
+7	wearing	wear	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	00047745-v|CoveringFn=
+8	sunglasses	sunglass	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	04355933-n|Device+
+9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	02655135-v|PhysicalAttribute+
+11	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	8	conj	_	01543123-v|SittingDown+
+12	at	at	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+14	table	table	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	nmod	_	08266235-n|ContentBearingObject+
+15	with	with	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+16	cans	can	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	nmod	_	04446521-n|Toilet+
+17	of	of	ADP	IN	fPOS=ADP++IN	18	case	_	?|?
+18	soda	soda	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	07927512-n|Soda=
+19	and	and	CONJ	CC	fPOS=CONJ++CC	18	cc	_	?|?
+20	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	21	amod	_	02069355-a|equal+
+21	drinks	drink	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	18	conj	_	07881800-n|Beverage=
+22	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?

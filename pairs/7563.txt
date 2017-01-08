@@ -1,0 +1,47 @@
+sentence A = A boy, who is little, is sitting in a green tunnel with a smile on his face.
+sentence B = A small boy in a striped shirt is sliding out of a green tube.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Human+,?,?,PhysicalAttribute+,SubjectiveStrongNegativeAttribute+,?,PhysicalAttribute+,SittingDown+,?,?,Green=,StationaryArtifact+,?,?,Smiling+,?,?,Face+,?
+CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,?,?,VisualAttribute+,Shirt=,Entity+,Translocation+,Giving+,?,?,Green=,EngineeringComponent+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10285313-n|Human+
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
+4	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	6	nsubj	_	?|?
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02655135-v|PhysicalAttribute+
+6	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	01391351-a|SubjectiveStrongNegativeAttribute+
+7	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	?|?
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02655135-v|PhysicalAttribute+
+9	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+10	in	in	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+12	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	00375969-a|Green=
+13	tunnel	tunnel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04497962-n|StationaryArtifact+
+14	with	with	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+16	smile	smile	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	06878071-n|Smiling+
+17	on	on	ADP	IN	fPOS=ADP++IN	19	case	_	?|?
+18	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	19	nmod:poss	_	?|?
+19	face	face	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	05600637-n|Face+
+20	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10285313-n|Human+
+4	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	striped	striped	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	01790807-a|VisualAttribute+
+7	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	04197391-n|Shirt=
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+9	sliding	slide	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02090990-v|Translocation+
+10	out	out	ADP	IN	fPOS=ADP++IN	14	case	_	00233413-r|Giving+
+11	of	of	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+13	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	00375969-a|Green=
+14	tube	tube	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04494204-n|EngineeringComponent+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?

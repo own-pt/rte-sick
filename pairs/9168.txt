@@ -1,0 +1,36 @@
+sentence A = A small brown and white dog is running on the sidewalk.
+sentence B = A little brown and white dog is running on the sidewalk.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,?,White=,Canine+,Entity+,Attribute+,?,?,Sidewalk=,?
+CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,?,White=,Canine+,Entity+,Attribute+,?,?,Sidewalk=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	00245112-a|Human+
+4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	?|?
+5	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	conj	_	00393105-a|White=
+6	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	02084071-n|Canine+
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+8	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+9	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	sidewalk	sidewalk	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	04215402-n|Sidewalk=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	00245112-a|Human+
+4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	?|?
+5	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00393105-a|White=
+6	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	conj	_	02084071-n|Canine+
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+8	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+9	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	sidewalk	sidewalk	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	04215402-n|Sidewalk=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?

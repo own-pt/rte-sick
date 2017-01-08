@@ -1,0 +1,36 @@
+sentence A = A dog is excitedly playing with water in the grass.
+sentence B = A snap is depicting some water falling in droplets on the dog.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Canine+,Entity+,SubjectiveAssessmentAttribute+,DramaticActing+,?,Water=,?,?,Grass=,?
+CONCEPTS B: ?,SubjectiveAssessmentAttribute+,Entity+,Icon+,?,Water=,Getting+,?,SubjectiveAssessmentAttribute+,?,?,Canine+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	excitedly	excitedly	ADV	RB	fPOS=ADV++RB	5	advmod	_	00153977-r|SubjectiveAssessmentAttribute+
+5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+6	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+7	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	14845743-n|Water=
+8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	12102133-n|Grass=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	snap	snap	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00575365-n|SubjectiveAssessmentAttribute+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	depicting	depict	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01686956-v|Icon+
+5	some	some	DET	DT	fPOS=DET++DT	7	det	_	?|?
+6	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	14845743-n|Water=
+7	falling	fall	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	4	dobj	_	02229828-v|Getting+
+8	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+9	droplets	droplet	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	13771828-n|SubjectiveAssessmentAttribute+
+10	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	02084071-n|Canine+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

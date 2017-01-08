@@ -1,0 +1,23 @@
+sentence A = Some fish are swimming quickly.
+sentence B = Some fish are swimming.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Fish=,Entity+,Swimming+,SubjectiveAssessmentAttribute+,?
+CONCEPTS B: ?,Fish=,Entity+,Swimming+,?
+
+CONLL A:
+
+1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?
+2	fish	fish	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02512053-n|Fish=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	swimming	swim	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01960911-v|Swimming+
+5	quickly	quickly	ADV	RB	fPOS=ADV++RB	4	advmod	_	00085811-r|SubjectiveAssessmentAttribute+
+6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?
+2	fish	fish	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02512053-n|Fish=
+3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	cop	_	02604760-v|Entity+
+4	swimming	swim	ADJ	JJ	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01960911-v|Swimming+
+5	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

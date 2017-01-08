@@ -1,0 +1,51 @@
+sentence A = A large dog is running on the grass with a tennis ball in its mouth.
+sentence B = A large tennis ball is being used to teach a dog to run in the grass and catch it with its mouth.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Attribute+,?,?,Grass=,?,?,Tennis=,Ball=,?,?,Mouth+,?
+CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Tennis=,Ball=,Entity+,Entity+,IntentionalProcess+,?,EducationalProcess=,?,Canine+,?,Attribute+,?,?,Grass=,?,Grabbing+,?,?,?,Mouth+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	12102133-n|Grass=
+9	with	with	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+11	tennis	tennis	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	00482298-n|Tennis=
+12	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	02778669-n|Ball=
+13	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	15	nmod:poss	_	?|?
+15	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	05302499-n|Mouth+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?
+2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+3	tennis	tennis	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	compound	_	00482298-n|Tennis=
+4	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubjpass	_	02778669-n|Ball=
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+6	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	7	auxpass	_	02604760-v|Entity+
+7	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	01158872-v|IntentionalProcess+
+8	to	to	PART	TO	fPOS=PART++TO	9	mark	_	?|?
+9	teach	teach	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	7	xcomp	_	00829107-v|EducationalProcess=
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	02084071-n|Canine+
+12	to	to	PART	TO	fPOS=PART++TO	13	mark	_	?|?
+13	run	run	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	11	acl	_	01525666-v|Attribute+
+14	in	in	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+16	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	12102133-n|Grass=
+17	and	and	CONJ	CC	fPOS=CONJ++CC	13	cc	_	?|?
+18	catch	catch	VERB	VB	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	13	conj	_	01439190-v|Grabbing+
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	18	dobj	_	?|?
+20	with	with	ADP	IN	fPOS=ADP++IN	22	case	_	?|?
+21	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	22	nmod:poss	_	?|?
+22	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	18	nmod	_	05302499-n|Mouth+
+23	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

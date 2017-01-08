@@ -1,0 +1,29 @@
+sentence A = Three boys in karate costumes are fighting.
+sentence B = Three men are practicing karate in a field.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Human+,?,Karate=,Clothing+,Entity+,ViolentContest+,?
+CONCEPTS B: ?,Hominid=,Entity+,Position+,Karate=,?,?,FieldOfStudy=,?
+
+CONLL A:
+
+1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubj	_	10285313-n|Human+
+3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	karate	karate	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	00826397-n|Karate=
+5	costumes	costume	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	03113657-n|Clothing+
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	02604760-v|Entity+
+7	fighting	fight	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01090335-v|ViolentContest+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+CONLL B:
+
+1	Three	3	NUM	CD	Number=Plur|PronType=Dem|fPOS=DET++DT	2	nummod	_	?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02472293-n|Hominid=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	practicing	practice	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02568672-v|Position+
+5	karate	karate	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00826397-n|Karate=
+6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05996646-n|FieldOfStudy=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

@@ -1,0 +1,18 @@
+# sent_id = 7271b
+# text = A brown duck with a green head is flapping its wings in the water.
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00245112-a|Human+
+3	duck	duck	VERB	VB	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	01846331-n|Duck=
+4	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	green	green	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	amod	_	00375969-a|Green=
+7	head	head	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	05538625-n|Head=
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+9	flapping	flap	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02093610-v|Motion+
+10	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	11	nmod:poss	_	?|?
+11	wings	wing	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	dobj	_	02151625-n|Organ+
+12	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+14	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	14845743-n|Water=
+15	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+

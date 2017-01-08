@@ -1,0 +1,50 @@
+sentence A = A man is wearing a blue shirt which has long sleeves and jeans and is riding a unicycle down a street.
+sentence B = A man is wearing a blue checkered shirt and riding a unicycle in the street.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Man=,Entity+,Putting+,?,SubjectiveStrongNegativeAttribute+,Shirt=,?,Attribute+,SubjectiveAssessmentAttribute+,Sleeve+,?,Trousers+,?,Entity+,Transportation+,?,AgentPoweredVehicle+,?,?,Roadway=,?
+CONCEPTS B: ?,Man=,Entity+,Putting+,?,SubjectiveStrongNegativeAttribute+,SurfaceChange+,Shirt=,?,Transportation+,?,AgentPoweredVehicle+,?,?,Roadway=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10287213-n|Man=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00052374-v|Putting+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
+7	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	04197391-n|Shirt=
+8	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	10	nsubj	_	?|?
+9	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02630189-v|Attribute+
+10	long	long	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	7	acl:relcl	_	01433493-a|SubjectiveAssessmentAttribute+
+11	sleeves	sleeve	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	dobj	_	04236377-n|Sleeve+
+12	and	and	CONJ	CC	fPOS=CONJ++CC	11	cc	_	?|?
+13	jeans	jean	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	conj	_	03594734-n|Trousers+
+14	and	and	CONJ	CC	fPOS=CONJ++CC	10	cc	_	?|?
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	16	aux	_	02604760-v|Entity+
+16	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	10	conj	_	02102398-v|Transportation+
+17	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	18	det	_	?|?
+18	unicycle	unicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	dobj	_	04509417-n|AgentPoweredVehicle+
+19	down	down	ADP	RP	fPOS=ADP++RP	16	compound:prt	_	?|?
+20	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	21	det	_	?|?
+21	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod:npmod	_	04334599-n|Roadway=
+22	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10287213-n|Man=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00052374-v|Putting+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+6	blue	blue	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	compound	_	00425002-a|SubjectiveStrongNegativeAttribute+
+7	checkered	checker	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	8	amod	_	01692978-v|SurfaceChange+
+8	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	04197391-n|Shirt=
+9	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+10	riding	ride	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	02102398-v|Transportation+
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	unicycle	unicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	04509417-n|AgentPoweredVehicle+
+13	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	04334599-n|Roadway=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

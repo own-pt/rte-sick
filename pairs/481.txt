@@ -1,0 +1,34 @@
+sentence A = A laughing child is holding a water gun and getting sprayed with water.
+sentence B = A child is holding a squirt gun.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Laughing=,HumanChild=,Entity+,Keeping+,?,Water=,Gun=,?,Process+,Spraying=,?,Water=,?
+CONCEPTS B: ?,HumanChild=,Entity+,PhysicalAttribute+,?,Motion+,Gun=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	laughing	laugh	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	00031820-v|Laughing=
+3	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	09917593-n|HumanChild=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02681795-v|Keeping+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	14845743-n|Water=
+8	gun	gun	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03467984-n|Gun=
+9	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+10	getting	get	VERB	VBG	Number=Sing|fPOS=NOUN++NN	11	auxpass	_	00120316-v|Process+
+11	sprayed	spray	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	5	conj	_	01372682-v|Spraying=
+12	with	with	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+13	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	14845743-n|Water=
+14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	09917593-n|HumanChild=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02701210-v|PhysicalAttribute+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	squirt	squirt	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	07436100-n|Motion+
+7	gun	gun	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03467984-n|Gun=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

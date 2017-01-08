@@ -1,0 +1,34 @@
+sentence A = Two boys on a couch are playing games on the TV.
+sentence B = Two boys on a couch are playing video games.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Human+,?,?,Sofa=,Entity+,DramaticActing+,Game=,?,?,TelevisionBroadcasting+,?
+CONCEPTS B: ?,Human+,?,?,Sofa=,Entity+,DramaticActing+,TelevisionBroadcasting+,Game=,?
+
+CONLL A:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubj	_	10285313-n|Human+
+3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	couch	couch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	04256520-n|Sofa=
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	02604760-v|Entity+
+7	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+8	games	game	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	dobj	_	00455599-n|Game=
+9	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	TV	tv	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	06277280-n|TelevisionBroadcasting+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+CONLL B:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubj	_	10285313-n|Human+
+3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	couch	couch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	04256520-n|Sofa=
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	02604760-v|Entity+
+7	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+8	video	video	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	06277280-n|TelevisionBroadcasting+
+9	games	game	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	dobj	_	00455599-n|Game=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

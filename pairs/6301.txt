@@ -1,0 +1,39 @@
+sentence A = A woman, who is shoeless, is sitting on a blanket under a lavender umbrella.
+sentence B = The man is sitting outside under a purple umbrella.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Woman=,?,?,PhysicalAttribute+,Clothing[,?,PhysicalAttribute+,SittingDown+,?,?,Blanket+,?,?,FloweringPlant+,Device+,?
+CONCEPTS B: ?,Hominid=,PhysicalAttribute+,SittingDown+,?,?,?,SocialRole+,Device+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10787470-n|Woman=
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
+4	who	who	PRON	WP	PronType=Int|fPOS=PRON++WP	6	nsubj	_	?|?
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02655135-v|PhysicalAttribute+
+6	shoeless	shoeless	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	02156686-a|Clothing[
+7	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	?|?
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02655135-v|PhysicalAttribute+
+9	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+10	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	blanket	blanket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	02849154-n|Blanket+
+13	under	under	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+15	lavender	lavender	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	compound	_	12849717-n|FloweringPlant+
+16	umbrella	umbrella	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04507155-n|Device+
+17	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+5	outside	outside	ADV	RB	fPOS=ADV++RB	4	advmod	_	?|?
+6	under	under	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	purple	purple	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	01591394-a|SocialRole+
+9	umbrella	umbrella	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04507155-n|Device+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

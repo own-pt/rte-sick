@@ -1,0 +1,30 @@
+sentence A = A pan is being dropped over the meat.
+sentence B = The meat is being dropped into a pan.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,PotOrPan=,Entity+,Entity+,MotionDownward=,?,?,SubjectiveAssessmentAttribute+,?
+CONCEPTS B: ?,SubjectiveAssessmentAttribute+,Entity+,Entity+,MotionDownward=,?,?,PotOrPan=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	pan	pan	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	03880531-n|PotOrPan=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	02604760-v|Entity+
+5	dropped	drop	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	01977701-v|MotionDownward=
+6	over	over	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	meat	meat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	05921123-n|SubjectiveAssessmentAttribute+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	meat	meat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	05921123-n|SubjectiveAssessmentAttribute+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	02604760-v|Entity+
+5	dropped	drop	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	01977701-v|MotionDownward=
+6	into	into	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	pan	pan	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03880531-n|PotOrPan=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

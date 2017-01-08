@@ -1,0 +1,41 @@
+sentence A = A large brown dog and a small grey dog are standing on a rocky surface.
+sentence B = The brown dog is sniffing the back of a small black dog.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Human+,Canine+,?,?,SubjectiveStrongNegativeAttribute+,Gray+,Canine+,Entity+,PhysicalAttribute+,?,?,TextureAttribute+,Region+,?
+CONCEPTS B: ?,Human+,Canine+,Entity+,Smelling+,?,CorpuscularObject+,?,?,SubjectiveStrongNegativeAttribute+,Black=,Canine+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?
+2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+3	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	00245112-a|Human+
+4	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	02084071-n|Canine+
+5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+7	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+8	grey	grey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	04961691-n|Gray+
+9	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	conj	_	02084071-n|Canine+
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	11	aux	_	02604760-v|Entity+
+11	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+12	on	on	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+14	rocky	rocky	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	02243567-a|TextureAttribute+
+15	surface	surface	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	08660339-n|Region+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	brown	brown	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	00245112-a|Human+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	sniffing	sniff	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02125032-v|Smelling+
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	back	back	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02767433-n|CorpuscularObject+
+8	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+10	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+11	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00392812-a|Black=
+12	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	02084071-n|Canine+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

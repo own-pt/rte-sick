@@ -1,0 +1,34 @@
+sentence A = A monkey is kicking at the gloved hand of a person.
+sentence B = A monkey is kicking at a person's glove.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Human+,Entity+,Expressing+,?,?,?,Hand+,?,?,Human=,?
+CONCEPTS B: ?,Human+,Entity+,Expressing+,?,?,Human=,?,Glove+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10200047-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	kicking	kick	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00907147-v|Expressing+
+5	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	gloved	glove	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	?|?
+8	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05564590-n|Hand+
+9	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	00007846-n|Human=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10200047-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	kicking	kick	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00907147-v|Expressing+
+5	at	at	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod:poss	_	00007846-n|Human=
+8	's	's	PART	POS	fPOS=PART++POS	7	case	_	?|?
+9	glove	glove	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03441112-n|Glove+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

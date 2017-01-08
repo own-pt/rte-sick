@@ -1,0 +1,45 @@
+sentence A = There is no classroom full of students looking in the same direction inside a bamboo structure.
+sentence B = A classroom full of students is looking in the same direction inside a bamboo structure.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: ?,Entity+,?,Classroom+,ContainerFull+,?,SocialRole+,SubjectiveAssessmentAttribute+,?,?,equal+,DirectionalAttribute=,?,?,Bamboo=,Artifact+,?
+CONCEPTS B: ?,Classroom+,ContainerFull+,?,SocialRole+,Entity+,SubjectiveAssessmentAttribute+,?,?,equal+,DirectionalAttribute=,?,?,Bamboo=,Artifact+,?
+
+CONLL A:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
+4	classroom	classroom	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	03038685-n|Classroom+
+5	full	full	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	01083157-a|ContainerFull+
+6	of	of	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+7	students	student	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	10665698-n|SocialRole+
+8	looking	look	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	acl	_	02133435-v|SubjectiveAssessmentAttribute+
+9	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+11	same	same	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	02062670-a|equal+
+12	direction	direction	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	13827426-n|DirectionalAttribute=
+13	inside	inside	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+15	bamboo	bamboo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	compound	_	12147226-n|Bamboo=
+16	structure	structure	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	04341686-n|Artifact+
+17	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	classroom	classroom	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	03038685-n|Classroom+
+3	full	full	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	2	acl	_	01083157-a|ContainerFull+
+4	of	of	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+5	students	student	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nmod	_	10665698-n|SocialRole+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
+8	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+10	same	same	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	02062670-a|equal+
+11	direction	direction	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	13827426-n|DirectionalAttribute=
+12	inside	inside	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+14	bamboo	bamboo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	compound	_	12147226-n|Bamboo=
+15	structure	structure	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	04341686-n|Artifact+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

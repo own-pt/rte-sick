@@ -1,0 +1,34 @@
+sentence A = A brown dog is running through tall green grass.
+sentence B = A golden dog is running through a field of tall grass.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Human+,Canine+,Entity+,Attribute+,?,SubjectiveWeakNegativeAttribute+,Green=,Grass=,?
+CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Attribute+,?,?,FieldOfStudy=,?,SubjectiveWeakNegativeAttribute+,Grass=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00245112-a|Human+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+6	through	through	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+7	tall	tall	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	compound	_	02385102-a|SubjectiveWeakNegativeAttribute+
+8	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	00375969-a|Green=
+9	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	12102133-n|Grass=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	golden	golden	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	00670938-a|SubjectiveWeakPositiveAttribute+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+6	through	through	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	05996646-n|FieldOfStudy=
+9	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	tall	tall	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	11	compound	_	02385102-a|SubjectiveWeakNegativeAttribute+
+11	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	12102133-n|Grass=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

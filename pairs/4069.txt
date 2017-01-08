@@ -1,0 +1,34 @@
+sentence A = A man is outside and is throwing blades at a close target.
+sentence B = The man is removing knives from a tree.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Man=,Entity+,located+,?,Entity+,Impelling+,PlantLeaf+,?,?,Near=,Entity+,?
+CONCEPTS B: ?,Hominid=,Entity+,LeavingAnOrganization+,CuttingDevice+,?,?,ContentBearingObject+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10287213-n|Man=
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	cop	_	02604760-v|Entity+
+4	outside	outside	ADJ	JJ	fPOS=ADV++RB	0	ROOT	_	01692222-a|located+
+5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	throwing	throw	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	4	conj	_	01508368-v|Impelling+
+8	blades	blade	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	dobj	_	13131883-n|PlantLeaf+
+9	at	at	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+11	close	close	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00444519-a|Near=
+12	target	target	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	05981230-n|Entity+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	removing	remove	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02404224-v|LeavingAnOrganization+
+5	knives	knife	NOUN	NNS	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	dobj	_	03623556-n|CuttingDevice+
+6	from	from	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	13912260-n|ContentBearingObject+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

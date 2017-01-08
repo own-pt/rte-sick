@@ -1,0 +1,32 @@
+sentence A = A man is breaking tiles with his hands.
+sentence B = Tiles are being broken with his hands by a man.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,GamePiece+,Entity+,EndFn+,Artifact+,?,?,Hand+,?
+CONCEPTS B: Artifact+,Entity+,Entity+,EndFn+,?,?,Hand+,?,?,GamePiece+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	03716327-n|GamePiece+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	breaking	break	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02681524-v|EndFn+
+5	tiles	tile	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	15074568-n|Artifact+
+6	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	8	nmod:poss	_	?|?
+8	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	05564590-n|Hand+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	Tiles	tile	NOUN	NNS	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	nsubjpass	_	15074568-n|Artifact+
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+3	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	4	auxpass	_	02604760-v|Entity+
+4	broken	break	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	02681524-v|EndFn+
+5	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	7	nmod:poss	_	?|?
+7	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	05564590-n|Hand+
+8	by	by	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03716327-n|GamePiece+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

@@ -1,0 +1,34 @@
+sentence A = The man is performing a large jump.
+sentence B = A person in a blue jacket is jumping onto a tall cement wall.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Hominid=,Entity+,IntentionalProcess+,?,SubjectiveWeakPositiveAttribute+,Transportation+,?
+CONCEPTS B: ?,Human=,?,?,SubjectiveStrongNegativeAttribute+,Coat=,Entity+,Ambulating=,?,?,SubjectiveWeakNegativeAttribute+,Cement=,Wall=,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	performing	perform	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01712704-v|IntentionalProcess+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+7	jump	jump	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00303849-n|Transportation+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	00007846-n|Human=
+3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+5	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
+6	jacket	jacket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	03589791-n|Coat=
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+8	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+9	onto	onto	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+11	tall	tall	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	02385102-a|SubjectiveWeakNegativeAttribute+
+12	cement	cement	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	compound	_	14804175-n|Cement=
+13	wall	wall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	04546855-n|Wall=
+14	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?

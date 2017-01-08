@@ -1,0 +1,47 @@
+sentence A = A person is looking at a bike designed for motocross that is lying on its side and another is racing by.
+sentence B = The bike rider is looking at an accident of another bike rider.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Human=,Entity+,SubjectiveAssessmentAttribute+,?,?,Bicycle=,Designing=,?,?,?,Entity+,PhysicalAttribute+,?,?,Region+,?,?,Entity+,Motion+,?,?
+CONCEPTS B: ?,Bicycle=,Human+,Entity+,SubjectiveAssessmentAttribute+,?,?,Process+,?,?,Bicycle=,Human+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
+5	at	at	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02834778-n|Bicycle=
+8	designed	design	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	7	acl	_	00709625-v|Designing=
+9	for	for	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+10	motocross	motocross	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	?|?
+11	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	13	nsubj	_	?|?
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	02604760-v|Entity+
+13	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	10	acl:relcl	_	02690708-v|PhysicalAttribute+
+14	on	on	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+15	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	16	nmod:poss	_	?|?
+16	side	side	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	08649345-n|Region+
+17	and	and	CONJ	CC	fPOS=CONJ++CC	16	cc	_	?|?
+18	another	another	DET	DT	fPOS=DET++DT	16	conj	_	?|?
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	20	aux	_	02604760-v|Entity+
+20	racing	race	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	02058994-v|Motion+
+21	by	by	ADP	IN	fPOS=ADV++RB	20	advmod	_	?|?
+22	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	bike	bike	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	02834778-n|Bicycle=
+3	rider	rider	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10530150-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
+6	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	accident	accident	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	07300960-n|Process+
+9	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+10	another	another	DET	DT	fPOS=DET++DT	12	det	_	?|?
+11	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	02834778-n|Bicycle=
+12	rider	rider	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	10530150-n|Human+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

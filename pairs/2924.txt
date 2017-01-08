@@ -1,0 +1,31 @@
+sentence A = The herd of caribous is crossing a road.
+sentence B = A herd of deer is stopping at the street.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,GroupOfAnimals+,?,HoofedMammal+,Entity+,Process+,?,Roadway+,?
+CONCEPTS B: ?,GroupOfAnimals+,?,Deer=,Entity+,Process+,?,?,Roadway=,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	herd	herd	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	07994331-n|GroupOfAnimals+
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	caribous	caribou	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	02433925-n|HoofedMammal+
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+6	crossing	cross	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02023396-v|Process+
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	04096066-n|Roadway+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	herd	herd	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	07994331-n|GroupOfAnimals+
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	deer	deer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	02430045-n|Deer=
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+6	stopping	stop	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02680814-v|Process+
+7	at	at	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	04334599-n|Roadway=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

@@ -1,0 +1,58 @@
+sentence A = A boy in a red shirt is in front a wall, which is long and blue, and is suspiciously raising an eyebrow at the camera.
+sentence B = A boy is standing in front of the blue building in the space reserved for handicapped people.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Human+,?,?,Red=,Shirt=,Entity+,?,FrontFn=,?,Wall=,?,?,Entity+,SubjectiveAssessmentAttribute+,?,SubjectiveStrongNegativeAttribute+,?,?,Entity+,SubjectiveAssessmentAttribute+,MotionUpward=,?,BodyPart+,?,?,Camera=,?
+CONCEPTS B: ?,Human+,Entity+,PhysicalAttribute+,?,FrontFn=,?,?,SubjectiveStrongNegativeAttribute+,Building=,?,?,OuterSpaceRegion+,Reserving=,?,RegulatoryProcess+,GroupOfPeople=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	10285313-n|Human+
+3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+5	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	compound	_	00381097-a|Red=
+6	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	04197391-n|Shirt=
+7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	11	cop	_	02604760-v|Entity+
+8	in	in	ADP	IN	fPOS=ADV++RB	11	case	_	?|?
+9	front	front	ADP	IN	fPOS=ADP++IN	11	case	_	03398467-n|FrontFn=
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	wall	wall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	04546855-n|Wall=
+12	,	,	PUNCT	,	fPOS=PUNCT++,	11	punct	_	?|?
+13	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	15	nsubj	_	?|?
+14	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	15	cop	_	02604760-v|Entity+
+15	long	long	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	acl:relcl	_	01433493-a|SubjectiveAssessmentAttribute+
+16	and	and	CONJ	CC	fPOS=CONJ++CC	15	cc	_	?|?
+17	blue	blue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	conj	_	00425002-a|SubjectiveStrongNegativeAttribute+
+18	,	,	PUNCT	,	fPOS=PUNCT++,	15	punct	_	?|?
+19	and	and	CONJ	CC	fPOS=CONJ++CC	15	cc	_	?|?
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	22	auxpass	_	02604760-v|Entity+
+21	suspiciously	suspiciously	ADV	RB	fPOS=ADV++RB	22	advmod	_	00241272-r|SubjectiveAssessmentAttribute+
+22	raising	raise	VERB	VB	VerbForm=Ger|fPOS=VERB++VBG	15	conj	_	01974062-v|MotionUpward=
+23	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	24	det	_	?|?
+24	eyebrow	eyebrow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	22	dobj	_	05313535-n|BodyPart+
+25	at	at	ADP	IN	fPOS=ADP++IN	27	case	_	?|?
+26	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	27	det	_	?|?
+27	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	24	nmod	_	02942699-n|Camera=
+28	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10285313-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+5	in	in	ADP	IN	fPOS=ADV++RB	6	case	_	?|?
+6	front	front	NOUN	NN	fPOS=ADP++IN	4	nmod	_	08573472-n|FrontFn=
+7	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+9	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
+10	building	building	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	02913152-n|Building=
+11	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+13	space	space	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	08500433-n|OuterSpaceRegion+
+14	reserved	reserve	VERB	VBN	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	4	nmod	_	02498320-v|Reserving=
+15	for	for	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
+16	handicapped	handicap	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	01085474-v|RegulatoryProcess+
+17	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	14	nmod	_	07942152-n|GroupOfPeople=
+18	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

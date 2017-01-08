@@ -1,0 +1,32 @@
+sentence A = A dog is swimming in a body of water.
+sentence B = An animal is swimming in a body of water.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Canine+,Entity+,Swimming+,?,?,Animal=,?,Water=,?
+CONCEPTS B: ?,Animal=,Entity+,Swimming+,?,?,Animal=,?,Water=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02084071-n|Canine+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	swimming	swim	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01960911-v|Swimming+
+5	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	body	body	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05216365-n|Animal=
+8	of	of	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+9	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	14845743-n|Water=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	animal	animal	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00015388-n|Animal=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	swimming	swim	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01960911-v|Swimming+
+5	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	body	body	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05216365-n|Animal=
+8	of	of	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+9	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	14845743-n|Water=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

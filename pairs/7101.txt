@@ -1,0 +1,36 @@
+sentence A = An oriental man and two women are facing a camera.
+sentence B = A group of people is standing together and looking at the camera.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Asia+,Man=,?,?,Woman=,Entity+,DirectionChange+,?,Camera=,?
+CONCEPTS B: ?,Group=,?,GroupOfPeople=,Entity+,PhysicalAttribute+,Meeting=,?,SubjectiveAssessmentAttribute+,?,?,Camera=,?
+
+CONLL A:
+
+1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	oriental	oriental	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00825807-a|Asia+
+3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10287213-n|Man=
+4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	?|?
+5	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	6	nummod	_	?|?
+6	women	woman	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	conj	_	10787470-n|Woman=
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	8	aux	_	02604760-v|Entity+
+8	facing	face	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01908365-v|DirectionChange+
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	02942699-n|Camera=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	07942152-n|GroupOfPeople=
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+6	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+7	together	together	ADV	RB	fPOS=ADV++RB	6	advmod	_	00507927-r|Meeting=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+9	looking	look	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	conj	_	02133435-v|SubjectiveAssessmentAttribute+
+10	at	at	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	02942699-n|Camera=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

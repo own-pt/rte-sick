@@ -1,0 +1,27 @@
+sentence A = Several swimmers are jumping into the water.
+sentence B = Swimmers are racing in a lake.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Swimmer+,Entity+,Ambulating=,?,?,Water=,?
+CONCEPTS B: Swimmer+,Entity+,Motion+,?,?,Lake=,?
+
+CONLL A:
+
+1	Several	several	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	?|?
+2	swimmers	swimmer	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	10683126-n|Swimmer+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+5	into	into	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	14845743-n|Water=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	Swimmers	swimmer	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	10683126-n|Swimmer+
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	3	aux	_	02604760-v|Entity+
+3	racing	race	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02058994-v|Motion+
+4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	lake	lake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	09328904-n|Lake=
+7	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?

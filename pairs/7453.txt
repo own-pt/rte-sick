@@ -1,0 +1,42 @@
+sentence A = The show for the small child is being set on an exciting swing at the park.
+sentence B = The little girl is swinging and the woman is standing behind her.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Expressing+,?,?,SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,Entity+,Putting=,?,?,IntentionalPsychologicalProcess+,SoundAttribute+,?,?,Park+,?
+CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Ambulating=,?,?,Woman=,Entity+,PhysicalAttribute+,?,?,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	show	show	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubjpass	_	06879521-n|Expressing+
+3	for	for	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+5	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+6	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	09917593-n|HumanChild=
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+8	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	9	auxpass	_	02604760-v|Entity+
+9	set	set	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	01494310-v|Putting=
+10	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+11	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+12	exciting	excite	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	01762528-v|IntentionalPsychologicalProcess+
+13	swing	swing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04992008-n|SoundAttribute+
+14	at	at	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+16	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	08615374-n|Park+
+17	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10129825-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	swinging	swing	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01877355-v|Ambulating=
+6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	10787470-n|Woman=
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
+10	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	01546111-v|PhysicalAttribute+
+11	behind	behind	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+12	her	her	PRON	PRP	PronType=Dem|fPOS=ADV++RB	10	nmod	_	?|?
+13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

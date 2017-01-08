@@ -1,0 +1,34 @@
+sentence A = A dog is looking at a store counter.
+sentence B = A dog is looking at a piece of furniture in a shop.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Canine+,Entity+,SubjectiveAssessmentAttribute+,?,?,RetailStore=,Table+,?
+CONCEPTS B: ?,Canine+,Entity+,SubjectiveAssessmentAttribute+,?,?,TimeDuration+,?,Furniture=,?,?,RetailStore=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02084071-n|Canine+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
+5	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	store	store	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	04202417-n|RetailStore=
+8	counter	counter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03116530-n|Table+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02084071-n|Canine+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
+5	at	at	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	piece	piece	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	15246353-n|TimeDuration+
+8	of	of	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+9	furniture	furniture	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	03405725-n|Furniture=
+10	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	shop	shop	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04202417-n|RetailStore=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

@@ -1,0 +1,32 @@
+sentence A = A man is taking pictures of a lake.
+sentence B = A man is tearing up the pictures of a lake.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Hominid=,Entity+,PhysicalAttribute+,Icon+,?,?,Lake=,?
+CONCEPTS B: ?,Hominid=,Entity+,Separating+,Increasing+,?,Icon+,?,?,Lake=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	taking	take	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02267989-v|PhysicalAttribute+
+5	pictures	picture	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	03931044-n|Icon+
+6	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	lake	lake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	09328904-n|Lake=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	tearing	tear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01573515-v|Separating+
+5	up	up	ADP	IN	fPOS=ADP++IN	7	case	_	00097011-r|Increasing+
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	pictures	picture	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	03931044-n|Icon+
+8	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	lake	lake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	09328904-n|Lake=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

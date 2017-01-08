@@ -1,0 +1,50 @@
+sentence A = The tan dog is watching a brown dog that is swimming in a pond.
+sentence B = A pet dog is standing on the bank and is looking at another dog, which is brown, in the pond.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,ColorAttribute+,Canine+,Entity+,Looking=,?,Human+,Canine+,?,Entity+,Swimming+,?,?,Lake+,?
+CONCEPTS B: ?,Favorite+,Canine+,Entity+,PhysicalAttribute+,?,?,Bank-FinancialOrganization=,?,Entity+,SubjectiveAssessmentAttribute+,?,?,Canine+,?,?,Entity+,Human+,?,?,?,Lake+,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	tan	tan	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00384533-a|ColorAttribute+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	watching	watch	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02150948-v|Looking=
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	brown	brown	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	00245112-a|Human+
+8	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02084071-n|Canine+
+9	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	11	nsubj	_	?|?
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	02604760-v|Entity+
+11	swimming	swim	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	8	acl:relcl	_	01960911-v|Swimming+
+12	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+14	pond	pond	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	09397391-n|Lake+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	pet	pet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	09991867-n|Favorite+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	bank	bank	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	08420278-n|Bank-FinancialOrganization=
+9	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	02604760-v|Entity+
+11	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	02133435-v|SubjectiveAssessmentAttribute+
+12	at	at	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+13	another	another	DET	DT	fPOS=DET++DT	14	det	_	?|?
+14	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	02084071-n|Canine+
+15	,	,	PUNCT	,	fPOS=PUNCT++,	14	punct	_	?|?
+16	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	18	nsubj	_	?|?
+17	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	18	cop	_	02604760-v|Entity+
+18	brown	brown	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	acl:relcl	_	00245112-a|Human+
+19	,	,	PUNCT	,	fPOS=PUNCT++,	18	punct	_	?|?
+20	in	in	ADP	IN	fPOS=ADP++IN	22	case	_	?|?
+21	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	22	det	_	?|?
+22	pond	pond	NOUN	NN	Number=Sing|fPOS=NOUN++NN	18	nmod	_	09397391-n|Lake+
+23	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

@@ -1,0 +1,28 @@
+sentence A = Two people are playing ping pong.
+sentence B = A few animals are playing in the water.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,GroupOfPeople=,Entity+,DramaticActing+,RadiatingSound+,?,?
+CONCEPTS B: ?,?,Animal=,Entity+,DramaticActing+,?,?,Water=,?
+
+CONLL A:
+
+1	Two	2	NUM	CD	Degree=Pos|fPOS=ADJ++JJ	2	nummod	_	?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	07942152-n|GroupOfPeople=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	ping	ping	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	xcomp	_	07389569-n|RadiatingSound+
+6	pong	pong	ADV	RB	fPOS=ADV++RB	5	advmod	_	?|?
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	few	few	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	?|?
+3	animals	animal	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	00015388-n|Animal=
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	02604760-v|Entity+
+5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	14845743-n|Water=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

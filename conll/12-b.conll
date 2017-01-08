@@ -1,0 +1,10 @@
+# sent_id = 12b
+# text = Two dogs are wrestling and hugging.
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02084071-n|Canine+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	wrestling	wrestle	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01504699-v|Wrestling+
+5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+6	hugging	hug	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	01424456-v|Embracing+
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+

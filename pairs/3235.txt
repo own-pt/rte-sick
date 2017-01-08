@@ -1,0 +1,36 @@
+sentence A = A boy is hanging a fishing rod and running in front of a fish.
+sentence B = A boy is running towards the fishing line.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Human+,Entity+,PhysicalAttribute+,?,FishingSport=,LengthMeasure@,?,Hunting+,?,FrontFn=,?,?,Fish=,?
+CONCEPTS B: ?,Human+,Entity+,Hunting+,?,?,FishingSport=,Position+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10285313-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	hanging	hang	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01482075-v|PhysicalAttribute+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	fishing	fishing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	00453935-n|FishingSport=
+7	rod	rod	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	13650921-n|LengthMeasure@
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	running	run	VERB	VBG	Number=Sing|fPOS=NOUN++NN	4	conj	_	01143838-v|Hunting+
+10	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+11	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	08573472-n|FrontFn=
+12	of	of	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+14	fish	fish	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	02512053-n|Fish=
+15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10285313-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01143838-v|Hunting+
+5	towards	towards	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	fishing	fishing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	00453935-n|FishingSport=
+8	line	line	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	00582388-n|Position+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

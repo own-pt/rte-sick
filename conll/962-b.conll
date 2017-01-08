@@ -1,0 +1,31 @@
+# sent_id = 962b
+# text = A man in a purple shirt is dying another shirt black, which has a man looking at a dog doing a funny face painted on it.
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10287213-n|Man=
+3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+5	purple	purple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	01591394-a|SocialRole+
+6	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	04197391-n|Shirt=
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+8	dying	die	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00358431-v|Death+
+9	another	another	DET	DT	fPOS=DET++DT	11	det	_	?|?
+10	shirt	shirt	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	11	compound	_	04197391-n|Shirt=
+11	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	00392812-a|Black=
+12	,	,	PUNCT	,	fPOS=PUNCT++,	11	punct	_	?|?
+13	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	14	nsubj	_	?|?
+14	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	11	acl:relcl	_	00065639-v|Damaging+
+15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+16	man	man	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	14	dobj	_	10287213-n|Man=
+17	looking	look	VERB	VBG	Number=Sing|fPOS=NOUN++NN	16	acl	_	02133435-v|SubjectiveAssessmentAttribute+
+18	at	at	ADP	IN	fPOS=ADP++IN	20	case	_	?|?
+19	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	20	det	_	?|?
+20	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	nmod	_	02084071-n|Canine+
+21	doing	do	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	17	advcl	_	01712704-v|IntentionalProcess+
+22	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	24	det	_	?|?
+23	funny	funny	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	24	amod	_	01265308-a|SubjectiveStrongPositiveAttribute+
+24	face	face	NOUN	NN	Number=Sing|fPOS=NOUN++NN	21	dobj	_	04679738-n|FacialExpression=
+25	painted	paint	VERB	VBD	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	24	acl	_	01362736-v|Painting=
+26	on	on	ADP	IN	fPOS=ADP++IN	27	case	_	?|?
+27	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	25	nmod	_	?|?
+28	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+

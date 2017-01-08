@@ -1,0 +1,28 @@
+sentence A = A young girl is dancing.
+sentence B = A young girl is standing challengingly on one leg.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,HumanYouth=,Human+,Entity+,Dancing+,?
+CONCEPTS B: ?,HumanYouth=,Human+,Entity+,PhysicalAttribute+,?,?,?,Limb=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10129825-n|Human+
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	02604760-v|Entity+
+5	dancing	dance	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	01708676-v|Dancing+
+6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10129825-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	02604760-v|Entity+
+5	standing	stand	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01546111-v|PhysicalAttribute+
+6	challengingly	challengingly	ADJ	JJ	fPOS=ADV++RB	5	advmod	_	?|?
+7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	one	1	NUM	CD	NumType=Card|fPOS=NUM++CD	9	nummod	_	?|?
+9	leg	leg	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	05560787-n|Limb=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

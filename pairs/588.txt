@@ -1,0 +1,39 @@
+sentence A = The children are playing in front of a large door.
+sentence B = A group of boys are quiet in front of a large door made of wood.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,HumanChild=,Entity+,DramaticActing+,?,FrontFn=,?,?,SubjectiveWeakPositiveAttribute+,Door+,?
+CONCEPTS B: ?,Group=,?,Human+,Entity+,SubjectiveWeakNegativeAttribute+,?,FrontFn=,?,?,SubjectiveWeakPositiveAttribute+,Door+,Process+,?,Wood=,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	09917593-n|HumanChild=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+6	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	08573472-n|FrontFn=
+7	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+9	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+10	door	door	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03224032-n|Door+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	10285313-n|Human+
+5	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	6	cop	_	02604760-v|Entity+
+6	quiet	quiet	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01922763-a|SubjectiveWeakNegativeAttribute+
+7	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+8	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	08573472-n|FrontFn=
+9	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+11	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+12	door	door	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	compound	_	03224032-n|Door+
+13	made	make	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	01617192-v|Process+
+14	of	of	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+15	wood	wood	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	15098161-n|Wood=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

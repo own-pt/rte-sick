@@ -1,0 +1,41 @@
+sentence A = There is no hiker dancing on top of the mountain.
+sentence B = A man is on a rock high above some trees and is standing in a strange position.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Entity+,?,Human+,Dancing+,?,top=,?,?,SubjectiveAssessmentAttribute+,?
+CONCEPTS B: ?,Hominid=,Entity+,?,?,Mineral+,SubjectiveStrongPositiveAttribute+,?,?,ContentBearingObject+,?,Entity+,Attribute+,?,?,SubjectiveStrongNegativeAttribute+,Entity+,?
+
+CONLL A:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	?|?
+4	hiker	hiker	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	10176111-n|Human+
+5	dancing	dance	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	01708676-v|Dancing+
+6	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+7	top	top	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02439949-a|top=
+8	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	mountain	mountain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	13774404-n|SubjectiveAssessmentAttribute+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	02472293-n|Hominid=
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
+4	on	on	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	14696793-n|Mineral+
+7	high	high	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	02339120-a|SubjectiveStrongPositiveAttribute+
+8	above	above	ADV	RB	Degree=Pos|fPOS=ADJ++JJ	10	case	_	?|?
+9	some	some	DET	DT	fPOS=DET++DT	10	det	_	?|?
+10	trees	tree	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	13912260-n|ContentBearingObject+
+11	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	02604760-v|Entity+
+13	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	02734488-v|Attribute+
+14	in	in	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
+15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	?|?
+16	strange	strange	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	00967129-a|SubjectiveStrongNegativeAttribute+
+17	position	position	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	08621598-n|Entity+
+18	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

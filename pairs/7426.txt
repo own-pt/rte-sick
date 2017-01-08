@@ -1,0 +1,39 @@
+sentence A = A tan dog is jumping up and catching a tennis ball.
+sentence B = A dog with a tan coat is jumping up and catching a tennis ball.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,ColorAttribute+,Canine+,Entity+,Ambulating=,Increasing+,?,Grabbing+,?,Tennis=,Ball=,?
+CONCEPTS B: ?,Canine+,?,?,ColorAttribute+,Coat=,Entity+,Ambulating=,Increasing+,?,Grabbing+,?,Tennis=,Ball=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	tan	tan	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00384533-a|ColorAttribute+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+6	up	up	ADP	RP	fPOS=ADP++RP	5	advmod	_	00097011-r|Increasing+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+8	catching	catch	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	01439190-v|Grabbing+
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+10	tennis	tennis	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	00482298-n|Tennis=
+11	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	02778669-n|Ball=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	02084071-n|Canine+
+3	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+5	tan	tan	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00384533-a|ColorAttribute+
+6	coat	coat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	03057021-n|Coat=
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+8	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+9	up	up	ADP	RP	fPOS=ADP++RP	8	advmod	_	00097011-r|Increasing+
+10	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
+11	catching	catch	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	8	conj	_	01439190-v|Grabbing+
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+13	tennis	tennis	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	00482298-n|Tennis=
+14	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	02778669-n|Ball=
+15	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?

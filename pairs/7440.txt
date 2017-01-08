@@ -1,0 +1,36 @@
+sentence A = A man is standing on a train and resting his hand on his lap.
+sentence B = The bearded man is sitting on a train.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Hominid=,Entity+,PhysicalAttribute+,?,?,Train=,?,PastFn=,?,Hand+,?,?,SubjectiveAssessmentAttribute+,?
+CONCEPTS B: ?,PositionalAttribute+,Man=,PhysicalAttribute+,SittingDown+,?,?,Train=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	train	train	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04468005-n|Train=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	resting	rest	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	00117985-v|PastFn=
+10	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	11	nmod:poss	_	?|?
+11	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	05564590-n|Hand+
+12	on	on	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+13	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	14	nmod:poss	_	?|?
+14	lap	lap	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	14515041-n|SubjectiveAssessmentAttribute+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	bearded	beard	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	02687730-v|PositionalAttribute+
+3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10287213-n|Man=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	train	train	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	04468005-n|Train=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

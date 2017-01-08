@@ -1,0 +1,31 @@
+sentence A = A man is participating in a bmx race.
+sentence B = A man is participating in a race for bmxs.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,Hominid=,Entity+,SocialInteraction+,?,?,?,Racing=,?
+CONCEPTS B: ?,Hominid=,Entity+,SocialInteraction+,?,?,Racing=,?,?,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	participating	participate	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02450256-v|SocialInteraction+
+5	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	bmx	bmx	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	amod	_	?|?
+8	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	07458453-n|Racing=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	participating	participate	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02450256-v|SocialInteraction+
+5	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	07458453-n|Racing=
+8	for	for	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+9	bmxs	bmxs	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	?|?
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

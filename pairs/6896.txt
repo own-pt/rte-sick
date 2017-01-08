@@ -1,0 +1,45 @@
+sentence A = A young girl in a winter coat is jumping off a boulder into the sand at a beach.
+sentence B = A girl is jumping off a rock and another is standing on it.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,HumanYouth=,Human+,?,?,WinterSeason+,BodyPart+,Entity+,Ambulating=,?,?,Mineral+,?,?,Sand=,?,?,ShoreArea=,?
+CONCEPTS B: ?,Human+,Entity+,Ambulating=,?,?,Mineral+,?,?,Entity+,PhysicalAttribute+,?,?,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10129825-n|Human+
+4	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	winter	winter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	15237782-n|WinterSeason+
+7	coat	coat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	01898731-n|BodyPart+
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+9	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+10	off	off	ADP	RP	fPOS=ADP++IN	12	case	_	00232936-r|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	boulder	boulder	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	09227839-n|Mineral+
+13	into	into	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	15019030-n|Sand=
+16	at	at	ADP	IN	fPOS=ADP++IN	18	case	_	?|?
+17	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	18	det	_	?|?
+18	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	09217230-n|ShoreArea=
+19	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10129825-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+5	off	off	ADP	IN	fPOS=ADP++RP	7	case	_	00232936-r|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	14696793-n|Mineral+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	another	another	DET	DT	fPOS=DET++DT	11	det	_	?|?
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	02604760-v|Entity+
+11	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	01546111-v|PhysicalAttribute+
+12	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	11	nmod	_	?|?
+14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

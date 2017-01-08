@@ -1,0 +1,40 @@
+sentence A = A man is spreading butter on a piece of bread which is big.
+sentence B = A man is carelessly smearing butter on a slice of garlic flavored bread.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,GamePiece+,Entity+,Disseminating+,Butter=,?,?,GamePiece+,?,BreadOrBiscuit+,?,Entity+,SubjectiveWeakPositiveAttribute+,?
+CONCEPTS B: ?,Hominid=,Entity+,SubjectiveAssessmentAttribute+,SurfaceChange+,Butter=,?,?,PreparedFood+,?,Garlic=,?,BreadOrBiscuit+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	03716327-n|GamePiece+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	spreading	spread	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00968211-v|Disseminating+
+5	butter	butter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07848338-n|Butter=
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	piece	piece	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03716327-n|GamePiece+
+9	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+10	bread	bread	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	07679356-n|BreadOrBiscuit+
+11	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	13	nsubj	_	?|?
+12	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	13	cop	_	02604760-v|Entity+
+13	big	big	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	acl:relcl	_	01382086-a|SubjectiveWeakPositiveAttribute+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02472293-n|Hominid=
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	02604760-v|Entity+
+4	carelessly	carelessly	ADV	RB	fPOS=ADV++RB	5	advmod	_	00164150-r|SubjectiveAssessmentAttribute+
+5	smearing	smear	VERB	VB	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01252425-v|SurfaceChange+
+6	butter	butter	NOUN	NN	fPOS=ADV++RB	5	dobj	_	07848338-n|Butter=
+7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	slice	slice	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	07654667-n|PreparedFood+
+10	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+11	garlic	garlic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	07818277-n|Garlic=
+12	flavored	flavored	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	?|?
+13	bread	bread	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	07679356-n|BreadOrBiscuit+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

@@ -1,0 +1,37 @@
+sentence A = A black dog with a red collar is amusedly putting its face in the water.
+sentence B = A black dog is standing in shallow water.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Black=,Canine+,?,?,Red=,Collar+,Entity+,?,Putting=,?,Face+,?,?,Water=,?
+CONCEPTS B: ?,Black=,Canine+,Entity+,PhysicalAttribute+,?,SubjectiveWeakNegativeAttribute+,Water=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00392812-a|Black=
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	02084071-n|Canine+
+4	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00381097-a|Red=
+7	collar	collar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	03068181-n|Collar+
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
+9	amusedly	amusedly	ADV	RB	fPOS=ADV++RB	10	advmod	_	?|?
+10	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01494310-v|Putting=
+11	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	12	nmod:poss	_	?|?
+12	face	face	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	05600637-n|Face+
+13	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	14845743-n|Water=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00392812-a|Black=
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	shallow	shallow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	00691696-a|SubjectiveWeakNegativeAttribute+
+8	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	14845743-n|Water=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

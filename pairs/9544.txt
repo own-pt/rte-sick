@@ -1,0 +1,45 @@
+sentence A = The orange rider is driving a motorcycle on one wheel.
+sentence B = A man on a yellow sport bike is doing a wheelie and a friend on a white bike is catching up.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,OrangeColor+,Human+,Entity+,Transportation+,?,PassengerVehicle+,?,?,VehicleWheel=,?
+CONCEPTS B: ?,Man=,?,?,SubjectiveAssessmentAttribute+,Sport=,Bicycle=,Entity+,IntentionalProcess+,?,?,?,?,SubjectiveAssessmentAttribute=,?,?,White=,Bicycle=,Entity+,Grabbing+,Increasing+,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	orange	orange	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	compound	_	04965179-n|OrangeColor+
+3	rider	rider	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10530150-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	driving	drive	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01930874-v|Transportation+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03790512-n|PassengerVehicle+
+8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	one	1	NUM	CD	Number=Sing|fPOS=NOUN++NN	10	nummod	_	?|?
+10	wheel	wheel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	04574999-n|VehicleWheel=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10287213-n|Man=
+3	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+5	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+6	sport	sport	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	00523513-n|Sport=
+7	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	02834778-n|Bicycle=
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+9	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01712704-v|IntentionalProcess+
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	wheelie	wheelie	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	?|?
+12	and	and	CONJ	CC	fPOS=CONJ++CC	9	cc	_	?|?
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+14	friend	friend	NOUN	NN	Number=Sing|fPOS=NOUN++NN	20	nsubj	_	10112591-n|SubjectiveAssessmentAttribute=
+15	on	on	ADP	IN	fPOS=ADP++IN	18	case	_	?|?
+16	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	18	det	_	?|?
+17	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	18	amod	_	00393105-a|White=
+18	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	02834778-n|Bicycle=
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	20	aux	_	02604760-v|Entity+
+20	catching	catch	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	9	conj	_	01439190-v|Grabbing+
+21	up	up	ADP	RP	fPOS=ADP++RP	20	compound:prt	_	00097011-r|Increasing+
+22	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?

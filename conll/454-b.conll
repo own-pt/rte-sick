@@ -1,0 +1,17 @@
+# sent_id = 454b
+# text = Two children and an adult are not standing next to a tree limb.
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nsubj	_	09917593-n|HumanChild=
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	adult	adult	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	09605289-n|FullyFormed+
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	8	aux	_	02604760-v|Entity+
+7	not	not	PART	RB	fPOS=PART++RB	8	neg	_	00024073-r|not=
+8	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+9	next	next	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	xcomp	_	01294975-a|Position+
+10	to	to	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+12	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	compound	_	13912260-n|ContentBearingObject+
+13	limb	limb	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	13163803-n|BodyPart+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+

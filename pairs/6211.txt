@@ -1,0 +1,33 @@
+sentence A = A cold cyclist is celebrating.
+sentence B = A bicyclist is holding a bike over his head in a group of people.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,ColdTemperature=,Human+,Entity+,ReligiousProcess+,?
+CONCEPTS B: ?,Human+,Entity+,Keeping+,?,Bicycle=,?,?,Head=,?,?,Group=,?,GroupOfPeople=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	cold	cold	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01251128-a|ColdTemperature=
+3	cyclist	cyclist	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	09986189-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	celebrating	celebrate	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02578510-v|ReligiousProcess+
+6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	bicyclist	bicyclist	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	09986189-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02681795-v|Keeping+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02834778-n|Bicycle=
+7	over	over	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	9	nmod:poss	_	?|?
+9	head	head	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05538625-n|Head=
+10	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	00031264-n|Group=
+13	of	of	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+14	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	nmod	_	07942152-n|GroupOfPeople=
+15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

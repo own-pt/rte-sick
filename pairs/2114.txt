@@ -1,0 +1,32 @@
+sentence A = The cat is licking a shallow dish full of milk.
+sentence B = The cat is licking milk from a saucer.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Whip+,Entity+,Licking+,?,SubjectiveWeakNegativeAttribute+,PreparedFood+,ContainerFull+,?,Milk=,?
+CONCEPTS B: ?,Whip+,Entity+,Licking+,Milk=,?,?,Circle+,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02985606-n|Whip+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	licking	lick	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01432176-v|Licking+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	shallow	shallow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00691696-a|SubjectiveWeakNegativeAttribute+
+7	dish	dish	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07557434-n|PreparedFood+
+8	full	full	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	01083157-a|ContainerFull+
+9	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+10	milk	milk	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	07844042-n|Milk=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02985606-n|Whip+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	licking	lick	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01432176-v|Licking+
+5	milk	milk	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07844042-n|Milk=
+6	from	from	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	saucer	saucer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	13875185-n|Circle+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

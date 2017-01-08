@@ -1,0 +1,41 @@
+sentence A = A woman on a rock is lying on a blanket and reading a book.
+sentence B = A woman is rocking over a blanket lying on someone reading a book.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Woman=,?,?,Mineral+,Entity+,PhysicalAttribute+,?,?,Blanket+,?,Reading=,?,Book+,?
+CONCEPTS B: ?,Woman=,Entity+,Rotating+,SubjectiveAssessmentAttribute+,?,Blanket+,PhysicalAttribute+,?,?,Reading=,?,Book+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10787470-n|Woman=
+3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	14696793-n|Mineral+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02690708-v|PhysicalAttribute+
+8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	blanket	blanket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	02849154-n|Blanket+
+11	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
+12	reading	read	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	conj	_	00625119-v|Reading=
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+14	book	book	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	dobj	_	02870092-n|Book+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	rocking	rock	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01875295-v|Rotating+
+5	over	over	ADP	IN	fPOS=ADP++IN	8	case	_	00226550-r|SubjectiveAssessmentAttribute+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	blanket	blanket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	02849154-n|Blanket+
+8	lying	lie	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02690708-v|PhysicalAttribute+
+9	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+10	someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	?|?
+11	reading	read	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	10	acl	_	00625119-v|Reading=
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	book	book	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	02870092-n|Book+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

@@ -1,0 +1,47 @@
+sentence A = The man is setting up the camera and taking sunset pictures at the beach.
+sentence B = The picture of a camera set up is being taken by a man on the beach at the sunset.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Hominid=,Entity+,Putting=,Increasing+,?,Camera=,?,PhysicalAttribute+,Sunset+,Icon+,?,?,ShoreArea=,?
+CONCEPTS B: ?,Icon+,?,?,Camera=,Putting=,Increasing+,Entity+,Entity+,PhysicalAttribute+,?,?,Hominid=,?,?,ShoreArea=,?,?,Sunset+,?
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	setting	set	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01494310-v|Putting=
+5	up	up	ADP	RP	fPOS=ADP++RP	4	compound:prt	_	00097011-r|Increasing+
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02942699-n|Camera=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	taking	take	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	02267989-v|PhysicalAttribute+
+10	sunset	sunset	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	15169248-n|Sunset+
+11	pictures	picture	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	dobj	_	03931044-n|Icon+
+12	at	at	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+14	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	09217230-n|ShoreArea=
+15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	picture	picture	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubjpass	_	03931044-n|Icon+
+3	of	of	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	camera	camera	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	7	compound	_	02942699-n|Camera=
+6	set	set	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	7	compound	_	01494310-v|Putting=
+7	up	up	ADP	RP	Number=Sing|fPOS=NOUN++NN	2	nmod	_	00097011-r|Increasing+
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
+9	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	10	auxpass	_	02604760-v|Entity+
+10	taken	take	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	02267989-v|PhysicalAttribute+
+11	by	by	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	02472293-n|Hominid=
+14	on	on	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+16	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	09217230-n|ShoreArea=
+17	at	at	ADP	IN	fPOS=ADP++IN	19	case	_	?|?
+18	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	?|?
+19	sunset	sunset	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	15169248-n|Sunset+
+20	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?

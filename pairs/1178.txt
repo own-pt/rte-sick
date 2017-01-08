@@ -1,0 +1,27 @@
+sentence A = A woman is combing her hair.
+sentence B = There is no woman combing her hair.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: ?,Woman=,Entity+,ShapeChange+,?,Hair=,?
+CONCEPTS B: ?,Entity+,?,Woman=,ShapeChange+,?,Hair=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	combing	comb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01596645-v|ShapeChange+
+5	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	6	nmod:poss	_	?|?
+6	hair	hair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	05254795-n|Hair=
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
+4	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	10787470-n|Woman=
+5	combing	comb	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	01596645-v|ShapeChange+
+6	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	7	nmod:poss	_	?|?
+7	hair	hair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	05254795-n|Hair=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?

@@ -1,0 +1,33 @@
+sentence A = A dog is standing on the side of a mountain.
+sentence B = A black dog is standing on a grassy hillside.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Canine+,Entity+,PhysicalAttribute+,?,?,Object+,?,?,SubjectiveAssessmentAttribute+,?
+CONCEPTS B: ?,Black=,Canine+,Entity+,PhysicalAttribute+,?,?,FloweringPlant+,SlopedArea+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02084071-n|Canine+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	side	side	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	08510666-n|Object+
+8	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	mountain	mountain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	13774404-n|SubjectiveAssessmentAttribute+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00392812-a|Black=
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+6	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	grassy	grassy	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	00209620-a|FloweringPlant+
+9	hillside	hillside	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	09303528-n|SlopedArea+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

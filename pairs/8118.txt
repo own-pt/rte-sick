@@ -1,0 +1,37 @@
+sentence A = A female cheerleader is sitting on the knee of a male cheerleader.
+sentence B = A female cheerleader is sitting on the knee of a man.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Female=,Position+,PhysicalAttribute+,SittingDown+,?,?,Knee+,?,?,Male=,Position+,?
+CONCEPTS B: ?,Female=,Position+,PhysicalAttribute+,SittingDown+,?,?,Knee+,?,?,Man=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	female	female	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01477806-a|Female=
+3	cheerleader	cheerleader	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	09913455-n|Position+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	knee	knee	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	05573602-n|Knee+
+9	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+11	male	male	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	01476685-a|Male=
+12	cheerleader	cheerleader	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	09913455-n|Position+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	female	female	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01477806-a|Female=
+3	cheerleader	cheerleader	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	09913455-n|Position+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	knee	knee	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	05573602-n|Knee+
+9	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	10287213-n|Man=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

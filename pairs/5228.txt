@@ -1,0 +1,26 @@
+sentence A = A tiger cub is roaring.
+sentence B = A tiger cub is making a sound.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Feline+,NonFullyFormed+,Entity+,Expressing+,?
+CONCEPTS B: ?,Feline+,NonFullyFormed+,Entity+,Process+,?,RadiatingSound+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	tiger	tiger	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	02129604-n|Feline+
+3	cub	cub	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	01322685-n|NonFullyFormed+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	02604760-v|Entity+
+5	roaring	roar	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	00029836-v|Expressing+
+6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	tiger	tiger	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	02129604-n|Feline+
+3	cub	cub	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	01322685-n|NonFullyFormed+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	making	make	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01617192-v|Process+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	sound	sound	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	07371293-n|RadiatingSound+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

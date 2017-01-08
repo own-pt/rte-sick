@@ -1,0 +1,33 @@
+sentence A = A woman is standing near three children.
+sentence B = There is no woman playing with two young boys at a park.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Woman=,Entity+,PhysicalAttribute+,?,?,HumanChild=,?
+CONCEPTS B: ?,Entity+,?,Woman=,DramaticActing+,?,?,HumanYouth=,Human+,?,?,Park+,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+5	near	near	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	7	nummod	_	?|?
+7	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	09917593-n|HumanChild=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
+4	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	10787470-n|Woman=
+5	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	01719302-v|DramaticActing+
+6	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+7	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	9	nummod	_	?|?
+8	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	9	amod	_	01646941-a|HumanYouth=
+9	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	10285313-n|Human+
+10	at	at	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	08615374-n|Park+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?

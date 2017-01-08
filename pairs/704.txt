@@ -1,0 +1,47 @@
+sentence A = Two large park benches have a person sitting and a bottle of soda between them.
+sentence B = Two large persons are sitting on a park bench and they have a bottle of soda between them.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Park+,Seat+,Damaging+,?,Human=,SittingDown+,?,?,Bottle=,?,Soda=,?,?,?
+CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Human=,PhysicalAttribute+,SittingDown+,?,?,Park+,Seat+,?,?,Damaging+,?,Bottle=,?,Soda=,?,?,?
+
+CONLL A:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	4	nummod	_	?|?
+2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+3	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	compound	_	08615374-n|Park+
+4	benches	bench	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	02828884-n|Seat+
+5	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	0	ROOT	_	00065639-v|Damaging+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	00007846-n|Human=
+8	sitting	sit	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	7	acl	_	01543123-v|SittingDown+
+9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	bottle	bottle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	conj	_	02876657-n|Bottle=
+12	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+13	soda	soda	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	07927512-n|Soda=
+14	between	between	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+15	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|fPOS=PRON++PRP	13	nmod	_	?|?
+16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+CONLL B:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?
+2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+3	persons	person	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	00007846-n|Human=
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+6	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	park	park	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	compound	_	08615374-n|Park+
+9	bench	bench	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02828884-n|Seat+
+10	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs|fPOS=PRON++PRP	12	nsubj	_	?|?
+12	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	5	conj	_	00065639-v|Damaging+
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+14	bottle	bottle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	dobj	_	02876657-n|Bottle=
+15	of	of	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+16	soda	soda	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	07927512-n|Soda=
+17	between	between	ADP	IN	fPOS=ADP++IN	18	case	_	?|?
+18	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|fPOS=PRON++PRP	16	nmod	_	?|?
+19	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

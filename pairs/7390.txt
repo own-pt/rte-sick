@@ -1,0 +1,33 @@
+sentence A = A child is playfully swimming underwater in a pool.
+sentence B = A child is smiling at the camera and swimming underwater.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,HumanChild=,Entity+,SubjectiveAssessmentAttribute+,Swimming+,?,?,?,StaticWaterArea+,?
+CONCEPTS B: ?,HumanChild=,Entity+,Smiling=,?,?,Camera=,?,Swimming+,?,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	09917593-n|HumanChild=
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
+4	playfully	playfully	ADV	RB	fPOS=ADV++RB	6	advmod	_	00425582-r|SubjectiveAssessmentAttribute+
+5	swimming	swim	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	01960911-v|Swimming+
+6	underwater	underwater	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	?|?
+7	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	09397607-n|StaticWaterArea+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	09917593-n|HumanChild=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	smiling	smile	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00028565-v|Smiling=
+5	at	at	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02942699-n|Camera=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	swimming	swim	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01960911-v|Swimming+
+10	underwater	underwater	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	?|?
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

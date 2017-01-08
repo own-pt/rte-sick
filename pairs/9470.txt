@@ -1,0 +1,28 @@
+sentence A = A woman is sitting wearing swim gear.
+sentence B = A kid is sitting wearing swim gear.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: ?,Woman=,PhysicalAttribute+,SittingDown+,RecreationOrExercise+,Swimming=,Gear=,?
+CONCEPTS B: ?,HumanChild=,PhysicalAttribute+,SittingDown+,RecreationOrExercise+,Swimming=,Gear=,?
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+5	wearing	wear	ADJ	JJ	VerbForm=Ger|fPOS=VERB++VBG	7	amod	_	00075021-v|RecreationOrExercise+
+6	swim	swim	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	7	compound	_	00442115-n|Swimming=
+7	gear	gear	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03430551-n|Gear=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	kid	kid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	09917593-n|HumanChild=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+5	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	advcl	_	00075021-v|RecreationOrExercise+
+6	swim	swim	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00442115-n|Swimming=
+7	gear	gear	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03430551-n|Gear=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
