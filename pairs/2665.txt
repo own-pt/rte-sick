@@ -8,22 +8,22 @@ CONCEPTS B: Carnivore+,Entity+,Increasing+,earlier+,Shelf+
 
 CONLL A:
 
-1	Ferrets	ferret	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	02443484-n|Carnivore+
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	3	aux	_	02604760-v|Entity+
-3	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00433232-v|Increasing+
-4	up	up	ADP	RP	fPOS=ADP++IN	3	compound:prt	_	00097011-r|Increasing+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	shelf	shelf	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	04190052-n|Shelf+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+1	Ferrets	ferret	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	NNS|02443484-n|Carnivore+
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	3	aux	_	VBP|02604760-v|Entity+
+3	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00433232-v|Increasing+
+4	up	up	ADP	RP	fPOS=ADP++IN	3	compound:prt	_	RP|00097011-r|Increasing+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	shelf	shelf	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	NN|04190052-n|Shelf+
+7	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Ferrets	ferret	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	02443484-n|Carnivore+
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	3	aux	_	02604760-v|Entity+
-3	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00433232-v|Increasing+
-4	down	down	ADV	RB	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	3	advmod	_	00095320-r|earlier+
-5	from	from	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-7	shelf	shelf	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04190052-n|Shelf+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+1	Ferrets	ferret	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	NNS|02443484-n|Carnivore+
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	3	aux	_	VBP|02604760-v|Entity+
+3	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00433232-v|Increasing+
+4	down	down	ADV	RB	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	3	advmod	_	RP|00095320-r|earlier+
+5	from	from	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+7	shelf	shelf	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04190052-n|Shelf+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?

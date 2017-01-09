@@ -8,29 +8,29 @@ CONCEPTS B: HumanChild=,Swimming+,ClothingSuit+,Entity+,DramaticActing+,Water=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	kids	kid	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	09917593-n|HumanChild=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	cop	_	02604760-v|Entity+
-4	not	not	PART	RB	fPOS=PART++RB	6	neg	_	00024073-r|not=
-5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	amod	_	00075021-v|RecreationOrExercise+
-6	suits	suit	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	04350905-n|ClothingSuit+
-7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
-8	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	14845743-n|Water=
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
-10	splashing	splash	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	01374767-v|Wetting+
-11	around	around	ADV	RB	fPOS=ADV++RB	10	advmod	_	00007015-r|?
-12	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	kids	kid	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	cop	_	VBP|02604760-v|Entity+
+4	not	not	PART	RB	fPOS=PART++RB	6	neg	_	RB|00024073-r|not=
+5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	amod	_	VBG|00075021-v|RecreationOrExercise+
+6	suits	suit	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	NNS|04350905-n|ClothingSuit+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
+8	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	NN|14845743-n|Water=
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
+10	splashing	splash	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	VBG|01374767-v|Wetting+
+11	around	around	ADV	RB	fPOS=ADV++RB	10	advmod	_	RP|00007015-r|?
+12	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Children	child	ADJ	JJ	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	09917593-n|HumanChild=
-2	in	in	ADP	IN	fPOS=SCONJ++IN	4	case	_	?|?
-3	swimming	swim	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	4	compound	_	01960911-v|Swimming+
-4	suits	suit	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	1	nmod	_	04350905-n|ClothingSuit+
-5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	02604760-v|Entity+
-6	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
-7	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-9	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	14845743-n|Water=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+1	Children	child	ADJ	JJ	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	NNS|09917593-n|HumanChild=
+2	in	in	ADP	IN	fPOS=SCONJ++IN	4	case	_	IN|?|?
+3	swimming	swim	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	4	compound	_	VBG|01960911-v|Swimming+
+4	suits	suit	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	1	nmod	_	NNS|04350905-n|ClothingSuit+
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	VBP|02604760-v|Entity+
+6	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
+7	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+9	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|14845743-n|Water=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?

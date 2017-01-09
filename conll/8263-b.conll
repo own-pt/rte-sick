@@ -1,14 +1,14 @@
 # sent_id = 8263b
 # text = Some people and vehicles are on a almost empty street.
-1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	nsubj	_	07942152-n|GroupOfPeople=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
-4	vehicles	vehicle	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	conj	_	04524313-n|Vehicle=
-5	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	10	cop	_	02604760-v|Entity+
-6	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-8	almost	almost	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00073033-r|?
-9	empty	empty	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	01086545-a|ContainerEmpty+
-10	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	04334599-n|Roadway=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	DT|?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
+4	vehicles	vehicle	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	conj	_	NNS|04524313-n|Vehicle=
+5	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	10	cop	_	VBP|02604760-v|Entity+
+6	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+8	almost	almost	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	RB|00073033-r|?
+9	empty	empty	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	JJ|01086545-a|ContainerEmpty+
+10	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|04334599-n|Roadway=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	Fp|?|?
 

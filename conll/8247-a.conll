@@ -1,17 +1,17 @@
 # sent_id = 8247a
 # text = Some young dirt bikers are getting a dirt bike up a sandy hill.
-1	Some	some	DET	DT	fPOS=DET++DT	4	det	_	?|?
-2	young	young	ADJ	JJ	fPOS=ADV++RB	4	amod	_	01646941-a|HumanYouth=
-3	dirt	dirt	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	compound	_	07223811-n|Text+
-4	bikers	biker	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	?|?
-5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	02604760-v|Entity+
-6	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00120316-v|Process+
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-8	dirt	dirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	07223811-n|Text+
-9	bike	bike	VERB	VB	Number=Sing|fPOS=NOUN++NN	6	xcomp	_	02834778-n|Bicycle=
-10	up	up	ADP	RP	fPOS=ADP++RP	9	compound:prt	_	?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
-12	sandy	sandy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	compound	_	00142040-a|part+
-13	hill	hill	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	09303008-n|Hill=
-14	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+1	Some	some	DET	DT	fPOS=DET++DT	4	det	_	DT|?|?
+2	young	young	ADJ	JJ	fPOS=ADV++RB	4	amod	_	JJ|01646941-a|HumanYouth=
+3	dirt	dirt	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	compound	_	NN|07223811-n|Text+
+4	bikers	biker	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	NNS|?|?
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	VBP|02604760-v|Entity+
+6	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00120316-v|Process+
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+8	dirt	dirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|07223811-n|Text+
+9	bike	bike	VERB	VB	Number=Sing|fPOS=NOUN++NN	6	xcomp	_	NN|02834778-n|Bicycle=
+10	up	up	ADP	RP	fPOS=ADP++RP	9	compound:prt	_	IN|?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
+12	sandy	sandy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	compound	_	JJ|00142040-a|part+
+13	hill	hill	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|09303008-n|Hill=
+14	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
 

@@ -8,43 +8,43 @@ CONCEPTS B: Clothing[,Man=,Entity+,SubjectiveAssessmentAttribute+,SpaceRegion=,E
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
-2	barefoot	barefoot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	02156686-a|Clothing[
-3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10287213-n|Man=
-4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
-5	pajamas	pajamas	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	?|?
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
-7	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
-8	toward	toward	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-10	sky	sky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	09436708-n|SpaceRegion=
-11	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
-12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	02604760-v|Entity+
-13	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	7	conj	_	01904930-v|Walking=
-14	on	on	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
-15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	17	det	_	?|?
-16	tennis	tennis	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	17	compound	_	00482298-n|Tennis=
-17	court	court	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	08329453-n|Government+
-18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
+2	barefoot	barefoot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	JJ|02156686-a|Clothing[
+3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10287213-n|Man=
+4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
+5	pajamas	pajamas	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NNS|?|?
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
+7	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+8	toward	toward	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+10	sky	sky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|09436708-n|SpaceRegion=
+11	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	VBZ|02604760-v|Entity+
+13	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	7	conj	_	VBG|01904930-v|Walking=
+14	on	on	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
+15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	17	det	_	DT|?|?
+16	tennis	tennis	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	17	compound	_	NN|00482298-n|Tennis=
+17	court	court	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	NN|08329453-n|Government+
+18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
-2	barefoot	barefoot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	02156686-a|Clothing[
-3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10287213-n|Man=
-4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
-5	pajamas	pajamas	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	?|?
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
-7	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
-8	toward	toward	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-10	sky	sky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	09436708-n|SpaceRegion=
-11	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
-12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	02604760-v|Entity+
-13	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	7	conj	_	01546111-v|PhysicalAttribute+
-14	on	on	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
-15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	17	det	_	?|?
-16	tennis	tennis	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	17	compound	_	00482298-n|Tennis=
-17	court	court	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	08329453-n|Government+
-18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
+2	barefoot	barefoot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	JJ|02156686-a|Clothing[
+3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10287213-n|Man=
+4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
+5	pajamas	pajamas	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NNS|?|?
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
+7	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+8	toward	toward	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+10	sky	sky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|09436708-n|SpaceRegion=
+11	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	VBZ|02604760-v|Entity+
+13	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	7	conj	_	VBG|01546111-v|PhysicalAttribute+
+14	on	on	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
+15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	17	det	_	DT|?|?
+16	tennis	tennis	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	17	compound	_	NN|00482298-n|Tennis=
+17	court	court	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	NN|08329453-n|Government+
+18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?

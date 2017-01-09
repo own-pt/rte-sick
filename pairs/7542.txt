@@ -8,36 +8,36 @@ CONCEPTS B: Human=,IntentionalProcess+,Football+,Entity+,IntentionalProcess+,Hum
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
-2	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	00468480-n|Football+
-3	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10439851-n|Human+
-4	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-6	purple	purple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	amod	_	01591394-a|SocialRole+
-7	jersey	jersey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	08887238-n|HoofedMammal+
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
-9	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01926311-v|Running=
-10	with	with	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-12	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	02778669-n|Ball=
-13	for	for	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
-14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
-15	touchdown	touchdown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	00188766-n|FootballTouchdown+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
+2	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	NN|00468480-n|Football+
+3	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|10439851-n|Human+
+4	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+6	purple	purple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	amod	_	JJ|01591394-a|SocialRole+
+7	jersey	jersey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|08887238-n|HoofedMammal+
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
+9	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01926311-v|Running=
+10	with	with	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+12	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|02778669-n|Ball=
+13	for	for	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
+14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
+15	touchdown	touchdown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|00188766-n|FootballTouchdown+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	00007846-n|Human=
-3	playing	play	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	compound	_	01717169-v|IntentionalProcess+
-4	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	00468480-n|Football+
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
-6	running	run	NOUN	NN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01717169-v|IntentionalProcess+
-7	past	past	ADJ	JJ	VerbForm=Inf|fPOS=VERB++VB	9	amod	_	?|?
-8	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-9	official	official	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	dobj	_	10372373-n|Human+
-10	carrying	carry	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	9	acl	_	01449974-v|Transportation+
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-12	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	00468480-n|Football+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	NN|00007846-n|Human=
+3	playing	play	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	compound	_	VBG|01717169-v|IntentionalProcess+
+4	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|00468480-n|Football+
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
+6	running	run	NOUN	NN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01717169-v|IntentionalProcess+
+7	past	past	ADJ	JJ	VerbForm=Inf|fPOS=VERB++VB	9	amod	_	IN|?|?
+8	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+9	official	official	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|10372373-n|Human+
+10	carrying	carry	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	9	acl	_	VBG|01449974-v|Transportation+
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+12	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	NN|00468480-n|Football+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?

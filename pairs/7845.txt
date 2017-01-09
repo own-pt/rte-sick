@@ -8,32 +8,32 @@ CONCEPTS B: Human=,PassengerVehicle+,Entity+,not=,Process+,Increasing+,Weapon=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	02472293-n|Hominid=
-3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
-5	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	03790512-n|PassengerVehicle+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
-7	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02102398-v|Transportation+
-8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-10	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	04037625-n|StationaryArtifact+
-11	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
-12	waving	wave	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	conj	_	01446901-v|Rotating+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|02472293-n|Hominid=
+3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
+5	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03790512-n|PassengerVehicle+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
+7	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02102398-v|Transportation+
+8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+10	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|04037625-n|StationaryArtifact+
+11	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
+12	waving	wave	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	conj	_	VBG|01446901-v|Rotating+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	00007846-n|Human=
-3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
-4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	?|?
-5	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	03790512-n|PassengerVehicle+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
-7	not	not	PART	RB	fPOS=PART++RB	8	neg	_	00024073-r|not=
-8	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01217043-v|Process+
-9	up	up	ADP	IN	fPOS=ADP++RP	8	compound:prt	_	00097011-r|Increasing+
-10	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
-11	arm	arm	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	04565375-n|Weapon=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|00007846-n|Human=
+3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
+4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
+5	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03790512-n|PassengerVehicle+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
+7	not	not	PART	RB	fPOS=PART++RB	8	neg	_	RB|00024073-r|not=
+8	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01217043-v|Process+
+9	up	up	ADP	IN	fPOS=ADP++RP	8	compound:prt	_	RP|00097011-r|Increasing+
+10	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
+11	arm	arm	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	NN|04565375-n|Weapon=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?

@@ -1,18 +1,18 @@
 # sent_id = 575b
 # text = A dog that has a brown and white coat is trotting through shallow water.
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	02084071-n|Canine+
-3	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	4	nsubj	_	?|?
-4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	2	acl:relcl	_	00065639-v|Damaging+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-6	brown	brown	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	9	amod	_	00245112-a|Human+
-7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
-8	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	conj	_	00393105-a|White=
-9	coat	coat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03057021-n|Coat=
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	02604760-v|Entity+
-11	trotting	trot	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01901447-v|Running=
-12	through	through	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
-13	shallow	shallow	ADV	RB	fPOS=ADV++RB	14	advmod	_	00691696-a|SubjectiveWeakNegativeAttribute+
-14	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	14845743-n|Water=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	NN|02084071-n|Canine+
+3	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	4	nsubj	_	WDT|?|?
+4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	2	acl:relcl	_	VBZ|00065639-v|Damaging+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+6	brown	brown	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	9	amod	_	JJ|00245112-a|Human+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
+8	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	conj	_	JJ|00393105-a|White=
+9	coat	coat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03057021-n|Coat=
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	VBZ|02604760-v|Entity+
+11	trotting	trot	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01901447-v|Running=
+12	through	through	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
+13	shallow	shallow	ADV	RB	fPOS=ADV++RB	14	advmod	_	JJ|00691696-a|SubjectiveWeakNegativeAttribute+
+14	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|14845743-n|Water=
+15	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	Fp|?|?
 

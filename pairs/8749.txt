@@ -8,33 +8,33 @@ CONCEPTS B: GroupOfPeople=,Entity+,Walking=,String+,Wood=,Bridge+,River=
 
 CONLL A:
 
-1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	07942152-n|GroupOfPeople=
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	3	aux	_	02604760-v|Entity+
-3	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01904930-v|Walking=
-4	across	across	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-6	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	04108268-n|String+
-7	bridge	bridge	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	02898711-n|Bridge+
-8	over	over	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
-10	rocky	rocky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	amod	_	02243567-a|TextureAttribute+
-11	stream	stream	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	09448361-n|StreamWaterArea=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	NNS|07942152-n|GroupOfPeople=
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	3	aux	_	VBP|02604760-v|Entity+
+3	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
+4	across	across	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+6	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	NN|04108268-n|String+
+7	bridge	bridge	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|02898711-n|Bridge+
+8	over	over	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
+10	rocky	rocky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	amod	_	JJ|02243567-a|TextureAttribute+
+11	stream	stream	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|09448361-n|StreamWaterArea=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
-4	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01904930-v|Walking=
-5	across	across	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-7	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	04108268-n|String+
-8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
-9	wood	wood	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	conj	_	15098161-n|Wood=
-10	bridge	bridge	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02898711-n|Bridge+
-11	over	over	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
-13	river	river	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	09411430-n|River=
-14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
+4	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
+5	across	across	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+7	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	NN|04108268-n|String+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
+9	wood	wood	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	conj	_	NN|15098161-n|Wood=
+10	bridge	bridge	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02898711-n|Bridge+
+11	over	over	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
+13	river	river	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|09411430-n|River=
+14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

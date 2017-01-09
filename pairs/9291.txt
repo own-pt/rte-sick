@@ -8,31 +8,31 @@ CONCEPTS B: Hominid=,Entity+,earlier+,Handle+,Snowing=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	skiing	ski	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01938426-v|Transportation+
-5	down	down	ADP	RP	fPOS=ADP++IN	4	compound:prt	_	00096089-r|earlier+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-7	hill	hill	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	09303008-n|Hill=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
-9	over	over	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-11	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00381097-a|Red=
-12	obstacle	obstacle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	conj	_	05690269-n|Entity+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	skiing	ski	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01938426-v|Transportation+
+5	down	down	ADP	RP	fPOS=ADP++IN	4	compound:prt	_	RP|00096089-r|earlier+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+7	hill	hill	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|09303008-n|Hill=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
+9	over	over	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+11	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|00381097-a|Red=
+12	obstacle	obstacle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	conj	_	NN|05690269-n|Entity+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	snowboarding	snowboarding	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	?|?
-5	down	down	ADP	IN	fPOS=ADP++IN	7	case	_	00096089-r|earlier+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-7	railing	railing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04047401-n|Handle+
-8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-10	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	15043763-n|Snowing=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	snowboarding	snowboarding	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|?|?
+5	down	down	ADP	IN	fPOS=ADP++IN	7	case	_	RP|00096089-r|earlier+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+7	railing	railing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04047401-n|Handle+
+8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+10	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|15043763-n|Snowing=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

@@ -8,24 +8,24 @@ CONCEPTS B: Entity+,Human+,Decreasing+,Increasing+,SubjectiveAssessmentAttribute
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	lady	lady	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	09989290-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	cutting	cut	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00429060-v|Decreasing+
-5	up	up	ADP	RP	fPOS=ADP++RP	4	compound:prt	_	00097011-r|Increasing+
-6	some	some	DET	DT	fPOS=DET++DT	7	det	_	?|?
-7	meat	meat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	05921123-n|SubjectiveAssessmentAttribute+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	lady	lady	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09989290-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00429060-v|Decreasing+
+5	up	up	ADP	RP	fPOS=ADP++RP	4	compound:prt	_	RP|00097011-r|Increasing+
+6	some	some	DET	DT	fPOS=DET++DT	7	det	_	DT|?|?
+7	meat	meat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|05921123-n|SubjectiveAssessmentAttribute+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
-4	lady	lady	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	09989290-n|Human+
-5	cutting	cut	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	00429060-v|Decreasing+
-6	up	up	ADP	RP	fPOS=ADP++RP	5	compound:prt	_	00097011-r|Increasing+
-7	some	some	DET	DT	fPOS=DET++DT	8	det	_	?|?
-8	meat	meat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	05921123-n|SubjectiveAssessmentAttribute+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
+4	lady	lady	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|09989290-n|Human+
+5	cutting	cut	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	VBG|00429060-v|Decreasing+
+6	up	up	ADP	RP	fPOS=ADP++RP	5	compound:prt	_	RP|00097011-r|Increasing+
+7	some	some	DET	DT	fPOS=DET++DT	8	det	_	DT|?|?
+8	meat	meat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|05921123-n|SubjectiveAssessmentAttribute+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?

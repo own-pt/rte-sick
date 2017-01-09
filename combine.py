@@ -24,12 +24,12 @@ def read_conll(s):
     with open(s,'r') as i:
         return i.read().split('\n\n')
 
-def fix_conll(raw_conll, lemmas, senses, sumo):
+def fix_conll(raw_conll, lemmas, senses, sumo,pos):
     conll = [l.split('\t') for l in raw_conll.split('\n')]
     assert (len(conll) == len(lemmas) == len(senses) == len(sumo)), "{} {} {} {}".format(len(conll), len(lemmas), len(senses), len(sumo))
     for i in range(0, len(lemmas)):
         conll[i][2] = lemmas[i]
-        conll[i][9] = "{}|{}".format(senses[i],sumo[i])
+        conll[i][9] = "{}|{}|{}".format(pos[i],senses[i],sumo[i])
     return conll
 
 with open('SICK.txt', newline='') as csvfile:
@@ -43,16 +43,18 @@ with open('SICK.txt', newline='') as csvfile:
 
         senses_a = read_file('{}-a.senses'.format(pair_ID))[0].split(',')
         sumo_a = read_file('{}-a.sumo'.format(pair_ID))[0].split(',')
+        pos_a = read_file('{}-a.tag'.format(pair_ID))[0].split(',')
         lemmas_a = read_file('{}-a.lemmas'.format(pair_ID))[0].split('+')
         senses_b = read_file('{}-b.senses'.format(pair_ID))[0].split(',')
         sumo_b = read_file('{}-b.sumo'.format(pair_ID))[0].split(',')
+        pos_b = read_file('{}-b.tag'.format(pair_ID))[0].split(',')
         lemmas_b = read_file('{}-b.lemmas'.format(pair_ID))[0].split('+')
 
         conll_a = read_conll('sentences-a.conll')
         conll_b = read_conll('sentences-b.conll')
 
-        (conlla) = fix_conll(conll_a[i], lemmas_a, senses_a, sumo_a)
-        (conllb) = fix_conll(conll_b[i], lemmas_b, senses_b, sumo_b)
+        (conlla) = fix_conll(conll_a[i], lemmas_a, senses_a, sumo_a, pos_a)
+        (conllb) = fix_conll(conll_b[i], lemmas_b, senses_b, sumo_b, pos_b)
 
         i = i +1
         with open("{}-a.conll".format(pair_ID), 'w') as o:

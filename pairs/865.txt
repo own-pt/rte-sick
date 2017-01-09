@@ -8,29 +8,29 @@ CONCEPTS B: Entity+,not=,GroupOfPeople=,Solid+,Walking+,Park+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	lot	lot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	08674970-n|LandArea+
-3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
-4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	07942152-n|GroupOfPeople=
-5	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	10	cop	_	02604760-v|Entity+
-6	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-7	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-8	ice	ice	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	14915184-n|Solid+
-9	skating	skate	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	10	amod	_	01936753-v|Walking+
-10	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	08615638-n|ParkingLot=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	lot	lot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	NN|08674970-n|LandArea+
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
+4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|07942152-n|GroupOfPeople=
+5	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	10	cop	_	VBP|02604760-v|Entity+
+6	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+7	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+8	ice	ice	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	NN|14915184-n|Solid+
+9	skating	skate	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	10	amod	_	VBG|01936753-v|Walking+
+10	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|08615638-n|ParkingLot=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
-2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	0	ROOT	_	02604760-v|Entity+
-3	not	not	PART	RB	fPOS=PART++RB	2	neg	_	00024073-r|not=
-4	many	many	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	?|?
-5	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nsubj	_	07942152-n|GroupOfPeople=
-6	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-8	ice	ice	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	14915184-n|Solid+
-9	skating	skate	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	10	amod	_	01936753-v|Walking+
-10	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	08615374-n|Park+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	0	ROOT	_	VBP|02604760-v|Entity+
+3	not	not	PART	RB	fPOS=PART++RB	2	neg	_	RB|00024073-r|not=
+4	many	many	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	DT|?|?
+5	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nsubj	_	NNS|07942152-n|GroupOfPeople=
+6	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+8	ice	ice	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	NN|14915184-n|Solid+
+9	skating	skate	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	10	amod	_	VBG|01936753-v|Walking+
+10	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|08615374-n|Park+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?

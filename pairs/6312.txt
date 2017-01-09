@@ -8,27 +8,27 @@ CONCEPTS B: Woman=,Entity+,PhysicalAttribute+,HumanChild=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
-5	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-6	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	8	nummod	_	?|?
-7	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	8	amod	_	01646941-a|HumanYouth=
-8	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	10285313-n|Human+
-9	at	at	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
-11	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	08615374-n|Park+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+6	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	8	nummod	_	Z|?|?
+7	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	8	amod	_	JJ|01646941-a|HumanYouth=
+8	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|10285313-n|Human+
+9	at	at	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
+11	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|08615374-n|Park+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
-5	near	near	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
-6	three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	7	nummod	_	?|?
-7	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	09917593-n|HumanChild=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	near	near	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
+6	three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	7	nummod	_	Z|?|?
+7	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|09917593-n|HumanChild=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

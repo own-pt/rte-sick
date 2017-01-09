@@ -8,39 +8,39 @@ CONCEPTS B: Football+,Entity+,Foot+,Human+,Entity+,PhysicalAttribute+,Grass=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10285313-n|Human+
-3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
-4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	?|?
-5	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	12102133-n|Grass=
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
-7	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02690708-v|PhysicalAttribute+
-8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
-10	hiding	hide	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	7	conj	_	02144835-v|Concealing=
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-12	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	00468480-n|Football+
-13	between	between	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
-14	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	15	nmod:poss	_	?|?
-15	feet	foot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	05563266-n|Foot+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10285313-n|Human+
+3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
+4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
+5	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|12102133-n|Grass=
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
+7	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
+10	hiding	hide	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	7	conj	_	VBG|02144835-v|Concealing=
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+12	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	NN|00468480-n|Football+
+13	between	between	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
+14	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	15	nmod:poss	_	PRP$|?|?
+15	feet	foot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	NNS|05563266-n|Foot+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	00468480-n|Football+
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
-4	between	between	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	feet	foot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	05563266-n|Foot+
-7	of	of	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-9	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	10285313-n|Human+
-10	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	12	nsubj	_	?|?
-11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	02604760-v|Entity+
-12	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	9	acl:relcl	_	02690708-v|PhysicalAttribute+
-13	on	on	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
-14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
-15	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	12102133-n|Grass=
-16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|00468480-n|Football+
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02604760-v|Entity+
+4	between	between	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	feet	foot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NNS|05563266-n|Foot+
+7	of	of	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+9	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|10285313-n|Human+
+10	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	12	nsubj	_	WP|?|?
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	VBZ|02604760-v|Entity+
+12	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	9	acl:relcl	_	VBG|02690708-v|PhysicalAttribute+
+13	on	on	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
+15	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	NN|12102133-n|Grass=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?

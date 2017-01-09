@@ -8,23 +8,23 @@ CONCEPTS B: Human+,Entity+,not=,Walking=,Water=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10200047-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	wading	wade	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01916214-v|Wetting+
-5	through	through	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-7	marsh	marsh	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09347779-n|Swamp+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10200047-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	wading	wade	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01916214-v|Wetting+
+5	through	through	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+7	marsh	marsh	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|09347779-n|Swamp+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10200047-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
-4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	00024073-r|not=
-5	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01904930-v|Walking=
-6	through	through	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
-7	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	14845743-n|Water=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10200047-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	RB|00024073-r|not=
+5	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
+6	through	through	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
+7	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|14845743-n|Water=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?

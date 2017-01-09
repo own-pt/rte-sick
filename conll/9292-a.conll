@@ -1,12 +1,12 @@
 # sent_id = 9292a
 # text = Two men are taking a break from construction.
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
-2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02472293-n|Hominid=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
-4	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02267989-v|PhysicalAttribute+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	break	break	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	15271008-n|TimeInterval+
-7	from	from	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-8	construction	construction	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	00911048-n|Constructing=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
+4	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	break	break	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|15271008-n|TimeInterval+
+7	from	from	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+8	construction	construction	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|00911048-n|Constructing=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 

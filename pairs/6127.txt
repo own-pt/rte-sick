@@ -8,40 +8,40 @@ CONCEPTS B: Human+,RecreationOrExercise+,Red=,NormativeAttribute+,Entity+,Ambula
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nsubj	_	10285313-n|Human+
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
-4	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	5	nsubj	_	?|?
-5	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	2	acl:relcl	_	02133435-v|SubjectiveAssessmentAttribute+
-6	young	young	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	01646941-a|HumanYouth=
-7	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
-9	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	00050652-v|Dressing+
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-11	red	red	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00381097-a|Red=
-12	swimsuit	swimsuit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	04371563-n|Clothing+
-13	,	,	PUNCT	,	fPOS=PUNCT++,	15	punct	_	?|?
-14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	15	aux	_	02604760-v|Entity+
-15	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
-16	into	into	ADP	IN	fPOS=ADP++IN	20	case	_	?|?
-17	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	20	det	_	?|?
-18	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	19	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
-19	kiddies	kiddies	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	20	compound	_	?|?
-20	pool	pool	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	15	nmod	_	09397607-n|StaticWaterArea+
-21	.	.	PUNCT	.	fPOS=PUNCT++.	15	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nsubj	_	NN|10285313-n|Human+
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	5	nsubj	_	WP|?|?
+5	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	2	acl:relcl	_	VBZ|02133435-v|SubjectiveAssessmentAttribute+
+6	young	young	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	JJ|01646941-a|HumanYouth=
+7	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
+9	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	VBG|00050652-v|Dressing+
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+11	red	red	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|00381097-a|Red=
+12	swimsuit	swimsuit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|04371563-n|Clothing+
+13	,	,	PUNCT	,	fPOS=PUNCT++,	15	punct	_	Fc|?|?
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	15	aux	_	VBZ|02604760-v|Entity+
+15	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
+16	into	into	ADP	IN	fPOS=ADP++IN	20	case	_	IN|?|?
+17	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	20	det	_	DT|?|?
+18	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	19	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+19	kiddies	kiddies	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	20	compound	_	NNS|?|?
+20	pool	pool	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	15	nmod	_	NN|09397607-n|StaticWaterArea+
+21	.	.	PUNCT	.	fPOS=PUNCT++.	15	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10285313-n|Human+
-3	wearing	wear	VERB	VBG	Number=Sing|fPOS=NOUN++NN	2	acl	_	00075021-v|RecreationOrExercise+
-4	red	red	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	5	amod	_	00381097-a|Red=
-5	shorts	short	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	dobj	_	04204755-n|NormativeAttribute+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
-7	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
-8	into	into	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
-10	paddling	paddle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	01419373-v|Motion+
-11	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	09397607-n|StaticWaterArea+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10285313-n|Human+
+3	wearing	wear	VERB	VBG	Number=Sing|fPOS=NOUN++NN	2	acl	_	VBG|00075021-v|RecreationOrExercise+
+4	red	red	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	5	amod	_	JJ|00381097-a|Red=
+5	shorts	short	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	dobj	_	NNS|04204755-n|NormativeAttribute+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
+7	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
+8	into	into	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
+10	paddling	paddle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	VBG|01419373-v|Motion+
+11	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|09397607-n|StaticWaterArea+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?

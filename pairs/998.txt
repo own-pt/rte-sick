@@ -8,38 +8,38 @@ CONCEPTS B: FullyFormed+,Entity+,StationaryArtifact+,Entity+,Speaking+,Human+
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10287213-n|Man=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
-4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	?|?
-5	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	10285313-n|Human+
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	02604760-v|Entity+
-7	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
-8	at	at	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-10	bottom	bottom	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	08511970-n|Object+
-11	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
-12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
-13	stairs	stair	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	nmod	_	04314914-n|Artifact+
-14	,	,	PUNCT	,	fPOS=PUNCT++,	13	punct	_	?|?
-15	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	17	nsubj	_	?|?
-16	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	17	cop	_	02604760-v|Entity+
-17	outdoors	outdoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	acl:relcl	_	00110659-r|Outdoors+
-18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10287213-n|Man=
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
+4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
+5	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	NN|10285313-n|Human+
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	VBP|02604760-v|Entity+
+7	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+8	at	at	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+10	bottom	bottom	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|08511970-n|Object+
+11	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
+12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
+13	stairs	stair	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	nmod	_	NNS|04314914-n|Artifact+
+14	,	,	PUNCT	,	fPOS=PUNCT++,	13	punct	_	Fc|?|?
+15	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	17	nsubj	_	WDT|?|?
+16	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	17	cop	_	VBP|02604760-v|Entity+
+17	outdoors	outdoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	acl:relcl	_	RB|00110659-r|Outdoors+
+18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	adult	adult	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	09605289-n|FullyFormed+
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
-4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	amphitheater	amphitheater	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	02704949-n|StationaryArtifact+
-7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
-9	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	00941990-v|Speaking+
-10	to	to	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-12	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	10285313-n|Human+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	adult	adult	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|09605289-n|FullyFormed+
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02604760-v|Entity+
+4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	amphitheater	amphitheater	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|02704949-n|StationaryArtifact+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
+9	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	VBG|00941990-v|Speaking+
+10	to	to	ADP	IN	fPOS=ADP++IN	12	case	_	TO|?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+12	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|10285313-n|Human+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?

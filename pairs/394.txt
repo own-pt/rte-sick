@@ -8,35 +8,35 @@ CONCEPTS B: GamePiece+,Entity+,PhysicalAttribute+,Bicycle=,Entity+,WrittenCommun
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
-5	near	near	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-7	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02834778-n|Bicycle=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02655135-v|PhysicalAttribute+
-10	writing	write	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	00993014-v|WrittenCommunication=
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-12	note	note	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	06504462-n|FactualText=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	near	near	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+7	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02834778-n|Bicycle=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02655135-v|PhysicalAttribute+
+10	writing	write	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|00993014-v|WrittenCommunication=
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+12	note	note	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	NN|06504462-n|FactualText=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	03716327-n|GamePiece+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
-5	near	near	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-7	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02834778-n|Bicycle=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
-10	writing	write	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	00993014-v|WrittenCommunication=
-11	on	on	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
-13	piece	piece	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	03716327-n|GamePiece+
-14	paper	paper	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	06267145-n|Newspaper=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|03716327-n|GamePiece+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	near	near	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+7	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02834778-n|Bicycle=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
+10	writing	write	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|00993014-v|WrittenCommunication=
+11	on	on	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
+13	piece	piece	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	NN|03716327-n|GamePiece+
+14	paper	paper	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|06267145-n|Newspaper=
+15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

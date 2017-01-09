@@ -8,29 +8,29 @@ CONCEPTS B: ColorAttribute+,Separating+,HumanChild=,Entity+,SubjectiveAssessment
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
-2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
-3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10285313-n|Human+
-4	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	bib	bib	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	02834397-n|Clothing+
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
-8	not	not	PART	RB	fPOS=ADV++RB	9	neg	_	00024073-r|not=
-9	watching	watch	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02150948-v|Looking=
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
-11	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	02942699-n|Camera=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|10285313-n|Human+
+4	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	bib	bib	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|02834397-n|Clothing+
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
+8	not	not	PART	RB	fPOS=ADV++RB	9	neg	_	RB|00024073-r|not=
+9	watching	watch	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02150948-v|Looking=
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
+11	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|02942699-n|Camera=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?
-2	tan	tan	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	00384533-a|ColorAttribute+
-3	skinned	skin	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	01262936-v|Separating+
-4	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	09917593-n|HumanChild=
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
-6	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
-7	at	at	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-9	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	02942699-n|Camera=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
+2	tan	tan	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|00384533-a|ColorAttribute+
+3	skinned	skin	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	VBN|01262936-v|Separating+
+4	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|09917593-n|HumanChild=
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
+6	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+7	at	at	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+9	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|02942699-n|Camera=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?

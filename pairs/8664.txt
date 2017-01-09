@@ -8,27 +8,27 @@ CONCEPTS B: Group=,Entity+,Combining+,Increasing+,Roadway=
 
 CONLL A:
 
-1	Rollerbladers	rollerbladers	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	?|?
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	3	aux	_	02604760-v|Entity+
-3	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
-4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
-5	formation	formation	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	09287968-n|SelfConnectedObject+
-6	down	down	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-8	hill	hill	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	09303008-n|Hill=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+1	Rollerbladers	rollerbladers	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	NNS|?|?
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	3	aux	_	VBP|02604760-v|Entity+
+3	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
+4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
+5	formation	formation	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|09287968-n|SelfConnectedObject+
+6	down	down	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+8	hill	hill	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|09303008-n|Hill=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	00031264-n|Group=
-3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
-4	rollerbladers	rollerbladers	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	?|?
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
-6	lining	line	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01270784-v|Combining+
-7	up	up	NOUN	NN	fPOS=ADP++RP	6	compound:prt	_	00097011-r|Increasing+
-8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-10	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	04334599-n|Roadway=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
+4	rollerbladers	rollerbladers	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|?|?
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
+6	lining	line	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01270784-v|Combining+
+7	up	up	NOUN	NN	fPOS=ADP++RP	6	compound:prt	_	RP|00097011-r|Increasing+
+8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+10	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|04334599-n|Roadway=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?

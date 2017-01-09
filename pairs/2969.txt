@@ -8,26 +8,26 @@ CONCEPTS B: SubjectiveWeakPositiveAttribute+,Green=,Ball=,Entity+,SoundAttribute
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
-2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
-3	green	green	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	5	amod	_	00375969-a|Green=
-4	colored	color	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	5	compound	_	00283911-v|SurfaceChange+
-5	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	02778669-n|Ball=
-6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	aux	_	02604760-v|Entity+
-7	hitting	hit	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01236164-v|Impacting+
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-9	potato	potato	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	07710616-n|PotatoTuber=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
+2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	green	green	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	5	amod	_	JJ|00375969-a|Green=
+4	colored	color	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	5	compound	_	VBN|00283911-v|SurfaceChange+
+5	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|02778669-n|Ball=
+6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	aux	_	VBZ|02604760-v|Entity+
+7	hitting	hit	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01236164-v|Impacting+
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+9	potato	potato	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	NN|07710616-n|PotatoTuber=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?
-2	big	big	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
-3	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	00375969-a|Green=
-4	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	02778669-n|Ball=
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
-6	knocking	knock	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02185373-v|SoundAttribute+
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-8	potato	potato	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	07710616-n|PotatoTuber=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
+2	big	big	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|00375969-a|Green=
+4	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02778669-n|Ball=
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
+6	knocking	knock	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02185373-v|SoundAttribute+
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+8	potato	potato	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|07710616-n|PotatoTuber=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?

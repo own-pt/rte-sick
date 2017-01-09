@@ -8,23 +8,23 @@ CONCEPTS B: Human+,Entity+,not=,Touching+,Region@,Canine+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10200047-n|Human+
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
-4	brushing	brush	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01243809-v|Touching+
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02084071-n|Canine+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10200047-n|Human+
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	brushing	brush	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01243809-v|Touching+
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|02084071-n|Canine+
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10200047-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	02604760-v|Entity+
-4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	00024073-r|not=
-5	brushing	brush	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01243809-v|Touching+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-7	bull	bull	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	08686332-n|Region@
-8	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02084071-n|Canine+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10200047-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	RB|00024073-r|not=
+5	brushing	brush	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01243809-v|Touching+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+7	bull	bull	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	NN|08686332-n|Region@
+8	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|02084071-n|Canine+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?

@@ -8,21 +8,21 @@ CONCEPTS B: Entity+,Government+,Entity+,MakingVocalMusic=,MakingVocalMusic+
 
 CONLL A:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
-2	women	woman	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	10787470-n|Woman=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	5	aux	_	02604760-v|Entity+
-4	happily	happily	ADV	RB	fPOS=ADV++RB	5	advmod	_	00050297-r|Happiness+
-5	dancing	dance	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01708676-v|Dancing+
-6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
+2	women	woman	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|10787470-n|Woman=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	5	aux	_	VBP|02604760-v|Entity+
+4	happily	happily	ADV	RB	fPOS=ADV++RB	5	advmod	_	RB|00050297-r|Happiness+
+5	dancing	dance	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	VBG|01708676-v|Dancing+
+6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	couple	couple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	13743605-n|Entity+
-3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
-4	policewomen	policewoman	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	10449412-n|Government+
-5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	02604760-v|Entity+
-6	singing	sing	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01731031-v|MakingVocalMusic=
-7	karaoke	karaoke	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	6	xcomp	_	01255302-n|MakingVocalMusic+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	couple	couple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|13743605-n|Entity+
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
+4	policewomen	policewoman	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|10449412-n|Government+
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	VBP|02604760-v|Entity+
+6	singing	sing	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+7	karaoke	karaoke	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	6	xcomp	_	NN|01255302-n|MakingVocalMusic+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?

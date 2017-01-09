@@ -1,22 +1,22 @@
 # sent_id = 8378a
 # text = Two large dogs, a light colored one and a dark one, are running through snowy terrain.
-1	Two	2	ADP	IN	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?
-2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
-3	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	15	nsubj	_	02084071-n|Canine+
-4	,	,	PUNCT	,	fPOS=PUNCT++,	3	punct	_	?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-6	light	light	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	11473954-n|RadiatingVisibleLight+
-7	colored	color	ADJ	JJ	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	8	amod	_	00283911-v|SurfaceChange+
-8	one	1	NOUN	NN	NumType=Card|fPOS=NUM++CD	3	appos	_	?|?
-9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-11	dark	dark	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	amod	_	00409440-a|SubjectiveWeakNegativeAttribute+
-12	one	1	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	conj	_	?|?
-13	,	,	PUNCT	,	fPOS=PUNCT++,	15	punct	_	?|?
-14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	15	aux	_	02604760-v|Entity+
-15	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
-16	through	through	ADP	IN	fPOS=ADP++IN	18	case	_	?|?
-17	snowy	snowy	ADV	RB	fPOS=SCONJ++IN	18	advmod	_	01698231-a|Covering+
-18	terrain	terrain	ADV	RB	Number=Sing|fPOS=NOUN++NN	15	nmod	_	08674563-n|LandArea+
-19	.	.	PUNCT	.	fPOS=PUNCT++.	15	punct	_	?|?
+1	Two	2	ADP	IN	NumType=Card|fPOS=NUM++CD	3	nummod	_	Z|?|?
+2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	15	nsubj	_	NNS|02084071-n|Canine+
+4	,	,	PUNCT	,	fPOS=PUNCT++,	3	punct	_	Fc|?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+6	light	light	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	NN|11473954-n|RadiatingVisibleLight+
+7	colored	color	ADJ	JJ	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	8	amod	_	VBD|00283911-v|SurfaceChange+
+8	one	1	NOUN	NN	NumType=Card|fPOS=NUM++CD	3	appos	_	Z|?|?
+9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	CC|?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+11	dark	dark	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	amod	_	JJ|00409440-a|SubjectiveWeakNegativeAttribute+
+12	one	1	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	conj	_	Z|?|?
+13	,	,	PUNCT	,	fPOS=PUNCT++,	15	punct	_	Fc|?|?
+14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	15	aux	_	VBP|02604760-v|Entity+
+15	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
+16	through	through	ADP	IN	fPOS=ADP++IN	18	case	_	IN|?|?
+17	snowy	snowy	ADV	RB	fPOS=SCONJ++IN	18	advmod	_	JJ|01698231-a|Covering+
+18	terrain	terrain	ADV	RB	Number=Sing|fPOS=NOUN++NN	15	nmod	_	NN|08674563-n|LandArea+
+19	.	.	PUNCT	.	fPOS=PUNCT++.	15	punct	_	Fp|?|?
 

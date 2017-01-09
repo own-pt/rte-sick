@@ -8,30 +8,30 @@ CONCEPTS B: Canine+,Entity+,Red=,Ball=,AirTransportation+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00047745-v|CoveringFn=
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-6	straw	straw	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	7	compound	_	14959939-n|Hay=
-7	hat	hat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03497657-n|Hat+
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
-9	smoking	smoking	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	00834636-n|Smoking=
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
-11	cigarette	cigarette	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	03030663-n|CigarOrCigarette+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00047745-v|CoveringFn=
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+6	straw	straw	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	7	compound	_	NN|14959939-n|Hay=
+7	hat	hat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03497657-n|Hat+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
+9	smoking	smoking	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	NN|00834636-n|Smoking=
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
+11	cigarette	cigarette	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|03030663-n|CigarOrCigarette+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	02084071-n|Canine+
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	cop	_	02604760-v|Entity+
-4	near	near	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-6	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00381097-a|Red=
-7	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	02778669-n|Ball=
-8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-10	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	00300441-n|AirTransportation+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	cop	_	VBZ|02604760-v|Entity+
+4	near	near	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+6	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|00381097-a|Red=
+7	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|02778669-n|Ball=
+8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+10	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|00300441-n|AirTransportation+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?

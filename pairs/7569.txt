@@ -8,47 +8,47 @@ CONCEPTS B: Human=,Bicycle=,Entity+,Ambulating=,AirTransportation+,Sol=,Entity+,
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
-4	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	00007846-n|Human=
-5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-7	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02834778-n|Bicycle=
-8	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	acl	_	01963942-v|Ambulating=
-9	through	through	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
-11	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	00300441-n|AirTransportation+
-12	with	with	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
-13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
-14	sun	sun	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	09450163-n|Sol=
-15	flaring	flare	VERB	VBG	Number=Sing|fPOS=NOUN++NN	14	acl	_	02762806-v|Combustion+
-16	through	through	ADP	IN	fPOS=ADP++IN	19	case	_	?|?
-17	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	?|?
-18	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	19	compound	_	02834778-n|Bicycle=
-19	frame	frame	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	05217168-n|Human=
-20	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
+4	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|00007846-n|Human=
+5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+7	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02834778-n|Bicycle=
+8	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	acl	_	VBG|01963942-v|Ambulating=
+9	through	through	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
+11	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|00300441-n|AirTransportation+
+12	with	with	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
+13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
+14	sun	sun	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|09450163-n|Sol=
+15	flaring	flare	VERB	VBG	Number=Sing|fPOS=NOUN++NN	14	acl	_	VBG|02762806-v|Combustion+
+16	through	through	ADP	IN	fPOS=ADP++IN	19	case	_	IN|?|?
+17	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	DT|?|?
+18	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	19	compound	_	NN|02834778-n|Bicycle=
+19	frame	frame	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	NN|05217168-n|Human=
+20	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	00007846-n|Human=
-3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
-5	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	02834778-n|Bicycle=
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
-7	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
-8	through	through	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-10	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	00300441-n|AirTransportation+
-11	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
-12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
-13	sun	sun	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nsubj	_	09450163-n|Sol=
-14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	15	aux	_	02604760-v|Entity+
-15	flaring	flare	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	7	conj	_	02762806-v|Combustion+
-16	through	through	ADP	IN	fPOS=ADP++IN	19	case	_	?|?
-17	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	?|?
-18	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	19	compound	_	02834778-n|Bicycle=
-19	frame	frame	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	05217168-n|Human=
-20	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|00007846-n|Human=
+3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
+5	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|02834778-n|Bicycle=
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
+7	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
+8	through	through	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+10	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|00300441-n|AirTransportation+
+11	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
+12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
+13	sun	sun	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nsubj	_	NN|09450163-n|Sol=
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	15	aux	_	VBZ|02604760-v|Entity+
+15	flaring	flare	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	7	conj	_	VBG|02762806-v|Combustion+
+16	through	through	ADP	IN	fPOS=ADP++IN	19	case	_	IN|?|?
+17	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	DT|?|?
+18	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	19	compound	_	NN|02834778-n|Bicycle=
+19	frame	frame	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	NN|05217168-n|Human=
+20	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?

@@ -8,24 +8,24 @@ CONCEPTS B: Squirrel+,Entity+,Attribute+,Circle=
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	?|?
-4	squirrel	squirrel	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	5	amod	_	02355227-n|Squirrel+
-5	spinning	spin	NOUN	NN	fPOS=ADP++IN	2	nsubj	_	02046755-v|Rotating+
-6	around	around	ADV	RB	fPOS=ADV++RB	5	advmod	_	00007015-r|?
-7	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-8	circles	circle	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	13873502-n|Circle=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	DT|?|?
+4	squirrel	squirrel	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	5	amod	_	NN|02355227-n|Squirrel+
+5	spinning	spin	NOUN	NN	fPOS=ADP++IN	2	nsubj	_	VBG|02046755-v|Rotating+
+6	around	around	ADV	RB	fPOS=ADV++RB	5	advmod	_	RP|00007015-r|?
+7	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+8	circles	circle	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	NNS|13873502-n|Circle=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	squirrel	squirrel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02355227-n|Squirrel+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
-5	around	around	ADV	RB	fPOS=ADP++IN	4	advmod	_	00007015-r|?
-6	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
-7	circles	circle	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	13873502-n|Circle=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	squirrel	squirrel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02355227-n|Squirrel+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
+5	around	around	ADV	RB	fPOS=ADP++IN	4	advmod	_	RP|00007015-r|?
+6	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
+7	circles	circle	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|13873502-n|Circle=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

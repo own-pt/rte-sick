@@ -8,40 +8,40 @@ CONCEPTS B: Entity+,Woman=,earlier+,TraitAttribute=,Entity+,equal+,Woman=,Social
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	snowboarding	snowboarding	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	?|?
-5	down	down	ADP	RP	fPOS=ADP++RP	4	compound:prt	_	00095320-r|earlier+
-6	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-7	incline	incline	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02719399-v|TraitAttribute=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
-9	another	another	DET	DT	fPOS=DET++DT	10	det	_	?|?
-10	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	10787470-n|Woman=
-11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	02604760-v|Entity+
-12	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	01546111-v|PhysicalAttribute+
-13	behind	behind	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
-14	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	12	nmod	_	?|?
-15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	snowboarding	snowboarding	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|?|?
+5	down	down	ADP	RP	fPOS=ADP++RP	4	compound:prt	_	RP|00095320-r|earlier+
+6	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+7	incline	incline	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	VB|02719399-v|TraitAttribute=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
+9	another	another	DET	DT	fPOS=DET++DT	10	det	_	DT|?|?
+10	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	NN|10787470-n|Woman=
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	VBZ|02604760-v|Entity+
+12	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|01546111-v|PhysicalAttribute+
+13	behind	behind	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
+14	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	12	nmod	_	PRP$|?|?
+15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
-4	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	10787470-n|Woman=
-5	snowboarding	snowboarding	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	?|?
-6	down	down	ADP	RP	fPOS=ADP++RP	5	compound:prt	_	00095320-r|earlier+
-7	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-8	incline	incline	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02719399-v|TraitAttribute=
-9	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
-10	there	there	PRON	EX	fPOS=PRON++EX	11	expl	_	?|?
-11	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	2	conj	_	02604760-v|Entity+
-12	no	no	DET	DT	fPOS=DET++DT	14	neg	_	?|?
-13	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	02069355-a|equal+
-14	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	10787470-n|Woman=
-15	standing	standing	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	14	acl	_	13948136-n|SocialRole+
-16	behind	behind	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
-17	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	15	nmod	_	?|?
-18	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
+4	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|10787470-n|Woman=
+5	snowboarding	snowboarding	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	VBG|?|?
+6	down	down	ADP	RP	fPOS=ADP++RP	5	compound:prt	_	RP|00095320-r|earlier+
+7	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+8	incline	incline	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	VB|02719399-v|TraitAttribute=
+9	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
+10	there	there	PRON	EX	fPOS=PRON++EX	11	expl	_	EX|?|?
+11	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	2	conj	_	VBZ|02604760-v|Entity+
+12	no	no	DET	DT	fPOS=DET++DT	14	neg	_	DT|?|?
+13	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	JJ|02069355-a|equal+
+14	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	NN|10787470-n|Woman=
+15	standing	standing	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	14	acl	_	NN|13948136-n|SocialRole+
+16	behind	behind	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
+17	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	15	nmod	_	PRP$|?|?
+18	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?

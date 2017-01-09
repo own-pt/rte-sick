@@ -8,26 +8,26 @@ CONCEPTS B: Hominid=,PhysicalAttribute+,SittingDown+,StateOfMind+,ContentBearing
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
-5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
-6	tables	table	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	4	conj	_	08266235-n|ContentBearingObject+
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-8	comfortable	comfortable	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	00479330-a|SubjectiveWeakPositiveAttribute+
-9	discussion	discussion	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	07138085-n|Text+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
+6	tables	table	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	4	conj	_	NNS|08266235-n|ContentBearingObject+
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+8	comfortable	comfortable	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|00479330-a|SubjectiveWeakPositiveAttribute+
+9	discussion	discussion	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|07138085-n|Text+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
-5	comfortably	comfortably	ADV	RB	fPOS=ADV++RB	4	advmod	_	00155020-r|StateOfMind+
-6	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-8	table	table	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	08266235-n|ContentBearingObject+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	comfortably	comfortably	ADV	RB	fPOS=ADV++RB	4	advmod	_	RB|00155020-r|StateOfMind+
+6	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+8	table	table	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|08266235-n|ContentBearingObject+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

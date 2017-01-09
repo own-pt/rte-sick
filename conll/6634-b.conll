@@ -1,14 +1,14 @@
 # sent_id = 6634b
 # text = A horse and its rider are leaping over a barrier.
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	02374451-n|Horse=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
-4	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	5	nmod:poss	_	?|?
-5	rider	rider	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	10529965-n|Position+
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	02604760-v|Entity+
-7	leaping	leap	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
-8	over	over	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-10	barrier	barrier	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	02796623-n|Barrier=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|02374451-n|Horse=
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
+4	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	5	nmod:poss	_	PRP$|?|?
+5	rider	rider	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	NN|10529965-n|Position+
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	VBP|02604760-v|Entity+
+7	leaping	leap	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
+8	over	over	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+10	barrier	barrier	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|02796623-n|Barrier=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
 

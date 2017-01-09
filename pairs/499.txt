@@ -8,37 +8,37 @@ CONCEPTS B: SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Walking+,Human+,E
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	?|?
-2	black	black	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	5	amod	_	00392812-a|Black=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
-4	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	00393105-a|White=
-5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	02084071-n|Canine+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
-7	not	not	PART	RB	fPOS=PART++RB	8	neg	_	00024073-r|not=
-8	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
-9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
-10	there	there	PRON	EX	fPOS=PRON++EX	11	expl	_	?|?
-11	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	conj	_	02604760-v|Entity+
-12	no	no	DET	DT	fPOS=DET++DT	13	neg	_	?|?
-13	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	00007846-n|Human=
-14	standing	standing	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	13	acl	_	13948136-n|SocialRole+
-15	behind	behind	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	?|?
-16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
+2	black	black	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	5	amod	_	JJ|00392812-a|Black=
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
+4	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	JJ|00393105-a|White=
+5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|02084071-n|Canine+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
+7	not	not	PART	RB	fPOS=PART++RB	8	neg	_	RB|00024073-r|not=
+8	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
+9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	CC|?|?
+10	there	there	PRON	EX	fPOS=PRON++EX	11	expl	_	EX|?|?
+11	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	conj	_	VBZ|02604760-v|Entity+
+12	no	no	DET	DT	fPOS=DET++DT	13	neg	_	DT|?|?
+13	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	NN|00007846-n|Human=
+14	standing	standing	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	13	acl	_	NN|13948136-n|SocialRole+
+15	behind	behind	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	IN|?|?
+16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
-2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
-4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	cop	_	02604760-v|Entity+
-5	sprinting	sprint	NOUN	NN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01928579-v|Walking+
-6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
-7	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	8	nmod:poss	_	?|?
-8	owner	owner	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	10388924-n|Human+
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
-10	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	02530167-v|IntentionalProcess+
-11	to	to	PART	TO	fPOS=PART++TO	12	mark	_	?|?
-12	catch	catch	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	10	xcomp	_	01439190-v|Grabbing+
-13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	12	dobj	_	?|?
-14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	cop	_	VBZ|02604760-v|Entity+
+5	sprinting	sprint	NOUN	NN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01928579-v|Walking+
+6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
+7	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	8	nmod:poss	_	PRP$|?|?
+8	owner	owner	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	NN|10388924-n|Human+
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
+10	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	VBG|02530167-v|IntentionalProcess+
+11	to	to	PART	TO	fPOS=PART++TO	12	mark	_	TO|?|?
+12	catch	catch	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	10	xcomp	_	VB|01439190-v|Grabbing+
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	12	dobj	_	PRP|?|?
+14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?

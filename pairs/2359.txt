@@ -8,30 +8,30 @@ CONCEPTS B: Human=,Entity+,Destruction+,Camera=,Impacting=,LightFixture+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	00007846-n|Human=
-3	by	by	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
-4	some	some	DET	DT	fPOS=DET++DT	5	det	_	?|?
-5	cameras	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	02942699-n|Camera=
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
-7	blowing	blow	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00007012-v|Exhaling+
-8	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
-10	burning	burning	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	amod	_	14325437-n|PathologicProcess+
-11	torch	torch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	04456115-n|LightFixture+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|00007846-n|Human=
+3	by	by	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
+4	some	some	DET	DT	fPOS=DET++DT	5	det	_	DT|?|?
+5	cameras	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NNS|02942699-n|Camera=
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
+7	blowing	blow	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00007012-v|Exhaling+
+8	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
+10	burning	burning	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	amod	_	NN|14325437-n|PathologicProcess+
+11	torch	torch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|04456115-n|LightFixture+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	burning	burn	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00378664-v|Destruction+
-5	some	some	DET	DT	fPOS=DET++DT	6	det	_	?|?
-6	cameras	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02942699-n|Camera=
-7	with	with	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-9	blow	blow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	01173038-n|Impacting=
-10	torch	torch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04456115-n|LightFixture+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	burning	burn	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00378664-v|Destruction+
+5	some	some	DET	DT	fPOS=DET++DT	6	det	_	DT|?|?
+6	cameras	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NNS|02942699-n|Camera=
+7	with	with	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+9	blow	blow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	NN|01173038-n|Impacting=
+10	torch	torch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04456115-n|LightFixture+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

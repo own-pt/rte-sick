@@ -8,25 +8,25 @@ CONCEPTS B: Human+,Entity+,Impacting+,Man=,SubjectiveAssessmentAttribute+,Sword+
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
-4	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	02472293-n|Hominid=
-5	being	be	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	cop	_	02604760-v|Entity+
-6	hit	hit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	acl	_	01236164-v|Impacting+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
+4	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|02472293-n|Hominid=
+5	being	be	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	cop	_	VBG|02604760-v|Entity+
+6	hit	hit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	acl	_	VBN|01236164-v|Impacting+
+7	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10285313-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	spanking	spank	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01420928-v|Impacting+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	10287213-n|Man=
-7	with	with	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-9	plastic	plastic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	02364954-a|SubjectiveAssessmentAttribute+
-10	sword	sword	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04373894-n|Sword+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	spanking	spank	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01420928-v|Impacting+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|10287213-n|Man=
+7	with	with	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+9	plastic	plastic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	JJ|02364954-a|SubjectiveAssessmentAttribute+
+10	sword	sword	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04373894-n|Sword+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

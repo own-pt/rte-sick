@@ -8,18 +8,18 @@ CONCEPTS B: Human+,Entity+,Process+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	baby	baby	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	09827683-n|HumanBaby=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00941990-v|Speaking+
-5	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	baby	baby	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09827683-n|HumanBaby=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00941990-v|Speaking+
+5	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10285313-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
-4	saying	say	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	00928959-v|Process+
-5	something	something	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	?|?
-6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	saying	say	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|00928959-v|Process+
+5	something	something	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	PRP|?|?
+6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

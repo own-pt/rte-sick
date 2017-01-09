@@ -8,27 +8,27 @@ CONCEPTS B: Black=,Human+,Canine+,Entity+,Looking+,Insect=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
-2	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	00392812-a|Black=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
-4	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	00245112-a|Human+
-5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	02084071-n|Canine+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	aux	_	02604760-v|Entity+
-7	eyeing	eye	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02167052-v|Looking+
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-9	fly	fly	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	02190166-n|FlyInsect+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
+2	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	JJ|00392812-a|Black=
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
+4	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	JJ|00245112-a|Human+
+5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|02084071-n|Canine+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	aux	_	VBZ|02604760-v|Entity+
+7	eyeing	eye	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02167052-v|Looking+
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+9	fly	fly	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	NN|02190166-n|FlyInsect+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
-2	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	00392812-a|Black=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
-4	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	00245112-a|Human+
-5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	02084071-n|Canine+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	aux	_	02604760-v|Entity+
-7	eyeing	eye	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02167052-v|Looking+
-8	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-9	insect	insect	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	02159955-n|Insect=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
+2	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	JJ|00392812-a|Black=
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
+4	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	JJ|00245112-a|Human+
+5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|02084071-n|Canine+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	aux	_	VBZ|02604760-v|Entity+
+7	eyeing	eye	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02167052-v|Looking+
+8	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+9	insect	insect	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	NN|02159955-n|Insect=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?

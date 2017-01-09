@@ -8,40 +8,40 @@ CONCEPTS B: Human+,Entity+,SubjectiveStrongNegativeAttribute+,Entity+,ShapeChang
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	10129825-n|Human+
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
-4	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	6	nsubj	_	?|?
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
-6	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	01391351-a|SubjectiveStrongNegativeAttribute+
-7	,	,	PUNCT	,	fPOS=PUNCT++,	10	punct	_	?|?
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
-9	carefully	carefully	ADV	RB	fPOS=ADV++RB	10	advmod	_	00153568-r|SubjectiveAssessmentAttribute+
-10	combing	comb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01596645-v|ShapeChange+
-11	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	12	nmod:poss	_	?|?
-12	hair	hair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	05254795-n|Hair=
-13	into	into	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
-14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
-15	pony	pony	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	16	amod	_	02382437-n|Horse+
-16	tail	tail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	02157557-n|BodyPart+
-17	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	NN|10129825-n|Human+
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	6	nsubj	_	WP|?|?
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02604760-v|Entity+
+6	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+7	,	,	PUNCT	,	fPOS=PUNCT++,	10	punct	_	Fc|?|?
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
+9	carefully	carefully	ADV	RB	fPOS=ADV++RB	10	advmod	_	RB|00153568-r|SubjectiveAssessmentAttribute+
+10	combing	comb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01596645-v|ShapeChange+
+11	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	12	nmod:poss	_	PRP$|?|?
+12	hair	hair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	NN|05254795-n|Hair=
+13	into	into	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
+14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
+15	pony	pony	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	16	amod	_	NN|02382437-n|Horse+
+16	tail	tail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|02157557-n|BodyPart+
+17	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10129825-n|Human+
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
-4	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	6	nsubj	_	?|?
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
-6	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	01391351-a|SubjectiveStrongNegativeAttribute+
-7	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	?|?
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
-9	combing	comb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01596645-v|ShapeChange+
-10	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	11	nmod:poss	_	?|?
-11	hair	hair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	05254795-n|Hair=
-12	into	into	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
-13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
-14	pony	pony	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	02382437-n|Horse+
-15	tail	tail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	02157557-n|BodyPart+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|10129825-n|Human+
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	6	nsubj	_	WP|?|?
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02604760-v|Entity+
+6	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+7	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	Fc|?|?
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
+9	combing	comb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01596645-v|ShapeChange+
+10	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	11	nmod:poss	_	PRP$|?|?
+11	hair	hair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|05254795-n|Hair=
+12	into	into	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
+14	pony	pony	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	NN|02382437-n|Horse+
+15	tail	tail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|02157557-n|BodyPart+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?

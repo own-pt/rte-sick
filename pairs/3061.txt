@@ -8,41 +8,41 @@ CONCEPTS B: Entity+,Woman=,Transportation+,Automobile=,Speaking+,Man=,Communicat
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	driving	drive	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01930874-v|Transportation+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02958343-n|Automobile=
-7	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
-9	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	00941990-v|Speaking+
-10	to	to	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-12	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	10287213-n|Man=
-13	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	15	nsubjpass	_	?|?
-14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	15	auxpass	_	02604760-v|Entity+
-15	seated	seat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	12	acl:relcl	_	01543998-v|Communication+
-16	beside	beside	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
-17	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	15	nmod	_	?|?
-18	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	driving	drive	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01930874-v|Transportation+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|02958343-n|Automobile=
+7	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
+9	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|00941990-v|Speaking+
+10	to	to	ADP	IN	fPOS=ADP++IN	12	case	_	TO|?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+12	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|10287213-n|Man=
+13	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	15	nsubjpass	_	WP|?|?
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	15	auxpass	_	VBZ|02604760-v|Entity+
+15	seated	seat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	12	acl:relcl	_	VBN|01543998-v|Communication+
+16	beside	beside	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
+17	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	15	nmod	_	PRP$|?|?
+18	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
-4	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	10787470-n|Woman=
-5	driving	drive	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	01930874-v|Transportation+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-7	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02958343-n|Automobile=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
-9	talking	talk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	00941990-v|Speaking+
-10	to	to	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-12	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	10287213-n|Man=
-13	seated	seat	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	12	acl	_	01543998-v|Communication+
-14	beside	beside	ADP	IN	VerbForm=Ger|fPOS=VERB++VBG	15	case	_	?|?
-15	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	13	nmod	_	?|?
-16	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
+4	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|10787470-n|Woman=
+5	driving	drive	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	VBG|01930874-v|Transportation+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+7	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|02958343-n|Automobile=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
+9	talking	talk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	VBG|00941990-v|Speaking+
+10	to	to	ADP	IN	fPOS=ADP++IN	12	case	_	TO|?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+12	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|10287213-n|Man=
+13	seated	seat	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	12	acl	_	VBN|01543998-v|Communication+
+14	beside	beside	ADP	IN	VerbForm=Ger|fPOS=VERB++VBG	15	case	_	IN|?|?
+15	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	13	nmod	_	PRP$|?|?
+16	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?

@@ -8,30 +8,30 @@ CONCEPTS B: Group=,GroupOfPeople=,Entity+,not=,SubjectiveAssessmentAttribute+,As
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	00031264-n|Group=
-3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
-4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	07942152-n|GroupOfPeople=
-5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	02604760-v|Entity+
-6	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
-7	around	around	ADV	RB	fPOS=ADP++IN	9	advmod	_	?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-9	sound	sound	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	00693020-a|Asleep+
-10	mixing	mix	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	9	acl	_	00394813-v|IntentionalProcess+
-11	table	table	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	08266235-n|ContentBearingObject+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
+4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|07942152-n|GroupOfPeople=
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	VBP|02604760-v|Entity+
+6	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+7	around	around	ADV	RB	fPOS=ADP++IN	9	advmod	_	IN|?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+9	sound	sound	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	JJ|00693020-a|Asleep+
+10	mixing	mix	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	9	acl	_	VBG|00394813-v|IntentionalProcess+
+11	table	table	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	NN|08266235-n|ContentBearingObject+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	00031264-n|Group=
-3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
-4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	07942152-n|GroupOfPeople=
-5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	02604760-v|Entity+
-6	not	not	PART	RB	fPOS=PART++RB	7	neg	_	00024073-r|not=
-7	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
-8	at	at	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-9	sound	sound	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	10	compound	_	00693020-a|Asleep+
-10	equipment	equipment	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	03294048-n|Device+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
+4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|07942152-n|GroupOfPeople=
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	VBP|02604760-v|Entity+
+6	not	not	PART	RB	fPOS=PART++RB	7	neg	_	RB|00024073-r|not=
+7	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+8	at	at	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+9	sound	sound	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	10	compound	_	JJ|00693020-a|Asleep+
+10	equipment	equipment	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|03294048-n|Device+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?

@@ -8,26 +8,26 @@ CONCEPTS B: Entity+,Human+,ColorAttribute+,Transfer+,ArtWork+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	10129825-n|Human+
-3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
-4	pink	pink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	04970916-n|ColorAttribute+
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	aux	_	02604760-v|Entity+
-6	twirling	twirl	VERB	VBG	fPOS=ADP++IN	0	ROOT	_	02048051-v|Transfer+
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-8	ribbon	ribbon	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	04087899-n|ArtWork+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|10129825-n|Human+
+3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
+4	pink	pink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|04970916-n|ColorAttribute+
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	aux	_	VBZ|02604760-v|Entity+
+6	twirling	twirl	VERB	VBG	fPOS=ADP++IN	0	ROOT	_	VBG|02048051-v|Transfer+
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+8	ribbon	ribbon	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|04087899-n|ArtWork+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
-4	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	10129825-n|Human+
-5	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
-6	pink	pink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04970916-n|ColorAttribute+
-7	twirling	twirl	VERB	VBG	fPOS=ADP++IN	6	acl	_	02048051-v|Transfer+
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-9	ribbon	ribbon	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	04087899-n|ArtWork+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
+4	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|10129825-n|Human+
+5	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
+6	pink	pink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04970916-n|ColorAttribute+
+7	twirling	twirl	VERB	VBG	fPOS=ADP++IN	6	acl	_	VBG|02048051-v|Transfer+
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+9	ribbon	ribbon	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	NN|04087899-n|ArtWork+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?

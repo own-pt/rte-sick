@@ -1,13 +1,13 @@
 # sent_id = 1950a
 # text = One small child is drinking water from the cup.
-1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?
-2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
-3	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	09917593-n|HumanChild=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
-5	drinking	drink	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01171183-v|Drinking+
-6	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	14845743-n|Water=
-7	from	from	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-9	cup	cup	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03147509-n|Cup=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	Z|?|?
+2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
+5	drinking	drink	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01171183-v|Drinking+
+6	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|14845743-n|Water=
+7	from	from	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+9	cup	cup	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|03147509-n|Cup=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
 

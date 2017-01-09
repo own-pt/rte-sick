@@ -8,34 +8,34 @@ CONCEPTS B: Woman=,Entity+,SubjectiveAssessmentAttribute+,Entity+,SubjectiveAsse
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	10787470-n|Woman=
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
-4	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	6	nsubj	_	?|?
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
-6	old	old	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	01643620-a|SubjectiveAssessmentAttribute+
-7	,	,	PUNCT	,	fPOS=PUNCT++,	12	punct	_	?|?
-8	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	12	cop	_	02604760-v|Entity+
-9	near	near	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	12	advmod	_	?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-11	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00393105-a|White=
-12	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	02084071-n|Canine+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	NN|10787470-n|Woman=
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	6	nsubj	_	WP|?|?
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02604760-v|Entity+
+6	old	old	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	JJ|01643620-a|SubjectiveAssessmentAttribute+
+7	,	,	PUNCT	,	fPOS=PUNCT++,	12	punct	_	Fc|?|?
+8	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	12	cop	_	VBZ|02604760-v|Entity+
+9	near	near	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	12	advmod	_	IN|?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+11	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|00393105-a|White=
+12	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|02084071-n|Canine+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nsubj	_	10787470-n|Woman=
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
-4	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	6	nsubj	_	?|?
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
-6	old	old	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	01643620-a|SubjectiveAssessmentAttribute+
-7	,	,	PUNCT	,	fPOS=PUNCT++,	13	punct	_	?|?
-8	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	13	cop	_	02604760-v|Entity+
-9	far	far	ADV	RB	Degree=Pos|fPOS=ADJ++JJ	13	advmod	_	00101323-r|SubjectiveAssessmentAttribute+
-10	from	from	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
-12	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	00393105-a|White=
-13	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	02084071-n|Canine+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	13	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nsubj	_	NN|10787470-n|Woman=
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	6	nsubj	_	WP|?|?
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02604760-v|Entity+
+6	old	old	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	JJ|01643620-a|SubjectiveAssessmentAttribute+
+7	,	,	PUNCT	,	fPOS=PUNCT++,	13	punct	_	Fc|?|?
+8	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	13	cop	_	VBZ|02604760-v|Entity+
+9	far	far	ADV	RB	Degree=Pos|fPOS=ADJ++JJ	13	advmod	_	RB|00101323-r|SubjectiveAssessmentAttribute+
+10	from	from	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
+12	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	JJ|00393105-a|White=
+13	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|02084071-n|Canine+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	13	punct	_	Fp|?|?

@@ -8,23 +8,23 @@ CONCEPTS B: Hominid=,Entity+,Cutting+,PreparedFood+,BreadOrBiscuit+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	slicing	slice	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01254477-v|Separating+
-5	some	some	DET	DT	fPOS=DET++DT	6	det	_	?|?
-6	bread	bread	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07679356-n|BreadOrBiscuit+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01254477-v|Separating+
+5	some	some	DET	DT	fPOS=DET++DT	6	det	_	DT|?|?
+6	bread	bread	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|07679356-n|BreadOrBiscuit+
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	cutting	cut	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01552519-v|Cutting+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	slice	slice	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07654667-n|PreparedFood+
-7	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-8	bread	bread	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	07679356-n|BreadOrBiscuit+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01552519-v|Cutting+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	slice	slice	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|07654667-n|PreparedFood+
+7	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+8	bread	bread	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|07679356-n|BreadOrBiscuit+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

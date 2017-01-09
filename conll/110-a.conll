@@ -1,12 +1,12 @@
 # sent_id = 110a
 # text = Two teams are competing in a football match.
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
-2	teams	team	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	08208560-n|Organization=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
-4	competing	compete	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01072262-v|Contest+
-5	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-7	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	00468480-n|Football+
-8	match	match	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	07470671-n|Sport+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
+2	teams	team	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|08208560-n|Organization=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
+4	competing	compete	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01072262-v|Contest+
+5	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+7	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	NN|00468480-n|Football+
+8	match	match	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|07470671-n|Sport+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 

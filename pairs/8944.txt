@@ -8,35 +8,35 @@ CONCEPTS B: Woman=,SubjectiveStrongNegativeAttribute+,Shirt=,Entity+,SubjectiveA
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10285313-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	game	game	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00455599-n|Game=
-7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
-8	wooden	wooden	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	9	amod	_	01141595-a|SubjectiveAssessmentAttribute+
-9	blocks	block	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	13914608-n|ShapeAttribute+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	game	game	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|00455599-n|Game=
+7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
+8	wooden	wooden	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	9	amod	_	JJ|01141595-a|SubjectiveAssessmentAttribute+
+9	blocks	block	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	NNS|13914608-n|ShapeAttribute+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10787470-n|Woman=
-3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
-4	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
-5	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	04197391-n|Shirt=
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
-7	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
-8	at	at	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-9	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	10	nmod:poss	_	?|?
-10	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	05564590-n|Hand+
-11	near	near	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
-13	stack	stack	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	07963087-n|Collection+
-14	of	of	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
-15	blocks	block	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	nmod	_	13914608-n|ShapeAttribute+
-16	on	on	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
-17	table	table	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	15	nmod	_	08266235-n|ContentBearingObject+
-18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10787470-n|Woman=
+3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
+4	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+5	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|04197391-n|Shirt=
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
+7	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+8	at	at	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+9	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	10	nmod:poss	_	PRP$|?|?
+10	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|05564590-n|Hand+
+11	near	near	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
+13	stack	stack	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|07963087-n|Collection+
+14	of	of	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
+15	blocks	block	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	nmod	_	NNS|13914608-n|ShapeAttribute+
+16	on	on	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
+17	table	table	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	15	nmod	_	NN|08266235-n|ContentBearingObject+
+18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?

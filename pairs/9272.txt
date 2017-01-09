@@ -8,36 +8,36 @@ CONCEPTS B: Feline+,Entity+,Kennel=,BackFn+,Limb=,Entity+,DirectionChange+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
-2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00392812-a|Black=
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	02084071-n|Canine+
-4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-6	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	02101942-a|SubjectiveAssessmentAttribute+
-7	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	conj	_	02084071-n|Canine+
-8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	9	aux	_	02604760-v|Entity+
-9	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
-10	with	with	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
-11	each	each	DET	DT	fPOS=DET++DT	12	det	_	?|?
-12	other	other	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	9	nmod	_	02069355-a|equal+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00392812-a|Black=
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|02084071-n|Canine+
+4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	CC|?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+6	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+7	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	conj	_	NN|02084071-n|Canine+
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	9	aux	_	VBP|02604760-v|Entity+
+9	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
+10	with	with	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
+11	each	each	DET	DT	fPOS=DET++DT	12	det	_	DT|?|?
+12	other	other	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	9	nmod	_	JJ|02069355-a|equal+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NOUN	NN	NumType=Card|fPOS=NUM++CD	2	compound	_	?|?
-2	cats	cat	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	02121620-n|Feline+
-3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	6	cop	_	02604760-v|Entity+
-4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	kennel	kennel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	03610524-n|Kennel=
-7	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-8	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	10	nmod:poss	_	?|?
-9	hind	hind	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	10	amod	_	00131692-a|BackFn+
-10	legs	leg	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	05560787-n|Limb=
-11	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
-12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	13	aux	_	02604760-v|Entity+
-13	facing	face	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	01908365-v|DirectionChange+
-14	one	1	NUM	CD	NumType=Card|fPOS=NUM++CD	13	dobj	_	?|?
-15	another	another	ADV	RB	fPOS=DET++DT	13	advmod	_	?|?
-16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+1	Two	2	NOUN	NN	NumType=Card|fPOS=NUM++CD	2	compound	_	Z|?|?
+2	cats	cat	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	NNS|02121620-n|Feline+
+3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	6	cop	_	VBP|02604760-v|Entity+
+4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	kennel	kennel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|03610524-n|Kennel=
+7	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+8	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	10	nmod:poss	_	PRP$|?|?
+9	hind	hind	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	10	amod	_	JJ|00131692-a|BackFn+
+10	legs	leg	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	NNS|05560787-n|Limb=
+11	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
+12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	13	aux	_	VBP|02604760-v|Entity+
+13	facing	face	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	VBG|01908365-v|DirectionChange+
+14	one	1	NUM	CD	NumType=Card|fPOS=NUM++CD	13	dobj	_	Z|?|?
+15	another	another	ADV	RB	fPOS=DET++DT	13	advmod	_	DT|?|?
+16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?

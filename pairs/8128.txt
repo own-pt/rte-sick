@@ -8,33 +8,33 @@ CONCEPTS B: Group=,GroupOfPeople=,Entity+,IntentionalProcess+,Beverage+,Indicati
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	00031264-n|Group=
-3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
-4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	07942152-n|GroupOfPeople=
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
-6	holding	hold	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01151753-v|IntentionalProcess+
-7	food	food	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	05811214-n|SubjectiveAssessmentAttribute+
-8	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
-9	pointing	point	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	conj	_	00923793-v|Indicating=
-10	at	at	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-12	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	02942699-n|Camera=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
+4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|07942152-n|GroupOfPeople=
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
+6	holding	hold	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	VBG|01151753-v|IntentionalProcess+
+7	food	food	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|05811214-n|SubjectiveAssessmentAttribute+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
+9	pointing	point	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	conj	_	VBG|00923793-v|Indicating=
+10	at	at	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+12	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|02942699-n|Camera=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	00031264-n|Group=
-3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
-4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	07942152-n|GroupOfPeople=
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	cop	_	02604760-v|Entity+
-6	holding	hold	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	01151753-v|IntentionalProcess+
-7	drinks	drink	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	07885223-n|Beverage+
-8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
-9	pointing	point	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	conj	_	00923793-v|Indicating=
-10	at	at	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-12	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	02942699-n|Camera=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
+4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|07942152-n|GroupOfPeople=
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	cop	_	VBZ|02604760-v|Entity+
+6	holding	hold	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	VBG|01151753-v|IntentionalProcess+
+7	drinks	drink	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	NNS|07885223-n|Beverage+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
+9	pointing	point	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	conj	_	VBG|00923793-v|Indicating=
+10	at	at	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+12	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|02942699-n|Camera=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?

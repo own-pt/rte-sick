@@ -8,34 +8,34 @@ CONCEPTS B: Human+,RecreationOrExercise+,Red=,NormativeAttribute+,Entity+,Ambula
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
-2	young	young	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
-3	boy	boy	NOUN	NN	fPOS=SCONJ++IN	9	nsubj	_	10285313-n|Human+
-4	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	3	acl	_	00047745-v|CoveringFn=
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-6	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00381097-a|Red=
-7	swimsuit	swimsuit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	04371563-n|Clothing+
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
-9	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
-10	into	into	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
-12	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
-13	kiddies	kiddies	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	14	compound	_	?|?
-14	pool	pool	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	nmod	_	09397607-n|StaticWaterArea+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
+2	young	young	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	amod	_	JJ|01646941-a|HumanYouth=
+3	boy	boy	NOUN	NN	fPOS=SCONJ++IN	9	nsubj	_	NN|10285313-n|Human+
+4	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	3	acl	_	VBG|00047745-v|CoveringFn=
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+6	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|00381097-a|Red=
+7	swimsuit	swimsuit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|04371563-n|Clothing+
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
+9	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
+10	into	into	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
+12	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+13	kiddies	kiddies	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	14	compound	_	NNS|?|?
+14	pool	pool	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	nmod	_	NN|09397607-n|StaticWaterArea+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10285313-n|Human+
-3	wearing	wear	VERB	VBG	Number=Sing|fPOS=NOUN++NN	2	acl	_	00075021-v|RecreationOrExercise+
-4	red	red	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	5	amod	_	00381097-a|Red=
-5	shorts	short	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	dobj	_	04204755-n|NormativeAttribute+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
-7	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
-8	into	into	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
-10	paddling	paddle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	01419373-v|Motion+
-11	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	09397607-n|StaticWaterArea+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10285313-n|Human+
+3	wearing	wear	VERB	VBG	Number=Sing|fPOS=NOUN++NN	2	acl	_	VBG|00075021-v|RecreationOrExercise+
+4	red	red	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	5	amod	_	JJ|00381097-a|Red=
+5	shorts	short	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	dobj	_	NNS|04204755-n|NormativeAttribute+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
+7	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
+8	into	into	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
+10	paddling	paddle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	VBG|01419373-v|Motion+
+11	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|09397607-n|StaticWaterArea+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?

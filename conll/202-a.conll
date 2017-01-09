@@ -1,19 +1,19 @@
 # sent_id = 202a
 # text = A man with a helmet painted red is riding a blue motorcycle down the road.
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	02472293-n|Hominid=
-3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
-5	helmet	helmet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	03513376-n|Clothing+
-6	painted	paint	AUX	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	5	acl	_	01362736-v|Painting=
-7	red	red	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	9	nsubj	_	04962784-n|Red+
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
-9	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	ccomp	_	02102398-v|Transportation+
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-11	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
-12	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	03790512-n|PassengerVehicle+
-13	down	down	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
-14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
-15	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04096066-n|Roadway+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|02472293-n|Hominid=
+3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
+5	helmet	helmet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03513376-n|Clothing+
+6	painted	paint	AUX	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	5	acl	_	VBN|01362736-v|Painting=
+7	red	red	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	9	nsubj	_	NN|04962784-n|Red+
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
+9	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	ccomp	_	VBG|02102398-v|Transportation+
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+11	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+12	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|03790512-n|PassengerVehicle+
+13	down	down	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
+15	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|04096066-n|Roadway+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
 

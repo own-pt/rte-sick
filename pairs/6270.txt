@@ -8,32 +8,32 @@ CONCEPTS B: Canine+,SubjectiveWeakPositiveAttribute+,Coat=,Entity+,Swimming+,Wat
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	02084071-n|Canine+
-3	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-5	golden	golden	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00670938-a|SubjectiveWeakPositiveAttribute+
-6	coat	coat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	03057021-n|Coat=
-7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	cop	_	02604760-v|Entity+
-8	swimming	swim	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	9	advmod	_	01960911-v|Swimming+
-9	clumsily	clumsily	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	00190359-r|SubjectiveAssessmentAttribute+
-10	through	through	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-12	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	14845743-n|Water=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|02084071-n|Canine+
+3	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+5	golden	golden	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|00670938-a|SubjectiveWeakPositiveAttribute+
+6	coat	coat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03057021-n|Coat=
+7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	cop	_	VBZ|02604760-v|Entity+
+8	swimming	swim	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	9	advmod	_	VBG|01960911-v|Swimming+
+9	clumsily	clumsily	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	RB|00190359-r|SubjectiveAssessmentAttribute+
+10	through	through	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+12	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|14845743-n|Water=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	02084071-n|Canine+
-3	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-5	golden	golden	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00670938-a|SubjectiveWeakPositiveAttribute+
-6	coat	coat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	03057021-n|Coat=
-7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	cop	_	02604760-v|Entity+
-8	swimming	swim	NOUN	NN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01960911-v|Swimming+
-9	through	through	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
-11	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	14845743-n|Water=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|02084071-n|Canine+
+3	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+5	golden	golden	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|00670938-a|SubjectiveWeakPositiveAttribute+
+6	coat	coat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03057021-n|Coat=
+7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	cop	_	VBZ|02604760-v|Entity+
+8	swimming	swim	NOUN	NN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01960911-v|Swimming+
+9	through	through	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
+11	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|14845743-n|Water=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?

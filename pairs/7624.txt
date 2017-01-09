@@ -8,41 +8,41 @@ CONCEPTS B: Rock=,Woman=,Bicycle=,Entity+,top=,SocialRole+,StationaryArtifact+,G
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10129825-n|Human+
-3	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	2	acl	_	00046534-v|Dressing+
-4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
-5	purple	purple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	01591394-a|SocialRole+
-6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
-7	blue	blue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	00425002-a|SubjectiveStrongNegativeAttribute+
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
-9	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01904930-v|Walking=
-10	beside	beside	ADP	IN	Degree=Pos|fPOS=ADJ++JJ	12	case	_	?|?
-11	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	12	nmod:poss	_	?|?
-12	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	02834778-n|Bicycle=
-13	at	at	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
-14	night	night	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	15167027-n|NightTime+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|10129825-n|Human+
+3	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	2	acl	_	VBN|00046534-v|Dressing+
+4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
+5	purple	purple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	JJ|01591394-a|SocialRole+
+6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
+7	blue	blue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
+9	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
+10	beside	beside	ADP	IN	Degree=Pos|fPOS=ADJ++JJ	12	case	_	IN|?|?
+11	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	12	nmod:poss	_	PRP$|?|?
+12	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|02834778-n|Bicycle=
+13	at	at	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
+14	night	night	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|15167027-n|NightTime+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
-2	stone	stone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	09416076-n|Rock=
-3	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10787470-n|Woman=
-4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	?|?
-5	bicycle	bicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	conj	_	02834778-n|Bicycle=
-6	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	8	cop	_	02604760-v|Entity+
-7	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-8	top	top	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	02439949-a|top=
-9	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
-10	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	12	nummod	_	?|?
-11	purple	purple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	amod	_	01591394-a|SocialRole+
-12	columns	column	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	03073977-n|StationaryArtifact+
-13	,	,	PUNCT	,	fPOS=PUNCT++,	12	punct	_	?|?
-14	between	between	SCONJ	IN	fPOS=ADP++IN	15	case	_	?|?
-15	which	which	PRON	WDT	Degree=Pos|fPOS=ADJ++JJ	18	nmod	_	?|?
-16	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	18	nsubj	_	07942152-n|GroupOfPeople=
-17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	18	aux	_	02604760-v|Entity+
-18	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	12	acl:relcl	_	01904930-v|Walking=
-19	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
+2	stone	stone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	NN|09416076-n|Rock=
+3	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10787470-n|Woman=
+4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	CC|?|?
+5	bicycle	bicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	conj	_	NN|02834778-n|Bicycle=
+6	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	8	cop	_	VBP|02604760-v|Entity+
+7	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+8	top	top	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	JJ|02439949-a|top=
+9	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
+10	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	12	nummod	_	Z|?|?
+11	purple	purple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	amod	_	JJ|01591394-a|SocialRole+
+12	columns	column	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	NNS|03073977-n|StationaryArtifact+
+13	,	,	PUNCT	,	fPOS=PUNCT++,	12	punct	_	Fc|?|?
+14	between	between	SCONJ	IN	fPOS=ADP++IN	15	case	_	IN|?|?
+15	which	which	PRON	WDT	Degree=Pos|fPOS=ADJ++JJ	18	nmod	_	WDT|?|?
+16	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	18	nsubj	_	NNS|07942152-n|GroupOfPeople=
+17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	18	aux	_	VBP|02604760-v|Entity+
+18	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	12	acl:relcl	_	VBG|01904930-v|Walking=
+19	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?

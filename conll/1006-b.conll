@@ -1,21 +1,21 @@
 # sent_id = 1006b
 # text = A boy is standing in front of the blue building in the space reserved for handicapped people.
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10285313-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
-5	in	in	ADP	IN	fPOS=ADV++RB	6	case	_	?|?
-6	front	front	NOUN	NN	fPOS=ADP++IN	4	nmod	_	08573472-n|FrontFn=
-7	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-9	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
-10	building	building	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	02913152-n|Building=
-11	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
-12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
-13	space	space	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	08500433-n|OuterSpaceRegion+
-14	reserved	reserve	VERB	VBN	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	4	nmod	_	02498320-v|Reserving=
-15	for	for	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
-16	handicapped	handicap	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	01085474-v|RegulatoryProcess+
-17	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	14	nmod	_	07942152-n|GroupOfPeople=
-18	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	in	in	ADP	IN	fPOS=ADV++RB	6	case	_	IN|?|?
+6	front	front	NOUN	NN	fPOS=ADP++IN	4	nmod	_	NN|08573472-n|FrontFn=
+7	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+9	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+10	building	building	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|02913152-n|Building=
+11	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
+12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
+13	space	space	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	NN|08500433-n|OuterSpaceRegion+
+14	reserved	reserve	VERB	VBN	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	4	nmod	_	VBN|02498320-v|Reserving=
+15	for	for	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
+16	handicapped	handicap	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	VBN|01085474-v|RegulatoryProcess+
+17	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	14	nmod	_	NNS|07942152-n|GroupOfPeople=
+18	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 

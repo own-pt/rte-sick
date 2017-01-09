@@ -8,31 +8,31 @@ CONCEPTS B: Canine+,Entity+,Snowing=,Entity+,Ambulating=,SubjectiveStrongPositiv
 
 CONLL A:
 
-1	Two	2	NOUN	NN	NumType=Card|fPOS=NUM++CD	2	compound	_	?|?
-2	poodles	poodle	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	02113335-n|Canine+
-3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	6	cop	_	02604760-v|Entity+
-4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	snow	snow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	15043763-n|Snowing=
-7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
-8	one	one	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	?|?
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
-10	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	02690708-v|PhysicalAttribute+
-11	down	down	ADV	RB	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	10	advmod	_	00096089-r|earlier+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+1	Two	2	NOUN	NN	NumType=Card|fPOS=NUM++CD	2	compound	_	Z|?|?
+2	poodles	poodle	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	NNS|02113335-n|Canine+
+3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	6	cop	_	VBP|02604760-v|Entity+
+4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	snow	snow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	NN|15043763-n|Snowing=
+7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
+8	one	one	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	PRP|?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
+10	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	VBG|02690708-v|PhysicalAttribute+
+11	down	down	ADV	RB	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	10	advmod	_	RP|00096089-r|earlier+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NOUN	NN	NumType=Card|fPOS=NUM++CD	2	compound	_	?|?
-2	poodles	poodle	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	02113335-n|Canine+
-3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	6	cop	_	02604760-v|Entity+
-4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	snow	snow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	15043763-n|Snowing=
-7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
-8	one	one	NUM	CD	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	?|?
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
-10	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	01963942-v|Ambulating=
-11	high	high	ADJ	JJ	fPOS=ADV++RB	10	advmod	_	02339120-a|SubjectiveStrongPositiveAttribute+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+1	Two	2	NOUN	NN	NumType=Card|fPOS=NUM++CD	2	compound	_	Z|?|?
+2	poodles	poodle	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	NNS|02113335-n|Canine+
+3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	6	cop	_	VBP|02604760-v|Entity+
+4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	snow	snow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	NN|15043763-n|Snowing=
+7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
+8	one	one	NUM	CD	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	PRP|?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
+10	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	VBG|01963942-v|Ambulating=
+11	high	high	ADJ	JJ	fPOS=ADV++RB	10	advmod	_	JJ|02339120-a|SubjectiveStrongPositiveAttribute+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?

@@ -8,20 +8,20 @@ CONCEPTS B: Woman=,Entity+,Decreasing+,FruitOrVegetable+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
-2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00393105-a|White=
-3	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02374451-n|Horse=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	02604760-v|Entity+
-5	standing	stand	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01546111-v|PhysicalAttribute+
-6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00393105-a|White=
+3	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02374451-n|Horse=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	VBZ|02604760-v|Entity+
+5	standing	stand	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	cutting	cut	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00429060-v|Decreasing+
-5	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	onion	onion	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	12433081-n|FruitOrVegetable+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00429060-v|Decreasing+
+5	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	onion	onion	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|12433081-n|FruitOrVegetable+
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

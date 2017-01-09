@@ -8,47 +8,47 @@ CONCEPTS B: Human+,Dressing+,Black=,White=,Entity+,Process+,Increasing+,Tennis=,
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10287213-n|Man=
-3	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	2	acl	_	00046534-v|Dressing+
-4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
-5	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	nmod	_	00392812-a|Black=
-6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
-7	white	white	PRON	DT	Number=Sing|fPOS=NOUN++NN	5	conj	_	00393105-a|White=
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
-9	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02700867-v|Process+
-10	up	up	ADP	RP	fPOS=ADP++RP	9	compound:prt	_	00097011-r|Increasing+
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
-12	tennis	tennis	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	compound	_	00482298-n|Tennis=
-13	racket	racket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	04039381-n|Device+
-14	and	and	CONJ	CC	fPOS=CONJ++CC	9	cc	_	?|?
-15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	16	aux	_	02604760-v|Entity+
-16	waiting	wait	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	9	conj	_	02637938-v|PsychologicalProcess+
-17	for	for	ADP	IN	fPOS=ADP++IN	19	case	_	?|?
-18	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	?|?
-19	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	02778669-n|Ball=
-20	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|10287213-n|Man=
+3	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	2	acl	_	VBN|00046534-v|Dressing+
+4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
+5	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	nmod	_	JJ|00392812-a|Black=
+6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
+7	white	white	PRON	DT	Number=Sing|fPOS=NOUN++NN	5	conj	_	JJ|00393105-a|White=
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
+9	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02700867-v|Process+
+10	up	up	ADP	RP	fPOS=ADP++RP	9	compound:prt	_	RP|00097011-r|Increasing+
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
+12	tennis	tennis	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	compound	_	NN|00482298-n|Tennis=
+13	racket	racket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|04039381-n|Device+
+14	and	and	CONJ	CC	fPOS=CONJ++CC	9	cc	_	CC|?|?
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	16	aux	_	VBZ|02604760-v|Entity+
+16	waiting	wait	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	9	conj	_	VBG|02637938-v|PsychologicalProcess+
+17	for	for	ADP	IN	fPOS=ADP++IN	19	case	_	IN|?|?
+18	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	DT|?|?
+19	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	NN|02778669-n|Ball=
+20	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10439851-n|Human+
-3	dressed	dress	VERB	VBN	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	2	acl	_	00046534-v|Dressing+
-4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
-5	black	black	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	nmod	_	00392812-a|Black=
-6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
-7	white	white	PRON	DT	Number=Sing|fPOS=NOUN++NN	5	conj	_	00393105-a|White=
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
-9	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02700867-v|Process+
-10	up	up	ADP	RP	fPOS=ADP++RP	9	compound:prt	_	00097011-r|Increasing+
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
-12	tennis	tennis	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	compound	_	00482298-n|Tennis=
-13	racket	racket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	04039381-n|Device+
-14	and	and	CONJ	CC	fPOS=CONJ++CC	9	cc	_	?|?
-15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	16	aux	_	02604760-v|Entity+
-16	waiting	wait	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	9	conj	_	02637938-v|PsychologicalProcess+
-17	for	for	ADP	IN	fPOS=ADP++IN	19	case	_	?|?
-18	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	?|?
-19	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	02778669-n|Ball=
-20	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|10439851-n|Human+
+3	dressed	dress	VERB	VBN	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	2	acl	_	VBN|00046534-v|Dressing+
+4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
+5	black	black	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	nmod	_	JJ|00392812-a|Black=
+6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
+7	white	white	PRON	DT	Number=Sing|fPOS=NOUN++NN	5	conj	_	JJ|00393105-a|White=
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
+9	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02700867-v|Process+
+10	up	up	ADP	RP	fPOS=ADP++RP	9	compound:prt	_	RP|00097011-r|Increasing+
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
+12	tennis	tennis	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	compound	_	NN|00482298-n|Tennis=
+13	racket	racket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|04039381-n|Device+
+14	and	and	CONJ	CC	fPOS=CONJ++CC	9	cc	_	CC|?|?
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	16	aux	_	VBZ|02604760-v|Entity+
+16	waiting	wait	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	9	conj	_	VBG|02637938-v|PsychologicalProcess+
+17	for	for	ADP	IN	fPOS=ADP++IN	19	case	_	IN|?|?
+18	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	DT|?|?
+19	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	NN|02778669-n|Ball=
+20	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?

@@ -8,20 +8,20 @@ CONCEPTS B: Entity+,Writing+,ComputerInputDevice+
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	?|?
-4	one	one	NOUN	NN	NumType=Card|fPOS=NUM++CD	5	compound	_	13742573-n|PositiveInteger@
-5	typing	type	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	01004692-v|Writing+
-6	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	DT|?|?
+4	one	one	NOUN	NN	NumType=Card|fPOS=NUM++CD	5	compound	_	NN|13742573-n|PositiveInteger@
+5	typing	type	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	VBG|01004692-v|Writing+
+6	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	02604760-v|Entity+
-3	typing	type	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01004692-v|Writing+
-4	on	on	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	keyboard	keyboard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	03614007-n|ComputerInputDevice+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+1	Someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	PRP|?|?
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	VBZ|02604760-v|Entity+
+3	typing	type	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01004692-v|Writing+
+4	on	on	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	keyboard	keyboard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|03614007-n|ComputerInputDevice+
+7	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?

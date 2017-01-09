@@ -8,35 +8,35 @@ CONCEPTS B: Canine+,Entity+,Publication+,Transportation+,CorpuscularObject=,Mout
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02084071-n|Canine+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	chasing	chase	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02001858-v|Pursuing+
-5	another	another	DET	DT	fPOS=DET++DT	4	xcomp	_	?|?
-6	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
-8	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	01217043-v|Process+
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-10	piece	piece	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	15246353-n|TimeDuration+
-11	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
-12	wood	wood	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	15098161-n|Wood=
-13	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
-14	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	15	nmod:poss	_	?|?
-15	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	05302499-n|Mouth+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	chasing	chase	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02001858-v|Pursuing+
+5	another	another	DET	DT	fPOS=DET++DT	4	xcomp	_	DT|?|?
+6	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
+8	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|01217043-v|Process+
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+10	piece	piece	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	NN|15246353-n|TimeDuration+
+11	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
+12	wood	wood	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|15098161-n|Wood=
+13	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
+14	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	15	nmod:poss	_	PRP$|?|?
+15	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|05302499-n|Mouth+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?
-2	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02084071-n|Canine+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
-4	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01746359-v|Publication+
-5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
-6	carrying	carry	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01449974-v|Transportation+
-7	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-8	object	object	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	00002684-n|CorpuscularObject=
-9	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
-10	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	11	nmod:poss	_	?|?
-11	mouths	mouth	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	05302499-n|Mouth+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	Z|?|?
+2	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
+4	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01746359-v|Publication+
+5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
+6	carrying	carry	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|01449974-v|Transportation+
+7	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+8	object	object	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|00002684-n|CorpuscularObject=
+9	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
+10	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	11	nmod:poss	_	PRP$|?|?
+11	mouths	mouth	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	NNS|05302499-n|Mouth+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

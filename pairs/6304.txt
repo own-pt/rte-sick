@@ -8,26 +8,26 @@ CONCEPTS B: Clothing[,Woman=,PhysicalAttribute+,SittingDown+,Blanket+,FloweringP
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01543123-v|SittingDown+
-5	indoors	indoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	00110533-r|Indoors+
-6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	indoors	indoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	RB|00110533-r|Indoors+
+6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
-2	shoeless	shoeless	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	02156686-a|Clothing[
-3	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10787470-n|Woman=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02655135-v|PhysicalAttribute+
-5	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-8	blanket	blanket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02849154-n|Blanket+
-9	under	under	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-11	lavender	lavender	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	12849717-n|FloweringPlant+
-12	umbrella	umbrella	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	04507155-n|Device+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
+2	shoeless	shoeless	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|02156686-a|Clothing[
+3	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10787470-n|Woman=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+8	blanket	blanket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02849154-n|Blanket+
+9	under	under	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+11	lavender	lavender	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	NN|12849717-n|FloweringPlant+
+12	umbrella	umbrella	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|04507155-n|Device+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?

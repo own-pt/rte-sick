@@ -8,28 +8,28 @@ CONCEPTS B: Human=,Entity+,PhysicalAttribute+,Increasing+,ElectricDevice+,Device
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10287213-n|Man=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02267989-v|PhysicalAttribute+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	picture	picture	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03931044-n|Icon+
-7	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-8	himself	himself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes|fPOS=PRON++PRP	6	nmod	_	?|?
-9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
-10	another	another	DET	DT	fPOS=DET++DT	11	det	_	?|?
-11	guy	guy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	conj	_	03471779-n|Device+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10287213-n|Man=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	picture	picture	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03931044-n|Icon+
+7	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+8	himself	himself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes|fPOS=PRON++PRP	6	nmod	_	PRP|?|?
+9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	CC|?|?
+10	another	another	DET	DT	fPOS=DET++DT	11	det	_	DT|?|?
+11	guy	guy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	conj	_	NN|03471779-n|Device+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02701210-v|PhysicalAttribute+
-5	up	up	ADP	IN	fPOS=ADP++RP	4	compound:prt	_	00097011-r|Increasing+
-6	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-7	electronic	electronic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	02718497-a|ElectricDevice+
-8	device	device	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03183080-n|Device=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02701210-v|PhysicalAttribute+
+5	up	up	ADP	IN	fPOS=ADP++RP	4	compound:prt	_	RP|00097011-r|Increasing+
+6	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+7	electronic	electronic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|02718497-a|ElectricDevice+
+8	device	device	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03183080-n|Device=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

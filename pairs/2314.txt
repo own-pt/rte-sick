@@ -8,28 +8,28 @@ CONCEPTS B: Camera=,Hominid=,Entity+,Impacting+,Device+,Wall=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	hammering	hammer	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01675245-v|ShapeChange+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	nail	nail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03804744-n|Nail=
-7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-9	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	02942699-n|Camera=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	hammering	hammer	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01675245-v|ShapeChange+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	nail	nail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03804744-n|Nail=
+7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+9	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|02942699-n|Camera=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
-2	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	02942699-n|Camera=
-3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02472293-n|Hominid=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
-5	nailing	nail	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01401772-v|Impacting+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-7	hammer	hammer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03481521-n|Device+
-8	to	to	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-10	wall	wall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	04546855-n|Wall=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
+2	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	NN|02942699-n|Camera=
+3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
+5	nailing	nail	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01401772-v|Impacting+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+7	hammer	hammer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|03481521-n|Device+
+8	to	to	ADP	IN	fPOS=ADP++IN	10	case	_	TO|?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+10	wall	wall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|04546855-n|Wall=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
