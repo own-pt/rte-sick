@@ -3,8 +3,8 @@ sentence B = A young child with black hair is taking a picture with a camera.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,HumanYouth=,HumanChild=,?,Hair=,?,Black=,ColorAttribute+,Entity+,PhysicalAttribute+,?,Icon+,?,?,Camera=,?
-CONCEPTS B: ?,HumanYouth=,HumanChild=,?,Black=,Hair=,Entity+,PhysicalAttribute+,?,Icon+,?,?,Camera=,?
+CONCEPTS A: HumanYouth=,HumanChild=,Hair=,Black=,ColorAttribute+,Entity+,PhysicalAttribute+,Icon+,Camera=
+CONCEPTS B: HumanYouth=,HumanChild=,Black=,Hair=,Entity+,PhysicalAttribute+,Icon+,Camera=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	02942699-n|Camera=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

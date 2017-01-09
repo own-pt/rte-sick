@@ -3,8 +3,8 @@ sentence B = There is no woman coating a pork chop.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Touching+,Carrot=,?
-CONCEPTS B: ?,Entity+,?,Woman=,Covering+,?,Pork=,Meat+,?
+CONCEPTS A: Woman=,Entity+,Touching+,Carrot=
+CONCEPTS B: Entity+,Woman=,Covering+,Pork=,Meat+
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	grating	grate	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	01308160-v|Touching+
 5	carrots	carrot	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	07730207-n|Carrot=
 6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

@@ -3,8 +3,8 @@ sentence B = There is no woman slicing a green pepper.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Separating+,?,Green=,SpicePepper=,?
-CONCEPTS B: ?,Entity+,?,Woman=,Separating+,?,Green=,SpicePepper=,?
+CONCEPTS A: Woman=,Entity+,Separating+,Green=,SpicePepper=
+CONCEPTS B: Entity+,Woman=,Separating+,Green=,SpicePepper=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00375969-a|Green=
 7	pepper	pepper	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07815588-n|SpicePepper=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

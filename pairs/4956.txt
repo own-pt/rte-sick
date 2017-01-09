@@ -3,8 +3,8 @@ sentence B = A man in a car is pulling up beside a woman that is who along a roa
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,Automobile=,Entity+,Transportation+,Increasing+,?,?,Woman=,?,Entity+,Walking=,SubjectiveAssessmentAttribute+,?,Roadway=,?
-CONCEPTS B: ?,Man=,?,?,Automobile=,Entity+,Transportation+,Increasing+,?,?,Woman=,?,Entity+,?,?,?,Roadway+,?
+CONCEPTS A: Man=,Automobile=,Entity+,Transportation+,Increasing+,Woman=,Entity+,Walking=,SubjectiveAssessmentAttribute+,Roadway=
+CONCEPTS B: Man=,Automobile=,Entity+,Transportation+,Increasing+,Woman=,Entity+,Roadway+
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	17	det	_	?|?
 17	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	04334599-n|Roadway=
 18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

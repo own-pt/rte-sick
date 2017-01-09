@@ -3,8 +3,8 @@ sentence B = There is no man riding an electric bicycle.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Carrying=,?,Radiating+,Bicycle=,?
-CONCEPTS B: ?,Entity+,?,Hominid=,Carrying=,?,Radiating+,Bicycle=,?
+CONCEPTS A: Hominid=,Entity+,Carrying=,Radiating+,Bicycle=
+CONCEPTS B: Entity+,Hominid=,Carrying=,Radiating+,Bicycle=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	electric	electric	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	02826877-a|Radiating+
 7	bicycle	bicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02834778-n|Bicycle=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

@@ -3,8 +3,8 @@ sentence B = The people are sitting in a restaurant in front of the beach.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,?,Seat+,?,?,UnilateralGiving+,ContentBearingObject+,?
-CONCEPTS B: ?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,?,Restaurant+,?,FrontFn=,?,?,ShoreArea=,?
+CONCEPTS A: GroupOfPeople=,PhysicalAttribute+,SittingDown+,Seat+,UnilateralGiving+,ContentBearingObject+
+CONCEPTS B: GroupOfPeople=,PhysicalAttribute+,SittingDown+,Restaurant+,FrontFn=,ShoreArea=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	palm	palm	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	06706676-n|UnilateralGiving+
 11	trees	tree	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	13912260-n|ContentBearingObject+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

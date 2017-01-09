@@ -3,8 +3,8 @@ sentence B = The young boy is climbing the wall made of rock.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,FloweringPlant+,Entity+,Attribute+,?,Mineral+,Wall=,?,?,Human+,?
-CONCEPTS B: ?,HumanYouth=,Human+,Entity+,Increasing+,?,Wall=,Attribute+,?,Mineral+,?
+CONCEPTS A: HumanYouth=,FloweringPlant+,Entity+,Attribute+,Mineral+,Wall=,Human+
+CONCEPTS B: HumanYouth=,Human+,Entity+,Increasing+,Wall=,Attribute+,Mineral+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	10285313-n|Human+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

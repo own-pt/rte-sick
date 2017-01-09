@@ -3,8 +3,8 @@ sentence B = Two people are in the snow not wearing clothes, which provides camo
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Entity+,Walking=,?,Canine+,?,SubjectiveWeakPositiveAttribute+,Coat=,?,?,Snowing=,?
-CONCEPTS B: ?,GroupOfPeople=,Entity+,?,?,Snowing=,not=,CoveringFn=,Clothing+,?,?,Putting+,Pretending+,?
+CONCEPTS A: GroupOfPeople=,Entity+,Walking=,Canine+,SubjectiveWeakPositiveAttribute+,Coat=,Snowing=
+CONCEPTS B: GroupOfPeople=,Entity+,Snowing=,not=,CoveringFn=,Clothing+,Putting+,Pretending+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	15043763-n|Snowing=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

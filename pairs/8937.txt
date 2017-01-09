@@ -3,8 +3,8 @@ sentence B = Two males are standing on a cliff edge and one is jumping into the 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,OrangeColor+,NormativeAttribute+,Entity+,PhysicalAttribute+,?,?,Mineral+,Cliff=,?,?,Water=,?,?,equal+,Human+,?,Black=,NormativeAttribute+,Entity+,Ambulating=,?,?,?,Water=,?
-CONCEPTS B: ?,Human+,Entity+,PhysicalAttribute+,?,?,Cliff=,Object+,?,?,Entity+,Ambulating=,?,?,Water=,?
+CONCEPTS A: Human+,OrangeColor+,NormativeAttribute+,Entity+,PhysicalAttribute+,Mineral+,Cliff=,Water=,equal+,Human+,Black=,NormativeAttribute+,Entity+,Ambulating=,Water=
+CONCEPTS B: Human+,Entity+,PhysicalAttribute+,Cliff=,Object+,Entity+,Ambulating=,Water=
 
 CONLL A:
 
@@ -36,6 +36,8 @@ CONLL A:
 26	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	27	det	_	?|?
 27	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	23	nmod	_	14845743-n|Water=
 28	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

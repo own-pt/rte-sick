@@ -3,8 +3,8 @@ sentence B = A brown and white dog is passing under a red, yellow and white hurd
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,White=,Canine+,Entity+,Ambulating=,?,?,Red=,?,SubjectiveAssessmentAttribute+,?,White=,Device+,?
-CONCEPTS B: ?,Human+,?,White=,Canine+,Entity+,Process+,?,?,Red=,?,SubjectiveAssessmentAttribute+,?,White=,Motion+,?
+CONCEPTS A: Human+,White=,Canine+,Entity+,Ambulating=,Red=,SubjectiveAssessmentAttribute+,White=,Device+
+CONCEPTS B: Human+,White=,Canine+,Entity+,Process+,Red=,SubjectiveAssessmentAttribute+,White=,Motion+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	white	white	ADV	RB	Degree=Pos|fPOS=ADJ++JJ	12	conj	_	00393105-a|White=
 15	hurdle	hurdle	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	nmod	_	03549589-n|Device+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?

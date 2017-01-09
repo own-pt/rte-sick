@@ -3,8 +3,8 @@ sentence B = A person is wearing grey pants on a snowboard.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,CoveringFn=,Gray+,Trousers+,Entity+,AirTransportation+,?,?,BoardOrBlock+,?
-CONCEPTS B: ?,Human=,Entity+,CoveringFn=,Gray+,Trousers+,?,?,BoardOrBlock+,?
+CONCEPTS A: Human=,CoveringFn=,Gray+,Trousers+,Entity+,AirTransportation+,BoardOrBlock+
+CONCEPTS B: Human=,Entity+,CoveringFn=,Gray+,Trousers+,BoardOrBlock+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	snowboard	snowboard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	04251791-n|BoardOrBlock+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

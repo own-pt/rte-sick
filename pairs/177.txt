@@ -3,8 +3,8 @@ sentence B = A child is hitting a baseball.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,FamilyGroup+,Entity+,Looking=,?,SubjectiveStrongNegativeAttribute+,Human+,?,Entity+,Impelling+,?,Baseball=,?
-CONCEPTS B: ?,HumanChild=,Entity+,Impelling+,?,Baseball=,?
+CONCEPTS A: FamilyGroup+,Entity+,Looking=,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Impelling+,Baseball=
+CONCEPTS B: HumanChild=,Entity+,Impelling+,Baseball=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	baseball	baseball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	00471613-n|Baseball=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

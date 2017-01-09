@@ -3,8 +3,8 @@ sentence B = A dog is near the red ball in the air.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Ambulating=,?,?,AirTransportation+,?,Grabbing+,?,Red=,Ball=,?
-CONCEPTS B: ?,Canine+,Entity+,?,?,Red=,Ball=,?,?,AirTransportation+,?
+CONCEPTS A: Canine+,Entity+,Ambulating=,AirTransportation+,Grabbing+,Red=,Ball=
+CONCEPTS B: Canine+,Entity+,Red=,Ball=,AirTransportation+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00381097-a|Red=
 12	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	02778669-n|Ball=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

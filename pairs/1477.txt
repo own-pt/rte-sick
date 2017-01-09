@@ -3,8 +3,8 @@ sentence B = The deer is jumping over the fence.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Deer=,Entity+,Ambulating=,?,?,Motion+,Device+,?
-CONCEPTS B: ?,Deer=,Entity+,Ambulating=,SubjectiveAssessmentAttribute+,?,Device+,?
+CONCEPTS A: Deer=,Entity+,Ambulating=,Motion+,Device+
+CONCEPTS B: Deer=,Entity+,Ambulating=,SubjectiveAssessmentAttribute+,Device+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	low	low	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	01212469-a|Motion+
 8	fence	fence	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03327234-n|Device+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

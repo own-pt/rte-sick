@@ -3,8 +3,8 @@ sentence B = There is no man wearing a shirt dyed black, sitting at the table an
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Man=,Putting+,?,Coloring+,Black=,Shirt=,PhysicalAttribute+,SittingDown+,?,?,ContentBearingObject+,?,Laughing=,?
-CONCEPTS B: ?,PhysicalAttribute+,?,Man=,Putting+,?,Shirt=,Coloring+,Black=,?,SittingDown+,?,?,ContentBearingObject+,?,Laughing=,?
+CONCEPTS A: Man=,Putting+,Coloring+,Black=,Shirt=,PhysicalAttribute+,SittingDown+,ContentBearingObject+,Laughing=
+CONCEPTS B: PhysicalAttribute+,Man=,Putting+,Shirt=,Coloring+,Black=,SittingDown+,ContentBearingObject+,Laughing=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	and	and	CONJ	CC	fPOS=CONJ++CC	12	cc	_	?|?
 14	laughing	laugh	VERB	VBG	Number=Sing|fPOS=NOUN++NN	12	conj	_	00031820-v|Laughing=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

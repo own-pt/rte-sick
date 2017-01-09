@@ -3,8 +3,8 @@ sentence B = A topless woman is being smeared with a brown substance and a blurr
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: Soil=,Entity+,Covering+,?,top+,Woman=,?
-CONCEPTS B: ?,top+,Woman=,Entity+,Entity+,SurfaceChange+,?,?,Human+,SubjectiveAssessmentAttribute+,?,?,VisualAttribute+,SubjectiveAssessmentAttribute=,Entity+,?,?,Region+,?
+CONCEPTS A: Soil=,Entity+,Covering+,top+,Woman=
+CONCEPTS B: top+,Woman=,Entity+,Entity+,SurfaceChange+,Human+,SubjectiveAssessmentAttribute+,VisualAttribute+,SubjectiveAssessmentAttribute=,Entity+,Region+
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	topless	topless	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	02442082-a|top+
 6	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	10787470-n|Woman=
 7	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

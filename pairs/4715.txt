@@ -3,8 +3,8 @@ sentence B = There is no man cutting pieces of butter into a mixing bowl.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: TimeDuration+,?,Butter=,Entity+,Entity+,Putting=,?,?,SubjectiveAssessmentAttribute=,Device+,?
-CONCEPTS B: ?,Entity+,?,GamePiece+,Cutting+,GamePiece+,?,Butter=,?,?,IntentionalProcess+,Dish+,?
+CONCEPTS A: TimeDuration+,Butter=,Entity+,Entity+,Putting=,SubjectiveAssessmentAttribute=,Device+
+CONCEPTS B: Entity+,GamePiece+,Cutting+,GamePiece+,Butter=,IntentionalProcess+,Dish+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	stand	stand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	06210363-n|SubjectiveAssessmentAttribute=
 10	mixer	mixer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03775199-n|Device+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

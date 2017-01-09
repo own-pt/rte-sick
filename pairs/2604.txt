@@ -3,8 +3,8 @@ sentence B = The monkey is brushing a bull dog.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Region@,Canine+,Entity+,Entity+,Touching+,?,?,Human+,?
-CONCEPTS B: ?,Human+,Entity+,Touching+,?,Region@,Canine+,?
+CONCEPTS A: Region@,Canine+,Entity+,Entity+,Touching+,Human+
+CONCEPTS B: Human+,Entity+,Touching+,Region@,Canine+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	10200047-n|Human+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A man and a woman are standing in front of an art gallery and are l
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,Woman=,Entity+,PhysicalAttribute+,?,FrontFn=,?,?,ArtWork=,StationaryArtifact+,?,Entity+,SubjectiveAssessmentAttribute+,?,?,Function+,?
-CONCEPTS B: ?,Man=,?,?,Woman=,Entity+,PhysicalAttribute+,?,FrontFn=,?,?,ArtWork=,StationaryArtifact+,?,Entity+,SubjectiveAssessmentAttribute+,?,?,Sign=,?
+CONCEPTS A: Man=,Woman=,Entity+,PhysicalAttribute+,FrontFn=,ArtWork=,StationaryArtifact+,Entity+,SubjectiveAssessmentAttribute+,Function+
+CONCEPTS B: Man=,Woman=,Entity+,PhysicalAttribute+,FrontFn=,ArtWork=,StationaryArtifact+,Entity+,SubjectiveAssessmentAttribute+,Sign=
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	19	det	_	?|?
 19	map	map	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	13783816-n|Function+
 20	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

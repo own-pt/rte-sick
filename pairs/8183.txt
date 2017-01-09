@@ -3,8 +3,8 @@ sentence B = water from the faucet is being drunk by a yellow dog.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute+,Canine+,Entity+,Drinking+,Water=,?,?,Device+,?
-CONCEPTS B: Water=,?,?,Device+,Entity+,Entity+,Drinking+,?,?,SubjectiveAssessmentAttribute+,Canine+,?
+CONCEPTS A: SubjectiveAssessmentAttribute+,Canine+,Entity+,Drinking+,Water=,Device+
+CONCEPTS B: Water=,Device+,Entity+,Entity+,Drinking+,SubjectiveAssessmentAttribute+,Canine+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	faucet	faucet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03325088-n|Device+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubjpass	_	14845743-n|Water=

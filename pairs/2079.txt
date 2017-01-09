@@ -3,8 +3,8 @@ sentence B = There is no woman beating two eggs in a bowl and using a whisk made
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Impacting+,?,BirdEgg=,?,?,Dish+,?,IntentionalProcess+,?,Device+,Attribute+,?,Wire=,?
-CONCEPTS B: ?,Entity+,?,Woman=,Impacting+,?,BirdEgg=,?,?,Dish+,?,IntentionalProcess+,?,Device+,Attribute+,?,Wire=,?
+CONCEPTS A: Woman=,Entity+,Impacting+,BirdEgg=,Dish+,IntentionalProcess+,Device+,Attribute+,Wire=
+CONCEPTS B: Entity+,Woman=,Impacting+,BirdEgg=,Dish+,IntentionalProcess+,Device+,Attribute+,Wire=
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	of	of	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
 16	wire	wire	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	04594218-n|Wire=
 17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

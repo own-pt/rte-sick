@@ -3,8 +3,8 @@ sentence B = A black man in green is riding a bike.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,IntentionalProcess+,?,RecreationOrExercise+,?,?,Green=,Bicycle=,?
-CONCEPTS B: ?,Black=,Hominid=,?,Green+,Entity+,Transportation+,?,Bicycle=,?
+CONCEPTS A: Hominid=,Entity+,IntentionalProcess+,RecreationOrExercise+,Green=,Bicycle=
+CONCEPTS B: Black=,Hominid=,Green+,Entity+,Transportation+,Bicycle=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00375969-a|Green=
 10	bicycle	bicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02834778-n|Bicycle=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

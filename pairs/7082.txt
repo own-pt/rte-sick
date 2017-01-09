@@ -3,8 +3,8 @@ sentence B = A football game is being watched by the crowd.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute=,Entity+,Looking=,?,Football+,Game=,?
-CONCEPTS B: ?,Football+,Game=,Entity+,Entity+,Looking=,?,?,SubjectiveAssessmentAttribute=,?
+CONCEPTS A: SubjectiveAssessmentAttribute=,Entity+,Looking=,Football+,Game=
+CONCEPTS B: Football+,Game=,Entity+,Entity+,Looking=,SubjectiveAssessmentAttribute=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	00468480-n|Football+
 7	game	game	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00455599-n|Game=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

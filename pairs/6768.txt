@@ -3,8 +3,8 @@ sentence B = Three boys are walking on rocks along a river.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,?,Human+,SurfaceChange+,NormativeAttribute+,Entity+,Walking=,?,?,Mineral+,?,?,River=,?
-CONCEPTS B: ?,Human+,Entity+,Walking=,?,Mineral+,?,?,River=,?
+CONCEPTS A: Hominid=,Human+,SurfaceChange+,NormativeAttribute+,Entity+,Walking=,Mineral+,River=
+CONCEPTS B: Human+,Entity+,Walking=,Mineral+,River=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	river	river	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	09411430-n|River=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	0	ROOT	_	?|?

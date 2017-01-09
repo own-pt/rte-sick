@@ -3,8 +3,8 @@ sentence B = Boys are dancing in front of some people.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,Entity+,IntentionalProcess+,?,Pretending+,?,?,Entity+,SubjectiveAssessmentAttribute+,SubjectiveStrongPositiveAttribute+,?,?,?,Boxer=,?,FrontFn=,?,?,SubjectiveAssessmentAttribute=,?,GroupOfPeople=,?
-CONCEPTS B: Human+,Entity+,Dancing+,?,FrontFn=,?,?,GroupOfPeople=,?
+CONCEPTS A: Man=,Entity+,IntentionalProcess+,Pretending+,Entity+,SubjectiveAssessmentAttribute+,SubjectiveStrongPositiveAttribute+,Boxer=,FrontFn=,SubjectiveAssessmentAttribute=,GroupOfPeople=
+CONCEPTS B: Human+,Entity+,Dancing+,FrontFn=,GroupOfPeople=
 
 CONLL A:
 
@@ -31,6 +31,8 @@ CONLL A:
 21	of	of	ADP	IN	fPOS=ADP++IN	22	case	_	?|?
 22	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	20	nmod	_	07942152-n|GroupOfPeople=
 23	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Boys	boy	NOUN	NNS	fPOS=ADV++RB	3	nsubj	_	10285313-n|Human+

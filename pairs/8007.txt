@@ -3,8 +3,8 @@ sentence B = Boys are dangling from straps and kicking at each other.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Human+,Entity+,PhysicalAttribute+,?,?,String+,?
-CONCEPTS B: Human+,Entity+,SubjectiveAssessmentAttribute+,?,Device+,?,Expressing+,?,?,equal+,?
+CONCEPTS A: Human+,Human+,Entity+,PhysicalAttribute+,String+
+CONCEPTS B: Human+,Entity+,SubjectiveAssessmentAttribute+,Device+,Expressing+,equal+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	gymnastic	gymnastic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	02849732-a|?
 8	ropes	rope	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	04108268-n|String+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	10285313-n|Human+

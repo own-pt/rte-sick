@@ -3,8 +3,8 @@ sentence B = A seated woman is singing a song and playing the guitar.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Woman=,?,?,Entity+,Communication+,?,Entity+,MakingVocalMusic=,?,Song=,?,DramaticActing+,?,Guitar=,?
-CONCEPTS B: ?,Communication+,Woman=,Entity+,MakingVocalMusic=,?,Song=,?,DramaticActing+,?,Guitar=,?
+CONCEPTS A: Woman=,Entity+,Communication+,Entity+,MakingVocalMusic=,Song=,DramaticActing+,Guitar=
+CONCEPTS B: Communication+,Woman=,Entity+,MakingVocalMusic=,Song=,DramaticActing+,Guitar=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	dobj	_	03467517-n|Guitar=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

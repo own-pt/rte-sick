@@ -3,8 +3,8 @@ sentence B = Two women with black hair are standing in front of a plywood wall.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Woman=,?,Black=,Hair=,SocialRole+,?,FrontFn=,?,?,Artifact+,Wall=,?
-CONCEPTS B: ?,Woman=,?,Black=,Hair=,Entity+,PhysicalAttribute+,?,FrontFn=,?,?,Artifact+,Wall=,?
+CONCEPTS A: Entity+,Woman=,Black=,Hair=,SocialRole+,FrontFn=,Artifact+,Wall=
+CONCEPTS B: Woman=,Black=,Hair=,Entity+,PhysicalAttribute+,FrontFn=,Artifact+,Wall=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	plywood	plywood	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	03971218-n|Artifact+
 14	wall	wall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	04546855-n|Wall=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

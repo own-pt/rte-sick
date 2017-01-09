@@ -3,8 +3,8 @@ sentence B = The teens are talking to a boy and a girl with a webcam.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,Entity+,Speaking+,?,?,Human+,?,?,Internet+,Camera=,?
-CONCEPTS B: ?,TimeInterval+,Entity+,Speaking+,?,?,Human+,?,?,Human+,?,?,Camera+,?
+CONCEPTS A: Man=,Entity+,Speaking+,Human+,Internet+,Camera=
+CONCEPTS B: TimeInterval+,Entity+,Speaking+,Human+,Human+,Camera+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	internet	internet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	03580615-n|Internet+
 11	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	02942699-n|Camera=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

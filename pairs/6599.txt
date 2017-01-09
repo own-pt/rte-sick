@@ -3,8 +3,8 @@ sentence B = A yellow flower is being clung to by a bee.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Bee=,Entity+,Arriving+,?,?,Collection+,?,SubjectiveAssessmentAttribute+,Flower+,?
-CONCEPTS B: ?,SubjectiveAssessmentAttribute+,Flower+,Entity+,Entity+,Touching+,?,?,?,Bee=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Bee=,Entity+,Arriving+,Collection+,SubjectiveAssessmentAttribute+,Flower+
+CONCEPTS B: SubjectiveAssessmentAttribute+,Flower+,Entity+,Entity+,Touching+,Bee=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	02101942-a|SubjectiveAssessmentAttribute+
 11	flowers	flower	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	11669335-n|Flower+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

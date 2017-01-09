@@ -3,8 +3,8 @@ sentence B = A little boy with brown hair is jumping off of a brown chair onto t
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,?,Human+,Hair=,Entity+,Ambulating=,?,?,?,Human+,Chair=,?,?,Floor+,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,?,Human+,Hair=,Entity+,Ambulating=,?,?,?,Human+,Chair=,?,?,Floor+,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Human+,Hair=,Entity+,Ambulating=,Human+,Chair=,Floor+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Human+,Hair=,Entity+,Ambulating=,Human+,Chair=,Floor+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	?|?
 16	floor	floor	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	03365592-n|Floor+
 17	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

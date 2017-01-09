@@ -3,8 +3,8 @@ sentence B = A young girl in a blue shirt is walking on the sidewalk and holding
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,SocialRole+,Transportation+,?,Character+,?,?,Group=,?,GroupOfPeople=,SocialRole+,SocialRole+,?,?
-CONCEPTS B: ?,HumanYouth=,Human+,?,?,SubjectiveStrongNegativeAttribute+,Shirt=,Entity+,Walking=,?,?,Sidewalk=,?,Process+,Increasing+,?,Pink+,Character+,?
+CONCEPTS A: Human+,SocialRole+,Transportation+,Character+,Group=,GroupOfPeople=,SocialRole+,SocialRole+
+CONCEPTS B: HumanYouth=,Human+,SubjectiveStrongNegativeAttribute+,Shirt=,Entity+,Walking=,Sidewalk=,Process+,Increasing+,Pink+,Character+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	following	follow	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	acl:relcl	_	02445925-v|SocialRole+
 14	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	13	dobj	_	?|?
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

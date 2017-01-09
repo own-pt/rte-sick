@@ -3,8 +3,8 @@ sentence B = Boys are dancing in front of some people.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: Human+,Entity+,not=,Dancing+,?,FrontFn=,?,?,GroupOfPeople=,?
-CONCEPTS B: Human+,Entity+,Dancing+,?,FrontFn=,?,?,GroupOfPeople=,?
+CONCEPTS A: Human+,Entity+,not=,Dancing+,FrontFn=,GroupOfPeople=
+CONCEPTS B: Human+,Entity+,Dancing+,FrontFn=,GroupOfPeople=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	some	some	DET	DT	fPOS=DET++DT	9	det	_	?|?
 9	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	07942152-n|GroupOfPeople=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Boys	boy	NOUN	NNS	fPOS=ADV++RB	3	nsubj	_	10285313-n|Human+

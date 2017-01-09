@@ -3,8 +3,8 @@ sentence B = One person is standing in a vast field of glacial ice.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human=,Entity+,PhysicalAttribute+,?,?,SubjectiveWeakNegativeAttribute+,FieldOfStudy=,?,SubjectiveWeakNegativeAttribute+,Solid+,?
-CONCEPTS B: ?,Human=,Entity+,PhysicalAttribute+,?,?,SubjectiveWeakNegativeAttribute+,FieldOfStudy=,?,SubjectiveWeakNegativeAttribute+,Solid+,?
+CONCEPTS A: Human=,Entity+,PhysicalAttribute+,SubjectiveWeakNegativeAttribute+,FieldOfStudy=,SubjectiveWeakNegativeAttribute+,Solid+
+CONCEPTS B: Human=,Entity+,PhysicalAttribute+,SubjectiveWeakNegativeAttribute+,FieldOfStudy=,SubjectiveWeakNegativeAttribute+,Solid+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	glacial	glacial	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	01258264-a|SubjectiveWeakNegativeAttribute+
 11	ice	ice	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	14915184-n|Solid+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

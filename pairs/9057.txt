@@ -3,8 +3,8 @@ sentence B = Two young boys are wearing hats and sticking their colored tongues 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,Attaching+,Giving+,SubjectiveStrongNegativeAttribute+,?,Green=,SurfaceChange+,Tongue=,?
-CONCEPTS B: ?,HumanYouth=,Human+,Entity+,CoveringFn=,Hat+,?,Attaching+,?,SurfaceChange+,Tongue=,Giving+,?
+CONCEPTS A: HumanChild=,Entity+,Attaching+,Giving+,SubjectiveStrongNegativeAttribute+,Green=,SurfaceChange+,Tongue=
+CONCEPTS B: HumanYouth=,Human+,Entity+,CoveringFn=,Hat+,Attaching+,SurfaceChange+,Tongue=,Giving+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	colored	color	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00283911-v|SurfaceChange+
 10	tongues	tongue	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	05301072-n|Tongue=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?

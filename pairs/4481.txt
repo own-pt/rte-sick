@@ -3,8 +3,8 @@ sentence B = Oil is being poured into the pan by the woman.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Pouring=,Oil=,?,?,PotOrPan=,?
-CONCEPTS B: Oil=,Entity+,Entity+,Pouring=,?,?,PotOrPan=,?,?,Woman=,?
+CONCEPTS A: Woman=,Entity+,Pouring=,Oil=,PotOrPan=
+CONCEPTS B: Oil=,Entity+,Entity+,Pouring=,PotOrPan=,Woman=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	pan	pan	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03880531-n|PotOrPan=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Oil	oil	PRON	PRP	fPOS=SCONJ++IN	4	nsubjpass	_	14966667-n|Oil=

@@ -3,8 +3,8 @@ sentence B = A young boy is jumping off a chair.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,Entity+,SubjectiveAssessmentAttribute+,Ambulating=,?,?,Chair=,?
-CONCEPTS B: ?,HumanYouth=,Human+,Entity+,Ambulating=,?,?,Chair=,?
+CONCEPTS A: HumanYouth=,Human+,Entity+,SubjectiveAssessmentAttribute+,Ambulating=,Chair=
+CONCEPTS B: HumanYouth=,Human+,Entity+,Ambulating=,Chair=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	chair	chair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03001627-n|Chair=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

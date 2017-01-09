@@ -3,8 +3,8 @@ sentence B = Onions are being sliced by the person.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,Entity+,Removing+,?,FruitOrVegetable+,?
-CONCEPTS B: FruitOrVegetable+,Entity+,Entity+,Separating+,?,?,Human=,?
+CONCEPTS A: Human=,Entity+,Removing+,FruitOrVegetable+
+CONCEPTS B: FruitOrVegetable+,Entity+,Entity+,Separating+,Human=
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
 6	onion	onion	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	12433081-n|FruitOrVegetable+
 7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Onions	onion	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubjpass	_	12433081-n|FruitOrVegetable+

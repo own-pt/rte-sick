@@ -3,8 +3,8 @@ sentence B = Tiles are being broken with his hands by a man.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,GamePiece+,Entity+,EndFn+,Artifact+,?,?,Hand+,?
-CONCEPTS B: Artifact+,Entity+,Entity+,EndFn+,?,?,Hand+,?,?,GamePiece+,?
+CONCEPTS A: GamePiece+,Entity+,EndFn+,Artifact+,Hand+
+CONCEPTS B: Artifact+,Entity+,Entity+,EndFn+,Hand+,GamePiece+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	8	nmod:poss	_	?|?
 8	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	05564590-n|Hand+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Tiles	tile	NOUN	NNS	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	nsubjpass	_	15074568-n|Artifact+

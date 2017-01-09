@@ -3,8 +3,8 @@ sentence B = A small man is sitting in a military accessories store.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Veteran+,Entity+,IntentionalProcess+,equal+,Entity+,?,?,War=,?,?,GroupOfPeople=,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Hominid=,PhysicalAttribute+,SittingDown+,?,?,MilitaryOrganization=,Object+,RetailStore=,?
+CONCEPTS A: Veteran+,Entity+,IntentionalProcess+,equal+,Entity+,War=,GroupOfPeople=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Hominid=,PhysicalAttribute+,SittingDown+,MilitaryOrganization=,Object+,RetailStore=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	some	some	DET	DT	fPOS=DET++DT	12	det	_	?|?
 12	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	nmod	_	07942152-n|GroupOfPeople=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

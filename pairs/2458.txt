@@ -3,8 +3,8 @@ sentence B = A baby rhino is following an adult rhino.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanBaby=,HoofedMammal+,Entity+,Walking=,?,?,StationaryArtifact+,?,?,BiologicalAttribute+,?
-CONCEPTS B: ?,HumanBaby=,HoofedMammal+,SocialRole+,SocialRole+,?,FullyFormed+,HoofedMammal+,?
+CONCEPTS A: HumanBaby=,HoofedMammal+,Entity+,Walking=,StationaryArtifact+,BiologicalAttribute+
+CONCEPTS B: HumanBaby=,HoofedMammal+,SocialRole+,SocialRole+,FullyFormed+,HoofedMammal+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	11	nmod:poss	_	?|?
 11	mother	mother	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	10332385-n|BiologicalAttribute+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

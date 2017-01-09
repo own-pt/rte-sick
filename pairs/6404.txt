@@ -3,8 +3,8 @@ sentence B = The dark skinned male is standing on one hand in front of a yellow 
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human+,?,?,Entity+,SubjectiveWeakNegativeAttribute+,Separating+,?,Entity+,PhysicalAttribute+,?,?,Hand+,?,FrontFn=,?,?,SubjectiveAssessmentAttribute+,Building=,?
-CONCEPTS B: ?,SubjectiveWeakNegativeAttribute+,Separating+,Human+,Entity+,PhysicalAttribute+,?,?,Hand+,?,FrontFn=,?,?,SubjectiveAssessmentAttribute+,Building=,?
+CONCEPTS A: Human+,Entity+,SubjectiveWeakNegativeAttribute+,Separating+,Entity+,PhysicalAttribute+,Hand+,FrontFn=,SubjectiveAssessmentAttribute+,Building=
+CONCEPTS B: SubjectiveWeakNegativeAttribute+,Separating+,Human+,Entity+,PhysicalAttribute+,Hand+,FrontFn=,SubjectiveAssessmentAttribute+,Building=
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	19	amod	_	02101942-a|SubjectiveAssessmentAttribute+
 19	building	building	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	02913152-n|Building=
 20	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	4	det	_	?|?

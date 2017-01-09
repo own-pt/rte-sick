@@ -3,8 +3,8 @@ sentence B = A woman is emptying the water from a mug.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,IntentionalProcess+,?,Artifact+,?,Water=,?
-CONCEPTS B: ?,Woman=,Entity+,Removing+,?,Water=,?,?,Artifact+,?
+CONCEPTS A: Human+,Entity+,IntentionalProcess+,Artifact+,Water=
+CONCEPTS B: Woman=,Entity+,Removing+,Water=,Artifact+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
 8	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	14845743-n|Water=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

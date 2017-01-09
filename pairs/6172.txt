@@ -3,8 +3,8 @@ sentence B = A woman in a pink shirt is surfing through yellow surfboards.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,?,?,SubjectiveAssessmentAttribute+,Shirt=,Entity+,Transportation+,?,?,Pink+,TransportationDevice+,?
-CONCEPTS B: ?,Woman=,?,?,Pink+,Shirt=,Entity+,Transportation+,?,SubjectiveAssessmentAttribute+,TransportationDevice+,?
+CONCEPTS A: Woman=,SubjectiveAssessmentAttribute+,Shirt=,Entity+,Transportation+,Pink+,TransportationDevice+
+CONCEPTS B: Woman=,Pink+,Shirt=,Entity+,Transportation+,SubjectiveAssessmentAttribute+,TransportationDevice+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	pink	pink	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	12	compound	_	00379595-a|Pink+
 12	surfboard	surfboard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	04363559-n|TransportationDevice+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = The cat is running across the gravel.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Attribute+,?,?,Sand=,?
-CONCEPTS B: ?,Whip+,Entity+,Attribute+,?,?,Mineral+,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Attribute+,Sand=
+CONCEPTS B: Whip+,Entity+,Attribute+,Mineral+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	15019030-n|Sand=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

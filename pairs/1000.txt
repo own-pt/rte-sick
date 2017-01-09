@@ -3,8 +3,8 @@ sentence B = A boy in a red shirt is behind a long blue wall and is lowering an 
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human+,?,?,Red=,Shirt=,Entity+,?,FrontFn=,?,?,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,Wall=,?,Entity+,SubjectiveAssessmentAttribute+,MotionUpward=,?,BodyPart+,?,?,Camera=,?
-CONCEPTS B: ?,Human+,?,?,Red=,Shirt=,Entity+,?,?,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,Wall=,?,Entity+,Decreasing+,?,BodyPart+,?,DirectionChange+,?,Camera=,?
+CONCEPTS A: Human+,Red=,Shirt=,Entity+,FrontFn=,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,Wall=,Entity+,SubjectiveAssessmentAttribute+,MotionUpward=,BodyPart+,Camera=
+CONCEPTS B: Human+,Red=,Shirt=,Entity+,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,Wall=,Entity+,Decreasing+,BodyPart+,DirectionChange+,Camera=
 
 CONLL A:
 
@@ -32,6 +32,8 @@ CONLL A:
 22	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	23	det	_	?|?
 23	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	20	nmod	_	02942699-n|Camera=
 24	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

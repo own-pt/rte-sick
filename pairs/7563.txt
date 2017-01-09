@@ -3,8 +3,8 @@ sentence B = A small boy in a striped shirt is sliding out of a green tube.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,?,PhysicalAttribute+,SubjectiveStrongNegativeAttribute+,?,PhysicalAttribute+,SittingDown+,?,?,Green=,StationaryArtifact+,?,?,Smiling+,?,?,Face+,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,?,?,VisualAttribute+,Shirt=,Entity+,Translocation+,Giving+,?,?,Green=,EngineeringComponent+,?
+CONCEPTS A: Human+,PhysicalAttribute+,SubjectiveStrongNegativeAttribute+,PhysicalAttribute+,SittingDown+,Green=,StationaryArtifact+,Smiling+,Face+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,VisualAttribute+,Shirt=,Entity+,Translocation+,Giving+,Green=,EngineeringComponent+
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	19	nmod:poss	_	?|?
 19	face	face	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	05600637-n|Face+
 20	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

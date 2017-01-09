@@ -3,8 +3,8 @@ sentence B = The cheerleaders are parading and wearing black, pink and white uni
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Group=,?,Position+,Entity+,Walking=,?,?,Motion+,?
-CONCEPTS B: ?,Position+,Entity+,Walking+,?,CoveringFn=,Black=,?,Pink+,?,White=,UniformClothing=,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Group=,Position+,Entity+,Walking=,Motion+
+CONCEPTS B: Position+,Entity+,Walking+,CoveringFn=,Black=,Pink+,White=,UniformClothing=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	parade	parade	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	08428485-n|Motion+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

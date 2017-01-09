@@ -3,8 +3,8 @@ sentence B = A yellow dog is chasing a ball.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,Canine+,Process+,?,?,Grass=,?,IntentionalAgent+,?,FlyingAircraft=,Ball=,?
-CONCEPTS B: ?,SubjectiveAssessmentAttribute+,Canine+,Entity+,Pursuing+,?,Ball=,?
+CONCEPTS A: Entity+,Canine+,Process+,Grass=,IntentionalAgent+,FlyingAircraft=,Ball=
+CONCEPTS B: SubjectiveAssessmentAttribute+,Canine+,Entity+,Pursuing+,Ball=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	flying	fly	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	13	compound	_	01941093-v|FlyingAircraft=
 13	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	02778669-n|Ball=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Two men and a girl in front of a wood panel wall are posing with fu
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute=,Entity+,Process+,DirectionChange+,?,?,Photograph=,?
-CONCEPTS B: ?,Man=,?,?,Human+,?,FrontFn=,?,?,Wood=,EngineeringComponent+,Wall=,Entity+,Putting=,?,SubjectiveStrongPositiveAttribute+,Face+,?
+CONCEPTS A: SubjectiveAssessmentAttribute=,Entity+,Process+,DirectionChange+,Photograph=
+CONCEPTS B: Man=,Human+,FrontFn=,Wood=,EngineeringComponent+,Wall=,Entity+,Putting=,SubjectiveStrongPositiveAttribute+,Face+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	photo	photo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03925226-n|Photograph=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

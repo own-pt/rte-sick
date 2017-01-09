@@ -3,8 +3,8 @@ sentence B = The panda is eating bamboo.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Carnivore+,Entity+,Process+,?,Bamboo=,BodyPart+,?
-CONCEPTS B: ?,Carnivore+,Entity+,Process+,Bamboo=,?
+CONCEPTS A: Carnivore+,Entity+,Process+,Bamboo=,BodyPart+
+CONCEPTS B: Carnivore+,Entity+,Process+,Bamboo=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	bamboo	bamboo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	12147226-n|Bamboo=
 7	cane	cane	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	12136206-n|BodyPart+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

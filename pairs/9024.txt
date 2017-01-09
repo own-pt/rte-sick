@@ -3,8 +3,8 @@ sentence B = A brown dog is running after a dark dog on a rocky shore.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Canine+,Entity+,Attribute+,?,?,Black=,Canine+,?,?,TextureAttribute+,ShoreArea=,?
-CONCEPTS B: ?,Human+,Canine+,Entity+,Attribute+,?,?,SubjectiveWeakNegativeAttribute+,Canine+,?,?,TextureAttribute+,ShoreArea=,?
+CONCEPTS A: Human+,Canine+,Entity+,Attribute+,Black=,Canine+,TextureAttribute+,ShoreArea=
+CONCEPTS B: Human+,Canine+,Entity+,Attribute+,SubjectiveWeakNegativeAttribute+,Canine+,TextureAttribute+,ShoreArea=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	rocky	rocky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	compound	_	02243567-a|TextureAttribute+
 13	shore	shore	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	09433442-n|ShoreArea=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A surfer is surfing a huge wave.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Transportation+,?,SubjectiveStrongNegativeAttribute+,WaterWave+,?
-CONCEPTS B: ?,Human+,Entity+,Transportation+,?,SubjectiveWeakNegativeAttribute+,WaterWave+,?
+CONCEPTS A: Human+,Entity+,Transportation+,SubjectiveStrongNegativeAttribute+,WaterWave+
+CONCEPTS B: Human+,Entity+,Transportation+,SubjectiveWeakNegativeAttribute+,WaterWave+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
 7	wave	wave	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07352190-n|WaterWave+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

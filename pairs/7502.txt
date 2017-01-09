@@ -3,8 +3,8 @@ sentence B = A person is wearing a red jacket and holding a beer.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,PhysicalAttribute+,?,White=,Coat=,?,?,Red=,Cup=,?,FrontFn=,?,?,Man=,Putting+,?,Shirt+,?
-CONCEPTS B: ?,Human=,Entity+,CoveringFn=,?,Red=,Coat=,?,Process+,?,Beer=,?
+CONCEPTS A: Woman=,Entity+,PhysicalAttribute+,White=,Coat=,Red=,Cup=,FrontFn=,Man=,Putting+,Shirt+
+CONCEPTS B: Human=,Entity+,CoveringFn=,Red=,Coat=,Process+,Beer=
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	19	det	_	?|?
 19	t-shirt	t-shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	dobj	_	03595614-n|Shirt+
 20	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

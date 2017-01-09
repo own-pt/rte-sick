@@ -3,8 +3,8 @@ sentence B = The child is splashing water in a pool.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,NonFullyFormed+,Entity+,Process+,?,Putting+,?,?,SubjectiveStrongNegativeAttribute+,Walking+,StaticWaterArea+,?
-CONCEPTS B: ?,HumanChild=,Entity+,Wetting+,Water=,?,?,StaticWaterArea+,?
+CONCEPTS A: NonFullyFormed+,Entity+,Process+,Putting+,SubjectiveStrongNegativeAttribute+,Walking+,StaticWaterArea+
+CONCEPTS B: HumanChild=,Entity+,Wetting+,Water=,StaticWaterArea+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	paddling	paddle	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	11	compound	_	01918803-v|Walking+
 11	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09397607-n|StaticWaterArea+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

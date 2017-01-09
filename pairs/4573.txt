@@ -3,8 +3,8 @@ sentence B = Two women are dancing.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Happiness+,Dancing+,?
-CONCEPTS B: ?,Woman=,Entity+,Dancing+,?
+CONCEPTS A: Woman=,Entity+,Happiness+,Dancing+
+CONCEPTS B: Woman=,Entity+,Dancing+
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	happily	happily	ADV	RB	fPOS=ADV++RB	5	advmod	_	00050297-r|Happiness+
 5	dancing	dance	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01708676-v|Dancing+
 6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	compound	_	?|?

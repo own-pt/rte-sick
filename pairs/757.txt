@@ -3,8 +3,8 @@ sentence B = A classroom is empty.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Demonstrating+,Entity+,Entity+,Looking=,?,?,Classroom+,?,SocialRole+,?
-CONCEPTS B: ?,Classroom+,Entity+,ContainerEmpty+,?
+CONCEPTS A: Demonstrating+,Entity+,Entity+,Looking=,Classroom+,SocialRole+
+CONCEPTS B: Classroom+,Entity+,ContainerEmpty+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
 10	students	student	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	10665698-n|SocialRole+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

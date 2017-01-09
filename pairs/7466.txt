@@ -3,8 +3,8 @@ sentence B = The group of people is sitting in a room which is dim.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Group=,?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,?,Decreasing+,Room=,?
-CONCEPTS B: ?,Group=,?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,?,Room=,?,PhysicalAttribute+,Decreasing+,?
+CONCEPTS A: Group=,GroupOfPeople=,PhysicalAttribute+,SittingDown+,Decreasing+,Room=
+CONCEPTS B: Group=,GroupOfPeople=,PhysicalAttribute+,SittingDown+,Room=,PhysicalAttribute+,Decreasing+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	dim	dim	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	00284575-a|Decreasing+
 10	room	room	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	04105893-n|Room=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

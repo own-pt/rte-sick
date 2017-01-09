@@ -3,8 +3,8 @@ sentence B = A woman and a dog are sitting on a tree stump.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,?,?,Canine+,PhysicalAttribute+,SubjectiveAssessmentAttribute+,SittingDown+,?,?,ContentBearingObject+,PlantBranch+,?
-CONCEPTS B: ?,Woman=,?,?,Canine+,PhysicalAttribute+,SittingDown+,?,?,ContentBearingObject+,PlantBranch+,?
+CONCEPTS A: Woman=,Canine+,PhysicalAttribute+,SubjectiveAssessmentAttribute+,SittingDown+,ContentBearingObject+,PlantBranch+
+CONCEPTS B: Woman=,Canine+,PhysicalAttribute+,SittingDown+,ContentBearingObject+,PlantBranch+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	13912260-n|ContentBearingObject+
 12	stump	stump	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	13111504-n|PlantBranch+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

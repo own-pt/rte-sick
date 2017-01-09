@@ -3,8 +3,8 @@ sentence B = Four dogs are playing in a grassy area.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Group=,?,?,Human+,Canine+,Entity+,DramaticActing+,?,?,FieldOfStudy=,?,Human+,Grass=,?
-CONCEPTS B: ?,Canine+,Entity+,DramaticActing+,?,?,FloweringPlant+,GeographicArea+,?
+CONCEPTS A: Group=,Human+,Canine+,Entity+,DramaticActing+,FieldOfStudy=,Human+,Grass=
+CONCEPTS B: Canine+,Entity+,DramaticActing+,FloweringPlant+,GeographicArea+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	14	compound	_	00245112-a|Human+
 14	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	12102133-n|Grass=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

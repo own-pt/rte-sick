@@ -3,8 +3,8 @@ sentence B = Two dogs of different breeds are looking at each other across a str
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,?,Roadway=,?,equal+,DomesticAnimal+,?,Canine+,Entity+,Entity+,SubjectiveAssessmentAttribute+,?,?
-CONCEPTS B: ?,Canine+,?,equal+,DomesticAnimal+,Entity+,FrontFn+,?,?,equal+,?,?,Roadway=,?
+CONCEPTS A: Roadway=,equal+,DomesticAnimal+,Canine+,Entity+,Entity+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Canine+,equal+,DomesticAnimal+,Entity+,FrontFn+,equal+,Roadway=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	looked	look	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
 12	at	at	ADP	IN	fPOS=ADV++RB	11	nmod	_	?|?
 13	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

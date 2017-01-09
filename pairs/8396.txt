@@ -3,8 +3,8 @@ sentence B = A man is looking into the distance and people is walking between bu
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Black=,Hominid=,Entity+,Walking=,Position+,?,?,Building=,?,?,SubjectiveWeakPositiveAttribute+,City=,?
-CONCEPTS B: ?,Hominid=,Entity+,SubjectiveAssessmentAttribute+,?,?,LengthMeasure+,?,GroupOfPeople=,Entity+,Walking=,?,Building=,?,?
+CONCEPTS A: Black=,Hominid=,Entity+,Walking=,Position+,Building=,SubjectiveWeakPositiveAttribute+,City=
+CONCEPTS B: Hominid=,Entity+,SubjectiveAssessmentAttribute+,LengthMeasure+,GroupOfPeople=,Entity+,Walking=,Building=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	big	big	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
 13	city	city	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	08524735-n|City=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

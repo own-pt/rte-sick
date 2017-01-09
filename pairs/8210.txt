@@ -3,8 +3,8 @@ sentence B = A girl has colored patches on the cheeks.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Damaging+,Black=,?,OrangeColor+,TimeDuration+,?,?,TraitAttribute+,?
-CONCEPTS B: ?,Human+,Damaging+,SurfaceChange+,TimeDuration+,?,?,TraitAttribute+,?
+CONCEPTS A: Human+,Damaging+,Black=,OrangeColor+,TimeDuration+,TraitAttribute+
+CONCEPTS B: Human+,Damaging+,SurfaceChange+,TimeDuration+,TraitAttribute+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	cheeks	cheek	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	04838210-n|TraitAttribute+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

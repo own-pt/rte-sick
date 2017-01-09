@@ -3,8 +3,8 @@ sentence B = A black bird is sitting on a dead tree.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Black=,Bird=,PhysicalAttribute+,SittingDown+,?,?,Plant+,ContentBearingObject+,?
-CONCEPTS B: ?,Black=,Bird=,PhysicalAttribute+,SittingDown+,?,?,Dead=,ContentBearingObject+,?
+CONCEPTS A: Black=,Bird=,PhysicalAttribute+,SittingDown+,Plant+,ContentBearingObject+
+CONCEPTS B: Black=,Bird=,PhysicalAttribute+,SittingDown+,Dead=,ContentBearingObject+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	leafless	leafless	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	01703494-a|Plant+
 9	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	13912260-n|ContentBearingObject+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

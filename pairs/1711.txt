@@ -3,8 +3,8 @@ sentence B = A man is carelessly holding a frog.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Removing+,?,Container+,Process+,?,Substance+,?
-CONCEPTS B: ?,Hominid=,Entity+,SubjectiveAssessmentAttribute+,PhysicalAttribute+,?,Toad+,?
+CONCEPTS A: Hominid=,Entity+,Removing+,Container+,Process+,Substance+
+CONCEPTS B: Hominid=,Entity+,SubjectiveAssessmentAttribute+,PhysicalAttribute+,Toad+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	of	of	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
 9	plastic	plastic	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	14592610-n|Substance+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

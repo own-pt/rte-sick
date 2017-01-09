@@ -3,8 +3,8 @@ sentence B = The brown horse is near a red barrel at the rodeo.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Horse=,Entity+,SubjectiveAssessmentAttribute+,?,?,Red=,Cask=,?,?,RecreationOrExercise+,?
-CONCEPTS B: ?,Human+,Horse=,Entity+,?,?,Red=,Cask=,?,?,RecreationOrExercise+,?
+CONCEPTS A: Human+,Horse=,Entity+,SubjectiveAssessmentAttribute+,Red=,Cask=,RecreationOrExercise+
+CONCEPTS B: Human+,Horse=,Entity+,Red=,Cask=,RecreationOrExercise+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	rodeo	rodeo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	00522939-n|RecreationOrExercise+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

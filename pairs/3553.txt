@@ -3,8 +3,8 @@ sentence B = A squirrel is spinning around in circles.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Squirrel+,Entity+,PsychologicalDysfunction+,Rotating+,?,?,Circle=,?
-CONCEPTS B: ?,Squirrel+,Entity+,Rotating+,?,?,Circle=,?
+CONCEPTS A: Squirrel+,Entity+,PsychologicalDysfunction+,Rotating+,Circle=
+CONCEPTS B: Squirrel+,Entity+,Rotating+,Circle=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
 8	circles	circle	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	13873502-n|Circle=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

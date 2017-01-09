@@ -3,8 +3,8 @@ sentence B = A woman is dancing on a stage.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,DramaticActing+,?,ComputerInputDevice+,?,?,Man=,Entity+,Dancing+,?
-CONCEPTS B: ?,Woman=,Entity+,Dancing+,?,?,Attribute+,?
+CONCEPTS A: Woman=,Entity+,DramaticActing+,ComputerInputDevice+,Man=,Entity+,Dancing+
+CONCEPTS B: Woman=,Entity+,Dancing+,Attribute+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	11	cop	_	02604760-v|Entity+
 11	dancing	dance	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	4	conj	_	01708676-v|Dancing+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

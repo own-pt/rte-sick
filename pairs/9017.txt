@@ -3,8 +3,8 @@ sentence B = A blond child is going down a slide and throwing up his arms.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,?,?,SubjectiveAssessmentAttribute+,FluidContainer+,PositionalAttribute+,Entity+,MotionUpward=,?,Hand+,?,?,Entity+,Contest+,?,?,Artifact+,?
-CONCEPTS B: ?,Human+,HumanChild=,Entity+,WhenFn=,earlier+,?,Artifact+,?,Impelling+,Increasing+,?,Weapon=,?
+CONCEPTS A: HumanYouth=,Human+,SubjectiveAssessmentAttribute+,FluidContainer+,PositionalAttribute+,Entity+,MotionUpward=,Hand+,Entity+,Contest+,Artifact+
+CONCEPTS B: Human+,HumanChild=,Entity+,WhenFn=,earlier+,Artifact+,Impelling+,Increasing+,Weapon=
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	19	det	_	?|?
 19	slide	slide	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	03029603-n|Artifact+
 20	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

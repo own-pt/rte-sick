@@ -3,8 +3,8 @@ sentence B = A few kittens are eating.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,ColorAttribute+,Canine+,Entity+,Looking=,?,Human+,Canine+,?,Entity+,Swimming+,?,?,Lake+,?
-CONCEPTS B: ?,?,Feline+,Entity+,Process+,?
+CONCEPTS A: ColorAttribute+,Canine+,Entity+,Looking=,Human+,Canine+,Entity+,Swimming+,Lake+
+CONCEPTS B: Feline+,Entity+,Process+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	pond	pond	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	09397391-n|Lake+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

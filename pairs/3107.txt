@@ -3,8 +3,8 @@ sentence B = A man is sitting on the floor in a room and strumming a guitar.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,PhysicalAttribute+,Process+,?,SittingDown+,Guitar=,Musician+,?
-CONCEPTS B: ?,Hominid=,PhysicalAttribute+,SittingDown+,?,?,Floor+,?,?,Room=,?,SoundAttribute+,?,Guitar=,?
+CONCEPTS A: Hominid=,PhysicalAttribute+,Process+,SittingDown+,Guitar=,Musician+
+CONCEPTS B: Hominid=,PhysicalAttribute+,SittingDown+,Floor+,Room=,SoundAttribute+,Guitar=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	guitar	guitar	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	8	compound	_	03467517-n|Guitar=
 8	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	10340312-n|Musician+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

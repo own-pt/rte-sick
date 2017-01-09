@@ -3,8 +3,8 @@ sentence B = Two kids are bouncing on colorful balls.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,not=,CoveringFn=,Black=,Clothing+,?,Entity+,not=,Motion+,?
-CONCEPTS B: ?,HumanChild=,Entity+,Motion+,?,ColorAttribute+,Ball=,?
+CONCEPTS A: HumanChild=,Entity+,not=,CoveringFn=,Black=,Clothing+,Entity+,not=,Motion+
+CONCEPTS B: HumanChild=,Entity+,Motion+,ColorAttribute+,Ball=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	not	not	PART	RB	fPOS=PART++RB	11	neg	_	00024073-r|not=
 11	hopping	hop	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	02095211-v|Motion+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = Some cheers are being performed by the girl in the blue and white u
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human+,?,?,Blue=,?,White=,UniformClothing=,Entity+,Communication+,?
-CONCEPTS B: ?,Vocalizing=,Entity+,Entity+,IntentionalProcess+,?,?,Human+,?,?,Blue=,?,White=,UniformClothing=,?
+CONCEPTS A: Human+,Blue=,White=,UniformClothing=,Entity+,Communication+
+CONCEPTS B: Vocalizing=,Entity+,Entity+,IntentionalProcess+,Human+,Blue=,White=,UniformClothing=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
 10	cheering	cheer	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00859153-v|Communication+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?

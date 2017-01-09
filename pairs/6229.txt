@@ -3,8 +3,8 @@ sentence B = People at a drag race are looking at the flames that are coming out
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute=,Entity+,Looking=,?,Motion+,Automobile=,?,Entity+,Process+,?,Leaving=,Position+,?
-CONCEPTS B: GroupOfPeople=,?,?,Process+,Racing=,Entity+,SubjectiveAssessmentAttribute+,?,?,Combustion=,?,Entity+,Arriving=,Giving+,?,?,Automobile=,?
+CONCEPTS A: SubjectiveAssessmentAttribute=,Entity+,Looking=,Motion+,Automobile=,Entity+,Process+,Leaving=,Position+
+CONCEPTS B: GroupOfPeople=,Process+,Racing=,Entity+,SubjectiveAssessmentAttribute+,Combustion=,Entity+,Arriving=,Giving+,Automobile=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	starting	start	VERB	VBG	Number=Sing|fPOS=NOUN++NN	13	compound	_	02014165-v|Leaving=
 13	line	line	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	00582388-n|Position+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	People	people	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	07942152-n|GroupOfPeople=

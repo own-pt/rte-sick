@@ -3,8 +3,8 @@ sentence B = The adults and children are being grouped near an outdoor seating a
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: FullyFormed+,?,HumanChild=,PhysicalAttribute+,?,Game+,?,FrontFn=,?,RadiatingSound+,?,?,?,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,FullyFormed+,?,HumanChild=,Entity+,Entity+,Classifying+,?,?,located+,Communication+,Designing+,?
+CONCEPTS A: FullyFormed+,HumanChild=,PhysicalAttribute+,Game+,FrontFn=,RadiatingSound+,SubjectiveAssessmentAttribute+
+CONCEPTS B: FullyFormed+,HumanChild=,Entity+,Entity+,Classifying+,located+,Communication+,Designing+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	wooded	wood	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	?|?
 14	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	14514039-n|SubjectiveAssessmentAttribute+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	1	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

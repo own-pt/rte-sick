@@ -3,8 +3,8 @@ sentence B = Two brown dogs are fighting over a red toy and are playing in the g
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,?,Entity+,DramaticActing+,?,?,Red=,Ball=,?
-CONCEPTS B: ?,Human+,Canine+,Entity+,ViolentContest+,?,?,Red=,RecreationOrExerciseDevice+,?,Entity+,DramaticActing+,?,?,Grass=,?
+CONCEPTS A: Entity+,DramaticActing+,Red=,Ball=
+CONCEPTS B: Human+,Canine+,Entity+,ViolentContest+,Red=,RecreationOrExerciseDevice+,Entity+,DramaticActing+,Grass=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	00381097-a|Red=
 8	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02778669-n|Ball=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?

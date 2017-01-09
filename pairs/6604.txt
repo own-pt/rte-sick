@@ -3,8 +3,8 @@ sentence B = Four people are walking across thick snow and the sun is setting.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Entity+,?,Walking=,?,SubjectiveAssessmentAttribute+,?,Human+,Snowing=,?,?,Sol=,Entity+,Putting=,?
-CONCEPTS B: ?,GroupOfPeople=,Entity+,Walking=,?,Human+,Snowing=,?,?,Sol=,Entity+,Putting=,?
+CONCEPTS A: GroupOfPeople=,Entity+,Walking=,SubjectiveAssessmentAttribute+,Human+,Snowing=,Sol=,Entity+,Putting=
+CONCEPTS B: GroupOfPeople=,Entity+,Walking=,Human+,Snowing=,Sol=,Entity+,Putting=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	15	aux	_	02604760-v|Entity+
 15	setting	set	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	01494310-v|Putting=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

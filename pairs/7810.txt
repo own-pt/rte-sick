@@ -3,8 +3,8 @@ sentence B = A person is crouching and holding a camera.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,BodyMotion+,?,Device+,?,PhysicalAttribute+,?,Photograph=,?
-CONCEPTS B: ?,Human=,Entity+,Inclining+,?,Process+,?,Camera=,?
+CONCEPTS A: Hominid=,Entity+,BodyMotion+,Device+,PhysicalAttribute+,Photograph=
+CONCEPTS B: Human=,Entity+,Inclining+,Process+,Camera=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	photograph	photograph	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	03925226-n|Photograph=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

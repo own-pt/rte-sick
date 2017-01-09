@@ -3,8 +3,8 @@ sentence B = The crowd is not watching a football game.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute=,Entity+,Looking=,?,Football+,Game=,?
-CONCEPTS B: ?,SubjectiveAssessmentAttribute=,Entity+,not=,Looking=,?,Football+,Game=,?
+CONCEPTS A: SubjectiveAssessmentAttribute=,Entity+,Looking=,Football+,Game=
+CONCEPTS B: SubjectiveAssessmentAttribute=,Entity+,not=,Looking=,Football+,Game=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	00468480-n|Football+
 7	game	game	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00455599-n|Game=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

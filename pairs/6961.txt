@@ -3,8 +3,8 @@ sentence B = A man in a white hat is playing guitar on stage.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,White=,Man=,Entity+,Planning+,?,Hat+,?,?,DramaticActing+,Guitar=,?
-CONCEPTS B: ?,Man=,?,?,White=,Hat+,Entity+,DramaticActing+,Guitar=,?,Attribute+,?
+CONCEPTS A: White=,Man=,Entity+,Planning+,Hat+,DramaticActing+,Guitar=
+CONCEPTS B: Man=,White=,Hat+,Entity+,DramaticActing+,Guitar=,Attribute+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	playing	play	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	11	compound	_	01719302-v|DramaticActing+
 11	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	conj	_	03467517-n|Guitar=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

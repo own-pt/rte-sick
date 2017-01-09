@@ -3,8 +3,8 @@ sentence B = A baby elephant is eating a small tree.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,ContentBearingObject+,Entity+,Entity+,Process+,?,?,HumanBaby=,Elephant+,?
-CONCEPTS B: ?,HumanBaby=,Elephant+,Entity+,Process+,?,SubjectiveStrongNegativeAttribute+,ContentBearingObject+,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,ContentBearingObject+,Entity+,Entity+,Process+,HumanBaby=,Elephant+
+CONCEPTS B: HumanBaby=,Elephant+,Entity+,Process+,SubjectiveStrongNegativeAttribute+,ContentBearingObject+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	baby	baby	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	09827683-n|HumanBaby=
 10	elephant	elephant	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	02503517-n|Elephant+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

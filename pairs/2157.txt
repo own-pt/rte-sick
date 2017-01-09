@@ -3,8 +3,8 @@ sentence B = A man is taking pictures of a lake.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Icon+,?,?,Camera=,Putting=,Increasing+,Entity+,Entity+,PhysicalAttribute+,?,?,Hominid=,?,?,ShoreArea=,?,?,Sunset+,?
-CONCEPTS B: ?,Hominid=,Entity+,PhysicalAttribute+,Icon+,?,?,Lake=,?
+CONCEPTS A: Icon+,Camera=,Putting=,Increasing+,Entity+,Entity+,PhysicalAttribute+,Hominid=,ShoreArea=,Sunset+
+CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,Icon+,Lake=
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	?|?
 19	sunset	sunset	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	15169248-n|Sunset+
 20	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

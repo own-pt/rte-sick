@@ -3,8 +3,8 @@ sentence B = There is no lady holding the paintbrush next to the artist's easel.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human+,Entity+,Process+,?,PaintingDevice+,Position+,?,?,Artist=,?,Easel=,?
-CONCEPTS B: ?,Entity+,?,Human+,Process+,?,PaintingDevice+,Position+,?,?,Artist=,?,Easel=,?
+CONCEPTS A: Human+,Entity+,Process+,PaintingDevice+,Position+,Artist=,Easel=
+CONCEPTS B: Entity+,Human+,Process+,PaintingDevice+,Position+,Artist=,Easel=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	's	's	PART	POS	fPOS=PART++POS	10	case	_	?|?
 12	easel	easel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03262809-n|Easel=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

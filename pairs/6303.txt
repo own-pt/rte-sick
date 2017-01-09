@@ -3,8 +3,8 @@ sentence B = A shoeless woman is sitting on a blanket under a lavender umbrella.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,PhysicalAttribute+,SittingDown+,Outdoors+,?,?,SocialRole+,Device+,?
-CONCEPTS B: ?,Clothing[,Woman=,PhysicalAttribute+,SittingDown+,?,?,Blanket+,?,?,FloweringPlant+,Device+,?
+CONCEPTS A: Hominid=,PhysicalAttribute+,SittingDown+,Outdoors+,SocialRole+,Device+
+CONCEPTS B: Clothing[,Woman=,PhysicalAttribute+,SittingDown+,Blanket+,FloweringPlant+,Device+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	purple	purple	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	01591394-a|SocialRole+
 9	umbrella	umbrella	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04507155-n|Device+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = The motocross rider is wearing blue and black pants.
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,?,SubjectiveStrongNegativeAttribute+,?,Black=,?,Bicycle=,Entity+,not=,CoveringFn=,?,Trousers+,?
-CONCEPTS B: ?,?,Position+,Entity+,RecreationOrExercise+,SubjectiveStrongNegativeAttribute+,?,Black=,Trousers+,?
+CONCEPTS A: Human+,SubjectiveStrongNegativeAttribute+,Black=,Bicycle=,Entity+,not=,CoveringFn=,Trousers+
+CONCEPTS B: Position+,Entity+,RecreationOrExercise+,SubjectiveStrongNegativeAttribute+,Black=,Trousers+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	pants	pant	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	dobj	_	04489008-n|Trousers+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

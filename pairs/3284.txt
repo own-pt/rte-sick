@@ -3,8 +3,8 @@ sentence B = A child is staring at the ocean waves.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,Entity+,Attribute+,?,?,Ocean=,ShapeAttribute+,?
-CONCEPTS B: ?,HumanChild=,Entity+,Looking=,?,?,Ocean=,ShapeAttribute+,?
+CONCEPTS A: HumanYouth=,Human+,Entity+,Attribute+,Ocean=,ShapeAttribute+
+CONCEPTS B: HumanChild=,Entity+,Looking=,Ocean=,ShapeAttribute+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	ocean	ocean	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	09376198-n|Ocean=
 9	waves	wave	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	13868944-n|ShapeAttribute+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = The man is standing on a rocky mountain and gray clouds are in the 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,Entity+,Entity+,SubjectiveAssessmentAttribute+,Looking=,?,?,?,Woman=,?
-CONCEPTS B: ?,Hominid=,Entity+,PhysicalAttribute+,?,?,TextureAttribute+,SubjectiveAssessmentAttribute+,?,Gray+,Cloud=,Entity+,?,?,Region+,?
+CONCEPTS A: Man=,Entity+,Entity+,SubjectiveAssessmentAttribute+,Looking=,Woman=
+CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,TextureAttribute+,SubjectiveAssessmentAttribute+,Gray+,Cloud=,Entity+,Region+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	10787470-n|Woman=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

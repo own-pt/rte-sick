@@ -3,8 +3,8 @@ sentence B = A little girl is playing the piano.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human+,?,?,Entity+,SubjectiveStrongNegativeAttribute+,?,Entity+,DramaticActing+,?,Piano=,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,DramaticActing+,?,Piano=,?
+CONCEPTS A: Human+,Entity+,SubjectiveStrongNegativeAttribute+,Entity+,DramaticActing+,Piano=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,DramaticActing+,Piano=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	piano	piano	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	03928116-n|Piano=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

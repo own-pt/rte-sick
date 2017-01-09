@@ -3,8 +3,8 @@ sentence B = A woman wearing casual clothing is keeping her mouth closed and is 
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,CoveringFn=,?,Blue=,?,White=,UniformClothing=,?,?,White=,?,Blue=,Hat+,Entity+,Attribute+,?,Mouth+,SubjectiveWeakPositiveAttribute+,?,Entity+,?,?,Dressing+,?,?,equal+,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,Woman=,Dressing+,EmotionalState+,Clothing=,Entity+,Attribute+,?,Mouth+,Closing=,?,Entity+,?,equal+,GroupOfPeople=,Dressing+,equal+,?
+CONCEPTS A: Woman=,CoveringFn=,Blue=,White=,UniformClothing=,White=,Blue=,Hat+,Entity+,Attribute+,Mouth+,SubjectiveWeakPositiveAttribute+,Entity+,Dressing+,equal+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Woman=,Dressing+,EmotionalState+,Clothing=,Entity+,Attribute+,Mouth+,Closing=,Entity+,equal+,GroupOfPeople=,Dressing+,equal+
 
 CONLL A:
 
@@ -37,6 +37,8 @@ CONLL A:
 27	same	same	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	28	amod	_	02062670-a|equal+
 28	fashion	fashion	NOUN	NN	Number=Sing|fPOS=NOUN++NN	24	nmod	_	04928903-n|SubjectiveAssessmentAttribute+
 29	.	.	PUNCT	.	fPOS=PUNCT++.	16	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

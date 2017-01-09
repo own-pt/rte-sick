@@ -3,8 +3,8 @@ sentence B = The furry brown dog is running through the grassy area.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human+,Canine+,Entity+,not=,DramaticActing+,Outdoors+,?
-CONCEPTS B: ?,Organism+,Human+,Canine+,Entity+,Attribute+,?,?,FloweringPlant+,GeographicArea+,?
+CONCEPTS A: Human+,Canine+,Entity+,not=,DramaticActing+,Outdoors+
+CONCEPTS B: Organism+,Human+,Canine+,Entity+,Attribute+,FloweringPlant+,GeographicArea+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
 7	outdoors	outdoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	dobj	_	00110659-r|Outdoors+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	4	det	_	?|?

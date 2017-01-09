@@ -3,8 +3,8 @@ sentence B = The lady is holding the paintbrush next to the artist's easel.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Painting=,?,?,Blue+,?
-CONCEPTS B: ?,Human+,Entity+,Process+,?,PaintingDevice+,Position+,?,?,Artist=,?,Easel=,?
+CONCEPTS A: Human+,Entity+,Painting=,Blue+
+CONCEPTS B: Human+,Entity+,Process+,PaintingDevice+,Position+,Artist=,Easel=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	coverall	coverall	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	?|?
 7	blue	blue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	04968895-n|Blue+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

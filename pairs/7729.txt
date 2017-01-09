@@ -3,8 +3,8 @@ sentence B = A child is amazedly experiencing a new world.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,?,Device+,Entity+,Entity+,Permission+,?,?,SocialRole+,?,Entity+,CoveringFn=,?,SubjectiveStrongNegativeAttribute+,Coat=,?
-CONCEPTS B: ?,HumanChild=,Entity+,?,IntentionalPsychologicalProcess+,?,Damaging[,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: Human+,Device+,Entity+,Entity+,Permission+,SocialRole+,Entity+,CoveringFn=,SubjectiveStrongNegativeAttribute+,Coat=
+CONCEPTS B: HumanChild=,Entity+,IntentionalPsychologicalProcess+,Damaging[,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
 17	coat	coat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	03057021-n|Coat=
 18	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

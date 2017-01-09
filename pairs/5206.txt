@@ -3,8 +3,8 @@ sentence B = The woman is not putting pasta into a dish.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Transportation+,?,Liquid+,Substance+,Giving+,?,?,Dish+,?
-CONCEPTS B: ?,Woman=,Entity+,not=,Putting=,Pasta=,?,?,PreparedFood+,?
+CONCEPTS A: Woman=,Entity+,Transportation+,Liquid+,Substance+,Giving+,Dish+
+CONCEPTS B: Woman=,Entity+,not=,Putting=,Pasta=,PreparedFood+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	bowl	bowl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02880940-n|Dish+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

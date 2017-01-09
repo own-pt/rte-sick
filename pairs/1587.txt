@@ -3,8 +3,8 @@ sentence B = A man is pouring liquid into a pot.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Liquid=,Entity+,Entity+,Pouring=,?,?,PotOrPan=,?,?,Man=,?
-CONCEPTS B: ?,Hominid=,Entity+,Pouring=,Liquid=,?,?,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: Liquid=,Entity+,Entity+,Pouring=,PotOrPan=,Man=
+CONCEPTS B: Hominid=,Entity+,Pouring=,Liquid=,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	10287213-n|Man=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

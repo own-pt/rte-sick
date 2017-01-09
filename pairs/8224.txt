@@ -3,8 +3,8 @@ sentence B = Two dogs are running through high grass.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Motion+,?,?,Region+,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,Canine+,Entity+,Attribute+,?,SubjectiveStrongPositiveAttribute+,Grass=,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Motion+,Region+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Canine+,Entity+,Attribute+,SubjectiveStrongPositiveAttribute+,Grass=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	parking	parking	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	compound	_	13778671-n|Region+
 9	lot	lot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	13774404-n|SubjectiveAssessmentAttribute+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

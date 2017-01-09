@@ -3,8 +3,8 @@ sentence B = A fearful little boy is on a climbing wall.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Arriving=,earlier+,?,Wall=,NormativeAttribute+,Making+,?,Increasing+,?,Entity+,not=,Attaching=,?,?,String+,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,SubjectiveStrongNegativeAttribute+,Human+,Entity+,?,?,Increasing+,Wall=,?
+CONCEPTS A: Human+,Entity+,Arriving=,earlier+,Wall=,NormativeAttribute+,Making+,Increasing+,Entity+,not=,Attaching=,String+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Increasing+,Wall=
 
 CONLL A:
 
@@ -27,6 +27,8 @@ CONLL A:
 17	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	18	det	_	?|?
 18	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	04108268-n|String+
 19	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

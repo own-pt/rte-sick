@@ -3,8 +3,8 @@ sentence B = Two women are dancing and singing in front of many people.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Dancing+,?,MakingVocalMusic=,?,FrontFn=,?,?,SubjectiveAssessmentAttribute=,?
-CONCEPTS B: ?,Woman=,Entity+,Dancing+,?,MakingVocalMusic=,?,FrontFn=,?,?,GroupOfPeople=,?
+CONCEPTS A: Woman=,Entity+,Dancing+,MakingVocalMusic=,FrontFn=,SubjectiveAssessmentAttribute=
+CONCEPTS B: Woman=,Entity+,Dancing+,MakingVocalMusic=,FrontFn=,GroupOfPeople=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	crowd	crowd	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	08182379-n|SubjectiveAssessmentAttribute=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

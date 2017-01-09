@@ -3,8 +3,8 @@ sentence B = Two kids are bouncing on colorful balls.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Ball=,Entity+,Motion+,?,?,ColorAttribute+,HumanChild=,?
-CONCEPTS B: ?,HumanChild=,Entity+,Motion+,?,ColorAttribute+,Ball=,?
+CONCEPTS A: Ball=,Entity+,Motion+,ColorAttribute+,HumanChild=
+CONCEPTS B: HumanChild=,Entity+,Motion+,ColorAttribute+,Ball=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	colorful	colorful	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	00394562-a|ColorAttribute+
 8	kids	kid	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	09917593-n|HumanChild=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

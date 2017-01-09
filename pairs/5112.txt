@@ -3,8 +3,8 @@ sentence B = There is no man riding a water toy in the water.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Carrying=,?,Water=,RecreationOrExerciseDevice+,?,?,Water=,?
-CONCEPTS B: ?,Entity+,?,Hominid=,Carrying=,?,Water=,RecreationOrExerciseDevice+,?,?,Water=,?
+CONCEPTS A: Hominid=,Entity+,Carrying=,Water=,RecreationOrExerciseDevice+,Water=
+CONCEPTS B: Entity+,Hominid=,Carrying=,Water=,RecreationOrExerciseDevice+,Water=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	14845743-n|Water=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

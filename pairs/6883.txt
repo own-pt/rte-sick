@@ -3,8 +3,8 @@ sentence B = The large brown dog is running outside in the dirt.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Racing+,?,?,Device+,?,?,StationaryArtifact+,ContainerFull+,?,Text+,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,Attribute+,?,?,?,Text+,?
+CONCEPTS A: Canine+,Entity+,Racing+,Device+,StationaryArtifact+,ContainerFull+,Text+
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,Attribute+,Text+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
 13	dirt	dirt	NOUN	NN	Number=Sing|fPOS=PROPN++NNP	11	nmod	_	07223811-n|Text+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	4	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A little boy is getting out of a puddle in the street.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,HumanChild=,Entity+,RecreationOrExercise+,Green=,Shoe=,?,DramaticActing+,?,?,StaticWaterArea+,ContainerFull+,?,Soil=,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Process+,Giving+,?,?,StaticWaterArea+,?,?,Roadway=,?
+CONCEPTS A: HumanYouth=,HumanChild=,Entity+,RecreationOrExercise+,Green=,Shoe=,DramaticActing+,StaticWaterArea+,ContainerFull+,Soil=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Process+,Giving+,StaticWaterArea+,Roadway=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	of	of	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
 15	mud	mud	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	14956325-n|Soil=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

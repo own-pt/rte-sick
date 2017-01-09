@@ -3,8 +3,8 @@ sentence B = A horse is being ridden by a man.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Carrying=,?,Horse=,?,?,Creek+,?
-CONCEPTS B: ?,Horse=,Entity+,Entity+,Carrying=,?,?,Hominid=,?
+CONCEPTS A: Hominid=,Entity+,Carrying=,Horse=,Creek+
+CONCEPTS B: Horse=,Entity+,Entity+,Carrying=,Hominid=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	creek	creek	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09229409-n|Creek+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

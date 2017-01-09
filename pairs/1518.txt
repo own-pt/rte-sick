@@ -3,8 +3,8 @@ sentence B = A woman is dancing alone.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,DramaticActing+,ContentBearingObject+,Tennis=,?
-CONCEPTS B: ?,Woman=,Entity+,Dancing+,SocialInteraction[,?
+CONCEPTS A: Hominid=,Entity+,DramaticActing+,ContentBearingObject+,Tennis=
+CONCEPTS B: Woman=,Entity+,Dancing+,SocialInteraction[
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	table	table	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	08266235-n|ContentBearingObject+
 6	tennis	tennis	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00482298-n|Tennis=
 7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

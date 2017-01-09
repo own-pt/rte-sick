@@ -3,8 +3,8 @@ sentence B = Two dogs are running through high grass.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Motion+,?,?,FieldOfStudy=,?
-CONCEPTS B: ?,Canine+,Entity+,Attribute+,?,SubjectiveStrongPositiveAttribute+,Grass=,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Motion+,FieldOfStudy=
+CONCEPTS B: Canine+,Entity+,Attribute+,SubjectiveStrongPositiveAttribute+,Grass=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	05996646-n|FieldOfStudy=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

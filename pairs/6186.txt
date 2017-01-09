@@ -3,8 +3,8 @@ sentence B = The group of people is not sitting on a rocky ledge with a scenic v
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Group=,?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,?,TextureAttribute+,GeographicArea+,?,?,StationaryArtifact+,VisualAttribute+,PhysicalAttribute+,?,?,?
-CONCEPTS B: ?,Group=,?,GroupOfPeople=,PhysicalAttribute+,not=,SittingDown+,?,?,TextureAttribute+,GeographicArea+,?,?,StationaryArtifact+,VisualAttribute+,?,?,?
+CONCEPTS A: Group=,GroupOfPeople=,PhysicalAttribute+,SittingDown+,TextureAttribute+,GeographicArea+,StationaryArtifact+,VisualAttribute+,PhysicalAttribute+
+CONCEPTS B: Group=,GroupOfPeople=,PhysicalAttribute+,not=,SittingDown+,TextureAttribute+,GeographicArea+,StationaryArtifact+,VisualAttribute+
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	behind	behind	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
 17	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|fPOS=PRON++PRP	6	conj	_	?|?
 18	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A girl is wearing a t-shirt and has her mouth open.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,Asia=,?,?,FrontFn=,?,?,Brick+,Window=,?,IntentionalProcess+,not=,SubjectiveAssessmentAttribute+,EmotionalState+,?
-CONCEPTS B: ?,Human+,Entity+,Putting+,?,Shirt+,?,Attribute+,?,Mouth+,SubjectiveStrongPositiveAttribute+,?
+CONCEPTS A: Human+,Asia=,FrontFn=,Brick+,Window=,IntentionalProcess+,not=,SubjectiveAssessmentAttribute+,EmotionalState+
+CONCEPTS B: Human+,Entity+,Putting+,Shirt+,Attribute+,Mouth+,SubjectiveStrongPositiveAttribute+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	look	look	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
 16	surprised	surprise	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	xcomp	_	00725274-v|EmotionalState+
 17	.	.	PUNCT	.	fPOS=PUNCT++.	15	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

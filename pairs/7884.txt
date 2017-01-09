@@ -3,8 +3,8 @@ sentence B = ATVs are being driven by three people.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Entity+,Transportation+,?,VehicleWheel=,?,?,?,FieldOfStudy=,?
-CONCEPTS B: ?,Entity+,Entity+,Transportation+,?,?,GroupOfPeople=,?
+CONCEPTS A: GroupOfPeople=,Entity+,Transportation+,VehicleWheel=,FieldOfStudy=
+CONCEPTS B: Entity+,Entity+,Transportation+,GroupOfPeople=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05996646-n|FieldOfStudy=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	ATVs	atvs	AUX	VB	Number=Sing|fPOS=NOUN++NN	4	nsubjpass	_	?|?

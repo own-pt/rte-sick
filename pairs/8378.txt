@@ -3,8 +3,8 @@ sentence B = Two dogs are leaping through snowy grass and rocks.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Canine+,?,?,RadiatingVisibleLight+,SurfaceChange+,?,?,?,SubjectiveWeakNegativeAttribute+,?,?,Entity+,Attribute+,?,Covering+,LandArea+,?
-CONCEPTS B: ?,Canine+,Entity+,Ambulating=,?,Covering+,Grass=,?,Rock=,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Canine+,RadiatingVisibleLight+,SurfaceChange+,SubjectiveWeakNegativeAttribute+,Entity+,Attribute+,Covering+,LandArea+
+CONCEPTS B: Canine+,Entity+,Ambulating=,Covering+,Grass=,Rock=
 
 CONLL A:
 
@@ -27,6 +27,8 @@ CONLL A:
 17	snowy	snowy	ADV	RB	fPOS=SCONJ++IN	18	advmod	_	01698231-a|Covering+
 18	terrain	terrain	ADV	RB	Number=Sing|fPOS=NOUN++NN	15	nmod	_	08674563-n|LandArea+
 19	.	.	PUNCT	.	fPOS=PUNCT++.	15	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

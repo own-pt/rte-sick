@@ -3,8 +3,8 @@ sentence B = A shirtless man is posing with a girl who is hiking in a park.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,Shirt=,Entity+,Putting=,?,?,Sleeve+,Disseminating+,Position+,?,?,Woman=,?
-CONCEPTS B: ?,?,Man=,Entity+,Putting=,?,?,Human+,?,Entity+,Walking+,?,?,Park+,?
+CONCEPTS A: Man=,Shirt=,Entity+,Putting=,Sleeve+,Disseminating+,Position+,Woman=
+CONCEPTS B: Man=,Entity+,Putting=,Human+,Entity+,Walking+,Park+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	10787470-n|Woman=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

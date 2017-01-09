@@ -3,8 +3,8 @@ sentence B = A man is slicing an onion.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Eating=,FruitOrVegetable+,PreparedFood+,?
-CONCEPTS B: ?,Hominid=,Entity+,Separating+,?,FruitOrVegetable+,?
+CONCEPTS A: Hominid=,Entity+,Eating=,FruitOrVegetable+,PreparedFood+
+CONCEPTS B: Hominid=,Entity+,Separating+,FruitOrVegetable+
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	onion	onion	ADP	IN	fPOS=ADP++IN	6	compound	_	12433081-n|FruitOrVegetable+
 6	slices	slice	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	07654667-n|PreparedFood+
 7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A child is wearing a yellow jacket and is jumping down from a rock.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,Entity+,Ambulating=,Giving+,?,?,Water=,?
-CONCEPTS B: ?,HumanChild=,Entity+,RecreationOrExercise+,?,SubjectiveAssessmentAttribute+,Coat=,?,Entity+,Ambulating=,earlier+,?,?,Mineral+,?
+CONCEPTS A: HumanYouth=,Human+,Entity+,Ambulating=,Giving+,Water=
+CONCEPTS B: HumanChild=,Entity+,RecreationOrExercise+,SubjectiveAssessmentAttribute+,Coat=,Entity+,Ambulating=,earlier+,Mineral+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	14845743-n|Water=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

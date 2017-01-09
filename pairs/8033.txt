@@ -3,8 +3,8 @@ sentence B = A tan skinned child is looking at the camera.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,?,?,Clothing+,Entity+,not=,Looking=,?,Camera=,?
-CONCEPTS B: ?,ColorAttribute+,Separating+,HumanChild=,Entity+,SubjectiveAssessmentAttribute+,?,?,Camera=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Clothing+,Entity+,not=,Looking=,Camera=
+CONCEPTS B: ColorAttribute+,Separating+,HumanChild=,Entity+,SubjectiveAssessmentAttribute+,Camera=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	02942699-n|Camera=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

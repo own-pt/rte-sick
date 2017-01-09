@@ -3,8 +3,8 @@ sentence B = There is no man in a suit standing at a microphone and singing.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Hominid=,?,Attribute+,Entity+,MakingVocalMusic=,?,?,Microphone=,?
-CONCEPTS B: ?,Entity+,?,Man=,?,?,ClothingSuit+,SocialRole+,?,?,Microphone=,?,MakingVocalMusic=,?
+CONCEPTS A: Hominid=,Attribute+,Entity+,MakingVocalMusic=,Microphone=
+CONCEPTS B: Entity+,Man=,ClothingSuit+,SocialRole+,Microphone=,MakingVocalMusic=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	microphone	microphone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03759954-n|Microphone=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

@@ -3,8 +3,8 @@ sentence B = Two women are competing in a tire rolling race.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GroupOfPeople=,?,?,Racing=,Entity+,Impelling+,?,Artifact+,?,?,Truck+,?
-CONCEPTS B: ?,Woman=,Entity+,Contest+,?,?,Artifact+,Motion+,Racing=,?
+CONCEPTS A: GroupOfPeople=,Racing=,Entity+,Impelling+,Artifact+,Truck+
+CONCEPTS B: Woman=,Entity+,Contest+,Artifact+,Motion+,Racing=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	tractor	tractor	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04465666-n|Truck+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

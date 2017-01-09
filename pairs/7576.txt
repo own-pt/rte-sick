@@ -3,8 +3,8 @@ sentence B = The bunch of men are not playing rugby on a muddy field.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Collection+,?,Hominid=,Entity+,Game+,Rugby=,?,?,Swamp+,FieldOfStudy=,?
-CONCEPTS B: ?,Collection+,?,Hominid=,Entity+,not=,Game+,Rugby=,?,?,Swamp+,FieldOfStudy=,?
+CONCEPTS A: Collection+,Hominid=,Entity+,Game+,Rugby=,Swamp+,FieldOfStudy=
+CONCEPTS B: Collection+,Hominid=,Entity+,not=,Game+,Rugby=,Swamp+,FieldOfStudy=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	muddy	muddy	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	11	amod	_	02548066-a|Swamp+
 11	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	05996646-n|FieldOfStudy=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

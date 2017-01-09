@@ -3,8 +3,8 @@ sentence B = Two toddlers are eating corndogs in a wagon, which is really small.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,HumanChild=,Entity+,DramaticActing+,?,?,Hominid=,Process+,?,?
-CONCEPTS B: ?,NonFullyFormed+,Entity+,Process+,?,?,?,Trailer+,?,?,Entity+,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,?
+CONCEPTS A: HumanYouth=,HumanChild=,Entity+,DramaticActing+,Hominid=,Process+
+CONCEPTS B: NonFullyFormed+,Entity+,Process+,Trailer+,Entity+,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	eating	eat	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	8	acl	_	01157517-v|Process+
 10	corndogs	corndogs	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	dobj	_	?|?
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Degree=Pos|fPOS=ADJ++JJ	2	nummod	_	?|?

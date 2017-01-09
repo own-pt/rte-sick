@@ -3,8 +3,8 @@ sentence B = A person is removing eggs from a bowl.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Impacting+,?,BirdEgg=,?,?,Dish+,?,IntentionalProcess+,?,Device+,Attribute+,?,Wire=,?
-CONCEPTS B: ?,Human=,Entity+,LeavingAnOrganization+,Gland+,?,?,Dish+,?
+CONCEPTS A: Woman=,Entity+,Impacting+,BirdEgg=,Dish+,IntentionalProcess+,Device+,Attribute+,Wire=
+CONCEPTS B: Human=,Entity+,LeavingAnOrganization+,Gland+,Dish+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	of	of	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
 16	wire	wire	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	04594218-n|Wire=
 17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

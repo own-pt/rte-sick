@@ -3,8 +3,8 @@ sentence B = A black bird with a yellow beak is standing in the green grass.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Black=,Bird=,?,?,SubjectiveAssessmentAttribute+,BodyPart+,Entity+,PhysicalAttribute+,?,?,Green=,Grass=,?
-CONCEPTS B: ?,Black=,Bird=,?,?,SubjectiveAssessmentAttribute+,BodyPart+,Entity+,PhysicalAttribute+,?,?,Green=,Grass=,?
+CONCEPTS A: Black=,Bird=,SubjectiveAssessmentAttribute+,BodyPart+,Entity+,PhysicalAttribute+,Green=,Grass=
+CONCEPTS B: Black=,Bird=,SubjectiveAssessmentAttribute+,BodyPart+,Entity+,PhysicalAttribute+,Green=,Grass=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	00375969-a|Green=
 13	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	12102133-n|Grass=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

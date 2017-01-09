@@ -3,8 +3,8 @@ sentence B = A person without shirt is jumping high over the green grass.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human=,?,?,Green=,Shirt=,Entity+,Ambulating=,SubjectiveStrongPositiveAttribute+,?,?,Grass=,?
-CONCEPTS B: ?,Human=,?,Shirt=,Entity+,Ambulating=,SubjectiveStrongPositiveAttribute+,?,?,Green=,Grass=,?
+CONCEPTS A: Human=,Green=,Shirt=,Entity+,Ambulating=,SubjectiveStrongPositiveAttribute+,Grass=
+CONCEPTS B: Human=,Shirt=,Entity+,Ambulating=,SubjectiveStrongPositiveAttribute+,Green=,Grass=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	12102133-n|Grass=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

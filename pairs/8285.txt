@@ -3,8 +3,8 @@ sentence B = A woman is sitting on the grass and is drinking from a water bottle
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Soccer=,Human+,PhysicalAttribute+,SittingDown+,?,?,FieldOfStudy=,?,PhysicalAttribute+,Drinking+,Water=,?
-CONCEPTS B: ?,Woman=,PhysicalAttribute+,SittingDown+,?,?,Grass=,?,PhysicalAttribute+,Drinking+,?,?,Water=,Bottle=,?
+CONCEPTS A: Soccer=,Human+,PhysicalAttribute+,SittingDown+,FieldOfStudy=,PhysicalAttribute+,Drinking+,Water=
+CONCEPTS B: Woman=,PhysicalAttribute+,SittingDown+,Grass=,PhysicalAttribute+,Drinking+,Water=,Bottle=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	drinking	drink	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	12	amod	_	01171183-v|Drinking+
 12	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	14845743-n|Water=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

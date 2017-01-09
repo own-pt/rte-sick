@@ -3,8 +3,8 @@ sentence B = A man with a backwards hat is sitting on the ground.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human=,?,?,White=,Shirt=,?,Gold=,?,Black=,Hat+,PhysicalAttribute+,SittingDown+,?,Process+,Limb=,?
-CONCEPTS B: ?,Man=,?,?,?,Hat+,PhysicalAttribute+,SittingDown+,?,?,LandArea=,?
+CONCEPTS A: HumanYouth=,Human=,White=,Shirt=,Gold=,Black=,Hat+,PhysicalAttribute+,SittingDown+,Process+,Limb=
+CONCEPTS B: Man=,Hat+,PhysicalAttribute+,SittingDown+,LandArea=
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	crossed	cross	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	17	amod	_	02023396-v|Process+
 17	legs	leg	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	14	nmod	_	05560787-n|Limb=
 18	.	.	PUNCT	.	fPOS=PUNCT++.	14	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

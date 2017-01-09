@@ -3,8 +3,8 @@ sentence B = The baby is being put into a trash can by a woman.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,Entity+,PhysicalAttribute+,?,?,SubjectiveAssessmentAttribute+,?,?,PotOrPan+,?
-CONCEPTS B: ?,HumanBaby=,Entity+,Entity+,Putting=,?,?,SubjectiveAssessmentAttribute+,?,?,?,Woman=,?
+CONCEPTS A: Human=,Entity+,PhysicalAttribute+,SubjectiveAssessmentAttribute+,PotOrPan+
+CONCEPTS B: HumanBaby=,Entity+,Entity+,Putting=,SubjectiveAssessmentAttribute+,Woman=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	skillet	skillet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03400231-n|PotOrPan+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

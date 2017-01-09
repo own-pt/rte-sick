@@ -3,8 +3,8 @@ sentence B = A boy is holding a hose next to a man and another boy is watching.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Putting=,earlier+,?,Hose=,Position+,?,?,Man=,?,?,Human+,Entity+,Attribute+,?,?
-CONCEPTS B: ?,Human+,Entity+,PhysicalAttribute+,?,Hose=,Position+,?,?,Man=,?,?,Human+,Entity+,Looking=,?
+CONCEPTS A: Human+,Entity+,Putting=,earlier+,Hose=,Position+,Man=,Human+,Entity+,Attribute+
+CONCEPTS B: Human+,Entity+,PhysicalAttribute+,Hose=,Position+,Man=,Human+,Entity+,Looking=
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	11	conj	_	01525666-v|Attribute+
 17	away	away	ADV	RB	fPOS=ADV++RB	16	advmod	_	00234951-r|?
 18	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

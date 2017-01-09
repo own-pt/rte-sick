@@ -3,8 +3,8 @@ sentence B = A woman is not eating a cupcake.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Process+,?,PreparedFood+,?
-CONCEPTS B: ?,Woman=,Entity+,not=,Process+,?,PreparedFood+,?
+CONCEPTS A: Human+,Entity+,Process+,PreparedFood+
+CONCEPTS B: Woman=,Entity+,not=,Process+,PreparedFood+
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
 6	cupcake	cupcake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07631023-n|PreparedFood+
 7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

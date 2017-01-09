@@ -3,8 +3,8 @@ sentence B = Some oil is being poured on the tomatoes by the man.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,Impacting+,?,Camera=,Lens+,?,?,Nail=,?
-CONCEPTS B: ?,Oil=,Entity+,Entity+,Pouring=,?,?,Tomato=,?,?,Hominid=,?
+CONCEPTS A: Entity+,Impacting+,Camera=,Lens+,Nail=
+CONCEPTS B: Oil=,Entity+,Entity+,Pouring=,Tomato=,Hominid=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	nail	nail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03804744-n|Nail=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Some children are playing on a playground.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,?,Human+,Entity+,DramaticActing+,?,?,located+,ExerciseCenter=,?
-CONCEPTS B: ?,HumanChild=,Entity+,DramaticActing+,?,?,GeographicArea+,?
+CONCEPTS A: Human+,Human+,Entity+,DramaticActing+,located+,ExerciseCenter=
+CONCEPTS B: HumanChild=,Entity+,DramaticActing+,GeographicArea+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	outdoor	outdoor	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	01692222-a|located+
 11	gym	gym	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	03472112-n|ExerciseCenter=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?

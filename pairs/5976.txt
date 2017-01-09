@@ -3,8 +3,8 @@ sentence B = The man in a cowboy hat is not walking through a market and is not 
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Man=,?,?,FarmHand+,Hat+,Entity+,Walking=,?,?,GroceryStore=,?,Entity+,Putting=,?,FarmHand=,?,?,Pocket=,?
-CONCEPTS B: ?,Man=,?,?,FarmHand+,Hat+,Entity+,not=,Walking=,?,?,GroceryStore=,?,Entity+,not=,Putting=,?,FarmHand=,?,?,Pocket=,?
+CONCEPTS A: Man=,FarmHand+,Hat+,Entity+,Walking=,GroceryStore=,Entity+,Putting=,FarmHand=,Pocket=
+CONCEPTS B: Man=,FarmHand+,Hat+,Entity+,not=,Walking=,GroceryStore=,Entity+,not=,Putting=,FarmHand=,Pocket=
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	19	nmod:poss	_	?|?
 19	pocket	pocket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	03972524-n|Pocket=
 20	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

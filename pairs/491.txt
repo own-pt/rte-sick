@@ -3,8 +3,8 @@ sentence B = The dog, which is black and white, is running and a person stands b
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Black=,?,White=,Canine+,Entity+,Attribute+,?,?,Human=,PhysicalAttribute+,?,?,?
-CONCEPTS B: ?,Canine+,?,?,Entity+,Black=,?,White=,?,Entity+,Attribute+,?,?,Human=,PhysicalAttribute+,?,?,?
+CONCEPTS A: Black=,White=,Canine+,Entity+,Attribute+,Human=,PhysicalAttribute+
+CONCEPTS B: Canine+,Entity+,Black=,White=,Entity+,Attribute+,Human=,PhysicalAttribute+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	behind	behind	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
 13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	11	nmod	_	?|?
 14	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

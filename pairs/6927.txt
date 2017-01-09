@@ -3,8 +3,8 @@ sentence B = A snowboarder is doing a flip over a mound of snow.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,SportsPosition@,IntentionalProcess+,?,SubjectiveStrongNegativeAttribute+,?,?,Hill+,?,Snowing=,?
-CONCEPTS B: ?,SportsPosition@,Entity+,IntentionalProcess+,?,SubjectiveStrongNegativeAttribute+,?,?,Hill+,?,Snowing=,?
+CONCEPTS A: Entity+,SportsPosition@,IntentionalProcess+,SubjectiveStrongNegativeAttribute+,Hill+,Snowing=
+CONCEPTS B: SportsPosition@,Entity+,IntentionalProcess+,SubjectiveStrongNegativeAttribute+,Hill+,Snowing=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
 12	snow	snow	ADV	RB	Number=Sing|fPOS=NOUN++NN	10	nmod	_	15043763-n|Snowing=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

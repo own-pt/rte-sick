@@ -3,8 +3,8 @@ sentence B = A dog is chasing a stick and holding another dog in its mouth.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Publication+,?,Transportation+,?,CorpuscularObject=,?,?,Mouth+,?
-CONCEPTS B: ?,Canine+,Entity+,Pursuing+,?,Plant+,?,Process+,?,Canine+,?,?,Mouth+,?
+CONCEPTS A: Canine+,Entity+,Publication+,Transportation+,CorpuscularObject=,Mouth+
+CONCEPTS B: Canine+,Entity+,Pursuing+,Plant+,Process+,Canine+,Mouth+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	11	nmod:poss	_	?|?
 11	mouths	mouth	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	05302499-n|Mouth+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

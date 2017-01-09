@@ -3,8 +3,8 @@ sentence B = The oriental lady is cutting a carrot into pieces that are thin.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Asia+,Human+,Entity+,Cutting+,?,Carrot=,?,SubjectiveWeakPositiveAttribute+,TimeDuration+,?
-CONCEPTS B: ?,Asia+,Human+,Entity+,Cutting+,?,Carrot=,?,MusicalComposition=,?,Entity+,SubjectiveWeakPositiveAttribute+,?
+CONCEPTS A: Asia+,Human+,Entity+,Cutting+,Carrot=,SubjectiveWeakPositiveAttribute+,TimeDuration+
+CONCEPTS B: Asia+,Human+,Entity+,Cutting+,Carrot=,MusicalComposition=,Entity+,SubjectiveWeakPositiveAttribute+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	thin	thin	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	00988232-a|SubjectiveWeakPositiveAttribute+
 10	pieces	piece	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	15246353-n|TimeDuration+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

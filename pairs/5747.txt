@@ -3,8 +3,8 @@ sentence B = A baby tiger is playing with a ball.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanBaby=,Entity+,DramaticActing+,?,?,RecreationOrExerciseDevice+,?
-CONCEPTS B: ?,HumanBaby=,Feline+,Entity+,DramaticActing+,?,?,Ball=,?
+CONCEPTS A: HumanBaby=,Entity+,DramaticActing+,RecreationOrExerciseDevice+
+CONCEPTS B: HumanBaby=,Feline+,Entity+,DramaticActing+,Ball=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03964744-n|RecreationOrExerciseDevice+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = The man and the boy are standing at the top of the stairs, which ar
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,FullyFormed+,Entity+,?,?,StationaryArtifact+,?,Entity+,Speaking+,?,?,Human+,?
-CONCEPTS B: ?,Man=,?,?,Human+,Entity+,PhysicalAttribute+,?,?,PositionalAttribute+,?,?,Artifact+,?,?,Entity+,Outdoors+,?
+CONCEPTS A: FullyFormed+,Entity+,StationaryArtifact+,Entity+,Speaking+,Human+
+CONCEPTS B: Man=,Human+,Entity+,PhysicalAttribute+,PositionalAttribute+,Artifact+,Entity+,Outdoors+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	10285313-n|Human+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Two large dogs, a light colored one and a dark one, are running thr
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Canine+,Ambulating=,?,Covering+,Grass=,?,Rock=,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Canine+,?,?,RadiatingVisibleLight+,SurfaceChange+,?,?,?,SubjectiveWeakNegativeAttribute+,?,?,Entity+,Attribute+,?,Covering+,LandArea+,?
+CONCEPTS A: Entity+,Canine+,Ambulating=,Covering+,Grass=,Rock=
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Canine+,RadiatingVisibleLight+,SurfaceChange+,SubjectiveWeakNegativeAttribute+,Entity+,Attribute+,Covering+,LandArea+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
 10	rocks	rock	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	conj	_	09416076-n|Rock=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	ADP	IN	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = Some ingredients are being separated in a bowl by a person.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Abstract+,Entity+,Entity+,IntentionalProcess+,?,?,Dish+,?,?,Human=,?
-CONCEPTS B: ?,Abstract+,Entity+,Entity+,Separating=,?,?,Dish+,?,?,Human=,?
+CONCEPTS A: Abstract+,Entity+,Entity+,IntentionalProcess+,Dish+,Human=
+CONCEPTS B: Abstract+,Entity+,Entity+,Separating=,Dish+,Human=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	00007846-n|Human=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?

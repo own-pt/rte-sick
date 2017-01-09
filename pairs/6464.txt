@@ -3,8 +3,8 @@ sentence B = Two men are rafting near a rider in orange on the shore.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,OrangeColor+,Removing+,WaterVehicle=,Entity+,Translocation+,?,?,Water=,?
-CONCEPTS B: ?,Hominid=,Entity+,Transportation+,?,?,SocialRole+,?,OrangeColor+,?,?,ShoreArea=,?
+CONCEPTS A: OrangeColor+,Removing+,WaterVehicle=,Entity+,Translocation+,Water=
+CONCEPTS B: Hominid=,Entity+,Transportation+,SocialRole+,OrangeColor+,ShoreArea=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	14845743-n|Water=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

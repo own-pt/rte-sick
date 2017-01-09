@@ -3,8 +3,8 @@ sentence B = Several ferrets are climbing out of the cage.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: Carnivore+,Entity+,Increasing+,Increasing+,?,Shelf+,?
-CONCEPTS B: ?,Carnivore+,Entity+,Increasing+,Giving+,?,?,TrapOrCage+,?
+CONCEPTS A: Carnivore+,Entity+,Increasing+,Increasing+,Shelf+
+CONCEPTS B: Carnivore+,Entity+,Increasing+,Giving+,TrapOrCage+
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
 6	shelf	shelf	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	04190052-n|Shelf+
 7	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Several	several	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	?|?

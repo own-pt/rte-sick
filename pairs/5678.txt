@@ -3,8 +3,8 @@ sentence B = A woman is slicing butter.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Decreasing+,Butter=,?
-CONCEPTS B: ?,Woman=,Entity+,Separating+,Butter=,?
+CONCEPTS A: Woman=,Entity+,Decreasing+,Butter=
+CONCEPTS B: Woman=,Entity+,Separating+,Butter=
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	cutting	cut	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00429060-v|Decreasing+
 5	butter	butter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07848338-n|Butter=
 6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

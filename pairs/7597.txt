@@ -3,8 +3,8 @@ sentence B = Two dogs are playing in the snow.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,Snowing=,?,?,DramaticActing+,Canine+,?
-CONCEPTS B: ?,Canine+,Entity+,DramaticActing+,?,?,Snowing=,?
+CONCEPTS A: Entity+,Snowing=,DramaticActing+,Canine+
+CONCEPTS B: Canine+,Entity+,DramaticActing+,Snowing=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	playing	play	VERB	VBG	Number=Sing|fPOS=NOUN++NN	7	compound	_	01719302-v|DramaticActing+
 7	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nmod	_	02084071-n|Canine+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = The tan dog is not watching a brown dog that is swimming in a pond.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,ColorAttribute+,Canine+,Entity+,Looking=,?,Human+,Canine+,?,Entity+,Swimming+,?,?,Lake+,?
-CONCEPTS B: ?,ColorAttribute+,Canine+,Entity+,not=,Looking=,?,Human+,Canine+,?,Entity+,Swimming+,?,?,Lake+,?
+CONCEPTS A: ColorAttribute+,Canine+,Entity+,Looking=,Human+,Canine+,Entity+,Swimming+,Lake+
+CONCEPTS B: ColorAttribute+,Canine+,Entity+,not=,Looking=,Human+,Canine+,Entity+,Swimming+,Lake+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	pond	pond	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	09397391-n|Lake+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

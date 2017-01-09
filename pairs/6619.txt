@@ -3,8 +3,8 @@ sentence B = Four boys are kneeling next to each other in front of a ball.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,Entity+,Putting=,?,?,Green=,Soccer=,Ball=,?,?,Park+,?
-CONCEPTS B: ?,Human+,Entity+,BodyMotion+,Position+,?,?,equal+,?,FrontFn=,?,?,Ball=,?
+CONCEPTS A: HumanYouth=,Human+,Entity+,Putting=,Green=,Soccer=,Ball=,Park+
+CONCEPTS B: Human+,Entity+,BodyMotion+,Position+,equal+,FrontFn=,Ball=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	08615374-n|Park+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	compound	_	?|?

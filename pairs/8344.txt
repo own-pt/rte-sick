@@ -3,8 +3,8 @@ sentence B = A person in a motocross uniform is not wearing a helmet and riding 
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human=,?,?,?,UniformClothing=,Entity+,CoveringFn=,?,Clothing+,?,Transportation+,?,Red=,PassengerVehicle+,?
-CONCEPTS B: ?,Human=,?,?,?,UniformClothing=,Entity+,not=,CoveringFn=,?,Clothing+,?,Transportation+,?,Red=,PassengerVehicle+,?
+CONCEPTS A: Human=,UniformClothing=,Entity+,CoveringFn=,Clothing+,Transportation+,Red=,PassengerVehicle+
+CONCEPTS B: Human=,UniformClothing=,Entity+,not=,CoveringFn=,Clothing+,Transportation+,Red=,PassengerVehicle+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	00381097-a|Red=
 15	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	dobj	_	03790512-n|PassengerVehicle+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

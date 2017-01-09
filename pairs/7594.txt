@@ -3,8 +3,8 @@ sentence B = A person is looking at a motocross bike that is lying on its side a
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Bicycle=,Human+,Entity+,SubjectiveAssessmentAttribute+,?,?,Process+,?,?,Bicycle=,Human+,?
-CONCEPTS B: ?,Human=,Entity+,SubjectiveAssessmentAttribute+,?,?,?,Bicycle=,?,Entity+,PhysicalAttribute+,?,?,Region+,?,?,Entity+,Motion+,?,?
+CONCEPTS A: Bicycle=,Human+,Entity+,SubjectiveAssessmentAttribute+,Process+,Bicycle=,Human+
+CONCEPTS B: Human=,Entity+,SubjectiveAssessmentAttribute+,Bicycle=,Entity+,PhysicalAttribute+,Region+,Entity+,Motion+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	02834778-n|Bicycle=
 12	rider	rider	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	10530150-n|Human+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

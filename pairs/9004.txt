@@ -3,8 +3,8 @@ sentence B = A man in a black hat is touching a cardboard box.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Artifact+,Box=,Entity+,Entity+,Communication+,?,?,Man=,?,?,Black=,Hat+,?
-CONCEPTS B: ?,Man=,?,?,Black=,Hat+,Entity+,Communication+,?,Artifact+,Box=,?
+CONCEPTS A: Artifact+,Box=,Entity+,Entity+,Communication+,Man=,Black=,Hat+
+CONCEPTS B: Man=,Black=,Hat+,Entity+,Communication+,Artifact+,Box=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	00392812-a|Black=
 13	hat	hat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03497657-n|Hat+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

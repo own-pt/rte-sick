@@ -3,8 +3,8 @@ sentence B = A girl in a uniform, which is blue, is raising her arm.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Vocalizing=,Entity+,Entity+,IntentionalProcess+,?,?,Human+,?,?,Blue=,?,White=,UniformClothing=,?
-CONCEPTS B: ?,Human+,?,?,UniformClothing=,?,?,Entity+,Blue=,?,Entity+,Increasing+,?,Sleeve+,?
+CONCEPTS A: Vocalizing=,Entity+,Entity+,IntentionalProcess+,Human+,Blue=,White=,UniformClothing=
+CONCEPTS B: Human+,UniformClothing=,Entity+,Blue=,Entity+,Increasing+,Sleeve+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	conj	_	00393105-a|White=
 14	uniform	uniform	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	04509592-n|UniformClothing=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A few men are playing cricket.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,?,Hominid=,Entity+,EmotionalState+,DramaticActing+,Cricket=,?
-CONCEPTS B: ?,?,Hominid=,Entity+,DramaticActing+,Cricket=,?
+CONCEPTS A: Hominid=,Entity+,EmotionalState+,DramaticActing+,Cricket=
+CONCEPTS B: Hominid=,Entity+,DramaticActing+,Cricket=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	playing	play	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	01719302-v|DramaticActing+
 7	cricket	cricket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	00476389-n|Cricket=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

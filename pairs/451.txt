@@ -3,8 +3,8 @@ sentence B = A lady is surfing and riding a wave.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Human+,ShapeAttribute+,?,?,Entity+,Carrying=,?
-CONCEPTS B: ?,Human+,Entity+,Transportation+,?,Carrying=,?,WaterWave+,?
+CONCEPTS A: Human+,Human+,ShapeAttribute+,Entity+,Carrying=
+CONCEPTS B: Human+,Entity+,Transportation+,Carrying=,WaterWave+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
 8	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	advcl	_	01955984-v|Carrying=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

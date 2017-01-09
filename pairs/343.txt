@@ -3,8 +3,8 @@ sentence B = An Asian woman in in the midst of many people is carrying a black b
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,AsianEthnicity=,Woman=,?,?,SubjectiveAssessmentAttribute=,Entity+,Transportation+,?,Black=,Container+,?
-CONCEPTS B: ?,AsianEthnicity=,Woman=,?,?,?,Region+,?,?,GroupOfPeople=,Entity+,Transportation+,?,Black=,Container+,?
+CONCEPTS A: AsianEthnicity=,Woman=,SubjectiveAssessmentAttribute=,Entity+,Transportation+,Black=,Container+
+CONCEPTS B: AsianEthnicity=,Woman=,Region+,GroupOfPeople=,Entity+,Transportation+,Black=,Container+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	00392812-a|Black=
 11	bag	bag	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	02773037-n|Container+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

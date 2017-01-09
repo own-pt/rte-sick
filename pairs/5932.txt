@@ -3,8 +3,8 @@ sentence B = Vegetables are being put into a pot by a man.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Putting=,Vegetable=,?,?,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: Vegetable=,Entity+,Entity+,Putting=,?,?,SubjectiveAssessmentAttribute+,?,?,Hominid=,?
+CONCEPTS A: Hominid=,Entity+,Putting=,Vegetable=,SubjectiveAssessmentAttribute+
+CONCEPTS B: Vegetable=,Entity+,Entity+,Putting=,SubjectiveAssessmentAttribute+,Hominid=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	pot	pot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	13774404-n|SubjectiveAssessmentAttribute+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Vegetables	vegetable	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubjpass	_	07707451-n|Vegetable=

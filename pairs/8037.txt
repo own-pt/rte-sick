@@ -3,8 +3,8 @@ sentence B = The young boy in the blue shirt is jumping into the water.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,?,?,SubjectiveStrongNegativeAttribute+,Shirt=,Entity+,Ambulating=,?,?,Water=,?
-CONCEPTS B: ?,HumanYouth=,Human+,?,?,SubjectiveStrongNegativeAttribute+,Shirt=,Entity+,Ambulating=,?,?,Water=,?
+CONCEPTS A: HumanYouth=,Human+,SubjectiveStrongNegativeAttribute+,Shirt=,Entity+,Ambulating=,Water=
+CONCEPTS B: HumanYouth=,Human+,SubjectiveStrongNegativeAttribute+,Shirt=,Entity+,Ambulating=,Water=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	14845743-n|Water=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

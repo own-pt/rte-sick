@@ -3,8 +3,8 @@ sentence B = A large duck is perching over a rocky stream.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Bird+,Entity+,FlyingAircraft=,SubjectiveAssessmentAttribute+,?,Mineral+,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Duck=,Entity+,Process+,?,?,TextureAttribute+,StreamWaterArea=,?
+CONCEPTS A: Bird+,Entity+,FlyingAircraft=,SubjectiveAssessmentAttribute+,Mineral+
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Duck=,Entity+,Process+,TextureAttribute+,StreamWaterArea=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	some	some	DET	DT	fPOS=DET++DT	7	det	_	?|?
 7	rocks	rock	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	14696793-n|Mineral+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A soccer man is playing piano.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,DramaticActing+,Soccer=,?
-CONCEPTS B: ?,Soccer=,Hominid=,Entity+,DramaticActing+,Piano=,?
+CONCEPTS A: Hominid=,Entity+,DramaticActing+,Soccer=
+CONCEPTS B: Soccer=,Hominid=,Entity+,DramaticActing+,Piano=
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	playing	play	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01719302-v|DramaticActing+
 5	soccer	soccer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00478262-n|Soccer=
 6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

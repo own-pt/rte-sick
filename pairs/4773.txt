@@ -3,8 +3,8 @@ sentence B = There is no man cooking a snake.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,MotionDownward=,Separating+,Cucumber=,?,Water=,?
-CONCEPTS B: ?,Entity+,?,Hominid=,Cooking+,?,Snake=,?
+CONCEPTS A: Hominid=,Entity+,MotionDownward=,Separating+,Cucumber=,Water=
+CONCEPTS B: Entity+,Hominid=,Cooking+,Snake=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	into	into	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
 8	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	14845743-n|Water=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

@@ -3,8 +3,8 @@ sentence B = A great dog is getting down a steep hill.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,Attribute+,Increasing+,?,Roadway=,?
-CONCEPTS B: ?,RadiatingSound+,Canine+,Entity+,Process+,earlier+,?,LandArea+,Hill=,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,Attribute+,Increasing+,Roadway=
+CONCEPTS B: RadiatingSound+,Canine+,Entity+,Process+,earlier+,LandArea+,Hill=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	04334599-n|Roadway=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

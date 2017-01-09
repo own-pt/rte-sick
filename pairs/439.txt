@@ -3,8 +3,8 @@ sentence B = A woman is performing a trick on a ramp with a bicycle.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,?,Clothing+,Entity+,Process+,?,?,Bicycle=,?
-CONCEPTS B: ?,Woman=,Entity+,IntentionalProcess+,?,RecreationOrExercise+,?,?,StationaryArtifact+,?,?,Bicycle=,?
+CONCEPTS A: Human+,Clothing+,Entity+,Process+,Bicycle=
+CONCEPTS B: Woman=,Entity+,IntentionalProcess+,RecreationOrExercise+,StationaryArtifact+,Bicycle=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	02834778-n|Bicycle=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

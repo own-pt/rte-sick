@@ -3,8 +3,8 @@ sentence B = A grey dog is bouncing a tennis ball on its head in a grass field.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Gray+,Canine+,Entity+,Motion+,?,Soccer=,Ball=,?,?,Head=,?,?,Grass=,FieldOfStudy=,?
-CONCEPTS B: ?,Gray+,Canine+,Entity+,Motion+,?,Tennis=,Ball=,?,?,Head=,?,?,Grass=,FieldOfStudy=,?
+CONCEPTS A: Gray+,Canine+,Entity+,Motion+,Soccer=,Ball=,Head=,Grass=,FieldOfStudy=
+CONCEPTS B: Gray+,Canine+,Entity+,Motion+,Tennis=,Ball=,Head=,Grass=,FieldOfStudy=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	compound	_	12102133-n|Grass=
 15	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	05996646-n|FieldOfStudy=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

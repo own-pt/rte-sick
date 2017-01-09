@@ -3,8 +3,8 @@ sentence B = A young girl in a blue shirt is walking on the sidewalk and holding
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human+,?,?,SubjectiveStrongNegativeAttribute+,Shirt=,?,?,SubjectiveAssessmentAttribute+,HumanYouth=,?,Entity+,Walking=,?,?,Sidewalk=,?,Process+,Increasing+,?,Pink+,Character+,?
-CONCEPTS B: ?,HumanYouth=,Human+,?,?,SubjectiveStrongNegativeAttribute+,Shirt=,Entity+,Walking=,?,?,Sidewalk=,?,Process+,Increasing+,?,Pink+,Character+,?
+CONCEPTS A: Human+,SubjectiveStrongNegativeAttribute+,Shirt=,SubjectiveAssessmentAttribute+,HumanYouth=,Entity+,Walking=,Sidewalk=,Process+,Increasing+,Pink+,Character+
+CONCEPTS B: HumanYouth=,Human+,SubjectiveStrongNegativeAttribute+,Shirt=,Entity+,Walking=,Sidewalk=,Process+,Increasing+,Pink+,Character+
 
 CONLL A:
 
@@ -31,6 +31,8 @@ CONLL A:
 21	pink	pink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	22	compound	_	00379595-a|Pink+
 22	sign	sign	NOUN	NN	Number=Sing|fPOS=NOUN++NN	18	dobj	_	06811625-n|Character+
 23	.	.	PUNCT	.	fPOS=PUNCT++.	13	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

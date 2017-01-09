@@ -3,8 +3,8 @@ sentence B = A man is playing guitar next to a drummer.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute+,Hominid=,?,?,MusicalGroup+,Entity+,DramaticActing+,?,MusicalInstrument=,?,?,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,Hominid=,Entity+,MakingInstrumentalMusic+,Guitar=,Position+,?,?,Drummer=,?
+CONCEPTS A: SubjectiveAssessmentAttribute+,Hominid=,MusicalGroup+,Entity+,DramaticActing+,MusicalInstrument=,SubjectiveAssessmentAttribute+
+CONCEPTS B: Hominid=,Entity+,MakingInstrumentalMusic+,Guitar=,Position+,Drummer=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	spotlight	spotlight	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	14433769-n|SubjectiveAssessmentAttribute+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

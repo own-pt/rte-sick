@@ -3,8 +3,8 @@ sentence B = The black and white dog is jumping for the ball.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Black=,?,White=,Canine+,Entity+,Ambulating=,?,?,Ball=,?
-CONCEPTS B: ?,Black=,?,White=,Canine+,Entity+,Ambulating=,?,?,Ball=,?
+CONCEPTS A: Black=,White=,Canine+,Entity+,Ambulating=,Ball=
+CONCEPTS B: Black=,White=,Canine+,Entity+,Ambulating=,Ball=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	02778669-n|Ball=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	?|?

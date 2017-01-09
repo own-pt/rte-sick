@@ -3,8 +3,8 @@ sentence B = A shirtless man is leading a carriage that is being pulled by a hor
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,?,Hominid=,Entity+,FrontFn+,?,Horse=,?,Entity+,Transportation+,?,UnpoweredVehicle+,?
-CONCEPTS B: ?,?,Hominid=,Entity+,FrontFn+,?,UnpoweredVehicle+,?,Entity+,Entity+,Transportation+,?,?,Horse=,?
+CONCEPTS A: Hominid=,Entity+,FrontFn+,Horse=,Entity+,Transportation+,UnpoweredVehicle+
+CONCEPTS B: Hominid=,Entity+,FrontFn+,UnpoweredVehicle+,Entity+,Entity+,Transportation+,Horse=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	carriage	carriage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	02968473-n|UnpoweredVehicle+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

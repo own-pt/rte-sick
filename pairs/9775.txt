@@ -3,8 +3,8 @@ sentence B = A young black child is standing on the edge of a body of water near
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Sol=,Entity+,RadiatingLight+,?,?,Face+,?,?,Human+,?,Entity+,?,?,SubjectiveAssessmentAttribute+,Clothing+,?
-CONCEPTS B: ?,HumanYouth=,Black=,HumanChild=,Entity+,PhysicalAttribute+,?,?,Object+,?,?,Animal=,?,Water=,?,?,Container+,?
+CONCEPTS A: Sol=,Entity+,RadiatingLight+,Face+,Human+,Entity+,SubjectiveAssessmentAttribute+,Clothing+
+CONCEPTS B: HumanYouth=,Black=,HumanChild=,Entity+,PhysicalAttribute+,Object+,Animal=,Water=,Container+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	16	amod	_	02101942-a|SubjectiveAssessmentAttribute+
 16	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	acl:relcl	_	02728440-n|Clothing+
 17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

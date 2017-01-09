@@ -3,8 +3,8 @@ sentence B = A man is not rinsing a large steak.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human=,Entity+,Cleaning+,?,Meat+,?,Water=,?
-CONCEPTS B: ?,Hominid=,Entity+,not=,Cleaning+,?,SubjectiveWeakPositiveAttribute+,Meat+,?
+CONCEPTS A: Human=,Entity+,Cleaning+,Meat+,Water=
+CONCEPTS B: Hominid=,Entity+,not=,Cleaning+,SubjectiveWeakPositiveAttribute+,Meat+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
 8	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	14845743-n|Water=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

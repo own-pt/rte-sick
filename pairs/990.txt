@@ -3,8 +3,8 @@ sentence B = The man and the boy are standing at the top of the stairs, which ar
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Man=,?,?,Human+,Entity+,PhysicalAttribute+,?,?,Object+,?,?,Artifact+,?,?,Entity+,Outdoors+,?
-CONCEPTS B: ?,Man=,?,?,Human+,Entity+,PhysicalAttribute+,?,?,PositionalAttribute+,?,?,Artifact+,?,?,Entity+,Outdoors+,?
+CONCEPTS A: Man=,Human+,Entity+,PhysicalAttribute+,Object+,Artifact+,Entity+,Outdoors+
+CONCEPTS B: Man=,Human+,Entity+,PhysicalAttribute+,PositionalAttribute+,Artifact+,Entity+,Outdoors+
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	17	cop	_	02604760-v|Entity+
 17	outdoors	outdoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	acl:relcl	_	00110659-r|Outdoors+
 18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

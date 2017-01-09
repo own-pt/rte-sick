@@ -3,8 +3,8 @@ sentence B = A brown and black dog is resting in the leaves.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,?,?,SurfaceChange+,Coat=,Entity+,Attribute+,?,?,LandArea=,?
-CONCEPTS B: ?,Human+,?,Black=,Canine+,Entity+,PastFn=,?,?,Leaf=,?
+CONCEPTS A: Canine+,SurfaceChange+,Coat=,Entity+,Attribute+,LandArea=
+CONCEPTS B: Human+,Black=,Canine+,Entity+,PastFn=,Leaf=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	yard	yard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	04610879-n|LandArea=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

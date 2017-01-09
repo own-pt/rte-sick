@@ -3,8 +3,8 @@ sentence B = Fish is being fried by a woman.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Killing+,Region@,?
-CONCEPTS B: Region@,Entity+,Entity+,Killing+,?,?,Woman=,?
+CONCEPTS A: Woman=,Entity+,Killing+,Region@
+CONCEPTS B: Region@,Entity+,Entity+,Killing+,Woman=
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	frying	fry	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	02484957-v|Killing+
 5	fish	fish	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	08688076-n|Region@
 6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Fish	fish	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	4	nsubjpass	_	08688076-n|Region@

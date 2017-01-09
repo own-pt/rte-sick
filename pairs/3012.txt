@@ -3,8 +3,8 @@ sentence B = The man on stage is singing into the microphone.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,ClothingSuit+,Entity+,PhysicalAttribute+,?,?,Microphone=,?,MakingVocalMusic=,?
-CONCEPTS B: ?,Hominid=,?,Attribute+,Entity+,MakingVocalMusic=,?,?,Microphone=,?
+CONCEPTS A: Man=,ClothingSuit+,Entity+,PhysicalAttribute+,Microphone=,MakingVocalMusic=
+CONCEPTS B: Hominid=,Attribute+,Entity+,MakingVocalMusic=,Microphone=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	and	and	CONJ	CC	fPOS=CONJ++CC	10	cc	_	?|?
 12	singing	sing	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	10	conj	_	01731031-v|MakingVocalMusic=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

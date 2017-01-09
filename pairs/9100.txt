@@ -3,8 +3,8 @@ sentence B = A dog with a blue collar is playing with the ball outside.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Gray+,Canine+,Entity+,Motion+,?,Soccer=,Ball=,?,?,Head=,?,?,Lawn=,?
-CONCEPTS B: ?,Canine+,?,?,SubjectiveStrongNegativeAttribute+,Collar+,Entity+,DramaticActing+,?,?,Ball=,?,?
+CONCEPTS A: Gray+,Canine+,Entity+,Motion+,Soccer=,Ball=,Head=,Lawn=
+CONCEPTS B: Canine+,SubjectiveStrongNegativeAttribute+,Collar+,Entity+,DramaticActing+,Ball=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	lawn	lawn	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	08591592-n|Lawn=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A black dog is leaping from a cylindrical hay bale.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,White=,Canine+,Entity+,Ambulating=,?,?,Cylindrical=,Hay=,Artifact+,?
-CONCEPTS B: ?,Black=,Canine+,Entity+,Ambulating=,?,?,Cylindrical=,Hay=,Artifact+,?
+CONCEPTS A: White=,Canine+,Entity+,Ambulating=,Cylindrical=,Hay=,Artifact+
+CONCEPTS B: Black=,Canine+,Entity+,Ambulating=,Cylindrical=,Hay=,Artifact+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	hay	hay	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	07802026-n|Hay=
 10	bale	bale	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02778456-n|Artifact+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

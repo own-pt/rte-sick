@@ -3,8 +3,8 @@ sentence B = A child in a green and white sports uniform is resting on the grass
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,RecreationOrExercise+,?,Green=,Soccer=,SelfConnectedObject+,?,Entity+,Attribute+,?,?,Grass=,?
-CONCEPTS B: ?,HumanChild=,?,?,Green=,?,White=,Sport=,UniformClothing=,Entity+,PastFn=,?,?,Grass=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,RecreationOrExercise+,Green=,Soccer=,SelfConnectedObject+,Entity+,Attribute+,Grass=
+CONCEPTS B: HumanChild=,Green=,White=,Sport=,UniformClothing=,Entity+,PastFn=,Grass=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	12102133-n|Grass=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

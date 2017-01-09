@@ -3,8 +3,8 @@ sentence B = A woman in a black dress is pulling a cart and is standing in front
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,Black=,Clothing+,Entity+,Transportation+,?,Wagon+,?,Entity+,PhysicalAttribute+,?,FrontFn=,?,?,Man=,?,Entity+,Communication+,?,?,Park+,Seat+,?
-CONCEPTS B: ?,Woman=,?,?,Black=,Clothing+,Entity+,Transportation+,?,Wagon+,?,Entity+,PhysicalAttribute+,?,FrontFn=,?,?,Man=,?,Entity+,Communication+,?,?,Park+,Seat+,?
+CONCEPTS A: Man=,Black=,Clothing+,Entity+,Transportation+,Wagon+,Entity+,PhysicalAttribute+,FrontFn=,Man=,Entity+,Communication+,Park+,Seat+
+CONCEPTS B: Woman=,Black=,Clothing+,Entity+,Transportation+,Wagon+,Entity+,PhysicalAttribute+,FrontFn=,Man=,Entity+,Communication+,Park+,Seat+
 
 CONLL A:
 
@@ -34,6 +34,8 @@ CONLL A:
 24	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	25	compound	_	08615374-n|Park+
 25	bench	bench	NOUN	NN	Number=Sing|fPOS=NOUN++NN	21	nmod	_	02828884-n|Seat+
 26	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

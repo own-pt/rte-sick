@@ -3,8 +3,8 @@ sentence B = The man in the purple hat is operating a camera that makes videos.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,FieldOfStudy=,FieldOfStudy=,Entity+,?,Camera=,Hominid=,?
-CONCEPTS B: ?,Man=,?,?,SocialRole+,Hat+,Entity+,Attribute+,?,Camera=,?,Process+,TelevisionBroadcasting+,?
+CONCEPTS A: FieldOfStudy=,FieldOfStudy=,Entity+,Camera=,Hominid=
+CONCEPTS B: Man=,SocialRole+,Hat+,Entity+,Attribute+,Camera=,Process+,TelevisionBroadcasting+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	camera	camera	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	7	compound	_	02942699-n|Camera=
 7	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	02472293-n|Hominid=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

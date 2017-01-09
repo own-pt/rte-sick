@@ -3,8 +3,8 @@ sentence B = A guy is leaping into the air in a wooded area.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,Shirt=,Entity+,Ambulating=,SubjectiveAssessmentAttribute+,?,LogFn=,?
-CONCEPTS B: ?,Device+,Entity+,Ambulating=,?,?,AirTransportation+,?,?,?,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: Man=,Shirt=,Entity+,Ambulating=,SubjectiveAssessmentAttribute+,LogFn=
+CONCEPTS B: Device+,Entity+,Ambulating=,AirTransportation+,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	log	log	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	06812631-n|LogFn=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

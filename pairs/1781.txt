@@ -3,8 +3,8 @@ sentence B = There is no cheetah quickly running behind its prey.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Feline+,Entity+,SubjectiveAssessmentAttribute+,Hunting+,?,?,Animal+,?
-CONCEPTS B: ?,Entity+,?,Feline+,SubjectiveAssessmentAttribute+,Hunting+,?,?,Animal+,?
+CONCEPTS A: Feline+,Entity+,SubjectiveAssessmentAttribute+,Hunting+,Animal+
+CONCEPTS B: Entity+,Feline+,SubjectiveAssessmentAttribute+,Hunting+,Animal+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	8	nmod:poss	_	?|?
 8	prey	prey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02152881-n|Animal+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

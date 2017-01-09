@@ -3,8 +3,8 @@ sentence B = A tiger is walking around.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,Feline+,NonFullyFormed+,Process+,?,RadiatingSound+,?
-CONCEPTS B: ?,Feline+,Entity+,Walking=,?,?
+CONCEPTS A: Entity+,Feline+,NonFullyFormed+,Process+,RadiatingSound+
+CONCEPTS B: Feline+,Entity+,Walking=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	sound	sound	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	07371293-n|RadiatingSound+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

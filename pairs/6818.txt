@@ -3,8 +3,8 @@ sentence B = A person is riding a bicycle in the sand beside the ocean.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,?,?,Bicycle=,Entity+,Transportation+,?,?,ShoreArea=,?
-CONCEPTS B: ?,Human=,Entity+,Carrying=,?,Bicycle=,?,?,Sand=,?,?,Ocean=,?
+CONCEPTS A: Hominid=,Bicycle=,Entity+,Transportation+,ShoreArea=
+CONCEPTS B: Human=,Entity+,Carrying=,Bicycle=,Sand=,Ocean=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	shore	shore	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	09433442-n|ShoreArea=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

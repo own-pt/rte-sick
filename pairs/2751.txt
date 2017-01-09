@@ -3,8 +3,8 @@ sentence B = A player of soccer is scoring a goal.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Soccer=,Human+,Entity+,Game+,?,GameGoal=,?
-CONCEPTS B: ?,Human+,?,Soccer=,Entity+,Game+,?,GameGoal=,?
+CONCEPTS A: Soccer=,Human+,Entity+,Game+,GameGoal=
+CONCEPTS B: Human+,Soccer=,Entity+,Game+,GameGoal=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	goal	goal	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03442756-n|GameGoal=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

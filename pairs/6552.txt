@@ -3,8 +3,8 @@ sentence B = A small boy is standing in the forest.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,?,?,SubjectiveAssessmentAttribute+,HumanYouth=,?,Entity+,PhysicalAttribute+,?,FrontFn=,?,?,ContentBearingObject+,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,PhysicalAttribute+,?,?,Forest=,?
+CONCEPTS A: HumanChild=,SubjectiveAssessmentAttribute+,HumanYouth=,Entity+,PhysicalAttribute+,FrontFn=,ContentBearingObject+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,PhysicalAttribute+,Forest=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	some	some	DET	DT	fPOS=DET++DT	14	det	_	?|?
 14	trees	tree	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	nmod	_	13912260-n|ContentBearingObject+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

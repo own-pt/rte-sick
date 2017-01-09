@@ -3,8 +3,8 @@ sentence B = A man is frying a tortilla.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,Entity+,IntentionalProcess+,?,RecreationOrExercise+,?,?,PlayingCard+,?
-CONCEPTS B: ?,Hominid=,Entity+,Frying=,?,PreparedFood+,?
+CONCEPTS A: Human=,Entity+,IntentionalProcess+,RecreationOrExercise+,PlayingCard+
+CONCEPTS B: Hominid=,Entity+,Frying=,PreparedFood+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	some	some	DET	DT	fPOS=DET++DT	9	det	_	?|?
 9	cards	card	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	02962545-n|PlayingCard+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

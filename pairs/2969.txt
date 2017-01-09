@@ -3,8 +3,8 @@ sentence B = A big green ball is knocking a potato.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Green=,SurfaceChange+,Ball=,Entity+,Impacting+,?,PotatoTuber=,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Green=,Ball=,Entity+,SoundAttribute+,?,PotatoTuber=,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Green=,SurfaceChange+,Ball=,Entity+,Impacting+,PotatoTuber=
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Green=,Ball=,Entity+,SoundAttribute+,PotatoTuber=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	potato	potato	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	07710616-n|PotatoTuber=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A topless person with a back pack is in front of a pile of rocks an
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,not=,PhysicalAttribute+,?,?,TextureAttribute+,SubjectiveAssessmentAttribute+,?,Gray+,Cloud=,Entity+,not=,?,?,Region+,?
-CONCEPTS B: ?,top+,Human=,?,?,BackFn=,Group+,Entity+,?,FrontFn=,?,?,SubjectiveAssessmentAttribute+,?,Mineral+,?,Cloud=,Entity+,?,?,Region+,?
+CONCEPTS A: Hominid=,Entity+,not=,PhysicalAttribute+,TextureAttribute+,SubjectiveAssessmentAttribute+,Gray+,Cloud=,Entity+,not=,Region+
+CONCEPTS B: top+,Human=,BackFn=,Group+,Entity+,FrontFn=,SubjectiveAssessmentAttribute+,Mineral+,Cloud=,Entity+,Region+
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	17	det	_	?|?
 17	background	background	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	advcl	_	14513259-n|Region+
 18	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

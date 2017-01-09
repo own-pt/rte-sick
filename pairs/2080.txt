@@ -3,8 +3,8 @@ sentence B = A woman is beating two eggs in a bowl and using a whisk made of wir
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Impacting+,?,Man=,?,Entity+,Attribute+,?,BirdEgg=,?,?,Dish+,?,IntentionalProcess+,?,Wire=,Device+,?
-CONCEPTS B: ?,Woman=,Entity+,Impacting+,?,BirdEgg=,?,?,Dish+,?,IntentionalProcess+,?,Device+,Attribute+,?,Wire=,?
+CONCEPTS A: Woman=,Entity+,Impacting+,Man=,Entity+,Attribute+,BirdEgg=,Dish+,IntentionalProcess+,Wire=,Device+
+CONCEPTS B: Woman=,Entity+,Impacting+,BirdEgg=,Dish+,IntentionalProcess+,Device+,Attribute+,Wire=
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	wire	wire	NOUN	NN	Number=Sing|fPOS=NOUN++NN	19	compound	_	04594218-n|Wire=
 19	whisk	whisk	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	dobj	_	04578934-n|Device+
 20	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

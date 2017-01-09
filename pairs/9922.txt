@@ -3,8 +3,8 @@ sentence B = There is no tiger cub making a sound.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Inclining+,?,Process+,?,Camera=,?
-CONCEPTS B: ?,Entity+,?,Feline+,NonFullyFormed+,Process+,?,RadiatingSound+,?
+CONCEPTS A: Hominid=,Entity+,Inclining+,Process+,Camera=
+CONCEPTS B: Entity+,Feline+,NonFullyFormed+,Process+,RadiatingSound+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	02942699-n|Camera=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

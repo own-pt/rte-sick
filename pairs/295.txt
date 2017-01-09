@@ -3,8 +3,8 @@ sentence B = Several children are sitting down and have their knees raised.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,PhysicalAttribute+,SittingDown+,?,?,LandArea=,?
-CONCEPTS B: ?,HumanChild=,PhysicalAttribute+,SittingDown+,earlier+,?,Damaging+,?,Knee+,MotionUpward=,?
+CONCEPTS A: HumanYouth=,Human+,PhysicalAttribute+,SittingDown+,LandArea=
+CONCEPTS B: HumanChild=,PhysicalAttribute+,SittingDown+,earlier+,Damaging+,Knee+,MotionUpward=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	ground	ground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	09334396-n|LandArea=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Several	several	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	?|?

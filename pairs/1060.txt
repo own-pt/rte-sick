@@ -3,8 +3,8 @@ sentence B = The person is riding a motorbike on a sandy track.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,TransportationDevice+,Position+,Entity+,Ambulating=,SubjectiveAssessmentAttribute+,?,Human=,?,?,part+,RailroadTrack+,?
-CONCEPTS B: ?,Human=,Entity+,Carrying=,?,TransportationDevice+,?,?,part+,StationaryArtifact+,?
+CONCEPTS A: TransportationDevice+,Position+,Entity+,Ambulating=,SubjectiveAssessmentAttribute+,Human=,part+,RailroadTrack+
+CONCEPTS B: Human=,Entity+,Carrying=,TransportationDevice+,part+,StationaryArtifact+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	sandy	sandy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	00142040-a|part+
 12	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	04463679-n|RailroadTrack+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

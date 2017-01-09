@@ -3,8 +3,8 @@ sentence B = An adult is in the amphitheater and is talking seriously to a boy.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,Human+,Entity+,PhysicalAttribute+,?,?,Object+,?,?,Artifact+,?,?,Entity+,Outdoors+,?
-CONCEPTS B: ?,FullyFormed+,Entity+,?,?,StationaryArtifact+,?,Entity+,Speaking+,SubjectiveAssessmentAttribute+,?,?,Human+,?
+CONCEPTS A: Man=,Human+,Entity+,PhysicalAttribute+,Object+,Artifact+,Entity+,Outdoors+
+CONCEPTS B: FullyFormed+,Entity+,StationaryArtifact+,Entity+,Speaking+,SubjectiveAssessmentAttribute+,Human+
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	17	cop	_	02604760-v|Entity+
 17	outdoors	outdoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	acl:relcl	_	00110659-r|Outdoors+
 18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

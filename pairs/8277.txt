@@ -3,8 +3,8 @@ sentence B = Two dogs are playing outside.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,White=,Canine+,Entity+,ViolentContest+,?,?,FloweringPlant+,SubjectiveAssessmentAttribute+,?,FrontFn=,?,?,Plant=,?
-CONCEPTS B: ?,Canine+,Entity+,DramaticActing+,?,?
+CONCEPTS A: Human+,White=,Canine+,Entity+,ViolentContest+,FloweringPlant+,SubjectiveAssessmentAttribute+,FrontFn=,Plant=
+CONCEPTS B: Canine+,Entity+,DramaticActing+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
 16	plant	plant	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	00017222-n|Plant=
 17	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

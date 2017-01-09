@@ -3,8 +3,8 @@ sentence B = Someone is playing a piano.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,DramaticActing+,?,Guitar=,?
-CONCEPTS B: ?,Entity+,DramaticActing+,?,Piano=,?
+CONCEPTS A: Entity+,DramaticActing+,Guitar=
+CONCEPTS B: Entity+,DramaticActing+,Piano=
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	?|?
 5	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	03467517-n|Guitar=
 6	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Someone	someone	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?

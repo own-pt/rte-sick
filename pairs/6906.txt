@@ -3,8 +3,8 @@ sentence B = The woman wearing the blue and white uniform with a white and blue 
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Woman=,CoveringFn=,?,Blue=,?,White=,UniformClothing=,?,?,White=,?,Blue=,Hat+,Entity+,Attribute+,?,Mouth+,SubjectiveWeakPositiveAttribute+,?,Entity+,?,?,Dressing+,?,?,equal+,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,Woman=,CoveringFn=,?,Blue=,?,White=,UniformClothing=,?,?,White=,?,Blue=,Hat+,Entity+,Attribute+,?,Mouth+,SubjectiveWeakPositiveAttribute+,?,Entity+,?,?,?,Entity+,Dressing+,?,?,equal+,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: Woman=,CoveringFn=,Blue=,White=,UniformClothing=,White=,Blue=,Hat+,Entity+,Attribute+,Mouth+,SubjectiveWeakPositiveAttribute+,Entity+,Dressing+,equal+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Woman=,CoveringFn=,Blue=,White=,UniformClothing=,White=,Blue=,Hat+,Entity+,Attribute+,Mouth+,SubjectiveWeakPositiveAttribute+,Entity+,Entity+,Dressing+,equal+,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -37,6 +37,8 @@ CONLL A:
 27	same	same	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	28	amod	_	02062670-a|equal+
 28	fashion	fashion	NOUN	NN	Number=Sing|fPOS=NOUN++NN	24	nmod	_	04928903-n|SubjectiveAssessmentAttribute+
 29	.	.	PUNCT	.	fPOS=PUNCT++.	16	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

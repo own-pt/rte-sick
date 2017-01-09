@@ -3,8 +3,8 @@ sentence B = The boy and girl are not playing on a playground.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,DramaticActing+,?,?,GeographicArea+,?
-CONCEPTS B: ?,Human+,?,Human+,Entity+,not=,DramaticActing+,?,?,GeographicArea+,?
+CONCEPTS A: HumanChild=,Entity+,DramaticActing+,GeographicArea+
+CONCEPTS B: Human+,Human+,Entity+,not=,DramaticActing+,GeographicArea+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	playground	playground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	08640739-n|GeographicArea+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

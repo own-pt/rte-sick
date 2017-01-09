@@ -3,8 +3,8 @@ sentence B = A baby is sneezing and frightening another baby.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanBaby=,Entity+,StateOfMind+,Happiness+,?
-CONCEPTS B: ?,HumanBaby=,Entity+,Breathing+,?,IntentionalPsychologicalProcess+,?,HumanBaby=,?
+CONCEPTS A: HumanBaby=,Entity+,StateOfMind+,Happiness+
+CONCEPTS B: HumanBaby=,Entity+,Breathing+,IntentionalPsychologicalProcess+,HumanBaby=
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	crawling	crawl	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02730682-v|StateOfMind+
 5	happily	happily	ADV	RB	fPOS=ADV++RB	4	advmod	_	00050297-r|Happiness+
 6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

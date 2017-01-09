@@ -3,8 +3,8 @@ sentence B = A group of four brown dogs are playing in a field of brown grass.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Collection+,?,?,Human+,Canine+,Entity+,DramaticActing+,?,?,FieldOfStudy=,?,Human+,Grass=,?
-CONCEPTS B: ?,Group=,?,?,Human+,Canine+,Entity+,DramaticActing+,?,?,FieldOfStudy=,?,Human+,Grass=,?
+CONCEPTS A: Collection+,Human+,Canine+,Entity+,DramaticActing+,FieldOfStudy=,Human+,Grass=
+CONCEPTS B: Group=,Human+,Canine+,Entity+,DramaticActing+,FieldOfStudy=,Human+,Grass=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	14	compound	_	00245112-a|Human+
 14	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	12102133-n|Grass=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

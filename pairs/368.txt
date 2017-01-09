@@ -3,8 +3,8 @@ sentence B = A soccer player is kicking a ball into the goal.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Dirty=,Soccer=,Ball=,Entity+,Motion+,?,?,GameGoal=,Artifact+,?
-CONCEPTS B: ?,Soccer=,Human+,Entity+,Impelling+,?,Ball=,?,?,GameGoal=,?
+CONCEPTS A: Dirty=,Soccer=,Ball=,Entity+,Motion+,GameGoal=,Artifact+
+CONCEPTS B: Soccer=,Human+,Entity+,Impelling+,Ball=,GameGoal=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	goal	goal	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	compound	_	03442756-n|GameGoal=
 10	net	net	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03820318-n|Artifact+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

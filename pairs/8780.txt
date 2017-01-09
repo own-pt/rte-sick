@@ -3,8 +3,8 @@ sentence B = Three men are sitting on a hill and looking at the sea.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,PhysicalAttribute+,SittingDown+,?,?,Hill+,?,SubjectiveAssessmentAttribute+,?,?,SubjectiveAssessmentAttribute+,?,SpaceRegion=,?
-CONCEPTS B: ?,Hominid=,PhysicalAttribute+,SittingDown+,?,?,Hill=,?,SubjectiveAssessmentAttribute+,?,?,Sea=,?
+CONCEPTS A: Hominid=,PhysicalAttribute+,SittingDown+,Hill+,SubjectiveAssessmentAttribute+,SubjectiveAssessmentAttribute+,SpaceRegion=
+CONCEPTS B: Hominid=,PhysicalAttribute+,SittingDown+,Hill=,SubjectiveAssessmentAttribute+,Sea=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	and	and	CONJ	CC	fPOS=CONJ++CC	12	cc	_	?|?
 14	sky	sky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	conj	_	09436708-n|SpaceRegion=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Three	3	NUM	CD	Number=Plur|PronType=Dem|fPOS=DET++DT	2	nummod	_	?|?

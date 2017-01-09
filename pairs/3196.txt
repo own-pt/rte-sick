@@ -3,8 +3,8 @@ sentence B = The woman is stirring meat in a bowl.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human+,Entity+,PsychologicalProcess+,SubjectiveAssessmentAttribute+,?,?,Dish+,?
-CONCEPTS B: ?,Woman=,Entity+,PsychologicalProcess+,SubjectiveAssessmentAttribute+,?,?,Dish+,?
+CONCEPTS A: Human+,Entity+,PsychologicalProcess+,SubjectiveAssessmentAttribute+,Dish+
+CONCEPTS B: Woman=,Entity+,PsychologicalProcess+,SubjectiveAssessmentAttribute+,Dish+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	bowl	bowl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02880940-n|Dish+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

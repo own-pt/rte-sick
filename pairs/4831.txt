@@ -3,8 +3,8 @@ sentence B = A man is not cutting a potato.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,GamePiece+,Entity+,Separating+,?,PotatoTuber=,?,GamePiece+,?
-CONCEPTS B: ?,Hominid=,Entity+,not=,Decreasing+,?,PotatoTuber=,?
+CONCEPTS A: GamePiece+,Entity+,Separating+,PotatoTuber=,GamePiece+
+CONCEPTS B: Hominid=,Entity+,not=,Decreasing+,PotatoTuber=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	into	into	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
 8	pieces	piece	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	03716327-n|GamePiece+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A young lady with light brown hair is wearing a red necklace, a swe
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,EmotionalState+,Red=,?,Entity+,not=,CoveringFn=,ShapeAttribute+,?,Teenager=,?
-CONCEPTS B: ?,HumanYouth=,Human+,?,SubjectiveWeakPositiveAttribute+,Human+,Hair=,Entity+,CoveringFn=,?,Red=,Jewelry+,?,?,Clothing+,?,Jewelry+,?,Entity+,Smiling=,?
+CONCEPTS A: Human+,EmotionalState+,Red=,Entity+,not=,CoveringFn=,ShapeAttribute+,Teenager=
+CONCEPTS B: HumanYouth=,Human+,SubjectiveWeakPositiveAttribute+,Human+,Hair=,Entity+,CoveringFn=,Red=,Jewelry+,Clothing+,Jewelry+,Entity+,Smiling=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	for	for	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
 11	teenagers	teenager	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	nmod	_	09772029-n|Teenager=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

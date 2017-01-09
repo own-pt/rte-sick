@@ -3,8 +3,8 @@ sentence B = The man is pouring some oil on the tomatoes.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Hominid=,Pouring=,?,Oil=,?,?,Tomato=,?
-CONCEPTS B: ?,Hominid=,Entity+,Pouring=,?,Oil=,?,?,Tomato=,?
+CONCEPTS A: Entity+,Hominid=,Pouring=,Oil=,Tomato=
+CONCEPTS B: Hominid=,Entity+,Pouring=,Oil=,Tomato=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	tomatoes	tomato	NOUN	NN	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	07734017-n|Tomato=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

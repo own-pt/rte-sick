@@ -3,8 +3,8 @@ sentence B = A group of people are marching.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Group=,?,GroupOfPeople=,Entity+,not=,Dancing+,?,?,MusicalPerformance+,?
-CONCEPTS B: ?,Group=,?,GroupOfPeople=,Entity+,Walking+,?
+CONCEPTS A: Group=,GroupOfPeople=,Entity+,not=,Dancing+,MusicalPerformance+
+CONCEPTS B: Group=,GroupOfPeople=,Entity+,Walking+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	concert	concert	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	06892775-n|MusicalPerformance+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Two men and a girl in front of a wood panel wall are making funny f
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Man=,?,?,Human+,?,FrontFn=,?,?,Wood=,EngineeringComponent+,Wall=,Entity+,Putting=,?,SubjectiveStrongPositiveAttribute+,Face+,?
-CONCEPTS B: ?,Man=,?,?,Human+,?,FrontFn=,?,?,Wood=,EngineeringComponent+,Wall=,Entity+,Attribute+,SubjectiveStrongPositiveAttribute+,Face+,?
+CONCEPTS A: Man=,Human+,FrontFn=,Wood=,EngineeringComponent+,Wall=,Entity+,Putting=,SubjectiveStrongPositiveAttribute+,Face+
+CONCEPTS B: Man=,Human+,FrontFn=,Wood=,EngineeringComponent+,Wall=,Entity+,Attribute+,SubjectiveStrongPositiveAttribute+,Face+
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	funny	funny	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	01265308-a|SubjectiveStrongPositiveAttribute+
 17	faces	face	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	14	nmod	_	05600637-n|Face+
 18	.	.	PUNCT	.	fPOS=PUNCT++.	14	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = The person is drawing.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,PhysicalAttribute+,?,MotionPicture+,?,?,Game+,?
-CONCEPTS B: ?,Human=,Entity+,Removing+,?
+CONCEPTS A: Hominid=,Entity+,PhysicalAttribute+,MotionPicture+,Game+
+CONCEPTS B: Human=,Entity+,Removing+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	drawing	drawing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	00508091-n|Game+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

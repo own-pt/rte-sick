@@ -3,8 +3,8 @@ sentence B = Four people are floating on a raft.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: GroupOfPeople=,Entity+,Motion+,?,?,SubjectiveAssessmentAttribute+,?,Entity+,Entity+,Carrying=,?
-CONCEPTS B: ?,GroupOfPeople=,Entity+,Swimming+,?,?,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: GroupOfPeople=,Entity+,Motion+,SubjectiveAssessmentAttribute+,Entity+,Entity+,Carrying=
+CONCEPTS B: GroupOfPeople=,Entity+,Swimming+,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	being	be	VERB	VBG	VerbForm=Ger|fPOS=AUX++VBG	10	auxpass	_	02604760-v|Entity+
 10	ridden	ride	ADJ	JJ	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	6	acl:relcl	_	01955984-v|Carrying=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

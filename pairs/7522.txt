@@ -3,8 +3,8 @@ sentence B = The girl is wearing a white shirt and a pink skirt, and is standing
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,Human+,?,ColorAttribute+,Transfer+,?,ArtWork+,?
-CONCEPTS B: ?,Human+,Entity+,Putting+,?,White=,Shirt=,?,?,Pink+,Clothing+,?,?,Entity+,PhysicalAttribute+,?,FrontFn=,?,?,Auditorium+,?
+CONCEPTS A: Entity+,Human+,ColorAttribute+,Transfer+,ArtWork+
+CONCEPTS B: Human+,Entity+,Putting+,White=,Shirt=,Pink+,Clothing+,Entity+,PhysicalAttribute+,FrontFn=,Auditorium+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	ribbon	ribbon	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	04087899-n|ArtWork+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

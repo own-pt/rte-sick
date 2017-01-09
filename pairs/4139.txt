@@ -3,8 +3,8 @@ sentence B = Several kids are jumping on a trampoline.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,HumanChild=,Ambulating=,?,?,Device+,?
-CONCEPTS B: ?,HumanChild=,Entity+,Ambulating=,?,?,Device+,?
+CONCEPTS A: Entity+,HumanChild=,Ambulating=,Device+
+CONCEPTS B: HumanChild=,Entity+,Ambulating=,Device+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	trampoline	trampoline	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	04469514-n|Device+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	Several	several	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	?|?

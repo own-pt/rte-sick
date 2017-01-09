@@ -3,8 +3,8 @@ sentence B = The person is practicing the guitar.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human=,Entity+,not=,Position+,?,Guitar=,?
-CONCEPTS B: ?,Human=,Entity+,Position+,?,Guitar=,?
+CONCEPTS A: Human=,Entity+,not=,Position+,Guitar=
+CONCEPTS B: Human=,Entity+,Position+,Guitar=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03467517-n|Guitar=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

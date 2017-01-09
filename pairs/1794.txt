@@ -3,8 +3,8 @@ sentence B = A lion is slowly walking.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: not=,?,Entity+,capability=,?,Walking=,?,Region@,?
-CONCEPTS B: ?,Region@,Entity+,NormativeAttribute+,Walking=,?
+CONCEPTS A: not=,Entity+,capability=,Walking=,Region@
+CONCEPTS B: Region@,Entity+,NormativeAttribute+,Walking=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	lion	lion	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	08686821-n|Region@
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

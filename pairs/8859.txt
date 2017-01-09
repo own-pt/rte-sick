@@ -3,8 +3,8 @@ sentence B = A little girl in a green coat and a boy holding a red sled are lyin
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,?,?,Green=,Coat=,?,?,Human+,Keeping+,?,Red=,LandVehicle+,Entity+,Walking=,?,?,Snowing=,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,?,?,Green=,Coat=,?,?,Human+,Process+,?,Red=,LandVehicle+,Entity+,PhysicalAttribute+,?,?,Snowing=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Green=,Coat=,Human+,Keeping+,Red=,LandVehicle+,Entity+,Walking=,Snowing=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Green=,Coat=,Human+,Process+,Red=,LandVehicle+,Entity+,PhysicalAttribute+,Snowing=
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	?|?
 19	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	15043763-n|Snowing=
 20	.	.	PUNCT	.	fPOS=PUNCT++.	16	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

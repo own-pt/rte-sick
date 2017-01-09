@@ -3,8 +3,8 @@ sentence B = A small child is showing excitement on a swing set at the park.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Ambulating=,?,?,Woman=,Entity+,PhysicalAttribute+,?,?,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,IntentionalProcess+,EmotionalState+,?,?,SoundAttribute+,Putting=,?,?,Park+,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Ambulating=,Woman=,Entity+,PhysicalAttribute+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,IntentionalProcess+,EmotionalState+,SoundAttribute+,Putting=,Park+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	behind	behind	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
 12	her	her	PRON	PRP	PronType=Dem|fPOS=ADV++RB	10	nmod	_	?|?
 13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

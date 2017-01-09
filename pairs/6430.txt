@@ -3,8 +3,8 @@ sentence B = The man is opening the guitar for donations and plays with the case
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,DramaticActing+,?,Guitar=,?,Damaging+,?,Guitar=,Character+,SubjectiveStrongPositiveAttribute+,?,UnilateralGiving+,?
-CONCEPTS B: ?,Hominid=,Entity+,Process+,?,Guitar=,?,UnilateralGiving+,?,DramaticPlay=,?,?,Character+,?
+CONCEPTS A: Hominid=,Entity+,DramaticActing+,Guitar=,Damaging+,Guitar=,Character+,SubjectiveStrongPositiveAttribute+,UnilateralGiving+
+CONCEPTS B: Hominid=,Entity+,Process+,Guitar=,UnilateralGiving+,DramaticPlay=,Character+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	for	for	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
 14	donations	donation	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	nmod	_	01089778-n|UnilateralGiving+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

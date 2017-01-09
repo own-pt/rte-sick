@@ -3,8 +3,8 @@ sentence B = A white bike and a yellow bike are racing down the track.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,White=,Automobile=,?,?,SubjectiveAssessmentAttribute+,Automobile=,Entity+,Motion+,earlier+,?,StationaryArtifact+,?
-CONCEPTS B: ?,White=,Bicycle=,?,?,SubjectiveAssessmentAttribute+,Bicycle=,Entity+,Motion+,earlier+,?,StationaryArtifact+,?
+CONCEPTS A: White=,Automobile=,SubjectiveAssessmentAttribute+,Automobile=,Entity+,Motion+,earlier+,StationaryArtifact+
+CONCEPTS B: White=,Bicycle=,SubjectiveAssessmentAttribute+,Bicycle=,Entity+,Motion+,earlier+,StationaryArtifact+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04037625-n|StationaryArtifact+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

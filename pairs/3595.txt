@@ -3,8 +3,8 @@ sentence B = One man is doing floor exercises.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Position+,Floor+,IntentionalProcess+,?
-CONCEPTS B: ?,Hominid=,Entity+,Position+,Floor+,IntentionalProcess+,?
+CONCEPTS A: Hominid=,Entity+,Position+,Floor+,IntentionalProcess+
+CONCEPTS B: Hominid=,Entity+,Position+,Floor+,IntentionalProcess+
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	floor	floor	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	03365592-n|Floor+
 6	exercises	exercise	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	00947128-n|IntentionalProcess+
 7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

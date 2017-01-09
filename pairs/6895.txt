@@ -3,8 +3,8 @@ sentence B = A girl is jumping off a rock and another is standing on it.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,HumanYouth=,Human+,?,?,WinterSeason+,BodyPart+,Ambulating=,?,?,Mineral+,?,?,Sand=,?,?,ShoreArea=,?
-CONCEPTS B: ?,Human+,Entity+,Ambulating=,?,?,Mineral+,?,?,Entity+,PhysicalAttribute+,?,?,?
+CONCEPTS A: Entity+,HumanYouth=,Human+,WinterSeason+,BodyPart+,Ambulating=,Mineral+,Sand=,ShoreArea=
+CONCEPTS B: Human+,Entity+,Ambulating=,Mineral+,Entity+,PhysicalAttribute+
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	19	det	_	?|?
 19	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	09217230-n|ShoreArea=
 20	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

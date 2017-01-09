@@ -3,8 +3,8 @@ sentence B = The bride is leaving the groom after the wedding.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Wedding+,Entity+,Entity+,Walking=,earlier+,?,LandTransitway+,?
-CONCEPTS B: ?,Human+,Entity+,Process+,?,SocialRole+,?,?,Wedding=,?
+CONCEPTS A: Wedding+,Entity+,Entity+,Walking=,earlier+,LandTransitway+
+CONCEPTS B: Human+,Entity+,Process+,SocialRole+,Wedding=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	aisle	aisle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02693860-n|LandTransitway+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

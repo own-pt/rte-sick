@@ -3,8 +3,8 @@ sentence B = A little boy is sticking his tongue out for the camera and another 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,Entity+,SubjectiveAssessmentAttribute+,Increasing+,?,?,Camera=,?,?,Entity+,Attaching+,Giving+,?,Tongue=,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Attaching+,?,Tongue=,Giving+,?,?,Camera=,?,?,Human+,Entity+,not=,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: HumanYouth=,Human+,Entity+,SubjectiveAssessmentAttribute+,Increasing+,Camera=,Entity+,Attaching+,Giving+,Tongue=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Attaching+,Tongue=,Giving+,Camera=,Human+,Entity+,not=,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	16	nmod:poss	_	?|?
 16	tongue	tongue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	05301072-n|Tongue=
 17	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Four people are sitting on a low cement ledge.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Group=,?,GroupOfPeople=,PhysicalAttribute+,not=,SittingDown+,?,?,TextureAttribute+,GeographicArea+,?,?,StationaryArtifact+,VisualAttribute+,?,?,?
-CONCEPTS B: ?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,?,Motion+,Cement=,GeographicArea+,?
+CONCEPTS A: Group=,GroupOfPeople=,PhysicalAttribute+,not=,SittingDown+,TextureAttribute+,GeographicArea+,StationaryArtifact+,VisualAttribute+
+CONCEPTS B: GroupOfPeople=,PhysicalAttribute+,SittingDown+,Motion+,Cement=,GeographicArea+
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	behind	behind	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
 17	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|fPOS=PRON++PRP	15	nmod	_	?|?
 18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

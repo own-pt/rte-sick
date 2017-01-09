@@ -3,8 +3,8 @@ sentence B = The dark skinned male is standing on one hand in front of a yellow 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Black=,Hominid=,Entity+,Walking=,?,?,Sidewalk=,?
-CONCEPTS B: ?,SubjectiveWeakNegativeAttribute+,Separating+,Human+,Entity+,PhysicalAttribute+,?,?,Hand+,?,FrontFn=,?,?,SubjectiveAssessmentAttribute+,Building=,?
+CONCEPTS A: Black=,Hominid=,Entity+,Walking=,Sidewalk=
+CONCEPTS B: SubjectiveWeakNegativeAttribute+,Separating+,Human+,Entity+,PhysicalAttribute+,Hand+,FrontFn=,SubjectiveAssessmentAttribute+,Building=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	pavement	pavement	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	04215402-n|Sidewalk=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	4	det	_	?|?

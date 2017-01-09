@@ -3,8 +3,8 @@ sentence B = A man doing a pose is being watched by another man.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,Shirt=,Coloring+,ColorAttribute+,Entity+,SubjectiveAssessmentAttribute+,?,?,Man=,?,?,Black=,Shirt=,?,Entity+,IntentionalProcess+,?,FacialExpression=,?,SubjectiveAssessmentAttribute+,SubjectiveStrongPositiveAttribute+,?
-CONCEPTS B: ?,Hominid=,IntentionalProcess+,?,Pretending+,Entity+,Entity+,Looking=,?,?,Hominid=,?
+CONCEPTS A: Man=,Shirt=,Coloring+,ColorAttribute+,Entity+,SubjectiveAssessmentAttribute+,Man=,Black=,Shirt=,Entity+,IntentionalProcess+,FacialExpression=,SubjectiveAssessmentAttribute+,SubjectiveStrongPositiveAttribute+
+CONCEPTS B: Hominid=,IntentionalProcess+,Pretending+,Entity+,Entity+,Looking=,Hominid=
 
 CONLL A:
 
@@ -33,6 +33,8 @@ CONLL A:
 23	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	21	acl:relcl	_	02133435-v|SubjectiveAssessmentAttribute+
 24	funny	funny	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	23	xcomp	_	01265308-a|SubjectiveStrongPositiveAttribute+
 25	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

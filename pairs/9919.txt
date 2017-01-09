@@ -3,8 +3,8 @@ sentence B = A pet dog is standing on the bank and is looking at another brown d
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,Attribute+,Increasing+,Hill=,?
-CONCEPTS B: ?,Favorite+,Canine+,Entity+,PhysicalAttribute+,?,?,Bank-FinancialOrganization=,?,Entity+,SubjectiveAssessmentAttribute+,?,?,Human+,Canine+,?,?,Lake+,?
+CONCEPTS A: HumanChild=,Entity+,Attribute+,Increasing+,Hill=
+CONCEPTS B: Favorite+,Canine+,Entity+,PhysicalAttribute+,Bank-FinancialOrganization=,Entity+,SubjectiveAssessmentAttribute+,Human+,Canine+,Lake+
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	up	up	ADP	RP	fPOS=ADV++RB	6	advmod	_	00097011-r|Increasing+
 6	hill	hill	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	xcomp	_	09303008-n|Hill=
 7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

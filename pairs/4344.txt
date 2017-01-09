@@ -3,8 +3,8 @@ sentence B = Someone is removing the peel of a banana.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Entity+,Removing+,?,Banana=,?
-CONCEPTS B: ?,Entity+,LeavingAnOrganization+,?,FruitOrVegetable+,?,?,Banana=,?
+CONCEPTS A: Entity+,Removing+,Banana=
+CONCEPTS B: Entity+,LeavingAnOrganization+,FruitOrVegetable+,Banana=
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
 5	banana	banana	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	07753592-n|Banana=
 6	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?

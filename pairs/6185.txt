@@ -3,8 +3,8 @@ sentence B = The group of people is sitting on a rocky ledge and a scenic view i
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Group=,?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,?,GeographicArea+,?,PhysicalAttribute+,TextureAttribute+,?,?,StationaryArtifact+,VisualAttribute+,PhysicalAttribute+,?,?,?
-CONCEPTS B: ?,Group=,?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,?,TextureAttribute+,GeographicArea+,?,?,StationaryArtifact+,VisualAttribute+,PhysicalAttribute+,?,?,?
+CONCEPTS A: Group=,GroupOfPeople=,PhysicalAttribute+,SittingDown+,GeographicArea+,PhysicalAttribute+,TextureAttribute+,StationaryArtifact+,VisualAttribute+,PhysicalAttribute+
+CONCEPTS B: Group=,GroupOfPeople=,PhysicalAttribute+,SittingDown+,TextureAttribute+,GeographicArea+,StationaryArtifact+,VisualAttribute+,PhysicalAttribute+
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	behind	behind	ADP	IN	fPOS=ADP++IN	19	case	_	?|?
 19	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|fPOS=PRON++PRP	12	conj	_	?|?
 20	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A little boy with a bib is watching the camera.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,ColorAttribute+,Separating+,HumanChild=,Entity+,SubjectiveAssessmentAttribute+,?,?,Camera=,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,?,?,Clothing+,Entity+,Looking=,?,Camera=,?
+CONCEPTS A: ColorAttribute+,Separating+,HumanChild=,Entity+,SubjectiveAssessmentAttribute+,Camera=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Clothing+,Entity+,Looking=,Camera=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	02942699-n|Camera=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = There is no brown dog running across the yard with a toy in its mou
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human+,Canine+,Entity+,Attribute+,?,?,LandArea=,?,?,RecreationOrExerciseDevice+,?,?,Mouth+,?
-CONCEPTS B: ?,Entity+,?,Human+,Canine+,Attribute+,?,?,LandArea=,?,?,RecreationOrExerciseDevice+,?,?,Mouth+,?
+CONCEPTS A: Human+,Canine+,Entity+,Attribute+,LandArea=,RecreationOrExerciseDevice+,Mouth+
+CONCEPTS B: Entity+,Human+,Canine+,Attribute+,LandArea=,RecreationOrExerciseDevice+,Mouth+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	14	nmod:poss	_	?|?
 14	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	05302499-n|Mouth+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

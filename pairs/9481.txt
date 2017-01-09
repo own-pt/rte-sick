@@ -3,8 +3,8 @@ sentence B = A black dog and a tan dog are sleeping.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Black=,Canine+,?,?,White=,Canine+,Entity+,Wrestling+,?,?,LandArea=,?
-CONCEPTS B: ?,Black=,Canine+,?,?,ColorAttribute+,Canine+,Entity+,OrganismProcess+,?
+CONCEPTS A: Black=,Canine+,White=,Canine+,Entity+,Wrestling+,LandArea=
+CONCEPTS B: Black=,Canine+,ColorAttribute+,Canine+,Entity+,OrganismProcess+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	ground	ground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	09334396-n|LandArea=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

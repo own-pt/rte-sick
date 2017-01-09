@@ -3,8 +3,8 @@ sentence B = A man and a woman are walking together through the woods.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,IntentionalProcess+,?,Device+,?,EndFn+,?,Physical+,ShapeAttribute+,?,Entity+,?,?,Human=,?
-CONCEPTS B: ?,Man=,?,?,Woman=,Entity+,Walking=,Meeting=,?,?,Wood=,?
+CONCEPTS A: Hominid=,Entity+,IntentionalProcess+,Device+,EndFn+,Physical+,ShapeAttribute+,Entity+,Human=
+CONCEPTS B: Man=,Woman=,Entity+,Walking=,Meeting=,Wood=
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	another	another	DET	DT	fPOS=DET++DT	16	det	_	?|?
 16	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	acl:relcl	_	00007846-n|Human=
 17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

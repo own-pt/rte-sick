@@ -3,8 +3,8 @@ sentence B = Two young boys are looking up at the camera and one is sticking out
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,Entity+,SubjectiveAssessmentAttribute+,Increasing+,?,?,Camera=,?,?,Entity+,Attaching+,Giving+,?,Tongue=,?
-CONCEPTS B: ?,HumanYouth=,Human+,Entity+,SubjectiveAssessmentAttribute+,Increasing+,?,?,Camera=,?,?,Entity+,Attaching+,Giving+,?,Tongue=,?
+CONCEPTS A: HumanYouth=,Human+,Entity+,SubjectiveAssessmentAttribute+,Increasing+,Camera=,Entity+,Attaching+,Giving+,Tongue=
+CONCEPTS B: HumanYouth=,Human+,Entity+,SubjectiveAssessmentAttribute+,Increasing+,Camera=,Entity+,Attaching+,Giving+,Tongue=
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	16	nmod:poss	_	?|?
 16	tongue	tongue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	05301072-n|Tongue=
 17	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NOUN	NN	NumType=Card|fPOS=NUM++CD	3	compound	_	?|?

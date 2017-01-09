@@ -3,8 +3,8 @@ sentence B = Nobody is stirring noodles in the water.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Boiling=,Pasta+,?,Water=,?
-CONCEPTS B: ?,Entity+,PsychologicalProcess+,Pasta+,?,?,Water=,?
+CONCEPTS A: Woman=,Entity+,Boiling=,Pasta+,Water=
+CONCEPTS B: Entity+,PsychologicalProcess+,Pasta+,Water=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
 7	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	14845743-n|Water=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Nobody	nobody	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	?|?

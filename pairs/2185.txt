@@ -3,8 +3,8 @@ sentence B = People are playing cricket.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: GroupOfPeople=,Entity+,not=,DramaticActing+,Cricket=,?
-CONCEPTS B: GroupOfPeople=,Entity+,DramaticActing+,Cricket=,?
+CONCEPTS A: GroupOfPeople=,Entity+,not=,DramaticActing+,Cricket=
+CONCEPTS B: GroupOfPeople=,Entity+,DramaticActing+,Cricket=
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
 5	cricket	cricket	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	dobj	_	00476389-n|Cricket=
 6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	07942152-n|GroupOfPeople=

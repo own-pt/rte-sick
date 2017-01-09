@@ -3,8 +3,8 @@ sentence B = A brown and white coat is floating across shallow water near a trot
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,?,Damaging+,?,Human+,?,White=,Coat=,Entity+,Running=,?,SubjectiveWeakNegativeAttribute+,Water=,?
-CONCEPTS B: ?,Human+,?,White=,Coat=,Entity+,Swimming+,?,SubjectiveWeakNegativeAttribute+,Water=,?,?,Running=,Canine+,?
+CONCEPTS A: Canine+,Damaging+,Human+,White=,Coat=,Entity+,Running=,SubjectiveWeakNegativeAttribute+,Water=
+CONCEPTS B: Human+,White=,Coat=,Entity+,Swimming+,SubjectiveWeakNegativeAttribute+,Water=,Running=,Canine+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	shallow	shallow	ADV	RB	fPOS=ADV++RB	14	advmod	_	00691696-a|SubjectiveWeakNegativeAttribute+
 14	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	14845743-n|Water=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?

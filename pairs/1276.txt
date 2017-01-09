@@ -3,8 +3,8 @@ sentence B = A man is mowing a lawn.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,Hominid=,IntentionalProcess+,?
-CONCEPTS B: ?,Hominid=,Entity+,Removing+,?,Lawn=,?
+CONCEPTS A: Entity+,Hominid=,IntentionalProcess+
+CONCEPTS B: Hominid=,Entity+,Removing+,Lawn=
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	man	man	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	02472293-n|Hominid=
 5	mixing	mix	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	00394813-v|IntentionalProcess+
 6	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

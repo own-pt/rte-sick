@@ -3,8 +3,8 @@ sentence B = A person is riding a dirt bike down a dirt hill.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Transportation+,?,Text+,Bicycle=,?,?,Text+,Hill=,?
-CONCEPTS B: ?,Human=,Entity+,Transportation+,?,Text+,Bicycle=,?,?,Text+,Hill=,?
+CONCEPTS A: Hominid=,Entity+,Transportation+,Text+,Bicycle=,Text+,Hill=
+CONCEPTS B: Human=,Entity+,Transportation+,Text+,Bicycle=,Text+,Hill=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	dirt	dirt	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	compound	_	07223811-n|Text+
 11	hill	hill	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09303008-n|Hill=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

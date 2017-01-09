@@ -3,8 +3,8 @@ sentence B = The rider is biking in the snow and wearing a red jacket.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,Entity+,?,?,?,Snowing=,?,CoveringFn=,?,Red=,Coat=,?
-CONCEPTS B: ?,SocialRole+,Entity+,?,?,?,Snowing=,?,CoveringFn=,?,Red=,Coat=,?
+CONCEPTS A: Man=,Entity+,Snowing=,CoveringFn=,Red=,Coat=
+CONCEPTS B: SocialRole+,Entity+,Snowing=,CoveringFn=,Red=,Coat=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	red	red	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00381097-a|Red=
 12	jacket	jacket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	03589791-n|Coat=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

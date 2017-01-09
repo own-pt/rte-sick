@@ -3,8 +3,8 @@ sentence B = A blond girl is looking at the waves.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Transportation+,?,Carrying=,?,WaterWave+,?
-CONCEPTS B: ?,Human+,Human+,Entity+,SubjectiveAssessmentAttribute+,?,?,ShapeAttribute+,?
+CONCEPTS A: Human+,Entity+,Transportation+,Carrying=,WaterWave+
+CONCEPTS B: Human+,Human+,Entity+,SubjectiveAssessmentAttribute+,ShapeAttribute+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	wave	wave	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	07352190-n|WaterWave+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

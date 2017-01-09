@@ -3,8 +3,8 @@ sentence B = A brown dog is carrying a colored toy in the grass.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Canine+,Entity+,Attribute+,Breathing+,?,?,LandArea=,?,?,RecreationOrExerciseDevice+,?,?,Mouth+,?
-CONCEPTS B: ?,Human+,Canine+,Entity+,Transportation+,?,SurfaceChange+,RecreationOrExerciseDevice+,?,?,Grass=,?
+CONCEPTS A: Human+,Canine+,Entity+,Attribute+,Breathing+,LandArea=,RecreationOrExerciseDevice+,Mouth+
+CONCEPTS B: Human+,Canine+,Entity+,Transportation+,SurfaceChange+,RecreationOrExerciseDevice+,Grass=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	15	nmod:poss	_	?|?
 15	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	05302499-n|Mouth+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

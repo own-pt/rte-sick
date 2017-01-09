@@ -3,8 +3,8 @@ sentence B = Children are playing in ground fountains.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: HumanChild=,Entity+,DramaticActing+,?,?,Creek+,?,Entity+,Spraying=,Water=,?,?,LandArea=,?
-CONCEPTS B: HumanChild=,Entity+,DramaticActing+,?,LandArea=,Creek+,?
+CONCEPTS A: HumanChild=,Entity+,DramaticActing+,Creek+,Entity+,Spraying=,Water=,LandArea=
+CONCEPTS B: HumanChild=,Entity+,DramaticActing+,LandArea=,Creek+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	ground	ground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	09334396-n|LandArea=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	09917593-n|HumanChild=

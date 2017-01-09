@@ -3,8 +3,8 @@ sentence B = The kid is sliding in the snow.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Snowing+,Artifact+,Entity+,ContainerFull+,?,HumanChild=,?
-CONCEPTS B: ?,HumanChild=,Entity+,Translocation+,?,?,Snowing=,?
+CONCEPTS A: Snowing+,Artifact+,Entity+,ContainerFull+,HumanChild=
+CONCEPTS B: HumanChild=,Entity+,Translocation+,Snowing=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	of	of	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
 7	kids	kid	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	09917593-n|HumanChild=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

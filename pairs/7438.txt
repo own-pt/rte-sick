@@ -3,8 +3,8 @@ sentence B = The bearded man is not sitting on a train.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,PhysicalAttribute+,SittingDown+,?,?,Train=,?,PastFn=,?,Hand+,?,?,Face+,?
-CONCEPTS B: ?,PositionalAttribute+,Man=,PhysicalAttribute+,not=,SittingDown+,?,?,Train=,?
+CONCEPTS A: Hominid=,PhysicalAttribute+,SittingDown+,Train=,PastFn=,Hand+,Face+
+CONCEPTS B: PositionalAttribute+,Man=,PhysicalAttribute+,not=,SittingDown+,Train=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	14	nmod:poss	_	?|?
 14	face	face	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	05600637-n|Face+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

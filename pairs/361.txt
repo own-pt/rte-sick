@@ -3,8 +3,8 @@ sentence B = Two dogs are running and carrying an object in their mouths.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Pursuing+,?,?,Entity+,Process+,?,Plant+,?,?,Mouth+,?
-CONCEPTS B: ?,Canine+,Entity+,Publication+,?,Transportation+,?,CorpuscularObject=,?,?,Mouth+,?
+CONCEPTS A: Canine+,Entity+,Pursuing+,Entity+,Process+,Plant+,Mouth+
+CONCEPTS B: Canine+,Entity+,Publication+,Transportation+,CorpuscularObject=,Mouth+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	13	nmod:poss	_	?|?
 13	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	05302499-n|Mouth+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = The people are sitting in a restaurant in front of the beach.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,?,Seat+,?,FrontFn=,?,?,Restaurant+,?
-CONCEPTS B: ?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,?,Restaurant+,?,FrontFn=,?,?,ShoreArea=,?
+CONCEPTS A: GroupOfPeople=,PhysicalAttribute+,SittingDown+,Seat+,FrontFn=,Restaurant+
+CONCEPTS B: GroupOfPeople=,PhysicalAttribute+,SittingDown+,Restaurant+,FrontFn=,ShoreArea=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	restaurant	restaurant	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04081281-n|Restaurant+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = There is no puppy rolling.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Motion+,?,Object+,?,Object+,?
-CONCEPTS B: ?,Entity+,?,SocialRole+,Motion+,?
+CONCEPTS A: Canine+,Entity+,Motion+,Object+,Object+
+CONCEPTS B: Entity+,SocialRole+,Motion+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	to	to	ADP	IN	fPOS=PART++TO	8	mark	_	?|?
 8	side	side	NOUN	NN	VerbForm=Inf|fPOS=VERB++VB	4	advcl	_	08510666-n|Object+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

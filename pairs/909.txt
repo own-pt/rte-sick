@@ -3,8 +3,8 @@ sentence B = The man is doing a wheelie with a motorcycle on ground which is mos
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Man=,?,?,SubjectiveStrongNegativeAttribute+,Clothing+,Entity+,NormativeAttribute+,?,IntentionalProcess+,?,?,?,?,PassengerVehicle+,?
-CONCEPTS B: ?,Hominid=,Entity+,IntentionalProcess+,?,?,?,?,PassengerVehicle+,?,LandArea=,?,Entity+,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,?
+CONCEPTS A: Man=,SubjectiveStrongNegativeAttribute+,Clothing+,Entity+,NormativeAttribute+,IntentionalProcess+,PassengerVehicle+
+CONCEPTS B: Hominid=,Entity+,IntentionalProcess+,PassengerVehicle+,LandArea=,Entity+,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	03790512-n|PassengerVehicle+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

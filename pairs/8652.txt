@@ -3,8 +3,8 @@ sentence B = No group of people is gathering at a stand at the fair.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Group=,?,GroupOfPeople=,Entity+,Meeting+,?,?,SubjectiveAssessmentAttribute=,?,?,SubjectiveWeakPositiveAttribute+,?
-CONCEPTS B: ?,Group=,?,GroupOfPeople=,Entity+,Meeting+,?,?,SubjectiveAssessmentAttribute=,?,?,SubjectiveWeakPositiveAttribute+,?
+CONCEPTS A: Group=,GroupOfPeople=,Entity+,Meeting+,SubjectiveAssessmentAttribute=,SubjectiveWeakPositiveAttribute+
+CONCEPTS B: Group=,GroupOfPeople=,Entity+,Meeting+,SubjectiveAssessmentAttribute=,SubjectiveWeakPositiveAttribute+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	fair	fair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	00956131-a|SubjectiveWeakPositiveAttribute+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	No	no	DET	DT	fPOS=DET++DT	2	neg	_	?|?

@@ -3,8 +3,8 @@ sentence B = A man is standing on a roof top and playing a violin.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,top=,Violin=,Musician+,Entity+,PhysicalAttribute+,?,?,Roof=,?,?,Hominid=,?
-CONCEPTS B: ?,Hominid=,Entity+,PhysicalAttribute+,?,?,Roof=,PositionalAttribute+,?,DramaticActing+,?,Violin=,?
+CONCEPTS A: top=,Violin=,Musician+,Entity+,PhysicalAttribute+,Roof=,Hominid=
+CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,Roof=,PositionalAttribute+,DramaticActing+,Violin=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	02472293-n|Hominid=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

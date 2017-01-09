@@ -3,8 +3,8 @@ sentence B = A man is playing the guitar loudly.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Hominid=,DramaticActing+,?,Guitar=,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,Hominid=,Entity+,DramaticActing+,?,Guitar=,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: Entity+,Hominid=,DramaticActing+,Guitar=,SubjectiveAssessmentAttribute+
+CONCEPTS B: Hominid=,Entity+,DramaticActing+,Guitar=,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03467517-n|Guitar=
 8	loudly	loudly	ADV	RB	fPOS=ADV++RB	5	advmod	_	00069901-r|SubjectiveAssessmentAttribute+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

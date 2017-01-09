@@ -3,8 +3,8 @@ sentence B = A dog is in the sand that is blowing in the air.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,?,?,part+,GeographicArea+,?,?,Sand=,?,Entity+,Entity+,Stirring+,Increasing+,?,?,AirTransportation+,?,?,Plant=,Entity+,?,?,Region+,?
-CONCEPTS B: ?,Canine+,Entity+,?,?,Sand=,?,Entity+,Exhaling+,?,?,AirTransportation+,?
+CONCEPTS A: Canine+,Entity+,part+,GeographicArea+,Sand=,Entity+,Entity+,Stirring+,Increasing+,AirTransportation+,Plant=,Entity+,Region+
+CONCEPTS B: Canine+,Entity+,Sand=,Entity+,Exhaling+,AirTransportation+
 
 CONLL A:
 
@@ -34,6 +34,8 @@ CONLL A:
 24	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	25	det	_	?|?
 25	background	background	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	conj	_	14513259-n|Region+
 26	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

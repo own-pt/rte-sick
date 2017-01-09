@@ -3,8 +3,8 @@ sentence B = A man by a brick wall is wearing a mask around his mouth and a hair
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,CoveringFn=,?,SubjectiveAssessmentAttribute+,Substance+,Device+,?,?,Artifact+,?
-CONCEPTS B: ?,Man=,?,?,Brick+,Wall=,Entity+,CoveringFn=,?,Artifact+,?,?,Mouth+,?,?,Hair=,Fabric+,?
+CONCEPTS A: Hominid=,Entity+,CoveringFn=,SubjectiveAssessmentAttribute+,Substance+,Device+,Artifact+
+CONCEPTS B: Man=,Brick+,Wall=,Entity+,CoveringFn=,Artifact+,Mouth+,Hair=,Fabric+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	mask	mask	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	conj	_	03724870-n|Artifact+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

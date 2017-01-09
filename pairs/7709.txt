@@ -3,8 +3,8 @@ sentence B = The blonde girl with the pink top is not smiling and not wearing fu
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human+,Human+,?,?,Pink+,PositionalAttribute+,Entity+,Smiling=,?,CoveringFn=,SubjectiveStrongPositiveAttribute+,Cup=,?,?,SubjectiveWeakPositiveAttribute+,Nose+,Attaching=,?
-CONCEPTS B: ?,Human+,Human+,?,?,Pink+,PositionalAttribute+,Entity+,not=,Smiling=,?,not=,CoveringFn=,SubjectiveStrongPositiveAttribute+,Cup=,?,?,SubjectiveWeakPositiveAttribute+,Nose+,Attaching=,?
+CONCEPTS A: Human+,Human+,Pink+,PositionalAttribute+,Entity+,Smiling=,CoveringFn=,SubjectiveStrongPositiveAttribute+,Cup=,SubjectiveWeakPositiveAttribute+,Nose+,Attaching=
+CONCEPTS B: Human+,Human+,Pink+,PositionalAttribute+,Entity+,not=,Smiling=,not=,CoveringFn=,SubjectiveStrongPositiveAttribute+,Cup=,SubjectiveWeakPositiveAttribute+,Nose+,Attaching=
 
 CONLL A:
 
@@ -27,6 +27,8 @@ CONLL A:
 17	nose	nose	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	05598147-n|Nose+
 18	attached	attach	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	17	acl	_	01290255-v|Attaching=
 19	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

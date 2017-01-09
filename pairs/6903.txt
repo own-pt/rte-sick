@@ -3,8 +3,8 @@ sentence B = A young man with brown hair and sunglasses is sitting in front of s
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,Human+,Hair=,PhysicalAttribute+,CoveringFn=,Device+,?,PhysicalAttribute+,SittingDown+,SubjectiveAssessmentAttribute+,?,?,ContentBearingObject+,?,Toilet+,?,Soda=,?,equal+,Beverage=,?
-CONCEPTS B: ?,HumanYouth=,Man=,?,Human+,Hair=,?,Device+,PhysicalAttribute+,SittingDown+,?,FrontFn=,?,?,Toilet+,?,Soda=,?
+CONCEPTS A: Man=,Human+,Hair=,PhysicalAttribute+,CoveringFn=,Device+,PhysicalAttribute+,SittingDown+,SubjectiveAssessmentAttribute+,ContentBearingObject+,Toilet+,Soda=,equal+,Beverage=
+CONCEPTS B: HumanYouth=,Man=,Human+,Hair=,Device+,PhysicalAttribute+,SittingDown+,FrontFn=,Toilet+,Soda=
 
 CONLL A:
 
@@ -31,6 +31,8 @@ CONLL A:
 21	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	22	amod	_	02069355-a|equal+
 22	drinks	drink	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	19	conj	_	07881800-n|Beverage=
 23	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

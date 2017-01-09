@@ -3,8 +3,8 @@ sentence B = A man is spreading butter on a piece of bread which is big.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GamePiece+,Entity+,LeavingAnOrganization+,?,Butter=,?,?,GamePiece+,?,BreadOrBiscuit+,?,Entity+,SubjectiveWeakPositiveAttribute+,?
-CONCEPTS B: ?,GamePiece+,Entity+,Disseminating+,Butter=,?,?,GamePiece+,?,BreadOrBiscuit+,?,Entity+,SubjectiveWeakPositiveAttribute+,?
+CONCEPTS A: GamePiece+,Entity+,LeavingAnOrganization+,Butter=,GamePiece+,BreadOrBiscuit+,Entity+,SubjectiveWeakPositiveAttribute+
+CONCEPTS B: GamePiece+,Entity+,Disseminating+,Butter=,GamePiece+,BreadOrBiscuit+,Entity+,SubjectiveWeakPositiveAttribute+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	14	cop	_	02604760-v|Entity+
 14	big	big	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	acl:relcl	_	01382086-a|SubjectiveWeakPositiveAttribute+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

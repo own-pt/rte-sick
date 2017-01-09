@@ -3,8 +3,8 @@ sentence B = There is no pet dog standing on the bank and looking at another bro
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Favorite+,Canine+,Entity+,PhysicalAttribute+,?,?,Bank-FinancialOrganization=,?,Entity+,SubjectiveAssessmentAttribute+,?,?,Human+,Canine+,?,?,Lake+,?
-CONCEPTS B: ?,Entity+,?,Favorite+,Canine+,SocialRole+,?,?,Bank-FinancialOrganization=,?,SubjectiveAssessmentAttribute+,?,?,Human+,Canine+,?,?,Lake+,?
+CONCEPTS A: Favorite+,Canine+,Entity+,PhysicalAttribute+,Bank-FinancialOrganization=,Entity+,SubjectiveAssessmentAttribute+,Human+,Canine+,Lake+
+CONCEPTS B: Entity+,Favorite+,Canine+,SocialRole+,Bank-FinancialOrganization=,SubjectiveAssessmentAttribute+,Human+,Canine+,Lake+
 
 CONLL A:
 
@@ -27,6 +27,8 @@ CONLL A:
 17	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	18	det	_	?|?
 18	pond	pond	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	09397391-n|Lake+
 19	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

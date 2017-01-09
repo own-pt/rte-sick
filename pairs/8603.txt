@@ -3,8 +3,8 @@ sentence B = Little kids are playing in a water fountain in front of lots of peo
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: HumanChild=,Entity+,DramaticActing+,?,?,Creek+,?,Entity+,Spraying=,Water=,?,?,LandArea=,?
-CONCEPTS B: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,DramaticActing+,?,?,Water=,Creek+,?,FrontFn=,?,SubjectiveAssessmentAttribute+,?,GroupOfPeople=,?
+CONCEPTS A: HumanChild=,Entity+,DramaticActing+,Creek+,Entity+,Spraying=,Water=,LandArea=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,DramaticActing+,Water=,Creek+,FrontFn=,SubjectiveAssessmentAttribute+,GroupOfPeople=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	ground	ground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	09334396-n|LandArea=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Little	little	PROPN	NNP	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+

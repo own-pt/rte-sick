@@ -3,8 +3,8 @@ sentence B = The person is flying through the air on the bicycle.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,?,?,Bicycle=,Entity+,Ambulating=,?,?,AirTransportation+,?,?,Sol=,Entity+,Combustion+,?,?,Bicycle=,Human=,?
-CONCEPTS B: ?,Human=,Entity+,FlyingAircraft=,?,?,AirTransportation+,?,?,Bicycle=,?
+CONCEPTS A: Human=,Bicycle=,Entity+,Ambulating=,AirTransportation+,Sol=,Entity+,Combustion+,Bicycle=,Human=
+CONCEPTS B: Human=,Entity+,FlyingAircraft=,AirTransportation+,Bicycle=
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	19	compound	_	02834778-n|Bicycle=
 19	frame	frame	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	05217168-n|Human=
 20	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

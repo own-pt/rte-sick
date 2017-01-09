@@ -3,8 +3,8 @@ sentence B = The potato isn't being peeled by a woman.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,PotatoTuber=,Entity+,Entity+,Removing+,?,?,Woman=,?
-CONCEPTS B: ?,PotatoTuber=,Entity+,not=,Entity+,Removing+,?,?,Woman=,?
+CONCEPTS A: PotatoTuber=,Entity+,Entity+,Removing+,Woman=
+CONCEPTS B: PotatoTuber=,Entity+,not=,Entity+,Removing+,Woman=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	10787470-n|Woman=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A woman is sitting and looking at the waterfall.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,PhysicalAttribute+,?,Man=,?,?,Gray+,Shirt+,SittingDown+,?,?,Mineral+,?,FrontFn=,?,?,Waterfall=,?
-CONCEPTS B: ?,Woman=,PhysicalAttribute+,SittingDown+,?,SubjectiveAssessmentAttribute+,?,?,Waterfall=,?
+CONCEPTS A: PhysicalAttribute+,Man=,Gray+,Shirt+,SittingDown+,Mineral+,FrontFn=,Waterfall=
+CONCEPTS B: Woman=,PhysicalAttribute+,SittingDown+,SubjectiveAssessmentAttribute+,Waterfall=
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	17	det	_	?|?
 17	waterfall	waterfall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	09475292-n|Waterfall=
 18	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

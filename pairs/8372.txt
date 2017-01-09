@@ -3,8 +3,8 @@ sentence B = Two large dogs, a light colored one and a dark one, are running thr
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Canine+,?,?,RadiatingVisibleLight+,SurfaceChange+,?,?,?,SubjectiveWeakNegativeAttribute+,?,?,Entity+,SubjectiveAssessmentAttribute+,PsychologicalProcess+,?,Covering+,LandArea+,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Canine+,?,?,RadiatingVisibleLight+,SurfaceChange+,?,?,?,SubjectiveWeakNegativeAttribute+,?,?,Entity+,Attribute+,?,Covering+,LandArea+,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Canine+,RadiatingVisibleLight+,SurfaceChange+,SubjectiveWeakNegativeAttribute+,Entity+,SubjectiveAssessmentAttribute+,PsychologicalProcess+,Covering+,LandArea+
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Canine+,RadiatingVisibleLight+,SurfaceChange+,SubjectiveWeakNegativeAttribute+,Entity+,Attribute+,Covering+,LandArea+
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	snowy	snowy	ADV	RB	Number=Sing|fPOS=PROPN++NNP	19	compound	_	01698231-a|Covering+
 19	terrain	terrain	ADV	RB	Number=Sing|fPOS=PROPN++NNP	16	nmod	_	08674563-n|LandArea+
 20	.	.	PUNCT	.	fPOS=PUNCT++.	16	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	ADP	IN	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?

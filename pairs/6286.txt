@@ -3,8 +3,8 @@ sentence B = A black dog is running in the grass.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Black=,Canine+,Entity+,PhysicalAttribute+,Giving+,?,?,Grass=,?,Attribute+,?,?,Tongue=,Giving+,?
-CONCEPTS B: ?,Black=,Canine+,Entity+,Attribute+,?,?,Grass=,?
+CONCEPTS A: Black=,Canine+,Entity+,PhysicalAttribute+,Giving+,Grass=,Attribute+,Tongue=,Giving+
+CONCEPTS B: Black=,Canine+,Entity+,Attribute+,Grass=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	tongue	tongue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	compound	_	05301072-n|Tongue=
 15	out	out	ADP	RP	fPOS=ADV++RB	11	nmod	_	00233413-r|Giving+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

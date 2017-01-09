@@ -3,8 +3,8 @@ sentence B = A woman is looking at the view of a city.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Building+,Entity+,Entity+,SubjectiveAssessmentAttribute+,?,?,?,Human+,Human+,?
-CONCEPTS B: ?,Woman=,Entity+,SubjectiveAssessmentAttribute+,?,?,VisualAttribute+,?,?,City=,?
+CONCEPTS A: Building+,Entity+,Entity+,SubjectiveAssessmentAttribute+,Human+,Human+
+CONCEPTS B: Woman=,Entity+,SubjectiveAssessmentAttribute+,VisualAttribute+,City=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	blonde	blonde	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00243606-a|Human+
 10	lady	lady	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	09989290-n|Human+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

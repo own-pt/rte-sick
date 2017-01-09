@@ -3,8 +3,8 @@ sentence B = The children are wearing black tights and hopping.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,PhysicalAttribute+,SittingDown+,?,ColorAttribute+,Ball=,?
-CONCEPTS B: ?,HumanChild=,Entity+,CoveringFn=,Black=,Clothing+,?,Motion+,?
+CONCEPTS A: HumanChild=,PhysicalAttribute+,SittingDown+,ColorAttribute+,Ball=
+CONCEPTS B: HumanChild=,Entity+,CoveringFn=,Black=,Clothing+,Motion+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	colorful	colorful	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00394562-a|ColorAttribute+
 7	balls	ball	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	02778669-n|Ball=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

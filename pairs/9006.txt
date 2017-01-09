@@ -3,8 +3,8 @@ sentence B = A person in a black hat is reaching for a box.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,Black=,Hat+,Entity+,SubjectiveAssessmentAttribute+,?,?,Box=,?
-CONCEPTS B: ?,Human=,?,?,Black=,Hat+,Entity+,SubjectiveAssessmentAttribute+,?,?,Box=,?
+CONCEPTS A: Man=,Black=,Hat+,Entity+,SubjectiveAssessmentAttribute+,Box=
+CONCEPTS B: Human=,Black=,Hat+,Entity+,SubjectiveAssessmentAttribute+,Box=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	box	box	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	02883344-n|Box=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

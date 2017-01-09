@@ -3,8 +3,8 @@ sentence B = A bike rider in a black and red uniform is standing on a dirt bike.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human=,?,Transportation+,Bicycle=,?,?,?,Black=,?,Red=,UniformClothing=,?,Entity+,PhysicalAttribute+,?,?,Text+,Bicycle=,?
-CONCEPTS B: ?,Bicycle=,Human+,?,?,Black=,?,Red=,UniformClothing=,Entity+,PhysicalAttribute+,?,?,Text+,Bicycle=,?
+CONCEPTS A: Human=,Transportation+,Bicycle=,Black=,Red=,UniformClothing=,Entity+,PhysicalAttribute+,Text+,Bicycle=
+CONCEPTS B: Bicycle=,Human+,Black=,Red=,UniformClothing=,Entity+,PhysicalAttribute+,Text+,Bicycle=
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	dirt	dirt	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	19	compound	_	07223811-n|Text+
 19	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	02834778-n|Bicycle=
 20	.	.	PUNCT	.	fPOS=PUNCT++.	15	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

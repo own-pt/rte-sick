@@ -3,8 +3,8 @@ sentence B = A playing device is amusing a cat.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Whip+,Entity+,DramaticActing+,?,?,Device=,?
-CONCEPTS B: ?,RecreationOrExercise+,Device=,Entity+,SubjectiveStrongPositiveAttribute+,?,Whip+,?
+CONCEPTS A: Whip+,Entity+,DramaticActing+,Device=
+CONCEPTS B: RecreationOrExercise+,Device=,Entity+,SubjectiveStrongPositiveAttribute+,Whip+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	device	device	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03183080-n|Device=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

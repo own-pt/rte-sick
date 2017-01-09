@@ -3,8 +3,8 @@ sentence B = A boy in a striped shirt is jumping in front of a water fountain.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Ambulating=,?,?,Object+,?,?,Mineral+,Water=,Creek+,?,FrontFn=,?,?,Building=,?
-CONCEPTS B: ?,Human+,?,?,VisualAttribute+,Shirt=,Entity+,Ambulating=,?,FrontFn=,?,?,Water=,Creek+,?
+CONCEPTS A: Human+,Entity+,Ambulating=,Object+,Mineral+,Water=,Creek+,FrontFn=,Building=
+CONCEPTS B: Human+,VisualAttribute+,Shirt=,Entity+,Ambulating=,FrontFn=,Water=,Creek+
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	?|?
 17	building	building	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	02913152-n|Building=
 18	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A toddler is sitting in a seat.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Cutting+,Increasing+,?,Mollusk+,?
-CONCEPTS B: ?,NonFullyFormed+,PhysicalAttribute+,SittingDown+,?,?,Seat=,?
+CONCEPTS A: Woman=,Entity+,Cutting+,Increasing+,Mollusk+
+CONCEPTS B: NonFullyFormed+,PhysicalAttribute+,SittingDown+,Seat=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	octopus	octopus	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	01970164-n|Mollusk+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A man in a suit is being surrounded by photographers.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Man=,?,?,ClothingSuit+,Entity+,not=,Entity+,Process+,?,Photographer=,?
-CONCEPTS B: ?,Man=,?,?,ClothingSuit+,Entity+,Entity+,Process+,?,Photographer=,?
+CONCEPTS A: Man=,ClothingSuit+,Entity+,not=,Entity+,Process+,Photographer=
+CONCEPTS B: Man=,ClothingSuit+,Entity+,Entity+,Process+,Photographer=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	by	by	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
 11	photographers	photographer	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	nmod	_	10426749-n|Photographer=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

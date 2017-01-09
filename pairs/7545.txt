@@ -3,8 +3,8 @@ sentence B = A football player is running past an official carrying a football.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Football+,Human+,?,?,SocialRole+,HoofedMammal+,Entity+,Running=,?,?,Ball=,?,?,FootballTouchdown+,?
-CONCEPTS B: ?,Football+,Human+,Entity+,Publication+,?,?,Human+,Transportation+,?,Football+,?
+CONCEPTS A: Football+,Human+,SocialRole+,HoofedMammal+,Entity+,Running=,Ball=,FootballTouchdown+
+CONCEPTS B: Football+,Human+,Entity+,Publication+,Human+,Transportation+,Football+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	touchdown	touchdown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	00188766-n|FootballTouchdown+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

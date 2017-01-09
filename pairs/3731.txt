@@ -3,8 +3,8 @@ sentence B = Swimmers are racing in a lake.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,?,Swimmer+,Entity+,Motion+,?,?,Lake=,?
-CONCEPTS B: Swimmer+,Entity+,Motion+,?,?,Lake=,?
+CONCEPTS A: Swimmer+,Entity+,Motion+,Lake=
+CONCEPTS B: Swimmer+,Entity+,Motion+,Lake=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	lake	lake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	09328904-n|Lake=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Swimmers	swimmer	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	10683126-n|Swimmer+

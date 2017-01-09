@@ -3,8 +3,8 @@ sentence B = Two dogs are running and trying to catch a soccer ball.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Attribute+,?,Grabbing+,?,Tennis=,Ball=,?
-CONCEPTS B: ?,Canine+,Entity+,Heating+,?,IntentionalProcess+,?,Grabbing+,?,Soccer=,Ball=,?
+CONCEPTS A: Canine+,Entity+,Attribute+,Grabbing+,Tennis=,Ball=
+CONCEPTS B: Canine+,Entity+,Heating+,IntentionalProcess+,Grabbing+,Soccer=,Ball=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	tennis	tennis	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	00482298-n|Tennis=
 9	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	02778669-n|Ball=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = There is no man and child kayaking through gentle waters.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Hominid=,?,?,HumanChild=,Entity+,?,?,SocialRole+,Water=,?
-CONCEPTS B: ?,Entity+,?,Hominid=,?,HumanChild=,?,?,SocialRole+,Water=,?
+CONCEPTS A: Hominid=,HumanChild=,Entity+,SocialRole+,Water=
+CONCEPTS B: Entity+,Hominid=,HumanChild=,SocialRole+,Water=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	gentle	gentle	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	01590484-a|SocialRole+
 10	waters	water	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	14845743-n|Water=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

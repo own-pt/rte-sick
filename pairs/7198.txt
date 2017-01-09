@@ -3,8 +3,8 @@ sentence B = A man is standing next to a bus.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,PhysicalAttribute+,SittingDown+,?,?,Sidewalk=,?
-CONCEPTS B: ?,Hominid=,Entity+,PhysicalAttribute+,Position+,?,?,Conductor+,?
+CONCEPTS A: Hominid=,PhysicalAttribute+,SittingDown+,Sidewalk=
+CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,Position+,Conductor+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	sidewalk	sidewalk	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04215402-n|Sidewalk=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

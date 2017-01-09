@@ -3,8 +3,8 @@ sentence B = The man is rock climbing.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Hominid=,Entity+,Mineral+,Increasing+,?
-CONCEPTS B: ?,Hominid=,Entity+,Mineral+,Increasing+,?
+CONCEPTS A: HumanYouth=,Hominid=,Entity+,Mineral+,Increasing+
+CONCEPTS B: Hominid=,Entity+,Mineral+,Increasing+
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	rock	rock	NOUN	NN	VerbForm=Inf|fPOS=VERB++VB	0	ROOT	_	14696793-n|Mineral+
 6	climbing	climb	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	acl	_	00433232-v|Increasing+
 7	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

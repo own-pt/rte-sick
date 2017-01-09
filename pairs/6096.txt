@@ -3,8 +3,8 @@ sentence B = The man is standing next to a bird cage.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,PhysicalAttribute+,?,?,TrapOrCage+,?,Entity+,SubjectiveWeakPositiveAttribute+,?,ColorAttribute+,?
-CONCEPTS B: ?,Hominid=,Entity+,PhysicalAttribute+,Position+,?,?,Bird=,TrapOrCage+,?
+CONCEPTS A: Hominid=,Entity+,PhysicalAttribute+,TrapOrCage+,Entity+,SubjectiveWeakPositiveAttribute+,ColorAttribute+
+CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,Position+,Bird=,TrapOrCage+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	and	and	CONJ	CC	fPOS=CONJ++CC	10	cc	_	?|?
 12	colorful	colorful	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	conj	_	00394562-a|ColorAttribute+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

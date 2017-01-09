@@ -3,8 +3,8 @@ sentence B = A red dog is sitting and dropping a tennis ball from its mouth.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,ColorAttribute+,Canine+,Entity+,Ambulating=,Increasing+,?,Grabbing+,?,Tennis=,Ball=,?
-CONCEPTS B: ?,Red=,Canine+,PhysicalAttribute+,SittingDown+,?,MotionDownward=,?,Tennis=,Ball=,?,?,Mouth+,?
+CONCEPTS A: ColorAttribute+,Canine+,Entity+,Ambulating=,Increasing+,Grabbing+,Tennis=,Ball=
+CONCEPTS B: Red=,Canine+,PhysicalAttribute+,SittingDown+,MotionDownward=,Tennis=,Ball=,Mouth+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	tennis	tennis	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	00482298-n|Tennis=
 11	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	02778669-n|Ball=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

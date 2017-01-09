@@ -3,8 +3,8 @@ sentence B = There is no woman wearing a blue shirt with a white vest and a whit
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Putting+,?,SubjectiveStrongNegativeAttribute+,Shirt=,?,?,White=,Clothing+,?,?,White=,Device+,?,Entity+,Speaking+,?,Walking+,?
-CONCEPTS B: ?,Entity+,?,Woman=,Putting+,?,SubjectiveStrongNegativeAttribute+,Shirt=,?,?,White=,Clothing+,?,?,White=,Device+,?,Speaking+,?,Walking+,?
+CONCEPTS A: Woman=,Entity+,Putting+,SubjectiveStrongNegativeAttribute+,Shirt=,White=,Clothing+,White=,Device+,Entity+,Speaking+,Walking+
+CONCEPTS B: Entity+,Woman=,Putting+,SubjectiveStrongNegativeAttribute+,Shirt=,White=,Clothing+,White=,Device+,Speaking+,Walking+
 
 CONLL A:
 
@@ -29,6 +29,8 @@ CONLL A:
 19	and	and	CONJ	CC	fPOS=CONJ++CC	18	cc	_	?|?
 20	marching	march	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	18	conj	_	01919391-v|Walking+
 21	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

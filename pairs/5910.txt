@@ -3,8 +3,8 @@ sentence B = A woman is pouring ingredients into a bowl.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,not=,Putting+,?,Oil=,?
-CONCEPTS B: ?,Woman=,Entity+,Pouring=,Abstract+,?,?,Dish+,?
+CONCEPTS A: Woman=,Entity+,not=,Putting+,Oil=
+CONCEPTS B: Woman=,Entity+,Pouring=,Abstract+,Dish+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	oil	oil	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	14966667-n|Oil=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

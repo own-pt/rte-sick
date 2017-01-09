@@ -3,8 +3,8 @@ sentence B = A child is wearing a coat and is carrying a red sled behind a child
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,not=,CoveringFn=,?,Coat=,?,Entity+,Transportation+,?,Red=,LandVehicle+,?,?,HumanChild=,?,?,Green=,?,Black=,Coat=,?
-CONCEPTS B: ?,HumanChild=,Entity+,CoveringFn=,?,Coat=,?,Entity+,Transportation+,?,Red=,LandVehicle+,?,?,HumanChild=,?,?,Green=,?,Black=,Coat=,?
+CONCEPTS A: HumanChild=,Entity+,not=,CoveringFn=,Coat=,Entity+,Transportation+,Red=,LandVehicle+,HumanChild=,Green=,Black=,Coat=
+CONCEPTS B: HumanChild=,Entity+,CoveringFn=,Coat=,Entity+,Transportation+,Red=,LandVehicle+,HumanChild=,Green=,Black=,Coat=
 
 CONLL A:
 
@@ -31,6 +31,8 @@ CONLL A:
 21	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	19	conj	_	00392812-a|Black=
 22	coat	coat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	03057021-n|Coat=
 23	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

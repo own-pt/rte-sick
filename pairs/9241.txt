@@ -3,8 +3,8 @@ sentence B = The woman in blue is posing for a picture next to a car.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,?,SubjectiveStrongNegativeAttribute+,Entity+,Putting=,?,?,Icon+,Position+,?,?,Automobile=,?
-CONCEPTS B: ?,Woman=,?,SubjectiveStrongNegativeAttribute+,Entity+,Putting=,?,?,Icon+,Position+,?,?,Automobile=,?
+CONCEPTS A: Hominid=,SubjectiveStrongNegativeAttribute+,Entity+,Putting=,Icon+,Position+,Automobile=
+CONCEPTS B: Woman=,SubjectiveStrongNegativeAttribute+,Entity+,Putting=,Icon+,Position+,Automobile=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	02958343-n|Automobile=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

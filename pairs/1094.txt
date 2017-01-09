@@ -3,8 +3,8 @@ sentence B = A large dog is running on the grass with a tennis ball in its mouth
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,?,?,Entity+,SubjectiveWeakPositiveAttribute+,?,Gray+,?,Entity+,Transportation+,?,Ball=,?,?,Mouth+,?,Publication+,?,?,Grass=,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Attribute+,?,?,Grass=,?,?,Tennis=,Ball=,?,?,Mouth+,?
+CONCEPTS A: Canine+,Entity+,SubjectiveWeakPositiveAttribute+,Gray+,Entity+,Transportation+,Ball=,Mouth+,Publication+,Grass=
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Attribute+,Grass=,Tennis=,Ball=,Mouth+
 
 CONLL A:
 
@@ -30,6 +30,8 @@ CONLL A:
 20	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	21	det	_	?|?
 21	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	18	nmod	_	12102133-n|Grass=
 22	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

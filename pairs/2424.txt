@@ -3,8 +3,8 @@ sentence B = Runners are racing in a competition.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Motion+,?,?,StationaryArtifact+,?
-CONCEPTS B: Human+,Entity+,Motion+,?,?,Contest+,?
+CONCEPTS A: Human+,Entity+,Motion+,StationaryArtifact+
+CONCEPTS B: Human+,Entity+,Motion+,Contest+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04037625-n|StationaryArtifact+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Runners	runner	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	10542888-n|Human+

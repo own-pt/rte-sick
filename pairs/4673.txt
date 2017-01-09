@@ -3,8 +3,8 @@ sentence B = Someone is making a hole in a strip of wood with a drill.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,Learning+,?,Hole=,?,?,SelfConnectedObject+,?,Wood=,?,?,BusinessPerson+,EducationalProcess+,?
-CONCEPTS B: ?,Entity+,Process+,?,Hole=,?,?,SelfConnectedObject+,?,Wood=,?,?,EducationalProcess+,?
+CONCEPTS A: Entity+,Learning+,Hole=,SelfConnectedObject+,Wood=,BusinessPerson+,EducationalProcess+
+CONCEPTS B: Entity+,Process+,Hole=,SelfConnectedObject+,Wood=,EducationalProcess+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	power	power	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	09840217-n|BusinessPerson+
 14	drill	drill	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	00894552-n|EducationalProcess+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?

@@ -3,8 +3,8 @@ sentence B = A man with a camera is studying the subject.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,SocialRole+,Hat+,Entity+,Attribute+,?,Camera=,?,Process+,TelevisionBroadcasting+,?
-CONCEPTS B: ?,Hominid=,?,?,Camera=,Entity+,Investigating=,?,FieldOfStudy=,?
+CONCEPTS A: Man=,SocialRole+,Hat+,Entity+,Attribute+,Camera=,Process+,TelevisionBroadcasting+
+CONCEPTS B: Hominid=,Camera=,Entity+,Investigating=,FieldOfStudy=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	10	acl:relcl	_	01617192-v|Process+
 13	videos	video	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	dobj	_	06277280-n|TelevisionBroadcasting+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

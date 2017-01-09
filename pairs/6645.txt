@@ -3,8 +3,8 @@ sentence B = A football player in a red and white uniform is being pulled down b
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: Football+,Human+,?,Red=,?,White=,Entity+,Ambulating=,?,Embracing+,?,equal+,?
-CONCEPTS B: ?,Football+,Human+,?,?,Red=,?,White=,UniformClothing=,Entity+,Entity+,Transportation+,earlier+,?,?,Human+,?
+CONCEPTS A: Football+,Human+,Red=,White=,Entity+,Ambulating=,Embracing+,equal+
+CONCEPTS B: Football+,Human+,Red=,White=,UniformClothing=,Entity+,Entity+,Transportation+,earlier+,Human+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	each	each	DET	DT	fPOS=DET++DT	12	det	_	?|?
 12	other	other	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	10	dobj	_	02069355-a|equal+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

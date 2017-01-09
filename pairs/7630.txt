@@ -3,8 +3,8 @@ sentence B = A man in a red jacket is standing next to a yellow kayak on some ro
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,Entity+,CoveringFn=,?,Red=,Coat=,?,SocialRole+,?,?,SubjectiveAssessmentAttribute+,TransportationDevice+,?,?,Mineral+,?,Water=,?,?,Region+,?
-CONCEPTS B: ?,Man=,?,?,Red=,Coat=,Entity+,PhysicalAttribute+,Position+,?,?,SubjectiveAssessmentAttribute+,TransportationDevice+,?,?,Rock=,?,?,Ocean=,?
+CONCEPTS A: Man=,Entity+,CoveringFn=,Red=,Coat=,SocialRole+,SubjectiveAssessmentAttribute+,TransportationDevice+,Mineral+,Water=,Region+
+CONCEPTS B: Man=,Red=,Coat=,Entity+,PhysicalAttribute+,Position+,SubjectiveAssessmentAttribute+,TransportationDevice+,Rock=,Ocean=
 
 CONLL A:
 
@@ -30,6 +30,8 @@ CONLL A:
 20	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	21	det	_	?|?
 21	background	background	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	14513259-n|Region+
 22	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

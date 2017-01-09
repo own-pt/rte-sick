@@ -3,8 +3,8 @@ sentence B = There is no dog walking along a snowdrift.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,DramaticActing+,SocialInteraction[,?,?,ShoreArea=,Covering+,?,Snowing=,?
-CONCEPTS B: ?,Entity+,?,Canine+,Walking=,?,?,Ice+,?
+CONCEPTS A: Canine+,Entity+,DramaticActing+,SocialInteraction[,ShoreArea=,Covering+,Snowing=
+CONCEPTS B: Entity+,Canine+,Walking=,Ice+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	by	by	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
 11	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	15043763-n|Snowing=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

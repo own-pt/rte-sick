@@ -3,8 +3,8 @@ sentence B = A woman in blue is riding a horse on a dirt road.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,?,SubjectiveStrongNegativeAttribute+,Entity+,Carrying=,?,Horse=,?,?,Text+,Roadway+,?
-CONCEPTS B: ?,Woman=,?,SubjectiveStrongNegativeAttribute+,Entity+,Carrying=,?,Horse=,?,?,Text+,Roadway+,?
+CONCEPTS A: Hominid=,SubjectiveStrongNegativeAttribute+,Entity+,Carrying=,Horse=,Text+,Roadway+
+CONCEPTS B: Woman=,SubjectiveStrongNegativeAttribute+,Entity+,Carrying=,Horse=,Text+,Roadway+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	dirt	dirt	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	compound	_	07223811-n|Text+
 12	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	04096066-n|Roadway+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = People are looking at some costumes gathered in the vicinity of the
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,SubjectiveAssessmentAttribute+,?,?,Woman=,?,Clothing+,?
-CONCEPTS B: GroupOfPeople=,Entity+,Searching=,?,?,Clothing+,Meeting+,?,?,Neighborhood+,?,?,Forest=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,SubjectiveAssessmentAttribute+,Woman=,Clothing+
+CONCEPTS B: GroupOfPeople=,Entity+,Searching=,Clothing+,Meeting+,Neighborhood+,Forest=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
 10	costume	costume	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	03113657-n|Clothing+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	07942152-n|GroupOfPeople=

@@ -3,8 +3,8 @@ sentence B = A group of people is standing on both sides of a red stone structur
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Group=,?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,?,Object+,?,?,Red=,Mineral+,Artifact+,?
-CONCEPTS B: ?,Group=,?,GroupOfPeople=,Entity+,PhysicalAttribute+,?,?,Object+,?,?,Red=,Mineral+,Artifact+,?
+CONCEPTS A: Group=,GroupOfPeople=,PhysicalAttribute+,SittingDown+,Object+,Red=,Mineral+,Artifact+
+CONCEPTS B: Group=,GroupOfPeople=,Entity+,PhysicalAttribute+,Object+,Red=,Mineral+,Artifact+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	stone	stone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	14696793-n|Mineral+
 14	structure	structure	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04341686-n|Artifact+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

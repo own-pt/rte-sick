@@ -3,8 +3,8 @@ sentence B = A young child is running outside over the fallen leaves.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,HumanYouth=,HumanChild=,Entity+,Attribute+,?,?,?,Getting+,Leaf=,?
-CONCEPTS B: ?,HumanYouth=,HumanChild=,Entity+,Attribute+,?,?,?,Getting+,Leaf=,?
+CONCEPTS A: HumanYouth=,HumanChild=,Entity+,Attribute+,Getting+,Leaf=
+CONCEPTS B: HumanYouth=,HumanChild=,Entity+,Attribute+,Getting+,Leaf=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	fallen	fall	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	10	amod	_	02229828-v|Getting+
 10	leaves	leaf	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	13152742-n|Leaf=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A man and a woman are walking down a city street.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: GroupOfPeople=,Entity+,Walking=,?,?,SubjectiveAssessmentAttribute=,?,?,Roadway=,?
-CONCEPTS B: ?,Man=,?,?,Woman=,Entity+,Walking=,earlier+,?,City=,Roadway=,?
+CONCEPTS A: GroupOfPeople=,Entity+,Walking=,SubjectiveAssessmentAttribute=,Roadway=
+CONCEPTS B: Man=,Woman=,Entity+,Walking=,earlier+,City=,Roadway=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	04334599-n|Roadway=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

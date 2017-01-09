@@ -3,8 +3,8 @@ sentence B = Two dogs and two people are walking in a wood.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Canine+,?,?,GroupOfPeople=,Entity+,Walking=,?,?,Wood=,?
-CONCEPTS B: ?,Canine+,?,?,GroupOfPeople=,Entity+,Walking=,?,?,Wood=,?
+CONCEPTS A: Canine+,GroupOfPeople=,Entity+,Walking=,Wood=
+CONCEPTS B: Canine+,GroupOfPeople=,Entity+,Walking=,Wood=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	woods	wood	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	15098161-n|Wood=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

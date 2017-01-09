@@ -3,8 +3,8 @@ sentence B = There is no man playing an electronic keyboard.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,DramaticActing+,?,ElectricDevice+,ComputerInputDevice+,?
-CONCEPTS B: ?,Entity+,?,Hominid=,DramaticActing+,?,ElectricDevice+,ComputerInputDevice+,?
+CONCEPTS A: Hominid=,Entity+,DramaticActing+,ElectricDevice+,ComputerInputDevice+
+CONCEPTS B: Entity+,Hominid=,DramaticActing+,ElectricDevice+,ComputerInputDevice+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	electronic	electronic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	02718497-a|ElectricDevice+
 7	keyboard	keyboard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03614007-n|ComputerInputDevice+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

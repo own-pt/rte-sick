@@ -3,8 +3,8 @@ sentence B = Two men are looking out and one is holding binoculars.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,PhysicalAttribute+,Meeting=,?,?,Entity+,SubjectiveAssessmentAttribute+,?,Device+,?
-CONCEPTS B: ?,Hominid=,Entity+,SubjectiveAssessmentAttribute+,Giving+,?,?,Entity+,PhysicalAttribute+,Device+,?
+CONCEPTS A: Woman=,Entity+,PhysicalAttribute+,Meeting=,Entity+,SubjectiveAssessmentAttribute+,Device+
+CONCEPTS B: Hominid=,Entity+,SubjectiveAssessmentAttribute+,Giving+,Entity+,PhysicalAttribute+,Device+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	through	through	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
 11	binoculars	binoculars	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	nmod	_	02841315-n|Device+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

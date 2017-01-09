@@ -3,8 +3,8 @@ sentence B = A dog is swimming after a ball.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Swimming+,?,?,Tennis=,Ball=,?
-CONCEPTS B: ?,Canine+,Entity+,Swimming+,?,?,Ball=,?
+CONCEPTS A: Canine+,Entity+,Swimming+,Tennis=,Ball=
+CONCEPTS B: Canine+,Entity+,Swimming+,Ball=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	tennis	tennis	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	8	compound	_	00482298-n|Tennis=
 8	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02778669-n|Ball=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

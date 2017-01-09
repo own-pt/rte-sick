@@ -3,8 +3,8 @@ sentence B = A woman is standing near three children.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human+,Entity+,PhysicalAttribute+,?,?,HumanChild=,?
-CONCEPTS B: ?,Woman=,Entity+,PhysicalAttribute+,?,?,HumanChild=,?
+CONCEPTS A: Human+,Entity+,PhysicalAttribute+,HumanChild=
+CONCEPTS B: Woman=,Entity+,PhysicalAttribute+,HumanChild=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	7	nummod	_	?|?
 7	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	09917593-n|HumanChild=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

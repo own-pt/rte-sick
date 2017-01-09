@@ -3,8 +3,8 @@ sentence B = Five adults are sitting on stone steps.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,?,Wall=,?
-CONCEPTS B: ?,FullyFormed+,PhysicalAttribute+,SittingDown+,?,Mineral+,RadiatingSound+,?
+CONCEPTS A: GroupOfPeople=,PhysicalAttribute+,SittingDown+,Wall=
+CONCEPTS B: FullyFormed+,PhysicalAttribute+,SittingDown+,Mineral+,RadiatingSound+
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
 6	wall	wall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	04546855-n|Wall=
 7	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Five	5	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	2	amod	_	?|?

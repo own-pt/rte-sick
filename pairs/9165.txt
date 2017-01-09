@@ -3,8 +3,8 @@ sentence B = A boy in a swimsuit is sitting on top of a circular fountain.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,PhysicalAttribute+,Position+,?,?,Hole+,?,?,Creek+,?
-CONCEPTS B: ?,Human+,?,?,Clothing+,PhysicalAttribute+,SittingDown+,?,top=,?,?,Rotating=,Creek+,?
+CONCEPTS A: Human+,Entity+,PhysicalAttribute+,Position+,Hole+,Creek+
+CONCEPTS B: Human+,Clothing+,PhysicalAttribute+,SittingDown+,top=,Rotating=,Creek+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	fountain	fountain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	09443453-n|Creek+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

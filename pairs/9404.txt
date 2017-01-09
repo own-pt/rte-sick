@@ -3,8 +3,8 @@ sentence B = Two dogs on a lawn are playing with a plastic toy.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Canine+,?,?,Grass=,Entity+,DramaticActing+,?,?,SubjectiveAssessmentAttribute+,RecreationOrExerciseDevice+,?
-CONCEPTS B: ?,Canine+,?,?,Lawn=,Entity+,DramaticActing+,?,?,SubjectiveAssessmentAttribute+,RecreationOrExerciseDevice+,?
+CONCEPTS A: Canine+,Grass=,Entity+,DramaticActing+,SubjectiveAssessmentAttribute+,RecreationOrExerciseDevice+
+CONCEPTS B: Canine+,Lawn=,Entity+,DramaticActing+,SubjectiveAssessmentAttribute+,RecreationOrExerciseDevice+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	plastic	plastic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	02364954-a|SubjectiveAssessmentAttribute+
 11	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	03964744-n|RecreationOrExerciseDevice+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	PRON	PRP	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

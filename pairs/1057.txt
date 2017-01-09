@@ -3,8 +3,8 @@ sentence B = A dog, which is small, is playing on the green grass.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,?,?,Red=,Ball=,?,?,AirTransportation+,?
-CONCEPTS B: ?,Canine+,?,?,Entity+,SubjectiveStrongNegativeAttribute+,?,Entity+,DramaticActing+,?,?,Green=,Grass=,?
+CONCEPTS A: Canine+,Entity+,Red=,Ball=,AirTransportation+
+CONCEPTS B: Canine+,Entity+,SubjectiveStrongNegativeAttribute+,Entity+,DramaticActing+,Green=,Grass=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	00300441-n|AirTransportation+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

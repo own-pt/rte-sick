@@ -3,8 +3,8 @@ sentence B = Someone is holding a hedgehog.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,FruitOrVegetable+,Entity+,Entity+,Cutting+,?
-CONCEPTS B: ?,Entity+,PhysicalAttribute+,?,Mammal+,?
+CONCEPTS A: FruitOrVegetable+,Entity+,Entity+,Cutting+
+CONCEPTS B: Entity+,PhysicalAttribute+,Mammal+
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	02604760-v|Entity+
 5	chopped	chop	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	01258091-v|Cutting+
 6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Someone	someone	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?

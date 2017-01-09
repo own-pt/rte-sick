@@ -3,8 +3,8 @@ sentence B = The person is setting fire to the cameras.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,?,?,Camera=,Entity+,Exhaling+,?,?,PathologicProcess+,LightFixture+,?
-CONCEPTS B: ?,Human=,Entity+,Putting=,Combustion=,?,?,Camera=,?
+CONCEPTS A: Human=,Camera=,Entity+,Exhaling+,PathologicProcess+,LightFixture+
+CONCEPTS B: Human=,Entity+,Putting=,Combustion=,Camera=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	burning	burning	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	amod	_	14325437-n|PathologicProcess+
 11	torch	torch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	04456115-n|LightFixture+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

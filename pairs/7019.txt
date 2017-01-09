@@ -3,8 +3,8 @@ sentence B = A child in light colored clothing is lying with his arms crossed.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,HumanChild=,?,SubjectiveWeakPositiveAttribute+,SurfaceChange+,Clothing=,Entity+,PhysicalAttribute+,?,?,Weapon=,Increasing+,PositionalAttribute+,?
-CONCEPTS B: ?,HumanChild=,?,SubjectiveWeakPositiveAttribute+,SurfaceChange+,Clothing=,Entity+,PhysicalAttribute+,?,?,Weapon=,Process+,?
+CONCEPTS A: HumanChild=,SubjectiveWeakPositiveAttribute+,SurfaceChange+,Clothing=,Entity+,PhysicalAttribute+,Weapon=,Increasing+,PositionalAttribute+
+CONCEPTS B: HumanChild=,SubjectiveWeakPositiveAttribute+,SurfaceChange+,Clothing=,Entity+,PhysicalAttribute+,Weapon=,Process+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	extended	extend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	8	advcl	_	00317888-v|Increasing+
 13	outward	outward	ADV	RB	fPOS=ADV++RB	12	advmod	_	00258677-r|PositionalAttribute+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

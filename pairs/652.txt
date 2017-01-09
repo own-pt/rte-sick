@@ -3,8 +3,8 @@ sentence B = One young boy is climbing a wall made of rock.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,Entity+,Increasing+,?,Wall=,Attribute+,?,Mineral+,?
-CONCEPTS B: ?,HumanYouth=,Human+,Entity+,Increasing+,?,Wall=,Attribute+,?,Mineral+,?
+CONCEPTS A: HumanYouth=,Human+,Entity+,Increasing+,Wall=,Attribute+,Mineral+
+CONCEPTS B: HumanYouth=,Human+,Entity+,Increasing+,Wall=,Attribute+,Mineral+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
 10	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	14696793-n|Mineral+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?

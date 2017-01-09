@@ -3,8 +3,8 @@ sentence B = A young boy wearing a red swimsuit is jumping into a blue kiddies p
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,Human+,RecreationOrExercise+,Red=,NormativeAttribute+,Ambulating=,?,?,Motion+,StaticWaterArea+,?
-CONCEPTS B: ?,HumanYouth=,Human+,CoveringFn=,?,Red=,Clothing+,Entity+,Ambulating=,?,?,SubjectiveStrongNegativeAttribute+,?,StaticWaterArea+,?
+CONCEPTS A: Entity+,Human+,RecreationOrExercise+,Red=,NormativeAttribute+,Ambulating=,Motion+,StaticWaterArea+
+CONCEPTS B: HumanYouth=,Human+,CoveringFn=,Red=,Clothing+,Entity+,Ambulating=,SubjectiveStrongNegativeAttribute+,StaticWaterArea+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	paddling	paddle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	01419373-v|Motion+
 12	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	09397607-n|StaticWaterArea+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = There is no girl in a brown dress being surrounded by children and 
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human+,?,?,Human+,Clothing+,Entity+,Entity+,Process+,?,HumanChild=,?,Entity+,Closing=,?,Organ+,?
-CONCEPTS B: ?,Entity+,?,Human+,?,?,Human+,Clothing+,Entity+,Process+,?,HumanChild=,?,Closing=,?,Organ+,?
+CONCEPTS A: Human+,Human+,Clothing+,Entity+,Entity+,Process+,HumanChild=,Entity+,Closing=,Organ+
+CONCEPTS B: Entity+,Human+,Human+,Clothing+,Entity+,Process+,HumanChild=,Closing=,Organ+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	16	nmod:poss	_	?|?
 16	eyes	eye	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	14	dobj	_	05311054-n|Organ+
 17	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

@@ -3,8 +3,8 @@ sentence B = There is no one climbing on the grotto with a pink interior.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Group=,?,HumanChild=,Entity+,DramaticActing+,?,?,ColorAttribute+,Artifact+,?
-CONCEPTS B: ?,Entity+,?,PositiveInteger@,Increasing+,?,?,Cave+,?,?,Pink+,Inside=,?
+CONCEPTS A: Group=,HumanChild=,Entity+,DramaticActing+,ColorAttribute+,Artifact+
+CONCEPTS B: Entity+,PositiveInteger@,Increasing+,Cave+,Pink+,Inside=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	colorful	colorful	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00394562-a|ColorAttribute+
 10	structure	structure	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	04341686-n|Artifact+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

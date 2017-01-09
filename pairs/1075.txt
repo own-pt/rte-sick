@@ -3,8 +3,8 @@ sentence B = The young girl with a pink shirt is peacefully lying on the grass.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,SubjectiveWeakPositiveAttribute+,Human+,Entity+,PhysicalAttribute+,?,?,Grass=,Learning+,?,?,Pink+,Shirt=,?
-CONCEPTS B: ?,HumanYouth=,Human+,?,?,Pink+,Shirt=,Entity+,SubjectiveAssessmentAttribute+,PhysicalAttribute+,?,?,Grass=,?
+CONCEPTS A: HumanYouth=,SubjectiveWeakPositiveAttribute+,Human+,Entity+,PhysicalAttribute+,Grass=,Learning+,Pink+,Shirt=
+CONCEPTS B: HumanYouth=,Human+,Pink+,Shirt=,Entity+,SubjectiveAssessmentAttribute+,PhysicalAttribute+,Grass=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	pink	pink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	00379595-a|Pink+
 14	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	04197391-n|Shirt=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

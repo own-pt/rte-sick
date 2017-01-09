@@ -3,8 +3,8 @@ sentence B = A person is slicing a carrot into pieces.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Human=,Separating+,?,Carrot=,?,PreparedFood+,?
-CONCEPTS B: ?,Human=,Entity+,Separating+,?,Carrot=,?,PreparedFood+,?
+CONCEPTS A: Entity+,Human=,Separating+,Carrot=,PreparedFood+
+CONCEPTS B: Human=,Entity+,Separating+,Carrot=,PreparedFood+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	into	into	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
 9	pieces	piece	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	07654667-n|PreparedFood+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

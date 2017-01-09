@@ -3,8 +3,8 @@ sentence B = Four people are silently standing outdoors.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,White=,Hat+,Entity+,DramaticActing+,Guitar=,?,Attribute+,?
-CONCEPTS B: ?,GroupOfPeople=,Entity+,LinguisticCommunication[,PhysicalAttribute+,Outdoors+,?
+CONCEPTS A: Man=,White=,Hat+,Entity+,DramaticActing+,Guitar=,Attribute+
+CONCEPTS B: GroupOfPeople=,Entity+,LinguisticCommunication[,PhysicalAttribute+,Outdoors+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
 11	stage	stage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	13939892-n|Attribute+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	Four	4	ADJ	JJ	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

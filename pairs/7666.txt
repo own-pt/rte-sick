@@ -3,8 +3,8 @@ sentence B = The man is doing a handstand on the wet sand at the edge of the wat
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,IntentionalProcess+,?,BodyMotion+,?,?,Wetting=,ShoreArea=,?,?,Object+,?,?,Water=,?,?,ShoreArea=,?
-CONCEPTS B: ?,Hominid=,Entity+,IntentionalProcess+,?,BodyMotion+,?,?,Wetting=,Sand=,?,?,Object+,?,?,Water=,?,?,ShoreArea=,?
+CONCEPTS A: Hominid=,Entity+,IntentionalProcess+,BodyMotion+,Wetting=,ShoreArea=,Object+,Water=,ShoreArea=
+CONCEPTS B: Hominid=,Entity+,IntentionalProcess+,BodyMotion+,Wetting=,Sand=,Object+,Water=,ShoreArea=
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	?|?
 19	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09217230-n|ShoreArea=
 20	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

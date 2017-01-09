@@ -3,8 +3,8 @@ sentence B = A blonde girl is hanging by gymnastic ropes.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: GroupOfPeople=,Entity+,SubjectiveAssessmentAttribute+,?,Device+,?,Expressing+,?,?,equal+,?
-CONCEPTS B: ?,Human+,Human+,Entity+,PhysicalAttribute+,?,?,String+,?
+CONCEPTS A: GroupOfPeople=,Entity+,SubjectiveAssessmentAttribute+,Device+,Expressing+,equal+
+CONCEPTS B: Human+,Human+,Entity+,PhysicalAttribute+,String+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	each	each	DET	DT	fPOS=DET++DT	10	det	_	?|?
 10	other	other	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	nmod	_	02069355-a|equal+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

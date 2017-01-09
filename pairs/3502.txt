@@ -3,8 +3,8 @@ sentence B = A dog is licking a baby.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Canine+,Licking+,?,HumanBaby=,?
-CONCEPTS B: ?,Canine+,Entity+,Licking+,?,HumanBaby=,?
+CONCEPTS A: Entity+,Canine+,Licking+,HumanBaby=
+CONCEPTS B: Canine+,Entity+,Licking+,HumanBaby=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	baby	baby	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	09827683-n|HumanBaby=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

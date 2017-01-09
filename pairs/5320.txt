@@ -3,8 +3,8 @@ sentence B = Someone is playing piano.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Piano=,Entity+,Entity+,DramaticActing+,?,?,?
-CONCEPTS B: ?,Entity+,DramaticActing+,Piano=,?
+CONCEPTS A: Piano=,Entity+,Entity+,DramaticActing+
+CONCEPTS B: Entity+,DramaticActing+,Piano=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	by	by	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
 7	someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	?|?
 8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?

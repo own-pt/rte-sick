@@ -3,8 +3,8 @@ sentence B = There is no couple running towards the ocean.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,Woman=,Entity+,Attribute+,Meeting=,?,Obligation+,Hand+,?
-CONCEPTS B: ?,Entity+,?,Entity+,Attribute+,?,?,Ocean=,?
+CONCEPTS A: Man=,Woman=,Entity+,Attribute+,Meeting=,Obligation+,Hand+
+CONCEPTS B: Entity+,Entity+,Attribute+,Ocean=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	conj	_	02203362-v|Obligation+
 11	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	dobj	_	05564590-n|Hand+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

@@ -3,8 +3,8 @@ sentence B = Two balls are bouncing against some colorful kids.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,CoveringFn=,Black=,Clothing+,?,Motion+,?
-CONCEPTS B: ?,Ball=,Entity+,Motion+,?,?,ColorAttribute+,HumanChild=,?
+CONCEPTS A: HumanChild=,Entity+,CoveringFn=,Black=,Clothing+,Motion+
+CONCEPTS B: Ball=,Entity+,Motion+,ColorAttribute+,HumanChild=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
 8	hopping	hop	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	02095211-v|Motion+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

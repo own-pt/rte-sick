@@ -3,8 +3,8 @@ sentence B = Two men are fist fighting in a ring.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,Fist=,ViolentContest+,?,?,Jewelry+,?
-CONCEPTS B: ?,Hominid=,Entity+,Fist=,ViolentContest+,?,?,Jewelry+,?
+CONCEPTS A: Entity+,Fist=,ViolentContest+,Jewelry+
+CONCEPTS B: Hominid=,Entity+,Fist=,ViolentContest+,Jewelry+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	ring	ring	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04092609-n|Jewelry+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

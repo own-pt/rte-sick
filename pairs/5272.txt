@@ -3,8 +3,8 @@ sentence B = Someone is folding a piece of paper.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human=,Entity+,Folding+,?,TimeDuration+,?,Newspaper=,?
-CONCEPTS B: ?,Entity+,Folding+,?,TimeDuration+,?,Newspaper=,?
+CONCEPTS A: Human=,Entity+,Folding+,TimeDuration+,Newspaper=
+CONCEPTS B: Entity+,Folding+,TimeDuration+,Newspaper=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
 8	paper	paper	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	06267145-n|Newspaper=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Someone	someone	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?

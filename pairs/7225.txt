@@ -3,8 +3,8 @@ sentence B = A boy, who is young, is jumping in the air with his knees bent and 
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,Entity+,Ambulating=,?,?,AirTransportation+,?,?,Knee+,Grass+,?,Sleeve+,Putting+,?
-CONCEPTS B: ?,Human+,?,?,Entity+,HumanYouth=,?,Entity+,Ambulating=,?,?,AirTransportation+,?,?,Knee+,Grass+,?,Sleeve+,Putting+,?
+CONCEPTS A: HumanYouth=,Human+,Entity+,Ambulating=,AirTransportation+,Knee+,Grass+,Sleeve+,Putting+
+CONCEPTS B: Human+,Entity+,HumanYouth=,Entity+,Ambulating=,AirTransportation+,Knee+,Grass+,Sleeve+,Putting+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	arms	arm	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	15	compound	_	04236377-n|Sleeve+
 15	spread	spread	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	conj	_	07445896-n|Putting+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

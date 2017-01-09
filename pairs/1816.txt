@@ -3,8 +3,8 @@ sentence B = A cook is slicing some bell peppers.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,SubjectiveAssessmentAttribute+,Separating+,?,Bell=,SpicePepper=,?
-CONCEPTS B: ?,Human+,Entity+,Separating+,?,Bell=,SpicePepper=,?
+CONCEPTS A: Human+,Entity+,SubjectiveAssessmentAttribute+,Separating+,Bell=,SpicePepper=
+CONCEPTS B: Human+,Entity+,Separating+,Bell=,SpicePepper=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	bell	bell	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	8	compound	_	02824448-n|Bell=
 8	peppers	pepper	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	07815588-n|SpicePepper=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

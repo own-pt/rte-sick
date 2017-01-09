@@ -3,8 +3,8 @@ sentence B = Two girls are playing inside a jumper house.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,?,SubjectiveWeakPositiveAttribute+,SurfaceChange+,Clothing=,Entity+,PhysicalAttribute+,?,?,Weapon=,Process+,?
-CONCEPTS B: ?,Human+,Entity+,DramaticActing+,?,?,SocialRole+,Auditorium+,?
+CONCEPTS A: HumanChild=,SubjectiveWeakPositiveAttribute+,SurfaceChange+,Clothing=,Entity+,PhysicalAttribute+,Weapon=,Process+
+CONCEPTS B: Human+,Entity+,DramaticActing+,SocialRole+,Auditorium+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	arms	arm	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	04565375-n|Weapon=
 12	crossed	cross	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	11	acl	_	02023396-v|Process+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = A blond boy is sliding down a sand dune on a skateboard.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,?,earlier+,?,TraitAttribute=,?,?,Woman=,Entity+,PhysicalAttribute+,?,?,?
-CONCEPTS B: ?,Human+,Human+,Entity+,Translocation+,earlier+,?,Sand=,Sand+,?,?,TransportationDevice+,?
+CONCEPTS A: Woman=,Entity+,earlier+,TraitAttribute=,Woman=,Entity+,PhysicalAttribute+
+CONCEPTS B: Human+,Human+,Entity+,Translocation+,earlier+,Sand=,Sand+,TransportationDevice+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	behind	behind	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
 14	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	12	nmod	_	?|?
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

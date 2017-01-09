@@ -3,8 +3,8 @@ sentence B = A man is dancing.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,Hominid=,Speaking+,?
-CONCEPTS B: ?,Hominid=,Entity+,Dancing+,?
+CONCEPTS A: Entity+,Hominid=,Speaking+
+CONCEPTS B: Hominid=,Entity+,Dancing+
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	man	man	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	5	compound	_	02472293-n|Hominid=
 5	speaking	speak	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	00963570-v|Speaking+
 6	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

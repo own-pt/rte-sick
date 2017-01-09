@@ -3,8 +3,8 @@ sentence B = A person with pink climbing gear roped the rock.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Increasing+,?,Cliff=,?,?,String+,?
-CONCEPTS B: ?,Human=,?,Pink+,Increasing+,Gear=,Guiding+,?,Mineral+,?
+CONCEPTS A: Hominid=,Entity+,Increasing+,Cliff=,String+
+CONCEPTS B: Human=,Pink+,Increasing+,Gear=,Guiding+,Mineral+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	04108268-n|String+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

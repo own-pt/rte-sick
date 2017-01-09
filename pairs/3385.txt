@@ -3,8 +3,8 @@ sentence B = A panda bear is eating some bamboo.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Carnivore+,Mammal+,Process+,?,Bamboo=,?
-CONCEPTS B: ?,Carnivore+,Mammal+,Entity+,Process+,?,Bamboo=,?
+CONCEPTS A: Entity+,Carnivore+,Mammal+,Process+,Bamboo=
+CONCEPTS B: Carnivore+,Mammal+,Entity+,Process+,Bamboo=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	some	some	DET	DT	fPOS=DET++DT	8	det	_	?|?
 8	bamboo	bamboo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	12147226-n|Bamboo=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

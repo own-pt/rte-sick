@@ -3,8 +3,8 @@ sentence B = A sitting man is busy writing something in an area covered by paint
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,PhysicalAttribute+,SittingDown+,?,?,Bicycle=,?,PhysicalAttribute+,WrittenCommunication=,?,FactualText=,?
-CONCEPTS B: ?,SittingDown+,Hominid=,PhysicalAttribute+,SubjectiveWeakNegativeAttribute+,WrittenCommunication=,?,?,?,GeographicArea+,Growth+,?,Paint+,?
+CONCEPTS A: Hominid=,PhysicalAttribute+,SittingDown+,Bicycle=,PhysicalAttribute+,WrittenCommunication=,FactualText=
+CONCEPTS B: SittingDown+,Hominid=,PhysicalAttribute+,SubjectiveWeakNegativeAttribute+,WrittenCommunication=,GeographicArea+,Growth+,Paint+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	note	note	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	06504462-n|FactualText=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

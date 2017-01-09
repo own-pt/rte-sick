@@ -3,8 +3,8 @@ sentence B = There is no girl in pink twirling a ribbon.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human+,?,ColorAttribute+,Entity+,Transfer+,?,ArtWork+,?
-CONCEPTS B: ?,Entity+,?,Human+,?,ColorAttribute+,Transfer+,?,ArtWork+,?
+CONCEPTS A: Human+,ColorAttribute+,Entity+,Transfer+,ArtWork+
+CONCEPTS B: Entity+,Human+,ColorAttribute+,Transfer+,ArtWork+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	ribbon	ribbon	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	04087899-n|ArtWork+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

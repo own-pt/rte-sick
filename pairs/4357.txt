@@ -3,8 +3,8 @@ sentence B = A jet is flying.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,RadiatingSound+,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,JetAirplane=,Entity+,FlyingAircraft=,?
+CONCEPTS A: Canine+,Entity+,RadiatingSound+,SubjectiveAssessmentAttribute+
+CONCEPTS B: JetAirplane=,Entity+,FlyingAircraft=
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	barking	bark	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01047745-v|RadiatingSound+
 5	noisily	noisily	ADV	RB	fPOS=ADV++RB	4	advmod	_	00229255-r|SubjectiveAssessmentAttribute+
 6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

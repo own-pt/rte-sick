@@ -3,8 +3,8 @@ sentence B = A dog is jumping at dry leaves in a field of shiny blue soccer ball
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Ambulating=,?,?,SurfaceChange+,SubjectiveStrongNegativeAttribute+,Soccer=,Ball=,?,?,FieldOfStudy=,?,Dry=,Leaf=,?
-CONCEPTS B: ?,Canine+,Entity+,Ambulating=,?,Dry=,Leaf=,?,?,FieldOfStudy=,?,SurfaceChange+,SubjectiveStrongNegativeAttribute+,Soccer=,Ball=,?
+CONCEPTS A: Canine+,Entity+,Ambulating=,SurfaceChange+,SubjectiveStrongNegativeAttribute+,Soccer=,Ball=,FieldOfStudy=,Dry=,Leaf=
+CONCEPTS B: Canine+,Entity+,Ambulating=,Dry=,Leaf=,FieldOfStudy=,SurfaceChange+,SubjectiveStrongNegativeAttribute+,Soccer=,Ball=
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	dry	dry	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	amod	_	02551380-a|Dry=
 16	leaves	leaf	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	nmod	_	13152742-n|Leaf=
 17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

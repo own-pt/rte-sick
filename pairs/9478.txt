@@ -3,8 +3,8 @@ sentence B = Two dogs are fighting.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Black=,Canine+,?,?,ColorAttribute+,Canine+,Entity+,ViolentContest+,?
-CONCEPTS B: ?,Canine+,Entity+,ViolentContest+,?
+CONCEPTS A: Black=,Canine+,ColorAttribute+,Canine+,Entity+,ViolentContest+
+CONCEPTS B: Canine+,Entity+,ViolentContest+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	9	aux	_	02604760-v|Entity+
 9	fighting	fight	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01090335-v|ViolentContest+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	compound	_	?|?

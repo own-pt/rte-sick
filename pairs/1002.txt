@@ -3,8 +3,8 @@ sentence B = A boy is standing in front of the blue building in the space reserv
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Human+,SocialRole+,?,FrontFn=,?,?,SubjectiveStrongNegativeAttribute+,Building=,?,?,OuterSpaceRegion+,Reserving=,?,RegulatoryProcess+,GroupOfPeople=,?
-CONCEPTS B: ?,Human+,Entity+,PhysicalAttribute+,?,FrontFn=,?,?,SubjectiveStrongNegativeAttribute+,Building=,?,?,OuterSpaceRegion+,Reserving=,?,RegulatoryProcess+,GroupOfPeople=,?
+CONCEPTS A: Entity+,Human+,SocialRole+,FrontFn=,SubjectiveStrongNegativeAttribute+,Building=,OuterSpaceRegion+,Reserving=,RegulatoryProcess+,GroupOfPeople=
+CONCEPTS B: Human+,Entity+,PhysicalAttribute+,FrontFn=,SubjectiveStrongNegativeAttribute+,Building=,OuterSpaceRegion+,Reserving=,RegulatoryProcess+,GroupOfPeople=
 
 CONLL A:
 
@@ -27,6 +27,8 @@ CONLL A:
 17	handicapped	handicap	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	18	amod	_	01085474-v|RegulatoryProcess+
 18	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	15	nmod	_	07942152-n|GroupOfPeople=
 19	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

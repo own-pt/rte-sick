@@ -3,8 +3,8 @@ sentence B = The boy and the girl are not playing and wearing arm floats.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human+,?,?,Human+,Entity+,DramaticActing+,?,RecreationOrExercise+,Weapon=,Beverage+,?
-CONCEPTS B: ?,Human+,?,?,Human+,Entity+,not=,DramaticActing+,?,RecreationOrExercise+,Weapon=,Beverage+,?
+CONCEPTS A: Human+,Human+,Entity+,DramaticActing+,RecreationOrExercise+,Weapon=,Beverage+
+CONCEPTS B: Human+,Human+,Entity+,not=,DramaticActing+,RecreationOrExercise+,Weapon=,Beverage+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	arm	arm	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	04565375-n|Weapon=
 11	floats	float	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	dobj	_	07923034-n|Beverage+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

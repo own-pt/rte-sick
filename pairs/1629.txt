@@ -3,8 +3,8 @@ sentence B = Some ingredients are being mixed in a bowl by a person.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,Entity+,Sport+,?,Substance+,?,?,Hominid=,?,?,Device+,?
-CONCEPTS B: ?,Abstract+,Entity+,Entity+,IntentionalProcess+,?,?,Dish+,?,?,Human=,?
+CONCEPTS A: Human=,Entity+,Sport+,Substance+,Hominid=,Device+
+CONCEPTS B: Abstract+,Entity+,Entity+,IntentionalProcess+,Dish+,Human=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	mixer	mixer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03775199-n|Device+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?

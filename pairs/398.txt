@@ -3,8 +3,8 @@ sentence B = A man with paint covered clothes is sitting outside in a busy area 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,PhysicalAttribute+,SittingDown+,?,?,Bicycle=,?,PhysicalAttribute+,WrittenCommunication=,?,FactualText=,?
-CONCEPTS B: ?,Man=,?,Painting=,Covering+,Clothing+,PhysicalAttribute+,SittingDown+,?,?,?,SubjectiveWeakNegativeAttribute+,GeographicArea+,WrittenCommunication=,?,?
+CONCEPTS A: Hominid=,PhysicalAttribute+,SittingDown+,Bicycle=,PhysicalAttribute+,WrittenCommunication=,FactualText=
+CONCEPTS B: Man=,Painting=,Covering+,Clothing+,PhysicalAttribute+,SittingDown+,SubjectiveWeakNegativeAttribute+,GeographicArea+,WrittenCommunication=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	note	note	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	06504462-n|FactualText=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

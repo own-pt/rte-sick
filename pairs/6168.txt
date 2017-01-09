@@ -3,8 +3,8 @@ sentence B = A boy and a girl are naked.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,?,Human+,Entity+,DramaticActing+,?,RecreationOrExercise+,Weapon=,Beverage+,?
-CONCEPTS B: ?,Human+,?,?,Human+,Entity+,Clothing[,?
+CONCEPTS A: Human+,Human+,Entity+,DramaticActing+,RecreationOrExercise+,Weapon=,Beverage+
+CONCEPTS B: Human+,Human+,Entity+,Clothing[
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	arm	arm	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	04565375-n|Weapon=
 11	floats	float	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	dobj	_	07923034-n|Beverage+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

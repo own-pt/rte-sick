@@ -3,8 +3,8 @@ sentence B = A girl is filing her nails.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Human+,RegulatoryProcess+,?,Nail=,?
-CONCEPTS B: ?,Human+,Entity+,RegulatoryProcess+,?,Nail=,?
+CONCEPTS A: Entity+,Human+,RegulatoryProcess+,Nail=
+CONCEPTS B: Human+,Entity+,RegulatoryProcess+,Nail=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	7	nmod:poss	_	?|?
 7	nails	nail	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	03804744-n|Nail=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

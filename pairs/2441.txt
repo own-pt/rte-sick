@@ -3,8 +3,8 @@ sentence B = A man is playing the keyboard with his nose.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Hominid=,DramaticActing+,?,Piano=,?,?,Nose+,?
-CONCEPTS B: ?,Hominid=,Entity+,DramaticActing+,?,ComputerInputDevice+,?,?,Nose+,?
+CONCEPTS A: Entity+,Hominid=,DramaticActing+,Piano=,Nose+
+CONCEPTS B: Hominid=,Entity+,DramaticActing+,ComputerInputDevice+,Nose+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	10	nmod:poss	_	?|?
 10	nose	nose	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	05598147-n|Nose+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

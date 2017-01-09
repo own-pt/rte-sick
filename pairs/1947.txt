@@ -3,8 +3,8 @@ sentence B = One small child is filling the cup with water.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,Drinking+,Water=,?,?,Cup=,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,IntentionalProcess+,?,Cup=,?,Water=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,Drinking+,Water=,Cup=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,IntentionalProcess+,Cup=,Water=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	cup	cup	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03147509-n|Cup=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?

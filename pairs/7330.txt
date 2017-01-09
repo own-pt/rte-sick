@@ -3,8 +3,8 @@ sentence B = Three men are looking at something nearby.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Looking=,?,?,SubjectiveWeakPositiveAttribute+,Green=,Hill=,?,?,LengthMeasure+,?
-CONCEPTS B: ?,Hominid=,Entity+,SubjectiveAssessmentAttribute+,?,?,Near=,?
+CONCEPTS A: Hominid=,Entity+,Looking=,SubjectiveWeakPositiveAttribute+,Green=,Hill=,LengthMeasure+
+CONCEPTS B: Hominid=,Entity+,SubjectiveAssessmentAttribute+,Near=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	distance	distance	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	05084201-n|LengthMeasure+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Three	3	DET	DT	Number=Plur|PronType=Dem|fPOS=DET++DT	2	det	_	?|?

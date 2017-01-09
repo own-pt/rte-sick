@@ -3,8 +3,8 @@ sentence B = The blonde girl with the pink top is not smiling and not wearing fu
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Smiling=,?,CoveringFn=,?,SubjectiveAssessmentAttribute+,Nose+,?,Cup=,?
-CONCEPTS B: ?,Human+,Human+,?,?,Pink+,PositionalAttribute+,Entity+,not=,Smiling=,?,not=,CoveringFn=,SubjectiveStrongPositiveAttribute+,Cup=,?,?,SubjectiveWeakPositiveAttribute+,Nose+,Attaching=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Smiling=,CoveringFn=,SubjectiveAssessmentAttribute+,Nose+,Cup=
+CONCEPTS B: Human+,Human+,Pink+,PositionalAttribute+,Entity+,not=,Smiling=,not=,CoveringFn=,SubjectiveStrongPositiveAttribute+,Cup=,SubjectiveWeakPositiveAttribute+,Nose+,Attaching=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	and	and	CONJ	CC	fPOS=CONJ++CC	10	cc	_	?|?
 12	glasses	glass	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	conj	_	03438257-n|Cup=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

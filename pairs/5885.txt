@@ -3,8 +3,8 @@ sentence B = A skateboarder is doing tricks on a half pipe.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,?,?,?,RationalNumber+,Tube+,?
-CONCEPTS B: ?,Human+,Entity+,IntentionalProcess+,RecreationOrExercise+,?,?,RationalNumber+,Tube+,?
+CONCEPTS A: Human+,Entity+,RationalNumber+,Tube+
+CONCEPTS B: Human+,Entity+,IntentionalProcess+,RecreationOrExercise+,RationalNumber+,Tube+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	half	half	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	13736799-n|RationalNumber+
 8	pipe	pipe	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03944672-n|Tube+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

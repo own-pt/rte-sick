@@ -3,8 +3,8 @@ sentence B = The girl in a dyed red shirt isn't blowing a bubble.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,Entity+,Exhaling+,?,Bubble+,?,Entity+,SubjectiveWeakNegativeAttribute+,?
-CONCEPTS B: ?,Human+,?,?,Coloring+,Red=,Shirt=,Entity+,not=,Exhaling+,?,Bubble+,?
+CONCEPTS A: HumanYouth=,Human+,Entity+,Exhaling+,Bubble+,Entity+,SubjectiveWeakNegativeAttribute+
+CONCEPTS B: Human+,Coloring+,Red=,Shirt=,Entity+,not=,Exhaling+,Bubble+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	10	cop	_	02604760-v|Entity+
 10	huge	huge	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	acl:relcl	_	01387319-a|SubjectiveWeakNegativeAttribute+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

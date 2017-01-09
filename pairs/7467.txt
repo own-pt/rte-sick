@@ -3,8 +3,8 @@ sentence B = The group of people is sitting in a dim room.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Group=,?,GroupOfPeople=,PhysicalAttribute+,not=,SittingDown+,?,?,Decreasing+,Room=,?
-CONCEPTS B: ?,Group=,?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,?,Decreasing+,Room=,?
+CONCEPTS A: Group=,GroupOfPeople=,PhysicalAttribute+,not=,SittingDown+,Decreasing+,Room=
+CONCEPTS B: Group=,GroupOfPeople=,PhysicalAttribute+,SittingDown+,Decreasing+,Room=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	dim	dim	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	00284575-a|Decreasing+
 11	room	room	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	04105893-n|Room=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

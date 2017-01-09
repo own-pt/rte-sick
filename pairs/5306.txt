@@ -3,8 +3,8 @@ sentence B = Potatoes are being sliced by a man.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Separating+,?,PotatoTuber=,?
-CONCEPTS B: PotatoTuber=,Entity+,Entity+,Separating+,?,?,Hominid=,?
+CONCEPTS A: Hominid=,Entity+,Separating+,PotatoTuber=
+CONCEPTS B: PotatoTuber=,Entity+,Entity+,Separating+,Hominid=
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
 6	potato	potato	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07710616-n|PotatoTuber=
 7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Potatoes	potato	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubjpass	_	07710616-n|PotatoTuber=

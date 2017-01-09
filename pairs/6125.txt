@@ -3,8 +3,8 @@ sentence B = A young boy wearing a red swimsuit is jumping into a blue kiddies p
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human+,?,?,SubjectiveAssessmentAttribute+,HumanYouth=,?,Entity+,Dressing+,?,Red=,Clothing+,?,Entity+,Ambulating=,?,?,SubjectiveStrongNegativeAttribute+,?,StaticWaterArea+,?
-CONCEPTS B: ?,HumanYouth=,Human+,CoveringFn=,?,Red=,Clothing+,Entity+,Ambulating=,?,?,SubjectiveStrongNegativeAttribute+,?,StaticWaterArea+,?
+CONCEPTS A: Human+,SubjectiveAssessmentAttribute+,HumanYouth=,Entity+,Dressing+,Red=,Clothing+,Entity+,Ambulating=,SubjectiveStrongNegativeAttribute+,StaticWaterArea+
+CONCEPTS B: HumanYouth=,Human+,CoveringFn=,Red=,Clothing+,Entity+,Ambulating=,SubjectiveStrongNegativeAttribute+,StaticWaterArea+
 
 CONLL A:
 
@@ -29,6 +29,8 @@ CONLL A:
 19	kiddies	kiddies	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	20	compound	_	?|?
 20	pool	pool	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	15	nmod	_	09397607-n|StaticWaterArea+
 21	.	.	PUNCT	.	fPOS=PUNCT++.	15	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

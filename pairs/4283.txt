@@ -3,8 +3,8 @@ sentence B = A man and a woman are shaking hands.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute+,Woman=,Entity+,Motion+,Hand+,?,?,Man=,?
-CONCEPTS B: ?,Man=,?,?,Woman=,Entity+,Motion+,Hand+,?
+CONCEPTS A: SubjectiveAssessmentAttribute+,Woman=,Entity+,Motion+,Hand+,Man=
+CONCEPTS B: Man=,Woman=,Entity+,Motion+,Hand+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	10287213-n|Man=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

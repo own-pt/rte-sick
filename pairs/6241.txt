@@ -3,8 +3,8 @@ sentence B = The malnourished looking dog is standing on its hind legs and is pr
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,DiseaseOrSyndrome+,SubjectiveAssessmentAttribute+,Canine+,Entity+,PhysicalAttribute+,?,?,BackFn+,Limb=,?,Learning+,?,Ambulating=,?
-CONCEPTS B: ?,DiseaseOrSyndrome+,SubjectiveAssessmentAttribute+,Canine+,Entity+,PhysicalAttribute+,?,?,BackFn+,Limb=,?,Entity+,Learning+,?,Ambulating=,?
+CONCEPTS A: DiseaseOrSyndrome+,SubjectiveAssessmentAttribute+,Canine+,Entity+,PhysicalAttribute+,BackFn+,Limb=,Learning+,Ambulating=
+CONCEPTS B: DiseaseOrSyndrome+,SubjectiveAssessmentAttribute+,Canine+,Entity+,PhysicalAttribute+,BackFn+,Limb=,Entity+,Learning+,Ambulating=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	to	to	PART	TO	fPOS=ADP++IN	14	mark	_	?|?
 14	jump	jump	VERB	VB	Number=Sing|fPOS=NOUN++NN	12	xcomp	_	01963942-v|Ambulating=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	4	det	_	?|?

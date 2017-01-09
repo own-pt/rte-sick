@@ -3,8 +3,8 @@ sentence B = Children are playing in a fountain that is spraying water from the 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,DramaticActing+,?,?,Water=,Creek+,?,FrontFn=,?,SubjectiveAssessmentAttribute+,?,GroupOfPeople=,?
-CONCEPTS B: HumanChild=,Entity+,DramaticActing+,?,?,Creek+,?,Entity+,Spraying=,Water=,?,?,LandArea=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,DramaticActing+,Water=,Creek+,FrontFn=,SubjectiveAssessmentAttribute+,GroupOfPeople=
+CONCEPTS B: HumanChild=,Entity+,DramaticActing+,Creek+,Entity+,Spraying=,Water=,LandArea=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	of	of	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
 14	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	nmod	_	07942152-n|GroupOfPeople=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	09917593-n|HumanChild=

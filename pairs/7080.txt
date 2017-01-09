@@ -3,8 +3,8 @@ sentence B = A black dog is standing in deep water.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Black=,Canine+,?,?,Red=,Collar+,Entity+,Putting=,?,Face+,?,?,Water=,?
-CONCEPTS B: ?,Black=,Canine+,Entity+,PhysicalAttribute+,?,PositionalAttribute+,Water=,?
+CONCEPTS A: Black=,Canine+,Red=,Collar+,Entity+,Putting=,Face+,Water=
+CONCEPTS B: Black=,Canine+,Entity+,PhysicalAttribute+,PositionalAttribute+,Water=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	14845743-n|Water=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

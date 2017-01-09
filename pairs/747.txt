@@ -3,8 +3,8 @@ sentence B = A married couple is walking down the aisle.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,?,SocialRole+,Entity+,Arriving=,?,?,Wedding=,?
-CONCEPTS B: ?,Wedding+,Entity+,Entity+,Walking=,earlier+,?,LandTransitway+,?
+CONCEPTS A: Human+,SocialRole+,Entity+,Arriving=,Wedding=
+CONCEPTS B: Wedding+,Entity+,Entity+,Walking=,earlier+,LandTransitway+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	wedding	wedding	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	07452074-n|Wedding=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Some students in uniforms are listening attentively at the front of
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Group=,?,SocialRole+,?,UniformClothing=,Entity+,Listening=,SubjectiveAssessmentAttribute+,?,?,FrontFn=,?,?,Organization+,?
-CONCEPTS B: ?,SocialRole+,?,UniformClothing=,Entity+,Listening=,SubjectiveAssessmentAttribute+,?,?,FrontFn=,?,?,Organization+,?
+CONCEPTS A: Group=,SocialRole+,UniformClothing=,Entity+,Listening=,SubjectiveAssessmentAttribute+,FrontFn=,Organization+
+CONCEPTS B: SocialRole+,UniformClothing=,Entity+,Listening=,SubjectiveAssessmentAttribute+,FrontFn=,Organization+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	class	class	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	08239808-n|Organization+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?

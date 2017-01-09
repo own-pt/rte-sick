@@ -3,8 +3,8 @@ sentence B = The person is standing on white ice.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human=,Entity+,not=,PhysicalAttribute+,?,White=,Solid+,?
-CONCEPTS B: ?,Human=,Entity+,PhysicalAttribute+,?,White=,Solid+,?
+CONCEPTS A: Human=,Entity+,not=,PhysicalAttribute+,White=,Solid+
+CONCEPTS B: Human=,Entity+,PhysicalAttribute+,White=,Solid+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	00393105-a|White=
 8	ice	ice	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	14915184-n|Solid+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

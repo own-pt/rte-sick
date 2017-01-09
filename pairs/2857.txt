@@ -3,8 +3,8 @@ sentence B = Two cats are fighting each other.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Whip+,Entity+,PhysicalAttribute+,Meeting=,?
-CONCEPTS B: ?,Whip+,Entity+,ViolentContest+,?,equal+,?
+CONCEPTS A: Whip+,Entity+,PhysicalAttribute+,Meeting=
+CONCEPTS B: Whip+,Entity+,ViolentContest+,equal+
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02690708-v|PhysicalAttribute+
 5	together	together	ADV	RB	fPOS=ADV++RB	4	advmod	_	00507927-r|Meeting=
 6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

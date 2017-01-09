@@ -3,8 +3,8 @@ sentence B = A funny crowd of people is doing a skit of two boxing men.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,Entity+,MakingVocalMusic=,?,?,Woman=,?
-CONCEPTS B: ?,SubjectiveStrongPositiveAttribute+,SubjectiveAssessmentAttribute=,?,GroupOfPeople=,Entity+,IntentionalProcess+,?,Pretending+,?,?,ViolentContest+,Hominid=,?
+CONCEPTS A: Man=,Entity+,MakingVocalMusic=,Woman=
+CONCEPTS B: SubjectiveStrongPositiveAttribute+,SubjectiveAssessmentAttribute=,GroupOfPeople=,Entity+,IntentionalProcess+,Pretending+,ViolentContest+,Hominid=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	10787470-n|Woman=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

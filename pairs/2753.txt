@@ -3,8 +3,8 @@ sentence B = Soccer players are kicking a soccer ball into the goal.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,GroupOfPeople=,?,DramaticActing+,Soccer=,Entity+,Impelling+,?,Soccer=,Ball=,?,?,GameGoal=,?
-CONCEPTS B: Soccer=,Human+,Entity+,Impelling+,?,Soccer=,Ball=,?,?,GameGoal=,?
+CONCEPTS A: GroupOfPeople=,DramaticActing+,Soccer=,Entity+,Impelling+,Soccer=,Ball=,GameGoal=
+CONCEPTS B: Soccer=,Human+,Entity+,Impelling+,Soccer=,Ball=,GameGoal=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	goal	goal	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	03442756-n|GameGoal=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	Soccer	soccer	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	2	amod	_	00478262-n|Soccer=

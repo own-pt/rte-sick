@@ -3,8 +3,8 @@ sentence B = The child is playing with toys indoors.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,HumanChild=,Entity+,RecreationOrExercise+,?,White=,Coat=,?,DramaticActing+,?,Game=,?
-CONCEPTS B: ?,HumanChild=,Entity+,DramaticActing+,?,RecreationOrExerciseDevice+,Indoors+,?
+CONCEPTS A: HumanYouth=,HumanChild=,Entity+,RecreationOrExercise+,White=,Coat=,DramaticActing+,Game=
+CONCEPTS B: HumanChild=,Entity+,DramaticActing+,RecreationOrExerciseDevice+,Indoors+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	game	game	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	00455599-n|Game=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

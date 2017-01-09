@@ -3,8 +3,8 @@ sentence B = There is no blonde lady looking at a tower.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,SubjectiveAssessmentAttribute+,?,?,VisualAttribute+,?,?,City=,?
-CONCEPTS B: ?,Entity+,?,Human+,Human+,SubjectiveAssessmentAttribute+,?,?,Building+,?
+CONCEPTS A: Woman=,Entity+,SubjectiveAssessmentAttribute+,VisualAttribute+,City=
+CONCEPTS B: Entity+,Human+,Human+,SubjectiveAssessmentAttribute+,Building+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	city	city	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	08524735-n|City=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

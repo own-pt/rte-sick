@@ -3,8 +3,8 @@ sentence B = The little dog is grabbing the bedroom slipper with its mouth.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Grabbing+,?,Bedroom+,Shoe+,?,?,Mouth+,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Grabbing+,?,Bedroom+,Shoe+,?,?,Mouth+,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Grabbing+,Bedroom+,Shoe+,Mouth+,SubjectiveAssessmentAttribute+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Grabbing+,Bedroom+,Shoe+,Mouth+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	05302499-n|Mouth+
 12	funnily	funnily	ADV	RB	Number=Sing|fPOS=NOUN++NN	5	advmod	_	00437381-r|SubjectiveAssessmentAttribute+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

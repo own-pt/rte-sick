@@ -3,8 +3,8 @@ sentence B = A white dog is running through a snowy trail.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Canine+,Entity+,Attribute+,?,?,Covering+,Trail+,?
-CONCEPTS B: ?,Covering+,Canine+,Entity+,Attribute+,?,?,Covering+,Trail+,?
+CONCEPTS A: Human+,Canine+,Entity+,Attribute+,Covering+,Trail+
+CONCEPTS B: Covering+,Canine+,Entity+,Attribute+,Covering+,Trail+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	snowy	snowy	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	01698231-a|Covering+
 9	trail	trail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	04466613-n|Trail+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

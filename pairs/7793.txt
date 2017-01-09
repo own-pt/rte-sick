@@ -3,8 +3,8 @@ sentence B = A snowboarding man is jumping through the air.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,Human=,CoveringFn=,Gray+,Trousers+,?,Entity+,AirTransportation+,?,?,BoardOrBlock+,?
-CONCEPTS B: ?,?,Hominid=,Entity+,Ambulating=,?,?,AirTransportation+,?
+CONCEPTS A: Entity+,Human=,CoveringFn=,Gray+,Trousers+,Entity+,AirTransportation+,BoardOrBlock+
+CONCEPTS B: Hominid=,Entity+,Ambulating=,AirTransportation+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	snowboard	snowboard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	04251791-n|BoardOrBlock+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = There is no blond child holding a yellow bottle.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human+,HumanChild=,Entity+,Process+,?,SubjectiveAssessmentAttribute+,Bottle=,?
-CONCEPTS B: ?,Entity+,?,Human+,HumanChild=,Process+,?,SubjectiveAssessmentAttribute+,Bottle=,?
+CONCEPTS A: Human+,HumanChild=,Entity+,Process+,SubjectiveAssessmentAttribute+,Bottle=
+CONCEPTS B: Entity+,Human+,HumanChild=,Process+,SubjectiveAssessmentAttribute+,Bottle=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	02101942-a|SubjectiveAssessmentAttribute+
 8	bottle	bottle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02876657-n|Bottle=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

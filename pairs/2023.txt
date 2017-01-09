@@ -3,8 +3,8 @@ sentence B = A magic trick is being performed by the magician.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,SubjectiveAssessmentAttribute+,Impelling+,CuttingDevice+,?,?,ContentBearingObject+,?
-CONCEPTS B: ?,SubjectiveStrongPositiveAttribute+,RecreationOrExercise+,Entity+,Entity+,IntentionalProcess+,?,?,SkilledOccupation+,?
+CONCEPTS A: Hominid=,Entity+,SubjectiveAssessmentAttribute+,Impelling+,CuttingDevice+,ContentBearingObject+
+CONCEPTS B: SubjectiveStrongPositiveAttribute+,RecreationOrExercise+,Entity+,Entity+,IntentionalProcess+,SkilledOccupation+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	13912260-n|ContentBearingObject+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

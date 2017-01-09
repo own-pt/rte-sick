@@ -3,8 +3,8 @@ sentence B = A person is lying on the top of the rocks with clouds behind them.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,PhysicalAttribute+,?,?,PositionalAttribute+,?,?,Mineral+,?,Cloud=,?,?,?
-CONCEPTS B: ?,Human=,Entity+,PhysicalAttribute+,?,?,PositionalAttribute+,?,?,Mineral+,?,Cloud=,?,?,?
+CONCEPTS A: Hominid=,Entity+,PhysicalAttribute+,PositionalAttribute+,Mineral+,Cloud=
+CONCEPTS B: Human=,Entity+,PhysicalAttribute+,PositionalAttribute+,Mineral+,Cloud=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	behind	behind	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
 14	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|fPOS=PRON++PRP	12	nmod	_	?|?
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

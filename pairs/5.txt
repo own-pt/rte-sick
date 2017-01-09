@@ -3,8 +3,8 @@ sentence B = A group of kids is playing in a yard and an old man is standing in 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,DramaticActing+,Outdoors+,?,?,Hominid=,?,?,Smiling+,?
-CONCEPTS B: ?,Group=,?,HumanChild=,Entity+,DramaticActing+,?,?,LandArea=,?,?,SubjectiveAssessmentAttribute+,Hominid=,Entity+,PhysicalAttribute+,?,?,Region+,?
+CONCEPTS A: HumanChild=,Entity+,DramaticActing+,Outdoors+,Hominid=,Smiling+
+CONCEPTS B: Group=,HumanChild=,Entity+,DramaticActing+,LandArea=,SubjectiveAssessmentAttribute+,Hominid=,Entity+,PhysicalAttribute+,Region+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	smile	smile	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	06878071-n|Smiling+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

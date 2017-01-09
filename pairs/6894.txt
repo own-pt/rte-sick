@@ -3,8 +3,8 @@ sentence B = A young girl in a coat made for winter is jumping off a boulder int
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Ambulating=,?,?,Mineral+,?,?,Entity+,PhysicalAttribute+,?,?,?
-CONCEPTS B: ?,HumanYouth=,Human+,?,?,BodyPart+,Attribute+,?,WinterSeason+,Entity+,Ambulating=,?,?,Mineral+,?,?,Sand=,?,?,ShoreArea=,?
+CONCEPTS A: Human+,Entity+,Ambulating=,Mineral+,Entity+,PhysicalAttribute+
+CONCEPTS B: HumanYouth=,Human+,BodyPart+,Attribute+,WinterSeason+,Entity+,Ambulating=,Mineral+,Sand=,ShoreArea=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
 13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	11	nmod	_	?|?
 14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

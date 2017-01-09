@@ -3,8 +3,8 @@ sentence B = A person in a motocross uniform is wearing a helmet and rides a red
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Automobile+,?,ContainerFull+,Gear=,Entity+,CoveringFn=,?,Clothing+,?,BeliefGroup+,ContentBearingObject+,?,Entity+,Transportation+,?,Red=,Sport=,PassengerVehicle+,?
-CONCEPTS B: ?,Human=,?,?,?,UniformClothing=,Entity+,CoveringFn=,?,Clothing+,?,Transportation+,?,Red=,PassengerVehicle+,?
+CONCEPTS A: Automobile+,ContainerFull+,Gear=,Entity+,CoveringFn=,Clothing+,BeliefGroup+,ContentBearingObject+,Entity+,Transportation+,Red=,Sport=,PassengerVehicle+
+CONCEPTS B: Human=,UniformClothing=,Entity+,CoveringFn=,Clothing+,Transportation+,Red=,PassengerVehicle+
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	sport	sport	NOUN	NN	Number=Sing|fPOS=NOUN++NN	19	compound	_	00523513-n|Sport=
 19	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	dobj	_	03790512-n|PassengerVehicle+
 20	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

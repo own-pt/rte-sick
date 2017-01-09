@@ -3,8 +3,8 @@ sentence B = The man is not slicing potatoes.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Removing+,?,PotatoTuber=,?
-CONCEPTS B: ?,Hominid=,Entity+,not=,Separating+,PotatoTuber=,?
+CONCEPTS A: Woman=,Entity+,Removing+,PotatoTuber=
+CONCEPTS B: Hominid=,Entity+,not=,Separating+,PotatoTuber=
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
 6	potato	potato	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07710616-n|PotatoTuber=
 7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

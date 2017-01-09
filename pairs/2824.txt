@@ -3,8 +3,8 @@ sentence B = A woman is pouring a mixture into a bowl and mixing it.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,Woman=,Learning+,?,Gland+,?,?,PotOrPan+,?
-CONCEPTS B: ?,Woman=,Entity+,Pouring=,?,Combining+,?,?,Dish+,?,IntentionalProcess+,?,?
+CONCEPTS A: Entity+,Woman=,Learning+,Gland+,PotOrPan+
+CONCEPTS B: Woman=,Entity+,Pouring=,Combining+,Dish+,IntentionalProcess+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	skillet	skillet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03400231-n|PotOrPan+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

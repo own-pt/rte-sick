@@ -3,8 +3,8 @@ sentence B = A woman is taking off a cloak, which is very large, and revealing e
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,PhysicalAttribute+,?,?,Clothing+,?,?,Entity+,SubjectiveAssessmentAttribute+,SubjectiveWeakPositiveAttribute+,?,?,Disseminating=,?,SubjectiveStrongNegativeAttribute+,Clothing+,?
-CONCEPTS B: ?,Woman=,Entity+,PhysicalAttribute+,?,?,Clothing+,?,?,Entity+,SubjectiveAssessmentAttribute+,SubjectiveWeakPositiveAttribute+,?,?,Disseminating=,SubjectiveStrongNegativeAttribute+,Clothing+,?
+CONCEPTS A: Woman=,Entity+,PhysicalAttribute+,Clothing+,Entity+,SubjectiveAssessmentAttribute+,SubjectiveWeakPositiveAttribute+,Disseminating=,SubjectiveStrongNegativeAttribute+,Clothing+
+CONCEPTS B: Woman=,Entity+,PhysicalAttribute+,Clothing+,Entity+,SubjectiveAssessmentAttribute+,SubjectiveWeakPositiveAttribute+,Disseminating=,SubjectiveStrongNegativeAttribute+,Clothing+
 
 CONLL A:
 
@@ -27,6 +27,8 @@ CONLL A:
 17	extravagant	extravagant	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	18	amod	_	02422242-a|SubjectiveStrongNegativeAttribute+
 18	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	dobj	_	02728440-n|Clothing+
 19	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

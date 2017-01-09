@@ -3,8 +3,8 @@ sentence B = A man is frying food.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,Entity+,IntentionalProcess+,?,PlayingCard+,RecreationOrExercise+,?
-CONCEPTS B: ?,Hominid=,Entity+,Killing+,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: Human=,Entity+,IntentionalProcess+,PlayingCard+,RecreationOrExercise+
+CONCEPTS B: Hominid=,Entity+,Killing+,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	card	card	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	02962545-n|PlayingCard+
 7	trick	trick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00427580-n|RecreationOrExercise+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

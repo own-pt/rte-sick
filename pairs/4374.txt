@@ -3,8 +3,8 @@ sentence B = There is no one playing a piano.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,DramaticActing+,?,Piano=,?
-CONCEPTS B: ?,Entity+,?,?,DramaticActing+,?,Piano=,?
+CONCEPTS A: Entity+,DramaticActing+,Piano=
+CONCEPTS B: Entity+,DramaticActing+,Piano=
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
 5	piano	piano	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	03928116-n|Piano=
 6	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

@@ -3,8 +3,8 @@ sentence B = A malnourished looking dog is standing on its hind legs and prepari
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Canine+,PhysicalAttribute+,SittingDown+,earlier+,?
-CONCEPTS B: ?,DiseaseOrSyndrome+,SubjectiveAssessmentAttribute+,Canine+,Entity+,PhysicalAttribute+,?,?,BackFn+,Limb=,?,Learning+,?,Ambulating=,?
+CONCEPTS A: Human+,Canine+,PhysicalAttribute+,SittingDown+,earlier+
+CONCEPTS B: DiseaseOrSyndrome+,SubjectiveAssessmentAttribute+,Canine+,Entity+,PhysicalAttribute+,BackFn+,Limb=,Learning+,Ambulating=
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
 6	down	down	ADV	RB	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	5	advmod	_	00096089-r|earlier+
 7	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

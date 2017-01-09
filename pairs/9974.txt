@@ -3,8 +3,8 @@ sentence B = There is no person riding a bike along a muddy trail.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Writing+,?,?,Automobile=,IntentionalProcess+,?,Procedure+,?
-CONCEPTS B: ?,Entity+,?,Human=,Transportation+,?,Bicycle=,?,?,Swamp+,Trail+,?
+CONCEPTS A: Hominid=,Entity+,Writing+,Automobile=,IntentionalProcess+,Procedure+
+CONCEPTS B: Entity+,Human=,Transportation+,Bicycle=,Swamp+,Trail+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	for	for	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
 10	stenography	stenography	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	06350127-n|Procedure+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

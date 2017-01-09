@@ -3,8 +3,8 @@ sentence B = Tofu is being sliced by a woman.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SkilledOccupation+,Entity+,Cutting+,?,Human+,?,?,MusicalComposition=,?,Butter=,?
-CONCEPTS B: Tofu=,Entity+,Entity+,Separating+,?,?,Woman=,?
+CONCEPTS A: SkilledOccupation+,Entity+,Cutting+,Human+,MusicalComposition=,Butter=
+CONCEPTS B: Tofu=,Entity+,Entity+,Separating+,Woman=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	like	like	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
 11	butter	butter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	07848338-n|Butter=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Tofu	tofu	PROPN	NNP	fPOS=SCONJ++IN	4	nsubjpass	_	07709881-n|Tofu=

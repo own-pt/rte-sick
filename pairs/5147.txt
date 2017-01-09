@@ -3,8 +3,8 @@ sentence B = A man is buttering a slice of bread.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,GamePiece+,Entity+,Covering+,?,GamePiece+,?,BreadOrBiscuit+,?
-CONCEPTS B: ?,Hominid=,Entity+,Covering+,?,PreparedFood+,?,BreadOrBiscuit+,?
+CONCEPTS A: GamePiece+,Entity+,Covering+,GamePiece+,BreadOrBiscuit+
+CONCEPTS B: Hominid=,Entity+,Covering+,PreparedFood+,BreadOrBiscuit+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
 8	bread	bread	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	07679356-n|BreadOrBiscuit+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

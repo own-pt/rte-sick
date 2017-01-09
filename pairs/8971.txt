@@ -3,8 +3,8 @@ sentence B = The red and brown dog is not digging its nose inside a holiday gift
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Damaging+,?,Head=,?,?,Red=,?,Green=,PsychologicalAttribute+,Container+,?
-CONCEPTS B: ?,Red=,?,Human+,Canine+,Entity+,not=,Making+,?,Nose+,?,?,Vacationing=,PsychologicalAttribute+,Container+,?
+CONCEPTS A: Canine+,Damaging+,Head=,Red=,Green=,PsychologicalAttribute+,Container+
+CONCEPTS B: Red=,Human+,Canine+,Entity+,not=,Making+,Nose+,Vacationing=,PsychologicalAttribute+,Container+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	gift	gift	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	12	compound	_	05624042-n|PsychologicalAttribute+
 12	bag	bag	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	02773037-n|Container+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	?|?

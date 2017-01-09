@@ -3,8 +3,8 @@ sentence B = The guitar is being played by a man.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Frying=,?,?,?,PotOrPan=,?
-CONCEPTS B: ?,Guitar=,Entity+,Entity+,DramaticActing+,?,?,Hominid=,?
+CONCEPTS A: Woman=,Entity+,Frying=,PotOrPan=
+CONCEPTS B: Guitar=,Entity+,Entity+,DramaticActing+,Hominid=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	pan	pan	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03880531-n|PotOrPan=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

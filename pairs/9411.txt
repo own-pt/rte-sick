@@ -3,8 +3,8 @@ sentence B = Two people dressed in green and red costumes are outside near the s
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Dressing+,?,Green=,?,Red=,Clothing+,Entity+,located+,?,?,Sidewalk=,?
-CONCEPTS B: ?,GroupOfPeople=,Dressing+,?,Green=,?,Red=,Clothing+,Entity+,located+,?,?,Roadway=,?
+CONCEPTS A: GroupOfPeople=,Dressing+,Green=,Red=,Clothing+,Entity+,located+,Sidewalk=
+CONCEPTS B: GroupOfPeople=,Dressing+,Green=,Red=,Clothing+,Entity+,located+,Roadway=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	sidewalk	sidewalk	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	04215402-n|Sidewalk=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

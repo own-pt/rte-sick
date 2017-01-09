@@ -3,8 +3,8 @@ sentence B = Two cars for racing are on a road in front of a grassy parking area
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Racing=,Automobile=,Entity+,?,?,Roadway+,?,FrontFn=,?,?,FloweringPlant+,Region+,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,Automobile=,?,Motion+,Entity+,?,?,Roadway+,?,FrontFn=,?,?,FloweringPlant+,Region+,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: Racing=,Automobile=,Entity+,Roadway+,FrontFn=,FloweringPlant+,Region+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Automobile=,Motion+,Entity+,Roadway+,FrontFn=,FloweringPlant+,Region+,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	parking	parking	VERB	VBG	Number=Sing|fPOS=NOUN++NN	14	compound	_	13778671-n|Region+
 14	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	14514039-n|SubjectiveAssessmentAttribute+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

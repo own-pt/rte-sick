@@ -3,8 +3,8 @@ sentence B = A brown and white dog is resting on the ground with a tennis ball i
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Grabbing+,?,Ball=,?,earlier+,AirTransportation+,?
-CONCEPTS B: ?,Human+,?,White=,Canine+,Entity+,PastFn=,?,?,LandArea=,?,?,Tennis=,Ball=,?,?,Mouth+,?
+CONCEPTS A: Canine+,Entity+,Grabbing+,Ball=,earlier+,AirTransportation+
+CONCEPTS B: Human+,White=,Canine+,Entity+,PastFn=,LandArea=,Tennis=,Ball=,Mouth+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	mid	mid	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	compound	_	00816324-a|earlier+
 9	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	00300441-n|AirTransportation+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?

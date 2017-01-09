@@ -3,8 +3,8 @@ sentence B = A small child is showing excitement on a set of swings at the park.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,IntentionalProcess+,EmotionalState+,?,?,SoundAttribute+,Putting=,?,?,Park+,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,IntentionalProcess+,EmotionalState+,?,?,Collection+,?,SoundAttribute+,?,?,Park+,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,IntentionalProcess+,EmotionalState+,SoundAttribute+,Putting=,Park+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,IntentionalProcess+,EmotionalState+,Collection+,SoundAttribute+,Park+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	08615374-n|Park+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

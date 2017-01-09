@@ -3,8 +3,8 @@ sentence B = A group of children in uniforms is standing at a gate and one is ki
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Group=,?,GroupOfPeople=,Entity+,?,?,Ocean=,?
-CONCEPTS B: ?,Group=,?,HumanChild=,?,UniformClothing=,Entity+,PhysicalAttribute+,?,?,Door=,?,?,Entity+,Kissing+,?,BiologicalAttribute+,?
+CONCEPTS A: Group=,GroupOfPeople=,Entity+,Ocean=
+CONCEPTS B: Group=,HumanChild=,UniformClothing=,Entity+,PhysicalAttribute+,Door=,Entity+,Kissing+,BiologicalAttribute+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	ocean	ocean	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	09376198-n|Ocean=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

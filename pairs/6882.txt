@@ -3,8 +3,8 @@ sentence B = A dog is sitting by a fence on a dirt track.
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Racing+,?,?,Device+,?,?,Text+,StationaryArtifact+,?
-CONCEPTS B: ?,Canine+,PhysicalAttribute+,SittingDown+,?,?,Device+,?,?,Text+,StationaryArtifact+,?
+CONCEPTS A: Canine+,Entity+,Racing+,Device+,Text+,StationaryArtifact+
+CONCEPTS B: Canine+,PhysicalAttribute+,SittingDown+,Device+,Text+,StationaryArtifact+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	dirt	dirt	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	compound	_	07223811-n|Text+
 11	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04037625-n|StationaryArtifact+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

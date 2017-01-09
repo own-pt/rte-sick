@@ -3,8 +3,8 @@ sentence B = There is no man cutting pieces of butter into a mixing bowl.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,GamePiece+,Entity+,Cutting+,GamePiece+,?,Butter=,?,?,IntentionalProcess+,Dish+,?
-CONCEPTS B: ?,Entity+,?,GamePiece+,Cutting+,GamePiece+,?,Butter=,?,?,IntentionalProcess+,Dish+,?
+CONCEPTS A: GamePiece+,Entity+,Cutting+,GamePiece+,Butter=,IntentionalProcess+,Dish+
+CONCEPTS B: Entity+,GamePiece+,Cutting+,GamePiece+,Butter=,IntentionalProcess+,Dish+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	mixing	mix	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	00394813-v|IntentionalProcess+
 11	bowl	bowl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02880940-n|Dish+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

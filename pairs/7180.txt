@@ -3,8 +3,8 @@ sentence B = A young child with black hair is deleting a picture from the camera
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,Process+,?,Camera=,?,FrontFn=,?,?,Face+,?
-CONCEPTS B: ?,HumanYouth=,HumanChild=,?,Black=,Hair=,Entity+,Process+,?,Icon+,?,?,Camera=,?
+CONCEPTS A: HumanChild=,Entity+,Process+,Camera=,FrontFn=,Face+
+CONCEPTS B: HumanYouth=,HumanChild=,Black=,Hair=,Entity+,Process+,Icon+,Camera=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	11	nmod:poss	_	?|?
 11	face	face	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	05600637-n|Face+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

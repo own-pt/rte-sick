@@ -3,8 +3,8 @@ sentence B = The climbing equipment to rescue a man is hanging from a white, ver
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,?,?,Hair+,Entity+,Increasing+,?,Wall=,?,Mineral+,?
-CONCEPTS B: ?,Increasing+,Device+,?,SubjectiveAssessmentAttribute=,?,Hominid=,Entity+,PhysicalAttribute+,?,?,White=,?,Vertical+,Mineral+,?
+CONCEPTS A: Woman=,Hair+,Entity+,Increasing+,Wall=,Mineral+
+CONCEPTS B: Increasing+,Device+,SubjectiveAssessmentAttribute=,Hominid=,Entity+,PhysicalAttribute+,White=,Vertical+,Mineral+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
 11	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	14696793-n|Mineral+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

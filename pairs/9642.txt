@@ -3,8 +3,8 @@ sentence B = A brown and white dog is running through the water.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,White=,Canine+,Entity+,Attribute+,?,?,River=,?
-CONCEPTS B: ?,Human+,?,White=,Canine+,Entity+,Attribute+,?,?,Water=,?
+CONCEPTS A: Human+,White=,Canine+,Entity+,Attribute+,River=
+CONCEPTS B: Human+,White=,Canine+,Entity+,Attribute+,Water=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	river	river	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	09411430-n|River=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?

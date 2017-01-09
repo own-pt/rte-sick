@@ -3,8 +3,8 @@ sentence B = A person is cutting an onion.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Human=,Decreasing+,?,FruitOrVegetable+,?
-CONCEPTS B: ?,Human=,Entity+,Decreasing+,?,FruitOrVegetable+,?
+CONCEPTS A: Entity+,Human=,Decreasing+,FruitOrVegetable+
+CONCEPTS B: Human=,Entity+,Decreasing+,FruitOrVegetable+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	onion	onion	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	12433081-n|FruitOrVegetable+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

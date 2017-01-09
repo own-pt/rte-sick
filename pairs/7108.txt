@@ -3,8 +3,8 @@ sentence B = A child is sitting in a red and yellow toy car.
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Process+,Giving+,?,?,RecreationOrExerciseDevice+,Automobile=,?
-CONCEPTS B: ?,HumanChild=,PhysicalAttribute+,SittingDown+,?,?,Red=,?,SubjectiveAssessmentAttribute+,RecreationOrExerciseDevice+,Automobile=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Process+,Giving+,RecreationOrExerciseDevice+,Automobile=
+CONCEPTS B: HumanChild=,PhysicalAttribute+,SittingDown+,Red=,SubjectiveAssessmentAttribute+,RecreationOrExerciseDevice+,Automobile=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	03964744-n|RecreationOrExerciseDevice+
 10	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02958343-n|Automobile=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

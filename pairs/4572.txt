@@ -3,8 +3,8 @@ sentence B = A couple of policewomen are singing karaoke.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Government+,MakingVocalMusic=,?,MakingVocalMusic+,?
-CONCEPTS B: ?,Entity+,?,Government+,Entity+,MakingVocalMusic=,MakingVocalMusic+,?
+CONCEPTS A: Entity+,Government+,MakingVocalMusic=,MakingVocalMusic+
+CONCEPTS B: Entity+,Government+,Entity+,MakingVocalMusic=,MakingVocalMusic+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	at	at	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
 7	karaoke	karaoke	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	01255302-n|MakingVocalMusic+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

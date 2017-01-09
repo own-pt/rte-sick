@@ -3,8 +3,8 @@ sentence B = A woman is shooting at target practice.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,CoveringFn=,Ear=,Container+,?,Entity+,Shooting+,?,Gun=,?,?,located+,Shooting=,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,Woman=,Entity+,Shooting+,?,Entity+,SubjectiveAssessmentAttribute=,?
+CONCEPTS A: Woman=,Entity+,CoveringFn=,Ear=,Container+,Entity+,Shooting+,Gun=,located+,Shooting=,SubjectiveAssessmentAttribute+
+CONCEPTS B: Woman=,Entity+,Shooting+,Entity+,SubjectiveAssessmentAttribute=
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	shooting	shooting	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	16	compound	_	00122661-n|Shooting=
 16	range	range	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	05125377-n|SubjectiveAssessmentAttribute+
 17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A man is skiing down a hill and over a red obstacle.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Transportation+,earlier+,?,Hill=,?,?,?,Red=,Entity+,?
-CONCEPTS B: ?,Hominid=,Entity+,Transportation+,earlier+,?,Hill=,?,?,?,Red=,Entity+,?
+CONCEPTS A: Woman=,Entity+,Transportation+,earlier+,Hill=,Red=,Entity+
+CONCEPTS B: Hominid=,Entity+,Transportation+,earlier+,Hill=,Red=,Entity+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00381097-a|Red=
 12	obstacle	obstacle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	conj	_	05690269-n|Entity+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A large dog and a small dog are standing next to the kitchen counte
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Black=,Canine+,?,?,SubjectiveStrongNegativeAttribute+,White=,?,Black=,Canine+,Entity+,SubjectiveAssessmentAttribute+,Increasing+,?,?,Kitchen=,Region+,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Canine+,?,?,SubjectiveStrongNegativeAttribute+,Canine+,Entity+,PhysicalAttribute+,Position+,?,?,Kitchen=,Table+,?,Entity+,Investigating+,?
+CONCEPTS A: Black=,Canine+,SubjectiveStrongNegativeAttribute+,White=,Black=,Canine+,Entity+,SubjectiveAssessmentAttribute+,Increasing+,Kitchen=,Region+
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Canine+,SubjectiveStrongNegativeAttribute+,Canine+,Entity+,PhysicalAttribute+,Position+,Kitchen=,Table+,Entity+,Investigating+
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	kitchen	kitchen	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	03619890-n|Kitchen=
 17	countertop	countertop	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	03118245-n|Region+
 18	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

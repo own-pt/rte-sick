@@ -3,8 +3,8 @@ sentence B = The blond girl is dancing in front of the sound equipment.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,CoveringFn=,White=,Clothing+,?,Entity+,Dancing+,?
-CONCEPTS B: ?,Human+,Human+,Entity+,Dancing+,?,FrontFn=,?,?,Asleep+,Device+,?
+CONCEPTS A: Human+,Entity+,CoveringFn=,White=,Clothing+,Entity+,Dancing+
+CONCEPTS B: Human+,Human+,Entity+,Dancing+,FrontFn=,Asleep+,Device+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	9	aux	_	02604760-v|Entity+
 9	dancing	dance	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	4	conj	_	01708676-v|Dancing+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

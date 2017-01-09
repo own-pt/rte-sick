@@ -3,8 +3,8 @@ sentence B = One man is passionately playing the guitar.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,Entity+,MakingVocalMusic=,?,DramaticActing+,?,Guitar=,?
-CONCEPTS B: ?,Hominid=,Entity+,SubjectiveAssessmentAttribute+,DramaticActing+,?,Guitar=,?
+CONCEPTS A: Human=,Entity+,MakingVocalMusic=,DramaticActing+,Guitar=
+CONCEPTS B: Hominid=,Entity+,SubjectiveAssessmentAttribute+,DramaticActing+,Guitar=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	03467517-n|Guitar=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

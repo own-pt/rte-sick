@@ -3,8 +3,8 @@ sentence B = An animal is emerging from a lake.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,White=,Canine+,Entity+,Attribute+,?,?,River=,?
-CONCEPTS B: ?,Animal=,Entity+,Process+,?,?,Lake=,?
+CONCEPTS A: Human+,White=,Canine+,Entity+,Attribute+,River=
+CONCEPTS B: Animal=,Entity+,Process+,Lake=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	river	river	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	09411430-n|River=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

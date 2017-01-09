@@ -3,8 +3,8 @@ sentence B = The dog is snapping at some droplets of water.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,SubjectiveAssessmentAttribute+,DramaticActing+,?,Water=,?,?,FieldOfStudy=,?
-CONCEPTS B: ?,Canine+,Entity+,SoundAttribute+,?,?,SubjectiveAssessmentAttribute+,?,Water=,?
+CONCEPTS A: Canine+,Entity+,SubjectiveAssessmentAttribute+,DramaticActing+,Water=,FieldOfStudy=
+CONCEPTS B: Canine+,Entity+,SoundAttribute+,SubjectiveAssessmentAttribute+,Water=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	05996646-n|FieldOfStudy=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

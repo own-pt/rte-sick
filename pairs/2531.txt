@@ -3,8 +3,8 @@ sentence B = A cat is eating some corn.
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Whip+,Entity+,Walking=,?,?,?,FruitOrVegetable+,?
-CONCEPTS B: ?,Whip+,Entity+,Eating=,?,FruitOrVegetable+,?
+CONCEPTS A: Whip+,Entity+,Walking=,FruitOrVegetable+
+CONCEPTS B: Whip+,Entity+,Eating=,FruitOrVegetable+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	some	some	DET	DT	fPOS=DET++DT	8	det	_	?|?
 8	corn	corn	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	07731952-n|FruitOrVegetable+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

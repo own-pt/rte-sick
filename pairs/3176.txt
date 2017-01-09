@@ -3,8 +3,8 @@ sentence B = A man is trekking in the woods.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,NormativeAttribute+,Transportation+,?,?,Wood=,?
-CONCEPTS B: ?,Hominid=,Entity+,Transportation+,?,?,Wood=,?
+CONCEPTS A: Hominid=,Entity+,NormativeAttribute+,Transportation+,Wood=
+CONCEPTS B: Hominid=,Entity+,Transportation+,Wood=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	woods	wood	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	15098161-n|Wood=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

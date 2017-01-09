@@ -3,8 +3,8 @@ sentence B = A guitarist has blonde and flyaway hair.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human=,Damaging+,Human+,?,SubjectiveStrongNegativeAttribute+,Hair=,?,Entity+,DramaticActing+,?,Guitar=,?
-CONCEPTS B: ?,Guitarist=,Damaging+,Human+,?,SubjectiveStrongNegativeAttribute+,Hair=,?
+CONCEPTS A: Human=,Damaging+,Human+,SubjectiveStrongNegativeAttribute+,Hair=,Entity+,DramaticActing+,Guitar=
+CONCEPTS B: Guitarist=,Damaging+,Human+,SubjectiveStrongNegativeAttribute+,Hair=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	03467517-n|Guitar=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

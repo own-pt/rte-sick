@@ -3,8 +3,8 @@ sentence B = A young Asian woman with pink gloves is standing in the snow.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Female=,CoveringFn=,Pink+,Glove+,?,?,Human+,Coat=,Entity+,Smiling=,?,?,Snowing=,?
-CONCEPTS B: ?,HumanYouth=,AsianEthnicity=,Woman=,?,Pink+,Glove+,Entity+,PhysicalAttribute+,?,?,Snowing=,?
+CONCEPTS A: Female=,CoveringFn=,Pink+,Glove+,Human+,Coat=,Entity+,Smiling=,Snowing=
+CONCEPTS B: HumanYouth=,AsianEthnicity=,Woman=,Pink+,Glove+,Entity+,PhysicalAttribute+,Snowing=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	15043763-n|Snowing=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Number=Sing|fPOS=PROPN++NNP	4	det	_	?|?

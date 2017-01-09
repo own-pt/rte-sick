@@ -3,8 +3,8 @@ sentence B = Two persons are driving down the street in a jeep.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,Woman=,Entity+,Transportation+,earlier+,?,Roadway+,?,?,?,Vehicle=,?
-CONCEPTS B: ?,Human=,Entity+,Transportation+,earlier+,?,Roadway=,?,?,Automobile+,?
+CONCEPTS A: Man=,Woman=,Entity+,Transportation+,earlier+,Roadway+,Vehicle=
+CONCEPTS B: Human=,Entity+,Transportation+,earlier+,Roadway=,Automobile+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	open-air	open-air	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	?|?
 14	vehicle	vehicle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	04524313-n|Vehicle=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

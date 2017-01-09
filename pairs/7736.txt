@@ -3,8 +3,8 @@ sentence B = A dog is walking along a snowdrift.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Canine+,Walking=,?,?,Ice+,?
-CONCEPTS B: ?,Canine+,Entity+,Walking=,SubjectiveAssessmentAttribute+,?,Ice+,?
+CONCEPTS A: Entity+,Canine+,Walking=,Ice+
+CONCEPTS B: Canine+,Entity+,Walking=,SubjectiveAssessmentAttribute+,Ice+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	snowdrift	snowdrift	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	09438940-n|Ice+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

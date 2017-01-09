@@ -3,8 +3,8 @@ sentence B = A group of kids is playing on a colorful structure.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Group=,?,HumanChild=,Entity+,DramaticActing+,?,?,Artifact+,?,Entity+,ColorAttribute+,?
-CONCEPTS B: ?,Group=,?,HumanChild=,Entity+,DramaticActing+,?,?,ColorAttribute+,Artifact+,?
+CONCEPTS A: Group=,HumanChild=,Entity+,DramaticActing+,Artifact+,Entity+,ColorAttribute+
+CONCEPTS B: Group=,HumanChild=,Entity+,DramaticActing+,ColorAttribute+,Artifact+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	12	cop	_	02604760-v|Entity+
 12	colorful	colorful	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	acl:relcl	_	00394562-a|ColorAttribute+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

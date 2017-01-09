@@ -3,8 +3,8 @@ sentence B = The man is not playing a guitar.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,DramaticActing+,?,?,Green=,Grass=,?
-CONCEPTS B: ?,Hominid=,Entity+,not=,DramaticActing+,?,Guitar=,?
+CONCEPTS A: Canine+,Entity+,DramaticActing+,Green=,Grass=
+CONCEPTS B: Hominid=,Entity+,not=,DramaticActing+,Guitar=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	00375969-a|Green=
 8	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	12102133-n|Grass=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

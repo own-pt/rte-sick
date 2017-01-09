@@ -3,8 +3,8 @@ sentence B = A girl is wearing a t-shirt and has her mouth open.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Human+,Putting+,?,Shirt+,?,Attribute+,?,Mouth+,SubjectiveWeakPositiveAttribute+,?
-CONCEPTS B: ?,Human+,Entity+,Putting+,?,Shirt+,?,Attribute+,?,Mouth+,SubjectiveStrongPositiveAttribute+,?
+CONCEPTS A: Entity+,Human+,Putting+,Shirt+,Attribute+,Mouth+,SubjectiveWeakPositiveAttribute+
+CONCEPTS B: Human+,Entity+,Putting+,Shirt+,Attribute+,Mouth+,SubjectiveStrongPositiveAttribute+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	05302499-n|Mouth+
 12	open	open	ADV	RB	Number=Sing|fPOS=NOUN++NN	9	xcomp	_	01652902-a|SubjectiveWeakPositiveAttribute+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

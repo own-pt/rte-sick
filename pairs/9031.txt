@@ -3,8 +3,8 @@ sentence B = Two dogs are playing on a beach made of rocks.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Canine+,Entity+,DramaticActing+,?,?,TextureAttribute+,ShoreArea=,?
-CONCEPTS B: ?,Canine+,Entity+,DramaticActing+,?,?,ShoreArea=,Process+,?,Rock=,?
+CONCEPTS A: Canine+,Entity+,DramaticActing+,TextureAttribute+,ShoreArea=
+CONCEPTS B: Canine+,Entity+,DramaticActing+,ShoreArea=,Process+,Rock=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	rocky	rocky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	02243567-a|TextureAttribute+
 8	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09217230-n|ShoreArea=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = A tan dog is running through the snow.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute+,Canine+,Entity+,Attribute+,?,White=,Snowing=,?,?,SubjectiveAssessmentAttribute+,Happiness+,Day=,?
-CONCEPTS B: ?,ColorAttribute+,Canine+,Entity+,Attribute+,?,?,Snowing=,?
+CONCEPTS A: SubjectiveAssessmentAttribute+,Canine+,Entity+,Attribute+,White=,Snowing=,SubjectiveAssessmentAttribute+,Happiness+,Day=
+CONCEPTS B: ColorAttribute+,Canine+,Entity+,Attribute+,Snowing=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	sunny	sunny	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	00363938-a|Happiness+
 13	day	day	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	15155220-n|Day=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

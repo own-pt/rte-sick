@@ -3,8 +3,8 @@ sentence B = The man is playing the piano with his nose.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Process+,?
-CONCEPTS B: ?,Hominid=,Entity+,DramaticActing+,?,Piano=,?,?,Nose+,?
+CONCEPTS A: Hominid=,Entity+,Process+
+CONCEPTS B: Hominid=,Entity+,DramaticActing+,Piano=,Nose+
 
 CONLL A:
 
@@ -13,6 +13,8 @@ CONLL A:
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
 4	idling	idle	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01526483-v|Process+
 5	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

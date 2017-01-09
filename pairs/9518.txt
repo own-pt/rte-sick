@@ -3,8 +3,8 @@ sentence B = A woman is playing with a brown dog on a garden path.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Touching+,?,Canine+,?,?,Mineral+,Trail+,?
-CONCEPTS B: ?,Woman=,Entity+,DramaticActing+,?,?,Human+,Canine+,?,?,CultivatedLandArea+,Transitway+,?
+CONCEPTS A: Woman=,Entity+,Touching+,Canine+,Mineral+,Trail+
+CONCEPTS B: Woman=,Entity+,DramaticActing+,Human+,Canine+,CultivatedLandArea+,Transitway+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	stone	stone	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	10	compound	_	14696793-n|Mineral+
 10	trail	trail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04466613-n|Trail+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

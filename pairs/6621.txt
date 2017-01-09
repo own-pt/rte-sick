@@ -3,8 +3,8 @@ sentence B = A tan dog is running through the brush.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,ColorAttribute+,Canine+,Entity+,PastFn=,?,?,Device+,?
-CONCEPTS B: ?,ColorAttribute+,Canine+,Entity+,Attribute+,?,?,Device+,?
+CONCEPTS A: ColorAttribute+,Canine+,Entity+,PastFn=,Device+
+CONCEPTS B: ColorAttribute+,Canine+,Entity+,Attribute+,Device+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	brush	brush	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02908217-n|Device+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

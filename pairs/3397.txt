@@ -3,8 +3,8 @@ sentence B = The lady is stirring eggs in a bowl.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,Impacting+,?,Gland+,?
-CONCEPTS B: ?,Human+,Entity+,PsychologicalProcess+,Gland+,?,?,Dish+,?
+CONCEPTS A: Entity+,Impacting+,Gland+
+CONCEPTS B: Human+,Entity+,PsychologicalProcess+,Gland+,Dish+
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
 5	egg	egg	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	05524615-n|Gland+
 6	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

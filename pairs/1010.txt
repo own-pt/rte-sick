@@ -3,8 +3,8 @@ sentence B = The Jockeys are racing horses on the field, which is completely gre
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Green=,FieldOfStudy=,?,Horse=,Racing=,Attribute+,SubjectiveAssessmentAttribute+,ContainerFull+,?,Position+,?
-CONCEPTS B: ?,Position+,Entity+,Motion+,Horse=,?,?,FieldOfStudy=,?,?,Entity+,SubjectiveAssessmentAttribute+,Green=,?
+CONCEPTS A: Green=,FieldOfStudy=,Horse=,Racing=,Attribute+,SubjectiveAssessmentAttribute+,ContainerFull+,Position+
+CONCEPTS B: Position+,Entity+,Motion+,Horse=,FieldOfStudy=,Entity+,SubjectiveAssessmentAttribute+,Green=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
 11	Jockeys	jockey	PROPN	NNP	Number=Sing|fPOS=PROPN++NNP	9	nmod	_	10223177-n|Position+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

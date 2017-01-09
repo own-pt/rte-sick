@@ -3,8 +3,8 @@ sentence B = A boy is playing a game with wooden blocks.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,DramaticActing+,?,Game=,?,Steel=,ShapeAttribute+,?
-CONCEPTS B: ?,Human+,Entity+,DramaticActing+,?,Game=,?,SubjectiveAssessmentAttribute+,ShapeAttribute+,?
+CONCEPTS A: Human+,Entity+,DramaticActing+,Game=,Steel=,ShapeAttribute+
+CONCEPTS B: Human+,Entity+,DramaticActing+,Game=,SubjectiveAssessmentAttribute+,ShapeAttribute+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	steel	steel	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	9	compound	_	14802450-n|Steel=
 9	blocks	block	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	13914608-n|ShapeAttribute+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

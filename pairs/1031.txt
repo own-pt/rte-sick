@@ -3,8 +3,8 @@ sentence B = A woman is wearing sunglasses of large size and is holding newspape
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute+,Woman=,Entity+,Putting+,?,MotionUpward=,Planning+,Shirt=,?,Entity+,SubjectiveAssessmentAttribute+,Transportation+,?,Newspaper=,?
-CONCEPTS B: ?,Woman=,Entity+,RecreationOrExercise+,Device+,?,SubjectiveWeakPositiveAttribute+,Attribute+,?,Entity+,Obligation+,Newspaper=,?,?,Hand+,?
+CONCEPTS A: SubjectiveAssessmentAttribute+,Woman=,Entity+,Putting+,MotionUpward=,Planning+,Shirt=,Entity+,SubjectiveAssessmentAttribute+,Transportation+,Newspaper=
+CONCEPTS B: Woman=,Entity+,RecreationOrExercise+,Device+,SubjectiveWeakPositiveAttribute+,Attribute+,Entity+,Obligation+,Newspaper=,Hand+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	15	nummod	_	?|?
 15	newspapers	newspaper	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	dobj	_	06267145-n|Newspaper=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

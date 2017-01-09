@@ -3,8 +3,8 @@ sentence B = People are walking across a rope bridge over a rocky stream.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Walking=,?,?,String+,?,Wood=,Bridge+,?,?,River=,?
-CONCEPTS B: GroupOfPeople=,Entity+,Walking=,?,?,String+,Bridge+,?,?,TextureAttribute+,StreamWaterArea=,?
+CONCEPTS A: Hominid=,Entity+,Walking=,String+,Wood=,Bridge+,River=
+CONCEPTS B: GroupOfPeople=,Entity+,Walking=,String+,Bridge+,TextureAttribute+,StreamWaterArea=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	river	river	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09411430-n|River=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	07942152-n|GroupOfPeople=

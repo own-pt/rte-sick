@@ -3,8 +3,8 @@ sentence B = Two animals are playing outside.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,White=,Canine+,Entity+,ViolentContest+,?,?,FloweringPlant+,SubjectiveAssessmentAttribute+,?,FrontFn=,?,?,ContentBearingObject+,?
-CONCEPTS B: ?,Animal=,Entity+,DramaticActing+,?,?
+CONCEPTS A: Human+,White=,Canine+,Entity+,ViolentContest+,FloweringPlant+,SubjectiveAssessmentAttribute+,FrontFn=,ContentBearingObject+
+CONCEPTS B: Animal=,Entity+,DramaticActing+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
 16	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	13912260-n|ContentBearingObject+
 17	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Degree=Pos|fPOS=ADJ++JJ	2	nummod	_	?|?

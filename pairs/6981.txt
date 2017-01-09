@@ -3,8 +3,8 @@ sentence B = A family is posing by the mantel and the Christmas tree.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,FamilyGroup+,Entity+,Putting=,?,?,Shelf+,?,?,TimeInterval+,ContentBearingObject+,?
-CONCEPTS B: ?,FamilyGroup+,Entity+,Putting=,?,?,Shelf+,?,?,TimeInterval+,ContentBearingObject+,?
+CONCEPTS A: FamilyGroup+,Entity+,Putting=,Shelf+,TimeInterval+,ContentBearingObject+
+CONCEPTS B: FamilyGroup+,Entity+,Putting=,Shelf+,TimeInterval+,ContentBearingObject+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	Christmas	christmas	NOUN	NN	Number=Sing|fPOS=PROPN++NNP	11	compound	_	15196537-n|TimeInterval+
 11	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	conj	_	13912260-n|ContentBearingObject+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

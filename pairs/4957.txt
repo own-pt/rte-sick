@@ -3,8 +3,8 @@ sentence B = A man in a car is not pulling up beside a woman who is walking alon
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Man=,?,?,Automobile=,Entity+,Transportation+,Increasing+,?,?,Woman=,?,Entity+,?,?,?,Roadway+,?
-CONCEPTS B: ?,Man=,?,?,Automobile=,Entity+,not=,Transportation+,Increasing+,?,?,Woman=,?,Entity+,Walking=,SubjectiveAssessmentAttribute+,?,Roadway+,?
+CONCEPTS A: Man=,Automobile=,Entity+,Transportation+,Increasing+,Woman=,Entity+,Roadway+
+CONCEPTS B: Man=,Automobile=,Entity+,not=,Transportation+,Increasing+,Woman=,Entity+,Walking=,SubjectiveAssessmentAttribute+,Roadway+
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	?|?
 17	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	04096066-n|Roadway+
 18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

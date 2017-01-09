@@ -3,8 +3,8 @@ sentence B = Two men are walking through the water.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Walking=,?,?,River=,?
-CONCEPTS B: ?,Hominid=,Entity+,Walking=,?,?,Water=,?
+CONCEPTS A: Hominid=,Entity+,Walking=,River=
+CONCEPTS B: Hominid=,Entity+,Walking=,Water=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	river	river	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09411430-n|River=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

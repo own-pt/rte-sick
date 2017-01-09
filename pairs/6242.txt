@@ -3,8 +3,8 @@ sentence B = A malnourished looking dog is standing on its hind legs and prepari
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,DiseaseOrSyndrome[,SubjectiveAssessmentAttribute+,Canine+,Entity+,PhysicalAttribute+,?,?,LandArea=,?
-CONCEPTS B: ?,DiseaseOrSyndrome+,SubjectiveAssessmentAttribute+,Canine+,Entity+,PhysicalAttribute+,?,?,BackFn+,Limb=,?,Learning+,?,Ambulating=,?
+CONCEPTS A: DiseaseOrSyndrome[,SubjectiveAssessmentAttribute+,Canine+,Entity+,PhysicalAttribute+,LandArea=
+CONCEPTS B: DiseaseOrSyndrome+,SubjectiveAssessmentAttribute+,Canine+,Entity+,PhysicalAttribute+,BackFn+,Limb=,Learning+,Ambulating=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	ground	ground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	09334396-n|LandArea=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

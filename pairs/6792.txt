@@ -3,8 +3,8 @@ sentence B = Two children are peering over a rusty ledge.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,Looking=,?,?,GeographicArea+,?,?,Entity+,Oxidation+,?
-CONCEPTS B: ?,HumanChild=,Entity+,Looking=,?,?,Oxidation+,GeographicArea+,?
+CONCEPTS A: HumanChild=,Entity+,Looking=,GeographicArea+,Entity+,Oxidation+
+CONCEPTS B: HumanChild=,Entity+,Looking=,Oxidation+,GeographicArea+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	11	cop	_	02604760-v|Entity+
 11	rusty	rusty	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	acl:relcl	_	02053094-a|Oxidation+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

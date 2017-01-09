@@ -3,8 +3,8 @@ sentence B = A soccer ball is rolling into a goal net.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,?,DramaticActing+,Soccer=,Entity+,Impelling+,?,Ball=,?,?,GameGoal=,?
-CONCEPTS B: ?,Soccer=,Ball=,Entity+,Motion+,?,?,GameGoal=,Artifact+,?
+CONCEPTS A: Human=,DramaticActing+,Soccer=,Entity+,Impelling+,Ball=,GameGoal=
+CONCEPTS B: Soccer=,Ball=,Entity+,Motion+,GameGoal=,Artifact+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	goal	goal	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	03442756-n|GameGoal=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

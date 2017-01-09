@@ -3,8 +3,8 @@ sentence B = The person who is playing soccer is kicking the ball between somebo
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,Entity+,Expressing+,?,Soccer=,Ball=,?,?,Foot+,?
-CONCEPTS B: ?,Human=,?,Entity+,DramaticActing+,Soccer=,Entity+,Expressing+,?,Ball=,?,?,?,Limb=,?
+CONCEPTS A: Human=,Entity+,Expressing+,Soccer=,Ball=,Foot+
+CONCEPTS B: Human=,Entity+,DramaticActing+,Soccer=,Entity+,Expressing+,Ball=,Limb=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	10	nmod:poss	_	?|?
 10	feet	foot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	05563266-n|Foot+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

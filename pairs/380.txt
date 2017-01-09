@@ -3,8 +3,8 @@ sentence B = There is no man sitting on a chair and rubbing his eyes.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,?,SurfaceChange+,Entity+,IntentionalProcess+,?,?,Sofa=,?,Process+,?,Pencil=,?
-CONCEPTS B: ?,PhysicalAttribute+,?,Hominid=,SittingDown+,?,?,Chair=,?,Touching+,?,Organ+,?
+CONCEPTS A: Hominid=,SurfaceChange+,Entity+,IntentionalProcess+,Sofa=,Process+,Pencil=
+CONCEPTS B: PhysicalAttribute+,Hominid=,SittingDown+,Chair=,Touching+,Organ+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	pencil	pencil	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	03908204-n|Pencil=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

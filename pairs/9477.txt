@@ -3,8 +3,8 @@ sentence B = A black dog and a white dog are wrestling on the ground.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Black=,Canine+,?,?,White=,Canine+,Entity+,Wrestling+,?,?,Bed=,?
-CONCEPTS B: ?,Black=,Canine+,?,?,White=,Canine+,Entity+,Wrestling+,?,?,LandArea=,?
+CONCEPTS A: Black=,Canine+,White=,Canine+,Entity+,Wrestling+,Bed=
+CONCEPTS B: Black=,Canine+,White=,Canine+,Entity+,Wrestling+,LandArea=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	bed	bed	NOUN	NN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	9	nmod	_	02818832-n|Bed=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

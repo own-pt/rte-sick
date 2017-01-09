@@ -3,8 +3,8 @@ sentence B = Two large park benches have a person sitting and a bottle of soda b
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,Woman=,PhysicalAttribute+,SittingDown+,StateOfMind+,?,?,Seat+,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Park+,Seat+,Damaging+,?,Human=,SittingDown+,?,?,Bottle=,?,Soda=,?,?,?
+CONCEPTS A: Man=,Woman=,PhysicalAttribute+,SittingDown+,StateOfMind+,Seat+
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Park+,Seat+,Damaging+,Human=,SittingDown+,Bottle=,Soda=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	bench	bench	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	02828884-n|Seat+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	4	nummod	_	?|?

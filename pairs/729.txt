@@ -3,8 +3,8 @@ sentence B = The man in the purple hat is operating a camera that makes videos.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Man=,?,?,Coloring+,ColorAttribute+,Hat+,Entity+,Attribute+,?,Camera=,?,Attribute+,TelevisionBroadcasting+,?
-CONCEPTS B: ?,Man=,?,?,SocialRole+,Hat+,Entity+,Attribute+,?,Camera=,?,Process+,TelevisionBroadcasting+,?
+CONCEPTS A: Man=,Coloring+,ColorAttribute+,Hat+,Entity+,Attribute+,Camera=,Attribute+,TelevisionBroadcasting+
+CONCEPTS B: Man=,SocialRole+,Hat+,Entity+,Attribute+,Camera=,Process+,TelevisionBroadcasting+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	11	acl:relcl	_	02621395-v|Attribute+
 14	videos	video	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	dobj	_	06277280-n|TelevisionBroadcasting+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

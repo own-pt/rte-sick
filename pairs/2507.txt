@@ -3,8 +3,8 @@ sentence B = There is no woman dancing in a cage.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Dancing+,?,?,TrapOrCage+,?
-CONCEPTS B: ?,Entity+,?,Woman=,Dancing+,?,?,TrapOrCage+,?
+CONCEPTS A: Woman=,Entity+,Dancing+,TrapOrCage+
+CONCEPTS B: Entity+,Woman=,Dancing+,TrapOrCage+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	cage	cage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02936714-n|TrapOrCage+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

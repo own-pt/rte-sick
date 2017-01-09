@@ -3,8 +3,8 @@ sentence B = A man is on a boat in front of the sunset.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,PhysicalAttribute+,?,?,WaterVehicle=,?,FrontFn=,?,?,Sunset+,?,?,Flag+,?
-CONCEPTS B: ?,Hominid=,Entity+,?,?,WaterVehicle=,?,FrontFn=,?,?,Sunset+,?
+CONCEPTS A: Hominid=,Entity+,PhysicalAttribute+,WaterVehicle=,FrontFn=,Sunset+,Flag+
+CONCEPTS B: Hominid=,Entity+,WaterVehicle=,FrontFn=,Sunset+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	flag	flag	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03354903-n|Flag+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Two small children are playing with a toy car in the street.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SocialRole+,Entity+,Transportation+,?,BiologicalAttribute+,?,?,PoweredVehicle+,?,?,BiologicalAttribute+,Entity+,SubjectiveAssessmentAttribute+,?,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,DramaticActing+,?,?,RecreationOrExerciseDevice+,Automobile=,?,?,Roadway=,?
+CONCEPTS A: SocialRole+,Entity+,Transportation+,BiologicalAttribute+,PoweredVehicle+,BiologicalAttribute+,Entity+,SubjectiveAssessmentAttribute+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,DramaticActing+,RecreationOrExerciseDevice+,Automobile=,Roadway=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	02133435-v|SubjectiveAssessmentAttribute+
 15	away	away	ADV	RB	fPOS=ADV++RB	14	advmod	_	00234951-r|?
 16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?

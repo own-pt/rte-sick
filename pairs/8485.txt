@@ -3,8 +3,8 @@ sentence B = A bicyclist is jumping on a pyramid-shaped ramp.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Man=,?,?,?,Bicycle=,Entity+,Ambulating=,?,?,OccupationalTrade+,ShapeAttribute+,?
-CONCEPTS B: ?,Human+,Entity+,Ambulating=,?,?,?,StationaryArtifact+,?
+CONCEPTS A: HumanYouth=,Man=,Bicycle=,Entity+,Ambulating=,OccupationalTrade+,ShapeAttribute+
+CONCEPTS B: Human+,Entity+,Ambulating=,StationaryArtifact+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	masonry	masonry	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	00608896-n|OccupationalTrade+
 13	pyramid	pyramid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	13914837-n|ShapeAttribute+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

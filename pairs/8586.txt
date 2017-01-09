@@ -3,8 +3,8 @@ sentence B = A white hat is being worn by an Arabic man.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,ArabicLanguage=,Man=,Entity+,CoveringFn=,?,White=,Hat+,?
-CONCEPTS B: ?,White=,Hat+,Entity+,Entity+,CoveringFn=,?,?,ArabicLanguage=,Man=,?
+CONCEPTS A: ArabicLanguage=,Man=,Entity+,CoveringFn=,White=,Hat+
+CONCEPTS B: White=,Hat+,Entity+,Entity+,CoveringFn=,ArabicLanguage=,Man=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	00393105-a|White=
 8	hat	hat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03497657-n|Hat+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

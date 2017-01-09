@@ -3,8 +3,8 @@ sentence B = A man is sitting near a bike and is writing a note.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,PhysicalAttribute+,?,Man=,CoveringFn=,Clothing+,?,PhysicalAttribute+,Covering+,?,Paint+,?,PhysicalAttribute+,SittingDown+,?,?,?,SubjectiveWeakNegativeAttribute+,GeographicArea+,WrittenCommunication=,?,?
-CONCEPTS B: ?,Hominid=,PhysicalAttribute+,SittingDown+,?,?,Bicycle=,?,PhysicalAttribute+,WrittenCommunication=,?,FactualText=,?
+CONCEPTS A: PhysicalAttribute+,Man=,CoveringFn=,Clothing+,PhysicalAttribute+,Covering+,Paint+,PhysicalAttribute+,SittingDown+,SubjectiveWeakNegativeAttribute+,GeographicArea+,WrittenCommunication=
+CONCEPTS B: Hominid=,PhysicalAttribute+,SittingDown+,Bicycle=,PhysicalAttribute+,WrittenCommunication=,FactualText=
 
 CONLL A:
 
@@ -30,6 +30,8 @@ CONLL A:
 20	writing	write	VERB	VBG	Number=Sing|fPOS=NOUN++NN	14	advcl	_	00993014-v|WrittenCommunication=
 21	something	something	NOUN	NN	Number=Sing|fPOS=NOUN++NN	20	dobj	_	?|?
 22	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

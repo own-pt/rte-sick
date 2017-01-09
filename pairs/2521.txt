@@ -3,8 +3,8 @@ sentence B = People are paddling near a raft that is being ridden.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: GroupOfPeople=,Entity+,Carrying=,?,Motion+,?,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: GroupOfPeople=,Entity+,Motion+,?,?,SubjectiveAssessmentAttribute+,?,Entity+,Entity+,Carrying=,?
+CONCEPTS A: GroupOfPeople=,Entity+,Carrying=,Motion+,SubjectiveAssessmentAttribute+
+CONCEPTS B: GroupOfPeople=,Entity+,Motion+,SubjectiveAssessmentAttribute+,Entity+,Entity+,Carrying=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	raft	raft	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	13774404-n|SubjectiveAssessmentAttribute+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	07942152-n|GroupOfPeople=

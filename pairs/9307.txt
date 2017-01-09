@@ -3,8 +3,8 @@ sentence B = A skateboarder is jumping in the air.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,Red=,Shirt=,Entity+,IntentionalProcess+,?,RecreationOrExercise+,?,?,TransportationDevice+,?
-CONCEPTS B: ?,Human+,Entity+,Ambulating=,?,?,AirTransportation+,?
+CONCEPTS A: Man=,Red=,Shirt=,Entity+,IntentionalProcess+,RecreationOrExercise+,TransportationDevice+
+CONCEPTS B: Human+,Entity+,Ambulating=,AirTransportation+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	skateboard	skateboard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	04225987-n|TransportationDevice+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

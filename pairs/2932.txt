@@ -3,8 +3,8 @@ sentence B = An onion is being sliced by a woman.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Decreasing+,?,Carrot=,?
-CONCEPTS B: ?,FruitOrVegetable+,Entity+,Entity+,Separating+,?,?,Woman=,?
+CONCEPTS A: Woman=,Entity+,Decreasing+,Carrot=
+CONCEPTS B: FruitOrVegetable+,Entity+,Entity+,Separating+,Woman=
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
 6	carrot	carrot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07730207-n|Carrot=
 7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

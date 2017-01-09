@@ -3,8 +3,8 @@ sentence B = Two men are standing near the water and are holding tools used for 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Keeping+,FishingSport=,LengthMeasure@,?
-CONCEPTS B: ?,Hominid=,Entity+,PhysicalAttribute+,?,?,Water=,?,Entity+,Process+,Device+,IntentionalProcess+,?,FishingSport=,?
+CONCEPTS A: Hominid=,Entity+,Keeping+,FishingSport=,LengthMeasure@
+CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,Water=,Entity+,Process+,Device+,IntentionalProcess+,FishingSport=
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	fishing	fishing	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	4	xcomp	_	00453935-n|FishingSport=
 6	poles	pole	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	13650921-n|LengthMeasure@
 7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

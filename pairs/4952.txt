@@ -3,8 +3,8 @@ sentence B = A little girl is peddling a scooter.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanBaby=,Elephant+,Entity+,not=,Process+,?,SubjectiveStrongNegativeAttribute+,ContentBearingObject+,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Selling+,?,LandVehicle+,?
+CONCEPTS A: HumanBaby=,Elephant+,Entity+,not=,Process+,SubjectiveStrongNegativeAttribute+,ContentBearingObject+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Selling+,LandVehicle+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
 9	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	13912260-n|ContentBearingObject+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

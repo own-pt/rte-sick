@@ -3,8 +3,8 @@ sentence B = The presentation is being watched by a classroom of students.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Demonstrating+,Entity+,not=,Entity+,Looking=,?,?,Classroom+,?,SocialRole+,?
-CONCEPTS B: ?,Demonstrating+,Entity+,Entity+,Looking=,?,?,Classroom+,?,SocialRole+,?
+CONCEPTS A: Demonstrating+,Entity+,not=,Entity+,Looking=,Classroom+,SocialRole+
+CONCEPTS B: Demonstrating+,Entity+,Entity+,Looking=,Classroom+,SocialRole+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
 11	students	student	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	nmod	_	10665698-n|SocialRole+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

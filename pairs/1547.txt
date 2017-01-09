@@ -3,8 +3,8 @@ sentence B = Mimes are performing on a stage.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: RecreationOrExercise+,Entity+,IntentionalProcess+,?,?,SubjectiveStrongNegativeAttribute+,Attribute+,?
-CONCEPTS B: RecreationOrExercise+,Entity+,IntentionalProcess+,?,?,Attribute+,?
+CONCEPTS A: RecreationOrExercise+,Entity+,IntentionalProcess+,SubjectiveStrongNegativeAttribute+,Attribute+
+CONCEPTS B: RecreationOrExercise+,Entity+,IntentionalProcess+,Attribute+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
 7	stage	stage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	13939892-n|Attribute+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Mimes	mime	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	00550016-n|RecreationOrExercise+

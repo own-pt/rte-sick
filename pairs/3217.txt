@@ -3,8 +3,8 @@ sentence B = The kitten is not playing with a toy.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Feline+,Entity+,DramaticActing+,?,?,SubjectiveStrongNegativeAttribute+,String+,RecreationOrExerciseDevice+,?
-CONCEPTS B: ?,Feline+,Entity+,not=,DramaticActing+,?,?,RecreationOrExerciseDevice+,?
+CONCEPTS A: Feline+,Entity+,DramaticActing+,SubjectiveStrongNegativeAttribute+,String+,RecreationOrExerciseDevice+
+CONCEPTS B: Feline+,Entity+,not=,DramaticActing+,RecreationOrExerciseDevice+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	04108268-n|String+
 9	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03964744-n|RecreationOrExerciseDevice+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

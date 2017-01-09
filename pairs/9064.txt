@@ -3,8 +3,8 @@ sentence B = A white dog is standing on a grassy hillside.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,PhysicalAttribute+,?,?,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,White=,Canine+,Entity+,PhysicalAttribute+,?,?,FloweringPlant+,SlopedArea+,?
+CONCEPTS A: Canine+,Entity+,PhysicalAttribute+,SubjectiveAssessmentAttribute+
+CONCEPTS B: White=,Canine+,Entity+,PhysicalAttribute+,FloweringPlant+,SlopedArea+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	mountain	mountain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	13774404-n|SubjectiveAssessmentAttribute+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

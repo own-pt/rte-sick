@@ -3,8 +3,8 @@ sentence B = A monkey is kicking a person.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Ape+,Entity+,Position+,SubjectiveStrongNegativeAttribute+,ArtWork=,?
-CONCEPTS B: ?,Human+,Entity+,Expressing+,?,Human=,?
+CONCEPTS A: Ape+,Entity+,Position+,SubjectiveStrongNegativeAttribute+,ArtWork=
+CONCEPTS B: Human+,Entity+,Expressing+,Human=
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	martial	martial	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	01518860-a|SubjectiveStrongNegativeAttribute+
 6	arts	art	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	02743547-n|ArtWork=
 7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Someone is stroking the belly of an animal.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,SurfaceChange+,?,Stomach+,?,?,Animal=,?
-CONCEPTS B: ?,Entity+,SocialInteraction+,?,Stomach+,?,?,Animal=,?
+CONCEPTS A: Entity+,SurfaceChange+,Stomach+,Animal=
+CONCEPTS B: Entity+,SocialInteraction+,Stomach+,Animal=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	animal	animal	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	00015388-n|Animal=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?

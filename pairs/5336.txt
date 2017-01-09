@@ -3,8 +3,8 @@ sentence B = Seasoning is being added to the water by the man.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Putting=,Putting+,?,?,Water=,?,?,Dish+,?
-CONCEPTS B: Food+,Entity+,Entity+,Putting=,?,?,Water=,?,?,Hominid=,?
+CONCEPTS A: Hominid=,Entity+,Putting=,Putting+,Water=,Dish+
+CONCEPTS B: Food+,Entity+,Entity+,Putting=,Water=,Hominid=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	bowl	bowl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02880940-n|Dish+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Seasoning	seasoning	AUX	VBG	Number=Sing|fPOS=NOUN++NN	4	nsubjpass	_	07809368-n|Food+

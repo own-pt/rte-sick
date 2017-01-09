@@ -3,8 +3,8 @@ sentence B = The black dog is not climbing on a rock.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,PhysicalAttribute+,?,?,?,FrontFn=,Hand+,?,?,Mineral+,?,?,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,Black=,Canine+,Entity+,not=,Increasing+,?,?,Mineral+,?
+CONCEPTS A: Canine+,Entity+,PhysicalAttribute+,FrontFn=,Hand+,Mineral+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Black=,Canine+,Entity+,not=,Increasing+,Mineral+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	14514039-n|SubjectiveAssessmentAttribute+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A young child is riding a three wheeled scooter down the sidewalk.
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,NonFullyFormed+,Entity+,not=,Carrying=,?,SubjectiveAssessmentAttribute+,LandVehicle+,RecreationOrExerciseDevice+,?
-CONCEPTS B: ?,HumanYouth=,HumanChild=,Entity+,Carrying=,?,?,Transportation+,LandVehicle+,?,?,Sidewalk=,?
+CONCEPTS A: NonFullyFormed+,Entity+,not=,Carrying=,SubjectiveAssessmentAttribute+,LandVehicle+,RecreationOrExerciseDevice+
+CONCEPTS B: HumanYouth=,HumanChild=,Entity+,Carrying=,Transportation+,LandVehicle+,Sidewalk=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	scooter	scooter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	03791053-n|LandVehicle+
 9	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03964744-n|RecreationOrExerciseDevice+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

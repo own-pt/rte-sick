@@ -3,8 +3,8 @@ sentence B = A man is naked and standing still.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,Entity+,CoveringFn=,?,SubjectiveWeakNegativeAttribute+,Hat+,?,Dancing+,?
-CONCEPTS B: ?,Hominid=,Entity+,Clothing[,?,PhysicalAttribute+,?,?
+CONCEPTS A: Man=,Entity+,CoveringFn=,SubjectiveWeakNegativeAttribute+,Hat+,Dancing+
+CONCEPTS B: Hominid=,Entity+,Clothing[,PhysicalAttribute+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
 9	dancing	dance	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	conj	_	01708676-v|Dancing+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

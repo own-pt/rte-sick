@@ -3,8 +3,8 @@ sentence B = There is no dog running up a grassy hill.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Attribute+,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,Entity+,?,Canine+,Attribute+,Increasing+,?,FloweringPlant+,Hill=,?
+CONCEPTS A: Canine+,Entity+,Attribute+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Entity+,Canine+,Attribute+,Increasing+,FloweringPlant+,Hill=
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
 5	uphill	uphill	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	xcomp	_	00490410-r|SubjectiveAssessmentAttribute+
 6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

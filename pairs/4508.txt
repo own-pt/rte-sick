@@ -3,8 +3,8 @@ sentence B = A man is massaging a woman.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Entity+,TherapeuticProcess+,?,?,Man=,?
-CONCEPTS B: ?,Man=,Entity+,TherapeuticProcess+,?,Woman=,?
+CONCEPTS A: Woman=,Entity+,Entity+,TherapeuticProcess+,Man=
+CONCEPTS B: Man=,Entity+,TherapeuticProcess+,Woman=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	10287213-n|Man=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A boy in a blue shirt has dirt on his face.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Damaging+,?,SubjectiveStrongNegativeAttribute+,Face+,?,Text+,?,?,Shirt=,?
-CONCEPTS B: ?,Human+,?,?,SubjectiveStrongNegativeAttribute+,Shirt=,Damaging+,Text+,?,?,Face+,?
+CONCEPTS A: Human+,Damaging+,SubjectiveStrongNegativeAttribute+,Face+,Text+,Shirt=
+CONCEPTS B: Human+,SubjectiveStrongNegativeAttribute+,Shirt=,Damaging+,Text+,Face+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	04197391-n|Shirt=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

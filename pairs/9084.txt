@@ -3,8 +3,8 @@ sentence B = A brown and black dog is pointing the nose upwards.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Black=,?,Human+,Canine+,Entity+,Looking+,?,FlyInsect+,?
-CONCEPTS B: ?,Human+,?,Black=,Canine+,Entity+,Indicating=,?,Nose+,Increasing+,?
+CONCEPTS A: Black=,Human+,Canine+,Entity+,Looking+,FlyInsect+
+CONCEPTS B: Human+,Black=,Canine+,Entity+,Indicating=,Nose+,Increasing+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	fly	fly	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	02190166-n|FlyInsect+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

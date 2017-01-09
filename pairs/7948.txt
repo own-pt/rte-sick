@@ -3,8 +3,8 @@ sentence B = A boy is running through the water at the beach.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,Human+,?,?,White=,Shirt+,Wetting+,?,SubjectiveWeakNegativeAttribute+,Water=,?
-CONCEPTS B: ?,Human+,Entity+,Attribute+,?,?,WaterArea=,?,?,ShoreArea=,?
+CONCEPTS A: Entity+,Human+,White=,Shirt+,Wetting+,SubjectiveWeakNegativeAttribute+,Water=
+CONCEPTS B: Human+,Entity+,Attribute+,WaterArea=,ShoreArea=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	shallow	shallow	NOUN	NN	fPOS=ADV++RB	12	amod	_	00691696-a|SubjectiveWeakNegativeAttribute+
 12	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	14845743-n|Water=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

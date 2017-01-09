@@ -3,8 +3,8 @@ sentence B = A woman is cooking a breaded pork chop.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Killing+,?,?,Pork=,Meat+,?
-CONCEPTS B: ?,Woman=,Entity+,Cooking+,?,?,Pork=,Meat+,?
+CONCEPTS A: Woman=,Entity+,Killing+,Pork=,Meat+
+CONCEPTS B: Woman=,Entity+,Cooking+,Pork=,Meat+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	pork	pork	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	07668702-n|Pork=
 8	chop	chop	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07653982-n|Meat+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A black and white dog is playing with a broken volleyball.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Black=,?,White=,Canine+,Entity+,DramaticActing+,?,?,Destruction+,Volleyball=,?,?,Human+,FieldOfStudy=,?
-CONCEPTS B: ?,Black=,?,White=,Canine+,Entity+,DramaticActing+,?,?,EndFn+,Volleyball=,?
+CONCEPTS A: Black=,White=,Canine+,Entity+,DramaticActing+,Destruction+,Volleyball=,Human+,FieldOfStudy=
+CONCEPTS B: Black=,White=,Canine+,Entity+,DramaticActing+,EndFn+,Volleyball=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	brown	brown	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	00245112-a|Human+
 15	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	05996646-n|FieldOfStudy=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?

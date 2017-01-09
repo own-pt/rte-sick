@@ -3,8 +3,8 @@ sentence B = A man is playing a guitar on stage.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,hasSkill=,Hominid=,Entity+,DramaticActing+,?,Guitar=,?,Attribute+,?
-CONCEPTS B: ?,Hominid=,Entity+,DramaticActing+,?,Guitar=,?,Attribute+,?
+CONCEPTS A: hasSkill=,Hominid=,Entity+,DramaticActing+,Guitar=,Attribute+
+CONCEPTS B: Hominid=,Entity+,DramaticActing+,Guitar=,Attribute+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
 9	stage	stage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	13939892-n|Attribute+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

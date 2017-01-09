@@ -3,8 +3,8 @@ sentence B = A group of football players is running in the field.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute=,Entity+,not=,Looking=,?,Football+,Game=,?
-CONCEPTS B: ?,Group=,?,Football+,Human+,Entity+,Attribute+,?,?,FieldOfStudy=,?
+CONCEPTS A: SubjectiveAssessmentAttribute=,Entity+,not=,Looking=,Football+,Game=
+CONCEPTS B: Group=,Football+,Human+,Entity+,Attribute+,FieldOfStudy=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	00468480-n|Football+
 8	game	game	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	00455599-n|Game=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

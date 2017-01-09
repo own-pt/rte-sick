@@ -3,8 +3,8 @@ sentence B = A person is cutting garlic into pieces with a knife.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,Putting=,Abstract+,?,?,PotOrPan=,?
-CONCEPTS B: ?,Human=,Entity+,Cutting+,Garlic=,?,TimeDuration+,?,?,CuttingDevice+,?
+CONCEPTS A: Entity+,Putting=,Abstract+,PotOrPan=
+CONCEPTS B: Human=,Entity+,Cutting+,Garlic=,TimeDuration+,CuttingDevice+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	pan	pan	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	03880531-n|PotOrPan=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

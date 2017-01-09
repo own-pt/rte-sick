@@ -3,8 +3,8 @@ sentence B = A man wearing a dyed black shirt is sitting at the table and laughi
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,Woman=,Impacting+,?,BirdEgg=,?,?,Dish+,?,IntentionalProcess+,?,Device+,Attribute+,?,Wire=,?
-CONCEPTS B: ?,Man=,Putting+,?,Coloring+,Black=,Shirt=,PhysicalAttribute+,SittingDown+,?,?,ContentBearingObject+,?,Laughing=,?
+CONCEPTS A: Entity+,Woman=,Impacting+,BirdEgg=,Dish+,IntentionalProcess+,Device+,Attribute+,Wire=
+CONCEPTS B: Man=,Putting+,Coloring+,Black=,Shirt=,PhysicalAttribute+,SittingDown+,ContentBearingObject+,Laughing=
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	of	of	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
 17	wire	wire	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	04594218-n|Wire=
 18	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

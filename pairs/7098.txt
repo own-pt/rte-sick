@@ -3,8 +3,8 @@ sentence B = A group of people is standing together and looking at the camera.
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Asia+,Man=,?,?,Woman=,Entity+,Process+,?,CorpuscularObject+,?,?,Camera=,?
-CONCEPTS B: ?,Group=,?,GroupOfPeople=,Entity+,PhysicalAttribute+,Meeting=,?,SubjectiveAssessmentAttribute+,?,?,Camera=,?
+CONCEPTS A: Asia+,Man=,Woman=,Entity+,Process+,CorpuscularObject+,Camera=
+CONCEPTS B: Group=,GroupOfPeople=,Entity+,PhysicalAttribute+,Meeting=,SubjectiveAssessmentAttribute+,Camera=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	02942699-n|Camera=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

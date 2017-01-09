@@ -3,8 +3,8 @@ sentence B = The group of people is sitting in a dim room.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,Woman=,Entity+,PhysicalAttribute+,?,?,RadiatingLight+,Room=,?,?,ContentBearingObject+,?,Candle=,?
-CONCEPTS B: ?,Group=,?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,?,Decreasing+,Room=,?
+CONCEPTS A: Man=,Woman=,Entity+,PhysicalAttribute+,RadiatingLight+,Room=,ContentBearingObject+,Candle=
+CONCEPTS B: Group=,GroupOfPeople=,PhysicalAttribute+,SittingDown+,Decreasing+,Room=
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	with	with	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
 16	candles	candle	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	14	nmod	_	02948072-n|Candle=
 17	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

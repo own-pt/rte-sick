@@ -3,8 +3,8 @@ sentence B = A cat is crawling under a piece of furniture.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Whip+,Entity+,not=,StateOfMind+,?,?,TimeDuration+,?,Furniture=,?
-CONCEPTS B: ?,Whip+,Entity+,StateOfMind+,?,?,TimeDuration+,?,Furniture=,?
+CONCEPTS A: Whip+,Entity+,not=,StateOfMind+,TimeDuration+,Furniture=
+CONCEPTS B: Whip+,Entity+,StateOfMind+,TimeDuration+,Furniture=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
 10	furniture	furniture	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	03405725-n|Furniture=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

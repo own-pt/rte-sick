@@ -3,8 +3,8 @@ sentence B = Two people are standing in the ocean and looking at the sunset.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Entity+,PhysicalAttribute+,?,?,Ocean=,?,Looking=,?,Sunset+,?
-CONCEPTS B: ?,GroupOfPeople=,Entity+,PhysicalAttribute+,?,?,Ocean=,?,SubjectiveAssessmentAttribute+,?,?,Sunset+,?
+CONCEPTS A: GroupOfPeople=,Entity+,PhysicalAttribute+,Ocean=,Looking=,Sunset+
+CONCEPTS B: GroupOfPeople=,Entity+,PhysicalAttribute+,Ocean=,SubjectiveAssessmentAttribute+,Sunset+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	sunset	sunset	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	15169248-n|Sunset+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

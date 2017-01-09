@@ -3,8 +3,8 @@ sentence B = The man is not playing a flute.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,DramaticActing+,?,Bamboo=,Flute=,?
-CONCEPTS B: ?,Hominid=,Entity+,not=,DramaticActing+,?,Flute=,?
+CONCEPTS A: Hominid=,Entity+,DramaticActing+,Bamboo=,Flute=
+CONCEPTS B: Hominid=,Entity+,not=,DramaticActing+,Flute=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	bamboo	bamboo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	12147226-n|Bamboo=
 7	flute	flute	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03372029-n|Flute=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

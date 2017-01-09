@@ -3,8 +3,8 @@ sentence B = A group of boys is playing soccer on the beach.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Group=,?,Woman=,Entity+,DramaticActing+,?,?,Ball=,?,?,ShoreArea=,?
-CONCEPTS B: ?,Group=,?,Human+,Entity+,DramaticActing+,Soccer=,?,?,ShoreArea=,?
+CONCEPTS A: Group=,Woman=,Entity+,DramaticActing+,Ball=,ShoreArea=
+CONCEPTS B: Group=,Human+,Entity+,DramaticActing+,Soccer=,ShoreArea=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	09217230-n|ShoreArea=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

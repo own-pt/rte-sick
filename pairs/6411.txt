@@ -3,8 +3,8 @@ sentence B = A black man is break dancing on the pavement.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,?,Entity+,SubjectiveWeakNegativeAttribute+,Separating+,?,Entity+,PhysicalAttribute+,?,?,Hand+,?,FrontFn=,?,?,SubjectiveAssessmentAttribute+,Building=,?
-CONCEPTS B: ?,Black=,Hominid=,Entity+,EndFn+,Dancing+,?,?,Sidewalk=,?
+CONCEPTS A: Human+,Entity+,SubjectiveWeakNegativeAttribute+,Separating+,Entity+,PhysicalAttribute+,Hand+,FrontFn=,SubjectiveAssessmentAttribute+,Building=
+CONCEPTS B: Black=,Hominid=,Entity+,EndFn+,Dancing+,Sidewalk=
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	19	amod	_	02101942-a|SubjectiveAssessmentAttribute+
 19	building	building	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	02913152-n|Building=
 20	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

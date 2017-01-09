@@ -3,8 +3,8 @@ sentence B = Three people are sitting on a bench under some palm trees.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GroupOfPeople=,PhysicalAttribute+,not=,SittingDown+,?,?,Seat+,?,FrontFn=,?,?,Restaurant+,?
-CONCEPTS B: ?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,?,Seat+,?,?,UnilateralGiving+,ContentBearingObject+,?
+CONCEPTS A: GroupOfPeople=,PhysicalAttribute+,not=,SittingDown+,Seat+,FrontFn=,Restaurant+
+CONCEPTS B: GroupOfPeople=,PhysicalAttribute+,SittingDown+,Seat+,UnilateralGiving+,ContentBearingObject+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	restaurant	restaurant	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	04081281-n|Restaurant+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

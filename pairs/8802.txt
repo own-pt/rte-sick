@@ -3,8 +3,8 @@ sentence B = Several people are sitting around a fire at night.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: GroupOfPeople=,Entity+,Meeting+,?,?,Fire+,?,Morning=,?
-CONCEPTS B: ?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,?,Combustion=,?,NightTime+,?
+CONCEPTS A: GroupOfPeople=,Entity+,Meeting+,Fire+,Morning=
+CONCEPTS B: GroupOfPeople=,PhysicalAttribute+,SittingDown+,Combustion=,NightTime+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
 8	morning	morning	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	15165289-n|Morning=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Several	several	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	?|?

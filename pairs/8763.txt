@@ -3,8 +3,8 @@ sentence B = A young boy is jumping into water.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,RecreationOrExercise+,?,SubjectiveAssessmentAttribute+,Coat=,?,Entity+,Ambulating=,earlier+,?,?,Mineral+,?
-CONCEPTS B: ?,HumanYouth=,Human+,Entity+,Ambulating=,?,Water=,?
+CONCEPTS A: Human+,Entity+,RecreationOrExercise+,SubjectiveAssessmentAttribute+,Coat=,Entity+,Ambulating=,earlier+,Mineral+
+CONCEPTS B: HumanYouth=,Human+,Entity+,Ambulating=,Water=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	14696793-n|Mineral+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

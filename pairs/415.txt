@@ -3,8 +3,8 @@ sentence B = Two men with cars are on the side of a snowy road.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,?,Bicycle=,Entity+,?,?,Object+,?,?,Covering+,Roadway+,?
-CONCEPTS B: ?,Hominid=,?,Automobile=,Entity+,?,?,Object+,?,?,Covering+,Roadway+,?
+CONCEPTS A: Hominid=,Bicycle=,Entity+,Object+,Covering+,Roadway+
+CONCEPTS B: Hominid=,Automobile=,Entity+,Object+,Covering+,Roadway+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	snowy	snowy	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	01698231-a|Covering+
 12	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	04096066-n|Roadway+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

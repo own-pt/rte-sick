@@ -3,8 +3,8 @@ sentence B = Kids are being dressed in costumes and playing a game.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,?,Painting=,Face+,Entity+,PhysicalAttribute+,Position+,?,?,equal+,HumanChild=,?
-CONCEPTS B: HumanChild=,Entity+,Entity+,Dressing+,?,Clothing+,?,DramaticActing+,?,Game=,?
+CONCEPTS A: HumanYouth=,Human+,Painting=,Face+,Entity+,PhysicalAttribute+,Position+,equal+,HumanChild=
+CONCEPTS B: HumanChild=,Entity+,Entity+,Dressing+,Clothing+,DramaticActing+,Game=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	02069355-a|equal+
 13	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	09917593-n|HumanChild=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	Kids	kid	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubjpass	_	09917593-n|HumanChild=

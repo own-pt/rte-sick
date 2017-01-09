@@ -3,8 +3,8 @@ sentence B = A bride with a white veil is looking down.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,SubjectiveAssessmentAttribute+,earlier+,?,Entity+,Putting+,?,Wedding=,Clothing+,?
-CONCEPTS B: ?,Human+,?,?,White=,Clothing+,Entity+,SubjectiveAssessmentAttribute+,earlier+,?
+CONCEPTS A: Woman=,Entity+,SubjectiveAssessmentAttribute+,earlier+,Entity+,Putting+,Wedding=,Clothing+
+CONCEPTS B: Human+,White=,Clothing+,Entity+,SubjectiveAssessmentAttribute+,earlier+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	wedding	wedding	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	07452074-n|Wedding=
 11	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	02728440-n|Clothing+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

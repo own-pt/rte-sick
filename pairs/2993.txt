@@ -3,8 +3,8 @@ sentence B = There is no boy playing a keyboard.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human+,PhysicalAttribute+,SittingDown+,?,?,Room=,?,DramaticActing+,?,Piano=,?,Device+,RadiatingVisibleLight+,?
-CONCEPTS B: ?,Entity+,?,Human+,DramaticActing+,?,ComputerInputDevice+,?
+CONCEPTS A: Human+,PhysicalAttribute+,SittingDown+,Room=,DramaticActing+,Piano=,Device+,RadiatingVisibleLight+
+CONCEPTS B: Entity+,Human+,DramaticActing+,ComputerInputDevice+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	lamp	lamp	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	03636649-n|Device+
 14	light	light	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	11473954-n|RadiatingVisibleLight+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

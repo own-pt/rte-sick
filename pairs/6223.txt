@@ -3,8 +3,8 @@ sentence B = The crowd is watching two racing cars that are leaving the starting
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute=,Entity+,Looking=,?,Automobile=,Designing=,?,Motion+,?,Entity+,Process+,?,Leaving=,Position+,?
-CONCEPTS B: ?,SubjectiveAssessmentAttribute=,Entity+,Looking=,?,Motion+,Automobile=,?,Entity+,Process+,?,Leaving=,Position+,?
+CONCEPTS A: SubjectiveAssessmentAttribute=,Entity+,Looking=,Automobile=,Designing=,Motion+,Entity+,Process+,Leaving=,Position+
+CONCEPTS B: SubjectiveAssessmentAttribute=,Entity+,Looking=,Motion+,Automobile=,Entity+,Process+,Leaving=,Position+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	starting	start	VERB	VBG	Number=Sing|fPOS=NOUN++NN	15	compound	_	02014165-v|Leaving=
 15	line	line	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	dobj	_	00582388-n|Position+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

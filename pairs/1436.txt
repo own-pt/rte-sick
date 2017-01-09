@@ -3,8 +3,8 @@ sentence B = A man is playing a keyboard.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,DramaticActing+,?,Radiating+,Guitar=,?
-CONCEPTS B: ?,Hominid=,Entity+,DramaticActing+,?,ComputerInputDevice+,?
+CONCEPTS A: Hominid=,Entity+,DramaticActing+,Radiating+,Guitar=
+CONCEPTS B: Hominid=,Entity+,DramaticActing+,ComputerInputDevice+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	electric	electric	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	02826877-a|Radiating+
 7	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03467517-n|Guitar=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

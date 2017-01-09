@@ -3,8 +3,8 @@ sentence B = There is no man holding a mask in his raised hand.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Dressing+,?,Black=,Entity+,Dressing+,?,SubjectiveStrongNegativeAttribute+,Black=,Artifact+,?
-CONCEPTS B: ?,Entity+,?,Hominid=,Obligation+,?,Artifact+,?,?,Increasing+,Hand+,?
+CONCEPTS A: Hominid=,Dressing+,Black=,Entity+,Dressing+,SubjectiveStrongNegativeAttribute+,Black=,Artifact+
+CONCEPTS B: Entity+,Hominid=,Obligation+,Artifact+,Increasing+,Hand+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	00392812-a|Black=
 11	mask	mask	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	03724870-n|Artifact+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

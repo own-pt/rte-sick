@@ -3,8 +3,8 @@ sentence B = The woman is removing cheese from the sauce.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Pouring=,?,PreparedFood+,?,Separating+,Cheese=,?,?,SubjectiveAssessmentAttribute+,?,PreparedFood+,?
-CONCEPTS B: ?,Woman=,Entity+,LeavingAnOrganization+,Cheese=,?,?,PreparedFood+,?
+CONCEPTS A: Hominid=,Entity+,Pouring=,PreparedFood+,Separating+,Cheese=,SubjectiveAssessmentAttribute+,PreparedFood+
+CONCEPTS B: Woman=,Entity+,LeavingAnOrganization+,Cheese=,PreparedFood+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	of	of	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
 14	sauce	sauce	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	07829412-n|PreparedFood+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

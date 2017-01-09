@@ -3,8 +3,8 @@ sentence B = A girl is wearing an orange shirt and a striped tie.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,?,OrangeColor+,Shirt=,?,Human+,Mixture+,Entity+,Walking=,?,?,Park+,?,?,Entity+,SubjectiveAssessmentAttribute+,?,?
-CONCEPTS B: ?,Human+,Entity+,Putting+,?,OrangeColor+,Shirt=,?,?,VisualAttribute+,TieClothing+,?
+CONCEPTS A: Human+,OrangeColor+,Shirt=,Human+,Mixture+,Entity+,Walking=,Park+,Entity+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Human+,Entity+,Putting+,OrangeColor+,Shirt=,VisualAttribute+,TieClothing+
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
 19	on	on	ADV	RB	fPOS=ADV++RB	18	advmod	_	?|?
 20	.	.	PUNCT	.	fPOS=PUNCT++.	18	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

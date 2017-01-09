@@ -3,8 +3,8 @@ sentence B = A girl in an orange shirt and clown makeup is standing in a park an
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Putting+,?,OrangeColor+,Shirt=,?,?,VisualAttribute+,TieClothing+,?
-CONCEPTS B: ?,Human+,?,?,OrangeColor+,Shirt=,?,Human+,Mixture+,Entity+,PhysicalAttribute+,?,?,Park+,?,?,Entity+,SubjectiveAssessmentAttribute+,?,?
+CONCEPTS A: Human+,Entity+,Putting+,OrangeColor+,Shirt=,VisualAttribute+,TieClothing+
+CONCEPTS B: Human+,OrangeColor+,Shirt=,Human+,Mixture+,Entity+,PhysicalAttribute+,Park+,Entity+,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	striped	striped	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	01790807-a|VisualAttribute+
 11	tie	tie	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	conj	_	03815615-n|TieClothing+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

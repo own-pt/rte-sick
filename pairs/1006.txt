@@ -3,8 +3,8 @@ sentence B = A boy is standing in front of the blue building in the space reserv
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,?,Red=,Shirt=,Entity+,?,?,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,Wall=,?,Entity+,Decreasing+,?,BodyPart+,?,DirectionChange+,?,Camera=,?
-CONCEPTS B: ?,Human+,Entity+,PhysicalAttribute+,?,FrontFn=,?,?,SubjectiveStrongNegativeAttribute+,Building=,?,?,OuterSpaceRegion+,Reserving=,?,RegulatoryProcess+,GroupOfPeople=,?
+CONCEPTS A: Human+,Red=,Shirt=,Entity+,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,Wall=,Entity+,Decreasing+,BodyPart+,DirectionChange+,Camera=
+CONCEPTS B: Human+,Entity+,PhysicalAttribute+,FrontFn=,SubjectiveStrongNegativeAttribute+,Building=,OuterSpaceRegion+,Reserving=,RegulatoryProcess+,GroupOfPeople=
 
 CONLL A:
 
@@ -30,6 +30,8 @@ CONLL A:
 20	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	21	det	_	?|?
 21	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	19	dobj	_	02942699-n|Camera=
 22	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

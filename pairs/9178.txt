@@ -3,8 +3,8 @@ sentence B = A distant person with a blue backpack is hiking in rocky area.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Human=,?,?,SubjectiveStrongNegativeAttribute+,Bag+,Walking+,?,TextureAttribute+,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,SubjectiveAssessmentAttribute+,Human=,?,?,SubjectiveStrongNegativeAttribute+,Bag+,Entity+,Walking+,?,TextureAttribute+,GeographicArea+,?
+CONCEPTS A: Entity+,Human=,SubjectiveStrongNegativeAttribute+,Bag+,Walking+,TextureAttribute+,SubjectiveAssessmentAttribute+
+CONCEPTS B: SubjectiveAssessmentAttribute+,Human=,SubjectiveStrongNegativeAttribute+,Bag+,Entity+,Walking+,TextureAttribute+,GeographicArea+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	rocky	rocky	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	12	amod	_	02243567-a|TextureAttribute+
 12	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	14514039-n|SubjectiveAssessmentAttribute+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = An animal is rolling from side to side in a garden.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SocialRole+,Entity+,SubjectiveAssessmentAttribute+,Motion+,?,Region+,?,Region+,?,?,CorpuscularObject+,?
-CONCEPTS B: ?,Animal=,Entity+,Motion+,?,Object+,?,Object+,?,?,CultivatedLandArea+,?
+CONCEPTS A: SocialRole+,Entity+,SubjectiveAssessmentAttribute+,Motion+,Region+,Region+,CorpuscularObject+
+CONCEPTS B: Animal=,Entity+,Motion+,Object+,Object+,CultivatedLandArea+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	12	nmod:poss	_	?|?
 12	back	back	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02767433-n|CorpuscularObject+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

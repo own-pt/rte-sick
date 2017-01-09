@@ -3,8 +3,8 @@ sentence B = A group of people are looking at sound equipment.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Group=,?,GroupOfPeople=,Entity+,not=,SubjectiveAssessmentAttribute+,?,Asleep+,Device+,?
-CONCEPTS B: ?,Group=,?,GroupOfPeople=,Entity+,SubjectiveAssessmentAttribute+,?,Asleep+,Device+,?
+CONCEPTS A: Group=,GroupOfPeople=,Entity+,not=,SubjectiveAssessmentAttribute+,Asleep+,Device+
+CONCEPTS B: Group=,GroupOfPeople=,Entity+,SubjectiveAssessmentAttribute+,Asleep+,Device+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	sound	sound	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	10	compound	_	00693020-a|Asleep+
 10	equipment	equipment	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	03294048-n|Device+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

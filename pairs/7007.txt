@@ -3,8 +3,8 @@ sentence B = A white dog is lying on fallen leaves.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,White=,Canine+,Entity+,PhysicalAttribute+,?,Getting+,Leaf=,?
-CONCEPTS B: ?,White=,Canine+,Entity+,PhysicalAttribute+,?,Getting+,Leaf=,?
+CONCEPTS A: White=,Canine+,Entity+,PhysicalAttribute+,Getting+,Leaf=
+CONCEPTS B: White=,Canine+,Entity+,PhysicalAttribute+,Getting+,Leaf=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	fallen	fall	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	02229828-v|Getting+
 8	leaves	leaf	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	13152742-n|Leaf=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

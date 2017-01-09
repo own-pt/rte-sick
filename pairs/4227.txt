@@ -3,8 +3,8 @@ sentence B = A lemur is eating.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Animal=,?,SubjectiveWeakPositiveAttribute+,Organ+,Entity+,Process+,?
-CONCEPTS B: ?,Primate+,Entity+,Process+,?
+CONCEPTS A: Animal=,SubjectiveWeakPositiveAttribute+,Organ+,Entity+,Process+
+CONCEPTS B: Primate+,Entity+,Process+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
 7	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01157517-v|Process+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

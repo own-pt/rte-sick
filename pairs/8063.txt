@@ -3,8 +3,8 @@ sentence B = A young girl is wearing a blue patterned swim suit, a black and yel
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,Entity+,SittingDown+,?,Swimming+,Gear=,?
-CONCEPTS B: ?,HumanYouth=,Human+,Entity+,CoveringFn=,?,SubjectiveStrongNegativeAttribute+,Planning+,Swimming=,ClothingSuit+,?,?,Black=,?,SubjectiveAssessmentAttribute+,Swimming=,Device+,?,Attribute+,SubjectiveStrongNegativeAttribute+,Swimming+,ProtectiveEyewear=,?,?,Head=,?
+CONCEPTS A: HumanYouth=,Human+,Entity+,SittingDown+,Swimming+,Gear=
+CONCEPTS B: HumanYouth=,Human+,Entity+,CoveringFn=,SubjectiveStrongNegativeAttribute+,Planning+,Swimming=,ClothingSuit+,Black=,SubjectiveAssessmentAttribute+,Swimming=,Device+,Attribute+,SubjectiveStrongNegativeAttribute+,Swimming+,ProtectiveEyewear=,Head=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	swimming	swim	VERB	VBG	Number=Sing|fPOS=NOUN++NN	8	amod	_	01960911-v|Swimming+
 8	gear	gear	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03430551-n|Gear=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = The woman is not waterskiing.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Woman=,Entity+,?,?,?,Lake=,?
-CONCEPTS B: ?,Woman=,Entity+,not=,?,?
+CONCEPTS A: Woman=,Entity+,Lake=
+CONCEPTS B: Woman=,Entity+,not=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	lake	lake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09328904-n|Lake=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

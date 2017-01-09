@@ -3,8 +3,8 @@ sentence B = A dog with a blue blanket is running through the grass.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,?,?,GunBarrel+,?,?,SubjectiveStrongNegativeAttribute+,Coat=,Entity+,Attribute+,?,?,LandArea=,?
-CONCEPTS B: ?,Canine+,?,?,SubjectiveStrongNegativeAttribute+,Blanket+,Entity+,Attribute+,?,?,Grass=,?
+CONCEPTS A: Canine+,GunBarrel+,SubjectiveStrongNegativeAttribute+,Coat=,Entity+,Attribute+,LandArea=
+CONCEPTS B: Canine+,SubjectiveStrongNegativeAttribute+,Blanket+,Entity+,Attribute+,Grass=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	yard	yard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	04610879-n|LandArea=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

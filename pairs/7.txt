@@ -3,8 +3,8 @@ sentence B = The young boys are playing outdoors and the man is smiling nearby.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Group=,?,Human+,?,?,LandArea=,Entity+,DramaticActing+,?,?,Man=,Entity+,PhysicalAttribute+,?,?,Region+,?
-CONCEPTS B: ?,HumanYouth=,Human+,Entity+,DramaticActing+,Outdoors+,?,?,Man=,Entity+,Smiling=,Near=,?
+CONCEPTS A: Group=,Human+,LandArea=,Entity+,DramaticActing+,Man=,Entity+,PhysicalAttribute+,Region+
+CONCEPTS B: HumanYouth=,Human+,Entity+,DramaticActing+,Outdoors+,Man=,Entity+,Smiling=,Near=
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	17	det	_	?|?
 17	background	background	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	14513259-n|Region+
 18	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

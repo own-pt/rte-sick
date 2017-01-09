@@ -3,8 +3,8 @@ sentence B = People are clustered around a bonfire at morning.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: GroupOfPeople=,Entity+,Meeting+,?,?,Fire+,?,NightTime+,?
-CONCEPTS B: GroupOfPeople=,Entity+,Meeting+,?,?,Fire+,?,Morning=,?
+CONCEPTS A: GroupOfPeople=,Entity+,Meeting+,Fire+,NightTime+
+CONCEPTS B: GroupOfPeople=,Entity+,Meeting+,Fire+,Morning=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
 8	night	night	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	15167027-n|NightTime+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubjpass	_	07942152-n|GroupOfPeople=

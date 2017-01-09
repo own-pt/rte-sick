@@ -3,8 +3,8 @@ sentence B = A blonde boy in green is sitting on a swing.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,Green=,PhysicalAttribute+,SittingDown+,?,?,Ambulating=,Human+,?
-CONCEPTS B: ?,Human+,Human+,?,Green+,PhysicalAttribute+,SittingDown+,?,?,SoundAttribute+,?
+CONCEPTS A: Human+,Green=,PhysicalAttribute+,SittingDown+,Ambulating=,Human+
+CONCEPTS B: Human+,Human+,Green+,PhysicalAttribute+,SittingDown+,SoundAttribute+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	swinging	swing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	01877355-v|Ambulating=
 10	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	10285313-n|Human+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

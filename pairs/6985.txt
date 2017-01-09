@@ -3,8 +3,8 @@ sentence B = A family is posing by the mantel and the Christmas tree.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,FamilyGroup+,?,?,SubjectiveAssessmentAttribute+,Happiness=,?,Entity+,Putting=,?,?,Fireplace=,?
-CONCEPTS B: ?,FamilyGroup+,Entity+,Putting=,?,?,Shelf+,?,?,TimeInterval+,ContentBearingObject+,?
+CONCEPTS A: FamilyGroup+,SubjectiveAssessmentAttribute+,Happiness=,Entity+,Putting=,Fireplace=
+CONCEPTS B: FamilyGroup+,Entity+,Putting=,Shelf+,TimeInterval+,ContentBearingObject+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	fireplace	fireplace	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	03346455-n|Fireplace=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

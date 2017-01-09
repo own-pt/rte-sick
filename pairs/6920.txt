@@ -3,8 +3,8 @@ sentence B = A man is holding a sign and is seeking money.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,PositionalAttribute+,Man=,Entity+,PhysicalAttribute+,?,?,Pursuing+,Wagon+,?,Entity+,Process+,?,Artifact+,Character+,?
-CONCEPTS B: ?,Hominid=,Entity+,PhysicalAttribute+,?,Character+,?,Entity+,IntentionalProcess+,Currency=,?
+CONCEPTS A: PositionalAttribute+,Man=,Entity+,PhysicalAttribute+,Pursuing+,Wagon+,Entity+,Process+,Artifact+,Character+
+CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,Character+,Entity+,IntentionalProcess+,Currency=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	cardboard	cardboard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	compound	_	14799601-n|Artifact+
 15	sign	sign	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	dobj	_	06811625-n|Character+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

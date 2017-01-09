@@ -3,8 +3,8 @@ sentence B = A woman is posing for three men for a photo.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,?,?,Man=,Entity+,Putting=,?,?,Photograph=,?
-CONCEPTS B: ?,Woman=,Entity+,Putting=,?,?,Man=,?,?,Photograph=,?
+CONCEPTS A: Woman=,Man=,Entity+,Putting=,Photograph=
+CONCEPTS B: Woman=,Entity+,Putting=,Man=,Photograph=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	photo	photo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	03925226-n|Photograph=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

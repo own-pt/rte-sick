@@ -3,8 +3,8 @@ sentence B = A young boy is jumping into a still lake.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,Entity+,Decreasing+,?,?,?,Lake=,?
-CONCEPTS B: ?,HumanYouth=,Human+,Entity+,Ambulating=,?,?,?,Lake=,?
+CONCEPTS A: HumanYouth=,Human+,Entity+,Decreasing+,Lake=
+CONCEPTS B: HumanYouth=,Human+,Entity+,Ambulating=,Lake=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	still	still	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	00027384-r|?
 9	lake	lake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	09328904-n|Lake=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

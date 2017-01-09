@@ -3,8 +3,8 @@ sentence B = A dog is excitedly playing with water in the grass.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,Entity+,Wetting+,?,Grass=,?,SubjectiveAssessmentAttribute+,DramaticActing+,?,?,Canine+,?
-CONCEPTS B: ?,Canine+,Entity+,SubjectiveAssessmentAttribute+,DramaticActing+,?,Water=,?,?,Grass=,?
+CONCEPTS A: Man=,Entity+,Wetting+,Grass=,SubjectiveAssessmentAttribute+,DramaticActing+,Canine+
+CONCEPTS B: Canine+,Entity+,SubjectiveAssessmentAttribute+,DramaticActing+,Water=,Grass=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	02084071-n|Canine+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = The woman is playing a guitar, which is acoustic, and singing.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Happiness+,DramaticActing+,?,Guitar=,?,?,Entity+,FieldOfStudy@,?,?,MakingVocalMusic=,?
-CONCEPTS B: ?,Woman=,Entity+,DramaticActing+,?,Guitar=,?,?,Entity+,FieldOfStudy@,?,?,MakingVocalMusic=,?
+CONCEPTS A: Woman=,Entity+,Happiness+,DramaticActing+,Guitar=,Entity+,FieldOfStudy@,MakingVocalMusic=
+CONCEPTS B: Woman=,Entity+,DramaticActing+,Guitar=,Entity+,FieldOfStudy@,MakingVocalMusic=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	and	and	CONJ	CC	fPOS=CONJ++CC	11	cc	_	?|?
 14	singing	sing	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	11	conj	_	01731031-v|MakingVocalMusic=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A little dog is sprinting and its owner is trying to catch it.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Walking+,?,?,Human=,?,Attribute+,?,Entity+,IntentionalProcess+,?,Grabbing+,?,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Walking+,?,?,Human+,Entity+,IntentionalProcess+,?,Grabbing+,?,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Walking+,Human=,Attribute+,Entity+,IntentionalProcess+,Grabbing+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Walking+,Human+,Entity+,IntentionalProcess+,Grabbing+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	catch	catch	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	13	xcomp	_	01439190-v|Grabbing+
 16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	15	dobj	_	?|?
 17	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

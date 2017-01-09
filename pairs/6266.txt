@@ -3,8 +3,8 @@ sentence B = There are no women wearing bikinis on the sandy beach.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Woman=,Entity+,CoveringFn=,Clothing+,?,Entity+,Walking=,?,?,Sand=,?
-CONCEPTS B: ?,Entity+,?,Woman=,CoveringFn=,Clothing+,?,?,part+,ShoreArea=,?
+CONCEPTS A: Woman=,Entity+,CoveringFn=,Clothing+,Entity+,Walking=,Sand=
+CONCEPTS B: Entity+,Woman=,CoveringFn=,Clothing+,part+,ShoreArea=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	15019030-n|Sand=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

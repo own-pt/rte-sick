@@ -3,8 +3,8 @@ sentence B = Two people wearing helmets are not riding over the yellow and white
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,GroupOfPeople=,CoveringFn=,Clothing+,Entity+,Carrying=,?,?,SubjectiveAssessmentAttribute+,?,White=,Flower+,?
-CONCEPTS B: ?,GroupOfPeople=,CoveringFn=,Clothing+,Entity+,not=,Carrying=,?,?,SubjectiveAssessmentAttribute+,?,White=,Flower+,?
+CONCEPTS A: GroupOfPeople=,CoveringFn=,Clothing+,Entity+,Carrying=,SubjectiveAssessmentAttribute+,White=,Flower+
+CONCEPTS B: GroupOfPeople=,CoveringFn=,Clothing+,Entity+,not=,Carrying=,SubjectiveAssessmentAttribute+,White=,Flower+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00393105-a|White=
 12	flowers	flower	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	conj	_	11669335-n|Flower+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

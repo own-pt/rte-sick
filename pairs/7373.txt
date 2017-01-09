@@ -3,8 +3,8 @@ sentence B = A person is standing on a mountain top.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,PhysicalAttribute+,?,?,Mineral+,?,Cloud=,?,top=,?,?,?
-CONCEPTS B: ?,Human=,Entity+,PhysicalAttribute+,?,?,Mountain=,LandArea+,?
+CONCEPTS A: Hominid=,Entity+,PhysicalAttribute+,Mineral+,Cloud=,top=
+CONCEPTS B: Human=,Entity+,PhysicalAttribute+,Mountain=,LandArea+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
 13	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|fPOS=PRON++PRP	11	nmod	_	?|?
 14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

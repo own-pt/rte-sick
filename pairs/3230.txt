@@ -3,8 +3,8 @@ sentence B = A boy is hanging a rod for fishing and running in front of a fish.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human+,Entity+,PhysicalAttribute+,?,FishingSport=,LengthMeasure@,?,Hunting+,?,FrontFn=,?,?,Fish=,?
-CONCEPTS B: ?,Human+,Entity+,PhysicalAttribute+,?,LengthMeasure@,?,Pursuing+,?,Hunting+,?,FrontFn=,?,?,Fish=,?
+CONCEPTS A: Human+,Entity+,PhysicalAttribute+,FishingSport=,LengthMeasure@,Hunting+,FrontFn=,Fish=
+CONCEPTS B: Human+,Entity+,PhysicalAttribute+,LengthMeasure@,Pursuing+,Hunting+,FrontFn=,Fish=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	fish	fish	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	02512053-n|Fish=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

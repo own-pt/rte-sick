@@ -3,8 +3,8 @@ sentence B = A dog is barking.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Canine+,RadiatingSound+,?
-CONCEPTS B: ?,Canine+,Entity+,RadiatingSound+,?
+CONCEPTS A: Entity+,Canine+,RadiatingSound+
+CONCEPTS B: Canine+,Entity+,RadiatingSound+
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	02084071-n|Canine+
 5	barking	bark	ADJ	JJ	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	01047745-v|RadiatingSound+
 6	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

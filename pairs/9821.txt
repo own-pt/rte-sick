@@ -3,8 +3,8 @@ sentence B = Two construction workers are sitting up on the top of a building.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Canine+,?,?,SubjectiveStrongNegativeAttribute+,White=,Canine+,Entity+,DramaticActing+,Meeting=,?
-CONCEPTS B: ?,Constructing=,Position+,PhysicalAttribute+,SittingDown+,Increasing+,?,?,PositionalAttribute+,?,?,Constructing=,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Canine+,SubjectiveStrongNegativeAttribute+,White=,Canine+,Entity+,DramaticActing+,Meeting=
+CONCEPTS B: Constructing=,Position+,PhysicalAttribute+,SittingDown+,Increasing+,PositionalAttribute+,Constructing=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
 11	together	together	ADV	RB	fPOS=ADV++RB	10	advmod	_	00507927-r|Meeting=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Degree=Pos|fPOS=ADJ++JJ	3	nummod	_	?|?

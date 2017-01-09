@@ -3,8 +3,8 @@ sentence B = A tiger is walking around aimlessly.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Feline+,Entity+,Walking=,?,?,?,PsychologicalAttribute+,?
-CONCEPTS B: ?,Feline+,Entity+,Walking=,?,hasPurposeForAgent+,?
+CONCEPTS A: Feline+,Entity+,Walking=,PsychologicalAttribute+
+CONCEPTS B: Feline+,Entity+,Walking=,hasPurposeForAgent+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	no	no	DET	DT	fPOS=DET++DT	8	neg	_	?|?
 8	aim	aim	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05982152-n|PsychologicalAttribute+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

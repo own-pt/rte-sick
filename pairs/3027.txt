@@ -3,8 +3,8 @@ sentence B = Nobody is playing on a trampoline.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human+,Entity+,DramaticActing+,?,?,Device+,?
-CONCEPTS B: ?,Entity+,DramaticActing+,?,?,Device+,?
+CONCEPTS A: Human+,Entity+,DramaticActing+,Device+
+CONCEPTS B: Entity+,DramaticActing+,Device+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	trampoline	trampoline	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04469514-n|Device+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Nobody	nobody	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?

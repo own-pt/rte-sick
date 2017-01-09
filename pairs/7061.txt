@@ -3,8 +3,8 @@ sentence B = A person is drinking orange juice and walking.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Drinking+,OrangeColor+,Juice=,?,Walking=,?,?,Happiness+,Day=,?
-CONCEPTS B: ?,Human=,Entity+,Drinking+,OrangeColor+,Juice=,?,Walking=,?
+CONCEPTS A: Hominid=,Entity+,Drinking+,OrangeColor+,Juice=,Walking=,Happiness+,Day=
+CONCEPTS B: Human=,Entity+,Drinking+,OrangeColor+,Juice=,Walking=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	sunny	sunny	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00363938-a|Happiness+
 12	day	day	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	15155220-n|Day=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

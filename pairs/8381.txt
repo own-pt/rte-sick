@@ -3,8 +3,8 @@ sentence B = The young girl in blue is enjoying a slide.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,?,SubjectiveStrongNegativeAttribute+,Entity+,Damaging+,TraitAttribute+,?,?,Artifact+,?
-CONCEPTS B: ?,HumanYouth=,Human+,?,SubjectiveStrongNegativeAttribute+,Entity+,IntentionalPsychologicalProcess+,?,Artifact+,?
+CONCEPTS A: HumanYouth=,Human+,SubjectiveStrongNegativeAttribute+,Entity+,Damaging+,TraitAttribute+,Artifact+
+CONCEPTS B: HumanYouth=,Human+,SubjectiveStrongNegativeAttribute+,Entity+,IntentionalPsychologicalProcess+,Artifact+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	slide	slide	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	03029603-n|Artifact+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

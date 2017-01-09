@@ -3,8 +3,8 @@ sentence B = The monkey is practicing martial arts.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Expressing+,?,?,Human=,?,Glove+,?
-CONCEPTS B: ?,Human+,Entity+,Position+,SubjectiveStrongNegativeAttribute+,ArtWork=,?
+CONCEPTS A: Human+,Entity+,Expressing+,Human=,Glove+
+CONCEPTS B: Human+,Entity+,Position+,SubjectiveStrongNegativeAttribute+,ArtWork=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	's	's	PART	POS	fPOS=PART++POS	7	case	_	?|?
 9	glove	glove	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03441112-n|Glove+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

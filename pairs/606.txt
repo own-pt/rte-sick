@@ -3,8 +3,8 @@ sentence B = A teenage girl is wearing beads that are red.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,HumanYouth=,TimeInterval+,?,?,SubjectiveWeakPositiveAttribute+,Human+,Hair=,?,Entity+,CoveringFn=,?,Red=,Jewelry+,?,?,Clothing+,?,Jewelry+,?,Entity+,Smiling=,?
-CONCEPTS B: ?,age+,Human+,Entity+,CoveringFn=,ShapeAttribute+,?,Entity+,Red=,?
+CONCEPTS A: Human+,HumanYouth=,TimeInterval+,SubjectiveWeakPositiveAttribute+,Human+,Hair=,Entity+,CoveringFn=,Red=,Jewelry+,Clothing+,Jewelry+,Entity+,Smiling=
+CONCEPTS B: age+,Human+,Entity+,CoveringFn=,ShapeAttribute+,Entity+,Red=
 
 CONLL A:
 
@@ -33,6 +33,8 @@ CONLL A:
 23	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	24	cop	_	02604760-v|Entity+
 24	smiling	smile	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	conj	_	00028565-v|Smiling=
 25	.	.	PUNCT	.	fPOS=PUNCT++.	13	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

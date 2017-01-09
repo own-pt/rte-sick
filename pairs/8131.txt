@@ -3,8 +3,8 @@ sentence B = A group of people is holding drinks and pointing at the camera.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,GroupOfPeople=,Entity+,Putting=,?,?,Photograph=,?,Process+,Beverage+,?
-CONCEPTS B: ?,Group=,?,GroupOfPeople=,Entity+,IntentionalProcess+,Beverage+,?,Indicating=,?,?,Camera=,?
+CONCEPTS A: HumanYouth=,GroupOfPeople=,Entity+,Putting=,Photograph=,Process+,Beverage+
+CONCEPTS B: Group=,GroupOfPeople=,Entity+,IntentionalProcess+,Beverage+,Indicating=,Camera=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	holding	hold	VERB	VBG	Number=Sing|fPOS=NOUN++NN	11	compound	_	02700867-v|Process+
 11	drinks	drink	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	conj	_	07885223-n|Beverage+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

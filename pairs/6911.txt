@@ -3,8 +3,8 @@ sentence B = There is no woman wearing a blue shirt with a white vest and a whit
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,CoveringFn=,?,Blue=,?,White=,UniformClothing=,?,?,White=,?,Blue=,Hat+,Entity+,Attribute+,?,Mouth+,SubjectiveWeakPositiveAttribute+,?,Entity+,?,?,Dressing+,?,?,equal+,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,Entity+,?,Woman=,Putting+,?,SubjectiveStrongNegativeAttribute+,Shirt=,?,?,White=,Clothing+,?,?,White=,Device+,?,Speaking+,?,Walking+,?
+CONCEPTS A: Woman=,CoveringFn=,Blue=,White=,UniformClothing=,White=,Blue=,Hat+,Entity+,Attribute+,Mouth+,SubjectiveWeakPositiveAttribute+,Entity+,Dressing+,equal+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Entity+,Woman=,Putting+,SubjectiveStrongNegativeAttribute+,Shirt=,White=,Clothing+,White=,Device+,Speaking+,Walking+
 
 CONLL A:
 
@@ -37,6 +37,8 @@ CONLL A:
 27	same	same	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	28	amod	_	02062670-a|equal+
 28	fashion	fashion	NOUN	NN	Number=Sing|fPOS=NOUN++NN	24	nmod	_	04928903-n|SubjectiveAssessmentAttribute+
 29	.	.	PUNCT	.	fPOS=PUNCT++.	16	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

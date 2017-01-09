@@ -3,8 +3,8 @@ sentence B = Sign language is being used by a young girl.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,Entity+,IntentionalProcess+,Character+,Language=,?
-CONCEPTS B: Character+,Language=,Entity+,Entity+,IntentionalProcess+,?,?,HumanYouth=,Human+,?
+CONCEPTS A: HumanYouth=,Human+,Entity+,IntentionalProcess+,Character+,Language=
+CONCEPTS B: Character+,Language=,Entity+,Entity+,IntentionalProcess+,HumanYouth=,Human+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	sign	sign	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	amod	_	06811625-n|Character+
 7	language	language	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	06282651-n|Language=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Sign	sign	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	06811625-n|Character+

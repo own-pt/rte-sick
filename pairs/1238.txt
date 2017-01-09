@@ -3,8 +3,8 @@ sentence B = A woman is dancing and singing alone.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Dancing+,?,MakingVocalMusic=,?,?,Raining+,?
-CONCEPTS B: ?,Woman=,Entity+,Dancing+,?,MakingVocalMusic=,SocialInteraction[,?
+CONCEPTS A: Woman=,Entity+,Dancing+,MakingVocalMusic=,Raining+
+CONCEPTS B: Woman=,Entity+,Dancing+,MakingVocalMusic=,SocialInteraction[
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	rain	rain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	11501381-n|Raining+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

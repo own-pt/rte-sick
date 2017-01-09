@@ -3,8 +3,8 @@ sentence B = There is no dog jumping at a shiny blue soccer ball in a field of d
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Ambulating=,?,?,SurfaceChange+,SubjectiveStrongNegativeAttribute+,Soccer=,Ball=,?,?,FieldOfStudy=,?,Dry=,Leaf=,?
-CONCEPTS B: ?,Entity+,?,Canine+,Ambulating=,?,?,SurfaceChange+,SubjectiveStrongNegativeAttribute+,Soccer=,Ball=,?,?,FieldOfStudy=,?,Dry=,Leaf=,?
+CONCEPTS A: Canine+,Entity+,Ambulating=,SurfaceChange+,SubjectiveStrongNegativeAttribute+,Soccer=,Ball=,FieldOfStudy=,Dry=,Leaf=
+CONCEPTS B: Entity+,Canine+,Ambulating=,SurfaceChange+,SubjectiveStrongNegativeAttribute+,Soccer=,Ball=,FieldOfStudy=,Dry=,Leaf=
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	dry	dry	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	amod	_	02551380-a|Dry=
 16	leaves	leaf	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	nmod	_	13152742-n|Leaf=
 17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

@@ -3,8 +3,8 @@ sentence B = Two guys are standing by a table and putting some beers down on it.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,White=,Shirt=,?,Device+,?,?,Man=,?,?,Black=,Shirt=,?,Device+,PhysicalAttribute+,SittingDown+,?,?,ContentBearingObject+,?,?,Beer=,Bottle=,?
-CONCEPTS B: ?,Device+,Entity+,PhysicalAttribute+,?,?,ContentBearingObject+,?,Putting=,?,Beer=,earlier+,?,?,?
+CONCEPTS A: Man=,White=,Shirt=,Device+,Man=,Black=,Shirt=,Device+,PhysicalAttribute+,SittingDown+,ContentBearingObject+,Beer=,Bottle=
+CONCEPTS B: Device+,Entity+,PhysicalAttribute+,ContentBearingObject+,Putting=,Beer=,earlier+
 
 CONLL A:
 
@@ -35,6 +35,8 @@ CONLL A:
 25	beer	beer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	26	compound	_	07886849-n|Beer=
 26	bottles	bottle	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	19	nmod	_	02876657-n|Bottle=
 27	.	.	PUNCT	.	fPOS=PUNCT++.	19	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = There aren't many people in the ice skating park.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,IceSkatingRink=,Walking+,IceSkatingRink+,Putting=,Outdoors+,Attribute+,ContainerFull+,?,GroupOfPeople=,?
-CONCEPTS B: ?,Entity+,not=,?,GroupOfPeople=,?,?,Solid+,Walking+,Park+,?
+CONCEPTS A: IceSkatingRink=,Walking+,IceSkatingRink+,Putting=,Outdoors+,Attribute+,ContainerFull+,GroupOfPeople=
+CONCEPTS B: Entity+,not=,GroupOfPeople=,Solid+,Walking+,Park+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
 10	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	07942152-n|GroupOfPeople=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

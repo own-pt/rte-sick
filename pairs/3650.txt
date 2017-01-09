@@ -3,8 +3,8 @@ sentence B = Four young men are standing still and a car is exploding behind the
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,PhysicalAttribute+,?,FrontFn=,?,?,Automobile=,?,?,Entity+,Destruction+,?
-CONCEPTS B: ?,HumanYouth=,Hominid=,Entity+,PhysicalAttribute+,?,?,?,Automobile=,Entity+,Destruction+,?,?,?
+CONCEPTS A: Human+,Entity+,PhysicalAttribute+,FrontFn=,Automobile=,Entity+,Destruction+
+CONCEPTS B: HumanYouth=,Hominid=,Entity+,PhysicalAttribute+,Automobile=,Entity+,Destruction+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	02604760-v|Entity+
 13	burning	burn	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	9	acl:relcl	_	00378664-v|Destruction+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Four	4	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	3	nmod:poss	_	?|?

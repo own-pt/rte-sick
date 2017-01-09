@@ -3,8 +3,8 @@ sentence B = Two people are walking two dogs with golden coats in the snow.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Entity+,?,?,Snowing=,?,CoveringFn=,Clothing+,?,Putting+,Pretending+,?
-CONCEPTS B: ?,GroupOfPeople=,Entity+,Walking=,?,Canine+,?,SubjectiveWeakPositiveAttribute+,Coat=,?,?,Snowing=,?
+CONCEPTS A: GroupOfPeople=,Entity+,Snowing=,CoveringFn=,Clothing+,Putting+,Pretending+
+CONCEPTS B: GroupOfPeople=,Entity+,Walking=,Canine+,SubjectiveWeakPositiveAttribute+,Coat=,Snowing=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	provide	provide	ADJ	JJ	VerbForm=Inf|fPOS=VERB++VB	9	acl:relcl	_	02327200-v|Putting+
 12	camouflage	camouflage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	02944459-n|Pretending+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

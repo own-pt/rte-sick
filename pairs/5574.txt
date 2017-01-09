@@ -3,8 +3,8 @@ sentence B = A man is breaking a slab of concrete with a sledge hammer.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,IntentionalProcess+,?,Device+,?,EndFn+,?,Physical+,ShapeAttribute+,?,Entity+,?,?,Human=,?
-CONCEPTS B: ?,Hominid=,Entity+,EndFn+,?,Artifact+,?,Concrete=,?,?,LandVehicle+,Device+,?
+CONCEPTS A: Hominid=,Entity+,IntentionalProcess+,Device+,EndFn+,Physical+,ShapeAttribute+,Entity+,Human=
+CONCEPTS B: Hominid=,Entity+,EndFn+,Artifact+,Concrete=,LandVehicle+,Device+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	another	another	DET	DT	fPOS=DET++DT	16	det	_	?|?
 16	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	acl:relcl	_	00007846-n|Human=
 17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

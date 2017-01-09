@@ -3,8 +3,8 @@ sentence B = There is no man breaking wooden boards with his hand.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GamePiece+,Entity+,EndFn+,Artifact+,?,?,Hand+,?
-CONCEPTS B: ?,Entity+,?,Hominid=,EndFn+,SubjectiveAssessmentAttribute+,Table+,?,?,Hand+,?
+CONCEPTS A: GamePiece+,Entity+,EndFn+,Artifact+,Hand+
+CONCEPTS B: Entity+,Hominid=,EndFn+,SubjectiveAssessmentAttribute+,Table+,Hand+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	8	nmod:poss	_	?|?
 8	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	05564590-n|Hand+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

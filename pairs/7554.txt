@@ -3,8 +3,8 @@ sentence B = A young girl in blue is jumping in the air.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,?,?,SubjectiveStrongNegativeAttribute+,Clothing+,Entity+,Ambulating=,?,?,AirTransportation+,?
-CONCEPTS B: ?,HumanYouth=,Human+,?,SubjectiveStrongNegativeAttribute+,Entity+,Ambulating=,?,?,AirTransportation+,?
+CONCEPTS A: HumanYouth=,Human+,SubjectiveStrongNegativeAttribute+,Clothing+,Entity+,Ambulating=,AirTransportation+
+CONCEPTS B: HumanYouth=,Human+,SubjectiveStrongNegativeAttribute+,Entity+,Ambulating=,AirTransportation+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	00300441-n|AirTransportation+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

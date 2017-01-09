@@ -3,8 +3,8 @@ sentence B = A black shirt is being worn by a man who is sitting at the table an
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Man=,Putting+,?,Coloring+,Black=,Shirt=,PhysicalAttribute+,SittingDown+,?,?,ContentBearingObject+,?,Laughing=,?
-CONCEPTS B: ?,Black=,Shirt=,PhysicalAttribute+,PhysicalAttribute+,Putting+,?,?,Man=,?,PhysicalAttribute+,SittingDown+,?,?,ContentBearingObject+,?,Laughing=,?
+CONCEPTS A: Man=,Putting+,Coloring+,Black=,Shirt=,PhysicalAttribute+,SittingDown+,ContentBearingObject+,Laughing=
+CONCEPTS B: Black=,Shirt=,PhysicalAttribute+,PhysicalAttribute+,Putting+,Man=,PhysicalAttribute+,SittingDown+,ContentBearingObject+,Laughing=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	and	and	CONJ	CC	fPOS=CONJ++CC	12	cc	_	?|?
 14	laughing	laugh	VERB	VBG	Number=Sing|fPOS=NOUN++NN	12	conj	_	00031820-v|Laughing=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

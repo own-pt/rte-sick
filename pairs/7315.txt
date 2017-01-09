@@ -3,8 +3,8 @@ sentence B = A man is wearing a blue checkered shirt and riding a unicycle in th
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,Entity+,Putting+,?,SubjectiveStrongNegativeAttribute+,SurfaceChange+,Shirt=,?,EmotionalState+,Transportation+,?,AgentPoweredVehicle+,?,?,Roadway=,?
-CONCEPTS B: ?,Man=,Entity+,Putting+,?,SubjectiveStrongNegativeAttribute+,SurfaceChange+,Shirt=,?,Transportation+,?,AgentPoweredVehicle+,?,?,Roadway=,?
+CONCEPTS A: Man=,Entity+,Putting+,SubjectiveStrongNegativeAttribute+,SurfaceChange+,Shirt=,EmotionalState+,Transportation+,AgentPoweredVehicle+,Roadway=
+CONCEPTS B: Man=,Entity+,Putting+,SubjectiveStrongNegativeAttribute+,SurfaceChange+,Shirt=,Transportation+,AgentPoweredVehicle+,Roadway=
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	?|?
 16	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	04334599-n|Roadway=
 17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

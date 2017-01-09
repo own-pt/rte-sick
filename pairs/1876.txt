@@ -3,8 +3,8 @@ sentence B = The food on the trays is being eaten by the kittens.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute+,?,?,Tray=,Entity+,not=,Entity+,Eating=,?,?,Feline+,?
-CONCEPTS B: ?,SubjectiveAssessmentAttribute+,?,?,Tray=,Entity+,Entity+,Eating=,?,?,Feline+,?
+CONCEPTS A: SubjectiveAssessmentAttribute+,Tray=,Entity+,not=,Entity+,Eating=,Feline+
+CONCEPTS B: SubjectiveAssessmentAttribute+,Tray=,Entity+,Entity+,Eating=,Feline+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	kittens	kitten	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	nmod	_	02122948-n|Feline+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

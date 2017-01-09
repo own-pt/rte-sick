@@ -3,8 +3,8 @@ sentence B = There is no monkey brushing the dog.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human+,Entity+,Touching+,?,Region@,Canine+,?
-CONCEPTS B: ?,Entity+,?,Human+,Touching+,?,Canine+,?
+CONCEPTS A: Human+,Entity+,Touching+,Region@,Canine+
+CONCEPTS B: Entity+,Human+,Touching+,Canine+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	bull	bull	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	08686332-n|Region@
 7	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02084071-n|Canine+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

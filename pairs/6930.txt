@@ -3,8 +3,8 @@ sentence B = Somebody is leaping in the air on a board.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SportsPosition@,Entity+,IntentionalProcess+,?,SubjectiveStrongNegativeAttribute+,?,?,Hill+,?,Snowing=,?
-CONCEPTS B: ?,Entity+,Ambulating=,?,?,AirTransportation+,?,?,Table+,?
+CONCEPTS A: SportsPosition@,Entity+,IntentionalProcess+,SubjectiveStrongNegativeAttribute+,Hill+,Snowing=
+CONCEPTS B: Entity+,Ambulating=,AirTransportation+,Table+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
 11	snow	snow	ADV	RB	Number=Sing|fPOS=NOUN++NN	9	nmod	_	15043763-n|Snowing=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Somebody	somebody	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?

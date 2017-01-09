@@ -3,8 +3,8 @@ sentence B = The man isn't lifting weights.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Communication+,Woman=,Entity+,MakingVocalMusic=,?,Song=,?,DramaticActing+,?,Guitar=,?
-CONCEPTS B: ?,Hominid=,Entity+,not=,MotionUpward=,MassMeasure+,?
+CONCEPTS A: Communication+,Woman=,Entity+,MakingVocalMusic=,Song=,DramaticActing+,Guitar=
+CONCEPTS B: Hominid=,Entity+,not=,MotionUpward=,MassMeasure+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	03467517-n|Guitar=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

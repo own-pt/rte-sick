@@ -3,8 +3,8 @@ sentence B = A dog, which is large and gray, is difficultly carrying a ball in i
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Attribute+,?,?,Grass=,?,?,Tennis=,Ball=,?,?,Mouth+,?
-CONCEPTS B: ?,Canine+,?,?,Entity+,SubjectiveWeakPositiveAttribute+,?,Gray+,?,Entity+,?,Transportation+,?,Ball=,?,?,Mouth+,?,Publication+,?,?,Grass=,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Attribute+,Grass=,Tennis=,Ball=,Mouth+
+CONCEPTS B: Canine+,Entity+,SubjectiveWeakPositiveAttribute+,Gray+,Entity+,Transportation+,Ball=,Mouth+,Publication+,Grass=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	15	nmod:poss	_	?|?
 15	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	05302499-n|Mouth+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

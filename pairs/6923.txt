@@ -3,8 +3,8 @@ sentence B = A bearded man is standing by a shopping cart and is holding a cardb
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,Hominid=,PhysicalAttribute+,?,Character+,?,IntentionalProcess+,Currency=,?
-CONCEPTS B: ?,PositionalAttribute+,Man=,Entity+,PhysicalAttribute+,?,?,Pursuing+,Wagon+,?,Entity+,Process+,?,Artifact+,Character+,?
+CONCEPTS A: Entity+,Hominid=,PhysicalAttribute+,Character+,IntentionalProcess+,Currency=
+CONCEPTS B: PositionalAttribute+,Man=,Entity+,PhysicalAttribute+,Pursuing+,Wagon+,Entity+,Process+,Artifact+,Character+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	seeking	seek	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	conj	_	02530167-v|IntentionalProcess+
 10	money	money	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	13384557-n|Currency=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = The person is not flying through the air on a bicycle.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human=,Entity+,FlyingAircraft=,?,?,AirTransportation+,?,?,Bicycle=,?
-CONCEPTS B: ?,Human=,Entity+,not=,FlyingAircraft=,?,?,AirTransportation+,?,?,Bicycle=,?
+CONCEPTS A: Human=,Entity+,FlyingAircraft=,AirTransportation+,Bicycle=
+CONCEPTS B: Human=,Entity+,not=,FlyingAircraft=,AirTransportation+,Bicycle=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	bicycle	bicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02834778-n|Bicycle=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

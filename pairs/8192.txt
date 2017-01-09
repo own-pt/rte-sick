@@ -3,8 +3,8 @@ sentence B = The adults and children are being gathered near an outdoor seating 
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,FullyFormed+,?,HumanChild=,Entity+,Entity+,Classifying+,?,?,located+,Communication+,Designing+,?
-CONCEPTS B: ?,FullyFormed+,?,HumanChild=,Entity+,Entity+,Meeting+,?,?,located+,Communication+,Designing+,?
+CONCEPTS A: FullyFormed+,HumanChild=,Entity+,Entity+,Classifying+,located+,Communication+,Designing+
+CONCEPTS B: FullyFormed+,HumanChild=,Entity+,Entity+,Meeting+,located+,Communication+,Designing+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	seating	seat	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	12	compound	_	01543998-v|Communication+
 12	arrangement	arrangement	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	05075602-n|Designing+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

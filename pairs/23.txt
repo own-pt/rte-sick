@@ -3,8 +3,8 @@ sentence B = A person is riding the bicycle on one wheel.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,Carrying=,?,Bicycle=,?,?,Bicycle=,?
-CONCEPTS B: ?,Human=,Entity+,Carrying=,?,Bicycle=,?,?,Bicycle=,?
+CONCEPTS A: Entity+,Carrying=,Bicycle=,Bicycle=
+CONCEPTS B: Human=,Entity+,Carrying=,Bicycle=,Bicycle=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	one	1	NUM	CD	NumType=Card|fPOS=NUM++CD	8	nummod	_	?|?
 8	wheel	wheel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	02834778-n|Bicycle=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

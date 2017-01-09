@@ -3,8 +3,8 @@ sentence B = The man is spraying a super soaker into the mouth of the dog.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,Entity+,Impelling+,Water=,?,?,Mouth+,?,?,White=,Canine+,?,?,Motion+,Gun=,?
-CONCEPTS B: ?,Man=,Entity+,Spraying=,?,SubjectiveAssessmentAttribute+,Process+,?,?,Mouth+,?,?,Canine+,?
+CONCEPTS A: Man=,Entity+,Impelling+,Water=,Mouth+,White=,Canine+,Motion+,Gun=
+CONCEPTS B: Man=,Entity+,Spraying=,SubjectiveAssessmentAttribute+,Process+,Mouth+,Canine+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	squirt	squirt	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	16	amod	_	07436100-n|Motion+
 16	gun	gun	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03467984-n|Gun=
 17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Three people are standing next to a tree limb.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,?,?,FullyFormed+,Entity+,PhysicalAttribute+,Position+,?,?,ContentBearingObject+,BodyPart+,?
-CONCEPTS B: ?,GroupOfPeople=,Entity+,PhysicalAttribute+,Position+,?,?,ContentBearingObject+,BodyPart+,?
+CONCEPTS A: HumanChild=,FullyFormed+,Entity+,PhysicalAttribute+,Position+,ContentBearingObject+,BodyPart+
+CONCEPTS B: GroupOfPeople=,Entity+,PhysicalAttribute+,Position+,ContentBearingObject+,BodyPart+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	13912260-n|ContentBearingObject+
 12	limb	limb	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	13163803-n|BodyPart+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = A man is playing soccer.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Hominid=,DramaticActing+,Soccer=,?
-CONCEPTS B: ?,Hominid=,Entity+,DramaticActing+,Soccer=,?
+CONCEPTS A: Entity+,Hominid=,DramaticActing+,Soccer=
+CONCEPTS B: Hominid=,Entity+,DramaticActing+,Soccer=
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	playing	play	VERB	VBG	Number=Sing|fPOS=NOUN++NN	4	acl	_	01719302-v|DramaticActing+
 6	soccer	soccer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	00478262-n|Soccer=
 7	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

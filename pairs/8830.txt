@@ -3,8 +3,8 @@ sentence B = A boy is wearing all black and is sliding down a blow up yellow sli
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Accelerating+,earlier+,?,LandArea+,Artifact+,?
-CONCEPTS B: ?,Human+,Entity+,RecreationOrExercise+,?,Black=,?,Entity+,Translocation+,earlier+,?,Impacting=,?,SubjectiveAssessmentAttribute+,Artifact+,?
+CONCEPTS A: Human+,Entity+,Accelerating+,earlier+,LandArea+,Artifact+
+CONCEPTS B: Human+,Entity+,RecreationOrExercise+,Black=,Entity+,Translocation+,earlier+,Impacting=,SubjectiveAssessmentAttribute+,Artifact+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	steep	steep	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	01144887-a|LandArea+
 8	slide	slide	NOUN	NN	Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	4	dobj	_	03029603-n|Artifact+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

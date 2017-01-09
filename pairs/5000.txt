@@ -3,8 +3,8 @@ sentence B = A small cat is opening a plastic drawer with its paws and jumping i
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Feline+,Entity+,Process+,?,SubjectiveAssessmentAttribute+,Compartment+,?,?,Hand+,?,Entity+,Ambulating=,Indoors+,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Feline+,Entity+,Process+,?,SubjectiveAssessmentAttribute+,Compartment+,?,?,Hand+,?,Ambulating=,Indoors+,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Feline+,Entity+,Process+,SubjectiveAssessmentAttribute+,Compartment+,Hand+,Entity+,Ambulating=,Indoors+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Feline+,Entity+,Process+,SubjectiveAssessmentAttribute+,Compartment+,Hand+,Ambulating=,Indoors+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	01963942-v|Ambulating=
 15	inside	inside	ADV	RB	fPOS=ADV++RB	14	advmod	_	00110815-r|Indoors+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

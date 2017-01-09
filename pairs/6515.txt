@@ -3,8 +3,8 @@ sentence B = Children are surrounding a girl in a brown dress who is closing her
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human+,?,?,Human+,Clothing+,Entity+,Entity+,Process+,?,HumanChild=,?,Entity+,Closing=,?,Organ+,?
-CONCEPTS B: HumanChild=,Entity+,Process+,?,Human+,?,?,Human+,Clothing+,?,Entity+,Closing=,?,Organ+,?
+CONCEPTS A: Human+,Human+,Clothing+,Entity+,Entity+,Process+,HumanChild=,Entity+,Closing=,Organ+
+CONCEPTS B: HumanChild=,Entity+,Process+,Human+,Human+,Clothing+,Entity+,Closing=,Organ+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	16	nmod:poss	_	?|?
 16	eyes	eye	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	14	dobj	_	05311054-n|Organ+
 17	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	Children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	09917593-n|HumanChild=

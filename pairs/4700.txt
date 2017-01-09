@@ -3,8 +3,8 @@ sentence B = A group of boys is playing soccer on the beach.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Group=,?,Human+,Entity+,not=,DramaticActing+,Soccer=,?,?,ShoreArea=,?
-CONCEPTS B: ?,Group=,?,Human+,Entity+,DramaticActing+,Soccer=,?,?,ShoreArea=,?
+CONCEPTS A: Group=,Human+,Entity+,not=,DramaticActing+,Soccer=,ShoreArea=
+CONCEPTS B: Group=,Human+,Entity+,DramaticActing+,Soccer=,ShoreArea=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	09217230-n|ShoreArea=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

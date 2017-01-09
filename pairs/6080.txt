@@ -3,8 +3,8 @@ sentence B = A person wearing jeans is sitting on top of a horse saddle.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,?,Trousers+,PhysicalAttribute+,SittingDown+,?,?,Saddle=,?,?,Horse=,?
-CONCEPTS B: ?,Human=,CoveringFn=,Trousers+,PhysicalAttribute+,SittingDown+,?,top=,?,?,Horse=,Saddle=,?
+CONCEPTS A: Woman=,Trousers+,PhysicalAttribute+,SittingDown+,Saddle=,Horse=
+CONCEPTS B: Human=,CoveringFn=,Trousers+,PhysicalAttribute+,SittingDown+,top=,Horse=,Saddle=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	02374451-n|Horse=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

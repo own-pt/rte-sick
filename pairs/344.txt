@@ -3,8 +3,8 @@ sentence B = An Asian woman in a crowd is carrying a black bag.
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,AsianEthnicity=,Woman=,?,?,SubjectiveAssessmentAttribute=,Entity+,not=,Transportation+,?,Black=,Container+,?
-CONCEPTS B: ?,AsianEthnicity=,Woman=,?,?,SubjectiveAssessmentAttribute=,Entity+,Transportation+,?,Black=,Container+,?
+CONCEPTS A: AsianEthnicity=,Woman=,SubjectiveAssessmentAttribute=,Entity+,not=,Transportation+,Black=,Container+
+CONCEPTS B: AsianEthnicity=,Woman=,SubjectiveAssessmentAttribute=,Entity+,Transportation+,Black=,Container+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00392812-a|Black=
 12	bag	bag	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	02773037-n|Container+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Two dogs are running quickly through a park.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Animal=,Entity+,Attribute+,?,?,Park+,?
-CONCEPTS B: ?,Canine+,Entity+,Attribute+,SubjectiveAssessmentAttribute+,?,?,Park+,?
+CONCEPTS A: Animal=,Entity+,Attribute+,Park+
+CONCEPTS B: Canine+,Entity+,Attribute+,SubjectiveAssessmentAttribute+,Park+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	08615374-n|Park+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

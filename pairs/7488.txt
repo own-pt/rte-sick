@@ -3,8 +3,8 @@ sentence B = The dog is catching a blue ball.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Ball=,Entity+,Entity+,Grabbing+,?,?,Canine+,?
-CONCEPTS B: ?,Canine+,Entity+,Grabbing+,?,SubjectiveStrongNegativeAttribute+,Ball=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Ball=,Entity+,Entity+,Grabbing+,Canine+
+CONCEPTS B: Canine+,Entity+,Grabbing+,SubjectiveStrongNegativeAttribute+,Ball=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	02084071-n|Canine+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

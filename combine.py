@@ -60,13 +60,14 @@ with open('SICK.txt', newline='') as csvfile:
             o.write("# text = {}\n".format(sentence_A));
             for t in conlla:
                 o.write("{}\n".format("\t".join(t)))
+            o.write('\n')
 
         with open("{}-b.conll".format(pair_ID), 'w') as o:
             o.write("# sent_id = {}b\n".format(pair_ID));
             o.write("# text = {}\n".format(sentence_B));
             for t in conllb:
                 o.write("{}\n".format("\t".join(t)))
-
+            o.write('\n')
 
         with open("{}.txt".format(pair_ID), 'w') as o:
             o.write("sentence A = {}\n".format(sentence_A))
@@ -75,8 +76,8 @@ with open('SICK.txt', newline='') as csvfile:
             o.write("entailm BA = {}.\n".format(entailment_BA))
             o.write("\n")
 
-            o.write("CONCEPTS A: {}\n".format(",".join(sumo_a)))
-            o.write("CONCEPTS B: {}\n".format(",".join(sumo_b)))
+            o.write("CONCEPTS A: {}\n".format(",".join([x for x in sumo_a if x != '?'])))
+            o.write("CONCEPTS B: {}\n".format(",".join([x for x in sumo_b if x != '?'])))
 
             o.write("\n")
 
@@ -85,12 +86,6 @@ with open('SICK.txt', newline='') as csvfile:
             for t in conlla:
                 o.write("{}\n".format("\t".join(t)))
 
-            o.write("CONLL B:\n\n")
+            o.write("\n\nCONLL B:\n\n")
             for t in conllb:
-
                 o.write("{}\n".format("\t".join(t)))
-
-
-
-        
-

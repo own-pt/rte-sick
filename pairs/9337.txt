@@ -3,8 +3,8 @@ sentence B = Four people are walking along a city sidewalk and the one in the gr
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Group=,?,GroupOfPeople=,Entity+,Walking=,earlier+,?,Roadway=,?,?,Human=,?,?,Green=,Hat+,Entity+,?,?,Telephone=,?
-CONCEPTS B: ?,GroupOfPeople=,Entity+,Walking=,?,?,City=,Sidewalk=,?,?,PositiveInteger@,?,?,Green=,Hat+,Entity+,not=,Speaking+,?,?,Cell=,Telephone=,?
+CONCEPTS A: Group=,GroupOfPeople=,Entity+,Walking=,earlier+,Roadway=,Human=,Green=,Hat+,Entity+,Telephone=
+CONCEPTS B: GroupOfPeople=,Entity+,Walking=,City=,Sidewalk=,PositiveInteger@,Green=,Hat+,Entity+,not=,Speaking+,Cell=,Telephone=
 
 CONLL A:
 
@@ -29,6 +29,8 @@ CONLL A:
 19	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	20	det	_	?|?
 20	phone	phone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	conj	_	04401088-n|Telephone=
 21	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

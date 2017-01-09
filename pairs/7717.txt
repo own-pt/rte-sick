@@ -3,8 +3,8 @@ sentence B = The man is spraying a super soaker into the mouth of the dog.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Man=,Entity+,Spraying=,?,SubjectiveAssessmentAttribute+,Process+,?,?,Mouth+,?,?,Canine+,?
-CONCEPTS B: ?,Man=,Entity+,Spraying=,?,SubjectiveAssessmentAttribute+,Process+,?,?,Mouth+,?,?,Canine+,?
+CONCEPTS A: Man=,Entity+,Spraying=,SubjectiveAssessmentAttribute+,Process+,Mouth+,Canine+
+CONCEPTS B: Man=,Entity+,Spraying=,SubjectiveAssessmentAttribute+,Process+,Mouth+,Canine+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	02084071-n|Canine+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

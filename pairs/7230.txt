@@ -3,8 +3,8 @@ sentence B = A young boy is jumping in the air with his knees bent and arms spre
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,?,?,Green=,Shirt=,Entity+,Ambulating=,?,?,Grass=,?
-CONCEPTS B: ?,HumanYouth=,Human+,Entity+,Ambulating=,?,?,AirTransportation+,?,?,Knee+,Grass+,?,Sleeve+,Putting+,?
+CONCEPTS A: Human=,Green=,Shirt=,Entity+,Ambulating=,Grass=
+CONCEPTS B: HumanYouth=,Human+,Entity+,Ambulating=,AirTransportation+,Knee+,Grass+,Sleeve+,Putting+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	12102133-n|Grass=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

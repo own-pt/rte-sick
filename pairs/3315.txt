@@ -3,8 +3,8 @@ sentence B = A woman is cooking a breaded pork chop.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Cooking+,?,Pork=,Meat+,?,Entity+,?,?
-CONCEPTS B: ?,Woman=,Entity+,Cooking+,?,?,Pork=,Meat+,?
+CONCEPTS A: Woman=,Entity+,Cooking+,Pork=,Meat+,Entity+
+CONCEPTS B: Woman=,Entity+,Cooking+,Pork=,Meat+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	auxpass	_	02604760-v|Entity+
 10	breaded	breaded	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	7	acl:relcl	_	?|?
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

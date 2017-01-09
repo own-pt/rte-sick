@@ -3,8 +3,8 @@ sentence B = A young mother is playing with her boy in the park.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,SubjectiveStrongNegativeAttribute+,Entity+,Attribute+,?,?,?,Woman=,?,SubjectiveStrongNegativeAttribute+,?
-CONCEPTS B: ?,HumanYouth=,BiologicalAttribute+,Entity+,DramaticActing+,?,?,Human+,?,?,Park+,?
+CONCEPTS A: Human+,SubjectiveStrongNegativeAttribute+,Entity+,Attribute+,Woman=,SubjectiveStrongNegativeAttribute+
+CONCEPTS B: HumanYouth=,BiologicalAttribute+,Entity+,DramaticActing+,Human+,Park+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
 12	blue	blue	NOUN	NN	Number=Sing|fPOS=PROPN++NNP	10	nmod	_	00425002-a|SubjectiveStrongNegativeAttribute+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

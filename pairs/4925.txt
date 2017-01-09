@@ -3,8 +3,8 @@ sentence B = Someone is putting ingredients into a pan.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,Putting=,Abstract+,?,?,PotOrPan+,?
-CONCEPTS B: ?,Entity+,Putting=,Abstract+,?,?,PotOrPan=,?
+CONCEPTS A: Entity+,Putting=,Abstract+,PotOrPan+
+CONCEPTS B: Entity+,Putting=,Abstract+,PotOrPan=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	wok	wok	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	04596742-n|PotOrPan+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?

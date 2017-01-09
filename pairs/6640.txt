@@ -3,8 +3,8 @@ sentence B = Football players in red and white are jumping and hugging each othe
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Football+,Human+,?,Red=,?,White=,Entity+,Ambulating=,?,Embracing+,?
-CONCEPTS B: Football+,Human+,?,Red=,?,White=,Entity+,Ambulating=,?,Embracing+,?,equal+,?
+CONCEPTS A: Football+,Human+,Red=,White=,Entity+,Ambulating=,Embracing+
+CONCEPTS B: Football+,Human+,Red=,White=,Entity+,Ambulating=,Embracing+,equal+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	and	and	CONJ	CC	fPOS=CONJ++CC	9	cc	_	?|?
 11	hugging	hug	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	9	conj	_	01424456-v|Embracing+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	Football	football	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	00468480-n|Football+

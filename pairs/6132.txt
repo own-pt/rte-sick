@@ -3,8 +3,8 @@ sentence B = A group of dogs are racing and have muzzles on their noses.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Group=,?,Canine+,Entity+,Motion+,EmotionalState+,?,Damaging+,BodyPart+,?,?,Nose+,?
-CONCEPTS B: ?,Group=,?,Canine+,Entity+,Motion+,?,Damaging+,BodyPart+,?,?,Nose+,?
+CONCEPTS A: Group=,Canine+,Entity+,Motion+,EmotionalState+,Damaging+,BodyPart+,Nose+
+CONCEPTS B: Group=,Canine+,Entity+,Motion+,Damaging+,BodyPart+,Nose+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	noses	nose	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	nmod	_	05598147-n|Nose+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

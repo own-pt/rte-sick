@@ -3,8 +3,8 @@ sentence B = A keyboard is being played by a person.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,DramaticActing+,Piano=,?
-CONCEPTS B: ?,ComputerInputDevice+,Entity+,Entity+,DramaticActing+,?,?,Human=,?
+CONCEPTS A: Entity+,DramaticActing+,Piano=
+CONCEPTS B: ComputerInputDevice+,Entity+,Entity+,DramaticActing+,Human=
 
 CONLL A:
 
@@ -13,6 +13,8 @@ CONLL A:
 3	playing	play	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01719302-v|DramaticActing+
 4	piano	piano	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	03928116-n|Piano=
 5	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

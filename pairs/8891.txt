@@ -3,8 +3,8 @@ sentence B = A woman is wearing a long black coat and a brown hat and is walking
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Walking=,?,?,City=,Roadway=,?
-CONCEPTS B: ?,Woman=,Entity+,CoveringFn=,?,SubjectiveAssessmentAttribute+,Black=,Coat=,?,?,Human+,Hat+,?,Entity+,Walking=,?,?,ParkingLot=,?,?,LandArea+,?,Growth+,ContentBearingObject+,?
+CONCEPTS A: Woman=,Entity+,Walking=,City=,Roadway=
+CONCEPTS B: Woman=,Entity+,CoveringFn=,SubjectiveAssessmentAttribute+,Black=,Coat=,Human+,Hat+,Entity+,Walking=,ParkingLot=,LandArea+,Growth+,ContentBearingObject+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	city	city	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	08524735-n|City=
 8	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04334599-n|Roadway=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

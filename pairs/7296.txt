@@ -3,8 +3,8 @@ sentence B = A young child is lying down on a gravel road that is covered with d
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,HumanChild=,Entity+,Attribute+,earlier+,?,Mineral+,Roadway+,?,Entity+,Covering+,?,Dead=,Leaf=,?
-CONCEPTS B: ?,HumanYouth=,HumanChild=,Entity+,PhysicalAttribute+,earlier+,?,?,Mineral+,Roadway+,?,Entity+,Covering+,?,Dead=,Leaf=,?
+CONCEPTS A: HumanYouth=,HumanChild=,Entity+,Attribute+,earlier+,Mineral+,Roadway+,Entity+,Covering+,Dead=,Leaf=
+CONCEPTS B: HumanYouth=,HumanChild=,Entity+,PhysicalAttribute+,earlier+,Mineral+,Roadway+,Entity+,Covering+,Dead=,Leaf=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	dead	dead	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	00095280-a|Dead=
 15	leaves	leaf	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	nmod	_	13152742-n|Leaf=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

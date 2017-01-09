@@ -3,8 +3,8 @@ sentence B = A middle eastern man is standing with the back against a lamp post 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Region+,East+,Woman=,Entity+,PhysicalAttribute+,?,?,CorpuscularObject+,?,?,Device+,Position=,?,?,equal+,GroupOfPeople=,?
-CONCEPTS B: ?,Region+,East+,Man=,Entity+,PhysicalAttribute+,?,?,CorpuscularObject+,?,?,Device+,Position=,?,?,equal+,GroupOfPeople=,?
+CONCEPTS A: Region+,East+,Woman=,Entity+,PhysicalAttribute+,CorpuscularObject+,Device+,Position=,equal+,GroupOfPeople=
+CONCEPTS B: Region+,East+,Man=,Entity+,PhysicalAttribute+,CorpuscularObject+,Device+,Position=,equal+,GroupOfPeople=
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	02069355-a|equal+
 17	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	14	nmod	_	07942152-n|GroupOfPeople=
 18	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

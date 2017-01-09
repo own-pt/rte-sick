@@ -3,8 +3,8 @@ sentence B = A young lady in a bikini is lying on the beach.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,?,Black=,Hat+,Entity+,PhysicalAttribute+,top+,?,?,ShoreArea=,?
-CONCEPTS B: ?,HumanYouth=,Human+,?,?,Clothing+,Entity+,PhysicalAttribute+,?,?,ShoreArea=,?
+CONCEPTS A: Human+,Black=,Hat+,Entity+,PhysicalAttribute+,top+,ShoreArea=
+CONCEPTS B: HumanYouth=,Human+,Clothing+,Entity+,PhysicalAttribute+,ShoreArea=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	09217230-n|ShoreArea=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

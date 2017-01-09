@@ -3,8 +3,8 @@ sentence B = A black, red, white and pink dress is being worn by a woman.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Putting=,?,?,Clothing+,?,?,Entity+,SubjectiveAssessmentAttribute+,SubjectiveWeakPositiveAttribute+,?,?,Concealing=,?,SubjectiveStrongNegativeAttribute+,Clothing+,?
-CONCEPTS B: ?,Black=,?,Red=,?,White=,?,Pink+,Clothing+,Entity+,Entity+,Putting+,?,?,Woman=,?
+CONCEPTS A: Woman=,Entity+,Putting=,Clothing+,Entity+,SubjectiveAssessmentAttribute+,SubjectiveWeakPositiveAttribute+,Concealing=,SubjectiveStrongNegativeAttribute+,Clothing+
+CONCEPTS B: Black=,Red=,White=,Pink+,Clothing+,Entity+,Entity+,Putting+,Woman=
 
 CONLL A:
 
@@ -27,6 +27,8 @@ CONLL A:
 17	extravagant	extravagant	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	18	amod	_	02422242-a|SubjectiveStrongNegativeAttribute+
 18	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	dobj	_	02728440-n|Clothing+
 19	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?

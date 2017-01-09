@@ -3,8 +3,8 @@ sentence B = A large, gray ball is hitting a running dog, which is carrying some
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,?,?,Entity+,SubjectiveWeakPositiveAttribute+,?,Gray+,?,Entity+,Transportation+,?,Ball=,?,?,Mouth+,?,Publication+,?,?,Grass=,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,?,Gray+,Ball=,Entity+,Impelling+,?,Publication+,Canine+,?,?,Entity+,Transportation+,?,Grass=,?,?,Mouth+,?
+CONCEPTS A: Canine+,Entity+,SubjectiveWeakPositiveAttribute+,Gray+,Entity+,Transportation+,Ball=,Mouth+,Publication+,Grass=
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Gray+,Ball=,Entity+,Impelling+,Publication+,Canine+,Entity+,Transportation+,Grass=,Mouth+
 
 CONLL A:
 
@@ -30,6 +30,8 @@ CONLL A:
 20	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	21	det	_	?|?
 21	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	18	nmod	_	12102133-n|Grass=
 22	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Some meat is being stitched together by a woman.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,PhysicalAttribute+,SittingDown+,?,?,Hill+,?,SubjectiveAssessmentAttribute+,?,?,SubjectiveAssessmentAttribute+,?,SpaceRegion=,?
-CONCEPTS B: ?,SubjectiveAssessmentAttribute+,Entity+,Entity+,Sewing+,Meeting=,?,?,Woman=,?
+CONCEPTS A: Hominid=,PhysicalAttribute+,SittingDown+,Hill+,SubjectiveAssessmentAttribute+,SubjectiveAssessmentAttribute+,SpaceRegion=
+CONCEPTS B: SubjectiveAssessmentAttribute+,Entity+,Entity+,Sewing+,Meeting=,Woman=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	and	and	CONJ	CC	fPOS=CONJ++CC	12	cc	_	?|?
 14	sky	sky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	conj	_	09436708-n|SpaceRegion=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?

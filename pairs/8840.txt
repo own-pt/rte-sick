@@ -3,8 +3,8 @@ sentence B = A small white dog is running across a lawn.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,White=,Canine+,Entity+,Attribute+,?,?,Lawn=,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,White=,Canine+,Entity+,Attribute+,?,?,Lawn=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,White=,Canine+,Entity+,Attribute+,Lawn=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,White=,Canine+,Entity+,Attribute+,Lawn=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	lawn	lawn	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	08591592-n|Lawn=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

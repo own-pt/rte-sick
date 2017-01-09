@@ -3,8 +3,8 @@ sentence B = A young girl is jumping into a still lake.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,?,?,SubjectiveStrongNegativeAttribute+,Shirt=,Entity+,Ambulating=,?,?,Water=,?
-CONCEPTS B: ?,HumanYouth=,Human+,Entity+,Ambulating=,?,?,?,Lake=,?
+CONCEPTS A: HumanYouth=,Human+,SubjectiveStrongNegativeAttribute+,Shirt=,Entity+,Ambulating=,Water=
+CONCEPTS B: HumanYouth=,Human+,Entity+,Ambulating=,Lake=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	14845743-n|Water=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

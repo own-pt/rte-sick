@@ -3,8 +3,8 @@ sentence B = A bowl of soup is being cleaned by a chef.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Chef=,Entity+,Cleaning=,?,Dish+,?,PreparedFood+,?
-CONCEPTS B: ?,Dish+,?,PreparedFood+,Entity+,Entity+,Cleaning=,?,?,Chef=,?
+CONCEPTS A: Chef=,Entity+,Cleaning=,Dish+,PreparedFood+
+CONCEPTS B: Dish+,PreparedFood+,Entity+,Entity+,Cleaning=,Chef=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
 8	soup	soup	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	07583197-n|PreparedFood+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

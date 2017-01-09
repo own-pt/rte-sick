@@ -3,8 +3,8 @@ sentence B = The man is stirring the sauce for the chicken.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,PsychologicalProcess+,Oil=,?
-CONCEPTS B: ?,Hominid=,Entity+,PsychologicalProcess+,?,PreparedFood+,?,?,ChickenMeat+,?
+CONCEPTS A: Hominid=,Entity+,PsychologicalProcess+,Oil=
+CONCEPTS B: Hominid=,Entity+,PsychologicalProcess+,PreparedFood+,ChickenMeat+
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	stirring	stir	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	02116118-v|PsychologicalProcess+
 5	oil	oil	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	14966667-n|Oil=
 6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

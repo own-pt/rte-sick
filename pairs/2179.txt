@@ -3,8 +3,8 @@ sentence B = There is no woman cracking an egg into a bowl.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Damaging+,?,Gland+,?,?,Cup=,Dish+,?
-CONCEPTS B: ?,Entity+,?,Woman=,Damaging+,?,Gland+,?,?,Dish+,?
+CONCEPTS A: Woman=,Entity+,Damaging+,Gland+,Cup=,Dish+
+CONCEPTS B: Entity+,Woman=,Damaging+,Gland+,Dish+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	glass	glass	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	03438257-n|Cup=
 10	bowl	bowl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02880940-n|Dish+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

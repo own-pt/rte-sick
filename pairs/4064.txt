@@ -3,8 +3,8 @@ sentence B = A man is outside and is throwing blades at a close target.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Man=,Entity+,?,?,Auditorium+,?,Entity+,Impelling+,PlantLeaf+,?,?,Near=,Entity+,?
-CONCEPTS B: ?,Man=,Entity+,located+,?,Entity+,Impelling+,PlantLeaf+,?,?,Near=,Entity+,?
+CONCEPTS A: Man=,Entity+,Auditorium+,Entity+,Impelling+,PlantLeaf+,Near=,Entity+
+CONCEPTS B: Man=,Entity+,located+,Entity+,Impelling+,PlantLeaf+,Near=,Entity+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	close	close	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	00444519-a|Near=
 14	target	target	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	05981230-n|Entity+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

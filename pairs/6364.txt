@@ -3,8 +3,8 @@ sentence B = The child is playing with toys outdoors.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,EmotionalState+,DramaticActing+,?,RecreationOrExerciseDevice+,Outdoors+,?
-CONCEPTS B: ?,HumanChild=,Entity+,DramaticActing+,?,RecreationOrExerciseDevice+,Outdoors+,?
+CONCEPTS A: HumanChild=,Entity+,EmotionalState+,DramaticActing+,RecreationOrExerciseDevice+,Outdoors+
+CONCEPTS B: HumanChild=,Entity+,DramaticActing+,RecreationOrExerciseDevice+,Outdoors+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	toys	toy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	compound	_	03964744-n|RecreationOrExerciseDevice+
 8	outdoors	outdoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	00110659-r|Outdoors+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A motocross rider is giving a motorbike to a person at an event.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,Entity+,Carrying=,?,TransportationDevice+,?,?,Process=,Communication+,?,?,?
-CONCEPTS B: ?,?,Position+,Entity+,Process+,?,TransportationDevice+,?,?,Human=,?,?,Process=,?
+CONCEPTS A: Human=,Entity+,Carrying=,TransportationDevice+,Process=,Communication+
+CONCEPTS B: Position+,Entity+,Process+,TransportationDevice+,Human=,Process=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	to	to	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
 12	motocross	motocross	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	?|?
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

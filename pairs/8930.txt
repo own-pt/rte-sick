@@ -3,8 +3,8 @@ sentence B = One boy in orange shorts is standing on a rock cliff over the water
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human+,?,OrangeColor+,NormativeAttribute+,Entity+,PhysicalAttribute+,?,?,Mineral+,Cliff=,?,?,Water=,?,?,equal+,Human+,?,Black=,NormativeAttribute+,Entity+,Decreasing+,?,?,Water=,?
-CONCEPTS B: ?,Human+,?,OrangeColor+,NormativeAttribute+,Entity+,PhysicalAttribute+,?,?,Mineral+,Cliff=,?,?,Water=,?,?,equal+,Human+,?,Black=,NormativeAttribute+,Entity+,Ambulating=,?,?,?,?,Water=,?
+CONCEPTS A: Human+,OrangeColor+,NormativeAttribute+,Entity+,PhysicalAttribute+,Mineral+,Cliff=,Water=,equal+,Human+,Black=,NormativeAttribute+,Entity+,Decreasing+,Water=
+CONCEPTS B: Human+,OrangeColor+,NormativeAttribute+,Entity+,PhysicalAttribute+,Mineral+,Cliff=,Water=,equal+,Human+,Black=,NormativeAttribute+,Entity+,Ambulating=,Water=
 
 CONLL A:
 
@@ -35,6 +35,8 @@ CONLL A:
 25	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	26	det	_	?|?
 26	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	23	nmod	_	14845743-n|Water=
 27	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = Two white dogs are running and jumping along a beach.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Entity+,?,White=,Canine+,Entity+,Attribute+,?,Ambulating=,?,?,ShoreArea=,?
-CONCEPTS B: ?,White=,Canine+,Entity+,Attribute+,?,Ambulating=,?,?,ShoreArea=,?
+CONCEPTS A: Entity+,White=,Canine+,Entity+,Attribute+,Ambulating=,ShoreArea=
+CONCEPTS B: White=,Canine+,Entity+,Attribute+,Ambulating=,ShoreArea=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	09217230-n|ShoreArea=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	VERB	VB	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = A woman is wearing paint and costume pieces and is riding a bike on
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Woman=,Entity+,CoveringFn=,Paint+,?,Clothing+,TimeDuration+,?,Entity+,Transportation+,?,Bicycle=,?,?,ContainerEmpty+,Roadway=,?
-CONCEPTS B: ?,Woman=,Entity+,CoveringFn=,Paint+,?,Clothing+,TimeDuration+,?,Entity+,Transportation+,?,Bicycle=,?,?,SubjectiveWeakNegativeAttribute+,Roadway=,?
+CONCEPTS A: Woman=,Entity+,CoveringFn=,Paint+,Clothing+,TimeDuration+,Entity+,Transportation+,Bicycle=,ContainerEmpty+,Roadway=
+CONCEPTS B: Woman=,Entity+,CoveringFn=,Paint+,Clothing+,TimeDuration+,Entity+,Transportation+,Bicycle=,SubjectiveWeakNegativeAttribute+,Roadway=
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	empty	empty	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	compound	_	01086545-a|ContainerEmpty+
 17	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	04334599-n|Roadway=
 18	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

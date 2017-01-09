@@ -3,8 +3,8 @@ sentence B = A young couple is lying on a couch together.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Entity+,Entity+,PhysicalAttribute+,?,?,Bed=,Meeting=,?
-CONCEPTS B: ?,HumanYouth=,Entity+,Entity+,LyingDown=,?,?,Sofa=,Meeting=,?
+CONCEPTS A: HumanYouth=,Entity+,Entity+,PhysicalAttribute+,Bed=,Meeting=
+CONCEPTS B: HumanYouth=,Entity+,Entity+,LyingDown=,Sofa=,Meeting=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	bed	bed	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	9	compound	_	02818832-n|Bed=
 9	together	together	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	00507927-r|Meeting=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

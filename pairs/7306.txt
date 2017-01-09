@@ -3,8 +3,8 @@ sentence B = The man in the straw hat is smoking a cigarette.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,Hat+,Entity+,Smoking=,?,Hay=,CigarOrCigarette+,?
-CONCEPTS B: ?,Man=,?,?,Hay=,Hat+,Entity+,Smoking=,?,CigarOrCigarette+,?
+CONCEPTS A: Man=,Hat+,Entity+,Smoking=,Hay=,CigarOrCigarette+
+CONCEPTS B: Man=,Hay=,Hat+,Entity+,Smoking=,CigarOrCigarette+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	straw	straw	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	14959939-n|Hay=
 10	cigarette	cigarette	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	7	dobj	_	03030663-n|CigarOrCigarette+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

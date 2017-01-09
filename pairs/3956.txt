@@ -3,8 +3,8 @@ sentence B = The riders are fencing in a boy's metal bike.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Transportation+,?,Bicycle=,?,?,PositionalAttribute+,?,?,Mixture+,Device+,?
-CONCEPTS B: ?,Human+,Entity+,IntentionalProcess+,?,?,Human+,?,Mixture+,Bicycle=,?
+CONCEPTS A: Human+,Entity+,Transportation+,Bicycle=,PositionalAttribute+,Mixture+,Device+
+CONCEPTS B: Human+,Entity+,IntentionalProcess+,Human+,Mixture+,Bicycle=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	metal	metal	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	compound	_	14586769-n|Mixture+
 13	fence	fence	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	03327234-n|Device+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

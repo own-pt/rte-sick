@@ -3,8 +3,8 @@ sentence B = A large white dog is jumping in the air over a snowy area.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Black=,Canine+,Entity+,Ambulating=,?,?,AirTransportation+,?,?,Covering+,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Covering+,Canine+,Entity+,Ambulating=,?,?,AirTransportation+,?,?,Covering+,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Black=,Canine+,Entity+,Ambulating=,AirTransportation+,Covering+,SubjectiveAssessmentAttribute+
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Covering+,Canine+,Entity+,Ambulating=,AirTransportation+,Covering+,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	snowy	snowy	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	13	compound	_	01698231-a|Covering+
 13	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	14514039-n|SubjectiveAssessmentAttribute+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

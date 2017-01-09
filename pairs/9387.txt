@@ -3,8 +3,8 @@ sentence B = Two children are playing in the surf.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,not=,DramaticActing+,?,?,Motion+,?
-CONCEPTS B: ?,HumanChild=,Entity+,DramaticActing+,?,?,Motion+,?
+CONCEPTS A: HumanChild=,Entity+,not=,DramaticActing+,Motion+
+CONCEPTS B: HumanChild=,Entity+,DramaticActing+,Motion+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	surf	surf	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	07344233-n|Motion+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

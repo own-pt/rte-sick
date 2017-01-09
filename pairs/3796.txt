@@ -3,8 +3,8 @@ sentence B = A person is scrubbing a zucchini.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,Woman=,Washing+,?,Zucchini=,?,?,Vegetable=,Device+,?
-CONCEPTS B: ?,Human=,Entity+,Washing+,?,Zucchini=,?
+CONCEPTS A: Entity+,Woman=,Washing+,Zucchini=,Vegetable=,Device+
+CONCEPTS B: Human=,Entity+,Washing+,Zucchini=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	vegetable	vegetable	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	07707451-n|Vegetable=
 11	brush	brush	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02908217-n|Device+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

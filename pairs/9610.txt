@@ -3,8 +3,8 @@ sentence B = The black and white dog is jumping for the ball.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,PhysicalAttribute+,?,?,Limb=,?,Entity+,PsychologicalProcess+,?,?,Soccer=,Ball=,?
-CONCEPTS B: ?,Black=,?,White=,Canine+,Entity+,Ambulating=,?,?,Ball=,?
+CONCEPTS A: Canine+,Entity+,PhysicalAttribute+,Limb=,Entity+,PsychologicalProcess+,Soccer=,Ball=
+CONCEPTS B: Black=,White=,Canine+,Entity+,Ambulating=,Ball=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	soccer	soccer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	00478262-n|Soccer=
 14	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	02778669-n|Ball=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	?|?

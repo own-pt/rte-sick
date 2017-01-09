@@ -3,8 +3,8 @@ sentence B = The man is pouring some oil on the tomatoes.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,?,Pouring=,Tomato=,Oil=,?
-CONCEPTS B: ?,Hominid=,Entity+,Pouring=,?,Oil=,?,?,Tomato=,?
+CONCEPTS A: Hominid=,Pouring=,Tomato=,Oil=
+CONCEPTS B: Hominid=,Entity+,Pouring=,Oil=,Tomato=
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	tomato	tomato	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	amod	_	07734017-n|Tomato=
 6	oil	oil	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	14966667-n|Oil=
 7	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

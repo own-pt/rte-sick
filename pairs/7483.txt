@@ -3,8 +3,8 @@ sentence B = A man in a white shirt and sunglasses and a man in a black shirt an
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Device+,PhysicalAttribute+,SittingDown+,?,?,ContentBearingObject+,?,Process+,Beer=,?,?,Hand+,?
-CONCEPTS B: ?,Man=,?,?,White=,Shirt=,?,Device+,?,?,Man=,?,?,Black=,Shirt=,?,Device+,PhysicalAttribute+,SittingDown+,?,?,ContentBearingObject+,?,?,Bottle=,?,Beer=,?
+CONCEPTS A: Device+,PhysicalAttribute+,SittingDown+,ContentBearingObject+,Process+,Beer=,Hand+
+CONCEPTS B: Man=,White=,Shirt=,Device+,Man=,Black=,Shirt=,Device+,PhysicalAttribute+,SittingDown+,ContentBearingObject+,Bottle=,Beer=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	13	nmod:poss	_	?|?
 13	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	nmod	_	05564590-n|Hand+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

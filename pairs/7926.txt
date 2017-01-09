@@ -3,8 +3,8 @@ sentence B = Four athletes are with a woman in a crowded stadium.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,ProfessionalAthlete=,Entity+,?,?,Hominid=,?,?,SocialInteraction+,StationaryArtifact+,?
-CONCEPTS B: ?,ProfessionalAthlete=,Entity+,?,?,Woman=,?,?,SocialInteraction+,StationaryArtifact+,?
+CONCEPTS A: ProfessionalAthlete=,Entity+,Hominid=,SocialInteraction+,StationaryArtifact+
+CONCEPTS B: ProfessionalAthlete=,Entity+,Woman=,SocialInteraction+,StationaryArtifact+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	crowded	crowd	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	02027612-v|SocialInteraction+
 10	stadium	stadium	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	04295881-n|StationaryArtifact+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

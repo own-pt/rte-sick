@@ -3,8 +3,8 @@ sentence B = A baby is playing with a doll.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Sport+,?,Gland+,?,?,TimeInterval+,Dancer=,?
-CONCEPTS B: ?,HumanBaby=,Entity+,DramaticActing+,?,?,Artifact+,?
+CONCEPTS A: Woman=,Entity+,Sport+,Gland+,TimeInterval+,Dancer=
+CONCEPTS B: HumanBaby=,Entity+,DramaticActing+,Artifact+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	break	break	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	10	compound	_	15271008-n|TimeInterval+
 10	dancer	dancer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09989502-n|Dancer=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

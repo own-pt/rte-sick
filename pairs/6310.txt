@@ -3,8 +3,8 @@ sentence B = A lady is standing near three children.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,DramaticActing+,?,?,HumanYouth=,Human+,?,?,Park+,?
-CONCEPTS B: ?,Human+,Entity+,PhysicalAttribute+,?,?,HumanChild=,?
+CONCEPTS A: Woman=,Entity+,DramaticActing+,HumanYouth=,Human+,Park+
+CONCEPTS B: Human+,Entity+,PhysicalAttribute+,HumanChild=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	08615374-n|Park+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

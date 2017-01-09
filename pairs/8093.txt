@@ -3,8 +3,8 @@ sentence B = A bicycle is being ridden by the little boy in a race.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Carrying=,?,Bicycle=,?,?,Racing=,?
-CONCEPTS B: ?,Bicycle=,Entity+,Entity+,Carrying=,?,?,SubjectiveStrongNegativeAttribute+,Human+,?,?,Racing=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Carrying=,Bicycle=,Racing=
+CONCEPTS B: Bicycle=,Entity+,Entity+,Carrying=,SubjectiveStrongNegativeAttribute+,Human+,Racing=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	07458453-n|Racing=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A person is peeling an onion.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,Entity+,not=,Separating+,FruitOrVegetable+,?
-CONCEPTS B: ?,Human=,Entity+,Removing+,?,FruitOrVegetable+,?
+CONCEPTS A: Human=,Entity+,not=,Separating+,FruitOrVegetable+
+CONCEPTS B: Human=,Entity+,Removing+,FruitOrVegetable+
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	slicing	slice	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01254477-v|Separating+
 6	onions	onion	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	12433081-n|FruitOrVegetable+
 7	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

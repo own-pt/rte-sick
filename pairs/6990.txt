@@ -3,8 +3,8 @@ sentence B = Two boys are wearing brown shirts and are tugging at a rope on a wo
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Putting+,Human+,Shirt=,?,Entity+,SubjectiveAssessmentAttribute+,IntentionalProcess+,?,?,String+,?,?,SubjectiveAssessmentAttribute+,PerformanceStage+,?
-CONCEPTS B: ?,Human+,Entity+,Putting+,Human+,Shirt=,?,Entity+,IntentionalProcess+,?,?,String+,?,?,SubjectiveAssessmentAttribute+,PerformanceStage+,?
+CONCEPTS A: Human+,Entity+,Putting+,Human+,Shirt=,Entity+,SubjectiveAssessmentAttribute+,IntentionalProcess+,String+,SubjectiveAssessmentAttribute+,PerformanceStage+
+CONCEPTS B: Human+,Entity+,Putting+,Human+,Shirt=,Entity+,IntentionalProcess+,String+,SubjectiveAssessmentAttribute+,PerformanceStage+
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	wooden	wooden	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	01141595-a|SubjectiveAssessmentAttribute+
 17	platform	platform	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	03961939-n|PerformanceStage+
 18	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = A woman is dancing in a cage.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Dancing+,SubjectiveAssessmentAttribute+,?,?,TrapOrCage+,?
-CONCEPTS B: ?,Woman=,Entity+,Dancing+,?,?,TrapOrCage+,?
+CONCEPTS A: Woman=,Entity+,Dancing+,SubjectiveAssessmentAttribute+,TrapOrCage+
+CONCEPTS B: Woman=,Entity+,Dancing+,TrapOrCage+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	cage	cage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02936714-n|TrapOrCage+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

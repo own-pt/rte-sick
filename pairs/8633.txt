@@ -3,8 +3,8 @@ sentence B = A man is rock climbing, stopping and calculating the route.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Mineral+,Increasing+,?,IntentionalProcess+,?,Calculating=,?,Roadway+,?
-CONCEPTS B: ?,Hominid=,Entity+,Mineral+,Increasing+,?,Process+,?,Calculating=,?,Roadway+,?
+CONCEPTS A: Hominid=,Entity+,Mineral+,Increasing+,IntentionalProcess+,Calculating=,Roadway+
+CONCEPTS B: Hominid=,Entity+,Mineral+,Increasing+,Process+,Calculating=,Roadway+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	route	route	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	04096066-n|Roadway+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

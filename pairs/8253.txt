@@ -3,8 +3,8 @@ sentence B = A middle aged man and woman are riding bikes down a road near the w
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Region+,Growth+,Man=,?,Woman=,Entity+,Transportation+,Bicycle=,?,?,Roadway+,?,?,Water=,?
-CONCEPTS B: ?,Region+,Growth+,Man=,?,Woman=,Entity+,Transportation+,Bicycle=,?,?,Roadway+,?,?,Water=,?
+CONCEPTS A: Region+,Growth+,Man=,Woman=,Entity+,Transportation+,Bicycle=,Roadway+,Water=
+CONCEPTS B: Region+,Growth+,Man=,Woman=,Entity+,Transportation+,Bicycle=,Roadway+,Water=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	14845743-n|Water=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

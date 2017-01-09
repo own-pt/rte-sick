@@ -3,8 +3,8 @@ sentence B = Some cheerleaders are dancing.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Position+,Entity+,PhysicalAttribute+,?,TimeInterval+,?
-CONCEPTS B: ?,Position+,Entity+,Dancing+,?
+CONCEPTS A: Position+,Entity+,PhysicalAttribute+,TimeInterval+
+CONCEPTS B: Position+,Entity+,Dancing+
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
 6	break	break	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	15271008-n|TimeInterval+
 7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A dog is running on the ground.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Attribute+,?,?,LandArea=,?
-CONCEPTS B: ?,Canine+,Entity+,Attribute+,?,?,LandArea=,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Attribute+,LandArea=
+CONCEPTS B: Canine+,Entity+,Attribute+,LandArea=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	ground	ground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	09334396-n|LandArea=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

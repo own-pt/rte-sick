@@ -3,8 +3,8 @@ sentence B = The piece of paper is being cut.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: Newspaper=,?,?,?,Process+,?
-CONCEPTS B: ?,TimeDuration+,?,Newspaper=,Entity+,Entity+,Cutting+,?
+CONCEPTS A: Newspaper=,Process+
+CONCEPTS B: TimeDuration+,Newspaper=,Entity+,Entity+,Cutting+
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	both	both	DET	DT	fPOS=DET++DT	1	cc:preconj	_	?|?
 5	cut	cut	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	00352331-n|Process+
 6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

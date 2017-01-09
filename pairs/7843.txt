@@ -3,8 +3,8 @@ sentence B = The person on the motorcycle is not holding up an arm.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human=,?,?,PassengerVehicle+,Entity+,Process+,Increasing+,?,Weapon=,?
-CONCEPTS B: ?,Human=,?,?,PassengerVehicle+,Entity+,not=,Process+,Increasing+,?,Weapon=,?
+CONCEPTS A: Human=,PassengerVehicle+,Entity+,Process+,Increasing+,Weapon=
+CONCEPTS B: Human=,PassengerVehicle+,Entity+,not=,Process+,Increasing+,Weapon=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	arm	arm	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	04565375-n|Weapon=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

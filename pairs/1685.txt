@@ -3,8 +3,8 @@ sentence B = Somebody is pouring tomato oil on the man.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Pouring=,Oil=,?,?,?,Tomato=,?
-CONCEPTS B: ?,Entity+,Pouring=,Tomato=,Oil=,?,?,Hominid=,?
+CONCEPTS A: Hominid=,Entity+,Pouring=,Oil=,Tomato=
+CONCEPTS B: Entity+,Pouring=,Tomato=,Oil=,Hominid=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	few	few	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	?|?
 9	tomatoes	tomato	NOUN	NN	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	07734017-n|Tomato=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Somebody	somebody	NOUN	NN	Number=Sing|fPOS=PROPN++NNP	3	nsubj	_	?|?

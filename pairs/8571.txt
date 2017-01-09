@@ -3,8 +3,8 @@ sentence B = A large dog and a small dog is standing on the kitchen counter and 
 entailm AB = A_entails_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Canine+,?,?,SubjectiveStrongNegativeAttribute+,Canine+,Entity+,PhysicalAttribute+,Position+,?,?,Kitchen=,Table+,?,Entity+,Investigating+,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Canine+,?,?,SubjectiveStrongNegativeAttribute+,Canine+,Entity+,PhysicalAttribute+,?,?,Kitchen=,SubjectiveAssessmentAttribute+,?,Investigating+,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Canine+,SubjectiveStrongNegativeAttribute+,Canine+,Entity+,PhysicalAttribute+,Position+,Kitchen=,Table+,Entity+,Investigating+
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Canine+,SubjectiveStrongNegativeAttribute+,Canine+,Entity+,PhysicalAttribute+,Kitchen=,SubjectiveAssessmentAttribute+,Investigating+
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	17	cop	_	02604760-v|Entity+
 17	investigating	investigate	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	conj	_	00785962-v|Investigating+
 18	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

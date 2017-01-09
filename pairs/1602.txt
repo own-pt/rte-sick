@@ -3,8 +3,8 @@ sentence B = The man isn't operating a stenograph.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Writing+,?,?,Automobile=,IntentionalProcess+,?,Procedure+,?
-CONCEPTS B: ?,Hominid=,Entity+,not=,Attribute+,?,Device+,?
+CONCEPTS A: Hominid=,Entity+,Writing+,Automobile=,IntentionalProcess+,Procedure+
+CONCEPTS B: Hominid=,Entity+,not=,Attribute+,Device+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	for	for	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
 10	stenography	stenography	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	06350127-n|Procedure+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

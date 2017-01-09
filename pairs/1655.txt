@@ -3,8 +3,8 @@ sentence B = One woman is peeling a potato.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Impelling+,?,PotatoTuber=,FruitOrVegetable+,?
-CONCEPTS B: ?,Woman=,Entity+,Removing+,?,PotatoTuber=,?
+CONCEPTS A: Woman=,Entity+,Impelling+,PotatoTuber=,FruitOrVegetable+
+CONCEPTS B: Woman=,Entity+,Removing+,PotatoTuber=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	potato	potato	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	07710616-n|PotatoTuber=
 7	peel	peel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07738353-n|FruitOrVegetable+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

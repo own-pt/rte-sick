@@ -3,8 +3,8 @@ sentence B = The men are putting suitcases into the trunk of a car.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,?,?,TravelContainer+,?,Entity+,Entity+,Walking+,?,?,Torso+,?,?,Automobile=,?
-CONCEPTS B: ?,Hominid=,Entity+,Putting=,TravelContainer+,?,?,Torso+,?,?,Automobile=,?
+CONCEPTS A: Hominid=,Entity+,TravelContainer+,Entity+,Entity+,Walking+,Torso+,Automobile=
+CONCEPTS B: Hominid=,Entity+,Putting=,TravelContainer+,Torso+,Automobile=
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
 16	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	02958343-n|Automobile=
 17	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

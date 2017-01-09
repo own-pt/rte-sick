@@ -3,8 +3,8 @@ sentence B = A dog is jumping on a trees in the shades.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Ambulating=,?,?,ColorAttribute+,?,?,ContentBearingObject+,?
-CONCEPTS B: ?,Canine+,Entity+,Ambulating=,?,?,ContentBearingObject+,?,?,ColorAttribute+,?
+CONCEPTS A: Canine+,Entity+,Ambulating=,ColorAttribute+,ContentBearingObject+
+CONCEPTS B: Canine+,Entity+,Ambulating=,ContentBearingObject+,ColorAttribute+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	some	some	DET	DT	fPOS=DET++DT	10	det	_	?|?
 10	trees	tree	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	13912260-n|ContentBearingObject+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A man is holding a sign and is seeking money.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Hominid=,PhysicalAttribute+,?,Character+,?,IntentionalProcess+,Currency=,?
-CONCEPTS B: ?,Hominid=,Entity+,PhysicalAttribute+,?,Character+,?,Entity+,IntentionalProcess+,Currency=,?
+CONCEPTS A: Entity+,Hominid=,PhysicalAttribute+,Character+,IntentionalProcess+,Currency=
+CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,Character+,Entity+,IntentionalProcess+,Currency=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	seeking	seek	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	conj	_	02530167-v|IntentionalProcess+
 10	money	money	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	13384557-n|Currency=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

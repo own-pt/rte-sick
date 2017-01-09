@@ -3,8 +3,8 @@ sentence B = A black man is running in brown grass and racing a dog.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveWeakNegativeAttribute+,SubjectiveWeakNegativeAttribute+,Canine+,?,?,SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,DramaticActing+,?,?,Lawn+,?
-CONCEPTS B: ?,Black=,Man=,Entity+,Racing+,?,Human+,Grass=,?,Motion+,?,Canine+,?
+CONCEPTS A: SubjectiveWeakNegativeAttribute+,SubjectiveWeakNegativeAttribute+,Canine+,SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,DramaticActing+,Lawn+
+CONCEPTS B: Black=,Man=,Entity+,Racing+,Human+,Grass=,Motion+,Canine+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	backyard	backyard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	02772197-n|Lawn+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

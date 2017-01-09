@@ -3,8 +3,8 @@ sentence B = A child is experiencing a new world.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,?,Entity+,CoveringFn=,?,SubjectiveStrongNegativeAttribute+,Coat=,?,Entity+,Entity+,Permission+,?,?,SocialRole+,?,?,Device+,?
-CONCEPTS B: ?,HumanChild=,Entity+,IntentionalPsychologicalProcess+,?,Damaging[,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: Human+,Entity+,CoveringFn=,SubjectiveStrongNegativeAttribute+,Coat=,Entity+,Entity+,Permission+,SocialRole+,Device+
+CONCEPTS B: HumanChild=,Entity+,IntentionalPsychologicalProcess+,Damaging[,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	19	det	_	?|?
 19	umbrella	umbrella	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	04507155-n|Device+
 20	.	.	PUNCT	.	fPOS=PUNCT++.	13	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

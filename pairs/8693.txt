@@ -3,8 +3,8 @@ sentence B = Three kids are running down hill.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,Attribute+,earlier+,?,FloweringPlant+,SlopedArea+,?
-CONCEPTS B: ?,HumanChild=,Entity+,Attribute+,earlier+,Hill=,?
+CONCEPTS A: HumanChild=,Entity+,Attribute+,earlier+,FloweringPlant+,SlopedArea+
+CONCEPTS B: HumanChild=,Entity+,Attribute+,earlier+,Hill=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	grassy	grassy	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	00209620-a|FloweringPlant+
 8	hillside	hillside	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09303528-n|SlopedArea+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

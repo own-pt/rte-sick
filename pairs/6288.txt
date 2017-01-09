@@ -3,8 +3,8 @@ sentence B = The cheerleaders are parading and wearing black, pink and white uni
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Position+,Entity+,Walking+,?,CoveringFn=,UniformClothing=,?,Entity+,Black=,?,Pink+,?,White=,?
-CONCEPTS B: ?,Position+,Entity+,Walking+,?,CoveringFn=,Black=,?,Pink+,?,White=,UniformClothing=,?
+CONCEPTS A: Position+,Entity+,Walking+,CoveringFn=,UniformClothing=,Entity+,Black=,Pink+,White=
+CONCEPTS B: Position+,Entity+,Walking+,CoveringFn=,Black=,Pink+,White=,UniformClothing=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	and	and	CONJ	CC	fPOS=CONJ++CC	10	cc	_	?|?
 14	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	10	conj	_	00393105-a|White=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

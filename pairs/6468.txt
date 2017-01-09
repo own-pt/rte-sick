@@ -3,8 +3,8 @@ sentence B = A dog with long hair and a red vest is running in the grass.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,?,SubjectiveAssessmentAttribute+,SubjectiveAssessmentAttribute+,Hair=,?,?,Red=,Clothing+,Entity+,Attribute+,?,?,Grass=,?
-CONCEPTS B: ?,Canine+,?,SubjectiveAssessmentAttribute+,Hair=,?,?,Red=,Clothing+,Entity+,Attribute+,?,?,Grass=,?
+CONCEPTS A: Canine+,SubjectiveAssessmentAttribute+,SubjectiveAssessmentAttribute+,Hair=,Red=,Clothing+,Entity+,Attribute+,Grass=
+CONCEPTS B: Canine+,SubjectiveAssessmentAttribute+,Hair=,Red=,Clothing+,Entity+,Attribute+,Grass=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	12102133-n|Grass=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

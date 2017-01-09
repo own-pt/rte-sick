@@ -3,8 +3,8 @@ sentence B = Someone is banging a camera lens against a nail.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Entity+,Impacting+,?,Lens+,?,?,Camera=,?,?,Nail=,?
-CONCEPTS B: ?,Entity+,Impacting+,?,Camera=,Lens+,?,?,Nail=,?
+CONCEPTS A: Entity+,Impacting+,Lens+,Camera=,Nail=
+CONCEPTS B: Entity+,Impacting+,Camera=,Lens+,Nail=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	nail	nail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	03804744-n|Nail=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?

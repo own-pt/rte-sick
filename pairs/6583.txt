@@ -3,8 +3,8 @@ sentence B = The tan dog is watching a brown dog that is swimming in a pond.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Favorite+,Canine+,Entity+,PhysicalAttribute+,?,?,Bank-FinancialOrganization=,?,Entity+,SubjectiveAssessmentAttribute+,?,?,Human+,Canine+,?,?,Lake+,?
-CONCEPTS B: ?,ColorAttribute+,Canine+,Entity+,Looking=,?,Human+,Canine+,?,Entity+,Swimming+,?,?,Lake+,?
+CONCEPTS A: Favorite+,Canine+,Entity+,PhysicalAttribute+,Bank-FinancialOrganization=,Entity+,SubjectiveAssessmentAttribute+,Human+,Canine+,Lake+
+CONCEPTS B: ColorAttribute+,Canine+,Entity+,Looking=,Human+,Canine+,Entity+,Swimming+,Lake+
 
 CONLL A:
 
@@ -27,6 +27,8 @@ CONLL A:
 17	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	18	det	_	?|?
 18	pond	pond	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	09397391-n|Lake+
 19	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

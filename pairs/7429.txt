@@ -3,8 +3,8 @@ sentence B = A red dog is jumping and catching a tennis ball in its mouth.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,ColorAttribute+,Canine+,Ambulating=,Increasing+,?,Grabbing+,?,Tennis=,Ball=,?
-CONCEPTS B: ?,Red=,Canine+,Entity+,Ambulating=,?,Grabbing+,?,Tennis=,Ball=,?,?,Mouth+,?
+CONCEPTS A: Entity+,ColorAttribute+,Canine+,Ambulating=,Increasing+,Grabbing+,Tennis=,Ball=
+CONCEPTS B: Red=,Canine+,Entity+,Ambulating=,Grabbing+,Tennis=,Ball=,Mouth+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	tennis	tennis	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	00482298-n|Tennis=
 12	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	02778669-n|Ball=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

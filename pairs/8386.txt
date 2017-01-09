@@ -3,8 +3,8 @@ sentence B = The young girl in blue is having fun on a slide.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,SubjectiveStrongNegativeAttribute+,Entity+,Translocation+,earlier+,?,Green=,Artifact+,?
-CONCEPTS B: ?,HumanYouth=,Human+,?,SubjectiveStrongNegativeAttribute+,Entity+,Damaging+,TraitAttribute+,?,?,Artifact+,?
+CONCEPTS A: Human+,SubjectiveStrongNegativeAttribute+,Entity+,Translocation+,earlier+,Green=,Artifact+
+CONCEPTS B: HumanYouth=,Human+,SubjectiveStrongNegativeAttribute+,Entity+,Damaging+,TraitAttribute+,Artifact+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00375969-a|Green=
 10	slide	slide	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03029603-n|Artifact+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

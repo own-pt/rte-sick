@@ -3,8 +3,8 @@ sentence B = A black sheep is standing near three white dogs.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,White=,Canine+,Entity+,Looking=,SubjectiveAssessmentAttribute+,?,?,Black=,HoofedMammal+,?
-CONCEPTS B: ?,Black=,Sheep=,Entity+,PhysicalAttribute+,?,?,White=,Canine+,?
+CONCEPTS A: White=,Canine+,Entity+,Looking=,SubjectiveAssessmentAttribute+,Black=,HoofedMammal+
+CONCEPTS B: Black=,Sheep=,Entity+,PhysicalAttribute+,White=,Canine+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00392812-a|Black=
 10	llama	llama	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	02437616-n|HoofedMammal+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

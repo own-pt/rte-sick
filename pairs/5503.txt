@@ -3,8 +3,8 @@ sentence B = A woman is cutting a lemon.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,Woman=,Shooting+,?,Rifle=,?
-CONCEPTS B: ?,Woman=,Entity+,Decreasing+,?,LemonFruit=,?
+CONCEPTS A: Entity+,Woman=,Shooting+,Rifle=
+CONCEPTS B: Woman=,Entity+,Decreasing+,LemonFruit=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	rifle	rifle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	04090263-n|Rifle=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

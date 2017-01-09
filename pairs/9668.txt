@@ -3,8 +3,8 @@ sentence B = A shirtless man is leading a horse that is pulling a carriage.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,?,Man=,Entity+,Meeting+,?,Horse=,?,Entity+,Transportation+,?,UnpoweredVehicle+,?,?,Covering+,Roadway+,?
-CONCEPTS B: ?,?,Hominid=,Entity+,FrontFn+,?,Horse=,?,Entity+,Transportation+,?,UnpoweredVehicle+,?
+CONCEPTS A: Man=,Entity+,Meeting+,Horse=,Entity+,Transportation+,UnpoweredVehicle+,Covering+,Roadway+
+CONCEPTS B: Hominid=,Entity+,FrontFn+,Horse=,Entity+,Transportation+,UnpoweredVehicle+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	paved	pave	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	16	amod	_	01267098-v|Covering+
 16	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	04096066-n|Roadway+
 17	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

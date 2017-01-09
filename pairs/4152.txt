@@ -3,8 +3,8 @@ sentence B = There is no woman cutting an onion.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Decreasing+,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,Entity+,?,Woman=,Decreasing+,?,FruitOrVegetable+,?
+CONCEPTS A: Woman=,Entity+,Decreasing+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Entity+,Woman=,Decreasing+,FruitOrVegetable+
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	cutting	cut	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00429060-v|Decreasing+
 5	meat	meat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	05921123-n|SubjectiveAssessmentAttribute+
 6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

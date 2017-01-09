@@ -3,8 +3,8 @@ sentence B = Two dogs are being petted by a man.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Man=,Entity+,Touching+,?,Canine+,?
-CONCEPTS B: ?,Canine+,Entity+,Entity+,Touching+,?,?,Man=,?
+CONCEPTS A: Man=,Entity+,Touching+,Canine+
+CONCEPTS B: Canine+,Entity+,Entity+,Touching+,Man=
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	6	nummod	_	?|?
 6	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	02084071-n|Canine+
 7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

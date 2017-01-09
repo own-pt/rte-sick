@@ -3,8 +3,8 @@ sentence B = A female wearing pink gloves and a brown jacket is smiling in the s
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Female=,CoveringFn=,Pink+,Glove+,?,?,Human+,Coat=,Entity+,not=,Smiling=,?,?,Snowing=,?
-CONCEPTS B: ?,Female=,CoveringFn=,Pink+,Glove+,?,?,Human+,Coat=,Entity+,Smiling=,?,?,Snowing=,?
+CONCEPTS A: Female=,CoveringFn=,Pink+,Glove+,Human+,Coat=,Entity+,not=,Smiling=,Snowing=
+CONCEPTS B: Female=,CoveringFn=,Pink+,Glove+,Human+,Coat=,Entity+,Smiling=,Snowing=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	15043763-n|Snowing=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?

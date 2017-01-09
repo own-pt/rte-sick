@@ -3,8 +3,8 @@ sentence B = Paper is being cut with scissors.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Newspaper=,Entity+,Entity+,Decreasing+,?
-CONCEPTS B: Newspaper=,Entity+,Entity+,Decreasing+,?,?,?
+CONCEPTS A: Newspaper=,Entity+,Entity+,Decreasing+
+CONCEPTS B: Newspaper=,Entity+,Entity+,Decreasing+
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	being	be	VERB	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	02604760-v|Entity+
 5	cut	cut	ADJ	JJ	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	00429060-v|Decreasing+
 6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Paper	paper	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	4	nsubjpass	_	06267145-n|Newspaper=

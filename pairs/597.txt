@@ -3,8 +3,8 @@ sentence B = A woman is taking off a cloak, which is very large, and revealing e
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Black=,?,Red=,?,White=,?,Pink+,Clothing+,Entity+,Entity+,Putting+,?,?,Woman=,?
-CONCEPTS B: ?,Woman=,Entity+,PhysicalAttribute+,?,?,Clothing+,?,?,Entity+,SubjectiveAssessmentAttribute+,SubjectiveWeakPositiveAttribute+,?,?,Disseminating=,SubjectiveStrongNegativeAttribute+,Clothing+,?
+CONCEPTS A: Black=,Red=,White=,Pink+,Clothing+,Entity+,Entity+,Putting+,Woman=
+CONCEPTS B: Woman=,Entity+,PhysicalAttribute+,Clothing+,Entity+,SubjectiveAssessmentAttribute+,SubjectiveWeakPositiveAttribute+,Disseminating=,SubjectiveStrongNegativeAttribute+,Clothing+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	10787470-n|Woman=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

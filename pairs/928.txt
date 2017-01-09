@@ -3,8 +3,8 @@ sentence B = The girl in the red shirt is blowing a bubble.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,?,Entity+,HumanYouth=,?,Entity+,Exhaling+,?,Bubble+,?,Entity+,SubjectiveWeakNegativeAttribute+,?
-CONCEPTS B: ?,Human+,?,?,Red=,Shirt=,Entity+,Exhaling+,?,Bubble+,?
+CONCEPTS A: Human+,Entity+,HumanYouth=,Entity+,Exhaling+,Bubble+,Entity+,SubjectiveWeakNegativeAttribute+
+CONCEPTS B: Human+,Red=,Shirt=,Entity+,Exhaling+,Bubble+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	14	cop	_	02604760-v|Entity+
 14	huge	huge	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	acl:relcl	_	01387319-a|SubjectiveWeakNegativeAttribute+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

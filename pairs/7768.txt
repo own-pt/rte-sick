@@ -3,8 +3,8 @@ sentence B = The surfer is riding a big wave.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human+,Entity+,Carrying=,?,SubjectiveWeakPositiveAttribute+,WaterWave+,?
-CONCEPTS B: ?,Human+,Entity+,Carrying=,?,SubjectiveWeakPositiveAttribute+,WaterWave+,?
+CONCEPTS A: Human+,Entity+,Carrying=,SubjectiveWeakPositiveAttribute+,WaterWave+
+CONCEPTS B: Human+,Entity+,Carrying=,SubjectiveWeakPositiveAttribute+,WaterWave+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	big	big	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
 7	wave	wave	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07352190-n|WaterWave+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

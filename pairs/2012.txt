@@ -3,8 +3,8 @@ sentence B = A man is riding a motorbike.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,?,?,Transportation+,?,?,Horse=,?
-CONCEPTS B: ?,Hominid=,Entity+,Carrying=,?,TransportationDevice+,?
+CONCEPTS A: Hominid=,Entity+,Transportation+,Horse=
+CONCEPTS B: Hominid=,Entity+,Carrying=,TransportationDevice+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	02374451-n|Horse=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

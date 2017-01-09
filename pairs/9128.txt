@@ -3,8 +3,8 @@ sentence B = A man is wearing a colorful shirt and a lot of jewelry.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,LandArea@,Clothing=,?,Substance+,?,?,Hand+,Entity+,WhenFn=,?,IntentionalProcess+,?
-CONCEPTS B: ?,Man=,Entity+,Putting+,?,ColorAttribute+,Shirt=,?,?,SubjectiveAssessmentAttribute+,?,Jewelry=,?
+CONCEPTS A: Human+,LandArea@,Clothing=,Substance+,Hand+,Entity+,WhenFn=,IntentionalProcess+
+CONCEPTS B: Man=,Entity+,Putting+,ColorAttribute+,Shirt=,SubjectiveAssessmentAttribute+,Jewelry=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	through	through	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
 14	paperwork	paperwork	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	00582071-n|IntentionalProcess+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

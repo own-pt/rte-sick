@@ -3,8 +3,8 @@ sentence B = The cowboy is tossing the blue and red pants towards the horse.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Horse=,Entity+,Removing+,?,FarmHand+,CoveringFn=,Trousers+,?,SubjectiveStrongNegativeAttribute+,?,Red=,ColorAttribute+,?
-CONCEPTS B: ?,FarmHand+,Entity+,Removing+,?,SubjectiveStrongNegativeAttribute+,?,Red=,Trousers+,?,?,Horse=,?
+CONCEPTS A: Horse=,Entity+,Removing+,FarmHand+,CoveringFn=,Trousers+,SubjectiveStrongNegativeAttribute+,Red=,ColorAttribute+
+CONCEPTS B: FarmHand+,Entity+,Removing+,SubjectiveStrongNegativeAttribute+,Red=,Trousers+,Horse=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	red	red	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	10	conj	_	00381097-a|Red=
 13	color	color	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	04956594-n|ColorAttribute+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

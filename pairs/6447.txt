@@ -3,8 +3,8 @@ sentence B = There is no small boy in a yellow shirt laughing on the beach.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,?,?,SubjectiveAssessmentAttribute+,Shirt=,Entity+,Laughing=,?,?,ShoreArea=,?
-CONCEPTS B: ?,Entity+,?,SubjectiveStrongNegativeAttribute+,Human+,?,?,SubjectiveAssessmentAttribute+,Shirt=,Laughing=,?,?,ShoreArea=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,SubjectiveAssessmentAttribute+,Shirt=,Entity+,Laughing=,ShoreArea=
+CONCEPTS B: Entity+,SubjectiveStrongNegativeAttribute+,Human+,SubjectiveAssessmentAttribute+,Shirt=,Laughing=,ShoreArea=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	09217230-n|ShoreArea=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

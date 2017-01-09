@@ -3,8 +3,8 @@ sentence B = Three people are walking across a rope and steel bridge over a rive
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Entity+,Walking=,?,?,String+,?,Wood=,Bridge+,?,?,River=,?
-CONCEPTS B: ?,GroupOfPeople=,Entity+,Walking=,?,?,String+,?,Steel=,Bridge+,?,?,River=,?
+CONCEPTS A: GroupOfPeople=,Entity+,Walking=,String+,Wood=,Bridge+,River=
+CONCEPTS B: GroupOfPeople=,Entity+,Walking=,String+,Steel=,Bridge+,River=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	river	river	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	09411430-n|River=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

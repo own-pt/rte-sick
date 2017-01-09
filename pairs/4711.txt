@@ -3,8 +3,8 @@ sentence B = Pieces of butter are being added to the stand mixer.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Butter=,Entity+,Putting=,?,?,SubjectiveAssessmentAttribute=,Device+,?
-CONCEPTS B: TimeDuration+,?,Butter=,Entity+,Entity+,Putting=,?,?,SubjectiveAssessmentAttribute=,Device+,?
+CONCEPTS A: Entity+,Butter=,Entity+,Putting=,SubjectiveAssessmentAttribute=,Device+
+CONCEPTS B: TimeDuration+,Butter=,Entity+,Entity+,Putting=,SubjectiveAssessmentAttribute=,Device+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	stand	stand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	06210363-n|SubjectiveAssessmentAttribute=
 10	mixer	mixer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03775199-n|Device+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	Pieces	piece	NOUN	NNS	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	nsubjpass	_	15246353-n|TimeDuration+

@@ -3,8 +3,8 @@ sentence B = A hockey player in a yellow jersey is guarding the goal.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Solid+,IceHockey=,SportsPosition+,Entity+,RecreationOrExercise+,?,SubjectiveAssessmentAttribute+,HoofedMammal+,?,Entity+,Contest+,?,GameGoal=,?
-CONCEPTS B: ?,IceHockey=,Human+,?,?,SubjectiveAssessmentAttribute+,HoofedMammal+,Entity+,RegulatoryProcess+,?,GameGoal=,?
+CONCEPTS A: Solid+,IceHockey=,SportsPosition+,Entity+,RecreationOrExercise+,SubjectiveAssessmentAttribute+,HoofedMammal+,Entity+,Contest+,GameGoal=
+CONCEPTS B: IceHockey=,Human+,SubjectiveAssessmentAttribute+,HoofedMammal+,Entity+,RegulatoryProcess+,GameGoal=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	goal	goal	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	dobj	_	03442756-n|GameGoal=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

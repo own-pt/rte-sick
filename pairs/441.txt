@@ -3,8 +3,8 @@ sentence B = The helmeted girl is perching on a bike.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,IntentionalProcess+,?,RecreationOrExercise+,?,?,StationaryArtifact+,?,?,Bicycle=,?
-CONCEPTS B: ?,Giving+,Human+,Entity+,Process+,?,?,Bicycle=,?
+CONCEPTS A: Woman=,Entity+,IntentionalProcess+,RecreationOrExercise+,StationaryArtifact+,Bicycle=
+CONCEPTS B: Giving+,Human+,Entity+,Process+,Bicycle=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	bicycle	bicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	02834778-n|Bicycle=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

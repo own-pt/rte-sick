@@ -3,8 +3,8 @@ sentence B = A classroom full of students is looking in the same direction insid
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Group=,?,SocialRole+,?,UniformClothing=,Entity+,IntentionalProcess+,?,FrontFn=,?,?,Organization+,?
-CONCEPTS B: ?,Classroom+,ContainerFull+,?,SocialRole+,Entity+,SubjectiveAssessmentAttribute+,?,?,equal+,DirectionalAttribute=,?,?,Bamboo=,Artifact+,?
+CONCEPTS A: Group=,SocialRole+,UniformClothing=,Entity+,IntentionalProcess+,FrontFn=,Organization+
+CONCEPTS B: Classroom+,ContainerFull+,SocialRole+,Entity+,SubjectiveAssessmentAttribute+,equal+,DirectionalAttribute=,Bamboo=,Artifact+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	class	class	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	08239808-n|Organization+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

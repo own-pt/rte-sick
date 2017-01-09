@@ -3,8 +3,8 @@ sentence B = A man is holding a big animal in one hand.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,IntentionalProcess+,?,?,SubjectiveStrongNegativeAttribute+,Human+,?
-CONCEPTS B: ?,Hominid=,Entity+,Obligation+,?,SubjectiveWeakPositiveAttribute+,Animal=,?,?,Hand+,?
+CONCEPTS A: Hominid=,Entity+,IntentionalProcess+,SubjectiveStrongNegativeAttribute+,Human+
+CONCEPTS B: Hominid=,Entity+,Obligation+,SubjectiveWeakPositiveAttribute+,Animal=,Hand+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
 8	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	10200047-n|Human+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

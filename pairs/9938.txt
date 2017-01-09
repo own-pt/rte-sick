@@ -3,8 +3,8 @@ sentence B = Three friends are making faces for the camera.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: equal+,Entity+,?,?,War=,Entity+,Entity+,IntentionalProcess+,?,?,GroupOfPeople=,?,?,Veteran+,?
-CONCEPTS B: ?,SubjectiveAssessmentAttribute=,Entity+,Process+,DirectionChange+,?,?,Camera=,?
+CONCEPTS A: equal+,Entity+,War=,Entity+,Entity+,IntentionalProcess+,GroupOfPeople=,Veteran+
+CONCEPTS B: SubjectiveAssessmentAttribute=,Entity+,Process+,DirectionChange+,Camera=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	veteran	veteran	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	10749353-n|Veteran+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

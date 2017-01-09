@@ -3,8 +3,8 @@ sentence B = A racer in full gear is wearing a helmet with sponsor logos and is 
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,?,?,?,UniformClothing=,Entity+,not=,CoveringFn=,?,Clothing+,?,Transportation+,?,Red=,PassengerVehicle+,?
-CONCEPTS B: ?,Automobile+,?,ContainerFull+,Gear=,Entity+,CoveringFn=,?,Clothing+,?,BeliefGroup+,ContentBearingObject+,?,Entity+,Transportation+,?,Red=,Sport=,PassengerVehicle+,?
+CONCEPTS A: Human=,UniformClothing=,Entity+,not=,CoveringFn=,Clothing+,Transportation+,Red=,PassengerVehicle+
+CONCEPTS B: Automobile+,ContainerFull+,Gear=,Entity+,CoveringFn=,Clothing+,BeliefGroup+,ContentBearingObject+,Entity+,Transportation+,Red=,Sport=,PassengerVehicle+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	16	amod	_	00381097-a|Red=
 16	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	dobj	_	03790512-n|PassengerVehicle+
 17	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

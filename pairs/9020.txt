@@ -3,8 +3,8 @@ sentence B = A young girl with a heart tank top is raising her hands as she is s
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,?,SubjectiveWeakNegativeAttribute+,Hair=,Entity+,WhenFn=,earlier+,?,Artifact+,?,Impelling+,Increasing+,?,Weapon=,?
-CONCEPTS B: ?,HumanYouth=,Human+,?,?,SubjectiveAssessmentAttribute+,FluidContainer+,PositionalAttribute+,Entity+,MotionUpward=,?,Hand+,?,?,Entity+,Translocation+,?
+CONCEPTS A: HumanChild=,SubjectiveWeakNegativeAttribute+,Hair=,Entity+,WhenFn=,earlier+,Artifact+,Impelling+,Increasing+,Weapon=
+CONCEPTS B: HumanYouth=,Human+,SubjectiveAssessmentAttribute+,FluidContainer+,PositionalAttribute+,Entity+,MotionUpward=,Hand+,Entity+,Translocation+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	15	nmod:poss	_	?|?
 15	arms	arm	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	dobj	_	04565375-n|Weapon=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

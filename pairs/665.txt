@@ -3,8 +3,8 @@ sentence B = One man is doing a bicycle trick in midair.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,IntentionalProcess+,?,RecreationOrExercise+,?,?,Bicycle=,?,Region+,?
-CONCEPTS B: ?,Hominid=,Entity+,IntentionalProcess+,?,Bicycle=,RecreationOrExercise+,?,Region+,?
+CONCEPTS A: Hominid=,Entity+,IntentionalProcess+,RecreationOrExercise+,Bicycle=,Region+
+CONCEPTS B: Hominid=,Entity+,IntentionalProcess+,Bicycle=,RecreationOrExercise+,Region+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
 11	midair	midair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	08600147-n|Region+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

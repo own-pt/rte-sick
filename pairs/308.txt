@@ -3,8 +3,8 @@ sentence B = A young, topless woman is covered in paint.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Human+,Walking=,?,GroupOfPeople=,Paint+,?,FrontFn=,?,?,SubjectiveAssessmentAttribute=,?
-CONCEPTS B: ?,HumanYouth=,?,top+,Woman=,Entity+,Covering+,?,Paint+,?
+CONCEPTS A: Entity+,Human+,Walking=,GroupOfPeople=,Paint+,FrontFn=,SubjectiveAssessmentAttribute=
+CONCEPTS B: HumanYouth=,top+,Woman=,Entity+,Covering+,Paint+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	crowd	crowd	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	08182379-n|SubjectiveAssessmentAttribute=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?

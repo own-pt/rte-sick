@@ -3,8 +3,8 @@ sentence B = A boy and a girl are playing on the outdoor gym.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human+,?,Human+,Entity+,DramaticActing+,?,?,located+,ExerciseCenter=,?
-CONCEPTS B: ?,Human+,?,?,Human+,Entity+,DramaticActing+,?,?,located+,ExerciseCenter=,?
+CONCEPTS A: Human+,Human+,Entity+,DramaticActing+,located+,ExerciseCenter=
+CONCEPTS B: Human+,Human+,Entity+,DramaticActing+,located+,ExerciseCenter=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	outdoor	outdoor	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	01692222-a|located+
 10	gym	gym	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03472112-n|ExerciseCenter=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

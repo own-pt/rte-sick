@@ -3,8 +3,8 @@ sentence B = A man in a shirt dyed purple is looking at a man in a black shirt w
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,Shirt=,Coloring+,ColorAttribute+,Entity+,Walking=,?,?,?,Man=,?,?,Black=,Shirt=,?,?,Entity+,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,Man=,?,?,Shirt=,Coloring+,ColorAttribute+,Entity+,SubjectiveAssessmentAttribute+,?,?,Man=,?,?,Black=,Shirt=,?,Entity+,IntentionalProcess+,?,SubjectiveStrongPositiveAttribute+,FacialExpression=,?
+CONCEPTS A: Man=,Shirt=,Coloring+,ColorAttribute+,Entity+,Walking=,Man=,Black=,Shirt=,Entity+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Man=,Shirt=,Coloring+,ColorAttribute+,Entity+,SubjectiveAssessmentAttribute+,Man=,Black=,Shirt=,Entity+,IntentionalProcess+,SubjectiveStrongPositiveAttribute+,FacialExpression=
 
 CONLL A:
 
@@ -30,6 +30,8 @@ CONLL A:
 20	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	21	cop	_	02604760-v|Entity+
 21	serious	serious	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	acl:relcl	_	02118379-a|SubjectiveAssessmentAttribute+
 22	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

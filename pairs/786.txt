@@ -3,8 +3,8 @@ sentence B = A snap is depicting some water falling in droplets on the dog.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,SoundAttribute+,?,?,SubjectiveAssessmentAttribute+,?,Water=,?
-CONCEPTS B: ?,SubjectiveAssessmentAttribute+,Entity+,Icon+,?,Water=,Getting+,?,SubjectiveAssessmentAttribute+,?,?,Canine+,?
+CONCEPTS A: Canine+,Entity+,SoundAttribute+,SubjectiveAssessmentAttribute+,Water=
+CONCEPTS B: SubjectiveAssessmentAttribute+,Entity+,Icon+,Water=,Getting+,SubjectiveAssessmentAttribute+,Canine+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	of	of	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
 9	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	14845743-n|Water=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = The man with brown hair is wearing sunglasses and is sitting at a t
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,PhysicalAttribute+,?,HumanYouth=,Man=,?,Human+,Hair=,?,Device+,SittingDown+,?,FrontFn=,?,?,Toilet+,?,Soda=,?
-CONCEPTS B: ?,Man=,?,Human+,Hair=,PhysicalAttribute+,CoveringFn=,Device+,?,PhysicalAttribute+,SittingDown+,?,?,ContentBearingObject+,?,Toilet+,?,Soda=,?,equal+,Beverage=,?
+CONCEPTS A: PhysicalAttribute+,HumanYouth=,Man=,Human+,Hair=,Device+,SittingDown+,FrontFn=,Toilet+,Soda=
+CONCEPTS B: Man=,Human+,Hair=,PhysicalAttribute+,CoveringFn=,Device+,PhysicalAttribute+,SittingDown+,ContentBearingObject+,Toilet+,Soda=,equal+,Beverage=
 
 CONLL A:
 
@@ -27,6 +27,8 @@ CONLL A:
 17	of	of	ADP	IN	fPOS=ADP++IN	18	case	_	?|?
 18	soda	soda	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	07927512-n|Soda=
 19	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

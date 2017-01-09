@@ -3,8 +3,8 @@ sentence B = A man is drawing on a digital dry erase board.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,not=,Removing+,?,?,Device+,Dry=,Removing+,Table+,?
-CONCEPTS B: ?,Hominid=,Entity+,Removing+,?,?,Device+,Dry=,Removing+,Table+,?
+CONCEPTS A: Hominid=,Entity+,not=,Removing+,Device+,Dry=,Removing+,Table+
+CONCEPTS B: Hominid=,Entity+,Removing+,Device+,Dry=,Removing+,Table+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	erase	erase	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	01548718-v|Removing+
 11	board	board	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03201208-n|Table+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

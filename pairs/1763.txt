@@ -3,8 +3,8 @@ sentence B = One woman is playing a flute.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Process+,?,Flute=,?,Entity+,not=,?,Entity+,DramaticActing+,?
-CONCEPTS B: ?,Woman=,Entity+,DramaticActing+,?,Flute=,?
+CONCEPTS A: Human+,Entity+,Process+,Flute=,Entity+,not=,Entity+,DramaticActing+
+CONCEPTS B: Woman=,Entity+,DramaticActing+,Flute=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	be	be	VERB	VB	VerbForm=Inf|fPOS=AUX++VB	12	auxpass	_	02604760-v|Entity+
 12	played	play	ADJ	JJ	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	6	acl:relcl	_	01719302-v|DramaticActing+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

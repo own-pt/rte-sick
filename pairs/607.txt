@@ -3,8 +3,8 @@ sentence B = There is no young lady with light brown hair wearing a red necklace
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,age+,Human+,Entity+,CoveringFn=,ShapeAttribute+,?,Entity+,Red=,?
-CONCEPTS B: ?,Entity+,?,HumanYouth=,Human+,?,SubjectiveWeakPositiveAttribute+,Human+,Hair=,CoveringFn=,?,Red=,Jewelry+,?,?,Clothing+,?,Jewelry+,?,Smiling=,?
+CONCEPTS A: age+,Human+,Entity+,CoveringFn=,ShapeAttribute+,Entity+,Red=
+CONCEPTS B: Entity+,HumanYouth=,Human+,SubjectiveWeakPositiveAttribute+,Human+,Hair=,CoveringFn=,Red=,Jewelry+,Clothing+,Jewelry+,Smiling=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	9	auxpass	_	02604760-v|Entity+
 9	red	red	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	6	acl:relcl	_	00381097-a|Red=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

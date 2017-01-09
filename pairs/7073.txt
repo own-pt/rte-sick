@@ -3,8 +3,8 @@ sentence B = A black dog is standing in shallow water.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Canine+,?,?,Black=,Coat=,Entity+,PhysicalAttribute+,?,SubjectiveWeakNegativeAttribute+,Water=,?
-CONCEPTS B: ?,Black=,Canine+,Entity+,PhysicalAttribute+,?,SubjectiveWeakNegativeAttribute+,Water=,?
+CONCEPTS A: Canine+,Black=,Coat=,Entity+,PhysicalAttribute+,SubjectiveWeakNegativeAttribute+,Water=
+CONCEPTS B: Black=,Canine+,Entity+,PhysicalAttribute+,SubjectiveWeakNegativeAttribute+,Water=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	shallow	shallow	ADJ	JJ	fPOS=ADV++RB	11	amod	_	00691696-a|SubjectiveWeakNegativeAttribute+
 11	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	14845743-n|Water=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

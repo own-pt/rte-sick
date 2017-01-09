@@ -3,8 +3,8 @@ sentence B = A person is cutting an onion into pieces.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Carrot=,Entity+,Entity+,Separating+,?,PreparedFood+,?,?,Human=,?
-CONCEPTS B: ?,Human=,Entity+,Cutting+,?,FruitOrVegetable+,?,TimeDuration+,?
+CONCEPTS A: Carrot=,Entity+,Entity+,Separating+,PreparedFood+,Human=
+CONCEPTS B: Human=,Entity+,Cutting+,FruitOrVegetable+,TimeDuration+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	00007846-n|Human=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

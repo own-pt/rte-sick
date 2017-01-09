@@ -3,8 +3,8 @@ sentence B = The black dog is walking along a tree trunk bridge over water.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Canine+,?,?,Black=,Coat=,Entity+,Walking=,SubjectiveAssessmentAttribute+,?,ContentBearingObject+,Torso+,Bridge+,?,Water=,?
-CONCEPTS B: ?,Black=,Canine+,Entity+,Walking=,SubjectiveAssessmentAttribute+,?,ContentBearingObject+,Torso+,Bridge+,?,Water=,?
+CONCEPTS A: Canine+,Black=,Coat=,Entity+,Walking=,SubjectiveAssessmentAttribute+,ContentBearingObject+,Torso+,Bridge+,Water=
+CONCEPTS B: Black=,Canine+,Entity+,Walking=,SubjectiveAssessmentAttribute+,ContentBearingObject+,Torso+,Bridge+,Water=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	over	over	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
 15	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	14845743-n|Water=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

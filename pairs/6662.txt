@@ -3,8 +3,8 @@ sentence B = Two young women with folded arms are looking at the screen.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Woman=,?,Folding+,Sleeve+,?,?,Entity+,HumanYouth=,?,Entity+,SubjectiveAssessmentAttribute+,?,?,Device+,?
-CONCEPTS B: ?,HumanYouth=,Woman=,?,Folding+,Sleeve+,Entity+,SubjectiveAssessmentAttribute+,?,?,Device+,?
+CONCEPTS A: Woman=,Folding+,Sleeve+,Entity+,HumanYouth=,Entity+,SubjectiveAssessmentAttribute+,Device+
+CONCEPTS B: HumanYouth=,Woman=,Folding+,Sleeve+,Entity+,SubjectiveAssessmentAttribute+,Device+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	screen	screen	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	04151581-n|Device+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NOUN	NN	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?

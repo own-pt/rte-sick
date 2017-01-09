@@ -3,8 +3,8 @@ sentence B = A small group of people are standing and two are sitting on the cou
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,PhysicalAttribute+,?,?,Room=,?,?,Device+,RadiatingVisibleLight+,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Group=,?,GroupOfPeople=,PhysicalAttribute+,PhysicalAttribute+,?,?,PhysicalAttribute+,SittingDown+,?,?,Sofa=,?
+CONCEPTS A: Human+,Entity+,PhysicalAttribute+,Room=,Device+,RadiatingVisibleLight+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Group=,GroupOfPeople=,PhysicalAttribute+,PhysicalAttribute+,PhysicalAttribute+,SittingDown+,Sofa=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	lamp	lamp	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	03636649-n|Device+
 11	light	light	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	11473954-n|RadiatingVisibleLight+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Two dogs and two people are walking in the woods.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,?,Canine+,Entity+,Walking=,?,?,Forest=,Transitway+,?
-CONCEPTS B: ?,Canine+,?,?,GroupOfPeople=,Entity+,Walking=,?,?,Wood=,?
+CONCEPTS A: Woman=,Canine+,Entity+,Walking=,Forest=,Transitway+
+CONCEPTS B: Canine+,GroupOfPeople=,Entity+,Walking=,Wood=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	forest	forest	NOUN	NN	Degree=Sup|fPOS=ADJ++JJS	10	compound	_	09284015-n|Forest=
 10	path	path	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	08616311-n|Transitway+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

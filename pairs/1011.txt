@@ -3,8 +3,8 @@ sentence B = Some horses are racing furiously over the green grass and jumping a
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,?,Horse=,Entity+,Motion+,EmotionalState+,?,?,Green=,Grass=,?,Ambulating=,?,Entity+,?
-CONCEPTS B: ?,Horse=,Entity+,Motion+,EmotionalState+,?,?,Green=,Grass=,?,Ambulating=,?,Entity+,?
+CONCEPTS A: Horse=,Entity+,Motion+,EmotionalState+,Green=,Grass=,Ambulating=,Entity+
+CONCEPTS B: Horse=,Entity+,Motion+,EmotionalState+,Green=,Grass=,Ambulating=,Entity+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	obstacle	obstacle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	dobj	_	05690269-n|Entity+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?

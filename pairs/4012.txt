@@ -3,8 +3,8 @@ sentence B = The woman is picking up a baby kangaroo.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Pulling+,Increasing+,?,Marsupial+,?,Entity+,SubjectiveStrongNegativeAttribute+,?
-CONCEPTS B: ?,Woman=,Entity+,Pulling+,Increasing+,?,HumanBaby=,Marsupial+,?
+CONCEPTS A: Woman=,Entity+,Pulling+,Increasing+,Marsupial+,Entity+,SubjectiveStrongNegativeAttribute+
+CONCEPTS B: Woman=,Entity+,Pulling+,Increasing+,HumanBaby=,Marsupial+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	10	cop	_	02604760-v|Entity+
 10	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	acl:relcl	_	01391351-a|SubjectiveStrongNegativeAttribute+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A lady of young age, with light brown hair, is wearing a red neckla
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,?,SubjectiveWeakPositiveAttribute+,Human+,Hair=,Entity+,CoveringFn=,?,Red=,Jewelry+,?,?,Clothing+,?,Jewelry+,?,Entity+,Smiling=,?
-CONCEPTS B: ?,Human+,?,HumanYouth=,TimeInterval+,?,?,SubjectiveWeakPositiveAttribute+,Human+,Hair=,?,Entity+,CoveringFn=,?,Red=,Jewelry+,?,?,Clothing+,?,Jewelry+,?,Entity+,Smiling=,?
+CONCEPTS A: HumanYouth=,Human+,SubjectiveWeakPositiveAttribute+,Human+,Hair=,Entity+,CoveringFn=,Red=,Jewelry+,Clothing+,Jewelry+,Entity+,Smiling=
+CONCEPTS B: Human+,HumanYouth=,TimeInterval+,SubjectiveWeakPositiveAttribute+,Human+,Hair=,Entity+,CoveringFn=,Red=,Jewelry+,Clothing+,Jewelry+,Entity+,Smiling=
 
 CONLL A:
 
@@ -29,6 +29,8 @@ CONLL A:
 19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	20	aux	_	02604760-v|Entity+
 20	smiling	smile	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	9	conj	_	00028565-v|Smiling=
 21	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

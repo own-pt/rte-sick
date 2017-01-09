@@ -3,8 +3,8 @@ sentence B = A person playing football is running past an official carrying a fo
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Football+,Human+,Entity+,Publication+,?,?,Human+,Transportation+,?,Football+,?
-CONCEPTS B: ?,Human=,IntentionalProcess+,Football+,Entity+,IntentionalProcess+,?,?,Human+,Transportation+,?,Football+,?
+CONCEPTS A: Football+,Human+,Entity+,Publication+,Human+,Transportation+,Football+
+CONCEPTS B: Human=,IntentionalProcess+,Football+,Entity+,IntentionalProcess+,Human+,Transportation+,Football+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	00468480-n|Football+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

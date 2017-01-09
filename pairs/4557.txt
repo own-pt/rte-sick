@@ -3,8 +3,8 @@ sentence B = A container is being shaken over a sink in the kitchen by a man.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Removing+,?,SubjectiveAssessmentAttribute+,Container+,?
-CONCEPTS B: ?,Container+,Entity+,Entity+,Motion+,?,?,WashBasin+,?,?,Kitchen=,?,?,Hominid=,?
+CONCEPTS A: Hominid=,Entity+,Removing+,SubjectiveAssessmentAttribute+,Container+
+CONCEPTS B: Container+,Entity+,Entity+,Motion+,WashBasin+,Kitchen=,Hominid=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	plastic	plastic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	02364954-a|SubjectiveAssessmentAttribute+
 7	container	container	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03094503-n|Container+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Two children in white outfits and red protective gear are sparring 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,?,White=,Collection+,?,Red=,Device+,Device+,PhysicalAttribute+,SittingDown+,?,?,Artifact+,?
-CONCEPTS B: ?,HumanChild=,?,White=,Collection+,?,Red=,Device+,Device+,Entity+,Communication+,?,?,Artifact+,?
+CONCEPTS A: HumanChild=,White=,Collection+,Red=,Device+,Device+,PhysicalAttribute+,SittingDown+,Artifact+
+CONCEPTS B: HumanChild=,White=,Collection+,Red=,Device+,Device+,Entity+,Communication+,Artifact+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	mat	mat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	03727946-n|Artifact+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

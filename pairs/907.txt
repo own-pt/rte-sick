@@ -3,8 +3,8 @@ sentence B = A man in a blue jumpsuit is courageously performing a wheelie on a 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,?,LandArea=,?,Entity+,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,?,Photographing+,?,?,IntentionalProcess+,?,?,PassengerVehicle+,?
-CONCEPTS B: ?,Man=,?,?,SubjectiveStrongNegativeAttribute+,Clothing+,Entity+,SubjectiveAssessmentAttribute+,IntentionalProcess+,?,?,?,?,PassengerVehicle+,?
+CONCEPTS A: Hominid=,Entity+,LandArea=,Entity+,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,Photographing+,IntentionalProcess+,PassengerVehicle+
+CONCEPTS B: Man=,SubjectiveStrongNegativeAttribute+,Clothing+,Entity+,SubjectiveAssessmentAttribute+,IntentionalProcess+,PassengerVehicle+
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	?|?
 17	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	03790512-n|PassengerVehicle+
 18	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

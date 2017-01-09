@@ -3,8 +3,8 @@ sentence B = A woman is riding a brown horse.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Process+,?,ComputerProgram+,?,PhysicalAttribute+,Earphone=,?
-CONCEPTS B: ?,Woman=,Entity+,Carrying=,?,Human+,Horse=,?
+CONCEPTS A: Hominid=,Entity+,Process+,ComputerProgram+,PhysicalAttribute+,Earphone=
+CONCEPTS B: Woman=,Entity+,Carrying=,Human+,Horse=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	contains	contain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	acl:relcl	_	02701210-v|PhysicalAttribute+
 9	headphones	headphone	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	dobj	_	03261776-n|Earphone=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

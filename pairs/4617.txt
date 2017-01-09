@@ -3,8 +3,8 @@ sentence B = A boy is cutting grass with scissors.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Human+,Decreasing+,Grass=,?,?,?
-CONCEPTS B: ?,Human+,Entity+,Decreasing+,Grass=,?,?,?
+CONCEPTS A: Entity+,Human+,Decreasing+,Grass=
+CONCEPTS B: Human+,Entity+,Decreasing+,Grass=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
 8	scissors	scissor	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	?|?
 9	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Two girls in their teens are wearing fancy dresses at an event.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,?,?,White=,Dress+,?,?,Woman=,?,?,SubjectiveStrongNegativeAttribute+,Dress+,Entity+,PhysicalAttribute+,?,?,Attribute+,?
-CONCEPTS B: ?,Human+,?,?,TimeInterval+,Entity+,Putting+,SubjectiveStrongPositiveAttribute+,Clothing+,?,?,Process=,?
+CONCEPTS A: Woman=,White=,Dress+,Woman=,SubjectiveStrongNegativeAttribute+,Dress+,Entity+,PhysicalAttribute+,Attribute+
+CONCEPTS B: Human+,TimeInterval+,Entity+,Putting+,SubjectiveStrongPositiveAttribute+,Clothing+,Process=
 
 CONLL A:
 
@@ -27,6 +27,8 @@ CONLL A:
 17	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	18	det	_	?|?
 18	stage	stage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	13939892-n|Attribute+
 19	.	.	PUNCT	.	fPOS=PUNCT++.	15	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

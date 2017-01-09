@@ -3,8 +3,8 @@ sentence B = A man is coming out of the water.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,MotionUpward=,?,?,Swamp=,?
-CONCEPTS B: ?,Hominid=,Entity+,Arriving=,Giving+,?,?,Water=,?
+CONCEPTS A: Hominid=,Entity+,MotionUpward=,Swamp=
+CONCEPTS B: Hominid=,Entity+,Arriving=,Giving+,Water=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	swamp	swamp	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09452395-n|Swamp=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

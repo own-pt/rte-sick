@@ -3,8 +3,8 @@ sentence B = Water is being drunk by a soccer player sitting on the field.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Soccer=,Human+,PhysicalAttribute+,SittingDown+,?,?,FieldOfStudy=,?,PhysicalAttribute+,Drinking+,Water=,?
-CONCEPTS B: Water=,PhysicalAttribute+,PhysicalAttribute+,Drinking+,?,?,Soccer=,Human+,SittingDown+,?,?,FieldOfStudy=,?
+CONCEPTS A: Soccer=,Human+,PhysicalAttribute+,SittingDown+,FieldOfStudy=,PhysicalAttribute+,Drinking+,Water=
+CONCEPTS B: Water=,PhysicalAttribute+,PhysicalAttribute+,Drinking+,Soccer=,Human+,SittingDown+,FieldOfStudy=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	drinking	drink	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	12	amod	_	01171183-v|Drinking+
 12	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	14845743-n|Water=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Water	water	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	4	nsubjpass	_	14845743-n|Water=

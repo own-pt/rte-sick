@@ -3,8 +3,8 @@ sentence B = The brown dog is sniffing the back of a small black dog.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Human+,Canine+,?,?,SubjectiveStrongNegativeAttribute+,Gray+,Canine+,Entity+,PhysicalAttribute+,?,?,TextureAttribute+,Region+,?
-CONCEPTS B: ?,Human+,Canine+,Entity+,Smelling+,?,CorpuscularObject+,?,?,SubjectiveStrongNegativeAttribute+,Black=,Canine+,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Human+,Canine+,SubjectiveStrongNegativeAttribute+,Gray+,Canine+,Entity+,PhysicalAttribute+,TextureAttribute+,Region+
+CONCEPTS B: Human+,Canine+,Entity+,Smelling+,CorpuscularObject+,SubjectiveStrongNegativeAttribute+,Black=,Canine+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	rocky	rocky	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	02243567-a|TextureAttribute+
 15	surface	surface	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	08660339-n|Region+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

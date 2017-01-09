@@ -3,8 +3,8 @@ sentence B = A person is climbing a rock with a rope, which is pink.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,Entity+,PhysicalAttribute+,?,FrontFn=,?,?,Mineral+,?,?,String+,?,?,Entity+,Pink+,?
-CONCEPTS B: ?,Human=,Entity+,Increasing+,?,Mineral+,?,?,String+,?,?,Entity+,Pink+,?
+CONCEPTS A: Human=,Entity+,PhysicalAttribute+,FrontFn=,Mineral+,String+,Entity+,Pink+
+CONCEPTS B: Human=,Entity+,Increasing+,Mineral+,String+,Entity+,Pink+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	16	cop	_	02604760-v|Entity+
 16	pink	pink	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	acl:relcl	_	00379595-a|Pink+
 17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

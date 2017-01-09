@@ -3,8 +3,8 @@ sentence B = Two animals are in a kennel on their hind legs and are facing one a
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,?,?,Kennel=,?,?,BackFn+,Limb=,?,Entity+,DirectionChange+,?,?,?
-CONCEPTS B: ?,Animal=,Entity+,?,?,Kennel=,?,?,BackFn+,Limb=,?,Entity+,DirectionChange+,?,?,?
+CONCEPTS A: Canine+,Entity+,Kennel=,BackFn+,Limb=,Entity+,DirectionChange+
+CONCEPTS B: Animal=,Entity+,Kennel=,BackFn+,Limb=,Entity+,DirectionChange+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	one	1	NUM	CD	NumType=Card|fPOS=NUM++CD	13	dobj	_	?|?
 15	another	another	ADV	RB	fPOS=DET++DT	13	advmod	_	?|?
 16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

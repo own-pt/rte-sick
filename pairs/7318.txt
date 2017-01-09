@@ -3,8 +3,8 @@ sentence B = A man is wearing a long sleeved blue shirt and jeans and is riding 
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Man=,Putting+,?,SubjectiveAssessmentAttribute+,?,SubjectiveStrongNegativeAttribute+,Shirt=,?,Trousers+,?,Transportation+,?,AgentPoweredVehicle+,?,?,Roadway=,?
-CONCEPTS B: ?,Man=,Entity+,Putting+,?,SubjectiveAssessmentAttribute+,?,SubjectiveStrongNegativeAttribute+,Shirt=,?,Trousers+,?,Entity+,Transportation+,?,AgentPoweredVehicle+,?,?,Roadway=,?
+CONCEPTS A: Entity+,Man=,Putting+,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,Shirt=,Trousers+,Transportation+,AgentPoweredVehicle+,Roadway=
+CONCEPTS B: Man=,Entity+,Putting+,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,Shirt=,Trousers+,Entity+,Transportation+,AgentPoweredVehicle+,Roadway=
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	19	det	_	?|?
 19	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	04334599-n|Roadway=
 20	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

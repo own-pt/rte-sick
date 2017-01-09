@@ -3,8 +3,8 @@ sentence B = A girl in a strange outfit is riding the bike.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,CoveringFn=,Paint+,?,Clothing+,TimeDuration+,?,Entity+,Transportation+,?,Bicycle=,?,?,ContainerEmpty+,Roadway=,?
-CONCEPTS B: ?,Human+,?,?,SubjectiveStrongNegativeAttribute+,Collection+,Entity+,Transportation+,?,Bicycle=,?
+CONCEPTS A: Woman=,Entity+,CoveringFn=,Paint+,Clothing+,TimeDuration+,Entity+,Transportation+,Bicycle=,ContainerEmpty+,Roadway=
+CONCEPTS B: Human+,SubjectiveStrongNegativeAttribute+,Collection+,Entity+,Transportation+,Bicycle=
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	empty	empty	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	compound	_	01086545-a|ContainerEmpty+
 17	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	04334599-n|Roadway=
 18	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

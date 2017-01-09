@@ -3,8 +3,8 @@ sentence B = No skateboarder is making a jump off a ramp.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human+,Entity+,Attribute+,?,Transportation+,?,?,StationaryArtifact+,?
-CONCEPTS B: ?,Human+,Entity+,Attribute+,?,Transportation+,?,?,StationaryArtifact+,?
+CONCEPTS A: Human+,Entity+,Attribute+,Transportation+,StationaryArtifact+
+CONCEPTS B: Human+,Entity+,Attribute+,Transportation+,StationaryArtifact+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	ramp	ramp	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04051549-n|StationaryArtifact+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	No	no	DET	DT	fPOS=DET++DT	2	neg	_	?|?

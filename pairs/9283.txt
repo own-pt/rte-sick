@@ -3,8 +3,8 @@ sentence B = A person is snowboarding down a railing in the snow.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,?,earlier+,?,Handle+,?,?,Snowing=,?
-CONCEPTS B: ?,Human=,Entity+,?,earlier+,?,Handle+,?,?,Snowing=,?
+CONCEPTS A: Hominid=,Entity+,earlier+,Handle+,Snowing=
+CONCEPTS B: Human=,Entity+,earlier+,Handle+,Snowing=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	15043763-n|Snowing=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

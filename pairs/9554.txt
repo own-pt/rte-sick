@@ -3,8 +3,8 @@ sentence B = Tambourines are being played by a group of children.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Group=,?,HumanChild=,?,?,ReligiousBuilding+,Basement+,Entity+,DramaticActing+,?,?,?,?
-CONCEPTS B: ?,Entity+,Entity+,DramaticActing+,?,?,Group=,?,HumanChild=,?
+CONCEPTS A: Group=,HumanChild=,ReligiousBuilding+,Basement+,Entity+,DramaticActing+
+CONCEPTS B: Entity+,Entity+,DramaticActing+,Group=,HumanChild=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	and	and	CONJ	CC	fPOS=CONJ++CC	11	cc	_	?|?
 13	tambourines	tambourines	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	conj	_	?|?
 14	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
 CONLL B:
 
 1	Tambourines	tambourines	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubjpass	_	?|?

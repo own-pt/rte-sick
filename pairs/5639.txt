@@ -3,8 +3,8 @@ sentence B = The guitar is being played by a kid.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,Entity+,MakingVocalMusic=,?,DramaticActing+,?,Guitar=,?
-CONCEPTS B: ?,Guitar=,Entity+,Entity+,DramaticActing+,?,?,HumanChild=,?
+CONCEPTS A: HumanYouth=,Human+,Entity+,MakingVocalMusic=,DramaticActing+,Guitar=
+CONCEPTS B: Guitar=,Entity+,Entity+,DramaticActing+,HumanChild=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	03467517-n|Guitar=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

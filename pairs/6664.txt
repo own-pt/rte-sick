@@ -3,8 +3,8 @@ sentence B = Two women with black hair are standing in front of a plywood wall.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,?,Folding+,Sleeve+,?,?,Entity+,HumanYouth=,?,Entity+,SubjectiveAssessmentAttribute+,?,?,Device+,?
-CONCEPTS B: ?,Woman=,?,Black=,Hair=,Entity+,PhysicalAttribute+,?,FrontFn=,?,?,Artifact+,Wall=,?
+CONCEPTS A: Woman=,Folding+,Sleeve+,Entity+,HumanYouth=,Entity+,SubjectiveAssessmentAttribute+,Device+
+CONCEPTS B: Woman=,Black=,Hair=,Entity+,PhysicalAttribute+,FrontFn=,Artifact+,Wall=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	screen	screen	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	04151581-n|Device+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

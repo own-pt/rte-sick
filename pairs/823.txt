@@ -3,8 +3,8 @@ sentence B = A group of people is equipped with protective gear.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute+,Gear=,Entity+,SubjectiveAssessmentAttribute+,Putting=,?,FrontFn=,?,?,SocialRole+,?,?
-CONCEPTS B: ?,Group=,?,GroupOfPeople=,Entity+,Putting+,?,Device+,Gear=,?
+CONCEPTS A: SubjectiveAssessmentAttribute+,Gear=,Entity+,SubjectiveAssessmentAttribute+,Putting=,FrontFn=,SocialRole+
+CONCEPTS B: Group=,GroupOfPeople=,Entity+,Putting+,Device+,Gear=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	standing	standing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	13948136-n|SocialRole+
 12	biker	biker	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	?|?
 13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

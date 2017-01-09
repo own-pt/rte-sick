@@ -3,8 +3,8 @@ sentence B = Bikers are riding on a trail.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: Text+,?,Entity+,Carrying=,?,?,Trail+,?
-CONCEPTS B: ?,Entity+,Carrying=,?,?,Trail+,?
+CONCEPTS A: Text+,Entity+,Carrying=,Trail+
+CONCEPTS B: Entity+,Carrying=,Trail+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	trail	trail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04466613-n|Trail+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Bikers	biker	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	?|?

@@ -3,8 +3,8 @@ sentence B = Two adults are sitting in the chairs and are watching the ocean.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,PhysicalAttribute+,SittingDown+,?,?,Chair=,?,Looking=,?,Ocean=,?
-CONCEPTS B: ?,FullyFormed+,PhysicalAttribute+,SittingDown+,?,?,Chair=,?,PhysicalAttribute+,Looking=,?,Ocean=,?
+CONCEPTS A: PhysicalAttribute+,SittingDown+,Chair=,Looking=,Ocean=
+CONCEPTS B: FullyFormed+,PhysicalAttribute+,SittingDown+,Chair=,PhysicalAttribute+,Looking=,Ocean=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	ocean	ocean	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	09376198-n|Ocean=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	compound	_	?|?

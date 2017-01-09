@@ -3,8 +3,8 @@ sentence B = A person is shirtless and is putting down the beer.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Putting+,?,Red=,Coat=,?,PhysicalAttribute+,?,Cup=,?,FrontFn=,?,?,Man=,?,?,White=,Shirt+,?
-CONCEPTS B: ?,Human=,Entity+,?,?,Entity+,Putting=,earlier+,?,Beer=,?
+CONCEPTS A: Woman=,Entity+,Putting+,Red=,Coat=,PhysicalAttribute+,Cup=,FrontFn=,Man=,White=,Shirt+
+CONCEPTS B: Human=,Entity+,Entity+,Putting=,earlier+,Beer=
 
 CONLL A:
 
@@ -29,6 +29,8 @@ CONLL A:
 19	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	20	amod	_	00393105-a|White=
 20	t-shirt	t-shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	03595614-n|Shirt+
 21	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

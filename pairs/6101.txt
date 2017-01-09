@@ -3,8 +3,8 @@ sentence B = A brown and black dog is running through the leaves.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human+,?,Black=,Canine+,Entity+,Attribute+,?,?,Leaf=,?
-CONCEPTS B: ?,Human+,?,Black=,Canine+,Entity+,Attribute+,?,?,Leaf=,?
+CONCEPTS A: Human+,Black=,Canine+,Entity+,Attribute+,Leaf=
+CONCEPTS B: Human+,Black=,Canine+,Entity+,Attribute+,Leaf=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	leaves	leaf	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	13152742-n|Leaf=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

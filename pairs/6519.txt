@@ -3,8 +3,8 @@ sentence B = The sun is shining on the face of the girl who is in a yellow dress
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Sol=,Entity+,not=,RadiatingLight+,?,?,Face+,?,?,Human+,?,Entity+,?,?,SubjectiveAssessmentAttribute+,Clothing+,?
-CONCEPTS B: ?,Sol=,Entity+,RadiatingLight+,?,?,Face+,?,?,Human+,?,Entity+,?,?,SubjectiveAssessmentAttribute+,Clothing+,?
+CONCEPTS A: Sol=,Entity+,not=,RadiatingLight+,Face+,Human+,Entity+,SubjectiveAssessmentAttribute+,Clothing+
+CONCEPTS B: Sol=,Entity+,RadiatingLight+,Face+,Human+,Entity+,SubjectiveAssessmentAttribute+,Clothing+
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	02101942-a|SubjectiveAssessmentAttribute+
 17	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	acl:relcl	_	02728440-n|Clothing+
 18	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

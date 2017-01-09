@@ -3,8 +3,8 @@ sentence B = Two boys on a couch are playing video games.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,?,Sofa=,Entity+,DramaticActing+,Game=,?,?,TelevisionBroadcasting+,?
-CONCEPTS B: ?,Human+,?,?,Sofa=,Entity+,DramaticActing+,TelevisionBroadcasting+,Game=,?
+CONCEPTS A: Human+,Sofa=,Entity+,DramaticActing+,Game=,TelevisionBroadcasting+
+CONCEPTS B: Human+,Sofa=,Entity+,DramaticActing+,TelevisionBroadcasting+,Game=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	TV	tv	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	06277280-n|TelevisionBroadcasting+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

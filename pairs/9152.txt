@@ -3,8 +3,8 @@ sentence B = A lady is wearing a black dress and is carrying a white cross.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,?,?,Black=,Clothing+,Entity+,Transportation+,?,Wagon+,?,Entity+,PhysicalAttribute+,?,?,Man=,?,Entity+,Communication+,?,?,Park+,Seat+,?
-CONCEPTS B: ?,Human+,Entity+,CoveringFn=,?,Black=,Clothing+,?,Entity+,Transportation+,?,White=,Icon+,?
+CONCEPTS A: Woman=,Black=,Clothing+,Entity+,Transportation+,Wagon+,Entity+,PhysicalAttribute+,Man=,Entity+,Communication+,Park+,Seat+
+CONCEPTS B: Human+,Entity+,CoveringFn=,Black=,Clothing+,Entity+,Transportation+,White=,Icon+
 
 CONLL A:
 
@@ -32,6 +32,8 @@ CONLL A:
 22	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	23	compound	_	08615374-n|Park+
 23	bench	bench	NOUN	NN	Number=Sing|fPOS=NOUN++NN	19	nmod	_	02828884-n|Seat+
 24	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

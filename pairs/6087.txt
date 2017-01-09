@@ -3,8 +3,8 @@ sentence B = A brown dog and a red dog are frolicking on the beach.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Canine+,Entity+,SubjectiveAssessmentAttribute+,ViolentContest+,?,?,part+,ShoreArea=,?
-CONCEPTS B: ?,Human+,Canine+,?,?,Red=,Canine+,Entity+,Motion+,?,?,ShoreArea=,?
+CONCEPTS A: Human+,Canine+,Entity+,SubjectiveAssessmentAttribute+,ViolentContest+,part+,ShoreArea=
+CONCEPTS B: Human+,Canine+,Red=,Canine+,Entity+,Motion+,ShoreArea=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	sandy	sandy	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	10	amod	_	00142040-a|part+
 10	shore	shore	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	09433442-n|ShoreArea=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

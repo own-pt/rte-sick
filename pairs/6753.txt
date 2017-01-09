@@ -3,8 +3,8 @@ sentence B = Two people in two chairs are reading.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,Lawn=,Chair=,?,PhysicalAttribute+,Reading=,Book+,?
-CONCEPTS B: ?,GroupOfPeople=,?,?,Chair=,Entity+,Reading=,?
+CONCEPTS A: GroupOfPeople=,PhysicalAttribute+,SittingDown+,Lawn=,Chair=,PhysicalAttribute+,Reading=,Book+
+CONCEPTS B: GroupOfPeople=,Chair=,Entity+,Reading=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	reading	read	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	11	compound	_	00625119-v|Reading=
 11	books	book	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	conj	_	02870092-n|Book+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

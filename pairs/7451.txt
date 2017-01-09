@@ -3,8 +3,8 @@ sentence B = The little girl is swinging and the woman is standing behind her.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,IntentionalProcess+,EmotionalState+,?,?,Collection+,?,SoundAttribute+,?,?,Park+,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Ambulating=,?,?,Woman=,Entity+,PhysicalAttribute+,?,?,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,IntentionalProcess+,EmotionalState+,Collection+,SoundAttribute+,Park+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Ambulating=,Woman=,Entity+,PhysicalAttribute+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	08615374-n|Park+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

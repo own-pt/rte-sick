@@ -3,8 +3,8 @@ sentence B = One girl is jumping on the car.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,not=,Ambulating=,?,?,Automobile=,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,Human+,Entity+,Ambulating=,?,?,Automobile=,?
+CONCEPTS A: Human+,Entity+,not=,Ambulating=,Automobile=,SubjectiveAssessmentAttribute+
+CONCEPTS B: Human+,Entity+,Ambulating=,Automobile=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02958343-n|Automobile=
 9	recklessly	recklessly	ADV	RB	fPOS=ADV++RB	5	advmod	_	00354861-r|SubjectiveAssessmentAttribute+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

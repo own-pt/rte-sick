@@ -3,8 +3,8 @@ sentence B = An onion is being sliced with a knife by the woman.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Separating+,?,FruitOrVegetable+,?,?,CuttingDevice+,?
-CONCEPTS B: ?,FruitOrVegetable+,Entity+,Entity+,Separating+,?,?,CuttingDevice+,?,?,Woman=,?
+CONCEPTS A: Woman=,Entity+,Separating+,FruitOrVegetable+,CuttingDevice+
+CONCEPTS B: FruitOrVegetable+,Entity+,Entity+,Separating+,CuttingDevice+,Woman=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	knife	knife	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03623556-n|CuttingDevice+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A woman is pulling some sticky goo out of a bowl.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Liquid+,Substance+,Entity+,Entity+,Transportation+,Giving+,?,?,Dish+,?,?,Woman=,?
-CONCEPTS B: ?,Woman=,Entity+,Transportation+,?,Liquid+,Substance+,Giving+,?,?,Dish+,?
+CONCEPTS A: Liquid+,Substance+,Entity+,Entity+,Transportation+,Giving+,Dish+,Woman=
+CONCEPTS B: Woman=,Entity+,Transportation+,Liquid+,Substance+,Giving+,Dish+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	10787470-n|Woman=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

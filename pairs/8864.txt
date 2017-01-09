@@ -3,8 +3,8 @@ sentence B = A child is wearing a coat and is carrying a red sled behind a child
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Red=,LandVehicle+,Entity+,Entity+,Keeping+,?,?,SubjectiveStrongNegativeAttribute+,Human+,?,?,Green=,Coat=,?,?,Human+,Walking=,?,?,Snowing=,?
-CONCEPTS B: ?,HumanChild=,Entity+,CoveringFn=,?,Coat=,?,Entity+,Transportation+,?,Red=,LandVehicle+,?,?,HumanChild=,?,?,Green=,?,Black=,Coat=,?
+CONCEPTS A: Red=,LandVehicle+,Entity+,Entity+,Keeping+,SubjectiveStrongNegativeAttribute+,Human+,Green=,Coat=,Human+,Walking=,Snowing=
+CONCEPTS B: HumanChild=,Entity+,CoveringFn=,Coat=,Entity+,Transportation+,Red=,LandVehicle+,HumanChild=,Green=,Black=,Coat=
 
 CONLL A:
 
@@ -30,6 +30,8 @@ CONLL A:
 20	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	21	det	_	?|?
 21	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	18	nmod	_	15043763-n|Snowing=
 22	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

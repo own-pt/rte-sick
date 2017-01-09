@@ -3,8 +3,8 @@ sentence B = A young man is pushing a motocross bike down a dirt hill.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Text+,?,Entity+,Process+,?,Text+,Bicycle=,?,?,part+,Hill=,?
-CONCEPTS B: ?,HumanYouth=,Hominid=,Entity+,Pushing=,?,?,Bicycle=,?,?,Text+,Hill=,?
+CONCEPTS A: HumanYouth=,Text+,Entity+,Process+,Text+,Bicycle=,part+,Hill=
+CONCEPTS B: HumanYouth=,Hominid=,Entity+,Pushing=,Bicycle=,Text+,Hill=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	sandy	sandy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	compound	_	00142040-a|part+
 13	hill	hill	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	09303008-n|Hill=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

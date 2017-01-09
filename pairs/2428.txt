@@ -3,8 +3,8 @@ sentence B = One man is running down the road.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Attribute+,earlier+,?,Roadway+,?
-CONCEPTS B: ?,Hominid=,Entity+,Attribute+,earlier+,?,Roadway+,?
+CONCEPTS A: Hominid=,Entity+,Attribute+,earlier+,Roadway+
+CONCEPTS B: Hominid=,Entity+,Attribute+,earlier+,Roadway+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04096066-n|Roadway+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = There is no boy in a white t-shirt splashing in shallow water.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human+,?,?,White=,Shirt+,Entity+,Wetting+,?,SubjectiveWeakNegativeAttribute+,Water=,?
-CONCEPTS B: ?,Entity+,?,Human+,?,?,White=,Shirt+,Wetting+,?,SubjectiveWeakNegativeAttribute+,Water=,?
+CONCEPTS A: Human+,White=,Shirt+,Entity+,Wetting+,SubjectiveWeakNegativeAttribute+,Water=
+CONCEPTS B: Entity+,Human+,White=,Shirt+,Wetting+,SubjectiveWeakNegativeAttribute+,Water=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	shallow	shallow	ADJ	JJ	fPOS=ADV++RB	11	amod	_	00691696-a|SubjectiveWeakNegativeAttribute+
 11	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	14845743-n|Water=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

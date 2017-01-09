@@ -3,8 +3,8 @@ sentence B = A white cat perched on a small wooden cabinet is looking outside th
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Feline+,?,?,White=,Coat=,?,Process+,?,?,SubjectiveStrongNegativeAttribute+,SubjectiveAssessmentAttribute+,ChestOrCabinet+,?,Entity+,SubjectiveAssessmentAttribute+,?,?,Window=,?
-CONCEPTS B: ?,White=,Whip+,Process+,?,?,SubjectiveStrongNegativeAttribute+,SubjectiveAssessmentAttribute+,ChestOrCabinet+,Entity+,SubjectiveAssessmentAttribute+,?,?,Window=,?
+CONCEPTS A: Feline+,White=,Coat=,Process+,SubjectiveStrongNegativeAttribute+,SubjectiveAssessmentAttribute+,ChestOrCabinet+,Entity+,SubjectiveAssessmentAttribute+,Window=
+CONCEPTS B: White=,Whip+,Process+,SubjectiveStrongNegativeAttribute+,SubjectiveAssessmentAttribute+,ChestOrCabinet+,Entity+,SubjectiveAssessmentAttribute+,Window=
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	?|?
 19	window	window	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	04587648-n|Window=
 20	.	.	PUNCT	.	fPOS=PUNCT++.	16	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

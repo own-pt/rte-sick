@@ -3,8 +3,8 @@ sentence B = There is no boy hanging a fishing rod and running in front of a fis
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Hunting+,?,?,?,FishingSport=,Position+,?
-CONCEPTS B: ?,Entity+,?,Human+,PhysicalAttribute+,?,FishingSport=,LengthMeasure@,?,Hunting+,?,FrontFn=,?,?,Fish=,?
+CONCEPTS A: Human+,Entity+,Hunting+,FishingSport=,Position+
+CONCEPTS B: Entity+,Human+,PhysicalAttribute+,FishingSport=,LengthMeasure@,Hunting+,FrontFn=,Fish=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	fishing	fishing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	00453935-n|FishingSport=
 9	line	line	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	00582388-n|Position+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

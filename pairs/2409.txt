@@ -3,8 +3,8 @@ sentence B = The woman is slicing an onion with a knife.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Woman=,Entity+,not=,Separating+,?,FruitOrVegetable+,?,?,CuttingDevice+,?
-CONCEPTS B: ?,Woman=,Entity+,Separating+,?,FruitOrVegetable+,?,?,CuttingDevice+,?
+CONCEPTS A: Woman=,Entity+,not=,Separating+,FruitOrVegetable+,CuttingDevice+
+CONCEPTS B: Woman=,Entity+,Separating+,FruitOrVegetable+,CuttingDevice+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	knife	knife	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	03623556-n|CuttingDevice+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

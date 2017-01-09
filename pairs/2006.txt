@@ -3,8 +3,8 @@ sentence B = A motorbike rider is running over a man.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Carrying=,?,TransportationDevice+,?
-CONCEPTS B: ?,TransportationDevice+,Position+,Entity+,Attribute+,SubjectiveAssessmentAttribute+,?,Hominid=,?
+CONCEPTS A: Hominid=,Entity+,Carrying=,TransportationDevice+
+CONCEPTS B: TransportationDevice+,Position+,Entity+,Attribute+,SubjectiveAssessmentAttribute+,Hominid=
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
 6	motorbike	motorbike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03769722-n|TransportationDevice+
 7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

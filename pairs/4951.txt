@@ -3,8 +3,8 @@ sentence B = A small tree is being eaten by a baby elephant.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Selling+,?,LandVehicle+,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,ContentBearingObject+,Entity+,Entity+,Process+,?,?,HumanBaby=,Elephant+,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Selling+,LandVehicle+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,ContentBearingObject+,Entity+,Entity+,Process+,HumanBaby=,Elephant+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	scooter	scooter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03791053-n|LandVehicle+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

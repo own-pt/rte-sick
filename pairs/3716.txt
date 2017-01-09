@@ -3,8 +3,8 @@ sentence B = A toy train is striking a toy car.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,RecreationOrExerciseDevice+,Train=,Entity+,ViolentContest=,Impacting+,?,RecreationOrExerciseDevice+,Automobile=,?
-CONCEPTS B: ?,RecreationOrExerciseDevice+,Train=,Entity+,Impacting+,?,RecreationOrExerciseDevice+,Automobile=,?
+CONCEPTS A: RecreationOrExerciseDevice+,Train=,Entity+,ViolentContest=,Impacting+,RecreationOrExerciseDevice+,Automobile=
+CONCEPTS B: RecreationOrExerciseDevice+,Train=,Entity+,Impacting+,RecreationOrExerciseDevice+,Automobile=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	03964744-n|RecreationOrExerciseDevice+
 9	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	02958343-n|Automobile=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

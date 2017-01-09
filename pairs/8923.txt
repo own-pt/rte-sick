@@ -3,8 +3,8 @@ sentence B = A little dog is running on the sand.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Attribute+,?,?,ShoreArea=,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Attribute+,?,?,Sand=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Attribute+,ShoreArea=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Attribute+,Sand=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	09217230-n|ShoreArea=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = One person is playing the guitar and singing.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,DramaticActing+,?,Guitar=,?,?,Entity+,FieldOfStudy@,?,?,MakingVocalMusic=,?
-CONCEPTS B: ?,Human=,Entity+,DramaticActing+,?,Guitar=,?,MakingVocalMusic=,?
+CONCEPTS A: Woman=,Entity+,DramaticActing+,Guitar=,Entity+,FieldOfStudy@,MakingVocalMusic=
+CONCEPTS B: Human=,Entity+,DramaticActing+,Guitar=,MakingVocalMusic=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	and	and	CONJ	CC	fPOS=CONJ++CC	10	cc	_	?|?
 13	singing	sing	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	10	conj	_	01731031-v|MakingVocalMusic=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

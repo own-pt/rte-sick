@@ -3,8 +3,8 @@ sentence B = A man is standing in the snow at the edge of a mountain.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,PhysicalAttribute+,?,Sunset+,?,?,?,Clean+,?,Covering+,Roadway+,?,?,Entity+,Combustion+,SocialInteraction[,?,Headlight+,?
-CONCEPTS B: ?,Hominid=,Entity+,PhysicalAttribute+,?,?,Snowing=,?,?,Object+,?,?,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: Hominid=,Entity+,PhysicalAttribute+,Sunset+,Clean+,Covering+,Roadway+,Entity+,Combustion+,SocialInteraction[,Headlight+
+CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,Snowing=,Object+,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -29,6 +29,8 @@ CONLL A:
 19	by	by	ADP	IN	fPOS=ADP++IN	20	case	_	?|?
 20	headlights	headlight	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	17	nmod	_	03503997-n|Headlight+
 21	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

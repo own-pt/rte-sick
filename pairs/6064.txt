@@ -3,8 +3,8 @@ sentence B = The man is not performing a large jump.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,IntentionalProcess+,?,SubjectiveWeakPositiveAttribute+,Transportation+,?
-CONCEPTS B: ?,Hominid=,Entity+,not=,IntentionalProcess+,?,SubjectiveWeakPositiveAttribute+,Transportation+,?
+CONCEPTS A: Hominid=,Entity+,IntentionalProcess+,SubjectiveWeakPositiveAttribute+,Transportation+
+CONCEPTS B: Hominid=,Entity+,not=,IntentionalProcess+,SubjectiveWeakPositiveAttribute+,Transportation+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
 7	jump	jump	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00303849-n|Transportation+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

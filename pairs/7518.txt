@@ -3,8 +3,8 @@ sentence B = The girl is wearing a white shirt and a pink skirt, and is standing
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human+,Entity+,not=,Putting+,?,White=,Shirt=,?,?,Pink+,Clothing+,?,?,Entity+,not=,PhysicalAttribute+,?,FrontFn=,?,?,Auditorium+,?
-CONCEPTS B: ?,Human+,Entity+,Putting+,?,White=,Shirt=,?,?,Pink+,Clothing+,?,?,Entity+,PhysicalAttribute+,?,FrontFn=,?,?,Auditorium+,?
+CONCEPTS A: Human+,Entity+,not=,Putting+,White=,Shirt=,Pink+,Clothing+,Entity+,not=,PhysicalAttribute+,FrontFn=,Auditorium+
+CONCEPTS B: Human+,Entity+,Putting+,White=,Shirt=,Pink+,Clothing+,Entity+,PhysicalAttribute+,FrontFn=,Auditorium+
 
 CONLL A:
 
@@ -31,6 +31,8 @@ CONLL A:
 21	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	22	det	_	?|?
 22	house	house	NOUN	NN	Number=Sing|fPOS=NOUN++NN	19	nmod	_	04417809-n|Auditorium+
 23	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

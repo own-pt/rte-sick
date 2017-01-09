@@ -3,8 +3,8 @@ sentence B = A black and white dog is carrying a huge stick on the green grass.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Black=,?,White=,Canine+,?,?,SubjectiveWeakPositiveAttribute+,ShapeAttribute+,Entity+,PhysicalAttribute+,?,?,FieldOfStudy=,?
-CONCEPTS B: ?,Black=,?,White=,Canine+,Entity+,Transportation+,?,SubjectiveWeakNegativeAttribute+,Plant+,?,?,Green=,Grass=,?
+CONCEPTS A: Black=,White=,Canine+,SubjectiveWeakPositiveAttribute+,ShapeAttribute+,Entity+,PhysicalAttribute+,FieldOfStudy=
+CONCEPTS B: Black=,White=,Canine+,Entity+,Transportation+,SubjectiveWeakNegativeAttribute+,Plant+,Green=,Grass=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	05996646-n|FieldOfStudy=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Two men are standing together and one is looking in the distance.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,SubjectiveAssessmentAttribute+,Giving+,?,?,Entity+,PhysicalAttribute+,Device+,?
-CONCEPTS B: ?,Hominid=,Entity+,PhysicalAttribute+,Meeting=,?,?,Entity+,SubjectiveAssessmentAttribute+,?,?,LengthMeasure+,?
+CONCEPTS A: Hominid=,Entity+,SubjectiveAssessmentAttribute+,Giving+,Entity+,PhysicalAttribute+,Device+
+CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,Meeting=,Entity+,SubjectiveAssessmentAttribute+,LengthMeasure+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	holding	hold	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	10	compound	_	02701210-v|PhysicalAttribute+
 10	binoculars	binoculars	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	conj	_	02841315-n|Device+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

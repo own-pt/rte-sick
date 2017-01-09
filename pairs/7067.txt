@@ -3,8 +3,8 @@ sentence B = A man on inline skates is resting at a skate park.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,?,?,Clothing+,Entity+,Walking+,?,?,Clothing+,Park+,?
-CONCEPTS B: ?,Hominid=,?,?,Clothing+,Entity+,PastFn=,?,?,Clothing+,Park+,?
+CONCEPTS A: Hominid=,Clothing+,Entity+,Walking+,Clothing+,Park+
+CONCEPTS B: Hominid=,Clothing+,Entity+,PastFn=,Clothing+,Park+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	skate	skate	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	04225729-n|Clothing+
 11	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	08615374-n|Park+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

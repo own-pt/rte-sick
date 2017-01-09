@@ -3,8 +3,8 @@ sentence B = Paper and scissors both cut.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: Newspaper=,Entity+,Entity+,Decreasing+,?,?,?
-CONCEPTS B: Newspaper=,?,?,?,Process+,?
+CONCEPTS A: Newspaper=,Entity+,Entity+,Decreasing+
+CONCEPTS B: Newspaper=,Process+
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
 6	scissors	scissor	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	?|?
 7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Paper	paper	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	06267145-n|Newspaper=

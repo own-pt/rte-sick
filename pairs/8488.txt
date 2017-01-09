@@ -3,8 +3,8 @@ sentence B = A shirtless man is playing football on a lawn.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,?,Hominid=,Entity+,Game+,Football+,?,?,ExerciseCenter=,?
-CONCEPTS B: ?,?,Hominid=,Entity+,Game+,Football+,?,?,Lawn=,?
+CONCEPTS A: Hominid=,Entity+,Game+,Football+,ExerciseCenter=
+CONCEPTS B: Hominid=,Entity+,Game+,Football+,Lawn=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	gym	gym	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03472112-n|ExerciseCenter=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

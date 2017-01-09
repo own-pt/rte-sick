@@ -3,8 +3,8 @@ sentence B = Two boys are talking on the phone.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,not=,Speaking+,?,?,Telephone=,?
-CONCEPTS B: ?,Human+,Entity+,Speaking+,?,?,Telephone=,?
+CONCEPTS A: Woman=,Entity+,not=,Speaking+,Telephone=
+CONCEPTS B: Human+,Entity+,Speaking+,Telephone=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	telephone	telephone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	04401088-n|Telephone=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

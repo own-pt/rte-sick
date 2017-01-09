@@ -3,8 +3,8 @@ sentence B = A laughing boy is in a yellow tank and is wearing a top.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,RecreationOrExercise+,?,SubjectiveAssessmentAttribute+,FluidContainer+,PositionalAttribute+,?,Entity+,Laughing=,?
-CONCEPTS B: ?,Laughing=,Human+,Entity+,?,?,SubjectiveAssessmentAttribute+,FluidContainer+,?,Entity+,RecreationOrExercise+,?,PositionalAttribute+,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,RecreationOrExercise+,SubjectiveAssessmentAttribute+,FluidContainer+,PositionalAttribute+,Entity+,Laughing=
+CONCEPTS B: Laughing=,Human+,Entity+,SubjectiveAssessmentAttribute+,FluidContainer+,Entity+,RecreationOrExercise+,PositionalAttribute+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	cop	_	02604760-v|Entity+
 12	laughing	laugh	ADJ	JJ	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	00031820-v|Laughing=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

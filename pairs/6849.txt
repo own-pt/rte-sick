@@ -3,8 +3,8 @@ sentence B = A father is pushing his daughter on a go-kart and another girl is w
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,?,?,Entity+,SubjectiveStrongNegativeAttribute+,?,Entity+,DramaticActing+,?,?,RecreationOrExerciseDevice+,Automobile=,?,?,Roadway=,?
-CONCEPTS B: ?,SocialRole+,Entity+,Pushing=,?,BiologicalAttribute+,?,?,PoweredVehicle+,?,?,BiologicalAttribute+,Entity+,Looking=,?
+CONCEPTS A: HumanChild=,Entity+,SubjectiveStrongNegativeAttribute+,Entity+,DramaticActing+,RecreationOrExerciseDevice+,Automobile=,Roadway=
+CONCEPTS B: SocialRole+,Entity+,Pushing=,BiologicalAttribute+,PoweredVehicle+,BiologicalAttribute+,Entity+,Looking=
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	?|?
 16	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04334599-n|Roadway=
 17	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

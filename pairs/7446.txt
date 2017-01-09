@@ -3,8 +3,8 @@ sentence B = The little girl is swinging and the woman is standing behind her.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,not=,Ambulating=,?,?,Woman=,Entity+,not=,PhysicalAttribute+,?,?,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Ambulating=,?,?,Woman=,Entity+,PhysicalAttribute+,?,?,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,not=,Ambulating=,Woman=,Entity+,not=,PhysicalAttribute+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Ambulating=,Woman=,Entity+,PhysicalAttribute+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	behind	behind	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
 14	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	12	nmod	_	?|?
 15	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

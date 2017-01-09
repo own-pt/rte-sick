@@ -3,8 +3,8 @@ sentence B = A black and white dog with a large branch is running in the field.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Black=,?,White=,Canine+,Entity+,Transportation+,?,SubjectiveWeakPositiveAttribute+,Plant+,?,?,Green=,Grass=,?
-CONCEPTS B: ?,Black=,?,White=,Canine+,?,?,SubjectiveWeakPositiveAttribute+,ShapeAttribute+,Entity+,Attribute+,?,?,FieldOfStudy=,?
+CONCEPTS A: Black=,White=,Canine+,Entity+,Transportation+,SubjectiveWeakPositiveAttribute+,Plant+,Green=,Grass=
+CONCEPTS B: Black=,White=,Canine+,SubjectiveWeakPositiveAttribute+,ShapeAttribute+,Entity+,Attribute+,FieldOfStudy=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	00375969-a|Green=
 14	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	12102133-n|Grass=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?

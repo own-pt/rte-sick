@@ -3,8 +3,8 @@ sentence B = There are no dogs of different breeds looking at each other across 
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Canine+,?,?,Entity+,Black=,?,?,?,White=,?,Entity+,Looking=,?,?,equal+,?,?,Roadway=,?
-CONCEPTS B: ?,Entity+,?,Canine+,?,equal+,DomesticAnimal+,FrontFn+,?,?,equal+,?,?,Roadway=,?
+CONCEPTS A: Canine+,Entity+,Black=,White=,Entity+,Looking=,equal+,Roadway=
+CONCEPTS B: Entity+,Canine+,equal+,DomesticAnimal+,FrontFn+,equal+,Roadway=
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	?|?
 19	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	04334599-n|Roadway=
 20	.	.	PUNCT	.	fPOS=PUNCT++.	13	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

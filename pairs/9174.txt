@@ -3,8 +3,8 @@ sentence B = A little brown and white dog is running on the sidewalk.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,White=,Canine+,Entity+,Ambulating=,?,?,Sidewalk=,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,?,White=,Canine+,Entity+,Attribute+,?,?,Sidewalk=,?
+CONCEPTS A: Human+,White=,Canine+,Entity+,Ambulating=,Sidewalk=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,White=,Canine+,Entity+,Attribute+,Sidewalk=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	sidewalk	sidewalk	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	04215402-n|Sidewalk=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

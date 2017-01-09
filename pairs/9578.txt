@@ -3,8 +3,8 @@ sentence B = A big black and white dog is carrying a stick and is swimming.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Black=,?,White=,Canine+,Entity+,Transportation+,?,Plant+,?,Entity+,Swimming+,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Black=,?,White=,Canine+,Entity+,Transportation+,?,Plant+,?,Entity+,Swimming+,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Black=,White=,Canine+,Entity+,Transportation+,Plant+,Entity+,Swimming+
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Black=,White=,Canine+,Entity+,Transportation+,Plant+,Entity+,Swimming+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	13	cop	_	02604760-v|Entity+
 13	swimming	swim	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	conj	_	01960911-v|Swimming+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?

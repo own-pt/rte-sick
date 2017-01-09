@@ -3,8 +3,8 @@ sentence B = The man is playing a flute.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,Hominid=,DramaticActing+,?,Bamboo=,Flute=,?
-CONCEPTS B: ?,Hominid=,Entity+,DramaticActing+,?,Flute=,?
+CONCEPTS A: Entity+,Hominid=,DramaticActing+,Bamboo=,Flute=
+CONCEPTS B: Hominid=,Entity+,DramaticActing+,Flute=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	bamboo	bamboo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	12147226-n|Bamboo=
 8	flute	flute	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03372029-n|Flute=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

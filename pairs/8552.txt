@@ -3,8 +3,8 @@ sentence B = The brown dog is spotting a black dog lying in the dry grass.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Canine+,Entity+,SurfaceChange+,?,Black=,Canine+,PhysicalAttribute+,?,?,Dry=,FieldOfStudy=,?
-CONCEPTS B: ?,Human+,Canine+,Entity+,SurfaceChange+,?,Black=,Canine+,PhysicalAttribute+,?,?,Dry=,Grass=,?
+CONCEPTS A: Human+,Canine+,Entity+,SurfaceChange+,Black=,Canine+,PhysicalAttribute+,Dry=,FieldOfStudy=
+CONCEPTS B: Human+,Canine+,Entity+,SurfaceChange+,Black=,Canine+,PhysicalAttribute+,Dry=,Grass=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	dry	dry	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	amod	_	02551380-a|Dry=
 13	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	05996646-n|FieldOfStudy=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A man is breaking wooden boards with his hand.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,EndFn+,?,SubjectiveAssessmentAttribute+,Hand+,?,?,Table+,?
-CONCEPTS B: ?,Hominid=,Entity+,EndFn+,SubjectiveAssessmentAttribute+,Table+,?,?,Hand+,?
+CONCEPTS A: Hominid=,Entity+,EndFn+,SubjectiveAssessmentAttribute+,Hand+,Table+
+CONCEPTS B: Hominid=,Entity+,EndFn+,SubjectiveAssessmentAttribute+,Table+,Hand+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	board	board	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03201208-n|Table+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

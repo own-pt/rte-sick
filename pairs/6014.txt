@@ -3,8 +3,8 @@ sentence B = A man in a big city is holding a sign and begging for money.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Hominid=,?,?,SubjectiveWeakPositiveAttribute+,City=,Entity+,Process+,Increasing+,?,Character+,?,Requesting+,?,Currency=,?
-CONCEPTS B: ?,Hominid=,?,?,SubjectiveWeakPositiveAttribute+,City=,Entity+,PhysicalAttribute+,?,Character+,?,Requesting+,?,Currency=,?
+CONCEPTS A: Hominid=,SubjectiveWeakPositiveAttribute+,City=,Entity+,Process+,Increasing+,Character+,Requesting+,Currency=
+CONCEPTS B: Hominid=,SubjectiveWeakPositiveAttribute+,City=,Entity+,PhysicalAttribute+,Character+,Requesting+,Currency=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	for	for	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
 15	money	money	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	13384557-n|Currency=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

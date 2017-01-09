@@ -3,8 +3,8 @@ sentence B = A person with a red hooded jacket and a black backpack is moving ne
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,Red=,Coat=,?,Fabric+,Trousers+,Entity+,Walking=,?,?,LandArea@,Attribute=,?
-CONCEPTS B: ?,Human=,?,?,Red=,?,Coat=,?,?,Black=,Bag+,Entity+,PsychologicalProcess+,?,?,TextureAttribute+,Wall=,?
+CONCEPTS A: Man=,Red=,Coat=,Fabric+,Trousers+,Entity+,Walking=,LandArea@,Attribute=
+CONCEPTS B: Human=,Red=,Coat=,Black=,Bag+,Entity+,PsychologicalProcess+,TextureAttribute+,Wall=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	American	american	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	02927303-a|LandArea@
 15	state	state	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	00024720-n|Attribute=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

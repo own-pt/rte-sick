@@ -3,8 +3,8 @@ sentence B = A grey dog is bouncing a soccer ball on its head in a grass field.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,?,?,SubjectiveStrongNegativeAttribute+,Collar+,Entity+,DramaticActing+,?,?,Ball=,?,?,CultivatedLandArea+,?
-CONCEPTS B: ?,Gray+,Canine+,Entity+,Motion+,?,Soccer=,Ball=,?,?,Head=,?,?,Grass=,FieldOfStudy=,?
+CONCEPTS A: Canine+,SubjectiveStrongNegativeAttribute+,Collar+,Entity+,DramaticActing+,Ball=,CultivatedLandArea+
+CONCEPTS B: Gray+,Canine+,Entity+,Motion+,Soccer=,Ball=,Head=,Grass=,FieldOfStudy=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	garden	garden	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	03417345-n|CultivatedLandArea+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

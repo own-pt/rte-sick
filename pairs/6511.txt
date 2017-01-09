@@ -3,8 +3,8 @@ sentence B = A little black dog is chasing a little brown dog.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Canine+,?,?,Black=,Canine+,Entity+,SubjectiveAssessmentAttribute+,?,?,Grass=,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Black=,Canine+,Entity+,Pursuing+,?,SubjectiveStrongNegativeAttribute+,Human+,Canine+,?
+CONCEPTS A: Human+,Canine+,Black=,Canine+,Entity+,SubjectiveAssessmentAttribute+,Grass=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Black=,Canine+,Entity+,Pursuing+,SubjectiveStrongNegativeAttribute+,Human+,Canine+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	12102133-n|Grass=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

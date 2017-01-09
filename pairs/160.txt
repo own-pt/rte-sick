@@ -3,8 +3,8 @@ sentence B = Several people are in front of a colorful building.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Entity+,?,FrontFn=,?,?,Building=,?,Entity+,Covering+,?,ColorAttribute+,?
-CONCEPTS B: ?,GroupOfPeople=,Entity+,?,FrontFn=,?,?,ColorAttribute+,Building=,?
+CONCEPTS A: GroupOfPeople=,Entity+,FrontFn=,Building=,Entity+,Covering+,ColorAttribute+
+CONCEPTS B: GroupOfPeople=,Entity+,FrontFn=,ColorAttribute+,Building=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	by	by	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
 13	colors	color	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	nmod	_	04956594-n|ColorAttribute+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Several	several	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	?|?

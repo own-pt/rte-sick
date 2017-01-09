@@ -3,8 +3,8 @@ sentence B = Two dogs are fighting.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Black=,Canine+,?,?,White=,Canine+,Entity+,Wrestling+,?,?,LandArea=,?
-CONCEPTS B: ?,Canine+,Entity+,ViolentContest+,?
+CONCEPTS A: Black=,Canine+,White=,Canine+,Entity+,Wrestling+,LandArea=
+CONCEPTS B: Canine+,Entity+,ViolentContest+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	ground	ground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	09334396-n|LandArea=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	compound	_	?|?

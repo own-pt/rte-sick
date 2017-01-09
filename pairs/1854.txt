@@ -3,8 +3,8 @@ sentence B = A piece of bread, which is big, is having butter spread upon it by 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,SubjectiveAssessmentAttribute+,SurfaceChange+,Butter=,?,?,PreparedFood+,?,Garlic=,BreadOrBiscuit+,?
-CONCEPTS B: ?,GamePiece+,?,BreadOrBiscuit+,?,?,Entity+,SubjectiveWeakPositiveAttribute+,?,Entity+,Damaging+,Butter=,Putting+,?,?,?,?,GamePiece+,?,?,GamePiece+,?,BreadOrBiscuit+,?,?,Entity+,SubjectiveWeakPositiveAttribute+,?,Entity+,Entity+,Disseminating+,?,Butter=,?,?,GamePiece+,?
+CONCEPTS A: Hominid=,Entity+,SubjectiveAssessmentAttribute+,SurfaceChange+,Butter=,PreparedFood+,Garlic=,BreadOrBiscuit+
+CONCEPTS B: GamePiece+,BreadOrBiscuit+,Entity+,SubjectiveWeakPositiveAttribute+,Entity+,Damaging+,Butter=,Putting+,GamePiece+,GamePiece+,BreadOrBiscuit+,Entity+,SubjectiveWeakPositiveAttribute+,Entity+,Entity+,Disseminating+,Butter=,GamePiece+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	garlic	garlic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	07818277-n|Garlic=
 12	bread	bread	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	07679356-n|BreadOrBiscuit+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

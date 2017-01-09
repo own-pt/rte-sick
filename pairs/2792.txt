@@ -3,8 +3,8 @@ sentence B = There is no small guinea pig gnawing and eating a piece of carrot o
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Guinea=,Pig=,Entity+,Damaging+,?,Eating=,?,TimeDuration+,?,Carrot=,?,?,Floor+,?
-CONCEPTS B: ?,Entity+,?,SubjectiveStrongNegativeAttribute+,Guinea=,Pig=,Damaging+,?,Eating=,?,TimeDuration+,?,Carrot=,?,?,Floor+,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Guinea=,Pig=,Entity+,Damaging+,Eating=,TimeDuration+,Carrot=,Floor+
+CONCEPTS B: Entity+,SubjectiveStrongNegativeAttribute+,Guinea=,Pig=,Damaging+,Eating=,TimeDuration+,Carrot=,Floor+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	floor	floor	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	03365592-n|Floor+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

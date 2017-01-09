@@ -3,8 +3,8 @@ sentence B = A large dog is running on the grass with a tennis ball in its mouth
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,?,Gray+,Ball=,Entity+,Impelling+,?,Publication+,Canine+,?,?,Entity+,Transportation+,?,Grass=,?,?,Mouth+,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Attribute+,?,?,Grass=,?,?,Tennis=,Ball=,?,?,Mouth+,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Gray+,Ball=,Entity+,Impelling+,Publication+,Canine+,Entity+,Transportation+,Grass=,Mouth+
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Attribute+,Grass=,Tennis=,Ball=,Mouth+
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	19	nmod:poss	_	?|?
 19	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	05302499-n|Mouth+
 20	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

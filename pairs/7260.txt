@@ -3,8 +3,8 @@ sentence B = A person on a bike is riding on one wheel only.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,IntentionalProcess+,?,?,?,?,SubjectiveAssessmentAttribute+,Bicycle=,?
-CONCEPTS B: ?,Human=,?,?,Bicycle=,Entity+,Transportation+,?,?,Bicycle=,?,?
+CONCEPTS A: Hominid=,Entity+,IntentionalProcess+,SubjectiveAssessmentAttribute+,Bicycle=
+CONCEPTS B: Human=,Bicycle=,Entity+,Transportation+,Bicycle=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	mountain	mountain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	13774404-n|SubjectiveAssessmentAttribute+
 10	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	02834778-n|Bicycle=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A group of boys are playing with a ball in front of a large door ma
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Group=,?,Human+,Entity+,SubjectiveWeakNegativeAttribute+,?,FrontFn=,?,?,SubjectiveWeakPositiveAttribute+,Door+,Process+,?,Wood=,?
-CONCEPTS B: ?,Group=,?,Human+,Entity+,DramaticActing+,?,?,Ball=,?,FrontFn=,?,?,SubjectiveWeakPositiveAttribute+,Door+,Attribute+,?,Wood=,?
+CONCEPTS A: Group=,Human+,Entity+,SubjectiveWeakNegativeAttribute+,FrontFn=,SubjectiveWeakPositiveAttribute+,Door+,Process+,Wood=
+CONCEPTS B: Group=,Human+,Entity+,DramaticActing+,Ball=,FrontFn=,SubjectiveWeakPositiveAttribute+,Door+,Attribute+,Wood=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	of	of	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
 15	wood	wood	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	15098161-n|Wood=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

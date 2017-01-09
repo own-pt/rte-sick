@@ -3,8 +3,8 @@ sentence B = A person in a blue jacket is wearing a colorful helmet.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human=,?,?,SubjectiveStrongNegativeAttribute+,Coat=,Entity+,CoveringFn=,?,ColorAttribute+,Clothing+,?
-CONCEPTS B: ?,Human=,?,?,SubjectiveStrongNegativeAttribute+,Coat=,Entity+,CoveringFn=,?,ColorAttribute+,Clothing+,?
+CONCEPTS A: Human=,SubjectiveStrongNegativeAttribute+,Coat=,Entity+,CoveringFn=,ColorAttribute+,Clothing+
+CONCEPTS B: Human=,SubjectiveStrongNegativeAttribute+,Coat=,Entity+,CoveringFn=,ColorAttribute+,Clothing+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	colorful	colorful	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	00394562-a|ColorAttribute+
 11	helmet	helmet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	03513376-n|Clothing+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

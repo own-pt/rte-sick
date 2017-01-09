@@ -3,8 +3,8 @@ sentence B = One man is climbing a rock wall and another man is holding a rope.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute+,Entity+,Entity+,Increasing+,?,?,Hominid=,?
-CONCEPTS B: ?,Hominid=,Entity+,Increasing+,?,Mineral+,Wall=,?,?,Hominid=,Entity+,Process+,?,String+,?
+CONCEPTS A: SubjectiveAssessmentAttribute+,Entity+,Entity+,Increasing+,Hominid=
+CONCEPTS B: Hominid=,Entity+,Increasing+,Mineral+,Wall=,Hominid=,Entity+,Process+,String+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	8	nummod	_	?|?
 8	men	man	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02472293-n|Hominid=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

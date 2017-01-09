@@ -3,8 +3,8 @@ sentence B = There is no light brown dog running up a street.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,Attribute+,Increasing+,?,Roadway=,?
-CONCEPTS B: ?,Entity+,?,SubjectiveWeakPositiveAttribute+,Human+,Canine+,Attribute+,Increasing+,?,Roadway=,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,Attribute+,Increasing+,Roadway=
+CONCEPTS B: Entity+,SubjectiveWeakPositiveAttribute+,Human+,Canine+,Attribute+,Increasing+,Roadway=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	04334599-n|Roadway=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

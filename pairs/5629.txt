@@ -3,8 +3,8 @@ sentence B = A chef is cleaning a bowl of soup.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,Hominid=,Touching+,?,Object+,?,?,Dish+,?
-CONCEPTS B: ?,Chef=,Entity+,Cleaning=,?,Dish+,?,PreparedFood+,?
+CONCEPTS A: Entity+,Hominid=,Touching+,Object+,Dish+
+CONCEPTS B: Chef=,Entity+,Cleaning=,Dish+,PreparedFood+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	bowl	bowl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	02880940-n|Dish+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

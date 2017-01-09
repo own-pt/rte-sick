@@ -3,8 +3,8 @@ sentence B = A black dog on a leash is walking in the water.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Canine+,Entity+,?,?,Artifact+,?,Entity+,Walking=,Giving+,?,?,Water=,?
-CONCEPTS B: ?,Black=,Canine+,?,?,Artifact+,Entity+,Walking=,?,?,Water=,?
+CONCEPTS A: Canine+,Entity+,Artifact+,Entity+,Walking=,Giving+,Water=
+CONCEPTS B: Black=,Canine+,Artifact+,Entity+,Walking=,Water=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	14845743-n|Water=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

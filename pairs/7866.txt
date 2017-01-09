@@ -3,8 +3,8 @@ sentence B = A person is riding a dirt bike down a dirt hill.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,Entity+,Transportation+,?,Bicycle=,?,?,Swamp+,Trail+,?
-CONCEPTS B: ?,Human=,Entity+,Transportation+,?,Text+,Bicycle=,?,?,Text+,Hill=,?
+CONCEPTS A: Human=,Entity+,Transportation+,Bicycle=,Swamp+,Trail+
+CONCEPTS B: Human=,Entity+,Transportation+,Text+,Bicycle=,Text+,Hill=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	muddy	muddy	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	10	amod	_	02548066-a|Swamp+
 10	trail	trail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04466613-n|Trail+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

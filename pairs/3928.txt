@@ -3,8 +3,8 @@ sentence B = Two men with a dog are boring a crowd of people.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: Human+,Entity+,Dancing+,?,FrontFn=,?,?,GroupOfPeople=,?
-CONCEPTS B: ?,Man=,?,?,Canine+,Entity+,Drilling=,?,SubjectiveAssessmentAttribute=,?,GroupOfPeople=,?
+CONCEPTS A: Human+,Entity+,Dancing+,FrontFn=,GroupOfPeople=
+CONCEPTS B: Man=,Canine+,Entity+,Drilling=,SubjectiveAssessmentAttribute=,GroupOfPeople=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	some	some	DET	DT	fPOS=DET++DT	8	det	_	?|?
 8	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	07942152-n|GroupOfPeople=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

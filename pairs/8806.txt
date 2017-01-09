@@ -3,8 +3,8 @@ sentence B = An animal is swimming in a body of water.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Swimming+,?,?,Animal=,?,Water=,?
-CONCEPTS B: ?,Animal=,Entity+,Swimming+,?,?,Animal=,?,Water=,?
+CONCEPTS A: Canine+,Entity+,Swimming+,Animal=,Water=
+CONCEPTS B: Animal=,Entity+,Swimming+,Animal=,Water=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	of	of	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
 9	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	14845743-n|Water=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

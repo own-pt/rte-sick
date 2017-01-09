@@ -3,8 +3,8 @@ sentence B = A woman in a red dress is playing an instrument.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,?,?,Red=,Clothing+,Entity+,not=,Inclining+,?,?,Brick+,Wall=,?,Entity+,not=,DramaticActing+,?,MusicalInstrument=,?
-CONCEPTS B: ?,Woman=,?,?,Red=,Dress+,Entity+,DramaticActing+,?,MusicalInstrument=,?
+CONCEPTS A: Woman=,Red=,Clothing+,Entity+,not=,Inclining+,Brick+,Wall=,Entity+,not=,DramaticActing+,MusicalInstrument=
+CONCEPTS B: Woman=,Red=,Dress+,Entity+,DramaticActing+,MusicalInstrument=
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	19	det	_	?|?
 19	instrument	instrument	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	dobj	_	03800933-n|MusicalInstrument=
 20	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

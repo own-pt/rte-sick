@@ -3,8 +3,8 @@ sentence B = A racquet is being held by a tennis player in mid game.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Tennis=,Human+,?,earlier+,Game=,Entity+,Touching+,?,Device+,?
-CONCEPTS B: ?,Device+,Entity+,Entity+,PhysicalAttribute+,?,?,Tennis=,Human+,?,earlier+,Game=,?
+CONCEPTS A: Tennis=,Human+,earlier+,Game=,Entity+,Touching+,Device+
+CONCEPTS B: Device+,Entity+,Entity+,PhysicalAttribute+,Tennis=,Human+,earlier+,Game=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	racquet	racquet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	04039381-n|Device+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

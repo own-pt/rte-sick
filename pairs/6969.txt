@@ -3,8 +3,8 @@ sentence B = A man is not participating in a bmx race.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,SocialInteraction+,?,?,?,Racing=,?
-CONCEPTS B: ?,Hominid=,Entity+,not=,SocialInteraction+,?,?,?,Racing=,?
+CONCEPTS A: Hominid=,Entity+,SocialInteraction+,Racing=
+CONCEPTS B: Hominid=,Entity+,not=,SocialInteraction+,Racing=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	bmx	bmx	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	amod	_	?|?
 8	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	07458453-n|Racing=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

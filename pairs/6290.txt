@@ -3,8 +3,8 @@ sentence B = Many cheerleaders are walking in a parade.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Group=,?,Position+,Entity+,Walking=,?,?,Motion+,?
-CONCEPTS B: ?,Position+,Entity+,Walking=,?,?,Motion+,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Group=,Position+,Entity+,Walking=,Motion+
+CONCEPTS B: Position+,Entity+,Walking=,Motion+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	parade	parade	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	08428485-n|Motion+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	Many	many	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	?|?

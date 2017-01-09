@@ -3,8 +3,8 @@ sentence B = Three enemies are making faces for the camera.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute=,Entity+,Process+,DirectionChange+,?,?,Camera=,?
-CONCEPTS B: ?,MilitaryUnit+,Entity+,Process+,DirectionChange+,?,?,Camera=,?
+CONCEPTS A: SubjectiveAssessmentAttribute=,Entity+,Process+,DirectionChange+,Camera=
+CONCEPTS B: MilitaryUnit+,Entity+,Process+,DirectionChange+,Camera=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02942699-n|Camera=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = The orange rider is driving a motorcycle on one wheel.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,SubjectiveAssessmentAttribute+,Sport=,Bicycle=,Entity+,IntentionalProcess+,?,?,?,?,SubjectiveAssessmentAttribute=,?,?,Black=,Bicycle=,Entity+,Grabbing+,Increasing+,?
-CONCEPTS B: ?,OrangeColor+,Human+,Entity+,Transportation+,?,PassengerVehicle+,?,?,VehicleWheel=,?
+CONCEPTS A: Man=,SubjectiveAssessmentAttribute+,Sport=,Bicycle=,Entity+,IntentionalProcess+,SubjectiveAssessmentAttribute=,Black=,Bicycle=,Entity+,Grabbing+,Increasing+
+CONCEPTS B: OrangeColor+,Human+,Entity+,Transportation+,PassengerVehicle+,VehicleWheel=
 
 CONLL A:
 
@@ -30,6 +30,8 @@ CONLL A:
 20	catching	catch	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	9	conj	_	01439190-v|Grabbing+
 21	up	up	ADP	RP	fPOS=ADP++RP	20	compound:prt	_	00097011-r|Increasing+
 22	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

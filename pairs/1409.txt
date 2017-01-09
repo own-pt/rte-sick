@@ -3,8 +3,8 @@ sentence B = A woman is cutting shrimps.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: Butter=,Entity+,Entity+,Cutting+,?,?,Container+,?,?,Hominid=,?
-CONCEPTS B: ?,Woman=,Entity+,Decreasing+,PrawnMeat=,?
+CONCEPTS A: Butter=,Entity+,Entity+,Cutting+,Container+,Hominid=
+CONCEPTS B: Woman=,Entity+,Decreasing+,PrawnMeat=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02472293-n|Hominid=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

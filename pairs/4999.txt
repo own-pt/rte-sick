@@ -3,8 +3,8 @@ sentence B = A big cat is opening a plastic drawer with its paws and is jumping 
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Feline+,Entity+,Process+,?,Compartment+,Process+,?,Substance+,?,?,Hand+,?,Entity+,Ambulating=,Indoors+,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Feline+,Entity+,Process+,?,SubjectiveAssessmentAttribute+,Compartment+,?,?,Hand+,?,Entity+,Ambulating=,Indoors+,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Feline+,Entity+,Process+,Compartment+,Process+,Substance+,Hand+,Entity+,Ambulating=,Indoors+
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Feline+,Entity+,Process+,SubjectiveAssessmentAttribute+,Compartment+,Hand+,Entity+,Ambulating=,Indoors+
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	01963942-v|Ambulating=
 17	inside	inside	ADV	RB	fPOS=ADV++RB	16	advmod	_	00110815-r|Indoors+
 18	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

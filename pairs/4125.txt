@@ -3,8 +3,8 @@ sentence B = A cute panda is not lying down.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Carnivore+,Mammal+,Entity+,PhysicalAttribute+,?,?,LogFn=,?
-CONCEPTS B: ?,SubjectiveStrongPositiveAttribute+,Carnivore+,Entity+,not=,PhysicalAttribute+,earlier+,?
+CONCEPTS A: Carnivore+,Mammal+,Entity+,PhysicalAttribute+,LogFn=
+CONCEPTS B: SubjectiveStrongPositiveAttribute+,Carnivore+,Entity+,not=,PhysicalAttribute+,earlier+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	logs	log	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	06812631-n|LogFn=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

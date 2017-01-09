@@ -3,8 +3,8 @@ sentence B = A man in green is kicking a soccer ball and a man in purple and whi
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,Green+,Entity+,Impelling+,?,Soccer=,Ball=,?,?,Man=,?,SocialRole+,?,White=,Entity+,Getting+,earlier+,?
-CONCEPTS B: ?,Man=,?,Green+,Entity+,Expressing+,?,Soccer=,Ball=,?,?,Man=,?,SocialRole+,?,White=,Entity+,Getting+,earlier+,?
+CONCEPTS A: Man=,Green+,Entity+,Impelling+,Soccer=,Ball=,Man=,SocialRole+,White=,Entity+,Getting+,earlier+
+CONCEPTS B: Man=,Green+,Entity+,Expressing+,Soccer=,Ball=,Man=,SocialRole+,White=,Entity+,Getting+,earlier+
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	falling	fall	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	02229828-v|Getting+
 19	down	down	ADV	RB	fPOS=ADP++RP	18	advmod	_	00095320-r|earlier+
 20	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

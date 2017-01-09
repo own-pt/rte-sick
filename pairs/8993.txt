@@ -3,8 +3,8 @@ sentence B = A little kid is wearing a hat and is walking in the wet sand.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,CoveringFn=,?,Hat+,?,Entity+,Walking=,?,?,Wetting=,Sand=,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,CoveringFn=,?,Hat+,?,Entity+,Walking=,?,?,Wetting=,Sand=,?
+CONCEPTS A: Human+,Entity+,CoveringFn=,Hat+,Entity+,Walking=,Wetting=,Sand=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,CoveringFn=,Hat+,Entity+,Walking=,Wetting=,Sand=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	wet	wet	NOUN	NN	Degree=Sup|fPOS=ADJ++JJS	13	amod	_	00214951-v|Wetting=
 13	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	15019030-n|Sand=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = There is no woman wearing a blue helmet and riding a bicycle in a p
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Woman=,Entity+,CoveringFn=,?,SubjectiveStrongNegativeAttribute+,Clothing+,?,Entity+,Carrying=,?,Bicycle=,?,?,Region+,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,Entity+,?,Woman=,CoveringFn=,?,SubjectiveStrongNegativeAttribute+,Clothing+,?,Carrying=,?,Bicycle=,?,?,Region+,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: Woman=,Entity+,CoveringFn=,SubjectiveStrongNegativeAttribute+,Clothing+,Entity+,Carrying=,Bicycle=,Region+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Entity+,Woman=,CoveringFn=,SubjectiveStrongNegativeAttribute+,Clothing+,Carrying=,Bicycle=,Region+,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	parking	parking	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	compound	_	13778671-n|Region+
 16	lot	lot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	13774404-n|SubjectiveAssessmentAttribute+
 17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

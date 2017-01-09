@@ -3,8 +3,8 @@ sentence B = The shirtless man in striped shorts and sunglasses is standing near
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,?,Man=,?,VisualAttribute+,NormativeAttribute+,?,Device+,Entity+,PhysicalAttribute+,?,?,Man=,?,?,White=,Shirt=,?,Device+,?
-CONCEPTS B: ?,?,Man=,?,VisualAttribute+,NormativeAttribute+,?,Device+,Entity+,PhysicalAttribute+,?,?,Human=,?,?,White=,Shirt=,?,Device+,?
+CONCEPTS A: Man=,VisualAttribute+,NormativeAttribute+,Device+,Entity+,PhysicalAttribute+,Man=,White=,Shirt=,Device+
+CONCEPTS B: Man=,VisualAttribute+,NormativeAttribute+,Device+,Entity+,PhysicalAttribute+,Human=,White=,Shirt=,Device+
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	and	and	CONJ	CC	fPOS=CONJ++CC	17	cc	_	?|?
 19	sunglasses	sunglass	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	17	conj	_	04355933-n|Device+
 20	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

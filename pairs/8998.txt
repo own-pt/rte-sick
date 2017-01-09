@@ -3,8 +3,8 @@ sentence B = A white hat is being worn by a boy which is running on the beach.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,CoveringFn=,?,Hat+,?,Entity+,Walking=,?,?,Wetting=,Sand=,?
-CONCEPTS B: ?,White=,Hat+,Entity+,Entity+,CoveringFn=,?,?,Human+,?,Entity+,Attribute+,?,?,ShoreArea=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,CoveringFn=,Hat+,Entity+,Walking=,Wetting=,Sand=
+CONCEPTS B: White=,Hat+,Entity+,Entity+,CoveringFn=,Human+,Entity+,Attribute+,ShoreArea=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	wet	wet	NOUN	NN	Degree=Sup|fPOS=ADJ++JJS	14	amod	_	00214951-v|Wetting=
 14	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	15019030-n|Sand=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A brown and white dog is biting a dirty tennis ball in a dirt field
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Hunting+,?,?,Sand=,?,Pursuing+,?,Ball=,?
-CONCEPTS B: ?,Human+,?,White=,Canine+,Entity+,SubjectiveStrongNegativeAttribute+,?,Dirty=,Tennis=,Ball=,?,?,SubjectiveAssessmentAttribute+,FieldOfStudy=,?
+CONCEPTS A: Canine+,Entity+,Hunting+,Sand=,Pursuing+,Ball=
+CONCEPTS B: Human+,White=,Canine+,Entity+,SubjectiveStrongNegativeAttribute+,Dirty=,Tennis=,Ball=,SubjectiveAssessmentAttribute+,FieldOfStudy=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	02778669-n|Ball=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?

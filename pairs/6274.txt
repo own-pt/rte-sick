@@ -3,8 +3,8 @@ sentence B = A dog with a golden coat is swimming through the water.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Swimming+,?,?,Lake=,?,?,Sol=,Entity+,RadiatingLight+,?,?,?
-CONCEPTS B: ?,Canine+,?,?,SubjectiveWeakPositiveAttribute+,Coat=,Entity+,Swimming+,?,?,Water=,?
+CONCEPTS A: Canine+,Entity+,Swimming+,Lake=,Sol=,Entity+,RadiatingLight+
+CONCEPTS B: Canine+,SubjectiveWeakPositiveAttribute+,Coat=,Entity+,Swimming+,Water=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	on	on	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
 14	him	him	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	12	nmod	_	?|?
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

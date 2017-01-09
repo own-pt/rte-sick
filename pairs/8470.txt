@@ -3,8 +3,8 @@ sentence B = A young oriental girl is standing above the crowd and is playing wi
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,LandArea+,Human+,Entity+,PhysicalAttribute+,?,?,SubjectiveAssessmentAttribute=,?,Entity+,DramaticActing+,?,?,FloweringPlant+,?
-CONCEPTS B: ?,HumanYouth=,Asia+,Human+,Entity+,PhysicalAttribute+,?,?,SubjectiveAssessmentAttribute=,?,Entity+,DramaticActing+,?,?,FloweringPlant+,?
+CONCEPTS A: HumanYouth=,LandArea+,Human+,Entity+,PhysicalAttribute+,SubjectiveAssessmentAttribute=,Entity+,DramaticActing+,FloweringPlant+
+CONCEPTS B: HumanYouth=,Asia+,Human+,Entity+,PhysicalAttribute+,SubjectiveAssessmentAttribute=,Entity+,DramaticActing+,FloweringPlant+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	pinwheel	pinwheel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	12786836-n|FloweringPlant+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

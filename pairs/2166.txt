@@ -3,8 +3,8 @@ sentence B = A woman is using a machine made for sewing.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Sewing+,?,?,Automobile=,?
-CONCEPTS B: ?,Woman=,Entity+,IntentionalProcess+,?,Automobile=,Manufacture+,?,Sewing+,?
+CONCEPTS A: Woman=,Entity+,Sewing+,Automobile=
+CONCEPTS B: Woman=,Entity+,IntentionalProcess+,Automobile=,Manufacture+,Sewing+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	machine	machine	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02958343-n|Automobile=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

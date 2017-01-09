@@ -3,8 +3,8 @@ sentence B = The machine is shaving the end of a pencil.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Automobile=,Entity+,Increasing+,?,CuttingDevice+,?
-CONCEPTS B: ?,Automobile=,Entity+,Removing+,?,Entity+,?,?,Pencil=,?
+CONCEPTS A: Automobile=,Entity+,Increasing+,CuttingDevice+
+CONCEPTS B: Automobile=,Entity+,Removing+,Entity+,Pencil=
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
 6	knife	knife	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03623556-n|CuttingDevice+
 7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

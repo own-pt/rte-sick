@@ -3,8 +3,8 @@ sentence B = A man is fixing a silencer to a gun.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Hominid=,Attaching+,?,AutomobileMuffler=,?,?,Gun=,?
-CONCEPTS B: ?,Hominid=,Entity+,Attaching+,?,AutomobileMuffler=,?,?,Gun=,?
+CONCEPTS A: Entity+,Hominid=,Attaching+,AutomobileMuffler=,Gun=
+CONCEPTS B: Hominid=,Entity+,Attaching+,AutomobileMuffler=,Gun=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	gun	gun	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03467984-n|Gun=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

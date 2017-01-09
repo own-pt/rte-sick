@@ -3,8 +3,8 @@ sentence B = Two children are hanging on a large branch.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Entity+,PhysicalAttribute+,Position+,?,?,ContentBearingObject+,BodyPart+,?
-CONCEPTS B: ?,HumanChild=,Entity+,PhysicalAttribute+,?,?,SubjectiveWeakPositiveAttribute+,ShapeAttribute+,?
+CONCEPTS A: GroupOfPeople=,Entity+,PhysicalAttribute+,Position+,ContentBearingObject+,BodyPart+
+CONCEPTS B: HumanChild=,Entity+,PhysicalAttribute+,SubjectiveWeakPositiveAttribute+,ShapeAttribute+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	13912260-n|ContentBearingObject+
 9	limb	limb	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	13163803-n|BodyPart+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = This group of people is practicing water safety and wearing preserv
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,TimePosition+,Entity+,Entity+,Carrying=,?,?,Group=,?,SubjectiveAssessmentAttribute=,?,?,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,Group=,?,GroupOfPeople=,Entity+,Position+,Water=,SubjectiveAssessmentAttribute+,?,RecreationOrExercise+,Clothing+,?
+CONCEPTS A: TimePosition+,Entity+,Entity+,Carrying=,Group=,SubjectiveAssessmentAttribute=,SubjectiveAssessmentAttribute+
+CONCEPTS B: Group=,GroupOfPeople=,Entity+,Position+,Water=,SubjectiveAssessmentAttribute+,RecreationOrExercise+,Clothing+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	raft	raft	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	13774404-n|SubjectiveAssessmentAttribute+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	This	this	DET	DT	Number=Sing|PronType=Dem|fPOS=DET++DT	2	det	_	?|?

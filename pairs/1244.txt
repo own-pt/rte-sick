@@ -3,8 +3,8 @@ sentence B = A woman is slicing a tomato.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Separating+,?,Red=,Tomato=,?
-CONCEPTS B: ?,Woman=,Entity+,Separating+,?,Tomato=,?
+CONCEPTS A: Hominid=,Entity+,Separating+,Red=,Tomato=
+CONCEPTS B: Woman=,Entity+,Separating+,Tomato=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	red	red	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	7	amod	_	00381097-a|Red=
 7	tomato	tomato	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07734017-n|Tomato=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = The woman is playing an electric guitar.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Walking+,?,?,FieldOfStudy@,Guitar=,?
-CONCEPTS B: ?,Woman=,Entity+,DramaticActing+,?,Radiating+,Guitar=,?
+CONCEPTS A: Hominid=,Entity+,Walking+,FieldOfStudy@,Guitar=
+CONCEPTS B: Woman=,Entity+,DramaticActing+,Radiating+,Guitar=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	acoustic	acoustic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	02868489-a|FieldOfStudy@
 8	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03467517-n|Guitar=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

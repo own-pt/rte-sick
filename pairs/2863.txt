@@ -3,8 +3,8 @@ sentence B = Two people are riding a bike.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Bicycle=,Entity+,Entity+,Transportation+,?,?,GroupOfPeople=,?
-CONCEPTS B: ?,GroupOfPeople=,Entity+,Transportation+,?,Bicycle=,?
+CONCEPTS A: Bicycle=,Entity+,Entity+,Transportation+,GroupOfPeople=
+CONCEPTS B: GroupOfPeople=,Entity+,Transportation+,Bicycle=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	8	nummod	_	?|?
 8	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	07942152-n|GroupOfPeople=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

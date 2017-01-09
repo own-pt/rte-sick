@@ -3,8 +3,8 @@ sentence B = The rhino is not grazing on the grass.
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HoofedMammal+,Entity+,Touching+,?,?,FieldOfStudy=,?
-CONCEPTS B: ?,HoofedMammal+,Entity+,not=,Touching+,?,?,Grass=,?
+CONCEPTS A: HoofedMammal+,Entity+,Touching+,FieldOfStudy=
+CONCEPTS B: HoofedMammal+,Entity+,not=,Touching+,Grass=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05996646-n|FieldOfStudy=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

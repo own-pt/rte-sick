@@ -3,8 +3,8 @@ sentence B = A man is performing a trick on a green bicycle.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,IntentionalProcess+,SubjectiveAssessmentAttribute+,?,?,Green=,Bicycle=,?
-CONCEPTS B: ?,Hominid=,Entity+,IntentionalProcess+,?,RecreationOrExercise+,?,?,Green=,Bicycle=,?
+CONCEPTS A: Hominid=,Entity+,IntentionalProcess+,SubjectiveAssessmentAttribute+,Green=,Bicycle=
+CONCEPTS B: Hominid=,Entity+,IntentionalProcess+,RecreationOrExercise+,Green=,Bicycle=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	00375969-a|Green=
 9	bicycle	bicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02834778-n|Bicycle=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = There is no girl playing the violin on a beach.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,PhysicalAttribute+,SittingDown+,?,?,Sofa=,?,PhysicalAttribute+,Making+,?
-CONCEPTS B: ?,Entity+,?,Human+,DramaticActing+,?,Violin=,?,?,ShoreArea=,?
+CONCEPTS A: Human+,PhysicalAttribute+,SittingDown+,Sofa=,PhysicalAttribute+,Making+
+CONCEPTS B: Entity+,Human+,DramaticActing+,Violin=,ShoreArea=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02655135-v|PhysicalAttribute+
 10	crocheting	crochet	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	01672753-v|Making+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

@@ -3,8 +3,8 @@ sentence B = People are dangling from straps and kicking at each other.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,PhysicalAttribute+,?,?,String+,?
-CONCEPTS B: GroupOfPeople=,Entity+,SubjectiveAssessmentAttribute+,?,Device+,?,Expressing+,?,?,equal+,?
+CONCEPTS A: Human+,Entity+,PhysicalAttribute+,String+
+CONCEPTS B: GroupOfPeople=,Entity+,SubjectiveAssessmentAttribute+,Device+,Expressing+,equal+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	gymnastic	gymnastic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	02849732-a|?
 7	ropes	rope	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	04108268-n|String+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	07942152-n|GroupOfPeople=

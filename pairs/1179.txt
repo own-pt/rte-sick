@@ -3,8 +3,8 @@ sentence B = A woman is arranging her hair.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Boiling=,PrawnMeat=,?
-CONCEPTS B: ?,Woman=,Entity+,Putting+,?,Hair=,?
+CONCEPTS A: Woman=,Entity+,Boiling=,PrawnMeat=
+CONCEPTS B: Woman=,Entity+,Putting+,Hair=
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	boiling	boil	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	00375021-v|Boiling=
 5	shrimps	shrimp	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	07794159-n|PrawnMeat=
 6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

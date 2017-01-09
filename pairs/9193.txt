@@ -3,8 +3,8 @@ sentence B = A woman in blue jeans is standing in front of a group of children b
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Woman=,?,SubjectiveStrongNegativeAttribute+,Trousers+,Entity+,PhysicalAttribute+,?,FrontFn=,?,?,Group=,?,HumanChild=,?,?,Auditorium+,Attribute+,?,Mineral+,?
-CONCEPTS B: ?,Woman=,?,SubjectiveStrongNegativeAttribute+,Trousers+,Entity+,PhysicalAttribute+,?,FrontFn=,?,?,Group=,?,HumanChild=,?,?,Mineral+,Increasing+,Auditorium+,?
+CONCEPTS A: Woman=,SubjectiveStrongNegativeAttribute+,Trousers+,Entity+,PhysicalAttribute+,FrontFn=,Group=,HumanChild=,Auditorium+,Attribute+,Mineral+
+CONCEPTS B: Woman=,SubjectiveStrongNegativeAttribute+,Trousers+,Entity+,PhysicalAttribute+,FrontFn=,Group=,HumanChild=,Mineral+,Increasing+,Auditorium+
 
 CONLL A:
 
@@ -29,6 +29,8 @@ CONLL A:
 19	of	of	ADP	IN	fPOS=ADP++IN	20	case	_	?|?
 20	stone	stone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	18	nmod	_	14696793-n|Mineral+
 21	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

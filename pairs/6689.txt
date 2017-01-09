@@ -3,8 +3,8 @@ sentence B = The grotto with a pink interior is being climbed by four middle eas
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Region+,East+,HumanChild=,?,?,Human+,?,?,Human+,?,Entity+,Increasing+,?,?,Cave+,?,?,Pink+,Inside=,?
-CONCEPTS B: ?,Cave+,?,?,Pink+,Inside=,Entity+,Entity+,Increasing+,?,?,Region+,East+,HumanChild=,?,?,Human+,?,?,Human+,?
+CONCEPTS A: Region+,East+,HumanChild=,Human+,Human+,Entity+,Increasing+,Cave+,Pink+,Inside=
+CONCEPTS B: Cave+,Pink+,Inside=,Entity+,Entity+,Increasing+,Region+,East+,HumanChild=,Human+,Human+
 
 CONLL A:
 
@@ -29,6 +29,8 @@ CONLL A:
 19	pink	pink	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	20	compound	_	00379595-a|Pink+
 20	interior	interior	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	08588294-n|Inside=
 21	.	.	PUNCT	.	fPOS=PUNCT++.	13	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

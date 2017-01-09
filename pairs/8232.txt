@@ -3,8 +3,8 @@ sentence B = A black dog is walking along rocky terrain.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Attribute+,?,?,TextureAttribute+,ArtWork+,?
-CONCEPTS B: ?,Black=,Canine+,Entity+,Walking=,SubjectiveAssessmentAttribute+,TextureAttribute+,LandArea+,?
+CONCEPTS A: Canine+,Entity+,Attribute+,TextureAttribute+,ArtWork+
+CONCEPTS B: Black=,Canine+,Entity+,Walking=,SubjectiveAssessmentAttribute+,TextureAttribute+,LandArea+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	rocky	rocky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	02243567-a|TextureAttribute+
 8	landscape	landscape	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03640166-n|ArtWork+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

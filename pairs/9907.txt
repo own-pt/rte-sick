@@ -3,8 +3,8 @@ sentence B = There are no men fighting.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Whip+,Entity+,DramaticActing+,ComputerInputDevice+,?
-CONCEPTS B: ?,Entity+,?,Hominid=,ViolentContest+,?
+CONCEPTS A: Whip+,Entity+,DramaticActing+,ComputerInputDevice+
+CONCEPTS B: Entity+,Hominid=,ViolentContest+
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	playing	play	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01719302-v|DramaticActing+
 5	keyboards	keyboard	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	03614007-n|ComputerInputDevice+
 6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

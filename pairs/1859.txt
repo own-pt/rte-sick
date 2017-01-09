@@ -3,8 +3,8 @@ sentence B = The parrot is talking into the microphone.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Bird+,Entity+,SubjectiveAssessmentAttribute+,Speaking+,?,?,Microphone=,?
-CONCEPTS B: ?,Bird+,Entity+,Speaking+,?,?,Microphone=,?
+CONCEPTS A: Bird+,Entity+,SubjectiveAssessmentAttribute+,Speaking+,Microphone=
+CONCEPTS B: Bird+,Entity+,Speaking+,Microphone=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	microphone	microphone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03759954-n|Microphone=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

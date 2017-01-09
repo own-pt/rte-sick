@@ -3,8 +3,8 @@ sentence B = One cat is playing with a watermelon.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Whip+,Entity+,DramaticActing+,?,?,FruitOrVegetable+,?
-CONCEPTS B: ?,Whip+,Entity+,DramaticActing+,?,?,FruitOrVegetable+,?
+CONCEPTS A: Whip+,Entity+,DramaticActing+,FruitOrVegetable+
+CONCEPTS B: Whip+,Entity+,DramaticActing+,FruitOrVegetable+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	watermelon	watermelon	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	07756951-n|FruitOrVegetable+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

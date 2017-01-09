@@ -3,8 +3,8 @@ sentence B = A man is doing a skateboard trick on a park porch.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,IntentionalProcess+,?,TransportationDevice+,RecreationOrExercise+,?,?,located+,Park+,Porch=,?
-CONCEPTS B: ?,Hominid=,Entity+,IntentionalProcess+,?,TransportationDevice+,RecreationOrExercise+,?,?,Park+,Porch=,?
+CONCEPTS A: Hominid=,Entity+,IntentionalProcess+,TransportationDevice+,RecreationOrExercise+,located+,Park+,Porch=
+CONCEPTS B: Hominid=,Entity+,IntentionalProcess+,TransportationDevice+,RecreationOrExercise+,Park+,Porch=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	park	park	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	12	compound	_	08615374-n|Park+
 12	porch	porch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	03984381-n|Porch=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A black dog is running in the grass.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Black=,Canine+,PhysicalAttribute+,SittingDown+,?,?,Grass=,?,Process+,?,Mouth+,Closing=,?
-CONCEPTS B: ?,Black=,Canine+,Entity+,Attribute+,?,?,Grass=,?
+CONCEPTS A: Black=,Canine+,PhysicalAttribute+,SittingDown+,Grass=,Process+,Mouth+,Closing=
+CONCEPTS B: Black=,Canine+,Entity+,Attribute+,Grass=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	05302499-n|Mouth+
 13	closed	close	VERB	VBN	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	10	xcomp	_	01345109-v|Closing=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A man is abruptly falling off a horse on a track laid in the wild.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,Woman=,?,?,SurfaceChange+,Room=,PhysicalAttribute+,SittingDown+,?,?,ContentBearingObject+,?,Candle=,?
-CONCEPTS B: ?,Hominid=,Entity+,FinancialTransaction+,Getting+,?,?,Horse=,?,?,Transitway+,Putting=,?,?,Organism+,?
+CONCEPTS A: Man=,Woman=,SurfaceChange+,Room=,PhysicalAttribute+,SittingDown+,ContentBearingObject+,Candle=
+CONCEPTS B: Hominid=,Entity+,FinancialTransaction+,Getting+,Horse=,Transitway+,Putting=,Organism+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	with	with	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
 16	candles	candle	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	nmod	_	02948072-n|Candle=
 17	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

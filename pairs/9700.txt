@@ -3,8 +3,8 @@ sentence B = A woman is crouching down next to a dog and is smiling at a young g
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Expressing=,?,SubjectiveStrongNegativeAttribute+,Canine+,?,?,HumanBaby=,?
-CONCEPTS B: ?,Woman=,PhysicalAttribute+,Inclining+,earlier+,Position+,?,?,Canine+,?,PhysicalAttribute+,Smiling=,?,?,HumanYouth=,Human+,SittingDown+,?,?,Sidewalk=,?
+CONCEPTS A: Woman=,Entity+,Expressing=,SubjectiveStrongNegativeAttribute+,Canine+,HumanBaby=
+CONCEPTS B: Woman=,PhysicalAttribute+,Inclining+,earlier+,Position+,Canine+,PhysicalAttribute+,Smiling=,HumanYouth=,Human+,SittingDown+,Sidewalk=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	infant	infant	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09827683-n|HumanBaby=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

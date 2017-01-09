@@ -3,8 +3,8 @@ sentence B = A young kid is jumping into water.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,Entity+,Ambulating=,?,Water=,?
-CONCEPTS B: ?,HumanYouth=,HumanChild=,Entity+,Ambulating=,?,Water=,?
+CONCEPTS A: HumanYouth=,Human+,Entity+,Ambulating=,Water=
+CONCEPTS B: HumanYouth=,HumanChild=,Entity+,Ambulating=,Water=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	into	into	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
 7	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	14845743-n|Water=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

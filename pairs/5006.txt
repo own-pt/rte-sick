@@ -3,8 +3,8 @@ sentence B = A cat is opening a drawer and climbing inside.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Feline+,Entity+,Process+,?,SubjectiveAssessmentAttribute+,Compartment+,?,?,Hand+,?,Ambulating=,Indoors+,?
-CONCEPTS B: ?,Whip+,Entity+,Process+,?,Compartment+,?,Increasing+,Indoors+,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Feline+,Entity+,Process+,SubjectiveAssessmentAttribute+,Compartment+,Hand+,Ambulating=,Indoors+
+CONCEPTS B: Whip+,Entity+,Process+,Compartment+,Increasing+,Indoors+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	01963942-v|Ambulating=
 14	inside	inside	ADV	RB	fPOS=ADV++RB	13	advmod	_	00110815-r|Indoors+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

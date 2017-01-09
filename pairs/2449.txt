@@ -3,8 +3,8 @@ sentence B = A baby rhino is walking around a pen with its mother.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,HoofedMammal+,?,?,Entity+,?,?,?,Entity+,Walking=,?,?,StationaryArtifact+,?,?,BiologicalAttribute+,?
-CONCEPTS B: ?,HumanBaby=,HoofedMammal+,Entity+,Walking=,?,?,StationaryArtifact+,?,?,BiologicalAttribute+,?
+CONCEPTS A: HoofedMammal+,Entity+,Entity+,Walking=,StationaryArtifact+,BiologicalAttribute+
+CONCEPTS B: HumanBaby=,HoofedMammal+,Entity+,Walking=,StationaryArtifact+,BiologicalAttribute+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	16	nmod:poss	_	?|?
 16	mother	mother	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	10332385-n|BiologicalAttribute+
 17	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

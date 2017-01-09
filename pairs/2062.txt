@@ -3,8 +3,8 @@ sentence B = The woman is eating some cut pieces of raw meat.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Decreasing+,Increasing+,?,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,Woman=,Entity+,Eating=,?,Process+,TimeDuration+,?,SubjectiveStrongNegativeAttribute+,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: Human+,Entity+,Decreasing+,Increasing+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Woman=,Entity+,Eating=,Process+,TimeDuration+,SubjectiveStrongNegativeAttribute+,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	some	some	DET	DT	fPOS=DET++DT	7	det	_	?|?
 7	meat	meat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	05921123-n|SubjectiveAssessmentAttribute+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

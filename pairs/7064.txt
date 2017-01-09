@@ -3,8 +3,8 @@ sentence B = A rollerblader is performing a trick on a ramp.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,RecreationOrExercise+,Entity+,Entity+,IntentionalProcess+,?,?,SocialRole+,?,?,StationaryArtifact+,?
-CONCEPTS B: ?,SocialRole+,Entity+,IntentionalProcess+,?,RecreationOrExercise+,?,?,StationaryArtifact+,?
+CONCEPTS A: RecreationOrExercise+,Entity+,Entity+,IntentionalProcess+,SocialRole+,StationaryArtifact+
+CONCEPTS B: SocialRole+,Entity+,IntentionalProcess+,RecreationOrExercise+,StationaryArtifact+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	ramp	ramp	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	04051549-n|StationaryArtifact+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

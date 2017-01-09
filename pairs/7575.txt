@@ -3,8 +3,8 @@ sentence B = The bunch of men are playing rugby on a field full of mud.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Collection+,?,Hominid=,Entity+,Game+,Rugby=,?,?,Swamp+,FieldOfStudy=,?
-CONCEPTS B: ?,Collection+,?,Hominid=,Attribute+,Game+,Rugby=,?,?,FieldOfStudy=,ContainerFull+,?,Soil=,?
+CONCEPTS A: Collection+,Hominid=,Entity+,Game+,Rugby=,Swamp+,FieldOfStudy=
+CONCEPTS B: Collection+,Hominid=,Attribute+,Game+,Rugby=,FieldOfStudy=,ContainerFull+,Soil=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	muddy	muddy	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	11	amod	_	02548066-a|Swamp+
 11	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	05996646-n|FieldOfStudy=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

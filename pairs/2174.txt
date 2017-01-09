@@ -3,8 +3,8 @@ sentence B = The woman is cracking two eggs into a glass bowl.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Damaging+,?,Gland+,?,?,Dish+,Process+,?,Cup=,?
-CONCEPTS B: ?,Woman=,Entity+,Damaging+,?,Gland+,?,?,Cup=,Dish+,?
+CONCEPTS A: Woman=,Entity+,Damaging+,Gland+,Dish+,Process+,Cup=
+CONCEPTS B: Woman=,Entity+,Damaging+,Gland+,Cup=,Dish+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
 12	glass	glass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	03438257-n|Cup=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A woman is slicing a carrot.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Asia+,Human+,Entity+,Cutting+,?,Carrot=,?,SubjectiveWeakPositiveAttribute+,TimeDuration+,?
-CONCEPTS B: ?,Woman=,Entity+,Separating+,?,Carrot=,?
+CONCEPTS A: Asia+,Human+,Entity+,Cutting+,Carrot=,SubjectiveWeakPositiveAttribute+,TimeDuration+
+CONCEPTS B: Woman=,Entity+,Separating+,Carrot=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	thin	thin	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	00988232-a|SubjectiveWeakPositiveAttribute+
 10	pieces	piece	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	15246353-n|TimeDuration+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

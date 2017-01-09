@@ -3,8 +3,8 @@ sentence B = There is no person on a bike jumping through the air with the sun f
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human=,Entity+,FlyingAircraft=,?,?,AirTransportation+,?,?,Bicycle=,?
-CONCEPTS B: ?,Entity+,?,Human=,?,?,Bicycle=,Ambulating=,?,?,AirTransportation+,?,?,Sol=,Combustion+,?,?,Bicycle=,Human=,?
+CONCEPTS A: Human=,Entity+,FlyingAircraft=,AirTransportation+,Bicycle=
+CONCEPTS B: Entity+,Human=,Bicycle=,Ambulating=,AirTransportation+,Sol=,Combustion+,Bicycle=,Human=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	bicycle	bicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02834778-n|Bicycle=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

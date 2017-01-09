@@ -3,8 +3,8 @@ sentence B = The man is putting away the camera and walks away from the beach.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,PhysicalAttribute+,Icon+,?,?,Lake=,?
-CONCEPTS B: ?,Hominid=,Entity+,Putting=,?,?,Camera=,?,Walking=,?,?,?,ShoreArea=,?
+CONCEPTS A: Hominid=,Entity+,PhysicalAttribute+,Icon+,Lake=
+CONCEPTS B: Hominid=,Entity+,Putting=,Camera=,Walking=,ShoreArea=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	lake	lake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	09328904-n|Lake=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

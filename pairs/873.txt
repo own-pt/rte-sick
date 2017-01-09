@@ -3,8 +3,8 @@ sentence B = An ice skating rink placed outdoors is full of people.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: not=,?,LandArea+,?,GroupOfPeople=,Entity+,?,?,Solid+,Walking+,ParkingLot=,?
-CONCEPTS B: ?,IceSkatingRink=,Walking+,IceSkatingRink+,Putting=,Outdoors+,Attribute+,ContainerFull+,?,GroupOfPeople=,?
+CONCEPTS A: not=,LandArea+,GroupOfPeople=,Entity+,Solid+,Walking+,ParkingLot=
+CONCEPTS B: IceSkatingRink=,Walking+,IceSkatingRink+,Putting=,Outdoors+,Attribute+,ContainerFull+,GroupOfPeople=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	skating	skate	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	11	amod	_	01936753-v|Walking+
 11	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	08615638-n|ParkingLot=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
 CONLL B:
 
 1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

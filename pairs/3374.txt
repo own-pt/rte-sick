@@ -3,8 +3,8 @@ sentence B = A woman is riding a water scooter.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Woman=,Carrying=,?,Water=,LandVehicle+,?
-CONCEPTS B: ?,Woman=,Entity+,Carrying=,?,Water=,LandVehicle+,?
+CONCEPTS A: Entity+,Woman=,Carrying=,Water=,LandVehicle+
+CONCEPTS B: Woman=,Entity+,Carrying=,Water=,LandVehicle+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	14845743-n|Water=
 8	scooter	scooter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03791053-n|LandVehicle+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

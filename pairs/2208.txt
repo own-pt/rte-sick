@@ -3,8 +3,8 @@ sentence B = An inflatable crocodile is being pushed by two kids in a pool.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,DramaticActing+,?,?,Swimming+,StaticWaterArea+,?,?,Green=,SurfaceChange+,Reptile+,Beverage+,?
-CONCEPTS B: ?,?,Reptile+,Entity+,Entity+,Pushing=,?,?,HumanChild=,?,?,StaticWaterArea+,?
+CONCEPTS A: HumanChild=,Entity+,DramaticActing+,Swimming+,StaticWaterArea+,Green=,SurfaceChange+,Reptile+,Beverage+
+CONCEPTS B: Reptile+,Entity+,Entity+,Pushing=,HumanChild=,StaticWaterArea+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	crocodile	crocodile	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	01697178-n|Reptile+
 14	float	float	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	07923034-n|Beverage+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

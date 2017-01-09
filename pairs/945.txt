@@ -3,8 +3,8 @@ sentence B = A little boy is jumping into a puddle on the street.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Green=,Shoe=,?,?,StaticWaterArea+,ContainerFull+,?,Soil=,Entity+,IntentionalProcess+,?,?,SubjectiveStrongPositiveAttribute+,HumanYouth=,HumanChild=,Dressing+,?,Clothing+,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Ambulating=,?,?,StaticWaterArea+,?,?,Roadway=,?
+CONCEPTS A: Green=,Shoe=,StaticWaterArea+,ContainerFull+,Soil=,Entity+,IntentionalProcess+,SubjectiveStrongPositiveAttribute+,HumanYouth=,HumanChild=,Dressing+,Clothing+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Ambulating=,StaticWaterArea+,Roadway=
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	19	det	_	?|?
 19	scarf	scarf	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	dobj	_	04143897-n|Clothing+
 20	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

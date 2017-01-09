@@ -3,8 +3,8 @@ sentence B = A brown and white dog is jumping over a red, yellow and white hurdl
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human+,?,White=,Canine+,Entity+,Ambulating=,?,?,Red=,?,SubjectiveAssessmentAttribute+,?,White=,Barrier=,?
-CONCEPTS B: ?,Human+,?,White=,Canine+,Entity+,Ambulating=,?,?,Red=,?,SubjectiveAssessmentAttribute+,?,White=,Device+,?
+CONCEPTS A: Human+,White=,Canine+,Entity+,Ambulating=,Red=,SubjectiveAssessmentAttribute+,White=,Barrier=
+CONCEPTS B: Human+,White=,Canine+,Entity+,Ambulating=,Red=,SubjectiveAssessmentAttribute+,White=,Device+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	conj	_	00393105-a|White=
 15	barrier	barrier	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	02796623-n|Barrier=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?

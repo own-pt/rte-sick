@@ -3,8 +3,8 @@ sentence B = Two white dogs are playing with a brown dog and a ball.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,White=,Canine+,?,?,Human+,Canine+,Entity+,not=,Pursuing+,?,Ball=,?
-CONCEPTS B: ?,White=,Canine+,Entity+,DramaticActing+,?,?,Human+,Canine+,?,?,Ball=,?
+CONCEPTS A: White=,Canine+,Human+,Canine+,Entity+,not=,Pursuing+,Ball=
+CONCEPTS B: White=,Canine+,Entity+,DramaticActing+,Human+,Canine+,Ball=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	02778669-n|Ball=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	VERB	VB	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = A tree is falling over a bridge made over the river which a dog is 
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Black=,Canine+,Entity+,Walking=,SubjectiveAssessmentAttribute+,?,ContentBearingObject+,Torso+,Bridge+,?,Water=,?
-CONCEPTS B: ?,ContentBearingObject+,Entity+,Getting+,SubjectiveAssessmentAttribute+,?,Bridge+,Attribute+,?,?,River=,?,?,Canine+,Entity+,Process+,?
+CONCEPTS A: Black=,Canine+,Entity+,Walking=,SubjectiveAssessmentAttribute+,ContentBearingObject+,Torso+,Bridge+,Water=
+CONCEPTS B: ContentBearingObject+,Entity+,Getting+,SubjectiveAssessmentAttribute+,Bridge+,Attribute+,River=,Canine+,Entity+,Process+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	over	over	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
 12	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	14845743-n|Water=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

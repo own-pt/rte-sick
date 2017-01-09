@@ -3,8 +3,8 @@ sentence B = A tennis player is lunging to the left.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Tennis=,Human+,?,?,Green=,Clothing+,Entity+,Impelling+,?,Ball=,?
-CONCEPTS B: ?,Tennis=,Human+,Entity+,BodyMotion+,?,?,Hand+,?
+CONCEPTS A: Tennis=,Human+,Green=,Clothing+,Entity+,Impelling+,Ball=
+CONCEPTS B: Tennis=,Human+,Entity+,BodyMotion+,Hand+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	02778669-n|Ball=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

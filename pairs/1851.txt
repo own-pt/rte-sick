@@ -3,8 +3,8 @@ sentence B = The man isn't smearing butter on bread.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,SubjectiveAssessmentAttribute+,SurfaceChange+,Butter=,?,?,PreparedFood+,?,Garlic=,BreadOrBiscuit+,?
-CONCEPTS B: ?,Hominid=,Entity+,not=,SurfaceChange+,Butter=,?,BreadOrBiscuit+,?
+CONCEPTS A: Hominid=,Entity+,SubjectiveAssessmentAttribute+,SurfaceChange+,Butter=,PreparedFood+,Garlic=,BreadOrBiscuit+
+CONCEPTS B: Hominid=,Entity+,not=,SurfaceChange+,Butter=,BreadOrBiscuit+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	garlic	garlic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	07818277-n|Garlic=
 12	bread	bread	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	07679356-n|BreadOrBiscuit+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

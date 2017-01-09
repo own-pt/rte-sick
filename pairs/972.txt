@@ -3,8 +3,8 @@ sentence B = A man doing a pose is being watched by another man.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,Shirt=,Coloring+,ColorAttribute+,Entity+,SubjectiveAssessmentAttribute+,?,?,Man=,?,?,Black=,Shirt=,?,Entity+,IntentionalProcess+,?,SubjectiveStrongPositiveAttribute+,FacialExpression=,?
-CONCEPTS B: ?,Hominid=,IntentionalProcess+,?,Pretending+,Entity+,Entity+,Looking=,?,?,Hominid=,?
+CONCEPTS A: Man=,Shirt=,Coloring+,ColorAttribute+,Entity+,SubjectiveAssessmentAttribute+,Man=,Black=,Shirt=,Entity+,IntentionalProcess+,SubjectiveStrongPositiveAttribute+,FacialExpression=
+CONCEPTS B: Hominid=,IntentionalProcess+,Pretending+,Entity+,Entity+,Looking=,Hominid=
 
 CONLL A:
 
@@ -31,6 +31,8 @@ CONLL A:
 21	funny	funny	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	22	amod	_	01265308-a|SubjectiveStrongPositiveAttribute+
 22	face	face	NOUN	NN	Number=Sing|fPOS=NOUN++NN	19	dobj	_	04679738-n|FacialExpression=
 23	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

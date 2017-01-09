@@ -3,8 +3,8 @@ sentence B = A man in a suit is being surrounded by photographers.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,Process+,?,Man=,?,?,Camera=,Entity+,CoveringFn=,?,Gray+,ClothingSuit+,?,Glass=,?
-CONCEPTS B: ?,Man=,?,?,ClothingSuit+,Entity+,Entity+,Process+,?,Photographer=,?
+CONCEPTS A: Man=,Process+,Man=,Camera=,Entity+,CoveringFn=,Gray+,ClothingSuit+,Glass=
+CONCEPTS B: Man=,ClothingSuit+,Entity+,Entity+,Process+,Photographer=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	and	and	CONJ	CC	fPOS=CONJ++CC	13	cc	_	?|?
 15	glasses	glass	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	conj	_	14881303-n|Glass=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

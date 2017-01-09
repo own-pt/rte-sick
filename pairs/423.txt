@@ -3,8 +3,8 @@ sentence B = Two men are holding fishing poles.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,not=,Keeping+,FishingSport=,LengthMeasure@,?
-CONCEPTS B: ?,Hominid=,Entity+,Keeping+,FishingSport=,LengthMeasure@,?
+CONCEPTS A: Hominid=,Entity+,not=,Keeping+,FishingSport=,LengthMeasure@
+CONCEPTS B: Hominid=,Entity+,Keeping+,FishingSport=,LengthMeasure@
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	fishing	fishing	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	5	xcomp	_	00453935-n|FishingSport=
 7	poles	pole	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	dobj	_	13650921-n|LengthMeasure@
 8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Degree=Pos|fPOS=ADJ++JJ	2	nummod	_	?|?

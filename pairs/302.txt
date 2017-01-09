@@ -3,8 +3,8 @@ sentence B = A nude crowd in body paint is walking in front of a lady.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Clothing[,Human+,Entity+,Walking=,?,FrontFn=,?,?,SubjectiveAssessmentAttribute=,?,GroupOfPeople=,Paint+,?
-CONCEPTS B: ?,Clothing[,SubjectiveAssessmentAttribute=,?,GroupOfPeople=,Paint+,Entity+,Walking=,?,FrontFn=,?,?,Human+,?
+CONCEPTS A: Clothing[,Human+,Entity+,Walking=,FrontFn=,SubjectiveAssessmentAttribute=,GroupOfPeople=,Paint+
+CONCEPTS B: Clothing[,SubjectiveAssessmentAttribute=,GroupOfPeople=,Paint+,Entity+,Walking=,FrontFn=,Human+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	body	body	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	compound	_	07965085-n|GroupOfPeople=
 13	paint	paint	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	03875218-n|Paint+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

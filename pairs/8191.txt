@@ -3,8 +3,8 @@ sentence B = Adults and children standing and playing in front of steps near a w
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: FullyFormed+,?,HumanChild=,Entity+,PhysicalAttribute+,?,DramaticActing+,?,FrontFn=,?,RadiatingSound+,?,?,LandArea+,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: FullyFormed+,?,HumanChild=,PhysicalAttribute+,?,Game+,?,FrontFn=,?,RadiatingSound+,?,?,?,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: FullyFormed+,HumanChild=,Entity+,PhysicalAttribute+,DramaticActing+,FrontFn=,RadiatingSound+,LandArea+,SubjectiveAssessmentAttribute+
+CONCEPTS B: FullyFormed+,HumanChild=,PhysicalAttribute+,Game+,FrontFn=,RadiatingSound+,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	desert	desert	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	compound	_	08505573-n|LandArea+
 15	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	14514039-n|SubjectiveAssessmentAttribute+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Adults	adult	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	09605289-n|FullyFormed+

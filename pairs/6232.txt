@@ -3,8 +3,8 @@ sentence B = A big dog and a small dog with a white coat are playing together.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Canine+,?,?,SubjectiveStrongNegativeAttribute+,White=,Canine+,Entity+,DramaticActing+,Meeting=,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Canine+,?,?,SubjectiveStrongNegativeAttribute+,Canine+,?,?,White=,Coat=,Entity+,DramaticActing+,Meeting=,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Canine+,SubjectiveStrongNegativeAttribute+,White=,Canine+,Entity+,DramaticActing+,Meeting=
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Canine+,SubjectiveStrongNegativeAttribute+,Canine+,White=,Coat=,Entity+,DramaticActing+,Meeting=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
 11	together	together	ADV	RB	fPOS=ADV++RB	10	advmod	_	00507927-r|Meeting=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

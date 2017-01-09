@@ -3,8 +3,8 @@ sentence B = The adult is playing the guitar loudly.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,DramaticActing+,?,Guitar=,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,FullyFormed+,Entity+,DramaticActing+,?,Guitar=,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: Hominid=,Entity+,DramaticActing+,Guitar=,SubjectiveAssessmentAttribute+
+CONCEPTS B: FullyFormed+,Entity+,DramaticActing+,Guitar=,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03467517-n|Guitar=
 7	loudly	loudly	ADV	RB	fPOS=ADV++RB	4	advmod	_	00069901-r|SubjectiveAssessmentAttribute+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

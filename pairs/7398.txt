@@ -3,8 +3,8 @@ sentence B = A man and a young boy are jumping off of a yellow kayak.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,HumanYouth=,Human+,Entity+,Carrying=,?,?,SubjectiveAssessmentAttribute+,TransportationDevice+,?
-CONCEPTS B: ?,Man=,?,?,HumanYouth=,Human+,Entity+,Ambulating=,?,?,?,SubjectiveAssessmentAttribute+,TransportationDevice+,?
+CONCEPTS A: Man=,HumanYouth=,Human+,Entity+,Carrying=,SubjectiveAssessmentAttribute+,TransportationDevice+
+CONCEPTS B: Man=,HumanYouth=,Human+,Entity+,Ambulating=,SubjectiveAssessmentAttribute+,TransportationDevice+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	02101942-a|SubjectiveAssessmentAttribute+
 12	kayak	kayak	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	03609235-n|TransportationDevice+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A man in green is kicking a soccer ball and a man in purple and whi
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Hominid=,?,Green+,Entity+,Expressing+,?,Soccer=,Ball=,?,?,Hominid=,?,SocialRole+,?,White=,Entity+,MotionUpward=,Increasing+,?
-CONCEPTS B: ?,Man=,?,Green+,Entity+,Expressing+,?,Soccer=,Ball=,?,?,Man=,?,SocialRole+,?,White=,Entity+,Getting+,earlier+,?
+CONCEPTS A: Hominid=,Green+,Entity+,Expressing+,Soccer=,Ball=,Hominid=,SocialRole+,White=,Entity+,MotionUpward=,Increasing+
+CONCEPTS B: Man=,Green+,Entity+,Expressing+,Soccer=,Ball=,Man=,SocialRole+,White=,Entity+,Getting+,earlier+
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	rising	rise	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	01968569-v|MotionUpward=
 19	up	up	ADP	RP	fPOS=ADP++RP	18	compound:prt	_	00097011-r|Increasing+
 20	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

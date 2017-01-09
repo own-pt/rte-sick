@@ -3,8 +3,8 @@ sentence B = A young girl by a pink sign is holding up a blue shirt and is walki
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,?,?,SubjectiveStrongNegativeAttribute+,Shirt=,Entity+,Walking=,?,?,Sidewalk=,?,Process+,Increasing+,?,Pink+,Character+,?
-CONCEPTS B: ?,HumanYouth=,Human+,?,?,Pink+,Character+,Entity+,Process+,Increasing+,?,SubjectiveStrongNegativeAttribute+,Shirt=,?,Entity+,Walking=,?,?,Sidewalk=,?
+CONCEPTS A: HumanYouth=,Human+,SubjectiveStrongNegativeAttribute+,Shirt=,Entity+,Walking=,Sidewalk=,Process+,Increasing+,Pink+,Character+
+CONCEPTS B: HumanYouth=,Human+,Pink+,Character+,Entity+,Process+,Increasing+,SubjectiveStrongNegativeAttribute+,Shirt=,Entity+,Walking=,Sidewalk=
 
 CONLL A:
 
@@ -27,6 +27,8 @@ CONLL A:
 17	pink	pink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	18	compound	_	00379595-a|Pink+
 18	sign	sign	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	06811625-n|Character+
 19	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

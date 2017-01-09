@@ -3,8 +3,8 @@ sentence B = The man is talking on the telephone.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Speaking+,?,?,Telephone=,?
-CONCEPTS B: ?,Hominid=,Entity+,Speaking+,?,?,Telephone=,?
+CONCEPTS A: Hominid=,Entity+,Speaking+,Telephone=
+CONCEPTS B: Hominid=,Entity+,Speaking+,Telephone=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	telephone	telephone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04401088-n|Telephone=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

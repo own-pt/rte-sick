@@ -3,8 +3,8 @@ sentence B = A dog with a tan coat is jumping up and catching a tennis ball.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,ColorAttribute+,Canine+,Entity+,Ambulating=,Increasing+,?,Grabbing+,?,Tennis=,Ball=,?
-CONCEPTS B: ?,Canine+,?,?,ColorAttribute+,Coat=,Entity+,Ambulating=,Increasing+,?,Grabbing+,?,Tennis=,Ball=,?
+CONCEPTS A: ColorAttribute+,Canine+,Entity+,Ambulating=,Increasing+,Grabbing+,Tennis=,Ball=
+CONCEPTS B: Canine+,ColorAttribute+,Coat=,Entity+,Ambulating=,Increasing+,Grabbing+,Tennis=,Ball=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	tennis	tennis	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	00482298-n|Tennis=
 11	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	02778669-n|Ball=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

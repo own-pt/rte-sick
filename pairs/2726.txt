@@ -3,8 +3,8 @@ sentence B = A woman is rocking over a blanket lying on someone reading a book.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,?,?,Mineral+,Entity+,PhysicalAttribute+,?,?,Blanket+,?,Reading=,?,Book+,?
-CONCEPTS B: ?,Woman=,Entity+,Rotating+,SubjectiveAssessmentAttribute+,?,Blanket+,PhysicalAttribute+,?,?,Reading=,?,Book+,?
+CONCEPTS A: Woman=,Mineral+,Entity+,PhysicalAttribute+,Blanket+,Reading=,Book+
+CONCEPTS B: Woman=,Entity+,Rotating+,SubjectiveAssessmentAttribute+,Blanket+,PhysicalAttribute+,Reading=,Book+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	book	book	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	dobj	_	02870092-n|Book+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

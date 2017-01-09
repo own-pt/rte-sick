@@ -3,8 +3,8 @@ sentence B = Two kids are doing martial arts on a blue mat.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,IntentionalProcess+,SubjectiveStrongNegativeAttribute+,ArtWork=,?,?,SubjectiveStrongNegativeAttribute+,Artifact+,?
-CONCEPTS B: ?,HumanChild=,Entity+,IntentionalProcess+,SubjectiveStrongNegativeAttribute+,ArtWork=,?,?,SubjectiveStrongNegativeAttribute+,Artifact+,?
+CONCEPTS A: Human+,Entity+,IntentionalProcess+,SubjectiveStrongNegativeAttribute+,ArtWork=,SubjectiveStrongNegativeAttribute+,Artifact+
+CONCEPTS B: HumanChild=,Entity+,IntentionalProcess+,SubjectiveStrongNegativeAttribute+,ArtWork=,SubjectiveStrongNegativeAttribute+,Artifact+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
 10	mat	mat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03727946-n|Artifact+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	compound	_	?|?

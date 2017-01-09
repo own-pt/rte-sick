@@ -3,8 +3,8 @@ sentence B = Two dogs are looking at something that is moving in the water.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,DramaticActing+,?,?,StreamWaterArea=,?
-CONCEPTS B: ?,Canine+,Entity+,SubjectiveAssessmentAttribute+,?,?,?,Entity+,PsychologicalProcess+,?,?,Water=,?
+CONCEPTS A: Canine+,Entity+,DramaticActing+,StreamWaterArea=
+CONCEPTS B: Canine+,Entity+,SubjectiveAssessmentAttribute+,Entity+,PsychologicalProcess+,Water=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	stream	stream	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09448361-n|StreamWaterArea=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

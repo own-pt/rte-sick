@@ -3,8 +3,8 @@ sentence B = A group of students in uniforms is listening attentively at the fro
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Classroom+,ContainerFull+,?,SocialRole+,Entity+,Looking=,SubjectiveAssessmentAttribute+,?,?,equal+,DirectionalAttribute=,?,?,Bamboo=,Artifact+,?
-CONCEPTS B: ?,Group=,?,SocialRole+,?,UniformClothing=,Entity+,Listening=,SubjectiveAssessmentAttribute+,?,?,FrontFn=,?,?,Organization+,?
+CONCEPTS A: Classroom+,ContainerFull+,SocialRole+,Entity+,Looking=,SubjectiveAssessmentAttribute+,equal+,DirectionalAttribute=,Bamboo=,Artifact+
+CONCEPTS B: Group=,SocialRole+,UniformClothing=,Entity+,Listening=,SubjectiveAssessmentAttribute+,FrontFn=,Organization+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	bamboo	bamboo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	compound	_	12147226-n|Bamboo=
 16	structure	structure	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	04341686-n|Artifact+
 17	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

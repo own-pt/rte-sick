@@ -3,8 +3,8 @@ sentence B = A small group of people is waiting to eat in a restaurant.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Group=,?,AsianEthnicity=,GroupOfPeople=,Entity+,Eating=,?,?,Restaurant+,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Group=,?,GroupOfPeople=,Entity+,PsychologicalProcess+,?,Eating=,?,?,Restaurant+,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Group=,AsianEthnicity=,GroupOfPeople=,Entity+,Eating=,Restaurant+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Group=,GroupOfPeople=,Entity+,PsychologicalProcess+,Eating=,Restaurant+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	restaurant	restaurant	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	04081281-n|Restaurant+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

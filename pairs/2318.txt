@@ -3,8 +3,8 @@ sentence B = The man is hammering a nail with a camera.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,Impacting+,?,Lens+,?,?,Camera=,?,?,Nail=,?
-CONCEPTS B: ?,Hominid=,Entity+,ShapeChange+,?,Nail=,?,?,Camera=,?
+CONCEPTS A: Entity+,Impacting+,Lens+,Camera=,Nail=
+CONCEPTS B: Hominid=,Entity+,ShapeChange+,Nail=,Camera=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	nail	nail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	03804744-n|Nail=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

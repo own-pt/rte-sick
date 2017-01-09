@@ -3,8 +3,8 @@ sentence B = Five kids are standing close together and one kid has a gun.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,PhysicalAttribute+,?,?,SubjectiveAssessmentAttribute+,SingleFamilyResidence=,?
-CONCEPTS B: ?,HumanChild=,Entity+,PhysicalAttribute+,Near+,Meeting=,?,?,HumanChild=,Damaging+,?,Gun=,?
+CONCEPTS A: HumanChild=,Entity+,PhysicalAttribute+,SubjectiveAssessmentAttribute+,SingleFamilyResidence=
+CONCEPTS B: HumanChild=,Entity+,PhysicalAttribute+,Near+,Meeting=,HumanChild=,Damaging+,Gun=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	wooden	wooden	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	8	amod	_	01141595-a|SubjectiveAssessmentAttribute+
 8	hut	hut	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03550153-n|SingleFamilyResidence=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Five	5	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	2	amod	_	?|?

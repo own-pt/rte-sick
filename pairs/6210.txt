@@ -3,8 +3,8 @@ sentence B = A cyclist is being held over the heads of a group of people with th
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,ColdTemperature=,Human+,Entity+,ReligiousProcess+,?
-CONCEPTS B: ?,Human+,Entity+,Entity+,Keeping+,?,?,Head=,?,?,Group=,?,GroupOfPeople=,?,?,Bicycle=,?
+CONCEPTS A: ColdTemperature=,Human+,Entity+,ReligiousProcess+
+CONCEPTS B: Human+,Entity+,Entity+,Keeping+,Head=,Group=,GroupOfPeople=,Bicycle=
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
 5	celebrating	celebrate	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02578510-v|ReligiousProcess+
 6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

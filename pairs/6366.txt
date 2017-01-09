@@ -3,8 +3,8 @@ sentence B = A child, who is young, is wearing a white coat and playing a game.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,HumanYouth=,HumanChild=,Entity+,RecreationOrExercise+,?,White=,Coat=,?,DramaticActing+,?,Game=,?
-CONCEPTS B: ?,HumanChild=,?,?,Entity+,HumanYouth=,?,Entity+,RecreationOrExercise+,?,White=,Coat=,?,DramaticActing+,?,Game=,?
+CONCEPTS A: HumanYouth=,HumanChild=,Entity+,RecreationOrExercise+,White=,Coat=,DramaticActing+,Game=
+CONCEPTS B: HumanChild=,Entity+,HumanYouth=,Entity+,RecreationOrExercise+,White=,Coat=,DramaticActing+,Game=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	game	game	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	00455599-n|Game=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

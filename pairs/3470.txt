@@ -3,8 +3,8 @@ sentence B = A man is dancing.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,PhysicalAttribute+,SittingDown+,?
-CONCEPTS B: ?,Hominid=,Entity+,Dancing+,?
+CONCEPTS A: Human=,PhysicalAttribute+,SittingDown+
+CONCEPTS B: Hominid=,Entity+,Dancing+
 
 CONLL A:
 
@@ -13,6 +13,8 @@ CONLL A:
 3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	cop	_	02655135-v|PhysicalAttribute+
 4	sitting	sit	ADJ	JJ	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
 5	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

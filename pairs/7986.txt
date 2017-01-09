@@ -3,8 +3,8 @@ sentence B = The man surrounded by photographers is wearing a gray suit and glas
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,SubjectiveStrongPositiveAttribute+,Clothing+,Entity+,Entity+,Process+,?,Photographer=,?
-CONCEPTS B: ?,Man=,Process+,?,Photographer=,Entity+,CoveringFn=,?,Gray+,ClothingSuit+,?,Glass=,?
+CONCEPTS A: Man=,SubjectiveStrongPositiveAttribute+,Clothing+,Entity+,Entity+,Process+,Photographer=
+CONCEPTS B: Man=,Process+,Photographer=,Entity+,CoveringFn=,Gray+,ClothingSuit+,Glass=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	by	by	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
 11	photographers	photographer	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	nmod	_	10426749-n|Photographer=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

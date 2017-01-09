@@ -3,8 +3,8 @@ sentence B = A person is pouring olive oil into the stove from a pot.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,Entity+,Pouring=,Cooking+,Oil=,?,?,Pottery+,?
-CONCEPTS B: ?,Human=,Entity+,Pouring=,ColorAttribute+,Oil=,?,?,Stove+,?,?,Pottery+,?
+CONCEPTS A: Human=,Entity+,Pouring=,Cooking+,Oil=,Pottery+
+CONCEPTS B: Human=,Entity+,Pouring=,ColorAttribute+,Oil=,Stove+,Pottery+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	pot	pot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03990474-n|Pottery+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A man is chopping butter into a container.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Cutting+,Butter=,?,?,SubjectiveStrongNegativeAttribute+,Container+,?
-CONCEPTS B: ?,Hominid=,Entity+,Cutting+,Butter=,?,?,Container+,?
+CONCEPTS A: Hominid=,Entity+,Cutting+,Butter=,SubjectiveStrongNegativeAttribute+,Container+
+CONCEPTS B: Hominid=,Entity+,Cutting+,Butter=,Container+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
 9	container	container	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03094503-n|Container+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

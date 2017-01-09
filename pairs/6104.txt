@@ -3,8 +3,8 @@ sentence B = A dog in a colored coat is running across the yard.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,?,?,SurfaceChange+,Coat=,Entity+,Attribute+,SubjectiveAssessmentAttribute+,?,?,LandArea=,?
-CONCEPTS B: ?,Canine+,?,?,SurfaceChange+,Coat=,Entity+,Attribute+,?,?,LandArea=,?
+CONCEPTS A: Canine+,SurfaceChange+,Coat=,Entity+,Attribute+,SubjectiveAssessmentAttribute+,LandArea=
+CONCEPTS B: Canine+,SurfaceChange+,Coat=,Entity+,Attribute+,LandArea=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	yard	yard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	04610879-n|LandArea=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

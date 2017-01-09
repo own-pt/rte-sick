@@ -3,8 +3,8 @@ sentence B = The man is playing a guitar.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Putting=,?,WindInstrument+,?,?
-CONCEPTS B: ?,Hominid=,Entity+,DramaticActing+,?,Guitar=,?
+CONCEPTS A: Hominid=,Entity+,Putting=,WindInstrument+
+CONCEPTS B: Hominid=,Entity+,DramaticActing+,Guitar=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	trumpet	trumpet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03110669-n|WindInstrument+
 7	away	away	ADV	RB	fPOS=ADV++RB	4	advmod	_	00234951-r|?
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = The large dog is walking outside and is carrying a colorful toy in 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Walking=,located+,?,Entity+,Transportation+,?,ColorAttribute+,RecreationOrExerciseDevice+,?,?,Mouth+,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Walking=,located+,?,Entity+,Transportation+,?,ColorAttribute+,RecreationOrExerciseDevice+,?,?,Mouth+,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Walking=,located+,Entity+,Transportation+,ColorAttribute+,RecreationOrExerciseDevice+,Mouth+
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Walking=,located+,Entity+,Transportation+,ColorAttribute+,RecreationOrExerciseDevice+,Mouth+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	15	nmod:poss	_	?|?
 15	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	05302499-n|Mouth+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

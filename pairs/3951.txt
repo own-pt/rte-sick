@@ -3,8 +3,8 @@ sentence B = The men are fist fighting in a ring.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Fist=,ViolentContest+,?,?,Jewelry+,?
-CONCEPTS B: ?,Hominid=,Entity+,Fist=,ViolentContest+,?,?,Jewelry+,?
+CONCEPTS A: Hominid=,Entity+,Fist=,ViolentContest+,Jewelry+
+CONCEPTS B: Hominid=,Entity+,Fist=,ViolentContest+,Jewelry+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	ring	ring	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	04092609-n|Jewelry+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

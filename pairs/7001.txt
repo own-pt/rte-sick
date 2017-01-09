@@ -3,8 +3,8 @@ sentence B = Some people playing rugby are tackling each other.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Soccer=,Human+,Entity+,Entity+,Putting+,?,?,SocialRole+,?
-CONCEPTS B: ?,GroupOfPeople=,Game+,Rugby=,Entity+,IntentionalProcess+,?,equal+,?
+CONCEPTS A: Soccer=,Human+,Entity+,Entity+,Putting+,SocialRole+
+CONCEPTS B: GroupOfPeople=,Game+,Rugby=,Entity+,IntentionalProcess+,equal+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	9	nmod:poss	_	?|?
 9	opponent	opponent	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	10379620-n|SocialRole+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A woman wearing a blue and white uniform with a white and blue hat 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Putting+,?,Shirt=,?,?,Entity+,SubjectiveStrongNegativeAttribute+,?,?,?,White=,Clothing+,?,?,White=,Device+,?,Entity+,Speaking+,?,Walking+,?
-CONCEPTS B: ?,Woman=,CoveringFn=,?,Blue=,?,White=,UniformClothing=,?,?,White=,?,Blue=,Hat+,Entity+,Attribute+,?,Mouth+,SubjectiveWeakPositiveAttribute+,?,Entity+,?,?,Dressing+,?,?,equal+,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: Woman=,Entity+,Putting+,Shirt=,Entity+,SubjectiveStrongNegativeAttribute+,White=,Clothing+,White=,Device+,Entity+,Speaking+,Walking+
+CONCEPTS B: Woman=,CoveringFn=,Blue=,White=,UniformClothing=,White=,Blue=,Hat+,Entity+,Attribute+,Mouth+,SubjectiveWeakPositiveAttribute+,Entity+,Dressing+,equal+,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -33,6 +33,8 @@ CONLL A:
 23	and	and	CONJ	CC	fPOS=CONJ++CC	22	cc	_	?|?
 24	marching	march	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	22	conj	_	01919391-v|Walking+
 25	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

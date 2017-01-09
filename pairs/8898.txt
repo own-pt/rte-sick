@@ -3,8 +3,8 @@ sentence B = Bikers are riding on a trail.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Entity+,Carrying=,TransportationDevice+,?
-CONCEPTS B: ?,Entity+,Carrying=,?,?,Trail+,?
+CONCEPTS A: GroupOfPeople=,Entity+,Carrying=,TransportationDevice+
+CONCEPTS B: Entity+,Carrying=,Trail+
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	riding	ride	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01955984-v|Carrying=
 5	motorbikes	motorbike	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	03769722-n|TransportationDevice+
 6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Bikers	biker	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	?|?

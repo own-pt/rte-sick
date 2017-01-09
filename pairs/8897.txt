@@ -3,8 +3,8 @@ sentence B = Dirt bikers are riding on a trail.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: Text+,?,Entity+,not=,Carrying=,?,?,Trail+,?
-CONCEPTS B: Text+,?,Entity+,Carrying=,?,?,Trail+,?
+CONCEPTS A: Text+,Entity+,not=,Carrying=,Trail+
+CONCEPTS B: Text+,Entity+,Carrying=,Trail+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	trail	trail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	04466613-n|Trail+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Dirt	dirt	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	2	amod	_	07223811-n|Text+

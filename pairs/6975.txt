@@ -3,8 +3,8 @@ sentence B = A man is participating in a bmx race.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,?,?,Red=,UniformClothing=,Entity+,Motion+,?,Defecate=,?,Transportation+,?,?,Bicycle=,?,?,Text+,?
-CONCEPTS B: ?,Hominid=,Entity+,SocialInteraction+,?,?,?,Racing=,?
+CONCEPTS A: Hominid=,Red=,UniformClothing=,Entity+,Motion+,Defecate=,Transportation+,Bicycle=,Text+
+CONCEPTS B: Hominid=,Entity+,SocialInteraction+,Racing=
 
 CONLL A:
 
@@ -27,6 +27,8 @@ CONLL A:
 17	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	18	det	_	?|?
 18	dirt	dirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	07223811-n|Text+
 19	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

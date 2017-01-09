@@ -3,8 +3,8 @@ sentence B = The girl in the blue and white uniform is cheering.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Increasing+,?,Blue=,UniformClothing=,?,?,Sleeve+,?
-CONCEPTS B: ?,Human+,?,?,Blue=,?,White=,UniformClothing=,Entity+,Communication+,?
+CONCEPTS A: Human+,Entity+,Increasing+,Blue=,UniformClothing=,Sleeve+
+CONCEPTS B: Human+,Blue=,White=,UniformClothing=,Entity+,Communication+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	10	nmod:poss	_	?|?
 10	arm	arm	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	04236377-n|Sleeve+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

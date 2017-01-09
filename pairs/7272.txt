@@ -3,8 +3,8 @@ sentence B = A bird is flapping its wings on the water.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Duck=,?,Human+,Feather+,?,?,Green=,Head=,Entity+,Motion+,?,Organ+,?,?,Water=,?
-CONCEPTS B: ?,Bird=,Entity+,Motion+,?,Organ+,?,?,Water=,?
+CONCEPTS A: Duck=,Human+,Feather+,Green=,Head=,Entity+,Motion+,Organ+,Water=
+CONCEPTS B: Bird=,Entity+,Motion+,Organ+,Water=
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	?|?
 16	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	14845743-n|Water=
 17	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

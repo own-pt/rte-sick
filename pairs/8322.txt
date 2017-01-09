@@ -3,8 +3,8 @@ sentence B = Dogs are running on a track.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Horse=,Entity+,Motion+,?
-CONCEPTS B: Canine+,Entity+,Racing+,?,?,StationaryArtifact+,?
+CONCEPTS A: Horse=,Entity+,Motion+
+CONCEPTS B: Canine+,Entity+,Racing+,StationaryArtifact+
 
 CONLL A:
 
@@ -13,6 +13,8 @@ CONLL A:
 3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	cop	_	02604760-v|Entity+
 4	racing	race	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	02058994-v|Motion+
 5	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	02084071-n|Canine+

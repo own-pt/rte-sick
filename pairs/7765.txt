@@ -3,8 +3,8 @@ sentence B = A man and a woman are walking down a city street.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: GroupOfPeople=,Entity+,Walking=,?,?,SocialInteraction+,Roadway=,?
-CONCEPTS B: ?,Man=,?,?,Woman=,Entity+,Walking=,earlier+,?,City=,Roadway=,?
+CONCEPTS A: GroupOfPeople=,Entity+,Walking=,SocialInteraction+,Roadway=
+CONCEPTS B: Man=,Woman=,Entity+,Walking=,earlier+,City=,Roadway=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	crowded	crowd	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	02027612-v|SocialInteraction+
 7	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	04334599-n|Roadway=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A boy is waving at some young runners from the ocean.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,Attribute+,PositionalAttribute+,?,Giving+,?,?,Ocean=,ShapeAttribute+,?
-CONCEPTS B: ?,Human+,Entity+,Rotating+,?,?,HumanYouth=,Human+,?,?,Ocean=,?
+CONCEPTS A: HumanChild=,Entity+,Attribute+,PositionalAttribute+,Giving+,Ocean=,ShapeAttribute+
+CONCEPTS B: Human+,Entity+,Rotating+,HumanYouth=,Human+,Ocean=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	ocean	ocean	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	09376198-n|Ocean=
 11	waves	wave	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	conj	_	13868944-n|ShapeAttribute+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

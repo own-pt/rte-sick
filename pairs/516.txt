@@ -3,8 +3,8 @@ sentence B = A woman who is wearing a pink boa is riding a bicycle down a bridge
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,?,Entity+,PhysicalAttribute+,?,?,Pink+,ConstrictorSnake+,Entity+,Process+,?,Bicycle=,?,?,Bridge+,Increasing+,?,Walking+,?
-CONCEPTS B: ?,Woman=,?,Entity+,CoveringFn=,?,Pink+,ConstrictorSnake+,Entity+,Carrying=,?,Bicycle=,?,?,Bridge+,Increasing+,?,Walking+,?
+CONCEPTS A: Woman=,Entity+,PhysicalAttribute+,Pink+,ConstrictorSnake+,Entity+,Process+,Bicycle=,Bridge+,Increasing+,Walking+
+CONCEPTS B: Woman=,Entity+,CoveringFn=,Pink+,ConstrictorSnake+,Entity+,Carrying=,Bicycle=,Bridge+,Increasing+,Walking+
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	for	for	ADP	IN	fPOS=ADP++IN	19	case	_	?|?
 19	pedestrians	pedestrian	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	17	nmod	_	10412055-n|Walking+
 20	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

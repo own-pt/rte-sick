@@ -3,8 +3,8 @@ sentence B = A clown is singing.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Human+,MakingVocalMusic=,?,GroupOfPeople=,Entity+,not=,Dancing+,?
-CONCEPTS B: ?,Human+,Entity+,MakingVocalMusic=,?
+CONCEPTS A: Entity+,Human+,MakingVocalMusic=,GroupOfPeople=,Entity+,not=,Dancing+
+CONCEPTS B: Human+,Entity+,MakingVocalMusic=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	not	not	PART	RB	fPOS=PART++RB	10	neg	_	00024073-r|not=
 10	dancing	dance	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	2	conj	_	01708676-v|Dancing+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

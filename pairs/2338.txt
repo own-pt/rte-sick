@@ -3,8 +3,8 @@ sentence B = The oriental lady is not cutting a carrot into thin pieces.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Asia+,Human+,Entity+,Cutting+,?,Carrot=,?,SubjectiveWeakPositiveAttribute+,TimeDuration+,?
-CONCEPTS B: ?,Asia+,Human+,Entity+,not=,Cutting+,?,Carrot=,?,SubjectiveWeakPositiveAttribute+,MusicalComposition=,?
+CONCEPTS A: Asia+,Human+,Entity+,Cutting+,Carrot=,SubjectiveWeakPositiveAttribute+,TimeDuration+
+CONCEPTS B: Asia+,Human+,Entity+,not=,Cutting+,Carrot=,SubjectiveWeakPositiveAttribute+,MusicalComposition=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	thin	thin	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	00988232-a|SubjectiveWeakPositiveAttribute+
 10	pieces	piece	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	15246353-n|TimeDuration+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

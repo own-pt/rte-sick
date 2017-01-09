@@ -3,8 +3,8 @@ sentence B = A woman is playing with a brown cat on a garden path.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,DramaticActing+,?,?,Human+,Canine+,?,?,CultivatedLandArea+,Transitway+,?
-CONCEPTS B: ?,Woman=,Entity+,DramaticActing+,?,?,Human+,Whip+,?,?,CultivatedLandArea+,Transitway+,?
+CONCEPTS A: Woman=,Entity+,DramaticActing+,Human+,Canine+,CultivatedLandArea+,Transitway+
+CONCEPTS B: Woman=,Entity+,DramaticActing+,Human+,Whip+,CultivatedLandArea+,Transitway+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	garden	garden	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	03417345-n|CultivatedLandArea+
 12	path	path	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	08616311-n|Transitway+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

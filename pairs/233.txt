@@ -3,8 +3,8 @@ sentence B = An Asian man is dancing and three kids are looking.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,AsianEthnicity=,HumanChild=,Entity+,Dancing+,?,?,Hominid=,Entity+,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,AsianEthnicity=,Hominid=,Entity+,Dancing+,?,?,HumanChild=,Entity+,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: AsianEthnicity=,HumanChild=,Entity+,Dancing+,Hominid=,Entity+,SubjectiveAssessmentAttribute+
+CONCEPTS B: AsianEthnicity=,Hominid=,Entity+,Dancing+,HumanChild=,Entity+,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
 10	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	02133435-v|SubjectiveAssessmentAttribute+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

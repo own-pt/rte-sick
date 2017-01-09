@@ -3,8 +3,8 @@ sentence B = A kid is sitting wearing swim gear.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,PhysicalAttribute+,SittingDown+,?,?,Bathing+,ClothingSuit+,?,PsychologicalProcess+,?,?,Position+,Racing=,?
-CONCEPTS B: ?,HumanChild=,PhysicalAttribute+,SittingDown+,RecreationOrExercise+,Swimming=,Gear=,?
+CONCEPTS A: HumanYouth=,Human+,PhysicalAttribute+,SittingDown+,Bathing+,ClothingSuit+,PsychologicalProcess+,Position+,Racing=
+CONCEPTS B: HumanChild=,PhysicalAttribute+,SittingDown+,RecreationOrExercise+,Swimming=,Gear=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	next	next	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	01294975-a|Position+
 15	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	07458453-n|Racing=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

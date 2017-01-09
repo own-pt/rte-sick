@@ -3,8 +3,8 @@ sentence B = A father is taking away his daughter from a swimming pool.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SocialRole+,Entity+,Impelling+,?,BiologicalAttribute+,?,?,Swimming+,StaticWaterArea+,?
-CONCEPTS B: ?,SocialRole+,Entity+,PhysicalAttribute+,?,?,BiologicalAttribute+,?,?,Swimming+,StaticWaterArea+,?
+CONCEPTS A: SocialRole+,Entity+,Impelling+,BiologicalAttribute+,Swimming+,StaticWaterArea+
+CONCEPTS B: SocialRole+,Entity+,PhysicalAttribute+,BiologicalAttribute+,Swimming+,StaticWaterArea+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	swimming	swim	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	01960911-v|Swimming+
 10	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	09397607-n|StaticWaterArea+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A blond kid is going down a slide and throwing up his arms.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,?,?,SubjectiveAssessmentAttribute+,FluidContainer+,PositionalAttribute+,Entity+,MotionUpward=,?,Hand+,?,?,Entity+,Translocation+,?
-CONCEPTS B: ?,Human+,HumanChild=,Entity+,WhenFn=,earlier+,?,Artifact+,?,Impelling+,Increasing+,?,Weapon=,?
+CONCEPTS A: HumanYouth=,Human+,SubjectiveAssessmentAttribute+,FluidContainer+,PositionalAttribute+,Entity+,MotionUpward=,Hand+,Entity+,Translocation+
+CONCEPTS B: Human+,HumanChild=,Entity+,WhenFn=,earlier+,Artifact+,Impelling+,Increasing+,Weapon=
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	16	aux	_	02604760-v|Entity+
 16	sliding	slide	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	10	advcl	_	02090990-v|Translocation+
 17	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

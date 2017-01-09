@@ -3,8 +3,8 @@ sentence B = Nobody is jumping off a platform.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human+,Entity+,Ambulating=,?,?,PerformanceStage+,?,?,equal+,Human+,Entity+,PhysicalAttribute+,?,Looking=,?
-CONCEPTS B: ?,Entity+,Ambulating=,?,?,PerformanceStage+,?
+CONCEPTS A: Human+,Entity+,Ambulating=,PerformanceStage+,equal+,Human+,Entity+,PhysicalAttribute+,Looking=
+CONCEPTS B: Entity+,Ambulating=,PerformanceStage+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	and	and	CONJ	CC	fPOS=CONJ++CC	13	cc	_	?|?
 15	watching	watch	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	13	conj	_	02150948-v|Looking=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Nobody	nobody	NOUN	NN	Number=Sing|fPOS=PROPN++NNP	3	nsubj	_	?|?

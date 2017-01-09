@@ -3,8 +3,8 @@ sentence B = A classroom full of students is looking in the same direction insid
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Classroom+,ContainerFull+,?,SocialRole+,SubjectiveAssessmentAttribute+,?,?,equal+,DirectionalAttribute=,?,?,Bamboo=,Artifact+,?
-CONCEPTS B: ?,Classroom+,ContainerFull+,?,SocialRole+,Entity+,SubjectiveAssessmentAttribute+,?,?,equal+,DirectionalAttribute=,?,?,Bamboo=,Artifact+,?
+CONCEPTS A: Entity+,Classroom+,ContainerFull+,SocialRole+,SubjectiveAssessmentAttribute+,equal+,DirectionalAttribute=,Bamboo=,Artifact+
+CONCEPTS B: Classroom+,ContainerFull+,SocialRole+,Entity+,SubjectiveAssessmentAttribute+,equal+,DirectionalAttribute=,Bamboo=,Artifact+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	bamboo	bamboo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	compound	_	12147226-n|Bamboo=
 16	structure	structure	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	04341686-n|Artifact+
 17	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

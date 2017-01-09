@@ -3,8 +3,8 @@ sentence B = A woman is tapping her fingers.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Putting+,?,Finger=,EmotionalState+,?
-CONCEPTS B: ?,Woman=,Entity+,Putting+,?,Finger=,?
+CONCEPTS A: Woman=,Entity+,Putting+,Finger=,EmotionalState+
+CONCEPTS B: Woman=,Entity+,Putting+,Finger=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	fingers	finger	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	05566504-n|Finger=
 7	nervously	nervously	ADV	RB	fPOS=ADV++RB	4	advmod	_	00409200-r|EmotionalState+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

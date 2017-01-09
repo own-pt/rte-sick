@@ -3,8 +3,8 @@ sentence B = A cheetah is quickly running behind its prey.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Feline+,Entity+,Breathing+,Pursuing+,?,Animal+,?,?,FieldOfStudy=,?
-CONCEPTS B: ?,Feline+,Entity+,SubjectiveAssessmentAttribute+,Hunting+,?,?,Animal+,?
+CONCEPTS A: Feline+,Entity+,Breathing+,Pursuing+,Animal+,FieldOfStudy=
+CONCEPTS B: Feline+,Entity+,SubjectiveAssessmentAttribute+,Hunting+,Animal+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	05996646-n|FieldOfStudy=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A girl in a black hat is wearing a bikini at the beach.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,?,?,PhysicalAttribute+,Clothing[,?,PhysicalAttribute+,SittingDown+,?,?,Blanket+,?,?,FloweringPlant+,Device+,?
-CONCEPTS B: ?,Human+,?,?,Black=,Hat+,Entity+,CoveringFn=,?,Clothing+,?,?,ShoreArea=,?
+CONCEPTS A: Woman=,PhysicalAttribute+,Clothing[,PhysicalAttribute+,SittingDown+,Blanket+,FloweringPlant+,Device+
+CONCEPTS B: Human+,Black=,Hat+,Entity+,CoveringFn=,Clothing+,ShoreArea=
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	lavender	lavender	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	compound	_	12849717-n|FloweringPlant+
 16	umbrella	umbrella	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04507155-n|Device+
 17	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

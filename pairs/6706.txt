@@ -3,8 +3,8 @@ sentence B = A small child is outdoors climbing steps in a grassy area.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,PhysicalAttribute+,Outdoors+,?,?,FloweringPlant+,GeographicArea+,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,Outdoors+,Increasing+,RadiatingSound+,?,?,FloweringPlant+,GeographicArea+,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,PhysicalAttribute+,Outdoors+,FloweringPlant+,GeographicArea+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,Outdoors+,Increasing+,RadiatingSound+,FloweringPlant+,GeographicArea+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	grassy	grassy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	00209620-a|FloweringPlant+
 10	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	08497294-n|GeographicArea+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

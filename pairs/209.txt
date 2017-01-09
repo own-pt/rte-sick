@@ -3,8 +3,8 @@ sentence B = A dog is leaping high in the air and another is watching.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Looking=,?,Plant+,?,?,AirTransportation+,?,?,Entity+,Looking=,?
-CONCEPTS B: ?,Canine+,Entity+,Ambulating=,SubjectiveStrongPositiveAttribute+,?,?,AirTransportation+,?,?,Entity+,Looking=,?
+CONCEPTS A: Canine+,Entity+,Looking=,Plant+,AirTransportation+,Entity+,Looking=
+CONCEPTS B: Canine+,Entity+,Ambulating=,SubjectiveStrongPositiveAttribute+,AirTransportation+,Entity+,Looking=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	02604760-v|Entity+
 13	watching	watch	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	02150948-v|Looking=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

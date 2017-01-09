@@ -3,8 +3,8 @@ sentence B = A man elegantly dressed in black is wearing an elaborate black mask
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Obligation+,?,Artifact+,?,?,Increasing+,Hand+,?
-CONCEPTS B: ?,Hominid=,SubjectiveAssessmentAttribute+,Dressing+,?,Black=,Entity+,Dressing+,?,SubjectiveStrongNegativeAttribute+,Black=,Artifact+,?
+CONCEPTS A: Hominid=,Entity+,Obligation+,Artifact+,Increasing+,Hand+
+CONCEPTS B: Hominid=,SubjectiveAssessmentAttribute+,Dressing+,Black=,Entity+,Dressing+,SubjectiveStrongNegativeAttribute+,Black=,Artifact+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	raised	raise	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	10	compound	_	00229605-v|Increasing+
 10	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05564590-n|Hand+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

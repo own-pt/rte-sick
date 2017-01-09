@@ -3,8 +3,8 @@ sentence B = The band isn't singing.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Putting=,?,Mixture+,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,MusicalGroup+,Entity+,not=,MakingVocalMusic=,?
+CONCEPTS A: Woman=,Entity+,Putting=,Mixture+,SubjectiveAssessmentAttribute+
+CONCEPTS B: MusicalGroup+,Entity+,not=,MakingVocalMusic=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	makeup	makeup	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03714235-n|Mixture+
 7	carefully	carefully	ADV	RB	fPOS=ADV++RB	4	advmod	_	00153568-r|SubjectiveAssessmentAttribute+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Two dogs of different breeds are looking at each other across a str
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,?,?,Entity+,Black=,?,?,?,PositiveInteger@,?,?,Entity+,White=,?,Entity+,Looking=,?,?,equal+,?,?,Roadway=,?
-CONCEPTS B: ?,Canine+,?,equal+,DomesticAnimal+,Entity+,FrontFn+,?,?,equal+,?,?,Roadway=,?
+CONCEPTS A: Canine+,Entity+,Black=,PositiveInteger@,Entity+,White=,Entity+,Looking=,equal+,Roadway=
+CONCEPTS B: Canine+,equal+,DomesticAnimal+,Entity+,FrontFn+,equal+,Roadway=
 
 CONLL A:
 
@@ -32,6 +32,8 @@ CONLL A:
 22	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	23	det	_	?|?
 23	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	nmod	_	04334599-n|Roadway=
 24	.	.	PUNCT	.	fPOS=PUNCT++.	17	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

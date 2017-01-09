@@ -3,8 +3,8 @@ sentence B = A white and brown dog is walking through the water with difficulty.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,?,Damaging+,?,White=,?,Human+,SurfaceChange+,Coat=,Entity+,Running=,?,SubjectiveWeakNegativeAttribute+,Water=,?
-CONCEPTS B: ?,White=,?,Human+,Canine+,Entity+,Walking=,?,?,Water=,?,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: Canine+,Damaging+,White=,Human+,SurfaceChange+,Coat=,Entity+,Running=,SubjectiveWeakNegativeAttribute+,Water=
+CONCEPTS B: White=,Human+,Canine+,Entity+,Walking=,Water=,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	shallow	shallow	ADV	RB	fPOS=ADV++RB	15	advmod	_	00691696-a|SubjectiveWeakNegativeAttribute+
 15	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	14845743-n|Water=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?

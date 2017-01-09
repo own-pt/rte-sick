@@ -3,8 +3,8 @@ sentence B = A deer isn't jumping over the fence.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Deer=,Entity+,Ambulating=,?,Device+,?
-CONCEPTS B: ?,Deer=,Entity+,not=,Ambulating=,?,?,Device+,?
+CONCEPTS A: Deer=,Entity+,Ambulating=,Device+
+CONCEPTS B: Deer=,Entity+,not=,Ambulating=,Device+
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
 6	fence	fence	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03327234-n|Device+
 7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

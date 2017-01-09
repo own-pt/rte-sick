@@ -3,8 +3,8 @@ sentence B = Two sumo wrestlers are fighting.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Wrestling+,SocialRole+,Entity+,ViolentContest+,?
-CONCEPTS B: ?,Wrestling+,SocialRole+,Entity+,ViolentContest+,?
+CONCEPTS A: Wrestling+,SocialRole+,Entity+,ViolentContest+
+CONCEPTS B: Wrestling+,SocialRole+,Entity+,ViolentContest+
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	02604760-v|Entity+
 5	fighting	fight	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01090335-v|ViolentContest+
 6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?

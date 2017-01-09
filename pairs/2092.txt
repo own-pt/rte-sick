@@ -3,8 +3,8 @@ sentence B = A white car is being driven by the man.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,White=,Automobile=,Entity+,Transportation+,?,?,Hominid=,?
-CONCEPTS B: ?,White=,Automobile=,Entity+,Entity+,Transportation+,?,?,Hominid=,?
+CONCEPTS A: Entity+,White=,Automobile=,Entity+,Transportation+,Hominid=
+CONCEPTS B: White=,Automobile=,Entity+,Entity+,Transportation+,Hominid=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	02472293-n|Hominid=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

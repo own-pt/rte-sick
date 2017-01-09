@@ -3,8 +3,8 @@ sentence B = The brown dogs are playfully fighting on the sandy beach.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Canine+,?,?,Red=,Canine+,Entity+,Motion+,?,?,ShoreArea=,?
-CONCEPTS B: ?,Human+,Canine+,Entity+,SubjectiveAssessmentAttribute+,ViolentContest+,?,?,part+,ShoreArea=,?
+CONCEPTS A: Human+,Canine+,Red=,Canine+,Entity+,Motion+,ShoreArea=
+CONCEPTS B: Human+,Canine+,Entity+,SubjectiveAssessmentAttribute+,ViolentContest+,part+,ShoreArea=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	09217230-n|ShoreArea=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

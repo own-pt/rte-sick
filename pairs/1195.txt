@@ -3,8 +3,8 @@ sentence B = A podium is where a man is speaking.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Speaking+,?,?,Artifact+,?
-CONCEPTS B: ?,Artifact+,Entity+,?,?,Hominid=,Entity+,Speaking+,?
+CONCEPTS A: Hominid=,Entity+,Speaking+,Artifact+
+CONCEPTS B: Artifact+,Entity+,Hominid=,Entity+,Speaking+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	podium	podium	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03159640-n|Artifact+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

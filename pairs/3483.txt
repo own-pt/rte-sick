@@ -3,8 +3,8 @@ sentence B = The cat perched on the table is looking curiously out the window.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Whip+,Process+,?,?,ContentBearingObject+,Entity+,SubjectiveAssessmentAttribute+,Giving+,?,Window=,?
-CONCEPTS B: ?,Whip+,Process+,?,?,ContentBearingObject+,Entity+,Looking=,SubjectiveAssessmentAttribute+,?,?,Window=,?
+CONCEPTS A: Whip+,Process+,ContentBearingObject+,Entity+,SubjectiveAssessmentAttribute+,Giving+,Window=
+CONCEPTS B: Whip+,Process+,ContentBearingObject+,Entity+,Looking=,SubjectiveAssessmentAttribute+,Window=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	window	window	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	04587648-n|Window=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

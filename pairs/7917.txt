@@ -3,8 +3,8 @@ sentence B = A dog is running towards a ball.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Canine+,Entity+,not=,Attribute+,?,?,Ball=,?
-CONCEPTS B: ?,Canine+,Entity+,Attribute+,?,?,Ball=,?
+CONCEPTS A: Canine+,Entity+,not=,Attribute+,Ball=
+CONCEPTS B: Canine+,Entity+,Attribute+,Ball=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02778669-n|Ball=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = The man is standing in a body of water near a waterfall.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Swimming+,?,?,Animal=,?,Water=,?,?,Waterfall=,?
-CONCEPTS B: ?,Hominid=,Entity+,PhysicalAttribute+,?,?,Animal=,?,Water=,?,?,Waterfall=,?
+CONCEPTS A: Hominid=,Entity+,Swimming+,Animal=,Water=,Waterfall=
+CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,Animal=,Water=,Waterfall=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	waterfall	waterfall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	09475292-n|Waterfall=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

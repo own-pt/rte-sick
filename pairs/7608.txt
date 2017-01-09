@@ -3,8 +3,8 @@ sentence B = The woman in the white sweater is drawing a tattoo on the hand of a
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SurfaceChange+,Entity+,Entity+,Removing+,?,?,Woman=,?,?,White=,Clothing+,?,?,Hand+,?,?,Teenager=,?
-CONCEPTS B: ?,Woman=,?,?,White=,Clothing+,Entity+,Removing+,?,SurfaceChange+,?,?,Hand+,?,?,Teenager=,?
+CONCEPTS A: SurfaceChange+,Entity+,Entity+,Removing+,Woman=,White=,Clothing+,Hand+,Teenager=
+CONCEPTS B: Woman=,White=,Clothing+,Entity+,Removing+,SurfaceChange+,Hand+,Teenager=
 
 CONLL A:
 
@@ -27,6 +27,8 @@ CONLL A:
 17	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	18	det	_	?|?
 18	teenager	teenager	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	09772029-n|Teenager=
 19	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

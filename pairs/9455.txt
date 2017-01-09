@@ -3,8 +3,8 @@ sentence B = No dog is jumping in the shade of some trees.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Ambulating=,SubjectiveStrongPositiveAttribute+,?,?,AirTransportation+,?,?,GeographicArea+,?
-CONCEPTS B: ?,Canine+,Entity+,Ambulating=,?,?,ColorAttribute+,?,?,ContentBearingObject+,?
+CONCEPTS A: Canine+,Entity+,Ambulating=,SubjectiveStrongPositiveAttribute+,AirTransportation+,GeographicArea+
+CONCEPTS B: Canine+,Entity+,Ambulating=,ColorAttribute+,ContentBearingObject+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	country	country	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	08497294-n|GeographicArea+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	No	no	DET	DT	fPOS=DET++DT	2	neg	_	?|?

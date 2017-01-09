@@ -3,8 +3,8 @@ sentence B = There is no blond child holding a yellow bottle.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,?,SubjectiveStrongNegativeAttribute+,Shirt=,Damaging+,Text+,?,?,Face+,?
-CONCEPTS B: ?,Entity+,?,Human+,HumanChild=,Process+,?,SubjectiveAssessmentAttribute+,Bottle=,?
+CONCEPTS A: Human+,SubjectiveStrongNegativeAttribute+,Shirt=,Damaging+,Text+,Face+
+CONCEPTS B: Entity+,Human+,HumanChild=,Process+,SubjectiveAssessmentAttribute+,Bottle=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	11	nmod:poss	_	?|?
 11	face	face	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	05600637-n|Face+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

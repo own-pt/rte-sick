@@ -3,8 +3,8 @@ sentence B = A brown dog is attacking another animal in front of the man in pant
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Canine+,Entity+,Attack=,?,Animal=,?,FrontFn=,?,?,SubjectiveWeakNegativeAttribute+,Man=,?,Trousers+,?
-CONCEPTS B: ?,Human+,Canine+,Entity+,Attack=,?,Animal=,?,FrontFn=,?,?,Man=,?,Trousers+,?
+CONCEPTS A: Human+,Canine+,Entity+,Attack=,Animal=,FrontFn=,SubjectiveWeakNegativeAttribute+,Man=,Trousers+
+CONCEPTS B: Human+,Canine+,Entity+,Attack=,Animal=,FrontFn=,Man=,Trousers+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
 15	pants	pant	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	04489008-n|Trousers+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

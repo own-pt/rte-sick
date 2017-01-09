@@ -3,8 +3,8 @@ sentence B = A man in a blue jumpsuit is courageously performing a wheelie on a 
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongPositiveAttribute+,ArtisticProfession+,Entity+,IntentionalProcess+,?,?,?,?,PassengerVehicle+,?,?,Man=,?,?,SubjectiveStrongNegativeAttribute+,Clothing+,?
-CONCEPTS B: ?,Man=,?,?,SubjectiveStrongNegativeAttribute+,Clothing+,Entity+,SubjectiveAssessmentAttribute+,IntentionalProcess+,?,?,?,?,PassengerVehicle+,?
+CONCEPTS A: SubjectiveStrongPositiveAttribute+,ArtisticProfession+,Entity+,IntentionalProcess+,PassengerVehicle+,Man=,SubjectiveStrongNegativeAttribute+,Clothing+
+CONCEPTS B: Man=,SubjectiveStrongNegativeAttribute+,Clothing+,Entity+,SubjectiveAssessmentAttribute+,IntentionalProcess+,PassengerVehicle+
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
 17	jumpsuit	jumpsuit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	03605598-n|Clothing+
 18	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Two men, a woman, and two young boys are standing in front of a lar
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Man=,?,?,Woman=,?,?,?,HumanYouth=,Human+,PhysicalAttribute+,SittingDown+,?,FrontFn=,?,?,SubjectiveWeakPositiveAttribute+,GroupOfPeople+,?,GroupOfPeople=,?,?,Building=,?
-CONCEPTS B: ?,Man=,?,?,Woman=,?,?,?,HumanYouth=,Human+,Entity+,PhysicalAttribute+,?,FrontFn=,?,?,SubjectiveWeakPositiveAttribute+,GroupOfPeople+,?,GroupOfPeople=,?,?,Building=,?
+CONCEPTS A: Man=,Woman=,HumanYouth=,Human+,PhysicalAttribute+,SittingDown+,FrontFn=,SubjectiveWeakPositiveAttribute+,GroupOfPeople+,GroupOfPeople=,Building=
+CONCEPTS B: Man=,Woman=,HumanYouth=,Human+,Entity+,PhysicalAttribute+,FrontFn=,SubjectiveWeakPositiveAttribute+,GroupOfPeople+,GroupOfPeople=,Building=
 
 CONLL A:
 
@@ -32,6 +32,8 @@ CONLL A:
 22	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	23	det	_	?|?
 23	building	building	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	02913152-n|Building=
 24	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

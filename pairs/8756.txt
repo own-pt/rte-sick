@@ -3,8 +3,8 @@ sentence B = Several people are walking in line across a bridge.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Entity+,Walking=,?,?,Bridge+,?,?,River=,?
-CONCEPTS B: ?,GroupOfPeople=,Entity+,Walking=,?,Cable+,?,?,Bridge+,?
+CONCEPTS A: GroupOfPeople=,Entity+,Walking=,Bridge+,River=
+CONCEPTS B: GroupOfPeople=,Entity+,Walking=,Cable+,Bridge+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	river	river	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	09411430-n|River=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Several	several	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	?|?

@@ -3,8 +3,8 @@ sentence B = The woman is not picking up and holding a baby kangaroo.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Pulling+,Increasing+,?,Process+,?,HumanBaby=,Marsupial+,?
-CONCEPTS B: ?,Woman=,Entity+,not=,Pulling+,Increasing+,?,Process+,?,HumanBaby=,Marsupial+,?
+CONCEPTS A: Woman=,Entity+,Pulling+,Increasing+,Process+,HumanBaby=,Marsupial+
+CONCEPTS B: Woman=,Entity+,not=,Pulling+,Increasing+,Process+,HumanBaby=,Marsupial+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	baby	baby	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	09827683-n|HumanBaby=
 10	kangaroo	kangaroo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	01877134-n|Marsupial+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

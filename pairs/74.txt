@@ -3,8 +3,8 @@ sentence B = A young girl is looking at a woman in costume.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,SubjectiveAssessmentAttribute+,?,?,Woman=,?,Clothing+,?
-CONCEPTS B: ?,HumanYouth=,Human+,Entity+,SubjectiveAssessmentAttribute+,?,?,Woman=,?,Clothing+,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,SubjectiveAssessmentAttribute+,Woman=,Clothing+
+CONCEPTS B: HumanYouth=,Human+,Entity+,SubjectiveAssessmentAttribute+,Woman=,Clothing+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
 10	costume	costume	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	03113657-n|Clothing+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

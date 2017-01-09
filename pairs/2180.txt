@@ -3,8 +3,8 @@ sentence B = A woman is placing a bowl with a crack near an egg.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Damaging+,?,Gland+,?,?,Cup=,Dish+,?
-CONCEPTS B: ?,Woman=,Entity+,Putting=,?,Dish+,?,?,Separating+,?,?,Gland+,?
+CONCEPTS A: Woman=,Entity+,Damaging+,Gland+,Cup=,Dish+
+CONCEPTS B: Woman=,Entity+,Putting=,Dish+,Separating+,Gland+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	glass	glass	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	03438257-n|Cup=
 10	bowl	bowl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02880940-n|Dish+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

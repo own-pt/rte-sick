@@ -3,8 +3,8 @@ sentence B = The cheerleaders are parading and wearing black, pink and white uni
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Group=,?,GroupOfPeople=,?,?,SubjectiveWeakPositiveAttribute+,AsianEthnicity=,Restaurant+,Entity+,Eating=,?
-CONCEPTS B: ?,Position+,Entity+,Walking+,?,CoveringFn=,Black=,?,Pink+,?,White=,UniformClothing=,?
+CONCEPTS A: Group=,GroupOfPeople=,SubjectiveWeakPositiveAttribute+,AsianEthnicity=,Restaurant+,Entity+,Eating=
+CONCEPTS B: Position+,Entity+,Walking+,CoveringFn=,Black=,Pink+,White=,UniformClothing=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	02604760-v|Entity+
 11	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01166351-v|Eating=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

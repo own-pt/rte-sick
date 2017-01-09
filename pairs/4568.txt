@@ -3,8 +3,8 @@ sentence B = Two men are fighting.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Group=,?,Hominid=,Entity+,ViolentContest+,?
-CONCEPTS B: ?,Hominid=,Entity+,ViolentContest+,?
+CONCEPTS A: Group=,Hominid=,Entity+,ViolentContest+
+CONCEPTS B: Hominid=,Entity+,ViolentContest+
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
 6	fighting	fight	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01090335-v|ViolentContest+
 7	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	compound	_	?|?

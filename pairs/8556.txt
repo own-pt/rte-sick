@@ -3,8 +3,8 @@ sentence B = A grey silky dog is sleeping in the grass and a brown dog is lookin
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Canine+,Entity+,SurfaceChange+,?,Black=,Canine+,PhysicalAttribute+,?,?,Dry=,Grass=,?
-CONCEPTS B: ?,Gray+,TextureAttribute+,Canine+,Entity+,OrganismProcess+,?,?,Grass=,?,?,Human+,Canine+,Entity+,SubjectiveAssessmentAttribute+,?,?
+CONCEPTS A: Human+,Canine+,Entity+,SurfaceChange+,Black=,Canine+,PhysicalAttribute+,Dry=,Grass=
+CONCEPTS B: Gray+,TextureAttribute+,Canine+,Entity+,OrganismProcess+,Grass=,Human+,Canine+,Entity+,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	dry	dry	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	compound	_	02551380-a|Dry=
 13	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	12102133-n|Grass=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A woman in a white dress and a woman in a blue dress are standing o
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,White=,Woman=,Entity+,PhysicalAttribute+,?,?,Woman=,Dressing+,?,SubjectiveStrongNegativeAttribute+,?,?,Attribute+,?
-CONCEPTS B: ?,Woman=,?,?,White=,Dress+,?,?,Woman=,?,?,SubjectiveStrongNegativeAttribute+,Dress+,Entity+,PhysicalAttribute+,?,?,Attribute+,?
+CONCEPTS A: White=,Woman=,Entity+,PhysicalAttribute+,Woman=,Dressing+,SubjectiveStrongNegativeAttribute+,Attribute+
+CONCEPTS B: Woman=,White=,Dress+,Woman=,SubjectiveStrongNegativeAttribute+,Dress+,Entity+,PhysicalAttribute+,Attribute+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	stage	stage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	13939892-n|Attribute+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

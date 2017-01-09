@@ -3,8 +3,8 @@ sentence B = A little girl with blond hair is smiling and sitting on a swing.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,PhysicalAttribute+,?,SubjectiveStrongNegativeAttribute+,Human+,?,Human+,Hair=,Smiling=,?,SittingDown+,?,?,SoundAttribute+,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,?,Human+,Hair=,PhysicalAttribute+,Smiling=,?,SittingDown+,?,?,SoundAttribute+,?
+CONCEPTS A: PhysicalAttribute+,SubjectiveStrongNegativeAttribute+,Human+,Human+,Hair=,Smiling=,SittingDown+,SoundAttribute+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Human+,Hair=,PhysicalAttribute+,Smiling=,SittingDown+,SoundAttribute+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	swing	swing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	04992008-n|SoundAttribute+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Three women are resting in a village.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,PhysicalAttribute+,SittingDown+,Meeting=,?,Making+,Wall=,?
-CONCEPTS B: ?,Woman=,Entity+,PastFn=,?,?,City+,?
+CONCEPTS A: Woman=,PhysicalAttribute+,SittingDown+,Meeting=,Making+,Wall=
+CONCEPTS B: Woman=,Entity+,PastFn=,City+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	woven	weave	VERB	VBN	fPOS=ADP++IN	4	advcl	_	01518924-v|Making+
 8	walls	wall	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	dobj	_	04546855-n|Wall=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Three	3	DET	DT	Number=Plur|PronType=Dem|fPOS=DET++DT	2	det	_	?|?

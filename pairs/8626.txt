@@ -3,8 +3,8 @@ sentence B = People are sitting near a wall.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,FullyFormed+,PhysicalAttribute+,SittingDown+,?,Mineral+,RadiatingSound+,?
-CONCEPTS B: GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,?,Wall=,?
+CONCEPTS A: FullyFormed+,PhysicalAttribute+,SittingDown+,Mineral+,RadiatingSound+
+CONCEPTS B: GroupOfPeople=,PhysicalAttribute+,SittingDown+,Wall=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	stone	stone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	14696793-n|Mineral+
 7	steps	step	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	07383823-n|RadiatingSound+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	07942152-n|GroupOfPeople=

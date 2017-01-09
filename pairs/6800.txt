@@ -3,8 +3,8 @@ sentence B = Two children are peering over a rusty ledge.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,Inclining+,?,?,Mixture+,Metal+,?
-CONCEPTS B: ?,HumanChild=,Entity+,Looking=,?,?,Oxidation+,GeographicArea+,?
+CONCEPTS A: HumanChild=,Entity+,Inclining+,Mixture+,Metal+
+CONCEPTS B: HumanChild=,Entity+,Looking=,Oxidation+,GeographicArea+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	metal	metal	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	14586769-n|Mixture+
 8	bars	bar	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	02788689-n|Metal+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = Some football players in red and white are jumping and hugging.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Football+,Human+,?,?,Red=,?,White=,UniformClothing=,Entity+,Entity+,MotionUpward=,?,?,Human+,?
-CONCEPTS B: ?,Football+,Human+,?,Red=,?,White=,Entity+,Ambulating=,?,Embracing+,?
+CONCEPTS A: Football+,Human+,Red=,White=,UniformClothing=,Entity+,Entity+,MotionUpward=,Human+
+CONCEPTS B: Football+,Human+,Red=,White=,Entity+,Ambulating=,Embracing+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	15	nummod	_	?|?
 15	teammates	teammate	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	nmod	_	10695050-n|Human+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?
+
+
 CONLL B:
 
 1	Some	some	DET	DT	fPOS=DET++DT	3	det	_	?|?

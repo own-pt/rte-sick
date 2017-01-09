@@ -3,8 +3,8 @@ sentence B = There is no small bee landing on a bunch of yellow flowers.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Bee=,Entity+,Arriving+,?,?,Collection+,?,SubjectiveAssessmentAttribute+,Flower+,?
-CONCEPTS B: ?,Entity+,?,SubjectiveStrongNegativeAttribute+,Bee=,Arriving+,?,?,Collection+,?,SubjectiveAssessmentAttribute+,Flower+,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Bee=,Entity+,Arriving+,Collection+,SubjectiveAssessmentAttribute+,Flower+
+CONCEPTS B: Entity+,SubjectiveStrongNegativeAttribute+,Bee=,Arriving+,Collection+,SubjectiveAssessmentAttribute+,Flower+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	02101942-a|SubjectiveAssessmentAttribute+
 11	flowers	flower	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	11669335-n|Flower+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

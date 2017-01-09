@@ -3,8 +3,8 @@ sentence B = The animal is grazing on the grass.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HoofedMammal+,Entity+,Touching+,?,?,Grass=,?
-CONCEPTS B: ?,Animal=,Entity+,Eating+,?,?,Grass=,?
+CONCEPTS A: HoofedMammal+,Entity+,Touching+,Grass=
+CONCEPTS B: Animal=,Entity+,Eating+,Grass=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	12102133-n|Grass=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A man is singing and playing the guitar.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Process+,?,SubjectiveStrongNegativeAttribute+,ComputerProgram+,?,PhysicalAttribute+,Earphone=,?
-CONCEPTS B: ?,Hominid=,Entity+,MakingVocalMusic=,?,DramaticActing+,?,Guitar=,?
+CONCEPTS A: Hominid=,Entity+,Process+,SubjectiveStrongNegativeAttribute+,ComputerProgram+,PhysicalAttribute+,Earphone=
+CONCEPTS B: Hominid=,Entity+,MakingVocalMusic=,DramaticActing+,Guitar=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	contains	contain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	acl:relcl	_	02701210-v|PhysicalAttribute+
 10	headphones	headphone	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	dobj	_	03261776-n|Earphone=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

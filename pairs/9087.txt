@@ -3,8 +3,8 @@ sentence B = Different things from a war are being shown to some people by a vet
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Veteran+,Entity+,IntentionalProcess+,equal+,Entity+,?,?,War=,?,?,GroupOfPeople=,?
-CONCEPTS B: equal+,Entity+,?,?,War=,Entity+,Entity+,IntentionalProcess+,?,?,GroupOfPeople=,?,?,Veteran+,?
+CONCEPTS A: Veteran+,Entity+,IntentionalProcess+,equal+,Entity+,War=,GroupOfPeople=
+CONCEPTS B: equal+,Entity+,War=,Entity+,Entity+,IntentionalProcess+,GroupOfPeople=,Veteran+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	some	some	DET	DT	fPOS=DET++DT	12	det	_	?|?
 12	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	nmod	_	07942152-n|GroupOfPeople=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Different	different	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	02064745-a|equal+

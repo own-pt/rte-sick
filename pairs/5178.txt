@@ -3,8 +3,8 @@ sentence B = Some food is being fried by a woman.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,PositionalAttribute+,Killing+,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,SubjectiveAssessmentAttribute+,Entity+,Entity+,Killing+,?,?,Woman=,?
+CONCEPTS A: Woman=,Entity+,PositionalAttribute+,Killing+,SubjectiveAssessmentAttribute+
+CONCEPTS B: SubjectiveAssessmentAttribute+,Entity+,Entity+,Killing+,Woman=
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	frying	fry	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	advcl	_	02484957-v|Killing+
 6	food	food	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	05811214-n|SubjectiveAssessmentAttribute+
 7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?

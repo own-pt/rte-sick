@@ -3,8 +3,8 @@ sentence B = A woman is peeling a potato.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Woman=,Removing+,?,PotatoTuber=,?
-CONCEPTS B: ?,Woman=,Entity+,Removing+,?,PotatoTuber=,?
+CONCEPTS A: Entity+,Woman=,Removing+,PotatoTuber=
+CONCEPTS B: Woman=,Entity+,Removing+,PotatoTuber=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	potato	potato	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	07710616-n|PotatoTuber=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

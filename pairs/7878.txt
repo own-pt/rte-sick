@@ -3,8 +3,8 @@ sentence B = ATVs are being driven by three people.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Entity+,Transportation+,?,?
-CONCEPTS B: ?,Entity+,Entity+,Transportation+,?,?,GroupOfPeople=,?
+CONCEPTS A: GroupOfPeople=,Entity+,Transportation+
+CONCEPTS B: Entity+,Entity+,Transportation+,GroupOfPeople=
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	driving	drive	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01930874-v|Transportation+
 5	ATVs	atvs	PROPN	NNP	Number=Sing|fPOS=PROPN++NNP	4	dobj	_	?|?
 6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	ATVs	atvs	AUX	VB	Number=Sing|fPOS=NOUN++NN	4	nsubjpass	_	?|?

@@ -3,8 +3,8 @@ sentence B = A young child is wearing boots made of green rubber and playing in 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Ambulating=,?,?,StaticWaterArea+,?,?,Roadway=,?
-CONCEPTS B: ?,HumanYouth=,HumanChild=,Entity+,RecreationOrExercise+,Shoe=,Attribute+,?,Green=,Rubber+,?,DramaticActing+,?,?,StaticWaterArea+,ContainerFull+,?,Soil=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Ambulating=,StaticWaterArea+,Roadway=
+CONCEPTS B: HumanYouth=,HumanChild=,Entity+,RecreationOrExercise+,Shoe=,Attribute+,Green=,Rubber+,DramaticActing+,StaticWaterArea+,ContainerFull+,Soil=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	04334599-n|Roadway=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A race car driver is standing up and pointing his hand at the sky.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Racing=,Automobile=,Device+,Entity+,PhysicalAttribute+,Increasing+,?,Entity+,EmotionalState+,Indicating=,?,Hand+,?,?,SpaceRegion=,?
-CONCEPTS B: ?,Racing=,Automobile=,Device+,Entity+,PhysicalAttribute+,Increasing+,?,Indicating=,?,Hand+,?,?,SpaceRegion=,?
+CONCEPTS A: Racing=,Automobile=,Device+,Entity+,PhysicalAttribute+,Increasing+,Entity+,EmotionalState+,Indicating=,Hand+,SpaceRegion=
+CONCEPTS B: Racing=,Automobile=,Device+,Entity+,PhysicalAttribute+,Increasing+,Indicating=,Hand+,SpaceRegion=
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	?|?
 16	sky	sky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	09436708-n|SpaceRegion=
 17	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

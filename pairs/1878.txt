@@ -3,8 +3,8 @@ sentence B = Some kittens are eating.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Feline+,Entity+,Eating=,?,SubjectiveAssessmentAttribute+,?,?,Tray=,?
-CONCEPTS B: ?,Feline+,Entity+,Process+,?
+CONCEPTS A: Feline+,Entity+,Eating=,SubjectiveAssessmentAttribute+,Tray=
+CONCEPTS B: Feline+,Entity+,Process+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	trays	tray	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	04476259-n|Tray=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Some	some	DET	DT	Number=Sing|fPOS=NOUN++NN	2	det	_	?|?

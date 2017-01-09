@@ -3,8 +3,8 @@ sentence B = An Arabic man is wearing a white hat.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,White=,Hat+,?,Human+,Shirt=,Entity+,?,?,Woman=,?,Red+,?,Entity+,FrontFn+,?,?,Hand+,?
-CONCEPTS B: ?,ArabicLanguage=,Man=,Entity+,CoveringFn=,?,White=,Hat+,?
+CONCEPTS A: Man=,White=,Hat+,Human+,Shirt=,Entity+,Woman=,Red+,Entity+,FrontFn+,Hand+
+CONCEPTS B: ArabicLanguage=,Man=,Entity+,CoveringFn=,White=,Hat+
 
 CONLL A:
 
@@ -30,6 +30,8 @@ CONLL A:
 20	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	21	det	_	?|?
 21	right	right	NOUN	NN	Number=Sing|fPOS=NOUN++NN	18	nmod	_	05565337-n|Hand+
 22	.	.	PUNCT	.	fPOS=PUNCT++.	13	punct	_	?|?
+
+
 CONLL B:
 
 1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

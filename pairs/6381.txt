@@ -3,8 +3,8 @@ sentence B = The man is wearing a wetsuit and is riding a surfboard.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,Human+,EmotionalState+,?,?,TransportationDevice+,?
-CONCEPTS B: ?,Hominid=,Entity+,CoveringFn=,?,?,?,Entity+,Transportation+,?,TransportationDevice+,?
+CONCEPTS A: Entity+,Human+,EmotionalState+,TransportationDevice+
+CONCEPTS B: Hominid=,Entity+,CoveringFn=,Entity+,Transportation+,TransportationDevice+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	surfboard	surfboard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	04363559-n|TransportationDevice+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

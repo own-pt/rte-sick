@@ -3,8 +3,8 @@ sentence B = A few women are holding each other and dancing together.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,PhysicalAttribute+,?,equal+,?,?,Circle=,?,Dancing+,?
-CONCEPTS B: ?,?,Woman=,Entity+,Keeping+,?,equal+,?,Dancing+,Meeting=,?
+CONCEPTS A: Woman=,Entity+,PhysicalAttribute+,equal+,Circle=,Dancing+
+CONCEPTS B: Woman=,Entity+,Keeping+,equal+,Dancing+,Meeting=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	and	and	CONJ	CC	fPOS=CONJ++CC	9	cc	_	?|?
 11	dancing	dance	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	conj	_	01708676-v|Dancing+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

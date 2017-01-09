@@ -3,8 +3,8 @@ sentence B = A girl is carrying a lot of colorful scarves on the beach.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,Gold=,?,ColorAttribute+,Entity+,PhysicalAttribute+,?,Reasoning+,Nation@,?
-CONCEPTS B: ?,Human+,Entity+,Transportation+,?,SubjectiveAssessmentAttribute+,?,ColorAttribute+,Clothing+,?,?,ShoreArea=,?
+CONCEPTS A: Human+,Gold=,ColorAttribute+,Entity+,PhysicalAttribute+,Reasoning+,Nation@
+CONCEPTS B: Human+,Entity+,Transportation+,SubjectiveAssessmentAttribute+,ColorAttribute+,Clothing+,ShoreArea=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	rainbow	rainbow	NOUN	NN	fPOS=ADV++RB	8	dobj	_	05950982-n|Reasoning+
 11	afghan	afghan	ADV	RB	Degree=Pos|fPOS=ADJ++JJ	8	advmod	_	03003928-a|Nation@
 12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

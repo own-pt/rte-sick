@@ -3,8 +3,8 @@ sentence B = The people are walking on the road beside a waterfall, which is bea
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Entity+,Walking=,?,?,Roadway+,?,?,SubjectiveStrongPositiveAttribute+,Waterfall=,?
-CONCEPTS B: ?,GroupOfPeople=,Entity+,Walking=,?,?,Roadway+,?,?,Waterfall=,?,?,Entity+,SubjectiveStrongPositiveAttribute+,?
+CONCEPTS A: GroupOfPeople=,Entity+,Walking=,Roadway+,SubjectiveStrongPositiveAttribute+,Waterfall=
+CONCEPTS B: GroupOfPeople=,Entity+,Walking=,Roadway+,Waterfall=,Entity+,SubjectiveStrongPositiveAttribute+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	beautiful	beautiful	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	00217728-a|SubjectiveStrongPositiveAttribute+
 11	waterfall	waterfall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	09475292-n|Waterfall=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Two kids and a woman are playing games at an arcade.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,FamilyGroup+,Entity+,Buying=,?,?,?,Selling+,Automobile=,?
-CONCEPTS B: ?,HumanChild=,?,?,Woman=,Entity+,DramaticActing+,Game=,?,?,StationaryArtifact+,?
+CONCEPTS A: FamilyGroup+,Entity+,Buying=,Selling+,Automobile=
+CONCEPTS B: HumanChild=,Woman=,Entity+,DramaticActing+,Game=,StationaryArtifact+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	vending	vend	VERB	VBG	Number=Sing|fPOS=NOUN++NN	9	amod	_	02302817-v|Selling+
 9	machine	machine	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02958343-n|Automobile=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NOUN	NN	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

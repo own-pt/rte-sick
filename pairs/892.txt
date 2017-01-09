@@ -3,8 +3,8 @@ sentence B = People are on a beach full of sand by the ocean and are enjoying a 
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: GroupOfPeople=,Attribute+,?,?,ShoreArea=,ContainerFull+,?,Sand=,?,?,Ocean=,?,Attribute+,IntentionalPsychologicalProcess+,?,Happiness+,Day=,?
-CONCEPTS B: GroupOfPeople=,Attribute+,?,?,ShoreArea=,ContainerFull+,?,Sand=,?,?,Ocean=,?,Attribute+,IntentionalPsychologicalProcess+,?,Day=,ContainerFull+,?,Sol=,?
+CONCEPTS A: GroupOfPeople=,Attribute+,ShoreArea=,ContainerFull+,Sand=,Ocean=,Attribute+,IntentionalPsychologicalProcess+,Happiness+,Day=
+CONCEPTS B: GroupOfPeople=,Attribute+,ShoreArea=,ContainerFull+,Sand=,Ocean=,Attribute+,IntentionalPsychologicalProcess+,Day=,ContainerFull+,Sol=
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	sunny	sunny	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	00363938-a|Happiness+
 17	day	day	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	15155220-n|Day=
 18	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	07942152-n|GroupOfPeople=

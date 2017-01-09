@@ -3,8 +3,8 @@ sentence B = Two people are seated on a camel and another camel is in the foregr
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: GroupOfPeople=,Entity+,Carrying=,?,Camel=,?,?,Sand=,?
-CONCEPTS B: ?,GroupOfPeople=,Entity+,Communication+,?,?,Camel=,?,?,Camel=,Entity+,?,?,Region+,?
+CONCEPTS A: GroupOfPeople=,Entity+,Carrying=,Camel=,Sand=
+CONCEPTS B: GroupOfPeople=,Entity+,Communication+,Camel=,Camel=,Entity+,Region+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	15019030-n|Sand=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = A man is leaning against a pole and is surrounded by people.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Region+,East+,Hominid=,Entity+,PhysicalAttribute+,?,?,Device+,Position=,?,?,equal+,GroupOfPeople=,?
-CONCEPTS B: ?,Hominid=,Entity+,Inclining+,?,?,LengthMeasure@,?,Entity+,Process+,?,GroupOfPeople=,?
+CONCEPTS A: Region+,East+,Hominid=,Entity+,PhysicalAttribute+,Device+,Position=,equal+,GroupOfPeople=
+CONCEPTS B: Hominid=,Entity+,Inclining+,LengthMeasure@,Entity+,Process+,GroupOfPeople=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	02069355-a|equal+
 14	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	07942152-n|GroupOfPeople=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

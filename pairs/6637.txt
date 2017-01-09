@@ -3,8 +3,8 @@ sentence B = A horse is leaping a hurdle and has a rider on its back.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Horse=,?,?,Position+,Entity+,not=,Ambulating=,?,?,Barrier=,?
-CONCEPTS B: ?,Horse=,Entity+,Ambulating=,?,Device+,?,Damaging+,?,Position+,?,?,BodyPart+,?
+CONCEPTS A: Horse=,Position+,Entity+,not=,Ambulating=,Barrier=
+CONCEPTS B: Horse=,Entity+,Ambulating=,Device+,Damaging+,Position+,BodyPart+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	barrier	barrier	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	02796623-n|Barrier=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

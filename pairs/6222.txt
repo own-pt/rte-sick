@@ -3,8 +3,8 @@ sentence B = People at a drag race are running away from the flames that are com
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: GroupOfPeople=,?,?,Process+,Racing=,Entity+,SubjectiveAssessmentAttribute+,?,?,Combustion=,?,Entity+,Arriving=,Giving+,?,?,Automobile=,?
-CONCEPTS B: GroupOfPeople=,?,?,Process+,Racing=,Entity+,PhysicalAttribute+,?,?,?,Combustion=,?,Entity+,Arriving=,?,?,?,Automobile=,?
+CONCEPTS A: GroupOfPeople=,Process+,Racing=,Entity+,SubjectiveAssessmentAttribute+,Combustion=,Entity+,Arriving=,Giving+,Automobile=
+CONCEPTS B: GroupOfPeople=,Process+,Racing=,Entity+,PhysicalAttribute+,Combustion=,Entity+,Arriving=,Automobile=
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	17	det	_	?|?
 17	cars	car	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	nmod	_	02958343-n|Automobile=
 18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	People	people	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	07942152-n|GroupOfPeople=

@@ -3,8 +3,8 @@ sentence B = Two men are taking a break from work.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,PhysicalAttribute+,?,TimeInterval+,?,Constructing=,?
-CONCEPTS B: ?,Hominid=,Entity+,PhysicalAttribute+,?,TimeInterval+,?,IntentionalProcess+,?
+CONCEPTS A: Hominid=,Entity+,PhysicalAttribute+,TimeInterval+,Constructing=
+CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,TimeInterval+,IntentionalProcess+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	from	from	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
 8	construction	construction	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	00911048-n|Constructing=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

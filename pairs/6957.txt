@@ -3,8 +3,8 @@ sentence B = Four people are performing music outdoors.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: MakingMusic=,Entity+,Entity+,IntentionalProcess+,?,?,GroupOfPeople=,Outdoors+,?
-CONCEPTS B: ?,GroupOfPeople=,Entity+,IntentionalProcess+,MakingMusic=,Outdoors+,?
+CONCEPTS A: MakingMusic=,Entity+,Entity+,IntentionalProcess+,GroupOfPeople=,Outdoors+
+CONCEPTS B: GroupOfPeople=,Entity+,IntentionalProcess+,MakingMusic=,Outdoors+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	compound	_	07942152-n|GroupOfPeople=
 8	outdoors	outdoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	00110659-r|Outdoors+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

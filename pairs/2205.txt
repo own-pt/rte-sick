@@ -3,8 +3,8 @@ sentence B = Two kids are pushing an inflatable crocodile in a pool.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,?,Reptile+,Entity+,Entity+,Pushing=,?,?,HumanChild=,?,?,StaticWaterArea+,?
-CONCEPTS B: ?,HumanChild=,Entity+,Pushing=,?,?,Reptile+,?,?,StaticWaterArea+,?
+CONCEPTS A: Reptile+,Entity+,Entity+,Pushing=,HumanChild=,StaticWaterArea+
+CONCEPTS B: HumanChild=,Entity+,Pushing=,Reptile+,StaticWaterArea+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	09397607-n|StaticWaterArea+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

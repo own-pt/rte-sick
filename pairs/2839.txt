@@ -3,8 +3,8 @@ sentence B = A little girl is walking off the stage.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,DramaticActing+,?,SubjectiveWeakPositiveAttribute+,Piano=,?,Attribute+,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Walking=,?,?,Attribute+,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,DramaticActing+,SubjectiveWeakPositiveAttribute+,Piano=,Attribute+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Walking=,Attribute+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
 10	stage	stage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	13939892-n|Attribute+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

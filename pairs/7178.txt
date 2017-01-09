@@ -3,8 +3,8 @@ sentence B = There is no child holding a camera in front of his face.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,HumanYouth=,HumanChild=,?,Black=,Hair=,Entity+,PhysicalAttribute+,?,Icon+,?,?,Camera=,?
-CONCEPTS B: ?,Entity+,?,HumanChild=,Process+,?,Camera=,?,FrontFn=,?,?,Face+,?
+CONCEPTS A: HumanYouth=,HumanChild=,Black=,Hair=,Entity+,PhysicalAttribute+,Icon+,Camera=
+CONCEPTS B: Entity+,HumanChild=,Process+,Camera=,FrontFn=,Face+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	02942699-n|Camera=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

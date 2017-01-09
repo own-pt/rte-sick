@@ -3,8 +3,8 @@ sentence B = A cowgirl is riding a barrel near a horse in the corner.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Horse=,Entity+,?,?,Red=,Cask=,?,?,RecreationOrExercise+,?
-CONCEPTS B: ?,Position+,Entity+,Carrying=,?,Cask=,?,?,Horse=,?,?,StationaryArtifact+,?
+CONCEPTS A: Human+,Horse=,Entity+,Red=,Cask=,RecreationOrExercise+
+CONCEPTS B: Position+,Entity+,Carrying=,Cask=,Horse=,StationaryArtifact+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	rodeo	rodeo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	00522939-n|RecreationOrExercise+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Children are playing outside with a soccer ball on the green grass.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,DramaticActing+,Soccer=,?,?,Park+,?
-CONCEPTS B: HumanChild=,Entity+,DramaticActing+,?,?,?,Soccer=,Ball=,?,?,Green=,Grass=,?
+CONCEPTS A: HumanChild=,Entity+,DramaticActing+,Soccer=,Park+
+CONCEPTS B: HumanChild=,Entity+,DramaticActing+,Soccer=,Ball=,Green=,Grass=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	08615374-n|Park+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	09917593-n|HumanChild=

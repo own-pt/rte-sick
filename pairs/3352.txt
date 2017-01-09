@@ -3,8 +3,8 @@ sentence B = Someone is typing on a keyboard.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,WrittenCommunication=,?
-CONCEPTS B: ?,Entity+,Writing+,?,?,ComputerInputDevice+,?
+CONCEPTS A: Entity+,WrittenCommunication=
+CONCEPTS B: Entity+,Writing+,ComputerInputDevice+
 
 CONLL A:
 
@@ -12,6 +12,8 @@ CONLL A:
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	02604760-v|Entity+
 3	writing	write	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00993014-v|WrittenCommunication=
 4	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?

@@ -3,8 +3,8 @@ sentence B = A mother is giving the baby a pen with a walking rhino on it.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanBaby=,HoofedMammal+,Entity+,Walking=,?,?,StationaryArtifact+,?,?,BiologicalAttribute+,?
-CONCEPTS B: ?,BiologicalAttribute+,Entity+,Process+,?,HumanBaby=,?,StationaryArtifact+,?,?,Walking=,HoofedMammal+,?,?,?
+CONCEPTS A: HumanBaby=,HoofedMammal+,Entity+,Walking=,StationaryArtifact+,BiologicalAttribute+
+CONCEPTS B: BiologicalAttribute+,Entity+,Process+,HumanBaby=,StationaryArtifact+,Walking=,HoofedMammal+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	11	nmod:poss	_	?|?
 11	mother	mother	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	10332385-n|BiologicalAttribute+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

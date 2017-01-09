@@ -3,8 +3,8 @@ sentence B = Two dogs on the grass are playing with a plastic toy.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Heating+,?,IntentionalProcess+,?,Grabbing+,?,Soccer=,Ball=,?
-CONCEPTS B: ?,Canine+,?,?,Grass=,Entity+,DramaticActing+,?,?,SubjectiveAssessmentAttribute+,RecreationOrExerciseDevice+,?
+CONCEPTS A: Canine+,Entity+,Heating+,IntentionalProcess+,Grabbing+,Soccer=,Ball=
+CONCEPTS B: Canine+,Grass=,Entity+,DramaticActing+,SubjectiveAssessmentAttribute+,RecreationOrExerciseDevice+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	soccer	soccer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	00478262-n|Soccer=
 11	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	02778669-n|Ball=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

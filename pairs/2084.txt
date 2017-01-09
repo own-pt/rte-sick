@@ -3,8 +3,8 @@ sentence B = Eggs are being strongly whisked in a bowl by a person.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Impacting+,?,BirdEgg=,?,?,Dish+,?,IntentionalProcess+,?,Device+,Attribute+,?,Wire=,?
-CONCEPTS B: Gland+,Entity+,Entity+,SubjectiveAssessmentAttribute+,Removing+,?,?,Dish+,?,?,Human=,?
+CONCEPTS A: Woman=,Entity+,Impacting+,BirdEgg=,Dish+,IntentionalProcess+,Device+,Attribute+,Wire=
+CONCEPTS B: Gland+,Entity+,Entity+,SubjectiveAssessmentAttribute+,Removing+,Dish+,Human=
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	of	of	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
 16	wire	wire	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	04594218-n|Wire=
 17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Eggs	egg	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubjpass	_	05524615-n|Gland+

@@ -3,8 +3,8 @@ sentence B = A bicyclist is holding a bike over his head in a group of people.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,Entity+,ReligiousProcess+,?,?,ColdTemperature=,Human+,?
-CONCEPTS B: ?,Human+,Entity+,Keeping+,?,Bicycle=,?,?,Head=,?,?,Group=,?,GroupOfPeople=,?
+CONCEPTS A: Entity+,Entity+,ReligiousProcess+,ColdTemperature=,Human+
+CONCEPTS B: Human+,Entity+,Keeping+,Bicycle=,Head=,Group=,GroupOfPeople=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	cold	cold	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	01251128-a|ColdTemperature=
 8	cyclist	cyclist	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09986189-n|Human+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

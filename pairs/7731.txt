@@ -3,8 +3,8 @@ sentence B = A boy under an umbrella is being held by his father who is wearing 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,IntentionalPsychologicalProcess+,?,Damaging[,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,Human+,?,?,Device+,Entity+,Entity+,Permission+,?,?,SocialRole+,?,Entity+,CoveringFn=,?,Coat=,Coloring+,?,SubjectiveStrongNegativeAttribute+,?
+CONCEPTS A: HumanChild=,Entity+,IntentionalPsychologicalProcess+,Damaging[,SubjectiveAssessmentAttribute+
+CONCEPTS B: Human+,Device+,Entity+,Entity+,Permission+,SocialRole+,Entity+,CoveringFn=,Coat=,Coloring+,SubjectiveStrongNegativeAttribute+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	new	new	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	02584699-a|Damaging[
 7	world	world	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	05809878-n|SubjectiveAssessmentAttribute+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

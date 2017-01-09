@@ -3,8 +3,8 @@ sentence B = A football player in a purple jersey is running with the ball for a
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Football+,Human+,?,?,SocialRole+,HoofedMammal+,Entity+,Breathing+,Running=,?,?,Ball=,?,?,FootballTouchdown+,?
-CONCEPTS B: ?,Football+,Human+,?,?,SocialRole+,HoofedMammal+,Entity+,Running=,?,?,Ball=,?,?,FootballTouchdown+,?
+CONCEPTS A: Football+,Human+,SocialRole+,HoofedMammal+,Entity+,Breathing+,Running=,Ball=,FootballTouchdown+
+CONCEPTS B: Football+,Human+,SocialRole+,HoofedMammal+,Entity+,Running=,Ball=,FootballTouchdown+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
 16	touchdown	touchdown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	00188766-n|FootballTouchdown+
 17	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

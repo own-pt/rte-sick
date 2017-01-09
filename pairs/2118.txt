@@ -3,8 +3,8 @@ sentence B = The cat is hungrily drinking milk.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Whip+,PerceptualAttribute+,Drinking+,Milk=,?
-CONCEPTS B: ?,Whip+,Entity+,PerceptualAttribute+,Drinking+,Milk=,?
+CONCEPTS A: Entity+,Whip+,PerceptualAttribute+,Drinking+,Milk=
+CONCEPTS B: Whip+,Entity+,PerceptualAttribute+,Drinking+,Milk=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	drinking	drink	VERB	VBG	Number=Sing|fPOS=NOUN++NN	5	advcl	_	01171183-v|Drinking+
 7	milk	milk	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	07844042-n|Milk=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

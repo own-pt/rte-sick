@@ -3,8 +3,8 @@ sentence B = No race car is on a road in front of a grassy parking area.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,White=,Automobile=,?,?,SubjectiveAssessmentAttribute+,Automobile=,Entity+,Motion+,earlier+,?,StationaryArtifact+,?
-CONCEPTS B: ?,Racing=,Automobile=,Entity+,?,?,Roadway+,?,FrontFn=,?,?,FloweringPlant+,Region+,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: White=,Automobile=,SubjectiveAssessmentAttribute+,Automobile=,Entity+,Motion+,earlier+,StationaryArtifact+
+CONCEPTS B: Racing=,Automobile=,Entity+,Roadway+,FrontFn=,FloweringPlant+,Region+,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04037625-n|StationaryArtifact+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	No	no	DET	DT	fPOS=DET++DT	3	neg	_	?|?

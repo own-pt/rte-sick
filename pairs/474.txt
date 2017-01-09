@@ -3,8 +3,8 @@ sentence B = A child is holding a squirt gun.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,HumanChild=,PhysicalAttribute+,?,Motion+,Gun=,?
-CONCEPTS B: ?,HumanChild=,Entity+,PhysicalAttribute+,?,Motion+,Gun=,?
+CONCEPTS A: Entity+,HumanChild=,PhysicalAttribute+,Motion+,Gun=
+CONCEPTS B: HumanChild=,Entity+,PhysicalAttribute+,Motion+,Gun=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	squirt	squirt	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	07436100-n|Motion+
 8	gun	gun	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03467984-n|Gun=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

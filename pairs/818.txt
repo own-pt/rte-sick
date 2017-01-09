@@ -3,8 +3,8 @@ sentence B = A person in the gear used for biking is standing steadily in front 
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human=,?,?,Gear=,Entity+,PhysicalAttribute+,SubjectiveAssessmentAttribute+,?,FrontFn=,?,?,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,Human=,?,?,Gear=,IntentionalProcess+,?,?,Entity+,PhysicalAttribute+,SubjectiveAssessmentAttribute+,?,FrontFn=,?,?,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: Human=,Gear=,Entity+,PhysicalAttribute+,SubjectiveAssessmentAttribute+,FrontFn=,SubjectiveAssessmentAttribute+
+CONCEPTS B: Human=,Gear=,IntentionalProcess+,Entity+,PhysicalAttribute+,SubjectiveAssessmentAttribute+,FrontFn=,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	some	some	DET	DT	fPOS=DET++DT	13	det	_	?|?
 13	mountains	mountain	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	nmod	_	13774404-n|SubjectiveAssessmentAttribute+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = The person is not slicing a clove of garlic into pieces.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human=,Entity+,Separating+,?,FruitOrVegetable+,?,Garlic=,?,PreparedFood+,?
-CONCEPTS B: ?,Human=,Entity+,not=,Separating+,?,FruitOrVegetable+,?,Garlic=,?,PreparedFood+,?
+CONCEPTS A: Human=,Entity+,Separating+,FruitOrVegetable+,Garlic=,PreparedFood+
+CONCEPTS B: Human=,Entity+,not=,Separating+,FruitOrVegetable+,Garlic=,PreparedFood+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	into	into	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
 10	pieces	piece	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	07654667-n|PreparedFood+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

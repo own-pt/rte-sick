@@ -3,8 +3,8 @@ sentence B = The boy and girl are playing on the outdoor gym.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,Human+,Entity+,not=,DramaticActing+,?,?,GeographicArea+,?
-CONCEPTS B: ?,Human+,?,Human+,Entity+,DramaticActing+,?,?,located+,ExerciseCenter=,?
+CONCEPTS A: Human+,Human+,Entity+,not=,DramaticActing+,GeographicArea+
+CONCEPTS B: Human+,Human+,Entity+,DramaticActing+,located+,ExerciseCenter=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	playground	playground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	08640739-n|GeographicArea+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

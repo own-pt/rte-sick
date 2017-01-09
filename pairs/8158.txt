@@ -3,8 +3,8 @@ sentence B = The young man is rock climbing.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,TextureAttribute+,Wall=,Entity+,Increasing+,?,?,Man=,?,?,SocialRole+,Hat+,?,LandArea+,Hand+,?
-CONCEPTS B: ?,HumanYouth=,Hominid=,Entity+,Mineral+,Increasing+,?
+CONCEPTS A: TextureAttribute+,Wall=,Entity+,Increasing+,Man=,SocialRole+,Hat+,LandArea+,Hand+
+CONCEPTS B: HumanYouth=,Hominid=,Entity+,Mineral+,Increasing+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	bare	bare	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	01698400-a|LandArea+
 15	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	nmod	_	05564590-n|Hand+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

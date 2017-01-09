@@ -3,8 +3,8 @@ sentence B = A person on a bike is jumping through the air and the sun is flarin
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Human=,?,?,Bicycle=,Ambulating=,?,?,AirTransportation+,?,?,Sol=,Combustion+,?,?,Bicycle=,Human=,?
-CONCEPTS B: ?,Human=,?,?,Bicycle=,Entity+,Ambulating=,?,?,AirTransportation+,?,?,Sol=,Entity+,Combustion+,?,?,Bicycle=,Human=,?
+CONCEPTS A: Entity+,Human=,Bicycle=,Ambulating=,AirTransportation+,Sol=,Combustion+,Bicycle=,Human=
+CONCEPTS B: Human=,Bicycle=,Entity+,Ambulating=,AirTransportation+,Sol=,Entity+,Combustion+,Bicycle=,Human=
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	19	compound	_	02834778-n|Bicycle=
 19	frame	frame	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	05217168-n|Human=
 20	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

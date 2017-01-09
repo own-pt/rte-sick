@@ -3,8 +3,8 @@ sentence B = The turtle is following the fish.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Clothing+,SocialRole+,SocialRole+,?,Red=,Region@,?
-CONCEPTS B: ?,Clothing+,SocialRole+,SocialRole+,?,Region@,?
+CONCEPTS A: Clothing+,SocialRole+,SocialRole+,Red=,Region@
+CONCEPTS B: Clothing+,SocialRole+,SocialRole+,Region@
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00381097-a|Red=
 7	fish	fish	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	08688076-n|Region@
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

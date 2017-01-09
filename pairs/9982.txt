@@ -3,8 +3,8 @@ sentence B = The man is eating potato slices.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: GroupOfPeople=,Entity+,Walking=,?,?,String+,Bridge+,?,?,TextureAttribute+,StreamWaterArea=,?
-CONCEPTS B: ?,Hominid=,Entity+,Eating=,PotatoTuber=,PreparedFood+,?
+CONCEPTS A: GroupOfPeople=,Entity+,Walking=,String+,Bridge+,TextureAttribute+,StreamWaterArea=
+CONCEPTS B: Hominid=,Entity+,Eating=,PotatoTuber=,PreparedFood+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	rocky	rocky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	amod	_	02243567-a|TextureAttribute+
 11	stream	stream	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	09448361-n|StreamWaterArea=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A brown puppy is biting a pole.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,SocialRole+,Entity+,Damaging+,?,Metal=,Position=,?,Entity+,Attaching+,?,?,LandArea=,?
-CONCEPTS B: ?,Human+,SocialRole+,Entity+,SubjectiveStrongNegativeAttribute+,?,LengthMeasure@,?
+CONCEPTS A: Human+,SocialRole+,Entity+,Damaging+,Metal=,Position=,Entity+,Attaching+,LandArea=
+CONCEPTS B: Human+,SocialRole+,Entity+,SubjectiveStrongNegativeAttribute+,LengthMeasure@
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	ground	ground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	09334396-n|LandArea=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

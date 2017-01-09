@@ -3,8 +3,8 @@ sentence B = Five people are standing with three dogs in the park beside the roa
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Entity+,PhysicalAttribute+,?,?,Canine+,?,?,Green=,FieldOfStudy=,?,?,Roadway+,?
-CONCEPTS B: ?,GroupOfPeople=,Entity+,PhysicalAttribute+,?,?,Canine+,?,?,Park+,?,?,Roadway+,?
+CONCEPTS A: GroupOfPeople=,Entity+,PhysicalAttribute+,Canine+,Green=,FieldOfStudy=,Roadway+
+CONCEPTS B: GroupOfPeople=,Entity+,PhysicalAttribute+,Canine+,Park+,Roadway+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	04096066-n|Roadway+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Five	5	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	2	amod	_	?|?

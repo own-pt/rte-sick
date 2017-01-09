@@ -3,8 +3,8 @@ sentence B = A boy in a red shirt is in front of a long blue wall and is suspici
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,PhysicalAttribute+,?,FrontFn=,?,?,Building=,Painting=,SubjectiveStrongNegativeAttribute+,?,?,?,OuterSpaceRegion+,Reserving=,?,RegulatoryProcess+,GroupOfPeople=,?
-CONCEPTS B: ?,Human+,?,?,Red=,Shirt=,Entity+,?,FrontFn=,?,?,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,Wall=,?,Entity+,SubjectiveAssessmentAttribute+,MotionUpward=,?,BodyPart+,?,?,Camera=,?
+CONCEPTS A: Human+,Entity+,PhysicalAttribute+,FrontFn=,Building=,Painting=,SubjectiveStrongNegativeAttribute+,OuterSpaceRegion+,Reserving=,RegulatoryProcess+,GroupOfPeople=
+CONCEPTS B: Human+,Red=,Shirt=,Entity+,FrontFn=,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,Wall=,Entity+,SubjectiveAssessmentAttribute+,MotionUpward=,BodyPart+,Camera=
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	handicapped	handicap	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	19	amod	_	01085474-v|RegulatoryProcess+
 19	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	16	nmod	_	07942152-n|GroupOfPeople=
 20	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

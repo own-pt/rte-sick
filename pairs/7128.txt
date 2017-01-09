@@ -3,8 +3,8 @@ sentence B = The black dog is playing with the brown dog on the sand.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human+,Canine+,?,?,Black=,Canine+,Entity+,DramaticActing+,?,?,Sand=,?
-CONCEPTS B: ?,Black=,Canine+,Entity+,DramaticActing+,?,?,Human+,Canine+,?,?,Sand=,?
+CONCEPTS A: Human+,Canine+,Black=,Canine+,Entity+,DramaticActing+,Sand=
+CONCEPTS B: Black=,Canine+,Entity+,DramaticActing+,Human+,Canine+,Sand=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	15019030-n|Sand=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

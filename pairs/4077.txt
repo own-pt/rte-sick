@@ -3,8 +3,8 @@ sentence B = The man is riding a horse.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,not=,Carrying=,?,Horse=,?
-CONCEPTS B: ?,Hominid=,Entity+,Carrying=,?,Horse=,?
+CONCEPTS A: Hominid=,Entity+,not=,Carrying=,Horse=
+CONCEPTS B: Hominid=,Entity+,Carrying=,Horse=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02374451-n|Horse=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A young boy is riding a dirt bike through the mud.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,HumanChild=,Entity+,Walking=,?,?,Bicycle=,?,?,TextureAttribute+,Text+,Transitway+,?
-CONCEPTS B: ?,HumanYouth=,Human+,Entity+,Transportation+,?,Soil=,Bicycle=,?,?,Soil=,?
+CONCEPTS A: HumanYouth=,HumanChild=,Entity+,Walking=,Bicycle=,TextureAttribute+,Text+,Transitway+
+CONCEPTS B: HumanYouth=,Human+,Entity+,Transportation+,Soil=,Bicycle=,Soil=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	dirt	dirt	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	13	compound	_	07223811-n|Text+
 13	path	path	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	08616311-n|Transitway+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

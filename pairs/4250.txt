@@ -3,8 +3,8 @@ sentence B = A clown is singing and people are dancing.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: GroupOfPeople=,Entity+,MakingVocalMusic=,?,?,Human+,Entity+,Dancing+,?
-CONCEPTS B: ?,Human+,Entity+,MakingVocalMusic=,?,GroupOfPeople=,Entity+,Dancing+,?
+CONCEPTS A: GroupOfPeople=,Entity+,MakingVocalMusic=,Human+,Entity+,Dancing+
+CONCEPTS B: Human+,Entity+,MakingVocalMusic=,GroupOfPeople=,Entity+,Dancing+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	aux	_	02604760-v|Entity+
 8	dancing	dance	VERB	VBG	Number=Sing|fPOS=NOUN++NN	3	conj	_	01708676-v|Dancing+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

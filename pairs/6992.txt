@@ -3,8 +3,8 @@ sentence B = Two boys are wearing brown shirts and are enthusiastically tugging 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Artifact+,?,Human+,Entity+,ViolentContest+,?,Attaching+,?
-CONCEPTS B: ?,Human+,Entity+,Putting+,Human+,Shirt=,?,Entity+,SubjectiveAssessmentAttribute+,IntentionalProcess+,?,?,String+,?,?,SubjectiveAssessmentAttribute+,PerformanceStage+,?
+CONCEPTS A: Artifact+,Human+,Entity+,ViolentContest+,Attaching+
+CONCEPTS B: Human+,Entity+,Putting+,Human+,Shirt=,Entity+,SubjectiveAssessmentAttribute+,IntentionalProcess+,String+,SubjectiveAssessmentAttribute+,PerformanceStage+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
 8	sticks	stick	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	01614581-v|Attaching+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

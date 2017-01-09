@@ -3,8 +3,8 @@ sentence B = No motorcycle rider is standing up on the seat of a motorcycle.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,?,Black=,?,White=,PassengerVehicle+,?,Entity+,PhysicalAttribute+,?,?,Seat=,?
-CONCEPTS B: ?,PassengerVehicle+,Human+,Entity+,PhysicalAttribute+,Increasing+,?,?,Seat=,?,?,PassengerVehicle+,?
+CONCEPTS A: Entity+,Black=,White=,PassengerVehicle+,Entity+,PhysicalAttribute+,Seat=
+CONCEPTS B: PassengerVehicle+,Human+,Entity+,PhysicalAttribute+,Increasing+,Seat=,PassengerVehicle+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	seat	seat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	04161358-n|Seat=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	No	no	DET	DT	fPOS=DET++DT	3	neg	_	?|?

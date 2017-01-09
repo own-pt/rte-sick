@@ -3,8 +3,8 @@ sentence B = A brown and white dog is putting the baseball in its mouth down.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Black=,?,White=,Canine+,Entity+,Process+,?,Baseball=,?,?,Mouth+,?
-CONCEPTS B: ?,Human+,?,White=,Canine+,Entity+,Putting=,?,Baseball=,?,?,Mouth+,earlier+,?
+CONCEPTS A: Black=,White=,Canine+,Entity+,Process+,Baseball=,Mouth+
+CONCEPTS B: Human+,White=,Canine+,Entity+,Putting=,Baseball=,Mouth+,earlier+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	12	nmod:poss	_	?|?
 12	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	05302499-n|Mouth+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = The kitten is eagerly drinking some milk from the bowl.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,?,Trousers+,Entity+,PhysicalAttribute+,?,?,Horse=,?,?,Saddle=,?
-CONCEPTS B: ?,Feline+,Entity+,EmotionalState+,Drinking+,?,Milk=,?,?,Dish+,?
+CONCEPTS A: Woman=,Trousers+,Entity+,PhysicalAttribute+,Horse=,Saddle=
+CONCEPTS B: Feline+,Entity+,EmotionalState+,Drinking+,Milk=,Dish+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	saddle	saddle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	04123740-n|Saddle=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

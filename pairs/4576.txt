@@ -3,8 +3,8 @@ sentence B = Two women are not dancing.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,Government+,Entity+,MakingVocalMusic=,MakingVocalMusic+,?
-CONCEPTS B: ?,Woman=,Entity+,not=,Dancing+,?
+CONCEPTS A: Entity+,Government+,Entity+,MakingVocalMusic=,MakingVocalMusic+
+CONCEPTS B: Woman=,Entity+,not=,Dancing+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	singing	sing	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01731031-v|MakingVocalMusic=
 7	karaoke	karaoke	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	6	xcomp	_	01255302-n|MakingVocalMusic+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NOUN	NN	NumType=Card|fPOS=NUM++CD	2	compound	_	?|?

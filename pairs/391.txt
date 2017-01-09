@@ -3,8 +3,8 @@ sentence B = A man is wearing clothes that are covered with paint and is sitting
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Man=,?,Painting=,Covering+,Clothing+,PhysicalAttribute+,SittingDown+,?,?,?,SubjectiveWeakNegativeAttribute+,GeographicArea+,WrittenCommunication=,?,?
-CONCEPTS B: ?,Man=,PhysicalAttribute+,CoveringFn=,Clothing+,?,PhysicalAttribute+,Covering+,?,Paint+,?,PhysicalAttribute+,SittingDown+,?,?,?,SubjectiveWeakNegativeAttribute+,GeographicArea+,WrittenCommunication=,?,?
+CONCEPTS A: Man=,Painting=,Covering+,Clothing+,PhysicalAttribute+,SittingDown+,SubjectiveWeakNegativeAttribute+,GeographicArea+,WrittenCommunication=
+CONCEPTS B: Man=,PhysicalAttribute+,CoveringFn=,Clothing+,PhysicalAttribute+,Covering+,Paint+,PhysicalAttribute+,SittingDown+,SubjectiveWeakNegativeAttribute+,GeographicArea+,WrittenCommunication=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	writing	write	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	advcl	_	00993014-v|WrittenCommunication=
 15	something	something	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	?|?
 16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

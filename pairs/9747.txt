@@ -3,8 +3,8 @@ sentence B = Two kids are looking up at the camera and one is sticking out his t
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Attaching+,?,Tongue=,Giving+,?,?,Camera=,?,?,Human+,Entity+,SubjectiveAssessmentAttribute+,?,?
-CONCEPTS B: ?,HumanChild=,Entity+,SubjectiveAssessmentAttribute+,Increasing+,?,?,Camera=,?,?,Entity+,Attaching+,Giving+,?,Tongue=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Attaching+,Tongue=,Giving+,Camera=,Human+,Entity+,SubjectiveAssessmentAttribute+
+CONCEPTS B: HumanChild=,Entity+,SubjectiveAssessmentAttribute+,Increasing+,Camera=,Entity+,Attaching+,Giving+,Tongue=
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	02133435-v|SubjectiveAssessmentAttribute+
 17	on	on	ADP	IN	fPOS=ADP++RP	16	nmod	_	?|?
 18	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	compound	_	?|?

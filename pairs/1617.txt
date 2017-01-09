@@ -3,8 +3,8 @@ sentence B = A snake is being fed a mouse by a man.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,SubjectiveAssessmentAttribute+,Feeding+,?,Mouse=,?,?,Snake=,?
-CONCEPTS B: ?,Snake=,Entity+,Entity+,Feeding+,?,Mouse=,?,?,Hominid=,?
+CONCEPTS A: Hominid=,Entity+,SubjectiveAssessmentAttribute+,Feeding+,Mouse=,Snake=
+CONCEPTS B: Snake=,Entity+,Entity+,Feeding+,Mouse=,Hominid=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	snake	snake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	01726692-n|Snake=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

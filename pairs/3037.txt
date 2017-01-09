@@ -3,8 +3,8 @@ sentence B = The dog is playing with a plastic container.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SocialRole+,Entity+,DramaticActing+,?,?,Container+,Process+,?,Substance+,?
-CONCEPTS B: ?,Canine+,Entity+,DramaticActing+,?,?,SubjectiveAssessmentAttribute+,Container+,?
+CONCEPTS A: SocialRole+,Entity+,DramaticActing+,Container+,Process+,Substance+
+CONCEPTS B: Canine+,Entity+,DramaticActing+,SubjectiveAssessmentAttribute+,Container+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
 10	plastic	plastic	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	14592610-n|Substance+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

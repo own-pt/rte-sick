@@ -3,8 +3,8 @@ sentence B = A woman is swiftly snowboarding down an incline and another woman i
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Human+,Entity+,Translocation+,earlier+,?,Sand=,Sand+,?,?,TransportationDevice+,?
-CONCEPTS B: ?,Woman=,Entity+,SubjectiveAssessmentAttribute+,?,earlier+,?,TraitAttribute=,?,?,Woman=,Entity+,PhysicalAttribute+,?,?,?
+CONCEPTS A: Human+,Human+,Entity+,Translocation+,earlier+,Sand=,Sand+,TransportationDevice+
+CONCEPTS B: Woman=,Entity+,SubjectiveAssessmentAttribute+,earlier+,TraitAttribute=,Woman=,Entity+,PhysicalAttribute+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	skateboard	skateboard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04225987-n|TransportationDevice+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

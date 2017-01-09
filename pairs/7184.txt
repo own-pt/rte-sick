@@ -3,8 +3,8 @@ sentence B = Two small boys dressed in tuxedos are sitting on a red carpeted flo
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human+,?,?,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,?,Dressing+,?,Clothing+,PhysicalAttribute+,SittingDown+,?,?,Red=,Covering+,Floor+,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,Dressing+,?,Clothing+,PhysicalAttribute+,SittingDown+,?,?,Red=,Covering+,Floor+,?
+CONCEPTS A: Human+,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,Dressing+,Clothing+,PhysicalAttribute+,SittingDown+,Red=,Covering+,Floor+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Dressing+,Clothing+,PhysicalAttribute+,SittingDown+,Red=,Covering+,Floor+
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	carpeted	carpet	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	01235073-v|Covering+
 17	floor	floor	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	03365592-n|Floor+
 18	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	VERB	VBZ	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?

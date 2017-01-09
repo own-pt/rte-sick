@@ -3,8 +3,8 @@ sentence B = A man is screwing a piece of wood to a wall.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,GamePiece+,?,Wood=,Entity+,Entity+,Attaching+,?,?,Wall=,?,?,GamePiece+,?
-CONCEPTS B: ?,GamePiece+,Entity+,Attaching+,?,GamePiece+,?,Wood=,?,?,Wall=,?
+CONCEPTS A: GamePiece+,Wood=,Entity+,Entity+,Attaching+,Wall=,GamePiece+
+CONCEPTS B: GamePiece+,Entity+,Attaching+,GamePiece+,Wood=,Wall=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	03716327-n|GamePiece+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

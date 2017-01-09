@@ -3,8 +3,8 @@ sentence B = Two people wearing helmets are driving over the yellow and white fl
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,?,Entity+,SubjectiveStrongNegativeAttribute+,?,Entity+,ShapeChange+,?,Hair=,?,?,Horse+,BodyPart+,?
-CONCEPTS B: ?,GroupOfPeople=,CoveringFn=,Clothing+,Entity+,Transportation+,?,?,SubjectiveAssessmentAttribute+,?,White=,Flower+,?
+CONCEPTS A: Human+,Entity+,SubjectiveStrongNegativeAttribute+,Entity+,ShapeChange+,Hair=,Horse+,BodyPart+
+CONCEPTS B: GroupOfPeople=,CoveringFn=,Clothing+,Entity+,Transportation+,SubjectiveAssessmentAttribute+,White=,Flower+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	pony	pony	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	02382437-n|Horse+
 15	tail	tail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	02157557-n|BodyPart+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = A man is idling on the floor.
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Dancing+,?,?,Ceiling=,?,?,Room=,?
-CONCEPTS B: ?,Hominid=,Entity+,Process+,?,?,Floor+,?
+CONCEPTS A: Hominid=,Entity+,Dancing+,Ceiling=,Room=
+CONCEPTS B: Hominid=,Entity+,Process+,Floor+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	room	room	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	04105893-n|Room=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

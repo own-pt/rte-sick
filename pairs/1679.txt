@@ -3,8 +3,8 @@ sentence B = Few men like pouring tomato oil.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Pouring=,Oil=,?,?,?,Tomato=,?
-CONCEPTS B: ?,Hominid=,?,Pouring=,Tomato=,Oil=,?
+CONCEPTS A: Hominid=,Entity+,Pouring=,Oil=,Tomato=
+CONCEPTS B: Hominid=,Pouring=,Tomato=,Oil=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	few	few	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	?|?
 9	tomatoes	tomato	NOUN	NN	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	07734017-n|Tomato=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Few	few	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	?|?

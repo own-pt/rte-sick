@@ -3,8 +3,8 @@ sentence B = Two kids and a man are playing games at an arcade.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,?,Man=,Entity+,DramaticActing+,Game=,?,?,StationaryArtifact+,?
-CONCEPTS B: ?,HumanChild=,?,?,Hominid=,Entity+,DramaticActing+,Game=,?,?,StationaryArtifact+,?
+CONCEPTS A: Human+,Man=,Entity+,DramaticActing+,Game=,StationaryArtifact+
+CONCEPTS B: HumanChild=,Hominid=,Entity+,DramaticActing+,Game=,StationaryArtifact+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	arcade	arcade	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	02733378-n|StationaryArtifact+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NOUN	NN	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = A light brown dog is running up a street.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,RadiatingSound+,Canine+,Entity+,SubjectiveAssessmentAttribute+,Increasing+,?,LandArea+,Hill=,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,Attribute+,Increasing+,?,Roadway=,?
+CONCEPTS A: RadiatingSound+,Canine+,Entity+,SubjectiveAssessmentAttribute+,Increasing+,LandArea+,Hill=
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,Attribute+,Increasing+,Roadway=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	steep	steep	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	01144887-a|LandArea+
 9	hill	hill	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	09303008-n|Hill=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

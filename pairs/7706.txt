@@ -3,8 +3,8 @@ sentence B = The little girl is smiling and wearing a fake nose and glasses.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Smiling=,?,CoveringFn=,?,SubjectiveAssessmentAttribute+,Nose+,?,Cup=,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Smiling=,?,CoveringFn=,?,SubjectiveAssessmentAttribute+,Nose+,?,Cup=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Smiling=,CoveringFn=,SubjectiveAssessmentAttribute+,Nose+,Cup=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Smiling=,CoveringFn=,SubjectiveAssessmentAttribute+,Nose+,Cup=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	and	and	CONJ	CC	fPOS=CONJ++CC	10	cc	_	?|?
 12	glasses	glass	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	conj	_	03438257-n|Cup=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

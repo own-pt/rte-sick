@@ -3,8 +3,8 @@ sentence B = A man and a woman are driving down the road in an open-air vehicle.
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,Woman=,Entity+,not=,Transportation+,earlier+,?,Roadway=,?,?,Automobile+,?
-CONCEPTS B: ?,Man=,?,?,Woman=,Entity+,Transportation+,earlier+,?,Roadway+,?,?,?,Vehicle=,?
+CONCEPTS A: Man=,Woman=,Entity+,not=,Transportation+,earlier+,Roadway=,Automobile+
+CONCEPTS B: Man=,Woman=,Entity+,Transportation+,earlier+,Roadway+,Vehicle=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	jeep	jeep	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	03594945-n|Automobile+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

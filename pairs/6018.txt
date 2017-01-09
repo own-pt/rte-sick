@@ -3,8 +3,8 @@ sentence B = A homeless man is putting down a sign and refusing some charity.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute+,Hominid=,Entity+,Process+,Increasing+,?,Character+,?,Entity+,Requesting+,?,Currency=,?
-CONCEPTS B: ?,SubjectiveAssessmentAttribute+,Hominid=,Entity+,Putting=,earlier+,?,Character+,?,Committing+,?,Organization+,?
+CONCEPTS A: SubjectiveAssessmentAttribute+,Hominid=,Entity+,Process+,Increasing+,Character+,Entity+,Requesting+,Currency=
+CONCEPTS B: SubjectiveAssessmentAttribute+,Hominid=,Entity+,Putting=,earlier+,Character+,Committing+,Organization+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	for	for	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
 13	money	money	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	13384557-n|Currency=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

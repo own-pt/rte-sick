@@ -3,8 +3,8 @@ sentence B = A dark black dog and a light brown dog are fighting in the backyard
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveWeakNegativeAttribute+,SubjectiveWeakNegativeAttribute+,Canine+,?,?,SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,DramaticActing+,?,?,Lawn+,?
-CONCEPTS B: ?,SubjectiveWeakNegativeAttribute+,SubjectiveWeakNegativeAttribute+,Canine+,?,?,SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,ViolentContest+,?,?,Lawn+,?
+CONCEPTS A: SubjectiveWeakNegativeAttribute+,SubjectiveWeakNegativeAttribute+,Canine+,SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,DramaticActing+,Lawn+
+CONCEPTS B: SubjectiveWeakNegativeAttribute+,SubjectiveWeakNegativeAttribute+,Canine+,SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,ViolentContest+,Lawn+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	backyard	backyard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	02772197-n|Lawn+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

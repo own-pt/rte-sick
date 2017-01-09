@@ -3,8 +3,8 @@ sentence B = Racers are running down a track.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: Hominid=,Entity+,Racing+,?,Racing=,?
-CONCEPTS B: Automobile+,Entity+,Racing+,earlier+,?,StationaryArtifact+,?
+CONCEPTS A: Hominid=,Entity+,Racing+,Racing=
+CONCEPTS B: Automobile+,Entity+,Racing+,earlier+,StationaryArtifact+
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
 5	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	07458453-n|Racing=
 6	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Racers	racer	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	04037443-n|Automobile+

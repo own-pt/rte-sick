@@ -3,8 +3,8 @@ sentence B = A boy is knocking a dog with a bottle of water.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Pushing=,?,NonFullyFormed+,?,?,Raining+,StaticWaterArea+,?
-CONCEPTS B: ?,Human+,Entity+,SoundAttribute+,?,Canine+,?,?,Bottle=,?,Water=,?
+CONCEPTS A: Canine+,Entity+,Pushing=,NonFullyFormed+,Raining+,StaticWaterArea+
+CONCEPTS B: Human+,Entity+,SoundAttribute+,Canine+,Bottle=,Water=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	rain	rain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	11501381-n|Raining+
 10	puddle	puddle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09397607-n|StaticWaterArea+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

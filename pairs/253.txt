@@ -3,8 +3,8 @@ sentence B = A hiker is on top of the mountain and is dancing.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,?,top=,?,?,SubjectiveAssessmentAttribute+,?,Entity+,IntentionalProcess+,?,SubjectiveStrongPositiveAttribute+,Dancing=,?
-CONCEPTS B: ?,Human+,Entity+,?,top=,?,?,SubjectiveAssessmentAttribute+,?,Entity+,Dancing+,?
+CONCEPTS A: Human+,Entity+,top=,SubjectiveAssessmentAttribute+,Entity+,IntentionalProcess+,SubjectiveStrongPositiveAttribute+,Dancing=
+CONCEPTS B: Human+,Entity+,top=,SubjectiveAssessmentAttribute+,Entity+,Dancing+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	joyful	joyful	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	01363613-a|SubjectiveStrongPositiveAttribute+
 14	dance	dance	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	00428270-n|Dancing=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

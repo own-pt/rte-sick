@@ -3,8 +3,8 @@ sentence B = A dog is running through a field and is chasing a toy.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Attribute+,?,?,FieldOfStudy=,?,Entity+,Pursuing+,?,Ball=,?
-CONCEPTS B: ?,Canine+,Entity+,Attribute+,?,?,FieldOfStudy=,?,Entity+,Pursuing+,?,RecreationOrExerciseDevice+,?
+CONCEPTS A: Canine+,Entity+,Attribute+,FieldOfStudy=,Entity+,Pursuing+,Ball=
+CONCEPTS B: Canine+,Entity+,Attribute+,FieldOfStudy=,Entity+,Pursuing+,RecreationOrExerciseDevice+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	02778669-n|Ball=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A man who is playing dunks the basketball into the net and a crowd 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,HoofedMammal+,Entity+,Wetting+,?,Ball=,?,?,Basketball=,Game=,?
-CONCEPTS B: ?,Hominid=,?,Entity+,DramaticActing+,Wetting+,?,Basketball=,?,?,Fabric+,?,?,SubjectiveAssessmentAttribute=,Entity+,?,Region+,?
+CONCEPTS A: Man=,HoofedMammal+,Entity+,Wetting+,Ball=,Basketball=,Game=
+CONCEPTS B: Hominid=,Entity+,DramaticActing+,Wetting+,Basketball=,Fabric+,SubjectiveAssessmentAttribute=,Entity+,Region+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	basketball	basketball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	compound	_	00480993-n|Basketball=
 13	game	game	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	00455599-n|Game=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

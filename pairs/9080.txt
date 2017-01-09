@@ -3,8 +3,8 @@ sentence B = A black and brown dog is eyeing a fly.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,Black=,Canine+,Entity+,SubjectiveAssessmentAttribute+,Increasing+,?
-CONCEPTS B: ?,Black=,?,Human+,Canine+,Entity+,Looking+,?,FlyInsect+,?
+CONCEPTS A: Human+,Black=,Canine+,Entity+,SubjectiveAssessmentAttribute+,Increasing+
+CONCEPTS B: Black=,Human+,Canine+,Entity+,Looking+,FlyInsect+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
 8	upwards	upwards	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	dobj	_	00096333-r|Increasing+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?

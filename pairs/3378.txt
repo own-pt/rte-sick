@@ -3,8 +3,8 @@ sentence B = A woman is riding a water scooter.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,SubjectiveAssessmentAttribute+,Carrying=,?,SelfPoweredRoadVehicle+,?
-CONCEPTS B: ?,Woman=,Entity+,Carrying=,?,Water=,LandVehicle+,?
+CONCEPTS A: Human+,Entity+,SubjectiveAssessmentAttribute+,Carrying=,SelfPoweredRoadVehicle+
+CONCEPTS B: Woman=,Entity+,Carrying=,Water=,LandVehicle+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	tricycle	tricycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	04482393-n|SelfPoweredRoadVehicle+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

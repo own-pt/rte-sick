@@ -3,8 +3,8 @@ sentence B = Pink bellbottoms and a pink scarf aren't to be worn by women with s
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Dressing+,Silver=,Trousers+,?,Pink+,?,?,?,Pink+,Clothing+,Entity+,Transportation+,?,Bicycle=,?
-CONCEPTS B: Pink+,?,?,?,Pink+,Clothing+,Entity+,not=,?,Entity+,Dressing+,?,Woman=,?,Silver=,Trousers+,?,Bicycle=,Transportation+,GroupOfPeople=,?
+CONCEPTS A: Woman=,Dressing+,Silver=,Trousers+,Pink+,Pink+,Clothing+,Entity+,Transportation+,Bicycle=
+CONCEPTS B: Pink+,Pink+,Clothing+,Entity+,not=,Entity+,Dressing+,Woman=,Silver=,Trousers+,Bicycle=,Transportation+,GroupOfPeople=
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
 16	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	02834778-n|Bicycle=
 17	.	.	PUNCT	.	fPOS=PUNCT++.	14	punct	_	?|?
+
+
 CONLL B:
 
 1	Pink	pink	VERB	VB	Number=Sing|fPOS=PROPN++NNP	2	amod	_	00379595-a|Pink+

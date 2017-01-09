@@ -3,8 +3,8 @@ sentence B = A dog is fetching a stick out of very dirty water.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Transfer=,?,Attaching+,Giving+,?,SubjectiveAssessmentAttribute+,SubjectiveAssessmentAttribute+,Water=,?
-CONCEPTS B: ?,Canine+,Entity+,Transfer=,?,Attaching+,Giving+,?,SubjectiveAssessmentAttribute+,Dirty=,Water=,?
+CONCEPTS A: Canine+,Entity+,Transfer=,Attaching+,Giving+,SubjectiveAssessmentAttribute+,SubjectiveAssessmentAttribute+,Water=
+CONCEPTS B: Canine+,Entity+,Transfer=,Attaching+,Giving+,SubjectiveAssessmentAttribute+,Dirty=,Water=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	clear	clear	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	00431447-a|SubjectiveAssessmentAttribute+
 11	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	14845743-n|Water=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

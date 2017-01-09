@@ -3,8 +3,8 @@ sentence B = A parrot is speaking.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Bird+,Entity+,Speaking+,?
-CONCEPTS B: ?,Bird+,Entity+,Speaking+,?
+CONCEPTS A: Bird+,Entity+,Speaking+
+CONCEPTS B: Bird+,Entity+,Speaking+
 
 CONLL A:
 
@@ -13,6 +13,8 @@ CONLL A:
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
 4	speaking	speak	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00963570-v|Speaking+
 5	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

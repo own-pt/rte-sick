@@ -3,8 +3,8 @@ sentence B = Someone is peeling a banana.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,Hominid=,Process+,?,Banana=,?
-CONCEPTS B: ?,Entity+,Removing+,?,Banana=,?
+CONCEPTS A: Entity+,Hominid=,Process+,Banana=
+CONCEPTS B: Entity+,Removing+,Banana=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	banana	banana	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	07753592-n|Banana=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	Someone	someone	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?

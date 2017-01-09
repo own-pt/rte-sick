@@ -3,8 +3,8 @@ sentence B = A laughing child is holding a water gun and getting sprayed with wa
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,PhysicalAttribute+,?,Motion+,Gun=,?
-CONCEPTS B: ?,Laughing=,HumanChild=,Entity+,Keeping+,?,Water=,Gun=,?,Process+,Spraying=,?,Water=,?
+CONCEPTS A: Human+,Entity+,PhysicalAttribute+,Motion+,Gun=
+CONCEPTS B: Laughing=,HumanChild=,Entity+,Keeping+,Water=,Gun=,Process+,Spraying=,Water=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	squirt	squirt	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	07436100-n|Motion+
 7	gun	gun	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03467984-n|Gun=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

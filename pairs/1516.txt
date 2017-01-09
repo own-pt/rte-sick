@@ -3,8 +3,8 @@ sentence B = Two men are playing table football.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,?,Woman=,Entity+,Keeping+,?,equal+,?,Dancing+,Meeting=,?
-CONCEPTS B: ?,Hominid=,Entity+,Game+,ContentBearingObject+,Football+,?
+CONCEPTS A: Woman=,Entity+,Keeping+,equal+,Dancing+,Meeting=
+CONCEPTS B: Hominid=,Entity+,Game+,ContentBearingObject+,Football+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	dancing	dance	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	01708676-v|Dancing+
 10	together	together	ADV	RB	fPOS=ADV++RB	9	advmod	_	00507927-r|Meeting=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

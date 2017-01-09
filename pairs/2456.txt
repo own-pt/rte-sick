@@ -3,8 +3,8 @@ sentence B = A baby rhino is walking around a pen with its mother.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanBaby=,HoofedMammal+,PhysicalAttribute+,IntentionalProcess+,?,FullyFormed+,HoofedMammal+,?
-CONCEPTS B: ?,HumanBaby=,HoofedMammal+,Entity+,Walking=,?,?,StationaryArtifact+,?,?,BiologicalAttribute+,?
+CONCEPTS A: HumanBaby=,HoofedMammal+,PhysicalAttribute+,IntentionalProcess+,FullyFormed+,HoofedMammal+
+CONCEPTS B: HumanBaby=,HoofedMammal+,Entity+,Walking=,StationaryArtifact+,BiologicalAttribute+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	adult	adult	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	09605289-n|FullyFormed+
 8	rhino	rhino	ADV	RB	fPOS=ADV++RB	5	advmod	_	02391994-n|HoofedMammal+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

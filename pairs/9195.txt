@@ -3,8 +3,8 @@ sentence B = A lady is standing on the street and is surrounded by kids.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,PhysicalAttribute+,?,?,Roadway=,?,Entity+,Process+,?,School=,HumanChild=,?
-CONCEPTS B: ?,Human+,Entity+,PhysicalAttribute+,?,?,Roadway=,?,Entity+,Process+,?,HumanChild=,?
+CONCEPTS A: Human+,Entity+,PhysicalAttribute+,Roadway=,Entity+,Process+,School=,HumanChild=
+CONCEPTS B: Human+,Entity+,PhysicalAttribute+,Roadway=,Entity+,Process+,HumanChild=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	school	school	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	compound	_	08276720-n|School=
 13	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	nmod	_	09917593-n|HumanChild=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Three kids are jumping in the leaves.
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,PhysicalAttribute+,SittingDown+,?,?,Leaf=,?
-CONCEPTS B: ?,HumanChild=,Entity+,Ambulating=,?,?,Leaf=,?
+CONCEPTS A: HumanChild=,PhysicalAttribute+,SittingDown+,Leaf=
+CONCEPTS B: HumanChild=,Entity+,Ambulating=,Leaf=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	leaves	leaf	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	13152742-n|Leaf=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Three	3	NOUN	NN	NumType=Card|fPOS=NUM++CD	4	nsubj	_	?|?

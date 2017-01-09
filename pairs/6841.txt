@@ -3,8 +3,8 @@ sentence B = Two children, who are small, are playing with a toy car in the stre
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,DramaticActing+,?,?,RecreationOrExerciseDevice+,Automobile=,?,?,Roadway=,?
-CONCEPTS B: ?,HumanChild=,?,?,Entity+,SubjectiveStrongNegativeAttribute+,?,Entity+,DramaticActing+,?,?,RecreationOrExerciseDevice+,Automobile=,?,?,Roadway=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,DramaticActing+,RecreationOrExerciseDevice+,Automobile=,Roadway=
+CONCEPTS B: HumanChild=,Entity+,SubjectiveStrongNegativeAttribute+,Entity+,DramaticActing+,RecreationOrExerciseDevice+,Automobile=,Roadway=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04334599-n|Roadway=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Degree=Pos|fPOS=ADJ++JJ	2	nummod	_	?|?

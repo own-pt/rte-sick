@@ -3,8 +3,8 @@ sentence B = A few women are holding each other and dancing together.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,DramaticActing+,RadiatingSound+,?,?
-CONCEPTS B: ?,?,Woman=,Entity+,Keeping+,?,equal+,?,Dancing+,Meeting=,?
+CONCEPTS A: Hominid=,Entity+,DramaticActing+,RadiatingSound+
+CONCEPTS B: Woman=,Entity+,Keeping+,equal+,Dancing+,Meeting=
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	ping	ping	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	xcomp	_	07389569-n|RadiatingSound+
 6	pong	pong	ADV	RB	fPOS=ADV++RB	5	advmod	_	?|?
 7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

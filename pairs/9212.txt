@@ -3,8 +3,8 @@ sentence B = A guy is leaping into the air in a wooded area.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Device+,Ambulating=,?,?,AirTransportation+,?,?,?,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,Device+,Entity+,Ambulating=,?,?,AirTransportation+,?,?,?,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: Entity+,Device+,Ambulating=,AirTransportation+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Device+,Entity+,Ambulating=,AirTransportation+,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	wooded	wood	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	?|?
 12	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	14514039-n|SubjectiveAssessmentAttribute+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

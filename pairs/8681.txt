@@ -3,8 +3,8 @@ sentence B = A woman dressed in black is wearing inline skates and performing a 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,Dressing+,?,Black=,Entity+,CoveringFn=,?,Clothing+,?,IntentionalProcess+,?,RecreationOrExercise+,?,?,Handle+,?
-CONCEPTS B: ?,Woman=,Dressing+,?,Black=,Entity+,CoveringFn=,?,Clothing+,?,IntentionalProcess+,?,RecreationOrExercise+,?,?,Handle+,?
+CONCEPTS A: Man=,Dressing+,Black=,Entity+,CoveringFn=,Clothing+,IntentionalProcess+,RecreationOrExercise+,Handle+
+CONCEPTS B: Woman=,Dressing+,Black=,Entity+,CoveringFn=,Clothing+,IntentionalProcess+,RecreationOrExercise+,Handle+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
 16	rail	rail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	04047401-n|Handle+
 17	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

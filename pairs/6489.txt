@@ -3,8 +3,8 @@ sentence B = There is no woman snowboarding down an incline and there is no othe
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Woman=,Entity+,?,earlier+,?,TraitAttribute=,?,?,Woman=,Entity+,PhysicalAttribute+,?,?,?
-CONCEPTS B: ?,Entity+,?,Woman=,?,earlier+,?,TraitAttribute=,?,?,Entity+,?,equal+,Woman=,SocialRole+,?,?,?
+CONCEPTS A: Woman=,Entity+,earlier+,TraitAttribute=,Woman=,Entity+,PhysicalAttribute+
+CONCEPTS B: Entity+,Woman=,earlier+,TraitAttribute=,Entity+,equal+,Woman=,SocialRole+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	behind	behind	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
 14	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	12	nmod	_	?|?
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

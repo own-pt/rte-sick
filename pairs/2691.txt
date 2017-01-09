@@ -3,8 +3,8 @@ sentence B = The person is slicing a clove of garlic into pieces.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,Cutting+,?,FloweringPlant+,?,TimeDuration+,?
-CONCEPTS B: ?,Human=,Entity+,Separating+,?,FruitOrVegetable+,?,Garlic=,?,PreparedFood+,?
+CONCEPTS A: Entity+,Cutting+,FloweringPlant+,TimeDuration+
+CONCEPTS B: Human=,Entity+,Separating+,FruitOrVegetable+,Garlic=,PreparedFood+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	into	into	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
 7	pieces	piece	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nmod	_	15246353-n|TimeDuration+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

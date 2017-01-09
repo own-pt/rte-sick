@@ -3,8 +3,8 @@ sentence B = Somebody is playing the guitar.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Entity+,DramaticActing+,?,Guitar=,?
-CONCEPTS B: ?,Entity+,DramaticActing+,?,Guitar=,?
+CONCEPTS A: Entity+,DramaticActing+,Guitar=
+CONCEPTS B: Entity+,DramaticActing+,Guitar=
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	?|?
 5	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	03467517-n|Guitar=
 6	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Somebody	somebody	NOUN	NN	Number=Sing|fPOS=PROPN++NNP	3	nsubj	_	?|?

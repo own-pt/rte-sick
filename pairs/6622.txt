@@ -3,8 +3,8 @@ sentence B = A white dog with beige spots is speeding through a field.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,White=,Canine+,?,ColorAttribute+,Region+,Entity+,Attribute+,?,?,FieldOfStudy=,?
-CONCEPTS B: ?,White=,Canine+,?,ColorAttribute+,Region+,Entity+,Accelerating+,?,?,FieldOfStudy=,?
+CONCEPTS A: White=,Canine+,ColorAttribute+,Region+,Entity+,Attribute+,FieldOfStudy=
+CONCEPTS B: White=,Canine+,ColorAttribute+,Region+,Entity+,Accelerating+,FieldOfStudy=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	05996646-n|FieldOfStudy=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

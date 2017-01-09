@@ -3,8 +3,8 @@ sentence B = People are not walking through a crowded street.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,Woman=,Entity+,Walking=,earlier+,?,City=,Roadway=,?
-CONCEPTS B: GroupOfPeople=,Entity+,not=,Walking=,?,?,SocialInteraction+,Roadway=,?
+CONCEPTS A: Man=,Woman=,Entity+,Walking=,earlier+,City=,Roadway=
+CONCEPTS B: GroupOfPeople=,Entity+,not=,Walking=,SocialInteraction+,Roadway=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	city	city	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	08524735-n|City=
 11	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod:npmod	_	04334599-n|Roadway=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	07942152-n|GroupOfPeople=

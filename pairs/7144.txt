@@ -3,8 +3,8 @@ sentence B = A young boy covered in grass is jumping near a wooden fence.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,Entity+,Ambulating=,?,Covering+,Near+,SubjectiveAssessmentAttribute+,Device+,?,Grass=,?
-CONCEPTS B: ?,HumanYouth=,Human+,Covering+,?,Grass=,Entity+,Ambulating=,?,?,SubjectiveAssessmentAttribute+,Device+,?
+CONCEPTS A: HumanYouth=,Human+,Entity+,Ambulating=,Covering+,Near+,SubjectiveAssessmentAttribute+,Device+,Grass=
+CONCEPTS B: HumanYouth=,Human+,Covering+,Grass=,Entity+,Ambulating=,SubjectiveAssessmentAttribute+,Device+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	with	with	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
 12	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	12102133-n|Grass=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

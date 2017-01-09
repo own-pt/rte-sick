@@ -3,8 +3,8 @@ sentence B = A dog is near the red ball in the air.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,Entity+,CoveringFn=,?,Hay=,Hat+,?,Smoking=,?,CigarOrCigarette+,?
-CONCEPTS B: ?,Canine+,Entity+,?,?,Red=,Ball=,?,?,AirTransportation+,?
+CONCEPTS A: Human=,Entity+,CoveringFn=,Hay=,Hat+,Smoking=,CigarOrCigarette+
+CONCEPTS B: Canine+,Entity+,Red=,Ball=,AirTransportation+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	cigarette	cigarette	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	03030663-n|CigarOrCigarette+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

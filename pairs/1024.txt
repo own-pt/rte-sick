@@ -3,8 +3,8 @@ sentence B = An old woman is wearing a shirt with a rose pattern upon it and is 
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute+,Woman=,Entity+,Putting+,?,MotionUpward=,Planning+,Shirt=,?,Entity+,SubjectiveAssessmentAttribute+,Transportation+,?,Newspaper=,?
-CONCEPTS B: ?,SubjectiveAssessmentAttribute+,Woman=,Entity+,Putting+,?,Shirt=,?,?,MotionUpward=,ShapeAttribute+,?,?,?,Entity+,SubjectiveAssessmentAttribute+,Transportation+,?,Newspaper=,?
+CONCEPTS A: SubjectiveAssessmentAttribute+,Woman=,Entity+,Putting+,MotionUpward=,Planning+,Shirt=,Entity+,SubjectiveAssessmentAttribute+,Transportation+,Newspaper=
+CONCEPTS B: SubjectiveAssessmentAttribute+,Woman=,Entity+,Putting+,Shirt=,MotionUpward=,ShapeAttribute+,Entity+,SubjectiveAssessmentAttribute+,Transportation+,Newspaper=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	15	nummod	_	?|?
 15	newspapers	newspaper	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	dobj	_	06267145-n|Newspaper=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

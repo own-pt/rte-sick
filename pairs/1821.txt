@@ -3,8 +3,8 @@ sentence B = The person is dicing up a pepper which is orange.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Bell=,Entity+,RadiatingSound=,?,?,Human+,Separating+,SpicePepper=,?
-CONCEPTS B: ?,Human=,Entity+,Cutting+,Increasing+,?,Vegetable+,?,Entity+,OrangeColor+,?
+CONCEPTS A: Bell=,Entity+,RadiatingSound=,Human+,Separating+,SpicePepper=
+CONCEPTS B: Human=,Entity+,Cutting+,Increasing+,Vegetable+,Entity+,OrangeColor+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	slicing	slice	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	9	amod	_	01254477-v|Separating+
 9	peppers	pepper	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	07815588-n|SpicePepper=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

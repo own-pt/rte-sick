@@ -3,8 +3,8 @@ sentence B = Two girls are laughing and other girls are watching them.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Group=,?,AsianEthnicity=,Human+,Entity+,PhysicalAttribute+,Meeting=,?
-CONCEPTS B: ?,Human+,Entity+,Laughing=,?,equal+,Human+,Entity+,Looking=,?,?
+CONCEPTS A: Group=,AsianEthnicity=,Human+,Entity+,PhysicalAttribute+,Meeting=
+CONCEPTS B: Human+,Entity+,Laughing=,equal+,Human+,Entity+,Looking=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
 8	together	together	ADV	RB	fPOS=ADV++RB	7	advmod	_	00507927-r|Meeting=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

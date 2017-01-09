@@ -3,8 +3,8 @@ sentence B = Women are wearing bunny ears and race numbers and are pointing at s
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: Woman=,Entity+,not=,CoveringFn=,Position+,Ear+,?,Racing=,Number=,?,Entity+,not=,Indicating=,?,?,?,?,LengthMeasure+,?
-CONCEPTS B: Woman=,Entity+,CoveringFn=,Position+,Ear+,?,Racing=,Number=,?,Entity+,Indicating=,?,?,?,?,LengthMeasure+,?
+CONCEPTS A: Woman=,Entity+,not=,CoveringFn=,Position+,Ear+,Racing=,Number=,Entity+,not=,Indicating=,LengthMeasure+
+CONCEPTS B: Woman=,Entity+,CoveringFn=,Position+,Ear+,Racing=,Number=,Entity+,Indicating=,LengthMeasure+
 
 CONLL A:
 
@@ -27,6 +27,8 @@ CONLL A:
 17	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	18	det	_	?|?
 18	distance	distance	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	05084201-n|LengthMeasure+
 19	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Women	woman	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	10787470-n|Woman=

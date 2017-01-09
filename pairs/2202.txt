@@ -3,8 +3,8 @@ sentence B = Two kids are playing in a swimming pool with a crocodile float that
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,DramaticActing+,?,?,Swimming+,StaticWaterArea+,?,?,Green=,SurfaceChange+,Reptile+,Beverage+,?
-CONCEPTS B: ?,HumanChild=,Entity+,DramaticActing+,?,?,Swimming+,StaticWaterArea+,?,?,Reptile+,Beverage+,?,Entity+,Green=,?
+CONCEPTS A: HumanChild=,Entity+,DramaticActing+,Swimming+,StaticWaterArea+,Green=,SurfaceChange+,Reptile+,Beverage+
+CONCEPTS B: HumanChild=,Entity+,DramaticActing+,Swimming+,StaticWaterArea+,Reptile+,Beverage+,Entity+,Green=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	crocodile	crocodile	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	01697178-n|Reptile+
 14	float	float	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	07923034-n|Beverage+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

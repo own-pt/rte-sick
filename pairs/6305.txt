@@ -3,8 +3,8 @@ sentence B = The man is sitting outside under a purple umbrella.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Clothing[,Woman=,PhysicalAttribute+,SittingDown+,?,?,Blanket+,?,?,FloweringPlant+,Device+,?
-CONCEPTS B: ?,Hominid=,PhysicalAttribute+,SittingDown+,?,?,?,SocialRole+,Device+,?
+CONCEPTS A: Clothing[,Woman=,PhysicalAttribute+,SittingDown+,Blanket+,FloweringPlant+,Device+
+CONCEPTS B: Hominid=,PhysicalAttribute+,SittingDown+,SocialRole+,Device+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	lavender	lavender	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	12849717-n|FloweringPlant+
 12	umbrella	umbrella	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	04507155-n|Device+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

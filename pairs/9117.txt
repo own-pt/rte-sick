@@ -3,8 +3,8 @@ sentence B = Two children are playing soccer in the park.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,SubjectiveStrongNegativeAttribute+,Human+,DramaticActing+,?,?,?,Soccer=,Ball=,?,?,Green=,Grass=,?
-CONCEPTS B: ?,HumanChild=,Entity+,DramaticActing+,Soccer=,?,?,Park+,?
+CONCEPTS A: Entity+,SubjectiveStrongNegativeAttribute+,Human+,DramaticActing+,Soccer=,Ball=,Green=,Grass=
+CONCEPTS B: HumanChild=,Entity+,DramaticActing+,Soccer=,Park+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	00375969-a|Green=
 15	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	12102133-n|Grass=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = A blond child is holding a yellow bottle.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,HumanChild=,?,?,Obligation+,Human+,Hair=,?,Entity+,Obligation+,?,SubjectiveAssessmentAttribute+,Bottle=,?
-CONCEPTS B: ?,Human+,HumanChild=,Entity+,Process+,?,SubjectiveAssessmentAttribute+,Bottle=,?
+CONCEPTS A: HumanChild=,Obligation+,Human+,Hair=,Entity+,Obligation+,SubjectiveAssessmentAttribute+,Bottle=
+CONCEPTS B: Human+,HumanChild=,Entity+,Process+,SubjectiveAssessmentAttribute+,Bottle=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	02101942-a|SubjectiveAssessmentAttribute+
 13	bottle	bottle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	02876657-n|Bottle=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

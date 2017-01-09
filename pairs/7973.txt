@@ -3,8 +3,8 @@ sentence B = Two poodles are in the snow and one is jumping high.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,?,?,Snowing=,?,?,Entity+,PhysicalAttribute+,earlier+,?
-CONCEPTS B: ?,Canine+,Entity+,?,?,Snowing=,?,?,Entity+,Ambulating=,SubjectiveStrongPositiveAttribute+,?
+CONCEPTS A: Canine+,Entity+,Snowing=,Entity+,PhysicalAttribute+,earlier+
+CONCEPTS B: Canine+,Entity+,Snowing=,Entity+,Ambulating=,SubjectiveStrongPositiveAttribute+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	02690708-v|PhysicalAttribute+
 11	down	down	ADV	RB	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	10	advmod	_	00096089-r|earlier+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NOUN	NN	NumType=Card|fPOS=NUM++CD	2	compound	_	?|?

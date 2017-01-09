@@ -3,8 +3,8 @@ sentence B = Two kids are sticking out blue and green colored tongues.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Entity+,?,HumanChild=,Entity+,Attaching+,Giving+,SubjectiveStrongNegativeAttribute+,?,Green=,SurfaceChange+,Tongue=,?
-CONCEPTS B: ?,HumanChild=,Entity+,Attaching+,Giving+,SubjectiveStrongNegativeAttribute+,?,Green=,SurfaceChange+,Tongue=,?
+CONCEPTS A: Entity+,HumanChild=,Entity+,Attaching+,Giving+,SubjectiveStrongNegativeAttribute+,Green=,SurfaceChange+,Tongue=
+CONCEPTS B: HumanChild=,Entity+,Attaching+,Giving+,SubjectiveStrongNegativeAttribute+,Green=,SurfaceChange+,Tongue=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	colored	color	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00283911-v|SurfaceChange+
 12	tongues	tongue	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	dobj	_	05301072-n|Tongue=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	compound	_	?|?

@@ -3,8 +3,8 @@ sentence B = A woman dressed in elegant clothing is inside a crowd of people and
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,AsianEthnicity=,Woman=,Entity+,Process+,?,Fabric+,Clothing+,?
-CONCEPTS B: ?,Woman=,Dressing+,?,SubjectiveStrongPositiveAttribute+,Clothing=,Entity+,?,?,SubjectiveAssessmentAttribute=,?,GroupOfPeople=,?,Entity+,SubjectiveAssessmentAttribute+,Increasing+,?
+CONCEPTS A: AsianEthnicity=,Woman=,Entity+,Process+,Fabric+,Clothing+
+CONCEPTS B: Woman=,Dressing+,SubjectiveStrongPositiveAttribute+,Clothing=,Entity+,SubjectiveAssessmentAttribute=,GroupOfPeople=,Entity+,SubjectiveAssessmentAttribute+,Increasing+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	fur	fur	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	14764061-n|Fabric+
 8	scarf	scarf	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	04143897-n|Clothing+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

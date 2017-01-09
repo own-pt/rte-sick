@@ -3,8 +3,8 @@ sentence B = A chubby faced boy is wearing dark glasses.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute+,DirectionChange+,Human+,Entity+,RecreationOrExercise+,Device+,?
-CONCEPTS B: ?,SubjectiveAssessmentAttribute+,DirectionChange+,Human+,Entity+,CoveringFn=,SubjectiveWeakNegativeAttribute+,Cup=,?
+CONCEPTS A: SubjectiveAssessmentAttribute+,DirectionChange+,Human+,Entity+,RecreationOrExercise+,Device+
+CONCEPTS B: SubjectiveAssessmentAttribute+,DirectionChange+,Human+,Entity+,CoveringFn=,SubjectiveWeakNegativeAttribute+,Cup=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	wearing	wear	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00075021-v|RecreationOrExercise+
 7	sunglasses	sunglass	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	04355933-n|Device+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

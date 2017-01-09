@@ -3,8 +3,8 @@ sentence B = Blue and black pants are being worn by the motocross rider.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,?,Position+,Entity+,RecreationOrExercise+,SubjectiveStrongNegativeAttribute+,?,Black=,Trousers+,?
-CONCEPTS B: SubjectiveStrongNegativeAttribute+,?,Black=,Trousers+,Entity+,Entity+,CoveringFn=,?,?,?,SocialRole+,?
+CONCEPTS A: Position+,Entity+,RecreationOrExercise+,SubjectiveStrongNegativeAttribute+,Black=,Trousers+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Black=,Trousers+,Entity+,Entity+,CoveringFn=,SocialRole+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	conj	_	00392812-a|Black=
 9	pants	pant	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	04489008-n|Trousers+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Blue	blue	PROPN	NNP	Number=Sing|fPOS=PROPN++NNP	7	nsubjpass	_	00425002-a|SubjectiveStrongNegativeAttribute+

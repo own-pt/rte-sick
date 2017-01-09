@@ -3,8 +3,8 @@ sentence B = There is no white race car driving through a puddle.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,White=,PsychologicalProcess+,Automobile=,Entity+,Impelling+,Soil=,?,?,AirTransportation+,?,Entity+,Arriving=,?,Transitway+,?,?,RailroadTrack+,?
-CONCEPTS B: ?,Entity+,?,White=,Racing=,Automobile=,Transportation+,?,?,StaticWaterArea+,?
+CONCEPTS A: White=,PsychologicalProcess+,Automobile=,Entity+,Impelling+,Soil=,AirTransportation+,Entity+,Arriving=,Transitway+,RailroadTrack+
+CONCEPTS B: Entity+,White=,Racing=,Automobile=,Transportation+,StaticWaterArea+
 
 CONLL A:
 
@@ -27,6 +27,8 @@ CONLL A:
 17	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	18	det	_	?|?
 18	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	04463679-n|RailroadTrack+
 19	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

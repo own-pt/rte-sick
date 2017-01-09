@@ -3,8 +3,8 @@ sentence B = A young white child is not standing on the edge of a body of water 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Position+,?,?,Container+,?,MusicGenre+,Entity+,PhysicalAttribute+,?,CorpuscularObject=,?
-CONCEPTS B: ?,HumanYouth=,White=,HumanChild=,Entity+,not=,PhysicalAttribute+,?,?,Object+,?,?,Animal=,?,Water=,?,?,Container+,?
+CONCEPTS A: Human+,Position+,Container+,MusicGenre+,Entity+,PhysicalAttribute+,CorpuscularObject=
+CONCEPTS B: HumanYouth=,White=,HumanChild=,Entity+,not=,PhysicalAttribute+,Object+,Animal=,Water=,Container+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	object	object	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	00002684-n|CorpuscularObject=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

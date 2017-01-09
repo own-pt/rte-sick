@@ -3,8 +3,8 @@ sentence B = A small child is outdoors climbing steps in a grassy area.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,HumanChild=,?,?,Pink+,Clothing+,Entity+,Increasing+,?,Physical+,Steps=,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,Outdoors+,Increasing+,RadiatingSound+,?,?,FloweringPlant+,GeographicArea+,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,HumanChild=,Pink+,Clothing+,Entity+,Increasing+,Physical+,Steps=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,Outdoors+,Increasing+,RadiatingSound+,FloweringPlant+,GeographicArea+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	concrete	concrete	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	12	compound	_	00013160-a|Physical+
 12	staircase	staircase	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	04298308-n|Steps=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

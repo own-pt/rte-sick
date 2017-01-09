@@ -3,8 +3,8 @@ sentence B = A black dog and a yellow dog are not playing with each other.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,?,?,Kennel=,?,?,BackFn+,Limb=,?,Entity+,DirectionChange+,?,?,?
-CONCEPTS B: ?,Black=,Canine+,?,?,SubjectiveAssessmentAttribute+,Canine+,Entity+,not=,DramaticActing+,?,?,equal+,?
+CONCEPTS A: Canine+,Entity+,Kennel=,BackFn+,Limb=,Entity+,DirectionChange+
+CONCEPTS B: Black=,Canine+,SubjectiveAssessmentAttribute+,Canine+,Entity+,not=,DramaticActing+,equal+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	one	1	NUM	CD	NumType=Card|fPOS=NUM++CD	13	dobj	_	?|?
 15	another	another	ADV	RB	fPOS=DET++DT	13	advmod	_	?|?
 16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

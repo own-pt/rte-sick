@@ -3,8 +3,8 @@ sentence B = A girl in blue sweater is holding a multicolor toy and is sitting o
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Asia+,Human+,Entity+,PhysicalAttribute+,?,?,SubjectiveAssessmentAttribute=,?,Entity+,DramaticActing+,?,?,FloweringPlant+,?
-CONCEPTS B: ?,Human+,?,SubjectiveStrongNegativeAttribute+,Clothing+,PhysicalAttribute+,Process+,?,Polychromatic+,RecreationOrExerciseDevice+,?,PhysicalAttribute+,SittingDown+,?,?,Shoulder=,?,?,SubjectiveAssessmentAttribute+,Man=,?,Gray+,Hair=,?
+CONCEPTS A: HumanYouth=,Asia+,Human+,Entity+,PhysicalAttribute+,SubjectiveAssessmentAttribute=,Entity+,DramaticActing+,FloweringPlant+
+CONCEPTS B: Human+,SubjectiveStrongNegativeAttribute+,Clothing+,PhysicalAttribute+,Process+,Polychromatic+,RecreationOrExerciseDevice+,PhysicalAttribute+,SittingDown+,Shoulder=,SubjectiveAssessmentAttribute+,Man=,Gray+,Hair=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	pinwheel	pinwheel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	12786836-n|FloweringPlant+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

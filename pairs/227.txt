@@ -3,8 +3,8 @@ sentence B = There is no girl in white dancing.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Human+,Entity+,Dancing+,?,FrontFn=,?,?,Asleep+,Device+,?
-CONCEPTS B: ?,Entity+,?,Human+,?,White=,Dancing+,?
+CONCEPTS A: Human+,Human+,Entity+,Dancing+,FrontFn=,Asleep+,Device+
+CONCEPTS B: Entity+,Human+,White=,Dancing+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	sound	sound	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	00693020-a|Asleep+
 11	equipment	equipment	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	03294048-n|Device+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

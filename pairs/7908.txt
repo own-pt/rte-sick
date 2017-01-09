@@ -3,8 +3,8 @@ sentence B = A little black dog is wearing a red collar and is in the leaves wit
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Black=,Canine+,Entity+,CoveringFn=,?,Red=,Collar+,?,Entity+,?,?,Leaf=,?,?,SubjectiveStrongNegativeAttribute+,Ball=,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Black=,Canine+,Entity+,CoveringFn=,?,Red=,Collar+,?,Entity+,?,?,Leaf=,?,?,SubjectiveStrongNegativeAttribute+,Ball=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Black=,Canine+,Entity+,CoveringFn=,Red=,Collar+,Entity+,Leaf=,SubjectiveStrongNegativeAttribute+,Ball=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Black=,Canine+,Entity+,CoveringFn=,Red=,Collar+,Entity+,Leaf=,SubjectiveStrongNegativeAttribute+,Ball=
 
 CONLL A:
 
@@ -27,6 +27,8 @@ CONLL A:
 17	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	18	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
 18	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	02778669-n|Ball=
 19	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

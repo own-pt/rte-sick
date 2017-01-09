@@ -3,8 +3,8 @@ sentence B = The south African plane is not flying in a blue sky.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,South=,Continent@,Airplane=,Entity+,FlyingAircraft=,?,?,SubjectiveStrongNegativeAttribute+,SpaceRegion=,?
-CONCEPTS B: ?,South=,Continent@,Airplane=,Entity+,not=,FlyingAircraft=,?,?,SubjectiveStrongNegativeAttribute+,SpaceRegion=,?
+CONCEPTS A: South=,Continent@,Airplane=,Entity+,FlyingAircraft=,SubjectiveStrongNegativeAttribute+,SpaceRegion=
+CONCEPTS B: South=,Continent@,Airplane=,Entity+,not=,FlyingAircraft=,SubjectiveStrongNegativeAttribute+,SpaceRegion=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
 10	sky	sky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	09436708-n|SpaceRegion=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	4	det	_	?|?

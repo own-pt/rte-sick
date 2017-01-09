@@ -3,8 +3,8 @@ sentence B = The man is cautiously feeding a mouse to the snake.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveWeakNegativeAttribute+,Hominid=,Entity+,Entity+,Feeding+,Snake=,?,Mouse=,?
-CONCEPTS B: ?,Hominid=,Entity+,SubjectiveAssessmentAttribute+,Feeding+,?,Mouse=,?,?,Snake=,?
+CONCEPTS A: SubjectiveWeakNegativeAttribute+,Hominid=,Entity+,Entity+,Feeding+,Snake=,Mouse=
+CONCEPTS B: Hominid=,Entity+,SubjectiveAssessmentAttribute+,Feeding+,Mouse=,Snake=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
 9	mice	mouse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	conj	_	10335563-n|Mouse=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

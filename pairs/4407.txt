@@ -3,8 +3,8 @@ sentence B = Two men are racing in a tire rolling competition.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Contest+,?,?,Artifact+,Motion+,Racing=,?
-CONCEPTS B: ?,Hominid=,Entity+,Motion+,?,?,Artifact+,Motion+,Contest+,?
+CONCEPTS A: Hominid=,Entity+,Contest+,Artifact+,Motion+,Racing=
+CONCEPTS B: Hominid=,Entity+,Motion+,Artifact+,Motion+,Contest+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	rolling	roll	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	01866192-v|Motion+
 9	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	07458453-n|Racing=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

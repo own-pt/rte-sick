@@ -3,8 +3,8 @@ sentence B = A white car and a yellow car are racing down the track.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Automobile=,?,Motion+,Entity+,?,?,Roadway+,?,FrontFn=,?,?,FloweringPlant+,Region+,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,White=,Automobile=,?,?,SubjectiveAssessmentAttribute+,Automobile=,Entity+,Motion+,earlier+,?,StationaryArtifact+,?
+CONCEPTS A: Automobile=,Motion+,Entity+,Roadway+,FrontFn=,FloweringPlant+,Region+,SubjectiveAssessmentAttribute+
+CONCEPTS B: White=,Automobile=,SubjectiveAssessmentAttribute+,Automobile=,Entity+,Motion+,earlier+,StationaryArtifact+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	parking	parking	VERB	VBG	Number=Sing|fPOS=NOUN++NN	15	compound	_	13778671-n|Region+
 15	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	14514039-n|SubjectiveAssessmentAttribute+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

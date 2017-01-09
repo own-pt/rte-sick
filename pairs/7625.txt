@@ -3,8 +3,8 @@ sentence B = A woman in a purple top is walking a bicycle between two stone colu
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Dressing+,?,SocialRole+,?,SubjectiveStrongNegativeAttribute+,Entity+,Walking=,?,?,Bicycle=,?,NightTime+,?
-CONCEPTS B: ?,Woman=,?,?,SocialRole+,PositionalAttribute+,Entity+,Walking=,?,Bicycle=,?,?,Rock=,StationaryArtifact+,?
+CONCEPTS A: Human+,Dressing+,SocialRole+,SubjectiveStrongNegativeAttribute+,Entity+,Walking=,Bicycle=,NightTime+
+CONCEPTS B: Woman=,SocialRole+,PositionalAttribute+,Entity+,Walking=,Bicycle=,Rock=,StationaryArtifact+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	at	at	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
 14	night	night	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	15167027-n|NightTime+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

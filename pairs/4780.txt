@@ -3,8 +3,8 @@ sentence B = A little girl is playing a guitar.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,DramaticActing+,Guitar=,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,DramaticActing+,?,Guitar=,?
+CONCEPTS A: Human+,Entity+,DramaticActing+,Guitar=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,DramaticActing+,Guitar=
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
 5	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03467517-n|Guitar=
 6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

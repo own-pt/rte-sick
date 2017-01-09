@@ -3,8 +3,8 @@ sentence B = Two men are looking out and one is holding binoculars.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,SubjectiveAssessmentAttribute+,Giving+,?,Device+,Entity+,Entity+,PhysicalAttribute+,?,?,?,?,?
-CONCEPTS B: ?,Hominid=,Entity+,SubjectiveAssessmentAttribute+,Giving+,?,?,Entity+,PhysicalAttribute+,Device+,?
+CONCEPTS A: Hominid=,Entity+,SubjectiveAssessmentAttribute+,Giving+,Device+,Entity+,Entity+,PhysicalAttribute+
+CONCEPTS B: Hominid=,Entity+,SubjectiveAssessmentAttribute+,Giving+,Entity+,PhysicalAttribute+,Device+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	of	of	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
 14	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|fPOS=PRON++PRP	12	nmod	_	?|?
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

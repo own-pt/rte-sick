@@ -3,8 +3,8 @@ sentence B = The woman is adding sugar to the meat.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Transfer=,?,Attaching+,Giving+,?,SubjectiveAssessmentAttribute+,Dirty=,Water=,?
-CONCEPTS B: ?,Woman=,Entity+,Putting=,Sugar=,?,?,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: Canine+,Entity+,Transfer=,Attaching+,Giving+,SubjectiveAssessmentAttribute+,Dirty=,Water=
+CONCEPTS B: Woman=,Entity+,Putting=,Sugar=,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	dirty	dirty	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	00419289-a|Dirty=
 11	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	14845743-n|Water=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

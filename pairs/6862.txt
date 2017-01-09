@@ -3,8 +3,8 @@ sentence B = A golden dog is sitting in a field of tall grass.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Attribute+,?,?,FieldOfStudy=,?,SubjectiveWeakNegativeAttribute+,Grass=,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Canine+,PhysicalAttribute+,SittingDown+,?,?,FieldOfStudy=,?,SubjectiveWeakNegativeAttribute+,Grass=,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Attribute+,FieldOfStudy=,SubjectiveWeakNegativeAttribute+,Grass=
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Canine+,PhysicalAttribute+,SittingDown+,FieldOfStudy=,SubjectiveWeakNegativeAttribute+,Grass=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	tall	tall	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	11	compound	_	02385102-a|SubjectiveWeakNegativeAttribute+
 11	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	12102133-n|Grass=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

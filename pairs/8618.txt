@@ -3,8 +3,8 @@ sentence B = An old man with a grey beard is not riding a bike.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,CoveringFn=,?,Clothing+,?,Entity+,Carrying=,?,Bicycle=,?,?,RecreationOrExercise+,Trail+,?
-CONCEPTS B: ?,SubjectiveAssessmentAttribute+,Man=,?,?,Gray+,FacialHair+,Entity+,not=,Transportation+,?,Bicycle=,?
+CONCEPTS A: Hominid=,Entity+,CoveringFn=,Clothing+,Entity+,Carrying=,Bicycle=,RecreationOrExercise+,Trail+
+CONCEPTS B: SubjectiveAssessmentAttribute+,Man=,Gray+,FacialHair+,Entity+,not=,Transportation+,Bicycle=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	recreation	recreation	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	compound	_	00426928-n|RecreationOrExercise+
 15	trail	trail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04466613-n|Trail+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

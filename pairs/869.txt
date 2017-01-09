@@ -3,8 +3,8 @@ sentence B = An ice skater is outdoors performing on a rink full of people.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,IceSkatingRink=,Walking+,IceSkatingRink+,Putting=,Outdoors+,Attribute+,ContainerFull+,?,GroupOfPeople=,?
-CONCEPTS B: ?,IceSkatingRink=,Human+,Attribute+,Outdoors+,IntentionalProcess+,?,?,IceSkatingRink+,ContainerFull+,?,GroupOfPeople=,?
+CONCEPTS A: IceSkatingRink=,Walking+,IceSkatingRink+,Putting=,Outdoors+,Attribute+,ContainerFull+,GroupOfPeople=
+CONCEPTS B: IceSkatingRink=,Human+,Attribute+,Outdoors+,IntentionalProcess+,IceSkatingRink+,ContainerFull+,GroupOfPeople=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
 10	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	07942152-n|GroupOfPeople=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

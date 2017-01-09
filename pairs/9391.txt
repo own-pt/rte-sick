@@ -3,8 +3,8 @@ sentence B = A kid is splashing in the pool.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,DramaticActing+,?,?,Motion+,?
-CONCEPTS B: ?,HumanChild=,Entity+,Wetting+,?,?,StaticWaterArea+,?
+CONCEPTS A: HumanChild=,Entity+,DramaticActing+,Motion+
+CONCEPTS B: HumanChild=,Entity+,Wetting+,StaticWaterArea+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	surf	surf	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	07344233-n|Motion+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

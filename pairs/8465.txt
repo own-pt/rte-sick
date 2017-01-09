@@ -3,8 +3,8 @@ sentence B = An old man in a white shirt and gold and black hat is sitting with 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,?,Hat+,PhysicalAttribute+,SittingDown+,?,?,LandArea=,?
-CONCEPTS B: ?,SubjectiveAssessmentAttribute+,Man=,?,?,White=,Shirt=,?,Gold=,?,Black=,Hat+,PhysicalAttribute+,SittingDown+,?,Process+,Limb=,?
+CONCEPTS A: Man=,Hat+,PhysicalAttribute+,SittingDown+,LandArea=
+CONCEPTS B: SubjectiveAssessmentAttribute+,Man=,White=,Shirt=,Gold=,Black=,Hat+,PhysicalAttribute+,SittingDown+,Process+,Limb=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	ground	ground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	09334396-n|LandArea=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

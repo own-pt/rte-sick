@@ -3,8 +3,8 @@ sentence B = A woman is wearing an Indian headdress.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Putting+,?,Nation@,Hat+,?
-CONCEPTS B: ?,Woman=,Entity+,Putting+,?,LandArea@,Hat+,?
+CONCEPTS A: Woman=,Entity+,Putting+,Nation@,Hat+
+CONCEPTS B: Woman=,Entity+,Putting+,LandArea@,Hat+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	Egyptian	egyptian	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	02971469-a|Nation@
 7	headdress	headdress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03502509-n|Hat+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

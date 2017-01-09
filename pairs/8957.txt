@@ -3,8 +3,8 @@ sentence B = A small group of people are standing and two are sitting on the sof
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Group=,?,GroupOfPeople=,PhysicalAttribute+,PhysicalAttribute+,?,?,PhysicalAttribute+,SittingDown+,?,?,Sofa=,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Group=,?,GroupOfPeople=,PhysicalAttribute+,PhysicalAttribute+,?,?,PhysicalAttribute+,SittingDown+,?,?,Sofa=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Group=,GroupOfPeople=,PhysicalAttribute+,PhysicalAttribute+,PhysicalAttribute+,SittingDown+,Sofa=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Group=,GroupOfPeople=,PhysicalAttribute+,PhysicalAttribute+,PhysicalAttribute+,SittingDown+,Sofa=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	couch	couch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	04256520-n|Sofa=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Two young children are eating corndogs.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,NonFullyFormed+,Entity+,Process+,?,?,?,Trailer+,?,?,Entity+,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,?
-CONCEPTS B: ?,HumanYouth=,HumanChild=,Entity+,Process+,?,?
+CONCEPTS A: NonFullyFormed+,Entity+,Process+,Trailer+,Entity+,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+
+CONCEPTS B: HumanYouth=,HumanChild=,Entity+,Process+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	really	really	ADV	RB	fPOS=ADV++RB	13	advmod	_	00031899-r|SubjectiveAssessmentAttribute+
 13	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	acl:relcl	_	01391351-a|SubjectiveStrongNegativeAttribute+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?

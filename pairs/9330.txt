@@ -3,8 +3,8 @@ sentence B = Four people are walking along a city sidewalk and the one in the gr
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Entity+,Walking=,?,?,City=,Sidewalk=,?,?,PositiveInteger@,?,?,Green=,Hat+,Entity+,Telephoning=,?,?
-CONCEPTS B: ?,GroupOfPeople=,Entity+,Walking=,?,?,City=,Sidewalk=,?,?,PositiveInteger@,?,?,Green=,Hat+,Entity+,Speaking+,?,?,Cell=,Telephone=,?
+CONCEPTS A: GroupOfPeople=,Entity+,Walking=,City=,Sidewalk=,PositiveInteger@,Green=,Hat+,Entity+,Telephoning=
+CONCEPTS B: GroupOfPeople=,Entity+,Walking=,City=,Sidewalk=,PositiveInteger@,Green=,Hat+,Entity+,Speaking+,Cell=,Telephone=
 
 CONLL A:
 
@@ -27,6 +27,8 @@ CONLL A:
 17	phoning	phone	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	00789448-v|Telephoning=
 18	someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	dobj	_	?|?
 19	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

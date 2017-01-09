@@ -3,8 +3,8 @@ sentence B = Two dogs are cheerfully playing on the beach.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,White=,Canine+,Entity+,Attribute+,?,Ambulating=,?,?,ShoreArea=,?
-CONCEPTS B: ?,Canine+,Entity+,EmotionalState+,DramaticActing+,?,?,ShoreArea=,?
+CONCEPTS A: White=,Canine+,Entity+,Attribute+,Ambulating=,ShoreArea=
+CONCEPTS B: Canine+,Entity+,EmotionalState+,DramaticActing+,ShoreArea=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	09217230-n|ShoreArea=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

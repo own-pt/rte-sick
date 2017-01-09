@@ -3,8 +3,8 @@ sentence B = The young boy is running through the ocean waves.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human+,?,?,Entity+,HumanYouth=,?,Entity+,Attribute+,?,?,Ocean=,ShapeAttribute+,?
-CONCEPTS B: ?,HumanYouth=,Human+,Entity+,Attribute+,?,?,Ocean=,ShapeAttribute+,?
+CONCEPTS A: Human+,Entity+,HumanYouth=,Entity+,Attribute+,Ocean=,ShapeAttribute+
+CONCEPTS B: HumanYouth=,Human+,Entity+,Attribute+,Ocean=,ShapeAttribute+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	ocean	ocean	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	09376198-n|Ocean=
 13	waves	wave	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	nmod	_	13868944-n|ShapeAttribute+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

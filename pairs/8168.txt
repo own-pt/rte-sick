@@ -3,8 +3,8 @@ sentence B = A blond woman is sitting on the roof of a yellow vehicle and two pe
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GroupOfPeople=,PhysicalAttribute+,Transportation+,?,Automobile+,?,?,Human+,PhysicalAttribute+,SittingDown+,?,?,PositionalAttribute+,?,?,?
-CONCEPTS B: ?,Human+,Woman=,PhysicalAttribute+,SittingDown+,?,?,Roof=,?,?,SubjectiveAssessmentAttribute+,Vehicle=,?,?,GroupOfPeople=,PhysicalAttribute+,located+,?
+CONCEPTS A: GroupOfPeople=,PhysicalAttribute+,Transportation+,Automobile+,Human+,PhysicalAttribute+,SittingDown+,PositionalAttribute+
+CONCEPTS B: Human+,Woman=,PhysicalAttribute+,SittingDown+,Roof=,SubjectiveAssessmentAttribute+,Vehicle=,GroupOfPeople=,PhysicalAttribute+,located+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	of	of	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
 16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	14	nmod	_	?|?
 17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

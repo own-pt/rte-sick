@@ -3,8 +3,8 @@ sentence B = Two people are sitting on a bench.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,PhysicalAttribute+,SittingDown+,?,?,Flower+,Bed=,?,PhysicalAttribute+,IntentionalProcess+,?,StationaryArtifact+,?
-CONCEPTS B: ?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,?,Seat+,?
+CONCEPTS A: Woman=,PhysicalAttribute+,SittingDown+,Flower+,Bed=,PhysicalAttribute+,IntentionalProcess+,StationaryArtifact+
+CONCEPTS B: GroupOfPeople=,PhysicalAttribute+,SittingDown+,Seat+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	tunnel	tunnel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	04497962-n|StationaryArtifact+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

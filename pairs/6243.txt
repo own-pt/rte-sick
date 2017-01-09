@@ -3,8 +3,8 @@ sentence B = A brown dog is jumping in the air.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,DiseaseOrSyndrome+,SubjectiveAssessmentAttribute+,Canine+,Entity+,PhysicalAttribute+,?,?,BackFn+,Limb=,?,Entity+,Learning+,?,Ambulating=,?
-CONCEPTS B: ?,Human+,Canine+,Entity+,Ambulating=,?,?,AirTransportation+,?
+CONCEPTS A: DiseaseOrSyndrome+,SubjectiveAssessmentAttribute+,Canine+,Entity+,PhysicalAttribute+,BackFn+,Limb=,Entity+,Learning+,Ambulating=
+CONCEPTS B: Human+,Canine+,Entity+,Ambulating=,AirTransportation+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	to	to	PART	TO	fPOS=PART++TO	15	mark	_	?|?
 15	jump	jump	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	13	xcomp	_	01963942-v|Ambulating=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

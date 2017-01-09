@@ -3,8 +3,8 @@ sentence B = A young man in a white shirt and gold and black hat is sitting with
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute+,Man=,?,?,White=,Shirt=,?,Gold=,?,Black=,Hat+,PhysicalAttribute+,SittingDown+,?,Process+,Limb=,?
-CONCEPTS B: ?,HumanYouth=,Man=,?,?,White=,Shirt=,?,Gold=,?,Black=,Hat+,PhysicalAttribute+,SittingDown+,?,Process+,Limb=,?
+CONCEPTS A: SubjectiveAssessmentAttribute+,Man=,White=,Shirt=,Gold=,Black=,Hat+,PhysicalAttribute+,SittingDown+,Process+,Limb=
+CONCEPTS B: HumanYouth=,Man=,White=,Shirt=,Gold=,Black=,Hat+,PhysicalAttribute+,SittingDown+,Process+,Limb=
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	crossed	cross	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	17	amod	_	02023396-v|Process+
 17	legs	leg	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	14	nmod	_	05560787-n|Limb=
 18	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A dog is rolling on the ground.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Dirty=,TangentFn=,Canine+,Entity+,Motion+,?,?,SubjectiveAssessmentAttribute+,?,FrontFn+,Hand+,?,?,Camera=,?
-CONCEPTS B: ?,Canine+,Entity+,Motion+,?,?,LandArea=,?
+CONCEPTS A: Dirty=,TangentFn=,Canine+,Entity+,Motion+,SubjectiveAssessmentAttribute+,FrontFn+,Hand+,Camera=
+CONCEPTS B: Canine+,Entity+,Motion+,LandArea=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	02942699-n|Camera=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

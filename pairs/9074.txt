@@ -3,8 +3,8 @@ sentence B = Two boys are laying in the ocean close to the beach.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,Motion+,?,Clean=,Water=,?
-CONCEPTS B: ?,Human+,Entity+,Putting=,?,?,Ocean=,Near+,?,?,ShoreArea=,?
+CONCEPTS A: HumanChild=,Entity+,Motion+,Clean=,Water=
+CONCEPTS B: Human+,Entity+,Putting=,Ocean=,Near+,ShoreArea=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	clean	clean	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00417413-a|Clean=
 7	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	14845743-n|Water=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

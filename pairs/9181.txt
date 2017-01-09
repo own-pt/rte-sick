@@ -3,8 +3,8 @@ sentence B = The person is walking.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute+,Human=,?,?,SubjectiveStrongNegativeAttribute+,Bag+,Entity+,Walking+,?,TextureAttribute+,GeographicArea+,?
-CONCEPTS B: ?,Human=,Entity+,Walking=,?
+CONCEPTS A: SubjectiveAssessmentAttribute+,Human=,SubjectiveStrongNegativeAttribute+,Bag+,Entity+,Walking+,TextureAttribute+,GeographicArea+
+CONCEPTS B: Human=,Entity+,Walking=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	rocky	rocky	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	12	amod	_	02243567-a|TextureAttribute+
 12	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	08497294-n|GeographicArea+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

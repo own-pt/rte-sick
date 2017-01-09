@@ -3,8 +3,8 @@ sentence B = A horse is falling on someone.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,Getting+,?,?,Horse=,?
-CONCEPTS B: ?,Horse=,Entity+,Getting+,?,?,?
+CONCEPTS A: Entity+,Getting+,Horse=
+CONCEPTS B: Horse=,Entity+,Getting+
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
 6	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	02374451-n|Horse=
 7	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

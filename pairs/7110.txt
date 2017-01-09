@@ -3,8 +3,8 @@ sentence B = A small girl is riding in a toy car.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,PhysicalAttribute+,SittingDown+,?,?,RecreationOrExerciseDevice+,Automobile=,SurfaceChange+,?,Red=,?,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Carrying=,?,?,RecreationOrExerciseDevice+,Automobile=,?
+CONCEPTS A: HumanChild=,PhysicalAttribute+,SittingDown+,RecreationOrExerciseDevice+,Automobile=,SurfaceChange+,Red=,SubjectiveAssessmentAttribute+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Carrying=,RecreationOrExerciseDevice+,Automobile=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	and	and	CONJ	CC	fPOS=CONJ++CC	11	cc	_	?|?
 13	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	conj	_	02101942-a|SubjectiveAssessmentAttribute+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

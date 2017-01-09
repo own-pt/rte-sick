@@ -3,8 +3,8 @@ sentence B = There is no woman slicing a fish.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Cutting+,Garlic=,?
-CONCEPTS B: ?,Entity+,?,Woman=,Separating+,?,Region@,?
+CONCEPTS A: Woman=,Entity+,Cutting+,Garlic=
+CONCEPTS B: Entity+,Woman=,Separating+,Region@
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	chopping	chop	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01258091-v|Cutting+
 5	garlic	garlic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	xcomp	_	07818277-n|Garlic=
 6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

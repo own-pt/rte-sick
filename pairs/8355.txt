@@ -3,8 +3,8 @@ sentence B = Several people are sitting at small tables in a darkened room.
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,SubjectiveStrongNegativeAttribute+,ContentBearingObject+,?,?,SubjectiveWeakPositiveAttribute+,Room=,?
-CONCEPTS B: ?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,SubjectiveStrongNegativeAttribute+,ContentBearingObject+,?,?,SurfaceChange+,Room=,?
+CONCEPTS A: GroupOfPeople=,PhysicalAttribute+,SittingDown+,SubjectiveStrongNegativeAttribute+,ContentBearingObject+,SubjectiveWeakPositiveAttribute+,Room=
+CONCEPTS B: GroupOfPeople=,PhysicalAttribute+,SittingDown+,SubjectiveStrongNegativeAttribute+,ContentBearingObject+,SurfaceChange+,Room=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	light	light	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	01186408-a|SubjectiveWeakPositiveAttribute+
 11	room	room	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04105893-n|Room=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Several	several	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	?|?

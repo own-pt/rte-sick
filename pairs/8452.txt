@@ -3,8 +3,8 @@ sentence B = There is no motorcyclist on a bike leaning into a sharp corner.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human+,?,?,PassengerVehicle+,Entity+,Inclining+,?,?,SubjectiveWeakNegativeAttribute+,StationaryArtifact+,?
-CONCEPTS B: ?,Entity+,?,Human+,?,?,PassengerVehicle+,EmotionalState+,?,?,SubjectiveWeakNegativeAttribute+,StationaryArtifact+,?
+CONCEPTS A: Human+,PassengerVehicle+,Entity+,Inclining+,SubjectiveWeakNegativeAttribute+,StationaryArtifact+
+CONCEPTS B: Entity+,Human+,PassengerVehicle+,EmotionalState+,SubjectiveWeakNegativeAttribute+,StationaryArtifact+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	sharp	sharp	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	00803038-a|SubjectiveWeakNegativeAttribute+
 11	corner	corner	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	03109486-n|StationaryArtifact+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

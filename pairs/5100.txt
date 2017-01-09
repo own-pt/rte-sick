@@ -3,8 +3,8 @@ sentence B = A woman is seasoning a piece of meat.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,Hominid=,Putting+,?,Rifle=,?,Bullet=,?
-CONCEPTS B: ?,Woman=,Entity+,Putting+,?,TimeDuration+,?,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: Entity+,Hominid=,Putting+,Rifle=,Bullet=
+CONCEPTS B: Woman=,Entity+,Putting+,TimeDuration+,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
 9	bullets	bullet	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	02916350-n|Bullet=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

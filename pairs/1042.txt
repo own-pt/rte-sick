@@ -3,8 +3,8 @@ sentence B = The snowboarder is leaping over white snow.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,?,Entity+,Position+,?,Getting+,?,?,AirTransportation+,?
-CONCEPTS B: ?,SportsPosition@,Entity+,Ambulating=,SubjectiveAssessmentAttribute+,White=,Snowing=,?
+CONCEPTS A: Human=,Entity+,Position+,Getting+,AirTransportation+
+CONCEPTS B: SportsPosition@,Entity+,Ambulating=,SubjectiveAssessmentAttribute+,White=,Snowing=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	00300441-n|AirTransportation+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

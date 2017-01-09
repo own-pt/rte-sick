@@ -3,8 +3,8 @@ sentence B = A small child is outdoors climbing steps in a grassy area.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,HumanChild=,?,?,Attribute+,SubjectiveStrongNegativeAttribute+,?,Attribute+,Outdoors+,Increasing+,RadiatingSound+,Outdoors+,?,?,SubjectiveAssessmentAttribute+,ContainerFull+,?,Grass=,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,Outdoors+,Increasing+,RadiatingSound+,?,?,FloweringPlant+,GeographicArea+,?
+CONCEPTS A: HumanChild=,Attribute+,SubjectiveStrongNegativeAttribute+,Attribute+,Outdoors+,Increasing+,RadiatingSound+,Outdoors+,SubjectiveAssessmentAttribute+,ContainerFull+,Grass=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,Outdoors+,Increasing+,RadiatingSound+,FloweringPlant+,GeographicArea+
 
 CONLL A:
 
@@ -27,6 +27,8 @@ CONLL A:
 17	of	of	ADP	IN	fPOS=ADP++IN	18	case	_	?|?
 18	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	12102133-n|Grass=
 19	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

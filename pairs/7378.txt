@@ -3,8 +3,8 @@ sentence B = A smiling boy in winter clothes is waving his mittened hands outsid
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Smiling=,Human+,?,SummerSeason+,Clothing+,Entity+,PhysicalAttribute+,?,?,?,Building=,?
-CONCEPTS B: ?,Smiling=,Human+,?,WinterSeason+,Clothing+,Entity+,Rotating+,?,?,Hand+,?,?,Building=,?,?,Snowing=,?
+CONCEPTS A: Smiling=,Human+,SummerSeason+,Clothing+,Entity+,PhysicalAttribute+,Building=
+CONCEPTS B: Smiling=,Human+,WinterSeason+,Clothing+,Entity+,Rotating+,Hand+,Building=,Snowing=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	building	building	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	02913152-n|Building=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

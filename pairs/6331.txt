@@ -3,8 +3,8 @@ sentence B = The little girl in a pink shirt is running under a tree in the dese
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Putting+,Trousers+,?,?,Pink+,Shirt=,?,Entity+,EmotionalState+,Attribute+,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,?,?,Pink+,Shirt=,Entity+,Attribute+,?,?,ContentBearingObject+,?,?,LandArea+,?
+CONCEPTS A: Human+,Entity+,Putting+,Trousers+,Pink+,Shirt=,Entity+,EmotionalState+,Attribute+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Pink+,Shirt=,Entity+,Attribute+,ContentBearingObject+,LandArea+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	cheerfully	cheerfully	ADV	RB	fPOS=ADV++RB	13	advmod	_	00230749-r|EmotionalState+
 13	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	01525666-v|Attribute+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = One man is tossing a kid into the swimming pool that is near the oc
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Removing+,?,HumanChild=,?,?,Swimming+,StaticWaterArea+,?,Entity+,?,?,Ocean=,?
-CONCEPTS B: ?,Hominid=,Entity+,Removing+,?,HumanChild=,?,?,Swimming+,StaticWaterArea+,?,Entity+,?,?,Ocean=,?
+CONCEPTS A: Hominid=,Entity+,Removing+,HumanChild=,Swimming+,StaticWaterArea+,Entity+,Ocean=
+CONCEPTS B: Hominid=,Entity+,Removing+,HumanChild=,Swimming+,StaticWaterArea+,Entity+,Ocean=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	ocean	ocean	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	acl:relcl	_	09376198-n|Ocean=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	One	1	NUM	CD	fPOS=DET++DT	2	nummod	_	?|?

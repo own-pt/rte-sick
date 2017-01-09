@@ -3,8 +3,8 @@ sentence B = A rabbit is playing with a toy.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Position+,Entity+,DramaticActing+,?,?,Motion+,Position+,?
-CONCEPTS B: ?,Rabbit=,Entity+,DramaticActing+,?,?,RecreationOrExerciseDevice+,?
+CONCEPTS A: Position+,Entity+,DramaticActing+,Motion+,Position+
+CONCEPTS B: Rabbit=,Entity+,DramaticActing+,RecreationOrExerciseDevice+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	stuffed	stuff	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	8	amod	_	01524871-v|Motion+
 8	bunny	bunny	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09880189-n|Position+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A man is breaking a block of concrete with a sledge hammer.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,EndFn+,?,Artifact+,?,Concrete=,?,?,LandVehicle+,Device+,?
-CONCEPTS B: ?,Hominid=,Entity+,EndFn+,?,ShapeAttribute+,?,Concrete=,?,?,LandVehicle+,Device+,?
+CONCEPTS A: Hominid=,Entity+,EndFn+,Artifact+,Concrete=,LandVehicle+,Device+
+CONCEPTS B: Hominid=,Entity+,EndFn+,ShapeAttribute+,Concrete=,LandVehicle+,Device+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	sledge	sledge	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	04235291-n|LandVehicle+
 12	hammer	hammer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03481172-n|Device+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

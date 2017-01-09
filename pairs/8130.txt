@@ -3,8 +3,8 @@ sentence B = Several old people are posing for a photo and holding beers.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,GroupOfPeople=,Entity+,Putting=,?,?,Photograph=,?,Process+,Beer=,?
-CONCEPTS B: ?,SubjectiveAssessmentAttribute+,GroupOfPeople=,Entity+,Putting=,?,?,Photograph=,?,Process+,Beer=,?
+CONCEPTS A: HumanYouth=,GroupOfPeople=,Entity+,Putting=,Photograph=,Process+,Beer=
+CONCEPTS B: SubjectiveAssessmentAttribute+,GroupOfPeople=,Entity+,Putting=,Photograph=,Process+,Beer=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	holding	hold	VERB	VBG	Number=Sing|fPOS=NOUN++NN	8	conj	_	02700867-v|Process+
 11	beers	beer	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	07886849-n|Beer=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Several	several	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	?|?

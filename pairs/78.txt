@@ -3,8 +3,8 @@ sentence B = People wearing costumes are scattering in a forest and are looking 
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: GroupOfPeople=,Dressing+,Clothing+,Entity+,Meeting+,?,?,Forest=,?,Entity+,Searching=,?,?,equal+,DirectionalAttribute=,?
-CONCEPTS B: GroupOfPeople=,Dressing+,Clothing+,Entity+,Translocation+,?,?,Forest=,?,Entity+,SubjectiveAssessmentAttribute+,?,equal+,DirectionalAttribute=,?
+CONCEPTS A: GroupOfPeople=,Dressing+,Clothing+,Entity+,Meeting+,Forest=,Entity+,Searching=,equal+,DirectionalAttribute=
+CONCEPTS B: GroupOfPeople=,Dressing+,Clothing+,Entity+,Translocation+,Forest=,Entity+,SubjectiveAssessmentAttribute+,equal+,DirectionalAttribute=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	same	same	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	02062670-a|equal+
 15	direction	direction	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	13827426-n|DirectionalAttribute=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	People	people	ADJ	JJ	Number=Plur|fPOS=NOUN++NNS	3	amod	_	07942152-n|GroupOfPeople=

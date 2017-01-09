@@ -3,8 +3,8 @@ sentence B = A man is holding up an electronic device.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,MotionPicture+,?,?,?,?,Device+,Entity+,Entity+,PhysicalAttribute+,?,?,Man=,?
-CONCEPTS B: ?,Hominid=,Entity+,PhysicalAttribute+,Increasing+,?,ElectricDevice+,Device=,?
+CONCEPTS A: MotionPicture+,Device+,Entity+,Entity+,PhysicalAttribute+,Man=
+CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,Increasing+,ElectricDevice+,Device=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	10287213-n|Man=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

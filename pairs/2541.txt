@@ -3,8 +3,8 @@ sentence B = Someone is slicing a tomato.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,Entity+,SubjectiveAssessmentAttribute+,Separating+,?,Vegetable=,?
-CONCEPTS B: ?,Entity+,Separating+,?,Tomato=,?
+CONCEPTS A: Human=,Entity+,SubjectiveAssessmentAttribute+,Separating+,Vegetable=
+CONCEPTS B: Entity+,Separating+,Tomato=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	vegetable	vegetable	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	07707451-n|Vegetable=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Someone	someone	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?

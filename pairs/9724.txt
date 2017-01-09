@@ -3,8 +3,8 @@ sentence B = A man is leaning on a racing motorcycle.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Inclining+,?,?,Motion+,PassengerVehicle+,?
-CONCEPTS B: ?,Hominid=,Entity+,Inclining+,?,?,Motion+,PassengerVehicle+,?
+CONCEPTS A: Woman=,Entity+,Inclining+,Motion+,PassengerVehicle+
+CONCEPTS B: Hominid=,Entity+,Inclining+,Motion+,PassengerVehicle+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	racing	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	02058994-v|Motion+
 8	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03790512-n|PassengerVehicle+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

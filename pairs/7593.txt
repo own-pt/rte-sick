@@ -3,8 +3,8 @@ sentence B = The bike rider is not looking at the accident of another bike rider
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,Entity+,SubjectiveAssessmentAttribute+,?,?,?,Bicycle=,?,Entity+,PhysicalAttribute+,?,?,Region+,?,?,Entity+,Motion+,?,?
-CONCEPTS B: ?,Bicycle=,Human+,Entity+,not=,SubjectiveAssessmentAttribute+,?,?,Process+,?,?,Bicycle=,Human+,?
+CONCEPTS A: Human=,Entity+,SubjectiveAssessmentAttribute+,Bicycle=,Entity+,PhysicalAttribute+,Region+,Entity+,Motion+
+CONCEPTS B: Bicycle=,Human+,Entity+,not=,SubjectiveAssessmentAttribute+,Process+,Bicycle=,Human+
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	racing	race	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	11	conj	_	02058994-v|Motion+
 19	by	by	ADP	IN	fPOS=ADV++RB	18	nmod	_	?|?
 20	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

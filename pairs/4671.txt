@@ -3,8 +3,8 @@ sentence B = A man is closing a hole in a piece of wood.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,GamePiece+,Entity+,Learning+,?,Hole=,?,?,GamePiece+,?,Wood=,?
-CONCEPTS B: ?,GamePiece+,Entity+,Closing=,?,Hole=,?,?,GamePiece+,?,Wood=,?
+CONCEPTS A: GamePiece+,Entity+,Learning+,Hole=,GamePiece+,Wood=
+CONCEPTS B: GamePiece+,Entity+,Closing=,Hole=,GamePiece+,Wood=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
 11	wood	wood	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	15098161-n|Wood=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A man in a red uniform is making a jump in a dirt bike race.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,?,?,Red=,UniformClothing=,Entity+,SubjectiveAssessmentAttribute+,Defecate=,?,Transportation+,?,?,Text+,Bicycle=,Racing=,?
-CONCEPTS B: ?,Hominid=,?,?,Red=,UniformClothing=,Entity+,Defecate=,?,Transportation+,?,?,Text+,Bicycle=,Racing=,?
+CONCEPTS A: Hominid=,Red=,UniformClothing=,Entity+,SubjectiveAssessmentAttribute+,Defecate=,Transportation+,Text+,Bicycle=,Racing=
+CONCEPTS B: Hominid=,Red=,UniformClothing=,Entity+,Defecate=,Transportation+,Text+,Bicycle=,Racing=
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	compound	_	02834778-n|Bicycle=
 16	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	07458453-n|Racing=
 17	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

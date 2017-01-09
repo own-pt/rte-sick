@@ -3,8 +3,8 @@ sentence B = A cowgirl is riding a horse and corners a barrel.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,FarmHand+,Entity+,Transportation+,?,Horse=,?,DirectionChange+,?,Cask=,?
-CONCEPTS B: ?,Position+,Entity+,Carrying=,?,Horse=,?,StationaryArtifact+,?,Cask=,?
+CONCEPTS A: FarmHand+,Entity+,Transportation+,Horse=,DirectionChange+,Cask=
+CONCEPTS B: Position+,Entity+,Carrying=,Horse=,StationaryArtifact+,Cask=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	barrel	barrel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	02795169-n|Cask=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A wet boy is jumping around on dirty and wet grass.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,Covering+,?,Grass=,Entity+,Ambulating=,?,?,SubjectiveAssessmentAttribute+,Device+,?
-CONCEPTS B: ?,Wetting=,Human+,Entity+,Ambulating=,?,?,Dirty=,?,Wetting=,Grass=,?
+CONCEPTS A: HumanYouth=,Human+,Covering+,Grass=,Entity+,Ambulating=,SubjectiveAssessmentAttribute+,Device+
+CONCEPTS B: Wetting=,Human+,Entity+,Ambulating=,Dirty=,Wetting=,Grass=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	wooden	wooden	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	01141595-a|SubjectiveAssessmentAttribute+
 12	fence	fence	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	03327234-n|Device+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

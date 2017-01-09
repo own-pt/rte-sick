@@ -3,8 +3,8 @@ sentence B = A man in green is kicking a soccer ball and a man in purple and whi
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Actor=,Entity+,Driving+,?,?,Ball=,?
-CONCEPTS B: ?,Man=,?,Green+,Entity+,Expressing+,?,Soccer=,Ball=,?,?,Man=,?,SocialRole+,?,White=,Entity+,Getting+,earlier+,?
+CONCEPTS A: Actor=,Entity+,Driving+,Ball=
+CONCEPTS B: Man=,Green+,Entity+,Expressing+,Soccer=,Ball=,Man=,SocialRole+,White=,Entity+,Getting+,earlier+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02778669-n|Ball=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

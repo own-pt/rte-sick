@@ -3,8 +3,8 @@ sentence B = The woman is slicing a clove of garlic.
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Separating+,?,SubjectiveWeakPositiveAttribute+,SpicePepper=,?
-CONCEPTS B: ?,Woman=,Entity+,Separating+,?,FruitOrVegetable+,?,Garlic=,?
+CONCEPTS A: Woman=,Entity+,Separating+,SubjectiveWeakPositiveAttribute+,SpicePepper=
+CONCEPTS B: Woman=,Entity+,Separating+,FruitOrVegetable+,Garlic=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	big	big	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
 7	pepper	pepper	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07815588-n|SpicePepper=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

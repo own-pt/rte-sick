@@ -3,8 +3,8 @@ sentence B = A little boy in red clothes is jumping into the air.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,?,Clothing+,Coloring+,?,Red+,Entity+,Ambulating=,?,?,AirTransportation+,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,?,Red=,Clothing+,Entity+,Ambulating=,?,?,AirTransportation+,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Clothing+,Coloring+,Red+,Entity+,Ambulating=,AirTransportation+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Red=,Clothing+,Entity+,Ambulating=,AirTransportation+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	00300441-n|AirTransportation+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

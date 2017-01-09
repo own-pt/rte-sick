@@ -3,8 +3,8 @@ sentence B = A woman with blond hair is sitting on the roof of a yellow vehicle 
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human+,Woman=,PhysicalAttribute+,SittingDown+,?,?,Roof=,?,?,SubjectiveAssessmentAttribute+,Vehicle=,?,?,GroupOfPeople=,PhysicalAttribute+,Indoors+,?
-CONCEPTS B: ?,Woman=,?,Human+,Hair=,PhysicalAttribute+,SittingDown+,?,?,Roof=,?,?,SubjectiveAssessmentAttribute+,Vehicle=,?,?,GroupOfPeople=,PhysicalAttribute+,Indoors+,?
+CONCEPTS A: Human+,Woman=,PhysicalAttribute+,SittingDown+,Roof=,SubjectiveAssessmentAttribute+,Vehicle=,GroupOfPeople=,PhysicalAttribute+,Indoors+
+CONCEPTS B: Woman=,Human+,Hair=,PhysicalAttribute+,SittingDown+,Roof=,SubjectiveAssessmentAttribute+,Vehicle=,GroupOfPeople=,PhysicalAttribute+,Indoors+
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	17	cop	_	02655135-v|PhysicalAttribute+
 17	inside	inside	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	conj	_	00110815-r|Indoors+
 18	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

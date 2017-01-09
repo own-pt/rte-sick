@@ -3,8 +3,8 @@ sentence B = A woman is being kissed by a man.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Near+,GroupOfPeople+,?,GroupOfPeople=,Entity+,Kissing+,?,?,?,?
-CONCEPTS B: ?,Woman=,Entity+,Entity+,Kissing+,?,?,Man=,?
+CONCEPTS A: Near+,GroupOfPeople+,GroupOfPeople=,Entity+,Kissing+
+CONCEPTS B: Woman=,Entity+,Entity+,Kissing+,Man=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	by	by	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
 10	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	8	nmod	_	?|?
 11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

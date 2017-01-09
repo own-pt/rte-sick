@@ -3,8 +3,8 @@ sentence B = There is no woman playing with two young boys at a park.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,PhysicalAttribute+,?,?,HumanChild=,?
-CONCEPTS B: ?,Entity+,?,Woman=,DramaticActing+,?,?,HumanYouth=,Human+,?,?,Park+,?
+CONCEPTS A: Woman=,Entity+,PhysicalAttribute+,HumanChild=
+CONCEPTS B: Entity+,Woman=,DramaticActing+,HumanYouth=,Human+,Park+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	7	nummod	_	?|?
 7	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	09917593-n|HumanChild=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

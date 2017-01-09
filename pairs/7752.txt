@@ -3,8 +3,8 @@ sentence B = There is no light brown dog running up a street.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,RadiatingSound+,Canine+,Entity+,Increasing+,?,LandArea+,Hill=,?
-CONCEPTS B: ?,Entity+,?,SubjectiveWeakPositiveAttribute+,Human+,Canine+,Attribute+,Increasing+,?,Roadway=,?
+CONCEPTS A: RadiatingSound+,Canine+,Entity+,Increasing+,LandArea+,Hill=
+CONCEPTS B: Entity+,SubjectiveWeakPositiveAttribute+,Human+,Canine+,Attribute+,Increasing+,Roadway=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	steep	steep	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	8	compound	_	01144887-a|LandArea+
 8	hill	hill	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	09303008-n|Hill=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

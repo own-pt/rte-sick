@@ -3,8 +3,8 @@ sentence B = The crowd is watching two racing cars that are leaving the starting
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: GroupOfPeople=,?,?,Process+,Racing=,Entity+,PhysicalAttribute+,?,?,?,Combustion=,?,Entity+,Arriving=,?,?,?,Automobile=,?
-CONCEPTS B: ?,SubjectiveAssessmentAttribute=,Entity+,Looking=,?,Motion+,Automobile=,?,Entity+,Process+,?,Leaving=,Position+,?
+CONCEPTS A: GroupOfPeople=,Process+,Racing=,Entity+,PhysicalAttribute+,Combustion=,Entity+,Arriving=,Automobile=
+CONCEPTS B: SubjectiveAssessmentAttribute=,Entity+,Looking=,Motion+,Automobile=,Entity+,Process+,Leaving=,Position+
 
 CONLL A:
 
@@ -27,6 +27,8 @@ CONLL A:
 17	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	18	det	_	?|?
 18	cars	car	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	14	nmod	_	02958343-n|Automobile=
 19	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

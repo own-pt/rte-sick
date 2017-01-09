@@ -3,8 +3,8 @@ sentence B = A man is walking along a path through a wilderness.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,LeavingAnOrganization+,?,FruitOrVegetable+,?,?,FruitOrVegetable+,?
-CONCEPTS B: ?,Hominid=,Entity+,Walking=,SubjectiveAssessmentAttribute+,?,Transitway+,?,?,LandArea+,?
+CONCEPTS A: Hominid=,Entity+,LeavingAnOrganization+,FruitOrVegetable+,FruitOrVegetable+
+CONCEPTS B: Hominid=,Entity+,Walking=,SubjectiveAssessmentAttribute+,Transitway+,LandArea+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	onion	onion	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	12433081-n|FruitOrVegetable+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = The Jockeys are slowing down their horses on the field, which is co
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Horse=,Entity+,Motion+,EmotionalState+,?,?,Green=,Grass=,?,Ambulating=,?,Entity+,?
-CONCEPTS B: ?,Position+,Entity+,Decreasing+,earlier+,?,Horse=,?,?,FieldOfStudy=,?,?,Entity+,SubjectiveAssessmentAttribute+,Green=,?
+CONCEPTS A: Horse=,Entity+,Motion+,EmotionalState+,Green=,Grass=,Ambulating=,Entity+
+CONCEPTS B: Position+,Entity+,Decreasing+,earlier+,Horse=,FieldOfStudy=,Entity+,SubjectiveAssessmentAttribute+,Green=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	obstacle	obstacle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	05690269-n|Entity+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = The man in blue is chasing the base runner with a number on the jer
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,SubjectiveStrongNegativeAttribute+,Entity+,Pursuing+,?,Region+,Human+,?,?,Number=,?,?,HoofedMammal+,?
-CONCEPTS B: ?,Man=,?,SubjectiveStrongNegativeAttribute+,Entity+,Pursuing+,?,Region+,Human+,?,?,Number=,?,?,HoofedMammal+,?
+CONCEPTS A: Human+,SubjectiveStrongNegativeAttribute+,Entity+,Pursuing+,Region+,Human+,Number=,HoofedMammal+
+CONCEPTS B: Man=,SubjectiveStrongNegativeAttribute+,Entity+,Pursuing+,Region+,Human+,Number=,HoofedMammal+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	jersey	jersey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	08887238-n|HoofedMammal+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

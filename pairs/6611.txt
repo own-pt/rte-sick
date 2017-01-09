@@ -3,8 +3,8 @@ sentence B = The young kids are posing with a green soccer ball in a park.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,Entity+,Putting=,?,?,Green=,Soccer=,Ball=,?,?,Park+,?
-CONCEPTS B: ?,HumanYouth=,HumanChild=,Entity+,Putting=,?,?,Green=,Soccer=,Ball=,?,?,Park+,?
+CONCEPTS A: HumanYouth=,Human+,Entity+,Putting=,Green=,Soccer=,Ball=,Park+
+CONCEPTS B: HumanYouth=,HumanChild=,Entity+,Putting=,Green=,Soccer=,Ball=,Park+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	08615374-n|Park+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A little girl and a woman wearing a yellow shirt are getting splash
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,Entity+,DramaticActing+,?,?,Object+,?,?,Creek+,?,?,SubjectiveAssessmentAttribute+,Woman=,Entity+,not=,Looking=,?,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,?,?,Woman=,Putting+,?,SubjectiveAssessmentAttribute+,Shirt=,Entity+,Process+,Wetting+,?,?,City=,Creek+,?
+CONCEPTS A: HumanYouth=,Human+,Entity+,DramaticActing+,Object+,Creek+,SubjectiveAssessmentAttribute+,Woman=,Entity+,not=,Looking=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Woman=,Putting+,SubjectiveAssessmentAttribute+,Shirt=,Entity+,Process+,Wetting+,City=,Creek+
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	watching	watch	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	02150948-v|Looking=
 19	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	18	dobj	_	?|?
 20	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

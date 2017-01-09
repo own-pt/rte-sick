@@ -3,8 +3,8 @@ sentence B = A man is taking the oil out off a skillet.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Pouring=,Oil=,?,?,PotOrPan+,?
-CONCEPTS B: ?,Hominid=,Entity+,PhysicalAttribute+,?,Oil=,Giving+,?,?,PotOrPan+,?
+CONCEPTS A: Hominid=,Entity+,Pouring=,Oil=,PotOrPan+
+CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,Oil=,Giving+,PotOrPan+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	skillet	skillet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03400231-n|PotOrPan+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

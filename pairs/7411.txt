@@ -3,8 +3,8 @@ sentence B = A football player is wearing black armbands.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,LandArea@,ProfessionalAthlete+,Entity+,not=,RecreationOrExercise+,?,Red=,?,White=,SelfConnectedObject+,?
-CONCEPTS B: ?,Football+,Human+,Entity+,RecreationOrExercise+,Black=,Clothing+,?
+CONCEPTS A: LandArea@,ProfessionalAthlete+,Entity+,not=,RecreationOrExercise+,Red=,White=,SelfConnectedObject+
+CONCEPTS B: Football+,Human+,Entity+,RecreationOrExercise+,Black=,Clothing+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	conj	_	00393105-a|White=
 11	strip	strip	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	09449510-n|SelfConnectedObject+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

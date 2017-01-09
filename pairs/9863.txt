@@ -3,8 +3,8 @@ sentence B = The girl, who is little, is carefully combing her hair into a pony 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,?,?,Black=,Coat=,Entity+,IntentionalProcess+,RecreationOrExercise+,?,?,TransportationDevice+,?
-CONCEPTS B: ?,Human+,?,?,Entity+,SubjectiveStrongNegativeAttribute+,?,Entity+,SubjectiveAssessmentAttribute+,ShapeChange+,?,Hair=,?,?,Horse+,BodyPart+,?
+CONCEPTS A: Human=,Black=,Coat=,Entity+,IntentionalProcess+,RecreationOrExercise+,TransportationDevice+
+CONCEPTS B: Human+,Entity+,SubjectiveStrongNegativeAttribute+,Entity+,SubjectiveAssessmentAttribute+,ShapeChange+,Hair=,Horse+,BodyPart+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	motorbike	motorbike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	03769722-n|TransportationDevice+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

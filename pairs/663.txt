@@ -3,8 +3,8 @@ sentence B = A young child is climbing a rock climbing wall which is indoors.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,FloweringPlant+,Entity+,Attribute+,?,Mineral+,Wall=,?,?,Human+,?
-CONCEPTS B: ?,HumanYouth=,HumanChild=,Entity+,Increasing+,?,Mineral+,Increasing+,Wall=,?,Entity+,Indoors+,?
+CONCEPTS A: HumanYouth=,FloweringPlant+,Entity+,Attribute+,Mineral+,Wall=,Human+
+CONCEPTS B: HumanYouth=,HumanChild=,Entity+,Increasing+,Mineral+,Increasing+,Wall=,Entity+,Indoors+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	10285313-n|Human+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

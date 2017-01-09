@@ -3,8 +3,8 @@ sentence B = Eggs are being boiled by a woman.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Boiling=,Gland+,?
-CONCEPTS B: Gland+,Entity+,Entity+,Boiling=,?,?,Woman=,?
+CONCEPTS A: Woman=,Entity+,Boiling=,Gland+
+CONCEPTS B: Gland+,Entity+,Entity+,Boiling=,Woman=
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	boiling	boil	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	00375021-v|Boiling=
 5	eggs	egg	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	05524615-n|Gland+
 6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Eggs	egg	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubjpass	_	05524615-n|Gland+

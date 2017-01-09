@@ -3,8 +3,8 @@ sentence B = The person on the motorcycle is holding up his arm.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,?,?,PassengerVehicle+,Entity+,Transportation+,?,?,StationaryArtifact+,?,Rotating+,?
-CONCEPTS B: ?,Human=,?,?,PassengerVehicle+,Entity+,Process+,Increasing+,?,Weapon=,?
+CONCEPTS A: Hominid=,PassengerVehicle+,Entity+,Transportation+,StationaryArtifact+,Rotating+
+CONCEPTS B: Human=,PassengerVehicle+,Entity+,Process+,Increasing+,Weapon=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
 12	waving	wave	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	conj	_	01446901-v|Rotating+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

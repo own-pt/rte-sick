@@ -3,8 +3,8 @@ sentence B = Young men are dancing in front of some people.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: Human+,Entity+,Dancing+,?,FrontFn=,?,?,GroupOfPeople=,?
-CONCEPTS B: HumanYouth=,Hominid=,Entity+,Dancing+,?,FrontFn=,?,?,GroupOfPeople=,?
+CONCEPTS A: Human+,Entity+,Dancing+,FrontFn=,GroupOfPeople=
+CONCEPTS B: HumanYouth=,Hominid=,Entity+,Dancing+,FrontFn=,GroupOfPeople=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	some	some	DET	DT	fPOS=DET++DT	8	det	_	?|?
 8	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	07942152-n|GroupOfPeople=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Young	young	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	01646941-a|HumanYouth=

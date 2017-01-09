@@ -3,8 +3,8 @@ sentence B = Two construction workers are sitting up on the side of a building.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Constructing=,Position+,PhysicalAttribute+,SittingDown+,Increasing+,?,?,Object+,?,?,House+,?
-CONCEPTS B: ?,Constructing=,Position+,PhysicalAttribute+,SittingDown+,Increasing+,?,?,Object+,?,?,Constructing=,?
+CONCEPTS A: Constructing=,Position+,PhysicalAttribute+,SittingDown+,Increasing+,Object+,House+
+CONCEPTS B: Constructing=,Position+,PhysicalAttribute+,SittingDown+,Increasing+,Object+,Constructing=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	palace	palace	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	03878066-n|House+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Degree=Pos|fPOS=ADJ++JJ	3	nummod	_	?|?

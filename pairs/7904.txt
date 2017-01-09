@@ -3,8 +3,8 @@ sentence B = A white rally car is throwing mud into the air and is approaching a
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,White=,Racing=,Automobile=,Entity+,Transportation+,?,?,StaticWaterArea+,?
-CONCEPTS B: ?,White=,PsychologicalProcess+,Automobile=,Entity+,Impelling+,Soil=,?,?,AirTransportation+,?,Entity+,Arriving=,?,Transitway+,?,?,RailroadTrack+,?
+CONCEPTS A: White=,Racing=,Automobile=,Entity+,Transportation+,StaticWaterArea+
+CONCEPTS B: White=,PsychologicalProcess+,Automobile=,Entity+,Impelling+,Soil=,AirTransportation+,Entity+,Arriving=,Transitway+,RailroadTrack+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	puddle	puddle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	09397607-n|StaticWaterArea+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

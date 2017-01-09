@@ -3,8 +3,8 @@ sentence B = The man is sitting outdoors under a purple umbrella.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Hominid=,PhysicalAttribute+,SittingDown+,?,?,?,SocialRole+,Device+,?
-CONCEPTS B: ?,Hominid=,PhysicalAttribute+,SittingDown+,Outdoors+,?,?,SocialRole+,Device+,?
+CONCEPTS A: Hominid=,PhysicalAttribute+,SittingDown+,SocialRole+,Device+
+CONCEPTS B: Hominid=,PhysicalAttribute+,SittingDown+,Outdoors+,SocialRole+,Device+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	purple	purple	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	01591394-a|SocialRole+
 9	umbrella	umbrella	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04507155-n|Device+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

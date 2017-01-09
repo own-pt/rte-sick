@@ -3,8 +3,8 @@ sentence B = Butter is being chopped into a container by a man.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Smelling+,?,?,?
-CONCEPTS B: Butter=,Entity+,Entity+,Cutting+,?,?,Container+,?,?,Hominid=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Smelling+
+CONCEPTS B: Butter=,Entity+,Entity+,Cutting+,Container+,Hominid=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	at	at	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
 7	something	something	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	?|?
 8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Butter	butter	PROPN	NNP	Number=Sing|fPOS=PROPN++NNP	4	nsubjpass	_	07848338-n|Butter=

@@ -3,8 +3,8 @@ sentence B = A man is wearing clothes that are covered with paint and is sitting
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,Hominid=,WrittenCommunication=,?,FactualText=,?,?,Bicycle=,?
-CONCEPTS B: ?,Man=,PhysicalAttribute+,CoveringFn=,Clothing+,?,PhysicalAttribute+,Covering+,?,Paint+,?,PhysicalAttribute+,SittingDown+,?,?,?,SubjectiveWeakNegativeAttribute+,GeographicArea+,WrittenCommunication=,?,?
+CONCEPTS A: Entity+,Hominid=,WrittenCommunication=,FactualText=,Bicycle=
+CONCEPTS B: Man=,PhysicalAttribute+,CoveringFn=,Clothing+,PhysicalAttribute+,Covering+,Paint+,PhysicalAttribute+,SittingDown+,SubjectiveWeakNegativeAttribute+,GeographicArea+,WrittenCommunication=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	02834778-n|Bicycle=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

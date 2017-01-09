@@ -3,8 +3,8 @@ sentence B = A girl in a black hat is wearing a bikini at the beach.
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,?,Black=,Hat+,Entity+,PhysicalAttribute+,top+,?,?,ShoreArea=,?
-CONCEPTS B: ?,Human+,?,?,Black=,Hat+,Entity+,CoveringFn=,?,Clothing+,?,?,ShoreArea=,?
+CONCEPTS A: Human+,Black=,Hat+,Entity+,PhysicalAttribute+,top+,ShoreArea=
+CONCEPTS B: Human+,Black=,Hat+,Entity+,CoveringFn=,Clothing+,ShoreArea=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	09217230-n|ShoreArea=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

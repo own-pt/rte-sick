@@ -3,8 +3,8 @@ sentence B = Makeup is being put on the man by the woman.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Painting=,?,Man=,?,Face+,?
-CONCEPTS B: Mixture+,Entity+,Entity+,Putting=,?,?,Man=,?,?,Woman=,?
+CONCEPTS A: Woman=,Entity+,Painting=,Man=,Face+
+CONCEPTS B: Mixture+,Entity+,Entity+,Putting=,Man=,Woman=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	's	's	PART	POS	fPOS=PART++POS	6	case	_	?|?
 8	face	face	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	05600637-n|Face+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Makeup	makeup	PROPN	NNP	Number=Sing|fPOS=PROPN++NNP	4	nsubjpass	_	03714235-n|Mixture+

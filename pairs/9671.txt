@@ -3,8 +3,8 @@ sentence B = A little girl and a woman wearing a yellow shirt are getting splash
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,?,?,Woman=,Putting+,?,SubjectiveAssessmentAttribute+,Shirt=,Entity+,Process+,Wetting+,?,?,City=,Creek+,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,?,?,Woman=,Putting+,?,SubjectiveAssessmentAttribute+,Shirt=,Entity+,Process+,Wetting+,?,?,Creek+,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Woman=,Putting+,SubjectiveAssessmentAttribute+,Shirt=,Entity+,Process+,Wetting+,City=,Creek+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Woman=,Putting+,SubjectiveAssessmentAttribute+,Shirt=,Entity+,Process+,Wetting+,Creek+
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	city	city	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	compound	_	08524735-n|City=
 17	fountain	fountain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	09443453-n|Creek+
 18	.	.	PUNCT	.	fPOS=PUNCT++.	13	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

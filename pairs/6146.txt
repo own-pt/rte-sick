@@ -3,8 +3,8 @@ sentence B = Nobody is standing in the ocean and watching the sunset.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Entity+,PhysicalAttribute+,?,?,Ocean=,?,Looking=,?,Sunset+,?
-CONCEPTS B: ?,Entity+,PhysicalAttribute+,?,?,Ocean=,?,Looking=,?,Sunset+,?
+CONCEPTS A: GroupOfPeople=,Entity+,PhysicalAttribute+,Ocean=,Looking=,Sunset+
+CONCEPTS B: Entity+,PhysicalAttribute+,Ocean=,Looking=,Sunset+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	sunset	sunset	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	15169248-n|Sunset+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Nobody	nobody	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?

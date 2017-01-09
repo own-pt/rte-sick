@@ -3,8 +3,8 @@ sentence B = A woman is serving volleyballs over a net.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Communication+,Volleyball=,?
-CONCEPTS B: ?,Woman=,Entity+,Working+,Volleyball=,?,?,Artifact+,?
+CONCEPTS A: Woman=,Entity+,Communication+,Volleyball=
+CONCEPTS B: Woman=,Entity+,Working+,Volleyball=,Artifact+
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	receiving	receive	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	01470225-v|Communication+
 5	volleyballs	volleyball	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	00480211-n|Volleyball=
 6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

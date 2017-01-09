@@ -3,8 +3,8 @@ sentence B = A group of people is equipped with gear used for protection.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Group=,?,GroupOfPeople=,Entity+,Putting+,?,Device+,Gear=,?
-CONCEPTS B: ?,Group=,?,GroupOfPeople=,Entity+,Putting+,?,Gear=,IntentionalProcess+,?,Container+,?
+CONCEPTS A: Group=,GroupOfPeople=,Entity+,Putting+,Device+,Gear=
+CONCEPTS B: Group=,GroupOfPeople=,Entity+,Putting+,Gear=,IntentionalProcess+,Container+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	protective	protective	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	01887076-a|Device+
 9	gear	gear	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03430551-n|Gear=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

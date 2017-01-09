@@ -3,8 +3,8 @@ sentence B = The elderly lady is waiting on the sidewalk.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,?,?,Fabric+,Hat+,?,Fabric+,BodyPart+,Entity+,PhysicalAttribute+,?,?,Building=,?
-CONCEPTS B: ?,SubjectiveAssessmentAttribute+,Human+,Entity+,PsychologicalProcess+,?,?,Sidewalk=,?
+CONCEPTS A: Woman=,Fabric+,Hat+,Fabric+,BodyPart+,Entity+,PhysicalAttribute+,Building=
+CONCEPTS B: SubjectiveAssessmentAttribute+,Human+,Entity+,PsychologicalProcess+,Sidewalk=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	building	building	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	02913152-n|Building=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

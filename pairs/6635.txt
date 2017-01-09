@@ -3,8 +3,8 @@ sentence B = A horse and its rider are leaping over a barrier.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Horse=,?,?,Position+,Entity+,Getting+,SubjectiveAssessmentAttribute+,?,Motion+,?
-CONCEPTS B: ?,Horse=,?,?,Position+,Entity+,Ambulating=,?,?,Barrier=,?
+CONCEPTS A: Horse=,Position+,Entity+,Getting+,SubjectiveAssessmentAttribute+,Motion+
+CONCEPTS B: Horse=,Position+,Entity+,Ambulating=,Barrier=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	hurdle	hurdle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	00120515-n|Motion+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

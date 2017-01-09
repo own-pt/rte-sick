@@ -3,8 +3,8 @@ sentence B = A grey silky dog is lying in the grass and a brown dog is looking o
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Gray+,TextureAttribute+,Canine+,Entity+,OrganismProcess+,?,?,Grass=,?,?,Human+,Canine+,Entity+,SubjectiveAssessmentAttribute+,?,?
-CONCEPTS B: ?,Gray+,TextureAttribute+,Canine+,Entity+,PhysicalAttribute+,?,?,Grass=,?,?,Human+,Canine+,Entity+,SubjectiveAssessmentAttribute+,?,?
+CONCEPTS A: Gray+,TextureAttribute+,Canine+,Entity+,OrganismProcess+,Grass=,Human+,Canine+,Entity+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Gray+,TextureAttribute+,Canine+,Entity+,PhysicalAttribute+,Grass=,Human+,Canine+,Entity+,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	13	acl:relcl	_	02133435-v|SubjectiveAssessmentAttribute+
 16	on	on	ADP	RP	fPOS=ADP++RP	15	compound:prt	_	?|?
 17	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

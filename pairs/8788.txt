@@ -3,8 +3,8 @@ sentence B = A girl is jumping rope on a sidewalk near a parking garage.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,Entity+,Ambulating=,String+,?,?,Sidewalk=,?,?,Region+,Garage=,?
-CONCEPTS B: ?,Human+,Entity+,Ambulating=,String+,?,?,Sidewalk=,?,?,Region+,Garage=,?
+CONCEPTS A: HumanYouth=,Human+,Entity+,Ambulating=,String+,Sidewalk=,Region+,Garage=
+CONCEPTS B: Human+,Entity+,Ambulating=,String+,Sidewalk=,Region+,Garage=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	parking	parking	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	compound	_	13778671-n|Region+
 13	garage	garage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	03416489-n|Garage=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

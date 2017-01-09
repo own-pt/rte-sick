@@ -3,8 +3,8 @@ sentence B = A man is rising from a swamp.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,NormativeAttribute+,?,MotionUpward=,Swamp=,?
-CONCEPTS B: ?,Hominid=,Entity+,MotionUpward=,?,?,Swamp=,?
+CONCEPTS A: Hominid=,Entity+,NormativeAttribute+,MotionUpward=,Swamp=
+CONCEPTS B: Hominid=,Entity+,MotionUpward=,Swamp=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	rising	rise	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	01968569-v|MotionUpward=
 7	swamp	swamp	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	09452395-n|Swamp=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A young oriental girl is standing above people and is playing with 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,SubjectiveStrongNegativeAttribute+,Clothing+,PhysicalAttribute+,Process+,?,Polychromatic+,RecreationOrExerciseDevice+,?,PhysicalAttribute+,SittingDown+,?,?,Shoulder=,?,?,Man=,?,Gray+,Hair=,?
-CONCEPTS B: ?,HumanYouth=,Asia+,Human+,Entity+,PhysicalAttribute+,?,GroupOfPeople=,?,Entity+,DramaticActing+,?,?,FloweringPlant+,?
+CONCEPTS A: Human+,SubjectiveStrongNegativeAttribute+,Clothing+,PhysicalAttribute+,Process+,Polychromatic+,RecreationOrExerciseDevice+,PhysicalAttribute+,SittingDown+,Shoulder=,Man=,Gray+,Hair=
+CONCEPTS B: HumanYouth=,Asia+,Human+,Entity+,PhysicalAttribute+,GroupOfPeople=,Entity+,DramaticActing+,FloweringPlant+
 
 CONLL A:
 
@@ -31,6 +31,8 @@ CONLL A:
 21	grey	grey	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	22	amod	_	00389310-a|Gray+
 22	hair	hair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	19	nmod	_	05254795-n|Hair=
 23	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

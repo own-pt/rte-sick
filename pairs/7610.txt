@@ -3,8 +3,8 @@ sentence B = A tattoo is being drawn by the woman in the white sweater on the ha
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Process+,?,SurfaceChange+,?,?,Hand+,?
-CONCEPTS B: ?,SurfaceChange+,Entity+,Entity+,Removing+,?,?,Woman=,?,?,White=,Clothing+,?,?,Hand+,?,?,Teenager=,?
+CONCEPTS A: Human+,Entity+,Process+,SurfaceChange+,Hand+
+CONCEPTS B: SurfaceChange+,Entity+,Entity+,Removing+,Woman=,White=,Clothing+,Hand+,Teenager=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	9	nmod:poss	_	?|?
 9	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05564590-n|Hand+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

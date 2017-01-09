@@ -3,8 +3,8 @@ sentence B = There is no man pointing at a car.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,Entity+,?,?,Region+,SubjectiveAssessmentAttribute+,?,Entity+,DramaticActing+,Tennis=,?,?,SubjectiveWeakPositiveAttribute+,Wall=,?
-CONCEPTS B: ?,Entity+,?,Hominid=,Indicating=,?,?,Automobile=,?
+CONCEPTS A: Man=,Entity+,Region+,SubjectiveAssessmentAttribute+,Entity+,DramaticActing+,Tennis=,SubjectiveWeakPositiveAttribute+,Wall=
+CONCEPTS B: Entity+,Hominid=,Indicating=,Automobile=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
 15	wall	wall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	04546855-n|Wall=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

@@ -3,8 +3,8 @@ sentence B = A bunch of people is on the shore.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,PositiveInteger@,?,?,ShoreArea=,?
-CONCEPTS B: ?,Collection+,?,GroupOfPeople=,Entity+,?,?,ShoreArea=,?
+CONCEPTS A: Entity+,PositiveInteger@,ShoreArea=
+CONCEPTS B: Collection+,GroupOfPeople=,Entity+,ShoreArea=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	shore	shore	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09433442-n|ShoreArea=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

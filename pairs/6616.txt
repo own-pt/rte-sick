@@ -3,8 +3,8 @@ sentence B = The young boys are posing with a green soccer ball in a park.
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,Human+,BodyMotion+,Position+,?,?,equal+,?,FrontFn=,?,?,Ball=,?
-CONCEPTS B: ?,HumanYouth=,Human+,Entity+,Putting=,?,?,Green=,Soccer=,Ball=,?,?,Park+,?
+CONCEPTS A: Entity+,Human+,BodyMotion+,Position+,equal+,FrontFn=,Ball=
+CONCEPTS B: HumanYouth=,Human+,Entity+,Putting=,Green=,Soccer=,Ball=,Park+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	02778669-n|Ball=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

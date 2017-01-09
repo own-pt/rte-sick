@@ -3,8 +3,8 @@ sentence B = A little dog is sprinting and its owner is trying to catch it.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,?,?,Entity+,Black=,?,White=,?,Entity+,Attribute+,?,?,Human=,PhysicalAttribute+,?,?,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Walking+,?,?,Human+,Entity+,IntentionalProcess+,?,Grabbing+,?,?
+CONCEPTS A: Canine+,Entity+,Black=,White=,Entity+,Attribute+,Human=,PhysicalAttribute+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Walking+,Human+,Entity+,IntentionalProcess+,Grabbing+
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	behind	behind	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
 17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	15	nmod	_	?|?
 18	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A brown dog is staring attentively at a brown and white dog.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Grabbing+,?,Bedroom+,Shoe+,?,?,Mouth+,?
-CONCEPTS B: ?,Human+,Canine+,Entity+,Looking=,SubjectiveAssessmentAttribute+,?,?,Human+,?,White=,Canine+,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Grabbing+,Bedroom+,Shoe+,Mouth+
+CONCEPTS B: Human+,Canine+,Entity+,Looking=,SubjectiveAssessmentAttribute+,Human+,White=,Canine+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	11	nmod:poss	_	?|?
 11	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	05302499-n|Mouth+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

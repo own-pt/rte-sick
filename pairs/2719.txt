@@ -3,8 +3,8 @@ sentence B = A karate practitioner is kicking at another man who is wearing prot
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Expressing+,ViolentContest+,?,?,Device+,?
-CONCEPTS B: ?,Karate=,Position+,Entity+,Expressing+,?,?,Hominid=,?,Entity+,RecreationOrExercise+,Device+,Glove+,?,ViolentContest+,?
+CONCEPTS A: Hominid=,Entity+,Expressing+,ViolentContest+,Device+
+CONCEPTS B: Karate=,Position+,Entity+,Expressing+,Hominid=,Entity+,RecreationOrExercise+,Device+,Glove+,ViolentContest+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	trainer	trainer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03363363-n|Device+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

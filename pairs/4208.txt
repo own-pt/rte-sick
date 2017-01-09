@@ -3,8 +3,8 @@ sentence B = There is no man slicing some bread.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human=,Entity+,Separating+,?,PreparedFood+,?,BreadOrBiscuit+,?
-CONCEPTS B: ?,Entity+,?,Hominid=,Separating+,?,BreadOrBiscuit+,?
+CONCEPTS A: Human=,Entity+,Separating+,PreparedFood+,BreadOrBiscuit+
+CONCEPTS B: Entity+,Hominid=,Separating+,BreadOrBiscuit+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
 8	bread	bread	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	07679356-n|BreadOrBiscuit+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

@@ -3,8 +3,8 @@ sentence B = There is no baby being put into a trash can by a woman.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,Entity+,Putting=,SubjectiveAssessmentAttribute+,?,?,PotOrPan+,?
-CONCEPTS B: ?,Entity+,?,HumanBaby=,Entity+,Putting=,?,?,SubjectiveAssessmentAttribute+,?,?,?,Woman=,?
+CONCEPTS A: Human=,Entity+,Putting=,SubjectiveAssessmentAttribute+,PotOrPan+
+CONCEPTS B: Entity+,HumanBaby=,Entity+,Putting=,SubjectiveAssessmentAttribute+,Woman=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	skillet	skillet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03400231-n|PotOrPan+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

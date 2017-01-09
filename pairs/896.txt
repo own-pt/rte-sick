@@ -3,8 +3,8 @@ sentence B = People are on a beach full of sand by the ocean and are enjoying a 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Collection+,?,Device+,Entity+,?,?,ShoreArea=,?
-CONCEPTS B: GroupOfPeople=,Attribute+,?,?,ShoreArea=,ContainerFull+,?,Sand=,?,?,Ocean=,?,Attribute+,IntentionalPsychologicalProcess+,?,Happiness+,Day=,?
+CONCEPTS A: Collection+,Device+,Entity+,ShoreArea=
+CONCEPTS B: GroupOfPeople=,Attribute+,ShoreArea=,ContainerFull+,Sand=,Ocean=,Attribute+,IntentionalPsychologicalProcess+,Happiness+,Day=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	shore	shore	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	09433442-n|ShoreArea=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	07942152-n|GroupOfPeople=

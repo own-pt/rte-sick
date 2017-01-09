@@ -3,8 +3,8 @@ sentence B = A girl in a white dress is running.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Smiling=,?,Attribute+,Giving+,?,?,Auditorium+,?
-CONCEPTS B: ?,Human+,?,?,White=,Clothing+,Entity+,Attribute+,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Smiling=,Attribute+,Giving+,Auditorium+
+CONCEPTS B: Human+,White=,Clothing+,Entity+,Attribute+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	house	house	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	04417809-n|Auditorium+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

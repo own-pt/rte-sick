@@ -3,8 +3,8 @@ sentence B = Two children are climbing a tree.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,?,?,FullyFormed+,Entity+,PhysicalAttribute+,Position+,?,?,ContentBearingObject+,BodyPart+,?
-CONCEPTS B: ?,HumanChild=,Entity+,Increasing+,?,ContentBearingObject+,?
+CONCEPTS A: HumanChild=,FullyFormed+,Entity+,PhysicalAttribute+,Position+,ContentBearingObject+,BodyPart+
+CONCEPTS B: HumanChild=,Entity+,Increasing+,ContentBearingObject+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	13912260-n|ContentBearingObject+
 12	limb	limb	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	13163803-n|BodyPart+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

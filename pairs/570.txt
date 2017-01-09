@@ -3,8 +3,8 @@ sentence B = A white and brown dog is pacing through the water with difficulty.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,White=,?,Human+,Canine+,Entity+,Walking=,?,?,Water=,?,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,White=,?,Human+,Canine+,Entity+,Ambulating+,?,?,Water=,?,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: White=,Human+,Canine+,Entity+,Walking=,Water=,SubjectiveAssessmentAttribute+
+CONCEPTS B: White=,Human+,Canine+,Entity+,Ambulating+,Water=,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	with	with	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
 12	difficulty	difficulty	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	00623862-n|SubjectiveAssessmentAttribute+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?

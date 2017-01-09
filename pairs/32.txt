@@ -3,8 +3,8 @@ sentence B = A man with a jersey is dunking the ball at a basketball game.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Game=,?,Basketball=,Living+,?,?,Ball=,Entity+,Wetting+,?,?,Man=,?,?,HoofedMammal+,?
-CONCEPTS B: ?,Man=,?,?,HoofedMammal+,Entity+,Wetting+,?,Ball=,?,?,Basketball=,Game=,?
+CONCEPTS A: Game=,Basketball=,Living+,Ball=,Entity+,Wetting+,Man=,HoofedMammal+
+CONCEPTS B: Man=,HoofedMammal+,Entity+,Wetting+,Ball=,Basketball=,Game=
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
 16	jersey	jersey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	08887238-n|HoofedMammal+
 17	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

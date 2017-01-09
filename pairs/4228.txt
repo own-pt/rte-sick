@@ -3,8 +3,8 @@ sentence B = Two men are playing guitar.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: Guitar=,Entity+,Entity+,DramaticActing+,?,?,Hominid=,?
-CONCEPTS B: ?,Hominid=,Entity+,DramaticActing+,Guitar=,?
+CONCEPTS A: Guitar=,Entity+,Entity+,DramaticActing+,Hominid=
+CONCEPTS B: Hominid=,Entity+,DramaticActing+,Guitar=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	7	nummod	_	?|?
 7	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	02472293-n|Hominid=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

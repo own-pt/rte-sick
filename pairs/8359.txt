@@ -3,8 +3,8 @@ sentence B = People are sitting at round tables in a red room.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,SubjectiveStrongNegativeAttribute+,ContentBearingObject+,?,?,SurfaceChange+,Room=,?
-CONCEPTS B: GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,Object+,ContentBearingObject+,?,?,Red=,Room=,?
+CONCEPTS A: GroupOfPeople=,PhysicalAttribute+,SittingDown+,SubjectiveStrongNegativeAttribute+,ContentBearingObject+,SurfaceChange+,Room=
+CONCEPTS B: GroupOfPeople=,PhysicalAttribute+,SittingDown+,Object+,ContentBearingObject+,Red=,Room=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	darkened	darken	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	11	amod	_	00311559-v|SurfaceChange+
 11	room	room	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04105893-n|Room=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	07942152-n|GroupOfPeople=

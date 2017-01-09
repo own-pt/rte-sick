@@ -3,8 +3,8 @@ sentence B = A large jump is being performed by a man.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,IntentionalProcess+,?,SubjectiveWeakPositiveAttribute+,Transportation+,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Transportation+,Entity+,Entity+,IntentionalProcess+,?,?,Hominid=,?
+CONCEPTS A: Hominid=,Entity+,IntentionalProcess+,SubjectiveWeakPositiveAttribute+,Transportation+
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Transportation+,Entity+,Entity+,IntentionalProcess+,Hominid=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
 7	jump	jump	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00303849-n|Transportation+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

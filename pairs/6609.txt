@@ -3,8 +3,8 @@ sentence B = Nobody is treading through the snow of the beautiful snowy landscap
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Entity+,Walking=,?,Human+,Snowing=,?,?,Sol=,Entity+,Putting=,?
-CONCEPTS B: ?,Entity+,Walking+,?,?,Snowing=,?,?,SubjectiveStrongPositiveAttribute+,Covering+,ArtWork+,?
+CONCEPTS A: GroupOfPeople=,Entity+,Walking=,Human+,Snowing=,Sol=,Entity+,Putting=
+CONCEPTS B: Entity+,Walking+,Snowing=,SubjectiveStrongPositiveAttribute+,Covering+,ArtWork+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	02604760-v|Entity+
 12	setting	set	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	01494310-v|Putting=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Nobody	nobody	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?

@@ -3,8 +3,8 @@ sentence B = A dog is running alongside a fence on a track full of dirt.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Racing+,?,?,Device+,?,?,Text+,StationaryArtifact+,?
-CONCEPTS B: ?,Canine+,Entity+,Racing+,?,?,Device+,?,?,StationaryArtifact+,ContainerFull+,?,Text+,?
+CONCEPTS A: Canine+,Entity+,Racing+,Device+,Text+,StationaryArtifact+
+CONCEPTS B: Canine+,Entity+,Racing+,Device+,StationaryArtifact+,ContainerFull+,Text+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	dirt	dirt	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	compound	_	07223811-n|Text+
 11	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04037625-n|StationaryArtifact+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

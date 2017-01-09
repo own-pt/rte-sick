@@ -3,8 +3,8 @@ sentence B = There is no kid in orange playing outside with a snowball.
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,Attribute+,?,Snowing=,Ball=,?
-CONCEPTS B: ?,Entity+,?,HumanChild=,?,OrangeColor+,DramaticActing+,?,?,?,Artifact+,?
+CONCEPTS A: HumanChild=,Entity+,Attribute+,Snowing=,Ball=
+CONCEPTS B: Entity+,HumanChild=,OrangeColor+,DramaticActing+,Artifact+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	snow	snow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	15043763-n|Snowing=
 7	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02778669-n|Ball=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

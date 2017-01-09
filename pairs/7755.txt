@@ -3,8 +3,8 @@ sentence B = A man and a woman are walking down a city street.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Man=,?,?,Woman=,Entity+,Walking=,earlier+,?,Roadway=,?,?,City=,?
-CONCEPTS B: ?,Man=,?,?,Woman=,Entity+,Walking=,earlier+,?,City=,Roadway=,?
+CONCEPTS A: Man=,Woman=,Entity+,Walking=,earlier+,Roadway=,City=
+CONCEPTS B: Man=,Woman=,Entity+,Walking=,earlier+,City=,Roadway=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	city	city	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	08524735-n|City=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = The little kid is playing football and falling into the grass.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,DramaticActing+,Football+,?,Getting+,Damaging[,?,?,Grass=,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,DramaticActing+,Football+,?,Getting+,?,?,Grass=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,DramaticActing+,Football+,Getting+,Damaging[,Grass=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,DramaticActing+,Football+,Getting+,Grass=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	12102133-n|Grass=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

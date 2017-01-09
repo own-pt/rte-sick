@@ -3,8 +3,8 @@ sentence B = The cat is hungrily drinking milk.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute+,Hominid=,Entity+,Process+,Increasing+,?,Character+,?,Entity+,Requesting+,?,Currency=,?
-CONCEPTS B: ?,Whip+,Entity+,PerceptualAttribute+,Drinking+,Milk=,?
+CONCEPTS A: SubjectiveAssessmentAttribute+,Hominid=,Entity+,Process+,Increasing+,Character+,Entity+,Requesting+,Currency=
+CONCEPTS B: Whip+,Entity+,PerceptualAttribute+,Drinking+,Milk=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	for	for	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
 13	money	money	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	13384557-n|Currency=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

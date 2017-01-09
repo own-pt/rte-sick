@@ -3,8 +3,8 @@ sentence B = The man is racing for the lead.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,?,Hominid=,?,?,SocialRole+,Entity+,Attribute+,?,?
-CONCEPTS B: ?,Hominid=,Entity+,Motion+,?,?,Lead=,?
+CONCEPTS A: Hominid=,SocialRole+,Entity+,Attribute+
+CONCEPTS B: Hominid=,Entity+,Motion+,Lead=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
 9	outside	outside	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	xcomp	_	?|?
 10	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

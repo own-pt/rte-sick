@@ -3,8 +3,8 @@ sentence B = A dog is turning on the grass and pursuing a flying ball.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,Process+,?,?,Grass=,?,IntentionalAgent+,?,FlyingAircraft=,Tennis=,Ball=,?
-CONCEPTS B: ?,Canine+,Entity+,Process+,?,?,Grass=,?,IntentionalAgent+,?,FlyingAircraft=,Ball=,?
+CONCEPTS A: Canine+,Entity+,Process+,Grass=,IntentionalAgent+,FlyingAircraft=,Tennis=,Ball=
+CONCEPTS B: Canine+,Entity+,Process+,Grass=,IntentionalAgent+,FlyingAircraft=,Ball=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	tennis	tennis	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	13	amod	_	00482298-n|Tennis=
 13	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	02778669-n|Ball=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

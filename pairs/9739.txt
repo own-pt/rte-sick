@@ -3,8 +3,8 @@ sentence B = A woman is wearing ear protection and is firing a gun at an indoor 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Shooting+,?,Entity+,SubjectiveAssessmentAttribute=,?
-CONCEPTS B: ?,Woman=,Entity+,CoveringFn=,Ear=,Container+,?,Entity+,Shooting+,?,Gun=,?,?,located+,Shooting=,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: Hominid=,Entity+,Shooting+,Entity+,SubjectiveAssessmentAttribute=
+CONCEPTS B: Woman=,Entity+,CoveringFn=,Ear=,Container+,Entity+,Shooting+,Gun=,located+,Shooting=,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	target	target	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	amod	_	05981230-n|Entity+
 7	practice	practice	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	00410247-n|SubjectiveAssessmentAttribute=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

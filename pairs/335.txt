@@ -3,8 +3,8 @@ sentence B = Four people are walking on the beach.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Group=,?,GroupOfPeople=,Entity+,?,?,ShoreArea=,?
-CONCEPTS B: ?,GroupOfPeople=,Entity+,Walking=,?,?,ShoreArea=,?
+CONCEPTS A: Group=,GroupOfPeople=,Entity+,ShoreArea=
+CONCEPTS B: GroupOfPeople=,Entity+,Walking=,ShoreArea=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	09217230-n|ShoreArea=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = The shirtless man in striped shorts and sunglasses is standing near
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Hominid=,Entity+,Dancing+,?,?,Hominid=,?,?,Entity+,CoveringFn=,Green=,ShapeAttribute+,?
-CONCEPTS B: ?,?,Man=,?,VisualAttribute+,NormativeAttribute+,?,Device+,Entity+,PhysicalAttribute+,?,?,Man=,?,?,White=,Shirt=,?,Device+,?
+CONCEPTS A: Human+,Hominid=,Entity+,Dancing+,Hominid=,Entity+,CoveringFn=,Green=,ShapeAttribute+
+CONCEPTS B: Man=,VisualAttribute+,NormativeAttribute+,Device+,Entity+,PhysicalAttribute+,Man=,White=,Shirt=,Device+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	00375969-a|Green=
 14	beads	bead	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	dobj	_	13901585-n|ShapeAttribute+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A man and a woman are in a beige room, wearing dark colored shirts 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,Entity+,Entity+,SubjectiveAssessmentAttribute+,Looking=,?,?,?,Woman=,?
-CONCEPTS B: ?,Man=,?,?,Woman=,Entity+,?,?,ColorAttribute+,Room=,?,Putting+,SubjectiveWeakNegativeAttribute+,SurfaceChange+,Shirt=,?,?,SocialRole+,Entity+,?,?,Region+,?
+CONCEPTS A: Man=,Entity+,Entity+,SubjectiveAssessmentAttribute+,Looking=,Woman=
+CONCEPTS B: Man=,Woman=,Entity+,ColorAttribute+,Room=,Putting+,SubjectiveWeakNegativeAttribute+,SurfaceChange+,Shirt=,SocialRole+,Entity+,Region+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	10787470-n|Woman=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

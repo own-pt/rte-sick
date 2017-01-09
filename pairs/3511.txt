@@ -3,8 +3,8 @@ sentence B = The woman is dicing garlic.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Putting=,?,?,Garlic=,?
-CONCEPTS B: ?,Woman=,Entity+,Cutting+,Garlic=,?
+CONCEPTS A: Woman=,Entity+,Putting=,Garlic=
+CONCEPTS B: Woman=,Entity+,Cutting+,Garlic=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	garlic	garlic	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07818277-n|Garlic=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

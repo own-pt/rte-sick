@@ -3,8 +3,8 @@ sentence B = A woman is being measured by another woman.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Measuring+,?,equal+,Woman=,?
-CONCEPTS B: ?,Woman=,Entity+,Entity+,Measuring+,?,?,Woman=,?
+CONCEPTS A: Woman=,Entity+,Measuring+,equal+,Woman=
+CONCEPTS B: Woman=,Entity+,Entity+,Measuring+,Woman=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	02069355-a|equal+
 7	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	10787470-n|Woman=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

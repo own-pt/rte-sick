@@ -3,8 +3,8 @@ sentence B = The boy and the girl are playing and wearing arm floats.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,?,Human+,?,Clothing+,Entity+,CoveringFn=,Beverage+,?,?,Sleeve+,?
-CONCEPTS B: ?,Human+,?,?,Human+,Entity+,DramaticActing+,?,RecreationOrExercise+,Weapon=,Beverage+,?
+CONCEPTS A: Human+,Human+,Clothing+,Entity+,CoveringFn=,Beverage+,Sleeve+
+CONCEPTS B: Human+,Human+,Entity+,DramaticActing+,RecreationOrExercise+,Weapon=,Beverage+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	13	nmod:poss	_	?|?
 13	arms	arm	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	nmod	_	04236377-n|Sleeve+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

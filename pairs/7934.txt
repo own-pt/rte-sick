@@ -3,8 +3,8 @@ sentence B = An Asian woman is holding a fur scarf.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Fabric+,Clothing+,Entity+,Entity+,Keeping+,?,?,AsianEthnicity=,Woman=,?
-CONCEPTS B: ?,AsianEthnicity=,Woman=,Entity+,Process+,?,Fabric+,Clothing+,?
+CONCEPTS A: Fabric+,Clothing+,Entity+,Entity+,Keeping+,AsianEthnicity=,Woman=
+CONCEPTS B: AsianEthnicity=,Woman=,Entity+,Process+,Fabric+,Clothing+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	Asian	asian	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	02968525-a|AsianEthnicity=
 10	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	10787470-n|Woman=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

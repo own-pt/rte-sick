@@ -3,8 +3,8 @@ sentence B = A tennis player in mid game is holding a racquet.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,Dressing+,?,Black=,?,White=,Entity+,Process+,Increasing+,?,Tennis=,Device+,?,Entity+,PsychologicalProcess+,?,?,Ball=,?
-CONCEPTS B: ?,Tennis=,Human+,?,earlier+,Game=,Entity+,Touching+,?,Device+,?
+CONCEPTS A: Man=,Dressing+,Black=,White=,Entity+,Process+,Increasing+,Tennis=,Device+,Entity+,PsychologicalProcess+,Ball=
+CONCEPTS B: Tennis=,Human+,earlier+,Game=,Entity+,Touching+,Device+
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	?|?
 19	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	02778669-n|Ball=
 20	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

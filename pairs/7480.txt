@@ -3,8 +3,8 @@ sentence B = Two guys are sitting around a table and holding beers in their hand
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Device+,Entity+,PhysicalAttribute+,?,?,ContentBearingObject+,?,Putting=,?,Beer=,earlier+,?,?,?
-CONCEPTS B: ?,Device+,PhysicalAttribute+,SittingDown+,?,?,ContentBearingObject+,?,Process+,Beer=,?,?,Hand+,?
+CONCEPTS A: Device+,Entity+,PhysicalAttribute+,ContentBearingObject+,Putting=,Beer=,earlier+
+CONCEPTS B: Device+,PhysicalAttribute+,SittingDown+,ContentBearingObject+,Process+,Beer=,Hand+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	on	on	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
 14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	9	nmod	_	?|?
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

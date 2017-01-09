@@ -3,8 +3,8 @@ sentence B = The mountain gear is steadily placed in front of the standing biker
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,?,?,Gear=,Entity+,PhysicalAttribute+,SubjectiveAssessmentAttribute+,?,FrontFn=,?,?,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,SubjectiveAssessmentAttribute+,Gear=,Entity+,SubjectiveAssessmentAttribute+,Putting=,?,FrontFn=,?,?,SocialRole+,?,?
+CONCEPTS A: Human=,Gear=,Entity+,PhysicalAttribute+,SubjectiveAssessmentAttribute+,FrontFn=,SubjectiveAssessmentAttribute+
+CONCEPTS B: SubjectiveAssessmentAttribute+,Gear=,Entity+,SubjectiveAssessmentAttribute+,Putting=,FrontFn=,SocialRole+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	some	some	DET	DT	fPOS=DET++DT	13	det	_	?|?
 13	mountains	mountain	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	nmod	_	13774404-n|SubjectiveAssessmentAttribute+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

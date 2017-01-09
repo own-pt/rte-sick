@@ -3,8 +3,8 @@ sentence B = Someone is cutting a tomato.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Entity+,Decreasing+,?,Tomato=,?
-CONCEPTS B: ?,Entity+,Decreasing+,?,Tomato=,?
+CONCEPTS A: Entity+,Decreasing+,Tomato=
+CONCEPTS B: Entity+,Decreasing+,Tomato=
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
 5	tomato	tomato	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	07734017-n|Tomato=
 6	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Someone	someone	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?

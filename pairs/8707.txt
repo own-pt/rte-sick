@@ -3,8 +3,8 @@ sentence B = A man without a shirt is posing with the arms spread near a woman.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,Shirt=,Entity+,Putting=,?,?,Sleeve+,Disseminating+,Position+,?,?,Woman=,?
-CONCEPTS B: ?,Man=,?,?,Shirt=,Entity+,Putting=,?,?,Sleeve+,Disseminating+,?,?,Woman=,?
+CONCEPTS A: Man=,Shirt=,Entity+,Putting=,Sleeve+,Disseminating+,Position+,Woman=
+CONCEPTS B: Man=,Shirt=,Entity+,Putting=,Sleeve+,Disseminating+,Woman=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	10787470-n|Woman=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A man and a young boy are riding in a yellow kayak.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute+,TransportationDevice+,Entity+,Entity+,Carrying=,?,?,Man=,?,?,HumanYouth=,Human+,?
-CONCEPTS B: ?,Man=,?,?,HumanYouth=,Human+,Entity+,Carrying=,?,?,SubjectiveAssessmentAttribute+,TransportationDevice+,?
+CONCEPTS A: SubjectiveAssessmentAttribute+,TransportationDevice+,Entity+,Entity+,Carrying=,Man=,HumanYouth=,Human+
+CONCEPTS B: Man=,HumanYouth=,Human+,Entity+,Carrying=,SubjectiveAssessmentAttribute+,TransportationDevice+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	13	amod	_	01646941-a|HumanYouth=
 13	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	conj	_	10285313-n|Human+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

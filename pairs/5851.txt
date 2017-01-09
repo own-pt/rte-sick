@@ -3,8 +3,8 @@ sentence B = Noodles are being boiled in water by a woman.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Boiling=,Pasta+,?,Water=,?
-CONCEPTS B: Pasta+,Entity+,Entity+,Boiling=,?,Water=,?,?,Woman=,?
+CONCEPTS A: Woman=,Entity+,Boiling=,Pasta+,Water=
+CONCEPTS B: Pasta+,Entity+,Entity+,Boiling=,Water=,Woman=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
 7	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	14845743-n|Water=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Noodles	noodle	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubjpass	_	07699584-n|Pasta+

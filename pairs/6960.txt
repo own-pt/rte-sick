@@ -3,8 +3,8 @@ sentence B = A man in a white hat is getting off stage.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Man=,?,?,White=,Hat+,Entity+,DramaticActing+,Guitar=,?,Attribute+,?
-CONCEPTS B: ?,Man=,?,?,White=,Hat+,Entity+,Process+,?,Attribute+,?
+CONCEPTS A: Man=,White=,Hat+,Entity+,DramaticActing+,Guitar=,Attribute+
+CONCEPTS B: Man=,White=,Hat+,Entity+,Process+,Attribute+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
 11	stage	stage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	13939892-n|Attribute+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

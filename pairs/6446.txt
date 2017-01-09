@@ -3,8 +3,8 @@ sentence B = A small boy in a yellow shirt is laughing on the beach.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,?,?,Shirt=,?,?,Entity+,SubjectiveAssessmentAttribute+,?,Entity+,Laughing=,?,?,ShoreArea=,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,?,?,SubjectiveAssessmentAttribute+,Shirt=,Entity+,Laughing=,?,?,ShoreArea=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Shirt=,Entity+,SubjectiveAssessmentAttribute+,Entity+,Laughing=,ShoreArea=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,SubjectiveAssessmentAttribute+,Shirt=,Entity+,Laughing=,ShoreArea=
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	?|?
 16	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	09217230-n|ShoreArea=
 17	.	.	PUNCT	.	fPOS=PUNCT++.	13	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

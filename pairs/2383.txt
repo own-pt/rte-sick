@@ -3,8 +3,8 @@ sentence B = A person is dicing an onion.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,Entity+,Separating+,?,Carrot=,?,PreparedFood+,?
-CONCEPTS B: ?,Human=,Entity+,Cutting+,?,FruitOrVegetable+,?
+CONCEPTS A: Human=,Entity+,Separating+,Carrot=,PreparedFood+
+CONCEPTS B: Human=,Entity+,Cutting+,FruitOrVegetable+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	into	into	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
 8	pieces	piece	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	07654667-n|PreparedFood+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

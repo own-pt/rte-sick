@@ -3,8 +3,8 @@ sentence B = Three dogs are resting on a sidewalk.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,PastFn=,?,?,Sofa=,?
-CONCEPTS B: ?,Canine+,Entity+,PastFn=,?,?,Sidewalk=,?
+CONCEPTS A: Canine+,Entity+,PastFn=,Sofa=
+CONCEPTS B: Canine+,Entity+,PastFn=,Sidewalk=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	couch	couch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04256520-n|Sofa=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

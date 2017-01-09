@@ -3,8 +3,8 @@ sentence B = A girl with red hair and red eyebrows is in midspeech.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Damaging+,Red=,Hair=,?,BodyPart+,?,?,?,?,?,Ear=,?,?,Game+,?,?,CorpuscularObject+,?
-CONCEPTS B: ?,Human+,?,Red=,Hair=,?,Red=,BodyPart+,Entity+,?,?,?
+CONCEPTS A: Human+,Damaging+,Red=,Hair=,BodyPart+,Ear=,Game+,CorpuscularObject+
+CONCEPTS B: Human+,Red=,Hair=,Red=,BodyPart+,Entity+
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	?|?
 19	back	back	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	02767433-n|CorpuscularObject+
 20	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

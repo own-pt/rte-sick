@@ -3,8 +3,8 @@ sentence B = The woman with a knife is slicing a pepper.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Separating+,?,Green=,SpicePepper=,?
-CONCEPTS B: ?,Woman=,?,?,CuttingDevice+,Entity+,Separating+,?,SpicePepper=,?
+CONCEPTS A: Woman=,Entity+,Separating+,Green=,SpicePepper=
+CONCEPTS B: Woman=,CuttingDevice+,Entity+,Separating+,SpicePepper=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00375969-a|Green=
 7	pepper	pepper	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07815588-n|SpicePepper=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

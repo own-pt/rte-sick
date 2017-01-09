@@ -3,8 +3,8 @@ sentence B = The man is cautiously feeding a mouse to the snake.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,not=,SubjectiveAssessmentAttribute+,Feeding+,?,Mouse=,?,?,Snake=,?
-CONCEPTS B: ?,Hominid=,Entity+,SubjectiveAssessmentAttribute+,Feeding+,?,Mouse=,?,?,Snake=,?
+CONCEPTS A: Hominid=,Entity+,not=,SubjectiveAssessmentAttribute+,Feeding+,Mouse=,Snake=
+CONCEPTS B: Hominid=,Entity+,SubjectiveAssessmentAttribute+,Feeding+,Mouse=,Snake=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	snake	snake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	01726692-n|Snake=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

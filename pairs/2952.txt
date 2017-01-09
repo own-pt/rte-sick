@@ -3,8 +3,8 @@ sentence B = A woman is applying cosmetics to her eyelid.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,ContentDevelopment+,?,Mixture+,?
-CONCEPTS B: ?,Woman=,Entity+,Covering+,Mixture+,?,?,Eyelid+,?
+CONCEPTS A: Woman=,Entity+,ContentDevelopment+,Mixture+
+CONCEPTS B: Woman=,Entity+,Covering+,Mixture+,Eyelid+
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	on	on	ADV	RB	fPOS=ADV++RB	6	advmod	_	?|?
 6	eyeshadow	eyeshadow	ADV	RB	Degree=Pos|fPOS=ADV++RB	4	advmod	_	03309687-n|Mixture+
 7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

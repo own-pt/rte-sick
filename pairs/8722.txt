@@ -3,8 +3,8 @@ sentence B = Two white dogs are running together.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,White=,SocialRole+,Entity+,DramaticActing+,?,?,StaticWaterArea+,?
-CONCEPTS B: ?,White=,Canine+,Entity+,Attribute+,Meeting=,?
+CONCEPTS A: White=,SocialRole+,Entity+,DramaticActing+,StaticWaterArea+
+CONCEPTS B: White=,Canine+,Entity+,Attribute+,Meeting=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	09397607-n|StaticWaterArea+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	VERB	VB	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = A brown and white dog with a brown and black bandanna is running ve
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human+,?,White=,Canine+,?,?,Human+,?,Black=,Clothing+,Entity+,SubjectiveAssessmentAttribute+,Attribute+,?
-CONCEPTS B: ?,Human+,?,White=,Canine+,?,?,Human+,?,Black=,Clothing+,Entity+,Running=,SubjectiveAssessmentAttribute+,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: Human+,White=,Canine+,Human+,Black=,Clothing+,Entity+,SubjectiveAssessmentAttribute+,Attribute+
+CONCEPTS B: Human+,White=,Canine+,Human+,Black=,Clothing+,Entity+,Running=,SubjectiveAssessmentAttribute+,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	quickly	quickly	ADV	RB	fPOS=ADV++RB	14	advmod	_	00085811-r|SubjectiveAssessmentAttribute+
 14	running	run	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01525666-v|Attribute+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	14	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?

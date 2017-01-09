@@ -3,8 +3,8 @@ sentence B = The woman wearing silver pants, pink bellbottoms and a pink scarf i
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,?,Entity+,CoveringFn=,?,Pink+,ConstrictorSnake+,Entity+,Carrying=,?,Bicycle=,?,?,Bridge+,Increasing+,?,Walking+,?
-CONCEPTS B: ?,Woman=,Dressing+,Silver=,Trousers+,?,Pink+,?,?,?,Pink+,Clothing+,Entity+,Transportation+,?,Bicycle=,?
+CONCEPTS A: Woman=,Entity+,CoveringFn=,Pink+,ConstrictorSnake+,Entity+,Carrying=,Bicycle=,Bridge+,Increasing+,Walking+
+CONCEPTS B: Woman=,Dressing+,Silver=,Trousers+,Pink+,Pink+,Clothing+,Entity+,Transportation+,Bicycle=
 
 CONLL A:
 
@@ -27,6 +27,8 @@ CONLL A:
 17	for	for	ADP	IN	fPOS=ADP++IN	18	case	_	?|?
 18	pedestrians	pedestrian	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	16	nmod	_	10412055-n|Walking+
 19	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

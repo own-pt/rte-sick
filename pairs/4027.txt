@@ -3,8 +3,8 @@ sentence B = A man is breaking boards made of wood with his hand.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,EndFn+,SubjectiveAssessmentAttribute+,Table+,?,?,Hand+,?
-CONCEPTS B: ?,Hominid=,Entity+,EndFn+,Table+,Process+,?,Wood=,?,?,Hand+,?
+CONCEPTS A: Hominid=,Entity+,EndFn+,SubjectiveAssessmentAttribute+,Table+,Hand+
+CONCEPTS B: Hominid=,Entity+,EndFn+,Table+,Process+,Wood=,Hand+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	9	nmod:poss	_	?|?
 9	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	05564590-n|Hand+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

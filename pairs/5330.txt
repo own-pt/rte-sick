@@ -3,8 +3,8 @@ sentence B = A man is diving into a pool.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Ambulating=,Giving+,?,?,StaticWaterArea+,?
-CONCEPTS B: ?,Hominid=,Entity+,Decreasing+,?,?,StaticWaterArea+,?
+CONCEPTS A: Hominid=,Entity+,Ambulating=,Giving+,StaticWaterArea+
+CONCEPTS B: Hominid=,Entity+,Decreasing+,StaticWaterArea+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09397607-n|StaticWaterArea+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

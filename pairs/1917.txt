@@ -3,8 +3,8 @@ sentence B = The windows are being cleaned by a man.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Device+,?,Automobile=,Entity+,Putting+,?,?,Hominid=,?
-CONCEPTS B: ?,Window=,Entity+,Entity+,Cleaning=,?,?,Hominid=,?
+CONCEPTS A: Device+,Automobile=,Entity+,Putting+,Hominid=
+CONCEPTS B: Window=,Entity+,Entity+,Cleaning=,Hominid=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	02472293-n|Hominid=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

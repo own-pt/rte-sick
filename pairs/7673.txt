@@ -3,8 +3,8 @@ sentence B = The man at the beach is not doing a handstand on the wet sand at th
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,IntentionalProcess+,?,BodyMotion+,?,?,ShoreArea=,?
-CONCEPTS B: ?,Hominid=,?,?,ShoreArea=,Entity+,not=,IntentionalProcess+,?,BodyMotion+,?,?,Wetting=,Sand=,?,?,Object+,?,?,Water=,?
+CONCEPTS A: Hominid=,Entity+,IntentionalProcess+,BodyMotion+,ShoreArea=
+CONCEPTS B: Hominid=,ShoreArea=,Entity+,not=,IntentionalProcess+,BodyMotion+,Wetting=,Sand=,Object+,Water=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	09217230-n|ShoreArea=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

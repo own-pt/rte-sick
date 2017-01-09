@@ -3,8 +3,8 @@ sentence B = Men are cutting wood.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: Hominid=,Entity+,Cutting+,LogFn=,?
-CONCEPTS B: Hominid=,Entity+,Decreasing+,Wood=,?
+CONCEPTS A: Hominid=,Entity+,Cutting+,LogFn=
+CONCEPTS B: Hominid=,Entity+,Decreasing+,Wood=
 
 CONLL A:
 
@@ -13,6 +13,8 @@ CONLL A:
 3	sawing	saw	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01559590-v|Cutting+
 4	logs	log	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	dobj	_	06812631-n|LogFn=
 5	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Men	man	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	02472293-n|Hominid=

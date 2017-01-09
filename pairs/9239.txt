@@ -3,8 +3,8 @@ sentence B = A woman is standing at the wheel of a classic American car that has
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,PhysicalAttribute+,?,?,VehicleWheel=,?,?,ArtWork+,LandArea@,Automobile=,?,Damaging+,?,Door+,?,Torso+,SubjectiveWeakPositiveAttribute+,?
-CONCEPTS B: ?,Woman=,Entity+,PhysicalAttribute+,?,?,VehicleWheel=,?,?,ArtWork+,LandArea@,Automobile=,?,Damaging+,?,Door+,?,Torso+,SubjectiveWeakPositiveAttribute+,?
+CONCEPTS A: Hominid=,Entity+,PhysicalAttribute+,VehicleWheel=,ArtWork+,LandArea@,Automobile=,Damaging+,Door+,Torso+,SubjectiveWeakPositiveAttribute+
+CONCEPTS B: Woman=,Entity+,PhysicalAttribute+,VehicleWheel=,ArtWork+,LandArea@,Automobile=,Damaging+,Door+,Torso+,SubjectiveWeakPositiveAttribute+
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	trunk	trunk	VERB	VB	Number=Sing|fPOS=PROPN++NNP	16	conj	_	05549830-n|Torso+
 19	open	open	ADJ	JJ	Number=Sing|fPOS=PROPN++NNP	14	xcomp	_	01652902-a|SubjectiveWeakPositiveAttribute+
 20	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

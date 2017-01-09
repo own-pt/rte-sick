@@ -3,8 +3,8 @@ sentence B = A man is sitting comfortably at a table.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Black=,Shirt=,PhysicalAttribute+,PhysicalAttribute+,Putting+,?,?,Man=,?,PhysicalAttribute+,SittingDown+,?,?,ContentBearingObject+,?,Laughing=,?
-CONCEPTS B: ?,Hominid=,PhysicalAttribute+,SittingDown+,StateOfMind+,?,?,ContentBearingObject+,?
+CONCEPTS A: Black=,Shirt=,PhysicalAttribute+,PhysicalAttribute+,Putting+,Man=,PhysicalAttribute+,SittingDown+,ContentBearingObject+,Laughing=
+CONCEPTS B: Hominid=,PhysicalAttribute+,SittingDown+,StateOfMind+,ContentBearingObject+
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	and	and	CONJ	CC	fPOS=CONJ++CC	15	cc	_	?|?
 17	laughing	laugh	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	conj	_	00031820-v|Laughing=
 18	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Some meat is being cut into pieces by a woman.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Cutting+,Increasing+,?,SubjectiveAssessmentAttribute+,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,SubjectiveAssessmentAttribute+,Entity+,Entity+,Cutting+,?,TimeDuration+,?,?,Woman=,?
+CONCEPTS A: Human+,Entity+,Cutting+,Increasing+,SubjectiveAssessmentAttribute+,SubjectiveAssessmentAttribute+
+CONCEPTS B: SubjectiveAssessmentAttribute+,Entity+,Entity+,Cutting+,TimeDuration+,Woman=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	meat	meat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	05921123-n|SubjectiveAssessmentAttribute+
 8	precisely	precisely	ADV	RB	fPOS=ADV++RB	4	advmod	_	00158309-r|SubjectiveAssessmentAttribute+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?

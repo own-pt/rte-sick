@@ -3,8 +3,8 @@ sentence B = A man in a hat is walking through a store.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,Hat+,SubjectiveAssessmentAttribute+,?,FarmHand+,Entity+,Walking=,?,?,GroceryStore=,?,Entity+,Putting=,?,FarmHand=,?,?,Pocket=,?
-CONCEPTS B: ?,Man=,?,?,Hat+,Entity+,Walking=,?,?,RetailStore=,?
+CONCEPTS A: Man=,Hat+,SubjectiveAssessmentAttribute+,FarmHand+,Entity+,Walking=,GroceryStore=,Entity+,Putting=,FarmHand=,Pocket=
+CONCEPTS B: Man=,Hat+,Entity+,Walking=,RetailStore=
 
 CONLL A:
 
@@ -30,6 +30,8 @@ CONLL A:
 20	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	21	nmod:poss	_	?|?
 21	pocket	pocket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	03972524-n|Pocket=
 22	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

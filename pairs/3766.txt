@@ -3,8 +3,8 @@ sentence B = A person is throwing a cat at the ceiling.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Human=,Impelling+,?,Whip+,?,?,Ceiling=,?
-CONCEPTS B: ?,Human=,Entity+,Impelling+,?,Whip+,?,?,Ceiling=,?
+CONCEPTS A: Entity+,Human=,Impelling+,Whip+,Ceiling=
+CONCEPTS B: Human=,Entity+,Impelling+,Whip+,Ceiling=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	ceiling	ceiling	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02990373-n|Ceiling=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

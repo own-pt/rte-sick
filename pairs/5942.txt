@@ -3,8 +3,8 @@ sentence B = The man is not standing on a rocky mountain and gray clouds are not
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,PhysicalAttribute+,?,?,TextureAttribute+,SubjectiveAssessmentAttribute+,?,Gray+,Cloud=,Entity+,?,?,Region+,?
-CONCEPTS B: ?,Hominid=,Entity+,not=,PhysicalAttribute+,?,?,TextureAttribute+,SubjectiveAssessmentAttribute+,?,Gray+,Cloud=,Entity+,not=,?,?,Region+,?
+CONCEPTS A: Hominid=,Entity+,PhysicalAttribute+,TextureAttribute+,SubjectiveAssessmentAttribute+,Gray+,Cloud=,Entity+,Region+
+CONCEPTS B: Hominid=,Entity+,not=,PhysicalAttribute+,TextureAttribute+,SubjectiveAssessmentAttribute+,Gray+,Cloud=,Entity+,not=,Region+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	background	background	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	14513259-n|Region+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

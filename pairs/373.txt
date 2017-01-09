@@ -3,8 +3,8 @@ sentence B = A tattooed man is on a sofa and is holding a pencil.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,?,SurfaceChange+,Entity+,IntentionalProcess+,?,?,Sofa=,?,Process+,?,Pencil=,?
-CONCEPTS B: ?,Coloring+,Hominid=,Entity+,?,?,Sofa=,?,Entity+,Process+,?,Pencil=,?
+CONCEPTS A: Hominid=,SurfaceChange+,Entity+,IntentionalProcess+,Sofa=,Process+,Pencil=
+CONCEPTS B: Coloring+,Hominid=,Entity+,Sofa=,Entity+,Process+,Pencil=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	pencil	pencil	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	03908204-n|Pencil=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Case=Nom|Number=Sing|Person=1|PronType=Prs|fPOS=PRON++PRP	3	det	_	?|?

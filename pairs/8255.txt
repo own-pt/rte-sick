@@ -3,8 +3,8 @@ sentence B = An older man and a woman are riding bikes on the boardwalk near the
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute+,Man=,?,?,Woman=,Entity+,Transportation+,Bicycle=,?,?,StationaryArtifact+,?,?,Ocean=,?
-CONCEPTS B: ?,SubjectiveAssessmentAttribute+,Man=,?,?,Woman=,Entity+,Transportation+,Bicycle=,?,?,StationaryArtifact+,?,?,Water=,?
+CONCEPTS A: SubjectiveAssessmentAttribute+,Man=,Woman=,Entity+,Transportation+,Bicycle=,StationaryArtifact+,Ocean=
+CONCEPTS B: SubjectiveAssessmentAttribute+,Man=,Woman=,Entity+,Transportation+,Bicycle=,StationaryArtifact+,Water=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	ocean	ocean	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	09376198-n|Ocean=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

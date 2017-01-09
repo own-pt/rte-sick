@@ -3,8 +3,8 @@ sentence B = A horse is being ridden by a woman.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Carrying=,?,Horse=,?
-CONCEPTS B: ?,Horse=,Entity+,Entity+,Carrying=,?,?,Woman=,?
+CONCEPTS A: Hominid=,Entity+,Carrying=,Horse=
+CONCEPTS B: Horse=,Entity+,Entity+,Carrying=,Woman=
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
 6	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02374451-n|Horse=
 7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Two panda bears are lying together.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanBaby=,Carnivore+,Entity+,DramaticActing+,?
-CONCEPTS B: ?,Carnivore+,Mammal+,Entity+,PhysicalAttribute+,Meeting=,?
+CONCEPTS A: HumanBaby=,Carnivore+,Entity+,DramaticActing+
+CONCEPTS B: Carnivore+,Mammal+,Entity+,PhysicalAttribute+,Meeting=
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	02604760-v|Entity+
 5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
 6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Degree=Pos|fPOS=ADJ++JJ	3	nummod	_	?|?

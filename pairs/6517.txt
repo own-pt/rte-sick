@@ -3,8 +3,8 @@ sentence B = A girl in a brown dress is being surrounded by children and is clos
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Process+,Human+,Dressing+,HumanChild=,?,Entity+,Closing=,?,Organ+,?
-CONCEPTS B: ?,Human+,?,?,Human+,Clothing+,Entity+,Entity+,Process+,?,HumanChild=,?,Entity+,Closing=,?,Organ+,?
+CONCEPTS A: Human+,Entity+,Process+,Human+,Dressing+,HumanChild=,Entity+,Closing=,Organ+
+CONCEPTS B: Human+,Human+,Clothing+,Entity+,Entity+,Process+,HumanChild=,Entity+,Closing=,Organ+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	eyes	eye	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	dobj	_	05311054-n|Organ+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

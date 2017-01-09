@@ -3,8 +3,8 @@ sentence B = A boy is standing in the cold water.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Wetting+,?,?,SubjectiveStrongNegativeAttribute+,Ocean=,?
-CONCEPTS B: ?,Human+,Entity+,PhysicalAttribute+,?,?,ColdTemperature=,Water=,?
+CONCEPTS A: Human+,Entity+,Wetting+,SubjectiveStrongNegativeAttribute+,Ocean=
+CONCEPTS B: Human+,Entity+,PhysicalAttribute+,ColdTemperature=,Water=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
 8	ocean	ocean	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09376198-n|Ocean=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

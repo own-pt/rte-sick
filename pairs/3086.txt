@@ -3,8 +3,8 @@ sentence B = Broccoli is being chopped by a woman.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Cutting+,Garlic=,?
-CONCEPTS B: FloweringPlant+,Entity+,Entity+,Cutting+,?,?,Woman=,?
+CONCEPTS A: Woman=,Entity+,Cutting+,Garlic=
+CONCEPTS B: FloweringPlant+,Entity+,Entity+,Cutting+,Woman=
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	chopping	chop	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01258091-v|Cutting+
 5	garlic	garlic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	xcomp	_	07818277-n|Garlic=
 6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Broccoli	broccoli	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubjpass	_	11876803-n|FloweringPlant+

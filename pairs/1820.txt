@@ -3,8 +3,8 @@ sentence B = The person is dicing up a pepper which is orange.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Human+,Separating+,?,Bell=,SpicePepper=,?
-CONCEPTS B: ?,Human=,Entity+,Cutting+,Increasing+,?,Vegetable+,?,Entity+,OrangeColor+,?
+CONCEPTS A: Entity+,Human+,Separating+,Bell=,SpicePepper=
+CONCEPTS B: Human=,Entity+,Cutting+,Increasing+,Vegetable+,Entity+,OrangeColor+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	bell	bell	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	8	compound	_	02824448-n|Bell=
 8	peppers	pepper	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	07815588-n|SpicePepper=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = The woman is frying a breaded pork chop.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Killing+,?,Meat+,?,?,Pork=,?
-CONCEPTS B: ?,Woman=,Entity+,Killing+,?,?,Pork=,Meat+,?
+CONCEPTS A: Woman=,Entity+,Killing+,Meat+,Pork=
+CONCEPTS B: Woman=,Entity+,Killing+,Pork=,Meat+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	breaded	breaded	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	?|?
 9	pork	pork	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	07668702-n|Pork=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

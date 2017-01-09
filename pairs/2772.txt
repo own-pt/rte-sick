@@ -3,8 +3,8 @@ sentence B = A person is pouring cooking oil into a pot.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human=,Entity+,Pouring=,Oil=,?,Cooking+,?,?,Pottery+,?
-CONCEPTS B: ?,Human=,Entity+,Pouring=,Cooking+,Oil=,?,?,Pottery+,?
+CONCEPTS A: Human=,Entity+,Pouring=,Oil=,Cooking+,Pottery+
+CONCEPTS B: Human=,Entity+,Pouring=,Cooking+,Oil=,Pottery+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	pot	pot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	03990474-n|Pottery+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

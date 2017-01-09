@@ -3,8 +3,8 @@ sentence B = A tan dog is playing in the water on the bank of a pond.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,Attribute+,?,?,Water=,?
-CONCEPTS B: ?,ColorAttribute+,Canine+,Entity+,DramaticActing+,?,?,Water=,?,?,Bank-FinancialOrganization=,?,?,Lake+,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,Attribute+,Water=
+CONCEPTS B: ColorAttribute+,Canine+,Entity+,DramaticActing+,Water=,Bank-FinancialOrganization=,Lake+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	14845743-n|Water=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

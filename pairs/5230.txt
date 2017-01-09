@@ -3,8 +3,8 @@ sentence B = A tiger is strolling around.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Feline+,Entity+,Walking=,?,?
-CONCEPTS B: ?,Feline+,Entity+,Walking+,?,?
+CONCEPTS A: Feline+,Entity+,Walking=
+CONCEPTS B: Feline+,Entity+,Walking+
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01904930-v|Walking=
 5	around	around	ADV	RB	fPOS=ADV++RB	4	advmod	_	00007015-r|?
 6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A boy is looking down and wearing a wedding veil.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,SubjectiveAssessmentAttribute+,earlier+,?,Entity+,CoveringFn=,?,Wedding=,Clothing+,?
-CONCEPTS B: ?,Human+,Entity+,SubjectiveAssessmentAttribute+,earlier+,?,CoveringFn=,?,Wedding=,Clothing+,?
+CONCEPTS A: Woman=,Entity+,SubjectiveAssessmentAttribute+,earlier+,Entity+,CoveringFn=,Wedding=,Clothing+
+CONCEPTS B: Human+,Entity+,SubjectiveAssessmentAttribute+,earlier+,CoveringFn=,Wedding=,Clothing+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	wedding	wedding	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	07452074-n|Wedding=
 11	veil	veil	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	03502331-n|Clothing+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

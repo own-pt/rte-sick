@@ -3,8 +3,8 @@ sentence B = A brown and white dog is moving through the wild grass.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,White=,Canine+,Entity+,Attribute+,?,?,SubjectiveWeakNegativeAttribute+,Grass=,?
-CONCEPTS B: ?,Human+,?,White=,Canine+,Entity+,PsychologicalProcess+,?,?,Organism+,Grass=,?
+CONCEPTS A: Human+,White=,Canine+,Entity+,Attribute+,SubjectiveWeakNegativeAttribute+,Grass=
+CONCEPTS B: Human+,White=,Canine+,Entity+,PsychologicalProcess+,Organism+,Grass=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	tall	tall	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	02385102-a|SubjectiveWeakNegativeAttribute+
 11	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	12102133-n|Grass=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?

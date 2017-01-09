@@ -3,8 +3,8 @@ sentence B = Some women are dancing.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Woman=,Dancing+,?
-CONCEPTS B: ?,Woman=,Entity+,Dancing+,?
+CONCEPTS A: Entity+,Woman=,Dancing+
+CONCEPTS B: Woman=,Entity+,Dancing+
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	woman	woman	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	5	compound	_	10787470-n|Woman=
 5	dancing	dance	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	01708676-v|Dancing+
 6	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?

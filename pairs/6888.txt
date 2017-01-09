@@ -3,8 +3,8 @@ sentence B = A young girl in a winter coat is jumping off a boulder into the san
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,?,?,BodyPart+,Attribute+,?,WinterSeason+,Entity+,Ambulating=,?,?,Mineral+,?,?,Sand=,?,?,ShoreArea=,?
-CONCEPTS B: ?,HumanYouth=,Human+,?,?,WinterSeason+,BodyPart+,Entity+,Ambulating=,?,?,Mineral+,?,?,Sand=,?,?,ShoreArea=,?
+CONCEPTS A: HumanYouth=,Human+,BodyPart+,Attribute+,WinterSeason+,Entity+,Ambulating=,Mineral+,Sand=,ShoreArea=
+CONCEPTS B: HumanYouth=,Human+,WinterSeason+,BodyPart+,Entity+,Ambulating=,Mineral+,Sand=,ShoreArea=
 
 CONLL A:
 
@@ -29,6 +29,8 @@ CONLL A:
 19	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	20	det	_	?|?
 20	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	09217230-n|ShoreArea=
 21	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

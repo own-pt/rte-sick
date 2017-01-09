@@ -3,8 +3,8 @@ sentence B = A man doing a pose is being watched by another man.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Putting=,?,Entity+,Looking=,?,?,Hominid=,?
-CONCEPTS B: ?,Hominid=,IntentionalProcess+,?,Pretending+,Entity+,Entity+,Looking=,?,?,Hominid=,?
+CONCEPTS A: Hominid=,Entity+,Putting=,Entity+,Looking=,Hominid=
+CONCEPTS B: Hominid=,IntentionalProcess+,Pretending+,Entity+,Entity+,Looking=,Hominid=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	another	another	DET	DT	fPOS=DET++DT	10	det	_	?|?
 10	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	02472293-n|Hominid=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

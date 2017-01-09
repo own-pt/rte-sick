@@ -3,8 +3,8 @@ sentence B = A child in light colored clothing is standing with his arms extende
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,HumanChild=,?,Clothing=,?,Entity+,RadiatingVisibleLight+,SurfaceChange+,Entity+,PhysicalAttribute+,?,?,Weapon=,Increasing+,PositionalAttribute+,?
-CONCEPTS B: ?,HumanChild=,?,SubjectiveWeakPositiveAttribute+,SurfaceChange+,Clothing=,Entity+,PhysicalAttribute+,?,?,Weapon=,Increasing+,PositionalAttribute+,?
+CONCEPTS A: HumanChild=,Clothing=,Entity+,RadiatingVisibleLight+,SurfaceChange+,Entity+,PhysicalAttribute+,Weapon=,Increasing+,PositionalAttribute+
+CONCEPTS B: HumanChild=,SubjectiveWeakPositiveAttribute+,SurfaceChange+,Clothing=,Entity+,PhysicalAttribute+,Weapon=,Increasing+,PositionalAttribute+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	extended	extend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	10	advcl	_	00317888-v|Increasing+
 15	outward	outward	ADV	RB	fPOS=ADV++RB	14	advmod	_	00258677-r|PositionalAttribute+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = The children are wearing black tights and hopping.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,not=,CoveringFn=,Black=,Clothing+,?,Entity+,not=,Motion+,?
-CONCEPTS B: ?,HumanChild=,Entity+,CoveringFn=,Black=,Clothing+,?,Motion+,?
+CONCEPTS A: HumanChild=,Entity+,not=,CoveringFn=,Black=,Clothing+,Entity+,not=,Motion+
+CONCEPTS B: HumanChild=,Entity+,CoveringFn=,Black=,Clothing+,Motion+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	not	not	PART	RB	fPOS=PART++RB	11	neg	_	00024073-r|not=
 11	hopping	hop	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	02095211-v|Motion+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

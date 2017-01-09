@@ -3,8 +3,8 @@ sentence B = A man is filling a container made of plastic.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,SubjectiveAssessmentAttribute+,PhysicalAttribute+,?,Toad+,?
-CONCEPTS B: ?,Hominid=,Entity+,IntentionalProcess+,?,Container+,Process+,?,Substance+,?
+CONCEPTS A: Hominid=,Entity+,SubjectiveAssessmentAttribute+,PhysicalAttribute+,Toad+
+CONCEPTS B: Hominid=,Entity+,IntentionalProcess+,Container+,Process+,Substance+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	frog	frog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	01639765-n|Toad+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

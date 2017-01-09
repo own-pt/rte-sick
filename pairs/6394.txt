@@ -3,8 +3,8 @@ sentence B = The people are walking on the road beside a beautiful waterfall.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Waterfall=,Entity+,LiquidMotion+,?,?,SubjectiveWeakNegativeAttribute+,StaticWaterArea+,?
-CONCEPTS B: ?,GroupOfPeople=,Entity+,Walking=,?,?,Roadway+,?,?,SubjectiveStrongPositiveAttribute+,Waterfall=,?
+CONCEPTS A: Waterfall=,Entity+,LiquidMotion+,SubjectiveWeakNegativeAttribute+,StaticWaterArea+
+CONCEPTS B: GroupOfPeople=,Entity+,Walking=,Roadway+,SubjectiveStrongPositiveAttribute+,Waterfall=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	shallow	shallow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	00691696-a|SubjectiveWeakNegativeAttribute+
 8	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09397607-n|StaticWaterArea+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

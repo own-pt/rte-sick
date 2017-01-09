@@ -3,8 +3,8 @@ sentence B = People are not walking across a rope bridge over a rocky stream.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: GroupOfPeople=,Entity+,Walking=,?,?,String+,Bridge+,?,?,TextureAttribute+,StreamWaterArea=,?
-CONCEPTS B: GroupOfPeople=,Entity+,not=,Walking=,?,?,String+,Bridge+,?,?,TextureAttribute+,StreamWaterArea=,?
+CONCEPTS A: GroupOfPeople=,Entity+,Walking=,String+,Bridge+,TextureAttribute+,StreamWaterArea=
+CONCEPTS B: GroupOfPeople=,Entity+,not=,Walking=,String+,Bridge+,TextureAttribute+,StreamWaterArea=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	rocky	rocky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	amod	_	02243567-a|TextureAttribute+
 11	stream	stream	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	09448361-n|StreamWaterArea=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	07942152-n|GroupOfPeople=

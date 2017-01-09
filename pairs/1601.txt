@@ -3,8 +3,8 @@ sentence B = A man is typing on a machine used for stenography.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,SubjectiveAssessmentAttribute+,Attribute+,?,Device+,?
-CONCEPTS B: ?,Hominid=,Entity+,Writing+,?,?,Automobile=,IntentionalProcess+,?,Procedure+,?
+CONCEPTS A: Hominid=,Entity+,SubjectiveAssessmentAttribute+,Attribute+,Device+
+CONCEPTS B: Hominid=,Entity+,Writing+,Automobile=,IntentionalProcess+,Procedure+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	stenograph	stenograph	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	04314632-n|Device+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

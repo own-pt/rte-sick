@@ -3,8 +3,8 @@ sentence B = The food on the trays is being eaten by the kittens.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Feline+,?,?,Tray=,Entity+,Entity+,Eating=,?,SubjectiveAssessmentAttribute+,?,?,TimeInterval+,?
-CONCEPTS B: ?,SubjectiveAssessmentAttribute+,?,?,Tray=,Entity+,Entity+,Eating=,?,?,Feline+,?
+CONCEPTS A: Feline+,Tray=,Entity+,Entity+,Eating=,SubjectiveAssessmentAttribute+,TimeInterval+
+CONCEPTS B: SubjectiveAssessmentAttribute+,Tray=,Entity+,Entity+,Eating=,Feline+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	advertisement	advertisement	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	07248801-n|TimeInterval+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

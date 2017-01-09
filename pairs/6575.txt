@@ -3,8 +3,8 @@ sentence B = A pet dog is standing on the bank and is looking at another brown d
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Favorite+,Canine+,Entity+,PhysicalAttribute+,?,?,Bank-FinancialOrganization=,?,Entity+,SubjectiveAssessmentAttribute+,?,?,Canine+,?,?,Entity+,Human+,?,?,?,Lake+,?
-CONCEPTS B: ?,Favorite+,Canine+,Entity+,PhysicalAttribute+,?,?,Bank-FinancialOrganization=,?,Entity+,SubjectiveAssessmentAttribute+,?,?,Human+,Canine+,?,?,Lake+,?
+CONCEPTS A: Favorite+,Canine+,Entity+,PhysicalAttribute+,Bank-FinancialOrganization=,Entity+,SubjectiveAssessmentAttribute+,Canine+,Entity+,Human+,Lake+
+CONCEPTS B: Favorite+,Canine+,Entity+,PhysicalAttribute+,Bank-FinancialOrganization=,Entity+,SubjectiveAssessmentAttribute+,Human+,Canine+,Lake+
 
 CONLL A:
 
@@ -31,6 +31,8 @@ CONLL A:
 21	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	22	det	_	?|?
 22	pond	pond	NOUN	NN	Number=Sing|fPOS=NOUN++NN	18	nmod	_	09397391-n|Lake+
 23	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

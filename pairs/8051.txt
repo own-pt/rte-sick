@@ -3,8 +3,8 @@ sentence B = Two people are sitting with laden baskets and blankets.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Entity+,Transportation+,ColorAttribute+,Container+,?,Blanket+,?,Walking=,?,?,Building=,?
-CONCEPTS B: ?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,Putting+,Container+,?,Blanket+,?
+CONCEPTS A: GroupOfPeople=,Entity+,Transportation+,ColorAttribute+,Container+,Blanket+,Walking=,Building=
+CONCEPTS B: GroupOfPeople=,PhysicalAttribute+,SittingDown+,Putting+,Container+,Blanket+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	building	building	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	02913152-n|Building=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Degree=Pos|fPOS=ADJ++JJ	2	nummod	_	?|?

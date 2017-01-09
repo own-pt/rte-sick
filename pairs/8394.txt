@@ -3,8 +3,8 @@ sentence B = A black man is walking next to a shop in a big city.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,SubjectiveAssessmentAttribute+,?,?,LengthMeasure+,?,GroupOfPeople=,Entity+,Walking=,?,Building=,?,?
-CONCEPTS B: ?,Black=,Hominid=,Entity+,Walking=,Position+,?,?,RetailStore=,?,?,SubjectiveWeakPositiveAttribute+,City=,?
+CONCEPTS A: Hominid=,Entity+,SubjectiveAssessmentAttribute+,LengthMeasure+,GroupOfPeople=,Entity+,Walking=,Building=
+CONCEPTS B: Black=,Hominid=,Entity+,Walking=,Position+,RetailStore=,SubjectiveWeakPositiveAttribute+,City=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	buildings	building	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	nmod	_	02913152-n|Building=
 14	behind	behind	ADP	IN	fPOS=ADP++IN	13	nmod	_	?|?
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = There is no dog barking.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,JetAirplane=,Entity+,FlyingAircraft=,?
-CONCEPTS B: ?,Entity+,?,Canine+,RadiatingSound+,?
+CONCEPTS A: JetAirplane=,Entity+,FlyingAircraft=
+CONCEPTS B: Entity+,Canine+,RadiatingSound+
 
 CONLL A:
 
@@ -13,6 +13,8 @@ CONLL A:
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
 4	flying	fly	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01941093-v|FlyingAircraft=
 5	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

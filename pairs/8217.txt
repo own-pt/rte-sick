@@ -3,8 +3,8 @@ sentence B = Two large dogs are frolicking in a field.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Motion+,?,?,FloweringPlant+,FieldOfStudy=,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Motion+,?,?,FieldOfStudy=,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Motion+,FloweringPlant+,FieldOfStudy=
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Motion+,FieldOfStudy=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	grassy	grassy	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	00209620-a|FloweringPlant+
 9	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	05996646-n|FieldOfStudy=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?

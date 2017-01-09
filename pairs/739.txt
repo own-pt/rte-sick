@@ -3,8 +3,8 @@ sentence B = The bride and the groom are leaving after the wedding.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Process+,?,SocialRole+,?,?,Wedding=,?
-CONCEPTS B: ?,Human+,?,?,SocialRole+,Entity+,Process+,?,?,Wedding=,?
+CONCEPTS A: Human+,Entity+,Process+,SocialRole+,Wedding=
+CONCEPTS B: Human+,SocialRole+,Entity+,Process+,Wedding=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	wedding	wedding	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	07452074-n|Wedding=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

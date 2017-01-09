@@ -3,8 +3,8 @@ sentence B = A person is strongly whisking eggs in a bowl.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: Gland+,Entity+,Entity+,SubjectiveAssessmentAttribute+,Removing+,?,?,Dish+,?,?,Human=,?
-CONCEPTS B: ?,Human=,Entity+,SubjectiveAssessmentAttribute+,Removing+,Gland+,?,?,Dish+,?
+CONCEPTS A: Gland+,Entity+,Entity+,SubjectiveAssessmentAttribute+,Removing+,Dish+,Human=
+CONCEPTS B: Human=,Entity+,SubjectiveAssessmentAttribute+,Removing+,Gland+,Dish+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	00007846-n|Human=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

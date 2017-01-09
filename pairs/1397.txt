@@ -3,8 +3,8 @@ sentence B = A man is screaming.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Hominid=,Vocalizing=,?
-CONCEPTS B: ?,Hominid=,Entity+,Vocalizing=,?
+CONCEPTS A: Entity+,Hominid=,Vocalizing=
+CONCEPTS B: Hominid=,Entity+,Vocalizing=
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	man	man	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	02472293-n|Hominid=
 5	screaming	scream	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	00913065-v|Vocalizing=
 6	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

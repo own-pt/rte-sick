@@ -3,8 +3,8 @@ sentence B = A person on a bike is in the air near a body of water.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,?,?,Green=,Bicycle=,Entity+,IntentionalProcess+,RecreationOrExercise+,?,?,Text+,StationaryArtifact+,?
-CONCEPTS B: ?,Human=,?,?,Bicycle=,Entity+,?,?,AirTransportation+,?,?,Animal=,?,Water=,?
+CONCEPTS A: Hominid=,Green=,Bicycle=,Entity+,IntentionalProcess+,RecreationOrExercise+,Text+,StationaryArtifact+
+CONCEPTS B: Human=,Bicycle=,Entity+,AirTransportation+,Animal=,Water=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	dirt	dirt	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	compound	_	07223811-n|Text+
 13	ramp	ramp	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	04051549-n|StationaryArtifact+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

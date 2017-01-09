@@ -3,8 +3,8 @@ sentence B = The snowboarder is jumping off a snow covered hill.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Automobile+,?,ContainerFull+,Gear=,Entity+,CoveringFn=,?,Clothing+,?,BeliefGroup+,ContentBearingObject+,?,Entity+,Transportation+,?,Red=,Sport=,PassengerVehicle+,?
-CONCEPTS B: ?,SportsPosition@,Entity+,Ambulating=,?,?,Snowing=,Covering+,Hill=,?
+CONCEPTS A: Automobile+,ContainerFull+,Gear=,Entity+,CoveringFn=,Clothing+,BeliefGroup+,ContentBearingObject+,Entity+,Transportation+,Red=,Sport=,PassengerVehicle+
+CONCEPTS B: SportsPosition@,Entity+,Ambulating=,Snowing=,Covering+,Hill=
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	sport	sport	NOUN	NN	Number=Sing|fPOS=NOUN++NN	19	compound	_	00523513-n|Sport=
 19	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	dobj	_	03790512-n|PassengerVehicle+
 20	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

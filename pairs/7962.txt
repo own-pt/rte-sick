@@ -3,8 +3,8 @@ sentence B = The white dogs are looking curiously at the black llama.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,White=,Canine+,Entity+,not=,Looking=,SubjectiveAssessmentAttribute+,?,?,Black=,HoofedMammal+,?
-CONCEPTS B: ?,White=,Canine+,Entity+,Looking=,SubjectiveAssessmentAttribute+,?,?,Black=,HoofedMammal+,?
+CONCEPTS A: White=,Canine+,Entity+,not=,Looking=,SubjectiveAssessmentAttribute+,Black=,HoofedMammal+
+CONCEPTS B: White=,Canine+,Entity+,Looking=,SubjectiveAssessmentAttribute+,Black=,HoofedMammal+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	00392812-a|Black=
 11	llama	llama	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	02437616-n|HoofedMammal+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

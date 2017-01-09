@@ -3,8 +3,8 @@ sentence B = A boy and a girl in swimsuits are wearing arm floats.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,?,Human+,Entity+,not=,DramaticActing+,?,RecreationOrExercise+,Weapon=,Beverage+,?
-CONCEPTS B: ?,Human+,?,?,Human+,?,Clothing+,Entity+,CoveringFn=,Sleeve+,Beverage+,?
+CONCEPTS A: Human+,Human+,Entity+,not=,DramaticActing+,RecreationOrExercise+,Weapon=,Beverage+
+CONCEPTS B: Human+,Human+,Clothing+,Entity+,CoveringFn=,Sleeve+,Beverage+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	arm	arm	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	12	compound	_	04565375-n|Weapon=
 12	floats	float	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	dobj	_	07923034-n|Beverage+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

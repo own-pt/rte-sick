@@ -3,8 +3,8 @@ sentence B = Someone is cooking okra in a pan.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,PhysicalAttribute+,?,FloweringPlant+,Giving+,?,?,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,Entity+,Cooking+,FloweringPlant+,?,?,PotOrPan=,?
+CONCEPTS A: Entity+,PhysicalAttribute+,FloweringPlant+,Giving+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Entity+,Cooking+,FloweringPlant+,PotOrPan=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	pot	pot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	13774404-n|SubjectiveAssessmentAttribute+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	Someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	?|?

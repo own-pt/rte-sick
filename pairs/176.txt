@@ -3,8 +3,8 @@ sentence B = A family is watching a little boy who is hitting a baseball.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,Process+,?,Baseball=,?
-CONCEPTS B: ?,FamilyGroup+,Entity+,Looking=,?,SubjectiveStrongNegativeAttribute+,Human+,?,Entity+,Impelling+,?,Baseball=,?
+CONCEPTS A: HumanChild=,Entity+,Process+,Baseball=
+CONCEPTS B: FamilyGroup+,Entity+,Looking=,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Impelling+,Baseball=
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
 6	baseball	baseball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00471613-n|Baseball=
 7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

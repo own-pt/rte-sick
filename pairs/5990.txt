@@ -3,8 +3,8 @@ sentence B = A large white crane is flying near the water.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Nation=,?,?,White=,Bird=,Entity+,Entity+,Wetting+,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,White=,Crane=,Entity+,FlyingAircraft=,?,?,Water=,?
+CONCEPTS A: Nation=,White=,Bird=,Entity+,Entity+,Wetting+,SubjectiveAssessmentAttribute+
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,White=,Crane=,Entity+,FlyingAircraft=,Water=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	watered	water	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	00228236-v|Wetting+
 10	swiftly	swiftly	ADV	RB	fPOS=ADV++RB	9	advmod	_	00053274-r|SubjectiveAssessmentAttribute+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

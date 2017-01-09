@@ -3,8 +3,8 @@ sentence B = The guitar player loves the man passionately.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,SubjectiveAssessmentAttribute+,DramaticActing+,?,Guitar=,?
-CONCEPTS B: ?,Guitar=,Musician+,PsychologicalAttribute+,?,Man=,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: Hominid=,Entity+,SubjectiveAssessmentAttribute+,DramaticActing+,Guitar=
+CONCEPTS B: Guitar=,Musician+,PsychologicalAttribute+,Man=,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03467517-n|Guitar=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

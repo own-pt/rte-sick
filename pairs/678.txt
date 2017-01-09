@@ -3,8 +3,8 @@ sentence B = One white dog is staring at the black street.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,?,?,Entity+,Black=,?,?,?,White=,?,Entity+,Looking=,?,?,equal+,?,?,Roadway=,?
-CONCEPTS B: ?,White=,Canine+,Entity+,Looking=,?,?,Black=,Roadway=,?
+CONCEPTS A: Canine+,Entity+,Black=,White=,Entity+,Looking=,equal+,Roadway=
+CONCEPTS B: White=,Canine+,Entity+,Looking=,Black=,Roadway=
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	?|?
 19	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	04334599-n|Roadway=
 20	.	.	PUNCT	.	fPOS=PUNCT++.	13	punct	_	?|?
+
+
 CONLL B:
 
 1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?

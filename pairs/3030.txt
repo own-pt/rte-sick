@@ -3,8 +3,8 @@ sentence B = Two boy are playing on a trampoline.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,?,HumanChild=,Entity+,Ambulating=,?,?,Device+,?
-CONCEPTS B: ?,Human+,Entity+,DramaticActing+,?,?,Device+,?
+CONCEPTS A: HumanChild=,Entity+,Ambulating=,Device+
+CONCEPTS B: Human+,Entity+,DramaticActing+,Device+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	trampoline	trampoline	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	04469514-n|Device+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

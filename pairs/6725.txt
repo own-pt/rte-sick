@@ -3,8 +3,8 @@ sentence B = A kid in orange is playing outside with a snowball.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,HumanChild=,?,OrangeColor+,Entity+,DramaticActing+,Outdoors+,?,?,Artifact+,?
-CONCEPTS B: ?,HumanChild=,?,OrangeColor+,Entity+,DramaticActing+,?,?,?,Artifact+,?
+CONCEPTS A: HumanChild=,OrangeColor+,Entity+,DramaticActing+,Outdoors+,Artifact+
+CONCEPTS B: HumanChild=,OrangeColor+,Entity+,DramaticActing+,Artifact+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	snowball	snowball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	04251560-n|Artifact+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

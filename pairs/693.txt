@@ -3,8 +3,8 @@ sentence B = There is no dog which is furry and black in a back yard carrying a 
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Canine+,?,Entity+,Organism+,?,Black=,Entity+,?,?,BackFn=,LandArea=,?,Entity+,Transportation+,?,Container+,?,?,Mouth+,?
-CONCEPTS B: ?,Entity+,?,Canine+,?,Entity+,Organism+,?,Black=,?,?,BackFn=,LandArea=,Transportation+,?,Container+,?,?,Mouth+,?
+CONCEPTS A: Canine+,Entity+,Organism+,Black=,Entity+,BackFn=,LandArea=,Entity+,Transportation+,Container+,Mouth+
+CONCEPTS B: Entity+,Canine+,Entity+,Organism+,Black=,BackFn=,LandArea=,Transportation+,Container+,Mouth+
 
 CONLL A:
 
@@ -29,6 +29,8 @@ CONLL A:
 19	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	20	nmod:poss	_	?|?
 20	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	05302499-n|Mouth+
 21	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

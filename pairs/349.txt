@@ -3,8 +3,8 @@ sentence B = A cramped black train is on the bag of a girl.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,AsianEthnicity=,Woman=,?,?,SubjectiveAssessmentAttribute=,Entity+,Transportation+,?,Black=,Container+,?
-CONCEPTS B: ?,Attaching+,Black=,Train=,Entity+,?,?,Container+,?,?,Human+,?
+CONCEPTS A: AsianEthnicity=,Woman=,SubjectiveAssessmentAttribute=,Entity+,Transportation+,Black=,Container+
+CONCEPTS B: Attaching+,Black=,Train=,Entity+,Container+,Human+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	00392812-a|Black=
 11	bag	bag	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	02773037-n|Container+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Case=Nom|Number=Sing|Person=1|PronType=Prs|fPOS=PRON++PRP	4	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = People are sitting against a wall.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,FullyFormed+,PhysicalAttribute+,SittingDown+,?,?,Chair=,?
-CONCEPTS B: GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,?,Wall=,?
+CONCEPTS A: FullyFormed+,PhysicalAttribute+,SittingDown+,Chair=
+CONCEPTS B: GroupOfPeople=,PhysicalAttribute+,SittingDown+,Wall=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	chair	chair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03001627-n|Chair=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	07942152-n|GroupOfPeople=

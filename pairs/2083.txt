@@ -3,8 +3,8 @@ sentence B = A woman is beating the man that is keeping two eggs in the bowl, us
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,Entity+,SubjectiveAssessmentAttribute+,Removing+,Gland+,?,?,Dish+,?
-CONCEPTS B: ?,Woman=,Entity+,Impacting+,?,Man=,?,Entity+,Attribute+,?,BirdEgg=,?,?,Dish+,?,IntentionalProcess+,?,Wire=,Device+,?
+CONCEPTS A: Human=,Entity+,SubjectiveAssessmentAttribute+,Removing+,Gland+,Dish+
+CONCEPTS B: Woman=,Entity+,Impacting+,Man=,Entity+,Attribute+,BirdEgg=,Dish+,IntentionalProcess+,Wire=,Device+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	bowl	bowl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	02880940-n|Dish+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

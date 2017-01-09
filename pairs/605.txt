@@ -3,8 +3,8 @@ sentence B = A red sweatshirt with a smiling lady upon it is suited to be worn w
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,?,SubjectiveWeakPositiveAttribute+,Human+,Hair=,Entity+,CoveringFn=,?,Red=,Jewelry+,?,?,Clothing+,?,Jewelry+,?,Entity+,Smiling=,?
-CONCEPTS B: ?,Red=,Clothing+,?,?,Smiling=,Human+,?,?,Entity+,SubjectiveAssessmentAttribute+,?,Entity+,CoveringFn=,?,SubjectiveWeakPositiveAttribute+,Human+,Hair=,?,Jewelry+,?,?,Jewelry+,?
+CONCEPTS A: HumanYouth=,Human+,SubjectiveWeakPositiveAttribute+,Human+,Hair=,Entity+,CoveringFn=,Red=,Jewelry+,Clothing+,Jewelry+,Entity+,Smiling=
+CONCEPTS B: Red=,Clothing+,Smiling=,Human+,Entity+,SubjectiveAssessmentAttribute+,Entity+,CoveringFn=,SubjectiveWeakPositiveAttribute+,Human+,Hair=,Jewelry+,Jewelry+
 
 CONLL A:
 
@@ -29,6 +29,8 @@ CONLL A:
 19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	20	aux	_	02604760-v|Entity+
 20	smiling	smile	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	9	conj	_	00028565-v|Smiling=
 21	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Case=Nom|Number=Sing|Person=1|PronType=Prs|fPOS=PRON++PRP	3	det	_	?|?

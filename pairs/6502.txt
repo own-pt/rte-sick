@@ -3,8 +3,8 @@ sentence B = An electronic man is held as a device.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,Entity+,PhysicalAttribute+,?,Icon+,?,?,?,?,Device+,?
-CONCEPTS B: ?,ElectricDevice+,Hominid=,Entity+,PhysicalAttribute+,?,?,Device=,?
+CONCEPTS A: Man=,Entity+,PhysicalAttribute+,Icon+,Device+
+CONCEPTS B: ElectricDevice+,Hominid=,Entity+,PhysicalAttribute+,Device=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	another	another	DET	DT	fPOS=DET++DT	11	det	_	?|?
 11	guy	guy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	conj	_	03471779-n|Device+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

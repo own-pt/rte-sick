@@ -3,8 +3,8 @@ sentence B = There is no woman coating a pork chop.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Covering+,?,Pork=,Meat+,?
-CONCEPTS B: ?,Entity+,?,Woman=,Covering+,?,Pork=,Meat+,?
+CONCEPTS A: Woman=,Entity+,Covering+,Pork=,Meat+
+CONCEPTS B: Entity+,Woman=,Covering+,Pork=,Meat+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	pork	pork	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	07668702-n|Pork=
 7	chop	chop	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07653982-n|Meat+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

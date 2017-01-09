@@ -3,8 +3,8 @@ sentence B = A girl is standing in a group and is wearing a black shirt and pink
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Damaging+,SurfaceChange+,TimeDuration+,?,?,TraitAttribute+,?
-CONCEPTS B: ?,Human+,Entity+,PhysicalAttribute+,?,?,Group=,?,Entity+,Putting+,?,Black=,Shirt=,?,Pink+,ShapeAttribute+,?
+CONCEPTS A: Human+,Damaging+,SurfaceChange+,TimeDuration+,TraitAttribute+
+CONCEPTS B: Human+,Entity+,PhysicalAttribute+,Group=,Entity+,Putting+,Black=,Shirt=,Pink+,ShapeAttribute+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	cheeks	cheek	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	04838210-n|TraitAttribute+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

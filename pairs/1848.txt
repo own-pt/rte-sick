@@ -3,8 +3,8 @@ sentence B = One man is sitting on the chair.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,ShapeChange+,?,Hair=,?,?,SubjectiveStrongNegativeAttribute+,Horse+,?,BodyPart+,?
-CONCEPTS B: ?,Hominid=,PhysicalAttribute+,SittingDown+,?,?,Chair=,?
+CONCEPTS A: Human+,Entity+,ShapeChange+,Hair=,SubjectiveStrongNegativeAttribute+,Horse+,BodyPart+
+CONCEPTS B: Hominid=,PhysicalAttribute+,SittingDown+,Chair=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	's	's	PART	POS	fPOS=PART++POS	10	case	_	?|?
 12	tail	tail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	02157557-n|BodyPart+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

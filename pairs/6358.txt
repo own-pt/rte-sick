@@ -3,8 +3,8 @@ sentence B = The woman in a red costume is not leaning against a brick wall and 
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Woman=,?,?,Red=,Clothing+,Entity+,Inclining+,?,?,Brick+,Wall=,?,DramaticActing+,?,MusicalInstrument=,?
-CONCEPTS B: ?,Woman=,?,?,Red=,Clothing+,Entity+,not=,Inclining+,?,?,Brick+,Wall=,?,Entity+,not=,DramaticActing+,?,MusicalInstrument=,?
+CONCEPTS A: Woman=,Red=,Clothing+,Entity+,Inclining+,Brick+,Wall=,DramaticActing+,MusicalInstrument=
+CONCEPTS B: Woman=,Red=,Clothing+,Entity+,not=,Inclining+,Brick+,Wall=,Entity+,not=,DramaticActing+,MusicalInstrument=
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
 16	instrument	instrument	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	03800933-n|MusicalInstrument=
 17	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

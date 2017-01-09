@@ -3,8 +3,8 @@ sentence B = A man is falling off a horse on a track and is laid in the wild.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,FarmHand+,?,SubjectiveStrongNegativeAttribute+,?,Red=,Trousers+,Entity+,Entity+,Removing+,?,?,Horse=,?
-CONCEPTS B: ?,Hominid=,Entity+,Getting+,?,?,Horse=,?,?,Transitway+,?,Entity+,Putting=,?,?,Organism+,?
+CONCEPTS A: FarmHand+,SubjectiveStrongNegativeAttribute+,Red=,Trousers+,Entity+,Entity+,Removing+,Horse=
+CONCEPTS B: Hominid=,Entity+,Getting+,Horse=,Transitway+,Entity+,Putting=,Organism+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	02374451-n|Horse=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

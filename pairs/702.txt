@@ -3,8 +3,8 @@ sentence B = Two large persons are sitting on a park bench and they have a bottl
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human=,?,SubjectiveWeakPositiveAttribute+,Attribute+,PhysicalAttribute+,SittingDown+,?,?,Park+,Seat+,?,?,Damaging+,?,Bottle=,?,Soda=,?,?,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Human=,PhysicalAttribute+,SittingDown+,?,?,Park+,Seat+,?,?,Damaging+,?,Bottle=,?,Soda=,?,?,?
+CONCEPTS A: Human=,SubjectiveWeakPositiveAttribute+,Attribute+,PhysicalAttribute+,SittingDown+,Park+,Seat+,Damaging+,Bottle=,Soda=
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Human=,PhysicalAttribute+,SittingDown+,Park+,Seat+,Damaging+,Bottle=,Soda=
 
 CONLL A:
 
@@ -29,6 +29,8 @@ CONLL A:
 19	between	between	ADP	IN	fPOS=ADP++IN	20	case	_	?|?
 20	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|fPOS=PRON++PRP	18	nmod	_	?|?
 21	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?

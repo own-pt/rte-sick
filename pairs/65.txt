@@ -3,8 +3,8 @@ sentence B = Two children are lying in the snow and are making snow angels.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Angel=,Entity+,Process+,Snowing=,?,?,PhysicalAttribute+,HumanChild=,?
-CONCEPTS B: ?,HumanChild=,Entity+,PhysicalAttribute+,?,?,Snowing=,?,Entity+,Process+,Snowing=,Angel=,?
+CONCEPTS A: Angel=,Entity+,Process+,Snowing=,PhysicalAttribute+,HumanChild=
+CONCEPTS B: HumanChild=,Entity+,PhysicalAttribute+,Snowing=,Entity+,Process+,Snowing=,Angel=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	lying	lie	VERB	VBG	Number=Sing|fPOS=NOUN++NN	9	amod	_	02690708-v|PhysicalAttribute+
 9	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	09917593-n|HumanChild=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

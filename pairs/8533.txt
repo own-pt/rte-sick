@@ -3,8 +3,8 @@ sentence B = A light brown dog is running in the water.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,Attribute+,?,?,Grass=,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,Attribute+,?,?,Water=,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,Attribute+,Grass=
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,Attribute+,Water=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	12102133-n|Grass=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

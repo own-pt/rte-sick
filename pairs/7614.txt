@@ -3,8 +3,8 @@ sentence B = A girl is getting a tattoo on her hand.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,?,?,White=,Clothing+,Entity+,Removing+,?,SurfaceChange+,?,?,Hand+,?,?,Teenager=,?
-CONCEPTS B: ?,Human+,Entity+,Process+,?,SurfaceChange+,?,?,Hand+,?
+CONCEPTS A: Woman=,White=,Clothing+,Entity+,Removing+,SurfaceChange+,Hand+,Teenager=
+CONCEPTS B: Human+,Entity+,Process+,SurfaceChange+,Hand+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
 16	teenager	teenager	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	09772029-n|Teenager=
 17	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

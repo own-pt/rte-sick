@@ -3,8 +3,8 @@ sentence B = A waterfall is flowing calmly into a shallow pool.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Entity+,Walking=,?,?,Roadway+,?,?,SubjectiveStrongPositiveAttribute+,Waterfall=,?
-CONCEPTS B: ?,Waterfall=,Entity+,LiquidMotion+,SubjectiveAssessmentAttribute+,?,?,SubjectiveWeakNegativeAttribute+,StaticWaterArea+,?
+CONCEPTS A: GroupOfPeople=,Entity+,Walking=,Roadway+,SubjectiveStrongPositiveAttribute+,Waterfall=
+CONCEPTS B: Waterfall=,Entity+,LiquidMotion+,SubjectiveAssessmentAttribute+,SubjectiveWeakNegativeAttribute+,StaticWaterArea+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	beautiful	beautiful	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	00217728-a|SubjectiveStrongPositiveAttribute+
 11	waterfall	waterfall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	09475292-n|Waterfall=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

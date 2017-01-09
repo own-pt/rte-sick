@@ -3,8 +3,8 @@ sentence B = A toddler is making a splash inside a blue paddling pool.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanBaby=,Entity+,Wetting+,?,?,SubjectiveStrongNegativeAttribute+,Motion+,StaticWaterArea+,?
-CONCEPTS B: ?,NonFullyFormed+,Entity+,Process+,?,Putting+,?,?,SubjectiveStrongNegativeAttribute+,Walking+,StaticWaterArea+,?
+CONCEPTS A: HumanBaby=,Entity+,Wetting+,SubjectiveStrongNegativeAttribute+,Motion+,StaticWaterArea+
+CONCEPTS B: NonFullyFormed+,Entity+,Process+,Putting+,SubjectiveStrongNegativeAttribute+,Walking+,StaticWaterArea+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	paddling	paddle	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	9	compound	_	01419373-v|Motion+
 9	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09397607-n|StaticWaterArea+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

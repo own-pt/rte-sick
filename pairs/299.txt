@@ -3,8 +3,8 @@ sentence B = Two girls are sitting on the ground.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,PhysicalAttribute+,SittingDown+,earlier+,?,Damaging+,?,Knee+,MotionUpward=,?
-CONCEPTS B: ?,Human+,PhysicalAttribute+,SittingDown+,?,?,LandArea=,?
+CONCEPTS A: HumanChild=,PhysicalAttribute+,SittingDown+,earlier+,Damaging+,Knee+,MotionUpward=
+CONCEPTS B: Human+,PhysicalAttribute+,SittingDown+,LandArea=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	knees	knee	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	dobj	_	05573602-n|Knee+
 10	raised	raise	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	9	acl	_	01974062-v|MotionUpward=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

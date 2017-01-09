@@ -3,8 +3,8 @@ sentence B = A young woman is carrying a lot of colorful scarves on the beach.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute+,Woman=,Entity+,Transportation+,?,SubjectiveAssessmentAttribute+,?,ColorAttribute+,Clothing+,?,?,ShoreArea=,?
-CONCEPTS B: ?,HumanYouth=,Woman=,Entity+,Transportation+,?,SubjectiveAssessmentAttribute+,?,ColorAttribute+,Clothing+,?,?,ShoreArea=,?
+CONCEPTS A: SubjectiveAssessmentAttribute+,Woman=,Entity+,Transportation+,SubjectiveAssessmentAttribute+,ColorAttribute+,Clothing+,ShoreArea=
+CONCEPTS B: HumanYouth=,Woman=,Entity+,Transportation+,SubjectiveAssessmentAttribute+,ColorAttribute+,Clothing+,ShoreArea=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	09217230-n|ShoreArea=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

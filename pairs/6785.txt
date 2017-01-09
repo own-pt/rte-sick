@@ -3,8 +3,8 @@ sentence B = A mask is being held by a man in his raised hand.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Obligation+,?,Artifact+,?,?,Increasing+,Hand+,?
-CONCEPTS B: ?,Artifact+,Entity+,Entity+,PhysicalAttribute+,?,?,Hominid=,?,?,Increasing+,Hand+,?
+CONCEPTS A: Hominid=,Entity+,Obligation+,Artifact+,Increasing+,Hand+
+CONCEPTS B: Artifact+,Entity+,Entity+,PhysicalAttribute+,Hominid=,Increasing+,Hand+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	raised	raise	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	10	compound	_	00229605-v|Increasing+
 10	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05564590-n|Hand+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

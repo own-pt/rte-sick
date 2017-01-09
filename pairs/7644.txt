@@ -3,8 +3,8 @@ sentence B = A dog is crossing a river on a bridge made from a fallen tree.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Black=,Canine+,Entity+,not=,Walking=,?,?,ContentBearingObject+,Torso+,Bridge+,?,Water=,?
-CONCEPTS B: ?,Canine+,Entity+,Process+,?,River=,?,?,Bridge+,Attribute+,?,?,Getting+,ContentBearingObject+,?
+CONCEPTS A: Black=,Canine+,Entity+,not=,Walking=,ContentBearingObject+,Torso+,Bridge+,Water=
+CONCEPTS B: Canine+,Entity+,Process+,River=,Bridge+,Attribute+,Getting+,ContentBearingObject+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	over	over	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
 13	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	14845743-n|Water=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

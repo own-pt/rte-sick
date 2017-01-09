@@ -3,8 +3,8 @@ sentence B = A person is drawing some figures.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Removing+,?,?,Device+,Dry=,Removing+,Table+,?
-CONCEPTS B: ?,Human=,Entity+,Removing+,?,Human=,?
+CONCEPTS A: Hominid=,Entity+,Removing+,Device+,Dry=,Removing+,Table+
+CONCEPTS B: Human=,Entity+,Removing+,Human=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	erase	erase	NOUN	NN	fPOS=ADP++IN	10	compound	_	01548718-v|Removing+
 10	board	board	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03201208-n|Table+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A person is playing the keyboard.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,DramaticActing+,?,ComputerInputDevice+,?,?,Park+,?
-CONCEPTS B: ?,Human=,Entity+,DramaticActing+,?,ComputerInputDevice+,?
+CONCEPTS A: Hominid=,Entity+,DramaticActing+,ComputerInputDevice+,Park+
+CONCEPTS B: Human=,Entity+,DramaticActing+,ComputerInputDevice+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	08615374-n|Park+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A soccer player is being tackled by his opponent.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SocialRole+,Entity+,Putting+,?,Soccer=,Human+,?
-CONCEPTS B: ?,Soccer=,Human+,Entity+,Entity+,Putting+,?,?,SocialRole+,?
+CONCEPTS A: SocialRole+,Entity+,Putting+,Soccer=,Human+
+CONCEPTS B: Soccer=,Human+,Entity+,Entity+,Putting+,SocialRole+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	soccer	soccer	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	7	compound	_	00478262-n|Soccer=
 7	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	10439851-n|Human+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A dog with very long hair is being showed by a woman at a dog show.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Demonstrating=,?,Canine+,?,SubjectiveAssessmentAttribute+,SubjectiveAssessmentAttribute+,Hair=,?,?,Canine+,Expressing+,?
-CONCEPTS B: ?,Canine+,?,SubjectiveAssessmentAttribute+,SubjectiveAssessmentAttribute+,Hair=,Entity+,Entity+,Demonstrating=,?,?,Woman=,?,?,Canine+,Expressing+,?
+CONCEPTS A: Woman=,Entity+,Demonstrating=,Canine+,SubjectiveAssessmentAttribute+,SubjectiveAssessmentAttribute+,Hair=,Canine+,Expressing+
+CONCEPTS B: Canine+,SubjectiveAssessmentAttribute+,SubjectiveAssessmentAttribute+,Hair=,Entity+,Entity+,Demonstrating=,Woman=,Canine+,Expressing+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	02084071-n|Canine+
 14	show	show	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	06879521-n|Expressing+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

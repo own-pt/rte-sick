@@ -3,8 +3,8 @@ sentence B = A child is experiencing a new world.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,?,IntentionalPsychologicalProcess+,?,Damaging[,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,HumanChild=,Entity+,IntentionalPsychologicalProcess+,?,Damaging[,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: HumanChild=,Entity+,IntentionalPsychologicalProcess+,Damaging[,SubjectiveAssessmentAttribute+
+CONCEPTS B: HumanChild=,Entity+,IntentionalPsychologicalProcess+,Damaging[,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	new	new	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	02584699-a|Damaging[
 8	world	world	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	05809878-n|SubjectiveAssessmentAttribute+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

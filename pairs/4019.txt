@@ -3,8 +3,8 @@ sentence B = The woman is putting down the kangaroo.
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Pulling+,Increasing+,?,HumanBaby=,Marsupial+,?
-CONCEPTS B: ?,Woman=,Entity+,Putting=,earlier+,?,Marsupial+,?
+CONCEPTS A: Woman=,Entity+,Pulling+,Increasing+,HumanBaby=,Marsupial+
+CONCEPTS B: Woman=,Entity+,Putting=,earlier+,Marsupial+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	baby	baby	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	09827683-n|HumanBaby=
 8	kangaroo	kangaroo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	01877134-n|Marsupial+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

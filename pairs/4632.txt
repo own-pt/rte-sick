@@ -3,8 +3,8 @@ sentence B = The baby is laughing and crawling.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,Hominid=,DramaticActing+,?,Violin=,?
-CONCEPTS B: ?,HumanBaby=,Entity+,Laughing=,?,StateOfMind+,?
+CONCEPTS A: Entity+,Hominid=,DramaticActing+,Violin=
+CONCEPTS B: HumanBaby=,Entity+,Laughing=,StateOfMind+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	violin	violin	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	04536866-n|Violin=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

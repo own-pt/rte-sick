@@ -3,8 +3,8 @@ sentence B = A woman is sewing with a machine.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Woman=,Entity+,IntentionalProcess+,?,Sewing+,Automobile=,?
-CONCEPTS B: ?,Woman=,Entity+,Sewing+,?,?,Automobile=,?
+CONCEPTS A: Woman=,Entity+,IntentionalProcess+,Sewing+,Automobile=
+CONCEPTS B: Woman=,Entity+,Sewing+,Automobile=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	sewing	sew	VERB	VBG	Number=Sing|fPOS=NOUN++NN	7	amod	_	01329239-v|Sewing+
 7	machine	machine	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02958343-n|Automobile=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

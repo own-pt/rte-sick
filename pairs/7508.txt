@@ -3,8 +3,8 @@ sentence B = Two dogs are fighting for a frisbee in a lake.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Canine+,Entity+,ViolentContest+,?,?,Artifact+,?,?,Lake=,?
-CONCEPTS B: ?,Canine+,Entity+,ViolentContest+,?,?,Artifact+,?,?,Lake=,?
+CONCEPTS A: Canine+,Entity+,ViolentContest+,Artifact+,Lake=
+CONCEPTS B: Canine+,Entity+,ViolentContest+,Artifact+,Lake=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	lake	lake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	09328904-n|Lake=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

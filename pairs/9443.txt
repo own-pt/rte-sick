@@ -3,8 +3,8 @@ sentence B = A man and a woman are standing on the curb.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Putting+,?,SubjectiveStrongNegativeAttribute+,Shirt=,?,SubjectiveStrongPositiveAttribute+,Human+,Entity+,Attribute+,?,?,Sidewalk=,Position+,?,?,Human+,?
-CONCEPTS B: ?,Man=,?,?,Woman=,Entity+,PhysicalAttribute+,?,?,Curb+,?
+CONCEPTS A: Woman=,Putting+,SubjectiveStrongNegativeAttribute+,Shirt=,SubjectiveStrongPositiveAttribute+,Human+,Entity+,Attribute+,Sidewalk=,Position+,Human+
+CONCEPTS B: Man=,Woman=,Entity+,PhysicalAttribute+,Curb+
 
 CONLL A:
 
@@ -27,6 +27,8 @@ CONLL A:
 17	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	18	det	_	?|?
 18	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	09886220-n|Human+
 19	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

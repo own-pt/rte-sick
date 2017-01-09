@@ -3,8 +3,8 @@ sentence B = A couple is looking at a map.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,Woman=,Entity+,PhysicalAttribute+,?,FrontFn=,?,?,ArtWork=,StationaryArtifact+,?,Entity+,SubjectiveAssessmentAttribute+,?,?,Sign=,?
-CONCEPTS B: ?,Entity+,Entity+,SubjectiveAssessmentAttribute+,?,?,Function+,?
+CONCEPTS A: Man=,Woman=,Entity+,PhysicalAttribute+,FrontFn=,ArtWork=,StationaryArtifact+,Entity+,SubjectiveAssessmentAttribute+,Sign=
+CONCEPTS B: Entity+,Entity+,SubjectiveAssessmentAttribute+,Function+
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	19	det	_	?|?
 19	signboard	signboard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	04217882-n|Sign=
 20	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

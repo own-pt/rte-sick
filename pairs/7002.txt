@@ -3,8 +3,8 @@ sentence B = A soccer player is being tackled by his opponent.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: Rugby=,Human+,Entity+,not=,Putting+,?,equal+,?
-CONCEPTS B: ?,Soccer=,Human+,Entity+,Entity+,Putting+,?,?,SocialRole+,?
+CONCEPTS A: Rugby=,Human+,Entity+,not=,Putting+,equal+
+CONCEPTS B: Soccer=,Human+,Entity+,Entity+,Putting+,SocialRole+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	each	each	DET	DT	fPOS=DET++DT	7	det	_	?|?
 7	other	other	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02069355-a|equal+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A skunk is being held by a person.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,Entity+,Frying=,Meat=,?,?,PotOrPan=,?
-CONCEPTS B: ?,Plant+,Entity+,Entity+,PsychologicalProcess+,?,?,Human=,?
+CONCEPTS A: Human=,Entity+,Frying=,Meat=,PotOrPan=
+CONCEPTS B: Plant+,Entity+,Entity+,PsychologicalProcess+,Human=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	pan	pan	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03880531-n|PotOrPan=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

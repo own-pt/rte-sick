@@ -3,8 +3,8 @@ sentence B = The orange rider is driving a motorcycle on one wheel.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Human+,Dressing+,?,OrangeColor+,Entity+,Transportation+,?,PassengerVehicle+,?,?,VehicleWheel=,?
-CONCEPTS B: ?,OrangeColor+,Human+,Entity+,Transportation+,?,PassengerVehicle+,?,?,VehicleWheel=,?
+CONCEPTS A: Human+,Dressing+,OrangeColor+,Entity+,Transportation+,PassengerVehicle+,VehicleWheel=
+CONCEPTS B: OrangeColor+,Human+,Entity+,Transportation+,PassengerVehicle+,VehicleWheel=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	one	1	NUM	CD	Number=Sing|fPOS=NOUN++NN	12	nummod	_	?|?
 12	wheel	wheel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	04574999-n|VehicleWheel=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

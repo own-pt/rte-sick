@@ -3,8 +3,8 @@ sentence B = A woman in a bikini is pulling a dog on a leash at the seashore.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,PhysicalAttribute+,?,?,ShoreArea=,?,?,Canine+,?,?,Artifact+,?
-CONCEPTS B: ?,Woman=,?,?,Clothing+,Entity+,Transportation+,?,Canine+,?,?,Artifact+,?,?,ShoreArea=,?
+CONCEPTS A: Woman=,Entity+,PhysicalAttribute+,ShoreArea=,Canine+,Artifact+
+CONCEPTS B: Woman=,Clothing+,Entity+,Transportation+,Canine+,Artifact+,ShoreArea=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	leash	leash	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	03652932-n|Artifact+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

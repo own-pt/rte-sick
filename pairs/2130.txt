@@ -3,8 +3,8 @@ sentence B = A small boy is playing with a dog.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,ExpressingDisapproval+,?,Canine+,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,DramaticActing+,?,?,Canine+,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,ExpressingDisapproval+,Canine+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,DramaticActing+,Canine+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02084071-n|Canine+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A child in light colored clothing is standing with his arms extende
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,DramaticActing+,?,?,SocialRole+,Auditorium+,?
-CONCEPTS B: ?,HumanChild=,?,SubjectiveWeakPositiveAttribute+,SurfaceChange+,Clothing=,Entity+,PhysicalAttribute+,?,?,Weapon=,Increasing+,PositionalAttribute+,?
+CONCEPTS A: Human+,Entity+,DramaticActing+,SocialRole+,Auditorium+
+CONCEPTS B: HumanChild=,SubjectiveWeakPositiveAttribute+,SurfaceChange+,Clothing=,Entity+,PhysicalAttribute+,Weapon=,Increasing+,PositionalAttribute+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	jumper	jumper	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	10226803-n|SocialRole+
 8	house	house	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04417809-n|Auditorium+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

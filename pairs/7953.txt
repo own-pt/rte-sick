@@ -3,8 +3,8 @@ sentence B = Two basketball players are scrambling for the ball on the court.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Football+,Human+,Entity+,Putting+,?,?,Ball=,?,?,Government+,?
-CONCEPTS B: ?,Basketball=,Human+,Entity+,Putting+,?,?,Ball=,?,?,Government+,?
+CONCEPTS A: Football+,Human+,Entity+,Putting+,Ball=,Government+
+CONCEPTS B: Basketball=,Human+,Entity+,Putting+,Ball=,Government+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	court	court	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	08329453-n|Government+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?

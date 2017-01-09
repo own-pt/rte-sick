@@ -3,8 +3,8 @@ sentence B = A few people are singing.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Group=,?,GroupOfPeople=,Entity+,MakingVocalMusic=,?
-CONCEPTS B: ?,?,GroupOfPeople=,Entity+,MakingVocalMusic=,?
+CONCEPTS A: Group=,GroupOfPeople=,Entity+,MakingVocalMusic=
+CONCEPTS B: GroupOfPeople=,Entity+,MakingVocalMusic=
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
 6	singing	sing	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01731031-v|MakingVocalMusic=
 7	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A group of kids is playing on a colorful structure.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Cave+,?,?,Pink+,Inside=,Entity+,Entity+,Increasing+,?,?,Region+,East+,HumanChild=,?,?,Human+,?,?,Human+,?
-CONCEPTS B: ?,Group=,?,HumanChild=,Entity+,DramaticActing+,?,?,ColorAttribute+,Artifact+,?
+CONCEPTS A: Cave+,Pink+,Inside=,Entity+,Entity+,Increasing+,Region+,East+,HumanChild=,Human+,Human+
+CONCEPTS B: Group=,HumanChild=,Entity+,DramaticActing+,ColorAttribute+,Artifact+
 
 CONLL A:
 
@@ -29,6 +29,8 @@ CONLL A:
 19	one	1	NUM	CD	NumType=Card|fPOS=NUM++CD	20	nummod	_	?|?
 20	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	conj	_	10285313-n|Human+
 21	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

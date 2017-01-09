@@ -3,8 +3,8 @@ sentence B = The woman is measuring the other woman.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Measuring+,?,Ankle+,?,?,Woman=,?
-CONCEPTS B: ?,Woman=,Entity+,Measuring+,?,equal+,Woman=,?
+CONCEPTS A: Human+,Entity+,Measuring+,Ankle+,Woman=
+CONCEPTS B: Woman=,Entity+,Measuring+,equal+,Woman=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	another	another	DET	DT	fPOS=DET++DT	9	det	_	?|?
 9	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	10787470-n|Woman=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

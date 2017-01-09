@@ -3,8 +3,8 @@ sentence B = A rider is on a black and white bike and is standing on the seat.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,?,Black=,?,White=,PassengerVehicle+,?,Entity+,PhysicalAttribute+,?,?,Seat=,?
-CONCEPTS B: ?,Human+,Entity+,?,?,Black=,?,White=,Bicycle=,?,Entity+,PhysicalAttribute+,?,?,Seat=,?
+CONCEPTS A: Entity+,Black=,White=,PassengerVehicle+,Entity+,PhysicalAttribute+,Seat=
+CONCEPTS B: Human+,Entity+,Black=,White=,Bicycle=,Entity+,PhysicalAttribute+,Seat=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	seat	seat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	04161358-n|Seat=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

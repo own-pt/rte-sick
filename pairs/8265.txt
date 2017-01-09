@@ -3,8 +3,8 @@ sentence B = Pedestrians and cars are moving through a traffic jam in a big city
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: Walking+,?,Automobile=,Entity+,Transportation=,?,?,Group+,Group+,?,?,SubjectiveStrongNegativeAttribute+,City=,?
-CONCEPTS B: Walking+,?,Automobile=,Entity+,Transportation=,?,?,Group+,Group+,?,?,SubjectiveWeakPositiveAttribute+,City=,?
+CONCEPTS A: Walking+,Automobile=,Entity+,Transportation=,Group+,Group+,SubjectiveStrongNegativeAttribute+,City=
+CONCEPTS B: Walking+,Automobile=,Entity+,Transportation=,Group+,Group+,SubjectiveWeakPositiveAttribute+,City=
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
 13	city	city	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	08524735-n|City=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Pedestrians	pedestrian	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	10412055-n|Walking+

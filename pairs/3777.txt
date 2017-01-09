@@ -3,8 +3,8 @@ sentence B = The woman is dancing and a man is playing the keyboard.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Dancing+,?,?,Man=,Entity+,DramaticActing+,?,ComputerInputDevice+,?
-CONCEPTS B: ?,Woman=,Entity+,Dancing+,?,?,Man=,Entity+,DramaticActing+,?,ComputerInputDevice+,?
+CONCEPTS A: Woman=,Entity+,Dancing+,Man=,Entity+,DramaticActing+,ComputerInputDevice+
+CONCEPTS B: Woman=,Entity+,Dancing+,Man=,Entity+,DramaticActing+,ComputerInputDevice+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	keyboard	keyboard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	03614007-n|ComputerInputDevice+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

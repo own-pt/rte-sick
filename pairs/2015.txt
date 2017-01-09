@@ -3,8 +3,8 @@ sentence B = The man is doing a magic trick.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,not=,Position+,?,SubjectiveStrongPositiveAttribute+,RecreationOrExercise+,?
-CONCEPTS B: ?,Hominid=,Entity+,Position+,?,SubjectiveStrongPositiveAttribute+,RecreationOrExercise+,?
+CONCEPTS A: Hominid=,Entity+,not=,Position+,SubjectiveStrongPositiveAttribute+,RecreationOrExercise+
+CONCEPTS B: Hominid=,Entity+,Position+,SubjectiveStrongPositiveAttribute+,RecreationOrExercise+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	magic	magic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	01576071-a|SubjectiveStrongPositiveAttribute+
 8	trick	trick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	00099951-n|RecreationOrExercise+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

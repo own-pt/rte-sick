@@ -3,8 +3,8 @@ sentence B = A costumed performer is singing and people are dancing.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,MakingVocalMusic=,?,GroupOfPeople=,Entity+,Dancing+,?
-CONCEPTS B: ?,Putting+,ArtisticProfession+,Entity+,MakingVocalMusic=,?,GroupOfPeople=,Entity+,Dancing+,?
+CONCEPTS A: Human+,Entity+,MakingVocalMusic=,GroupOfPeople=,Entity+,Dancing+
+CONCEPTS B: Putting+,ArtisticProfession+,Entity+,MakingVocalMusic=,GroupOfPeople=,Entity+,Dancing+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	8	aux	_	02604760-v|Entity+
 8	dancing	dance	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	01708676-v|Dancing+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Case=Nom|Number=Sing|Person=1|PronType=Prs|fPOS=PRON++PRP	3	det	_	?|?

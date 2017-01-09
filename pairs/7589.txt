@@ -3,8 +3,8 @@ sentence B = A person is looking at a motocross bike that is lying on its side a
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human=,Entity+,IntentionalProcess+,?,?,Bicycle=,?,Entity+,PhysicalAttribute+,?,?,Object+,?,?,Entity+,?,PositiveInteger@,Entity+,Motion+,?,?
-CONCEPTS B: ?,Human=,Entity+,SubjectiveAssessmentAttribute+,?,?,?,Bicycle=,?,Entity+,PhysicalAttribute+,?,?,Region+,?,?,Entity+,Motion+,?,?
+CONCEPTS A: Human=,Entity+,IntentionalProcess+,Bicycle=,Entity+,PhysicalAttribute+,Object+,Entity+,PositiveInteger@,Entity+,Motion+
+CONCEPTS B: Human=,Entity+,SubjectiveAssessmentAttribute+,Bicycle=,Entity+,PhysicalAttribute+,Region+,Entity+,Motion+
 
 CONLL A:
 
@@ -30,6 +30,8 @@ CONLL A:
 20	racing	race	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	16	acl:relcl	_	02058994-v|Motion+
 21	by	by	ADP	IN	fPOS=ADV++RB	20	nmod	_	?|?
 22	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

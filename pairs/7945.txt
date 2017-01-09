@@ -3,8 +3,8 @@ sentence B = A kid in a white t-shirt is splashing in shallow water.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,?,White=,Shirt+,Entity+,Wetting+,?,SubjectiveWeakNegativeAttribute+,Water=,?
-CONCEPTS B: ?,HumanChild=,?,?,White=,Shirt+,Entity+,Wetting+,?,SubjectiveWeakNegativeAttribute+,Water=,?
+CONCEPTS A: Human+,White=,Shirt+,Entity+,Wetting+,SubjectiveWeakNegativeAttribute+,Water=
+CONCEPTS B: HumanChild=,White=,Shirt+,Entity+,Wetting+,SubjectiveWeakNegativeAttribute+,Water=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	shallow	shallow	ADJ	JJ	fPOS=ADV++RB	11	amod	_	00691696-a|SubjectiveWeakNegativeAttribute+
 11	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	14845743-n|Water=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

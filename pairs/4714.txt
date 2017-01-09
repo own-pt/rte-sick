@@ -3,8 +3,8 @@ sentence B = Pieces of butter are being added to the stand mixer.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GamePiece+,Entity+,Putting=,GamePiece+,?,Butter=,?,?,IntentionalProcess+,Dish+,?
-CONCEPTS B: TimeDuration+,?,Butter=,Entity+,Entity+,Putting=,?,?,SubjectiveAssessmentAttribute=,Device+,?
+CONCEPTS A: GamePiece+,Entity+,Putting=,GamePiece+,Butter=,IntentionalProcess+,Dish+
+CONCEPTS B: TimeDuration+,Butter=,Entity+,Entity+,Putting=,SubjectiveAssessmentAttribute=,Device+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	mixing	mix	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	00394813-v|IntentionalProcess+
 11	bowl	bowl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02880940-n|Dish+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Pieces	piece	NOUN	NNS	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	nsubjpass	_	15246353-n|TimeDuration+

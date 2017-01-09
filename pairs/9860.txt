@@ -3,8 +3,8 @@ sentence B = The boy and the girl are playing and wearing arm floats.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: CerealGrain=,Entity+,Entity+,Process+,?,?,Hominid=,?
-CONCEPTS B: ?,Human+,?,?,Human+,Entity+,DramaticActing+,?,RecreationOrExercise+,Weapon=,Beverage+,?
+CONCEPTS A: CerealGrain=,Entity+,Entity+,Process+,Hominid=
+CONCEPTS B: Human+,Human+,Entity+,DramaticActing+,RecreationOrExercise+,Weapon=,Beverage+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02472293-n|Hominid=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

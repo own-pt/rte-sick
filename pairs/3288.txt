@@ -3,8 +3,8 @@ sentence B = Carrots are being grated by a woman.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Touching+,Carrot=,?
-CONCEPTS B: Carrot=,Entity+,Entity+,Touching+,?,?,Woman=,?
+CONCEPTS A: Woman=,Entity+,Touching+,Carrot=
+CONCEPTS B: Carrot=,Entity+,Entity+,Touching+,Woman=
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	grating	grate	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	01308160-v|Touching+
 5	carrots	carrot	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	07730207-n|Carrot=
 6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	Carrots	carrot	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubjpass	_	07730207-n|Carrot=

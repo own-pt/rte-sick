@@ -3,8 +3,8 @@ sentence B = One white dog and one black one are running side by side on the gra
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,White=,Canine+,?,?,Black=,?,PhysicalAttribute+,SittingDown+,Object+,?,Object+,?,?,Grass=,?
-CONCEPTS B: ?,White=,Canine+,?,?,Black=,?,Entity+,Attribute+,Object+,?,Object+,?,?,Grass=,?
+CONCEPTS A: White=,Canine+,Black=,PhysicalAttribute+,SittingDown+,Object+,Object+,Grass=
+CONCEPTS B: White=,Canine+,Black=,Entity+,Attribute+,Object+,Object+,Grass=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	12102133-n|Grass=
 16	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?

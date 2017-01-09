@@ -3,8 +3,8 @@ sentence B = Motorbikes are being ridden by two people.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: Text+,?,Entity+,Carrying=,?,?,Trail+,?
-CONCEPTS B: TransportationDevice+,Entity+,Entity+,Carrying=,?,?,GroupOfPeople=,?
+CONCEPTS A: Text+,Entity+,Carrying=,Trail+
+CONCEPTS B: TransportationDevice+,Entity+,Entity+,Carrying=,GroupOfPeople=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	trail	trail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04466613-n|Trail+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Motorbikes	motorbike	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubjpass	_	03769722-n|TransportationDevice+

@@ -3,8 +3,8 @@ sentence B = A man is playing the guitar.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,not=,Separating+,?,Mollusk+,?
-CONCEPTS B: ?,Hominid=,Entity+,DramaticActing+,?,Guitar=,?
+CONCEPTS A: Woman=,Entity+,not=,Separating+,Mollusk+
+CONCEPTS B: Hominid=,Entity+,DramaticActing+,Guitar=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	octopus	octopus	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	01970164-n|Mollusk+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

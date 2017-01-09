@@ -3,8 +3,8 @@ sentence B = An old person is sitting on a bench.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute+,Woman=,PhysicalAttribute+,SittingDown+,?,?,Seat+,?,PhysicalAttribute+,RecreationOrExercise+,?,ColorAttribute+,Coat=,?,Black=,Trousers+,?
-CONCEPTS B: ?,SubjectiveAssessmentAttribute+,Human=,PhysicalAttribute+,SittingDown+,?,?,Seat+,?
+CONCEPTS A: SubjectiveAssessmentAttribute+,Woman=,PhysicalAttribute+,SittingDown+,Seat+,PhysicalAttribute+,RecreationOrExercise+,ColorAttribute+,Coat=,Black=,Trousers+
+CONCEPTS B: SubjectiveAssessmentAttribute+,Human=,PhysicalAttribute+,SittingDown+,Seat+
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	00392812-a|Black=
 17	pants	pant	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	14	conj	_	04489008-n|Trousers+
 18	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

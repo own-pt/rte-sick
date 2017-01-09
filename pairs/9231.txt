@@ -3,8 +3,8 @@ sentence B = A girl in a uniform is playing the flute with a band.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,?,UniformClothing=,Entity+,DramaticActing+,?,Flute=,?,?,Walking+,MusicalGroup+,?
-CONCEPTS B: ?,Human+,?,?,UniformClothing=,Entity+,DramaticActing+,?,Flute=,?,?,MusicalGroup+,?
+CONCEPTS A: Human+,UniformClothing=,Entity+,DramaticActing+,Flute=,Walking+,MusicalGroup+
+CONCEPTS B: Human+,UniformClothing=,Entity+,DramaticActing+,Flute=,MusicalGroup+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	marching	march	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	amod	_	01919391-v|Walking+
 13	band	band	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	08249038-n|MusicalGroup+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

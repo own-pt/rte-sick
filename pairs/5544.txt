@@ -3,8 +3,8 @@ sentence B = A man is working on the laptop.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Hominid=,Attribute+,?,?,Computer+,?
-CONCEPTS B: ?,Hominid=,Entity+,Attribute+,?,?,Computer+,?
+CONCEPTS A: Entity+,Hominid=,Attribute+,Computer+
+CONCEPTS B: Hominid=,Entity+,Attribute+,Computer+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	laptop	laptop	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03642806-n|Computer+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Two people are sitting on a park bench on a sunny day.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Dressing+,?,White=,?,Black=,PhysicalAttribute+,SittingDown+,?,?,Seat+,?
-CONCEPTS B: ?,GroupOfPeople=,PhysicalAttribute+,SittingDown+,?,?,Park+,Seat+,?,?,Happiness+,Day=,?
+CONCEPTS A: Woman=,Dressing+,White=,Black=,PhysicalAttribute+,SittingDown+,Seat+
+CONCEPTS B: GroupOfPeople=,PhysicalAttribute+,SittingDown+,Park+,Seat+,Happiness+,Day=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	bench	bench	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	02828884-n|Seat+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

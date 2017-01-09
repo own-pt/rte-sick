@@ -3,8 +3,8 @@ sentence B = There is no man with a hard hat dancing.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Man=,Entity+,CoveringFn=,?,SubjectiveWeakNegativeAttribute+,Hat+,?,Dancing+,?
-CONCEPTS B: ?,Entity+,?,Man=,?,?,SubjectiveWeakNegativeAttribute+,Hat+,Dancing+,?
+CONCEPTS A: Man=,Entity+,CoveringFn=,SubjectiveWeakNegativeAttribute+,Hat+,Dancing+
+CONCEPTS B: Entity+,Man=,SubjectiveWeakNegativeAttribute+,Hat+,Dancing+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
 9	dancing	dance	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	conj	_	01708676-v|Dancing+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

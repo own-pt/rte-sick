@@ -3,8 +3,8 @@ sentence B = A man in a black jersey is standing in a gym.
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,Man=,SocialRole+,?,?,Region+,?,?,ExerciseCenter=,?,Entity+,CoveringFn=,?,HoofedMammal+,?
-CONCEPTS B: ?,Man=,?,?,Black=,HoofedMammal+,Entity+,PhysicalAttribute+,?,?,ExerciseCenter=,?
+CONCEPTS A: Entity+,Man=,SocialRole+,Region+,ExerciseCenter=,Entity+,CoveringFn=,HoofedMammal+
+CONCEPTS B: Man=,Black=,HoofedMammal+,Entity+,PhysicalAttribute+,ExerciseCenter=
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
 16	jersey	jersey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	08887238-n|HoofedMammal+
 17	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

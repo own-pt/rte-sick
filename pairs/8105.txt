@@ -3,8 +3,8 @@ sentence B = A topless woman is being covered in mud.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,top+,Woman=,Entity+,Entity+,SurfaceChange+,?,Human+,SubjectiveAssessmentAttribute+,?,?,?,Entity+,?,?,Region+,?
-CONCEPTS B: ?,top+,Woman=,Entity+,Entity+,Covering+,?,Soil=,?
+CONCEPTS A: top+,Woman=,Entity+,Entity+,SurfaceChange+,Human+,SubjectiveAssessmentAttribute+,Entity+,Region+
+CONCEPTS B: top+,Woman=,Entity+,Entity+,Covering+,Soil=
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	?|?
 16	background	background	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	conj	_	14513259-n|Region+
 17	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = The black dog is carrying a blue and white toy in its mouth.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Black=,Canine+,Entity+,Transportation+,?,SubjectiveStrongNegativeAttribute+,?,White=,Ball=,?,?,Mouth+,?
-CONCEPTS B: ?,Black=,Canine+,Entity+,Transportation+,?,SubjectiveStrongNegativeAttribute+,?,White=,RecreationOrExerciseDevice+,?,?,Mouth+,?
+CONCEPTS A: Black=,Canine+,Entity+,Transportation+,SubjectiveStrongNegativeAttribute+,White=,Ball=,Mouth+
+CONCEPTS B: Black=,Canine+,Entity+,Transportation+,SubjectiveStrongNegativeAttribute+,White=,RecreationOrExerciseDevice+,Mouth+
 
 CONLL A:
 
@@ -22,6 +22,8 @@ CONLL A:
 12	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	13	nmod:poss	_	?|?
 13	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	05302499-n|Mouth+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

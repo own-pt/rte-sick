@@ -3,8 +3,8 @@ sentence B = A large brown dog is jumping over a red hurdle.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Human+,Whip+,Entity+,Ambulating=,?,?,Red=,Device+,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,Ambulating=,?,?,Red=,Device+,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Human+,Whip+,Entity+,Ambulating=,Red=,Device+
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,Ambulating=,Red=,Device+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00381097-a|Red=
 10	hurdle	hurdle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03549589-n|Device+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?

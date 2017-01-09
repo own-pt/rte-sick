@@ -3,8 +3,8 @@ sentence B = A man is wearing a blue checkered shirt and cheerfully riding a uni
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,Entity+,Putting+,?,SubjectiveAssessmentAttribute+,?,SubjectiveStrongNegativeAttribute+,Shirt=,?,Trousers+,?,Entity+,Transportation+,?,AgentPoweredVehicle+,?,?,Roadway=,?
-CONCEPTS B: ?,Man=,Entity+,Putting+,?,SubjectiveStrongNegativeAttribute+,SurfaceChange+,Shirt=,?,EmotionalState+,Transportation+,?,AgentPoweredVehicle+,?,?,Roadway=,?
+CONCEPTS A: Man=,Entity+,Putting+,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,Shirt=,Trousers+,Entity+,Transportation+,AgentPoweredVehicle+,Roadway=
+CONCEPTS B: Man=,Entity+,Putting+,SubjectiveStrongNegativeAttribute+,SurfaceChange+,Shirt=,EmotionalState+,Transportation+,AgentPoweredVehicle+,Roadway=
 
 CONLL A:
 
@@ -28,6 +28,8 @@ CONLL A:
 18	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	19	det	_	?|?
 19	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod:npmod	_	04334599-n|Roadway=
 20	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

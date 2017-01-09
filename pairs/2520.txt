@@ -3,8 +3,8 @@ sentence B = People are riding and paddling a raft.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: GroupOfPeople=,Entity+,not=,Carrying=,?,Motion+,?,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: GroupOfPeople=,Entity+,Carrying=,?,Motion+,?,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: GroupOfPeople=,Entity+,not=,Carrying=,Motion+,SubjectiveAssessmentAttribute+
+CONCEPTS B: GroupOfPeople=,Entity+,Carrying=,Motion+,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	raft	raft	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	13774404-n|SubjectiveAssessmentAttribute+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	07942152-n|GroupOfPeople=

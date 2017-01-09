@@ -3,8 +3,8 @@ sentence B = A woman is cutting some meat into pieces.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute+,Entity+,Entity+,Cutting+,?,TimeDuration+,?,?,Woman=,?
-CONCEPTS B: ?,Woman=,Entity+,Cutting+,?,SubjectiveAssessmentAttribute+,?,TimeDuration+,?
+CONCEPTS A: SubjectiveAssessmentAttribute+,Entity+,Entity+,Cutting+,TimeDuration+,Woman=
+CONCEPTS B: Woman=,Entity+,Cutting+,SubjectiveAssessmentAttribute+,TimeDuration+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	10787470-n|Woman=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

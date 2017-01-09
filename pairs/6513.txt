@@ -3,8 +3,8 @@ sentence B = A brown dog and a black dog are in the grass.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Entity+,?,SubjectiveStrongNegativeAttribute+,Black=,Canine+,Pursuing+,?,SubjectiveStrongNegativeAttribute+,Human+,Canine+,?
-CONCEPTS B: ?,Human+,Canine+,?,?,Black=,Canine+,Entity+,?,?,Grass=,?
+CONCEPTS A: Entity+,SubjectiveStrongNegativeAttribute+,Black=,Canine+,Pursuing+,SubjectiveStrongNegativeAttribute+,Human+,Canine+
+CONCEPTS B: Human+,Canine+,Black=,Canine+,Entity+,Grass=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	00245112-a|Human+
 11	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	02084071-n|Canine+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

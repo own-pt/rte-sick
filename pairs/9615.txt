@@ -3,8 +3,8 @@ sentence B = People are riding two camels on the sand.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: GroupOfPeople=,Entity+,Carrying=,?,Camel=,?,?,ShoreArea=,?
-CONCEPTS B: GroupOfPeople=,Entity+,Carrying=,?,Camel=,?,?,Sand=,?
+CONCEPTS A: GroupOfPeople=,Entity+,Carrying=,Camel=,ShoreArea=
+CONCEPTS B: GroupOfPeople=,Entity+,Carrying=,Camel=,Sand=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	09217230-n|ShoreArea=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
 CONLL B:
 
 1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	07942152-n|GroupOfPeople=

@@ -3,8 +3,8 @@ sentence B = There is no window being cleaned by a man.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Window=,Entity+,Entity+,Cleaning=,?,?,Hominid=,?
-CONCEPTS B: ?,Entity+,?,Window=,Entity+,Cleaning=,?,?,Hominid=,?
+CONCEPTS A: Window=,Entity+,Entity+,Cleaning=,Hominid=
+CONCEPTS B: Entity+,Window=,Entity+,Cleaning=,Hominid=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
 8	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02472293-n|Hominid=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?

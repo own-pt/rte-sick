@@ -3,8 +3,8 @@ sentence B = Various people are eating at red tables in a crowded restaurant wit
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Entity+,Eating=,?,Red=,ContentBearingObject+,?,?,Restaurant+,?,RadiatingVisibleLight+,?
-CONCEPTS B: SubjectiveWeakPositiveAttribute+,GroupOfPeople=,Entity+,Eating=,?,Red=,ContentBearingObject+,?,?,SocialInteraction+,Restaurant+,?,SocialRole+,RadiatingVisibleLight+,?
+CONCEPTS A: GroupOfPeople=,Entity+,Eating=,Red=,ContentBearingObject+,Restaurant+,RadiatingVisibleLight+
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,GroupOfPeople=,Entity+,Eating=,Red=,ContentBearingObject+,SocialInteraction+,Restaurant+,SocialRole+,RadiatingVisibleLight+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	without	without	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
 12	lights	light	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	11473954-n|RadiatingVisibleLight+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Various	various	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	02507772-a|SubjectiveWeakPositiveAttribute+

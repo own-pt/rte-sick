@@ -3,8 +3,8 @@ sentence B = A woman is chopping up an octopus.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Decreasing+,Cooking+,Mollusk+,?
-CONCEPTS B: ?,Woman=,Entity+,Cutting+,Increasing+,?,Mollusk+,?
+CONCEPTS A: Hominid=,Entity+,Decreasing+,Cooking+,Mollusk+
+CONCEPTS B: Woman=,Entity+,Cutting+,Increasing+,Mollusk+
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	cooked	cook	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	6	amod	_	00322847-v|Cooking+
 6	octopus	octopus	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	01970164-n|Mollusk+
 7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

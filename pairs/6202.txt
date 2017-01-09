@@ -3,8 +3,8 @@ sentence B = A lone bicyclist is putting down a bike.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human+,Entity+,Keeping+,?,Bicycle=,?,?,Head=,?,?,Group=,?,GroupOfPeople=,?
-CONCEPTS B: ?,SocialInteraction[,Human+,Entity+,Putting=,earlier+,?,Bicycle=,?
+CONCEPTS A: Human+,Entity+,Keeping+,Bicycle=,Head=,Group=,GroupOfPeople=
+CONCEPTS B: SocialInteraction[,Human+,Entity+,Putting=,earlier+,Bicycle=
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	of	of	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
 14	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	nmod	_	07942152-n|GroupOfPeople=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

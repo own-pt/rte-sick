@@ -3,8 +3,8 @@ sentence B = A young girl is sitting in swimming gear.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,CoveringFn=,?,SubjectiveStrongNegativeAttribute+,Planning+,Swimming=,ClothingSuit+,?,?,Black=,?,SubjectiveAssessmentAttribute+,Swimming=,Device+,?,Attribute+,SubjectiveStrongNegativeAttribute+,Swimming+,ProtectiveEyewear=,?,?,Head=,?
-CONCEPTS B: ?,HumanYouth=,Human+,Entity+,SittingDown+,?,Swimming+,Gear=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,CoveringFn=,SubjectiveStrongNegativeAttribute+,Planning+,Swimming=,ClothingSuit+,Black=,SubjectiveAssessmentAttribute+,Swimming=,Device+,Attribute+,SubjectiveStrongNegativeAttribute+,Swimming+,ProtectiveEyewear=,Head=
+CONCEPTS B: HumanYouth=,Human+,Entity+,SittingDown+,Swimming+,Gear=
 
 CONLL A:
 
@@ -34,6 +34,8 @@ CONLL A:
 24	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	25	det	_	?|?
 25	head	head	NOUN	NN	Number=Sing|fPOS=NOUN++NN	22	nmod	_	05538625-n|Head=
 26	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

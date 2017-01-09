@@ -3,8 +3,8 @@ sentence B = A man is wearing a hard hat and dancing.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,Entity+,Dancing+,?,?,CoveringFn=,SubjectiveWeakNegativeAttribute+,Hat+,?
-CONCEPTS B: ?,Man=,Entity+,CoveringFn=,?,SubjectiveWeakNegativeAttribute+,Hat+,?,Dancing+,?
+CONCEPTS A: Man=,Entity+,Dancing+,CoveringFn=,SubjectiveWeakNegativeAttribute+,Hat+
+CONCEPTS B: Man=,Entity+,CoveringFn=,SubjectiveWeakNegativeAttribute+,Hat+,Dancing+
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	hard	hard	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	00744916-a|SubjectiveWeakNegativeAttribute+
 9	hat	hat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03497657-n|Hat+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

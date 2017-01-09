@@ -3,8 +3,8 @@ sentence B = The man is dancing.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Dancing+,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,Hominid=,Entity+,Dancing+,?
+CONCEPTS A: Hominid=,Entity+,Dancing+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Hominid=,Entity+,Dancing+
 
 CONLL A:
 
@@ -14,6 +14,8 @@ CONLL A:
 4	dancing	dance	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01708676-v|Dancing+
 5	frantically	frantically	ADV	RB	fPOS=ADV++RB	4	advmod	_	00503370-r|SubjectiveAssessmentAttribute+
 6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

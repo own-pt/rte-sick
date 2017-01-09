@@ -3,8 +3,8 @@ sentence B = A dog is emerging from a lake.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human+,?,White=,Canine+,Entity+,not=,Attribute+,?,?,River=,?
-CONCEPTS B: ?,Canine+,Entity+,Process+,?,?,Lake=,?
+CONCEPTS A: Human+,White=,Canine+,Entity+,not=,Attribute+,River=
+CONCEPTS B: Canine+,Entity+,Process+,Lake=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	river	river	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	09411430-n|River=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A little girl in a pink shirt is playing t-ball and taking a swing.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,Putting+,?,Pink+,Shirt=,Entity+,DramaticActing+,?,?,PhysicalAttribute+,?,SoundAttribute+,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,?,?,Pink+,Shirt=,Entity+,DramaticActing+,?,?,PhysicalAttribute+,?,SoundAttribute+,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Putting+,Pink+,Shirt=,Entity+,DramaticActing+,PhysicalAttribute+,SoundAttribute+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Pink+,Shirt=,Entity+,DramaticActing+,PhysicalAttribute+,SoundAttribute+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
 14	swing	swing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	dobj	_	04992008-n|SoundAttribute+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

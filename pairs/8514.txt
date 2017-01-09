@@ -3,8 +3,8 @@ sentence B = Five people are standing in the grass with some dogs.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Entity+,PhysicalAttribute+,?,?,Grass=,?,?,Canine+,?
-CONCEPTS B: ?,GroupOfPeople=,Entity+,PhysicalAttribute+,?,?,Grass=,?,?,Canine+,?
+CONCEPTS A: GroupOfPeople=,Entity+,PhysicalAttribute+,Grass=,Canine+
+CONCEPTS B: GroupOfPeople=,Entity+,PhysicalAttribute+,Grass=,Canine+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	10	nummod	_	?|?
 10	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	02084071-n|Canine+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Five	5	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	2	amod	_	?|?

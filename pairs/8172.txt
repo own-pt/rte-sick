@@ -3,8 +3,8 @@ sentence B = A red hurdle is being jumped by a large brown dog.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,Ambulating=,?,?,Red=,Device+,?
-CONCEPTS B: ?,Red=,Device+,Entity+,Entity+,Ambulating=,?,?,SubjectiveWeakPositiveAttribute+,Human+,Canine+,?
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,Ambulating=,Red=,Device+
+CONCEPTS B: Red=,Device+,Entity+,Entity+,Ambulating=,SubjectiveWeakPositiveAttribute+,Human+,Canine+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00381097-a|Red=
 10	hurdle	hurdle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03549589-n|Device+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Case=Nom|Number=Sing|Person=1|PronType=Prs|fPOS=PRON++PRP	3	det	_	?|?

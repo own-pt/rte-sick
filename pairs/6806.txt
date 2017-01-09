@@ -3,8 +3,8 @@ sentence B = A sports uniform is being worn by a man who is running down the fie
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Actor=,?,ColorAttribute+,?,White=,?,Black=,Entity+,Game+,?,?,Region+,?,?,FieldOfStudy=,?
-CONCEPTS B: ?,Sport=,UniformClothing=,Entity+,Entity+,CoveringFn=,?,?,Man=,?,Entity+,Attribute+,earlier+,?,FieldOfStudy=,?
+CONCEPTS A: Actor=,ColorAttribute+,White=,Black=,Entity+,Game+,Region+,FieldOfStudy=
+CONCEPTS B: Sport=,UniformClothing=,Entity+,Entity+,CoveringFn=,Man=,Entity+,Attribute+,earlier+,FieldOfStudy=
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	?|?
 16	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	05996646-n|FieldOfStudy=
 17	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

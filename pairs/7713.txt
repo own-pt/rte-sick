@@ -3,8 +3,8 @@ sentence B = A little girl is frowning and taking off a fake nose and glasses.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Human+,?,?,Pink+,PositionalAttribute+,Entity+,Smiling=,?,CoveringFn=,SubjectiveStrongPositiveAttribute+,Cup=,?,?,SubjectiveWeakPositiveAttribute+,Nose+,Attaching=,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,Expressing+,?,PhysicalAttribute+,?,?,SubjectiveAssessmentAttribute+,Nose+,?,Cup=,?
+CONCEPTS A: Human+,Human+,Pink+,PositionalAttribute+,Entity+,Smiling=,CoveringFn=,SubjectiveStrongPositiveAttribute+,Cup=,SubjectiveWeakPositiveAttribute+,Nose+,Attaching=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Expressing+,PhysicalAttribute+,SubjectiveAssessmentAttribute+,Nose+,Cup=
 
 CONLL A:
 
@@ -27,6 +27,8 @@ CONLL A:
 17	nose	nose	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	05598147-n|Nose+
 18	attached	attach	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	17	acl	_	01290255-v|Attaching=
 19	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A grey dog is jumping toward a black and white dog in the water.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,?,?,Snowing=,?,?,Entity+,Ambulating=,SubjectiveStrongPositiveAttribute+,?
-CONCEPTS B: ?,Gray+,Canine+,Entity+,Ambulating=,?,?,Black=,?,White=,Canine+,?,?,Water=,?
+CONCEPTS A: Canine+,Entity+,Snowing=,Entity+,Ambulating=,SubjectiveStrongPositiveAttribute+
+CONCEPTS B: Gray+,Canine+,Entity+,Ambulating=,Black=,White=,Canine+,Water=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	01963942-v|Ambulating=
 11	high	high	ADJ	JJ	fPOS=ADV++RB	10	advmod	_	02339120-a|SubjectiveStrongPositiveAttribute+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

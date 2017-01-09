@@ -3,8 +3,8 @@ sentence B = A boy is jumping off the side of a stone water fountain in front of
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Human+,Entity+,Ambulating=,?,?,Object+,?,?,Mineral+,Water=,Creek+,?,FrontFn=,?,?,Building=,?
-CONCEPTS B: ?,Human+,Entity+,Ambulating=,?,?,Object+,?,?,Mineral+,Water=,Creek+,?,FrontFn=,?,?,Building=,?
+CONCEPTS A: Human+,Entity+,Ambulating=,Object+,Mineral+,Water=,Creek+,FrontFn=,Building=
+CONCEPTS B: Human+,Entity+,Ambulating=,Object+,Mineral+,Water=,Creek+,FrontFn=,Building=
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	?|?
 17	building	building	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	02913152-n|Building=
 18	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

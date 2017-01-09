@@ -3,8 +3,8 @@ sentence B = Three hikers are sitting on a mountainside and looking at the view 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,PhysicalAttribute+,?,?,Hill+,?,SubjectiveAssessmentAttribute+,?,?,SubjectiveAssessmentAttribute+,?,SpaceRegion=,?
-CONCEPTS B: ?,Human+,PhysicalAttribute+,SittingDown+,?,?,SlopedArea+,?,SubjectiveAssessmentAttribute+,?,?,VisualAttribute+,?,?,Entity+,?,Device+,?
+CONCEPTS A: Hominid=,Entity+,PhysicalAttribute+,Hill+,SubjectiveAssessmentAttribute+,SubjectiveAssessmentAttribute+,SpaceRegion=
+CONCEPTS B: Human+,PhysicalAttribute+,SittingDown+,SlopedArea+,SubjectiveAssessmentAttribute+,VisualAttribute+,Entity+,Device+
 
 CONLL A:
 
@@ -23,6 +23,8 @@ CONLL A:
 13	and	and	CONJ	CC	fPOS=CONJ++CC	12	cc	_	?|?
 14	sky	sky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	conj	_	09436708-n|SpaceRegion=
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

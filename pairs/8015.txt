@@ -3,8 +3,8 @@ sentence B = A man dressed in black and white is holding up the tennis racket an
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Tennis=,Human+,?,earlier+,Game=,Entity+,not=,Touching+,?,Device+,?
-CONCEPTS B: ?,Man=,Dressing+,?,Black=,?,White=,Entity+,Process+,Increasing+,?,Tennis=,Device+,?,Entity+,PsychologicalProcess+,?,?,Ball=,?
+CONCEPTS A: Tennis=,Human+,earlier+,Game=,Entity+,not=,Touching+,Device+
+CONCEPTS B: Man=,Dressing+,Black=,White=,Entity+,Process+,Increasing+,Tennis=,Device+,Entity+,PsychologicalProcess+,Ball=
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	racquet	racquet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	04039381-n|Device+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

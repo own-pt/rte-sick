@@ -3,8 +3,8 @@ sentence B = A woman is slicing tofu.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Woman=,Separating+,Tofu=,?
-CONCEPTS B: ?,Woman=,Entity+,Separating+,Tofu=,?
+CONCEPTS A: Entity+,Woman=,Separating+,Tofu=
+CONCEPTS B: Woman=,Entity+,Separating+,Tofu=
 
 CONLL A:
 
@@ -15,6 +15,8 @@ CONLL A:
 5	slicing	slice	VERB	VBG	Number=Sing|fPOS=NOUN++NN	4	acl	_	01254477-v|Separating+
 6	tofu	tofu	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	07709881-n|Tofu=
 7	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

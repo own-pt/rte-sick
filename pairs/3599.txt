@@ -3,8 +3,8 @@ sentence B = A man is doing exercises.
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,not=,Position+,Floor+,IntentionalProcess+,?
-CONCEPTS B: ?,Hominid=,Entity+,Position+,IntentionalProcess+,?
+CONCEPTS A: Hominid=,Entity+,not=,Position+,Floor+,IntentionalProcess+
+CONCEPTS B: Hominid=,Entity+,Position+,IntentionalProcess+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	floor	floor	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	compound	_	03365592-n|Floor+
 7	exercises	exercise	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	00947128-n|IntentionalProcess+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

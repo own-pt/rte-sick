@@ -3,8 +3,8 @@ sentence B = A man is adding pieces of butter to a mixing bowl.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GamePiece+,Entity+,Cutting+,GamePiece+,?,Butter=,?,?,IntentionalProcess+,Dish+,?
-CONCEPTS B: ?,GamePiece+,Entity+,Putting=,GamePiece+,?,Butter=,?,?,IntentionalProcess+,Dish+,?
+CONCEPTS A: GamePiece+,Entity+,Cutting+,GamePiece+,Butter=,IntentionalProcess+,Dish+
+CONCEPTS B: GamePiece+,Entity+,Putting=,GamePiece+,Butter=,IntentionalProcess+,Dish+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	mixing	mix	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	00394813-v|IntentionalProcess+
 11	bowl	bowl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02880940-n|Dish+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

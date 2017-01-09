@@ -3,8 +3,8 @@ sentence B = A black and white dog is running outdoors.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Black=,?,White=,Canine+,Entity+,Attribute+,Outdoors+,?
-CONCEPTS B: ?,Black=,?,White=,Canine+,Entity+,Attribute+,Outdoors+,?
+CONCEPTS A: Black=,White=,Canine+,Entity+,Attribute+,Outdoors+
+CONCEPTS B: Black=,White=,Canine+,Entity+,Attribute+,Outdoors+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	running	run	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01525666-v|Attribute+
 8	outdoors	outdoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	dobj	_	00110659-r|Outdoors+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?

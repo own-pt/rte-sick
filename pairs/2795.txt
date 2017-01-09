@@ -3,8 +3,8 @@ sentence B = A guinea pig is devouring a carrot.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Guinea=,Pig=,Entity+,Damaging+,?,Eating=,?,TimeDuration+,?,Carrot=,?,?,Floor+,?
-CONCEPTS B: ?,Guinea=,Human+,Entity+,Eating+,?,Carrot=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Guinea=,Pig=,Entity+,Damaging+,Eating=,TimeDuration+,Carrot=,Floor+
+CONCEPTS B: Guinea=,Human+,Entity+,Eating+,Carrot=
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
 15	floor	floor	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	03365592-n|Floor+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

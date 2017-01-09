@@ -3,8 +3,8 @@ sentence B = The girl is using an eye pencil on her eyelid.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,not=,ContentDevelopment+,?,Mixture+,?
-CONCEPTS B: ?,Human+,Entity+,IntentionalProcess+,?,Organ+,Pencil=,?,?,Eyelid+,?
+CONCEPTS A: Woman=,Entity+,not=,ContentDevelopment+,Mixture+
+CONCEPTS B: Human+,Entity+,IntentionalProcess+,Organ+,Pencil=,Eyelid+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	on	on	ADV	RB	fPOS=ADV++RB	7	advmod	_	?|?
 7	eyeshadow	eyeshadow	ADV	RB	Degree=Pos|fPOS=ADV++RB	5	advmod	_	03309687-n|Mixture+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

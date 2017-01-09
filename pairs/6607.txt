@@ -3,8 +3,8 @@ sentence B = Four people are standing in thick snow and the sun is rising.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Entity+,Walking+,?,?,Snowing=,?,?,SubjectiveStrongPositiveAttribute+,Covering+,ArtWork+,?
-CONCEPTS B: ?,GroupOfPeople=,Entity+,PhysicalAttribute+,?,Human+,Snowing=,?,?,Sol=,Entity+,MotionUpward=,?
+CONCEPTS A: GroupOfPeople=,Entity+,Walking+,Snowing=,SubjectiveStrongPositiveAttribute+,Covering+,ArtWork+
+CONCEPTS B: GroupOfPeople=,Entity+,PhysicalAttribute+,Human+,Snowing=,Sol=,Entity+,MotionUpward=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	snowy	snowy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	01698231-a|Covering+
 12	landscape	landscape	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	03640166-n|ArtWork+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

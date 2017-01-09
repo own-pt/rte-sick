@@ -3,8 +3,8 @@ sentence B = The orange rescue boat is rushing across the water.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Process+,?,?,?,OrangeColor+,SubjectiveAssessmentAttribute+,?,?,ShoreArea=,?
-CONCEPTS B: ?,OrangeColor+,Removing+,WaterVehicle=,Entity+,Translocation+,?,?,Water=,?
+CONCEPTS A: Hominid=,Entity+,Process+,OrangeColor+,SubjectiveAssessmentAttribute+,ShoreArea=
+CONCEPTS B: OrangeColor+,Removing+,WaterVehicle=,Entity+,Translocation+,Water=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	shore	shore	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	09433442-n|ShoreArea=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	4	det	_	?|?

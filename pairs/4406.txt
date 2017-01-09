@@ -3,8 +3,8 @@ sentence B = The man is cutting a paper plate.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Decreasing+,?,Paper=,PreparedFood+,?
-CONCEPTS B: ?,Hominid=,Entity+,Decreasing+,?,Paper=,PreparedFood+,?
+CONCEPTS A: Hominid=,Entity+,Decreasing+,Paper=,PreparedFood+
+CONCEPTS B: Hominid=,Entity+,Decreasing+,Paper=,PreparedFood+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	paper	paper	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	14974264-n|Paper=
 7	plate	plate	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07579787-n|PreparedFood+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

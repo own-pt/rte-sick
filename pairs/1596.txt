@@ -3,8 +3,8 @@ sentence B = A man is typing on a machine used for stenography.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,Writing+,?,?,Automobile=,IntentionalProcess+,?,Procedure+,?
-CONCEPTS B: ?,Hominid=,Entity+,Writing+,?,?,Automobile=,IntentionalProcess+,?,Procedure+,?
+CONCEPTS A: Hominid=,Entity+,Writing+,Automobile=,IntentionalProcess+,Procedure+
+CONCEPTS B: Hominid=,Entity+,Writing+,Automobile=,IntentionalProcess+,Procedure+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	for	for	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
 10	stenography	stenography	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	06350127-n|Procedure+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

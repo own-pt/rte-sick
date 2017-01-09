@@ -3,8 +3,8 @@ sentence B = Two men are doing a funny skit with a boxer in front of a crowd of 
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: Human+,Entity+,not=,Dancing+,?,FrontFn=,?,?,GroupOfPeople=,?
-CONCEPTS B: ?,Man=,Entity+,IntentionalProcess+,?,SubjectiveStrongPositiveAttribute+,Pretending+,?,?,Boxer=,?,FrontFn=,?,?,SubjectiveAssessmentAttribute=,?,GroupOfPeople=,?
+CONCEPTS A: Human+,Entity+,not=,Dancing+,FrontFn=,GroupOfPeople=
+CONCEPTS B: Man=,Entity+,IntentionalProcess+,SubjectiveStrongPositiveAttribute+,Pretending+,Boxer=,FrontFn=,SubjectiveAssessmentAttribute=,GroupOfPeople=
 
 CONLL A:
 
@@ -18,6 +18,8 @@ CONLL A:
 8	some	some	DET	DT	fPOS=DET++DT	9	det	_	?|?
 9	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	07942152-n|GroupOfPeople=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

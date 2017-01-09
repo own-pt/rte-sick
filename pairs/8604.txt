@@ -3,8 +3,8 @@ sentence B = A person on a yellow dirt bike is taking a jump.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,?,?,SubjectiveAssessmentAttribute+,Text+,Bicycle=,Entity+,PhysicalAttribute+,?,Transportation+,?
-CONCEPTS B: ?,Human=,?,?,SubjectiveAssessmentAttribute+,Text+,Bicycle=,Entity+,PhysicalAttribute+,?,Transportation+,?
+CONCEPTS A: Hominid=,SubjectiveAssessmentAttribute+,Text+,Bicycle=,Entity+,PhysicalAttribute+,Transportation+
+CONCEPTS B: Human=,SubjectiveAssessmentAttribute+,Text+,Bicycle=,Entity+,PhysicalAttribute+,Transportation+
 
 CONLL A:
 
@@ -20,6 +20,8 @@ CONLL A:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	jump	jump	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	00303849-n|Transportation+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

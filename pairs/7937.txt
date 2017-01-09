@@ -3,8 +3,8 @@ sentence B = A woman dressed in elegant clothing is inside a crowd of people and
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Dressing+,?,SubjectiveStrongPositiveAttribute+,Clothing=,Entity+,?,?,SubjectiveAssessmentAttribute=,?,GroupOfPeople=,?,Entity+,SubjectiveAssessmentAttribute+,Increasing+,?
-CONCEPTS B: ?,Woman=,Dressing+,?,SubjectiveStrongPositiveAttribute+,Clothing=,Entity+,?,?,SubjectiveAssessmentAttribute=,?,GroupOfPeople=,?,Entity+,SubjectiveAssessmentAttribute+,earlier+,?
+CONCEPTS A: Woman=,Dressing+,SubjectiveStrongPositiveAttribute+,Clothing=,Entity+,SubjectiveAssessmentAttribute=,GroupOfPeople=,Entity+,SubjectiveAssessmentAttribute+,Increasing+
+CONCEPTS B: Woman=,Dressing+,SubjectiveStrongPositiveAttribute+,Clothing=,Entity+,SubjectiveAssessmentAttribute=,GroupOfPeople=,Entity+,SubjectiveAssessmentAttribute+,earlier+
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	10	conj	_	02133435-v|SubjectiveAssessmentAttribute+
 16	up	up	ADP	RP	fPOS=ADP++RP	15	compound:prt	_	00097011-r|Increasing+
 17	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

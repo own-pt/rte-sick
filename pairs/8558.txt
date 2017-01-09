@@ -3,8 +3,8 @@ sentence B = The brown dog is spotting a black dog lying in the dry grass.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Gray+,TextureAttribute+,Canine+,Entity+,PhysicalAttribute+,?,?,Grass=,?,?,Human+,Canine+,Entity+,SubjectiveAssessmentAttribute+,?,?
-CONCEPTS B: ?,Human+,Canine+,Entity+,SurfaceChange+,?,Black=,Canine+,PhysicalAttribute+,?,?,Dry=,Grass=,?
+CONCEPTS A: Gray+,TextureAttribute+,Canine+,Entity+,PhysicalAttribute+,Grass=,Human+,Canine+,Entity+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Human+,Canine+,Entity+,SurfaceChange+,Black=,Canine+,PhysicalAttribute+,Dry=,Grass=
 
 CONLL A:
 
@@ -25,6 +25,8 @@ CONLL A:
 15	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	13	acl:relcl	_	02133435-v|SubjectiveAssessmentAttribute+
 16	on	on	ADP	RP	fPOS=ADP++RP	15	compound:prt	_	?|?
 17	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?

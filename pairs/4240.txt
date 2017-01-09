@@ -3,8 +3,8 @@ sentence B = A man is playing an electronic keyboard.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Entity+,?,Hominid=,DramaticActing+,?,ElectricDevice+,ComputerInputDevice+,?
-CONCEPTS B: ?,Hominid=,Entity+,DramaticActing+,?,ElectricDevice+,ComputerInputDevice+,?
+CONCEPTS A: Entity+,Hominid=,DramaticActing+,ElectricDevice+,ComputerInputDevice+
+CONCEPTS B: Hominid=,Entity+,DramaticActing+,ElectricDevice+,ComputerInputDevice+
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	electronic	electronic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	02718497-a|ElectricDevice+
 8	keyboard	keyboard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03614007-n|ComputerInputDevice+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

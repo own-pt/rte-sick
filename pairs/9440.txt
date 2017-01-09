@@ -3,8 +3,8 @@ sentence B = A woman wearing a blue shirt and high heels is standing on the side
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Woman=,Putting+,?,SubjectiveStrongNegativeAttribute+,Shirt=,?,SubjectiveStrongPositiveAttribute+,Artifact+,Entity+,Attribute+,?,?,Sidewalk=,Position+,?,?,Man=,?
-CONCEPTS B: ?,Woman=,Putting+,?,SubjectiveStrongNegativeAttribute+,Shirt=,?,SubjectiveStrongPositiveAttribute+,Artifact+,Entity+,Attribute+,?,?,Sidewalk=,Position+,?,?,Man=,?
+CONCEPTS A: Woman=,Putting+,SubjectiveStrongNegativeAttribute+,Shirt=,SubjectiveStrongPositiveAttribute+,Artifact+,Entity+,Attribute+,Sidewalk=,Position+,Man=
+CONCEPTS B: Woman=,Putting+,SubjectiveStrongNegativeAttribute+,Shirt=,SubjectiveStrongPositiveAttribute+,Artifact+,Entity+,Attribute+,Sidewalk=,Position+,Man=
 
 CONLL A:
 
@@ -27,6 +27,8 @@ CONLL A:
 17	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	18	det	_	?|?
 18	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	10287213-n|Man=
 19	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

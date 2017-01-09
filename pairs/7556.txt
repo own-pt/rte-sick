@@ -3,8 +3,8 @@ sentence B = A little boy is crawling in a green tunnel with a smile on his face
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,PhysicalAttribute+,SittingDown+,?,?,Green=,StationaryArtifact+,?,?,Smiling+,?,?,Face+,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,StateOfMind+,?,?,Green=,StationaryArtifact+,?,?,Smiling+,?,?,Face+,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,PhysicalAttribute+,SittingDown+,Green=,StationaryArtifact+,Smiling+,Face+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,StateOfMind+,Green=,StationaryArtifact+,Smiling+,Face+
 
 CONLL A:
 
@@ -24,6 +24,8 @@ CONLL A:
 14	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	15	nmod:poss	_	?|?
 15	face	face	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	05600637-n|Face+
 16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

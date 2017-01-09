@@ -3,8 +3,8 @@ sentence B = A large group of Asian people is eating at a restaurant.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Entity+,Eating=,?,Red=,ContentBearingObject+,?,?,Restaurant+,?,RadiatingVisibleLight+,?
-CONCEPTS B: ?,SubjectiveWeakPositiveAttribute+,Group=,?,AsianEthnicity=,GroupOfPeople=,Entity+,Eating=,?,?,Restaurant+,?
+CONCEPTS A: GroupOfPeople=,Entity+,Eating=,Red=,ContentBearingObject+,Restaurant+,RadiatingVisibleLight+
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Group=,AsianEthnicity=,GroupOfPeople=,Entity+,Eating=,Restaurant+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	without	without	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
 12	lights	light	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	11473954-n|RadiatingVisibleLight+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

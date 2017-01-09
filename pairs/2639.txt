@@ -3,8 +3,8 @@ sentence B = Two boys on a couch are reading a book.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,DramaticActing+,?,TelevisionBroadcasting+,Game=,?
-CONCEPTS B: ?,Human+,?,?,Sofa=,Entity+,Reading=,?,Book+,?
+CONCEPTS A: Human+,Entity+,DramaticActing+,TelevisionBroadcasting+,Game=
+CONCEPTS B: Human+,Sofa=,Entity+,Reading=,Book+
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	video	video	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	06277280-n|TelevisionBroadcasting+
 7	game	game	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00455599-n|Game=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = A girl in blue is sliding down a slide.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,?,SubjectiveStrongNegativeAttribute+,Entity+,Translocation+,earlier+,?,Green=,Artifact+,?
-CONCEPTS B: ?,Human+,?,SubjectiveStrongNegativeAttribute+,Entity+,Translocation+,earlier+,?,Artifact+,?
+CONCEPTS A: Human+,SubjectiveStrongNegativeAttribute+,Entity+,Translocation+,earlier+,Green=,Artifact+
+CONCEPTS B: Human+,SubjectiveStrongNegativeAttribute+,Entity+,Translocation+,earlier+,Artifact+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00375969-a|Green=
 10	slide	slide	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	03029603-n|Artifact+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

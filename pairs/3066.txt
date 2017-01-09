@@ -3,8 +3,8 @@ sentence B = The woman and the man are not travelling by car.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Transportation+,?,Automobile=,?,Entity+,Speaking+,?,?,Man=,?,Entity+,Communication+,?,?,?
-CONCEPTS B: ?,Woman=,?,?,Man=,Entity+,not=,Transportation=,?,Automobile=,?
+CONCEPTS A: Woman=,Entity+,Transportation+,Automobile=,Entity+,Speaking+,Man=,Entity+,Communication+
+CONCEPTS B: Woman=,Man=,Entity+,not=,Transportation=,Automobile=
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	beside	beside	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
 17	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	15	nmod	_	?|?
 18	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = Two construction workers are sitting up on the side of a building.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,Entity+,PhysicalAttribute+,?,TimeInterval+,?,Constructing=,?
-CONCEPTS B: ?,Constructing=,Position+,PhysicalAttribute+,SittingDown+,Increasing+,?,?,Object+,?,?,Constructing=,?
+CONCEPTS A: Hominid=,Entity+,PhysicalAttribute+,TimeInterval+,Constructing=
+CONCEPTS B: Constructing=,Position+,PhysicalAttribute+,SittingDown+,Increasing+,Object+,Constructing=
 
 CONLL A:
 
@@ -17,6 +17,8 @@ CONLL A:
 7	from	from	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
 8	construction	construction	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	00911048-n|Constructing=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Degree=Pos|fPOS=ADJ++JJ	3	nummod	_	?|?

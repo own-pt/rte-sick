@@ -3,8 +3,8 @@ sentence B = The furry brown dog is not running through the grassy area.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Organism+,Human+,Canine+,Entity+,Attribute+,?,?,FloweringPlant+,GeographicArea+,?
-CONCEPTS B: ?,Organism+,Human+,Canine+,Entity+,not=,Attribute+,?,?,FloweringPlant+,GeographicArea+,?
+CONCEPTS A: Organism+,Human+,Canine+,Entity+,Attribute+,FloweringPlant+,GeographicArea+
+CONCEPTS B: Organism+,Human+,Canine+,Entity+,not=,Attribute+,FloweringPlant+,GeographicArea+
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	grassy	grassy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	00209620-a|FloweringPlant+
 10	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	08497294-n|GeographicArea+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	4	det	_	?|?

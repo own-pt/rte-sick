@@ -3,8 +3,8 @@ sentence B = Two dogs are playing with each other.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Black=,Canine+,?,?,SubjectiveAssessmentAttribute+,Canine+,Entity+,DramaticActing+,?,?,equal+,?
-CONCEPTS B: ?,Canine+,Entity+,DramaticActing+,?,?,equal+,?
+CONCEPTS A: Black=,Canine+,SubjectiveAssessmentAttribute+,Canine+,Entity+,DramaticActing+,equal+
+CONCEPTS B: Canine+,Entity+,DramaticActing+,equal+
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	each	each	DET	DT	fPOS=DET++DT	12	det	_	?|?
 12	other	other	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	9	nmod	_	02069355-a|equal+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
 CONLL B:
 
 1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?

@@ -3,8 +3,8 @@ sentence B = The boy is playing in the mud.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,RecreationOrExercise+,Device=,Entity+,SubjectiveStrongPositiveAttribute+,?,Whip+,?
-CONCEPTS B: ?,Human+,Entity+,DramaticActing+,?,?,Soil=,?
+CONCEPTS A: RecreationOrExercise+,Device=,Entity+,SubjectiveStrongPositiveAttribute+,Whip+
+CONCEPTS B: Human+,Entity+,DramaticActing+,Soil=
 
 CONLL A:
 
@@ -16,6 +16,8 @@ CONLL A:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02985606-n|Whip+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
 CONLL B:
 
 1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?

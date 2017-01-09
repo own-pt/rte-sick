@@ -3,8 +3,8 @@ sentence B = An old man with a grey beard is riding a bike.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,SubjectiveAssessmentAttribute+,Man=,?,?,Gray+,FacialHair+,Entity+,not=,Transportation+,?,Bicycle=,?
-CONCEPTS B: ?,SubjectiveAssessmentAttribute+,Man=,?,?,Gray+,FacialHair+,Entity+,Transportation+,?,Bicycle=,?
+CONCEPTS A: SubjectiveAssessmentAttribute+,Man=,Gray+,FacialHair+,Entity+,not=,Transportation+,Bicycle=
+CONCEPTS B: SubjectiveAssessmentAttribute+,Man=,Gray+,FacialHair+,Entity+,Transportation+,Bicycle=
 
 CONLL A:
 
@@ -21,6 +21,8 @@ CONLL A:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	02834778-n|Bicycle=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
 CONLL B:
 
 1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

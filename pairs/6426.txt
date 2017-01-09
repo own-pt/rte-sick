@@ -3,8 +3,8 @@ sentence B = A man in a purple colored suit is standing by a purple case and is 
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Man=,?,?,SocialRole+,LegalAction=,Entity+,PhysicalAttribute+,?,?,SocialRole+,LegalAction=,?,Entity+,DramaticActing+,?,Guitar=,?
-CONCEPTS B: ?,Man=,?,?,SocialRole+,SurfaceChange+,LegalAction=,Entity+,PhysicalAttribute+,?,?,SocialRole+,LegalAction=,?,Entity+,DramaticActing+,?,Guitar=,?
+CONCEPTS A: Man=,SocialRole+,LegalAction=,Entity+,PhysicalAttribute+,SocialRole+,LegalAction=,Entity+,DramaticActing+,Guitar=
+CONCEPTS B: Man=,SocialRole+,SurfaceChange+,LegalAction=,Entity+,PhysicalAttribute+,SocialRole+,LegalAction=,Entity+,DramaticActing+,Guitar=
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	?|?
 17	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	dobj	_	03467517-n|Guitar=
 18	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

@@ -3,8 +3,8 @@ sentence B = A boy is running through the water at the beach.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Attribute+,?,?,Sea=,?,?,ShoreArea=,?
-CONCEPTS B: ?,Human+,Entity+,Attribute+,?,?,WaterArea=,?,?,ShoreArea=,?
+CONCEPTS A: Human+,Entity+,Attribute+,Sea=,ShoreArea=
+CONCEPTS B: Human+,Entity+,Attribute+,WaterArea=,ShoreArea=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
 10	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09217230-n|ShoreArea=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?

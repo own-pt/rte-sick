@@ -3,8 +3,8 @@ sentence B = A barefoot man in pajamas is looking toward the sky and is standing
 entailm AB = A_contradicts_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Clothing[,Man=,?,?,Entity+,SubjectiveAssessmentAttribute+,?,?,SpaceRegion=,?,Entity+,Walking=,?,?,Tennis=,Government+,?
-CONCEPTS B: ?,Clothing[,Man=,?,?,Entity+,SubjectiveAssessmentAttribute+,?,?,SpaceRegion=,?,Entity+,PhysicalAttribute+,?,?,Tennis=,Government+,?
+CONCEPTS A: Clothing[,Man=,Entity+,SubjectiveAssessmentAttribute+,SpaceRegion=,Entity+,Walking=,Tennis=,Government+
+CONCEPTS B: Clothing[,Man=,Entity+,SubjectiveAssessmentAttribute+,SpaceRegion=,Entity+,PhysicalAttribute+,Tennis=,Government+
 
 CONLL A:
 
@@ -26,6 +26,8 @@ CONLL A:
 16	tennis	tennis	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	17	compound	_	00482298-n|Tennis=
 17	court	court	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	08329453-n|Government+
 18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?

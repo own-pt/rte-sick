@@ -3,8 +3,8 @@ sentence B = A grey dog is jumping toward a black and white dog in the snow.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Canine+,Entity+,?,?,Snowing=,?,?,Entity+,Ambulating=,?
-CONCEPTS B: ?,Gray+,Canine+,Entity+,Ambulating=,?,?,Black=,?,White=,Canine+,?,?,Snowing=,?
+CONCEPTS A: Canine+,Entity+,Snowing=,Entity+,Ambulating=
+CONCEPTS B: Gray+,Canine+,Entity+,Ambulating=,Black=,White=,Canine+,Snowing=
 
 CONLL A:
 
@@ -19,6 +19,8 @@ CONLL A:
 9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	cop	_	02604760-v|Entity+
 10	jumping	jump	NOUN	NN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	01963942-v|Ambulating=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
 CONLL B:
 
 1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
