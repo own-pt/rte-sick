@@ -1,0 +1,33 @@
+sentence A = There is no woman cooking a breaded pork chop.
+sentence B = A woman is cooking a breaded pork chop.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Woman=,Cooking+,Pork=,Meat+
+CONCEPTS B: Woman=,Entity+,Cooking+,Pork=,Meat+
+
+CONLL A:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
+4	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	10787470-n|Woman=
+5	cooking	cook	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	00322847-v|Cooking+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+7	breaded	breaded	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	?|?
+8	pork	pork	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	07668702-n|Pork=
+9	chop	chop	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	07653982-n|Meat+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	cop	_	02604760-v|Entity+
+4	cooking	cook	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	8	amod	_	00322847-v|Cooking+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+6	breaded	breaded	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	?|?
+7	pork	pork	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	07668702-n|Pork=
+8	chop	chop	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	07653982-n|Meat+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?

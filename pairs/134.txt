@@ -3,8 +3,8 @@ sentence B = A man is sitting in a field.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,PhysicalAttribute+,SittingDown+,?,?,FieldOfStudy=,?,PhysicalAttribute+,CoveringFn=,?,Hat+,?
-CONCEPTS B: ?,Hominid=,PhysicalAttribute+,SittingDown+,?,?,FieldOfStudy=,?
+CONCEPTS A: Human=,PhysicalAttribute+,SittingDown+,FieldOfStudy=,PhysicalAttribute+,CoveringFn=,Hat+
+CONCEPTS B: Hominid=,PhysicalAttribute+,SittingDown+,FieldOfStudy=
 
 CONLL A:
 
@@ -33,5 +33,3 @@ CONLL B:
 6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05996646-n|FieldOfStudy=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
-
-

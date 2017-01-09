@@ -1,0 +1,36 @@
+sentence A = The boy and girl are not playing on a playground.
+sentence B = The boy and girl are playing on the outdoor gym.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Human+,Entity+,not=,DramaticActing+,GeographicArea+
+CONCEPTS B: Human+,Human+,Entity+,DramaticActing+,located+,ExerciseCenter=
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10285313-n|Human+
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	10129825-n|Human+
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	02604760-v|Entity+
+6	not	not	PART	RB	fPOS=PART++RB	7	neg	_	00024073-r|not=
+7	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	playground	playground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	08640739-n|GeographicArea+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	10285313-n|Human+
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	10129825-n|Human+
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	02604760-v|Entity+
+6	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+7	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+9	outdoor	outdoor	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	01692222-a|located+
+10	gym	gym	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03472112-n|ExerciseCenter=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

@@ -1,0 +1,43 @@
+sentence A = A white cat perched on a small wooden cabinet is looking outside the window.
+sentence B = The cat is looking out the window at the table on the perch.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: White=,Whip+,Process+,SubjectiveStrongNegativeAttribute+,SubjectiveAssessmentAttribute+,ChestOrCabinet+,Entity+,SubjectiveAssessmentAttribute+,Window=
+CONCEPTS B: Whip+,Entity+,SubjectiveAssessmentAttribute+,Giving+,Window=,ContentBearingObject+,LengthMeasure@
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00393105-a|White=
+3	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	02985606-n|Whip+
+4	perched	perch	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	3	acl	_	01978700-v|Process+
+5	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+7	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+8	wooden	wooden	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	01141595-a|SubjectiveAssessmentAttribute+
+9	cabinet	cabinet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02933112-n|ChestOrCabinet+
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	02604760-v|Entity+
+11	looking	look	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
+12	outside	outside	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+14	window	window	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	04587648-n|Window=
+15	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02985606-n|Whip+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
+5	out	out	ADP	RP	fPOS=ADP++RP	4	compound:prt	_	00233413-r|Giving+
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	window	window	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	04587648-n|Window=
+8	at	at	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	table	table	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	08266235-n|ContentBearingObject+
+11	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	perch	perch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	13650921-n|LengthMeasure@
+14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

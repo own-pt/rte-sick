@@ -1,0 +1,9 @@
+# sent_id = 5115a
+# text = Two sumo wrestlers are fighting.
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?
+2	sumo	sumo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	00448232-n|Wrestling+
+3	wrestlers	wrestler	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	10793168-n|SocialRole+
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	02604760-v|Entity+
+5	fighting	fight	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01090335-v|ViolentContest+
+6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+

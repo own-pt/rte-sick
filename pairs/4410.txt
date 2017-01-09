@@ -1,0 +1,38 @@
+sentence A = There are no people flipping the tires of a tractor.
+sentence B = Two people in a race are flipping the tires of a tractor.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,GroupOfPeople=,Impelling+,Artifact+,Truck+
+CONCEPTS B: GroupOfPeople=,Racing=,Entity+,Impelling+,Artifact+,Truck+
+
+CONLL A:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
+4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nsubj	_	07942152-n|GroupOfPeople=
+5	flipping	flip	VERB	VB	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	01893601-v|Impelling+
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	tires	tire	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	04440749-n|Artifact+
+8	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	tractor	tractor	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	04465666-n|Truck+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubj	_	07942152-n|GroupOfPeople=
+3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	07458453-n|Racing=
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	02604760-v|Entity+
+7	flipping	flip	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01893601-v|Impelling+
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	tires	tire	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	dobj	_	04440749-n|Artifact+
+10	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	tractor	tractor	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04465666-n|Truck+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

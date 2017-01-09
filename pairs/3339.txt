@@ -1,0 +1,40 @@
+sentence A = A top violin player is standing on the roof over a man.
+sentence B = A man is standing on a roof top and playing a violin.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: top=,Violin=,Musician+,Entity+,PhysicalAttribute+,Roof=,Hominid=
+CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,Roof=,PositionalAttribute+,DramaticActing+,Violin=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?
+2	top	top	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	02439949-a|top=
+3	violin	violin	NOUN	NN	fPOS=ADP++IN	4	compound	_	04536866-n|Violin=
+4	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	10340312-n|Musician+
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+6	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	roof	roof	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	04105068-n|Roof=
+10	over	over	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	02472293-n|Hominid=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+5	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	roof	roof	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	04105068-n|Roof=
+8	top	top	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	08663354-n|PositionalAttribute+
+9	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+10	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01719302-v|DramaticActing+
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	violin	violin	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	04536866-n|Violin=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

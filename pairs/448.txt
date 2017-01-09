@@ -1,0 +1,31 @@
+sentence A = A boy is surfing and riding a wave.
+sentence B = A blond girl is riding the waves.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Transportation+,Carrying=,WaterWave+
+CONCEPTS B: Human+,Human+,Entity+,Carrying=,ShapeAttribute+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10285313-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	surfing	surf	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01948077-v|Transportation+
+5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+6	riding	ride	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01955984-v|Carrying=
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	wave	wave	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	07352190-n|WaterWave+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	blond	blond	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00243606-a|Human+
+3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10129825-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01955984-v|Carrying=
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	waves	wave	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	13868944-n|ShapeAttribute+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

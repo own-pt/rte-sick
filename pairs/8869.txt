@@ -1,0 +1,30 @@
+sentence A = A boy is sitting in a seat.
+sentence B = A toddler is sitting in a seat.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,PhysicalAttribute+,SittingDown+,Seat=
+CONCEPTS B: NonFullyFormed+,PhysicalAttribute+,SittingDown+,Seat=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10285313-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+5	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	seat	seat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04161358-n|Seat=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	toddler	toddler	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10714465-n|NonFullyFormed+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+5	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	seat	seat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04161358-n|Seat=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

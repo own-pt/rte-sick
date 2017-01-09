@@ -1,0 +1,39 @@
+sentence A = Four people are walking across thick snow and the sun is setting.
+sentence B = Nobody is treading through the snow of the beautiful snowy landscape.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GroupOfPeople=,Entity+,Walking=,Human+,Snowing=,Sol=,Entity+,Putting=
+CONCEPTS B: Entity+,Walking+,Snowing=,SubjectiveStrongPositiveAttribute+,Covering+,ArtWork+
+
+CONLL A:
+
+1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	07942152-n|GroupOfPeople=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01904930-v|Walking=
+5	across	across	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	thick	thick	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	amod	_	02387413-a|Human+
+7	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	15043763-n|Snowing=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	sun	sun	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	09450163-n|Sol=
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	02604760-v|Entity+
+12	setting	set	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	01494310-v|Putting=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	Nobody	nobody	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	02604760-v|Entity+
+3	treading	tread	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02091410-v|Walking+
+4	through	through	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	15043763-n|Snowing=
+7	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+9	beautiful	beautiful	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00217728-a|SubjectiveStrongPositiveAttribute+
+10	snowy	snowy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	01698231-a|Covering+
+11	landscape	landscape	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03640166-n|ArtWork+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?

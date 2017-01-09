@@ -1,0 +1,41 @@
+sentence A = The lady is holding the paintbrush next to the artist's easel.
+sentence B = There is no lady holding the paintbrush next to the artist's easel.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Human+,Entity+,Process+,PaintingDevice+,Position+,Artist=,Easel=
+CONCEPTS B: Entity+,Human+,Process+,PaintingDevice+,Position+,Artist=,Easel=
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	lady	lady	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	09989290-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01217043-v|Process+
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	paintbrush	paintbrush	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03876231-n|PaintingDevice+
+7	next	next	ADV	RB	Number=Sing|fPOS=NOUN++NN	4	advmod	_	01294975-a|Position+
+8	to	to	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	artist	artist	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod:poss	_	09812338-n|Artist=
+11	's	's	PART	POS	fPOS=PART++POS	10	case	_	?|?
+12	easel	easel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03262809-n|Easel=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
+4	lady	lady	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	09989290-n|Human+
+5	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	01217043-v|Process+
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	paintbrush	paintbrush	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03876231-n|PaintingDevice+
+8	next	next	ADV	RB	Number=Sing|fPOS=NOUN++NN	5	advmod	_	01294975-a|Position+
+9	to	to	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	artist	artist	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod:poss	_	09812338-n|Artist=
+12	's	's	PART	POS	fPOS=PART++POS	11	case	_	?|?
+13	easel	easel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	03262809-n|Easel=
+14	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?

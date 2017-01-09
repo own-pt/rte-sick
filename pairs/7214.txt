@@ -1,0 +1,45 @@
+sentence A = A brown dog is running across the yard with a toy in its mouth.
+sentence B = There is no brown dog running across the yard with a toy in its mouth.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Human+,Canine+,Entity+,Attribute+,LandArea=,RecreationOrExerciseDevice+,Mouth+
+CONCEPTS B: Entity+,Human+,Canine+,Attribute+,LandArea=,RecreationOrExerciseDevice+,Mouth+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00245112-a|Human+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+6	across	across	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	yard	yard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	04610879-n|LandArea=
+9	with	with	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03964744-n|RecreationOrExerciseDevice+
+12	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+13	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	14	nmod:poss	_	?|?
+14	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	05302499-n|Mouth+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	?|?
+4	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	00245112-a|Human+
+5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	02084071-n|Canine+
+6	running	run	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	acl	_	01525666-v|Attribute+
+7	across	across	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	yard	yard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	04610879-n|LandArea=
+10	with	with	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03964744-n|RecreationOrExerciseDevice+
+13	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	15	nmod:poss	_	?|?
+15	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	05302499-n|Mouth+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?

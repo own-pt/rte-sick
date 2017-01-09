@@ -1,0 +1,36 @@
+sentence A = A large man is sitting in a military accessories store.
+sentence B = A small man is sitting in a military accessories store.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Hominid=,PhysicalAttribute+,SittingDown+,MilitaryOrganization=,Object+,RetailStore=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Hominid=,PhysicalAttribute+,SittingDown+,MilitaryOrganization=,Object+,RetailStore=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02472293-n|Hominid=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+6	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+8	military	military	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	01518386-a|MilitaryOrganization=
+9	accessories	accessory	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	compound	_	02671421-n|Object+
+10	store	store	NOUN	NN	fPOS=ADV++RB	5	nmod	_	04202417-n|RetailStore=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02472293-n|Hominid=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+6	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+8	military	military	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	01518386-a|MilitaryOrganization=
+9	accessories	accessory	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	compound	_	02671421-n|Object+
+10	store	store	NOUN	NN	fPOS=ADV++RB	5	nmod	_	04202417-n|RetailStore=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

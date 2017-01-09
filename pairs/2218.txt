@@ -1,0 +1,34 @@
+sentence A = The man is abruptly knocked off of a horse.
+sentence B = The man is being knocked off of a horse.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,FinancialTransaction+,SoundAttribute+,Horse=
+CONCEPTS B: Hominid=,Entity+,Entity+,SoundAttribute+,Horse=
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	02472293-n|Hominid=
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	auxpass	_	02604760-v|Entity+
+4	abruptly	abruptly	ADV	RB	fPOS=ADV++RB	5	advmod	_	00061528-r|FinancialTransaction+
+5	knocked	knock	ADJ	JJ	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	02185373-v|SoundAttribute+
+6	off	off	ADP	IN	fPOS=ADP++IN	9	case	_	00232936-r|?
+7	of	of	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02374451-n|Horse=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	02604760-v|Entity+
+5	knocked	knock	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	02185373-v|SoundAttribute+
+6	off	off	ADP	RP	fPOS=ADP++IN	9	case	_	00232936-r|?
+7	of	of	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02374451-n|Horse=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

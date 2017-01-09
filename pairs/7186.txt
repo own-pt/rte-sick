@@ -1,0 +1,42 @@
+sentence A = Two small boys dressed in tuxedos are sitting on a red carpeted floor.
+sentence B = Some boys being dressed with a carpet are sitting on two red tuxedos.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Dressing+,Clothing+,PhysicalAttribute+,SittingDown+,Red=,Covering+,Floor+
+CONCEPTS B: Human+,PhysicalAttribute+,Dressing+,Clothing+,PhysicalAttribute+,SittingDown+,Red=,Clothing+
+
+CONLL A:
+
+1	Two	2	VERB	VBZ	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?
+2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nsubj	_	10285313-n|Human+
+4	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	3	acl	_	00046534-v|Dressing+
+5	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+6	tuxedos	tuxedo	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	03201776-n|Clothing+
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	8	aux	_	02655135-v|PhysicalAttribute+
+8	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+9	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+11	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	advmod	_	00381097-a|Red=
+12	carpeted	carpet	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	01235073-v|Covering+
+13	floor	floor	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	03365592-n|Floor+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
+CONLL B:
+
+1	Some	some	DET	DT	fPOS=ADV++RB	2	det	_	?|?
+2	boys	boy	NOUN	NNS	fPOS=ADV++RB	4	nsubjpass	_	10285313-n|Human+
+3	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	4	auxpass	_	02655135-v|PhysicalAttribute+
+4	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	9	nsubj	_	00046534-v|Dressing+
+5	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	carpet	carpet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04118021-n|Clothing+
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	9	aux	_	02655135-v|PhysicalAttribute+
+9	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+10	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+11	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	13	nummod	_	?|?
+12	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	00381097-a|Red=
+13	tuxedos	tuxedo	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	nmod	_	03201776-n|Clothing+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?

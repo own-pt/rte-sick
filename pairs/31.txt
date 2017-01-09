@@ -3,8 +3,8 @@ sentence B = There is no man dunking the ball at a basketball game.
 entailm AB = A_contradicts_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Man=,?,?,HoofedMammal+,Entity+,Wetting+,?,Ball=,?,?,Basketball=,Game=,?
-CONCEPTS B: ?,Entity+,?,Hominid=,Wetting+,?,Ball=,?,?,Basketball=,Game=,?
+CONCEPTS A: Man=,HoofedMammal+,Entity+,Wetting+,Ball=,Basketball=,Game=
+CONCEPTS B: Entity+,Hominid=,Wetting+,Ball=,Basketball=,Game=
 
 CONLL A:
 
@@ -38,5 +38,3 @@ CONLL B:
 10	basketball	basketball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	00480993-n|Basketball=
 11	game	game	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	00455599-n|Game=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
-
-

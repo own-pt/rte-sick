@@ -3,8 +3,8 @@ sentence B = A man is jumping into an empty swimming pool.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SocialInteraction[,?,Entity+,Ambulating=,?,?,AirTransportation+,?
-CONCEPTS B: ?,Hominid=,Entity+,Ambulating=,?,?,ContainerEmpty+,Swimming+,StaticWaterArea+,?
+CONCEPTS A: SocialInteraction[,Entity+,Ambulating=,AirTransportation+
+CONCEPTS B: Hominid=,Entity+,Ambulating=,ContainerEmpty+,Swimming+,StaticWaterArea+
 
 CONLL A:
 
@@ -31,5 +31,3 @@ CONLL B:
 8	swimming	swim	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	9	amod	_	01960911-v|Swimming+
 9	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09397607-n|StaticWaterArea+
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
-
-

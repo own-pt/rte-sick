@@ -1,0 +1,48 @@
+sentence A = A biker with a blue jacket, black pants and a white helmet is driving on dirt and people are watching.
+sentence B = Blue and black pants are being worn by the motocross rider.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Coat=,Black=,Trousers+,White=,Clothing+,Entity+,Transportation+,Text+,GroupOfPeople=,Entity+,Looking=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Black=,Trousers+,Entity+,Entity+,CoveringFn=,SocialRole+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	biker	biker	NOUN	NN	Number=Sing|fPOS=NOUN++NN	21	nsubj	_	?|?
+3	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+5	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
+6	jacket	jacket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	03589791-n|Coat=
+7	,	,	PUNCT	,	fPOS=PUNCT++,	6	punct	_	?|?
+8	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	00392812-a|Black=
+9	pants	pant	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	conj	_	04489008-n|Trousers+
+10	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+12	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	00393105-a|White=
+13	helmet	helmet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nsubj	_	03513376-n|Clothing+
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	15	aux	_	02604760-v|Entity+
+15	driving	drive	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	01930874-v|Transportation+
+16	on	on	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
+17	dirt	dirt	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	15	nmod	_	07223811-n|Text+
+18	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+19	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	conj	_	07942152-n|GroupOfPeople=
+20	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	21	aux	_	02604760-v|Entity+
+21	watching	watch	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02150948-v|Looking=
+22	.	.	PUNCT	.	fPOS=PUNCT++.	21	punct	_	?|?
+
+
+CONLL B:
+
+1	Blue	blue	PROPN	NNP	Number=Sing|fPOS=PROPN++NNP	7	nsubjpass	_	00425002-a|SubjectiveStrongNegativeAttribute+
+2	and	and	CONJ	CC	fPOS=CONJ++CC	1	cc	_	?|?
+3	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	00392812-a|Black=
+4	pants	pant	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	1	conj	_	04489008-n|Trousers+
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	02604760-v|Entity+
+6	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	7	auxpass	_	02604760-v|Entity+
+7	worn	wear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	00047745-v|CoveringFn=
+8	by	by	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+10	motocross	motocross	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	?|?
+11	rider	rider	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	10403876-n|SocialRole+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

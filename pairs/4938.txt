@@ -1,0 +1,31 @@
+sentence A = The military officer is shouting at the recruits.
+sentence B = An officer is talking to the recruits.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: MilitaryOrganization=,PoliceOfficer=,Entity+,Vocalizing=,SocialRole+
+CONCEPTS B: PoliceOfficer=,Entity+,Speaking+,SocialRole+
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	military	military	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01518386-a|MilitaryOrganization=
+3	officer	officer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10448983-n|PoliceOfficer=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	shouting	shout	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00913065-v|Vocalizing=
+6	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	recruits	recruit	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	10512372-n|SocialRole+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	officer	officer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10448983-n|PoliceOfficer=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	talking	talk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	00941990-v|Speaking+
+5	to	to	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	recruits	recruit	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	10512372-n|SocialRole+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

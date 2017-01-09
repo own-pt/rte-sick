@@ -1,0 +1,43 @@
+sentence A = A man on a green bike is performing tricks on a dirt ramp.
+sentence B = A person on a bike is in the air near a body of water.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Green=,Bicycle=,Entity+,IntentionalProcess+,RecreationOrExercise+,Text+,StationaryArtifact+
+CONCEPTS B: Human=,Bicycle=,Entity+,AirTransportation+,Animal=,Water=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	02472293-n|Hominid=
+3	on	on	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+5	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00375969-a|Green=
+6	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	02834778-n|Bicycle=
+7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+8	performing	perform	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01712704-v|IntentionalProcess+
+9	tricks	trick	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	dobj	_	00427580-n|RecreationOrExercise+
+10	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+12	dirt	dirt	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	compound	_	07223811-n|Text+
+13	ramp	ramp	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	04051549-n|StationaryArtifact+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	00007846-n|Human=
+3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	02834778-n|Bicycle=
+6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	12	cop	_	02604760-v|Entity+
+7	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+9	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	00300441-n|AirTransportation+
+10	near	near	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	amod	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	body	body	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	05216365-n|Animal=
+13	of	of	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+14	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	14845743-n|Water=
+15	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?

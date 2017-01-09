@@ -1,0 +1,25 @@
+sentence A = A lemur is eating.
+sentence B = There is no lemur eating.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Primate+,Entity+,Process+
+CONCEPTS B: Entity+,Primate+,Process+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	lemur	lemur	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02496913-n|Primate+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01157517-v|Process+
+5	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=ADV++RB	4	neg	_	?|?
+4	lemur	lemur	NOUN	NN	fPOS=ADP++IN	2	nsubj	_	02496913-n|Primate+
+5	eating	eat	VERB	VBG	Number=Sing|fPOS=NOUN++NN	4	acl	_	01157517-v|Process+
+6	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?

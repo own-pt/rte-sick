@@ -1,0 +1,43 @@
+sentence A = A young Asian woman with pink gloves is standing in the snow.
+sentence B = A female wearing pink gloves and a brown jacket is not smiling in the snow.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,AsianEthnicity=,Woman=,Pink+,Glove+,Entity+,PhysicalAttribute+,Snowing=
+CONCEPTS B: Female=,CoveringFn=,Pink+,Glove+,Human+,Coat=,Entity+,not=,Smiling=,Snowing=
+
+CONLL A:
+
+1	A	a	DET	DT	Number=Sing|fPOS=PROPN++NNP	4	det	_	?|?
+2	young	young	VERB	VBN	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	4	amod	_	01646941-a|HumanYouth=
+3	Asian	asian	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	02968525-a|AsianEthnicity=
+4	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10787470-n|Woman=
+5	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	pink	pink	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	amod	_	00379595-a|Pink+
+7	gloves	glove	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	03441112-n|Glove+
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+9	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+10	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	15043763-n|Snowing=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	female	female	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	01477806-a|Female=
+3	wearing	wear	VERB	VBG	Number=Sing|fPOS=NOUN++NN	2	acl	_	00047745-v|CoveringFn=
+4	pink	pink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	compound	_	00379595-a|Pink+
+5	gloves	glove	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	dobj	_	03441112-n|Glove+
+6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	00245112-a|Human+
+9	jacket	jacket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	03589791-n|Coat=
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	12	aux	_	02604760-v|Entity+
+11	not	not	PART	RB	fPOS=PART++RB	12	neg	_	00024073-r|not=
+12	smiling	smile	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	00028565-v|Smiling=
+13	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	15043763-n|Snowing=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?

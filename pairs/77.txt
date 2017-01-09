@@ -3,8 +3,8 @@ sentence B = Masked people are looking in the same direction in a forest.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: GroupOfPeople=,Dressing+,Clothing+,Entity+,Meeting+,?,?,Forest=,?,Entity+,Searching=,?,?,equal+,DirectionalAttribute=,?
-CONCEPTS B: Pretending+,GroupOfPeople=,Entity+,SubjectiveAssessmentAttribute+,?,?,equal+,DirectionalAttribute=,?,?,Forest=,?
+CONCEPTS A: GroupOfPeople=,Dressing+,Clothing+,Entity+,Meeting+,Forest=,Entity+,Searching=,equal+,DirectionalAttribute=
+CONCEPTS B: Pretending+,GroupOfPeople=,Entity+,SubjectiveAssessmentAttribute+,equal+,DirectionalAttribute=,Forest=
 
 CONLL A:
 
@@ -40,5 +40,3 @@ CONLL B:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	forest	forest	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	09284015-n|Forest=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
-
-

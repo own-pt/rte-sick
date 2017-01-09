@@ -1,0 +1,44 @@
+sentence A = A person is climbing a rock with a rope, which is pink.
+sentence B = A rock is being climbed by a person with a rope, which is pink.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Human=,Entity+,Increasing+,Mineral+,String+,Entity+,Pink+
+CONCEPTS B: Mineral+,Entity+,Entity+,Increasing+,Human=,String+,Entity+,Pink+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00433232-v|Increasing+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	14696793-n|Mineral+
+7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	04108268-n|String+
+10	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	?|?
+11	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	13	nsubj	_	?|?
+12	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	13	cop	_	02604760-v|Entity+
+13	pink	pink	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	acl:relcl	_	00379595-a|Pink+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	14696793-n|Mineral+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	02604760-v|Entity+
+5	climbed	climb	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	00433232-v|Increasing+
+6	by	by	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	00007846-n|Human=
+9	with	with	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	04108268-n|String+
+12	,	,	PUNCT	,	fPOS=PUNCT++,	8	punct	_	?|?
+13	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	15	nsubj	_	?|?
+14	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	15	cop	_	02604760-v|Entity+
+15	pink	pink	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	acl:relcl	_	00379595-a|Pink+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

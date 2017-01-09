@@ -1,0 +1,49 @@
+sentence A = A dog is jumping at a shiny blue soccer ball in a field of dry leaves.
+sentence B = There is no dog jumping at a shiny blue soccer ball in a field of dry leaves.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Canine+,Entity+,Ambulating=,SurfaceChange+,SubjectiveStrongNegativeAttribute+,Soccer=,Ball=,FieldOfStudy=,Dry=,Leaf=
+CONCEPTS B: Entity+,Canine+,Ambulating=,SurfaceChange+,SubjectiveStrongNegativeAttribute+,Soccer=,Ball=,FieldOfStudy=,Dry=,Leaf=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02084071-n|Canine+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+5	at	at	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+7	shiny	shiny	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	amod	_	01119421-a|SurfaceChange+
+8	blue	blue	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	9	compound	_	00425002-a|SubjectiveStrongNegativeAttribute+
+9	soccer	soccer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	00478262-n|Soccer=
+10	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02778669-n|Ball=
+11	in	in	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05996646-n|FieldOfStudy=
+14	of	of	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+15	dry	dry	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	amod	_	02551380-a|Dry=
+16	leaves	leaf	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	nmod	_	13152742-n|Leaf=
+17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
+4	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	02084071-n|Canine+
+5	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	01963942-v|Ambulating=
+6	at	at	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+8	shiny	shiny	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	amod	_	01119421-a|SurfaceChange+
+9	blue	blue	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	10	compound	_	00425002-a|SubjectiveStrongNegativeAttribute+
+10	soccer	soccer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	00478262-n|Soccer=
+11	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02778669-n|Ball=
+12	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+14	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	05996646-n|FieldOfStudy=
+15	of	of	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
+16	dry	dry	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	amod	_	02551380-a|Dry=
+17	leaves	leaf	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	14	nmod	_	13152742-n|Leaf=
+18	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?

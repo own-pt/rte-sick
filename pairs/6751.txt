@@ -1,0 +1,34 @@
+sentence A = Two people in two chairs are reading.
+sentence B = Some people are sitting in lawn chairs and are reading books.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GroupOfPeople=,Chair=,Entity+,Reading=
+CONCEPTS B: GroupOfPeople=,PhysicalAttribute+,SittingDown+,Lawn=,Chair=,PhysicalAttribute+,Reading=,Book+
+
+CONLL A:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubj	_	07942152-n|GroupOfPeople=
+3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	5	nummod	_	?|?
+5	chairs	chair	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	03001627-n|Chair=
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	02604760-v|Entity+
+7	reading	read	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00625119-v|Reading=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
+CONLL B:
+
+1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	07942152-n|GroupOfPeople=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+5	in	in	ADV	RB	fPOS=ADP++IN	7	case	_	?|?
+6	lawn	lawn	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	08591592-n|Lawn=
+7	chairs	chair	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	03001627-n|Chair=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	10	aux	_	02655135-v|PhysicalAttribute+
+10	reading	read	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	4	conj	_	00625119-v|Reading=
+11	books	book	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	dobj	_	02870092-n|Book+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

@@ -1,0 +1,33 @@
+sentence A = A woman is squeezing juice out of a lemon.
+sentence B = A lemon is being squeezed by a woman.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Woman=,Entity+,Compressing=,Juice=,Giving+,LemonFruit=
+CONCEPTS B: LemonFruit=,Entity+,Entity+,Compressing=,Woman=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	squeezing	squeeze	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01387786-v|Compressing=
+5	juice	juice	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07923748-n|Juice=
+6	out	out	ADP	IN	fPOS=ADP++IN	9	case	_	00233413-r|Giving+
+7	of	of	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	lemon	lemon	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	07749582-n|LemonFruit=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	lemon	lemon	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	07749582-n|LemonFruit=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	02604760-v|Entity+
+5	squeezed	squeeze	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	01387786-v|Compressing=
+6	by	by	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	10787470-n|Woman=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

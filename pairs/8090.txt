@@ -1,0 +1,42 @@
+sentence A = A black and white dog is playing with a tattered volleyball in a brown field.
+sentence B = A black and white dog is playing with a broken volleyball.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Black=,White=,Canine+,Entity+,DramaticActing+,Volleyball=,Human+,FieldOfStudy=
+CONCEPTS B: Black=,White=,Canine+,Entity+,DramaticActing+,EndFn+,Volleyball=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+2	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	00392812-a|Black=
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	00393105-a|White=
+5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	02084071-n|Canine+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+8	with	with	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+10	tattered	tatter	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	?|?
+11	volleyball	volleyball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	00480211-n|Volleyball=
+12	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+14	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	00245112-a|Human+
+15	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	05996646-n|FieldOfStudy=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+2	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	00392812-a|Black=
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	00393105-a|White=
+5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	02084071-n|Canine+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+8	with	with	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+10	broken	break	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	02681524-v|EndFn+
+11	volleyball	volleyball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	00480211-n|Volleyball=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

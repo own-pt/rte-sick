@@ -1,0 +1,28 @@
+sentence A = The piece of paper is being cut.
+sentence B = Some paper is being cut.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: TimeDuration+,Newspaper=,Entity+,Entity+,Cutting+
+CONCEPTS B: Newspaper=,Entity+,Entity+,Decreasing+
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	piece	piece	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubjpass	_	15246353-n|TimeDuration+
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	paper	paper	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	06267145-n|Newspaper=
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+6	being	be	VERB	VBG	VerbForm=Ger|fPOS=AUX++VBG	7	auxpass	_	02604760-v|Entity+
+7	cut	cut	ADJ	JJ	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	01552519-v|Cutting+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
+CONLL B:
+
+1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?
+2	paper	paper	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	06267145-n|Newspaper=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	being	be	VERB	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	02604760-v|Entity+
+5	cut	cut	ADJ	JJ	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	00429060-v|Decreasing+
+6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

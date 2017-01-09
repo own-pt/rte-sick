@@ -1,0 +1,33 @@
+sentence A = A seated woman is singing a song and playing the guitar.
+sentence B = The man isn't lifting weights.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Communication+,Woman=,Entity+,MakingVocalMusic=,Song=,DramaticActing+,Guitar=
+CONCEPTS B: Hominid=,Entity+,not=,MotionUpward=,MassMeasure+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	seated	seat	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01543998-v|Communication+
+3	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10787470-n|Woman=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	singing	sing	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01731031-v|MakingVocalMusic=
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	song	song	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	07048000-n|Song=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+9	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	01719302-v|DramaticActing+
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	03467517-n|Guitar=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	02604760-v|Entity+
+4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	00024073-r|not=
+5	lifting	lift	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01974062-v|MotionUpward=
+6	weights	weight	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	05026843-n|MassMeasure+
+7	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

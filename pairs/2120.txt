@@ -1,0 +1,33 @@
+sentence A = The cat is licking milk from a saucer.
+sentence B = Some milk is being hungrily drunk by a cat.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Whip+,Entity+,Licking+,Milk=,Circle+
+CONCEPTS B: Milk=,Entity+,Entity+,PerceptualAttribute+,Drinking+,Whip+
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02985606-n|Whip+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	licking	lick	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01432176-v|Licking+
+5	milk	milk	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07844042-n|Milk=
+6	from	from	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	saucer	saucer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	13875185-n|Circle+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?
+2	milk	milk	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubjpass	_	07844042-n|Milk=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+4	being	be	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	auxpass	_	02604760-v|Entity+
+5	hungrily	hungrily	ADV	RB	Degree=Pos|fPOS=ADJ++JJ	6	advmod	_	00360054-r|PerceptualAttribute+
+6	drunk	drink	VERB	VB	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	01171183-v|Drinking+
+7	by	by	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	02985606-n|Whip+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

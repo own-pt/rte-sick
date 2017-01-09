@@ -1,0 +1,14 @@
+# sent_id = 1946a
+# text = One small child is greedily drinking water from the cup.
+1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?
+2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	09917593-n|HumanChild=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+5	greedily	greedily	ADV	RB	fPOS=ADV++RB	6	advmod	_	00276391-r|SubjectiveAssessmentAttribute+
+6	drinking	drink	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01170052-v|Drinking=
+7	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	14845743-n|Water=
+8	from	from	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	cup	cup	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03147509-n|Cup=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+

@@ -1,0 +1,33 @@
+sentence A = A blond child is holding a yellow bottle.
+sentence B = There is no blond child holding a yellow bottle.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Human+,HumanChild=,Entity+,Process+,SubjectiveAssessmentAttribute+,Bottle=
+CONCEPTS B: Entity+,Human+,HumanChild=,Process+,SubjectiveAssessmentAttribute+,Bottle=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	blond	blond	ADJ	JJ	Degree=Cmp|fPOS=ADJ++JJR	3	amod	_	00243606-a|Human+
+3	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	09917593-n|HumanChild=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02700867-v|Process+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+8	bottle	bottle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02876657-n|Bottle=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	?|?
+4	blond	blond	ADJ	JJ	Degree=Cmp|fPOS=ADJ++JJR	5	amod	_	00243606-a|Human+
+5	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	09917593-n|HumanChild=
+6	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	acl	_	02700867-v|Process+
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+9	bottle	bottle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	02876657-n|Bottle=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?

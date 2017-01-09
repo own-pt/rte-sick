@@ -1,0 +1,35 @@
+sentence A = A person is throwing a cat at the ceiling.
+sentence B = A person is taking a cat down from the ceiling.
+entailm AB = A_contradicts_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human=,Entity+,Impelling+,Whip+,Ceiling=
+CONCEPTS B: Human=,Entity+,PhysicalAttribute+,Whip+,earlier+,Ceiling=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	throwing	throw	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01508368-v|Impelling+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02985606-n|Whip+
+7	at	at	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	ceiling	ceiling	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02990373-n|Ceiling=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02267989-v|PhysicalAttribute+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02985606-n|Whip+
+7	down	down	ADV	RB	Number=Sing|fPOS=NOUN++NN	4	advmod	_	00096089-r|earlier+
+8	from	from	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	ceiling	ceiling	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02990373-n|Ceiling=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

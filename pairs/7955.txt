@@ -1,0 +1,47 @@
+sentence A = A basketball player is on the court floor and another one is grabbing the ball.
+sentence B = There is no basketball player on the court floor and no one is grabbing the ball.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Basketball=,Human+,Entity+,Government+,Floor+,PositiveInteger@,Entity+,Grabbing+,Ball=
+CONCEPTS B: Entity+,Basketball=,Human+,Government+,Floor+,PositiveInteger@,Entity+,Grabbing+,Ball=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	basketball	basketball	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00480993-n|Basketball=
+3	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10439851-n|Human+
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	cop	_	02604760-v|Entity+
+5	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	court	court	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	08329453-n|Government+
+8	floor	floor	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	03365592-n|Floor+
+9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
+10	another	another	DET	DT	fPOS=DET++DT	11	det	_	?|?
+11	one	one	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nsubj	_	13742573-n|PositiveInteger@
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	13	aux	_	02604760-v|Entity+
+13	grabbing	grab	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	8	conj	_	01439190-v|Grabbing+
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	dobj	_	02778669-n|Ball=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
+CONLL B:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	?|?
+4	basketball	basketball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	compound	_	00480993-n|Basketball=
+5	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	10439851-n|Human+
+6	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	court	court	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	08329453-n|Government+
+9	floor	floor	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	03365592-n|Floor+
+10	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+11	no	no	DET	DT	fPOS=DET++DT	12	neg	_	?|?
+12	one	one	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nsubj	_	13742573-n|PositiveInteger@
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	14	aux	_	02604760-v|Entity+
+14	grabbing	grab	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	2	conj	_	01439190-v|Grabbing+
+15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+16	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	02778669-n|Ball=
+17	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?

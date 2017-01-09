@@ -1,0 +1,52 @@
+sentence A = People are far from a beach full of sand by the ocean and are suffering from the sunny day.
+sentence B = People are on a beach full of sand by the ocean and are enjoying a sunny day.
+entailm AB = A_contradicts_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GroupOfPeople=,Entity+,SubjectiveAssessmentAttribute+,ShoreArea=,ContainerFull+,Sand=,Ocean=,Entity+,IntentionalProcess+,Happiness+,Day=
+CONCEPTS B: GroupOfPeople=,Attribute+,ShoreArea=,ContainerFull+,Sand=,Ocean=,Attribute+,IntentionalPsychologicalProcess+,Happiness+,Day=
+
+CONLL A:
+
+1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	07942152-n|GroupOfPeople=
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	cop	_	02604760-v|Entity+
+3	far	far	ADV	RB	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	6	advmod	_	00101323-r|SubjectiveAssessmentAttribute+
+4	from	from	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	09217230-n|ShoreArea=
+7	full	full	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	01083157-a|ContainerFull+
+8	of	of	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+9	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	15019030-n|Sand=
+10	by	by	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	ocean	ocean	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	09376198-n|Ocean=
+13	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	15	aux	_	02604760-v|Entity+
+15	suffering	suffer	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	00668099-v|IntentionalProcess+
+16	from	from	ADP	IN	fPOS=ADP++IN	19	case	_	?|?
+17	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	?|?
+18	sunny	sunny	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	19	amod	_	00363938-a|Happiness+
+19	day	day	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	15155220-n|Day=
+20	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
+CONLL B:
+
+1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	07942152-n|GroupOfPeople=
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	5	cop	_	02620587-v|Attribute+
+3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	09217230-n|ShoreArea=
+6	full	full	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	01083157-a|ContainerFull+
+7	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+8	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	15019030-n|Sand=
+9	by	by	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	ocean	ocean	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	09376198-n|Ocean=
+12	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	14	aux	_	02620587-v|Attribute+
+14	enjoying	enjoy	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	01820302-v|IntentionalPsychologicalProcess+
+15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	?|?
+16	sunny	sunny	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	00363938-a|Happiness+
+17	day	day	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	15155220-n|Day=
+18	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

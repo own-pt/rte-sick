@@ -3,8 +3,8 @@ sentence B = Preservers are being worn by a group of people who are practicing w
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Group=,?,SubjectiveAssessmentAttribute=,Entity+,Carrying=,?,TimePosition+,?,?,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: Clothing+,Entity+,Entity+,RecreationOrExercise+,?,?,Group=,?,GroupOfPeople=,?,Entity+,Position+,Water=,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: Group=,SubjectiveAssessmentAttribute=,Entity+,Carrying=,TimePosition+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Clothing+,Entity+,Entity+,RecreationOrExercise+,Group=,GroupOfPeople=,Entity+,Position+,Water=,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -39,5 +39,3 @@ CONLL B:
 13	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	14845743-n|Water=
 14	safety	safety	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	dobj	_	14538472-n|SubjectiveAssessmentAttribute+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
-
-

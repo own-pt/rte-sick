@@ -1,0 +1,40 @@
+sentence A = The little boy is wearing a yellow tank top and is laughing.
+sentence B = A little boy is wearing a yellow tank top and is laughing.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,RecreationOrExercise+,SubjectiveAssessmentAttribute+,FluidContainer+,PositionalAttribute+,Entity+,Laughing=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,RecreationOrExercise+,SubjectiveAssessmentAttribute+,FluidContainer+,PositionalAttribute+,Entity+,Laughing=
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10285313-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00075021-v|RecreationOrExercise+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+7	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+8	tank	tank	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	04388743-n|FluidContainer+
+9	top	top	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	08663354-n|PositionalAttribute+
+10	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+11	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	cop	_	02604760-v|Entity+
+12	laughing	laugh	ADJ	JJ	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	00031820-v|Laughing=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10285313-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00075021-v|RecreationOrExercise+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+7	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+8	tank	tank	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	04388743-n|FluidContainer+
+9	top	top	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	08663354-n|PositionalAttribute+
+10	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+11	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	cop	_	02604760-v|Entity+
+12	laughing	laugh	ADJ	JJ	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	00031820-v|Laughing=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

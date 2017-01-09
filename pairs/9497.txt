@@ -1,0 +1,46 @@
+sentence A = A big brown and white spotted dog is lying on a jacket on the street.
+sentence B = A small brown and white spotted dog is lying on a jacket on the street.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Human+,White=,SurfaceChange+,Canine+,Entity+,PhysicalAttribute+,Coat=,Roadway=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,White=,SurfaceChange+,Canine+,Entity+,PhysicalAttribute+,Coat=,Roadway=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	big	big	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+3	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	00245112-a|Human+
+4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	?|?
+5	white	white	DET	WDT	Degree=Pos|fPOS=ADV++RB	7	amod	_	00393105-a|White=
+6	spotted	spot	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	7	amod	_	00509958-v|SurfaceChange+
+7	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	conj	_	02084071-n|Canine+
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+9	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02690708-v|PhysicalAttribute+
+10	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	jacket	jacket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	03589791-n|Coat=
+13	on	on	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	04334599-n|Roadway=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	00245112-a|Human+
+4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	?|?
+5	white	white	DET	WDT	Number=Sing|fPOS=ADJ++NN	7	amod	_	00393105-a|White=
+6	spotted	spot	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	7	amod	_	00509958-v|SurfaceChange+
+7	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	conj	_	02084071-n|Canine+
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+9	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02690708-v|PhysicalAttribute+
+10	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	jacket	jacket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	03589791-n|Coat=
+13	on	on	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	04334599-n|Roadway=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?

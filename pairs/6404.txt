@@ -1,0 +1,50 @@
+sentence A = The male, who is dark skinned, is standing on one hand in front of a yellow building.
+sentence B = The dark skinned male is standing on one hand in front of a yellow building.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Human+,Entity+,SubjectiveWeakNegativeAttribute+,Separating+,Entity+,PhysicalAttribute+,Hand+,FrontFn=,SubjectiveAssessmentAttribute+,Building=
+CONCEPTS B: SubjectiveWeakNegativeAttribute+,Separating+,Human+,Entity+,PhysicalAttribute+,Hand+,FrontFn=,SubjectiveAssessmentAttribute+,Building=
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	male	male	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	09624168-n|Human+
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
+4	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	7	nsubj	_	?|?
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	cop	_	02604760-v|Entity+
+6	dark	dark	ADV	RB	Degree=Pos|fPOS=ADJ++JJ	7	advmod	_	00409440-a|SubjectiveWeakNegativeAttribute+
+7	skinned	skin	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	2	acl:relcl	_	01262936-v|Separating+
+8	,	,	PUNCT	,	fPOS=PUNCT++,	10	punct	_	?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
+10	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+11	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	one	1	NUM	CD	NumType=Card|fPOS=NUM++CD	13	nummod	_	?|?
+13	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	05564590-n|Hand+
+14	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+15	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	08573472-n|FrontFn=
+16	of	of	ADP	IN	fPOS=ADP++IN	19	case	_	?|?
+17	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	19	det	_	?|?
+18	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	19	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+19	building	building	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	02913152-n|Building=
+20	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	4	det	_	?|?
+2	dark	dark	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	amod	_	00409440-a|SubjectiveWeakNegativeAttribute+
+3	skinned	skin	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	4	amod	_	01262936-v|Separating+
+4	male	male	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	09624168-n|Human+
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+6	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	one	1	NUM	CD	NumType=Card|fPOS=NUM++CD	9	nummod	_	?|?
+9	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	05564590-n|Hand+
+10	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+11	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	08573472-n|FrontFn=
+12	of	of	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+14	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+15	building	building	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	02913152-n|Building=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

@@ -1,0 +1,37 @@
+sentence A = A man is patting an alligator on the mouth.
+sentence B = A person is dropping chopped vegetables into a pot on the stove.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Touching+,Reptile+,Mouth+
+CONCEPTS B: Human=,Entity+,MotionDownward=,Cutting+,Vegetable=,Pottery+,Stove+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	patting	pat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01243661-v|Touching+
+5	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	alligator	alligator	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	01698434-n|Reptile+
+7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	05302499-n|Mouth+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	dropping	drop	VERB	VBG	VerbForm=Ger|fPOS=AUX++VBG	0	ROOT	_	01977701-v|MotionDownward=
+5	chopped	chop	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	6	amod	_	01258091-v|Cutting+
+6	vegetables	vegetable	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07707451-n|Vegetable=
+7	into	into	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	pot	pot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03990474-n|Pottery+
+10	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	stove	stove	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04330340-n|Stove+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

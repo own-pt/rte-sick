@@ -1,0 +1,41 @@
+sentence A = A group of people is equipped with protective gear.
+sentence B = A person in the gear used for biking is standing steadily in front of the mountains.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Group=,GroupOfPeople=,Entity+,Putting+,Device+,Gear=
+CONCEPTS B: Human=,Gear=,IntentionalProcess+,Entity+,PhysicalAttribute+,SubjectiveAssessmentAttribute+,FrontFn=,SubjectiveAssessmentAttribute+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	07942152-n|GroupOfPeople=
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	cop	_	02604760-v|Entity+
+6	equipped	equip	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	0	ROOT	_	02339413-v|Putting+
+7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	protective	protective	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	01887076-a|Device+
+9	gear	gear	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03430551-n|Gear=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	00007846-n|Human=
+3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	gear	gear	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	03430551-n|Gear=
+6	used	use	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	2	acl	_	01158872-v|IntentionalProcess+
+7	for	for	SCONJ	IN	fPOS=SCONJ++IN	8	mark	_	?|?
+8	biking	biking	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	advcl	_	?|?
+9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
+10	standing	stand	NOUN	NN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+11	steadily	steadily	ADV	RB	fPOS=ADV++RB	10	advmod	_	00050186-r|SubjectiveAssessmentAttribute+
+12	in	in	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+13	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	08573472-n|FrontFn=
+14	of	of	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+16	mountains	mountain	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	nmod	_	13774404-n|SubjectiveAssessmentAttribute+
+17	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?

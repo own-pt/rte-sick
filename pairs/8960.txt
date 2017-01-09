@@ -1,0 +1,34 @@
+sentence A = A group of five old adults are lounging indoors.
+sentence B = A group of five young adults are lounging indoors.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Group=,SubjectiveAssessmentAttribute+,FullyFormed+,Entity+,SubjectiveAssessmentAttribute+,Indoors+
+CONCEPTS B: Group=,HumanYouth=,FullyFormed+,Entity+,SubjectiveAssessmentAttribute+,Indoors+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	five	5	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	?|?
+5	old	old	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	amod	_	01643620-a|SubjectiveAssessmentAttribute+
+6	adults	adult	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	09605289-n|FullyFormed+
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	8	aux	_	02604760-v|Entity+
+8	lounging	lounge	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02639075-v|SubjectiveAssessmentAttribute+
+9	indoors	indoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	advmod	_	00110533-r|Indoors+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	five	5	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nummod	_	?|?
+5	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	amod	_	01646941-a|HumanYouth=
+6	adults	adult	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	09605289-n|FullyFormed+
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	8	aux	_	02604760-v|Entity+
+8	lounging	lounge	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02639075-v|SubjectiveAssessmentAttribute+
+9	indoors	indoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	advmod	_	00110533-r|Indoors+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?

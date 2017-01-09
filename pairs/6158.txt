@@ -1,0 +1,43 @@
+sentence A = A race car driver is standing up and is fiercely pointing his hand at the sky.
+sentence B = The person in the blue jacket is wearing a colorful helmet.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Racing=,Automobile=,Device+,Entity+,PhysicalAttribute+,Increasing+,Entity+,EmotionalState+,Indicating=,Hand+,SpaceRegion=
+CONCEPTS B: Human=,SubjectiveStrongNegativeAttribute+,Coat=,Entity+,CoveringFn=,ColorAttribute+,Clothing+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?
+2	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	compound	_	07458453-n|Racing=
+3	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	compound	_	02958343-n|Automobile=
+4	driver	driver	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	03244047-n|Device+
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+6	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+7	up	up	ADP	RP	fPOS=ADP++RP	6	compound:prt	_	00097011-r|Increasing+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	cop	_	02604760-v|Entity+
+10	fiercely	fiercely	ADJ	JJ	fPOS=ADV++RB	6	conj	_	00245588-r|EmotionalState+
+11	pointing	point	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	10	advcl	_	00923793-v|Indicating=
+12	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	13	nmod:poss	_	?|?
+13	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	05564590-n|Hand+
+14	at	at	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+16	sky	sky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	09436708-n|SpaceRegion=
+17	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	00007846-n|Human=
+3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+5	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
+6	jacket	jacket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	03589791-n|Coat=
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	aux	_	02604760-v|Entity+
+8	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	00047745-v|CoveringFn=
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+10	colorful	colorful	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	00394562-a|ColorAttribute+
+11	helmet	helmet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	03513376-n|Clothing+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?

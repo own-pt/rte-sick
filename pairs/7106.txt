@@ -1,0 +1,34 @@
+sentence A = A small girl is riding in a toy car.
+sentence B = A small toy girl is in a riding car.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Carrying=,RecreationOrExerciseDevice+,Automobile=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,RecreationOrExerciseDevice+,Human+,Entity+,Carrying=,Automobile=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10129825-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01955984-v|Carrying=
+6	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	03964744-n|RecreationOrExerciseDevice+
+9	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02958343-n|Automobile=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?
+2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	compound	_	03964744-n|RecreationOrExerciseDevice+
+4	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10129825-n|Human+
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	9	cop	_	02604760-v|Entity+
+6	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	riding	ride	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	compound	_	01955984-v|Carrying=
+9	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	02958343-n|Automobile=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?

@@ -1,0 +1,34 @@
+sentence A = A great dog is climbing a steep hill.
+sentence B = There is no light brown dog running up a street.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: RadiatingSound+,Canine+,Entity+,Increasing+,LandArea+,Hill=
+CONCEPTS B: Entity+,SubjectiveWeakPositiveAttribute+,Human+,Canine+,Attribute+,Increasing+,Roadway=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	great	great	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01123879-a|RadiatingSound+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00433232-v|Increasing+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	steep	steep	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	8	compound	_	01144887-a|LandArea+
+8	hill	hill	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	09303008-n|Hill=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	6	neg	_	?|?
+4	light	light	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	compound	_	01186408-a|SubjectiveWeakPositiveAttribute+
+5	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00245112-a|Human+
+6	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	02084071-n|Canine+
+7	running	run	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	acl	_	01525666-v|Attribute+
+8	up	up	ADP	RP	fPOS=ADP++IN	7	compound:prt	_	00097011-r|Increasing+
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	04334599-n|Roadway=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?

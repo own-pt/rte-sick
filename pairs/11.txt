@@ -3,8 +3,8 @@ sentence B = A brown dog is helping another animal in front of the man in pants.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Canine+,Entity+,Attack=,?,Animal=,?,FrontFn=,?,?,Man=,?,Trousers+,?
-CONCEPTS B: ?,Human+,Canine+,Entity+,Helping=,?,Animal=,?,FrontFn=,?,?,Man=,?,Trousers+,?
+CONCEPTS A: Human+,Canine+,Entity+,Attack=,Animal=,FrontFn=,Man=,Trousers+
+CONCEPTS B: Human+,Canine+,Entity+,Helping=,Animal=,FrontFn=,Man=,Trousers+
 
 CONLL A:
 
@@ -42,5 +42,3 @@ CONLL B:
 13	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
 14	pants	pant	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	04489008-n|Trousers+
 15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
-
-

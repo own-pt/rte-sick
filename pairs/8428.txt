@@ -1,0 +1,35 @@
+sentence A = A man is skiing down a snowy mountain.
+sentence B = A skier in black is catching a tiny bit of air.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Transportation+,earlier+,Covering+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Human+,Black=,Entity+,Grabbing+,SubjectiveStrongNegativeAttribute+,EngineeringComponent+,AirTransportation+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	skiing	ski	VERB	VBG	VerbForm=Ger|fPOS=AUX++VBG	0	ROOT	_	01938426-v|Transportation+
+5	down	down	ADP	IN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	8	case	_	00096089-r|earlier+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	snowy	snowy	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	01698231-a|Covering+
+8	mountain	mountain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	13774404-n|SubjectiveAssessmentAttribute+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	skier	skier	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	10605253-n|Human+
+3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	00392812-a|Black=
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+6	catching	catch	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01439190-v|Grabbing+
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	tiny	tiny	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	01392249-a|SubjectiveStrongNegativeAttribute+
+9	bit	bit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	02844307-n|EngineeringComponent+
+10	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+11	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	00300441-n|AirTransportation+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

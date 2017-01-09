@@ -1,0 +1,49 @@
+sentence A = There is no man on a rock high above some trees standing in a strange position.
+sentence B = A man is on a rock high above some trees and is standing in a strange position.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Hominid=,Mineral+,SubjectiveStrongPositiveAttribute+,ContentBearingObject+,Attribute+,SubjectiveStrongNegativeAttribute+,Entity+
+CONCEPTS B: Hominid=,Entity+,Mineral+,SubjectiveStrongPositiveAttribute+,ContentBearingObject+,Entity+,Attribute+,SubjectiveStrongNegativeAttribute+,Entity+
+
+CONLL A:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
+4	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	02472293-n|Hominid=
+5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	14696793-n|Mineral+
+8	high	high	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	02339120-a|SubjectiveStrongPositiveAttribute+
+9	above	above	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	some	some	DET	DT	fPOS=DET++DT	11	det	_	?|?
+11	trees	tree	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	13912260-n|ContentBearingObject+
+12	standing	stand	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	02734488-v|Attribute+
+13	in	in	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+15	strange	strange	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	16	amod	_	00967129-a|SubjectiveStrongNegativeAttribute+
+16	position	position	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	08621598-n|Entity+
+17	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	02472293-n|Hominid=
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
+4	on	on	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	14696793-n|Mineral+
+7	high	high	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	02339120-a|SubjectiveStrongPositiveAttribute+
+8	above	above	ADV	RB	Degree=Pos|fPOS=ADJ++JJ	10	case	_	?|?
+9	some	some	DET	DT	fPOS=DET++DT	10	det	_	?|?
+10	trees	tree	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	13912260-n|ContentBearingObject+
+11	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	02604760-v|Entity+
+13	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	02734488-v|Attribute+
+14	in	in	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
+15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	?|?
+16	strange	strange	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	00967129-a|SubjectiveStrongNegativeAttribute+
+17	position	position	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	08621598-n|Entity+
+18	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

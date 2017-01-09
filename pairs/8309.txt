@@ -1,0 +1,41 @@
+sentence A = A young girl with painted face is standing next to some other children.
+sentence B = A girl with painted face is standing next to some other children.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,Human+,Painting=,Face+,Entity+,PhysicalAttribute+,Position+,equal+,HumanChild=
+CONCEPTS B: Human+,Painting=,Face+,Entity+,PhysicalAttribute+,Position+,equal+,HumanChild=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10129825-n|Human+
+4	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+5	painted	paint	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	01362736-v|Painting=
+6	face	face	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	05600637-n|Face+
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+8	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+9	next	next	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	advmod	_	01294975-a|Position+
+10	to	to	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+11	some	some	DET	DT	fPOS=DET++DT	13	det	_	?|?
+12	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	02069355-a|equal+
+13	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	09917593-n|HumanChild=
+14	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10129825-n|Human+
+3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	painted	paint	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	5	amod	_	01362736-v|Painting=
+5	face	face	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	05600637-n|Face+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+8	next	next	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	advmod	_	01294975-a|Position+
+9	to	to	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+10	some	some	DET	DT	fPOS=DET++DT	12	det	_	?|?
+11	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	02069355-a|equal+
+12	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	09917593-n|HumanChild=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

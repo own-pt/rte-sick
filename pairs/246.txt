@@ -1,0 +1,32 @@
+sentence A = A woman is wearing an Egyptian headdress.
+sentence B = The woman with a black hat is wearing sunglasses.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Putting+,Nation@,Hat+
+CONCEPTS B: Woman=,Black=,Hat+,Entity+,CoveringFn=,Device+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00052374-v|Putting+
+5	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	Egyptian	egyptian	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	02971469-a|Nation@
+7	headdress	headdress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03502509-n|Hat+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10787470-n|Woman=
+3	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+5	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00392812-a|Black=
+6	hat	hat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	03497657-n|Hat+
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	9	cop	_	02604760-v|Entity+
+8	wearing	wear	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	00047745-v|CoveringFn=
+9	sunglasses	sunglass	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	04355933-n|Device+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?

@@ -1,0 +1,28 @@
+sentence A = Paper and scissors both cut.
+sentence B = The piece of paper is being cut.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Newspaper=,Process+
+CONCEPTS B: TimeDuration+,Newspaper=,Entity+,Entity+,Cutting+
+
+CONLL A:
+
+1	Paper	paper	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	06267145-n|Newspaper=
+2	and	and	CONJ	CC	fPOS=CONJ++CC	1	cc	_	?|?
+3	scissors	scissor	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	1	conj	_	?|?
+4	both	both	DET	DT	fPOS=DET++DT	1	cc:preconj	_	?|?
+5	cut	cut	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	00352331-n|Process+
+6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	piece	piece	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubjpass	_	15246353-n|TimeDuration+
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	paper	paper	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	06267145-n|Newspaper=
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+6	being	be	VERB	VBG	VerbForm=Ger|fPOS=AUX++VBG	7	auxpass	_	02604760-v|Entity+
+7	cut	cut	ADJ	JJ	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	01552519-v|Cutting+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

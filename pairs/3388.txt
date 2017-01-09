@@ -1,0 +1,30 @@
+sentence A = A panda bear is eating some bamboo.
+sentence B = One panda is eating a bamboo cane.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Carnivore+,Mammal+,Entity+,Process+,Bamboo=
+CONCEPTS B: Carnivore+,Entity+,Process+,Bamboo=,BodyPart+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	panda	panda	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	amod	_	02510455-n|Carnivore+
+3	bear	bear	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02131653-n|Mammal+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01157517-v|Process+
+6	some	some	DET	DT	fPOS=DET++DT	7	det	_	?|?
+7	bamboo	bamboo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	12147226-n|Bamboo=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	One	1	NUM	CD	fPOS=DET++DT	2	nummod	_	?|?
+2	panda	panda	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02510455-n|Carnivore+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01157517-v|Process+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	bamboo	bamboo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	12147226-n|Bamboo=
+7	cane	cane	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	12136206-n|BodyPart+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

@@ -1,0 +1,40 @@
+sentence A = A boy of young age is playing in the park with his mother.
+sentence B = A young boy is playing in the park with his mother.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Human+,HumanYouth=,TimeInterval+,Entity+,DramaticActing+,Park+,BiologicalAttribute+
+CONCEPTS B: HumanYouth=,Human+,Entity+,DramaticActing+,Park+,BiologicalAttribute+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10285313-n|Human+
+3	of	of	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	01646941-a|HumanYouth=
+5	age	age	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	15153787-n|TimeInterval+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	08615374-n|Park+
+11	with	with	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	13	nmod:poss	_	?|?
+13	mother	mother	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	10332385-n|BiologicalAttribute+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
+3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10285313-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	08615374-n|Park+
+9	with	with	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	11	nmod:poss	_	?|?
+11	mother	mother	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	10332385-n|BiologicalAttribute+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

@@ -1,0 +1,43 @@
+sentence A = A young child is running down a road made of gravel that is covered with dead leaves.
+sentence B = A young child is running outside over the fallen leaves.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,HumanChild=,Entity+,Attribute+,earlier+,Roadway+,Attribute+,Mineral+,Entity+,Covering+,Dead=,Leaf=
+CONCEPTS B: HumanYouth=,HumanChild=,Entity+,Attribute+,Getting+,Leaf=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
+3	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	09917593-n|HumanChild=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+6	down	down	ADP	RP	fPOS=ADP++IN	5	compound:prt	_	00096089-r|earlier+
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	road	road	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	compound	_	04096066-n|Roadway+
+9	made	make	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02621395-v|Attribute+
+10	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+11	gravel	gravel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	14698884-n|Mineral+
+12	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	14	nsubjpass	_	?|?
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	14	auxpass	_	02604760-v|Entity+
+14	covered	cover	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	11	acl:relcl	_	01332730-v|Covering+
+15	with	with	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
+16	dead	dead	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	00095280-a|Dead=
+17	leaves	leaf	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	14	nmod	_	13152742-n|Leaf=
+18	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
+3	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	09917593-n|HumanChild=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+6	outside	outside	ADV	RB	fPOS=ADP++IN	10	advmod	_	?|?
+7	over	over	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+9	fallen	fall	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	02229828-v|Getting+
+10	leaves	leaf	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	13152742-n|Leaf=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

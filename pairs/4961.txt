@@ -1,0 +1,47 @@
+sentence A = A child is walking down the street and a jeep is not pulling up.
+sentence B = A man in a car is pulling up beside a woman that is who along a road.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanChild=,Entity+,Walking=,earlier+,Roadway=,Automobile+,Entity+,not=,Transportation+,Increasing+
+CONCEPTS B: Man=,Automobile=,Entity+,Transportation+,Increasing+,Woman=,Entity+,Roadway+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	09917593-n|HumanChild=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01904930-v|Walking=
+5	down	down	ADP	IN	fPOS=ADP++IN	7	case	_	00096089-r|earlier+
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04334599-n|Roadway=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	jeep	jeep	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nsubj	_	03594945-n|Automobile+
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	02604760-v|Entity+
+12	not	not	PART	RB	fPOS=PART++RB	13	neg	_	00024073-r|not=
+13	pulling	pull	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	02057499-v|Transportation+
+14	up	up	ADP	RP	fPOS=ADP++RP	13	compound:prt	_	00097011-r|Increasing+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10287213-n|Man=
+3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	02958343-n|Automobile=
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	pulling	pull	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02057499-v|Transportation+
+8	up	up	ADP	IN	fPOS=ADP++RP	7	compound:prt	_	00097011-r|Increasing+
+9	beside	beside	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	10787470-n|Woman=
+12	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	13	nsubj	_	?|?
+13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	11	acl:relcl	_	02604760-v|Entity+
+14	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	13	ccomp	_	?|?
+15	along	along	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
+16	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	?|?
+17	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	04096066-n|Roadway+
+18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

@@ -1,0 +1,26 @@
+sentence A = A band is performing onstage.
+sentence B = A band is playing onstage.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: MusicalGroup+,Entity+,IntentionalProcess+,located+
+CONCEPTS B: MusicalGroup+,Entity+,DramaticActing+,located+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	band	band	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	08249038-n|MusicalGroup+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	performing	perform	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01712704-v|IntentionalProcess+
+5	onstage	onstage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00259775-r|located+
+6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	band	band	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	08249038-n|MusicalGroup+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01719302-v|DramaticActing+
+5	onstage	onstage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00259775-r|located+
+6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

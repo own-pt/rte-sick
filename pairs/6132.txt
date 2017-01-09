@@ -1,0 +1,41 @@
+sentence A = A group of dogs are racing furiously and have muzzles on the noses.
+sentence B = A group of dogs are racing and have muzzles on their noses.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Group=,Canine+,Entity+,Motion+,EmotionalState+,Damaging+,BodyPart+,Nose+
+CONCEPTS B: Group=,Canine+,Entity+,Motion+,Damaging+,BodyPart+,Nose+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	02084071-n|Canine+
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	02604760-v|Entity+
+6	racing	race	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02058994-v|Motion+
+7	furiously	furiously	ADV	RB	fPOS=ADV++RB	6	advmod	_	00224280-r|EmotionalState+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+9	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	6	conj	_	00065639-v|Damaging+
+10	muzzles	muzzle	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	dobj	_	02452464-n|BodyPart+
+11	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	noses	nose	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	nmod	_	05598147-n|Nose+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	02084071-n|Canine+
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	6	aux	_	02604760-v|Entity+
+6	racing	race	VERB	VBG	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	02058994-v|Motion+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+8	have	have	VERB	VBP	VerbForm=Inf|fPOS=VERB++VB	6	conj	_	00065639-v|Damaging+
+9	muzzles	muzzle	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	dobj	_	02452464-n|BodyPart+
+10	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	12	nmod:poss	_	?|?
+12	noses	nose	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	nmod	_	05598147-n|Nose+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

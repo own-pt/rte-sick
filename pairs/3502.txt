@@ -1,0 +1,29 @@
+sentence A = There is no dog licking a baby.
+sentence B = A dog is licking a baby.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Canine+,Licking+,HumanBaby=
+CONCEPTS B: Canine+,Entity+,Licking+,HumanBaby=
+
+CONLL A:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
+4	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	02084071-n|Canine+
+5	licking	lick	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	01432176-v|Licking+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	baby	baby	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	09827683-n|HumanBaby=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02084071-n|Canine+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	licking	lick	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01432176-v|Licking+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	baby	baby	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	09827683-n|HumanBaby=
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

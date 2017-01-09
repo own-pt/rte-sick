@@ -1,0 +1,29 @@
+sentence A = A kitten is drinking fresh milk.
+sentence B = A drunk man is milking a cat.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Feline+,Entity+,Drinking+,SubjectiveWeakPositiveAttribute+,BodySubstance+
+CONCEPTS B: Drinking+,Man=,Entity+,Removing+,Whip+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	kitten	kitten	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02122948-n|Feline+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	drinking	drink	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01171183-v|Drinking+
+5	fresh	fresh	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	01067694-a|SubjectiveWeakPositiveAttribute+
+6	milk	milk	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	05399034-n|BodySubstance+
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	drunk	drink	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01171183-v|Drinking+
+3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10287213-n|Man=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	milking	milk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00194170-v|Removing+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02985606-n|Whip+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

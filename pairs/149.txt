@@ -3,8 +3,8 @@ sentence B = A deer is jumping over the enclosure.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Deer=,Entity+,Ambulating=,SubjectiveAssessmentAttribute+,?,Device+,?
-CONCEPTS B: ?,Deer=,Entity+,Ambulating=,SubjectiveAssessmentAttribute+,?,Region+,?
+CONCEPTS A: Deer=,Entity+,Ambulating=,SubjectiveAssessmentAttribute+,Device+
+CONCEPTS B: Deer=,Entity+,Ambulating=,SubjectiveAssessmentAttribute+,Region+
 
 CONLL A:
 
@@ -28,5 +28,3 @@ CONLL B:
 6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	enclosure	enclosure	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03285912-n|Region+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
-
-

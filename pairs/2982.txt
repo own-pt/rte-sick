@@ -1,0 +1,29 @@
+sentence A = Different teams are playing football on the field.
+sentence B = Two teams are playing soccer.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: equal+,Organization=,Entity+,Game+,Football+,FieldOfStudy=
+CONCEPTS B: Organization=,Entity+,DramaticActing+,Soccer=
+
+CONLL A:
+
+1	Different	different	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	02064745-a|equal+
+2	teams	team	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	08208560-n|Organization=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01072949-v|Game+
+5	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00468480-n|Football+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05996646-n|FieldOfStudy=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	Degree=Pos|fPOS=ADJ++JJ	2	nummod	_	?|?
+2	teams	team	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	08208560-n|Organization=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	soccer	soccer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00478262-n|Soccer=
+6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

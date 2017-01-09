@@ -1,0 +1,17 @@
+# sent_id = 8615b
+# text = An old man with a beard that is grey is riding a bike.
+1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	old	old	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01643620-a|SubjectiveAssessmentAttribute+
+3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	10287213-n|Man=
+4	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	beard	beard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	05261566-n|FacialHair+
+7	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	9	nsubj	_	?|?
+8	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	9	cop	_	02604760-v|Entity+
+9	grey	grey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	acl:relcl	_	04961691-n|Gray+
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	02604760-v|Entity+
+11	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02102398-v|Transportation+
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	02834778-n|Bicycle=
+14	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+

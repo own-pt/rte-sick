@@ -1,0 +1,34 @@
+sentence A = A cheetah is breathlessly chasing its prey across a field.
+sentence B = A cheetah is quickly running behind its prey.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Feline+,Entity+,Breathing+,Pursuing+,Animal+,FieldOfStudy=
+CONCEPTS B: Feline+,Entity+,SubjectiveAssessmentAttribute+,Hunting+,Animal+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	cheetah	cheetah	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02130308-n|Feline+
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	breathlessly	breathlessly	ADV	RB	fPOS=ADV++RB	5	advmod	_	00219748-r|Breathing+
+5	chasing	chase	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02001858-v|Pursuing+
+6	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	7	nmod:poss	_	?|?
+7	prey	prey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02152881-n|Animal+
+8	across	across	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	05996646-n|FieldOfStudy=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	cheetah	cheetah	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02130308-n|Feline+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	quickly	quickly	ADV	RB	fPOS=ADV++RB	5	advmod	_	00085811-r|SubjectiveAssessmentAttribute+
+5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01143838-v|Hunting+
+6	behind	behind	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	8	nmod:poss	_	?|?
+8	prey	prey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02152881-n|Animal+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

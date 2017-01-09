@@ -1,0 +1,31 @@
+sentence A = A dog is not running towards a ball.
+sentence B = A dog is running towards a ball.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Canine+,Entity+,not=,Attribute+,Ball=
+CONCEPTS B: Canine+,Entity+,Attribute+,Ball=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	00024073-r|not=
+5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+6	towards	towards	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02778669-n|Ball=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02084071-n|Canine+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+5	towards	towards	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02778669-n|Ball=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

@@ -1,0 +1,33 @@
+sentence A = A brown dog is jumping in the air.
+sentence B = A healthy looking dog is lying on the ground.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Canine+,Entity+,Ambulating=,AirTransportation+
+CONCEPTS B: DiseaseOrSyndrome[,SubjectiveAssessmentAttribute+,Canine+,Entity+,PhysicalAttribute+,LandArea=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00245112-a|Human+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	00300441-n|AirTransportation+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?
+2	healthy	healthy	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01170243-a|DiseaseOrSyndrome[
+3	looking	look	VERB	VBG	Number=Sing|fPOS=NOUN++NN	4	amod	_	02133435-v|SubjectiveAssessmentAttribute+
+4	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	02084071-n|Canine+
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+6	lying	lie	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02690708-v|PhysicalAttribute+
+7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	ground	ground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	09334396-n|LandArea=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

@@ -1,0 +1,34 @@
+sentence A = A woman is putting the baby into a trash can.
+sentence B = A person is putting meat into a skillet.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Putting=,HumanBaby=,SubjectiveAssessmentAttribute+
+CONCEPTS B: Human=,Entity+,Putting=,SubjectiveAssessmentAttribute+,PotOrPan+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01494310-v|Putting=
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	baby	baby	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	09827683-n|HumanBaby=
+7	into	into	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+9	trash	trash	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	08402147-n|SubjectiveAssessmentAttribute+
+10	can	can	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	?|?
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01494310-v|Putting=
+5	meat	meat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	05921123-n|SubjectiveAssessmentAttribute+
+6	into	into	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	skillet	skillet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03400231-n|PotOrPan+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

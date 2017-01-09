@@ -1,0 +1,47 @@
+sentence A = A woman is wearing sunglasses of large size and is holding newspapers in both hands.
+sentence B = A newspaper is featuring a woman with large sized hands holding sunglasses and wearing a coat.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,RecreationOrExercise+,Device+,SubjectiveWeakPositiveAttribute+,Attribute+,Entity+,Obligation+,Newspaper=,Hand+
+CONCEPTS B: Newspaper=,Entity+,Attribute+,Woman=,SubjectiveWeakPositiveAttribute+,IntentionalProcess+,Hand+,Obligation+,Device+,CoveringFn=,Coat=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	02604760-v|Entity+
+4	wearing	wear	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	00075021-v|RecreationOrExercise+
+5	sunglasses	sunglass	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	04355933-n|Device+
+6	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+8	size	size	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	05098942-n|Attribute+
+9	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	11	aux	_	02604760-v|Entity+
+11	holding	hold	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	5	conj	_	02203362-v|Obligation+
+12	newspapers	newspaper	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	dobj	_	06267145-n|Newspaper=
+13	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	both	both	DET	DT	fPOS=DET++DT	15	det	_	?|?
+15	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	nmod	_	05564590-n|Hand+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	newspaper	newspaper	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	06267145-n|Newspaper=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	featuring	feature	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02630189-v|Attribute+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	10787470-n|Woman=
+7	with	with	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+8	large	large	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+9	sized	size	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	12	amod	_	00319214-v|IntentionalProcess+
+10	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	amod	_	05564590-n|Hand+
+11	holding	hold	VERB	VBG	Number=Sing|fPOS=NOUN++NN	12	compound	_	02203362-v|Obligation+
+12	sunglasses	sunglass	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	04355933-n|Device+
+13	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+14	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	00047745-v|CoveringFn=
+15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+16	coat	coat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	03057021-n|Coat=
+17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

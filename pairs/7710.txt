@@ -1,0 +1,47 @@
+sentence A = The blonde girl with the pink top is happily smiling and wearing funny glasses with a large nose attached.
+sentence B = A little girl is smiling and wearing a fake nose and glasses.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Human+,Pink+,PositionalAttribute+,Entity+,Happiness+,Smiling=,CoveringFn=,SubjectiveStrongPositiveAttribute+,Cup=,SubjectiveWeakPositiveAttribute+,Nose+,Attaching=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Smiling=,CoveringFn=,SubjectiveAssessmentAttribute+,Nose+,Cup=
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	blonde	blonde	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00243606-a|Human+
+3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	10129825-n|Human+
+4	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	pink	pink	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	amod	_	00379595-a|Pink+
+7	top	top	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	08663354-n|PositionalAttribute+
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	10	aux	_	02604760-v|Entity+
+9	happily	happily	ADV	RB	fPOS=ADV++RB	10	advmod	_	00050297-r|Happiness+
+10	smiling	smile	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	00028565-v|Smiling=
+11	and	and	CONJ	CC	fPOS=CONJ++CC	10	cc	_	?|?
+12	wearing	wear	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	10	conj	_	00047745-v|CoveringFn=
+13	funny	funny	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	14	amod	_	01265308-a|SubjectiveStrongPositiveAttribute+
+14	glasses	glass	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	dobj	_	03438257-n|Cup=
+15	with	with	ADP	IN	fPOS=ADP++IN	18	case	_	?|?
+16	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	18	det	_	?|?
+17	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	18	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+18	nose	nose	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	05598147-n|Nose+
+19	attached	attach	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	18	acl	_	01290255-v|Attaching=
+20	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10129825-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	02604760-v|Entity+
+5	smiling	smile	VERB	VBG	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	00028565-v|Smiling=
+6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+7	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	00047745-v|CoveringFn=
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+9	fake	fake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	03318438-n|SubjectiveAssessmentAttribute+
+10	nose	nose	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	05598147-n|Nose+
+11	and	and	CONJ	CC	fPOS=CONJ++CC	10	cc	_	?|?
+12	glasses	glass	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	conj	_	03438257-n|Cup=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

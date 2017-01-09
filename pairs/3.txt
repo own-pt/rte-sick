@@ -3,8 +3,8 @@ sentence B = The kids are playing outdoors near a man with a smile.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,HumanYouth=,Human+,Entity+,DramaticActing+,Outdoors+,?,?,Man=,Entity+,Smiling=,Near=,?
-CONCEPTS B: ?,HumanChild=,Entity+,DramaticActing+,Outdoors+,?,?,Hominid=,?,?,Smiling+,?
+CONCEPTS A: HumanYouth=,Human+,Entity+,DramaticActing+,Outdoors+,Man=,Entity+,Smiling=,Near=
+CONCEPTS B: HumanChild=,Entity+,DramaticActing+,Outdoors+,Hominid=,Smiling+
 
 CONLL A:
 
@@ -37,5 +37,3 @@ CONLL B:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	smile	smile	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	06878071-n|Smiling+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
-
-

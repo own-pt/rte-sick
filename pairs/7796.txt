@@ -1,0 +1,33 @@
+sentence A = There is no tennis player lunging to the left.
+sentence B = A tennis player is lunging to the left.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Tennis=,Human+,BodyMotion+,Hand+
+CONCEPTS B: Tennis=,Human+,Entity+,BodyMotion+,Hand+
+
+CONLL A:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	?|?
+4	tennis	tennis	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	00482298-n|Tennis=
+5	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	10439851-n|Human+
+6	lunging	lunge	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	acl	_	02062212-v|BodyMotion+
+7	to	to	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	left	left	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	05565548-n|Hand+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	tennis	tennis	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	compound	_	00482298-n|Tennis=
+3	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10439851-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	lunging	lunge	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02062212-v|BodyMotion+
+6	to	to	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	left	left	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	05565548-n|Hand+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

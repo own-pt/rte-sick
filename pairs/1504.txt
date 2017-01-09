@@ -1,0 +1,30 @@
+sentence A = Three men are practicing karate in a field.
+sentence B = Three men are practicing karate outdoors.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Position+,Karate=,FieldOfStudy=
+CONCEPTS B: Hominid=,Entity+,Position+,Karate=,Outdoors+
+
+CONLL A:
+
+1	Three	3	NUM	CD	Number=Plur|PronType=Dem|fPOS=DET++DT	2	nummod	_	?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02472293-n|Hominid=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	practicing	practice	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02568672-v|Position+
+5	karate	karate	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00826397-n|Karate=
+6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05996646-n|FieldOfStudy=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	Three	3	NUM	CD	Number=Plur|PronType=Dem|fPOS=DET++DT	2	nummod	_	?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	02472293-n|Hominid=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	6	cop	_	02604760-v|Entity+
+4	practicing	practice	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	02568672-v|Position+
+5	karate	karate	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	00826397-n|Karate=
+6	outdoors	outdoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	00110659-r|Outdoors+
+7	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

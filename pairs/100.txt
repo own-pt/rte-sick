@@ -3,8 +3,8 @@ sentence B = Four girls are doing backbends and playing outdoors.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,BodyMotion+,?,?,DramaticActing+,?,?,CultivatedLandArea+,?
-CONCEPTS B: ?,Human+,Entity+,BodyMotion+,?,?,DramaticActing+,Outdoors+,?
+CONCEPTS A: Human+,Entity+,BodyMotion+,DramaticActing+,CultivatedLandArea+
+CONCEPTS B: Human+,Entity+,BodyMotion+,DramaticActing+,Outdoors+
 
 CONLL A:
 
@@ -32,5 +32,3 @@ CONLL B:
 7	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	01719302-v|DramaticActing+
 8	outdoors	outdoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	00110659-r|Outdoors+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
-
-

@@ -3,8 +3,8 @@ sentence B = A little girl is looking at a woman in costume.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: Pretending+,GroupOfPeople=,Entity+,SubjectiveAssessmentAttribute+,?,?,equal+,DirectionalAttribute=,?,?,Forest=,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,SubjectiveAssessmentAttribute+,?,?,Woman=,?,Clothing+,?
+CONCEPTS A: Pretending+,GroupOfPeople=,Entity+,SubjectiveAssessmentAttribute+,equal+,DirectionalAttribute=,Forest=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,SubjectiveAssessmentAttribute+,Woman=,Clothing+
 
 CONLL A:
 
@@ -35,5 +35,3 @@ CONLL B:
 9	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
 10	costume	costume	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	03113657-n|Clothing+
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
-
-

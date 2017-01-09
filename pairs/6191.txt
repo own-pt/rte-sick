@@ -1,0 +1,42 @@
+sentence A = The group of people is sitting on a rocky ledge and a scenic view is behind them.
+sentence B = Four people are sitting on a low cement ledge.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Group=,GroupOfPeople=,PhysicalAttribute+,SittingDown+,TextureAttribute+,GeographicArea+,StationaryArtifact+,VisualAttribute+,PhysicalAttribute+
+CONCEPTS B: GroupOfPeople=,PhysicalAttribute+,SittingDown+,Motion+,Cement=,GeographicArea+
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	07942152-n|GroupOfPeople=
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02655135-v|PhysicalAttribute+
+6	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+7	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+9	rocky	rocky	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	10	compound	_	02243567-a|TextureAttribute+
+10	ledge	ledge	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	09337253-n|GeographicArea+
+11	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+13	scenic	scenic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	02792789-a|StationaryArtifact+
+14	view	view	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	nsubj	_	05933246-n|VisualAttribute+
+15	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	17	cop	_	02655135-v|PhysicalAttribute+
+16	behind	behind	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
+17	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|fPOS=PRON++PRP	6	conj	_	?|?
+18	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
+CONLL B:
+
+1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	07942152-n|GroupOfPeople=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+5	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+7	low	low	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	01212469-a|Motion+
+8	cement	cement	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	14804175-n|Cement=
+9	ledge	ledge	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09337253-n|GeographicArea+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

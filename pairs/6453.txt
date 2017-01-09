@@ -1,0 +1,41 @@
+sentence A = A small boy in a yellow shirt is laughing on the beach.
+sentence B = A laughing boy is in a yellow tank and is wearing a top.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,SubjectiveAssessmentAttribute+,Shirt=,Entity+,Laughing=,ShoreArea=
+CONCEPTS B: Laughing=,Human+,Entity+,SubjectiveAssessmentAttribute+,FluidContainer+,Entity+,RecreationOrExercise+,PositionalAttribute+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10285313-n|Human+
+4	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+7	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	04197391-n|Shirt=
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+9	laughing	laugh	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00031820-v|Laughing=
+10	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	09217230-n|ShoreArea=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	laughing	laugh	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	00031820-v|Laughing=
+3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10285313-n|Human+
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	cop	_	02604760-v|Entity+
+5	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+8	tank	tank	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	04388743-n|FluidContainer+
+9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	02604760-v|Entity+
+11	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	8	conj	_	00075021-v|RecreationOrExercise+
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	top	top	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	08663354-n|PositionalAttribute+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?

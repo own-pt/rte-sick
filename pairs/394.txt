@@ -1,0 +1,42 @@
+sentence A = A man is sitting near a bike and is writing a note.
+sentence B = A man is standing near a bike and is writing on a piece paper.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,PhysicalAttribute+,SittingDown+,Bicycle=,PhysicalAttribute+,WrittenCommunication=,FactualText=
+CONCEPTS B: GamePiece+,Entity+,PhysicalAttribute+,Bicycle=,Entity+,WrittenCommunication=,GamePiece+,Newspaper=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+5	near	near	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02834778-n|Bicycle=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02655135-v|PhysicalAttribute+
+10	writing	write	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	00993014-v|WrittenCommunication=
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	note	note	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	06504462-n|FactualText=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	03716327-n|GamePiece+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+5	near	near	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02834778-n|Bicycle=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
+10	writing	write	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	00993014-v|WrittenCommunication=
+11	on	on	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+13	piece	piece	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	03716327-n|GamePiece+
+14	paper	paper	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	06267145-n|Newspaper=
+15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

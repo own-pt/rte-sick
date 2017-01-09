@@ -1,0 +1,34 @@
+sentence A = A girl, who is little, is playing the piano.
+sentence B = A little girl is playing the piano.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Human+,Entity+,SubjectiveStrongNegativeAttribute+,Entity+,DramaticActing+,Piano=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,DramaticActing+,Piano=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10129825-n|Human+
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
+4	who	who	PRON	WP	PronType=Int|fPOS=PRON++WP	6	nsubj	_	?|?
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
+6	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	01391351-a|SubjectiveStrongNegativeAttribute+
+7	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	?|?
+8	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+9	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	piano	piano	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	03928116-n|Piano=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10129825-n|Human+
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	02604760-v|Entity+
+5	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	piano	piano	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03928116-n|Piano=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

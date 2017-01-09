@@ -3,8 +3,8 @@ sentence B = A group of friends are riding the current in a raft.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,TimePosition+,Entity+,Entity+,Carrying=,?,?,Group=,?,SubjectiveAssessmentAttribute=,?,?,SubjectiveAssessmentAttribute+,?
-CONCEPTS B: ?,Group=,?,SubjectiveAssessmentAttribute=,Entity+,Carrying=,?,TimePosition+,?,?,SubjectiveAssessmentAttribute+,?
+CONCEPTS A: TimePosition+,Entity+,Entity+,Carrying=,Group=,SubjectiveAssessmentAttribute=,SubjectiveAssessmentAttribute+
+CONCEPTS B: Group=,SubjectiveAssessmentAttribute=,Entity+,Carrying=,TimePosition+,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
@@ -38,5 +38,3 @@ CONLL B:
 10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
 11	raft	raft	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	13774404-n|SubjectiveAssessmentAttribute+
 12	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
-
-

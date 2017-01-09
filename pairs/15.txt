@@ -3,8 +3,8 @@ sentence B = There is no dog wrestling and hugging.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Canine+,Entity+,Attack=,?,Animal=,?,FrontFn=,?,?,Man=,?,Trousers+,?
-CONCEPTS B: ?,Entity+,?,Canine+,Wrestling+,?,Embracing+,?
+CONCEPTS A: Human+,Canine+,Entity+,Attack=,Animal=,FrontFn=,Man=,Trousers+
+CONCEPTS B: Entity+,Canine+,Wrestling+,Embracing+
 
 CONLL A:
 
@@ -35,5 +35,3 @@ CONLL B:
 6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
 7	hugging	hug	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	01424456-v|Embracing+
 8	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
-
-

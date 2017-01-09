@@ -3,8 +3,8 @@ sentence B = A man with a jersey is dunking the ball at a basketball game.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human+,Entity+,Wetting+,?,Basketball=,?,?,Fabric+,?,?,SubjectiveAssessmentAttribute=,Entity+,?,Region+,?
-CONCEPTS B: ?,Man=,?,?,HoofedMammal+,Entity+,Wetting+,?,Ball=,?,?,Basketball=,Game=,?
+CONCEPTS A: Human+,Entity+,Wetting+,Basketball=,Fabric+,SubjectiveAssessmentAttribute=,Entity+,Region+
+CONCEPTS B: Man=,HoofedMammal+,Entity+,Wetting+,Ball=,Basketball=,Game=
 
 CONLL A:
 
@@ -42,5 +42,3 @@ CONLL B:
 12	basketball	basketball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	compound	_	00480993-n|Basketball=
 13	game	game	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	00455599-n|Game=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
-
-

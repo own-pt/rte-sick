@@ -1,0 +1,32 @@
+sentence A = Three men are looking absent mindedly into the distance.
+sentence B = Three men are looking into the distance.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,SubjectiveAssessmentAttribute+,Removing+,LengthMeasure+
+CONCEPTS B: Hominid=,Entity+,SubjectiveAssessmentAttribute+,LengthMeasure+
+
+CONLL A:
+
+1	Three	3	DET	DT	Number=Plur|PronType=Dem|fPOS=DET++DT	2	det	_	?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02472293-n|Hominid=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
+5	absent	absent	ADV	RBS	Degree=Pos|fPOS=ADJ++JJ	4	advmod	_	00421535-v|Removing+
+6	mindedly	mindedly	ADV	RB	fPOS=ADV++RB	9	advmod	_	?|?
+7	into	into	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	distance	distance	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05084201-n|LengthMeasure+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	Three	3	DET	DT	Number=Plur|PronType=Dem|fPOS=DET++DT	2	det	_	?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02472293-n|Hominid=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
+5	into	into	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	distance	distance	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05084201-n|LengthMeasure+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

@@ -1,0 +1,39 @@
+sentence A = A man is wearing a clear plastic cap and a mask.
+sentence B = A man is wearing a clear plastic cap and a face mask.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Hominid=,Entity+,CoveringFn=,SubjectiveAssessmentAttribute+,Substance+,Device+,Artifact+
+CONCEPTS B: Hominid=,Entity+,CoveringFn=,SubjectiveAssessmentAttribute+,Substance+,Device+,Face+,Artifact+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	00047745-v|CoveringFn=
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+6	clear	clear	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	00431447-a|SubjectiveAssessmentAttribute+
+7	plastic	plastic	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	8	compound	_	14592610-n|Substance+
+8	cap	cap	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02954938-n|Device+
+9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	mask	mask	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	conj	_	03724870-n|Artifact+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	00047745-v|CoveringFn=
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+6	clear	clear	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	00431447-a|SubjectiveAssessmentAttribute+
+7	plastic	plastic	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	8	compound	_	14592610-n|Substance+
+8	cap	cap	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02954938-n|Device+
+9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+11	face	face	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	05600637-n|Face+
+12	mask	mask	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	conj	_	03724870-n|Artifact+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

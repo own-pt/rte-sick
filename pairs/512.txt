@@ -1,0 +1,39 @@
+sentence A = A man wearing a dyed black shirt is sitting at the table and laughing.
+sentence B = A man isn't sitting comfortably at the table.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Man=,Putting+,Coloring+,Black=,Shirt=,PhysicalAttribute+,SittingDown+,ContentBearingObject+,Laughing=
+CONCEPTS B: Hominid=,PhysicalAttribute+,not=,SittingDown+,StateOfMind+,ContentBearingObject+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10287213-n|Man=
+3	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	2	acl	_	00052374-v|Putting+
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+5	dyed	dye	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	7	amod	_	00283090-v|Coloring+
+6	black	black	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	amod	_	00392812-a|Black=
+7	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	04197391-n|Shirt=
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02655135-v|PhysicalAttribute+
+9	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+10	at	at	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	table	table	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	nmod	_	08266235-n|ContentBearingObject+
+13	and	and	CONJ	CC	fPOS=CONJ++CC	12	cc	_	?|?
+14	laughing	laugh	VERB	VBG	Number=Sing|fPOS=NOUN++NN	12	conj	_	00031820-v|Laughing=
+15	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02655135-v|PhysicalAttribute+
+4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	00024073-r|not=
+5	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+6	comfortably	comfortably	ADV	RB	fPOS=ADV++RB	5	advmod	_	00155020-r|StateOfMind+
+7	at	at	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	table	table	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	08266235-n|ContentBearingObject+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

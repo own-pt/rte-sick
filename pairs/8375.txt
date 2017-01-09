@@ -1,0 +1,44 @@
+sentence A = Two large dogs, a light colored one and a dark one, are sleeping on a snowy terrain.
+sentence B = Two dogs are leaping through snowy grass and rocks.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Canine+,RadiatingVisibleLight+,SurfaceChange+,SubjectiveWeakNegativeAttribute+,Entity+,OrganismProcess+,Covering+,LandArea+
+CONCEPTS B: Canine+,Entity+,Ambulating=,Covering+,Grass=,Rock=
+
+CONLL A:
+
+1	Two	2	ADP	IN	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?
+2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+3	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	15	nsubj	_	02084071-n|Canine+
+4	,	,	PUNCT	,	fPOS=PUNCT++,	3	punct	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+6	light	light	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	11473954-n|RadiatingVisibleLight+
+7	colored	color	ADJ	JJ	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	8	amod	_	00283911-v|SurfaceChange+
+8	one	1	NOUN	NN	NumType=Card|fPOS=NUM++CD	3	appos	_	?|?
+9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+11	dark	dark	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	amod	_	00409440-a|SubjectiveWeakNegativeAttribute+
+12	one	1	NUM	CD	Number=Sing|fPOS=NOUN++NN	8	conj	_	?|?
+13	,	,	PUNCT	,	fPOS=PUNCT++,	15	punct	_	?|?
+14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	15	aux	_	02604760-v|Entity+
+15	sleeping	sleep	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00014742-v|OrganismProcess+
+16	on	on	ADP	IN	fPOS=ADP++IN	19	case	_	?|?
+17	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	19	det	_	?|?
+18	snowy	snowy	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	19	compound	_	01698231-a|Covering+
+19	terrain	terrain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	08674563-n|LandArea+
+20	.	.	PUNCT	.	fPOS=PUNCT++.	15	punct	_	?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?
+2	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02084071-n|Canine+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	leaping	leap	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+5	through	through	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	snowy	snowy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	01698231-a|Covering+
+7	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	12102133-n|Grass=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
+9	rocks	rock	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	conj	_	09416076-n|Rock=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

@@ -1,0 +1,31 @@
+sentence A = Three people are driving four wheel ATVs in a street.
+sentence B = Three people are driving ATVs.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GroupOfPeople=,Entity+,Transportation+,VehicleWheel=,Roadway=
+CONCEPTS B: GroupOfPeople=,Entity+,Transportation+
+
+CONLL A:
+
+1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	07942152-n|GroupOfPeople=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	driving	drive	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01930874-v|Transportation+
+5	four	4	ADP	RP	fPOS=PART++RB	7	compound	_	?|?
+6	wheel	wheel	ADV	WRB	VerbForm=Inf|fPOS=VERB++VB	7	compound	_	04574999-n|VehicleWheel=
+7	ATVs	atvs	PROPN	NNP	Number=Sing|fPOS=PROPN++NNP	4	dobj	_	?|?
+8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04334599-n|Roadway=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	07942152-n|GroupOfPeople=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	driving	drive	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01930874-v|Transportation+
+5	ATVs	atvs	PROPN	NNP	Number=Sing|fPOS=PROPN++NNP	4	dobj	_	?|?
+6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

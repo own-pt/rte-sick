@@ -1,0 +1,29 @@
+# sent_id = 5943a
+# text = A person with a back pack, who is topless, is in front of a pile of rocks and clouds are in the background.
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nsubj	_	00007846-n|Human=
+3	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+5	back	back	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00197576-a|BackFn=
+6	pack	pack	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	08240633-n|Group+
+7	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
+8	who	who	PRON	WP	PronType=Int|fPOS=PRON++WP	10	nsubj	_	?|?
+9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	10	cop	_	02604760-v|Entity+
+10	topless	topless	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	02442082-a|top+
+11	,	,	PUNCT	,	fPOS=PUNCT++,	14	punct	_	?|?
+12	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	14	cop	_	02604760-v|Entity+
+13	in	in	ADV	RB	fPOS=ADP++IN	14	case	_	?|?
+14	front	front	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	08573472-n|FrontFn=
+15	of	of	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
+16	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	?|?
+17	pile	pile	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	13774404-n|SubjectiveAssessmentAttribute+
+18	of	of	ADP	IN	fPOS=ADP++IN	19	case	_	?|?
+19	rocks	rock	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	17	nmod	_	14696793-n|Mineral+
+20	and	and	CONJ	CC	fPOS=CONJ++CC	14	cc	_	?|?
+21	clouds	cloud	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	25	nsubj	_	09247410-n|Cloud=
+22	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	25	cop	_	02604760-v|Entity+
+23	in	in	ADP	IN	fPOS=ADP++IN	25	case	_	?|?
+24	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	25	det	_	?|?
+25	background	background	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	conj	_	14513259-n|Region+
+26	.	.	PUNCT	.	fPOS=PUNCT++.	14	punct	_	?|?
+

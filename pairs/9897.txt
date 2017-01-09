@@ -1,0 +1,47 @@
+sentence A = A man and two women in a darkened room are sitting at a table with candles.
+sentence B = A man is abruptly falling off a horse on a track laid in the wild.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Man=,Woman=,SurfaceChange+,Room=,PhysicalAttribute+,SittingDown+,ContentBearingObject+,Candle=
+CONCEPTS B: Hominid=,Entity+,FinancialTransaction+,Getting+,Horse=,Transitway+,Putting=,Organism+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	10287213-n|Man=
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	5	nummod	_	?|?
+5	women	woman	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	conj	_	10787470-n|Woman=
+6	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	darkened	darken	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	9	amod	_	00311559-v|SurfaceChange+
+9	room	room	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	04105893-n|Room=
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	11	aux	_	02655135-v|PhysicalAttribute+
+11	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+12	at	at	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+14	table	table	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	11	nmod	_	08266235-n|ContentBearingObject+
+15	with	with	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+16	candles	candle	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	nmod	_	02948072-n|Candle=
+17	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02472293-n|Hominid=
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	02604760-v|Entity+
+4	abruptly	abruptly	ADV	RB	fPOS=ADV++RB	5	advmod	_	00061528-r|FinancialTransaction+
+5	falling	fall	ADJ	JJ	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02229828-v|Getting+
+6	off	off	ADP	IN	fPOS=ADP++RP	8	case	_	00232936-r|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02374451-n|Horse=
+9	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+11	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	09387222-n|Transitway+
+12	laid	lay	VERB	VBD	Number=Sing|fPOS=NOUN++NN	5	nmod	_	01494310-v|Putting=
+13	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	wild	wild	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	02389220-a|Organism+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

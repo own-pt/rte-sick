@@ -1,0 +1,39 @@
+sentence A = There is no family posing by the mantel and the Christmas tree.
+sentence B = A family is posing by the mantel and the Christmas tree.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,FamilyGroup+,Putting=,Shelf+,TimeInterval+,ContentBearingObject+
+CONCEPTS B: FamilyGroup+,Entity+,Putting=,Shelf+,TimeInterval+,ContentBearingObject+
+
+CONLL A:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	?|?
+4	family	family	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	compound	_	07970721-n|FamilyGroup+
+5	posing	pose	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	2	nsubj	_	01494310-v|Putting=
+6	by	by	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	mantel	mantel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03719343-n|Shelf+
+9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+11	Christmas	christmas	NOUN	NN	Number=Sing|fPOS=PROPN++NNP	12	compound	_	15196537-n|TimeInterval+
+12	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	conj	_	13912260-n|ContentBearingObject+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	family	family	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	07970721-n|FamilyGroup+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	posing	pose	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01494310-v|Putting=
+5	by	by	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	mantel	mantel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03719343-n|Shelf+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+10	Christmas	christmas	NOUN	NN	Number=Sing|fPOS=PROPN++NNP	11	compound	_	15196537-n|TimeInterval+
+11	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	conj	_	13912260-n|ContentBearingObject+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

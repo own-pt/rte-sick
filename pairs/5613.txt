@@ -1,0 +1,29 @@
+sentence A = A man is not playing keyboards.
+sentence B = A man is riding a mechanical bull.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,not=,DramaticActing+,ComputerInputDevice+
+CONCEPTS B: Man=,Entity+,Carrying=,Device+,Region@
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	02604760-v|Entity+
+4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	00024073-r|not=
+5	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+6	keyboards	keyboard	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	03614007-n|ComputerInputDevice+
+7	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10287213-n|Man=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01955984-v|Carrying=
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	mechanical	mechanical	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	01499686-a|Device+
+7	bull	bull	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	08686332-n|Region@
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

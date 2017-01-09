@@ -1,0 +1,42 @@
+sentence A = A man in a red uniform is racing and making a jump over a bike in the dirt.
+sentence B = A man is participating in a bmx race.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Red=,UniformClothing=,Entity+,Motion+,Defecate=,Transportation+,Bicycle=,Text+
+CONCEPTS B: Hominid=,Entity+,SocialInteraction+,Racing=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	02472293-n|Hominid=
+3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+5	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00381097-a|Red=
+6	uniform	uniform	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	04509592-n|UniformClothing=
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+8	racing	race	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02058994-v|Motion+
+9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
+10	making	make	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	8	conj	_	00074038-v|Defecate=
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	jump	jump	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	00303849-n|Transportation+
+13	over	over	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	02834778-n|Bicycle=
+16	in	in	ADP	IN	fPOS=ADP++IN	18	case	_	?|?
+17	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	18	det	_	?|?
+18	dirt	dirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	07223811-n|Text+
+19	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	participating	participate	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02450256-v|SocialInteraction+
+5	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	bmx	bmx	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	amod	_	?|?
+8	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	07458453-n|Racing=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

@@ -3,8 +3,8 @@ sentence B = Two teams are competing in a baseball game.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Organization=,Entity+,Contest+,?,?,Football+,Sport+,?
-CONCEPTS B: ?,Organization=,Entity+,Contest+,?,?,Baseball=,Game=,?
+CONCEPTS A: Organization=,Entity+,Contest+,Football+,Sport+
+CONCEPTS B: Organization=,Entity+,Contest+,Baseball=,Game=
 
 CONLL A:
 
@@ -30,5 +30,3 @@ CONLL B:
 7	baseball	baseball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	00471613-n|Baseball=
 8	game	game	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	00455599-n|Game=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
-
-

@@ -1,0 +1,47 @@
+sentence A = A classroom full of students is looking attentively in the same direction inside a bamboo structure.
+sentence B = A group of students in uniforms is listening attentively at the front of the class.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Classroom+,ContainerFull+,SocialRole+,Entity+,Looking=,SubjectiveAssessmentAttribute+,equal+,DirectionalAttribute=,Bamboo=,Artifact+
+CONCEPTS B: Group=,SocialRole+,UniformClothing=,Entity+,Listening=,SubjectiveAssessmentAttribute+,FrontFn=,Organization+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	classroom	classroom	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	03038685-n|Classroom+
+3	full	full	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	2	acl	_	01083157-a|ContainerFull+
+4	of	of	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+5	students	student	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nmod	_	10665698-n|SocialRole+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02130524-v|Looking=
+8	attentively	attentively	ADV	RB	fPOS=ADV++RB	7	advmod	_	00196417-r|SubjectiveAssessmentAttribute+
+9	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+11	same	same	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	02062670-a|equal+
+12	direction	direction	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	13827426-n|DirectionalAttribute=
+13	inside	inside	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+15	bamboo	bamboo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	compound	_	12147226-n|Bamboo=
+16	structure	structure	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	04341686-n|Artifact+
+17	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	students	student	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	10665698-n|SocialRole+
+5	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+6	uniforms	uniform	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	04509592-n|UniformClothing=
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+8	listening	listen	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02169891-v|Listening=
+9	attentively	attentively	ADV	RB	fPOS=ADV++RB	8	advmod	_	00196417-r|SubjectiveAssessmentAttribute+
+10	at	at	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	08573472-n|FrontFn=
+13	of	of	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	class	class	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	08239808-n|Organization+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?

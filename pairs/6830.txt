@@ -1,0 +1,34 @@
+sentence A = A seabird is flying over some rocks.
+sentence B = A large stream is full of rocks, ducks and flies.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Bird+,Entity+,FlyingAircraft=,SubjectiveAssessmentAttribute+,Mineral+
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,StreamWaterArea=,Attribute+,ContainerFull+,Mineral+,Duck=,FlyingAircraft=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	seabird	seabird	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02021795-n|Bird+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	flying	fly	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01941093-v|FlyingAircraft=
+5	over	over	ADP	IN	fPOS=ADP++IN	7	case	_	00226550-r|SubjectiveAssessmentAttribute+
+6	some	some	DET	DT	fPOS=DET++DT	7	det	_	?|?
+7	rocks	rock	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	14696793-n|Mineral+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+3	stream	stream	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	09448361-n|StreamWaterArea=
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	02620587-v|Attribute+
+5	full	full	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01083157-a|ContainerFull+
+6	of	of	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+7	rocks	rock	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	14696793-n|Mineral+
+8	,	,	PUNCT	,	fPOS=PUNCT++,	7	punct	_	?|?
+9	ducks	duck	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	conj	_	01846331-n|Duck=
+10	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
+11	flies	fly	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	conj	_	01941093-v|FlyingAircraft=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

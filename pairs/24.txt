@@ -3,8 +3,8 @@ sentence B = A skilled person is riding a bicycle on one wheel.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,?,?,Black=,Coat=,Entity+,IntentionalProcess+,RecreationOrExercise+,?,?,TransportationDevice+,?
-CONCEPTS B: ?,hasSkill=,Human=,Entity+,Carrying=,?,Bicycle=,?,?,Bicycle=,?
+CONCEPTS A: Human=,Black=,Coat=,Entity+,IntentionalProcess+,RecreationOrExercise+,TransportationDevice+
+CONCEPTS B: hasSkill=,Human=,Entity+,Carrying=,Bicycle=,Bicycle=
 
 CONLL A:
 
@@ -36,5 +36,3 @@ CONLL B:
 9	one	1	NUM	CD	NumType=Card|fPOS=NUM++CD	10	nummod	_	?|?
 10	wheel	wheel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02834778-n|Bicycle=
 11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
-
-

@@ -1,0 +1,47 @@
+sentence A = A barefoot man in pajamas is looking toward the sky and is standing on the tennis court.
+sentence B = A man is wearing a blue shirt and walking barefoot on a tennis court.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Clothing[,Man=,Entity+,SubjectiveAssessmentAttribute+,SpaceRegion=,Entity+,PhysicalAttribute+,Tennis=,Government+
+CONCEPTS B: Man=,Entity+,Putting+,SubjectiveStrongNegativeAttribute+,Shirt=,Walking=,Clothing[,Tennis=,Government+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	barefoot	barefoot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	02156686-a|Clothing[
+3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10287213-n|Man=
+4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+5	pajamas	pajamas	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	?|?
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
+8	toward	toward	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	sky	sky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	09436708-n|SpaceRegion=
+11	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	02604760-v|Entity+
+13	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	7	conj	_	01546111-v|PhysicalAttribute+
+14	on	on	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
+15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	17	det	_	?|?
+16	tennis	tennis	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	17	compound	_	00482298-n|Tennis=
+17	court	court	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	08329453-n|Government+
+18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10287213-n|Man=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00052374-v|Putting+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
+7	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	04197391-n|Shirt=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	walking	walk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01904930-v|Walking=
+10	barefoot	barefoot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	00278078-r|Clothing[
+11	on	on	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+13	tennis	tennis	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	14	compound	_	00482298-n|Tennis=
+14	court	court	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	08329453-n|Government+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

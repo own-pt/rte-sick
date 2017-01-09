@@ -3,8 +3,8 @@ sentence B = A person on a black motorbike is doing tricks with a jacket.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Human=,?,?,Black=,Coat=,Entity+,IntentionalProcess+,RecreationOrExercise+,?,?,TransportationDevice+,?
-CONCEPTS B: ?,Human=,?,?,Black=,TransportationDevice+,Entity+,IntentionalProcess+,RecreationOrExercise+,?,?,Coat=,?
+CONCEPTS A: Human=,Black=,Coat=,Entity+,IntentionalProcess+,RecreationOrExercise+,TransportationDevice+
+CONCEPTS B: Human=,Black=,TransportationDevice+,Entity+,IntentionalProcess+,RecreationOrExercise+,Coat=
 
 CONLL A:
 
@@ -38,5 +38,3 @@ CONLL B:
 11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	jacket	jacket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	03589791-n|Coat=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
-
-

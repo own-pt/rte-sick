@@ -1,0 +1,29 @@
+sentence A = The woman is putting away a flute.
+sentence B = A woman is playing a flute.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Putting=,Flute=
+CONCEPTS B: Woman=,Entity+,DramaticActing+,Flute=
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01494310-v|Putting=
+5	away	away	ADP	RP	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	4	compound:prt	_	00234951-r|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	flute	flute	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03372029-n|Flute=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	flute	flute	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03372029-n|Flute=
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

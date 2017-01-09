@@ -1,0 +1,46 @@
+sentence A = A tennis player in mid game is not holding a racquet.
+sentence B = A man dressed in black and white is holding up the tennis racket and is waiting for the ball.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Tennis=,Human+,earlier+,Game=,Entity+,not=,Touching+,Device+
+CONCEPTS B: Man=,Dressing+,Black=,White=,Entity+,Process+,Increasing+,Tennis=,Device+,Entity+,PsychologicalProcess+,Ball=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	tennis	tennis	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	compound	_	00482298-n|Tennis=
+3	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10439851-n|Human+
+4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+5	mid	mid	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	6	compound	_	00816324-a|earlier+
+6	game	game	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	00455599-n|Game=
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	9	aux	_	02604760-v|Entity+
+8	not	not	PART	RB	fPOS=PART++RB	9	neg	_	00024073-r|not=
+9	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01216670-v|Touching+
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	racquet	racquet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	04039381-n|Device+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10287213-n|Man=
+3	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	2	acl	_	00046534-v|Dressing+
+4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+5	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	nmod	_	00392812-a|Black=
+6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+7	white	white	PRON	DT	Number=Sing|fPOS=NOUN++NN	5	conj	_	00393105-a|White=
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+9	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02700867-v|Process+
+10	up	up	ADP	RP	fPOS=ADP++RP	9	compound:prt	_	00097011-r|Increasing+
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+12	tennis	tennis	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	compound	_	00482298-n|Tennis=
+13	racket	racket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	04039381-n|Device+
+14	and	and	CONJ	CC	fPOS=CONJ++CC	9	cc	_	?|?
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	16	aux	_	02604760-v|Entity+
+16	waiting	wait	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	9	conj	_	02637938-v|PsychologicalProcess+
+17	for	for	ADP	IN	fPOS=ADP++IN	19	case	_	?|?
+18	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	?|?
+19	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	02778669-n|Ball=
+20	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?

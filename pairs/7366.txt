@@ -1,0 +1,31 @@
+sentence A = A person is standing on a mountain top.
+sentence B = Somebody is standing on a mountain top.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Human=,Entity+,PhysicalAttribute+,Mountain=,LandArea+
+CONCEPTS B: Entity+,PhysicalAttribute+,Mountain=,LandArea+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+5	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	mountain	mountain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	09359803-n|Mountain=
+8	top	top	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	08617963-n|LandArea+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	Somebody	somebody	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	02604760-v|Entity+
+3	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+4	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	mountain	mountain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	09359803-n|Mountain=
+7	top	top	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	08617963-n|LandArea+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?

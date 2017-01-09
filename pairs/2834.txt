@@ -1,0 +1,33 @@
+sentence A = The woman is penciling on eyeshadow.
+sentence B = The girl is not using an eye pencil on her eyelid.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,ContentDevelopment+,Mixture+
+CONCEPTS B: Human+,Entity+,not=,IntentionalProcess+,Organ+,Pencil=,Eyelid+
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	penciling	pencil	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01688604-v|ContentDevelopment+
+5	on	on	ADV	RB	fPOS=ADV++RB	6	advmod	_	?|?
+6	eyeshadow	eyeshadow	ADV	RB	Degree=Pos|fPOS=ADV++RB	4	advmod	_	03309687-n|Mixture+
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10129825-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	00024073-r|not=
+5	using	use	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01158872-v|IntentionalProcess+
+6	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	eye	eye	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	05311054-n|Organ+
+8	pencil	pencil	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03908204-n|Pencil=
+9	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	11	nmod:poss	_	?|?
+11	eyelid	eyelid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	05313822-n|Eyelid+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

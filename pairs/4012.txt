@@ -1,0 +1,34 @@
+sentence A = The woman is picking up a kangaroo that is little.
+sentence B = The woman is picking up a baby kangaroo.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Pulling+,Increasing+,Marsupial+,Entity+,SubjectiveStrongNegativeAttribute+
+CONCEPTS B: Woman=,Entity+,Pulling+,Increasing+,HumanBaby=,Marsupial+
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	picking	pick	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01452546-v|Pulling+
+5	up	up	ADP	RP	fPOS=ADP++RP	4	compound:prt	_	00097011-r|Increasing+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	kangaroo	kangaroo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	01877134-n|Marsupial+
+8	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	10	nsubj	_	?|?
+9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	10	cop	_	02604760-v|Entity+
+10	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	acl:relcl	_	01391351-a|SubjectiveStrongNegativeAttribute+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	picking	pick	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01452546-v|Pulling+
+5	up	up	ADP	RP	fPOS=ADP++RP	4	compound:prt	_	00097011-r|Increasing+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	baby	baby	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	09827683-n|HumanBaby=
+8	kangaroo	kangaroo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	01877134-n|Marsupial+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

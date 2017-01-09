@@ -1,0 +1,41 @@
+sentence A = A little black dog is chasing a little brown dog.
+sentence B = A dog, which is little and black, is chasing a little brown dog.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Black=,Canine+,Entity+,Pursuing+,SubjectiveStrongNegativeAttribute+,Human+,Canine+
+CONCEPTS B: Canine+,Entity+,SubjectiveStrongNegativeAttribute+,Black=,Entity+,Pursuing+,SubjectiveStrongNegativeAttribute+,Human+,Canine+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?
+2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	00392812-a|Black=
+4	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	02084071-n|Canine+
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+6	chasing	chase	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02001858-v|Pursuing+
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+8	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+9	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00245112-a|Human+
+10	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	02084071-n|Canine+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	02084071-n|Canine+
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
+4	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	6	nsubj	_	?|?
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
+6	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	01391351-a|SubjectiveStrongNegativeAttribute+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+8	black	black	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	conj	_	00392812-a|Black=
+9	,	,	PUNCT	,	fPOS=PUNCT++,	11	punct	_	?|?
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	02604760-v|Entity+
+11	chasing	chase	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02001858-v|Pursuing+
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+13	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+14	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	00245112-a|Human+
+15	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	02084071-n|Canine+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?

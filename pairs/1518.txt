@@ -1,0 +1,27 @@
+sentence A = Two men are playing table tennis.
+sentence B = A woman is dancing alone.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,DramaticActing+,ContentBearingObject+,Tennis=
+CONCEPTS B: Woman=,Entity+,Dancing+,SocialInteraction[
+
+CONLL A:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02472293-n|Hominid=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	table	table	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	08266235-n|ContentBearingObject+
+6	tennis	tennis	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00482298-n|Tennis=
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	dancing	dance	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01708676-v|Dancing+
+5	alone	alone	ADV	RB	Degree=Pos|fPOS=ADJ++JJ	4	advmod	_	00157967-r|SocialInteraction[
+6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

@@ -3,8 +3,8 @@ sentence B = A little girl in costume looks like a woman.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: GroupOfPeople=,Dressing+,Clothing+,Entity+,Meeting+,?,?,Forest=,?,Entity+,Searching=,?,?,equal+,DirectionalAttribute=,?
-CONCEPTS B: ?,SubjectiveStrongNegativeAttribute+,Human+,?,Clothing+,SubjectiveAssessmentAttribute+,?,?,Woman=,?
+CONCEPTS A: GroupOfPeople=,Dressing+,Clothing+,Entity+,Meeting+,Forest=,Entity+,Searching=,equal+,DirectionalAttribute=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Clothing+,SubjectiveAssessmentAttribute+,Woman=
 
 CONLL A:
 
@@ -38,5 +38,3 @@ CONLL B:
 8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	10787470-n|Woman=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
-
-

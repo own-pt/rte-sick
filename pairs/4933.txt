@@ -1,0 +1,30 @@
+sentence A = An officer is talking to the recruits.
+sentence B = An officer is listening to the recruits.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: PoliceOfficer=,Entity+,Speaking+,SocialRole+
+CONCEPTS B: PoliceOfficer=,Entity+,Listening=,SocialRole+
+
+CONLL A:
+
+1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	officer	officer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10448983-n|PoliceOfficer=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	talking	talk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	00941990-v|Speaking+
+5	to	to	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	recruits	recruit	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	10512372-n|SocialRole+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	officer	officer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10448983-n|PoliceOfficer=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	listening	listen	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02169891-v|Listening=
+5	to	to	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	recruits	recruit	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	10512372-n|SocialRole+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

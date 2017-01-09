@@ -1,0 +1,28 @@
+sentence A = A woman is not boiling shrimps.
+sentence B = A woman is combing her hair.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,not=,Boiling=,PrawnMeat=
+CONCEPTS B: Woman=,Entity+,ShapeChange+,Hair=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
+4	not	not	PART	RB	fPOS=PART++RB	6	neg	_	00024073-r|not=
+5	boiling	boil	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00375021-v|Boiling=
+6	shrimps	shrimp	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	07794159-n|PrawnMeat=
+7	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	combing	comb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01596645-v|ShapeChange+
+5	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	6	nmod:poss	_	?|?
+6	hair	hair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	05254795-n|Hair=
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

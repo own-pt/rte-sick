@@ -1,0 +1,36 @@
+sentence A = A woman is looking down and is wearing a wedding dress.
+sentence B = A bride with a white veil is looking down.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,SubjectiveAssessmentAttribute+,earlier+,Entity+,Putting+,Wedding=,Clothing+
+CONCEPTS B: Human+,White=,Clothing+,Entity+,SubjectiveAssessmentAttribute+,earlier+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
+5	down	down	ADV	RB	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	4	advmod	_	00096089-r|earlier+
+6	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+8	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	00052374-v|Putting+
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+10	wedding	wedding	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	07452074-n|Wedding=
+11	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	02728440-n|Clothing+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	bride	bride	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	09874725-n|Human+
+3	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+5	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	amod	_	00393105-a|White=
+6	veil	veil	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	03502331-n|Clothing+
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+8	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
+9	down	down	ADV	RB	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	8	advmod	_	00096089-r|earlier+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?

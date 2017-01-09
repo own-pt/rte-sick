@@ -1,0 +1,34 @@
+sentence A = An old woman is shaking hands with a man.
+sentence B = A man and a woman are not shaking hands.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: SubjectiveAssessmentAttribute+,Woman=,Entity+,Motion+,Hand+,Man=
+CONCEPTS B: Man=,Woman=,Entity+,not=,Motion+,Hand+
+
+CONLL A:
+
+1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	old	old	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01643620-a|SubjectiveAssessmentAttribute+
+3	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10787470-n|Woman=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	shaking	shake	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01889610-v|Motion+
+6	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	05564590-n|Hand+
+7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	10287213-n|Man=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10287213-n|Man=
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	10787470-n|Woman=
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	8	aux	_	02604760-v|Entity+
+7	not	not	PART	RB	fPOS=PART++RB	8	neg	_	00024073-r|not=
+8	shaking	shake	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01889610-v|Motion+
+9	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	dobj	_	05564590-n|Hand+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?

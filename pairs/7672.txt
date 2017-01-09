@@ -1,0 +1,44 @@
+sentence A = The man is doing a handstand on the wet shore at the edge of the water at the beach.
+sentence B = A man is performing a handstand on the beach.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,IntentionalProcess+,BodyMotion+,Wetting=,ShoreArea=,Object+,Water=,ShoreArea=
+CONCEPTS B: Hominid=,Entity+,IntentionalProcess+,BodyMotion+,ShoreArea=
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01712704-v|IntentionalProcess+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	handstand	handstand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00436187-n|BodyMotion+
+7	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+9	wet	wet	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00214951-v|Wetting=
+10	shore	shore	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	09433442-n|ShoreArea=
+11	at	at	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	edge	edge	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03264136-n|Object+
+14	of	of	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+16	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	14845743-n|Water=
+17	at	at	ADP	IN	fPOS=ADP++IN	19	case	_	?|?
+18	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	?|?
+19	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09217230-n|ShoreArea=
+20	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	performing	perform	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01712704-v|IntentionalProcess+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	handstand	handstand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00436187-n|BodyMotion+
+7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	09217230-n|ShoreArea=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

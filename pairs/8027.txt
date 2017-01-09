@@ -1,0 +1,34 @@
+sentence A = A brown and white dog is playing on the grass.
+sentence B = A dog is playing on the green grass.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,White=,Canine+,Entity+,DramaticActing+,Grass=
+CONCEPTS B: Canine+,Entity+,DramaticActing+,Green=,Grass=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+2	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	00245112-a|Human+
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	00393105-a|White=
+5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	02084071-n|Canine+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	aux	_	02604760-v|Entity+
+7	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	12102133-n|Grass=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02084071-n|Canine+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	00375969-a|Green=
+8	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	12102133-n|Grass=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

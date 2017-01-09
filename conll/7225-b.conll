@@ -1,0 +1,23 @@
+# sent_id = 7225b
+# text = A boy, who is young, is jumping in the air with his knees bent and arms spread.
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10285313-n|Human+
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
+4	who	who	PRON	WP	PronType=Int|fPOS=PRON++WP	6	nsubj	_	?|?
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	cop	_	02604760-v|Entity+
+6	young	young	ADJ	JJ	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	2	acl:relcl	_	01646941-a|HumanYouth=
+7	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	?|?
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+9	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+10	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	00300441-n|AirTransportation+
+13	with	with	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+14	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	16	nmod:poss	_	?|?
+15	knees	knee	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	16	compound	_	05573602-n|Knee+
+16	bent	bent	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	12106786-n|Grass+
+17	and	and	CONJ	CC	fPOS=CONJ++CC	16	cc	_	?|?
+18	arms	arm	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	19	compound	_	04236377-n|Sleeve+
+19	spread	spread	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	16	conj	_	07445896-n|Putting+
+20	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+

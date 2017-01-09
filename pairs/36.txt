@@ -3,8 +3,8 @@ sentence B = The player is missing the basket and a crowd is in background.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Man=,?,?,HoofedMammal+,Entity+,Wetting+,?,Ball=,?,?,Basketball=,Game=,?
-CONCEPTS B: ?,Human+,Entity+,Process+,?,Container+,?,?,SubjectiveAssessmentAttribute=,Entity+,?,Region+,?
+CONCEPTS A: Man=,HoofedMammal+,Entity+,Wetting+,Ball=,Basketball=,Game=
+CONCEPTS B: Human+,Entity+,Process+,Container+,SubjectiveAssessmentAttribute=,Entity+,Region+
 
 CONLL A:
 
@@ -39,5 +39,3 @@ CONLL B:
 11	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
 12	background	background	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	ccomp	_	14513259-n|Region+
 13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
-
-

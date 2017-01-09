@@ -1,0 +1,35 @@
+sentence A = A bird is fiercely flapping its wings on the water.
+sentence B = A bird is flapping its wings on the water.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Bird=,Entity+,EmotionalState+,Motion+,Organ+,Water=
+CONCEPTS B: Bird=,Entity+,Motion+,Organ+,Water=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	bird	bird	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	01503061-n|Bird=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	fiercely	fiercely	ADV	RB	fPOS=ADV++RB	5	advmod	_	00245588-r|EmotionalState+
+5	flapping	flap	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02093610-v|Motion+
+6	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	7	nmod:poss	_	?|?
+7	wings	wing	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	02151625-n|Organ+
+8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	14845743-n|Water=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	bird	bird	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	01503061-n|Bird=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	flapping	flap	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02093610-v|Motion+
+5	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	6	nmod:poss	_	?|?
+6	wings	wing	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	02151625-n|Organ+
+7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	14845743-n|Water=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

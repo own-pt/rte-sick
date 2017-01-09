@@ -1,0 +1,43 @@
+sentence A = A man is sitting near a bike and is writing a note.
+sentence B = A man with paint covered clothes is sitting outside in a busy area writing something.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,PhysicalAttribute+,SittingDown+,Bicycle=,PhysicalAttribute+,WrittenCommunication=,FactualText=
+CONCEPTS B: Man=,Painting=,Covering+,Clothing+,PhysicalAttribute+,SittingDown+,SubjectiveWeakNegativeAttribute+,GeographicArea+,WrittenCommunication=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+5	near	near	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02834778-n|Bicycle=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02655135-v|PhysicalAttribute+
+10	writing	write	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	00993014-v|WrittenCommunication=
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	note	note	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	06504462-n|FactualText=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10287213-n|Man=
+3	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	paint	paint	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	01362736-v|Painting=
+5	covered	cover	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	6	amod	_	01332730-v|Covering+
+6	clothes	clothes	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	02728440-n|Clothing+
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02655135-v|PhysicalAttribute+
+8	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+9	outside	outside	ADV	RB	fPOS=ADV++RB	8	advmod	_	?|?
+10	in	in	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+12	busy	busy	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	00292937-a|SubjectiveWeakNegativeAttribute+
+13	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	08497294-n|GeographicArea+
+14	writing	write	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	advcl	_	00993014-v|WrittenCommunication=
+15	something	something	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	?|?
+16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?

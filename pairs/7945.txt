@@ -1,0 +1,38 @@
+sentence A = A boy in a white t-shirt is splashing in shallow water.
+sentence B = A kid in a white t-shirt is splashing in shallow water.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,White=,Shirt+,Entity+,Wetting+,SubjectiveWeakNegativeAttribute+,Water=
+CONCEPTS B: HumanChild=,White=,Shirt+,Entity+,Wetting+,SubjectiveWeakNegativeAttribute+,Water=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10285313-n|Human+
+3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+5	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	amod	_	00393105-a|White=
+6	t-shirt	t-shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	03595614-n|Shirt+
+7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	cop	_	02604760-v|Entity+
+8	splashing	splash	NOUN	NN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01374767-v|Wetting+
+9	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	shallow	shallow	ADJ	JJ	fPOS=ADV++RB	11	amod	_	00691696-a|SubjectiveWeakNegativeAttribute+
+11	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	14845743-n|Water=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	kid	kid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	09917593-n|HumanChild=
+3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+5	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	amod	_	00393105-a|White=
+6	t-shirt	t-shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	03595614-n|Shirt+
+7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	cop	_	02604760-v|Entity+
+8	splashing	splash	NOUN	NN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01374767-v|Wetting+
+9	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	shallow	shallow	ADJ	JJ	fPOS=ADV++RB	11	amod	_	00691696-a|SubjectiveWeakNegativeAttribute+
+11	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	14845743-n|Water=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?

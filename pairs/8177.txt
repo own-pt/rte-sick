@@ -1,0 +1,41 @@
+sentence A = A brown and white dog is passing under a red, yellow and white hurdle.
+sentence B = A large brown dog is jumping over a red hurdle.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,White=,Canine+,Entity+,Process+,Red=,SubjectiveAssessmentAttribute+,White=,Motion+
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,Ambulating=,Red=,Device+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+2	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	00245112-a|Human+
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	00393105-a|White=
+5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	02084071-n|Canine+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	passing	pass	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	00339934-v|Process+
+8	under	under	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+10	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00381097-a|Red=
+11	,	,	PUNCT	,	fPOS=PUNCT++,	12	punct	_	?|?
+12	yellow	yellow	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	nmod	_	02101942-a|SubjectiveAssessmentAttribute+
+13	and	and	CONJ	CC	fPOS=CONJ++CC	12	cc	_	?|?
+14	white	white	ADV	RB	Degree=Pos|fPOS=ADJ++JJ	15	advmod	_	00393105-a|White=
+15	hurdle	hurdle	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	12	conj	_	00120515-n|Motion+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?
+2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+3	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	00245112-a|Human+
+4	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	02084071-n|Canine+
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+6	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+7	over	over	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+9	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00381097-a|Red=
+10	hurdle	hurdle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03549589-n|Device+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

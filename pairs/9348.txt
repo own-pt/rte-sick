@@ -1,0 +1,32 @@
+sentence A = Three women are sitting together near woven walls.
+sentence B = Some women are sitting together near woven walls.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,PhysicalAttribute+,SittingDown+,Meeting=,Making+,Wall=
+CONCEPTS B: Woman=,PhysicalAttribute+,SittingDown+,Meeting=,Making+,Wall=
+
+CONLL A:
+
+1	Three	3	NUM	CD	Number=Plur|PronType=Dem|fPOS=DET++DT	2	compound	_	?|?
+2	women	woman	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	10787470-n|Woman=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+5	together	together	ADV	RB	fPOS=ADV++RB	4	advmod	_	00507927-r|Meeting=
+6	near	near	ADV	RB	Number=Sing|fPOS=NOUN++NN	7	advmod	_	?|?
+7	woven	weave	VERB	VBN	fPOS=ADP++IN	4	advcl	_	01518924-v|Making+
+8	walls	wall	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	dobj	_	04546855-n|Wall=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?
+2	women	woman	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	10787470-n|Woman=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+5	together	together	ADV	RB	fPOS=ADV++RB	4	advmod	_	00507927-r|Meeting=
+6	near	near	ADP	IN	Number=Sing|fPOS=NOUN++NN	8	case	_	?|?
+7	woven	weave	ADP	IN	fPOS=ADP++IN	8	case	_	01518924-v|Making+
+8	walls	wall	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	04546855-n|Wall=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

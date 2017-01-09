@@ -3,8 +3,8 @@ sentence B = Two teams are competing in a football match.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Group=,?,GroupOfPeople=,Entity+,Game+,Football+,?
-CONCEPTS B: ?,Organization=,Entity+,Contest+,?,?,Football+,Sport+,?
+CONCEPTS A: Group=,GroupOfPeople=,Entity+,Game+,Football+
+CONCEPTS B: Organization=,Entity+,Contest+,Football+,Sport+
 
 CONLL A:
 
@@ -29,5 +29,3 @@ CONLL B:
 7	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	00468480-n|Football+
 8	match	match	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	07470671-n|Sport+
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
-
-

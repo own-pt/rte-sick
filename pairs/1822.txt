@@ -1,0 +1,33 @@
+sentence A = A cook is slicing some bell peppers.
+sentence B = An orange pepper is being diced up by a person.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Separating+,Bell=,SpicePepper=
+CONCEPTS B: OrangeColor+,Vegetable+,Entity+,Entity+,Cutting+,Increasing+,Human=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	cook	cook	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	09963320-n|Human+
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	cop	_	02604760-v|Entity+
+4	slicing	slice	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01254477-v|Separating+
+5	some	some	DET	DT	fPOS=DET++DT	7	det	_	?|?
+6	bell	bell	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	7	compound	_	02824448-n|Bell=
+7	peppers	pepper	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	07815588-n|SpicePepper=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	orange	orange	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	04965179-n|OrangeColor+
+3	pepper	pepper	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubjpass	_	07720442-n|Vegetable+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+5	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	6	auxpass	_	02604760-v|Entity+
+6	diced	dice	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	01256867-v|Cutting+
+7	up	up	ADP	RP	fPOS=ADP++RP	6	compound:prt	_	00097011-r|Increasing+
+8	by	by	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	00007846-n|Human=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

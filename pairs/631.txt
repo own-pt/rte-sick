@@ -1,0 +1,48 @@
+sentence A = The man is tossing a kid into the swimming pool that is near the ocean.
+sentence B = A kid swimming in the ocean is tossing a coin into the pool, near the man.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Removing+,HumanChild=,Swimming+,StaticWaterArea+,Entity+,Ocean=
+CONCEPTS B: HumanChild=,Swimming+,Ocean=,Entity+,Removing+,CurrencyCoin=,StaticWaterArea+,Hominid=
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	tossing	toss	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02222318-v|Removing+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	kid	kid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	09917593-n|HumanChild=
+7	into	into	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+9	swimming	swim	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	10	compound	_	01960911-v|Swimming+
+10	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09397607-n|StaticWaterArea+
+11	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	15	nsubj	_	?|?
+12	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	15	cop	_	02604760-v|Entity+
+13	near	near	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	ocean	ocean	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	acl:relcl	_	09376198-n|Ocean=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	kid	kid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	09917593-n|HumanChild=
+3	swimming	swim	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	2	acl	_	01960911-v|Swimming+
+4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	ocean	ocean	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	09376198-n|Ocean=
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+8	tossing	toss	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02222318-v|Removing+
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	coin	coin	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	13388245-n|CurrencyCoin=
+11	into	into	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	09397607-n|StaticWaterArea+
+14	,	,	PUNCT	,	fPOS=PUNCT++,	8	punct	_	?|?
+15	near	near	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
+16	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	17	det	_	?|?
+17	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	02472293-n|Hominid=
+18	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?

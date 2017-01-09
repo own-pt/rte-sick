@@ -1,0 +1,37 @@
+sentence A = Two people in a race are flipping the tires of a tractor.
+sentence B = Two men are racing in a tire rolling competition.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GroupOfPeople=,Racing=,Entity+,Impelling+,Artifact+,Truck+
+CONCEPTS B: Hominid=,Entity+,Motion+,Artifact+,Motion+,Contest+
+
+CONLL A:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubj	_	07942152-n|GroupOfPeople=
+3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	07458453-n|Racing=
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	02604760-v|Entity+
+7	flipping	flip	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01893601-v|Impelling+
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	tires	tire	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	dobj	_	04440749-n|Artifact+
+10	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	tractor	tractor	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04465666-n|Truck+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02472293-n|Hominid=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	racing	race	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02058994-v|Motion+
+5	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+7	tire	tire	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	04440749-n|Artifact+
+8	rolling	roll	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	01866192-v|Motion+
+9	competition	competition	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	01168569-n|Contest+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

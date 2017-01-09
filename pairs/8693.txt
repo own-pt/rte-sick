@@ -1,0 +1,30 @@
+sentence A = Three children are running down a grassy hillside.
+sentence B = Three kids are running down hill.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanChild=,Entity+,Attribute+,earlier+,FloweringPlant+,SlopedArea+
+CONCEPTS B: HumanChild=,Entity+,Attribute+,earlier+,Hill=
+
+CONLL A:
+
+1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	09917593-n|HumanChild=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+5	down	down	ADP	IN	fPOS=ADP++IN	8	case	_	00096089-r|earlier+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	grassy	grassy	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	00209620-a|FloweringPlant+
+8	hillside	hillside	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09303528-n|SlopedArea+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	kids	kid	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	09917593-n|HumanChild=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+5	down	down	ADV	RB	fPOS=ADV++RB	6	advmod	_	00096089-r|earlier+
+6	hill	hill	ADJ	JJ	fPOS=ADV++RB	4	xcomp	_	09303008-n|Hill=
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

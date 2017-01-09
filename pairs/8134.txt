@@ -1,0 +1,39 @@
+sentence A = Several young people are posing for a photo and holding beers.
+sentence B = A group of people is holding food and pointing at the camera.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,GroupOfPeople=,Entity+,Putting=,Photograph=,Process+,Beer=
+CONCEPTS B: Group=,GroupOfPeople=,Entity+,IntentionalProcess+,SubjectiveAssessmentAttribute+,Indicating=,Camera=
+
+CONLL A:
+
+1	Several	several	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	?|?
+2	young	young	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01646941-a|HumanYouth=
+3	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	07942152-n|GroupOfPeople=
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	02604760-v|Entity+
+5	posing	pose	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01494310-v|Putting=
+6	for	for	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+8	photo	photo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	03925226-n|Photograph=
+9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
+10	holding	hold	VERB	VBG	Number=Sing|fPOS=NOUN++NN	8	conj	_	02700867-v|Process+
+11	beers	beer	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	07886849-n|Beer=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	07942152-n|GroupOfPeople=
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+6	holding	hold	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01151753-v|IntentionalProcess+
+7	food	food	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	05811214-n|SubjectiveAssessmentAttribute+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+9	pointing	point	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	conj	_	00923793-v|Indicating=
+10	at	at	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	02942699-n|Camera=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

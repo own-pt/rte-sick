@@ -1,0 +1,28 @@
+sentence A = A monkey is practicing martial arts.
+sentence B = A person is kicking a monkey.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Position+,SubjectiveStrongNegativeAttribute+,ArtWork=
+CONCEPTS B: Human=,Entity+,Expressing+,Human+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10200047-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	practicing	practice	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	02568672-v|Position+
+5	martial	martial	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	01518860-a|SubjectiveStrongNegativeAttribute+
+6	arts	art	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	02743547-n|ArtWork=
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	kicking	kick	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00907147-v|Expressing+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	10200047-n|Human+
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

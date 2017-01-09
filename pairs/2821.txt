@@ -1,0 +1,38 @@
+sentence A = A woman is carefully pouring a mixture into a bowl and mixing it.
+sentence B = A woman is preparing an egg in a skillet.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,SubjectiveAssessmentAttribute+,Pouring=,Combining+,Dish+,IntentionalProcess+
+CONCEPTS B: Woman=,Entity+,Learning+,Gland+,PotOrPan+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10787470-n|Woman=
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	carefully	carefully	ADV	RB	fPOS=ADV++RB	5	advmod	_	00153568-r|SubjectiveAssessmentAttribute+
+5	pouring	pour	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02069551-v|Pouring=
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	mixture	mixture	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	07374756-n|Combining+
+8	into	into	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	bowl	bowl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02880940-n|Dish+
+11	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+12	mixing	mix	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	00394813-v|IntentionalProcess+
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	12	dobj	_	?|?
+14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	preparing	prepare	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00602805-v|Learning+
+5	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	egg	egg	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	05524615-n|Gland+
+7	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	skillet	skillet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03400231-n|PotOrPan+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

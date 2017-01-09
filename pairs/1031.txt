@@ -1,0 +1,46 @@
+sentence A = An old woman is wearing a rose patterned shirt and is clumsily carrying two newspapers.
+sentence B = A woman is wearing sunglasses of large size and is holding newspapers in both hands.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveAssessmentAttribute+,Woman=,Entity+,Putting+,MotionUpward=,Planning+,Shirt=,Entity+,SubjectiveAssessmentAttribute+,Transportation+,Newspaper=
+CONCEPTS B: Woman=,Entity+,RecreationOrExercise+,Device+,SubjectiveWeakPositiveAttribute+,Attribute+,Entity+,Obligation+,Newspaper=,Hand+
+
+CONLL A:
+
+1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	old	old	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01638438-a|SubjectiveAssessmentAttribute+
+3	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10787470-n|Woman=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00052374-v|Putting+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+7	rose	rise	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	compound	_	01968569-v|MotionUpward=
+8	patterned	pattern	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	01743784-v|Planning+
+9	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	04197391-n|Shirt=
+10	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+11	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	13	aux	_	02604760-v|Entity+
+12	clumsily	clumsily	ADV	RB	fPOS=ADV++RB	13	advmod	_	00190359-r|SubjectiveAssessmentAttribute+
+13	carrying	carry	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	01449974-v|Transportation+
+14	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	15	nummod	_	?|?
+15	newspapers	newspaper	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	dobj	_	06267145-n|Newspaper=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	02604760-v|Entity+
+4	wearing	wear	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	00075021-v|RecreationOrExercise+
+5	sunglasses	sunglass	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	04355933-n|Device+
+6	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+8	size	size	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	05098942-n|Attribute+
+9	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	11	aux	_	02604760-v|Entity+
+11	holding	hold	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	5	conj	_	02203362-v|Obligation+
+12	newspapers	newspaper	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	dobj	_	06267145-n|Newspaper=
+13	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	both	both	DET	DT	fPOS=DET++DT	15	det	_	?|?
+15	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	nmod	_	05564590-n|Hand+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

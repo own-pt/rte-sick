@@ -3,8 +3,8 @@ sentence B = The young boys are playing outdoors and the man is smiling nearby.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: ?,Group=,?,HumanChild=,Entity+,DramaticActing+,?,?,Auditorium+,?,?,Entity+,?,Hominid=,SocialRole+,?,?,Region+,?
-CONCEPTS B: ?,HumanYouth=,Human+,Entity+,DramaticActing+,Outdoors+,?,?,Man=,Entity+,Smiling=,Near=,?
+CONCEPTS A: Group=,HumanChild=,Entity+,DramaticActing+,Auditorium+,Entity+,Hominid=,SocialRole+,Region+
+CONCEPTS B: HumanYouth=,Human+,Entity+,DramaticActing+,Outdoors+,Man=,Entity+,Smiling=,Near=
 
 CONLL A:
 
@@ -44,5 +44,3 @@ CONLL B:
 11	smiling	smile	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00028565-v|Smiling=
 12	nearby	nearby	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	00071321-r|Near=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
-
-

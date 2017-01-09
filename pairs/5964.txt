@@ -1,0 +1,37 @@
+sentence A = A child, who has blond hair, is holding a yellow bottle.
+sentence B = A blond child is holding a yellow bottle.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: HumanChild=,Obligation+,Human+,Hair=,Entity+,Obligation+,SubjectiveAssessmentAttribute+,Bottle=
+CONCEPTS B: Human+,HumanChild=,Entity+,Process+,SubjectiveAssessmentAttribute+,Bottle=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	09917593-n|HumanChild=
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
+4	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	5	nsubj	_	?|?
+5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	2	acl:relcl	_	02203362-v|Obligation+
+6	blond	blond	ADV	RB	fPOS=ADP++IN	5	advmod	_	00243606-a|Human+
+7	hair	hair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	05254795-n|Hair=
+8	,	,	PUNCT	,	fPOS=PUNCT++,	10	punct	_	?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
+10	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02203362-v|Obligation+
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+12	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+13	bottle	bottle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	02876657-n|Bottle=
+14	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	blond	blond	ADJ	JJ	Degree=Cmp|fPOS=ADJ++JJR	3	amod	_	00243606-a|Human+
+3	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	09917593-n|HumanChild=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02700867-v|Process+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+8	bottle	bottle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02876657-n|Bottle=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

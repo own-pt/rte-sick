@@ -1,0 +1,40 @@
+sentence A = A woman, who is old, is near a white dog.
+sentence B = A woman and a dog are peacefully sitting on a tree stump.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,SubjectiveAssessmentAttribute+,Entity+,White=,Canine+
+CONCEPTS B: Woman=,Canine+,PhysicalAttribute+,SubjectiveAssessmentAttribute+,SittingDown+,ContentBearingObject+,PlantBranch+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	10787470-n|Woman=
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
+4	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	6	nsubj	_	?|?
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
+6	old	old	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	01643620-a|SubjectiveAssessmentAttribute+
+7	,	,	PUNCT	,	fPOS=PUNCT++,	12	punct	_	?|?
+8	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	12	cop	_	02604760-v|Entity+
+9	near	near	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	12	advmod	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+11	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00393105-a|White=
+12	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	02084071-n|Canine+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10787470-n|Woman=
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	02084071-n|Canine+
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	8	aux	_	02655135-v|PhysicalAttribute+
+7	peacefully	peacefully	ADV	RB	fPOS=ADV++RB	8	advmod	_	00109817-r|SubjectiveAssessmentAttribute+
+8	sitting	sit	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+9	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+11	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	13912260-n|ContentBearingObject+
+12	stump	stump	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	13111504-n|PlantBranch+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?

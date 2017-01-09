@@ -3,8 +3,8 @@ sentence B = Two young women are sparring in a kickboxing fight.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Entity+,?,?,SocialRole+,Entity+,Looking=,?
-CONCEPTS B: ?,HumanYouth=,Woman=,Entity+,Communication+,?,?,?,ViolentContest=,?
+CONCEPTS A: GroupOfPeople=,Entity+,SocialRole+,Entity+,Looking=
+CONCEPTS B: HumanYouth=,Woman=,Entity+,Communication+,ViolentContest=
 
 CONLL A:
 
@@ -31,5 +31,3 @@ CONLL B:
 8	kickboxing	kickboxing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	?|?
 9	fight	fight	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	01170962-n|ViolentContest=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
-
-

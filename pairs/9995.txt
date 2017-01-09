@@ -1,0 +1,43 @@
+sentence A = The girl, who is little, is combing her hair into a pony tail.
+sentence B = Two people wearing helmets are driving over the yellow and white flowers.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,SubjectiveStrongNegativeAttribute+,Entity+,ShapeChange+,Hair=,Horse+,BodyPart+
+CONCEPTS B: GroupOfPeople=,CoveringFn=,Clothing+,Entity+,Transportation+,SubjectiveAssessmentAttribute+,White=,Flower+
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10129825-n|Human+
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
+4	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	6	nsubj	_	?|?
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
+6	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	01391351-a|SubjectiveStrongNegativeAttribute+
+7	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	?|?
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+9	combing	comb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01596645-v|ShapeChange+
+10	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	11	nmod:poss	_	?|?
+11	hair	hair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	05254795-n|Hair=
+12	into	into	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+14	pony	pony	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	02382437-n|Horse+
+15	tail	tail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	02157557-n|BodyPart+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	compound	_	07942152-n|GroupOfPeople=
+3	wearing	wear	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	compound	_	00047745-v|CoveringFn=
+4	helmets	helmet	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	03513376-n|Clothing+
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	02604760-v|Entity+
+6	driving	drive	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01930874-v|Transportation+
+7	over	over	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	yellow	yellow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	02101942-a|SubjectiveAssessmentAttribute+
+10	and	and	CONJ	CC	fPOS=CONJ++CC	9	cc	_	?|?
+11	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00393105-a|White=
+12	flowers	flower	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	conj	_	11669335-n|Flower+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

@@ -1,0 +1,31 @@
+sentence A = A boy is playing on a toy phone.
+sentence B = A boy is playing on a toy.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,DramaticActing+,RecreationOrExerciseDevice+,Telephone=
+CONCEPTS B: Human+,Entity+,DramaticActing+,RecreationOrExerciseDevice+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10285313-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	03964744-n|RecreationOrExerciseDevice+
+8	phone	phone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04401088-n|Telephone=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10285313-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03964744-n|RecreationOrExerciseDevice+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

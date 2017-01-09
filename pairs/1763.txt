@@ -1,0 +1,34 @@
+sentence A = A girl is making a flute which is not to be played.
+sentence B = One woman is playing a flute.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Process+,Flute=,Entity+,not=,Entity+,DramaticActing+
+CONCEPTS B: Woman=,Entity+,DramaticActing+,Flute=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10129825-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	making	make	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01617192-v|Process+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	flute	flute	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03372029-n|Flute=
+7	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	12	nsubj	_	?|?
+8	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	12	cop	_	02604760-v|Entity+
+9	not	not	PART	RB	fPOS=PART++RB	12	neg	_	00024073-r|not=
+10	to	to	PART	TO	fPOS=PART++TO	12	mark	_	?|?
+11	be	be	VERB	VB	VerbForm=Inf|fPOS=AUX++VB	12	auxpass	_	02604760-v|Entity+
+12	played	play	ADJ	JJ	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	6	acl:relcl	_	01719302-v|DramaticActing+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	flute	flute	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03372029-n|Flute=
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

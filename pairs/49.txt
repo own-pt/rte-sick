@@ -3,8 +3,8 @@ sentence B = Two people are kickboxing and spectators are not watching.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Woman=,Entity+,Communication+,?,?,?,Sport+,?
-CONCEPTS B: ?,GroupOfPeople=,Entity+,?,?,SocialRole+,Entity+,not=,Looking=,?
+CONCEPTS A: Woman=,Entity+,Communication+,Sport+
+CONCEPTS B: GroupOfPeople=,Entity+,SocialRole+,Entity+,not=,Looking=
 
 CONLL A:
 
@@ -31,5 +31,3 @@ CONLL B:
 8	not	not	PART	RB	fPOS=PART++RB	9	neg	_	00024073-r|not=
 9	watching	watch	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	02150948-v|Looking=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
-
-

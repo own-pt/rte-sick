@@ -1,0 +1,50 @@
+sentence A = A boy in blue shirt is looking at his hand near a stack of blocks on table.
+sentence B = A woman in blue shirt is looking at her hand near a stack of blocks on table.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,SubjectiveStrongNegativeAttribute+,Shirt=,Entity+,SubjectiveAssessmentAttribute+,Hand+,Collection+,ShapeAttribute+,ContentBearingObject+
+CONCEPTS B: Woman=,SubjectiveStrongNegativeAttribute+,Shirt=,Entity+,SubjectiveAssessmentAttribute+,Hand+,Collection+,ShapeAttribute+,ContentBearingObject+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10285313-n|Human+
+3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
+5	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	04197391-n|Shirt=
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
+8	at	at	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	10	nmod:poss	_	?|?
+10	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	05564590-n|Hand+
+11	near	near	NOUN	NN	fPOS=ADP++IN	13	case	_	?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	stack	stack	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	07963087-n|Collection+
+14	of	of	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+15	blocks	block	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	nmod	_	13914608-n|ShapeAttribute+
+16	on	on	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
+17	table	table	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	15	nmod	_	08266235-n|ContentBearingObject+
+18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10787470-n|Woman=
+3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
+5	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	04197391-n|Shirt=
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
+8	at	at	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	10	nmod:poss	_	?|?
+10	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	05564590-n|Hand+
+11	near	near	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	stack	stack	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	07963087-n|Collection+
+14	of	of	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+15	blocks	block	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	nmod	_	13914608-n|ShapeAttribute+
+16	on	on	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
+17	table	table	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	15	nmod	_	08266235-n|ContentBearingObject+
+18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

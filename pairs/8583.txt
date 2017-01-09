@@ -1,0 +1,38 @@
+sentence A = A dirty tan dog is rolling in the dirt and looking right at the camera.
+sentence B = A dog is playing on the ground.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Dirty=,TangentFn=,Canine+,Entity+,Motion+,SubjectiveAssessmentAttribute+,FrontFn+,Hand+,Camera=
+CONCEPTS B: Canine+,Entity+,DramaticActing+,LandArea=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?
+2	dirty	dirty	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	amod	_	00419289-a|Dirty=
+3	tan	tan	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	13788035-n|TangentFn=
+4	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	02084071-n|Canine+
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+6	rolling	roll	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01866192-v|Motion+
+7	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	dirt	dirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	14498096-n|SubjectiveAssessmentAttribute+
+10	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+11	looking	look	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	conj	_	02693319-v|FrontFn+
+12	right	right	NOUN	NN	fPOS=ADV++RB	15	advmod	_	05565337-n|Hand+
+13	at	at	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	02942699-n|Camera=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02084071-n|Canine+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	ground	ground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09334396-n|LandArea=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

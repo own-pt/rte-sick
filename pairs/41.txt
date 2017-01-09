@@ -3,8 +3,8 @@ sentence B = Two people are fighting and spectators are watching.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,GroupOfPeople=,Entity+,?,?,SocialRole+,Entity+,Looking=,?
-CONCEPTS B: ?,GroupOfPeople=,Entity+,ViolentContest+,?,SocialRole+,Entity+,Looking=,?
+CONCEPTS A: GroupOfPeople=,Entity+,SocialRole+,Entity+,Looking=
+CONCEPTS B: GroupOfPeople=,Entity+,ViolentContest+,SocialRole+,Entity+,Looking=
 
 CONLL A:
 
@@ -30,5 +30,3 @@ CONLL B:
 7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	8	aux	_	02604760-v|Entity+
 8	watching	watch	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	02150948-v|Looking=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
-
-

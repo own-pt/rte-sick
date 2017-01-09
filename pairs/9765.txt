@@ -1,0 +1,30 @@
+sentence A = There is no blond child holding a yellow bottle.
+sentence B = Someone is playing the guitar.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,Human+,HumanChild=,Process+,SubjectiveAssessmentAttribute+,Bottle=
+CONCEPTS B: Entity+,DramaticActing+,Guitar=
+
+CONLL A:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	?|?
+4	blond	blond	ADJ	JJ	Degree=Cmp|fPOS=ADJ++JJR	5	amod	_	00243606-a|Human+
+5	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	09917593-n|HumanChild=
+6	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	acl	_	02700867-v|Process+
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+9	bottle	bottle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	02876657-n|Bottle=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
+CONLL B:
+
+1	Someone	someone	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	3	aux	_	02604760-v|Entity+
+3	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	03467517-n|Guitar=
+6	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?

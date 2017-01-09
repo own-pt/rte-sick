@@ -1,0 +1,36 @@
+sentence A = A kid is smiling at the camera and swimming underwater.
+sentence B = A child is smiling at the camera and swimming underwater.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: HumanChild=,Entity+,Smiling=,Camera=,Swimming+
+CONCEPTS B: HumanChild=,Entity+,Smiling=,Camera=,Swimming+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	kid	kid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	09917593-n|HumanChild=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	smiling	smile	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00028565-v|Smiling=
+5	at	at	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02942699-n|Camera=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	swimming	swim	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01960911-v|Swimming+
+10	underwater	underwater	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	?|?
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	09917593-n|HumanChild=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	smiling	smile	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00028565-v|Smiling=
+5	at	at	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02942699-n|Camera=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	swimming	swim	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01960911-v|Swimming+
+10	underwater	underwater	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	?|?
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

@@ -1,0 +1,43 @@
+sentence A = A boy in a strange outfit is riding the bike.
+sentence B = A woman is wearing paint and costume pieces and is riding a bike on a busy street.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,SubjectiveStrongNegativeAttribute+,Collection+,Entity+,Transportation+,Bicycle=
+CONCEPTS B: Woman=,Entity+,CoveringFn=,Paint+,Clothing+,TimeDuration+,Entity+,Transportation+,Bicycle=,SubjectiveWeakNegativeAttribute+,Roadway=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10285313-n|Human+
+3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+5	strange	strange	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	00967129-a|SubjectiveStrongNegativeAttribute+
+6	outfit	outfit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	03619396-n|Collection+
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	aux	_	02604760-v|Entity+
+8	riding	ride	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02102398-v|Transportation+
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	02834778-n|Bicycle=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00047745-v|CoveringFn=
+5	paint	paint	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	03875218-n|Paint+
+6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+7	costume	costume	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	03113657-n|Clothing+
+8	pieces	piece	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	15246353-n|TimeDuration+
+9	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	02604760-v|Entity+
+11	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	02102398-v|Transportation+
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	02834778-n|Bicycle=
+14	on	on	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
+15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	?|?
+16	busy	busy	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	00292937-a|SubjectiveWeakNegativeAttribute+
+17	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	04334599-n|Roadway=
+18	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

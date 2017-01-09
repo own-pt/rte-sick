@@ -1,0 +1,36 @@
+sentence A = An old woman is shaking hands with a man.
+sentence B = An woman that is old is shaking hands with a man.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: SubjectiveAssessmentAttribute+,Woman=,Entity+,Motion+,Hand+,Man=
+CONCEPTS B: Woman=,Entity+,SubjectiveAssessmentAttribute+,Entity+,Motion+,Hand+,Man=
+
+CONLL A:
+
+1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	old	old	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01643620-a|SubjectiveAssessmentAttribute+
+3	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10787470-n|Woman=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	shaking	shake	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01889610-v|Motion+
+6	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	05564590-n|Hand+
+7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	10287213-n|Man=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10787470-n|Woman=
+3	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	5	nsubj	_	?|?
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	02604760-v|Entity+
+5	old	old	VERB	VBN	Number=Sing|fPOS=NOUN++NN	2	acl:relcl	_	01643620-a|SubjectiveAssessmentAttribute+
+6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	shaking	shake	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01889610-v|Motion+
+8	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	dobj	_	05564590-n|Hand+
+9	with	with	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	10287213-n|Man=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

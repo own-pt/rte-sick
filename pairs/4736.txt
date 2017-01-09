@@ -1,0 +1,34 @@
+sentence A = A man is fitting a silencer to a pistol.
+sentence B = A man is fixing a silencer to a gun.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,SubjectiveAssessmentAttribute+,AutomobileMuffler=,Pistol+
+CONCEPTS B: Hominid=,Entity+,Attaching+,AutomobileMuffler=,Gun=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	fitting	fit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02657219-v|SubjectiveAssessmentAttribute+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	silencer	silencer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	04218564-n|AutomobileMuffler=
+7	to	to	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	pistol	pistol	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03948459-n|Pistol+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	fixing	fix	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01340439-v|Attaching+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	silencer	silencer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	04218564-n|AutomobileMuffler=
+7	to	to	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	gun	gun	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03467984-n|Gun=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

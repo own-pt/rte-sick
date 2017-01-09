@@ -1,0 +1,35 @@
+sentence A = A woman is breaking eggs.
+sentence B = A shirtless man is posing with a girl who is hiking in a park.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,EndFn+,Gland+
+CONCEPTS B: Man=,Entity+,Putting=,Human+,Entity+,Walking+,Park+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	breaking	break	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02681524-v|EndFn+
+5	eggs	egg	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	05524615-n|Gland+
+6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	shirtless	shirtless	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	?|?
+3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10287213-n|Man=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	posing	pose	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01494310-v|Putting=
+6	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	10129825-n|Human+
+9	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	11	nsubj	_	?|?
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	11	aux	_	02604760-v|Entity+
+11	hiking	hike	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	8	acl:relcl	_	01920932-v|Walking+
+12	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+14	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	08615374-n|Park+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

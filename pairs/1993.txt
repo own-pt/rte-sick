@@ -1,0 +1,30 @@
+sentence A = The man is intensely playing the guitar.
+sentence B = The intense man is a guitar player.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,SubjectiveAssessmentAttribute+,DramaticActing+,Guitar=
+CONCEPTS B: SubjectiveWeakNegativeAttribute+,Hominid=,Entity+,Guitar=,Musician+
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	02604760-v|Entity+
+4	intensely	intensely	ADV	RB	fPOS=ADV++RB	5	advmod	_	00190959-r|SubjectiveAssessmentAttribute+
+5	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03467517-n|Guitar=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	intense	intense	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	amod	_	01509527-a|SubjectiveWeakNegativeAttribute+
+3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	02472293-n|Hominid=
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	cop	_	02604760-v|Entity+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	guitar	guitar	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	7	compound	_	03467517-n|Guitar=
+7	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	10340312-n|Musician+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

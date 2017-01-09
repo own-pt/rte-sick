@@ -1,0 +1,30 @@
+sentence A = The man is sitting indoors.
+sentence B = The man is sitting outside under a purple umbrella.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Hominid=,PhysicalAttribute+,SittingDown+,Indoors+
+CONCEPTS B: Hominid=,PhysicalAttribute+,SittingDown+,SocialRole+,Device+
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01543123-v|SittingDown+
+5	indoors	indoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	00110533-r|Indoors+
+6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+5	outside	outside	ADV	RB	fPOS=ADV++RB	4	advmod	_	?|?
+6	under	under	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	purple	purple	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	01591394-a|SocialRole+
+9	umbrella	umbrella	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04507155-n|Device+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

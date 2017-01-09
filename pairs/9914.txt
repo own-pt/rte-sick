@@ -1,0 +1,36 @@
+sentence A = A woman is looking into the distance and people are walking between buildings behind.
+sentence B = A man is playing a flute.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,SubjectiveAssessmentAttribute+,LengthMeasure+,GroupOfPeople=,Entity+,Walking=,Building=
+CONCEPTS B: Hominid=,Entity+,DramaticActing+,Flute=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
+5	into	into	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	distance	distance	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05084201-n|LengthMeasure+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	nsubj	_	07942152-n|GroupOfPeople=
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	11	aux	_	02604760-v|Entity+
+11	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	01904930-v|Walking=
+12	between	between	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+13	buildings	building	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	nmod	_	02913152-n|Building=
+14	behind	behind	ADP	IN	fPOS=ADV++RB	13	nmod	_	?|?
+15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	flute	flute	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03372029-n|Flute=
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

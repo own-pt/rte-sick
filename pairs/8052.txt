@@ -1,0 +1,38 @@
+sentence A = Two men are carrying colorful baskets and blankets and walking near a building.
+sentence B = Two people are walking with laden baskets and blankets.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Transportation+,ColorAttribute+,Container+,Blanket+,Walking=,Building=
+CONCEPTS B: GroupOfPeople=,Entity+,Walking=,Putting+,Container+,Blanket+
+
+CONLL A:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02472293-n|Hominid=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	carrying	carry	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01449974-v|Transportation+
+5	colorful	colorful	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00394562-a|ColorAttribute+
+6	baskets	basket	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	02801938-n|Container+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+8	blankets	blanket	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	conj	_	02849154-n|Blanket+
+9	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+10	walking	walk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01904930-v|Walking=
+11	near	near	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	building	building	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	02913152-n|Building=
+14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	07942152-n|GroupOfPeople=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01904930-v|Walking=
+5	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	laden	lade	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	01489989-v|Putting+
+7	baskets	basket	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	02801938-n|Container+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
+9	blankets	blanket	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	conj	_	02849154-n|Blanket+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

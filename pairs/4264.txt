@@ -1,0 +1,30 @@
+sentence A = The man is riding the horse.
+sentence B = The girl is spraying the plants with water.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Carrying=,Horse=
+CONCEPTS B: Human+,Entity+,Spraying=,Plant=,Water=
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	riding	ride	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01955984-v|Carrying=
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02374451-n|Horse=
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10129825-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	spraying	spray	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01372682-v|Spraying=
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	plants	plant	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	00017222-n|Plant=
+7	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+8	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	14845743-n|Water=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

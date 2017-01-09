@@ -1,0 +1,35 @@
+sentence A = A black dog is approaching a golden dog on pebbly beach.
+sentence B = Two dogs are playing on a sandy beach.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Black=,Canine+,Entity+,Arriving=,SubjectiveWeakPositiveAttribute+,Canine+,LandArea+,ShoreArea=
+CONCEPTS B: Canine+,Entity+,DramaticActing+,part+,ShoreArea=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00392812-a|Black=
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	approaching	approach	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02053941-v|Arriving=
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	golden	golden	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	00670938-a|SubjectiveWeakPositiveAttribute+
+8	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02084071-n|Canine+
+9	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	pebbly	pebbly	ADV	RB	fPOS=ADV++RB	11	advmod	_	02242223-a|LandArea+
+11	beach	beach	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	5	nmod	_	09217230-n|ShoreArea=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?
+2	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02084071-n|Canine+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	sandy	sandy	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	8	amod	_	00142040-a|part+
+8	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09217230-n|ShoreArea=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

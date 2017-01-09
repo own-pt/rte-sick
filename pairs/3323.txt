@@ -1,0 +1,34 @@
+sentence A = The woman is frying a breaded pork chop.
+sentence B = A woman is cooking a pork chop which is breaded.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Killing+,Pork=,Meat+
+CONCEPTS B: Woman=,Entity+,Cooking+,Pork=,Meat+,Entity+
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	frying	fry	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02484957-v|Killing+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+6	breaded	breaded	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	?|?
+7	pork	pork	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	07668702-n|Pork=
+8	chop	chop	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07653982-n|Meat+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	cooking	cook	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00322847-v|Cooking+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	pork	pork	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	07668702-n|Pork=
+7	chop	chop	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07653982-n|Meat+
+8	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	10	nsubjpass	_	?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	auxpass	_	02604760-v|Entity+
+10	breaded	breaded	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	7	acl:relcl	_	?|?
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

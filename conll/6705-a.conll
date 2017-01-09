@@ -1,0 +1,22 @@
+# sent_id = 6705a
+# text = A child, who is small, is outdoors climbing steps outdoors in an area full of grass.
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	09917593-n|HumanChild=
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
+4	who	who	PRON	WP	PronType=Int|fPOS=PRON++WP	6	nsubj	_	?|?
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02620587-v|Attribute+
+6	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	01391351-a|SubjectiveStrongNegativeAttribute+
+7	,	,	PUNCT	,	fPOS=PUNCT++,	10	punct	_	?|?
+8	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02620587-v|Attribute+
+9	outdoors	outdoors	ADV	RB	fPOS=ADV++RB	10	advmod	_	00110659-r|Outdoors+
+10	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00433232-v|Increasing+
+11	steps	step	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	dobj	_	07383823-n|RadiatingSound+
+12	outdoors	outdoors	ADV	RB	Number=Plur|fPOS=NOUN++NNS	10	advmod	_	00110659-r|Outdoors+
+13	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	area	area	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	10	nmod	_	14514039-n|SubjectiveAssessmentAttribute+
+16	full	full	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	01083157-a|ContainerFull+
+17	of	of	ADP	IN	fPOS=ADP++IN	18	case	_	?|?
+18	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	12102133-n|Grass=
+19	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+

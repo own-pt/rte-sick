@@ -1,0 +1,34 @@
+sentence A = A young girl is jumping into a still lake.
+sentence B = A young boy is jumping into a still lake.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,Human+,Entity+,Ambulating=,Lake=
+CONCEPTS B: HumanYouth=,Human+,Entity+,Ambulating=,Lake=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10129825-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+6	into	into	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	still	still	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	9	amod	_	00027384-r|?
+9	lake	lake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	09328904-n|Lake=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
+3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10285313-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+6	into	into	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	still	still	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	9	amod	_	00027384-r|?
+9	lake	lake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	09328904-n|Lake=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

@@ -1,0 +1,33 @@
+sentence A = A young boy is quickly jumping off a chair.
+sentence B = A young boy is jumping off a chair.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,Human+,Entity+,SubjectiveAssessmentAttribute+,Ambulating=,Chair=
+CONCEPTS B: HumanYouth=,Human+,Entity+,Ambulating=,Chair=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
+3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	10285313-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+5	quickly	quickly	ADV	RB	fPOS=ADV++RB	6	advmod	_	00085811-r|SubjectiveAssessmentAttribute+
+6	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+7	off	off	ADP	IN	fPOS=ADP++IN	9	case	_	00232936-r|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	chair	chair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03001627-n|Chair=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
+3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10285313-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+6	off	off	ADP	IN	fPOS=ADP++RP	8	case	_	00232936-r|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	chair	chair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03001627-n|Chair=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

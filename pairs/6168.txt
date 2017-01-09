@@ -1,0 +1,34 @@
+sentence A = The boy and the girl are playing and wearing arm floats.
+sentence B = A boy and a girl are naked.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Human+,Entity+,DramaticActing+,RecreationOrExercise+,Weapon=,Beverage+
+CONCEPTS B: Human+,Human+,Entity+,Clothing[
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10285313-n|Human+
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	10129825-n|Human+
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	02604760-v|Entity+
+7	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
+9	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	conj	_	00075021-v|RecreationOrExercise+
+10	arm	arm	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	04565375-n|Weapon=
+11	floats	float	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	dobj	_	07923034-n|Beverage+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubjpass	_	10285313-n|Human+
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	10129825-n|Human+
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	auxpass	_	02604760-v|Entity+
+7	naked	naked	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	00457998-a|Clothing[
+8	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

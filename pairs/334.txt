@@ -1,0 +1,42 @@
+sentence A = A man, a woman and two girls are walking on the beach.
+sentence B = A man, a woman and two girls are sitting on the beach.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Man=,Woman=,Human+,Entity+,Walking=,ShoreArea=
+CONCEPTS B: Man=,Woman=,Human+,PhysicalAttribute+,SittingDown+,ShoreArea=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	10287213-n|Man=
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	10787470-n|Woman=
+6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+7	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	8	nummod	_	?|?
+8	girls	girl	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	conj	_	10129825-n|Human+
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	10	aux	_	02604760-v|Entity+
+10	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	2	acl:relcl	_	01904930-v|Walking=
+11	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	09217230-n|ShoreArea=
+14	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	10287213-n|Man=
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	10787470-n|Woman=
+6	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+7	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	8	nummod	_	?|?
+8	girls	girl	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	conj	_	10129825-n|Human+
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	10	aux	_	02655135-v|PhysicalAttribute+
+10	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+11	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	09217230-n|ShoreArea=
+14	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?

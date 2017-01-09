@@ -1,0 +1,28 @@
+sentence A = A woman is grating carrots.
+sentence B = A woman is coating a pork chop.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Touching+,Carrot=
+CONCEPTS B: Woman=,Entity+,Covering+,Pork=,Meat+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	02604760-v|Entity+
+4	grating	grate	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	01308160-v|Touching+
+5	carrots	carrot	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	07730207-n|Carrot=
+6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	coating	coat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01264283-v|Covering+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	pork	pork	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	07668702-n|Pork=
+7	chop	chop	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07653982-n|Meat+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

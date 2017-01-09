@@ -3,8 +3,8 @@ sentence B = There is no person wearing a hat and sitting on the grass.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,PhysicalAttribute+,SittingDown+,?,?,FieldOfStudy=,?
-CONCEPTS B: ?,PhysicalAttribute+,?,Human=,CoveringFn=,?,Hat+,?,SittingDown+,?,?,Grass=,?
+CONCEPTS A: Hominid=,PhysicalAttribute+,SittingDown+,FieldOfStudy=
+CONCEPTS B: PhysicalAttribute+,Human=,CoveringFn=,Hat+,SittingDown+,Grass=
 
 CONLL A:
 
@@ -33,5 +33,3 @@ CONLL B:
 11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
 12	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	12102133-n|Grass=
 13	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
-
-

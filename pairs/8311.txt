@@ -1,0 +1,38 @@
+sentence A = A girl with painted face is standing next to some other children.
+sentence B = Kids are being dressed in costumes and playing a game.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Painting=,Face+,Entity+,PhysicalAttribute+,Position+,equal+,HumanChild=
+CONCEPTS B: HumanChild=,Entity+,Entity+,Dressing+,Clothing+,DramaticActing+,Game=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10129825-n|Human+
+3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	painted	paint	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	5	amod	_	01362736-v|Painting=
+5	face	face	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	05600637-n|Face+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+8	next	next	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	advmod	_	01294975-a|Position+
+9	to	to	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+10	some	some	DET	DT	fPOS=DET++DT	12	det	_	?|?
+11	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	02069355-a|equal+
+12	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	09917593-n|HumanChild=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
+CONLL B:
+
+1	Kids	kid	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubjpass	_	09917593-n|HumanChild=
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+3	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	4	auxpass	_	02604760-v|Entity+
+4	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	00046534-v|Dressing+
+5	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+6	costumes	costume	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	03113657-n|Clothing+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+8	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01719302-v|DramaticActing+
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	game	game	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	00455599-n|Game=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

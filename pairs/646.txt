@@ -1,0 +1,41 @@
+sentence A = One man is climbing a cliff with a rope.
+sentence B = A person is standing in front of a rock with a rope, which is pink.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Increasing+,Cliff=,String+
+CONCEPTS B: Human=,Entity+,PhysicalAttribute+,FrontFn=,Mineral+,String+,Entity+,Pink+
+
+CONLL A:
+
+1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00433232-v|Increasing+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	cliff	cliff	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	09246464-n|Cliff=
+7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	04108268-n|String+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+5	in	in	ADP	IN	fPOS=ADV++RB	6	case	_	?|?
+6	front	front	NOUN	NN	fPOS=ADP++IN	4	nmod	_	08573472-n|FrontFn=
+7	of	of	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	14696793-n|Mineral+
+10	with	with	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04108268-n|String+
+13	,	,	PUNCT	,	fPOS=PUNCT++,	12	punct	_	?|?
+14	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	16	nsubj	_	?|?
+15	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	16	cop	_	02604760-v|Entity+
+16	pink	pink	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	acl:relcl	_	00379595-a|Pink+
+17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

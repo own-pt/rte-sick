@@ -1,0 +1,42 @@
+sentence A = A woman, who is seated, is singing a song and playing the guitar.
+sentence B = A seated woman is singing a song and playing the guitar.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Woman=,Entity+,Communication+,Entity+,MakingVocalMusic=,Song=,DramaticActing+,Guitar=
+CONCEPTS B: Communication+,Woman=,Entity+,MakingVocalMusic=,Song=,DramaticActing+,Guitar=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10787470-n|Woman=
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
+4	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	6	nsubjpass	_	?|?
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	auxpass	_	02604760-v|Entity+
+6	seated	seat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	2	acl:relcl	_	01543998-v|Communication+
+7	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	?|?
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+9	singing	sing	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01731031-v|MakingVocalMusic=
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	song	song	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	07048000-n|Song=
+12	and	and	CONJ	CC	fPOS=CONJ++CC	9	cc	_	?|?
+13	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	9	conj	_	01719302-v|DramaticActing+
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	dobj	_	03467517-n|Guitar=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	seated	seat	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01543998-v|Communication+
+3	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10787470-n|Woman=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	singing	sing	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01731031-v|MakingVocalMusic=
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	song	song	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	07048000-n|Song=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+9	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	01719302-v|DramaticActing+
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	03467517-n|Guitar=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

@@ -1,0 +1,43 @@
+sentence A = A group of children in a church basement is playing maracas and tambourines.
+sentence B = A group of children in a building's basement is playing maracas and tambourines.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Group=,HumanChild=,ReligiousBuilding+,Basement+,Entity+,DramaticActing+
+CONCEPTS B: Group=,HumanChild=,Building=,Basement+,Entity+,DramaticActing+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	09917593-n|HumanChild=
+5	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	church	church	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	8	compound	_	03028079-n|ReligiousBuilding+
+8	basement	basement	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	02800497-n|Basement+
+9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	cop	_	02604760-v|Entity+
+10	playing	play	NOUN	NN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	11	compound	_	01719302-v|DramaticActing+
+11	maracas	maracas	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	?|?
+12	and	and	CONJ	CC	fPOS=CONJ++CC	11	cc	_	?|?
+13	tambourines	tambourines	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	conj	_	?|?
+14	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	09917593-n|HumanChild=
+5	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	building	building	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod:poss	_	02913152-n|Building=
+8	's	's	PART	POS	fPOS=PART++POS	7	case	_	?|?
+9	basement	basement	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02800497-n|Basement+
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	02604760-v|Entity+
+11	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+12	maracas	maracas	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	11	dobj	_	?|?
+13	and	and	CONJ	CC	fPOS=CONJ++CC	12	cc	_	?|?
+14	tambourines	tambourines	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	conj	_	?|?
+15	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?

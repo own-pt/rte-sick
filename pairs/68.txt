@@ -3,8 +3,8 @@ sentence B = Two people wearing snowsuits are on the ground making snow angels.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,PhysicalAttribute+,?,?,Snowing=,?,Entity+,Process+,Snowing=,Angel=,?
-CONCEPTS B: ?,GroupOfPeople=,CoveringFn=,?,Entity+,?,?,LandArea=,Attribute+,Snowing=,Angel=,?
+CONCEPTS A: HumanChild=,Entity+,PhysicalAttribute+,Snowing=,Entity+,Process+,Snowing=,Angel=
+CONCEPTS B: GroupOfPeople=,CoveringFn=,Entity+,LandArea=,Attribute+,Snowing=,Angel=
 
 CONLL A:
 
@@ -37,5 +37,3 @@ CONLL B:
 10	snow	snow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	15043763-n|Snowing=
 11	angels	angel	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	dobj	_	09538915-n|Angel=
 12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
-
-

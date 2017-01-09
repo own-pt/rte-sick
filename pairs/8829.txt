@@ -1,0 +1,39 @@
+sentence A = A boy is wearing all black and is sliding down a blow up yellow slide.
+sentence B = A girl is speeding down a steep slide.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,RecreationOrExercise+,Black=,Entity+,Translocation+,earlier+,Impacting=,SubjectiveAssessmentAttribute+,Artifact+
+CONCEPTS B: Human+,Entity+,Accelerating+,earlier+,LandArea+,Artifact+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10285313-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00075021-v|RecreationOrExercise+
+5	all	all	DET	DT	fPOS=DET++DT	6	det	_	?|?
+6	black	black	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00392812-a|Black=
+7	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+9	sliding	slide	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	02090990-v|Translocation+
+10	down	down	ADP	RP	fPOS=ADP++IN	9	compound:prt	_	00095320-r|earlier+
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+12	blow	blow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	01173038-n|Impacting=
+13	up	up	ADP	IN	Number=Sing|fPOS=NOUN++NN	14	case	_	?|?
+14	yellow	yellow	ADJ	JJ	fPOS=ADV++RB	12	nmod	_	02101942-a|SubjectiveAssessmentAttribute+
+15	slide	slide	NOUN	NN	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	9	dobj	_	03029603-n|Artifact+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10129825-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	speeding	speed	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00438178-v|Accelerating+
+5	down	down	ADP	IN	fPOS=ADP++IN	8	case	_	00095320-r|earlier+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	steep	steep	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	01144887-a|LandArea+
+8	slide	slide	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03029603-n|Artifact+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

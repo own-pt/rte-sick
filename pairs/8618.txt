@@ -1,0 +1,43 @@
+sentence A = A man is wearing a beret and is riding the bicycle on a recreation trail.
+sentence B = An old man with a grey beard is not riding a bike.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,CoveringFn=,Clothing+,Entity+,Carrying=,Bicycle=,RecreationOrExercise+,Trail+
+CONCEPTS B: SubjectiveAssessmentAttribute+,Man=,Gray+,FacialHair+,Entity+,not=,Transportation+,Bicycle=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00047745-v|CoveringFn=
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	beret	beret	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02831237-n|Clothing+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+9	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	01955984-v|Carrying=
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	bicycle	bicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	02834778-n|Bicycle=
+12	on	on	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+14	recreation	recreation	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	compound	_	00426928-n|RecreationOrExercise+
+15	trail	trail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	04466613-n|Trail+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	old	old	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01643620-a|SubjectiveAssessmentAttribute+
+3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	10287213-n|Man=
+4	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	grey	grey	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00389310-a|Gray+
+7	beard	beard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	05261566-n|FacialHair+
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
+9	not	not	PART	RB	fPOS=PART++RB	10	neg	_	00024073-r|not=
+10	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02102398-v|Transportation+
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	02834778-n|Bicycle=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?

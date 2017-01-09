@@ -1,0 +1,42 @@
+sentence A = Two large persons are standing near a park bench and they have nothing between them.
+sentence B = A man and a woman are sitting comfortably on the bench.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Human=,Entity+,PhysicalAttribute+,Park+,Seat+,Damaging+
+CONCEPTS B: Man=,Woman=,PhysicalAttribute+,SittingDown+,StateOfMind+,Seat+
+
+CONLL A:
+
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?
+2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+3	persons	person	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	00007846-n|Human=
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	02604760-v|Entity+
+5	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+6	near	near	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	park	park	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	compound	_	08615374-n|Park+
+9	bench	bench	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02828884-n|Seat+
+10	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs|fPOS=PRON++PRP	12	nsubj	_	?|?
+12	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	5	conj	_	00065639-v|Damaging+
+13	nothing	nothing	VERB	VBG	Number=Sing|fPOS=NOUN++NN	12	dobj	_	?|?
+14	between	between	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+15	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|fPOS=PRON++PRP	13	nmod	_	?|?
+16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10287213-n|Man=
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	10787470-n|Woman=
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	02655135-v|PhysicalAttribute+
+7	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+8	comfortably	comfortably	ADV	RB	fPOS=ADV++RB	7	advmod	_	00155020-r|StateOfMind+
+9	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	bench	bench	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	02828884-n|Seat+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

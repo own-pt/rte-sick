@@ -1,0 +1,42 @@
+sentence A = A black dog and a small white and black dog are looking up at a kitchen countertop.
+sentence B = Two dogs are looking up at a kitchen countertop.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Black=,Canine+,SubjectiveStrongNegativeAttribute+,White=,Black=,Canine+,Entity+,SubjectiveAssessmentAttribute+,Increasing+,Kitchen=,Region+
+CONCEPTS B: Canine+,Entity+,SubjectiveAssessmentAttribute+,Increasing+,Kitchen=,Region+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00392812-a|Black=
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	02084071-n|Canine+
+4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+7	white	white	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	conj	_	00393105-a|White=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
+9	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00392812-a|Black=
+10	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	conj	_	02084071-n|Canine+
+11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	12	aux	_	02604760-v|Entity+
+12	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
+13	up	up	ADP	RP	fPOS=ADP++RP	12	compound:prt	_	00097011-r|Increasing+
+14	at	at	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
+15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	?|?
+16	kitchen	kitchen	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	03619890-n|Kitchen=
+17	countertop	countertop	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	03118245-n|Region+
+18	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?
+2	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02084071-n|Canine+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
+5	up	up	ADP	RP	fPOS=ADP++RP	4	compound:prt	_	00097011-r|Increasing+
+6	at	at	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	kitchen	kitchen	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	03619890-n|Kitchen=
+9	countertop	countertop	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03118245-n|Region+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

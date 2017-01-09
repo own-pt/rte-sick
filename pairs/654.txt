@@ -1,0 +1,37 @@
+sentence A = A young climber is making a rock wall for the boys.
+sentence B = The young boy is climbing the wall made of rock.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,FloweringPlant+,Entity+,Attribute+,Mineral+,Wall=,Human+
+CONCEPTS B: HumanYouth=,Human+,Entity+,Increasing+,Wall=,Attribute+,Mineral+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
+3	climber	climber	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	13102409-n|FloweringPlant+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	making	make	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02621395-v|Attribute+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	14696793-n|Mineral+
+8	wall	wall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	04546855-n|Wall=
+9	for	for	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	10285313-n|Human+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
+3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10285313-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00433232-v|Increasing+
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	wall	wall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	04546855-n|Wall=
+8	made	make	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02621395-v|Attribute+
+9	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+10	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	14696793-n|Mineral+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

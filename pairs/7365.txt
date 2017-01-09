@@ -1,0 +1,34 @@
+sentence A = A blonde lady is looking at a tower.
+sentence B = A woman is looking at the view of a city.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Human+,Entity+,SubjectiveAssessmentAttribute+,Building+
+CONCEPTS B: Woman=,Entity+,SubjectiveAssessmentAttribute+,VisualAttribute+,City=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	blonde	blonde	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00243606-a|Human+
+3	lady	lady	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	09989290-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
+6	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	tower	tower	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	04460130-n|Building+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02133435-v|SubjectiveAssessmentAttribute+
+5	at	at	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	view	view	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05933246-n|VisualAttribute+
+8	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	city	city	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	08524735-n|City=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

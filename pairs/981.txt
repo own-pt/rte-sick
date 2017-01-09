@@ -1,0 +1,45 @@
+sentence A = A horse is tossing the cowboy wearing pants of blue and red color.
+sentence B = A man is laying a cover over a wild horse that is falling on the track.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Horse=,Entity+,Removing+,FarmHand+,CoveringFn=,Trousers+,SubjectiveStrongNegativeAttribute+,Red=,ColorAttribute+
+CONCEPTS B: Hominid=,Entity+,Putting=,Blanket+,Organism+,Horse=,Entity+,Getting+,Transitway+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02374451-n|Horse=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	tossing	toss	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02222318-v|Removing+
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	cowboy	cowboy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	09972661-n|FarmHand+
+7	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	acl	_	00047745-v|CoveringFn=
+8	pants	pant	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	dobj	_	04489008-n|Trousers+
+9	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+10	blue	blue	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	13	compound	_	00425002-a|SubjectiveStrongNegativeAttribute+
+11	and	and	CONJ	CC	fPOS=CONJ++CC	10	cc	_	?|?
+12	red	red	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	10	conj	_	00381097-a|Red=
+13	color	color	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	04956594-n|ColorAttribute+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	laying	lay	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01494310-v|Putting=
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	cover	cover	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02849154-n|Blanket+
+7	over	over	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+9	wild	wild	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	amod	_	02389220-a|Organism+
+10	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02374451-n|Horse=
+11	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	13	nsubj	_	?|?
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	02604760-v|Entity+
+13	falling	fall	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	10	acl:relcl	_	02229828-v|Getting+
+14	on	on	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+16	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	09387222-n|Transitway+
+17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

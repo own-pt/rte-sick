@@ -1,0 +1,39 @@
+sentence A = A person is standing in a vast field of glacial ice.
+sentence B = There is no person standing in a vast field of glacial ice.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Human=,Entity+,PhysicalAttribute+,SubjectiveWeakNegativeAttribute+,FieldOfStudy=,SubjectiveWeakNegativeAttribute+,Solid+
+CONCEPTS B: Entity+,Human=,SocialRole+,SubjectiveWeakNegativeAttribute+,FieldOfStudy=,SubjectiveWeakNegativeAttribute+,Solid+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+5	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	vast	vast	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	01387319-a|SubjectiveWeakNegativeAttribute+
+8	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05996646-n|FieldOfStudy=
+9	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	glacial	glacial	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	01258264-a|SubjectiveWeakNegativeAttribute+
+11	ice	ice	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	14915184-n|Solid+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
+4	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	00007846-n|Human=
+5	standing	standing	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	13948136-n|SocialRole+
+6	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	vast	vast	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	01387319-a|SubjectiveWeakNegativeAttribute+
+9	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	05996646-n|FieldOfStudy=
+10	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	glacial	glacial	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	01258264-a|SubjectiveWeakNegativeAttribute+
+12	ice	ice	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	14915184-n|Solid+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?

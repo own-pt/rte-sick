@@ -1,0 +1,35 @@
+sentence A = Rollerbladers are not rolling in formation down a hill.
+sentence B = A group of rollerbladers is lining up on the street.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,not=,Motion+,SelfConnectedObject+,Hill=
+CONCEPTS B: Group=,Entity+,Combining+,Increasing+,Roadway=
+
+CONLL A:
+
+1	Rollerbladers	rollerbladers	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	?|?
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+3	not	not	PART	RB	fPOS=PART++RB	4	neg	_	00024073-r|not=
+4	rolling	roll	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01866192-v|Motion+
+5	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+6	formation	formation	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09287968-n|SelfConnectedObject+
+7	down	down	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	hill	hill	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09303008-n|Hill=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	rollerbladers	rollerbladers	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	?|?
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+6	lining	line	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01270784-v|Combining+
+7	up	up	NOUN	NN	fPOS=ADP++RP	6	compound:prt	_	00097011-r|Increasing+
+8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	04334599-n|Roadway=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

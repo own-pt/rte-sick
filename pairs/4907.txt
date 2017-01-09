@@ -1,0 +1,31 @@
+sentence A = A cat is walking on the parquet.
+sentence B = A cat is walking on a hardwood floor.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Whip+,Entity+,Walking=,StationaryArtifact+
+CONCEPTS B: Whip+,Entity+,Walking=,Tissue+,Floor+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02985606-n|Whip+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01904930-v|Walking=
+5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	parquet	parquet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03892035-n|StationaryArtifact+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02985606-n|Whip+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01904930-v|Walking=
+5	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	hardwood	hardwood	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	15100112-n|Tissue+
+8	floor	floor	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03365592-n|Floor+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

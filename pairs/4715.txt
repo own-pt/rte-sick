@@ -1,0 +1,38 @@
+sentence A = Pieces of butter are being added to the stand mixer.
+sentence B = There is no man cutting pieces of butter into a mixing bowl.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: TimeDuration+,Butter=,Entity+,Entity+,Putting=,SubjectiveAssessmentAttribute=,Device+
+CONCEPTS B: Entity+,GamePiece+,Cutting+,GamePiece+,Butter=,IntentionalProcess+,Dish+
+
+CONLL A:
+
+1	Pieces	piece	NOUN	NNS	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	nsubjpass	_	15246353-n|TimeDuration+
+2	of	of	ADP	IN	fPOS=ADP++IN	3	case	_	?|?
+3	butter	butter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	1	nmod	_	07848338-n|Butter=
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	02604760-v|Entity+
+5	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	6	auxpass	_	02604760-v|Entity+
+6	added	add	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	00182406-v|Putting=
+7	to	to	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+9	stand	stand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	06210363-n|SubjectiveAssessmentAttribute=
+10	mixer	mixer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03775199-n|Device+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
+CONLL B:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	6	neg	_	?|?
+4	man	man	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	03716327-n|GamePiece+
+5	cutting	cut	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	01552519-v|Cutting+
+6	pieces	piece	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nsubj	_	03716327-n|GamePiece+
+7	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+8	butter	butter	ADP	IN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	07848338-n|Butter=
+9	into	into	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+11	mixing	mix	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	00394813-v|IntentionalProcess+
+12	bowl	bowl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	02880940-n|Dish+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?

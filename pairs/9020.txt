@@ -1,0 +1,47 @@
+sentence A = A child with dark hair is going down a slide and throwing up his arms.
+sentence B = A young girl with a heart tank top is raising her hands as she is sliding.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanChild=,SubjectiveWeakNegativeAttribute+,Hair=,Entity+,WhenFn=,earlier+,Artifact+,Impelling+,Increasing+,Weapon=
+CONCEPTS B: HumanYouth=,Human+,SubjectiveAssessmentAttribute+,FluidContainer+,PositionalAttribute+,Entity+,MotionUpward=,Hand+,Entity+,Translocation+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	09917593-n|HumanChild=
+3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	dark	dark	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	00409440-a|SubjectiveWeakNegativeAttribute+
+5	hair	hair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	05254795-n|Hair=
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	going	go	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02618149-v|WhenFn=
+8	down	down	ADV	RB	fPOS=ADP++IN	7	advmod	_	00096089-r|earlier+
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	slide	slide	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	03029603-n|Artifact+
+11	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
+12	throwing	throw	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	conj	_	01508368-v|Impelling+
+13	up	up	ADP	IN	fPOS=ADP++RP	12	compound:prt	_	00097011-r|Increasing+
+14	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	15	nmod:poss	_	?|?
+15	arms	arm	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	dobj	_	04565375-n|Weapon=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	10129825-n|Human+
+4	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+6	heart	heart	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	amod	_	05921123-n|SubjectiveAssessmentAttribute+
+7	tank	tank	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	04388743-n|FluidContainer+
+8	top	top	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	08663354-n|PositionalAttribute+
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
+10	raising	raise	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01974062-v|MotionUpward=
+11	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	12	nmod:poss	_	?|?
+12	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	dobj	_	05564590-n|Hand+
+13	as	as	SCONJ	IN	fPOS=SCONJ++IN	16	mark	_	?|?
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	16	nsubj	_	?|?
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	16	aux	_	02604760-v|Entity+
+16	sliding	slide	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	10	advcl	_	02090990-v|Translocation+
+17	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?

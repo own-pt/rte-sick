@@ -1,0 +1,34 @@
+sentence A = The crowd is watching a football game.
+sentence B = A group of people playing football is running in the field.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveAssessmentAttribute=,Entity+,Looking=,Football+,Game=
+CONCEPTS B: Group=,GroupOfPeople=,IntentionalProcess+,Football+,Entity+,IntentionalProcess+,FieldOfStudy=
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	crowd	crowd	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	08182379-n|SubjectiveAssessmentAttribute=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	watching	watch	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02150948-v|Looking=
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	00468480-n|Football+
+7	game	game	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00455599-n|Game=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	compound	_	07942152-n|GroupOfPeople=
+5	playing	play	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	01717169-v|IntentionalProcess+
+6	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	00468480-n|Football+
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+8	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01717169-v|IntentionalProcess+
+9	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	05996646-n|FieldOfStudy=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?

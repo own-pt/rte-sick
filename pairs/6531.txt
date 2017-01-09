@@ -1,0 +1,47 @@
+sentence A = Women are wearing bunny ears and race numbers and are pointing at something in the distance.
+sentence B = A group of women are wearing pink bunny ears and are pointing to the right.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,CoveringFn=,Position+,Ear+,Racing=,Number=,Entity+,Indicating=,LengthMeasure+
+CONCEPTS B: Group=,Woman=,Entity+,RecreationOrExercise+,Pink+,Position+,Ear+,Entity+,Indicating=,Hand+
+
+CONLL A:
+
+1	Women	woman	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	10787470-n|Woman=
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	3	aux	_	02604760-v|Entity+
+3	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00047745-v|CoveringFn=
+4	bunny	bunny	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	compound	_	09880189-n|Position+
+5	ears	ear	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	dobj	_	05323889-n|Ear+
+6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+7	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	07458453-n|Racing=
+8	numbers	number	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	conj	_	13582013-n|Number=
+9	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	?|?
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	11	aux	_	02604760-v|Entity+
+11	pointing	point	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	3	conj	_	00923793-v|Indicating=
+12	at	at	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+13	something	something	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	?|?
+14	in	in	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+16	distance	distance	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	05084201-n|LengthMeasure+
+17	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
+4	women	woman	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	10787470-n|Woman=
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	02604760-v|Entity+
+6	wearing	wear	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	00075021-v|RecreationOrExercise+
+7	pink	pink	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	00379595-a|Pink+
+8	bunny	bunny	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	09880189-n|Position+
+9	ears	ear	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	dobj	_	05323889-n|Ear+
+10	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	12	aux	_	02604760-v|Entity+
+12	pointing	point	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	conj	_	00923793-v|Indicating=
+13	to	to	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	right	right	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	05565337-n|Hand+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

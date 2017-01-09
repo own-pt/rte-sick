@@ -1,0 +1,45 @@
+sentence A = A young boy wearing a red swimsuit is jumping into a blue kiddies pool.
+sentence B = A young boy wearing a red swimsuit is jumping out of a blue kiddies pool.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: HumanYouth=,Human+,CoveringFn=,Red=,Clothing+,Entity+,Ambulating=,SubjectiveStrongNegativeAttribute+,StaticWaterArea+
+CONCEPTS B: HumanYouth=,Human+,CoveringFn=,Red=,Clothing+,Entity+,Ambulating=,Giving+,SubjectiveStrongNegativeAttribute+,StaticWaterArea+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
+3	boy	boy	NOUN	NN	fPOS=SCONJ++IN	9	nsubj	_	10285313-n|Human+
+4	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	3	acl	_	00047745-v|CoveringFn=
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00381097-a|Red=
+7	swimsuit	swimsuit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	04371563-n|Clothing+
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+9	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+10	into	into	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+12	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
+13	kiddies	kiddies	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	14	compound	_	?|?
+14	pool	pool	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	nmod	_	09397607-n|StaticWaterArea+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	amod	_	01646941-a|HumanYouth=
+3	boy	boy	NOUN	NN	fPOS=SCONJ++IN	9	nsubj	_	10285313-n|Human+
+4	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	3	acl	_	00047745-v|CoveringFn=
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00381097-a|Red=
+7	swimsuit	swimsuit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	04371563-n|Clothing+
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
+9	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+10	out	out	ADP	IN	fPOS=ADP++IN	15	case	_	00233413-r|Giving+
+11	of	of	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+13	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
+14	kiddies	kiddies	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	15	compound	_	?|?
+15	pool	pool	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	nmod	_	09397607-n|StaticWaterArea+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?

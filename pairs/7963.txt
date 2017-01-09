@@ -1,0 +1,36 @@
+sentence A = The black llama is curiously looking at the white dogs.
+sentence B = The white dogs are looking curiously at the black llama.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Black=,HoofedMammal+,Entity+,SubjectiveAssessmentAttribute+,Looking=,White=,Canine+
+CONCEPTS B: White=,Canine+,Entity+,Looking=,SubjectiveAssessmentAttribute+,Black=,HoofedMammal+
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00392812-a|Black=
+3	llama	llama	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	02437616-n|HoofedMammal+
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+5	curiously	curiously	ADV	RB	fPOS=ADV++RB	6	advmod	_	00035491-r|SubjectiveAssessmentAttribute+
+6	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02130524-v|Looking=
+7	at	at	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+9	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00393105-a|White=
+10	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	02084071-n|Canine+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00393105-a|White=
+3	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	02084071-n|Canine+
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	02604760-v|Entity+
+5	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02130524-v|Looking=
+6	curiously	curiously	ADV	RB	Degree=Pos|fPOS=ADJ++JJ	5	xcomp	_	00035491-r|SubjectiveAssessmentAttribute+
+7	at	at	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+9	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00392812-a|Black=
+10	llama	llama	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	02437616-n|HoofedMammal+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

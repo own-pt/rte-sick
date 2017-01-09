@@ -1,0 +1,40 @@
+sentence A = A man on inline skates is skating at a skate park.
+sentence B = A man on inline skates is skating at a park built for skating.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Hominid=,Clothing+,Entity+,Walking+,Clothing+,Park+
+CONCEPTS B: Hominid=,Clothing+,Entity+,Walking+,Park+,Increasing+,Walking+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	02472293-n|Hominid=
+3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	inline	inline	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	compound	_	?|?
+5	skates	skate	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	04225729-n|Clothing+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	skating	skate	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01936753-v|Walking+
+8	at	at	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+10	skate	skate	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	04225729-n|Clothing+
+11	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	08615374-n|Park+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubjpass	_	02472293-n|Hominid=
+3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	inline	inline	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	compound	_	?|?
+5	skates	skate	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	04225729-n|Clothing+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	auxpass	_	02604760-v|Entity+
+7	skating	skate	VERB	VBN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01936753-v|Walking+
+8	at	at	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+10	park	park	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	11	compound	_	08615374-n|Park+
+11	built	build	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	00252990-v|Increasing+
+12	for	for	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+13	skating	skate	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	01936753-v|Walking+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

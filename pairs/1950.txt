@@ -1,0 +1,35 @@
+sentence A = One small child is drinking water from the cup.
+sentence B = The kitten is eagerly drinking some milk from the bowl.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,Drinking+,Water=,Cup=
+CONCEPTS B: Feline+,Entity+,EmotionalState+,Drinking+,Milk=,Dish+
+
+CONLL A:
+
+1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	?|?
+2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	09917593-n|HumanChild=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	drinking	drink	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01171183-v|Drinking+
+6	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	14845743-n|Water=
+7	from	from	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	cup	cup	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03147509-n|Cup=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	kitten	kitten	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02122948-n|Feline+
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	eagerly	eagerly	ADV	RB	fPOS=ADV++RB	5	advmod	_	00200777-r|EmotionalState+
+5	drinking	drink	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01171183-v|Drinking+
+6	some	some	DET	DT	fPOS=DET++DT	7	det	_	?|?
+7	milk	milk	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	07844042-n|Milk=
+8	from	from	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	bowl	bowl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02880940-n|Dish+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

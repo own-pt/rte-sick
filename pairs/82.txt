@@ -3,8 +3,8 @@ sentence B = People are looking at some costumes gathered in the vicinity of the
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,SubjectiveStrongNegativeAttribute+,Human+,Entity+,SubjectiveAssessmentAttribute+,?,?,Woman=,?,Clothing+,?
-CONCEPTS B: GroupOfPeople=,Entity+,Searching=,?,?,Clothing+,Meeting+,?,?,Neighborhood+,?,?,Forest=,?
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,SubjectiveAssessmentAttribute+,Woman=,Clothing+
+CONCEPTS B: GroupOfPeople=,Entity+,Searching=,Clothing+,Meeting+,Neighborhood+,Forest=
 
 CONLL A:
 
@@ -37,5 +37,3 @@ CONLL B:
 12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
 13	forest	forest	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	09284015-n|Forest=
 14	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
-
-

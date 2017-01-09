@@ -1,0 +1,39 @@
+sentence A = A woman is walking with a pair of dogs.
+sentence B = A woman is showing a dog with very long hair at a dog show.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Walking=,Entity+,Canine+
+CONCEPTS B: Woman=,Entity+,Demonstrating=,Canine+,SubjectiveAssessmentAttribute+,SubjectiveAssessmentAttribute+,Hair=,Canine+,Expressing+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01904930-v|Walking=
+5	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	pair	pair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	13743605-n|Entity+
+8	of	of	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+9	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	02084071-n|Canine+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	showing	show	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02148788-v|Demonstrating=
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02084071-n|Canine+
+7	with	with	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+8	very	very	ADV	RB	fPOS=ADV++RB	9	advmod	_	00031899-r|SubjectiveAssessmentAttribute+
+9	long	long	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	01433493-a|SubjectiveAssessmentAttribute+
+10	hair	hair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05254795-n|Hair=
+11	at	at	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+13	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	02084071-n|Canine+
+14	show	show	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	06879521-n|Expressing+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

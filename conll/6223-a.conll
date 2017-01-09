@@ -1,0 +1,19 @@
+# sent_id = 6223a
+# text = The crowd is watching two cars designed for racing that are leaving the starting line.
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	crowd	crowd	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	08182379-n|SubjectiveAssessmentAttribute=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	watching	watch	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02150948-v|Looking=
+5	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	6	nummod	_	?|?
+6	cars	car	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	02958343-n|Automobile=
+7	designed	design	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	6	acl	_	00709625-v|Designing=
+8	for	for	SCONJ	IN	fPOS=SCONJ++IN	9	mark	_	?|?
+9	racing	race	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	advcl	_	02058994-v|Motion+
+10	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	12	nsubj	_	?|?
+11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	12	aux	_	02604760-v|Entity+
+12	leaving	leave	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	acl:relcl	_	02635659-v|Process+
+13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+14	starting	start	VERB	VBG	Number=Sing|fPOS=NOUN++NN	15	compound	_	02014165-v|Leaving=
+15	line	line	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	dobj	_	00582388-n|Position+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+

@@ -1,0 +1,38 @@
+sentence A = A man is holding a mask in his raised hand.
+sentence B = There is no man dressed in black wearing an elaborate black mask.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Obligation+,Artifact+,Increasing+,Hand+
+CONCEPTS B: Entity+,Hominid=,Dressing+,Black=,Dressing+,SubjectiveStrongNegativeAttribute+,Black=,Artifact+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02203362-v|Obligation+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	mask	mask	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03724870-n|Artifact+
+7	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+8	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	10	nmod:poss	_	?|?
+9	raised	raise	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	10	compound	_	00229605-v|Increasing+
+10	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05564590-n|Hand+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
+4	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	02472293-n|Hominid=
+5	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	4	acl	_	00046534-v|Dressing+
+6	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+7	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	00392812-a|Black=
+8	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	advcl	_	00050652-v|Dressing+
+9	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+10	elaborate	elaborate	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	01795933-a|SubjectiveStrongNegativeAttribute+
+11	black	black	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	12	amod	_	00392812-a|Black=
+12	mask	mask	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	03724870-n|Artifact+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?

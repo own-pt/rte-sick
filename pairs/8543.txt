@@ -1,0 +1,36 @@
+sentence A = A baby is splashing inside a blue paddling pool.
+sentence B = A toddler is making a splash inside a blue paddling pool.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanBaby=,Entity+,Wetting+,SubjectiveStrongNegativeAttribute+,Motion+,StaticWaterArea+
+CONCEPTS B: NonFullyFormed+,Entity+,Process+,Putting+,SubjectiveStrongNegativeAttribute+,Walking+,StaticWaterArea+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	baby	baby	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	09827683-n|HumanBaby=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	splashing	splash	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01374020-v|Wetting+
+5	inside	inside	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+7	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
+8	paddling	paddle	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	9	compound	_	01419373-v|Motion+
+9	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09397607-n|StaticWaterArea+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	toddler	toddler	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10714465-n|NonFullyFormed+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	making	make	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00120316-v|Process+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	splash	splash	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00717748-n|Putting+
+7	inside	inside	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+9	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
+10	paddling	paddle	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	11	compound	_	01918803-v|Walking+
+11	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09397607-n|StaticWaterArea+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

@@ -3,8 +3,8 @@ sentence B = A player is running with the ball.
 entailm AB = A_entails_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Hominid=,?,Entity+,IntentionalProcess+,Entity+,IntentionalProcess+,?,?,Ball=,?,?,Hand+,?
-CONCEPTS B: ?,Actor=,Entity+,Attribute+,?,?,Ball=,?
+CONCEPTS A: Hominid=,Entity+,IntentionalProcess+,Entity+,IntentionalProcess+,Ball=,Hand+
+CONCEPTS B: Actor=,Entity+,Attribute+,Ball=
 
 CONLL A:
 
@@ -34,5 +34,3 @@ CONLL B:
 6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
 7	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02778669-n|Ball=
 8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
-
-

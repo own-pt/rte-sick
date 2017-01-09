@@ -1,0 +1,32 @@
+sentence A = A frog is being held carelessly by a man.
+sentence B = A man is carelessly holding a frog.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Toad+,Entity+,Entity+,PhysicalAttribute+,SubjectiveAssessmentAttribute+,Hominid=
+CONCEPTS B: Hominid=,Entity+,SubjectiveAssessmentAttribute+,PhysicalAttribute+,Toad+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	frog	frog	PRON	WDT	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	01639765-n|Toad+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	02604760-v|Entity+
+5	held	hold	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	02701210-v|PhysicalAttribute+
+6	carelessly	carelessly	ADV	RB	Degree=Pos|fPOS=ADJ++JJ	5	advmod	_	00164150-r|SubjectiveAssessmentAttribute+
+7	by	by	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02472293-n|Hominid=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02472293-n|Hominid=
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	carelessly	carelessly	ADV	RB	fPOS=ADV++RB	5	advmod	_	00164150-r|SubjectiveAssessmentAttribute+
+5	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02701210-v|PhysicalAttribute+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	frog	frog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	01639765-n|Toad+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

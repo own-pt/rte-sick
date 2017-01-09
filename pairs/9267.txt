@@ -1,0 +1,35 @@
+sentence A = A black dog and a yellow dog are playing with each other.
+sentence B = Two dogs are playing with each other.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Black=,Canine+,SubjectiveAssessmentAttribute+,Canine+,Entity+,DramaticActing+,equal+
+CONCEPTS B: Canine+,Entity+,DramaticActing+,equal+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00392812-a|Black=
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	02084071-n|Canine+
+4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+7	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	conj	_	02084071-n|Canine+
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	9	aux	_	02604760-v|Entity+
+9	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+10	with	with	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	each	each	DET	DT	fPOS=DET++DT	12	det	_	?|?
+12	other	other	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	9	nmod	_	02069355-a|equal+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?
+2	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02084071-n|Canine+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	each	each	DET	DT	fPOS=DET++DT	7	det	_	?|?
+7	other	other	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02069355-a|equal+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

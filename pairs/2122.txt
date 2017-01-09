@@ -1,0 +1,31 @@
+sentence A = Drinking milk helps a cat's hunger.
+sentence B = The cat is licking milk from a saucer.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Drinking+,Milk=,Helping=,Whip+,Hungry+
+CONCEPTS B: Whip+,Entity+,Licking+,Milk=,Circle+
+
+CONLL A:
+
+1	Drinking	drink	VERB	VBG	Number=Sing|fPOS=NOUN++NN	2	compound	_	01171183-v|Drinking+
+2	milk	milk	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	07844042-n|Milk=
+3	helps	help	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02547586-v|Helping=
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod:poss	_	02985606-n|Whip+
+6	's	's	PART	POS	fPOS=PART++POS	5	case	_	?|?
+7	hunger	hunger	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	14039534-n|Hungry+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02985606-n|Whip+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	licking	lick	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01432176-v|Licking+
+5	milk	milk	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07844042-n|Milk=
+6	from	from	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	saucer	saucer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	13875185-n|Circle+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

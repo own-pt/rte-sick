@@ -1,0 +1,41 @@
+sentence A = A dog is standing on one leg and is waiting for a soccer ball.
+sentence B = There is no black and white dog jumping for a ball.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,PhysicalAttribute+,Limb=,Entity+,PsychologicalProcess+,Soccer=,Ball=
+CONCEPTS B: Entity+,Black=,White=,Canine+,Ambulating=,Ball=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02084071-n|Canine+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	one	1	NUM	CD	NumType=Card|fPOS=NUM++CD	7	nummod	_	?|?
+7	leg	leg	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05560787-n|Limb=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
+10	waiting	wait	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	02637938-v|PsychologicalProcess+
+11	for	for	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+13	soccer	soccer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	00478262-n|Soccer=
+14	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	02778669-n|Ball=
+15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	7	neg	_	?|?
+4	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00392812-a|Black=
+5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+6	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	conj	_	00393105-a|White=
+7	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	02084071-n|Canine+
+8	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	acl	_	01963942-v|Ambulating=
+9	for	for	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+11	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	02778669-n|Ball=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?

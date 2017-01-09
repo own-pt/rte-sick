@@ -1,0 +1,21 @@
+# sent_id = 491b
+# text = The dog, which is black and white, is running and a person stands behind it.
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	02084071-n|Canine+
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
+4	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	6	nsubj	_	?|?
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
+6	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	00392812-a|Black=
+7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+8	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	conj	_	00393105-a|White=
+9	,	,	PUNCT	,	fPOS=PUNCT++,	11	punct	_	?|?
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	02604760-v|Entity+
+11	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+12	and	and	CONJ	CC	fPOS=CONJ++CC	11	cc	_	?|?
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+14	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	compound	_	00007846-n|Human=
+15	stands	stand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	conj	_	01546111-v|PhysicalAttribute+
+16	behind	behind	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	15	nmod	_	?|?
+18	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+

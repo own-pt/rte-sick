@@ -1,0 +1,29 @@
+sentence A = The doctor is not helping the patient.
+sentence B = The doctors are reviving a man.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: MedicalDoctor+,Entity+,not=,Helping=,Human+
+CONCEPTS B: MedicalDoctor+,Entity+,OrganismProcess+,Hominid=
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	doctor	doctor	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10020890-n|MedicalDoctor+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	02604760-v|Entity+
+4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	00024073-r|not=
+5	helping	help	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02547586-v|Helping=
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	patient	patient	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	10405694-n|Human+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	doctors	doctor	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	10020890-n|MedicalDoctor+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	reviving	revive	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00098083-v|OrganismProcess+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02472293-n|Hominid=
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

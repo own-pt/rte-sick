@@ -1,0 +1,50 @@
+sentence A = The man dressed in leather chaps and a purple shirt is standing in front of someone lookers.
+sentence B = A man is wearing a purple shirt and black leather chaps and is posing for the camera.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Man=,Dressing+,Leather=,Human+,SocialRole+,Shirt=,Entity+,PhysicalAttribute+,FrontFn=,SocialRole+
+CONCEPTS B: Man=,Entity+,Putting+,SocialRole+,Shirt=,Black=,Leather=,Human+,Entity+,Putting=,Camera=
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	10287213-n|Man=
+3	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	2	acl	_	00046534-v|Dressing+
+4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+5	leather	leather	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	14759722-n|Leather=
+6	chaps	chap	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nmod	_	09908025-n|Human+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+9	purple	purple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	amod	_	01591394-a|SocialRole+
+10	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	04197391-n|Shirt=
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	02604760-v|Entity+
+12	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+13	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+14	front	front	NOUN	NN	fPOS=DET++DT	12	nmod	_	03398467-n|FrontFn=
+15	of	of	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
+16	someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	compound	_	?|?
+17	lookers	looker	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	14	nmod	_	10633450-n|SocialRole+
+18	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10287213-n|Man=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00052374-v|Putting+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+6	purple	purple	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	amod	_	01591394-a|SocialRole+
+7	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	04197391-n|Shirt=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
+9	black	black	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00392812-a|Black=
+10	leather	leather	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	14759722-n|Leather=
+11	chaps	chap	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	conj	_	09908025-n|Human+
+12	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	14	aux	_	02604760-v|Entity+
+14	posing	pose	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01494310-v|Putting=
+15	for	for	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
+16	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	17	det	_	?|?
+17	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	02942699-n|Camera=
+18	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

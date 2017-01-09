@@ -3,8 +3,8 @@ sentence B = Five children are standing in a wooden hut.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,HumanChild=,Entity+,PhysicalAttribute+,?,FrontFn=,?,?,SubjectiveAssessmentAttribute+,SingleFamilyResidence=,?
-CONCEPTS B: ?,HumanChild=,Entity+,PhysicalAttribute+,?,?,SubjectiveAssessmentAttribute+,SingleFamilyResidence=,?
+CONCEPTS A: HumanChild=,Entity+,PhysicalAttribute+,FrontFn=,SubjectiveAssessmentAttribute+,SingleFamilyResidence=
+CONCEPTS B: HumanChild=,Entity+,PhysicalAttribute+,SubjectiveAssessmentAttribute+,SingleFamilyResidence=
 
 CONLL A:
 
@@ -32,5 +32,3 @@ CONLL B:
 7	wooden	wooden	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	8	amod	_	01141595-a|SubjectiveAssessmentAttribute+
 8	hut	hut	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03550153-n|SingleFamilyResidence=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
-
-

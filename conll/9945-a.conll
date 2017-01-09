@@ -1,0 +1,18 @@
+# sent_id = 9945a
+# text = The tan dog is watching a brown dog that is swimming in a pond.
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	tan	tan	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	00384533-a|ColorAttribute+
+3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	02084071-n|Canine+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	watching	watch	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02150948-v|Looking=
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	brown	brown	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	00245112-a|Human+
+8	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02084071-n|Canine+
+9	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	11	nsubj	_	?|?
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	02604760-v|Entity+
+11	swimming	swim	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	8	acl:relcl	_	01960911-v|Swimming+
+12	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
+14	pond	pond	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	09397391-n|Lake+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+

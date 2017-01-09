@@ -1,0 +1,42 @@
+sentence A = The man in a t-shirt dyed grey is sitting on a rock in front of a waterfall.
+sentence B = A woman is sitting and looking at the waterfall.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Man=,Shirt+,Coloring+,Gray+,PhysicalAttribute+,SittingDown+,Mineral+,FrontFn=,Waterfall=
+CONCEPTS B: Woman=,PhysicalAttribute+,SittingDown+,SubjectiveAssessmentAttribute+,Waterfall=
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10287213-n|Man=
+3	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+5	t-shirt	t-shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	03595614-n|Shirt+
+6	dyed	dye	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	7	amod	_	00283090-v|Coloring+
+7	grey	grey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	04961691-n|Gray+
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02655135-v|PhysicalAttribute+
+9	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+10	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	14696793-n|Mineral+
+13	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+14	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	08573472-n|FrontFn=
+15	of	of	ADP	IN	fPOS=ADP++IN	17	case	_	?|?
+16	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	?|?
+17	waterfall	waterfall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	09475292-n|Waterfall=
+18	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+6	looking	look	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	02133435-v|SubjectiveAssessmentAttribute+
+7	at	at	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	waterfall	waterfall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	09475292-n|Waterfall=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

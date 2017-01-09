@@ -3,8 +3,8 @@ sentence B = Children in red shirts are sleeping in the leaves.
 entailm AB = A_neutral_B.
 entailm BA = B_contradicts_A.
 
-CONCEPTS A: HumanChild=,?,Red=,Shirt=,Entity+,DramaticActing+,?,?,Leaf=,?
-CONCEPTS B: HumanChild=,?,Red=,Shirt=,Entity+,OrganismProcess+,?,?,Leaf=,?
+CONCEPTS A: HumanChild=,Red=,Shirt=,Entity+,DramaticActing+,Leaf=
+CONCEPTS B: HumanChild=,Red=,Shirt=,Entity+,OrganismProcess+,Leaf=
 
 CONLL A:
 
@@ -32,5 +32,3 @@ CONLL B:
 8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
 9	leaves	leaf	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	13152742-n|Leaf=
 10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
-
-

@@ -1,0 +1,24 @@
+sentence A = Some fish are swimming.
+sentence B = The fish are immobile.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Fish=,Entity+,Swimming+
+CONCEPTS B: Region@,Entity+,capability+
+
+CONLL A:
+
+1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?
+2	fish	fish	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02512053-n|Fish=
+3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	cop	_	02604760-v|Entity+
+4	swimming	swim	ADJ	JJ	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01960911-v|Swimming+
+5	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	fish	fish	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	08688076-n|Region@
+3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	4	cop	_	02604760-v|Entity+
+4	immobile	immobile	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01525116-a|capability+
+5	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

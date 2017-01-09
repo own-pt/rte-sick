@@ -3,8 +3,8 @@ sentence B = Football is being played by two competing teams.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
-CONCEPTS A: ?,Organization=,Entity+,Contest+,?,?,Football+,Sport+,?
-CONCEPTS B: Football+,Entity+,Entity+,Game+,?,?,Contest+,Organization=,?
+CONCEPTS A: Organization=,Entity+,Contest+,Football+,Sport+
+CONCEPTS B: Football+,Entity+,Entity+,Game+,Contest+,Organization=
 
 CONLL A:
 
@@ -30,5 +30,3 @@ CONLL B:
 7	competing	compete	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	8	amod	_	01072262-v|Contest+
 8	teams	team	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	08208560-n|Organization=
 9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
-
-

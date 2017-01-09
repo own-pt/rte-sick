@@ -1,0 +1,29 @@
+sentence A = The man is stirring oil.
+sentence B = The man is cooking sauce for the meat.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,PsychologicalProcess+,Oil=
+CONCEPTS B: Hominid=,Entity+,Cooking+,PreparedFood+,Meat=
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	stirring	stir	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	02116118-v|PsychologicalProcess+
+5	oil	oil	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	14966667-n|Oil=
+6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	cooking	cook	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00322847-v|Cooking+
+5	sauce	sauce	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07829412-n|PreparedFood+
+6	for	for	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	meat	meat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	07649854-n|Meat=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

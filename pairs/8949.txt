@@ -1,0 +1,46 @@
+sentence A = A woman in a bikini is pulling a dog on a leash at the beach.
+sentence B = A woman in a bikini is pulling a cat on a leash at the beach.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Clothing+,Entity+,Transportation+,Canine+,Artifact+,ShoreArea=
+CONCEPTS B: Woman=,Clothing+,Entity+,Transportation+,Whip+,Artifact+,ShoreArea=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10787470-n|Woman=
+3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	bikini	bikini	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	02837789-n|Clothing+
+6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	pulling	pull	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02057499-v|Transportation+
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	02084071-n|Canine+
+10	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	leash	leash	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	03652932-n|Artifact+
+13	at	at	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	09217230-n|ShoreArea=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10787470-n|Woman=
+3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	bikini	bikini	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	02837789-n|Clothing+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02604760-v|Entity+
+7	pulling	pull	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02057499-v|Transportation+
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	02985606-n|Whip+
+10	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	leash	leash	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	03652932-n|Artifact+
+13	at	at	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	09217230-n|ShoreArea=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

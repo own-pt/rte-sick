@@ -1,0 +1,32 @@
+sentence A = The man is putting chicken into the box.
+sentence B = The man is putting chicken into the container.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Putting=,ChickenMeat+,Box=
+CONCEPTS B: Hominid=,Entity+,Putting=,ChickenMeat+,Container+
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01494310-v|Putting=
+5	chicken	chicken	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	dobj	_	07644967-n|ChickenMeat+
+6	into	into	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	box	box	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02883344-n|Box=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01494310-v|Putting=
+5	chicken	chicken	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	07644967-n|ChickenMeat+
+6	into	into	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	container	container	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03094503-n|Container+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

@@ -1,0 +1,9 @@
+# sent_id = 8902a
+# text = Two people are riding motorbikes.
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	07942152-n|GroupOfPeople=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	4	aux	_	02604760-v|Entity+
+4	riding	ride	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01955984-v|Carrying=
+5	motorbikes	motorbike	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	03769722-n|TransportationDevice+
+6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+

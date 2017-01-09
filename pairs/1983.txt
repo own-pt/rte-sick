@@ -1,0 +1,32 @@
+sentence A = A truck is quickly going up a hill.
+sentence B = Some water is being drunk by a cat.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Truck=,Entity+,SubjectiveAssessmentAttribute+,WhenFn=,Increasing+,Hill=
+CONCEPTS B: Water=,Entity+,Entity+,Drinking+,Whip+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	truck	truck	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	04490091-n|Truck=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	quickly	quickly	ADV	RB	fPOS=ADV++RB	5	advmod	_	00085811-r|SubjectiveAssessmentAttribute+
+5	going	go	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02618149-v|WhenFn=
+6	up	up	ADP	RP	fPOS=ADP++IN	5	compound:prt	_	00097011-r|Increasing+
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	hill	hill	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	09303008-n|Hill=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?
+2	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	14845743-n|Water=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	02604760-v|Entity+
+5	drunk	drink	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	01171183-v|Drinking+
+6	by	by	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02985606-n|Whip+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

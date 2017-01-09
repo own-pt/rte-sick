@@ -3,8 +3,8 @@ sentence B = A man who is playing is running with the ball in his hands.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: ?,Organization=,Entity+,Contest+,?,?,Football+,Sport+,?
-CONCEPTS B: ?,Hominid=,?,Entity+,IntentionalProcess+,Entity+,IntentionalProcess+,?,?,Ball=,?,?,Hand+,?
+CONCEPTS A: Organization=,Entity+,Contest+,Football+,Sport+
+CONCEPTS B: Hominid=,Entity+,IntentionalProcess+,Entity+,IntentionalProcess+,Ball=,Hand+
 
 CONLL A:
 
@@ -35,5 +35,3 @@ CONLL B:
 12	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	13	nmod:poss	_	?|?
 13	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	05564590-n|Hand+
 14	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
-
-

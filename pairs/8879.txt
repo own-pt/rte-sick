@@ -1,0 +1,34 @@
+sentence A = A large wet yellow dog is retrieving a toy.
+sentence B = A large wet yellow cat is retrieving a toy.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Wetting=,SubjectiveAssessmentAttribute+,Canine+,Entity+,Removing+,RecreationOrExerciseDevice+
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Wetting=,SubjectiveAssessmentAttribute+,Whip+,Entity+,Removing+,RecreationOrExerciseDevice+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+3	wet	wet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	amod	_	00214951-v|Wetting=
+4	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	02084071-n|Canine+
+6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	aux	_	02604760-v|Entity+
+7	retrieving	retrieve	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01433809-v|Removing+
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	03964744-n|RecreationOrExerciseDevice+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
+3	wet	wet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	00214951-v|Wetting=
+4	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	02101942-a|SubjectiveAssessmentAttribute+
+5	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	02985606-n|Whip+
+6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	aux	_	02604760-v|Entity+
+7	retrieving	retrieve	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01433809-v|Removing+
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	03964744-n|RecreationOrExerciseDevice+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

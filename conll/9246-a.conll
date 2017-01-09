@@ -1,0 +1,23 @@
+# sent_id = 9246a
+# text = A man is standing at the wheel of a classic American car that has its door and trunk open.
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+5	at	at	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	wheel	wheel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04574999-n|VehicleWheel=
+8	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+10	classic	classic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00413622-a|ArtWork+
+11	American	american	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	02927303-a|LandArea@
+12	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	02958343-n|Automobile=
+13	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	14	nsubj	_	?|?
+14	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	12	acl:relcl	_	00065639-v|Damaging+
+15	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	16	nmod:poss	_	?|?
+16	door	door	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	03224032-n|Door+
+17	and	and	CONJ	CC	fPOS=CONJ++CC	16	cc	_	?|?
+18	trunk	trunk	VERB	VB	Number=Sing|fPOS=PROPN++NNP	16	conj	_	05549830-n|Torso+
+19	open	open	ADJ	JJ	Number=Sing|fPOS=PROPN++NNP	14	xcomp	_	01652902-a|SubjectiveWeakPositiveAttribute+
+20	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+

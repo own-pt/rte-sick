@@ -1,0 +1,28 @@
+sentence A = Someone is slicing a tomato.
+sentence B = The person isn't slicing a vegetable.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Separating+,Tomato=
+CONCEPTS B: Human=,Entity+,not=,Separating+,Vegetable=
+
+CONLL A:
+
+1	Someone	someone	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	02604760-v|Entity+
+3	slicing	slice	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01254477-v|Separating+
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	tomato	tomato	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	07734017-n|Tomato=
+6	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	00024073-r|not=
+5	slicing	slice	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01254477-v|Separating+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	vegetable	vegetable	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	07707451-n|Vegetable=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

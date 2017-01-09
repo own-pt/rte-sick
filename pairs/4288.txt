@@ -1,0 +1,29 @@
+sentence A = The woman is slicing cooked octopus.
+sentence B = A woman is chopping up an octopus.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Separating+,Cooking+,Mollusk+
+CONCEPTS B: Woman=,Entity+,Cutting+,Increasing+,Mollusk+
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	auxpass	_	02604760-v|Entity+
+4	slicing	slice	NOUN	NN	fPOS=ADV++RBS	5	advmod	_	01254477-v|Separating+
+5	cooked	cook	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	00322847-v|Cooking+
+6	octopus	octopus	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	xcomp	_	01970164-n|Mollusk+
+7	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	chopping	chop	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01258091-v|Cutting+
+5	up	up	ADP	RP	fPOS=ADP++IN	4	compound:prt	_	00097011-r|Increasing+
+6	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	octopus	octopus	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	01970164-n|Mollusk+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

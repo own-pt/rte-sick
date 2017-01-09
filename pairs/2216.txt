@@ -1,0 +1,27 @@
+sentence A = Someone is falling off a horse.
+sentence B = Someone is on a horse.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,Getting+,Horse=
+CONCEPTS B: Entity+,Horse=
+
+CONLL A:
+
+1	Someone	someone	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	02604760-v|Entity+
+3	falling	fall	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02229828-v|Getting+
+4	off	off	ADP	IN	fPOS=ADP++IN	6	case	_	00232936-r|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	02374451-n|Horse=
+7	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+
+
+CONLL B:
+
+1	Someone	someone	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	02604760-v|Entity+
+3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	02374451-n|Horse=
+6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

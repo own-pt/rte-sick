@@ -1,0 +1,27 @@
+sentence A = There is no man cutting tomatoes.
+sentence B = A man is cutting tomatoes.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Hominid=,Decreasing+,Tomato=
+CONCEPTS B: Hominid=,Entity+,Decreasing+,Tomato=
+
+CONLL A:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	6	neg	_	?|?
+4	man	man	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	02472293-n|Hominid=
+5	cutting	cut	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	00429060-v|Decreasing+
+6	tomatoes	tomato	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nsubj	_	07734017-n|Tomato=
+7	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	cutting	cut	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	00429060-v|Decreasing+
+5	tomatoes	tomato	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	07734017-n|Tomato=
+6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

@@ -1,0 +1,29 @@
+sentence A = The men are acting on a stage.
+sentence B = The men are performing on stage.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,DramaticActing+,PerformanceStage=
+CONCEPTS B: Hominid=,Entity+,IntentionalProcess+,Attribute+
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02472293-n|Hominid=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	acting	act	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	stage	stage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04296562-n|PerformanceStage=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	men	man	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	performing	perform	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01712704-v|IntentionalProcess+
+5	on	on	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+6	stage	stage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	13939892-n|Attribute+
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

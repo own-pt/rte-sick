@@ -1,0 +1,10 @@
+# obtained with:
+# cat conll/*.conll | grep -P "\tROOT\t" | awk -F '\t' '{print $4}' | sort | uniq -c | sort -rn
+
+  18038 VERB
+   1082 NOUN
+    492 ADJ
+     28 AUX
+     25 ADV
+     10 NUM
+      5 ADP

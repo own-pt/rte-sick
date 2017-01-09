@@ -1,0 +1,46 @@
+sentence A = A woman in a purple top is walking a bicycle between two stone columns.
+sentence B = A woman in a top which is purple is walking a bicycle between two stone columns.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Woman=,SocialRole+,PositionalAttribute+,Entity+,Walking=,Bicycle=,Rock=,StationaryArtifact+
+CONCEPTS B: Woman=,PositionalAttribute+,Entity+,ColorAttribute+,Entity+,Walking=,Bicycle=,Rock=,StationaryArtifact+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10787470-n|Woman=
+3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+5	purple	purple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	amod	_	01591394-a|SocialRole+
+6	top	top	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	08663354-n|PositionalAttribute+
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
+8	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01904930-v|Walking=
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	bicycle	bicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	02834778-n|Bicycle=
+11	between	between	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
+12	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	13	nummod	_	?|?
+13	stone	stone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	09416076-n|Rock=
+14	columns	column	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	nmod	_	03073977-n|StationaryArtifact+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	10787470-n|Woman=
+3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	top	top	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	08663354-n|PositionalAttribute+
+6	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	8	nsubj	_	?|?
+7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	cop	_	02604760-v|Entity+
+8	purple	purple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	acl:relcl	_	04970059-n|ColorAttribute+
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
+10	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01904930-v|Walking=
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
+12	bicycle	bicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	02834778-n|Bicycle=
+13	between	between	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+14	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	15	nummod	_	?|?
+15	stone	stone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	compound	_	09416076-n|Rock=
+16	columns	column	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	nmod	_	03073977-n|StationaryArtifact+
+17	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?

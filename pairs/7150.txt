@@ -1,0 +1,40 @@
+sentence A = A wet boy is jumping around on dirty and wet grass.
+sentence B = There is no young boy covered in grass jumping near a wooden fence.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Wetting=,Human+,Entity+,Ambulating=,Dirty=,Wetting=,Grass=
+CONCEPTS B: Entity+,HumanYouth=,Human+,Covering+,Grass=,Ambulating=,SubjectiveAssessmentAttribute+,Device+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	wet	wet	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	00214951-v|Wetting=
+3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10285313-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
+6	around	around	ADV	RB	fPOS=ADV++RB	5	advmod	_	00007015-r|?
+7	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+8	dirty	dirty	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	00419289-a|Dirty=
+9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
+10	wet	wet	ADJ	JJ	fPOS=ADP++IN	8	conj	_	00214951-v|Wetting=
+11	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	12102133-n|Grass=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	?|?
+4	young	young	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	01646941-a|HumanYouth=
+5	boy	boy	AUX	VBP	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	10285313-n|Human+
+6	covered	cover	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	5	acl	_	01332730-v|Covering+
+7	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+8	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	12102133-n|Grass=
+9	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	8	acl	_	01963942-v|Ambulating=
+10	near	near	NOUN	NN	fPOS=ADP++IN	13	case	_	?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+12	wooden	wooden	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	01141595-a|SubjectiveAssessmentAttribute+
+13	fence	fence	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	03327234-n|Device+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?

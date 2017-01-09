@@ -3,8 +3,8 @@ sentence B = People are walking outside a building that has many murals on it.
 entailm AB = A_neutral_B.
 entailm BA = B_neutral_A.
 
-CONCEPTS A: GroupOfPeople=,Entity+,Walking=,?,?,Building=,?,Damaging+,?,ArtWork+,?,?,?
-CONCEPTS B: GroupOfPeople=,Entity+,Walking=,?,?,Building=,?,Damaging+,?,ArtWork+,?,?,?
+CONCEPTS A: GroupOfPeople=,Entity+,Walking=,Building=,Damaging+,ArtWork+
+CONCEPTS B: GroupOfPeople=,Entity+,Walking=,Building=,Damaging+,ArtWork+
 
 CONLL A:
 
@@ -38,5 +38,3 @@ CONLL B:
 11	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
 12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	8	nmod	_	?|?
 13	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
-
-

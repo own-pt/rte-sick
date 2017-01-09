@@ -1,0 +1,53 @@
+sentence A = A young oriental girl is standing above the crowd and is playing with a pinwheel.
+sentence B = A girl in blue sweater is holding a multicolor toy and is sitting on the shoulders of a man with grey hair.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,Asia+,Human+,Entity+,PhysicalAttribute+,SubjectiveAssessmentAttribute=,Entity+,DramaticActing+,FloweringPlant+
+CONCEPTS B: Human+,SubjectiveStrongNegativeAttribute+,Clothing+,PhysicalAttribute+,Process+,Polychromatic+,RecreationOrExerciseDevice+,PhysicalAttribute+,SittingDown+,Shoulder=,Man=,Gray+,Hair=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?
+2	young	young	ADJ	JJ	fPOS=ADV++RBS	4	amod	_	01646941-a|HumanYouth=
+3	oriental	oriental	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	00825807-a|Asia+
+4	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	10129825-n|Human+
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+6	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+7	above	above	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	crowd	crowd	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	08182379-n|SubjectiveAssessmentAttribute=
+10	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	02604760-v|Entity+
+12	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	01719302-v|DramaticActing+
+13	with	with	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+15	pinwheel	pinwheel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	12786836-n|FloweringPlant+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10129825-n|Human+
+3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
+4	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
+5	sweater	sweater	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	04370048-n|Clothing+
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02655135-v|PhysicalAttribute+
+7	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01217043-v|Process+
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+9	multicolor	multicolor	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00398978-a|Polychromatic+
+10	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	03964744-n|RecreationOrExerciseDevice+
+11	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	02655135-v|PhysicalAttribute+
+13	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	7	conj	_	01543123-v|SittingDown+
+14	on	on	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
+15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+16	shoulders	shoulder	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	nmod	_	05548840-n|Shoulder=
+17	of	of	ADP	IN	fPOS=ADP++IN	19	case	_	?|?
+18	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	19	det	_	?|?
+19	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	10287213-n|Man=
+20	with	with	ADP	IN	fPOS=ADP++IN	22	case	_	?|?
+21	grey	grey	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	22	amod	_	00389310-a|Gray+
+22	hair	hair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	19	nmod	_	05254795-n|Hair=
+23	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

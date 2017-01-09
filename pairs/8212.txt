@@ -1,0 +1,40 @@
+sentence A = A girl has colored patches on the cheeks.
+sentence B = A girl is standing in a group and is wearing a black shirt and pink beads.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Damaging+,SurfaceChange+,TimeDuration+,TraitAttribute+
+CONCEPTS B: Human+,Entity+,PhysicalAttribute+,Group=,Entity+,Putting+,Black=,Shirt=,Pink+,ShapeAttribute+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10129825-n|Human+
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	00065639-v|Damaging+
+4	colored	color	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	0	ROOT	_	00283911-v|SurfaceChange+
+5	patches	patch	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	15246353-n|TimeDuration+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	cheeks	cheek	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	04838210-n|TraitAttribute+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10129825-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+5	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	00031264-n|Group=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
+10	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	00052374-v|Putting+
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
+12	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	00392812-a|Black=
+13	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	compound	_	04197391-n|Shirt=
+14	and	and	CONJ	CC	fPOS=CONJ++CC	13	cc	_	?|?
+15	pink	pink	VERB	VBP	Degree=Pos|fPOS=ADJ++JJ	13	conj	_	00379595-a|Pink+
+16	beads	bead	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	dobj	_	13901585-n|ShapeAttribute+
+17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

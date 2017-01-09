@@ -1,0 +1,37 @@
+sentence A = A man is standing behind the rocks with clouds on top of them.
+sentence B = A person is standing on a mountain top.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,PhysicalAttribute+,Mineral+,Cloud=,top=
+CONCEPTS B: Human=,Entity+,PhysicalAttribute+,Mountain=,LandArea+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+5	behind	behind	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	rocks	rock	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	14696793-n|Mineral+
+8	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+9	clouds	cloud	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	09247410-n|Cloud=
+10	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+11	top	top	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	02439949-a|top=
+12	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+13	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|fPOS=PRON++PRP	11	nmod	_	?|?
+14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+5	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+7	mountain	mountain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	09359803-n|Mountain=
+8	top	top	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	08617963-n|LandArea+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

@@ -26,7 +26,10 @@ https://github.com/tensorflow/models/blob/master/syntaxnet/universal.md
 
 https://github.com/ontologyportal/sumo
 
-6. Fix the paths in env.sh, process.py, and parse.sh to point to your
+6. Fix the paths in env.sh, process-freeling.py, and parse.sh to point to your
 local installation paths.
 
-Execute: python3 process.py
+Execute: run-all.sh
+
+7. The relevant files are the [1-9]-{a,b}.conll and [1-9]*.txt; all
+others can be removed if needed. 

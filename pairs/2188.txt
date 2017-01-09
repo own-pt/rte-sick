@@ -1,0 +1,27 @@
+sentence A = A few men are cheerfully playing cricket.
+sentence B = People are playing cricket.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,EmotionalState+,DramaticActing+,Cricket=
+CONCEPTS B: GroupOfPeople=,Entity+,DramaticActing+,Cricket=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	few	few	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	?|?
+3	men	man	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	02472293-n|Hominid=
+4	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	7	cop	_	02604760-v|Entity+
+5	cheerfully	cheerfully	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00230749-r|EmotionalState+
+6	playing	play	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	01719302-v|DramaticActing+
+7	cricket	cricket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	00476389-n|Cricket=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
+CONLL B:
+
+1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	07942152-n|GroupOfPeople=
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	3	aux	_	02604760-v|Entity+
+3	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
+4	cricket	cricket	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	dobj	_	00476389-n|Cricket=
+5	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?

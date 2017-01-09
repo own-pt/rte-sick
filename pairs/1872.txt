@@ -1,0 +1,25 @@
+sentence A = A few kittens are eating.
+sentence B = Some kittens are eating.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Feline+,Entity+,Process+
+CONCEPTS B: Feline+,Entity+,Process+
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	few	few	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	?|?
+3	kittens	kitten	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	02122948-n|Feline+
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	02604760-v|Entity+
+5	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01157517-v|Process+
+6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+
+
+CONLL B:
+
+1	Some	some	DET	DT	Number=Sing|fPOS=NOUN++NN	2	det	_	?|?
+2	kittens	kitten	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02122948-n|Feline+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01157517-v|Process+
+5	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

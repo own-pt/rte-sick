@@ -1,0 +1,34 @@
+sentence A = Some people and cars are on a crowded street.
+sentence B = Some people and vehicles are on a crowded street.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GroupOfPeople=,Automobile=,Entity+,SocialInteraction+,Roadway=
+CONCEPTS B: GroupOfPeople=,Vehicle=,Entity+,SocialInteraction+,Roadway=
+
+CONLL A:
+
+1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	nsubj	_	07942152-n|GroupOfPeople=
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	cars	car	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	conj	_	02958343-n|Automobile=
+5	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	9	cop	_	02604760-v|Entity+
+6	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	crowded	crowd	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	02027612-v|SocialInteraction+
+9	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	04334599-n|Roadway=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+
+
+CONLL B:
+
+1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	nsubj	_	07942152-n|GroupOfPeople=
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	vehicles	vehicle	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	conj	_	04524313-n|Vehicle=
+5	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	9	cop	_	02604760-v|Entity+
+6	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	crowded	crowd	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	02027612-v|SocialInteraction+
+9	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	04334599-n|Roadway=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?

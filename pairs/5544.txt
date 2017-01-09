@@ -1,0 +1,31 @@
+sentence A = There is no man working on the laptop.
+sentence B = A man is working on the laptop.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Hominid=,Attribute+,Computer+
+CONCEPTS B: Hominid=,Entity+,Attribute+,Computer+
+
+CONLL A:
+
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
+4	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	02472293-n|Hominid=
+5	working	work	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	01525666-v|Attribute+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
+8	laptop	laptop	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03642806-n|Computer+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	working	work	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	laptop	laptop	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03642806-n|Computer+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

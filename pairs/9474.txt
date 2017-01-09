@@ -1,0 +1,38 @@
+sentence A = A kid is sitting wearing swim gear.
+sentence B = A young swimmer is standing in a bathing suit and waiting for the next race.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanChild=,PhysicalAttribute+,SittingDown+,RecreationOrExercise+,Swimming=,Gear=
+CONCEPTS B: HumanYouth=,Swimmer+,Entity+,PhysicalAttribute+,Removing+,ClothingSuit+,PsychologicalProcess+,Position+,Racing=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	kid	kid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	09917593-n|HumanChild=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
+5	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	advcl	_	00075021-v|RecreationOrExercise+
+6	swim	swim	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00442115-n|Swimming=
+7	gear	gear	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03430551-n|Gear=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
+2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01646941-a|HumanYouth=
+3	swimmer	swimmer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10683126-n|Swimmer+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
+5	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+6	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+8	bathing	bathe	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	00037919-v|Removing+
+9	suit	suit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	04350905-n|ClothingSuit+
+10	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
+11	waiting	wait	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	02637938-v|PsychologicalProcess+
+12	for	for	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
+13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
+14	next	next	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	01294975-a|Position+
+15	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	07458453-n|Racing=
+16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?

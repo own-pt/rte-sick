@@ -1,0 +1,40 @@
+sentence A = A brown and white dog with a brown and black bandanna is running very fast.
+sentence B = A small white dog is running across a lawn.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,White=,Canine+,Human+,Black=,Clothing+,Entity+,Running=,SubjectiveAssessmentAttribute+,SubjectiveAssessmentAttribute+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,White=,Canine+,Entity+,Attribute+,Lawn=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+2	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	00245112-a|Human+
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	00393105-a|White=
+5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nsubj	_	02084071-n|Canine+
+6	with	with	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
+8	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	00245112-a|Human+
+9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
+10	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	conj	_	00392812-a|Black=
+11	bandanna	bandanna	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02786198-n|Clothing+
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	02604760-v|Entity+
+13	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01926311-v|Running=
+14	very	very	ADV	RB	fPOS=ADV++RB	15	advmod	_	00031899-r|SubjectiveAssessmentAttribute+
+15	fast	fast	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	advmod	_	00086000-r|SubjectiveAssessmentAttribute+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	13	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	?|?
+2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
+3	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	4	amod	_	00393105-a|White=
+4	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	02084071-n|Canine+
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
+6	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
+7	across	across	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
+9	lawn	lawn	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	08591592-n|Lawn=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?

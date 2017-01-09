@@ -1,0 +1,16 @@
+# sent_id = 65b
+# text = Two children are lying in the snow and are making snow angels.
+1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?
+2	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	09917593-n|HumanChild=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
+4	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02690708-v|PhysicalAttribute+
+5	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	15043763-n|Snowing=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	10	aux	_	02604760-v|Entity+
+10	making	make	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	00120316-v|Process+
+11	snow	snow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	15043763-n|Snowing=
+12	angels	angel	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	dobj	_	09538915-n|Angel=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+

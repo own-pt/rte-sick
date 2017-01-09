@@ -1,0 +1,50 @@
+sentence A = The man and the boy are standing at the bottom of the stairs, which are outdoors.
+sentence B = A man and a boy are standing at the bottom of some stairs, which are outdoors.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Man=,Human+,Entity+,PhysicalAttribute+,Object+,Artifact+,Entity+,Outdoors+
+CONCEPTS B: Man=,Human+,Entity+,PhysicalAttribute+,Object+,Artifact+,Entity+,Outdoors+
+
+CONLL A:
+
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10287213-n|Man=
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	10285313-n|Human+
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	02604760-v|Entity+
+7	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+8	at	at	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	bottom	bottom	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	08511970-n|Object+
+11	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
+13	stairs	stair	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	nmod	_	04314914-n|Artifact+
+14	,	,	PUNCT	,	fPOS=PUNCT++,	13	punct	_	?|?
+15	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	17	nsubj	_	?|?
+16	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	17	cop	_	02604760-v|Entity+
+17	outdoors	outdoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	acl:relcl	_	00110659-r|Outdoors+
+18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10287213-n|Man=
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	10285313-n|Human+
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	02604760-v|Entity+
+7	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
+8	at	at	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	bottom	bottom	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	08511970-n|Object+
+11	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
+12	some	some	DET	DT	fPOS=DET++DT	13	det	_	?|?
+13	stairs	stair	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	nmod	_	04314914-n|Artifact+
+14	,	,	PUNCT	,	fPOS=PUNCT++,	13	punct	_	?|?
+15	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	17	nsubj	_	?|?
+16	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	17	cop	_	02604760-v|Entity+
+17	outdoors	outdoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	acl:relcl	_	00110659-r|Outdoors+
+18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?

@@ -1,0 +1,29 @@
+sentence A = A guy is mowing the lawn.
+sentence B = Grass is being mowed by a man.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Device+,Entity+,Removing+,Lawn=
+CONCEPTS B: Grass=,Entity+,Entity+,BodyMotion+,Hominid=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	guy	guy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	03471779-n|Device+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	mowing	mow	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01319562-v|Removing+
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
+6	lawn	lawn	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	08591592-n|Lawn=
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	Grass	grass	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	4	nsubjpass	_	12102133-n|Grass=
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+3	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	4	auxpass	_	02604760-v|Entity+
+4	mowed	mow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	00034758-v|BodyMotion+
+5	by	by	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
+7	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02472293-n|Hominid=
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

@@ -1,0 +1,28 @@
+sentence A = A girl is brushing her hair.
+sentence B = A girl is combing her hair.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Touching+,Hair=
+CONCEPTS B: Human+,Entity+,ShapeChange+,Hair=
+
+CONLL A:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10129825-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
+4	brushing	brush	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01243809-v|Touching+
+5	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	6	nmod:poss	_	?|?
+6	hair	hair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	05254795-n|Hair=
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10129825-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
+4	combing	comb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01596645-v|ShapeChange+
+5	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	6	nmod:poss	_	?|?
+6	hair	hair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	05254795-n|Hair=
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?

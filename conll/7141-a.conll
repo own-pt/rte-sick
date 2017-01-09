@@ -1,0 +1,14 @@
+# sent_id = 7141a
+# text = Three men and a woman are posing for a picture.
+1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubj	_	10287213-n|Man=
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	?|?
+5	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	10787470-n|Woman=
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	02604760-v|Entity+
+7	posing	pose	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01494310-v|Putting=
+8	for	for	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
+10	picture	picture	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	03931044-n|Icon+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+
