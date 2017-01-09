@@ -8,45 +8,45 @@ CONCEPTS B: Human+,Entity+,CoveringFn=,Black=,Clothing+,Entity+,Transportation+,
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10787470-n|Woman=
-3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-5	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00392812-a|Black=
-6	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	02728440-n|Clothing+
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
-8	pulling	pull	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02057499-v|Transportation+
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-10	cart	cart	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	02970849-n|Wagon+
-11	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
-12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	13	aux	_	02604760-v|Entity+
-13	standing	stand	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	8	conj	_	01546111-v|PhysicalAttribute+
-14	near	near	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	case	_	?|?
-15	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	16	nummod	_	?|?
-16	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	nmod	_	10287213-n|Man=
-17	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	19	nsubjpass	_	?|?
-18	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	19	auxpass	_	02604760-v|Entity+
-19	seated	seat	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	16	acl:relcl	_	01543998-v|Communication+
-20	on	on	ADP	IN	fPOS=ADP++IN	23	case	_	?|?
-21	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	23	det	_	?|?
-22	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	23	compound	_	08615374-n|Park+
-23	bench	bench	NOUN	NN	Number=Sing|fPOS=NOUN++NN	19	nmod	_	02828884-n|Seat+
-24	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10787470-n|Woman=
+3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+5	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|00392812-a|Black=
+6	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|02728440-n|Clothing+
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
+8	pulling	pull	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02057499-v|Transportation+
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+10	cart	cart	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	NN|02970849-n|Wagon+
+11	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	CC|?|?
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	13	aux	_	VBZ|02604760-v|Entity+
+13	standing	stand	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	8	conj	_	VBG|01546111-v|PhysicalAttribute+
+14	near	near	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	case	_	IN|?|?
+15	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	16	nummod	_	Z|?|?
+16	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	nmod	_	NNS|10287213-n|Man=
+17	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	19	nsubjpass	_	WP|?|?
+18	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	19	auxpass	_	VBP|02604760-v|Entity+
+19	seated	seat	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	16	acl:relcl	_	VBN|01543998-v|Communication+
+20	on	on	ADP	IN	fPOS=ADP++IN	23	case	_	IN|?|?
+21	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	23	det	_	DT|?|?
+22	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	23	compound	_	NN|08615374-n|Park+
+23	bench	bench	NOUN	NN	Number=Sing|fPOS=NOUN++NN	19	nmod	_	NN|02828884-n|Seat+
+24	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	lady	lady	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	09989290-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00047745-v|CoveringFn=
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-6	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00392812-a|Black=
-7	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02728440-n|Clothing+
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	10	aux	_	02604760-v|Entity+
-10	carrying	carry	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01449974-v|Transportation+
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
-12	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	00393105-a|White=
-13	cross	cross	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	03135152-n|Icon+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	lady	lady	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09989290-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00047745-v|CoveringFn=
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+6	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|00392812-a|Black=
+7	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|02728440-n|Clothing+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	10	aux	_	VBZ|02604760-v|Entity+
+10	carrying	carry	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|01449974-v|Transportation+
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
+12	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	JJ|00393105-a|White=
+13	cross	cross	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	NN|03135152-n|Icon+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

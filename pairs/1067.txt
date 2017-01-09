@@ -8,33 +8,33 @@ CONCEPTS B: Human=,Entity+,Carrying=,TransportationDevice+,Process=,Communicatio
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01955984-v|Carrying=
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	motorbike	motorbike	NOUN	NN	NumType=Card|fPOS=NUM++CD	4	dobj	_	03769722-n|TransportationDevice+
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-9	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	04037625-n|StationaryArtifact+
-10	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-12	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	15019030-n|Sand=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01955984-v|Carrying=
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	motorbike	motorbike	NOUN	NN	NumType=Card|fPOS=NUM++CD	4	dobj	_	NN|03769722-n|TransportationDevice+
+7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+9	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|04037625-n|StationaryArtifact+
+10	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+12	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|15019030-n|Sand=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01955984-v|Carrying=
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	motorbike	motorbike	NOUN	NN	NumType=Card|fPOS=NUM++CD	4	dobj	_	03769722-n|TransportationDevice+
-7	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-9	event	event	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	00029378-n|Process=
-10	related	relate	VERB	VBN	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	9	acl	_	02676054-v|Communication+
-11	to	to	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
-12	motocross	motocross	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	?|?
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01955984-v|Carrying=
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	motorbike	motorbike	NOUN	NN	NumType=Card|fPOS=NUM++CD	4	dobj	_	NN|03769722-n|TransportationDevice+
+7	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+9	event	event	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|00029378-n|Process=
+10	related	relate	VERB	VBN	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	9	acl	_	VBN|02676054-v|Communication+
+11	to	to	ADP	IN	fPOS=ADP++IN	12	case	_	TO|?|?
+12	motocross	motocross	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	VB|?|?
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

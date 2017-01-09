@@ -8,29 +8,29 @@ CONCEPTS B: Human+,Entity+,Ambulating=,String+,Sidewalk=,Region+,Garage=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10129825-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	skipping	skip	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01892734-v|Motion+
-5	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	04108268-n|String+
-6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-8	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	08615374-n|Park+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	skipping	skip	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01892734-v|Motion+
+5	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|04108268-n|String+
+6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+8	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|08615374-n|Park+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10129825-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
-5	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	04108268-n|String+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-8	sidewalk	sidewalk	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	5	nmod	_	04215402-n|Sidewalk=
-9	near	near	ADP	IN	Number=Sing|fPOS=NOUN++NN	12	case	_	?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-11	parking	parking	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	13778671-n|Region+
-12	garage	garage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	03416489-n|Garage=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|04108268-n|String+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+8	sidewalk	sidewalk	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	5	nmod	_	NN|04215402-n|Sidewalk=
+9	near	near	ADP	IN	Number=Sing|fPOS=NOUN++NN	12	case	_	IN|?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+11	parking	parking	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	NN|13778671-n|Region+
+12	garage	garage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|03416489-n|Garage=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

@@ -8,33 +8,33 @@ CONCEPTS B: GroupOfPeople=,Entity+,PhysicalAttribute+,Human+,Snowing=,Sol=,Entit
 
 CONLL A:
 
-1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
-4	treading	tread	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02091410-v|Walking+
-5	through	through	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-7	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	15043763-n|Snowing=
-8	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-10	beautiful	beautiful	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	00217728-a|SubjectiveStrongPositiveAttribute+
-11	snowy	snowy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	01698231-a|Covering+
-12	landscape	landscape	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	03640166-n|ArtWork+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	DT|?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
+4	treading	tread	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02091410-v|Walking+
+5	through	through	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+7	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|15043763-n|Snowing=
+8	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+10	beautiful	beautiful	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	JJ|00217728-a|SubjectiveStrongPositiveAttribute+
+11	snowy	snowy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	JJ|01698231-a|Covering+
+12	landscape	landscape	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|03640166-n|ArtWork+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
-5	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
-6	thick	thick	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	amod	_	02387413-a|Human+
-7	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	15043763-n|Snowing=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-10	sun	sun	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	09450163-n|Sol=
-11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	02604760-v|Entity+
-12	rising	rise	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	01968569-v|MotionUpward=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
+6	thick	thick	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	amod	_	JJ|02387413-a|Human+
+7	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|15043763-n|Snowing=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+10	sun	sun	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	NN|09450163-n|Sol=
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	VBZ|02604760-v|Entity+
+12	rising	rise	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|01968569-v|MotionUpward=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

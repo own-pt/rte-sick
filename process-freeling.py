@@ -62,6 +62,7 @@ def process (lin,sumo,glos):
     lemmas = []
     senses = []
     concepts = []
+    pos = []
 
     ## output results
     for s in ls :
@@ -69,6 +70,7 @@ def process (lin,sumo,glos):
         for w in ws:
             words.append(w.get_form())
             lemmas.append(w.get_lemma())
+            pos.append(w.get_tag())
             ss = w.get_senses()
             if (ss): 
                 if ss[0][0] in sumo:
@@ -85,7 +87,7 @@ def process (lin,sumo,glos):
     # clean up       
     sp.close_session(sid);
 
-    return (tokenized_string,lemmas,senses,concepts)
+    return (tokenized_string,lemmas,senses,concepts,pos)
 
 def load(f,suf,sumod,glosd):
     with open(f, 'r',encoding='ISO-8859-1') as sumo:
@@ -133,7 +135,7 @@ with open('SICK.txt', newline='') as csvfile:
         (pair_ID,sentence_A,sentence_B,entailment_label,relatedness_score,entailment_AB,entailment_BA,sentence_A_original,sentence_B_original,sentence_A_dataset,sentence_B_dataset,SemEval_set) = (row)
         (sentence_A, sentence_B) = (fix_sentence(sentence_A), fix_sentence(sentence_B))
         
-        (txt,lemmas,senses,sumo) = process(sentence_A,sumo_dic,glos_dic)
+        (txt,lemmas,senses,sumo,tag) = process(sentence_A,sumo_dic,glos_dic)
         with open('{}-a.tokens'.format(pair_ID),'w') as o:
             o.write("{}\n".format(txt))
         with open('{}-a.lemmas'.format(pair_ID),'w') as o:
@@ -142,8 +144,10 @@ with open('SICK.txt', newline='') as csvfile:
             o.write("{}\n".format(",".join(senses)))
         with open('{}-a.sumo'.format(pair_ID),'w') as o:
             o.write("{}\n".format(",".join(sumo)))
+        with open('{}-a.tag'.format(pair_ID),'w') as o:
+            o.write("{}\n".format(",".join(tag)))
 
-        (txt,lemmas,senses,sumo) = process(sentence_B,sumo_dic,glos_dic)
+        (txt,lemmas,senses,sumo,tag) = process(sentence_B,sumo_dic,glos_dic)
         with open('{}-b.tokens'.format(pair_ID),'w') as o:
             o.write("{}\n".format(txt))
         with open('{}-b.lemmas'.format(pair_ID),'w') as o:
@@ -152,3 +156,5 @@ with open('SICK.txt', newline='') as csvfile:
             o.write("{}\n".format(",".join(senses)))
         with open('{}-b.sumo'.format(pair_ID),'w') as o:
             o.write("{}\n".format(",".join(sumo)))
+        with open('{}-b.tag'.format(pair_ID),'w') as o:
+            o.write("{}\n".format(",".join(tag)))

@@ -8,29 +8,29 @@ CONCEPTS B: Hominid=,Entity+,ShapeChange+,Nail=,Camera=
 
 CONLL A:
 
-1	Someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	02604760-v|Entity+
-3	banging	bang	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01242391-v|Impacting+
-4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	?|?
-5	lens	lens	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	dobj	_	03656484-n|Lens+
-6	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-8	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02942699-n|Camera=
-9	against	against	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
-11	nail	nail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	03804744-n|Nail=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+1	Someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	PRP|?|?
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	VBZ|02604760-v|Entity+
+3	banging	bang	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01242391-v|Impacting+
+4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
+5	lens	lens	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	dobj	_	NN|03656484-n|Lens+
+6	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+8	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02942699-n|Camera=
+9	against	against	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
+11	nail	nail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|03804744-n|Nail=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	hammering	hammer	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01675245-v|ShapeChange+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	nail	nail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03804744-n|Nail=
-7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-9	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	02942699-n|Camera=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	hammering	hammer	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01675245-v|ShapeChange+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	nail	nail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03804744-n|Nail=
+7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+9	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|02942699-n|Camera=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

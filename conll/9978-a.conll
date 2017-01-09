@@ -1,15 +1,15 @@
 # sent_id = 9978a
 # text = A badger, which is shrewd, is digging the earth.
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	badger	badger	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	02447366-n|Carnivore+
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
-4	which	which	PRON	WDT	PronType=Int|fPOS=PRON++WDT	6	nsubj	_	?|?
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
-6	shrewd	shrewd	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	01155603-a|TraitAttribute+
-7	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	?|?
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
-9	digging	dig	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01309701-v|Making+
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
-11	earth	earth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	09270894-n|PlanetEarth=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	badger	badger	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|02447366-n|Carnivore+
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
+4	which	which	PRON	WDT	PronType=Int|fPOS=PRON++WDT	6	nsubj	_	WDT|?|?
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02604760-v|Entity+
+6	shrewd	shrewd	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	JJ|01155603-a|TraitAttribute+
+7	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	Fc|?|?
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
+9	digging	dig	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01309701-v|Making+
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
+11	earth	earth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|09270894-n|PlanetEarth=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
 

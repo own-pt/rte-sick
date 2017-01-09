@@ -8,37 +8,37 @@ CONCEPTS B: Hominid=,Entity+,EndFn+,Artifact+,Concrete=,LandVehicle+,Device+
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	using	use	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01158872-v|IntentionalProcess+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	sledgehammer	sledgehammer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03731695-n|Device+
-7	to	to	PART	TO	fPOS=PART++TO	8	mark	_	?|?
-8	break	break	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	6	acl	_	02681524-v|EndFn+
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
-10	concrete	concrete	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	11	amod	_	00013160-a|Physical+
-11	block	block	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	13914608-n|ShapeAttribute+
-12	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	16	nsubj	_	?|?
-13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	16	cop	_	02604760-v|Entity+
-14	on	on	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
-15	another	another	DET	DT	fPOS=DET++DT	16	det	_	?|?
-16	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	acl:relcl	_	00007846-n|Human=
-17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	using	use	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01158872-v|IntentionalProcess+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	sledgehammer	sledgehammer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03731695-n|Device+
+7	to	to	PART	TO	fPOS=PART++TO	8	mark	_	TO|?|?
+8	break	break	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	6	acl	_	VB|02681524-v|EndFn+
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
+10	concrete	concrete	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	11	amod	_	JJ|00013160-a|Physical+
+11	block	block	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	NN|13914608-n|ShapeAttribute+
+12	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	16	nsubj	_	WDT|?|?
+13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	16	cop	_	VBZ|02604760-v|Entity+
+14	on	on	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
+15	another	another	DET	DT	fPOS=DET++DT	16	det	_	DT|?|?
+16	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	acl:relcl	_	NN|00007846-n|Human=
+17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	breaking	break	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02681524-v|EndFn+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	slab	slab	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	04233405-n|Artifact+
-7	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-8	concrete	concrete	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	14820180-n|Concrete=
-9	with	with	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-11	sledge	sledge	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	04235291-n|LandVehicle+
-12	hammer	hammer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03481172-n|Device+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	breaking	break	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02681524-v|EndFn+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	slab	slab	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|04233405-n|Artifact+
+7	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+8	concrete	concrete	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|14820180-n|Concrete=
+9	with	with	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+11	sledge	sledge	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	NN|04235291-n|LandVehicle+
+12	hammer	hammer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03481172-n|Device+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

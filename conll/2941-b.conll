@@ -1,11 +1,11 @@
 # sent_id = 2941b
 # text = Nobody is fighting in a cow pasture.
-1	Nobody	nobody	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	02604760-v|Entity+
-3	fighting	fight	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01090335-v|ViolentContest+
-4	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-6	cow	cow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	02403454-n|FemaleCow=
-7	pasture	pasture	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	07801091-n|Food+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+1	Nobody	nobody	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	PRP|?|?
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	VBZ|02604760-v|Entity+
+3	fighting	fight	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01090335-v|ViolentContest+
+4	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+6	cow	cow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	NN|02403454-n|FemaleCow=
+7	pasture	pasture	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|07801091-n|Food+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
 

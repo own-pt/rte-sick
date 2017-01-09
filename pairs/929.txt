@@ -8,30 +8,30 @@ CONCEPTS B: Human+,Red=,Shirt=,Entity+,Exhaling+,Bubble+
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	?|?
-2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01646941-a|HumanYouth=
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10129825-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
-5	blowing	blow	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00007012-v|Exhaling+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-7	bubble	bubble	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	09229709-n|Bubble+
-8	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	11	nsubj	_	?|?
-9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	11	cop	_	02604760-v|Entity+
-10	very	very	ADV	RB	fPOS=ADV++RB	11	advmod	_	00031899-r|SubjectiveAssessmentAttribute+
-11	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	acl:relcl	_	01391351-a|SubjectiveStrongNegativeAttribute+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
+5	blowing	blow	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00007012-v|Exhaling+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+7	bubble	bubble	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|09229709-n|Bubble+
+8	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	11	nsubj	_	WDT|?|?
+9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	11	cop	_	VBZ|02604760-v|Entity+
+10	very	very	ADV	RB	fPOS=ADV++RB	11	advmod	_	RB|00031899-r|SubjectiveAssessmentAttribute+
+11	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	acl:relcl	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10129825-n|Human+
-3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
-4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-5	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00381097-a|Red=
-6	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	04197391-n|Shirt=
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
-8	blowing	blow	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00007012-v|Exhaling+
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-10	bubble	bubble	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	09229709-n|Bubble+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10129825-n|Human+
+3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
+4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+5	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|00381097-a|Red=
+6	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|04197391-n|Shirt=
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
+8	blowing	blow	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00007012-v|Exhaling+
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+10	bubble	bubble	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	NN|09229709-n|Bubble+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?

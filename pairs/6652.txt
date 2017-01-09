@@ -8,45 +8,45 @@ CONCEPTS B: Woman=,White=,Dress+,Woman=,SubjectiveStrongNegativeAttribute+,Dress
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nsubj	_	10787470-n|Woman=
-3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-5	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00393105-a|White=
-6	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	03236735-n|Dress+
-7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-9	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	conj	_	10787470-n|Woman=
-10	in	in	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
-12	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
-13	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	03236735-n|Dress+
-14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	15	aux	_	02604760-v|Entity+
-15	standing	stand	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
-16	beside	beside	ADP	IN	fPOS=ADP++IN	18	case	_	?|?
-17	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	18	det	_	?|?
-18	stage	stage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	13939892-n|Attribute+
-19	.	.	PUNCT	.	fPOS=PUNCT++.	15	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nsubj	_	NN|10787470-n|Woman=
+3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|00393105-a|White=
+6	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03236735-n|Dress+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+9	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	conj	_	NN|10787470-n|Woman=
+10	in	in	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
+12	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+13	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|03236735-n|Dress+
+14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	15	aux	_	VBP|02604760-v|Entity+
+15	standing	stand	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+16	beside	beside	ADP	IN	fPOS=ADP++IN	18	case	_	IN|?|?
+17	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	18	det	_	DT|?|?
+18	stage	stage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	NN|13939892-n|Attribute+
+19	.	.	PUNCT	.	fPOS=PUNCT++.	15	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nsubj	_	10787470-n|Woman=
-3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-5	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00393105-a|White=
-6	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	03236735-n|Dress+
-7	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-9	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	10787470-n|Woman=
-10	in	in	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
-12	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
-13	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	03236735-n|Dress+
-14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	15	aux	_	02604760-v|Entity+
-15	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
-16	on	on	ADP	IN	fPOS=ADP++IN	18	case	_	?|?
-17	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	18	det	_	?|?
-18	stage	stage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	13939892-n|Attribute+
-19	.	.	PUNCT	.	fPOS=PUNCT++.	15	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nsubj	_	NN|10787470-n|Woman=
+3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|00393105-a|White=
+6	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03236735-n|Dress+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+9	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	NN|10787470-n|Woman=
+10	in	in	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
+12	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+13	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|03236735-n|Dress+
+14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	15	aux	_	VBP|02604760-v|Entity+
+15	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+16	on	on	ADP	IN	fPOS=ADP++IN	18	case	_	IN|?|?
+17	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	18	det	_	DT|?|?
+18	stage	stage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	NN|13939892-n|Attribute+
+19	.	.	PUNCT	.	fPOS=PUNCT++.	15	punct	_	Fp|?|?

@@ -8,28 +8,28 @@ CONCEPTS B: Human+,Entity+,Expressing+,Hand+,Human=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	10200047-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
-4	being	be	VERB	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	02604760-v|Entity+
-5	trained	train	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	00602805-v|Learning+
-6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-7	martial	martial	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	01518860-a|SubjectiveStrongNegativeAttribute+
-8	arts	art	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	02743547-n|ArtWork=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	NN|10200047-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	VBG|02604760-v|Entity+
+5	trained	train	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|00602805-v|Learning+
+6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+7	martial	martial	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|01518860-a|SubjectiveStrongNegativeAttribute+
+8	arts	art	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	NNS|02743547-n|ArtWork=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10200047-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	kicking	kick	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00907147-v|Expressing+
-5	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-7	gloved	glove	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	?|?
-8	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05564590-n|Hand+
-9	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
-11	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	00007846-n|Human=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10200047-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	kicking	kick	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00907147-v|Expressing+
+5	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+7	gloved	glove	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	VBN|?|?
+8	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|05564590-n|Hand+
+9	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
+11	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|00007846-n|Human=
+12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

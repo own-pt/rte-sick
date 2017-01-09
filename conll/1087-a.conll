@@ -1,25 +1,25 @@
 # sent_id = 1087a
 # text = A dog, which is large and gray, is carrying a ball in its mouth and running across the grass.
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	02084071-n|Canine+
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
-4	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	6	nsubj	_	?|?
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	02604760-v|Entity+
-6	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	01382086-a|SubjectiveWeakPositiveAttribute+
-7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	?|?
-8	gray	gray	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	6	conj	_	00389310-a|Gray+
-9	,	,	PUNCT	,	fPOS=PUNCT++,	11	punct	_	?|?
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	02604760-v|Entity+
-11	carrying	carry	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01449974-v|Transportation+
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
-13	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	02778669-n|Ball=
-14	in	in	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
-15	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	16	nmod:poss	_	?|?
-16	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	05302499-n|Mouth+
-17	and	and	CONJ	CC	fPOS=CONJ++CC	11	cc	_	?|?
-18	running	run	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	11	conj	_	01746359-v|Publication+
-19	across	across	ADP	IN	fPOS=ADP++IN	21	case	_	?|?
-20	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	21	det	_	?|?
-21	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	18	nmod	_	12102133-n|Grass=
-22	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	NN|02084071-n|Canine+
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
+4	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	6	nsubj	_	WDT|?|?
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02604760-v|Entity+
+6	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
+8	gray	gray	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	6	conj	_	JJ|00389310-a|Gray+
+9	,	,	PUNCT	,	fPOS=PUNCT++,	11	punct	_	Fc|?|?
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	VBZ|02604760-v|Entity+
+11	carrying	carry	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01449974-v|Transportation+
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
+13	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	NN|02778669-n|Ball=
+14	in	in	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
+15	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	16	nmod:poss	_	PRP$|?|?
+16	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|05302499-n|Mouth+
+17	and	and	CONJ	CC	fPOS=CONJ++CC	11	cc	_	CC|?|?
+18	running	run	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	11	conj	_	VBG|01746359-v|Publication+
+19	across	across	ADP	IN	fPOS=ADP++IN	21	case	_	IN|?|?
+20	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	21	det	_	DT|?|?
+21	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	18	nmod	_	NN|12102133-n|Grass=
+22	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	Fp|?|?
 

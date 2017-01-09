@@ -8,26 +8,26 @@ CONCEPTS B: Human+,Entity+,Process+,SocialRole+,Wedding=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
-2	married	marry	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	02488834-v|Wedding+
-3	couple	couple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	13743605-n|Entity+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	0	ROOT	_	02604760-v|Entity+
-5	walking	walk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	ccomp	_	01904930-v|Walking=
-6	down	down	ADP	IN	fPOS=ADP++IN	8	case	_	00096089-r|earlier+
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-8	aisle	aisle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	02693860-n|LandTransitway+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
+2	married	marry	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	VBN|02488834-v|Wedding+
+3	couple	couple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|13743605-n|Entity+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
+5	walking	walk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	ccomp	_	VBG|01904930-v|Walking=
+6	down	down	ADP	IN	fPOS=ADP++IN	8	case	_	RP|00096089-r|earlier+
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+8	aisle	aisle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02693860-n|LandTransitway+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	bride	bride	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	09874725-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	leaving	leave	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02635659-v|Process+
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	groom	groom	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	10148035-n|SocialRole+
-7	after	after	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-9	wedding	wedding	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	07452074-n|Wedding=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	bride	bride	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09874725-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	leaving	leave	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02635659-v|Process+
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	groom	groom	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|10148035-n|SocialRole+
+7	after	after	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+9	wedding	wedding	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|07452074-n|Wedding=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

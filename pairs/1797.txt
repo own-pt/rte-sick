@@ -8,25 +8,25 @@ CONCEPTS B: Region@,Entity+,Ambulating+,StateOfMind+,StationaryArtifact+
 
 CONLL A:
 
-1	Not	not	PRON	PRP$	fPOS=PART++RB	2	neg	_	00024073-r|not=
-2	everyone	everyone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	?|?
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	cop	_	02604760-v|Entity+
-4	able	able	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	00001740-a|capability=
-5	to	to	PART	TO	fPOS=PART++TO	6	mark	_	?|?
-6	walk	walk	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	4	xcomp	_	01904930-v|Walking=
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-8	lion	lion	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	08686821-n|Region@
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	Not	not	PRON	PRP$	fPOS=PART++RB	2	neg	_	RB|00024073-r|not=
+2	everyone	everyone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	PRP|?|?
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	cop	_	VBZ|02604760-v|Entity+
+4	able	able	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	JJ|00001740-a|capability=
+5	to	to	PART	TO	fPOS=PART++TO	6	mark	_	TO|?|?
+6	walk	walk	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	4	xcomp	_	VB|01904930-v|Walking=
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+8	lion	lion	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|08686821-n|Region@
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	lion	lion	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	08686821-n|Region@
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	pacing	pace	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02091165-v|Ambulating+
-5	tiredly	tiredly	ADV	RB	fPOS=ADV++RB	4	advmod	_	00090424-r|StateOfMind+
-6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-8	pen	pen	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03907227-n|StationaryArtifact+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	lion	lion	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|08686821-n|Region@
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	pacing	pace	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02091165-v|Ambulating+
+5	tiredly	tiredly	ADV	RB	fPOS=ADV++RB	4	advmod	_	RB|00090424-r|StateOfMind+
+6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+8	pen	pen	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03907227-n|StationaryArtifact+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

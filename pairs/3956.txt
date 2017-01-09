@@ -8,32 +8,32 @@ CONCEPTS B: Human+,Entity+,IntentionalProcess+,Human+,Mixture+,Bicycle=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10285313-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02102398-v|Transportation+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02834778-n|Bicycle=
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-9	top	top	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	08663354-n|PositionalAttribute+
-10	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
-12	metal	metal	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	compound	_	14586769-n|Mixture+
-13	fence	fence	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	03327234-n|Device+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02102398-v|Transportation+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|02834778-n|Bicycle=
+7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+9	top	top	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|08663354-n|PositionalAttribute+
+10	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
+12	metal	metal	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	compound	_	NN|14586769-n|Mixture+
+13	fence	fence	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|03327234-n|Device+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	riders	rider	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	10530150-n|Human+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
-4	fencing	fence	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01130607-v|IntentionalProcess+
-5	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-7	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod:poss	_	10285313-n|Human+
-8	's	's	PART	POS	fPOS=PART++POS	7	case	_	?|?
-9	metal	metal	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	10	compound	_	14586769-n|Mixture+
-10	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02834778-n|Bicycle=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	riders	rider	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|10530150-n|Human+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
+4	fencing	fence	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01130607-v|IntentionalProcess+
+5	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+7	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod:poss	_	NN|10285313-n|Human+
+8	's	's	PART	POS	fPOS=PART++POS	7	case	_	POS|?|?
+9	metal	metal	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	10	compound	_	NN|14586769-n|Mixture+
+10	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02834778-n|Bicycle=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

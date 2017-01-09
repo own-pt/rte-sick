@@ -8,23 +8,23 @@ CONCEPTS B: Woman=,Entity+,Putting=,Mixture+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10129825-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	02604760-v|Entity+
-4	applying	apply	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	01363648-v|Covering+
-5	makeup	makeup	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03714235-n|Mixture+
-6	to	to	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-7	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	8	nmod:poss	_	?|?
-8	face	face	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	05600637-n|Face+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	applying	apply	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	VBG|01363648-v|Covering+
+5	makeup	makeup	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03714235-n|Mixture+
+6	to	to	ADP	IN	fPOS=ADP++IN	8	case	_	TO|?|?
+7	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	8	nmod:poss	_	PRP$|?|?
+8	face	face	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|05600637-n|Face+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01494310-v|Putting=
-5	on	on	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
-6	makeup	makeup	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03714235-n|Mixture+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01494310-v|Putting=
+5	on	on	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
+6	makeup	makeup	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03714235-n|Mixture+
+7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

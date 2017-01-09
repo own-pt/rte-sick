@@ -8,31 +8,31 @@ CONCEPTS B: Hominid=,Entity+,Increasing+,Cliff=,String+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00433232-v|Increasing+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	14696793-n|Mineral+
-7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-9	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	04108268-n|String+
-10	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	?|?
-11	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	13	nsubj	_	?|?
-12	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	13	cop	_	02604760-v|Entity+
-13	pink	pink	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	acl:relcl	_	00379595-a|Pink+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00433232-v|Increasing+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|14696793-n|Mineral+
+7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+9	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|04108268-n|String+
+10	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	Fc|?|?
+11	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	13	nsubj	_	WDT|?|?
+12	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	13	cop	_	VBZ|02604760-v|Entity+
+13	pink	pink	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	acl:relcl	_	JJ|00379595-a|Pink+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00433232-v|Increasing+
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	cliff	cliff	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	09246464-n|Cliff=
-7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-9	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	04108268-n|String+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00433232-v|Increasing+
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	cliff	cliff	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|09246464-n|Cliff=
+7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+9	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|04108268-n|String+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

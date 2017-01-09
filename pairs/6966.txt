@@ -8,26 +8,26 @@ CONCEPTS B: GroupOfPeople=,Entity+,LinguisticCommunication[,PhysicalAttribute+,O
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10287213-n|Man=
-3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-5	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	amod	_	00393105-a|White=
-6	hat	hat	NOUN	NN	PronType=Rel|fPOS=PRON++WDT	2	nmod	_	03497657-n|Hat+
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	aux	_	02604760-v|Entity+
-8	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01719302-v|DramaticActing+
-9	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	03467517-n|Guitar=
-10	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
-11	stage	stage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	13939892-n|Attribute+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	amod	_	JJ|00393105-a|White=
+6	hat	hat	NOUN	NN	PronType=Rel|fPOS=PRON++WDT	2	nmod	_	NN|03497657-n|Hat+
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	aux	_	VBZ|02604760-v|Entity+
+8	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
+9	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	NN|03467517-n|Guitar=
+10	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
+11	stage	stage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|13939892-n|Attribute+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Four	4	ADJ	JJ	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	6	cop	_	02604760-v|Entity+
-4	silently	silently	ADV	RB	fPOS=ADV++RB	6	advmod	_	00112090-r|LinguisticCommunication[
-5	standing	stand	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	01546111-v|PhysicalAttribute+
-6	outdoors	outdoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	00110659-r|Outdoors+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+1	Four	4	ADJ	JJ	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	6	cop	_	VBP|02604760-v|Entity+
+4	silently	silently	ADV	RB	fPOS=ADV++RB	6	advmod	_	RB|00112090-r|LinguisticCommunication[
+5	standing	stand	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	VBG|01546111-v|PhysicalAttribute+
+6	outdoors	outdoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	RB|00110659-r|Outdoors+
+7	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?

@@ -8,33 +8,33 @@ CONCEPTS B: Human=,Entity+,DramaticActing+,Soccer=,Entity+,Expressing+,Ball=,Lim
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	kicking	kick	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00907147-v|Expressing+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-6	soccer	soccer	NOUN	NN	VerbForm=Inf|fPOS=VERB++VB	7	compound	_	00478262-n|Soccer=
-7	ball	ball	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	dobj	_	02778669-n|Ball=
-8	between	between	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-9	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	10	nmod:poss	_	?|?
-10	feet	foot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	05563266-n|Foot+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	kicking	kick	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00907147-v|Expressing+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+6	soccer	soccer	NOUN	NN	VerbForm=Inf|fPOS=VERB++VB	7	compound	_	NN|00478262-n|Soccer=
+7	ball	ball	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	dobj	_	NN|02778669-n|Ball=
+8	between	between	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+9	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	10	nmod:poss	_	PRP$|?|?
+10	feet	foot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NNS|05563266-n|Foot+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	00007846-n|Human=
-3	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	5	nsubj	_	?|?
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
-5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	2	acl:relcl	_	01719302-v|DramaticActing+
-6	soccer	soccer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	00478262-n|Soccer=
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
-8	kicking	kick	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00907147-v|Expressing+
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-10	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	02778669-n|Ball=
-11	between	between	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
-12	somebody	somebody	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod:poss	_	?|?
-13	's	's	PART	POS	fPOS=PART++POS	12	case	_	?|?
-14	legs	leg	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	nmod	_	05560787-n|Limb=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|00007846-n|Human=
+3	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	5	nsubj	_	WP|?|?
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	2	acl:relcl	_	VBG|01719302-v|DramaticActing+
+6	soccer	soccer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|00478262-n|Soccer=
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
+8	kicking	kick	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00907147-v|Expressing+
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+10	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	NN|02778669-n|Ball=
+11	between	between	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
+12	somebody	somebody	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod:poss	_	PRP|?|?
+13	's	's	PART	POS	fPOS=PART++POS	12	case	_	POS|?|?
+14	legs	leg	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	nmod	_	NNS|05560787-n|Limb=
+15	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?

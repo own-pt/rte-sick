@@ -8,29 +8,29 @@ CONCEPTS B: Hominid=,Entity+,Removing+,SubjectiveAssessmentAttribute+,Container+
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
-4	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	02472293-n|Hominid=
-5	shaking	shake	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	01889610-v|Motion+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-7	container	container	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03094503-n|Container+
-8	over	over	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-10	sink	sink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	04223580-n|WashBasin+
-11	in	in	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
-12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	?|?
-13	kitchen	kitchen	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03619890-n|Kitchen=
-14	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
+4	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|02472293-n|Hominid=
+5	shaking	shake	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	VBG|01889610-v|Motion+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+7	container	container	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|03094503-n|Container+
+8	over	over	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+10	sink	sink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|04223580-n|WashBasin+
+11	in	in	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
+12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
+13	kitchen	kitchen	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|03619890-n|Kitchen=
+14	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	emptying	empty	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	00449692-v|Removing+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-6	plastic	plastic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	02364954-a|SubjectiveAssessmentAttribute+
-7	container	container	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03094503-n|Container+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	emptying	empty	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|00449692-v|Removing+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+6	plastic	plastic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|02364954-a|SubjectiveAssessmentAttribute+
+7	container	container	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03094503-n|Container+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

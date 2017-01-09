@@ -8,35 +8,35 @@ CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,Water=,Entity+,Process+,Device+,
 
 CONLL A:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
-2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02472293-n|Hominid=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
-5	near	near	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-7	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	14845743-n|Water=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
-9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	10	aux	_	02604760-v|Entity+
-10	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	01217043-v|Process+
-11	fishing	fishing	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	10	xcomp	_	00453935-n|FishingSport=
-12	poles	pole	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	dobj	_	13650921-n|LengthMeasure@
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	near	near	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+7	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|14845743-n|Water=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	10	aux	_	VBP|02604760-v|Entity+
+10	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|01217043-v|Process+
+11	fishing	fishing	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	10	xcomp	_	NN|00453935-n|FishingSport=
+12	poles	pole	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	dobj	_	NNS|13650921-n|LengthMeasure@
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
-2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02472293-n|Hominid=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
-5	near	near	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-7	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	14845743-n|Water=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
-9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	10	aux	_	02604760-v|Entity+
-10	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01217043-v|Process+
-11	tools	tool	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	dobj	_	04451818-n|Device+
-12	used	use	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	11	acl	_	01158872-v|IntentionalProcess+
-13	for	for	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
-14	fishing	fishing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	00453935-n|FishingSport=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	near	near	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+7	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|14845743-n|Water=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	10	aux	_	VBP|02604760-v|Entity+
+10	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|01217043-v|Process+
+11	tools	tool	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	dobj	_	NNS|04451818-n|Device+
+12	used	use	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	11	acl	_	VBN|01158872-v|IntentionalProcess+
+13	for	for	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
+14	fishing	fishing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	NN|00453935-n|FishingSport=
+15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

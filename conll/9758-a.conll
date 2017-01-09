@@ -1,16 +1,16 @@
 # sent_id = 9758a
 # text = A dog is running on concrete and is holding a blue ball.
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02084071-n|Canine+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
-5	on	on	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
-6	concrete	concrete	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	14820180-n|Concrete=
-7	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	9	aux	_	02604760-v|Entity+
-9	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01217043-v|Process+
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-11	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
-12	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	02778669-n|Ball=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
+5	on	on	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
+6	concrete	concrete	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|14820180-n|Concrete=
+7	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	9	aux	_	VBZ|02604760-v|Entity+
+9	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|01217043-v|Process+
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+11	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+12	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|02778669-n|Ball=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 

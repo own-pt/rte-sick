@@ -8,25 +8,25 @@ CONCEPTS B: Human=,Entity+,IntentionalProcess+,RecreationOrExercise+,PlayingCard
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	performing	perform	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01712704-v|IntentionalProcess+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-6	card	card	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	02962545-n|PlayingCard+
-7	trick	trick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00427580-n|RecreationOrExercise+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	performing	perform	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+6	card	card	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	NN|02962545-n|PlayingCard+
+7	trick	trick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|00427580-n|RecreationOrExercise+
+8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01712704-v|IntentionalProcess+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	trick	trick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	00427580-n|RecreationOrExercise+
-7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
-8	some	some	DET	DT	fPOS=DET++DT	9	det	_	?|?
-9	cards	card	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	02962545-n|PlayingCard+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	trick	trick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|00427580-n|RecreationOrExercise+
+7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
+8	some	some	DET	DT	fPOS=DET++DT	9	det	_	DT|?|?
+9	cards	card	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	NNS|02962545-n|PlayingCard+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

@@ -8,44 +8,44 @@ CONCEPTS B: GroupOfPeople=,PhysicalAttribute+,Transportation+,Automobile+,Human+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10787470-n|Woman=
-3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
-4	blond	blond	ADP	IN	Degree=Cmp|fPOS=ADJ++JJR	5	amod	_	00243606-a|Human+
-5	hair	hair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	05254795-n|Hair=
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	02655135-v|PhysicalAttribute+
-7	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
-8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-10	roof	roof	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	04105068-n|Roof=
-11	of	of	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
-13	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	02101942-a|SubjectiveAssessmentAttribute+
-14	vehicle	vehicle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	04524313-n|Vehicle=
-15	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	?|?
-16	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	17	nummod	_	?|?
-17	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	19	nsubj	_	07942152-n|GroupOfPeople=
-18	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	19	cop	_	02655135-v|PhysicalAttribute+
-19	inside	inside	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	conj	_	00110815-r|Indoors+
-20	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10787470-n|Woman=
+3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
+4	blond	blond	ADP	IN	Degree=Cmp|fPOS=ADJ++JJR	5	amod	_	JJ|00243606-a|Human+
+5	hair	hair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|05254795-n|Hair=
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02655135-v|PhysicalAttribute+
+7	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
+8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+10	roof	roof	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|04105068-n|Roof=
+11	of	of	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
+13	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+14	vehicle	vehicle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|04524313-n|Vehicle=
+15	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
+16	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	17	nummod	_	Z|?|?
+17	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	19	nsubj	_	NNS|07942152-n|GroupOfPeople=
+18	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	19	cop	_	VBP|02655135-v|PhysicalAttribute+
+19	inside	inside	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	conj	_	RB|00110815-r|Indoors+
+20	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02655135-v|PhysicalAttribute+
-4	driving	drive	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01930874-v|Transportation+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	jeep	jeep	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03594945-n|Automobile+
-7	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-9	lady	lady	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	09989290-n|Human+
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	02655135-v|PhysicalAttribute+
-11	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	01543123-v|SittingDown+
-12	on	on	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
-13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	?|?
-14	top	top	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	08663354-n|PositionalAttribute+
-15	of	of	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
-16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	14	nmod	_	?|?
-17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	Z|?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02655135-v|PhysicalAttribute+
+4	driving	drive	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01930874-v|Transportation+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	jeep	jeep	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03594945-n|Automobile+
+7	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+9	lady	lady	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	NN|09989290-n|Human+
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	VBZ|02655135-v|PhysicalAttribute+
+11	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|01543123-v|SittingDown+
+12	on	on	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
+13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
+14	top	top	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|08663354-n|PositionalAttribute+
+15	of	of	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	14	nmod	_	PRP|?|?
+17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

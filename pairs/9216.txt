@@ -8,28 +8,28 @@ CONCEPTS B: Device+,Entity+,Ambulating=,AirTransportation+,SubjectiveAssessmentA
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
-2	shirtless	shirtless	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	?|?
-3	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10787470-n|Woman=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
-5	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
-6	over	over	ADP	IN	fPOS=ADP++IN	8	case	_	00226550-r|SubjectiveAssessmentAttribute+
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-8	log	log	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	06812631-n|LogFn=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
+2	shirtless	shirtless	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|?|?
+3	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10787470-n|Woman=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
+5	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
+6	over	over	ADP	IN	fPOS=ADP++IN	8	case	_	RP|00226550-r|SubjectiveAssessmentAttribute+
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+8	log	log	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|06812631-n|LogFn=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	guy	guy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	03471779-n|Device+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	leaping	leap	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
-5	into	into	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-7	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	00300441-n|AirTransportation+
-8	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
-10	wooded	wood	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	?|?
-11	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	14514039-n|SubjectiveAssessmentAttribute+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	guy	guy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|03471779-n|Device+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	leaping	leap	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	into	into	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+7	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|00300441-n|AirTransportation+
+8	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
+10	wooded	wood	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	VBN|?|?
+11	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|14514039-n|SubjectiveAssessmentAttribute+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

@@ -8,33 +8,33 @@ CONCEPTS B: GroupOfPeople=,PhysicalAttribute+,SittingDown+,hasPurposeForAgent+,S
 
 CONLL A:
 
-1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
-5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-7	bench	bench	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02828884-n|Seat+
-8	under	under	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
-9	some	some	DET	DT	fPOS=DET++DT	11	det	_	?|?
-10	palm	palm	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	06706676-n|UnilateralGiving+
-11	trees	tree	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	13912260-n|ContentBearingObject+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+7	bench	bench	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02828884-n|Seat+
+8	under	under	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
+9	some	some	DET	DT	fPOS=DET++DT	11	det	_	DT|?|?
+10	palm	palm	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	NN|06706676-n|UnilateralGiving+
+11	trees	tree	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	NNS|13912260-n|ContentBearingObject+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
-5	aimlessly	aimlessly	ADV	RB	fPOS=ADV++RB	4	advmod	_	00205808-r|hasPurposeForAgent+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-8	bench	bench	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02828884-n|Seat+
-9	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-10	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	08573472-n|FrontFn=
-11	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
-13	restaurant	restaurant	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	04081281-n|Restaurant+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	aimlessly	aimlessly	ADV	RB	fPOS=ADV++RB	4	advmod	_	RB|00205808-r|hasPurposeForAgent+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+8	bench	bench	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02828884-n|Seat+
+9	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+10	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|08573472-n|FrontFn=
+11	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
+13	restaurant	restaurant	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|04081281-n|Restaurant+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

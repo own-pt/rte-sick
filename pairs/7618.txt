@@ -8,38 +8,38 @@ CONCEPTS B: Human+,Dressing+,SocialRole+,SubjectiveStrongNegativeAttribute+,Enti
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	10129825-n|Human+
-3	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	2	acl	_	00046534-v|Dressing+
-4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
-5	purple	purple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	01591394-a|SocialRole+
-6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
-7	blue	blue	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	5	conj	_	00425002-a|SubjectiveStrongNegativeAttribute+
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
-9	slowly	slowly	ADV	RB	fPOS=ADV++RB	10	advmod	_	00161630-r|NormativeAttribute+
-10	walking	walk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01904930-v|Walking=
-11	beside	beside	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
-12	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	13	nmod:poss	_	?|?
-13	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	02834778-n|Bicycle=
-14	at	at	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
-15	night	night	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	15167027-n|NightTime+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	NN|10129825-n|Human+
+3	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	2	acl	_	VBN|00046534-v|Dressing+
+4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
+5	purple	purple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	JJ|01591394-a|SocialRole+
+6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
+7	blue	blue	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	5	conj	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
+9	slowly	slowly	ADV	RB	fPOS=ADV++RB	10	advmod	_	RB|00161630-r|NormativeAttribute+
+10	walking	walk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
+11	beside	beside	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
+12	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	13	nmod:poss	_	PRP$|?|?
+13	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|02834778-n|Bicycle=
+14	at	at	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
+15	night	night	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|15167027-n|NightTime+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	10129825-n|Human+
-3	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	2	acl	_	00046534-v|Dressing+
-4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	?|?
-5	purple	purple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	01591394-a|SocialRole+
-6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
-7	blue	blue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	00425002-a|SubjectiveStrongNegativeAttribute+
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	02604760-v|Entity+
-9	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01904930-v|Walking=
-10	beside	beside	ADP	IN	Degree=Pos|fPOS=ADJ++JJ	12	case	_	?|?
-11	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	12	nmod:poss	_	?|?
-12	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	02834778-n|Bicycle=
-13	at	at	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
-14	night	night	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	15167027-n|NightTime+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|10129825-n|Human+
+3	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	2	acl	_	VBN|00046534-v|Dressing+
+4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
+5	purple	purple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	JJ|01591394-a|SocialRole+
+6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
+7	blue	blue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
+9	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
+10	beside	beside	ADP	IN	Degree=Pos|fPOS=ADJ++JJ	12	case	_	IN|?|?
+11	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	12	nmod:poss	_	PRP$|?|?
+12	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|02834778-n|Bicycle=
+13	at	at	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
+14	night	night	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|15167027-n|NightTime+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?

@@ -8,31 +8,31 @@ CONCEPTS B: Human+,Entity+,Covering+,Forest=,Day=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	rider	rider	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	10403876-n|SocialRole+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	0	ROOT	_	02604760-v|Entity+
-4	biking	biking	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	3	ccomp	_	?|?
-5	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-7	snow	snow	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	nmod	_	15043763-n|Snowing=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
-9	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	00047745-v|CoveringFn=
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-11	red	red	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	00381097-a|Red=
-12	jacket	jacket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	03589791-n|Coat=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	rider	rider	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	NN|10403876-n|SocialRole+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
+4	biking	biking	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	3	ccomp	_	VBG|?|?
+5	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+7	snow	snow	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	nmod	_	NN|15043763-n|Snowing=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
+9	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|00047745-v|CoveringFn=
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+11	red	red	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|00381097-a|Red=
+12	jacket	jacket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|03589791-n|Coat=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	cyclist	cyclist	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	09986189-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	biking	biking	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	?|?
-5	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-7	snowy	snowy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	01698231-a|Covering+
-8	forest	forest	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09284015-n|Forest=
-9	at	at	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-10	day	day	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	15155220-n|Day=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	cyclist	cyclist	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09986189-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	biking	biking	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|?|?
+5	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+7	snowy	snowy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	JJ|01698231-a|Covering+
+8	forest	forest	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|09284015-n|Forest=
+9	at	at	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+10	day	day	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|15155220-n|Day=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

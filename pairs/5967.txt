@@ -8,29 +8,29 @@ CONCEPTS B: Entity+,Human+,HumanChild=,Process+,SubjectiveAssessmentAttribute+,B
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	10285313-n|Human+
-3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-5	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
-6	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	04197391-n|Shirt=
-7	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	00065639-v|Damaging+
-8	dirt	dirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	07223811-n|Text+
-9	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
-10	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	11	nmod:poss	_	?|?
-11	face	face	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	05600637-n|Face+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10285313-n|Human+
+3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+5	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+6	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|04197391-n|Shirt=
+7	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|00065639-v|Damaging+
+8	dirt	dirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	NN|07223811-n|Text+
+9	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
+10	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	11	nmod:poss	_	PRP$|?|?
+11	face	face	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|05600637-n|Face+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	?|?
-4	blond	blond	ADJ	JJ	Degree=Cmp|fPOS=ADJ++JJR	5	amod	_	00243606-a|Human+
-5	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	09917593-n|HumanChild=
-6	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	acl	_	02700867-v|Process+
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-8	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	02101942-a|SubjectiveAssessmentAttribute+
-9	bottle	bottle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	02876657-n|Bottle=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	DT|?|?
+4	blond	blond	ADJ	JJ	Degree=Cmp|fPOS=ADJ++JJR	5	amod	_	JJ|00243606-a|Human+
+5	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|09917593-n|HumanChild=
+6	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	acl	_	VBG|02700867-v|Process+
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+8	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+9	bottle	bottle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|02876657-n|Bottle=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?

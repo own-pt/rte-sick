@@ -8,30 +8,30 @@ CONCEPTS B: TimeDuration+,Butter=,Entity+,Entity+,Putting=,SubjectiveAssessmentA
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	03716327-n|GamePiece+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	cutting	cut	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01552519-v|Cutting+
-5	pieces	piece	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	03716327-n|GamePiece+
-6	of	of	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
-7	butter	butter	ADP	IN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	07848338-n|Butter=
-8	into	into	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
-10	mixing	mix	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	00394813-v|IntentionalProcess+
-11	bowl	bowl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02880940-n|Dish+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|03716327-n|GamePiece+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01552519-v|Cutting+
+5	pieces	piece	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|03716327-n|GamePiece+
+6	of	of	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
+7	butter	butter	ADP	IN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|07848338-n|Butter=
+8	into	into	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
+10	mixing	mix	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	VBG|00394813-v|IntentionalProcess+
+11	bowl	bowl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02880940-n|Dish+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Pieces	piece	NOUN	NNS	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	nsubjpass	_	15246353-n|TimeDuration+
-2	of	of	ADP	IN	fPOS=ADP++IN	3	case	_	?|?
-3	butter	butter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	1	nmod	_	07848338-n|Butter=
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	02604760-v|Entity+
-5	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	6	auxpass	_	02604760-v|Entity+
-6	added	add	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	00182406-v|Putting=
-7	to	to	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-9	stand	stand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	06210363-n|SubjectiveAssessmentAttribute=
-10	mixer	mixer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	03775199-n|Device+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+1	Pieces	piece	NOUN	NNS	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	nsubjpass	_	NNS|15246353-n|TimeDuration+
+2	of	of	ADP	IN	fPOS=ADP++IN	3	case	_	IN|?|?
+3	butter	butter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	1	nmod	_	NN|07848338-n|Butter=
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	VBP|02604760-v|Entity+
+5	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	6	auxpass	_	VBG|02604760-v|Entity+
+6	added	add	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|00182406-v|Putting=
+7	to	to	ADP	IN	fPOS=ADP++IN	10	case	_	TO|?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+9	stand	stand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	NN|06210363-n|SubjectiveAssessmentAttribute=
+10	mixer	mixer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|03775199-n|Device+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?

@@ -8,33 +8,33 @@ CONCEPTS B: FullyFormed+,PhysicalAttribute+,SittingDown+,Chair=,PhysicalAttribut
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	couple	couple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	13743605-n|Entity+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
-5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-7	patio	patio	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	03899768-n|Patio=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
-9	looking	look	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	02133435-v|SubjectiveAssessmentAttribute+
-10	at	at	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-12	ocean	ocean	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	09376198-n|Ocean=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	couple	couple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|13743605-n|Entity+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+7	patio	patio	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03899768-n|Patio=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
+9	looking	look	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+10	at	at	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+12	ocean	ocean	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|09376198-n|Ocean=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	?|?
-2	adults	adult	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	09605289-n|FullyFormed+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
-5	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-7	chairs	chair	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	03001627-n|Chair=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
-9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	10	aux	_	02655135-v|PhysicalAttribute+
-10	watching	watch	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	02150948-v|Looking=
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-12	ocean	ocean	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	09376198-n|Ocean=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	DT|?|?
+2	adults	adult	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|09605289-n|FullyFormed+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+7	chairs	chair	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|03001627-n|Chair=
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	10	aux	_	VBP|02655135-v|PhysicalAttribute+
+10	watching	watch	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|02150948-v|Looking=
+11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+12	ocean	ocean	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	NN|09376198-n|Ocean=
+13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

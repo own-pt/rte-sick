@@ -8,45 +8,45 @@ CONCEPTS B: Woman=,Entity+,Speaking+,GeographicArea+,Entity+,Keeping+,Cell=,Radi
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10787470-n|Woman=
-3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-5	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00392812-a|Black=
-6	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	04197391-n|Shirt=
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02655135-v|PhysicalAttribute+
-8	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
-9	next	next	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	xcomp	_	01294975-a|Position+
-10	to	to	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	?|?
-12	fluorescent	fluorescent	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	00271419-a|RadiatingLight+
-13	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	00375969-a|Green=
-14	bag	bag	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	02773037-n|Container+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10787470-n|Woman=
+3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+5	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|00392812-a|Black=
+6	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|04197391-n|Shirt=
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02655135-v|PhysicalAttribute+
+8	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
+9	next	next	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	xcomp	_	JJ|01294975-a|Position+
+10	to	to	ADP	IN	fPOS=ADP++IN	14	case	_	TO|?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
+12	fluorescent	fluorescent	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	JJ|00271419-a|RadiatingLight+
+13	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	JJ|00375969-a|Green=
+14	bag	bag	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|02773037-n|Container+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	speaking	speak	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00941990-v|Speaking+
-5	from	from	ADP	IN	fPOS=ADP++IN	7	case	_	?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-7	ledge	ledge	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	09337253-n|GeographicArea+
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
-10	keeping	keep	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	02681795-v|Keeping+
-11	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	13	nmod:poss	_	?|?
-12	cell	cell	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	compound	_	00006484-n|Cell=
-13	phone	phone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	07111047-n|RadiatingSound+
-14	inside	inside	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
-15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	?|?
-16	purse	purse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	02774152-n|Bag+
-17	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	22	nsubj	_	?|?
-18	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	22	cop	_	02604760-v|Entity+
-19	inside	inside	ADP	IN	fPOS=ADP++IN	22	case	_	?|?
-20	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	22	det	_	?|?
-21	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	22	amod	_	02101942-a|SubjectiveAssessmentAttribute+
-22	bag	bag	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	acl:relcl	_	02774152-n|Bag+
-23	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	speaking	speak	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00941990-v|Speaking+
+5	from	from	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+7	ledge	ledge	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|09337253-n|GeographicArea+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
+10	keeping	keep	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|02681795-v|Keeping+
+11	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	13	nmod:poss	_	PRP$|?|?
+12	cell	cell	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	compound	_	NN|00006484-n|Cell=
+13	phone	phone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	NN|07111047-n|RadiatingSound+
+14	inside	inside	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
+15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
+16	purse	purse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|02774152-n|Bag+
+17	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	22	nsubj	_	WDT|?|?
+18	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	22	cop	_	VBZ|02604760-v|Entity+
+19	inside	inside	ADP	IN	fPOS=ADP++IN	22	case	_	IN|?|?
+20	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	22	det	_	DT|?|?
+21	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	22	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+22	bag	bag	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	acl:relcl	_	NN|02774152-n|Bag+
+23	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

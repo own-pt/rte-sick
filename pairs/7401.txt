@@ -8,31 +8,31 @@ CONCEPTS B: Man=,HumanYouth=,Human+,Entity+,Carrying=,SubjectiveAssessmentAttrib
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	02472293-n|Hominid=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
-4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	?|?
-5	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	09917593-n|HumanChild=
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	7	aux	_	02604760-v|Entity+
-7	kayaking	kayaking	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	?|?
-8	through	through	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-9	gentle	gentle	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	01590484-a|SocialRole+
-10	waters	water	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	14845743-n|Water=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|02472293-n|Hominid=
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
+4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
+5	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	NN|09917593-n|HumanChild=
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	7	aux	_	VBP|02604760-v|Entity+
+7	kayaking	kayaking	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|?|?
+8	through	through	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+9	gentle	gentle	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	JJ|01590484-a|SocialRole+
+10	waters	water	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	NNS|14845743-n|Water=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10287213-n|Man=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-5	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	amod	_	01646941-a|HumanYouth=
-6	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	10285313-n|Human+
-7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	8	aux	_	02604760-v|Entity+
-8	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01955984-v|Carrying=
-9	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-11	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	02101942-a|SubjectiveAssessmentAttribute+
-12	kayak	kayak	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	03609235-n|TransportationDevice+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10287213-n|Man=
+3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+5	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	amod	_	JJ|01646941-a|HumanYouth=
+6	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	NN|10285313-n|Human+
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	8	aux	_	VBP|02604760-v|Entity+
+8	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01955984-v|Carrying=
+9	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+11	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+12	kayak	kayak	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|03609235-n|TransportationDevice+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?

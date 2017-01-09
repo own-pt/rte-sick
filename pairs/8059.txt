@@ -8,42 +8,42 @@ CONCEPTS B: HumanYouth=,Human+,Entity+,SittingDown+,Swimming+,Gear=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
-2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10129825-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
-5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00047745-v|CoveringFn=
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-7	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
-8	patterned	pattern	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	01743784-v|Planning+
-9	swim	swim	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	00442115-n|Swimming=
-10	suit	suit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	04350905-n|ClothingSuit+
-11	,	,	PUNCT	,	fPOS=PUNCT++,	10	punct	_	?|?
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	?|?
-13	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	amod	_	00392812-a|Black=
-14	and	and	CONJ	CC	fPOS=CONJ++CC	13	cc	_	?|?
-15	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	conj	_	02101942-a|SubjectiveAssessmentAttribute+
-16	swim	swim	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	compound	_	00442115-n|Swimming=
-17	cap	cap	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	conj	_	02954938-n|Device+
-18	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
-19	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	conj	_	02630189-v|Attribute+
-20	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	22	amod	_	00425002-a|SubjectiveStrongNegativeAttribute+
-21	swimming	swim	NOUN	NN	Number=Sing|fPOS=NOUN++NN	22	compound	_	01960911-v|Swimming+
-22	goggles	goggles	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	19	dobj	_	03443912-n|ProtectiveEyewear=
-23	on	on	ADP	IN	fPOS=ADP++IN	25	case	_	?|?
-24	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	25	det	_	?|?
-25	head	head	NOUN	NN	Number=Sing|fPOS=NOUN++NN	22	nmod	_	05538625-n|Head=
-26	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
+5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00047745-v|CoveringFn=
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+7	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+8	patterned	pattern	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	VBN|01743784-v|Planning+
+9	swim	swim	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	NN|00442115-n|Swimming=
+10	suit	suit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|04350905-n|ClothingSuit+
+11	,	,	PUNCT	,	fPOS=PUNCT++,	10	punct	_	Fc|?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	DT|?|?
+13	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	amod	_	JJ|00392812-a|Black=
+14	and	and	CONJ	CC	fPOS=CONJ++CC	13	cc	_	CC|?|?
+15	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	conj	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+16	swim	swim	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	compound	_	NN|00442115-n|Swimming=
+17	cap	cap	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	conj	_	NN|02954938-n|Device+
+18	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
+19	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	conj	_	VBZ|02630189-v|Attribute+
+20	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	22	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+21	swimming	swim	NOUN	NN	Number=Sing|fPOS=NOUN++NN	22	compound	_	VBG|01960911-v|Swimming+
+22	goggles	goggles	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	19	dobj	_	NNS|03443912-n|ProtectiveEyewear=
+23	on	on	ADP	IN	fPOS=ADP++IN	25	case	_	IN|?|?
+24	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	25	det	_	DT|?|?
+25	head	head	NOUN	NN	Number=Sing|fPOS=NOUN++NN	22	nmod	_	NN|05538625-n|Head=
+26	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
-2	young	young	ADJ	JJ	Number=Sing|fPOS=PROPN++NNP	3	amod	_	01646941-a|HumanYouth=
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10129825-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
-5	sitting	sit	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	01543123-v|SittingDown+
-6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-7	swimming	swim	VERB	VBG	Number=Sing|fPOS=NOUN++NN	8	amod	_	01960911-v|Swimming+
-8	gear	gear	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	03430551-n|Gear=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	Number=Sing|fPOS=PROPN++NNP	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
+5	sitting	sit	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+7	swimming	swim	VERB	VBG	Number=Sing|fPOS=NOUN++NN	8	amod	_	VBG|01960911-v|Swimming+
+8	gear	gear	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|03430551-n|Gear=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?

@@ -1,16 +1,16 @@
 # sent_id = 415a
 # text = Two men with bikes are on the side of a snowy road.
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
-2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nsubj	_	02472293-n|Hominid=
-3	with	with	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
-4	bikes	bike	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	02834778-n|Bicycle=
-5	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	8	cop	_	02604760-v|Entity+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-8	side	side	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	08510666-n|Object+
-9	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-11	snowy	snowy	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	01698231-a|Covering+
-12	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	04096066-n|Roadway+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nsubj	_	NNS|02472293-n|Hominid=
+3	with	with	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
+4	bikes	bike	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|02834778-n|Bicycle=
+5	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	8	cop	_	VBP|02604760-v|Entity+
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+8	side	side	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|08510666-n|Object+
+9	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+11	snowy	snowy	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|01698231-a|Covering+
+12	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|04096066-n|Roadway+
+13	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
 

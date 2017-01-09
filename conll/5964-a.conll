@@ -1,17 +1,17 @@
 # sent_id = 5964a
 # text = A child, who has blond hair, is holding a yellow bottle.
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	09917593-n|HumanChild=
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	?|?
-4	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	5	nsubj	_	?|?
-5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	2	acl:relcl	_	02203362-v|Obligation+
-6	blond	blond	ADV	RB	fPOS=ADP++IN	5	advmod	_	00243606-a|Human+
-7	hair	hair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	05254795-n|Hair=
-8	,	,	PUNCT	,	fPOS=PUNCT++,	10	punct	_	?|?
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
-10	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	02203362-v|Obligation+
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
-12	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	02101942-a|SubjectiveAssessmentAttribute+
-13	bottle	bottle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	02876657-n|Bottle=
-14	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	NN|09917593-n|HumanChild=
+3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	5	nsubj	_	WP|?|?
+5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	2	acl:relcl	_	VBZ|02203362-v|Obligation+
+6	blond	blond	ADV	RB	fPOS=ADP++IN	5	advmod	_	JJ|00243606-a|Human+
+7	hair	hair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|05254795-n|Hair=
+8	,	,	PUNCT	,	fPOS=PUNCT++,	10	punct	_	Fc|?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
+10	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02203362-v|Obligation+
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
+12	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+13	bottle	bottle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	NN|02876657-n|Bottle=
+14	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	Fp|?|?
 

@@ -1,13 +1,13 @@
 # sent_id = 4413b
 # text = Two men are racing in a tire rolling competition.
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	?|?
-2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	02472293-n|Hominid=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
-4	racing	race	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02058994-v|Motion+
-5	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-7	tire	tire	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	04440749-n|Artifact+
-8	rolling	roll	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	01866192-v|Motion+
-9	competition	competition	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	01168569-n|Contest+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
+2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
+4	racing	race	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02058994-v|Motion+
+5	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+7	tire	tire	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	NN|04440749-n|Artifact+
+8	rolling	roll	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	VBG|01866192-v|Motion+
+9	competition	competition	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|01168569-n|Contest+
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 

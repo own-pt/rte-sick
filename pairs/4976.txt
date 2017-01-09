@@ -8,20 +8,20 @@ CONCEPTS B: Entity+,PhysicalAttribute+,SubjectiveStrongNegativeAttribute+,Animal
 
 CONLL A:
 
-1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	onion	onion	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	12433081-n|FruitOrVegetable+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
-4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	02604760-v|Entity+
-5	sliced	slice	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	01254477-v|Separating+
-6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	onion	onion	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	NN|12433081-n|FruitOrVegetable+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	VBG|02604760-v|Entity+
+5	sliced	slice	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|01254477-v|Separating+
+6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Someone	someone	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	02604760-v|Entity+
-3	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02701210-v|PhysicalAttribute+
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-5	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	01391351-a|SubjectiveStrongNegativeAttribute+
-6	animal	animal	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	00015388-n|Animal=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+1	Someone	someone	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	PRP|?|?
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	VBZ|02604760-v|Entity+
+3	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02701210-v|PhysicalAttribute+
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+5	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+6	animal	animal	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	NN|00015388-n|Animal=
+7	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?

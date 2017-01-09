@@ -8,34 +8,34 @@ CONCEPTS B: SubjectiveWeakPositiveAttribute+,GroupOfPeople=,Entity+,Eating=,Red=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
-2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01382086-a|SubjectiveWeakPositiveAttribute+
-3	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	00031264-n|Group=
-4	of	of	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
-5	Asian	asian	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	02968525-a|AsianEthnicity=
-6	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nmod	_	07942152-n|GroupOfPeople=
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
-8	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01166351-v|Eating=
-9	at	at	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
-11	restaurant	restaurant	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	04081281-n|Restaurant+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
+2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|00031264-n|Group=
+4	of	of	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
+5	Asian	asian	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|02968525-a|AsianEthnicity=
+6	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nmod	_	NNS|07942152-n|GroupOfPeople=
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
+8	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01166351-v|Eating=
+9	at	at	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
+11	restaurant	restaurant	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|04081281-n|Restaurant+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Various	various	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	02507772-a|SubjectiveWeakPositiveAttribute+
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
-4	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01166351-v|Eating=
-5	at	at	ADP	IN	fPOS=ADV++RB	7	case	_	?|?
-6	red	red	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	7	amod	_	00381097-a|Red=
-7	tables	table	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	08266235-n|ContentBearingObject+
-8	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
-10	crowded	crowd	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	02027612-v|SocialInteraction+
-11	restaurant	restaurant	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	04081281-n|Restaurant+
-12	with	with	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
-13	purple	purple	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	01591394-a|SocialRole+
-14	lights	light	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	nmod	_	11473954-n|RadiatingVisibleLight+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	Various	various	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	JJ|02507772-a|SubjectiveWeakPositiveAttribute+
+2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
+4	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01166351-v|Eating=
+5	at	at	ADP	IN	fPOS=ADV++RB	7	case	_	IN|?|?
+6	red	red	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	7	amod	_	JJ|00381097-a|Red=
+7	tables	table	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|08266235-n|ContentBearingObject+
+8	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
+10	crowded	crowd	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	VBN|02027612-v|SocialInteraction+
+11	restaurant	restaurant	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04081281-n|Restaurant+
+12	with	with	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
+13	purple	purple	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	JJ|01591394-a|SocialRole+
+14	lights	light	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	nmod	_	NNS|11473954-n|RadiatingVisibleLight+
+15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

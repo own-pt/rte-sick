@@ -8,41 +8,41 @@ CONCEPTS B: Human+,Entity+,Ambulating=,Mineral+,Entity+,PhysicalAttribute+
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	?|?
-4	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	01646941-a|HumanYouth=
-5	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	10129825-n|Human+
-6	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-8	winter	winter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	15237782-n|WinterSeason+
-9	coat	coat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	01898731-n|BodyPart+
-10	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	9	acl	_	01963942-v|Ambulating=
-11	off	off	ADP	IN	fPOS=ADP++RP	10	compound:prt	_	00232936-r|?
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
-13	boulder	boulder	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	09227839-n|Mineral+
-14	into	into	ADP	IN	fPOS=ADP++IN	16	case	_	?|?
-15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	?|?
-16	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	15019030-n|Sand=
-17	at	at	ADP	IN	fPOS=ADP++IN	19	case	_	?|?
-18	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	19	det	_	?|?
-19	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	09217230-n|ShoreArea=
-20	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	DT|?|?
+4	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	JJ|01646941-a|HumanYouth=
+5	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|10129825-n|Human+
+6	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
+7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+8	winter	winter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	NN|15237782-n|WinterSeason+
+9	coat	coat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|01898731-n|BodyPart+
+10	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	9	acl	_	VBG|01963942-v|Ambulating=
+11	off	off	ADP	IN	fPOS=ADP++RP	10	compound:prt	_	RP|00232936-r|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
+13	boulder	boulder	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	NN|09227839-n|Mineral+
+14	into	into	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
+15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
+16	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|15019030-n|Sand=
+17	at	at	ADP	IN	fPOS=ADP++IN	19	case	_	IN|?|?
+18	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	19	det	_	DT|?|?
+19	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|09217230-n|ShoreArea=
+20	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10129825-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
-5	off	off	ADP	IN	fPOS=ADP++RP	7	case	_	00232936-r|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-7	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	14696793-n|Mineral+
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
-9	another	another	DET	DT	fPOS=DET++DT	11	det	_	?|?
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	02604760-v|Entity+
-11	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	01546111-v|PhysicalAttribute+
-12	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
-13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	11	nmod	_	?|?
-14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	off	off	ADP	IN	fPOS=ADP++RP	7	case	_	RP|00232936-r|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+7	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|14696793-n|Mineral+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
+9	another	another	DET	DT	fPOS=DET++DT	11	det	_	DT|?|?
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	VBZ|02604760-v|Entity+
+11	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|01546111-v|PhysicalAttribute+
+12	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	11	nmod	_	PRP|?|?
+14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

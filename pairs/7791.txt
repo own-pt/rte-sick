@@ -8,27 +8,27 @@ CONCEPTS B: Human=,CoveringFn=,Gray+,Trousers+,Entity+,AirTransportation+,BoardO
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	?|?
-2	snowboarding	snowboarding	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	?|?
-3	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10787470-n|Woman=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
-5	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01963942-v|Ambulating=
-6	through	through	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-8	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	00300441-n|AirTransportation+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
+2	snowboarding	snowboarding	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	VBG|?|?
+3	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10787470-n|Woman=
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
+5	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
+6	through	through	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+8	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|00300441-n|AirTransportation+
+9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	00007846-n|Human=
-3	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	2	acl	_	00047745-v|CoveringFn=
-4	grey	grey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	compound	_	04961691-n|Gray+
-5	pants	pant	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	dobj	_	04489008-n|Trousers+
-6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	cop	_	02604760-v|Entity+
-7	airborne	airborne	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	01522895-a|AirTransportation+
-8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-10	snowboard	snowboard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	04251791-n|BoardOrBlock+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|00007846-n|Human=
+3	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	2	acl	_	VBG|00047745-v|CoveringFn=
+4	grey	grey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	compound	_	NN|04961691-n|Gray+
+5	pants	pant	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	dobj	_	NNS|04489008-n|Trousers+
+6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	cop	_	VBZ|02604760-v|Entity+
+7	airborne	airborne	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	JJ|01522895-a|AirTransportation+
+8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+10	snowboard	snowboard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|04251791-n|BoardOrBlock+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?

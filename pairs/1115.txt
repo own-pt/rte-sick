@@ -8,27 +8,27 @@ CONCEPTS B: Hominid=,Entity+,CoveringFn=,Earphone=,Entity+,Process+,ComputerProg
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	singing	sing	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01731031-v|MakingVocalMusic=
-5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
-6	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01719302-v|DramaticActing+
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-8	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	03467517-n|Guitar=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	singing	sing	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
+6	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|01719302-v|DramaticActing+
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+8	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|03467517-n|Guitar=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	02472293-n|Hominid=
-3	who	who	PRON	WP	PronType=Int|fPOS=PRON++WP	5	nsubj	_	?|?
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	02604760-v|Entity+
-5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	2	acl:relcl	_	00047745-v|CoveringFn=
-6	headphones	headphone	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	03261776-n|Earphone=
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
-8	opening	open	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00539936-v|Process+
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-10	package	package	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	06566077-n|ComputerProgram+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|02472293-n|Hominid=
+3	who	who	PRON	WP	PronType=Int|fPOS=PRON++WP	5	nsubj	_	WP|?|?
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
+5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	2	acl:relcl	_	VBG|00047745-v|CoveringFn=
+6	headphones	headphone	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	NNS|03261776-n|Earphone=
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
+8	opening	open	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00539936-v|Process+
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+10	package	package	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	NN|06566077-n|ComputerProgram+
+11	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?

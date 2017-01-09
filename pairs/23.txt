@@ -8,26 +8,26 @@ CONCEPTS B: Human=,Entity+,Carrying=,Bicycle=,Bicycle=
 
 CONLL A:
 
-1	Nobody	nobody	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	?|?
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	02604760-v|Entity+
-3	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01955984-v|Carrying=
-4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	?|?
-5	bicycle	bicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	02834778-n|Bicycle=
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-7	one	1	NUM	CD	NumType=Card|fPOS=NUM++CD	8	nummod	_	?|?
-8	wheel	wheel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	02834778-n|Bicycle=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	?|?
+1	Nobody	nobody	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	PRP|?|?
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	VBZ|02604760-v|Entity+
+3	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01955984-v|Carrying=
+4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
+5	bicycle	bicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	NN|02834778-n|Bicycle=
+6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+7	one	1	NUM	CD	NumType=Card|fPOS=NUM++CD	8	nummod	_	Z|?|?
+8	wheel	wheel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|02834778-n|Bicycle=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	00007846-n|Human=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01955984-v|Carrying=
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-6	bicycle	bicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02834778-n|Bicycle=
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	?|?
-8	one	1	NUM	CD	NumType=Card|fPOS=NUM++CD	9	nummod	_	?|?
-9	wheel	wheel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	02834778-n|Bicycle=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01955984-v|Carrying=
+5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+6	bicycle	bicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|02834778-n|Bicycle=
+7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
+8	one	1	NUM	CD	NumType=Card|fPOS=NUM++CD	9	nummod	_	Z|?|?
+9	wheel	wheel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02834778-n|Bicycle=
+10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

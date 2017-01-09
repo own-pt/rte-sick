@@ -8,33 +8,33 @@ CONCEPTS B: Man=,Entity+,CoveringFn=,Hay=,Hat+,Smoking=,CigarOrCigarette+
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	?|?
-4	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	10287213-n|Man=
-5	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	00047745-v|CoveringFn=
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-7	straw	straw	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	14959939-n|Hay=
-8	hat	hat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	03497657-n|Hat+
-9	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	11	nsubj	_	?|?
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	02604760-v|Entity+
-11	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	8	acl:relcl	_	01198101-v|Smoking=
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
-13	cigarette	cigarette	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	03030663-n|CigarOrCigarette+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	?|?
+1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
+4	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|10287213-n|Man=
+5	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	VBG|00047745-v|CoveringFn=
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+7	straw	straw	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	NN|14959939-n|Hay=
+8	hat	hat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|03497657-n|Hat+
+9	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	11	nsubj	_	WP|?|?
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	VBZ|02604760-v|Entity+
+11	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	8	acl:relcl	_	VBG|01198101-v|Smoking=
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
+13	cigarette	cigarette	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	NN|03030663-n|CigarOrCigarette+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10287213-n|Man=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00047745-v|CoveringFn=
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-6	straw	straw	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	7	compound	_	14959939-n|Hay=
-7	hat	hat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	03497657-n|Hat+
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
-9	smoking	smoking	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	00834636-n|Smoking=
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	?|?
-11	cigarette	cigarette	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	03030663-n|CigarOrCigarette+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10287213-n|Man=
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00047745-v|CoveringFn=
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+6	straw	straw	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	7	compound	_	NN|14959939-n|Hay=
+7	hat	hat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03497657-n|Hat+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
+9	smoking	smoking	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	NN|00834636-n|Smoking=
+10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
+11	cigarette	cigarette	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|03030663-n|CigarOrCigarette+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

@@ -8,36 +8,36 @@ CONCEPTS B: Group=,HumanChild=,CoveringFn=,equal+,Clothing+,Entity+,Psychologica
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	crowd	crowd	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	08182379-n|SubjectiveAssessmentAttribute=
-3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
-4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	07942152-n|GroupOfPeople=
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	cop	_	02604760-v|Entity+
-6	near	near	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-8	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	14845743-n|Water=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	crowd	crowd	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
+4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|07942152-n|GroupOfPeople=
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	cop	_	VBZ|02604760-v|Entity+
+6	near	near	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+8	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|14845743-n|Water=
+9	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	00031264-n|Group=
-3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
-4	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	09917593-n|HumanChild=
-5	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	00047745-v|CoveringFn=
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-7	same	same	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	02062670-a|equal+
-8	clothes	clothes	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	02728440-n|Clothing+
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	02604760-v|Entity+
-10	waiting	wait	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02637938-v|PsychologicalProcess+
-11	at	at	ADP	IN	fPOS=ADP++IN	13	case	_	?|?
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
-13	gate	gate	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	03427296-n|Door=
-14	and	and	CONJ	CC	fPOS=CONJ++CC	10	cc	_	?|?
-15	one	one	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	nsubj	_	?|?
-16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	17	aux	_	02604760-v|Entity+
-17	kissing	kiss	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	10	conj	_	01431230-v|Kissing+
-18	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	?|?
-19	mother	mother	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	dobj	_	10332385-n|BiologicalAttribute+
-20	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
+4	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|09917593-n|HumanChild=
+5	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	VBG|00047745-v|CoveringFn=
+6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+7	same	same	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|02062670-a|equal+
+8	clothes	clothes	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	NNS|02728440-n|Clothing+
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
+10	waiting	wait	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02637938-v|PsychologicalProcess+
+11	at	at	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
+12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
+13	gate	gate	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|03427296-n|Door=
+14	and	and	CONJ	CC	fPOS=CONJ++CC	10	cc	_	CC|?|?
+15	one	one	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	nsubj	_	PRP|?|?
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	17	aux	_	VBZ|02604760-v|Entity+
+17	kissing	kiss	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	10	conj	_	VBG|01431230-v|Kissing+
+18	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	DT|?|?
+19	mother	mother	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	dobj	_	NN|10332385-n|BiologicalAttribute+
+20	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	Fp|?|?

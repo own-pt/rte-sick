@@ -1,15 +1,15 @@
 # sent_id = 1291b
 # text = A cat is stuck on a ceiling fan that is moving.
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	02985606-n|Whip+
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	cop	_	02604760-v|Entity+
-4	stuck	stick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	01614581-v|Attaching+
-5	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-7	ceiling	ceiling	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	02990373-n|Ceiling=
-8	fan	fan	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	10077593-n|SocialRole+
-9	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	11	nsubj	_	?|?
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	02604760-v|Entity+
-11	moving	move	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	8	acl:relcl	_	01767949-v|PsychologicalProcess+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02985606-n|Whip+
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	cop	_	VBZ|02604760-v|Entity+
+4	stuck	stick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	VBN|01614581-v|Attaching+
+5	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+7	ceiling	ceiling	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	NN|02990373-n|Ceiling=
+8	fan	fan	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|10077593-n|SocialRole+
+9	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	11	nsubj	_	WDT|?|?
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	VBZ|02604760-v|Entity+
+11	moving	move	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	8	acl:relcl	_	VBG|01767949-v|PsychologicalProcess+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
 

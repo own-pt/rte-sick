@@ -8,33 +8,33 @@ CONCEPTS B: Human+,Entity+,PhysicalAttribute+,FrontFn=,PathologicProcess+,Automo
 
 CONLL A:
 
-1	Four	4	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	3	nmod:poss	_	?|?
-2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	01646941-a|HumanYouth=
-3	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	02472293-n|Hominid=
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	02604760-v|Entity+
-5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01525666-v|Attribute+
-6	away	away	ADV	RB	fPOS=ADV++RB	5	advmod	_	00234951-r|?
-7	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-9	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	02958343-n|Automobile=
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	02604760-v|Entity+
-11	staying	stay	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	00117985-v|PastFn=
-12	put	put	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	11	xcomp	_	01494310-v|Putting=
-13	behind	behind	ADP	IN	fPOS=ADP++IN	14	case	_	?|?
-14	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|fPOS=PRON++PRP	12	nmod	_	?|?
-15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+1	Four	4	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	3	nmod:poss	_	Z|?|?
+2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01646941-a|HumanYouth=
+3	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|02472293-n|Hominid=
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02604760-v|Entity+
+5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
+6	away	away	ADV	RB	fPOS=ADV++RB	5	advmod	_	RP|00234951-r|?
+7	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
+8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+9	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	NN|02958343-n|Automobile=
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	VBZ|02604760-v|Entity+
+11	staying	stay	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	VBG|00117985-v|PastFn=
+12	put	put	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	11	xcomp	_	VBN|01494310-v|Putting=
+13	behind	behind	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
+14	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|fPOS=PRON++PRP	12	nmod	_	PRP|?|?
+15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	10285313-n|Human+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	01546111-v|PhysicalAttribute+
-5	in	in	ADP	IN	fPOS=ADV++RB	6	case	_	?|?
-6	front	front	NOUN	NN	fPOS=ADP++IN	4	nmod	_	08573472-n|FrontFn=
-7	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-9	burning	burning	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	amod	_	14325437-n|PathologicProcess+
-10	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	02958343-n|Automobile=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|10285313-n|Human+
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	in	in	ADP	IN	fPOS=ADV++RB	6	case	_	IN|?|?
+6	front	front	NOUN	NN	fPOS=ADP++IN	4	nmod	_	NN|08573472-n|FrontFn=
+7	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
+8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+9	burning	burning	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	amod	_	NN|14325437-n|PathologicProcess+
+10	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|02958343-n|Automobile=
+11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?

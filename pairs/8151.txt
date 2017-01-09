@@ -8,35 +8,35 @@ CONCEPTS B: Human+,SubjectiveStrongNegativeAttribute+,Entity+,Pursuing+,Region+,
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	10787470-n|Woman=
-3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
-4	blue	blue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	00425002-a|SubjectiveStrongNegativeAttribute+
-5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	00065639-v|Damaging+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	?|?
-7	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	02101942-a|SubjectiveAssessmentAttribute+
-8	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	02778669-n|Ball=
-9	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	?|?
-11	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	05564590-n|Hand+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10787470-n|Woman=
+3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
+4	blue	blue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|00065639-v|Damaging+
+6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
+7	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+8	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|02778669-n|Ball=
+9	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
+10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
+11	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|05564590-n|Hand+
+12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	10129825-n|Human+
-3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	?|?
-4	blue	blue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	00425002-a|SubjectiveStrongNegativeAttribute+
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	02604760-v|Entity+
-6	chasing	chase	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02001858-v|Pursuing+
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	?|?
-8	base	base	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	03387016-n|Region+
-9	runner	runner	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	09841696-n|Human+
-10	with	with	ADP	IN	fPOS=ADP++IN	12	case	_	?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	?|?
-12	number	number	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	13582013-n|Number=
-13	on	on	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
-14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	?|?
-15	jersey	jersey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	08887238-n|HoofedMammal+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	?|?
+1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|10129825-n|Human+
+3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
+4	blue	blue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
+6	chasing	chase	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02001858-v|Pursuing+
+7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
+8	base	base	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	NN|03387016-n|Region+
+9	runner	runner	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|09841696-n|Human+
+10	with	with	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
+12	number	number	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|13582013-n|Number=
+13	on	on	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
+14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
+15	jersey	jersey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	NN|08887238-n|HoofedMammal+
+16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?

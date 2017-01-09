@@ -8,47 +8,47 @@ CONCEPTS B: Human+,Entity+,Putting+,Black=,Clothing+,Entity+,Transportation+,Whi
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	10787470-n|Woman=
-3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	?|?
-5	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	00392812-a|Black=
-6	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	02728440-n|Clothing+
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	02604760-v|Entity+
-8	pulling	pull	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	02057499-v|Transportation+
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	?|?
-10	cart	cart	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	02970849-n|Wagon+
-11	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	?|?
-12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	02604760-v|Entity+
-13	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	8	conj	_	01546111-v|PhysicalAttribute+
-14	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	?|?
-15	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	08573472-n|FrontFn=
-16	of	of	ADP	IN	fPOS=ADP++IN	18	case	_	?|?
-17	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	18	nummod	_	?|?
-18	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	15	nmod	_	10287213-n|Man=
-19	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	21	nsubjpass	_	?|?
-20	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	21	auxpass	_	02604760-v|Entity+
-21	seated	seat	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	18	acl:relcl	_	01543998-v|Communication+
-22	on	on	ADP	IN	fPOS=ADP++IN	25	case	_	?|?
-23	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	25	det	_	?|?
-24	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	25	compound	_	08615374-n|Park+
-25	bench	bench	NOUN	NN	Number=Sing|fPOS=NOUN++NN	21	nmod	_	02828884-n|Seat+
-26	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10787470-n|Woman=
+3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
+4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
+5	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|00392812-a|Black=
+6	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|02728440-n|Clothing+
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
+8	pulling	pull	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02057499-v|Transportation+
+9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
+10	cart	cart	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	NN|02970849-n|Wagon+
+11	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	CC|?|?
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	VBZ|02604760-v|Entity+
+13	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	8	conj	_	VBG|01546111-v|PhysicalAttribute+
+14	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
+15	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	NN|08573472-n|FrontFn=
+16	of	of	ADP	IN	fPOS=ADP++IN	18	case	_	IN|?|?
+17	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	18	nummod	_	Z|?|?
+18	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	15	nmod	_	NNS|10287213-n|Man=
+19	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	21	nsubjpass	_	WP|?|?
+20	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	21	auxpass	_	VBP|02604760-v|Entity+
+21	seated	seat	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	18	acl:relcl	_	VBN|01543998-v|Communication+
+22	on	on	ADP	IN	fPOS=ADP++IN	25	case	_	IN|?|?
+23	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	25	det	_	DT|?|?
+24	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	25	compound	_	NN|08615374-n|Park+
+25	bench	bench	NOUN	NN	Number=Sing|fPOS=NOUN++NN	21	nmod	_	NN|02828884-n|Seat+
+26	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	?|?
-2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	10285313-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	02604760-v|Entity+
-4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	00052374-v|Putting+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	?|?
-6	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	00392812-a|Black=
-7	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	02728440-n|Clothing+
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	?|?
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	10	aux	_	02604760-v|Entity+
-10	carrying	carry	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	01449974-v|Transportation+
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	?|?
-12	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	00393105-a|White=
-13	cross	cross	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	03135152-n|Icon+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	?|?
+1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00052374-v|Putting+
+5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
+6	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|00392812-a|Black=
+7	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|02728440-n|Clothing+
+8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	10	aux	_	VBZ|02604760-v|Entity+
+10	carrying	carry	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|01449974-v|Transportation+
+11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
+12	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	JJ|00393105-a|White=
+13	cross	cross	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	NN|03135152-n|Icon+
+14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
