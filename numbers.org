@@ -39,7 +39,7 @@ The code used is
 Taking all sentences into account. The pair of sentences compared for
 entailment and the original sentences used to produce the pair.
 
-#+BEGIN_SRC lisp
+#+BEGIN_SRC lisp :exports both
 (length (stats (read-file "SICK.txt")))
 #+END_SRC
 
@@ -48,7 +48,7 @@ entailment and the original sentences used to produce the pair.
 
 Considering only the two sentences being compared in each line:
 
-#+BEGIN_SRC lisp
+#+BEGIN_SRC lisp :exports both
 (length (stats (read-file "SICK.txt") :cols '(1 2)))
 #+END_SRC
 
@@ -57,7 +57,7 @@ Considering only the two sentences being compared in each line:
 
 If we consider only the original sentences:
 
-#+BEGIN_SRC lisp
+#+BEGIN_SRC lisp :exports both
 (length (stats (read-file "SICK.txt") :cols '(7 8)))
 #+END_SRC
 
