@@ -71,164 +71,128 @@ each line to count the distinct sentences of the corpus. Not all
 sentences finish with dot, @fcbr is fixing it before the
 analysis. Below the list of the 100 sentences more frequent.
 
-#+name: tab
+#+name: tab1
 #+BEGIN_SRC lisp :results table :exports both
   (subseq (mapcar (lambda (pair) (list (car pair) (cdr pair)))
 		  (sort (stats (read-file "SICK.txt")) #'> :key #'cdr))
-	  0 150)
+	  0 100)
 #+END_SRC
 
-#+RESULTS: tab
-| A man is playing a guitar.                                                           | 105 |
-| a man is playing a guitar.                                                           |  91 |
-| a man is dancing.                                                                    |  57 |
-| a man is playing a flute.                                                            |  56 |
-| A woman is peeling a potato.                                                         |  50 |
-| A man is playing the guitar.                                                         |  47 |
-| A man is dancing.                                                                    |  46 |
-| The man is playing the guitar.                                                       |  41 |
-| a man is playing the guitar.                                                         |  37 |
-| A man is playing a flute.                                                            |  37 |
-| A man is driving a car.                                                              |  36 |
-| A man is riding a horse.                                                             |  35 |
-| A woman is riding a horse.                                                           |  35 |
-| a woman is dancing.                                                                  |  31 |
-| A man is playing guitar.                                                             |  31 |
-| a woman is slicing an onion.                                                         |  30 |
-| a woman is peeling a potato.                                                         |  29 |
-| A man is riding a motorcycle.                                                        |  28 |
-| A man is playing a piano.                                                            |  28 |
-| a man is playing the drums.                                                          |  27 |
-| A woman is cutting an onion.                                                         |  27 |
-| a surfer rides the wave.                                                             |  26 |
-| a man is singing and playing a guitar.                                               |  26 |
-| a man is riding a motorcycle.                                                        |  26 |
-| a woman is cutting an onion.                                                         |  25 |
-| a man is climbing a rope.                                                            |  25 |
-| A man is climbing a rope.                                                            |  25 |
-| a man is riding a horse.                                                             |  24 |
-| A woman is slicing a tomato.                                                         |  24 |
-| A man is playing soccer.                                                             |  23 |
-| A woman is slicing tofu.                                                             |  22 |
-| A man is playing a keyboard.                                                         |  22 |
-| a man is walking along a path through wilderness.                                    |  21 |
-| the man is slicing a potato.                                                         |  21 |
-| A woman is slicing a potato.                                                         |  21 |
-| two men are fighting.                                                                |  20 |
-| the rhino grazed on the grass.                                                       |  20 |
-| a man is exercising.                                                                 |  20 |
-| a man is playing a harp.                                                             |  20 |
-| a monkey pratices martial arts.                                                      |  20 |
-| a man is slicing potato.                                                             |  20 |
-| A man is cutting an onion.                                                           |  20 |
-| A man is playing a trumpet.                                                          |  20 |
-| A man is speaking on a stage.                                                        |  20 |
-| A sea turtle is hunting for fish.                                                    |  20 |
-| Various people are eating at red tables in a crowded restaurant with purple lights.  |  20 |
-| the man is exercising.                                                               |  19 |
-| a woman is riding a horse.                                                           |  19 |
-| a man is playing a violin.                                                           |  19 |
-| A woman is slicing an onion.                                                         |  19 |
-| a man is riding a mechanical bull.                                                   |  19 |
-| a woman is playing an electric guitar.                                               |  19 |
-| a man is speaking.                                                                   |  19 |
-| a woman is slicing a carrot.                                                         |  19 |
-| Someone is playing a piano.                                                          |  19 |
-| A woman is cutting broccoli.                                                         |  19 |
-| A man is spitting.                                                                   |  19 |
-| A man is playing flute.                                                              |  19 |
-| a brown dog jumps in the air.                                                        |  18 |
-| a man is cutting an onion.                                                           |  18 |
-| someone is playing a piano.                                                          |  18 |
-| a boy is looking at a calendar.                                                      |  18 |
-| a man is kicking a soccer ball.                                                      |  18 |
-| a baby is crawling happily.                                                          |  18 |
-| a woman is chopping garlic.                                                          |  18 |
-| the woman is pencilling on eye shadow.                                               |  18 |
-| a woman is boiling noodles in water.                                                 |  18 |
-| the man is dancing.                                                                  |  18 |
-| a little girl is playing a grand piano on stage.                                     |  18 |
-| a boy is playing a guitar.                                                           |  18 |
-| A man is slicing a tomato.                                                           |  18 |
-| A man is opening a package containing headphones.                                    |  18 |
-| Five children are standing in front of a wooden hut.                                 |  18 |
-| a girl is styling her hair.                                                          |  17 |
-| a man is cutting a potato.                                                           |  17 |
-| a man is playing the piano.                                                          |  17 |
-| a man is riding a bicycle.                                                           |  17 |
-| A woman is putting on makeup.                                                        |  17 |
-| A girl is playing a flute.                                                           |  17 |
-| A man is talking.                                                                    |  17 |
-| A person is chopping an onion.                                                       |  17 |
-| a man puts some cheese on a pizza.                                                   |  16 |
-| a man is playing an electronic keyboard.                                             |  16 |
-| the two men did a funny skit with a boxer in front of a crowd of people.             |  16 |
-| a man is eating a banana.                                                            |  16 |
-| A horse is standing.                                                                 |  16 |
-| A woman is brushing her feet.                                                        |  16 |
-| A man is mowing a lawn.                                                              |  16 |
-| A woman is slicing a carrot.                                                         |  16 |
-| A laughing child is holding a water gun and getting sprayed with water.              |  16 |
-| a dog with a brindle-colored coat is running across the yard.                        |  15 |
-| A man is playing the drums.                                                          |  15 |
-| a man is slicing potatoes.                                                           |  15 |
-| The man is driving a white car.                                                      |  15 |
-| The little girl is putting her hair into a pony tail.                                |  15 |
-| A boy is playing the piano.                                                          |  15 |
-| A woman is playing the flute.                                                        |  15 |
-| A man is playing two keyboards.                                                      |  15 |
-| A man is chopping butter into a container.                                           |  15 |
-| A woman is talking on a telephone.                                                   |  15 |
-| A dog and a red ball in the air.                                                     |  15 |
-| a snowboarder jumps into the air.                                                    |  15 |
-| A frightened little boy on a climbing wall.                                          |  15 |
-| a child is playing with a water spout outdoors while the rest of his family watches. |  14 |
-| a little girl swings, a woman stands behind her.                                     |  14 |
-| one man is climbing a rock wall, while another man, below, holds a rope.             |  14 |
-| a bmx bike rider in a black and red uniform on a dirt bike.                          |  14 |
-| A surfer is riding the wave.                                                         |  14 |
-| a brown and black dog runs through the leaves.                                       |  14 |
-| a white birds lands swiftly in the water.                                            |  14 |
-| the military officer barked at the recruits.                                         |  14 |
-| a monkey is teasing a dog at the zoo.                                                |  14 |
-| the doctor was helping the patient.                                                  |  14 |
-| A man is cutting a potato.                                                           |  14 |
-| the woman picked up the kangaroo.                                                    |  14 |
-| a woman picks up a baby kangaroo.                                                    |  14 |
-| swimmers are racing in a lake.                                                       |  14 |
-| a man is walking in the rain.                                                        |  14 |
-| four young men stand still as a car explodes behind them.                            |  14 |
-| a man plays a guitar.                                                                |  14 |
-| a man is standing on a roof top playing a violin.                                    |  14 |
-| a woman is lying on a blanket on a rock and reading a book.                          |  14 |
-| the lady sliced up the meat.                                                         |  14 |
-| someone is banging a camera lense against a nail.                                    |  14 |
-| two kids push an inflatable crocodile around in a pool.                              |  14 |
-| two kids are playing in a swimming pool with a green colored crocodile float.        |  14 |
-| the man set up his camera to take sunset pictures at the beach.                      |  14 |
-| The cat is drinking milk.                                                            |  14 |
-| A cat is licking from a saucer of milk.                                              |  14 |
-| A man is slicing a carrot by a machine.                                              |  14 |
-| A woman is beating two eggs in a bowl using a wire whisk.                            |  14 |
-| A cat is playing with an antenna.                                                    |  14 |
-| A man is throwing knives at a tree.                                                  |  14 |
-| A man is playing on a guitar and singing.                                            |  14 |
-| A woman is putting oil into a skillet.                                               |  14 |
-| Five kittens are eating out of five dishes.                                          |  14 |
-| A parrot is talking into a microphone.                                               |  14 |
-| The cook is slicing bell peppers.                                                    |  14 |
-| A lion is walking.                                                                   |  14 |
-| A man is pressing microwave buttons.                                                 |  14 |
-| A woman is riding an elephant.                                                       |  14 |
-| A man is holding a frog.                                                             |  14 |
-| A man is emptying a plastic container.                                               |  14 |
-| The man poured oil on the cut tomatoes.                                              |  14 |
-| A woman beats two eggs in a bowl.                                                    |  14 |
-| A person is mixing ingredients in a bowl.                                            |  14 |
-| A man is picking up a tree.                                                          |  14 |
-| A man is carrying a tree.                                                            |  14 |
-| The men are performing on stage.                                                     |  14 |
-| A woman is cutting some flowers.                                                     |  14 |
+#+RESULTS: tab1
+| a young girl in a blue shirt is walking in the sidewalk and holding up a pink sign that says, """"""""the rescue."""""""". | 1 |
+| The person is playing the guitar.                                                                                          | 1 |
+| A man is diving into the water.                                                                                            | 1 |
+| A man is jumping into a pool.                                                                                              | 1 |
+| A man is untying a shoe.                                                                                                   | 1 |
+| A man is tying the shoe.                                                                                                   | 1 |
+| A shoe is being tied by a man.                                                                                             | 1 |
+| There is no person throwing a cat at the ceiling.                                                                          | 1 |
+| A person is stupidly throwing a cat at the ceiling.                                                                        | 1 |
+| A person is taking a cat down from the ceiling.                                                                            | 1 |
+| There is no toy train striking a toy car.                                                                                  | 1 |
+| A toy train is violently striking a toy car.                                                                               | 1 |
+| A car and a train are striking a toy.                                                                                      | 1 |
+| A toy train is hitting a toy car.                                                                                          | 1 |
+| There is no dog licking a baby.                                                                                            | 1 |
+| A dog is walking away from a baby.                                                                                         | 1 |
+| A dog is licking a toddler.                                                                                                | 1 |
+| A guitar is being passionately played by a man.                                                                            | 1 |
+| A woman is putting away a potato.                                                                                          | 1 |
+| A woman is absently peeling a potato.                                                                                      | 1 |
+| Nobody is playing the guitar.                                                                                              | 1 |
+| A man is dropping the guitar.                                                                                              | 1 |
+| A person is wrapping up an onion.                                                                                          | 1 |
+| A person near an onion has a cut.                                                                                          | 1 |
+| There is no dog riding a skateboard.                                                                                       | 1 |
+| An animal is riding a skateboard.                                                                                          | 1 |
+| Asian woman in crowd, carrying black bag with """"pain"""" and spiked knuckle graphic.                                     | 1 |
+| A dog is standing on concrete and is holding a blue ball.                                                                  | 2 |
+| A dog is running on concrete and is holding a ball.                                                                        | 2 |
+| The small dog is walking outside and is carrying a colorful toy in its mouth.                                              | 2 |
+| The large dog is walking outside and is holding a colorful toy in its mouth.                                               | 2 |
+| A little boy is sticking his tongue out for the camera and another boy is not looking.                                     | 2 |
+| The little boy is sticking his tongue out for the camera and another boy is looking on.                                    | 2 |
+| Two young girl are looking up at the camera and one is sticking out his tongue.                                            | 2 |
+| Two kids are looking up at the camera and one is sticking out his tongue.                                                  | 2 |
+| A woman is wearing ear protection and is firing a gun at an outdoor shooting range.                                        | 2 |
+| The woman is wearing ear protection and is firing a gun at an indoor shooting range.                                       | 2 |
+| A man is shooting at target practice.                                                                                      | 2 |
+| A woman is firing at target practice.                                                                                      | 2 |
+| No motorcycle racer is riding a red and black bike.                                                                        | 2 |
+| A motorcycle racer is riding a red and black bike.                                                                         | 2 |
+| A woman is leaning on a racing motorcycle.                                                                                 | 2 |
+| A racer is leaning on a racing motorcycle.                                                                                 | 2 |
+| A boy is running through the grass.                                                                                        | 2 |
+| A boy is running on the beach.                                                                                             | 2 |
+| A kid wearing a striped shirt is running barefoot on the sandy hill.                                                       | 2 |
+| A black and white dog is carrying a small stick on the green grass.                                                        | 2 |
+| A black and white dog is carrying a big stick on the green grass.                                                          | 2 |
+| A black and white dog with a large branch is standing in the field.                                                        | 2 |
+| A black and white dog with a large branch is running in the grass.                                                         | 2 |
+| A man is crouching down next to a dog and is smiling at a little girl sitting on the sidewalk.                             | 2 |
+| A woman is crouching down next to a dog and is smiling at a young girl sitting on the sidewalk.                            | 2 |
+| A woman is showing a small cat to an infant.                                                                               | 2 |
+| A woman is showing a puppy to an infant.                                                                                   | 2 |
+| A bicyclist is performing a trick over a clean wall.                                                                       | 2 |
+| A bicyclist is performing a trick over wall full of graffiti.                                                              | 2 |
+| There is no cyclist performing a jump on a bicycle.                                                                        | 2 |
+| A man is performing a jump on a bicycle.                                                                                   | 2 |
+| A boy is wearing an orange shirt and a striped tie.                                                                        | 2 |
+| The girl is wearing an orange shirt and a striped tie.                                                                     | 2 |
+| A girl in an orange shirt and clown makeup is walking in a park and others are looking on.                                 | 2 |
+| A woman in an orange shirt and clown makeup is standing in a park and others are looking on.                               | 2 |
+| A little boy and a woman wearing a yellow shirt are getting splashed by a city fountain.                                   | 2 |
+| A little girl and a woman wearing a yellow shirt are getting splashed near a fountain.                                     | 2 |
+| A young girl is playing on the edge of a fountain and an older woman is not watching her.                                  | 2 |
+| The young girl is playing on the edge of a fountain and an older woman is watching her.                                    | 2 |
+| A shirtless man is escorting a horse that is pulling a carriage along a dirty road.                                        | 2 |
+| A shirtless man is escorting a horse that is pulling a carriage along a road.                                              | 2 |
+| A shirtless woman is leading a horse that is pulling a carriage.                                                           | 2 |
+| A shirtless man is leading a carriage that is being pulled by a horse.                                                     | 2 |
+| A dog is running on the grass and chasing a ball.                                                                          | 2 |
+| A dog is running on the beach and chasing a ball.                                                                          | 2 |
+| A brown and white dog is catching a dirty golf ball in a dirt field.                                                       | 2 |
+| A brown and white dog is biting a dirty tennis ball in a dirt field.                                                       | 2 |
+| No dog is emerging from a lake.                                                                                            | 2 |
+| An animal is emerging from a lake.                                                                                         | 2 |
+| A brown and white dog is not running through the river.                                                                    | 2 |
+| A brown and white dog is running through the water.                                                                        | 2 |
+| A woman is standing in the water at the base of a waterfall.                                                               | 2 |
+| The man is standing in the water at the base of a waterfall.                                                               | 2 |
+| The body of a man is in the water near a waterfall.                                                                        | 2 |
+| The man is swimming in a body of water near a waterfall.                                                                   | 2 |
+| A barefoot man in pajamas is looking toward the sky and is standing on the tennis court.                                   | 2 |
+| A barefoot man in pajamas is looking toward the stars and is walking on the tennis court.                                  | 2 |
+| A woman is wearing a blue shirt and walking barefoot on a tennis court.                                                    | 2 |
+| A person is wearing a blue shirt and walking barefoot on a tennis court.                                                   | 2 |
+| No people are riding camels at the beach.                                                                                  | 2 |
+| People are riding two camels on the sand.                                                                                  | 2 |
+| Two people are seated near a camel and another camel is in the foreground.                                                 | 2 |
+| Two men are seated on a camel and another camel is in the foreground.                                                      | 2 |
+| There is no dog standing on one leg and is waiting for a soccer ball.                                                      | 2 |
+| A dog is standing on one leg and is waiting for a ball.                                                                    | 2 |
+| There is no black and white dog jumping for a ball.                                                                        | 2 |
+| The black and white dog is jumping for the ball.                                                                           | 2 |
+| A yellow dog is running up a sandy path.                                                                                   | 2 |
+| A yellow dog is running down a path covered by sand.                                                                       | 2 |
+| A golden retriever is not running.                                                                                         | 2 |
+| A dog is running.                                                                                                          | 2 |
+| The girl is painting a coverall blue.                                                                                      | 2 |
+| The boy in the blue coverall is painting.                                                                                  | 2 |
+
+
+The list of the 100 less frequent ones:
+
+#+name: tab1
+#+BEGIN_SRC lisp :results table :exports both
+  (subseq (mapcar (lambda (pair) (list (car pair) (cdr pair)))
+		  (sort (stats (read-file "SICK.txt")) #'< :key #'cdr))
+	  0 100)
+#+END_SRC
+
+
+
+
 
 The complete list is in the file =numbers.sentences=:
 
