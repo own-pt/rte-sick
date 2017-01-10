@@ -72,13 +72,13 @@ sentences finish with dot, @fcbr is fixing it before the
 analysis. Below the list of the 100 sentences more frequent.
 
 #+name: tab
-#+BEGIN_SRC lisp :results table
+#+BEGIN_SRC lisp :results table :exports both
   (subseq (mapcar (lambda (pair) (list (car pair) (cdr pair)))
 		  (sort (stats (read-file "SICK.txt")) #'> :key #'cdr))
 	  0 150)
 #+END_SRC
 
-#+name:tab
+#+RESULTS: tab
 | A man is playing a guitar.                                                           | 105 |
 | a man is playing a guitar.                                                           |  91 |
 | a man is dancing.                                                                    |  57 |
@@ -230,7 +230,7 @@ analysis. Below the list of the 100 sentences more frequent.
 | The men are performing on stage.                                                     |  14 |
 | A woman is cutting some flowers.                                                     |  14 |
 
-The complete list is in the file 'numbers.sentences':
+The complete list is in the file =numbers.sentences=:
 
 #+BEGIN_SRC lisp
 (save-sentences "numbers.sentences" (stats (read-file "SICK.txt")))
@@ -245,12 +245,12 @@ histogram of the frequency of occurrences.
 
 2. We have 27 sentences that occurs only one time in the corpus.
 
-#+BEGIN_SRC R 
+#+BEGIN_SRC R  :exports both
   data <- read.csv("numbers.sentences", header=FALSE)
   table(data$V2)
 #+END_SRC
 
-#+name:histogram
+#+RESULTS:
 |   1 |   27 |
 |   2 | 3914 |
 |   3 |  215 |
@@ -293,3 +293,4 @@ histogram of the frequency of occurrences.
 |  57 |    1 |
 |  91 |    1 |
 | 105 |    1 |
+
