@@ -62,8 +62,8 @@ each line.
   (let ((data (read-file "SICK.txt")))
     `(("originals case sensitive"   ,(length (stats data :cols '(7 8)))) 
       ("originals case insensitive" ,(length (stats data :cols '(7 8) :key #'iequal)))
-      ("derived case sensitive"     ,(length (stats data :cols '(1 2))))
-      ("derived case insensitive"   ,(length (stats data :cols '(1 2) :key #'iequal)))
+      ("generated case sensitive"   ,(length (stats data :cols '(1 2))))
+      ("generated case insensitive" ,(length (stats data :cols '(1 2) :key #'iequal)))
       ("all case sensitive"         ,(length (stats data)))
       ("all case insensitive"       ,(length (stats data :key #'iequal)))))
 #+END_SRC
@@ -71,8 +71,8 @@ each line.
 #+RESULTS:
 | originals case sensitive   | 1909 |
 | originals case insensitive | 1879 |
-| derived case sensitive     | 6076 |
-| derived case insensitive   | 6076 |
+| generated case sensitive   | 6076 |
+| generated case insensitive | 6076 |
 | all case sensitive         | 7899 |
 | all case insensitive       | 7416 |
 
