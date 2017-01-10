@@ -55,6 +55,15 @@ Considering only the two sentences being compared in each line:
 #+RESULTS:
 : 6076
 
+If we consider only the original sentences:
+
+#+BEGIN_SRC lisp
+(length (stats (read-file "SICK.txt") :cols '(7 8)))
+#+END_SRC
+
+#+RESULTS:
+: 1909
+
 We have basically 7899 distinct sentences in SICK corpus. The corpus
 has 10000 pairs of sentences, each pair has also the two original
 sentences used to produce the pair. I am taking the 4 sentences of
