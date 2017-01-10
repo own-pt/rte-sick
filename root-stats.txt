@@ -1,5 +1,5 @@
 # obtained with:
-# cat conll/*.conll | grep -P "\tROOT\t" | awk -F '\t' '{print $4}' | sort | uniq -c | sort -rn
+# cat conll/*.conll | awk '$8 ~ /ROOT/ {print $4}' | sort | uniq -c | sort -rn
 
   18038 VERB
    1082 NOUN
