@@ -6,6 +6,10 @@ output, augmented with the lemmas and senses obtained from FreeLing.
 
 We needed to disable FreeLing's MWE module.
 
+We also add the original POS tag from Freeling to the MISC field so we
+can compare to SyntaxNet's.  The POS tag from Freeling is relevant to
+understand the sense selected.
+
 To reproduce:
 
 1. Download SICK.txt from here: http://clic.cimec.unitn.it/composes/sick.html
