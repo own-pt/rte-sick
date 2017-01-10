@@ -29,11 +29,11 @@ The code used is
 	(dolist (col cols)
 	  (incf (gethash (fix-sentence (nth col line)) tab 0))))))
 
-
   (defun save-sentences (filename stats)
     (with-open-file (out filename :direction :output :if-exists :supersede)
       (dolist (v stats)
-	(format out "\"~a\",~a~%" (car v) (cdr v)))))
+	(mapc (lambda (obj) (princ obj out))
+	      (list (car v) #\Tab (cdr v) #\Newline)))))
 #+END_SRC
 
 Taking all sentences into account. The pair of sentences compared for
@@ -290,9 +290,6 @@ The list of the 100 less frequent ones:
 | A dog is running.                                                                                                          | 2 |
 | The girl is painting a coverall blue.                                                                                      | 2 |
 | The boy in the blue coverall is painting.                                                                                  | 2 |
-
-
-
 
 
 The complete list is in the file =numbers.sentences=:
