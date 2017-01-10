@@ -57,7 +57,7 @@ analysis. Below the list of the 100 sentences more frequent.
 	  0 150)
 #+END_SRC
 
-#+RESULTS: tab
+#+name:tab
 | A man is playing a guitar.                                                           | 105 |
 | a man is playing a guitar.                                                           |  91 |
 | a man is dancing.                                                                    |  57 |
@@ -229,7 +229,7 @@ histogram of the frequency of occurrences.
   table(data$V2)
 #+END_SRC
 
-#+RESULTS:
+#+name:histogram
 |   1 |   27 |
 |   2 | 3914 |
 |   3 |  215 |
