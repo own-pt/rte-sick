@@ -23,10 +23,10 @@ The code used is
 	s
 	(format nil "~a." s)))
 
-  (defun stats (alist)
+  (defun stats (alist &key (cols '(1 2 7 8)))
     (let ((tab (make-hash-table :test #'equal)))
       (dolist (line alist (alexandria:hash-table-alist tab))
-	(dolist (col '(1 2 7 8))
+	(dolist (col cols)
 	  (incf (gethash (fix-sentence (nth col line)) tab 0))))))
 
 
@@ -36,12 +36,24 @@ The code used is
 	(format out "\"~a\",~a~%" (car v) (cdr v)))))
 #+END_SRC
 
+Taking all sentences into account. The pair of sentences compared for
+entailment and the original sentences used to produce the pair.
+
 #+BEGIN_SRC lisp
 (length (stats (read-file "SICK.txt")))
 #+END_SRC
 
 #+RESULTS:
 : 7899
+
+Considering only the two sentences being compared in each line:
+
+#+BEGIN_SRC lisp
+(length (stats (read-file "SICK.txt") :cols '(1 2)))
+#+END_SRC
+
+#+RESULTS:
+: 6076
 
 We have basically 7899 distinct sentences in SICK corpus. The corpus
 has 10000 pairs of sentences, each pair has also the two original
