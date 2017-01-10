@@ -308,7 +308,7 @@ histogram of the frequency of occurrences.
 2. We have 27 sentences that occurs only one time in the corpus.
 
 #+BEGIN_SRC R  :exports both
-  data <- read.csv("numbers.sentences", header=FALSE)
+  data <- read.csv("numbers.sentences", sep="\t", header=FALSE)
   table(data$V2)
 #+END_SRC
 
