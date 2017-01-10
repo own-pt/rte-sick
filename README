@@ -8,7 +8,8 @@ We needed to disable FreeLing's MWE module.
 
 To reproduce:
 
-1. Download SICK.txt from here: http://clic.cimec.unitn.it/composes/sick.html
+1. Download SICK.txt from here:
+   http://clic.cimec.unitn.it/composes/sick.html
 
 2. Install Freeling 4.0 from:
 
@@ -26,10 +27,10 @@ https://github.com/tensorflow/models/blob/master/syntaxnet/universal.md
 
 https://github.com/ontologyportal/sumo
 
-6. Fix the paths in env.sh, process-freeling.py, and parse.sh to point to your
-local installation paths.
+6. Fix the paths in env.sh, process-freeling.py, and parse.sh to point
+   to your local installation paths.
 
 Execute: run-all.sh
 
 7. The relevant files are the [1-9]-{a,b}.conll and [1-9]*.txt; all
-others can be removed if needed. 
+   others can be removed if needed.

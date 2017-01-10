@@ -7,7 +7,8 @@ import subprocess
 import re
 
 ## Modify this line to be your FreeLing installation directory
-FREELINGDIR = "/home/fcbr/bin/freeling-4.0/";
+FREELINGDIR = "/usr/local";
+SUMODIR="/opt/sumo/KBs";
 
 DATA = FREELINGDIR+"/share/freeling/";
 LANG="en";
@@ -37,9 +38,7 @@ mf=freeling.maco(op);
 
 # defaults
 # (umap,num,pun,dat,dic,aff,comp,rtk,mw,ner,qt,prb)=(False,True,True,True,True,True,False,True,True,True,True,True)
-
 (umap,num,pun,dat,dic,aff,comp,rtk,mw,ner,qt,prb)=(False,True,True,True,True,True,False,True,False,False,False,True)
-
 # activate mmorpho odules to be used in next call
 mf.set_active_options(umap,num,pun,dat,dic,aff,comp,rtk,mw,ner,qt,prb)
 
@@ -70,6 +69,8 @@ def process (lin,sumo,glos):
         for w in ws:
             words.append(w.get_form())
             lemmas.append(w.get_lemma())
+            # see https://github.com/TALP-UPC/FreeLing/issues/33
+            # pos.append(w.get_tag()+"|"+bin(w.get_analyzed_by()))
             pos.append(w.get_tag())
             ss = w.get_senses()
             if (ss): 
@@ -122,10 +123,10 @@ def fix_sentence(s):
 sumo_dic = {}
 glos_dic = {}
 
-load('/home/fcbr/repos/sumo/KBs/WordNetMappings/WordNetMappings30-adj.txt','a', sumo_dic, glos_dic)
-load('/home/fcbr/repos/sumo/KBs/WordNetMappings/WordNetMappings30-adv.txt','r', sumo_dic, glos_dic)
-load('/home/fcbr/repos/sumo/KBs/WordNetMappings/WordNetMappings30-noun.txt','n', sumo_dic, glos_dic)
-load('/home/fcbr/repos/sumo/KBs/WordNetMappings/WordNetMappings30-verb.txt','v', sumo_dic, glos_dic)
+load(SUMODIR+'/WordNetMappings/WordNetMappings30-adj.txt','a', sumo_dic, glos_dic)
+load(SUMODIR+'/WordNetMappings/WordNetMappings30-adv.txt','r', sumo_dic, glos_dic)
+load(SUMODIR+'/WordNetMappings/WordNetMappings30-noun.txt','n', sumo_dic, glos_dic)
+load(SUMODIR+'/WordNetMappings/WordNetMappings30-verb.txt','v', sumo_dic, glos_dic)
 
 with open('SICK.txt', newline='') as csvfile:
     reader = csv.reader(csvfile, delimiter='\t')
