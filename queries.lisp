@@ -19,4 +19,7 @@
         (dolist (h heads)
           (format t "~a~%" (token-upostag h)))))))
 
-(neg-distribution (read-conllu #p "conll/sentences.conllu"))
+;; (neg-distribution (read-conllu #p "conll/sentences.conllu"))
+
+(neg-distribution (read-conllu #p "conll/sentences-parsey.conllu"))
+
