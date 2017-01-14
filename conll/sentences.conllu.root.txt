@@ -1,0 +1,11 @@
+# cat sentences.conllu | grep -P "\tROOT\t" | awk -F '\t' '{print $4}' | sort | uniq -c | sort -rn
+   6799 VERB
+    868 NOUN
+    195 ADJ
+     15 AUX
+     12 ADV
+      3 NUM
+      2 PROPN
+      2 ADP
+      1 PRON
+      1 INTJ
