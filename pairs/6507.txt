@@ -8,30 +8,30 @@ CONCEPTS B: Entity+,SubjectiveStrongNegativeAttribute+,Black=,Canine+,Pursuing+,
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|00392812-a|Black=
-4	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02084071-n|Canine+
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	chasing	chase	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02001858-v|Pursuing+
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-8	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-9	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	JJ|00245112-a|Human+
-10	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|02084071-n|Canine+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	4	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	black	black	ADJ	JJ	_	4	amod	_	JJ|00392812-a|Black=
+4	dog	dog	NOUN	NN	_	6	nsubj	_	NN|02084071-n|Canine+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	chasing	chase	VERB	VBG	_	0	ROOT	_	VBG|02001858-v|Pursuing+
+7	a	a	DET	DT	_	10	det	_	DT|?|?
+8	little	little	ADJ	JJ	_	10	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+9	brown	brown	ADJ	JJ	_	10	amod	_	JJ|00245112-a|Human+
+10	dog	dog	NOUN	NN	_	6	dobj	_	NN|02084071-n|Canine+
+11	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	6	neg	_	DT|?|?
-4	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-5	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|00392812-a|Black=
-6	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|02084071-n|Canine+
-7	chasing	chase	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	acl	_	VBG|02001858-v|Pursuing+
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-9	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-10	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	JJ|00245112-a|Human+
-11	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	NN|02084071-n|Canine+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	6	det	_	DT|?|?
+4	little	little	ADJ	JJ	_	6	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+5	black	black	ADJ	JJ	_	6	amod	_	JJ|00392812-a|Black=
+6	dog	dog	NOUN	NN	_	2	nsubj	_	NN|02084071-n|Canine+
+7	chasing	chase	VERB	VBG	_	6	partmod	_	VBG|02001858-v|Pursuing+
+8	a	a	DET	DT	_	11	det	_	DT|?|?
+9	little	little	ADJ	JJ	_	11	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+10	brown	brown	ADJ	JJ	_	11	amod	_	JJ|00245112-a|Human+
+11	dog	dog	NOUN	NN	_	7	dobj	_	NN|02084071-n|Canine+
+12	.	.	.	.	_	2	punct	_	Fp|?|?

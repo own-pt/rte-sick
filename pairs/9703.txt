@@ -8,39 +8,39 @@ CONCEPTS B: Woman=,Entity+,Expressing=,SubjectiveStrongNegativeAttribute+,Whip+,
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
-4	crouching	crouch	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02062632-v|Inclining+
-5	down	down	ADV	RB	fPOS=ADP++RP	4	advmod	_	RP|00095320-r|earlier+
-6	next	next	ADJ	JJ	fPOS=ADV++RB	4	advmod	_	JJ|01294975-a|Position+
-7	to	to	ADP	IN	fPOS=ADP++IN	9	case	_	TO|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|02084071-n|Canine+
-10	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	VBZ|02655135-v|PhysicalAttribute+
-12	smiling	smile	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|00028565-v|Smiling=
-13	at	at	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-15	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	16	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-16	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	NN|10129825-n|Human+
-17	sitting	sit	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	16	acl	_	VBG|01543123-v|SittingDown+
-18	on	on	ADP	IN	fPOS=ADP++IN	20	case	_	IN|?|?
-19	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	20	det	_	DT|?|?
-20	sidewalk	sidewalk	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	nmod	_	NN|04215402-n|Sidewalk=
-21	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	crouching	crouch	VERB	VBG	_	0	ROOT	_	VBG|02062632-v|Inclining+
+5	down	down	ADV	RB	_	4	prt	_	RP|00095320-r|earlier+
+6	next	next	ADV	RB	_	4	advmod	_	JJ|01294975-a|Position+
+7	to	to	ADP	IN	_	6	prep	_	TO|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	dog	dog	NOUN	NN	_	7	pobj	_	NN|02084071-n|Canine+
+10	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02655135-v|PhysicalAttribute+
+12	smiling	smile	VERB	VBG	_	4	conj	_	VBG|00028565-v|Smiling=
+13	at	at	ADP	IN	_	12	prep	_	IN|?|?
+14	a	a	DET	DT	_	16	det	_	DT|?|?
+15	little	little	ADJ	JJ	_	16	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+16	girl	girl	NOUN	NN	_	13	pobj	_	NN|10129825-n|Human+
+17	sitting	sit	VERB	VBG	_	16	partmod	_	VBG|01543123-v|SittingDown+
+18	on	on	ADP	IN	_	17	prep	_	IN|?|?
+19	the	the	DET	DT	_	20	det	_	DT|?|?
+20	sidewalk	sidewalk	NOUN	NN	_	18	pobj	_	NN|04215402-n|Sidewalk=
+21	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	showing	show	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|00943837-v|Expressing=
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-7	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|02985606-n|Whip+
-8	to	to	ADP	IN	fPOS=ADP++IN	10	case	_	TO|?|?
-9	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	infant	infant	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|09827683-n|HumanBaby=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	showing	show	VERB	VBG	_	0	ROOT	_	VBG|00943837-v|Expressing=
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	small	small	ADJ	JJ	_	7	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+7	cat	cat	NOUN	NN	_	4	dobj	_	NN|02985606-n|Whip+
+8	to	to	ADP	IN	_	4	prep	_	TO|?|?
+9	an	a	DET	DT	_	10	det	_	DT|?|?
+10	infant	infant	NOUN	NN	_	8	pobj	_	NN|09827683-n|HumanBaby=
+11	.	.	.	.	_	4	punct	_	Fp|?|?

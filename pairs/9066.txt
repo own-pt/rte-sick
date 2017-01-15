@@ -8,28 +8,28 @@ CONCEPTS B: Canine+,Entity+,PhysicalAttribute+,Object+,SubjectiveAssessmentAttri
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00393105-a|White=
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-6	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	grassy	grassy	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|00209620-a|FloweringPlant+
-9	hillside	hillside	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|09303528-n|SlopedArea+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	grassy	grassy	ADJ	JJ	_	9	amod	_	JJ|00209620-a|FloweringPlant+
+9	hillside	hillside	NOUN	NN	_	6	pobj	_	NN|09303528-n|SlopedArea+
+10	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02084071-n|Canine+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	side	side	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|08510666-n|Object+
-8	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	mountain	mountain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|13774404-n|SubjectiveAssessmentAttribute+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	side	side	NOUN	NN	_	5	pobj	_	NN|08510666-n|Object+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	mountain	mountain	NOUN	NN	_	8	pobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+11	.	.	.	.	_	4	punct	_	Fp|?|?

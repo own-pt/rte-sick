@@ -8,43 +8,43 @@ CONCEPTS B: Woman=,Entity+,RecreationOrExercise+,Device+,SubjectiveWeakPositiveA
 
 CONLL A:
 
-1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	old	old	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01638438-a|SubjectiveAssessmentAttribute+
-3	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10787470-n|Woman=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00052374-v|Putting+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|04197391-n|Shirt=
-8	with	with	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	rose	rise	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	VBD|01968569-v|MotionUpward=
-11	pattern	pattern	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|05930736-n|ShapeAttribute+
-12	upon	upon	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	11	nmod	_	PRP|?|?
-14	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	17	aux	_	VBZ|02604760-v|Entity+
-16	clumsily	clumsily	ADV	RB	fPOS=ADV++RB	17	advmod	_	RB|00190359-r|SubjectiveAssessmentAttribute+
-17	carrying	carry	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	VBG|01449974-v|Transportation+
-18	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	19	nummod	_	Z|?|?
-19	newspapers	newspaper	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	17	dobj	_	NNS|06267145-n|Newspaper=
-20	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	An	a	DET	DT	_	3	det	_	DT|?|?
+2	old	old	ADJ	JJ	_	3	amod	_	JJ|01638438-a|SubjectiveAssessmentAttribute+
+3	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	shirt	shirt	NOUN	NN	_	5	dobj	_	NN|04197391-n|Shirt=
+8	with	with	ADP	IN	_	5	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	rose	rise	NOUN	NN	_	11	nn	_	VBD|01968569-v|MotionUpward=
+11	pattern	pattern	NOUN	NN	_	8	pobj	_	NN|05930736-n|ShapeAttribute+
+12	upon	upon	ADP	IN	_	11	prep	_	IN|?|?
+13	it	it	PRON	PRP	_	12	pobj	_	PRP|?|?
+14	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+15	is	be	VERB	VBZ	_	17	aux	_	VBZ|02604760-v|Entity+
+16	clumsily	clumsily	ADV	RB	_	17	advmod	_	RB|00190359-r|SubjectiveAssessmentAttribute+
+17	carrying	carry	VERB	VBG	_	5	conj	_	VBG|01449974-v|Transportation+
+18	two	2	NUM	CD	_	19	num	_	Z|?|?
+19	newspapers	newspaper	NOUN	NNS	_	17	dobj	_	NNS|06267145-n|Newspaper=
+20	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	VBZ|02604760-v|Entity+
-4	wearing	wear	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	VBG|00075021-v|RecreationOrExercise+
-5	sunglasses	sunglass	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	NNS|04355933-n|Device+
-6	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-8	size	size	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|05098942-n|Attribute+
-9	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	11	aux	_	VBZ|02604760-v|Entity+
-11	holding	hold	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	5	conj	_	VBG|02203362-v|Obligation+
-12	newspapers	newspaper	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	dobj	_	NNS|06267145-n|Newspaper=
-13	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-14	both	both	DET	DT	fPOS=DET++DT	15	det	_	DT|?|?
-15	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	nmod	_	NNS|05564590-n|Hand+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
+5	sunglasses	sunglass	NOUN	NNS	_	4	dobj	_	NNS|04355933-n|Device+
+6	of	of	ADP	IN	_	5	prep	_	IN|?|?
+7	large	large	ADJ	JJ	_	8	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+8	size	size	NOUN	NN	_	6	pobj	_	NN|05098942-n|Attribute+
+9	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	holding	hold	VERB	VBG	_	4	conj	_	VBG|02203362-v|Obligation+
+12	newspapers	newspaper	NOUN	NNS	_	11	dobj	_	NNS|06267145-n|Newspaper=
+13	in	in	ADP	IN	_	11	prep	_	IN|?|?
+14	both	both	DET	DT	_	15	det	_	DT|?|?
+15	hands	hand	NOUN	NNS	_	13	pobj	_	NNS|05564590-n|Hand+
+16	.	.	.	.	_	4	punct	_	Fp|?|?

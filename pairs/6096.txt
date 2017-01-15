@@ -8,30 +8,30 @@ CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,Position+,Bird=,TrapOrCage+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-5	beside	beside	ADP	IN	NumType=Mult|fPOS=ADV++RB	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	birdcage	birdcage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02843276-n|TrapOrCage+
-8	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	10	nsubj	_	WDT|?|?
-9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	10	cop	_	VBZ|02604760-v|Entity+
-10	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	acl:relcl	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-11	and	and	CONJ	CC	fPOS=CONJ++CC	10	cc	_	CC|?|?
-12	colorful	colorful	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	conj	_	JJ|00394562-a|ColorAttribute+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	beside	beside	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	birdcage	birdcage	NOUN	NN	_	5	pobj	_	NN|02843276-n|TrapOrCage+
+8	which	which	DET	WDT	_	10	nsubj	_	WDT|?|?
+9	is	be	VERB	VBZ	_	10	cop	_	VBZ|02604760-v|Entity+
+10	large	large	ADJ	JJ	_	7	rcmod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+11	and	and	CONJ	CC	_	10	cc	_	CC|?|?
+12	colorful	colorful	ADJ	JJ	_	10	conj	_	JJ|00394562-a|ColorAttribute+
+13	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-5	next	next	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	dobj	_	JJ|01294975-a|Position+
-6	to	to	ADP	IN	fPOS=ADP++IN	9	case	_	TO|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	bird	bird	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	NN|01503061-n|Bird=
-9	cage	cage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02936714-n|TrapOrCage+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	next	next	ADV	RB	_	4	advmod	_	JJ|01294975-a|Position+
+6	to	to	ADP	IN	_	5	prep	_	TO|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	bird	bird	NOUN	NN	_	9	nn	_	NN|01503061-n|Bird=
+9	cage	cage	NOUN	NN	_	6	pobj	_	NN|02936714-n|TrapOrCage+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

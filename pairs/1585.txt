@@ -8,23 +8,23 @@ CONCEPTS B: Carnivore+,Entity+,not=,Translocation+,Hole=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	badger	badger	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02447366-n|Carnivore+
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	shrewdly	shrewdly	ADV	RB	fPOS=ADV++RB	5	advmod	_	RB|00272587-r|SubjectiveAssessmentAttribute+
-5	digging	dig	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01309701-v|Making+
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	earth	earth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|09270894-n|PlanetEarth=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	badger	badger	NOUN	NN	_	5	nsubj	_	NN|02447366-n|Carnivore+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	shrewdly	shrewdly	ADV	RB	_	5	advmod	_	RB|00272587-r|SubjectiveAssessmentAttribute+
+5	digging	dig	VERB	VBG	_	0	ROOT	_	VBG|01309701-v|Making+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	earth	earth	NOUN	NN	_	5	dobj	_	NN|09270894-n|PlanetEarth=
+8	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	badger	badger	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02447366-n|Carnivore+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	RB|00024073-r|not=
-5	burrowing	burrow	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02042067-v|Translocation+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	hole	hole	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|03526198-n|Hole=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	badger	badger	NOUN	NN	_	5	nsubj	_	NN|02447366-n|Carnivore+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	burrowing	burrow	VERB	VBG	_	0	ROOT	_	VBG|02042067-v|Translocation+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	hole	hole	NOUN	NN	_	5	dobj	_	NN|03526198-n|Hole=
+8	.	.	.	.	_	5	punct	_	Fp|?|?

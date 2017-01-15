@@ -8,27 +8,27 @@ CONCEPTS B: Carnivore+,Entity+,SubjectiveAssessmentAttribute+,Making+,PlanetEart
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	badger	badger	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|02447366-n|Carnivore+
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
-4	which	which	PRON	WDT	PronType=Int|fPOS=PRON++WDT	6	nsubj	_	WDT|?|?
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02604760-v|Entity+
-6	shrewd	shrewd	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	JJ|01155603-a|TraitAttribute+
-7	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	Fc|?|?
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
-9	digging	dig	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01309701-v|Making+
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	earth	earth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|09270894-n|PlanetEarth=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	badger	badger	NOUN	NN	_	9	nsubj	_	NN|02447366-n|Carnivore+
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	which	which	DET	WDT	_	6	nsubj	_	WDT|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	shrewd	shrewd	ADJ	JJ	_	2	rcmod	_	JJ|01155603-a|TraitAttribute+
+7	,	,	.	,	_	2	punct	_	Fc|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	digging	dig	VERB	VBG	_	0	ROOT	_	VBG|01309701-v|Making+
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	earth	earth	NOUN	NN	_	9	dobj	_	NN|09270894-n|PlanetEarth=
+12	.	.	.	.	_	9	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	badger	badger	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02447366-n|Carnivore+
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	shrewdly	shrewdly	ADV	RB	fPOS=ADV++RB	5	advmod	_	RB|00272587-r|SubjectiveAssessmentAttribute+
-5	digging	dig	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01309701-v|Making+
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	earth	earth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|09270894-n|PlanetEarth=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	badger	badger	NOUN	NN	_	5	nsubj	_	NN|02447366-n|Carnivore+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	shrewdly	shrewdly	ADV	RB	_	5	advmod	_	RB|00272587-r|SubjectiveAssessmentAttribute+
+5	digging	dig	VERB	VBG	_	0	ROOT	_	VBG|01309701-v|Making+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	earth	earth	NOUN	NN	_	5	dobj	_	NN|09270894-n|PlanetEarth=
+8	.	.	.	.	_	5	punct	_	Fp|?|?

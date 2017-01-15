@@ -8,35 +8,35 @@ CONCEPTS B: Group=,GroupOfPeople=,PhysicalAttribute+,SittingDown+,Decreasing+,Ro
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	NN|10287213-n|Man=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	5	nummod	_	Z|?|?
-5	women	woman	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	conj	_	NNS|10787470-n|Woman=
-6	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	dark	dark	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|01137378-a|SubjectiveWeakNegativeAttribute+
-9	room	room	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|04105893-n|Room=
-10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	11	aux	_	VBP|02655135-v|PhysicalAttribute+
-11	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-12	at	at	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-14	table	table	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|08266235-n|ContentBearingObject+
-15	with	with	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-16	candles	candle	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	nmod	_	NNS|02948072-n|Candle=
-17	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	11	nsubj	_	NN|10287213-n|Man=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	two	2	NUM	CD	_	5	num	_	Z|?|?
+5	women	woman	NOUN	NNS	_	2	conj	_	NNS|10787470-n|Woman=
+6	in	in	ADP	IN	_	2	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	dark	dark	ADJ	JJ	_	9	amod	_	JJ|01137378-a|SubjectiveWeakNegativeAttribute+
+9	room	room	NOUN	NN	_	6	pobj	_	NN|04105893-n|Room=
+10	are	be	VERB	VBP	_	11	aux	_	VBP|02655135-v|PhysicalAttribute+
+11	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+12	at	at	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	table	table	NOUN	NN	_	12	pobj	_	NN|08266235-n|ContentBearingObject+
+15	with	with	ADP	IN	_	14	prep	_	IN|?|?
+16	candles	candle	NOUN	NNS	_	15	pobj	_	NNS|02948072-n|Candle=
+17	.	.	.	.	_	11	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|00031264-n|Group=
-3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|07942152-n|GroupOfPeople=
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02655135-v|PhysicalAttribute+
-6	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-7	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-9	dim	dim	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	JJ|00284575-a|Decreasing+
-10	room	room	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|04105893-n|Room=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	people	people	NOUN	NNS	_	3	pobj	_	NNS|07942152-n|GroupOfPeople=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02655135-v|PhysicalAttribute+
+6	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	dim	dim	ADJ	JJ	_	10	amod	_	JJ|00284575-a|Decreasing+
+10	room	room	NOUN	NN	_	7	pobj	_	NN|04105893-n|Room=
+11	.	.	.	.	_	6	punct	_	Fp|?|?

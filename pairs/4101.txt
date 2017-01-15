@@ -8,21 +8,21 @@ CONCEPTS B: Entity+,DramaticActing+,Guitar=
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
-4	one	1	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	Z|?|?
-5	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	VBG|01719302-v|DramaticActing+
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|03467517-n|Guitar=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	one	1	NOUN	NN	_	2	nsubj	_	Z|?|?
+5	playing	play	VERB	VBG	_	4	partmod	_	VBG|01719302-v|DramaticActing+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	guitar	guitar	NOUN	NN	_	5	dobj	_	NN|03467517-n|Guitar=
+8	.	.	.	.	_	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Someone	someone	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	PRP|?|?
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	3	aux	_	VBZ|02604760-v|Entity+
-3	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	NN|03467517-n|Guitar=
-6	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+4	the	the	DET	DT	_	5	det	_	DT|?|?
+5	guitar	guitar	NOUN	NN	_	3	dobj	_	NN|03467517-n|Guitar=
+6	.	.	.	.	_	3	punct	_	Fp|?|?

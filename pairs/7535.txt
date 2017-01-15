@@ -8,32 +8,32 @@ CONCEPTS B: Human=,IntentionalProcess+,Football+,Entity+,IntentionalProcess+,Hum
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	NN|00468480-n|Football+
-3	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10439851-n|Human+
-4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01746359-v|Publication+
-6	past	past	ADJ	JJ	VerbForm=Inf|fPOS=VERB++VB	8	case	_	IN|?|?
-7	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	official	official	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|10372373-n|Human+
-9	carrying	carry	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	8	acl	_	VBG|01449974-v|Transportation+
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|00468480-n|Football+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	football	football	NOUN	NN	_	3	nn	_	NN|00468480-n|Football+
+3	player	player	NOUN	NN	_	5	nsubj	_	NN|10439851-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01746359-v|Publication+
+6	past	past	ADP	IN	_	5	prep	_	IN|?|?
+7	an	a	DET	DT	_	8	det	_	DT|?|?
+8	official	official	NOUN	NN	_	6	pobj	_	NN|10372373-n|Human+
+9	carrying	carry	VERB	VBG	_	8	partmod	_	VBG|01449974-v|Transportation+
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	football	football	NOUN	NN	_	9	dobj	_	NN|00468480-n|Football+
+12	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	NN|00007846-n|Human=
-3	playing	play	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	compound	_	VBG|01717169-v|IntentionalProcess+
-4	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|00468480-n|Football+
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	running	run	NOUN	NN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01717169-v|IntentionalProcess+
-7	past	past	ADJ	JJ	VerbForm=Inf|fPOS=VERB++VB	9	amod	_	IN|?|?
-8	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	official	official	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|10372373-n|Human+
-10	carrying	carry	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	9	acl	_	VBG|01449974-v|Transportation+
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	NN|00468480-n|Football+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	6	nsubj	_	NN|00007846-n|Human=
+3	playing	play	VERB	VBG	_	2	partmod	_	VBG|01717169-v|IntentionalProcess+
+4	football	football	NOUN	NN	_	3	dobj	_	NN|00468480-n|Football+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	running	run	VERB	VBG	_	0	ROOT	_	VBG|01717169-v|IntentionalProcess+
+7	past	past	ADP	IN	_	6	prep	_	IN|?|?
+8	an	a	DET	DT	_	9	det	_	DT|?|?
+9	official	official	NOUN	NN	_	7	pobj	_	NN|10372373-n|Human+
+10	carrying	carry	VERB	VBG	_	9	partmod	_	VBG|01449974-v|Transportation+
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	football	football	NOUN	NN	_	10	dobj	_	NN|00468480-n|Football+
+13	.	.	.	.	_	6	punct	_	Fp|?|?

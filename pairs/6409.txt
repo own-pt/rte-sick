@@ -8,34 +8,34 @@ CONCEPTS B: Black=,Hominid=,Entity+,SubjectiveAssessmentAttribute+,EndFn+,Dancin
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	dark	dark	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	amod	_	JJ|00409440-a|SubjectiveWeakNegativeAttribute+
-3	skinned	skin	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	4	amod	_	VBN|01262936-v|Separating+
-4	male	male	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|09624168-n|Human+
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	one	1	NUM	CD	NumType=Card|fPOS=NUM++CD	9	nummod	_	Z|?|?
-9	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|05564590-n|Hand+
-10	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-11	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|08573472-n|FrontFn=
-12	of	of	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-14	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
-15	building	building	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|02913152-n|Building=
-16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	The	the	DET	DT	_	4	det	_	DT|?|?
+2	dark	dark	ADJ	JJ	_	4	amod	_	JJ|00409440-a|SubjectiveWeakNegativeAttribute+
+3	skinned	skin	VERB	VBN	_	4	amod	_	VBN|01262936-v|Separating+
+4	male	male	NOUN	NN	_	6	nsubj	_	NN|09624168-n|Human+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	one	1	NUM	CD	_	9	num	_	Z|?|?
+9	hand	hand	NOUN	NN	_	7	pobj	_	NN|05564590-n|Hand+
+10	in	in	ADP	IN	_	6	prep	_	IN|?|?
+11	front	front	NOUN	NN	_	10	pobj	_	NN|08573472-n|FrontFn=
+12	of	of	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	15	det	_	DT|?|?
+14	yellow	yellow	ADJ	JJ	_	15	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+15	building	building	NOUN	NN	_	12	pobj	_	NN|02913152-n|Building=
+16	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00392812-a|Black=
-3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02472293-n|Hominid=
-4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02604760-v|Entity+
-5	skillfully	skillfully	ADJ	JJ	fPOS=ADV++RB	6	advmod	_	RB|00455933-r|SubjectiveAssessmentAttribute+
-6	break	break	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	VB|02681524-v|EndFn+
-7	dancing	dance	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	acl	_	VBG|01708676-v|Dancing+
-8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	pavement	pavement	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|04215402-n|Sidewalk=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	man	man	NOUN	NN	_	7	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	7	cop	_	VBZ|02604760-v|Entity+
+5	skillfully	skillfully	ADV	RB	_	6	advmod	_	RB|00455933-r|SubjectiveAssessmentAttribute+
+6	break	break	VERB	VB	_	7	amod	_	VB|02681524-v|EndFn+
+7	dancing	dance	NOUN	NN	_	0	ROOT	_	VBG|01708676-v|Dancing+
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	pavement	pavement	NOUN	NN	_	8	pobj	_	NN|04215402-n|Sidewalk=
+11	.	.	.	.	_	7	punct	_	Fp|?|?

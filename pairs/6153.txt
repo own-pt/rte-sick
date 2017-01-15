@@ -8,33 +8,33 @@ CONCEPTS B: Racing=,Automobile=,Device+,PhysicalAttribute+,SittingDown+,earlier+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	compound	_	NN|07458453-n|Racing=
-3	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	compound	_	NN|02958343-n|Automobile=
-4	driver	driver	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|03244047-n|Device+
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-7	up	up	NOUN	NN	fPOS=ADP++RP	6	advmod	_	RP|00097011-r|Increasing+
-8	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
-9	pointing	point	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	conj	_	VBG|00923793-v|Indicating=
-10	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	11	nmod:poss	_	PRP$|?|?
-11	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|05564590-n|Hand+
-12	at	at	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-14	sky	sky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|09436708-n|SpaceRegion=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	race	race	NOUN	NN	_	4	nn	_	NN|07458453-n|Racing=
+3	car	car	NOUN	NN	_	4	nn	_	NN|02958343-n|Automobile=
+4	driver	driver	NOUN	NN	_	6	nsubj	_	NN|03244047-n|Device+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+7	up	up	PRT	RP	_	6	prt	_	RP|00097011-r|Increasing+
+8	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+9	pointing	point	VERB	VBG	_	6	conj	_	VBG|00923793-v|Indicating=
+10	his	his	PRON	PRP$	_	11	poss	_	PRP$|?|?
+11	hand	hand	NOUN	NN	_	9	dobj	_	NN|05564590-n|Hand+
+12	at	at	ADP	IN	_	9	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	sky	sky	NOUN	NN	_	12	pobj	_	NN|09436708-n|SpaceRegion=
+15	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	NN|07458453-n|Racing=
-3	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	compound	_	NN|02958343-n|Automobile=
-4	driver	driver	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|03244047-n|Device+
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02655135-v|PhysicalAttribute+
-6	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-7	down	down	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	6	advmod	_	RP|00096089-r|earlier+
-8	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
-9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	10	cop	_	VBZ|02655135-v|PhysicalAttribute+
-10	motionless	motionless	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	conj	_	JJ|01564315-a|Motion[
-11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	race	race	NOUN	NN	_	4	nn	_	NN|07458453-n|Racing=
+3	car	car	NOUN	NN	_	4	nn	_	NN|02958343-n|Automobile=
+4	driver	driver	NOUN	NN	_	6	nsubj	_	NN|03244047-n|Device+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02655135-v|PhysicalAttribute+
+6	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+7	down	down	PRT	RP	_	6	prt	_	RP|00096089-r|earlier+
+8	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	cop	_	VBZ|02655135-v|PhysicalAttribute+
+10	motionless	motionless	ADJ	JJ	_	6	conj	_	JJ|01564315-a|Motion[
+11	.	.	.	.	_	6	punct	_	Fp|?|?

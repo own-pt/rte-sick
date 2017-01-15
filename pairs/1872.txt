@@ -8,18 +8,18 @@ CONCEPTS B: Feline+,Entity+,Process+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	few	few	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	DT|?|?
-3	kittens	kitten	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|02122948-n|Feline+
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02604760-v|Entity+
-5	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01157517-v|Process+
-6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	few	few	ADJ	JJ	_	3	amod	_	DT|?|?
+3	kittens	kitten	NOUN	NNS	_	5	nsubj	_	NNS|02122948-n|Feline+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+6	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Some	some	DET	DT	Number=Sing|fPOS=NOUN++NN	2	det	_	DT|?|?
-2	kittens	kitten	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02122948-n|Feline+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01157517-v|Process+
-5	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	kittens	kitten	NOUN	NNS	_	4	nsubj	_	NNS|02122948-n|Feline+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+5	.	.	.	.	_	4	punct	_	Fp|?|?

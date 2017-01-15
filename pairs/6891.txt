@@ -8,35 +8,35 @@ CONCEPTS B: Human+,PhysicalAttribute+,Ambulating=,Mineral+,PhysicalAttribute+,Si
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10129825-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-5	off	off	ADP	IN	fPOS=ADP++RP	7	case	_	RP|00232936-r|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|14696793-n|Mineral+
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-9	another	another	DET	DT	fPOS=DET++DT	11	det	_	DT|?|?
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	VBZ|02604760-v|Entity+
-11	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|01546111-v|PhysicalAttribute+
-12	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	11	nmod	_	PRP|?|?
-14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	off	off	PRT	RP	_	4	prep	_	RP|00232936-r|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	rock	rock	NOUN	NN	_	5	pobj	_	NN|14696793-n|Mineral+
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	another	another	DET	DT	_	11	nsubj	_	DT|?|?
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	standing	stand	VERB	VBG	_	4	conj	_	VBG|01546111-v|PhysicalAttribute+
+12	on	on	ADP	IN	_	11	prep	_	IN|?|?
+13	it	it	PRON	PRP	_	12	pobj	_	PRP|?|?
+14	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10129825-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
-4	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|14696793-n|Mineral+
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-9	another	another	DET	DT	fPOS=DET++DT	11	det	_	DT|?|?
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	VBZ|02655135-v|PhysicalAttribute+
-11	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|01543123-v|SittingDown+
-12	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	11	nmod	_	PRP|?|?
-14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	rock	rock	NOUN	NN	_	5	pobj	_	NN|14696793-n|Mineral+
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	another	another	DET	DT	_	11	nsubj	_	DT|?|?
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02655135-v|PhysicalAttribute+
+11	sitting	sit	VERB	VBG	_	4	conj	_	VBG|01543123-v|SittingDown+
+12	on	on	ADP	IN	_	11	prep	_	IN|?|?
+13	it	it	PRON	PRP	_	12	pobj	_	PRP|?|?
+14	.	.	.	.	_	4	punct	_	Fp|?|?

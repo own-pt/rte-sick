@@ -8,27 +8,27 @@ CONCEPTS B: Human=,Entity+,Putting=,SubjectiveAssessmentAttribute+,PotOrPan+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01494310-v|Putting=
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	baby	baby	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|09827683-n|HumanBaby=
-7	into	into	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-9	trash	trash	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	NN|08402147-n|SubjectiveAssessmentAttribute+
-10	can	can	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	MD|?|?
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	putting	put	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	baby	baby	NOUN	NN	_	4	dobj	_	NN|09827683-n|HumanBaby=
+7	into	into	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	trash	trash	NOUN	NN	_	10	nn	_	NN|08402147-n|SubjectiveAssessmentAttribute+
+10	can	can	NOUN	NN	_	7	pobj	_	MD|?|?
+11	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01494310-v|Putting=
-5	meat	meat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|05921123-n|SubjectiveAssessmentAttribute+
-6	into	into	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	skillet	skillet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03400231-n|PotOrPan+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	putting	put	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+5	meat	meat	NOUN	NN	_	4	dobj	_	NN|05921123-n|SubjectiveAssessmentAttribute+
+6	into	into	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	skillet	skillet	NOUN	NN	_	6	pobj	_	NN|03400231-n|PotOrPan+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

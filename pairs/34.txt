@@ -8,36 +8,36 @@ CONCEPTS B: Human+,Entity+,Wetting+,Basketball=,Fabric+,SubjectiveAssessmentAttr
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10439851-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	missing	miss	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02632353-v|Process+
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	basket	basket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	NN|02801938-n|Container+
-7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	crowd	crowd	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	conj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
-10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	12	cop	_	VBZ|02604760-v|Entity+
-11	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-12	background	background	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	ccomp	_	NN|14513259-n|Region+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	player	player	NOUN	NN	_	4	nsubj	_	NN|10439851-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	missing	miss	VERB	VBG	_	0	ROOT	_	VBG|02632353-v|Process+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	basket	basket	NOUN	NN	_	4	dobj	_	NN|02801938-n|Container+
+7	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	crowd	crowd	NOUN	NN	_	10	nsubj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+10	is	be	VERB	VBZ	_	4	conj	_	VBZ|02604760-v|Entity+
+11	in	in	ADP	IN	_	10	prep	_	IN|?|?
+12	background	background	NOUN	NN	_	11	pobj	_	NN|14513259-n|Region+
+13	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10439851-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	dunking	dunk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01577093-v|Wetting+
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	basketball	basketball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|00480993-n|Basketball=
-7	into	into	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	net	net	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03819595-n|Fabric+
-10	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	crowd	crowd	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nsubj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
-13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	15	cop	_	VBZ|02604760-v|Entity+
-14	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-15	background	background	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	conj	_	NN|14513259-n|Region+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	player	player	NOUN	NN	_	4	nsubj	_	NN|10439851-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	dunking	dunk	VERB	VBG	_	0	ROOT	_	VBG|01577093-v|Wetting+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	basketball	basketball	NOUN	NN	_	4	dobj	_	NN|00480993-n|Basketball=
+7	into	into	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	net	net	NOUN	NN	_	7	pobj	_	NN|03819595-n|Fabric+
+10	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	crowd	crowd	NOUN	NN	_	13	nsubj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+13	is	be	VERB	VBZ	_	4	conj	_	VBZ|02604760-v|Entity+
+14	in	in	ADP	IN	_	13	prep	_	IN|?|?
+15	background	background	NOUN	NN	_	14	pobj	_	NN|14513259-n|Region+
+16	.	.	.	.	_	4	punct	_	Fp|?|?

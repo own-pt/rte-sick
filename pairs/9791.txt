@@ -8,29 +8,29 @@ CONCEPTS B: HumanYouth=,Hominid=,Entity+,Hunting+,FishingSport=,Position+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-3	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|00245112-a|Human+
-4	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02084071-n|Canine+
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-7	over	over	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-9	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	JJ|00381097-a|Red=
-10	hurdle	hurdle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|03549589-n|Device+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	brown	brown	ADJ	JJ	_	4	amod	_	JJ|00245112-a|Human+
+4	dog	dog	NOUN	NN	_	6	nsubj	_	NN|02084071-n|Canine+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+7	over	over	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	red	red	ADJ	JJ	_	10	amod	_	JJ|00381097-a|Red=
+10	hurdle	hurdle	NOUN	NN	_	7	pobj	_	NN|03549589-n|Device+
+11	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	JJ|01646941-a|HumanYouth=
-3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02472293-n|Hominid=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01143838-v|Hunting+
-6	away	away	ADV	RB	fPOS=ADV++RB	5	advmod	_	RP|00234951-r|?
-7	from	from	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-9	fishing	fishing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	NN|00453935-n|FishingSport=
-10	line	line	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|00582388-n|Position+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01143838-v|Hunting+
+6	away	away	ADV	RB	_	5	advmod	_	RP|00234951-r|?
+7	from	from	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	10	det	_	DT|?|?
+9	fishing	fishing	NOUN	NN	_	10	nn	_	NN|00453935-n|FishingSport=
+10	line	line	NOUN	NN	_	7	pobj	_	NN|00582388-n|Position+
+11	.	.	.	.	_	5	punct	_	Fp|?|?

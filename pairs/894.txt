@@ -8,36 +8,36 @@ CONCEPTS B: Collection+,GroupOfPeople=,Entity+,ShoreArea=
 
 CONLL A:
 
-1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
-2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	5	cop	_	VBP|02620587-v|Attribute+
-3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|09217230-n|ShoreArea=
-6	full	full	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	JJ|01083157-a|ContainerFull+
-7	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-8	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|15019030-n|Sand=
-9	by	by	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	ocean	ocean	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|09376198-n|Ocean=
-12	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	14	aux	_	VBP|02620587-v|Attribute+
-14	enjoying	enjoy	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	VBG|01820302-v|IntentionalPsychologicalProcess+
-15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-16	day	day	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	nmod:npmod	_	NN|15155220-n|Day=
-17	full	full	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	JJ|01083157-a|ContainerFull+
-18	of	of	ADP	IN	fPOS=ADP++IN	19	case	_	IN|?|?
-19	sun	sun	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	nmod	_	NN|09450163-n|Sol=
-20	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	People	people	NOUN	NNS	_	2	nsubj	_	NNS|07942152-n|GroupOfPeople=
+2	are	be	VERB	VBP	_	0	ROOT	_	VBP|02620587-v|Attribute+
+3	on	on	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	beach	beach	NOUN	NN	_	3	pobj	_	NN|09217230-n|ShoreArea=
+6	full	full	ADJ	JJ	_	5	amod	_	JJ|01083157-a|ContainerFull+
+7	of	of	ADP	IN	_	6	prep	_	IN|?|?
+8	sand	sand	NOUN	NN	_	7	pobj	_	NN|15019030-n|Sand=
+9	by	by	ADP	IN	_	2	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	ocean	ocean	NOUN	NN	_	9	pobj	_	NN|09376198-n|Ocean=
+12	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+13	are	be	VERB	VBP	_	14	aux	_	VBP|02620587-v|Attribute+
+14	enjoying	enjoy	VERB	VBG	_	2	conj	_	VBG|01820302-v|IntentionalPsychologicalProcess+
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	day	day	NOUN	NN	_	14	dobj	_	NN|15155220-n|Day=
+17	full	full	ADJ	JJ	_	16	amod	_	JJ|01083157-a|ContainerFull+
+18	of	of	ADP	IN	_	17	prep	_	IN|?|?
+19	sun	sun	NOUN	NN	_	18	pobj	_	NN|09450163-n|Sol=
+20	.	.	.	.	_	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	bunch	bunch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|07959943-n|Collection+
-3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|07942152-n|GroupOfPeople=
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	cop	_	VBZ|02604760-v|Entity+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	shore	shore	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|09433442-n|ShoreArea=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	bunch	bunch	NOUN	NN	_	5	nsubj	_	NN|07959943-n|Collection+
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	people	people	NOUN	NNS	_	3	pobj	_	NNS|07942152-n|GroupOfPeople=
+5	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	shore	shore	NOUN	NN	_	6	pobj	_	NN|09433442-n|ShoreArea=
+9	.	.	.	.	_	5	punct	_	Fp|?|?

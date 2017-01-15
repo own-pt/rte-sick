@@ -8,31 +8,31 @@ CONCEPTS B: Woman=,Entity+,not=,DramaticActing+,Guitar=,Entity+,FieldOfStudy@,Ma
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03467517-n|Guitar=
-7	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-8	singing	sing	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|01731031-v|MakingVocalMusic=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	singing	sing	NOUN	NN	_	6	conj	_	VBG|01731031-v|MakingVocalMusic=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	RB|00024073-r|not=
-5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|03467517-n|Guitar=
-8	,	,	PUNCT	,	fPOS=PUNCT++,	7	punct	_	Fc|?|?
-9	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	11	nsubj	_	WDT|?|?
-10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	11	cop	_	VBZ|02604760-v|Entity+
-11	acoustic	acoustic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	acl:relcl	_	JJ|02868489-a|FieldOfStudy@
-12	,	,	PUNCT	,	fPOS=PUNCT++,	11	punct	_	Fc|?|?
-13	or	or	CONJ	CC	fPOS=CONJ++CC	11	cc	_	CC|?|?
-14	singing	sing	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	11	conj	_	VBG|01731031-v|MakingVocalMusic=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	guitar	guitar	NOUN	NN	_	5	dobj	_	NN|03467517-n|Guitar=
+8	,	,	.	,	_	7	punct	_	Fc|?|?
+9	which	which	DET	WDT	_	11	nsubj	_	WDT|?|?
+10	is	be	VERB	VBZ	_	11	cop	_	VBZ|02604760-v|Entity+
+11	acoustic	acoustic	ADJ	JJ	_	7	rcmod	_	JJ|02868489-a|FieldOfStudy@
+12	,	,	.	,	_	11	punct	_	Fc|?|?
+13	or	or	CONJ	CC	_	11	cc	_	CC|?|?
+14	singing	sing	NOUN	NN	_	11	conj	_	VBG|01731031-v|MakingVocalMusic=
+15	.	.	.	.	_	5	punct	_	Fp|?|?

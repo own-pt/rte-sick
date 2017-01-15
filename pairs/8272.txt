@@ -8,39 +8,39 @@ CONCEPTS B: Human+,White=,Canine+,Entity+,ViolentContest+,FloweringPlant+,Geogra
 
 CONLL A:
 
-1	Two	2	VERB	VBN	NumType=Card|fPOS=NUM++CD	5	nummod	_	Z|?|?
-2	brown	brown	ADJ	JJ	Number=Plur|fPOS=NOUN++NNS	5	amod	_	JJ|00245112-a|Human+
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	JJ|00393105-a|White=
-5	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubj	_	NNS|02084071-n|Canine+
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	VBP|02604760-v|Entity+
-7	fighting	fight	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01090335-v|ViolentContest+
-8	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	grassy	grassy	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	11	compound	_	JJ|00209620-a|FloweringPlant+
-11	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|14514039-n|SubjectiveAssessmentAttribute+
-12	in	in	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-13	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|08573472-n|FrontFn=
-14	of	of	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-16	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	NN|13912260-n|ContentBearingObject+
-17	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	5	num	_	Z|?|?
+2	brown	brown	ADJ	JJ	_	5	amod	_	JJ|00245112-a|Human+
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	white	white	ADJ	JJ	_	2	conj	_	JJ|00393105-a|White=
+5	dogs	dog	NOUN	NNS	_	7	nsubj	_	NNS|02084071-n|Canine+
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	fighting	fight	VERB	VBG	_	0	ROOT	_	VBG|01090335-v|ViolentContest+
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	grassy	grassy	ADJ	JJ	_	11	amod	_	JJ|00209620-a|FloweringPlant+
+11	area	area	NOUN	NN	_	8	pobj	_	NN|14514039-n|SubjectiveAssessmentAttribute+
+12	in	in	ADP	IN	_	11	prep	_	IN|?|?
+13	front	front	NOUN	NN	_	12	pobj	_	NN|08573472-n|FrontFn=
+14	of	of	ADP	IN	_	13	prep	_	IN|?|?
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	tree	tree	NOUN	NN	_	14	pobj	_	NN|13912260-n|ContentBearingObject+
+17	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	VERB	VBN	NumType=Card|fPOS=NUM++CD	5	nummod	_	Z|?|?
-2	brown	brown	ADJ	JJ	Number=Plur|fPOS=NOUN++NNS	5	amod	_	JJ|00245112-a|Human+
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	JJ|00393105-a|White=
-5	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubj	_	NNS|02084071-n|Canine+
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	VBP|02604760-v|Entity+
-7	fighting	fight	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01090335-v|ViolentContest+
-8	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	grassy	grassy	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	11	compound	_	JJ|00209620-a|FloweringPlant+
-11	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|08497294-n|GeographicArea+
-12	behind	behind	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-14	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|13912260-n|ContentBearingObject+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	5	num	_	Z|?|?
+2	brown	brown	ADJ	JJ	_	5	amod	_	JJ|00245112-a|Human+
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	white	white	ADJ	JJ	_	2	conj	_	JJ|00393105-a|White=
+5	dogs	dog	NOUN	NNS	_	7	nsubj	_	NNS|02084071-n|Canine+
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	fighting	fight	VERB	VBG	_	0	ROOT	_	VBG|01090335-v|ViolentContest+
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	grassy	grassy	ADJ	JJ	_	11	amod	_	JJ|00209620-a|FloweringPlant+
+11	area	area	NOUN	NN	_	8	pobj	_	NN|08497294-n|GeographicArea+
+12	behind	behind	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	tree	tree	NOUN	NN	_	12	pobj	_	NN|13912260-n|ContentBearingObject+
+15	.	.	.	.	_	7	punct	_	Fp|?|?

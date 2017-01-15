@@ -8,28 +8,28 @@ CONCEPTS B: Woman=,Entity+,Dancing+,Man=,Entity+,DramaticActing+,ComputerInputDe
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10787470-n|Woman=
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	cop	_	VBZ|02604760-v|Entity+
-4	gracefully	gracefully	ADJ	JJ	fPOS=ADV++RB	5	advmod	_	RB|00194156-r|SubjectiveAssessmentAttribute+
-5	dancing	dance	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01708676-v|Dancing+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	stage	stage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|13939892-n|Attribute+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	gracefully	gracefully	ADV	RB	_	5	advmod	_	RB|00194156-r|SubjectiveAssessmentAttribute+
+5	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	stage	stage	NOUN	NN	_	6	pobj	_	NN|13939892-n|Attribute+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	dancing	dance	VERB	VBG	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	VBG|01708676-v|Dancing+
-5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|10287213-n|Man=
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	9	aux	_	VBZ|02604760-v|Entity+
-9	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|01719302-v|DramaticActing+
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	keyboard	keyboard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|03614007-n|ComputerInputDevice+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	man	man	NOUN	NN	_	9	nsubj	_	NN|10287213-n|Man=
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	playing	play	VERB	VBG	_	4	conj	_	VBG|01719302-v|DramaticActing+
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	keyboard	keyboard	NOUN	NN	_	9	dobj	_	NN|03614007-n|ComputerInputDevice+
+12	.	.	.	.	_	4	punct	_	Fp|?|?

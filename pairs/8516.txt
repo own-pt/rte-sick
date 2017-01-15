@@ -8,36 +8,36 @@ CONCEPTS B: GroupOfPeople=,Entity+,PhysicalAttribute+,Canine+,Park+,Roadway+
 
 CONLL A:
 
-1	Five	5	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	2	amod	_	Z|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-5	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	7	nummod	_	Z|?|?
-7	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|02084071-n|Canine+
-8	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	JJ|00375969-a|Green=
-11	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|05996646-n|FieldOfStudy=
-12	beside	beside	ADP	IN	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	14	case	_	IN|?|?
-13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-14	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|04096066-n|Roadway+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Five	5	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	three	3	NUM	CD	_	7	num	_	Z|?|?
+7	dogs	dog	NOUN	NNS	_	5	pobj	_	NNS|02084071-n|Canine+
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	11	det	_	DT|?|?
+10	green	green	ADJ	JJ	_	11	amod	_	JJ|00375969-a|Green=
+11	field	field	NOUN	NN	_	8	pobj	_	NN|05996646-n|FieldOfStudy=
+12	beside	beside	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	road	road	NOUN	NN	_	12	pobj	_	NN|04096066-n|Roadway+
+15	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Five	5	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	2	amod	_	Z|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-5	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	7	nummod	_	Z|?|?
-7	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|02084071-n|Canine+
-8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|08615374-n|Park+
-11	beside	beside	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04096066-n|Roadway+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Five	5	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	three	3	NUM	CD	_	7	num	_	Z|?|?
+7	dogs	dog	NOUN	NNS	_	5	pobj	_	NNS|02084071-n|Canine+
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	park	park	NOUN	NN	_	8	pobj	_	NN|08615374-n|Park+
+11	beside	beside	ADP	IN	_	10	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	road	road	NOUN	NN	_	11	pobj	_	NN|04096066-n|Roadway+
+14	.	.	.	.	_	4	punct	_	Fp|?|?

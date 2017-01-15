@@ -8,23 +8,23 @@ CONCEPTS B: Swimmer+,Entity+,Ambulating=,Water=
 
 CONLL A:
 
-1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	DT|?|?
-2	racers	racer	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|04037443-n|Automobile+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	swimming	swim	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01960911-v|Swimming+
-5	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	lake	lake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|09328904-n|Lake=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	racers	racer	NOUN	NNS	_	4	nsubj	_	NNS|04037443-n|Automobile+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	swimming	swim	VERB	VBG	_	0	ROOT	_	VBG|01960911-v|Swimming+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	lake	lake	NOUN	NN	_	5	pobj	_	NN|09328904-n|Lake=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Several	several	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	DT|?|?
-2	swimmers	swimmer	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|10683126-n|Swimmer+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-5	into	into	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|14845743-n|Water=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Several	several	ADJ	JJ	_	2	amod	_	DT|?|?
+2	swimmers	swimmer	NOUN	NNS	_	4	nsubj	_	NNS|10683126-n|Swimmer+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	into	into	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	water	water	NOUN	NN	_	5	pobj	_	NN|14845743-n|Water=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

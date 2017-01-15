@@ -8,29 +8,29 @@ CONCEPTS B: Entity+,SubjectiveStrongNegativeAttribute+,Bee=,Arriving+,Collection
 
 CONLL A:
 
-1	A	a	DET	DT	Case=Nom|Number=Sing|Person=1|PronType=Prs|fPOS=PRON++PRP	2	det	_	DT|?|?
-2	bee	bee	NOUN	NN	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	nsubj	_	NN|02206856-n|Bee=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	clinging	cling	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01220885-v|Touching+
-5	to	to	ADP	IN	fPOS=ADP++IN	8	case	_	TO|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
-8	flower	flower	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|11669335-n|Flower+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	bee	bee	NOUN	NN	_	4	nsubj	_	NN|02206856-n|Bee=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	clinging	cling	VERB	VBG	_	0	ROOT	_	VBG|01220885-v|Touching+
+5	to	to	ADP	IN	_	4	prep	_	TO|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	yellow	yellow	ADJ	JJ	_	8	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+8	flower	flower	NOUN	NN	_	5	pobj	_	NN|11669335-n|Flower+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	DT|?|?
-4	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-5	bee	bee	NOUN	NN	Tense=Past|VerbForm=Part|fPOS=AUX++VBN	2	nsubj	_	NN|02206856-n|Bee=
-6	landing	landing	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	acl	_	NN|00052334-n|Arriving+
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	bunch	bunch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|07959943-n|Collection+
-10	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
-12	flowers	flower	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	nmod	_	NNS|11669335-n|Flower+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	6	det	_	DT|?|?
+4	small	small	ADJ	JJ	_	6	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+5	bee	bee	NOUN	NN	_	6	nn	_	NN|02206856-n|Bee=
+6	landing	landing	NOUN	NN	_	2	nsubj	_	NN|00052334-n|Arriving+
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	bunch	bunch	NOUN	NN	_	7	pobj	_	NN|07959943-n|Collection+
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	yellow	yellow	ADJ	JJ	_	12	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+12	flowers	flower	NOUN	NNS	_	10	pobj	_	NNS|11669335-n|Flower+
+13	.	.	.	.	_	2	punct	_	Fp|?|?

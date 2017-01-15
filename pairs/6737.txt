@@ -8,34 +8,34 @@ CONCEPTS B: GroupOfPeople=,PhysicalAttribute+,SittingDown+,Seat+,FrontFn=,Restau
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02655135-v|PhysicalAttribute+
-4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	RB|00024073-r|not=
-5	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	bench	bench	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02828884-n|Seat+
-9	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-10	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|08573472-n|FrontFn=
-11	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	restaurant	restaurant	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|04081281-n|Restaurant+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	people	people	NOUN	NNS	_	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02655135-v|PhysicalAttribute+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	bench	bench	NOUN	NN	_	6	pobj	_	NN|02828884-n|Seat+
+9	in	in	ADP	IN	_	5	prep	_	IN|?|?
+10	front	front	NOUN	NN	_	9	pobj	_	NN|08573472-n|FrontFn=
+11	of	of	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	restaurant	restaurant	NOUN	NN	_	11	pobj	_	NN|04081281-n|Restaurant+
+14	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	bench	bench	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02828884-n|Seat+
-8	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-9	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|08573472-n|FrontFn=
-10	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	restaurant	restaurant	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|04081281-n|Restaurant+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	bench	bench	NOUN	NN	_	5	pobj	_	NN|02828884-n|Seat+
+8	in	in	ADP	IN	_	4	prep	_	IN|?|?
+9	front	front	NOUN	NN	_	8	pobj	_	NN|08573472-n|FrontFn=
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	restaurant	restaurant	NOUN	NN	_	10	pobj	_	NN|04081281-n|Restaurant+
+13	.	.	.	.	_	4	punct	_	Fp|?|?

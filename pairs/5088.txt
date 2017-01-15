@@ -8,25 +8,25 @@ CONCEPTS B: Hominid=,Entity+,Pursuing+,River=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	singing	sing	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
-5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-6	walking	walk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|01904930-v|Walking=
-7	down	down	ADP	IN	fPOS=ADP++IN	9	case	_	RP|00096089-r|earlier+
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|04096066-n|Roadway+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	walking	walk	VERB	VBG	_	4	conj	_	VBG|01904930-v|Walking=
+7	down	down	ADP	IN	_	6	prep	_	RP|00096089-r|earlier+
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	road	road	NOUN	NN	_	7	pobj	_	NN|04096066-n|Roadway+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	fishing	fish	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01140794-v|Pursuing+
-5	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	river	river	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|09411430-n|River=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	fishing	fish	VERB	VBG	_	0	ROOT	_	VBG|01140794-v|Pursuing+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	river	river	NOUN	NN	_	5	pobj	_	NN|09411430-n|River=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

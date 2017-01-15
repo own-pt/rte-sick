@@ -8,37 +8,37 @@ CONCEPTS B: Group=,Canine+,Entity+,Motion+,EmotionalState+,Damaging+,BodyPart+,N
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|00031264-n|Group=
-3	of	of	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	racing	race	VERB	VBG	Number=Sing|fPOS=NOUN++NN	5	amod	_	VBG|01086103-v|Racing+
-5	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|02084071-n|Canine+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=AUX++VBG	0	ROOT	_	VBG|00047745-v|CoveringFn=
-8	striped	striped	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	9	amod	_	JJ|01790807-a|VisualAttribute+
-9	uniforms	uniform	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	dobj	_	NNS|04509592-n|UniformClothing=
-10	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
-11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	VBZ|02604760-v|Entity+
-12	running	run	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	conj	_	VBG|01086103-v|Racing+
-13	down	down	ADP	RP	fPOS=ADP++RP	12	compound:prt	_	RP|00096089-r|earlier+
-14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-15	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	dobj	_	NN|04037625-n|StationaryArtifact+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	7	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	racing	race	NOUN	NN	_	5	nn	_	VBG|01086103-v|Racing+
+5	dogs	dog	NOUN	NNS	_	3	pobj	_	NNS|02084071-n|Canine+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+8	striped	striped	VERB	VBN	_	9	amod	_	JJ|01790807-a|VisualAttribute+
+9	uniforms	uniform	NOUN	NNS	_	7	dobj	_	NNS|04509592-n|UniformClothing=
+10	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	running	run	VERB	VBG	_	7	conj	_	VBG|01086103-v|Racing+
+13	down	down	PRT	RP	_	12	prt	_	RP|00096089-r|earlier+
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	track	track	NOUN	NN	_	12	dobj	_	NN|04037625-n|StationaryArtifact+
+16	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|00031264-n|Group=
-3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|02084071-n|Canine+
-5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	VBP|02604760-v|Entity+
-6	racing	race	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02058994-v|Motion+
-7	furiously	furiously	ADV	RB	fPOS=ADV++RB	6	advmod	_	RB|00224280-r|EmotionalState+
-8	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
-9	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	6	conj	_	VB|00065639-v|Damaging+
-10	muzzles	muzzle	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	dobj	_	NNS|02452464-n|BodyPart+
-11	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	noses	nose	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	nmod	_	NNS|05598147-n|Nose+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	dogs	dog	NOUN	NNS	_	3	pobj	_	NNS|02084071-n|Canine+
+5	are	be	VERB	VBP	_	6	aux	_	VBP|02604760-v|Entity+
+6	racing	race	VERB	VBG	_	0	ROOT	_	VBG|02058994-v|Motion+
+7	furiously	furiously	ADV	RB	_	6	advmod	_	RB|00224280-r|EmotionalState+
+8	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+9	have	have	VERB	VBP	_	6	conj	_	VB|00065639-v|Damaging+
+10	muzzles	muzzle	NOUN	NNS	_	9	dobj	_	NNS|02452464-n|BodyPart+
+11	on	on	ADP	IN	_	10	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	noses	nose	NOUN	NNS	_	11	pobj	_	NNS|05598147-n|Nose+
+14	.	.	.	.	_	6	punct	_	Fp|?|?

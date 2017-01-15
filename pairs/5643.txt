@@ -8,29 +8,29 @@ CONCEPTS B: Entity+,PsychologicalProcess+,SubjectiveAssessmentAttribute+,FruitOr
 
 CONLL A:
 
-1	Nobody	nobody	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	PRP|?|?
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	VBZ|02604760-v|Entity+
-3	stirring	stir	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02116118-v|PsychologicalProcess+
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	pot	pot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
-6	of	of	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-7	chili	chili	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|07721456-n|FruitOrVegetable+
-8	with	with	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	spoon	spoon	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|04284002-n|Tableware+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	Nobody	nobody	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	stirring	stir	VERB	VBG	_	0	ROOT	_	VBG|02116118-v|PsychologicalProcess+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	pot	pot	NOUN	NN	_	3	dobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+6	of	of	ADP	IN	_	5	prep	_	IN|?|?
+7	chili	chili	NOUN	NNS	_	6	pobj	_	NN|07721456-n|FruitOrVegetable+
+8	with	with	ADP	IN	_	3	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	spoon	spoon	NOUN	NN	_	8	pobj	_	NN|04284002-n|Tableware+
+11	.	.	.	.	_	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	PRP|?|?
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	VBZ|02604760-v|Entity+
-3	stirring	stir	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02116118-v|PsychologicalProcess+
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	pot	pot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
-6	of	of	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-7	chili	chili	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|07721456-n|FruitOrVegetable+
-8	with	with	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	spoon	spoon	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|04284002-n|Tableware+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	stirring	stir	VERB	VBG	_	0	ROOT	_	VBG|02116118-v|PsychologicalProcess+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	pot	pot	NOUN	NN	_	3	dobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+6	of	of	ADP	IN	_	5	prep	_	IN|?|?
+7	chili	chili	NOUN	NNS	_	6	pobj	_	NN|07721456-n|FruitOrVegetable+
+8	with	with	ADP	IN	_	3	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	spoon	spoon	NOUN	NN	_	8	pobj	_	NN|04284002-n|Tableware+
+11	.	.	.	.	_	3	punct	_	Fp|?|?

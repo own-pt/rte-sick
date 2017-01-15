@@ -8,35 +8,35 @@ CONCEPTS B: Woman=,White=,Clothing+,Entity+,Removing+,SurfaceChange+,Hand+,Teena
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10129825-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00120316-v|Process+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	tattoo	tattoo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|00263353-n|SurfaceChange+
-7	removed	remove	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	6	acl	_	VBN|02404224-v|LeavingAnOrganization+
-8	from	from	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	10	nmod:poss	_	PRP$|?|?
-10	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|05564590-n|Hand+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	getting	get	VERB	VBG	_	0	ROOT	_	VBG|00120316-v|Process+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	tattoo	tattoo	NOUN	NN	_	4	dobj	_	NN|00263353-n|SurfaceChange+
+7	removed	remove	VERB	VBN	_	6	partmod	_	VBN|02404224-v|LeavingAnOrganization+
+8	from	from	ADP	IN	_	7	prep	_	IN|?|?
+9	her	her	PRON	PRP$	_	10	poss	_	PRP$|?|?
+10	hand	hand	NOUN	NN	_	8	pobj	_	NN|05564590-n|Hand+
+11	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10787470-n|Woman=
-3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-5	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|00393105-a|White=
-6	sweater	sweater	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|04370048-n|Clothing+
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-8	drawing	draw	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01854132-v|Removing+
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	tattoo	tattoo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	NN|00263353-n|SurfaceChange+
-11	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|05564590-n|Hand+
-14	of	of	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-16	teenager	teenager	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	NN|09772029-n|Teenager=
-17	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	8	nsubj	_	NN|10787470-n|Woman=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	the	the	DET	DT	_	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	_	6	amod	_	JJ|00393105-a|White=
+6	sweater	sweater	NOUN	NN	_	3	pobj	_	NN|04370048-n|Clothing+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	drawing	draw	VERB	VBG	_	0	ROOT	_	VBG|01854132-v|Removing+
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	tattoo	tattoo	NOUN	NN	_	8	dobj	_	NN|00263353-n|SurfaceChange+
+11	on	on	ADP	IN	_	8	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	hand	hand	NOUN	NN	_	11	pobj	_	NN|05564590-n|Hand+
+14	of	of	ADP	IN	_	13	prep	_	IN|?|?
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	teenager	teenager	NOUN	NN	_	14	pobj	_	NN|09772029-n|Teenager=
+17	.	.	.	.	_	8	punct	_	Fp|?|?

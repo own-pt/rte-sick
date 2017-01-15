@@ -8,35 +8,35 @@ CONCEPTS B: Whip+,Entity+,Process+,Compartment+,Increasing+,Indoors+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	big	big	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-3	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02121620-n|Feline+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	opening	open	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00539936-v|Process+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	drawer	drawer	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	NN|03233905-n|Compartment+
-8	made	make	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	VBN|01617192-v|Process+
-9	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-10	plastic	plastic	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|14592610-n|Substance+
-11	with	with	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-12	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	13	nmod:poss	_	PRP$|?|?
-13	paws	paw	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	nmod	_	NNS|05564590-n|Hand+
-14	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	16	aux	_	VBZ|02604760-v|Entity+
-16	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	VBG|01963942-v|Ambulating=
-17	inside	inside	ADV	RB	fPOS=ADV++RB	16	advmod	_	RB|00110815-r|Indoors+
-18	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	big	big	ADJ	JJ	_	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	cat	cat	NOUN	NN	_	5	nsubj	_	NN|02121620-n|Feline+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	opening	open	VERB	VBG	_	0	ROOT	_	VBG|00539936-v|Process+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	drawer	drawer	NOUN	NN	_	5	dobj	_	NN|03233905-n|Compartment+
+8	made	make	VERB	VBN	_	7	partmod	_	VBN|01617192-v|Process+
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	plastic	plastic	NOUN	NN	_	9	pobj	_	NN|14592610-n|Substance+
+11	with	with	ADP	IN	_	5	prep	_	IN|?|?
+12	its	its	PRON	PRP$	_	13	poss	_	PRP$|?|?
+13	paws	paw	NOUN	NNS	_	11	pobj	_	NNS|05564590-n|Hand+
+14	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+15	is	be	VERB	VBZ	_	16	aux	_	VBZ|02604760-v|Entity+
+16	jumping	jump	VERB	VBG	_	5	conj	_	VBG|01963942-v|Ambulating=
+17	inside	inside	ADV	RB	_	16	advmod	_	RB|00110815-r|Indoors+
+18	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02985606-n|Whip+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	opening	open	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00539936-v|Process+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	drawer	drawer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03233905-n|Compartment+
-7	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-8	climbing	climb	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|00433232-v|Increasing+
-9	inside	inside	ADV	RB	fPOS=ADV++RB	8	advmod	_	RB|00110815-r|Indoors+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	4	nsubj	_	NN|02985606-n|Whip+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	opening	open	VERB	VBG	_	0	ROOT	_	VBG|00539936-v|Process+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	drawer	drawer	NOUN	NN	_	4	dobj	_	NN|03233905-n|Compartment+
+7	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+8	climbing	climb	VERB	VBG	_	4	conj	_	VBG|00433232-v|Increasing+
+9	inside	inside	ADV	RB	_	8	advmod	_	RB|00110815-r|Indoors+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

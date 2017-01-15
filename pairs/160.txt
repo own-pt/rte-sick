@@ -8,31 +8,31 @@ CONCEPTS B: GroupOfPeople=,Entity+,FrontFn=,ColorAttribute+,Building=
 
 CONLL A:
 
-1	Several	several	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	DT|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	5	cop	_	VBP|02604760-v|Entity+
-4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-5	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|08573472-n|FrontFn=
-6	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	building	building	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02913152-n|Building=
-9	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	11	nsubjpass	_	WDT|?|?
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	auxpass	_	VBZ|02604760-v|Entity+
-11	covered	cover	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	8	acl:relcl	_	VBN|01332730-v|Covering+
-12	by	by	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-13	colors	color	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	nmod	_	NNS|04956594-n|ColorAttribute+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	Several	several	ADJ	JJ	_	2	amod	_	DT|?|?
+2	people	people	NOUN	NNS	_	3	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	front	front	NOUN	NN	_	4	pobj	_	NN|08573472-n|FrontFn=
+6	of	of	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	building	building	NOUN	NN	_	6	pobj	_	NN|02913152-n|Building=
+9	which	which	DET	WDT	_	11	nsubjpass	_	WDT|?|?
+10	is	be	VERB	VBZ	_	11	auxpass	_	VBZ|02604760-v|Entity+
+11	covered	cover	VERB	VBN	_	8	rcmod	_	VBN|01332730-v|Covering+
+12	by	by	ADP	IN	_	11	prep	_	IN|?|?
+13	colors	color	NOUN	NNS	_	12	pobj	_	NNS|04956594-n|ColorAttribute+
+14	.	.	.	.	_	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Several	several	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	DT|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	5	cop	_	VBP|02604760-v|Entity+
-4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-5	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|08573472-n|FrontFn=
-6	of	of	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	colorful	colorful	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|00394562-a|ColorAttribute+
-9	building	building	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02913152-n|Building=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	Several	several	ADJ	JJ	_	2	amod	_	DT|?|?
+2	people	people	NOUN	NNS	_	3	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	front	front	NOUN	NN	_	4	pobj	_	NN|08573472-n|FrontFn=
+6	of	of	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	colorful	colorful	ADJ	JJ	_	9	amod	_	JJ|00394562-a|ColorAttribute+
+9	building	building	NOUN	NN	_	6	pobj	_	NN|02913152-n|Building=
+10	.	.	.	.	_	3	punct	_	Fp|?|?

@@ -8,33 +8,33 @@ CONCEPTS B: Entity+,Human+,Canine+,Black=,Canine+,DramaticActing+,Sand=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00392812-a|Black=
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-6	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	JJ|00245112-a|Human+
-9	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02084071-n|Canine+
-10	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|15019030-n|Sand=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	brown	brown	ADJ	JJ	_	9	amod	_	JJ|00245112-a|Human+
+9	dog	dog	NOUN	NN	_	6	pobj	_	NN|02084071-n|Canine+
+10	on	on	ADP	IN	_	5	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	sand	sand	NOUN	NN	_	10	pobj	_	NN|15019030-n|Sand=
+13	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	DT|?|?
-4	brown	brown	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	JJ|00245112-a|Human+
-5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|02084071-n|Canine+
-6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-7	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|00392812-a|Black=
-8	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	NN|02084071-n|Canine+
-9	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	acl	_	VBG|01719302-v|DramaticActing+
-10	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|15019030-n|Sand=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	brown	brown	ADJ	JJ	_	5	amod	_	JJ|00245112-a|Human+
+5	dog	dog	NOUN	NN	_	2	nsubj	_	NN|02084071-n|Canine+
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	black	black	ADJ	JJ	_	8	amod	_	JJ|00392812-a|Black=
+8	dog	dog	NOUN	NN	_	5	conj	_	NN|02084071-n|Canine+
+9	playing	play	VERB	VBG	_	5	partmod	_	VBG|01719302-v|DramaticActing+
+10	in	in	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	sand	sand	NOUN	NN	_	10	pobj	_	NN|15019030-n|Sand=
+13	.	.	.	.	_	2	punct	_	Fp|?|?

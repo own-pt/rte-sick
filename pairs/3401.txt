@@ -8,22 +8,22 @@ CONCEPTS B: Entity+,Impacting+,Gland+
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	stirring	stir	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	VBG|02116118-v|PsychologicalProcess+
-5	eggs	egg	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|05524615-n|Gland+
-6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	bowl	bowl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02880940-n|Dish+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	stirring	stir	VERB	VBG	_	0	ROOT	_	VBG|02116118-v|PsychologicalProcess+
+5	eggs	egg	NOUN	NNS	_	4	dobj	_	NNS|05524615-n|Gland+
+6	in	in	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	bowl	bowl	NOUN	NN	_	6	pobj	_	NN|02880940-n|Dish+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Someone	someone	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	PRP|?|?
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	VBZ|02604760-v|Entity+
-3	beating	beat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01398919-v|Impacting+
-4	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	egg	egg	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	NN|05524615-n|Gland+
-6	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	beating	beat	VERB	VBG	_	0	ROOT	_	VBG|01398919-v|Impacting+
+4	an	a	DET	DT	_	5	det	_	DT|?|?
+5	egg	egg	NOUN	NN	_	3	dobj	_	NN|05524615-n|Gland+
+6	.	.	.	.	_	3	punct	_	Fp|?|?

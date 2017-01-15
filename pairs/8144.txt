@@ -8,39 +8,39 @@ CONCEPTS B: Human+,Damaging+,Red=,Hair=,BodyPart+,Ear=,SurfaceChange+,Corpuscula
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	NN|10129825-n|Human+
-3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	red	red	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	JJ|00381097-a|Red=
-5	hair	hair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|05254795-n|Hair=
-6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-7	red	red	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|00381097-a|Red=
-8	eyebrows	eyebrow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	NNS|05313535-n|BodyPart+
-9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	11	cop	_	VBZ|02604760-v|Entity+
-10	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-11	midspeech	midspeech	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|?|?
-12	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	9	nsubj	_	NN|10129825-n|Human+
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	red	red	ADJ	JJ	_	5	amod	_	JJ|00381097-a|Red=
+5	hair	hair	NOUN	NN	_	3	pobj	_	NN|05254795-n|Hair=
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	red	red	ADJ	JJ	_	8	amod	_	JJ|00381097-a|Red=
+8	eyebrows	eyebrow	NOUN	NNS	_	5	conj	_	NNS|05313535-n|BodyPart+
+9	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+10	in	in	ADP	IN	_	9	prep	_	IN|?|?
+11	midspeech	midspeech	NOUN	NN	_	10	pobj	_	NN|?|?
+12	.	.	.	.	_	9	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10129825-n|Human+
-3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|00065639-v|Damaging+
-4	red	red	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	0	ROOT	_	JJ|00381097-a|Red=
-5	hair	hair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|05254795-n|Hair=
-6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-7	eyebrows	eyebrow	NOUN	NN	Number=Plur|fPOS=NOUN++NNS	5	conj	_	NNS|05313535-n|BodyPart+
-8	,	,	PUNCT	,	fPOS=PUNCT++,	4	punct	_	Fc|?|?
-9	several	several	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	DT|?|?
-10	piercings	piercing	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|?|?
-11	in	in	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	ear	ear	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|05320899-n|Ear=
-14	and	and	CONJ	CC	fPOS=CONJ++CC	13	cc	_	CC|?|?
-15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-16	tattoo	tattoo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	conj	_	NN|00263353-n|SurfaceChange+
-17	on	on	ADP	IN	fPOS=ADP++IN	19	case	_	IN|?|?
-18	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	DT|?|?
-19	back	back	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	NN|02767433-n|CorpuscularObject+
-20	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	3	nsubj	_	NN|10129825-n|Human+
+3	has	have	VERB	VBZ	_	0	ROOT	_	VBZ|00065639-v|Damaging+
+4	red	red	ADJ	JJ	_	5	amod	_	JJ|00381097-a|Red=
+5	hair	hair	NOUN	NN	_	3	dobj	_	NN|05254795-n|Hair=
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	eyebrows	eyebrow	NOUN	NNS	_	5	conj	_	NNS|05313535-n|BodyPart+
+8	,	,	.	,	_	5	punct	_	Fc|?|?
+9	several	several	ADJ	JJ	_	10	amod	_	DT|?|?
+10	piercings	piercing	NOUN	NNS	_	5	conj	_	NNS|?|?
+11	in	in	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	ear	ear	NOUN	NN	_	11	pobj	_	NN|05320899-n|Ear=
+14	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	tattoo	tattoo	NOUN	NN	_	5	conj	_	NN|00263353-n|SurfaceChange+
+17	on	on	ADP	IN	_	16	prep	_	IN|?|?
+18	the	the	DET	DT	_	19	det	_	DT|?|?
+19	back	back	NOUN	NN	_	17	pobj	_	NN|02767433-n|CorpuscularObject+
+20	.	.	.	.	_	3	punct	_	Fp|?|?

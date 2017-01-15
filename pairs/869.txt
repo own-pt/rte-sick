@@ -8,31 +8,31 @@ CONCEPTS B: IceSkatingRink=,Human+,Attribute+,Outdoors+,IntentionalProcess+,IceS
 
 CONLL A:
 
-1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	ice	ice	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	NN|03558176-n|IceSkatingRink=
-3	skating	skate	VERB	VBG	Number=Sing|fPOS=NOUN++NN	4	compound	_	VBG|01936753-v|Walking+
-4	rink	rink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|04093625-n|IceSkatingRink+
-5	placed	place	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	4	acl	_	VBD|01494310-v|Putting=
-6	outdoors	outdoors	ADV	RB	Number=Plur|fPOS=NOUN++NNS	5	advmod	_	RB|00110659-r|Outdoors+
-7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	cop	_	VBZ|02620587-v|Attribute+
-8	full	full	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	JJ|01083157-a|ContainerFull+
-9	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-10	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	NNS|07942152-n|GroupOfPeople=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	An	a	DET	DT	_	4	det	_	DT|?|?
+2	ice	ice	NOUN	NN	_	3	nn	_	NN|03558176-n|IceSkatingRink=
+3	skating	skate	NOUN	NN	_	4	nn	_	VBG|01936753-v|Walking+
+4	rink	rink	NOUN	NN	_	8	nsubj	_	NN|04093625-n|IceSkatingRink+
+5	placed	place	VERB	VBD	_	4	partmod	_	VBD|01494310-v|Putting=
+6	outdoors	outdoors	ADV	RB	_	5	advmod	_	RB|00110659-r|Outdoors+
+7	is	be	VERB	VBZ	_	8	cop	_	VBZ|02620587-v|Attribute+
+8	full	full	ADJ	JJ	_	0	ROOT	_	JJ|01083157-a|ContainerFull+
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	people	people	NOUN	NNS	_	9	pobj	_	NNS|07942152-n|GroupOfPeople=
+11	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	ice	ice	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	NN|03558176-n|IceSkatingRink=
-3	skater	skater	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|10604491-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02620587-v|Attribute+
-5	outdoors	outdoors	ADV	RB	fPOS=ADV++RB	6	advmod	_	RB|00110659-r|Outdoors+
-6	performing	perform	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
-7	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-9	rink	rink	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	10	amod	_	NN|04093625-n|IceSkatingRink+
-10	full	full	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	JJ|01083157-a|ContainerFull+
-11	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-12	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	nmod	_	NNS|07942152-n|GroupOfPeople=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	An	a	DET	DT	_	3	det	_	DT|?|?
+2	ice	ice	NOUN	NN	_	3	nn	_	NN|03558176-n|IceSkatingRink=
+3	skater	skater	NOUN	NN	_	6	nsubj	_	NN|10604491-n|Human+
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02620587-v|Attribute+
+5	outdoors	outdoors	ADV	RB	_	6	advmod	_	RB|00110659-r|Outdoors+
+6	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	rink	rink	NOUN	NN	_	7	pobj	_	NN|04093625-n|IceSkatingRink+
+10	full	full	ADJ	JJ	_	9	amod	_	JJ|01083157-a|ContainerFull+
+11	of	of	ADP	IN	_	10	prep	_	IN|?|?
+12	people	people	NOUN	NNS	_	11	pobj	_	NNS|07942152-n|GroupOfPeople=
+13	.	.	.	.	_	6	punct	_	Fp|?|?

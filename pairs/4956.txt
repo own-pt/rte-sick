@@ -8,43 +8,43 @@ CONCEPTS B: Man=,Automobile=,Entity+,Transportation+,Increasing+,Woman=,Entity+,
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10287213-n|Man=
-3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|02958343-n|Automobile=
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	pulling	pull	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02057499-v|Transportation+
-8	up	up	ADP	IN	fPOS=ADP++RP	7	compound:prt	_	RP|00097011-r|Increasing+
-9	beside	beside	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|10787470-n|Woman=
-12	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	14	nsubj	_	WP|?|?
-13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	14	aux	_	VBZ|02604760-v|Entity+
-14	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	11	acl:relcl	_	VBG|01904930-v|Walking=
-15	along	along	ADV	RB	fPOS=ADP++IN	17	case	_	RP|00069164-r|SubjectiveAssessmentAttribute+
-16	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	17	det	_	DT|?|?
-17	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	NN|04334599-n|Roadway=
-18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	car	car	NOUN	NN	_	3	pobj	_	NN|02958343-n|Automobile=
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	pulling	pull	VERB	VBG	_	0	ROOT	_	VBG|02057499-v|Transportation+
+8	up	up	PRT	RP	_	7	prt	_	RP|00097011-r|Increasing+
+9	beside	beside	ADP	IN	_	7	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	woman	woman	NOUN	NN	_	9	pobj	_	NN|10787470-n|Woman=
+12	who	who	PRON	WP	_	14	nsubj	_	WP|?|?
+13	is	be	VERB	VBZ	_	14	aux	_	VBZ|02604760-v|Entity+
+14	walking	walk	VERB	VBG	_	11	rcmod	_	VBG|01904930-v|Walking=
+15	along	along	ADP	IN	_	14	prep	_	RP|00069164-r|SubjectiveAssessmentAttribute+
+16	the	the	DET	DT	_	17	det	_	DT|?|?
+17	street	street	NOUN	NN	_	15	pobj	_	NN|04334599-n|Roadway=
+18	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10287213-n|Man=
-3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|02958343-n|Automobile=
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	pulling	pull	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02057499-v|Transportation+
-8	up	up	ADP	IN	fPOS=ADP++RP	7	compound:prt	_	RP|00097011-r|Increasing+
-9	beside	beside	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|10787470-n|Woman=
-12	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	13	nsubj	_	WDT|?|?
-13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	11	acl:relcl	_	VBZ|02604760-v|Entity+
-14	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	13	ccomp	_	WP|?|?
-15	along	along	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
-16	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	DT|?|?
-17	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	NN|04096066-n|Roadway+
-18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	car	car	NOUN	NN	_	3	pobj	_	NN|02958343-n|Automobile=
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	pulling	pull	VERB	VBG	_	0	ROOT	_	VBG|02057499-v|Transportation+
+8	up	up	PRT	RP	_	7	prt	_	RP|00097011-r|Increasing+
+9	beside	beside	ADP	IN	_	7	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	woman	woman	NOUN	NN	_	9	pobj	_	NN|10787470-n|Woman=
+12	that	that	DET	WDT	_	14	nsubj	_	WDT|?|?
+13	is	be	VERB	VBZ	_	14	cop	_	VBZ|02604760-v|Entity+
+14	who	who	PRON	WP	_	11	rcmod	_	WP|?|?
+15	along	along	ADP	IN	_	14	prep	_	IN|?|?
+16	a	a	DET	DT	_	17	det	_	DT|?|?
+17	road	road	NOUN	NN	_	15	pobj	_	NN|04096066-n|Roadway+
+18	.	.	.	.	_	7	punct	_	Fp|?|?

@@ -8,34 +8,34 @@ CONCEPTS B: Entity+,White=,Human+,Canine+,Ambulating+,Water=,SubjectiveAssessmen
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-2	white	white	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	JJ|00393105-a|White=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	brown	brown	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	JJ|00245112-a|Human+
-5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|02084071-n|Canine+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
-8	through	through	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|14845743-n|Water=
-11	with	with	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-12	difficulty	difficulty	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|00623862-n|SubjectiveAssessmentAttribute+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	5	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	5	amod	_	JJ|00393105-a|White=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	brown	brown	ADJ	JJ	_	2	conj	_	JJ|00245112-a|Human+
+5	dog	dog	NOUN	NN	_	7	nsubj	_	NN|02084071-n|Canine+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+8	through	through	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	water	water	NOUN	NN	_	8	pobj	_	NN|14845743-n|Water=
+11	with	with	ADP	IN	_	7	prep	_	IN|?|?
+12	difficulty	difficulty	NOUN	NN	_	11	pobj	_	NN|00623862-n|SubjectiveAssessmentAttribute+
+13	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	7	neg	_	DT|?|?
-4	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	amod	_	JJ|00393105-a|White=
-5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-6	brown	brown	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	conj	_	JJ|00245112-a|Human+
-7	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|02084071-n|Canine+
-8	pacing	pace	VERB	VBG	Number=Sing|fPOS=NOUN++NN	7	acl	_	VBG|02091165-v|Ambulating+
-9	with	with	ADP	IN	fPOS=ADP++IN	8	nmod	_	IN|?|?
-10	through	through	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-12	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	compound	_	NN|14845743-n|Water=
-13	difficulty	difficulty	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|00623862-n|SubjectiveAssessmentAttribute+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	7	det	_	DT|?|?
+4	white	white	ADJ	JJ	_	7	amod	_	JJ|00393105-a|White=
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	brown	brown	ADJ	JJ	_	4	conj	_	JJ|00245112-a|Human+
+7	dog	dog	NOUN	NN	_	2	nsubj	_	NN|02084071-n|Canine+
+8	pacing	pace	VERB	VBG	_	7	partmod	_	VBG|02091165-v|Ambulating+
+9	with	with	ADP	IN	_	8	advmod	_	IN|?|?
+10	through	through	ADP	IN	_	8	prep	_	IN|?|?
+11	the	the	DET	DT	_	13	det	_	DT|?|?
+12	water	water	NOUN	NN	_	13	nn	_	NN|14845743-n|Water=
+13	difficulty	difficulty	NOUN	NN	_	10	pobj	_	NN|00623862-n|SubjectiveAssessmentAttribute+
+14	.	.	.	.	_	2	punct	_	Fp|?|?

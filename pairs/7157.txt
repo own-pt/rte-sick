@@ -8,26 +8,26 @@ CONCEPTS B: Black=,Canine+,Entity+,Walking=,SubjectiveWeakNegativeAttribute+,Gra
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00392812-a|Black=
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	sprinting	sprint	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01928579-v|Walking+
-6	through	through	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|12102133-n|Grass=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	sprinting	sprint	VERB	VBG	_	0	ROOT	_	VBG|01928579-v|Walking+
+6	through	through	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	grass	grass	NOUN	NN	_	6	pobj	_	NN|12102133-n|Grass=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00392812-a|Black=
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
-6	through	through	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	tall	tall	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|02385102-a|SubjectiveWeakNegativeAttribute+
-9	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|12102133-n|Grass=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+6	through	through	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	9	det	_	DT|?|?
+8	tall	tall	ADJ	JJ	_	9	amod	_	JJ|02385102-a|SubjectiveWeakNegativeAttribute+
+9	grass	grass	NOUN	NN	_	6	pobj	_	NN|12102133-n|Grass=
+10	.	.	.	.	_	5	punct	_	Fp|?|?

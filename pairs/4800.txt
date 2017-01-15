@@ -8,21 +8,21 @@ CONCEPTS B: HumanChild=,Entity+,DramaticActing+,Guitar=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10285313-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	RB|00024073-r|not=
-5	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|03467517-n|Guitar=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	5	nsubj	_	NN|10285313-n|Human+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	guitar	guitar	NOUN	NN	_	5	dobj	_	NN|03467517-n|Guitar=
+8	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	kid	kid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09917593-n|HumanChild=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	playing	play	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03467517-n|Guitar=
-6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	kid	kid	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+6	.	.	.	.	_	4	punct	_	Fp|?|?

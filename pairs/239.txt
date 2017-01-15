@@ -8,28 +8,28 @@ CONCEPTS B: HumanChild=,FamilyGroup+,Entity+,DramaticActing+,PsychologicalProces
 
 CONLL A:
 
-1	Three	3	ADP	IN	Definite=Def|PronType=Art|fPOS=DET++DT	3	amod	_	Z|?|?
-2	Asian	asian	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|02968525-a|AsianEthnicity=
-3	kids	kid	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|09917593-n|HumanChild=
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02604760-v|Entity+
-5	dancing	dance	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01708676-v|Dancing+
-6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	NN|02472293-n|Hominid=
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
-10	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	Three	3	NUM	CD	_	3	num	_	Z|?|?
+2	Asian	asian	ADJ	JJ	_	3	amod	_	JJ|02968525-a|AsianEthnicity=
+3	kids	kid	NOUN	NNS	_	5	nsubj	_	NNS|09917593-n|HumanChild=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	man	man	NOUN	NN	_	10	nsubj	_	NN|02472293-n|Hominid=
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	looking	look	VERB	VBG	_	5	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+11	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubj	_	NNS|09917593-n|HumanChild=
-3	of	of	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	family	family	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|07970406-n|FamilyGroup+
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	VBP|02604760-v|Entity+
-7	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
-9	waiting	wait	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	conj	_	VBG|02637938-v|PsychologicalProcess+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	children	child	NOUN	NNS	_	7	nsubj	_	NNS|09917593-n|HumanChild=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	family	family	NOUN	NN	_	3	pobj	_	NN|07970406-n|FamilyGroup+
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+8	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+9	waiting	wait	VERB	VBG	_	7	conj	_	VBG|02637938-v|PsychologicalProcess+
+10	.	.	.	.	_	7	punct	_	Fp|?|?

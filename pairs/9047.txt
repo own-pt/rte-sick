@@ -8,32 +8,32 @@ CONCEPTS B: SubjectiveWeakPositiveAttribute+,Black=,Canine+,Entity+,Ambulating=,
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-3	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|00393105-a|White=
-4	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02084071-n|Canine+
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-7	up	up	ADP	IN	fPOS=ADP++RP	6	advmod	_	RP|00097011-r|Increasing+
-8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|15043763-n|Snowing=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	white	white	ADJ	JJ	_	4	amod	_	JJ|00393105-a|White=
+4	dog	dog	NOUN	NN	_	6	nsubj	_	NN|02084071-n|Canine+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+7	up	up	PRT	RP	_	6	prt	_	RP|00097011-r|Increasing+
+8	in	in	ADP	IN	_	6	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	snow	snow	NOUN	NN	_	8	pobj	_	NN|15043763-n|Snowing=
+11	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-3	black	black	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|00392812-a|Black=
-4	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02084071-n|Canine+
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-7	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|00300441-n|AirTransportation+
-10	over	over	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-12	snowy	snowy	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	13	compound	_	JJ|01698231-a|Covering+
-13	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|14514039-n|SubjectiveAssessmentAttribute+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	black	black	ADJ	JJ	_	4	amod	_	JJ|00392812-a|Black=
+4	dog	dog	NOUN	NN	_	6	nsubj	_	NN|02084071-n|Canine+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	air	air	NOUN	NN	_	7	pobj	_	NN|00300441-n|AirTransportation+
+10	over	over	ADP	IN	_	6	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	snowy	snowy	ADJ	JJ	_	13	amod	_	JJ|01698231-a|Covering+
+13	area	area	NOUN	NN	_	10	pobj	_	NN|14514039-n|SubjectiveAssessmentAttribute+
+14	.	.	.	.	_	6	punct	_	Fp|?|?

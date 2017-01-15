@@ -8,29 +8,29 @@ CONCEPTS B: Bird+,Entity+,FlyingAircraft=,SubjectiveAssessmentAttribute+,Mineral
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	duck	duck	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|01846331-n|Duck=
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
-4	which	which	PRON	WDT	PronType=Int|fPOS=PRON++WDT	6	nsubj	_	WDT|?|?
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02604760-v|Entity+
-6	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-7	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	Fc|?|?
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
-9	flying	fly	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01941093-v|FlyingAircraft=
-10	over	over	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-12	rocky	rocky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	amod	_	JJ|02243567-a|TextureAttribute+
-13	stream	stream	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|09448361-n|StreamWaterArea=
-14	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	duck	duck	NOUN	NN	_	9	nsubj	_	NN|01846331-n|Duck=
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	which	which	DET	WDT	_	6	nsubj	_	WDT|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	large	large	ADJ	JJ	_	2	rcmod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+7	,	,	.	,	_	2	punct	_	Fc|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	flying	fly	VERB	VBG	_	0	ROOT	_	VBG|01941093-v|FlyingAircraft=
+10	over	over	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	rocky	rocky	ADJ	JJ	_	13	amod	_	JJ|02243567-a|TextureAttribute+
+13	stream	stream	NOUN	NN	_	10	pobj	_	NN|09448361-n|StreamWaterArea=
+14	.	.	.	.	_	9	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	seabird	seabird	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02021795-n|Bird+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	flying	fly	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01941093-v|FlyingAircraft=
-5	over	over	ADP	IN	fPOS=ADP++IN	7	case	_	RP|00226550-r|SubjectiveAssessmentAttribute+
-6	some	some	DET	DT	fPOS=DET++DT	7	det	_	DT|?|?
-7	rocks	rock	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|14696793-n|Mineral+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	seabird	seabird	NOUN	NN	_	4	nsubj	_	NN|02021795-n|Bird+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	flying	fly	VERB	VBG	_	0	ROOT	_	VBG|01941093-v|FlyingAircraft=
+5	over	over	ADP	IN	_	4	prep	_	RP|00226550-r|SubjectiveAssessmentAttribute+
+6	some	some	DET	DT	_	7	det	_	DT|?|?
+7	rocks	rock	NOUN	NNS	_	5	pobj	_	NNS|14696793-n|Mineral+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

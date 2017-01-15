@@ -8,26 +8,26 @@ CONCEPTS B: Entity+,Woman=,Putting=,FruitOrVegetable+,SubjectiveAssessmentAttrib
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	adding	add	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00182406-v|Putting=
-5	sugar	sugar	ADJ	JJ	Number=Sing|fPOS=PROPN++NNP	4	dobj	_	NN|07859284-n|Sugar=
-6	to	to	ADP	IN	fPOS=ADP++IN	8	case	_	TO|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	meat	meat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|05921123-n|SubjectiveAssessmentAttribute+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	adding	add	VERB	VBG	_	0	ROOT	_	VBG|00182406-v|Putting=
+5	sugar	sugar	NOUN	NN	_	4	dobj	_	NN|07859284-n|Sugar=
+6	to	to	ADP	IN	_	4	prep	_	TO|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	meat	meat	NOUN	NN	_	6	pobj	_	NN|05921123-n|SubjectiveAssessmentAttribute+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
-4	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|10787470-n|Woman=
-5	adding	add	VERB	VBG	Number=Sing|fPOS=NOUN++NN	4	acl	_	VBG|00182406-v|Putting=
-6	spices	spice	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	NNS|07812184-n|FruitOrVegetable+
-7	to	to	ADP	IN	fPOS=ADP++IN	9	case	_	TO|?|?
-8	some	some	DET	DT	fPOS=DET++DT	9	det	_	DT|?|?
-9	meat	meat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|05921123-n|SubjectiveAssessmentAttribute+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	woman	woman	NOUN	NN	_	2	nsubj	_	NN|10787470-n|Woman=
+5	adding	add	VERB	VBG	_	4	partmod	_	VBG|00182406-v|Putting=
+6	spices	spice	NOUN	NNS	_	5	dobj	_	NNS|07812184-n|FruitOrVegetable+
+7	to	to	ADP	IN	_	5	prep	_	TO|?|?
+8	some	some	DET	DT	_	9	det	_	DT|?|?
+9	meat	meat	NOUN	NN	_	7	pobj	_	NN|05921123-n|SubjectiveAssessmentAttribute+
+10	.	.	.	.	_	2	punct	_	Fp|?|?

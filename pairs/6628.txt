@@ -8,28 +8,28 @@ CONCEPTS B: ColorAttribute+,Canine+,Entity+,Attribute+,Device+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00393105-a|White=
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|02084071-n|Canine+
-4	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-5	beige	beige	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|00370501-a|ColorAttribute+
-6	spots	spot	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nmod	_	NNS|08664443-n|Region+
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-8	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-9	through	through	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|05996646-n|FieldOfStudy=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	dog	dog	NOUN	NN	_	8	nsubj	_	NN|02084071-n|Canine+
+4	with	with	ADP	IN	_	3	prep	_	IN|?|?
+5	beige	beige	ADJ	JJ	_	6	amod	_	JJ|00370501-a|ColorAttribute+
+6	spots	spot	NOUN	NNS	_	4	pobj	_	NNS|08664443-n|Region+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+9	through	through	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	field	field	NOUN	NN	_	9	pobj	_	NN|05996646-n|FieldOfStudy=
+12	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	tan	tan	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00384533-a|ColorAttribute+
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-6	through	through	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	brush	brush	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02908217-n|Device+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	tan	tan	ADJ	JJ	_	3	amod	_	JJ|00384533-a|ColorAttribute+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	through	through	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	brush	brush	NOUN	NN	_	6	pobj	_	NN|02908217-n|Device+
+9	.	.	.	.	_	5	punct	_	Fp|?|?

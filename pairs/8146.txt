@@ -8,31 +8,31 @@ CONCEPTS B: Hominid=,SubjectiveStrongNegativeAttribute+,Damaging+,SubjectiveAsse
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10787470-n|Woman=
-3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	blue	blue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
-5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|00065639-v|Damaging+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
-8	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|02778669-n|Ball=
-9	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	mitt	mitt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|05564590-n|Hand+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	blue	blue	NOUN	NN	_	3	pobj	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+5	has	have	VERB	VBZ	_	0	ROOT	_	VBZ|00065639-v|Damaging+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	yellow	yellow	ADJ	JJ	_	8	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+8	ball	ball	NOUN	NN	_	5	dobj	_	NN|02778669-n|Ball=
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	mitt	mitt	NOUN	NN	_	9	pobj	_	NN|05564590-n|Hand+
+12	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02472293-n|Hominid=
-3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	blue	blue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
-5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|00065639-v|Damaging+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
-8	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|02778669-n|Ball=
-9	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	mitt	mitt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|05564590-n|Hand+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	blue	blue	NOUN	NN	_	3	pobj	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+5	has	have	VERB	VBZ	_	0	ROOT	_	VBZ|00065639-v|Damaging+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	yellow	yellow	ADJ	JJ	_	8	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+8	ball	ball	NOUN	NN	_	5	dobj	_	NN|02778669-n|Ball=
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	mitt	mitt	NOUN	NN	_	9	pobj	_	NN|05564590-n|Hand+
+12	.	.	.	.	_	5	punct	_	Fp|?|?

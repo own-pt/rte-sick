@@ -8,20 +8,20 @@ CONCEPTS B: Organization=,Entity+,DramaticActing+,Soccer=
 
 CONLL A:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	teams	team	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|08208560-n|Organization=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	5	aux	_	VBP|02604760-v|Entity+
-4	enthusiastically	enthusiastically	ADV	RB	fPOS=ADV++RB	5	advmod	_	RB|00456484-r|SubjectiveAssessmentAttribute+
-5	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-6	soccer	soccer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|00478262-n|Soccer=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	teams	team	NOUN	NNS	_	5	nsubj	_	NNS|08208560-n|Organization=
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	enthusiastically	enthusiastically	ADV	RB	_	5	advmod	_	RB|00456484-r|SubjectiveAssessmentAttribute+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	soccer	soccer	NOUN	NN	_	5	dobj	_	NN|00478262-n|Soccer=
+7	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	Degree=Pos|fPOS=ADJ++JJ	2	nummod	_	Z|?|?
-2	teams	team	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|08208560-n|Organization=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	soccer	soccer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|00478262-n|Soccer=
-6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	teams	team	NOUN	NNS	_	4	nsubj	_	NNS|08208560-n|Organization=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	soccer	soccer	NOUN	NN	_	4	dobj	_	NN|00478262-n|Soccer=
+6	.	.	.	.	_	4	punct	_	Fp|?|?

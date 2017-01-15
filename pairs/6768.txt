@@ -8,32 +8,32 @@ CONCEPTS B: Human+,Entity+,Walking=,Mineral+,River=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|02472293-n|Hominid=
-3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-4	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	JJ|00245112-a|Human+
-5	colored	color	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	VBN|00283911-v|SurfaceChange+
-6	shorts	short	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|04204755-n|NormativeAttribute+
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-8	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
-9	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	rocks	rock	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	NNS|14696793-n|Mineral+
-12	beside	beside	ADP	IN	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	14	case	_	IN|?|?
-13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-14	river	river	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|09411430-n|River=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|02472293-n|Hominid=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	brown	brown	ADJ	JJ	_	6	amod	_	JJ|00245112-a|Human+
+5	colored	color	ADJ	JJ	_	6	amod	_	VBN|00283911-v|SurfaceChange+
+6	shorts	short	NOUN	NNS	_	3	pobj	_	NNS|04204755-n|NormativeAttribute+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+9	on	on	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	rocks	rock	NOUN	NNS	_	9	pobj	_	NNS|14696793-n|Mineral+
+12	beside	beside	ADP	IN	_	8	prep	_	IN|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	river	river	NOUN	NN	_	12	pobj	_	NN|09411430-n|River=
+15	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	0	ROOT	_	Z|?|?
-2	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|10285313-n|Human+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	1	parataxis	_	VBG|01904930-v|Walking=
-5	on	on	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-6	rocks	rock	NOUN	NNS	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	nmod	_	NNS|14696793-n|Mineral+
-7	along	along	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	river	river	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|09411430-n|River=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	1	punct	_	Fp|?|?
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	boys	boy	NOUN	NNS	_	4	nsubj	_	NNS|10285313-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	rocks	rock	NOUN	NNS	_	5	pobj	_	NNS|14696793-n|Mineral+
+7	along	along	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	river	river	NOUN	NN	_	7	pobj	_	NN|09411430-n|River=
+10	.	.	.	.	_	4	punct	_	Fp|?|?

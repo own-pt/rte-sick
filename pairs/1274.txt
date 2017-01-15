@@ -8,20 +8,20 @@ CONCEPTS B: Hominid=,Entity+,not=,Removing+,Lawn=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	mixing	mix	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00394813-v|IntentionalProcess+
-5	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	mixing	mix	VERB	VBG	_	0	ROOT	_	VBG|00394813-v|IntentionalProcess+
+5	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	RB|00024073-r|not=
-5	mowing	mow	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01319562-v|Removing+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	lawn	lawn	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|08591592-n|Lawn=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	mowing	mow	VERB	VBG	_	0	ROOT	_	VBG|01319562-v|Removing+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	lawn	lawn	NOUN	NN	_	5	dobj	_	NN|08591592-n|Lawn=
+8	.	.	.	.	_	5	punct	_	Fp|?|?

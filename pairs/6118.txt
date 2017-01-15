@@ -8,35 +8,35 @@ CONCEPTS B: Baseball=,Entity+,Entity+,Process+,Mouth+,Black=,White=,Canine+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-2	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	JJ|00245112-a|Human+
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	JJ|00393105-a|White=
-5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|02084071-n|Canine+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01217043-v|Process+
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	baseball	baseball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	NN|00471613-n|Baseball=
-10	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	12	nmod:poss	_	PRP$|?|?
-12	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|05302499-n|Mouth+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	5	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	5	amod	_	JJ|00245112-a|Human+
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	white	white	ADJ	JJ	_	2	conj	_	JJ|00393105-a|White=
+5	dog	dog	NOUN	NN	_	7	nsubj	_	NN|02084071-n|Canine+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|01217043-v|Process+
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	baseball	baseball	NOUN	NN	_	7	dobj	_	NN|00471613-n|Baseball=
+10	in	in	ADP	IN	_	7	prep	_	IN|?|?
+11	its	its	PRON	PRP$	_	12	poss	_	PRP$|?|?
+12	mouth	mouth	NOUN	NN	_	10	pobj	_	NN|05302499-n|Mouth+
+13	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	baseball	baseball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	NN|00471613-n|Baseball=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	VBG|02604760-v|Entity+
-5	held	hold	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|01217043-v|Process+
-6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	8	nmod:poss	_	PRP$|?|?
-8	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|05302499-n|Mouth+
-9	by	by	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-11	black	black	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	14	amod	_	JJ|00392812-a|Black=
-12	and	and	CONJ	CC	fPOS=CONJ++CC	11	cc	_	CC|?|?
-13	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	conj	_	JJ|00393105-a|White=
-14	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02084071-n|Canine+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	baseball	baseball	NOUN	NN	_	5	nsubjpass	_	NN|00471613-n|Baseball=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	held	hold	VERB	VBN	_	0	ROOT	_	VBN|01217043-v|Process+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	its	its	PRON	PRP$	_	8	poss	_	PRP$|?|?
+8	mouth	mouth	NOUN	NN	_	6	pobj	_	NN|05302499-n|Mouth+
+9	by	by	ADP	IN	_	5	prep	_	IN|?|?
+10	a	a	DET	DT	_	14	det	_	DT|?|?
+11	black	black	ADJ	JJ	_	14	amod	_	JJ|00392812-a|Black=
+12	and	and	CONJ	CC	_	11	cc	_	CC|?|?
+13	white	white	ADJ	JJ	_	11	conj	_	JJ|00393105-a|White=
+14	dog	dog	NOUN	NN	_	9	pobj	_	NN|02084071-n|Canine+
+15	.	.	.	.	_	5	punct	_	Fp|?|?

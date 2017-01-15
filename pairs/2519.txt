@@ -8,24 +8,24 @@ CONCEPTS B: Human=,Entity+,Carrying=,Motion+,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
-1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	NNS|07942152-n|GroupOfPeople=
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	3	aux	_	VBP|02604760-v|Entity+
-3	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01955984-v|Carrying=
-4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	CC|?|?
-5	paddling	paddle	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	3	conj	_	VBG|01419373-v|Motion+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	raft	raft	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	People	people	NOUN	NNS	_	3	nsubj	_	NNS|07942152-n|GroupOfPeople=
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+4	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+5	paddling	paddle	VERB	VBG	_	3	conj	_	VBG|01419373-v|Motion+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	raft	raft	NOUN	NN	_	5	dobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+8	.	.	.	.	_	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	DT|?|?
-2	persons	person	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|00007846-n|Human=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01955984-v|Carrying=
-5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-6	paddling	paddle	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|01419373-v|Motion+
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	raft	raft	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	persons	person	NOUN	NNS	_	4	nsubj	_	NNS|00007846-n|Human=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	paddling	paddle	VERB	VBG	_	4	conj	_	VBG|01419373-v|Motion+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	raft	raft	NOUN	NN	_	4	dobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

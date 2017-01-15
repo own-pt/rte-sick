@@ -8,27 +8,27 @@ CONCEPTS B: Hominid=,LengthMeasure+,Entity+,Looking=,SubjectiveWeakPositiveAttri
 
 CONLL A:
 
-1	Three	3	DET	DT	Number=Plur|PronType=Dem|fPOS=DET++DT	2	det	_	Z|?|?
-2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02472293-n|Hominid=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
-5	into	into	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	distance	distance	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|05084201-n|LengthMeasure+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+5	into	into	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	distance	distance	NOUN	NN	_	5	pobj	_	NN|05084201-n|LengthMeasure+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	DT|?|?
-2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubj	_	NNS|02472293-n|Hominid=
-3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	distance	distance	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|05084201-n|LengthMeasure+
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	VBP|02604760-v|Entity+
-7	staring	stare	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02132745-v|Looking=
-8	at	at	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-9	three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	11	nummod	_	Z|?|?
-10	big	big	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-11	hills	hill	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	NNS|09303008-n|Hill=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	men	man	NOUN	NNS	_	7	nsubj	_	NNS|02472293-n|Hominid=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	the	the	DET	DT	_	5	det	_	DT|?|?
+5	distance	distance	NOUN	NN	_	3	pobj	_	NN|05084201-n|LengthMeasure+
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	staring	stare	VERB	VBG	_	0	ROOT	_	VBG|02132745-v|Looking=
+8	at	at	ADP	IN	_	7	prep	_	IN|?|?
+9	three	3	NUM	CD	_	11	num	_	Z|?|?
+10	big	big	ADJ	JJ	_	11	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+11	hills	hill	NOUN	NNS	_	8	pobj	_	NNS|09303008-n|Hill=
+12	.	.	.	.	_	7	punct	_	Fp|?|?

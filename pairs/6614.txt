@@ -8,36 +8,36 @@ CONCEPTS B: Entity+,Human+,BodyMotion+,Position+,equal+,FrontFn=,Ball=
 
 CONLL A:
 
-1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	compound	_	Z|?|?
-2	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|10285313-n|Human+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	kneeling	kneel	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01545649-v|BodyMotion+
-5	next	next	ADV	RB	fPOS=ADV++RB	4	advmod	_	JJ|01294975-a|Position+
-6	to	to	ADP	IN	fPOS=ADP++IN	8	case	_	TO|?|?
-7	each	each	DET	DT	fPOS=DET++DT	8	det	_	DT|?|?
-8	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	nmod	_	JJ|02069355-a|equal+
-9	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-10	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|08573472-n|FrontFn=
-11	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|02778669-n|Ball=
-14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Four	4	NUM	CD	_	2	num	_	Z|?|?
+2	boys	boy	NOUN	NNS	_	4	nsubj	_	NNS|10285313-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	kneeling	kneel	VERB	VBG	_	0	ROOT	_	VBG|01545649-v|BodyMotion+
+5	next	next	ADJ	JJ	_	4	advmod	_	JJ|01294975-a|Position+
+6	to	to	ADP	IN	_	5	prep	_	TO|?|?
+7	each	each	DET	DT	_	8	det	_	DT|?|?
+8	other	other	ADJ	JJ	_	6	pobj	_	JJ|02069355-a|equal+
+9	in	in	ADP	IN	_	4	prep	_	IN|?|?
+10	front	front	NOUN	NN	_	9	pobj	_	NN|08573472-n|FrontFn=
+11	of	of	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	ball	ball	NOUN	NN	_	11	pobj	_	NN|02778669-n|Ball=
+14	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	0	ROOT	_	VBP|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
-4	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nsubj	_	NNS|10285313-n|Human+
-5	kneeling	kneel	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	VBG|01545649-v|BodyMotion+
-6	next	next	ADV	RB	Number=Sing|fPOS=NOUN++NN	5	advmod	_	JJ|01294975-a|Position+
-7	to	to	ADP	IN	fPOS=ADP++IN	9	case	_	TO|?|?
-8	each	each	DET	DT	fPOS=DET++DT	9	det	_	DT|?|?
-9	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	nmod	_	JJ|02069355-a|equal+
-10	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-11	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|08573472-n|FrontFn=
-12	of	of	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-14	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|02778669-n|Ball=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	boys	boy	NOUN	NNS	_	2	nsubj	_	NNS|10285313-n|Human+
+5	kneeling	kneel	VERB	VBG	_	4	partmod	_	VBG|01545649-v|BodyMotion+
+6	next	next	ADJ	JJ	_	5	advmod	_	JJ|01294975-a|Position+
+7	to	to	ADP	IN	_	6	prep	_	TO|?|?
+8	each	each	DET	DT	_	9	det	_	DT|?|?
+9	other	other	ADJ	JJ	_	7	pobj	_	JJ|02069355-a|equal+
+10	in	in	ADP	IN	_	5	prep	_	IN|?|?
+11	front	front	NOUN	NN	_	10	pobj	_	NN|08573472-n|FrontFn=
+12	of	of	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	ball	ball	NOUN	NN	_	12	pobj	_	NN|02778669-n|Ball=
+15	.	.	.	.	_	2	punct	_	Fp|?|?

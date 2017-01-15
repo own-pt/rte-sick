@@ -8,26 +8,26 @@ CONCEPTS B: Man=,Entity+,Cutting+,Human+,String+,Sword+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	tying	tie	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01354673-v|Attaching+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	thick	thick	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|02387413-a|Human+
-7	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|04108268-n|String+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	tying	tie	VERB	VBG	_	0	ROOT	_	VBG|01354673-v|Attaching+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	thick	thick	ADJ	JJ	_	7	amod	_	JJ|02387413-a|Human+
+7	rope	rope	NOUN	NN	_	4	dobj	_	NN|04108268-n|String+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10287213-n|Man=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	cutting	cut	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01552519-v|Cutting+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	thick	thick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	JJ|02387413-a|Human+
-7	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|04108268-n|String+
-8	with	with	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	sword	sword	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04373894-n|Sword+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|01552519-v|Cutting+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	thick	thick	ADJ	JJ	_	7	amod	_	JJ|02387413-a|Human+
+7	rope	rope	NOUN	NN	_	4	dobj	_	NN|04108268-n|String+
+8	with	with	ADP	IN	_	4	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	sword	sword	NOUN	NN	_	8	pobj	_	NN|04373894-n|Sword+
+11	.	.	.	.	_	4	punct	_	Fp|?|?

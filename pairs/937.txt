@@ -8,31 +8,31 @@ CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Ambulating=,Static
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10285313-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-6	into	into	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	puddle	puddle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|09397607-n|StaticWaterArea+
-9	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|04334599-n|Roadway=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	boy	boy	NOUN	NN	_	5	nsubj	_	NN|10285313-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+6	into	into	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	puddle	puddle	NOUN	NN	_	6	pobj	_	NN|09397607-n|StaticWaterArea+
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	street	street	NOUN	NN	_	9	pobj	_	NN|04334599-n|Roadway=
+12	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10285313-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-6	into	into	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	puddle	puddle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|09397607-n|StaticWaterArea+
-9	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|04334599-n|Roadway=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	boy	boy	NOUN	NN	_	5	nsubj	_	NN|10285313-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+6	into	into	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	puddle	puddle	NOUN	NN	_	6	pobj	_	NN|09397607-n|StaticWaterArea+
+9	on	on	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	street	street	NOUN	NN	_	9	pobj	_	NN|04334599-n|Roadway=
+12	.	.	.	.	_	5	punct	_	Fp|?|?

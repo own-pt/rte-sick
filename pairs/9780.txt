@@ -8,23 +8,23 @@ CONCEPTS B: Human=,Entity+,Separating+,Carrot=,PreparedFood+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	lion	lion	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|08686821-n|Region@
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	slowly	slowly	ADV	RB	fPOS=ADV++RB	5	advmod	_	RB|00161630-r|NormativeAttribute+
-5	moving	move	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01767949-v|PsychologicalProcess+
-6	around	around	ADV	RB	fPOS=ADV++RB	5	advmod	_	RP|00007015-r|?
-7	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	lion	lion	NOUN	NN	_	5	nsubj	_	NN|08686821-n|Region@
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	slowly	slowly	ADV	RB	_	5	advmod	_	RB|00161630-r|NormativeAttribute+
+5	moving	move	VERB	VBG	_	0	ROOT	_	VBG|01767949-v|PsychologicalProcess+
+6	around	around	ADV	RB	_	5	advmod	_	RP|00007015-r|?
+7	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	slicing	slice	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01254477-v|Separating+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	carrot	carrot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|07730207-n|Carrot=
-7	into	into	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-8	pieces	piece	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|07654667-n|PreparedFood+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	carrot	carrot	NOUN	NN	_	4	dobj	_	NN|07730207-n|Carrot=
+7	into	into	ADP	IN	_	4	prep	_	IN|?|?
+8	pieces	piece	NOUN	NNS	_	7	pobj	_	NNS|07654667-n|PreparedFood+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

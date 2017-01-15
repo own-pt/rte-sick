@@ -8,25 +8,25 @@ CONCEPTS B: Canine+,Entity+,Attribute+,Dry=,Sand=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02084071-n|Canine+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-5	through	through	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	wet	wet	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	VBN|00214951-v|Wetting=
-8	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|15019030-n|Sand=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	through	through	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	8	det	_	DT|?|?
+7	wet	wet	ADJ	JJ	_	8	amod	_	VBN|00214951-v|Wetting=
+8	sand	sand	NOUN	NN	_	5	pobj	_	NN|15019030-n|Sand=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02084071-n|Canine+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-5	through	through	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	dry	dry	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	amod	_	JJ|02551380-a|Dry=
-8	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|15019030-n|Sand=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	through	through	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	8	det	_	DT|?|?
+7	dry	dry	ADJ	JJ	_	8	amod	_	JJ|02551380-a|Dry=
+8	sand	sand	NOUN	NN	_	5	pobj	_	NN|15019030-n|Sand=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

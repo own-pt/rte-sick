@@ -8,43 +8,43 @@ CONCEPTS B: SubjectiveWeakPositiveAttribute+,Canine+,SubjectiveStrongNegativeAtt
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00392812-a|Black=
-3	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	NN|02985606-n|Whip+
-4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	CC|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-7	white	white	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	conj	_	JJ|00393105-a|White=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	CC|?|?
-9	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	JJ|00392812-a|Black=
-10	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	conj	_	NN|02985606-n|Whip+
-11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	12	aux	_	VBP|02604760-v|Entity+
-12	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
-13	up	up	ADP	RP	fPOS=ADP++RP	12	compound:prt	_	RP|00097011-r|Increasing+
-14	at	at	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
-15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	DT|?|?
-16	kitchen	kitchen	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	NN|03619890-n|Kitchen=
-17	countertop	countertop	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	NN|03118245-n|Region+
-18	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	cat	cat	NOUN	NN	_	12	nsubj	_	NN|02985606-n|Whip+
+4	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+5	a	a	DET	DT	_	10	det	_	DT|?|?
+6	small	small	ADJ	JJ	_	10	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+7	white	white	ADJ	JJ	_	10	amod	_	JJ|00393105-a|White=
+8	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+9	black	black	ADJ	JJ	_	7	conj	_	JJ|00392812-a|Black=
+10	cat	cat	NOUN	NN	_	3	conj	_	NN|02985606-n|Whip+
+11	are	be	VERB	VBP	_	12	aux	_	VBP|02604760-v|Entity+
+12	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+13	up	up	PRT	RP	_	12	prt	_	RP|00097011-r|Increasing+
+14	at	at	ADP	IN	_	12	prep	_	IN|?|?
+15	a	a	DET	DT	_	17	det	_	DT|?|?
+16	kitchen	kitchen	NOUN	NN	_	17	nn	_	NN|03619890-n|Kitchen=
+17	countertop	countertop	NOUN	NN	_	14	pobj	_	NN|03118245-n|Region+
+18	.	.	.	.	_	12	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|02084071-n|Canine+
-4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	CC|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-7	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	conj	_	NN|02084071-n|Canine+
-8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	9	aux	_	VBP|02604760-v|Entity+
-9	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-10	next	next	ADV	RB	Degree=Pos|fPOS=ADJ++JJ	9	advmod	_	JJ|01294975-a|Position+
-11	to	to	ADP	IN	fPOS=ADP++IN	14	case	_	TO|?|?
-12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-13	kitchen	kitchen	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	14	compound	_	NN|03619890-n|Kitchen=
-14	counter	counter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|03116530-n|Table+
-15	and	and	CONJ	CC	fPOS=CONJ++CC	9	cc	_	CC|?|?
-16	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	17	cop	_	VBP|02604760-v|Entity+
-17	investigating	investigate	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	conj	_	VBG|00785962-v|Investigating+
-18	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	dog	dog	NOUN	NN	_	9	nsubj	_	NN|02084071-n|Canine+
+4	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	small	small	ADJ	JJ	_	7	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+7	dog	dog	NOUN	NN	_	3	conj	_	NN|02084071-n|Canine+
+8	are	be	VERB	VBP	_	9	aux	_	VBP|02604760-v|Entity+
+9	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+10	next	next	ADV	RB	_	9	advmod	_	JJ|01294975-a|Position+
+11	to	to	ADP	IN	_	10	prep	_	TO|?|?
+12	the	the	DET	DT	_	14	det	_	DT|?|?
+13	kitchen	kitchen	NOUN	NN	_	14	nn	_	NN|03619890-n|Kitchen=
+14	counter	counter	NOUN	NN	_	11	pobj	_	NN|03116530-n|Table+
+15	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+16	are	be	VERB	VBP	_	17	aux	_	VBP|02604760-v|Entity+
+17	investigating	investigate	VERB	VBG	_	9	conj	_	VBG|00785962-v|Investigating+
+18	.	.	.	.	_	9	punct	_	Fp|?|?

@@ -8,31 +8,31 @@ CONCEPTS B: Asia+,Man=,Woman=,Entity+,DirectionChange+,Camera=
 
 CONLL A:
 
-1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	oriental	oriental	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00825807-a|Asia+
-3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|10287213-n|Man=
-4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	CC|?|?
-5	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	6	nummod	_	Z|?|?
-6	women	woman	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	conj	_	NNS|10787470-n|Woman=
-7	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	9	cop	_	VBP|02604760-v|Entity+
-8	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-9	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|08573472-n|FrontFn=
-10	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|02942699-n|Camera=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	An	a	DET	DT	_	3	det	_	DT|?|?
+2	oriental	oriental	ADJ	JJ	_	3	amod	_	JJ|00825807-a|Asia+
+3	man	man	NOUN	NN	_	7	nsubj	_	NN|10287213-n|Man=
+4	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+5	two	2	NUM	CD	_	6	num	_	Z|?|?
+6	women	woman	NOUN	NNS	_	3	conj	_	NNS|10787470-n|Woman=
+7	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	front	front	NOUN	NN	_	8	pobj	_	NN|08573472-n|FrontFn=
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	camera	camera	NOUN	NN	_	10	pobj	_	NN|02942699-n|Camera=
+13	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	oriental	oriental	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00825807-a|Asia+
-3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10287213-n|Man=
-4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	CC|?|?
-5	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	6	nummod	_	Z|?|?
-6	women	woman	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	conj	_	NNS|10787470-n|Woman=
-7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	8	aux	_	VBP|02604760-v|Entity+
-8	facing	face	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01908365-v|DirectionChange+
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	NN|02942699-n|Camera=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	An	a	DET	DT	_	3	det	_	DT|?|?
+2	oriental	oriental	ADJ	JJ	_	3	amod	_	JJ|00825807-a|Asia+
+3	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+4	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+5	two	2	NUM	CD	_	6	num	_	Z|?|?
+6	women	woman	NOUN	NNS	_	3	conj	_	NNS|10787470-n|Woman=
+7	are	be	VERB	VBP	_	8	aux	_	VBP|02604760-v|Entity+
+8	facing	face	VERB	VBG	_	0	ROOT	_	VBG|01908365-v|DirectionChange+
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	camera	camera	NOUN	NN	_	8	dobj	_	NN|02942699-n|Camera=
+11	.	.	.	.	_	8	punct	_	Fp|?|?

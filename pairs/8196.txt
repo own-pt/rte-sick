@@ -8,36 +8,36 @@ CONCEPTS B: FullyFormed+,HumanChild=,PhysicalAttribute+,Game+,FrontFn=,Artifact+
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	adults	adult	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubjpass	_	NNS|09605289-n|FullyFormed+
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	conj	_	NNS|09917593-n|HumanChild=
-5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	VBP|02604760-v|Entity+
-6	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	7	auxpass	_	VBG|02604760-v|Entity+
-7	gathered	gather	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|02428924-v|Meeting+
-8	near	near	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-9	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-10	outdoor	outdoor	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	12	amod	_	JJ|01692222-a|located+
-11	seating	seat	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	12	compound	_	VBG|01543998-v|Communication+
-12	arrangement	arrangement	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|05075602-n|Designing+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	adults	adult	NOUN	NNS	_	7	nsubjpass	_	NNS|09605289-n|FullyFormed+
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	children	child	NOUN	NNS	_	2	conj	_	NNS|09917593-n|HumanChild=
+5	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+6	being	be	VERB	VBG	_	7	auxpass	_	VBG|02604760-v|Entity+
+7	gathered	gather	VERB	VBN	_	0	ROOT	_	VBN|02428924-v|Meeting+
+8	near	near	ADP	IN	_	7	prep	_	IN|?|?
+9	an	a	DET	DT	_	12	det	_	DT|?|?
+10	outdoor	outdoor	ADJ	JJ	_	12	amod	_	JJ|01692222-a|located+
+11	seating	seat	NOUN	NN	_	12	amod	_	VBG|01543998-v|Communication+
+12	arrangement	arrangement	NOUN	NN	_	8	pobj	_	NN|05075602-n|Designing+
+13	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Adults	adult	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	NNS|09605289-n|FullyFormed+
-2	and	and	CONJ	CC	fPOS=CONJ++CC	1	cc	_	CC|?|?
-3	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	1	conj	_	NNS|09917593-n|HumanChild=
-4	standing	stand	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	1	acl	_	VBG|01546111-v|PhysicalAttribute+
-5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-6	playing	play	VERB	VBG	Number=Sing|fPOS=NOUN++NN	4	conj	_	VBG|01079480-v|Game+
-7	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-8	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|08573472-n|FrontFn=
-9	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	stair	stair	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	8	nmod	_	NN|04314914-n|Artifact+
-12	near	near	ADP	IN	Number=Sing|fPOS=NOUN++NN	15	case	_	IN|?|?
-13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-14	wooded	wood	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	VBN|?|?
-15	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|14514039-n|SubjectiveAssessmentAttribute+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	1	punct	_	Fp|?|?
+1	Adults	adult	NOUN	NNS	_	0	ROOT	_	NNS|09605289-n|FullyFormed+
+2	and	and	CONJ	CC	_	1	cc	_	CC|?|?
+3	children	child	NOUN	NNS	_	1	conj	_	NNS|09917593-n|HumanChild=
+4	standing	stand	VERB	VBG	_	1	dep	_	VBG|01546111-v|PhysicalAttribute+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	playing	play	VERB	VBG	_	4	conj	_	VBG|01079480-v|Game+
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	front	front	NOUN	NN	_	7	pobj	_	NN|08573472-n|FrontFn=
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	stair	stair	NOUN	NN	_	9	pobj	_	NN|04314914-n|Artifact+
+12	near	near	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	15	det	_	DT|?|?
+14	wooded	wood	VERB	VBN	_	15	amod	_	VBN|?|?
+15	area	area	NOUN	NN	_	12	pobj	_	NN|14514039-n|SubjectiveAssessmentAttribute+
+16	.	.	.	.	_	1	punct	_	Fp|?|?

@@ -8,34 +8,34 @@ CONCEPTS B: SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,Ambulating=,
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-2	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	JJ|00245112-a|Human+
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	JJ|00393105-a|White=
-5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|02084071-n|Canine+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	passing	pass	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|00339934-v|Process+
-8	under	under	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-10	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|00381097-a|Red=
-11	,	,	PUNCT	,	fPOS=PUNCT++,	12	punct	_	Fc|?|?
-12	yellow	yellow	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	nmod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
-13	and	and	CONJ	CC	fPOS=CONJ++CC	12	cc	_	CC|?|?
-14	white	white	ADV	RB	Degree=Pos|fPOS=ADJ++JJ	15	advmod	_	JJ|00393105-a|White=
-15	hurdle	hurdle	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	12	conj	_	NN|00120515-n|Motion+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	5	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	5	amod	_	JJ|00245112-a|Human+
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	white	white	ADJ	JJ	_	2	conj	_	JJ|00393105-a|White=
+5	dog	dog	NOUN	NN	_	7	nsubj	_	NN|02084071-n|Canine+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	passing	pass	VERB	VBG	_	0	ROOT	_	VBG|00339934-v|Process+
+8	under	under	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	15	det	_	DT|?|?
+10	red	red	ADJ	JJ	_	15	amod	_	JJ|00381097-a|Red=
+11	,	,	.	,	_	10	punct	_	Fc|?|?
+12	yellow	yellow	ADJ	JJ	_	10	conj	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+13	and	and	CONJ	CC	_	10	cc	_	CC|?|?
+14	white	white	ADJ	JJ	_	10	conj	_	JJ|00393105-a|White=
+15	hurdle	hurdle	NOUN	NN	_	8	pobj	_	NN|00120515-n|Motion+
+16	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-3	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|00245112-a|Human+
-4	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02084071-n|Canine+
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-7	over	over	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-9	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	JJ|00381097-a|Red=
-10	hurdle	hurdle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|03549589-n|Device+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	brown	brown	ADJ	JJ	_	4	amod	_	JJ|00245112-a|Human+
+4	dog	dog	NOUN	NN	_	6	nsubj	_	NN|02084071-n|Canine+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+7	over	over	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	red	red	ADJ	JJ	_	10	amod	_	JJ|00381097-a|Red=
+10	hurdle	hurdle	NOUN	NN	_	7	pobj	_	NN|03549589-n|Device+
+11	.	.	.	.	_	6	punct	_	Fp|?|?

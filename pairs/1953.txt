@@ -8,18 +8,18 @@ CONCEPTS B: MusicalGroup+,Entity+,MakingVocalMusic=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	band	band	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|08249038-n|MusicalGroup+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	singing	sing	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01729431-v|MakingVocalMusic=
-5	loudly	loudly	ADV	RB	fPOS=ADV++RB	4	advmod	_	RB|00069901-r|SubjectiveAssessmentAttribute+
-6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	band	band	NOUN	NN	_	4	nsubj	_	NN|08249038-n|MusicalGroup+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01729431-v|MakingVocalMusic=
+5	loudly	loudly	ADV	RB	_	4	advmod	_	RB|00069901-r|SubjectiveAssessmentAttribute+
+6	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	band	band	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|08249038-n|MusicalGroup+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	singing	sing	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
-5	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	band	band	NOUN	NN	_	4	nsubj	_	NN|08249038-n|MusicalGroup+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+5	.	.	.	.	_	4	punct	_	Fp|?|?

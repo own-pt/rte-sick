@@ -8,25 +8,25 @@ CONCEPTS B: HumanChild=,Entity+,IntentionalProcess+,Park+
 
 CONLL A:
 
-1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	girls	girl	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|10129825-n|Human+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00010435-v|BodyMotion+
-5	backbends	backbends	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|?|?
-6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-7	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	VBG|01719302-v|DramaticActing+
-8	indoors	indoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	dobj	_	RB|00110533-r|Indoors+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Four	4	NUM	CD	_	2	num	_	Z|?|?
+2	girls	girl	NOUN	NNS	_	4	nsubj	_	NNS|10129825-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|00010435-v|BodyMotion+
+5	backbends	backbends	NOUN	NNS	_	4	dobj	_	NNS|?|?
+6	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+7	playing	play	VERB	VBG	_	4	conj	_	VBG|01719302-v|DramaticActing+
+8	indoors	indoors	ADV	RB	_	7	advmod	_	RB|00110533-r|Indoors+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|09917593-n|HumanChild=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
-5	backbends	backbends	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|?|?
-6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|08615374-n|Park+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Four	4	NUM	CD	_	2	num	_	Z|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	backbends	backbends	NOUN	NNS	_	4	dobj	_	NNS|?|?
+6	in	in	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	park	park	NOUN	NN	_	6	pobj	_	NN|08615374-n|Park+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

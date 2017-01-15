@@ -8,27 +8,27 @@ CONCEPTS B: HumanChild=,Entity+,Increasing+,ContentBearingObject+
 
 CONLL A:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubj	_	NNS|09917593-n|HumanChild=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	adult	adult	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	NN|09605289-n|FullyFormed+
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	VBP|02604760-v|Entity+
-7	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-8	next	next	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	xcomp	_	JJ|01294975-a|Position+
-9	to	to	ADP	IN	fPOS=ADP++IN	12	case	_	TO|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-11	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	NN|13912260-n|ContentBearingObject+
-12	limb	limb	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|13163803-n|BodyPart+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	children	child	NOUN	NNS	_	7	nsubj	_	NNS|09917593-n|HumanChild=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	an	a	DET	DT	_	5	det	_	DT|?|?
+5	adult	adult	NOUN	NN	_	2	conj	_	NN|09605289-n|FullyFormed+
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+8	next	next	ADV	RB	_	7	advmod	_	JJ|01294975-a|Position+
+9	to	to	ADP	IN	_	8	prep	_	TO|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	tree	tree	NOUN	NN	_	12	nn	_	NN|13912260-n|ContentBearingObject+
+12	limb	limb	NOUN	NN	_	9	pobj	_	NN|13163803-n|BodyPart+
+13	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|09917593-n|HumanChild=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00433232-v|Increasing+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|13912260-n|ContentBearingObject+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	climbing	climb	VERB	VBG	_	0	ROOT	_	VBG|00433232-v|Increasing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	tree	tree	NOUN	NN	_	4	dobj	_	NN|13912260-n|ContentBearingObject+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

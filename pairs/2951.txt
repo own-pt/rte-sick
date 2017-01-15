@@ -8,24 +8,24 @@ CONCEPTS B: Woman=,Entity+,Putting=,Mixture+,Eyelid+
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
-4	woman	woman	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	2	nsubj	_	NN|10787470-n|Woman=
-5	penciling	pencil	VERB	VBG	Number=Sing|fPOS=NOUN++NN	4	acl	_	VBG|01688604-v|ContentDevelopment+
-6	on	on	ADV	RB	fPOS=ADP++IN	7	case	_	IN|?|?
-7	eyeshadow	eyeshadow	ADV	RB	PronType=Int|fPOS=PRON++WP	5	nmod	_	NN|03309687-n|Mixture+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	woman	woman	NOUN	NN	_	2	nsubj	_	NN|10787470-n|Woman=
+5	penciling	pencil	VERB	VBG	_	4	partmod	_	VBG|01688604-v|ContentDevelopment+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	eyeshadow	eyeshadow	NOUN	NN	_	6	pobj	_	NN|03309687-n|Mixture+
+8	.	.	.	.	_	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10787470-n|Woman=
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	cop	_	VBZ|02604760-v|Entity+
-4	putting	put	NOUN	NN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	compound	_	VBG|01494310-v|Putting=
-5	cosmetics	cosmetic	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	NNS|03113152-n|Mixture+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	8	nmod:poss	_	PRP$|?|?
-8	eyelid	eyelid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|05313822-n|Eyelid+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	putting	put	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+5	cosmetics	cosmetic	NOUN	NNS	_	4	dobj	_	NNS|03113152-n|Mixture+
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	her	her	PRON	PRP$	_	8	poss	_	PRP$|?|?
+8	eyelid	eyelid	NOUN	NN	_	6	pobj	_	NN|05313822-n|Eyelid+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

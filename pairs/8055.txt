@@ -8,25 +8,25 @@ CONCEPTS B: HumanYouth=,Human+,Entity+,SittingDown+,Swimming+,Gear=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	ADJ	JJ	Number=Sing|fPOS=PROPN++NNP	3	amod	_	JJ|01646941-a|HumanYouth=
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10129825-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
-5	sitting	sit	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	swimsuit	swimsuit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|04371563-n|Clothing+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	swimsuit	swimsuit	NOUN	NN	_	6	pobj	_	NN|04371563-n|Clothing+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	ADJ	JJ	Number=Sing|fPOS=PROPN++NNP	3	amod	_	JJ|01646941-a|HumanYouth=
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10129825-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	sitting	sit	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	swimming	swim	VERB	VBG	Number=Sing|fPOS=NOUN++NN	8	amod	_	VBG|01960911-v|Swimming+
-8	gear	gear	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|03430551-n|Gear=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	swimming	swim	NOUN	NN	_	8	nn	_	VBG|01960911-v|Swimming+
+8	gear	gear	NOUN	NN	_	6	pobj	_	NN|03430551-n|Gear=
+9	.	.	.	.	_	5	punct	_	Fp|?|?

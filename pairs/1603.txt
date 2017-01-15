@@ -8,26 +8,26 @@ CONCEPTS B: Hominid=,Attribute+,Device+,Guiding+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	typing	type	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01004692-v|Writing+
-5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	machine	machine	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02958343-n|Automobile=
-8	used	use	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	7	acl	_	VBN|01158872-v|IntentionalProcess+
-9	for	for	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-10	stenography	stenography	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|06350127-n|Procedure+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	typing	type	VERB	VBG	_	0	ROOT	_	VBG|01004692-v|Writing+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	machine	machine	NOUN	NN	_	5	pobj	_	NN|02958343-n|Automobile=
+8	used	use	VERB	VBN	_	7	partmod	_	VBN|01158872-v|IntentionalProcess+
+9	for	for	ADP	IN	_	8	prep	_	IN|?|?
+10	stenography	stenography	NOUN	NN	_	9	pobj	_	NN|06350127-n|Procedure+
+11	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	NN|02472293-n|Hominid=
-3	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02627934-v|Attribute+
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	stenograph	stenograph	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	NN|04314632-n|Device+
-6	to	to	PART	TO	fPOS=PART++TO	7	mark	_	TO|?|?
-7	operate	operate	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	5	acl	_	VB|01224744-v|Guiding+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	3	nsubj	_	NN|02472293-n|Hominid=
+3	needs	need	VERB	VBZ	_	0	ROOT	_	VBZ|02627934-v|Attribute+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	stenograph	stenograph	NOUN	NN	_	3	dobj	_	NN|04314632-n|Device+
+6	to	to	PRT	TO	_	7	aux	_	TO|?|?
+7	operate	operate	VERB	VB	_	5	infmod	_	VB|01224744-v|Guiding+
+8	.	.	.	.	_	3	punct	_	Fp|?|?

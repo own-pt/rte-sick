@@ -8,22 +8,22 @@ CONCEPTS B: Man=,Entity+,Getting+,Device+,Region@
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	playing	play	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	keyboards	keyboard	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|03614007-n|ComputerInputDevice+
-6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	keyboards	keyboard	NOUN	NNS	_	4	dobj	_	NNS|03614007-n|ComputerInputDevice+
+6	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10287213-n|Man=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	falling	fall	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02229828-v|Getting+
-5	off	off	ADP	IN	fPOS=ADP++IN	8	case	_	RP|00232936-r|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	mechanical	mechanical	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|01499686-a|Device+
-8	bull	bull	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|08686332-n|Region@
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	falling	fall	VERB	VBG	_	0	ROOT	_	VBG|02229828-v|Getting+
+5	off	off	PRT	RP	_	4	prep	_	RP|00232936-r|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	mechanical	mechanical	ADJ	JJ	_	8	amod	_	JJ|01499686-a|Device+
+8	bull	bull	NOUN	NN	_	5	pobj	_	NN|08686332-n|Region@
+9	.	.	.	.	_	4	punct	_	Fp|?|?

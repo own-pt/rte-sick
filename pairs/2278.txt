@@ -8,23 +8,23 @@ CONCEPTS B: Canine+,Entity+,SubjectiveStrongNegativeAttribute+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02084071-n|Canine+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	closing	close	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01345109-v|Closing=
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	can	can	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	MD|?|?
-7	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-8	food	food	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|05811214-n|SubjectiveAssessmentAttribute+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	closing	close	VERB	VBG	_	0	ROOT	_	VBG|01345109-v|Closing=
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	can	can	NOUN	NN	_	4	dobj	_	MD|?|?
+7	of	of	ADP	IN	_	6	prep	_	IN|?|?
+8	food	food	NOUN	NN	_	7	pobj	_	NN|05811214-n|SubjectiveAssessmentAttribute+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02084071-n|Canine+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	biting	bite	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02079313-a|SubjectiveStrongNegativeAttribute+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	can	can	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	MD|?|?
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	biting	bite	VERB	VBG	_	0	ROOT	_	VBG|02079313-a|SubjectiveStrongNegativeAttribute+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	can	can	NOUN	NN	_	4	dobj	_	MD|?|?
+7	.	.	.	.	_	4	punct	_	Fp|?|?

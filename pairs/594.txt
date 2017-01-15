@@ -8,40 +8,40 @@ CONCEPTS B: Black=,Red=,White=,Pink+,Clothing+,Entity+,Entity+,Putting+,Woman=
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
-4	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	nsubj	_	JJ|00392812-a|Black=
-5	,	,	PUNCT	,	fPOS=PUNCT++,	4	punct	_	Fc|?|?
-6	red	red	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	4	conj	_	JJ|00381097-a|Red=
-7	,	,	PUNCT	,	fPOS=PUNCT++,	4	punct	_	Fc|?|?
-8	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	4	conj	_	JJ|00393105-a|White=
-9	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-10	pink	pink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	JJ|00379595-a|Pink+
-11	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	conj	_	NN|02728440-n|Clothing+
-12	being	be	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	13	auxpass	_	VBG|02604760-v|Entity+
-13	worn	wear	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	4	advcl	_	VBN|00052374-v|Putting+
-14	by	by	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-16	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	NN|10787470-n|Woman=
-17	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	11	det	_	DT|?|?
+4	black	black	ADJ	JJ	_	11	amod	_	JJ|00392812-a|Black=
+5	,	,	.	,	_	4	punct	_	Fc|?|?
+6	red	red	ADJ	JJ	_	4	conj	_	JJ|00381097-a|Red=
+7	,	,	.	,	_	4	punct	_	Fc|?|?
+8	white	white	ADJ	JJ	_	4	conj	_	JJ|00393105-a|White=
+9	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+10	pink	pink	ADJ	JJ	_	4	conj	_	JJ|00379595-a|Pink+
+11	dress	dress	NOUN	NN	_	2	nsubj	_	NN|02728440-n|Clothing+
+12	being	be	VERB	VBG	_	13	auxpass	_	VBG|02604760-v|Entity+
+13	worn	wear	VERB	VBN	_	11	partmod	_	VBN|00052374-v|Putting+
+14	by	by	ADP	IN	_	13	prep	_	IN|?|?
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	woman	woman	NOUN	NN	_	14	pobj	_	NN|10787470-n|Woman=
+17	.	.	.	.	_	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-2	black	black	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	9	amod	_	JJ|00392812-a|Black=
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
-4	red	red	ADJ	JJ	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	2	conj	_	JJ|00381097-a|Red=
-5	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
-6	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	2	conj	_	JJ|00393105-a|White=
-7	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-8	pink	pink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	JJ|00379595-a|Pink+
-9	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubjpass	_	NN|02728440-n|Clothing+
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	VBZ|02604760-v|Entity+
-11	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	12	auxpass	_	VBG|02604760-v|Entity+
-12	worn	wear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|00052374-v|Putting+
-13	by	by	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-15	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	NN|10787470-n|Woman=
-16	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	Fp|?|?
+1	A	a	DET	DT	_	9	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	9	amod	_	JJ|00392812-a|Black=
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	red	red	ADJ	JJ	_	2	conj	_	JJ|00381097-a|Red=
+5	,	,	.	,	_	2	punct	_	Fc|?|?
+6	white	white	ADJ	JJ	_	2	conj	_	JJ|00393105-a|White=
+7	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+8	pink	pink	ADJ	JJ	_	2	conj	_	JJ|00379595-a|Pink+
+9	dress	dress	NOUN	NN	_	12	nsubjpass	_	NN|02728440-n|Clothing+
+10	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+11	being	be	VERB	VBG	_	12	auxpass	_	VBG|02604760-v|Entity+
+12	worn	wear	VERB	VBN	_	0	ROOT	_	VBN|00052374-v|Putting+
+13	by	by	ADP	IN	_	12	prep	_	IN|?|?
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	woman	woman	NOUN	NN	_	13	pobj	_	NN|10787470-n|Woman=
+16	.	.	.	.	_	12	punct	_	Fp|?|?

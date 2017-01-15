@@ -8,31 +8,31 @@ CONCEPTS B: Human=,Entity+,PhysicalAttribute+,SubjectiveWeakNegativeAttribute+,F
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-5	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	vast	vast	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|01387319-a|SubjectiveWeakNegativeAttribute+
-8	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|05996646-n|FieldOfStudy=
-9	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	glacial	glacial	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	JJ|01258264-a|SubjectiveWeakNegativeAttribute+
-11	ice	ice	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|14915184-n|Solid+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	vast	vast	ADJ	JJ	_	8	amod	_	JJ|01387319-a|SubjectiveWeakNegativeAttribute+
+8	field	field	NOUN	NN	_	5	pobj	_	NN|05996646-n|FieldOfStudy=
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	glacial	glacial	ADJ	JJ	_	11	amod	_	JJ|01258264-a|SubjectiveWeakNegativeAttribute+
+11	ice	ice	NOUN	NN	_	9	pobj	_	NN|14915184-n|Solid+
+12	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-5	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	vast	vast	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|01387319-a|SubjectiveWeakNegativeAttribute+
-8	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|05996646-n|FieldOfStudy=
-9	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	glacial	glacial	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	JJ|01258264-a|SubjectiveWeakNegativeAttribute+
-11	ice	ice	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|14915184-n|Solid+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	vast	vast	ADJ	JJ	_	8	amod	_	JJ|01387319-a|SubjectiveWeakNegativeAttribute+
+8	field	field	NOUN	NN	_	5	pobj	_	NN|05996646-n|FieldOfStudy=
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	glacial	glacial	ADJ	JJ	_	11	amod	_	JJ|01258264-a|SubjectiveWeakNegativeAttribute+
+11	ice	ice	NOUN	NN	_	9	pobj	_	NN|14915184-n|Solid+
+12	.	.	.	.	_	4	punct	_	Fp|?|?

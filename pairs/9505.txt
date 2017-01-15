@@ -8,23 +8,23 @@ CONCEPTS B: Human+,SocialRole+,Entity+,SubjectiveStrongNegativeAttribute+,Plant+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	compound	_	JJ|00245112-a|Human+
-3	puppy	puppy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10493835-n|SocialRole+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	biting	bite	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02079313-a|SubjectiveStrongNegativeAttribute+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	pole	pole	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|13650921-n|LengthMeasure@
-8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	puppy	puppy	NOUN	NN	_	5	nsubj	_	NN|10493835-n|SocialRole+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	biting	bite	VERB	VBG	_	0	ROOT	_	VBG|02079313-a|SubjectiveStrongNegativeAttribute+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	pole	pole	NOUN	NN	_	5	dobj	_	NN|13650921-n|LengthMeasure@
+8	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	compound	_	JJ|00245112-a|Human+
-3	puppy	puppy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10493835-n|SocialRole+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	biting	bite	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02079313-a|SubjectiveStrongNegativeAttribute+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	stick	stick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|04317420-n|Plant+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	puppy	puppy	NOUN	NN	_	5	nsubj	_	NN|10493835-n|SocialRole+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	biting	bite	VERB	VBG	_	0	ROOT	_	VBG|02079313-a|SubjectiveStrongNegativeAttribute+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	stick	stick	NOUN	NN	_	5	dobj	_	NN|04317420-n|Plant+
+8	.	.	.	.	_	5	punct	_	Fp|?|?

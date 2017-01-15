@@ -8,25 +8,25 @@ CONCEPTS B: SubjectiveWeakPositiveAttribute+,Duck=,Entity+,Process+,TextureAttri
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	seabird	seabird	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02021795-n|Bird+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	flying	fly	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01941093-v|FlyingAircraft=
-5	over	over	ADP	IN	fPOS=ADP++IN	7	case	_	RP|00226550-r|SubjectiveAssessmentAttribute+
-6	some	some	DET	DT	fPOS=DET++DT	7	det	_	DT|?|?
-7	rocks	rock	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|14696793-n|Mineral+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	seabird	seabird	NOUN	NN	_	4	nsubj	_	NN|02021795-n|Bird+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	flying	fly	VERB	VBG	_	0	ROOT	_	VBG|01941093-v|FlyingAircraft=
+5	over	over	ADP	IN	_	4	prep	_	RP|00226550-r|SubjectiveAssessmentAttribute+
+6	some	some	DET	DT	_	7	det	_	DT|?|?
+7	rocks	rock	NOUN	NNS	_	5	pobj	_	NNS|14696793-n|Mineral+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-3	duck	duck	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|01846331-n|Duck=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	perching	perch	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01978700-v|Process+
-6	over	over	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	rocky	rocky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	amod	_	JJ|02243567-a|TextureAttribute+
-9	stream	stream	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|09448361-n|StreamWaterArea=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	duck	duck	NOUN	NN	_	5	nsubj	_	NN|01846331-n|Duck=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	perching	perch	VERB	VBG	_	0	ROOT	_	VBG|01978700-v|Process+
+6	over	over	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	rocky	rocky	ADJ	JJ	_	9	amod	_	JJ|02243567-a|TextureAttribute+
+9	stream	stream	NOUN	NN	_	6	pobj	_	NN|09448361-n|StreamWaterArea=
+10	.	.	.	.	_	5	punct	_	Fp|?|?

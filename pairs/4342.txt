@@ -8,21 +8,21 @@ CONCEPTS B: Hominid=,Entity+,Process+,FruitOrVegetable=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01157517-v|Process+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	banana	banana	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|07753592-n|Banana=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	banana	banana	NOUN	NN	_	4	dobj	_	NN|07753592-n|Banana=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01157517-v|Process+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	fruit	fruit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|13134947-n|FruitOrVegetable=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	fruit	fruit	NOUN	NN	_	4	dobj	_	NN|13134947-n|FruitOrVegetable=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

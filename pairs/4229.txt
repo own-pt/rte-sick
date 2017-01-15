@@ -8,19 +8,19 @@ CONCEPTS B: Human+,Entity+,DramaticActing+,Guitar=
 
 CONLL A:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02472293-n|Hominid=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	guitar	guitar	NOUN	NN	fPOS=ADV++RB	4	xcomp	_	NN|03467517-n|Guitar=
-6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+6	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	Z|?|?
-2	girls	girl	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|10129825-n|Human+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	guitar	guitar	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	xcomp	_	NN|03467517-n|Guitar=
-6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	girls	girl	NOUN	NNS	_	4	nsubj	_	NNS|10129825-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+6	.	.	.	.	_	4	punct	_	Fp|?|?

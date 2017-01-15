@@ -8,19 +8,19 @@ CONCEPTS B: Device+,Entity+,PhysicalAttribute+
 
 CONLL A:
 
-1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	animated	animate	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	3	amod	_	VBN|01812720-v|IntentionalPsychologicalProcess+
-3	airplane	airplane	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02691156-n|Airplane=
-4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	VBZ|02604760-v|Entity+
-5	landing	landing	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	NN|00052500-n|Motion+
-6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	An	a	DET	DT	_	3	det	_	DT|?|?
+2	animated	animate	ADJ	JJ	_	3	amod	_	VBN|01812720-v|IntentionalPsychologicalProcess+
+3	airplane	airplane	NOUN	NN	_	5	nsubj	_	NN|02691156-n|Airplane=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	landing	landing	VERB	VBG	_	0	ROOT	_	NN|00052500-n|Motion+
+6	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	plane	plane	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|03954731-n|Device+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
-5	off	off	ADP	RP	fPOS=ADP++RP	4	compound:prt	_	RP|00232936-r|?
-6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	plane	plane	NOUN	NN	_	4	nsubj	_	NN|03954731-n|Device+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	taking	take	VERB	VBG	_	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
+5	off	off	PRT	RP	_	4	prt	_	RP|00232936-r|?
+6	.	.	.	.	_	4	punct	_	Fp|?|?

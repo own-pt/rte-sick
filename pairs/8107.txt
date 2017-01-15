@@ -8,35 +8,35 @@ CONCEPTS B: top+,Woman=,Entity+,Entity+,SurfaceChange+,Human+,SubjectiveAssessme
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	DT|?|?
-4	topless	topless	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	JJ|02442082-a|top+
-5	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|10787470-n|Woman=
-6	covered	cover	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	5	acl	_	VBN|01332730-v|Covering+
-7	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-8	mud	mud	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|14956325-n|Soil=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	topless	topless	ADJ	JJ	_	5	amod	_	JJ|02442082-a|top+
+5	woman	woman	NOUN	NN	_	2	nsubj	_	NN|10787470-n|Woman=
+6	covered	cover	VERB	VBN	_	5	partmod	_	VBN|01332730-v|Covering+
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	mud	mud	NOUN	NN	_	7	pobj	_	NN|14956325-n|Soil=
+9	.	.	.	.	_	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	topless	topless	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|02442082-a|top+
-3	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubjpass	_	NN|10787470-n|Woman=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-5	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	6	auxpass	_	VBG|02604760-v|Entity+
-6	smeared	smear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|01252425-v|SurfaceChange+
-7	with	with	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-9	brown	brown	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	JJ|00245112-a|Human+
-10	substance	substance	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|05921123-n|SubjectiveAssessmentAttribute+
-11	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-13	blurry	blurry	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	14	compound	_	JJ|00781644-a|VisualAttribute+
-14	crowd	crowd	NOUN	NN	Number=Sing|fPOS=NOUN++NN	18	nsubj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
-15	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	18	cop	_	VBZ|02604760-v|Entity+
-16	in	in	ADP	IN	fPOS=ADP++IN	18	case	_	IN|?|?
-17	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	18	det	_	DT|?|?
-18	background	background	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	conj	_	NN|14513259-n|Region+
-19	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	topless	topless	ADJ	JJ	_	3	amod	_	JJ|02442082-a|top+
+3	woman	woman	NOUN	NN	_	6	nsubjpass	_	NN|10787470-n|Woman=
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	being	be	VERB	VBG	_	6	auxpass	_	VBG|02604760-v|Entity+
+6	smeared	smear	VERB	VBN	_	0	ROOT	_	VBN|01252425-v|SurfaceChange+
+7	with	with	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	brown	brown	ADJ	JJ	_	10	amod	_	JJ|00245112-a|Human+
+10	substance	substance	NOUN	NN	_	7	pobj	_	NN|05921123-n|SubjectiveAssessmentAttribute+
+11	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+12	a	a	DET	DT	_	14	det	_	DT|?|?
+13	blurry	blurry	NOUN	NN	_	14	amod	_	JJ|00781644-a|VisualAttribute+
+14	crowd	crowd	NOUN	NN	_	15	nsubj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+15	is	be	VERB	VBZ	_	6	conj	_	VBZ|02604760-v|Entity+
+16	in	in	ADP	IN	_	15	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	background	background	NOUN	NN	_	16	pobj	_	NN|14513259-n|Region+
+19	.	.	.	.	_	6	punct	_	Fp|?|?

@@ -8,26 +8,26 @@ CONCEPTS B: SubjectiveStrongPositiveAttribute+,Musician+,Entity+,Dancing+,Ceilin
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	6	neg	_	DT|?|?
-4	famous	famous	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|01375831-a|SubjectiveStrongPositiveAttribute+
-5	singer	singer	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	NN|10599806-n|Musician+
-6	dancing	dance	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	VBG|01708676-v|Dancing+
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	ceiling	ceiling	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|02990373-n|Ceiling=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	6	det	_	DT|?|?
+4	famous	famous	ADJ	JJ	_	6	amod	_	JJ|01375831-a|SubjectiveStrongPositiveAttribute+
+5	singer	singer	NOUN	NN	_	6	nn	_	NN|10599806-n|Musician+
+6	dancing	dance	VERB	VBG	_	2	nsubj	_	VBG|01708676-v|Dancing+
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	ceiling	ceiling	NOUN	NN	_	7	pobj	_	NN|02990373-n|Ceiling=
+10	.	.	.	.	_	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	famous	famous	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01375831-a|SubjectiveStrongPositiveAttribute+
-3	singer	singer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10599806-n|Musician+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	dancing	dance	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01708676-v|Dancing+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	ceiling	ceiling	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02990373-n|Ceiling=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	famous	famous	ADJ	JJ	_	3	amod	_	JJ|01375831-a|SubjectiveStrongPositiveAttribute+
+3	singer	singer	NOUN	NN	_	5	nsubj	_	NN|10599806-n|Musician+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	ceiling	ceiling	NOUN	NN	_	6	pobj	_	NN|02990373-n|Ceiling=
+9	.	.	.	.	_	5	punct	_	Fp|?|?

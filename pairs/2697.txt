@@ -8,24 +8,24 @@ CONCEPTS B: Hominid=,Entity+,DramaticActing+,Guitar=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	gracefully	gracefully	ADV	RB	fPOS=ADV++RB	5	advmod	_	RB|00194156-r|SubjectiveAssessmentAttribute+
-5	singing	sing	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
-6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-7	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	VBG|01719302-v|DramaticActing+
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	NN|03467517-n|Guitar=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	gracefully	gracefully	ADV	RB	_	5	advmod	_	RB|00194156-r|SubjectiveAssessmentAttribute+
+5	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	playing	play	VERB	VBG	_	5	conj	_	VBG|01719302-v|DramaticActing+
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	guitar	guitar	NOUN	NN	_	7	dobj	_	NN|03467517-n|Guitar=
+10	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03467517-n|Guitar=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

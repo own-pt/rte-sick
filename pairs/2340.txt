@@ -8,27 +8,27 @@ CONCEPTS B: Woman=,Entity+,Separating+,Carrot=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	oriental	oriental	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00825807-a|Asia+
-3	lady	lady	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|09989290-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	cutting	cut	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01552519-v|Cutting+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	carrot	carrot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|07730207-n|Carrot=
-8	into	into	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-9	pieces	piece	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	NNS|07037465-n|MusicalComposition=
-10	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	12	nsubj	_	WDT|?|?
-11	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	12	cop	_	VBP|02604760-v|Entity+
-12	thin	thin	ADV	RB	fPOS=ADV++RB	9	acl:relcl	_	JJ|00988232-a|SubjectiveWeakPositiveAttribute+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	oriental	oriental	ADJ	JJ	_	3	amod	_	JJ|00825807-a|Asia+
+3	lady	lady	NOUN	NN	_	5	nsubj	_	NN|09989290-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|01552519-v|Cutting+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	carrot	carrot	NOUN	NN	_	5	dobj	_	NN|07730207-n|Carrot=
+8	into	into	ADP	IN	_	5	prep	_	IN|?|?
+9	pieces	piece	NOUN	NNS	_	8	pobj	_	NNS|07037465-n|MusicalComposition=
+10	that	that	DET	WDT	_	12	nsubj	_	WDT|?|?
+11	are	be	VERB	VBP	_	12	cop	_	VBP|02604760-v|Entity+
+12	thin	thin	ADJ	JJ	_	9	rcmod	_	JJ|00988232-a|SubjectiveWeakPositiveAttribute+
+13	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	slicing	slice	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01254477-v|Separating+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	carrot	carrot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|07730207-n|Carrot=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	carrot	carrot	NOUN	NN	_	4	dobj	_	NN|07730207-n|Carrot=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

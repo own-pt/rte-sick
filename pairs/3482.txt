@@ -8,43 +8,43 @@ CONCEPTS B: LengthMeasure@,Entity+,SubjectiveAssessmentAttribute+,SubjectiveStro
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00393105-a|White=
-3	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	NN|02985606-n|Whip+
-4	perched	perch	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	3	acl	_	VBN|01978700-v|Process+
-5	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-7	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-8	wooden	wooden	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	JJ|01141595-a|SubjectiveAssessmentAttribute+
-9	cabinet	cabinet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02933112-n|ChestOrCabinet+
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	VBZ|02604760-v|Entity+
-11	looking	look	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
-12	outside	outside	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-14	window	window	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|04587648-n|Window=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	cat	cat	NOUN	NN	_	11	nsubj	_	NN|02985606-n|Whip+
+4	perched	perch	VERB	VBN	_	3	partmod	_	VBN|01978700-v|Process+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	9	det	_	DT|?|?
+7	small	small	ADJ	JJ	_	9	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+8	wooden	wooden	ADJ	JJ	_	9	amod	_	JJ|01141595-a|SubjectiveAssessmentAttribute+
+9	cabinet	cabinet	NOUN	NN	_	5	pobj	_	NN|02933112-n|ChestOrCabinet+
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+12	outside	outside	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	window	window	NOUN	NN	_	12	pobj	_	NN|04587648-n|Window=
+15	.	.	.	.	_	11	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	PRP|?|?
-2	on	on	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-3	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-4	perch	perch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	1	nmod	_	NN|13650921-n|LengthMeasure@
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
-7	at	at	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-9	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-10	wooden	wooden	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	11	amod	_	JJ|01141595-a|SubjectiveAssessmentAttribute+
-11	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|02985606-n|Whip+
-12	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	17	nsubj	_	WDT|?|?
-13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	17	cop	_	VBZ|02604760-v|Entity+
-14	on	on	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
-15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	DT|?|?
-16	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	JJ|00393105-a|White=
-17	cabinet	cabinet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	acl:relcl	_	NN|02933112-n|ChestOrCabinet+
-18	outside	outside	ADP	IN	fPOS=ADP++IN	20	case	_	IN|?|?
-19	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	20	det	_	DT|?|?
-20	window	window	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	nmod	_	NN|04587648-n|Window=
-21	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	Someone	someone	NOUN	NN	_	6	nsubj	_	PRP|?|?
+2	on	on	ADP	IN	_	1	prep	_	IN|?|?
+3	a	a	DET	DT	_	4	det	_	DT|?|?
+4	perch	perch	NOUN	NN	_	2	pobj	_	NN|13650921-n|LengthMeasure@
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+7	at	at	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	11	det	_	DT|?|?
+9	small	small	ADJ	JJ	_	11	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+10	wooden	wooden	ADJ	JJ	_	11	amod	_	JJ|01141595-a|SubjectiveAssessmentAttribute+
+11	cat	cat	NOUN	NN	_	7	pobj	_	NN|02985606-n|Whip+
+12	that	that	DET	WDT	_	13	nsubj	_	WDT|?|?
+13	is	be	VERB	VBZ	_	11	rcmod	_	VBZ|02604760-v|Entity+
+14	on	on	ADP	IN	_	13	prep	_	IN|?|?
+15	a	a	DET	DT	_	17	det	_	DT|?|?
+16	white	white	ADJ	JJ	_	17	amod	_	JJ|00393105-a|White=
+17	cabinet	cabinet	NOUN	NN	_	14	pobj	_	NN|02933112-n|ChestOrCabinet+
+18	outside	outside	ADP	IN	_	17	prep	_	IN|?|?
+19	the	the	DET	DT	_	20	det	_	DT|?|?
+20	window	window	NOUN	NN	_	18	pobj	_	NN|04587648-n|Window=
+21	.	.	.	.	_	6	punct	_	Fp|?|?

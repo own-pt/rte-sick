@@ -8,26 +8,26 @@ CONCEPTS B: Woman=,Entity+,Separating+,Green=,SpicePepper=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10787470-n|Woman=
-3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	knife	knife	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03623556-n|CuttingDevice+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-7	not	not	PART	RB	fPOS=PART++RB	8	neg	_	RB|00024073-r|not=
-8	slicing	slice	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01254477-v|Separating+
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	pepper	pepper	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	NN|07815588-n|SpicePepper=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	8	nsubj	_	NN|10787470-n|Woman=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	the	the	DET	DT	_	5	det	_	DT|?|?
+5	knife	knife	NOUN	NN	_	3	pobj	_	NN|03623556-n|CuttingDevice+
+6	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+7	not	not	ADV	RB	_	8	neg	_	RB|00024073-r|not=
+8	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	pepper	pepper	NOUN	NN	_	8	dobj	_	NN|07815588-n|SpicePepper=
+11	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	slicing	slice	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01254477-v|Separating+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|00375969-a|Green=
-7	pepper	pepper	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|07815588-n|SpicePepper=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	green	green	ADJ	JJ	_	7	amod	_	JJ|00375969-a|Green=
+7	pepper	pepper	NOUN	NN	_	4	dobj	_	NN|07815588-n|SpicePepper=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

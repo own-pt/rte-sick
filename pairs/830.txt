@@ -8,32 +8,32 @@ CONCEPTS B: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,DramaticActin
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	kid	kid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|09917593-n|HumanChild=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-6	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|00468480-n|Football+
-7	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-8	falling	fall	VERB	VBG	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	5	conj	_	VBG|02229828-v|Getting+
-9	harmlessly	harmlessly	ADV	RB	fPOS=ADV++RB	8	advmod	_	RB|00310036-r|Damaging[
-10	into	into	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|12102133-n|Grass=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	kid	kid	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	football	football	NOUN	NN	_	5	dobj	_	NN|00468480-n|Football+
+7	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+8	falling	fall	VERB	VBG	_	5	conj	_	VBG|02229828-v|Getting+
+9	harmlessly	harmlessly	ADV	RB	_	8	advmod	_	RB|00310036-r|Damaging[
+10	into	into	ADP	IN	_	8	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	grass	grass	NOUN	NN	_	10	pobj	_	NN|12102133-n|Grass=
+13	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	kid	kid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|09917593-n|HumanChild=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-6	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|00468480-n|Football+
-7	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-8	falling	fall	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	VBG|02229828-v|Getting+
-9	into	into	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|12102133-n|Grass=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	kid	kid	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	football	football	NOUN	NN	_	5	dobj	_	NN|00468480-n|Football+
+7	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+8	falling	fall	VERB	VBG	_	5	conj	_	VBG|02229828-v|Getting+
+9	into	into	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	grass	grass	NOUN	NN	_	9	pobj	_	NN|12102133-n|Grass=
+12	.	.	.	.	_	5	punct	_	Fp|?|?

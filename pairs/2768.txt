@@ -8,22 +8,22 @@ CONCEPTS B: Man=,Woman=,Entity+,Speaking+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10287213-n|Man=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	NN|10787470-n|Woman=
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	VBP|02604760-v|Entity+
-7	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01157517-v|Process+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|10287213-n|Man=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	woman	woman	NOUN	NN	_	2	conj	_	NN|10787470-n|Woman=
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+8	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|10287213-n|Man=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	NN|10787470-n|Woman=
-5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	VBP|02604760-v|Entity+
-6	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00941990-v|Speaking+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	6	nsubj	_	NN|10287213-n|Man=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	woman	woman	NOUN	NN	_	2	conj	_	NN|10787470-n|Woman=
+5	are	be	VERB	VBP	_	6	aux	_	VBP|02604760-v|Entity+
+6	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+7	.	.	.	.	_	6	punct	_	Fp|?|?

@@ -8,30 +8,30 @@ CONCEPTS B: HumanChild=,Entity+,EmotionalState+,DramaticActing+,RecreationOrExer
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|12102133-n|Grass=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-9	drinking	drink	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|01171183-v|Drinking+
-10	from	from	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-12	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	compound	_	NN|14845743-n|Water=
-13	bottle	bottle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|02876657-n|Bottle=
-14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	grass	grass	NOUN	NN	_	5	pobj	_	NN|12102133-n|Grass=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	drinking	drink	VERB	VBG	_	4	conj	_	VBG|01171183-v|Drinking+
+10	from	from	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	water	water	NOUN	NN	_	13	nn	_	NN|14845743-n|Water=
+13	bottle	bottle	NOUN	NN	_	10	pobj	_	NN|02876657-n|Bottle=
+14	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|09917593-n|HumanChild=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	delightedly	delightedly	ADV	RB	fPOS=ADV++RB	5	advmod	_	RB|00299334-r|EmotionalState+
-5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-6	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	toys	toy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	compound	_	NNS|03964744-n|RecreationOrExerciseDevice+
-8	outdoors	outdoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	RB|00110659-r|Outdoors+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	delightedly	delightedly	ADV	RB	_	5	advmod	_	RB|00299334-r|EmotionalState+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	toys	toy	NOUN	NNS	_	6	pobj	_	NNS|03964744-n|RecreationOrExerciseDevice+
+8	outdoors	outdoors	ADV	RB	_	5	advmod	_	RB|00110659-r|Outdoors+
+9	.	.	.	.	_	5	punct	_	Fp|?|?

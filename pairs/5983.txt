@@ -8,32 +8,32 @@ CONCEPTS B: Crane=,Entity+,SubjectiveWeakPositiveAttribute+,White=,Entity+,Flyin
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-3	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	4	amod	_	JJ|00393105-a|White=
-4	crane	crane	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|03126707-n|Crane=
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	flying	fly	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01941093-v|FlyingAircraft=
-7	near	near	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|14845743-n|Water=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	white	white	ADJ	JJ	_	4	amod	_	JJ|00393105-a|White=
+4	crane	crane	NOUN	NN	_	6	nsubj	_	NN|03126707-n|Crane=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	flying	fly	VERB	VBG	_	0	ROOT	_	VBG|01941093-v|FlyingAircraft=
+7	near	near	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	water	water	NOUN	NN	_	7	pobj	_	NN|14845743-n|Water=
+10	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	crane	crane	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	NN|03126707-n|Crane=
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
-4	which	which	PRON	WDT	PronType=Int|fPOS=PRON++WDT	6	nsubj	_	WDT|?|?
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02604760-v|Entity+
-6	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
-8	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	conj	_	JJ|00393105-a|White=
-9	,	,	PUNCT	,	fPOS=PUNCT++,	11	punct	_	Fc|?|?
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	VBZ|02604760-v|Entity+
-11	flying	fly	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01941093-v|FlyingAircraft=
-12	near	near	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-14	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|14845743-n|Water=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	crane	crane	NOUN	NN	_	11	nsubj	_	NN|03126707-n|Crane=
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	which	which	DET	WDT	_	6	nsubj	_	WDT|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	large	large	ADJ	JJ	_	2	rcmod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	white	white	ADJ	JJ	_	6	conj	_	JJ|00393105-a|White=
+9	,	,	.	,	_	2	punct	_	Fc|?|?
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	flying	fly	VERB	VBG	_	0	ROOT	_	VBG|01941093-v|FlyingAircraft=
+12	near	near	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	water	water	NOUN	NN	_	12	pobj	_	NN|14845743-n|Water=
+15	.	.	.	.	_	11	punct	_	Fp|?|?

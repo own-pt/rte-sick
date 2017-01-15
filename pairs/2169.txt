@@ -8,23 +8,23 @@ CONCEPTS B: Woman=,Entity+,Automobile=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	using	use	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01158872-v|IntentionalProcess+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	sewing	sew	VERB	VBG	Number=Sing|fPOS=NOUN++NN	7	amod	_	VBG|01329239-v|Sewing+
-7	machine	machine	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|02958343-n|Automobile=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	using	use	VERB	VBG	_	0	ROOT	_	VBG|01158872-v|IntentionalProcess+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	sewing	sew	NOUN	NN	_	7	nn	_	VBG|01329239-v|Sewing+
+7	machine	machine	NOUN	NN	_	4	dobj	_	NN|02958343-n|Automobile=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	unstitching	unstitching	VERB	VBG	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	JJ|?|?
-5	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	machine	machine	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02958343-n|Automobile=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	unstitching	unstitching	VERB	VBG	_	0	ROOT	_	JJ|?|?
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	machine	machine	NOUN	NN	_	5	pobj	_	NN|02958343-n|Automobile=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

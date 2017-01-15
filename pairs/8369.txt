@@ -8,40 +8,40 @@ CONCEPTS B: Human+,VisualAttribute+,Shirt=,Entity+,Ambulating=,FrontFn=,Water=,C
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10285313-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-5	off	off	ADP	IN	fPOS=ADP++RP	7	case	_	RP|00232936-r|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	side	side	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|08510666-n|Object+
-8	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-10	stone	stone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	NN|14696793-n|Mineral+
-11	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	NN|14845743-n|Water=
-12	fountain	fountain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|09443453-n|Creek+
-13	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-14	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|08573472-n|FrontFn=
-15	of	of	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
-16	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	DT|?|?
-17	building	building	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	NN|02913152-n|Building=
-18	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	off	off	PRT	RP	_	4	prt	_	RP|00232936-r|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	side	side	NOUN	NN	_	4	dobj	_	NN|08510666-n|Object+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	12	det	_	DT|?|?
+10	stone	stone	NOUN	NN	_	11	nn	_	NN|14696793-n|Mineral+
+11	water	water	NOUN	NN	_	12	nn	_	NN|14845743-n|Water=
+12	fountain	fountain	NOUN	NN	_	8	pobj	_	NN|09443453-n|Creek+
+13	in	in	ADP	IN	_	4	prep	_	IN|?|?
+14	front	front	NOUN	NN	_	13	pobj	_	NN|08573472-n|FrontFn=
+15	of	of	ADP	IN	_	14	prep	_	IN|?|?
+16	a	a	DET	DT	_	17	det	_	DT|?|?
+17	building	building	NOUN	NN	_	15	pobj	_	NN|02913152-n|Building=
+18	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10285313-n|Human+
-3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-5	striped	striped	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|01790807-a|VisualAttribute+
-6	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|04197391-n|Shirt=
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-8	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-9	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-10	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|03398467-n|FrontFn=
-11	of	of	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-13	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	NN|14845743-n|Water=
-14	fountain	fountain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|09443453-n|Creek+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	8	nsubj	_	NN|10285313-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	striped	striped	ADJ	JJ	_	6	amod	_	JJ|01790807-a|VisualAttribute+
+6	shirt	shirt	NOUN	NN	_	3	pobj	_	NN|04197391-n|Shirt=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	front	front	NOUN	NN	_	9	pobj	_	NN|03398467-n|FrontFn=
+11	of	of	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	14	det	_	DT|?|?
+13	water	water	NOUN	NN	_	14	nn	_	NN|14845743-n|Water=
+14	fountain	fountain	NOUN	NN	_	11	pobj	_	NN|09443453-n|Creek+
+15	.	.	.	.	_	8	punct	_	Fp|?|?

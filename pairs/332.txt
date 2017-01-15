@@ -8,25 +8,25 @@ CONCEPTS B: Group=,GroupOfPeople=,Entity+,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|00031264-n|Group=
-3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|07942152-n|GroupOfPeople=
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	cop	_	VBZ|02604760-v|Entity+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|09217230-n|ShoreArea=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	5	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	people	people	NOUN	NNS	_	3	pobj	_	NNS|07942152-n|GroupOfPeople=
+5	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	beach	beach	NOUN	NN	_	6	pobj	_	NN|09217230-n|ShoreArea=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|00031264-n|Group=
-3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|07942152-n|GroupOfPeople=
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	cop	_	VBZ|02604760-v|Entity+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	mountain	mountain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|13774404-n|SubjectiveAssessmentAttribute+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	5	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	people	people	NOUN	NNS	_	3	pobj	_	NNS|07942152-n|GroupOfPeople=
+5	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	mountain	mountain	NOUN	NN	_	6	pobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+9	.	.	.	.	_	5	punct	_	Fp|?|?

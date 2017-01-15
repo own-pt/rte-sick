@@ -8,45 +8,45 @@ CONCEPTS B: Entity+,Canine+,Entity+,Organism+,Black=,BackFn=,LandArea=,Transport
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nsubj	_	NN|02084071-n|Canine+
-3	next	next	ADV	RB	fPOS=ADV++RB	2	advmod	_	JJ|01294975-a|Position+
-4	to	to	ADP	IN	fPOS=ADP++IN	6	case	_	TO|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|13912260-n|ContentBearingObject+
-7	,	,	PUNCT	,	fPOS=PUNCT++,	6	punct	_	Fc|?|?
-8	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	12	nsubj	_	WDT|?|?
-9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	12	cop	_	VBZ|02604760-v|Entity+
-10	probably	probably	ADV	RB	fPOS=ADV++RB	12	advmod	_	RB|00296131-r|SubjectiveAssessmentAttribute+
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	pine	pine	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	acl:relcl	_	NN|11608250-n|PineTree=
-13	,	,	PUNCT	,	fPOS=PUNCT++,	15	punct	_	Fc|?|?
-14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	15	aux	_	VBZ|02604760-v|Entity+
-15	biting	bite	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02079313-a|SubjectiveStrongNegativeAttribute+
-16	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	DT|?|?
-17	bucket	bucket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	dobj	_	NN|02909870-n|Container+
-18	.	.	PUNCT	.	fPOS=PUNCT++.	15	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	15	nsubj	_	NN|02084071-n|Canine+
+3	next	next	ADV	RB	_	2	advmod	_	JJ|01294975-a|Position+
+4	to	to	ADP	IN	_	3	prep	_	TO|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	tree	tree	NOUN	NN	_	4	pobj	_	NN|13912260-n|ContentBearingObject+
+7	,	,	.	,	_	2	punct	_	Fc|?|?
+8	which	which	DET	WDT	_	12	nsubj	_	WDT|?|?
+9	is	be	VERB	VBZ	_	12	cop	_	VBZ|02604760-v|Entity+
+10	probably	probably	ADV	RB	_	12	advmod	_	RB|00296131-r|SubjectiveAssessmentAttribute+
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	pine	pine	NOUN	NN	_	2	rcmod	_	NN|11608250-n|PineTree=
+13	,	,	.	,	_	15	punct	_	Fc|?|?
+14	is	be	VERB	VBZ	_	15	aux	_	VBZ|02604760-v|Entity+
+15	biting	bite	VERB	VBG	_	0	ROOT	_	VBG|02079313-a|SubjectiveStrongNegativeAttribute+
+16	a	a	DET	DT	_	17	det	_	DT|?|?
+17	bucket	bucket	NOUN	NN	_	15	dobj	_	NN|02909870-n|Container+
+18	.	.	.	.	_	15	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
-4	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|02084071-n|Canine+
-5	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	7	nsubj	_	WDT|?|?
-6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	cop	_	VBZ|02604760-v|Entity+
-7	furry	furry	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	acl:relcl	_	JJ|00214001-a|Organism+
-8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
-9	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	conj	_	JJ|00392812-a|Black=
-10	in	in	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-12	back	back	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	compound	_	JJ|00197576-a|BackFn=
-13	yard	yard	SCONJ	IN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|04610879-n|LandArea=
-14	carrying	carry	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	13	acl	_	VBG|01449974-v|Transportation+
-15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-16	basket	basket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	NN|02801938-n|Container+
-17	in	in	ADP	IN	fPOS=ADP++IN	19	case	_	IN|?|?
-18	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	19	nmod:poss	_	PRP$|?|?
-19	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	NN|05302499-n|Mouth+
-20	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	dog	dog	NOUN	NN	_	2	nsubj	_	NN|02084071-n|Canine+
+5	which	which	DET	WDT	_	7	nsubj	_	WDT|?|?
+6	is	be	VERB	VBZ	_	7	cop	_	VBZ|02604760-v|Entity+
+7	furry	furry	ADJ	JJ	_	4	rcmod	_	JJ|00214001-a|Organism+
+8	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+9	black	black	ADJ	JJ	_	7	conj	_	JJ|00392812-a|Black=
+10	in	in	ADP	IN	_	7	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	back	back	NOUN	NN	_	13	nn	_	JJ|00197576-a|BackFn=
+13	yard	yard	NOUN	NN	_	10	pobj	_	NN|04610879-n|LandArea=
+14	carrying	carry	VERB	VBG	_	13	partmod	_	VBG|01449974-v|Transportation+
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	basket	basket	NOUN	NN	_	14	dobj	_	NN|02801938-n|Container+
+17	in	in	ADP	IN	_	14	prep	_	IN|?|?
+18	its	its	PRON	PRP$	_	19	poss	_	PRP$|?|?
+19	mouth	mouth	NOUN	NN	_	17	pobj	_	NN|05302499-n|Mouth+
+20	.	.	.	.	_	2	punct	_	Fp|?|?

@@ -8,22 +8,22 @@ CONCEPTS B: SocialRole+,Entity+,Putting+,Soccer=,Human+
 
 CONLL A:
 
-1	Rugby	rugby	PROPN	NNP	fPOS=ADP++IN	2	amod	_	NN|00470966-n|Rugby=
-2	players	player	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|10439851-n|Human+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	tackling	tackle	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01491697-v|Putting+
-5	each	each	DET	DT	fPOS=DET++DT	6	det	_	DT|?|?
-6	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	dobj	_	JJ|02069355-a|equal+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Rugby	rugby	NOUN	NN	_	2	nn	_	NN|00470966-n|Rugby=
+2	players	player	NOUN	NNS	_	4	nsubj	_	NNS|10439851-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	tackling	tackle	VERB	VBG	_	0	ROOT	_	VBG|01491697-v|Putting+
+5	each	each	DET	DT	_	6	det	_	DT|?|?
+6	other	other	ADJ	JJ	_	4	dobj	_	JJ|02069355-a|equal+
+7	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	opponent	opponent	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10379620-n|SocialRole+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	tackling	tackle	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01491697-v|Putting+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	soccer	soccer	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	7	compound	_	NN|00478262-n|Soccer=
-7	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|10439851-n|Human+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	An	a	DET	DT	_	2	det	_	DT|?|?
+2	opponent	opponent	NOUN	NN	_	4	nsubj	_	NN|10379620-n|SocialRole+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	tackling	tackle	VERB	VBG	_	0	ROOT	_	VBG|01491697-v|Putting+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	soccer	soccer	NOUN	NN	_	7	nn	_	NN|00478262-n|Soccer=
+7	player	player	NOUN	NN	_	4	dobj	_	NN|10439851-n|Human+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

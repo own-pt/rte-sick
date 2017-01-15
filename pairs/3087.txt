@@ -8,19 +8,19 @@ CONCEPTS B: Woman=,Entity+,Cutting+,Garlic=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	VBZ|02604760-v|Entity+
-4	storing	store	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	VBG|02281093-v|Keeping=
-5	broccoli	broccoli	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|11876803-n|FloweringPlant+
-6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	storing	store	VERB	VBG	_	0	ROOT	_	VBG|02281093-v|Keeping=
+5	broccoli	broccoli	NOUN	NN	_	4	dobj	_	NN|11876803-n|FloweringPlant+
+6	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	chopping	chop	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01258091-v|Cutting+
-5	garlic	garlic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	xcomp	_	NN|07818277-n|Garlic=
-6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	chopping	chop	VERB	VBG	_	0	ROOT	_	VBG|01258091-v|Cutting+
+5	garlic	garlic	NOUN	NN	_	4	dobj	_	NN|07818277-n|Garlic=
+6	.	.	.	.	_	4	punct	_	Fp|?|?

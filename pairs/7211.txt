@@ -8,35 +8,35 @@ CONCEPTS B: Entity+,Canine+,SubjectiveStrongNegativeAttribute+,Blanket+,Attribut
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	NN|02084071-n|Canine+
-3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	muzzle	muzzle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03469687-n|GunBarrel+
-6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	blue	blue	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	compound	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
-9	jacket	jacket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	NN|03589791-n|Coat=
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	VBZ|02604760-v|Entity+
-11	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-12	around	around	ADP	IN	fPOS=ADP++IN	14	case	_	RP|00007015-r|?
-13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-14	yard	yard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|04610879-n|LandArea=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	11	nsubj	_	NN|02084071-n|Canine+
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	muzzle	muzzle	NOUN	NN	_	3	pobj	_	NN|03469687-n|GunBarrel+
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	blue	blue	ADJ	JJ	_	9	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+9	jacket	jacket	NOUN	NN	_	5	conj	_	NN|03589791-n|Coat=
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+12	around	around	ADP	IN	_	11	prep	_	RP|00007015-r|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	yard	yard	NOUN	NN	_	12	pobj	_	NN|04610879-n|LandArea=
+15	.	.	.	.	_	11	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
-4	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|02084071-n|Canine+
-5	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
-8	blanket	blanket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02849154-n|Blanket+
-9	running	run	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	8	acl	_	VBG|01525666-v|Attribute+
-10	through	through	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|12102133-n|Grass=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	dog	dog	NOUN	NN	_	2	nsubj	_	NN|02084071-n|Canine+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	blue	blue	ADJ	JJ	_	8	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+8	blanket	blanket	NOUN	NN	_	5	pobj	_	NN|02849154-n|Blanket+
+9	running	run	VERB	VBG	_	8	partmod	_	VBG|01525666-v|Attribute+
+10	through	through	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	grass	grass	NOUN	NN	_	10	pobj	_	NN|12102133-n|Grass=
+13	.	.	.	.	_	2	punct	_	Fp|?|?

@@ -8,36 +8,36 @@ CONCEPTS B: Black=,White=,Canine+,Entity+,EmotionalState+,Attribute+,Grass=
 
 CONLL A:
 
-1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	Z|?|?
-2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00393105-a|White=
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|02084071-n|Canine+
-4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	CC|?|?
-5	one	1	NUM	CD	NumType=Card|fPOS=NUM++CD	7	nummod	_	Z|?|?
-6	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|00392812-a|Black=
-7	one	1	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	conj	_	Z|?|?
-8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	9	aux	_	VBP|02655135-v|PhysicalAttribute+
-9	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-10	side	side	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	xcomp	_	NN|08510666-n|Object+
-11	by	by	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-12	side	side	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|08510666-n|Object+
-13	on	on	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-15	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|12102133-n|Grass=
-16	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	One	1	NUM	CD	_	3	num	_	Z|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	dog	dog	NOUN	NN	_	9	nsubj	_	NN|02084071-n|Canine+
+4	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+5	one	1	NUM	CD	_	7	num	_	Z|?|?
+6	black	black	ADJ	JJ	_	7	amod	_	JJ|00392812-a|Black=
+7	one	1	NUM	CD	_	3	conj	_	Z|?|?
+8	are	be	VERB	VBP	_	9	aux	_	VBP|02655135-v|PhysicalAttribute+
+9	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+10	side	side	NOUN	NN	_	9	dobj	_	NN|08510666-n|Object+
+11	by	by	ADP	IN	_	10	prep	_	IN|?|?
+12	side	side	NOUN	NN	_	11	pobj	_	NN|08510666-n|Object+
+13	on	on	ADP	IN	_	9	prep	_	IN|?|?
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	grass	grass	NOUN	NN	_	13	pobj	_	NN|12102133-n|Grass=
+16	.	.	.	.	_	9	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-2	black	black	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	JJ|00392812-a|Black=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	conj	_	DT|?|?
-5	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|00393105-a|White=
-6	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|02084071-n|Canine+
-7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	9	aux	_	VBP|02604760-v|Entity+
-8	joyfully	joyfully	ADV	RB	fPOS=ADV++RB	9	advmod	_	RB|00348247-r|EmotionalState+
-9	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-10	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|12102133-n|Grass=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	9	nsubj	_	JJ|00392812-a|Black=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	_	6	amod	_	JJ|00393105-a|White=
+6	dog	dog	NOUN	NN	_	2	conj	_	NN|02084071-n|Canine+
+7	are	be	VERB	VBP	_	9	aux	_	VBP|02604760-v|Entity+
+8	joyfully	joyfully	ADV	RB	_	9	advmod	_	RB|00348247-r|EmotionalState+
+9	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	grass	grass	NOUN	NN	_	10	pobj	_	NN|12102133-n|Grass=
+13	.	.	.	.	_	9	punct	_	Fp|?|?

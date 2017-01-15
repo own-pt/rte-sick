@@ -8,27 +8,27 @@ CONCEPTS B: Rugby=,Human+,Entity+,Putting+,equal+
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	DT|?|?
-4	soccer	soccer	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	NN|00478262-n|Soccer=
-5	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|10439851-n|Human+
-6	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	9	nsubjpass	_	WP|?|?
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
-8	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	9	auxpass	_	VBG|02604760-v|Entity+
-9	tackled	tackle	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	5	acl:relcl	_	VBN|01491697-v|Putting+
-10	by	by	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	opponent	opponent	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|10379620-n|SocialRole+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	soccer	soccer	NOUN	NN	_	5	nn	_	NN|00478262-n|Soccer=
+5	player	player	NOUN	NN	_	2	nsubj	_	NN|10439851-n|Human+
+6	who	who	PRON	WP	_	9	nsubjpass	_	WP|?|?
+7	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+8	being	be	VERB	VBG	_	9	auxpass	_	VBG|02604760-v|Entity+
+9	tackled	tackle	VERB	VBN	_	5	rcmod	_	VBN|01491697-v|Putting+
+10	by	by	ADP	IN	_	9	prep	_	IN|?|?
+11	an	a	DET	DT	_	12	det	_	DT|?|?
+12	opponent	opponent	NOUN	NN	_	10	pobj	_	NN|10379620-n|SocialRole+
+13	.	.	.	.	_	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Rugby	rugby	PROPN	NNP	fPOS=ADP++IN	2	amod	_	NN|00470966-n|Rugby=
-2	players	player	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|10439851-n|Human+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	tackling	tackle	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01491697-v|Putting+
-5	each	each	DET	DT	fPOS=DET++DT	6	det	_	DT|?|?
-6	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	dobj	_	JJ|02069355-a|equal+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Rugby	rugby	NOUN	NN	_	2	nn	_	NN|00470966-n|Rugby=
+2	players	player	NOUN	NNS	_	4	nsubj	_	NNS|10439851-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	tackling	tackle	VERB	VBG	_	0	ROOT	_	VBG|01491697-v|Putting+
+5	each	each	DET	DT	_	6	det	_	DT|?|?
+6	other	other	ADJ	JJ	_	4	dobj	_	JJ|02069355-a|equal+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

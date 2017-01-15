@@ -8,30 +8,30 @@ CONCEPTS B: Hominid=,Entity+,Removing+,equal+,Hominid=,Artifact+,EngineeringComp
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	erasing	erase	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01548718-v|Removing+
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	drawing	drawing	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	dobj	_	NN|00508091-n|Game+
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	board	board	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|03201208-n|Table+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	erasing	erase	VERB	VBG	_	0	ROOT	_	VBG|01548718-v|Removing+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	drawing	drawing	NOUN	NN	_	4	dobj	_	NN|00508091-n|Game+
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	board	board	NOUN	NN	_	7	pobj	_	NN|03201208-n|Table+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	erasing	erase	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01548718-v|Removing+
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|02069355-a|equal+
-7	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod:poss	_	NN|02472293-n|Hominid=
-8	's	's	PART	POS	fPOS=PART++POS	7	case	_	POS|?|?
-9	work	work	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|04599396-n|Artifact+
-10	from	from	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	panel	panel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03882058-n|EngineeringComponent+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	erasing	erase	VERB	VBG	_	0	ROOT	_	VBG|01548718-v|Removing+
+5	the	the	DET	DT	_	7	det	_	DT|?|?
+6	other	other	ADJ	JJ	_	7	amod	_	JJ|02069355-a|equal+
+7	man	man	NOUN	NN	_	9	poss	_	NN|02472293-n|Hominid=
+8	's	's	PRT	POS	_	7	possessive	_	POS|?|?
+9	work	work	NOUN	NN	_	4	dobj	_	NN|04599396-n|Artifact+
+10	from	from	ADP	IN	_	4	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	panel	panel	NOUN	NN	_	10	pobj	_	NN|03882058-n|EngineeringComponent+
+13	.	.	.	.	_	4	punct	_	Fp|?|?

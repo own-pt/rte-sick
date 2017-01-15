@@ -8,31 +8,31 @@ CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,Icon+,Lake=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	setting	set	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01494310-v|Putting=
-5	up	up	ADP	RP	fPOS=ADP++RP	4	compound:prt	_	RP|00097011-r|Increasing+
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|02942699-n|Camera=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-9	taking	take	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|02267989-v|PhysicalAttribute+
-10	sunset	sunset	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	NN|15169248-n|Sunset+
-11	pictures	picture	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	dobj	_	NNS|03931044-n|Icon+
-12	at	at	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-14	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|09217230-n|ShoreArea=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	setting	set	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+5	up	up	PRT	RP	_	4	prt	_	RP|00097011-r|Increasing+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	camera	camera	NOUN	NN	_	4	dobj	_	NN|02942699-n|Camera=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	taking	take	VERB	VBG	_	4	conj	_	VBG|02267989-v|PhysicalAttribute+
+10	sunset	sunset	NOUN	NN	_	11	nn	_	NN|15169248-n|Sunset+
+11	pictures	picture	NOUN	NNS	_	9	dobj	_	NNS|03931044-n|Icon+
+12	at	at	ADP	IN	_	9	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	beach	beach	NOUN	NN	_	12	pobj	_	NN|09217230-n|ShoreArea=
+15	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	taking	take	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
-5	pictures	picture	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|03931044-n|Icon+
-6	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	lake	lake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|09328904-n|Lake=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	taking	take	VERB	VBG	_	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
+5	pictures	picture	NOUN	NNS	_	4	dobj	_	NNS|03931044-n|Icon+
+6	of	of	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	lake	lake	NOUN	NN	_	6	pobj	_	NN|09328904-n|Lake=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

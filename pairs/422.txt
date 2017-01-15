@@ -8,24 +8,24 @@ CONCEPTS B: Hominid=,Entity+,Keeping+,FishingSport=,LengthMeasure@
 
 CONLL A:
 
-1	Two	2	NUM	CD	Degree=Pos|fPOS=ADJ++JJ	2	nummod	_	Z|?|?
-2	men	man	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NNS|02472293-n|Hominid=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02681795-v|Keeping+
-5	fishing	fishing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|00453935-n|FishingSport=
-6	poles	pole	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	advmod	_	NNS|13650921-n|LengthMeasure@
-7	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-8	fishing	fishing	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	NN|00453935-n|FishingSport=
-9	tackle	tackle	ADV	RB	Number=Sing|fPOS=NOUN++NN	8	advmod	_	VB|01491697-v|Putting+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|02681795-v|Keeping+
+5	fishing	fishing	NOUN	NN	_	6	nn	_	NN|00453935-n|FishingSport=
+6	poles	pole	NOUN	NNS	_	4	dobj	_	NNS|13650921-n|LengthMeasure@
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	fishing	fishing	NOUN	NN	_	9	nn	_	NN|00453935-n|FishingSport=
+9	tackle	tackle	NOUN	NN	_	6	conj	_	VB|01491697-v|Putting+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	Degree=Pos|fPOS=ADJ++JJ	2	nummod	_	Z|?|?
-2	men	man	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NNS|02472293-n|Hominid=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02681795-v|Keeping+
-5	fishing	fishing	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	4	xcomp	_	NN|00453935-n|FishingSport=
-6	poles	pole	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	NNS|13650921-n|LengthMeasure@
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|02681795-v|Keeping+
+5	fishing	fishing	NOUN	NN	_	6	nn	_	NN|00453935-n|FishingSport=
+6	poles	pole	NOUN	NNS	_	4	dobj	_	NNS|13650921-n|LengthMeasure@
+7	.	.	.	.	_	4	punct	_	Fp|?|?

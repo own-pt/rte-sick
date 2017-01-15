@@ -8,26 +8,26 @@ CONCEPTS B: Entity+,HumanYouth=,HumanChild=,Wetting+,Water=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	amod	_	JJ|01646941-a|HumanYouth=
-3	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|09917593-n|HumanChild=
-4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	cop	_	VBZ|02604760-v|Entity+
-5	splashing	splash	NOUN	NN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01374767-v|Wetting+
-6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|14845743-n|Water=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	child	child	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	splashing	splash	VERB	VBG	_	0	ROOT	_	VBG|01374767-v|Wetting+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	water	water	NOUN	NN	_	6	pobj	_	NN|14845743-n|Water=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	6	neg	_	DT|?|?
-4	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|01646941-a|HumanYouth=
-5	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	NN|09917593-n|HumanChild=
-6	splashing	splash	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	VBG|01374767-v|Wetting+
-7	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|14845743-n|Water=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	young	young	ADJ	JJ	_	5	amod	_	JJ|01646941-a|HumanYouth=
+5	child	child	NOUN	NN	_	2	nsubj	_	NN|09917593-n|HumanChild=
+6	splashing	splash	VERB	VBG	_	5	partmod	_	VBG|01374767-v|Wetting+
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	water	water	NOUN	NN	_	7	pobj	_	NN|14845743-n|Water=
+10	.	.	.	.	_	2	punct	_	Fp|?|?

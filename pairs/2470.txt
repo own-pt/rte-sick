@@ -8,17 +8,17 @@ CONCEPTS B: Human=,Entity+,MakingVocalMusic=
 
 CONLL A:
 
-1	Some	some	DET	DT	Number=Sing|fPOS=NOUN++NN	2	det	_	DT|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	singing	sing	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
-5	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+5	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Some	some	DET	DT	Number=Sing|fPOS=NOUN++NN	2	det	_	DT|?|?
-2	persons	person	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|00007846-n|Human=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	singing	sing	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
-5	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	persons	person	NOUN	NNS	_	4	nsubj	_	NNS|00007846-n|Human=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+5	.	.	.	.	_	4	punct	_	Fp|?|?

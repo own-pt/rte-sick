@@ -8,31 +8,31 @@ CONCEPTS B: Black=,Bird=,PhysicalAttribute+,SittingDown+,Dead=,ContentBearingObj
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	bird	bird	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|01503061-n|Bird=
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
-4	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	6	nsubj	_	WDT|?|?
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02655135-v|PhysicalAttribute+
-6	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	JJ|00392812-a|Black=
-7	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	Fc|?|?
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02655135-v|PhysicalAttribute+
-9	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-10	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-12	dead	dead	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	JJ|00095280-a|Dead=
-13	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|13912260-n|ContentBearingObject+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	bird	bird	NOUN	NN	_	9	nsubj	_	NN|01503061-n|Bird=
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	which	which	DET	WDT	_	6	nsubj	_	WDT|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02655135-v|PhysicalAttribute+
+6	black	black	ADJ	JJ	_	2	rcmod	_	JJ|00392812-a|Black=
+7	,	,	.	,	_	2	punct	_	Fc|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02655135-v|PhysicalAttribute+
+9	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	dead	dead	ADJ	JJ	_	13	amod	_	JJ|00095280-a|Dead=
+13	tree	tree	NOUN	NN	_	10	pobj	_	NN|13912260-n|ContentBearingObject+
+14	.	.	.	.	_	9	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00392812-a|Black=
-3	bird	bird	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|01503061-n|Bird=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
-5	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-6	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	dead	dead	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|00095280-a|Dead=
-9	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|13912260-n|ContentBearingObject+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	bird	bird	NOUN	NN	_	5	nsubj	_	NN|01503061-n|Bird=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	dead	dead	ADJ	JJ	_	9	amod	_	JJ|00095280-a|Dead=
+9	tree	tree	NOUN	NN	_	6	pobj	_	NN|13912260-n|ContentBearingObject+
+10	.	.	.	.	_	5	punct	_	Fp|?|?

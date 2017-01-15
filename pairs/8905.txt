@@ -8,40 +8,40 @@ CONCEPTS B: Region+,East+,Hominid=,Entity+,PhysicalAttribute+,Device+,Position=,
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	middle	middle	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	NN|08523483-n|Region+
-3	eastern	eastern	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|00823665-a|East+
-4	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|10287213-n|Man=
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	back	back	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|02767433-n|CorpuscularObject+
-10	against	against	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-12	lamp	lamp	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	compound	_	NN|03636649-n|Device+
-13	post	post	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	dobj	_	NN|00586262-n|Position=
-14	near	near	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	IN|?|?
-15	to	to	ADP	IN	fPOS=ADP++IN	17	case	_	TO|?|?
-16	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	JJ|02069355-a|equal+
-17	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	14	nmod	_	NNS|07942152-n|GroupOfPeople=
-18	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	middle	middle	ADJ	JJ	_	4	amod	_	NN|08523483-n|Region+
+3	eastern	eastern	ADJ	JJ	_	4	amod	_	JJ|00823665-a|East+
+4	man	man	NOUN	NN	_	6	nsubj	_	NN|10287213-n|Man=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+7	with	with	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	back	back	NOUN	NN	_	7	pobj	_	NN|02767433-n|CorpuscularObject+
+10	against	against	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	lamp	lamp	NOUN	NN	_	13	nn	_	NN|03636649-n|Device+
+13	post	post	NOUN	NN	_	10	pobj	_	NN|00586262-n|Position=
+14	near	near	ADP	IN	_	13	prep	_	IN|?|?
+15	to	to	ADP	IN	_	14	pcomp	_	TO|?|?
+16	other	other	ADJ	JJ	_	17	amod	_	JJ|02069355-a|equal+
+17	people	people	NOUN	NNS	_	15	pobj	_	NNS|07942152-n|GroupOfPeople=
+18	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	middle	middle	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	NN|08523483-n|Region+
-3	eastern	eastern	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|00823665-a|East+
-4	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02472293-n|Hominid=
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-7	against	against	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-9	lamp	lamp	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	compound	_	NN|03636649-n|Device+
-10	post	post	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|00586262-n|Position=
-11	near	near	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	IN|?|?
-12	to	to	ADP	IN	fPOS=ADP++IN	14	case	_	TO|?|?
-13	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	JJ|02069355-a|equal+
-14	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	NNS|07942152-n|GroupOfPeople=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	middle	middle	ADJ	JJ	_	4	amod	_	NN|08523483-n|Region+
+3	eastern	eastern	ADJ	JJ	_	4	amod	_	JJ|00823665-a|East+
+4	man	man	NOUN	NN	_	6	nsubj	_	NN|02472293-n|Hominid=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+7	against	against	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	lamp	lamp	NOUN	NN	_	10	nn	_	NN|03636649-n|Device+
+10	post	post	NOUN	NN	_	7	pobj	_	NN|00586262-n|Position=
+11	near	near	ADP	IN	_	10	prep	_	IN|?|?
+12	to	to	ADP	IN	_	11	pcomp	_	TO|?|?
+13	other	other	ADJ	JJ	_	14	amod	_	JJ|02069355-a|equal+
+14	people	people	NOUN	NNS	_	12	pobj	_	NNS|07942152-n|GroupOfPeople=
+15	.	.	.	.	_	6	punct	_	Fp|?|?

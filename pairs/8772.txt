@@ -8,30 +8,30 @@ CONCEPTS B: HumanYouth=,HumanChild=,Entity+,Carrying=,Transportation+,LandVehicl
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	toddler	toddler	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10714465-n|NonFullyFormed+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-7	plastic	plastic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|02364954-a|SubjectiveAssessmentAttribute+
-8	scooter	scooter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	NN|03791053-n|LandVehicle+
-9	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03964744-n|RecreationOrExerciseDevice+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	toddler	toddler	NOUN	NN	_	4	nsubj	_	NN|10714465-n|NonFullyFormed+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	9	det	_	DT|?|?
+7	plastic	plastic	ADJ	JJ	_	9	amod	_	JJ|02364954-a|SubjectiveAssessmentAttribute+
+8	scooter	scooter	NOUN	NN	_	9	nn	_	NN|03791053-n|LandVehicle+
+9	toy	toy	NOUN	NN	_	5	pobj	_	NN|03964744-n|RecreationOrExerciseDevice+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	JJ|01646941-a|HumanYouth=
-3	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|09917593-n|HumanChild=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01955984-v|Carrying=
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-7	three	3	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod:npmod	_	Z|?|?
-8	wheeled	wheel	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	9	amod	_	VBN|01935476-v|Transportation+
-9	scooter	scooter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|03791053-n|LandVehicle+
-10	down	down	ADP	RP	fPOS=ADP++IN	12	case	_	IN|?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	sidewalk	sidewalk	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|04215402-n|Sidewalk=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	child	child	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+6	a	a	DET	DT	_	9	det	_	DT|?|?
+7	three	3	NUM	CD	_	9	num	_	Z|?|?
+8	wheeled	wheel	VERB	VBN	_	9	amod	_	VBN|01935476-v|Transportation+
+9	scooter	scooter	NOUN	NN	_	5	dobj	_	NN|03791053-n|LandVehicle+
+10	down	down	ADP	IN	_	5	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	sidewalk	sidewalk	NOUN	NN	_	10	pobj	_	NN|04215402-n|Sidewalk=
+13	.	.	.	.	_	5	punct	_	Fp|?|?

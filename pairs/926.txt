@@ -8,33 +8,33 @@ CONCEPTS B: Human+,Entity+,HumanYouth=,Entity+,Exhaling+,Bubble+,Entity+,Subject
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01646941-a|HumanYouth=
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10129825-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	blowing	blow	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00007012-v|Exhaling+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	bubble	bubble	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|09229709-n|Bubble+
-8	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	10	nsubj	_	WDT|?|?
-9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	10	cop	_	VBZ|02604760-v|Entity+
-10	huge	huge	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	acl:relcl	_	JJ|01387319-a|SubjectiveWeakNegativeAttribute+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	blowing	blow	VERB	VBG	_	0	ROOT	_	VBG|00007012-v|Exhaling+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	bubble	bubble	NOUN	NN	_	5	dobj	_	NN|09229709-n|Bubble+
+8	that	that	DET	WDT	_	10	nsubj	_	WDT|?|?
+9	is	be	VERB	VBZ	_	10	cop	_	VBZ|02604760-v|Entity+
+10	huge	huge	ADJ	JJ	_	7	rcmod	_	JJ|01387319-a|SubjectiveWeakNegativeAttribute+
+11	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|10129825-n|Human+
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
-4	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	6	nsubj	_	WP|?|?
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02604760-v|Entity+
-6	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	JJ|01646941-a|HumanYouth=
-7	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	Fc|?|?
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
-9	blowing	blow	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|00007012-v|Exhaling+
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	bubble	bubble	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|09229709-n|Bubble+
-12	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	14	nsubj	_	WDT|?|?
-13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	14	cop	_	VBZ|02604760-v|Entity+
-14	huge	huge	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	acl:relcl	_	JJ|01387319-a|SubjectiveWeakNegativeAttribute+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	9	nsubj	_	NN|10129825-n|Human+
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	_	6	nsubj	_	WP|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	young	young	ADJ	JJ	_	2	rcmod	_	JJ|01646941-a|HumanYouth=
+7	,	,	.	,	_	2	punct	_	Fc|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	blowing	blow	VERB	VBG	_	0	ROOT	_	VBG|00007012-v|Exhaling+
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	bubble	bubble	NOUN	NN	_	9	dobj	_	NN|09229709-n|Bubble+
+12	that	that	DET	WDT	_	14	nsubj	_	WDT|?|?
+13	is	be	VERB	VBZ	_	14	cop	_	VBZ|02604760-v|Entity+
+14	huge	huge	ADJ	JJ	_	11	rcmod	_	JJ|01387319-a|SubjectiveWeakNegativeAttribute+
+15	.	.	.	.	_	9	punct	_	Fp|?|?

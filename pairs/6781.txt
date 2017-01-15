@@ -8,35 +8,35 @@ CONCEPTS B: Entity+,Canine+,Ambulating=,Artifact+,Snowing=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00392812-a|Black=
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|02084071-n|Canine+
-4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|15043763-n|Snowing=
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-8	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-9	off	off	ADP	IN	fPOS=ADP++RP	11	case	_	RP|00232936-r|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	ground	ground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|09334396-n|LandArea=
-12	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	CC|?|?
-13	catching	catch	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	8	conj	_	VBG|01439190-v|Grabbing+
-14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-15	stick	stick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	dobj	_	NN|04317420-n|Plant+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	dog	dog	NOUN	NN	_	8	nsubj	_	NN|02084071-n|Canine+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	snow	snow	NOUN	NN	_	4	pobj	_	NN|15043763-n|Snowing=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+9	off	off	PRT	RP	_	8	prt	_	RP|00232936-r|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	ground	ground	NOUN	NN	_	8	dobj	_	NN|09334396-n|LandArea=
+12	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+13	catching	catch	VERB	VBG	_	8	conj	_	VBG|01439190-v|Grabbing+
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	stick	stick	NOUN	NN	_	13	dobj	_	NN|04317420-n|Plant+
+16	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
-4	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|02084071-n|Canine+
-5	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	VBG|01963942-v|Ambulating=
-6	for	for	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	Frisbee	frisbee	PROPN	NNP	Number=Sing|fPOS=PROPN++NNP	5	nmod	_	NN|03397947-n|Artifact+
-9	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|15043763-n|Snowing=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	dog	dog	NOUN	NN	_	5	nn	_	NN|02084071-n|Canine+
+5	jumping	jump	VERB	VBG	_	2	nsubj	_	VBG|01963942-v|Ambulating=
+6	for	for	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	Frisbee	frisbee	NOUN	NNP	_	6	pobj	_	NN|03397947-n|Artifact+
+9	in	in	ADP	IN	_	5	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	snow	snow	NOUN	NN	_	9	pobj	_	NN|15043763-n|Snowing=
+12	.	.	.	.	_	2	punct	_	Fp|?|?

@@ -8,28 +8,28 @@ CONCEPTS B: Canine+,BodyPart+,Entity+,Entity+,Transportation+,Human+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10200047-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	teasing	tease	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01463792-v|Separating+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|02084071-n|Canine+
-7	at	at	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	zoo	zoo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03745146-n|StationaryArtifact+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	monkey	monkey	NOUN	NN	_	4	nsubj	_	NN|10200047-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	teasing	tease	VERB	VBG	_	0	ROOT	_	VBG|01463792-v|Separating+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	dog	dog	NOUN	NN	_	4	dobj	_	NN|02084071-n|Canine+
+7	at	at	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	zoo	zoo	NOUN	NN	_	7	pobj	_	NN|03745146-n|StationaryArtifact+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod:poss	_	NN|02084071-n|Canine+
-3	's	's	PART	POS	fPOS=PART++POS	2	case	_	POS|?|?
-4	tail	tail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubjpass	_	NN|02157557-n|BodyPart+
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-6	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	7	auxpass	_	VBG|02604760-v|Entity+
-7	pulled	pull	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|02057499-v|Transportation+
-8	by	by	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|10200047-n|Human+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	poss	_	NN|02084071-n|Canine+
+3	's	's	PRT	POS	_	2	possessive	_	POS|?|?
+4	tail	tail	NOUN	NN	_	7	nsubjpass	_	NN|02157557-n|BodyPart+
+5	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+6	being	be	VERB	VBG	_	7	auxpass	_	VBG|02604760-v|Entity+
+7	pulled	pull	VERB	VBN	_	0	ROOT	_	VBN|02057499-v|Transportation+
+8	by	by	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	monkey	monkey	NOUN	NN	_	8	pobj	_	NN|10200047-n|Human+
+11	.	.	.	.	_	7	punct	_	Fp|?|?

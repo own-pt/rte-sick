@@ -8,28 +8,28 @@ CONCEPTS B: Hominid=,Entity+,Carrying=,OrangeColor+,SubjectiveAssessmentAttribut
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	orange	orange	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	NN|04965179-n|OrangeColor+
-3	rescue	rescue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	compound	_	NN|00093483-n|Removing+
-4	boat	boat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02858304-n|WaterVehicle=
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	rushing	rush	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00459498-v|Translocation+
-7	across	across	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|14845743-n|Water=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	The	the	DET	DT	_	4	det	_	DT|?|?
+2	orange	orange	ADJ	JJ	_	4	amod	_	NN|04965179-n|OrangeColor+
+3	rescue	rescue	NOUN	NN	_	4	nn	_	NN|00093483-n|Removing+
+4	boat	boat	NOUN	NN	_	6	nsubj	_	NN|02858304-n|WaterVehicle=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	rushing	rush	VERB	VBG	_	0	ROOT	_	VBG|00459498-v|Translocation+
+7	across	across	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	water	water	NOUN	NN	_	7	pobj	_	NN|14845743-n|Water=
+10	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02472293-n|Hominid=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01955984-v|Carrying=
-5	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	orange	orange	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	compound	_	NN|04965179-n|OrangeColor+
-7	raft	raft	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
-8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|09217230-n|ShoreArea=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+5	an	a	DET	DT	_	7	det	_	DT|?|?
+6	orange	orange	NOUN	NN	_	7	nn	_	NN|04965179-n|OrangeColor+
+7	raft	raft	NOUN	NN	_	4	dobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+8	on	on	ADP	IN	_	4	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	beach	beach	NOUN	NN	_	8	pobj	_	NN|09217230-n|ShoreArea=
+11	.	.	.	.	_	4	punct	_	Fp|?|?

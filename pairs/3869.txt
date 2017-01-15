@@ -8,23 +8,23 @@ CONCEPTS B: Hominid=,Entity+,MotionUpward=,Swamp=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	escaping	escape	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02074677-v|NormativeAttribute+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	rising	rise	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	VBG|01968569-v|MotionUpward=
-7	swamp	swamp	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|09452395-n|Swamp=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	escaping	escape	VERB	VBG	_	0	ROOT	_	VBG|02074677-v|NormativeAttribute+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	rising	rise	VERB	VBG	_	7	amod	_	VBG|01968569-v|MotionUpward=
+7	swamp	swamp	NOUN	NN	_	4	dobj	_	NN|09452395-n|Swamp=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	rising	rise	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01968569-v|MotionUpward=
-5	from	from	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	swamp	swamp	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|09452395-n|Swamp=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	rising	rise	VERB	VBG	_	0	ROOT	_	VBG|01968569-v|MotionUpward=
+5	from	from	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	swamp	swamp	NOUN	NN	_	5	pobj	_	NN|09452395-n|Swamp=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

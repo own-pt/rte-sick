@@ -8,37 +8,37 @@ CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,SubjectiveAssessmentAttrib
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nsubj	_	NN|10285313-n|Human+
-4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|04197391-n|Shirt=
-7	,	,	PUNCT	,	fPOS=PUNCT++,	3	punct	_	Fc|?|?
-8	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	10	nsubj	_	WDT|?|?
-9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	10	cop	_	VBZ|02604760-v|Entity+
-10	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	acl:relcl	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
-11	,	,	PUNCT	,	fPOS=PUNCT++,	13	punct	_	Fc|?|?
-12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	VBZ|02604760-v|Entity+
-13	laughing	laugh	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00031820-v|Laughing=
-14	on	on	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-16	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	NN|09217230-n|ShoreArea=
-17	.	.	PUNCT	.	fPOS=PUNCT++.	13	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	small	small	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	boy	boy	NOUN	NN	_	13	nsubj	_	NN|10285313-n|Human+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	shirt	shirt	NOUN	NN	_	4	pobj	_	NN|04197391-n|Shirt=
+7	,	,	.	,	_	3	punct	_	Fc|?|?
+8	which	which	DET	WDT	_	10	nsubj	_	WDT|?|?
+9	is	be	VERB	VBZ	_	10	cop	_	VBZ|02604760-v|Entity+
+10	yellow	yellow	ADJ	JJ	_	3	rcmod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+11	,	,	.	,	_	3	punct	_	Fc|?|?
+12	is	be	VERB	VBZ	_	13	aux	_	VBZ|02604760-v|Entity+
+13	laughing	laugh	VERB	VBG	_	0	ROOT	_	VBG|00031820-v|Laughing=
+14	on	on	ADP	IN	_	13	prep	_	IN|?|?
+15	the	the	DET	DT	_	16	det	_	DT|?|?
+16	beach	beach	NOUN	NN	_	14	pobj	_	NN|09217230-n|ShoreArea=
+17	.	.	.	.	_	13	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|10285313-n|Human+
-4	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
-7	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|04197391-n|Shirt=
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
-9	laughing	laugh	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00031820-v|Laughing=
-10	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|09217230-n|ShoreArea=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	small	small	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	boy	boy	NOUN	NN	_	9	nsubj	_	NN|10285313-n|Human+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	yellow	yellow	ADJ	JJ	_	7	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+7	shirt	shirt	NOUN	NN	_	4	pobj	_	NN|04197391-n|Shirt=
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	laughing	laugh	VERB	VBG	_	0	ROOT	_	VBG|00031820-v|Laughing=
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	beach	beach	NOUN	NN	_	10	pobj	_	NN|09217230-n|ShoreArea=
+13	.	.	.	.	_	9	punct	_	Fp|?|?

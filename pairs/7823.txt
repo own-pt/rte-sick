@@ -8,29 +8,29 @@ CONCEPTS B: Black=,Canine+,Entity+,Ambulating=,Cylindrical=,Hay=,Artifact+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00393105-a|White=
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	leaping	leap	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-6	from	from	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-8	cylindrical	cylindrical	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	JJ|02045723-a|Cylindrical=
-9	hay	hay	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	NN|07802026-n|Hay=
-10	bale	bale	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02778456-n|Artifact+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	leaping	leap	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+6	from	from	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	10	det	_	DT|?|?
+8	cylindrical	cylindrical	ADJ	JJ	_	10	amod	_	JJ|02045723-a|Cylindrical=
+9	hay	hay	NOUN	NN	_	10	nn	_	NN|07802026-n|Hay=
+10	bale	bale	NOUN	NN	_	6	pobj	_	NN|02778456-n|Artifact+
+11	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00392812-a|Black=
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	leaping	leap	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-6	from	from	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-8	cylindrical	cylindrical	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	JJ|02045723-a|Cylindrical=
-9	hay	hay	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	NN|07802026-n|Hay=
-10	bale	bale	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02778456-n|Artifact+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	leaping	leap	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+6	from	from	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	10	det	_	DT|?|?
+8	cylindrical	cylindrical	ADJ	JJ	_	10	amod	_	JJ|02045723-a|Cylindrical=
+9	hay	hay	NOUN	NN	_	10	nn	_	NN|07802026-n|Hay=
+10	bale	bale	NOUN	NN	_	6	pobj	_	NN|02778456-n|Artifact+
+11	.	.	.	.	_	5	punct	_	Fp|?|?

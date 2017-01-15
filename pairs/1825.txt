@@ -8,26 +8,26 @@ CONCEPTS B: Human+,Entity+,Separating+,Bell=,SpicePepper=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	dicing	dice	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01256867-v|Cutting+
-5	up	up	ADP	RP	fPOS=ADP++RP	4	compound:prt	_	RP|00097011-r|Increasing+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	pepper	pepper	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|07720442-n|Vegetable+
-8	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	10	nsubj	_	WDT|?|?
-9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	10	cop	_	VBZ|02604760-v|Entity+
-10	orange	orange	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	acl:relcl	_	NN|04965179-n|OrangeColor+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	dicing	dice	VERB	VBG	_	0	ROOT	_	VBG|01256867-v|Cutting+
+5	up	up	PRT	RP	_	4	prt	_	RP|00097011-r|Increasing+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	pepper	pepper	NOUN	NN	_	4	dobj	_	NN|07720442-n|Vegetable+
+8	which	which	DET	WDT	_	10	nsubj	_	WDT|?|?
+9	is	be	VERB	VBZ	_	10	cop	_	VBZ|02604760-v|Entity+
+10	orange	orange	ADJ	JJ	_	7	rcmod	_	NN|04965179-n|OrangeColor+
+11	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	cook	cook	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09963320-n|Human+
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	cop	_	VBZ|02604760-v|Entity+
-4	slicing	slice	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01254477-v|Separating+
-5	some	some	DET	DT	fPOS=DET++DT	7	det	_	DT|?|?
-6	bell	bell	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	7	compound	_	NN|02824448-n|Bell=
-7	peppers	pepper	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|07815588-n|SpicePepper=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cook	cook	NOUN	NN	_	4	nsubj	_	NN|09963320-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	some	some	DET	DT	_	7	det	_	DT|?|?
+6	bell	bell	NOUN	NN	_	7	nn	_	NN|02824448-n|Bell=
+7	peppers	pepper	NOUN	NNS	_	4	dobj	_	NNS|07815588-n|SpicePepper=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

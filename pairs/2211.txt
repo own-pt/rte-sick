@@ -8,34 +8,34 @@ CONCEPTS B: HumanChild=,Entity+,Pushing=,Reptile+,StaticWaterArea+
 
 CONLL A:
 
-1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	Z|?|?
-2	kids	kid	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|09917593-n|HumanChild=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	swimming	swim	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	VBG|01904293-v|Swimming+
-8	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|09397607-n|StaticWaterArea+
-9	with	with	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-11	crocodile	crocodile	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	NN|01697178-n|Reptile+
-12	float	float	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|07923034-n|Beverage+
-13	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	15	nsubj	_	WDT|?|?
-14	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	15	cop	_	VBZ|02604760-v|Entity+
-15	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	acl:relcl	_	JJ|00375969-a|Green=
-16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	kids	kid	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	swimming	swim	NOUN	NN	_	8	nn	_	VBG|01904293-v|Swimming+
+8	pool	pool	NOUN	NN	_	5	pobj	_	NN|09397607-n|StaticWaterArea+
+9	with	with	ADP	IN	_	4	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	crocodile	crocodile	NOUN	NN	_	12	nn	_	NN|01697178-n|Reptile+
+12	float	float	NOUN	NN	_	9	pobj	_	NN|07923034-n|Beverage+
+13	that	that	DET	WDT	_	15	nsubj	_	WDT|?|?
+14	is	be	VERB	VBZ	_	15	cop	_	VBZ|02604760-v|Entity+
+15	green	green	ADJ	JJ	_	12	rcmod	_	JJ|00375969-a|Green=
+16	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	Z|?|?
-2	kids	kid	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|09917593-n|HumanChild=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	pushing	push	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01871979-v|Pushing=
-5	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	inflatable	inflatable	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	NN|?|?
-7	crocodile	crocodile	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|01697178-n|Reptile+
-8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|09397607-n|StaticWaterArea+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	kids	kid	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	pushing	push	VERB	VBG	_	0	ROOT	_	VBG|01871979-v|Pushing=
+5	an	a	DET	DT	_	7	det	_	DT|?|?
+6	inflatable	inflatable	ADJ	JJ	_	7	amod	_	NN|?|?
+7	crocodile	crocodile	NOUN	NN	_	4	dobj	_	NN|01697178-n|Reptile+
+8	in	in	ADP	IN	_	4	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	pool	pool	NOUN	NN	_	8	pobj	_	NN|09397607-n|StaticWaterArea+
+11	.	.	.	.	_	4	punct	_	Fp|?|?

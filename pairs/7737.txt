@@ -8,31 +8,31 @@ CONCEPTS B: Canine+,Entity+,DramaticActing+,SocialInteraction[,Process+,Covering
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02084071-n|Canine+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	alone	alone	ADV	RB	Number=Sing|fPOS=NOUN++NN	4	advmod	_	RB|00157967-r|SocialInteraction[
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|09217230-n|ShoreArea=
-9	covered	cover	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	8	acl	_	VBN|01332730-v|Covering+
-10	by	by	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-11	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|15043763-n|Snowing=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	alone	alone	ADV	RB	_	4	advmod	_	RB|00157967-r|SocialInteraction[
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	beach	beach	NOUN	NN	_	6	pobj	_	NN|09217230-n|ShoreArea=
+9	covered	cover	VERB	VBN	_	8	partmod	_	VBN|01332730-v|Covering+
+10	by	by	ADP	IN	_	9	prep	_	IN|?|?
+11	snow	snow	NOUN	NN	_	10	pobj	_	NN|15043763-n|Snowing=
+12	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02084071-n|Canine+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	alone	alone	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	xcomp	_	RB|00157967-r|SocialInteraction[
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	shore	shore	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	VBP|01219004-v|Process+
-9	covered	cover	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	8	acl	_	VBN|01332730-v|Covering+
-10	by	by	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-11	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|15043763-n|Snowing=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	alone	alone	ADV	RB	_	4	advmod	_	RB|00157967-r|SocialInteraction[
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	shore	shore	NOUN	NN	_	6	pobj	_	VBP|01219004-v|Process+
+9	covered	cover	VERB	VBN	_	8	partmod	_	VBN|01332730-v|Covering+
+10	by	by	ADP	IN	_	9	prep	_	IN|?|?
+11	snow	snow	NOUN	NN	_	10	pobj	_	NN|15043763-n|Snowing=
+12	.	.	.	.	_	4	punct	_	Fp|?|?

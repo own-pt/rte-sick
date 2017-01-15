@@ -8,25 +8,25 @@ CONCEPTS B: Hominid=,Entity+,IntentionalProcess+,SubjectiveAssessmentAttribute+,
 
 CONLL A:
 
-1	Several	several	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	DT|?|?
-2	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|10285313-n|Human+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	1	ccomp	_	VBG|01963942-v|Ambulating=
-5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	trampoline	trampoline	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04469514-n|Device+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	1	punct	_	Fp|?|?
+1	Several	several	ADJ	JJ	_	2	amod	_	DT|?|?
+2	boys	boy	NOUN	NNS	_	4	nsubj	_	NNS|10285313-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	trampoline	trampoline	NOUN	NN	_	5	pobj	_	NN|04469514-n|Device+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
-5	back	back	ADP	IN	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	RB|00075367-r|SubjectiveAssessmentAttribute+
-6	flips	flip	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	VBZ|01893601-v|Impelling+
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	trampoline	trampoline	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|04469514-n|Device+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	back	back	ADV	RB	_	4	prt	_	RB|00075367-r|SubjectiveAssessmentAttribute+
+6	flips	flip	NOUN	NNS	_	4	dobj	_	VBZ|01893601-v|Impelling+
+7	on	on	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	trampoline	trampoline	NOUN	NN	_	7	pobj	_	NN|04469514-n|Device+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

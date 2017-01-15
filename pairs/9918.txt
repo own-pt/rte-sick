@@ -8,26 +8,26 @@ CONCEPTS B: HumanChild=,Entity+,Pushing=,Reptile+,StaticWaterArea+
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
-4	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|02472293-n|Hominid=
-5	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	VBG|01719302-v|DramaticActing+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	flute	flute	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|03372029-n|Flute=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	playing	play	VERB	VBG	_	4	partmod	_	VBG|01719302-v|DramaticActing+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	flute	flute	NOUN	NN	_	5	dobj	_	NN|03372029-n|Flute=
+8	.	.	.	.	_	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	Z|?|?
-2	kids	kid	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|09917593-n|HumanChild=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	pushing	push	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01871979-v|Pushing=
-5	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	inflatable	inflatable	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	NN|?|?
-7	crocodile	crocodile	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|01697178-n|Reptile+
-8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|09397607-n|StaticWaterArea+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	kids	kid	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	pushing	push	VERB	VBG	_	0	ROOT	_	VBG|01871979-v|Pushing=
+5	an	a	DET	DT	_	7	det	_	DT|?|?
+6	inflatable	inflatable	ADJ	JJ	_	7	amod	_	NN|?|?
+7	crocodile	crocodile	NOUN	NN	_	4	dobj	_	NN|01697178-n|Reptile+
+8	in	in	ADP	IN	_	4	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	pool	pool	NOUN	NN	_	8	pobj	_	NN|09397607-n|StaticWaterArea+
+11	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -8,25 +8,25 @@ CONCEPTS B: Canine+,Entity+,SubjectiveAssessmentAttribute+,RetailStore=,Table+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02985606-n|Whip+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
-5	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	store	store	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	NN|04202417-n|RetailStore=
-8	counter	counter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03116530-n|Table+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	4	nsubj	_	NN|02985606-n|Whip+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	store	store	NOUN	NN	_	8	nn	_	NN|04202417-n|RetailStore=
+8	counter	counter	NOUN	NN	_	5	pobj	_	NN|03116530-n|Table+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02084071-n|Canine+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
-5	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	store	store	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	NN|04202417-n|RetailStore=
-8	counter	counter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03116530-n|Table+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	store	store	NOUN	NN	_	8	nn	_	NN|04202417-n|RetailStore=
+8	counter	counter	NOUN	NN	_	5	pobj	_	NN|03116530-n|Table+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

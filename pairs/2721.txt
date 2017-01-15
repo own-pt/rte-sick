@@ -8,31 +8,31 @@ CONCEPTS B: Karate=,Position+,Entity+,Expressing+,Hominid=,Entity+,RecreationOrE
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	cop	_	VBZ|02604760-v|Entity+
-4	kick	kick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	VBP|00907147-v|Expressing+
-5	boxing	box	ADJ	JJ	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	VBG|01419982-v|ViolentContest+
-6	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	trainer	trainer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|03363363-n|Device+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	3	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+4	kick	kick	VERB	VB	_	3	ccomp	_	VBP|00907147-v|Expressing+
+5	boxing	box	VERB	VBG	_	4	dobj	_	VBG|01419982-v|ViolentContest+
+6	with	with	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	trainer	trainer	NOUN	NN	_	6	pobj	_	NN|03363363-n|Device+
+9	.	.	.	.	_	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	karate	karate	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	NN|00826397-n|Karate=
-3	practitioner	practitioner	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10462860-n|Position+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	kicking	kick	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00907147-v|Expressing+
-6	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	another	another	DET	DT	fPOS=DET++DT	8	det	_	DT|?|?
-8	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02472293-n|Hominid=
-9	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	11	nsubj	_	WP|?|?
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	VBZ|02604760-v|Entity+
-11	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	8	acl:relcl	_	VBG|00075021-v|RecreationOrExercise+
-12	protective	protective	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	14	amod	_	JJ|01887076-a|Device+
-13	boxing	box	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	14	compound	_	VBG|01419982-v|ViolentContest+
-14	gloves	glove	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	dobj	_	NNS|03441112-n|Glove+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	karate	karate	NOUN	NN	_	3	nn	_	NN|00826397-n|Karate=
+3	practitioner	practitioner	NOUN	NN	_	5	nsubj	_	NN|10462860-n|Position+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	kicking	kick	VERB	VBG	_	0	ROOT	_	VBG|00907147-v|Expressing+
+6	at	at	ADP	IN	_	5	prep	_	IN|?|?
+7	another	another	DET	DT	_	8	det	_	DT|?|?
+8	man	man	NOUN	NN	_	6	pobj	_	NN|02472293-n|Hominid=
+9	who	who	PRON	WP	_	11	nsubj	_	WP|?|?
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	wearing	wear	VERB	VBG	_	8	rcmod	_	VBG|00075021-v|RecreationOrExercise+
+12	protective	protective	ADJ	JJ	_	14	amod	_	JJ|01887076-a|Device+
+13	boxing	box	NOUN	NN	_	14	nn	_	VBG|01419982-v|ViolentContest+
+14	gloves	glove	NOUN	NNS	_	11	dobj	_	NNS|03441112-n|Glove+
+15	.	.	.	.	_	5	punct	_	Fp|?|?

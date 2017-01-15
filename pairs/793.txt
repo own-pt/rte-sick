@@ -8,28 +8,28 @@ CONCEPTS B: Canine+,Entity+,SubjectiveAssessmentAttribute+,DramaticActing+,Water
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02084071-n|Canine+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	snapping	snap	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02182851-v|SoundAttribute+
-5	at	at	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	some	some	DET	DT	fPOS=DET++DT	7	det	_	DT|?|?
-7	droplets	droplet	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|13771828-n|SubjectiveAssessmentAttribute+
-8	of	of	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-9	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|14845743-n|Water=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	snapping	snap	VERB	VBG	_	0	ROOT	_	VBG|02182851-v|SoundAttribute+
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	some	some	DET	DT	_	7	det	_	DT|?|?
+7	droplets	droplet	NOUN	NNS	_	5	pobj	_	NNS|13771828-n|SubjectiveAssessmentAttribute+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	water	water	NOUN	NN	_	8	pobj	_	NN|14845743-n|Water=
+10	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02084071-n|Canine+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	excitedly	excitedly	ADV	RB	fPOS=ADV++RB	5	advmod	_	RB|00153977-r|SubjectiveAssessmentAttribute+
-5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-6	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-7	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|14845743-n|Water=
-8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|12102133-n|Grass=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	excitedly	excitedly	ADV	RB	_	5	advmod	_	RB|00153977-r|SubjectiveAssessmentAttribute+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	water	water	NOUN	NN	_	6	pobj	_	NN|14845743-n|Water=
+8	in	in	ADP	IN	_	5	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	grass	grass	NOUN	NN	_	8	pobj	_	NN|12102133-n|Grass=
+11	.	.	.	.	_	5	punct	_	Fp|?|?

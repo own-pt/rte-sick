@@ -8,33 +8,33 @@ CONCEPTS B: HumanChild=,Entity+,Smiling=,Camera=,Swimming+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09917593-n|HumanChild=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
-5	seriously	seriously	ADV	RB	fPOS=ADV++RB	4	advmod	_	RB|00015953-r|SubjectiveAssessmentAttribute+
-6	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02942699-n|Camera=
-9	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-10	getting	get	VERB	VBG	Number=Sing|fPOS=NOUN++NN	4	conj	_	VBG|00120316-v|Process+
-11	out	out	ADP	IN	Number=Sing|fPOS=NOUN++NN	14	case	_	RP|00233413-r|Giving+
-12	of	of	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-14	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|09397607-n|StaticWaterArea+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+5	seriously	seriously	ADV	RB	_	4	advmod	_	RB|00015953-r|SubjectiveAssessmentAttribute+
+6	at	at	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	camera	camera	NOUN	NN	_	6	pobj	_	NN|02942699-n|Camera=
+9	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+10	getting	get	VERB	VBG	_	4	conj	_	VBG|00120316-v|Process+
+11	out	out	ADP	IN	_	10	prep	_	RP|00233413-r|Giving+
+12	of	of	ADP	IN	_	11	pcomp	_	IN|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	pool	pool	NOUN	NN	_	12	pobj	_	NN|09397607-n|StaticWaterArea+
+15	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09917593-n|HumanChild=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	smiling	smile	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00028565-v|Smiling=
-5	at	at	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02942699-n|Camera=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-9	swimming	swim	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|01960911-v|Swimming+
-10	underwater	underwater	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|?|?
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	smiling	smile	VERB	VBG	_	0	ROOT	_	VBG|00028565-v|Smiling=
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	camera	camera	NOUN	NN	_	5	pobj	_	NN|02942699-n|Camera=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	swimming	swim	VERB	VBG	_	4	conj	_	VBG|01960911-v|Swimming+
+10	underwater	underwater	ADV	RB	_	9	advmod	_	NN|?|?
+11	.	.	.	.	_	4	punct	_	Fp|?|?

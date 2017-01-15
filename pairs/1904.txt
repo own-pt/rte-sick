@@ -8,22 +8,22 @@ CONCEPTS B: Entity+,DramaticActing+,RadiatingSound+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	few	few	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	DT|?|?
-3	animals	animal	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|00015388-n|Animal=
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02604760-v|Entity+
-5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|14845743-n|Water=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	quantmod	_	DT|?|?
+2	few	few	ADJ	JJ	_	3	num	_	DT|?|?
+3	animals	animal	NOUN	NNS	_	5	nsubj	_	NNS|00015388-n|Animal=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	water	water	NOUN	NN	_	6	pobj	_	NN|14845743-n|Water=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Nobody	nobody	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	PRP|?|?
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	VBZ|02604760-v|Entity+
-3	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-4	ping	ping	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	3	advcl	_	NN|07389569-n|RadiatingSound+
-5	pong	pong	ADV	RB	fPOS=ADV++RB	4	advmod	_	RB|?|?
-6	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	Nobody	nobody	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+4	ping	ping	NOUN	NN	_	5	nn	_	NN|07389569-n|RadiatingSound+
+5	pong	pong	NOUN	NN	_	3	dobj	_	RB|?|?
+6	.	.	.	.	_	3	punct	_	Fp|?|?

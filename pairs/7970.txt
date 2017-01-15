@@ -8,28 +8,28 @@ CONCEPTS B: Black=,Sheep=,Entity+,PhysicalAttribute+,White=,Canine+
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00392812-a|Black=
-3	llama	llama	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02437616-n|HoofedMammal+
-4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-5	curiously	curiously	ADV	RB	fPOS=ADV++RB	6	advmod	_	RB|00035491-r|SubjectiveAssessmentAttribute+
-6	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02130524-v|Looking=
-7	at	at	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-9	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	JJ|00393105-a|White=
-10	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	NNS|02084071-n|Canine+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	llama	llama	NOUN	NNP	_	6	nsubj	_	NN|02437616-n|HoofedMammal+
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	curiously	curiously	ADV	RB	_	6	advmod	_	RB|00035491-r|SubjectiveAssessmentAttribute+
+6	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02130524-v|Looking=
+7	at	at	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	10	det	_	DT|?|?
+9	white	white	ADJ	JJ	_	10	amod	_	JJ|00393105-a|White=
+10	dogs	dog	NOUN	NNS	_	7	pobj	_	NNS|02084071-n|Canine+
+11	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00392812-a|Black=
-3	sheep	sheep	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02411705-n|Sheep=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-6	near	near	ADP	IN	Number=Sing|fPOS=NOUN++NN	9	case	_	IN|?|?
-7	three	3	NUM	CD	Number=Sing|fPOS=NOUN++NN	9	nummod	_	Z|?|?
-8	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|00393105-a|White=
-9	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	NNS|02084071-n|Canine+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	sheep	sheep	NOUN	NN	_	5	nsubj	_	NN|02411705-n|Sheep=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+6	near	near	ADP	IN	_	5	prep	_	IN|?|?
+7	three	3	NUM	CD	_	9	num	_	Z|?|?
+8	white	white	ADJ	JJ	_	9	amod	_	JJ|00393105-a|White=
+9	dogs	dog	NOUN	NNS	_	6	pobj	_	NNS|02084071-n|Canine+
+10	.	.	.	.	_	5	punct	_	Fp|?|?

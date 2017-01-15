@@ -8,30 +8,30 @@ CONCEPTS B: Black=,White=,Canine+,Entity+,EmotionalState+,Attribute+,Grass=
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
-4	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|02084071-n|Canine+
-5	joyfully	joyfully	ADV	RB	fPOS=ADV++RB	6	advmod	_	RB|00348247-r|EmotionalState+
-6	running	run	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	VBG|01525666-v|Attribute+
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|12102133-n|Grass=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	dog	dog	NOUN	NN	_	2	nsubj	_	NN|02084071-n|Canine+
+5	joyfully	joyfully	ADV	RB	_	6	advmod	_	RB|00348247-r|EmotionalState+
+6	running	run	VERB	VBG	_	4	partmod	_	VBG|01525666-v|Attribute+
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	grass	grass	NOUN	NN	_	7	pobj	_	NN|12102133-n|Grass=
+10	.	.	.	.	_	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-2	black	black	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	JJ|00392812-a|Black=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	conj	_	DT|?|?
-5	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|00393105-a|White=
-6	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|02084071-n|Canine+
-7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	9	aux	_	VBP|02604760-v|Entity+
-8	joyfully	joyfully	ADV	RB	fPOS=ADV++RB	9	advmod	_	RB|00348247-r|EmotionalState+
-9	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-10	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|12102133-n|Grass=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	9	nsubj	_	JJ|00392812-a|Black=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	_	6	amod	_	JJ|00393105-a|White=
+6	dog	dog	NOUN	NN	_	2	conj	_	NN|02084071-n|Canine+
+7	are	be	VERB	VBP	_	9	aux	_	VBP|02604760-v|Entity+
+8	joyfully	joyfully	ADV	RB	_	9	advmod	_	RB|00348247-r|EmotionalState+
+9	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	grass	grass	NOUN	NN	_	10	pobj	_	NN|12102133-n|Grass=
+13	.	.	.	.	_	9	punct	_	Fp|?|?

@@ -8,37 +8,37 @@ CONCEPTS B: HumanChild=,SubjectiveWeakPositiveAttribute+,SurfaceChange+,Clothing
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	NN|09917593-n|HumanChild=
-3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	clothing	clothing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03051540-n|Clothing=
-5	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	8	nsubj	_	WDT|?|?
-6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	cop	_	VBZ|02604760-v|Entity+
-7	light	light	NOUN	NN	fPOS=PART++RB	8	compound	_	NN|11473954-n|RadiatingVisibleLight+
-8	colored	color	AUX	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	2	acl:relcl	_	VBN|00283911-v|SurfaceChange+
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
-10	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-11	with	with	ADP	IN	fPOS=ADP++IN	14	mark	_	IN|?|?
-12	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	13	nmod:poss	_	PRP$|?|?
-13	arms	arm	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	14	nsubj	_	NNS|04565375-n|Weapon=
-14	extended	extend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	10	advcl	_	VBD|00317888-v|Increasing+
-15	outward	outward	ADV	RB	fPOS=ADV++RB	14	advmod	_	RB|00258677-r|PositionalAttribute+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	10	nsubj	_	NN|09917593-n|HumanChild=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	clothing	clothing	NOUN	NN	_	3	pobj	_	NN|03051540-n|Clothing=
+5	which	which	DET	WDT	_	8	nsubj	_	WDT|?|?
+6	is	be	VERB	VBZ	_	8	cop	_	VBZ|02604760-v|Entity+
+7	light	light	NOUN	NN	_	8	advmod	_	NN|11473954-n|RadiatingVisibleLight+
+8	colored	color	VERB	VBN	_	2	rcmod	_	VBN|00283911-v|SurfaceChange+
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+11	with	with	ADP	IN	_	14	mark	_	IN|?|?
+12	his	his	PRON	PRP$	_	13	poss	_	PRP$|?|?
+13	arms	arm	NOUN	NNS	_	14	nsubj	_	NNS|04565375-n|Weapon=
+14	extended	extend	VERB	VBN	_	10	advcl	_	VBD|00317888-v|Increasing+
+15	outward	outward	ADV	RB	_	14	advmod	_	RB|00258677-r|PositionalAttribute+
+16	.	.	.	.	_	10	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|09917593-n|HumanChild=
-3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-4	light	light	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	JJ|01186408-a|SubjectiveWeakPositiveAttribute+
-5	colored	color	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	compound	_	VBN|00283911-v|SurfaceChange+
-6	clothing	clothing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03051540-n|Clothing=
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-8	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-9	with	with	ADP	IN	fPOS=ADP++IN	12	mark	_	IN|?|?
-10	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	11	nmod:poss	_	PRP$|?|?
-11	arms	arm	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	nsubj	_	NNS|04565375-n|Weapon=
-12	extended	extend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	8	advcl	_	VBD|00317888-v|Increasing+
-13	outward	outward	ADV	RB	fPOS=ADV++RB	12	advmod	_	RB|00258677-r|PositionalAttribute+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	8	nsubj	_	NN|09917593-n|HumanChild=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	light	light	NOUN	NN	_	6	amod	_	JJ|01186408-a|SubjectiveWeakPositiveAttribute+
+5	colored	color	ADJ	JJ	_	6	amod	_	VBN|00283911-v|SurfaceChange+
+6	clothing	clothing	NOUN	NN	_	3	pobj	_	NN|03051540-n|Clothing=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+9	with	with	ADP	IN	_	12	mark	_	IN|?|?
+10	his	his	PRON	PRP$	_	11	poss	_	PRP$|?|?
+11	arms	arm	NOUN	NNS	_	12	nsubj	_	NNS|04565375-n|Weapon=
+12	extended	extend	VERB	VBN	_	8	advcl	_	VBD|00317888-v|Increasing+
+13	outward	outward	ADV	RB	_	12	advmod	_	RB|00258677-r|PositionalAttribute+
+14	.	.	.	.	_	8	punct	_	Fp|?|?

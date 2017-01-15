@@ -8,32 +8,32 @@ CONCEPTS B: Woman=,Canine+,Entity+,PhysicalAttribute+,ContentBearingObject+,Plan
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	NN|10787470-n|Woman=
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
-4	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	6	nsubj	_	WP|?|?
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02604760-v|Entity+
-6	old	old	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	JJ|01643620-a|SubjectiveAssessmentAttribute+
-7	,	,	PUNCT	,	fPOS=PUNCT++,	12	punct	_	Fc|?|?
-8	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	12	cop	_	VBZ|02604760-v|Entity+
-9	near	near	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	12	advmod	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-11	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|00393105-a|White=
-12	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|02084071-n|Canine+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	8	nsubj	_	NN|10787470-n|Woman=
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	_	6	nsubj	_	WP|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	old	old	ADJ	JJ	_	2	rcmod	_	JJ|01643620-a|SubjectiveAssessmentAttribute+
+7	,	,	.	,	_	8	punct	_	Fc|?|?
+8	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+9	near	near	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	white	white	ADJ	JJ	_	12	amod	_	JJ|00393105-a|White=
+12	dog	dog	NOUN	NN	_	9	pobj	_	NN|02084071-n|Canine+
+13	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10787470-n|Woman=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	NN|02084071-n|Canine+
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	VBP|02604760-v|Entity+
-7	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-8	near	near	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	NN|13912260-n|ContentBearingObject+
-11	stump	stump	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|13111504-n|PlantBranch+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	7	nsubj	_	NN|10787470-n|Woman=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	dog	dog	NOUN	NN	_	2	conj	_	NN|02084071-n|Canine+
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+8	near	near	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	tree	tree	NOUN	NN	_	11	nn	_	NN|13912260-n|ContentBearingObject+
+11	stump	stump	NOUN	NN	_	8	pobj	_	NN|13111504-n|PlantBranch+
+12	.	.	.	.	_	7	punct	_	Fp|?|?

@@ -8,28 +8,28 @@ CONCEPTS B: Entity+,Hominid=,Impelling+,Separating+,Cheese=,PreparedFood+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	sprinkling	sprinkle	VERB	VBG	VerbForm=Ger|fPOS=AUX++VBG	0	ROOT	_	VBG|01376245-v|Impelling+
-5	shredded	shred	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	6	amod	_	VBN|01573891-v|Separating+
-6	cheese	cheese	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|07850329-n|Cheese=
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	pizza	pizza	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|07873807-n|PreparedFood+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	6	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+4	sprinkling	sprinkle	VERB	VBG	_	5	dep	_	VBG|01376245-v|Impelling+
+5	shredded	shred	VERB	VBN	_	6	amod	_	VBN|01573891-v|Separating+
+6	cheese	cheese	NOUN	NN	_	0	ROOT	_	NN|07850329-n|Cheese=
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	pizza	pizza	NOUN	NN	_	7	pobj	_	NN|07873807-n|PreparedFood+
+10	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	DT|?|?
-4	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	compound	_	NN|02472293-n|Hominid=
-5	sprinkling	sprinkle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	VBG|01376245-v|Impelling+
-6	shredded	shred	VERB	VBN	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	5	acl	_	VBN|01573891-v|Separating+
-7	cheese	cheese	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|07850329-n|Cheese=
-8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	pizza	pizza	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|07873807-n|PreparedFood+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	sprinkling	sprinkle	VERB	VBG	_	4	partmod	_	VBG|01376245-v|Impelling+
+6	shredded	shred	ADJ	JJ	_	7	amod	_	VBN|01573891-v|Separating+
+7	cheese	cheese	NOUN	NN	_	5	dobj	_	NN|07850329-n|Cheese=
+8	on	on	ADP	IN	_	5	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	pizza	pizza	NOUN	NN	_	8	pobj	_	NN|07873807-n|PreparedFood+
+11	.	.	.	.	_	2	punct	_	Fp|?|?

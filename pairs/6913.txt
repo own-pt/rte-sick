@@ -8,46 +8,46 @@ CONCEPTS B: Woman=,Entity+,Putting+,SubjectiveStrongNegativeAttribute+,Shirt=,Wh
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10787470-n|Woman=
-3	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	2	acl	_	VBG|00050652-v|Dressing+
-4	casual	casual	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	JJ|00545746-a|EmotionalState+
-5	clothing	clothing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	NN|03051540-n|Clothing=
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	keeping	keep	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02202384-v|Attribute+
-8	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	9	nmod:poss	_	PRP$|?|?
-9	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	NN|05302499-n|Mouth+
-10	closed	close	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	7	xcomp	_	VBD|01345109-v|Closing=
-11	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
-12	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	15	cop	_	VBZ|02604760-v|Entity+
-13	near	near	DET	DT	fPOS=ADV++RB	15	det	_	IN|?|?
-14	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	JJ|02069355-a|equal+
-15	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	conj	_	NNS|07942152-n|GroupOfPeople=
-16	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	15	acl	_	VBN|00046534-v|Dressing+
-17	differently	differently	ADV	RB	fPOS=ADV++RB	16	advmod	_	RB|00113082-r|equal+
-18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	7	nsubj	_	NN|10787470-n|Woman=
+3	wearing	wear	VERB	VBG	_	2	partmod	_	VBG|00050652-v|Dressing+
+4	casual	casual	ADJ	JJ	_	5	amod	_	JJ|00545746-a|EmotionalState+
+5	clothing	clothing	NOUN	NN	_	3	dobj	_	NN|03051540-n|Clothing=
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	keeping	keep	VERB	VBG	_	0	ROOT	_	VBG|02202384-v|Attribute+
+8	her	her	PRON	PRP$	_	9	poss	_	PRP$|?|?
+9	mouth	mouth	NOUN	NN	_	7	dobj	_	NN|05302499-n|Mouth+
+10	closed	close	VERB	VBN	_	7	dep	_	VBD|01345109-v|Closing=
+11	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+12	is	be	VERB	VBZ	_	16	auxpass	_	VBZ|02604760-v|Entity+
+13	near	near	ADP	IN	_	16	prep	_	IN|?|?
+14	other	other	ADJ	JJ	_	15	amod	_	JJ|02069355-a|equal+
+15	people	people	NOUN	NNS	_	13	pobj	_	NNS|07942152-n|GroupOfPeople=
+16	dressed	dress	VERB	VBN	_	7	conj	_	VBN|00046534-v|Dressing+
+17	differently	differently	ADV	RB	_	16	advmod	_	RB|00113082-r|equal+
+18	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00052374-v|Putting+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	blue	blue	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	compound	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
-7	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|04197391-n|Shirt=
-8	with	with	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	11	amod	_	JJ|00393105-a|White=
-11	vest	vest	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04531873-n|Clothing+
-12	and	and	CONJ	CC	fPOS=CONJ++CC	11	cc	_	CC|?|?
-13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-14	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	JJ|00393105-a|White=
-15	cap	cap	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	conj	_	NN|02954938-n|Device+
-16	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	18	aux	_	VBZ|02604760-v|Entity+
-18	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|00941990-v|Speaking+
-19	and	and	CONJ	CC	fPOS=CONJ++CC	18	cc	_	CC|?|?
-20	marching	march	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	18	conj	_	VBG|01919391-v|Walking+
-21	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	blue	blue	ADJ	JJ	_	7	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+7	shirt	shirt	NOUN	NN	_	4	dobj	_	NN|04197391-n|Shirt=
+8	with	with	ADP	IN	_	4	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	white	white	ADJ	JJ	_	11	amod	_	JJ|00393105-a|White=
+11	vest	vest	NOUN	NN	_	8	pobj	_	NN|04531873-n|Clothing+
+12	and	and	CONJ	CC	_	11	cc	_	CC|?|?
+13	a	a	DET	DT	_	15	det	_	DT|?|?
+14	white	white	ADJ	JJ	_	15	amod	_	JJ|00393105-a|White=
+15	cap	cap	NOUN	NN	_	11	conj	_	NN|02954938-n|Device+
+16	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+17	is	be	VERB	VBZ	_	18	aux	_	VBZ|02604760-v|Entity+
+18	talking	talk	VERB	VBG	_	4	conj	_	VBG|00941990-v|Speaking+
+19	and	and	CONJ	CC	_	18	cc	_	CC|?|?
+20	marching	march	VERB	VBG	_	18	conj	_	VBG|01919391-v|Walking+
+21	.	.	.	.	_	4	punct	_	Fp|?|?

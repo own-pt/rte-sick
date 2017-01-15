@@ -8,40 +8,40 @@ CONCEPTS B: Group=,Woman=,Entity+,RecreationOrExercise+,Pink+,Position+,Ear+,Ent
 
 CONLL A:
 
-1	Women	woman	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	NNS|10787470-n|Woman=
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	3	aux	_	VBP|02604760-v|Entity+
-3	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00047745-v|CoveringFn=
-4	bunny	bunny	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	compound	_	NN|09880189-n|Position+
-5	ears	ear	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	dobj	_	NNS|05323889-n|Ear+
-6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-7	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	NN|07458453-n|Racing=
-8	numbers	number	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	conj	_	NNS|13582013-n|Number=
-9	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	CC|?|?
-10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	11	aux	_	VBP|02604760-v|Entity+
-11	pointing	point	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	3	conj	_	VBG|00923793-v|Indicating=
-12	at	at	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-13	something	something	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	PRP|?|?
-14	in	in	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-16	distance	distance	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	NN|05084201-n|LengthMeasure+
-17	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	Women	woman	NOUN	NNS	_	3	nsubj	_	NNS|10787470-n|Woman=
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+4	bunny	bunny	NOUN	NN	_	5	nn	_	NN|09880189-n|Position+
+5	ears	ear	NOUN	NNS	_	3	dobj	_	NNS|05323889-n|Ear+
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	race	race	NOUN	NN	_	8	nn	_	NN|07458453-n|Racing=
+8	numbers	number	NOUN	NNS	_	5	conj	_	NNS|13582013-n|Number=
+9	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+10	are	be	VERB	VBP	_	11	aux	_	VBP|02604760-v|Entity+
+11	pointing	point	VERB	VBG	_	3	conj	_	VBG|00923793-v|Indicating=
+12	at	at	ADP	IN	_	11	prep	_	IN|?|?
+13	something	something	NOUN	NN	_	12	pobj	_	PRP|?|?
+14	in	in	ADP	IN	_	13	prep	_	IN|?|?
+15	the	the	DET	DT	_	16	det	_	DT|?|?
+16	distance	distance	NOUN	NN	_	14	pobj	_	NN|05084201-n|LengthMeasure+
+17	.	.	.	.	_	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|00031264-n|Group=
-3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	women	woman	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|10787470-n|Woman=
-5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	VBP|02604760-v|Entity+
-6	wearing	wear	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
-7	pink	pink	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|00379595-a|Pink+
-8	bunny	bunny	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	NN|09880189-n|Position+
-9	ears	ear	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	dobj	_	NNS|05323889-n|Ear+
-10	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
-11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	12	aux	_	VBP|02604760-v|Entity+
-12	pointing	point	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	conj	_	VBG|00923793-v|Indicating=
-13	to	to	ADP	IN	fPOS=ADP++IN	15	case	_	TO|?|?
-14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-15	right	right	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	NN|05565337-n|Hand+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	women	woman	NOUN	NNS	_	3	pobj	_	NNS|10787470-n|Woman=
+5	are	be	VERB	VBP	_	6	aux	_	VBP|02604760-v|Entity+
+6	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
+7	pink	pink	ADJ	JJ	_	9	amod	_	JJ|00379595-a|Pink+
+8	bunny	bunny	NOUN	NN	_	9	nn	_	NN|09880189-n|Position+
+9	ears	ear	NOUN	NNS	_	6	dobj	_	NNS|05323889-n|Ear+
+10	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+11	are	be	VERB	VBP	_	12	aux	_	VBP|02604760-v|Entity+
+12	pointing	point	VERB	VBG	_	6	conj	_	VBG|00923793-v|Indicating=
+13	to	to	ADP	IN	_	12	prep	_	TO|?|?
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	right	right	NOUN	NN	_	13	pobj	_	NN|05565337-n|Hand+
+16	.	.	.	.	_	6	punct	_	Fp|?|?

@@ -8,28 +8,28 @@ CONCEPTS B: GroupOfPeople=,Entity+,not=,Walking=,SocialInteraction+,Roadway=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10287213-n|Man=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	NN|10787470-n|Woman=
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	VBP|02604760-v|Entity+
-7	walking	walk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
-8	down	down	ADP	IN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	7	compound:prt	_	RP|00096089-r|earlier+
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	city	city	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	NN|08524735-n|City=
-11	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod:npmod	_	NN|04334599-n|Roadway=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|10287213-n|Man=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	woman	woman	NOUN	NN	_	2	conj	_	NN|10787470-n|Woman=
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+8	down	down	PRT	RP	_	7	prep	_	RP|00096089-r|earlier+
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	city	city	NOUN	NN	_	11	nn	_	NN|08524735-n|City=
+11	street	street	NOUN	NN	_	8	pobj	_	NN|04334599-n|Roadway=
+12	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-3	not	not	PART	RB	fPOS=PART++RB	4	neg	_	RB|00024073-r|not=
-4	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
-5	through	through	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	crowded	crowd	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	VBN|02027612-v|SocialInteraction+
-8	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04334599-n|Roadway=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	People	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+2	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+3	not	not	ADV	RB	_	4	neg	_	RB|00024073-r|not=
+4	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+5	through	through	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	crowded	crowd	ADJ	JJ	_	8	amod	_	VBN|02027612-v|SocialInteraction+
+8	street	street	NOUN	NN	_	5	pobj	_	NN|04334599-n|Roadway=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

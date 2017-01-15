@@ -8,25 +8,25 @@ CONCEPTS B: Human=,Entity+,Drinking+,OrangeColor+,Juice=,Walking=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	drinking	drink	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01171183-v|Drinking+
-5	orange	orange	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	compound	_	NN|04965179-n|OrangeColor+
-6	juice	juice	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|07923748-n|Juice=
-7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
-8	walking	walk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	conj	_	VBG|01904930-v|Walking=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	drinking	drink	VERB	VBG	_	0	ROOT	_	VBG|01171183-v|Drinking+
+5	orange	orange	ADJ	JJ	_	6	amod	_	NN|04965179-n|OrangeColor+
+6	juice	juice	NOUN	NN	_	4	dobj	_	NN|07923748-n|Juice=
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	walking	walk	NOUN	NN	_	6	conj	_	VBG|01904930-v|Walking=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	drinking	drink	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01171183-v|Drinking+
-5	orange	orange	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	compound	_	NN|04965179-n|OrangeColor+
-6	juice	juice	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|07923748-n|Juice=
-7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
-8	walking	walk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	conj	_	VBG|01904930-v|Walking=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	drinking	drink	VERB	VBG	_	0	ROOT	_	VBG|01171183-v|Drinking+
+5	orange	orange	ADJ	JJ	_	6	amod	_	NN|04965179-n|OrangeColor+
+6	juice	juice	NOUN	NN	_	4	dobj	_	NN|07923748-n|Juice=
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	walking	walk	NOUN	NN	_	6	conj	_	VBG|01904930-v|Walking=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

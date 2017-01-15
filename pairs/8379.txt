@@ -8,28 +8,28 @@ CONCEPTS B: Human+,SubjectiveStrongNegativeAttribute+,Entity+,Translocation+,ear
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubjpass	_	NN|10129825-n|Human+
-3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	blue	blue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	auxpass	_	VBZ|02604760-v|Entity+
-6	sliding	slide	VERB	VBG	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBG|02090990-v|Translocation+
-7	down	down	ADP	RP	fPOS=ADP++IN	6	compound:prt	_	RP|00095320-r|earlier+
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-9	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	JJ|00375969-a|Green=
-10	slide	slide	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|03029603-n|Artifact+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	6	nsubj	_	NN|10129825-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	blue	blue	NOUN	NN	_	3	pobj	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	sliding	slide	VERB	VBG	_	0	ROOT	_	VBG|02090990-v|Translocation+
+7	down	down	PRT	RP	_	6	prt	_	RP|00095320-r|earlier+
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	green	green	ADJ	JJ	_	10	amod	_	JJ|00375969-a|Green=
+10	slide	slide	NOUN	NN	_	6	dobj	_	NN|03029603-n|Artifact+
+11	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|10129825-n|Human+
-3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	blue	blue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	sliding	slide	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02090990-v|Translocation+
-7	down	down	ADP	IN	fPOS=ADP++RP	6	compound:prt	_	RP|00095320-r|earlier+
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	slide	slide	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|03029603-n|Artifact+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	6	nsubj	_	NN|10129825-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	blue	blue	NOUN	NN	_	3	pobj	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	sliding	slide	VERB	VBG	_	0	ROOT	_	VBG|02090990-v|Translocation+
+7	down	down	PRT	RP	_	6	prt	_	RP|00095320-r|earlier+
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	slide	slide	NOUN	NN	_	6	dobj	_	NN|03029603-n|Artifact+
+10	.	.	.	.	_	6	punct	_	Fp|?|?

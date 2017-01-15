@@ -8,36 +8,36 @@ CONCEPTS B: Man=,Entity+,Putting+,SubjectiveAssessmentAttribute+,SubjectiveStron
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	cop	_	VBZ|02604760-v|Entity+
-4	standing	stand	ADJ	JJ	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	amod	_	VBG|01546111-v|PhysicalAttribute+
-5	shirtless	shirtless	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	JJ|?|?
-6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|04334599-n|Roadway=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	shirtless	shirtless	NOUN	NN	_	4	dobj	_	JJ|?|?
+6	in	in	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	street	street	NOUN	NN	_	6	pobj	_	NN|04334599-n|Roadway=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10287213-n|Man=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00052374-v|Putting+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-6	long	long	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	advmod	_	RB|00166025-r|SubjectiveAssessmentAttribute+
-7	sleeved	sleeved	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	9	amod	_	VBN|?|?
-8	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
-9	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|04197391-n|Shirt=
-10	and	and	CONJ	CC	fPOS=CONJ++CC	9	cc	_	CC|?|?
-11	jeans	jean	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	conj	_	NNS|03594734-n|Trousers+
-12	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	14	aux	_	VBZ|02604760-v|Entity+
-14	riding	ride	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|02102398-v|Transportation+
-15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-16	unicycle	unicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	NN|04509417-n|AgentPoweredVehicle+
-17	down	down	ADP	RP	fPOS=ADP++RP	16	compound:prt	_	IN|?|?
-18	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	19	det	_	DT|?|?
-19	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod:npmod	_	NN|04334599-n|Roadway=
-20	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+5	a	a	DET	DT	_	9	det	_	DT|?|?
+6	long	long	ADJ	JJ	_	9	amod	_	RB|00166025-r|SubjectiveAssessmentAttribute+
+7	sleeved	sleeved	VERB	VBN	_	9	amod	_	VBN|?|?
+8	blue	blue	ADJ	JJ	_	9	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+9	shirt	shirt	NOUN	NN	_	4	dobj	_	NN|04197391-n|Shirt=
+10	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+11	jeans	jean	NOUN	NNS	_	9	conj	_	NNS|03594734-n|Trousers+
+12	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+13	is	be	VERB	VBZ	_	14	aux	_	VBZ|02604760-v|Entity+
+14	riding	ride	VERB	VBG	_	4	conj	_	VBG|02102398-v|Transportation+
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	unicycle	unicycle	NOUN	NN	_	14	dobj	_	NN|04509417-n|AgentPoweredVehicle+
+17	down	down	ADP	IN	_	14	prep	_	IN|?|?
+18	a	a	DET	DT	_	19	det	_	DT|?|?
+19	street	street	NOUN	NN	_	17	pobj	_	NN|04334599-n|Roadway=
+20	.	.	.	.	_	4	punct	_	Fp|?|?

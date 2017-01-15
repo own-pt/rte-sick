@@ -8,35 +8,35 @@ CONCEPTS B: Racing=,Automobile=,Entity+,Roadway+,FrontFn=,FloweringPlant+,Region
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00393105-a|White=
-3	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|02834778-n|Bicycle=
-4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	CC|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
-7	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	conj	_	NN|02834778-n|Bicycle=
-8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	9	aux	_	VBP|02604760-v|Entity+
-9	racing	race	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02058994-v|Motion+
-10	down	down	ADV	RB	fPOS=ADP++IN	12	case	_	RP|00096089-r|earlier+
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|04037625-n|StationaryArtifact+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	bike	bike	NOUN	NN	_	9	nsubj	_	NN|02834778-n|Bicycle=
+4	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	yellow	yellow	ADJ	JJ	_	7	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+7	bike	bike	NOUN	NN	_	3	conj	_	NN|02834778-n|Bicycle=
+8	are	be	VERB	VBP	_	9	aux	_	VBP|02604760-v|Entity+
+9	racing	race	VERB	VBG	_	0	ROOT	_	VBG|02058994-v|Motion+
+10	down	down	PRT	RP	_	9	prt	_	RP|00096089-r|earlier+
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	track	track	NOUN	NN	_	9	dobj	_	NN|04037625-n|StationaryArtifact+
+13	.	.	.	.	_	9	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	Degree=Pos|fPOS=ADJ++JJ	3	nummod	_	Z|?|?
-2	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	NN|07458453-n|Racing=
-3	cars	car	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubj	_	NNS|02958343-n|Automobile=
-4	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	7	cop	_	VBP|02604760-v|Entity+
-5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|04096066-n|Roadway+
-8	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-9	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|08573472-n|FrontFn=
-10	of	of	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-12	grassy	grassy	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	14	compound	_	JJ|00209620-a|FloweringPlant+
-13	parking	parking	VERB	VBG	Number=Sing|fPOS=NOUN++NN	14	compound	_	NN|13778671-n|Region+
-14	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|14514039-n|SubjectiveAssessmentAttribute+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	race	race	NOUN	NN	_	3	nn	_	NN|07458453-n|Racing=
+3	cars	car	NOUN	NNS	_	4	nsubj	_	NNS|02958343-n|Automobile=
+4	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	road	road	NOUN	NN	_	5	pobj	_	NN|04096066-n|Roadway+
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	front	front	NOUN	NN	_	8	pobj	_	NN|08573472-n|FrontFn=
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	14	det	_	DT|?|?
+12	grassy	grassy	ADJ	JJ	_	14	amod	_	JJ|00209620-a|FloweringPlant+
+13	parking	parking	NOUN	NN	_	14	nn	_	NN|13778671-n|Region+
+14	area	area	NOUN	NN	_	10	pobj	_	NN|14514039-n|SubjectiveAssessmentAttribute+
+15	.	.	.	.	_	4	punct	_	Fp|?|?

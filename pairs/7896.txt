@@ -8,27 +8,27 @@ CONCEPTS B: White=,Motion+,Vehicle=,Entity+,Transportation+,StaticWaterArea+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00393105-a|White=
-3	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	compound	_	NN|07458453-n|Racing=
-4	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02958343-n|Automobile=
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	driving	drive	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01930874-v|Transportation+
-7	through	through	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	puddle	puddle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|09397607-n|StaticWaterArea+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	4	amod	_	JJ|00393105-a|White=
+3	race	race	NOUN	NN	_	4	nn	_	NN|07458453-n|Racing=
+4	car	car	NOUN	NN	_	6	nsubj	_	NN|02958343-n|Automobile=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	driving	drive	VERB	VBG	_	0	ROOT	_	VBG|01930874-v|Transportation+
+7	through	through	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	puddle	puddle	NOUN	NN	_	7	pobj	_	NN|09397607-n|StaticWaterArea+
+10	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00393105-a|White=
-3	racing	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	compound	_	VBG|02058994-v|Motion+
-4	vehicle	vehicle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|04524313-n|Vehicle=
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	driving	drive	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01930874-v|Transportation+
-7	through	through	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	puddle	puddle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|09397607-n|StaticWaterArea+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	4	amod	_	JJ|00393105-a|White=
+3	racing	race	NOUN	NN	_	4	nn	_	VBG|02058994-v|Motion+
+4	vehicle	vehicle	NOUN	NN	_	6	nsubj	_	NN|04524313-n|Vehicle=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	driving	drive	VERB	VBG	_	0	ROOT	_	VBG|01930874-v|Transportation+
+7	through	through	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	puddle	puddle	NOUN	NN	_	7	pobj	_	NN|09397607-n|StaticWaterArea+
+10	.	.	.	.	_	6	punct	_	Fp|?|?

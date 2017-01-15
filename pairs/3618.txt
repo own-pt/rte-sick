@@ -8,17 +8,17 @@ CONCEPTS B: Region@,Entity+,capability+
 
 CONLL A:
 
-1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	DT|?|?
-2	fish	fish	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02512053-n|Fish=
-3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	cop	_	VBP|02604760-v|Entity+
-4	swimming	swim	ADJ	JJ	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01960911-v|Swimming+
-5	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	fish	fish	NOUN	NNS	_	4	nsubj	_	NN|02512053-n|Fish=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	swimming	swim	VERB	VBG	_	0	ROOT	_	VBG|01960911-v|Swimming+
+5	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	fish	fish	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|08688076-n|Region@
-3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	4	cop	_	VBP|02604760-v|Entity+
-4	immobile	immobile	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	JJ|01525116-a|capability+
-5	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	fish	fish	NOUN	NN	_	4	nsubj	_	NN|08688076-n|Region@
+3	are	be	VERB	VBP	_	4	cop	_	VBP|02604760-v|Entity+
+4	immobile	immobile	ADJ	JJ	_	0	ROOT	_	JJ|01525116-a|capability+
+5	.	.	.	.	_	4	punct	_	Fp|?|?

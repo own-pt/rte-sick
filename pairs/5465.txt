@@ -8,20 +8,20 @@ CONCEPTS B: Hominid=,Entity+,BodyMotion+,Grass=
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=ADV++RB	4	neg	_	DT|?|?
-4	man	man	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	2	nsubj	_	NN|02472293-n|Hominid=
-5	mowing	mow	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	VBG|00034758-v|BodyMotion+
-6	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|12102133-n|Grass=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	6	det	_	DT|?|?
+4	man	man	NOUN	NN	_	6	nn	_	NN|02472293-n|Hominid=
+5	mowing	mow	VERB	VBG	_	6	nn	_	VBG|00034758-v|BodyMotion+
+6	grass	grass	NOUN	NN	_	2	nsubj	_	NN|12102133-n|Grass=
+7	.	.	.	.	_	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	mowing	mow	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|00034758-v|BodyMotion+
-5	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|12102133-n|Grass=
-6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	mowing	mow	VERB	VBG	_	0	ROOT	_	VBG|00034758-v|BodyMotion+
+5	grass	grass	NOUN	NN	_	4	dobj	_	NN|12102133-n|Grass=
+6	.	.	.	.	_	4	punct	_	Fp|?|?

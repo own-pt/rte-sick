@@ -8,24 +8,24 @@ CONCEPTS B: Human+,Entity+,SubjectiveAssessmentAttribute+,Ambulating=,Automobile
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10129825-n|Human+
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	cop	_	VBZ|02604760-v|Entity+
-4	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	jumping	jump	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	VBG|01963942-v|Ambulating=
-7	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|02958343-n|Automobile=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	3	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+4	on	on	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	jumping	jump	VERB	VBG	_	7	nn	_	VBG|01963942-v|Ambulating=
+7	car	car	NOUN	NN	_	4	pobj	_	NN|02958343-n|Automobile=
+8	.	.	.	.	_	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10129825-n|Human+
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	cop	_	VBZ|02604760-v|Entity+
-4	recklessly	recklessly	ADV	RB	fPOS=ADV++RB	0	ROOT	_	RB|00354861-r|SubjectiveAssessmentAttribute+
-5	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	advcl	_	VBG|01963942-v|Ambulating=
-6	onto	onto	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02958343-n|Automobile=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	recklessly	recklessly	ADV	RB	_	5	advmod	_	RB|00354861-r|SubjectiveAssessmentAttribute+
+5	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+6	onto	onto	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	car	car	NOUN	NN	_	6	pobj	_	NN|02958343-n|Automobile=
+9	.	.	.	.	_	5	punct	_	Fp|?|?

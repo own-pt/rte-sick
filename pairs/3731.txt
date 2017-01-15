@@ -8,23 +8,23 @@ CONCEPTS B: Swimmer+,Entity+,Motion+,Lake=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	few	few	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	DT|?|?
-3	swimmers	swimmer	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|10683126-n|Swimmer+
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02604760-v|Entity+
-5	racing	race	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02058994-v|Motion+
-6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	lake	lake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|09328904-n|Lake=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	quantmod	_	DT|?|?
+2	few	few	ADJ	JJ	_	3	num	_	DT|?|?
+3	swimmers	swimmer	NOUN	NNS	_	5	nsubj	_	NNS|10683126-n|Swimmer+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	racing	race	VERB	VBG	_	0	ROOT	_	VBG|02058994-v|Motion+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	lake	lake	NOUN	NN	_	6	pobj	_	NN|09328904-n|Lake=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Swimmers	swimmer	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	NNS|10683126-n|Swimmer+
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	3	aux	_	VBP|02604760-v|Entity+
-3	racing	race	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02058994-v|Motion+
-4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	lake	lake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|09328904-n|Lake=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	Swimmers	swimmer	NOUN	NNS	_	3	nsubj	_	NNS|10683126-n|Swimmer+
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	racing	race	VERB	VBG	_	0	ROOT	_	VBG|02058994-v|Motion+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	lake	lake	NOUN	NN	_	4	pobj	_	NN|09328904-n|Lake=
+7	.	.	.	.	_	3	punct	_	Fp|?|?

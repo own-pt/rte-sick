@@ -8,39 +8,39 @@ CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Dressing+,Clothing+,Physic
 
 CONLL A:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	nsubj	_	NNS|10285313-n|Human+
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
-4	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	5	nsubj	_	WP|?|?
-5	look	look	VERB	VBP	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	2	acl:relcl	_	VBP|02133435-v|SubjectiveAssessmentAttribute+
-6	small	small	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	5	xcomp	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-7	,	,	PUNCT	,	fPOS=PUNCT++,	5	punct	_	Fc|?|?
-8	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	5	advcl	_	VBN|00046534-v|Dressing+
-9	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-10	tuxedos	tuxedo	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NNS|03201776-n|Clothing+
-11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	12	aux	_	VBP|02655135-v|PhysicalAttribute+
-12	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-13	on	on	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
-14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	DT|?|?
-15	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	16	advmod	_	JJ|00381097-a|Red=
-16	carpeted	carpet	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	VBN|01235073-v|Covering+
-17	floor	floor	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	NN|03365592-n|Floor+
-18	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	boys	boy	NOUN	NNS	_	12	nsubj	_	NNS|10285313-n|Human+
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	_	5	nsubj	_	WP|?|?
+5	look	look	VERB	VBP	_	2	rcmod	_	VBP|02133435-v|SubjectiveAssessmentAttribute+
+6	small	small	ADJ	JJ	_	5	acomp	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+7	,	,	.	,	_	2	punct	_	Fc|?|?
+8	dressed	dress	VERB	VBN	_	2	partmod	_	VBN|00046534-v|Dressing+
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	tuxedos	tuxedo	NOUN	NNS	_	9	pobj	_	NNS|03201776-n|Clothing+
+11	are	be	VERB	VBP	_	12	aux	_	VBP|02655135-v|PhysicalAttribute+
+12	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+13	on	on	ADP	IN	_	12	prep	_	IN|?|?
+14	a	a	DET	DT	_	17	det	_	DT|?|?
+15	red	red	ADJ	JJ	_	17	amod	_	JJ|00381097-a|Red=
+16	carpeted	carpet	VERB	VBN	_	17	amod	_	VBN|01235073-v|Covering+
+17	floor	floor	NOUN	NN	_	13	pobj	_	NN|03365592-n|Floor+
+18	.	.	.	.	_	12	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	VERB	VBZ	NumType=Card|fPOS=NUM++CD	3	nummod	_	Z|?|?
-2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nsubj	_	NNS|10285313-n|Human+
-4	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	3	acl	_	VBN|00046534-v|Dressing+
-5	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-6	tuxedos	tuxedo	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|03201776-n|Clothing+
-7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	8	aux	_	VBP|02655135-v|PhysicalAttribute+
-8	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-9	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-11	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	advmod	_	JJ|00381097-a|Red=
-12	carpeted	carpet	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	VBN|01235073-v|Covering+
-13	floor	floor	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|03365592-n|Floor+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	small	small	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	boys	boy	NOUN	NNS	_	8	nsubj	_	NNS|10285313-n|Human+
+4	dressed	dress	VERB	VBN	_	3	partmod	_	VBN|00046534-v|Dressing+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	tuxedos	tuxedo	NOUN	NNS	_	5	pobj	_	NNS|03201776-n|Clothing+
+7	are	be	VERB	VBP	_	8	aux	_	VBP|02655135-v|PhysicalAttribute+
+8	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+9	on	on	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	13	det	_	DT|?|?
+11	red	red	ADJ	JJ	_	13	amod	_	JJ|00381097-a|Red=
+12	carpeted	carpet	VERB	VBN	_	13	amod	_	VBN|01235073-v|Covering+
+13	floor	floor	NOUN	NN	_	9	pobj	_	NN|03365592-n|Floor+
+14	.	.	.	.	_	8	punct	_	Fp|?|?

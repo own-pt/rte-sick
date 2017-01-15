@@ -8,33 +8,33 @@ CONCEPTS B: GroupOfPeople=,Dressing+,Clothing+,Entity+,Translocation+,Forest=,En
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10129825-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
-6	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|10787470-n|Woman=
-9	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-10	costume	costume	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|03113657-n|Clothing+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+6	at	at	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	woman	woman	NOUN	NN	_	6	pobj	_	NN|10787470-n|Woman=
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	costume	costume	NOUN	NN	_	9	pobj	_	NN|03113657-n|Clothing+
+11	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	People	people	ADJ	JJ	Number=Plur|fPOS=NOUN++NNS	3	amod	_	NNS|07942152-n|GroupOfPeople=
-2	wearing	wear	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	compound	_	VBG|00050652-v|Dressing+
-3	costumes	costume	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|03113657-n|Clothing+
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02604760-v|Entity+
-5	scattering	scatter	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02028994-v|Translocation+
-6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	forest	forest	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|09284015-n|Forest=
-9	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	11	aux	_	VBP|02604760-v|Entity+
-11	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
-12	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-13	different	different	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	JJ|02064745-a|equal+
-14	directions	direction	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	nmod	_	NNS|13827426-n|DirectionalAttribute=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	People	people	NOUN	NNS	_	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
+2	wearing	wear	VERB	VBG	_	1	partmod	_	VBG|00050652-v|Dressing+
+3	costumes	costume	NOUN	NNS	_	2	dobj	_	NNS|03113657-n|Clothing+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	scattering	scatter	VERB	VBG	_	0	ROOT	_	VBG|02028994-v|Translocation+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	forest	forest	NOUN	NN	_	6	pobj	_	NN|09284015-n|Forest=
+9	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+10	are	be	VERB	VBP	_	11	aux	_	VBP|02604760-v|Entity+
+11	looking	look	VERB	VBG	_	5	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+12	in	in	ADP	IN	_	11	prep	_	IN|?|?
+13	different	different	ADJ	JJ	_	14	amod	_	JJ|02064745-a|equal+
+14	directions	direction	NOUN	NNS	_	12	pobj	_	NNS|13827426-n|DirectionalAttribute=
+15	.	.	.	.	_	5	punct	_	Fp|?|?

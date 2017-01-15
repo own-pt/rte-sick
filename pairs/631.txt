@@ -8,41 +8,41 @@ CONCEPTS B: HumanChild=,Swimming+,Ocean=,Entity+,Removing+,CurrencyCoin=,StaticW
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	tossing	toss	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02222318-v|Removing+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	kid	kid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|09917593-n|HumanChild=
-7	into	into	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-9	swimming	swim	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	10	compound	_	VBG|01960911-v|Swimming+
-10	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|09397607-n|StaticWaterArea+
-11	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	15	nsubj	_	WDT|?|?
-12	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	15	cop	_	VBZ|02604760-v|Entity+
-13	near	near	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-15	ocean	ocean	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	acl:relcl	_	NN|09376198-n|Ocean=
-16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	tossing	toss	VERB	VBG	_	0	ROOT	_	VBG|02222318-v|Removing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	kid	kid	NOUN	NN	_	4	dobj	_	NN|09917593-n|HumanChild=
+7	into	into	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	10	det	_	DT|?|?
+9	swimming	swim	NOUN	NN	_	10	nn	_	VBG|01960911-v|Swimming+
+10	pool	pool	NOUN	NN	_	7	pobj	_	NN|09397607-n|StaticWaterArea+
+11	that	that	DET	WDT	_	12	nsubj	_	WDT|?|?
+12	is	be	VERB	VBZ	_	10	rcmod	_	VBZ|02604760-v|Entity+
+13	near	near	ADP	IN	_	12	prep	_	IN|?|?
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	ocean	ocean	NOUN	NN	_	13	pobj	_	NN|09376198-n|Ocean=
+16	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	kid	kid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|09917593-n|HumanChild=
-3	swimming	swim	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	2	acl	_	VBG|01960911-v|Swimming+
-4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	ocean	ocean	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|09376198-n|Ocean=
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-8	tossing	toss	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02222318-v|Removing+
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	coin	coin	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	NN|13388245-n|CurrencyCoin=
-11	into	into	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|09397607-n|StaticWaterArea+
-14	,	,	PUNCT	,	fPOS=PUNCT++,	8	punct	_	Fc|?|?
-15	near	near	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
-16	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	17	det	_	DT|?|?
-17	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|02472293-n|Hominid=
-18	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	kid	kid	NOUN	NN	_	3	nn	_	NN|09917593-n|HumanChild=
+3	swimming	swim	NOUN	NN	_	8	nsubj	_	VBG|01960911-v|Swimming+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	ocean	ocean	NOUN	NN	_	4	pobj	_	NN|09376198-n|Ocean=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	tossing	toss	VERB	VBG	_	0	ROOT	_	VBG|02222318-v|Removing+
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	coin	coin	NOUN	NN	_	8	dobj	_	NN|13388245-n|CurrencyCoin=
+11	into	into	ADP	IN	_	8	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	pool	pool	NOUN	NN	_	11	pobj	_	NN|09397607-n|StaticWaterArea+
+14	,	,	.	,	_	13	punct	_	Fc|?|?
+15	near	near	ADP	IN	_	13	prep	_	IN|?|?
+16	the	the	DET	DT	_	17	det	_	DT|?|?
+17	man	man	NOUN	NN	_	15	pobj	_	NN|02472293-n|Hominid=
+18	.	.	.	.	_	8	punct	_	Fp|?|?

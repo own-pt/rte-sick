@@ -8,27 +8,27 @@ CONCEPTS B: HumanChild=,Swimming+,ClothingSuit+,Entity+,DramaticActing+,Water=
 
 CONLL A:
 
-1	Children	child	ADJ	JJ	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	NNS|09917593-n|HumanChild=
-2	in	in	ADP	IN	fPOS=SCONJ++IN	4	case	_	IN|?|?
-3	swimming	swim	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	4	compound	_	VBG|01960911-v|Swimming+
-4	suits	suit	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	1	nmod	_	NNS|04350905-n|ClothingSuit+
-5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	VBP|02604760-v|Entity+
-6	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-7	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|09397607-n|StaticWaterArea+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	Children	child	NOUN	NNS	_	6	nsubj	_	NNS|09917593-n|HumanChild=
+2	in	in	ADP	IN	_	1	prep	_	IN|?|?
+3	swimming	swim	NOUN	NN	_	4	nn	_	VBG|01960911-v|Swimming+
+4	suits	suit	NOUN	NNS	_	2	pobj	_	NNS|04350905-n|ClothingSuit+
+5	are	be	VERB	VBP	_	6	aux	_	VBP|02604760-v|Entity+
+6	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	pool	pool	NOUN	NN	_	7	pobj	_	NN|09397607-n|StaticWaterArea+
+10	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Children	child	ADJ	JJ	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	NNS|09917593-n|HumanChild=
-2	in	in	ADP	IN	fPOS=SCONJ++IN	4	case	_	IN|?|?
-3	swimming	swim	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	4	compound	_	VBG|01960911-v|Swimming+
-4	suits	suit	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	1	nmod	_	NNS|04350905-n|ClothingSuit+
-5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	VBP|02604760-v|Entity+
-6	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-7	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|14845743-n|Water=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	Children	child	NOUN	NNS	_	6	nsubj	_	NNS|09917593-n|HumanChild=
+2	in	in	ADP	IN	_	1	prep	_	IN|?|?
+3	swimming	swim	NOUN	NN	_	4	nn	_	VBG|01960911-v|Swimming+
+4	suits	suit	NOUN	NNS	_	2	pobj	_	NNS|04350905-n|ClothingSuit+
+5	are	be	VERB	VBP	_	6	aux	_	VBP|02604760-v|Entity+
+6	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	water	water	NOUN	NN	_	7	pobj	_	NN|14845743-n|Water=
+10	.	.	.	.	_	6	punct	_	Fp|?|?

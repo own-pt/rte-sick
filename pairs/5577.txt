@@ -8,38 +8,38 @@ CONCEPTS B: Hominid=,Entity+,IntentionalProcess+,Device+,EndFn+,Physical+,ShapeA
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
-4	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|02472293-n|Hominid=
-5	breaking	break	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	VBG|02681524-v|EndFn+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	slab	slab	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|04233405-n|Artifact+
-8	of	of	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-9	concrete	concrete	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|14820180-n|Concrete=
-10	with	with	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-12	sledge	sledge	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	NN|04235291-n|LandVehicle+
-13	hammer	hammer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|03481172-n|Device+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	breaking	break	VERB	VBG	_	4	partmod	_	VBG|02681524-v|EndFn+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	slab	slab	NOUN	NN	_	5	dobj	_	NN|04233405-n|Artifact+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	concrete	concrete	NOUN	NN	_	8	pobj	_	NN|14820180-n|Concrete=
+10	with	with	ADP	IN	_	5	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	sledge	sledge	NOUN	NN	_	13	nn	_	NN|04235291-n|LandVehicle+
+13	hammer	hammer	NOUN	NN	_	10	pobj	_	NN|03481172-n|Device+
+14	.	.	.	.	_	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	using	use	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01158872-v|IntentionalProcess+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	sledgehammer	sledgehammer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03731695-n|Device+
-7	to	to	PART	TO	fPOS=PART++TO	8	mark	_	TO|?|?
-8	break	break	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	6	acl	_	VB|02681524-v|EndFn+
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	concrete	concrete	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	11	amod	_	JJ|00013160-a|Physical+
-11	block	block	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	NN|13914608-n|ShapeAttribute+
-12	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	16	nsubj	_	WDT|?|?
-13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	16	cop	_	VBZ|02604760-v|Entity+
-14	on	on	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-15	another	another	DET	DT	fPOS=DET++DT	16	det	_	DT|?|?
-16	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	acl:relcl	_	NN|02472293-n|Hominid=
-17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	using	use	VERB	VBG	_	0	ROOT	_	VBG|01158872-v|IntentionalProcess+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	sledgehammer	sledgehammer	NOUN	NN	_	4	dobj	_	NN|03731695-n|Device+
+7	to	to	PRT	TO	_	8	aux	_	TO|?|?
+8	break	break	VERB	VB	_	4	xcomp	_	VB|02681524-v|EndFn+
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	concrete	concrete	ADJ	JJ	_	11	amod	_	JJ|00013160-a|Physical+
+11	block	block	NOUN	NN	_	8	dobj	_	NN|13914608-n|ShapeAttribute+
+12	that	that	DET	WDT	_	13	nsubj	_	WDT|?|?
+13	is	be	VERB	VBZ	_	11	rcmod	_	VBZ|02604760-v|Entity+
+14	on	on	ADP	IN	_	13	prep	_	IN|?|?
+15	another	another	DET	DT	_	16	det	_	DT|?|?
+16	man	man	NOUN	NN	_	14	pobj	_	NN|02472293-n|Hominid=
+17	.	.	.	.	_	4	punct	_	Fp|?|?

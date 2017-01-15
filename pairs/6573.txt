@@ -8,34 +8,34 @@ CONCEPTS B: Human+,Entity+,not=,Transportation+,City=,Roadway=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00047745-v|CoveringFn=
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	blue	blue	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	compound	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
-7	helmet	helmet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03513376-n|Clothing+
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
-10	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|01955984-v|Carrying=
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	bicycle	bicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	NN|02834778-n|Bicycle=
-13	in	in	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-15	parking	parking	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	compound	_	NN|13778671-n|Region+
-16	lot	lot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|13774404-n|SubjectiveAssessmentAttribute+
-17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	blue	blue	ADJ	JJ	_	7	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+7	helmet	helmet	NOUN	NN	_	4	dobj	_	NN|03513376-n|Clothing+
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	riding	ride	VERB	VBG	_	4	conj	_	VBG|01955984-v|Carrying=
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	bicycle	bicycle	NOUN	NN	_	10	dobj	_	NN|02834778-n|Bicycle=
+13	in	in	ADP	IN	_	10	prep	_	IN|?|?
+14	a	a	DET	DT	_	16	det	_	DT|?|?
+15	parking	parking	NOUN	NN	_	16	nn	_	NN|13778671-n|Region+
+16	lot	lot	NOUN	NN	_	13	pobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+17	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	bicyclist	bicyclist	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|09986189-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	RB|00024073-r|not=
-5	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02102398-v|Transportation+
-6	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	city	city	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	NN|08524735-n|City=
-9	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|04334599-n|Roadway=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	bicyclist	bicyclist	NOUN	NN	_	5	nsubj	_	NN|09986189-n|Human+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	city	city	NOUN	NN	_	9	nn	_	NN|08524735-n|City=
+9	street	street	NOUN	NN	_	6	pobj	_	NN|04334599-n|Roadway=
+10	.	.	.	.	_	5	punct	_	Fp|?|?

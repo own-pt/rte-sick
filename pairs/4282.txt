@@ -8,27 +8,27 @@ CONCEPTS B: Man=,Woman=,Entity+,not=,Motion+,Hand+
 
 CONLL A:
 
-1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	old	old	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01643620-a|SubjectiveAssessmentAttribute+
-3	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10787470-n|Woman=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	shaking	shake	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01889610-v|Motion+
-6	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	NNS|05564590-n|Hand+
-7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|10287213-n|Man=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	An	a	DET	DT	_	3	det	_	DT|?|?
+2	old	old	ADJ	JJ	_	3	amod	_	JJ|01643620-a|SubjectiveAssessmentAttribute+
+3	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	shaking	shake	VERB	VBG	_	0	ROOT	_	VBG|01889610-v|Motion+
+6	hands	hand	NOUN	NNS	_	5	dobj	_	NNS|05564590-n|Hand+
+7	with	with	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	man	man	NOUN	NN	_	7	pobj	_	NN|10287213-n|Man=
+10	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10287213-n|Man=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	NN|10787470-n|Woman=
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	8	aux	_	VBP|02604760-v|Entity+
-7	not	not	PART	RB	fPOS=PART++RB	8	neg	_	RB|00024073-r|not=
-8	shaking	shake	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01889610-v|Motion+
-9	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	dobj	_	NNS|05564590-n|Hand+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	woman	woman	NOUN	NN	_	2	conj	_	NN|10787470-n|Woman=
+6	are	be	VERB	VBP	_	8	aux	_	VBP|02604760-v|Entity+
+7	not	not	ADV	RB	_	8	neg	_	RB|00024073-r|not=
+8	shaking	shake	VERB	VBG	_	0	ROOT	_	VBG|01889610-v|Motion+
+9	hands	hand	NOUN	NNS	_	8	dobj	_	NNS|05564590-n|Hand+
+10	.	.	.	.	_	8	punct	_	Fp|?|?

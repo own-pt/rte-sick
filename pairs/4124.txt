@@ -8,25 +8,25 @@ CONCEPTS B: Carnivore+,Mammal+,Entity+,PhysicalAttribute+,LogFn=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	panda	panda	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|02510455-n|Carnivore+
-3	that	that	PRON	WDT	Number=Sing|PronType=Dem|fPOS=PRON++DT	5	nsubj	_	WDT|?|?
-4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	VBZ|02604760-v|Entity+
-5	cute	cute	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	2	acl:relcl	_	JJ|00167278-a|SubjectiveStrongPositiveAttribute+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
-8	down	down	ADV	RB	fPOS=ADV++RB	7	advmod	_	RP|00096089-r|earlier+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	panda	panda	NOUN	NN	_	7	nsubj	_	NN|02510455-n|Carnivore+
+3	that	that	DET	WDT	_	5	nsubj	_	WDT|?|?
+4	is	be	VERB	VBZ	_	5	cop	_	VBZ|02604760-v|Entity+
+5	cute	cute	ADJ	JJ	_	2	rcmod	_	JJ|00167278-a|SubjectiveStrongPositiveAttribute+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+8	down	down	PRT	RP	_	7	prt	_	RP|00096089-r|earlier+
+9	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	panda	panda	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	NN|02510455-n|Carnivore+
-3	bear	bear	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02131653-n|Mammal+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	logs	log	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	NNS|06812631-n|LogFn=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	panda	panda	NOUN	NN	_	3	nn	_	NN|02510455-n|Carnivore+
+3	bear	bear	NOUN	NN	_	5	nsubj	_	NN|02131653-n|Mammal+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	logs	log	NOUN	NNS	_	6	pobj	_	NNS|06812631-n|LogFn=
+9	.	.	.	.	_	5	punct	_	Fp|?|?

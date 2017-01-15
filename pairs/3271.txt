@@ -8,31 +8,31 @@ CONCEPTS B: Human=,Entity+,Expressing+,Soccer=,Ball=,Foot+
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	soccer	soccer	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	NN|00478262-n|Soccer=
-3	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|10439851-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-5	not	not	PART	RB	fPOS=PART++RB	6	neg	_	RB|00024073-r|not=
-6	kicking	kick	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00907147-v|Expressing+
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|02778669-n|Ball=
-9	between	between	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-10	somebody	somebody	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod:poss	_	PRP|?|?
-11	's	's	PART	POS	fPOS=PART++POS	10	case	_	POS|?|?
-12	legs	leg	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	NNS|05560787-n|Limb=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	soccer	soccer	NOUN	NN	_	3	nn	_	NN|00478262-n|Soccer=
+3	player	player	NOUN	NN	_	6	nsubj	_	NN|10439851-n|Human+
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	not	not	ADV	RB	_	6	neg	_	RB|00024073-r|not=
+6	kicking	kick	VERB	VBG	_	0	ROOT	_	VBG|00907147-v|Expressing+
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	ball	ball	NOUN	NN	_	6	dobj	_	NN|02778669-n|Ball=
+9	between	between	ADP	IN	_	6	prep	_	IN|?|?
+10	somebody	somebody	NOUN	NN	_	12	poss	_	PRP|?|?
+11	's	's	PRT	POS	_	10	possessive	_	POS|?|?
+12	legs	leg	NOUN	NNS	_	9	pobj	_	NNS|05560787-n|Limb=
+13	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	kicking	kick	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00907147-v|Expressing+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	soccer	soccer	NOUN	NN	VerbForm=Inf|fPOS=VERB++VB	7	compound	_	NN|00478262-n|Soccer=
-7	ball	ball	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	dobj	_	NN|02778669-n|Ball=
-8	between	between	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	10	nmod:poss	_	PRP$|?|?
-10	feet	foot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NNS|05563266-n|Foot+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	kicking	kick	VERB	VBG	_	0	ROOT	_	VBG|00907147-v|Expressing+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	soccer	soccer	NOUN	NN	_	7	nn	_	NN|00478262-n|Soccer=
+7	ball	ball	NOUN	NN	_	4	dobj	_	NN|02778669-n|Ball=
+8	between	between	ADP	IN	_	7	prep	_	IN|?|?
+9	their	their	PRON	PRP$	_	10	poss	_	PRP$|?|?
+10	feet	foot	NOUN	NNS	_	8	pobj	_	NNS|05563266-n|Foot+
+11	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -8,45 +8,45 @@ CONCEPTS B: Man=,White=,FacialHair+,Entity+,PhysicalAttribute+,StationaryArtifac
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10287213-n|Man=
-3	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-5	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	amod	_	JJ|00393105-a|White=
-6	moustache	moustache	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|05262185-n|FacialHair+
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02655135-v|PhysicalAttribute+
-8	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-9	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	balcony	balcony	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|02777927-n|StationaryArtifact+
-12	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	CC|?|?
-13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	14	aux	_	VBZ|02655135-v|PhysicalAttribute+
-14	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	8	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
-15	at	at	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
-16	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	17	det	_	DT|?|?
-17	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	NN|04096066-n|Roadway+
-18	below	below	ADV	RB	fPOS=ADV++RB	17	advmod	_	IN|?|?
-19	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	_	6	amod	_	JJ|00393105-a|White=
+6	moustache	moustache	NOUN	NN	_	3	pobj	_	NN|05262185-n|FacialHair+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02655135-v|PhysicalAttribute+
+8	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+9	on	on	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	balcony	balcony	NOUN	NN	_	9	pobj	_	NN|02777927-n|StationaryArtifact+
+12	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+13	is	be	VERB	VBZ	_	14	aux	_	VBZ|02655135-v|PhysicalAttribute+
+14	looking	look	VERB	VBG	_	8	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+15	at	at	ADP	IN	_	14	prep	_	IN|?|?
+16	the	the	DET	DT	_	17	det	_	DT|?|?
+17	road	road	NOUN	NN	_	15	pobj	_	NN|04096066-n|Roadway+
+18	below	below	ADV	RB	_	17	advmod	_	IN|?|?
+19	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10287213-n|Man=
-3	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-5	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	amod	_	JJ|00393105-a|White=
-6	moustache	moustache	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|05262185-n|FacialHair+
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-8	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-9	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	balcony	balcony	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|02777927-n|StationaryArtifact+
-12	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	CC|?|?
-13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	14	aux	_	VBZ|02604760-v|Entity+
-14	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	8	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
-15	at	at	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
-16	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	17	det	_	DT|?|?
-17	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	NN|04096066-n|Roadway+
-18	below	below	ADV	RB	fPOS=ADV++RB	17	advmod	_	IN|?|?
-19	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	_	6	amod	_	JJ|00393105-a|White=
+6	moustache	moustache	NOUN	NN	_	3	pobj	_	NN|05262185-n|FacialHair+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+9	on	on	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	balcony	balcony	NOUN	NN	_	9	pobj	_	NN|02777927-n|StationaryArtifact+
+12	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+13	is	be	VERB	VBZ	_	14	aux	_	VBZ|02604760-v|Entity+
+14	looking	look	VERB	VBG	_	8	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+15	at	at	ADP	IN	_	14	prep	_	IN|?|?
+16	the	the	DET	DT	_	17	det	_	DT|?|?
+17	road	road	NOUN	NN	_	15	pobj	_	NN|04096066-n|Roadway+
+18	below	below	ADV	RB	_	17	advmod	_	IN|?|?
+19	.	.	.	.	_	8	punct	_	Fp|?|?

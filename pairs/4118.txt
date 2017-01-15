@@ -8,25 +8,25 @@ CONCEPTS B: Carnivore+,Mammal+,Entity+,PhysicalAttribute+,LogFn=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	panda	panda	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	NN|02510455-n|Carnivore+
-3	bear	bear	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02131653-n|Mammal+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	resting	rest	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00117985-v|PastFn=
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	logs	log	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	NNS|06812631-n|LogFn=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	panda	panda	NOUN	NN	_	3	nn	_	NN|02510455-n|Carnivore+
+3	bear	bear	NOUN	NN	_	5	nsubj	_	NN|02131653-n|Mammal+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	resting	rest	VERB	VBG	_	0	ROOT	_	VBG|00117985-v|PastFn=
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	logs	log	NOUN	NNS	_	6	pobj	_	NNS|06812631-n|LogFn=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	panda	panda	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	NN|02510455-n|Carnivore+
-3	bear	bear	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02131653-n|Mammal+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	logs	log	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	NNS|06812631-n|LogFn=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	panda	panda	NOUN	NN	_	3	nn	_	NN|02510455-n|Carnivore+
+3	bear	bear	NOUN	NN	_	5	nsubj	_	NN|02131653-n|Mammal+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	logs	log	NOUN	NNS	_	6	pobj	_	NNS|06812631-n|LogFn=
+9	.	.	.	.	_	5	punct	_	Fp|?|?

@@ -8,43 +8,43 @@ CONCEPTS B: Human+,White=,Canine+,Entity+,Ambulating=,AirTransportation+,Tennis=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-2	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	JJ|00245112-a|Human+
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	JJ|00393105-a|White=
-5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|02084071-n|Canine+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	leaping	leap	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|00300441-n|AirTransportation+
-11	with	with	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-13	tennis	tennis	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	14	compound	_	NN|00482298-n|Tennis=
-14	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|02778669-n|Ball=
-15	in	in	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
-16	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	17	nmod:poss	_	PRP$|?|?
-17	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	NN|05302499-n|Mouth+
-18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	5	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	5	amod	_	JJ|00245112-a|Human+
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	white	white	ADJ	JJ	_	2	conj	_	JJ|00393105-a|White=
+5	dog	dog	NOUN	NN	_	7	nsubj	_	NN|02084071-n|Canine+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	leaping	leap	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	air	air	NOUN	NN	_	8	pobj	_	NN|00300441-n|AirTransportation+
+11	with	with	ADP	IN	_	7	prep	_	IN|?|?
+12	a	a	DET	DT	_	14	det	_	DT|?|?
+13	tennis	tennis	NOUN	NN	_	14	nn	_	NN|00482298-n|Tennis=
+14	ball	ball	NOUN	NN	_	11	pobj	_	NN|02778669-n|Ball=
+15	in	in	ADP	IN	_	14	prep	_	IN|?|?
+16	its	its	PRON	PRP$	_	17	poss	_	PRP$|?|?
+17	mouth	mouth	NOUN	NN	_	15	pobj	_	NN|05302499-n|Mouth+
+18	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-2	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	JJ|00245112-a|Human+
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	JJ|00393105-a|White=
-5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|02084071-n|Canine+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|00300441-n|AirTransportation+
-11	with	with	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-13	tennis	tennis	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	14	compound	_	NN|00482298-n|Tennis=
-14	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|02778669-n|Ball=
-15	in	in	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
-16	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	17	nmod:poss	_	PRP$|?|?
-17	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	NN|05302499-n|Mouth+
-18	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	5	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	5	amod	_	JJ|00245112-a|Human+
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	white	white	ADJ	JJ	_	2	conj	_	JJ|00393105-a|White=
+5	dog	dog	NOUN	NN	_	7	nsubj	_	NN|02084071-n|Canine+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	air	air	NOUN	NN	_	8	pobj	_	NN|00300441-n|AirTransportation+
+11	with	with	ADP	IN	_	7	prep	_	IN|?|?
+12	a	a	DET	DT	_	14	det	_	DT|?|?
+13	tennis	tennis	NOUN	NN	_	14	nn	_	NN|00482298-n|Tennis=
+14	ball	ball	NOUN	NN	_	11	pobj	_	NN|02778669-n|Ball=
+15	in	in	ADP	IN	_	14	prep	_	IN|?|?
+16	its	its	PRON	PRP$	_	17	poss	_	PRP$|?|?
+17	mouth	mouth	NOUN	NN	_	15	pobj	_	NN|05302499-n|Mouth+
+18	.	.	.	.	_	7	punct	_	Fp|?|?

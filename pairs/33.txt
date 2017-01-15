@@ -8,41 +8,41 @@ CONCEPTS B: Human+,Entity+,Wetting+,Basketball=,Fabric+,SubjectiveAssessmentAttr
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	nsubj	_	NN|02472293-n|Hominid=
-3	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	5	nsubj	_	WP|?|?
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	playing	play	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	VBG|01719302-v|DramaticActing+
-6	dunks	dunk	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	VBZ|01577093-v|Wetting+
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	basketball	basketball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|00480993-n|Basketball=
-9	into	into	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	net	net	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|03819595-n|Fabric+
-12	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-14	crowd	crowd	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
-15	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	17	cop	_	VBZ|02604760-v|Entity+
-16	in	in	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
-17	background	background	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|14513259-n|Region+
-18	.	.	PUNCT	.	fPOS=PUNCT++.	17	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	6	nsubj	_	NN|02472293-n|Hominid=
+3	who	who	PRON	WP	_	5	nsubj	_	WP|?|?
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	2	rcmod	_	VBG|01719302-v|DramaticActing+
+6	dunks	dunk	NOUN	NNS	_	0	ROOT	_	VBZ|01577093-v|Wetting+
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	basketball	basketball	NOUN	NN	_	6	dobj	_	NN|00480993-n|Basketball=
+9	into	into	ADP	IN	_	6	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	net	net	NOUN	NN	_	9	pobj	_	NN|03819595-n|Fabric+
+12	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	crowd	crowd	NOUN	NN	_	15	nsubj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+15	is	be	VERB	VBZ	_	6	conj	_	VBZ|02604760-v|Entity+
+16	in	in	ADP	IN	_	15	prep	_	IN|?|?
+17	background	background	NOUN	NN	_	16	pobj	_	NN|14513259-n|Region+
+18	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10439851-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	dunking	dunk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01577093-v|Wetting+
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	basketball	basketball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|00480993-n|Basketball=
-7	into	into	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	net	net	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03819595-n|Fabric+
-10	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	crowd	crowd	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nsubj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
-13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	15	cop	_	VBZ|02604760-v|Entity+
-14	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-15	background	background	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	conj	_	NN|14513259-n|Region+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	player	player	NOUN	NN	_	4	nsubj	_	NN|10439851-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	dunking	dunk	VERB	VBG	_	0	ROOT	_	VBG|01577093-v|Wetting+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	basketball	basketball	NOUN	NN	_	4	dobj	_	NN|00480993-n|Basketball=
+7	into	into	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	net	net	NOUN	NN	_	7	pobj	_	NN|03819595-n|Fabric+
+10	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	crowd	crowd	NOUN	NN	_	13	nsubj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+13	is	be	VERB	VBZ	_	4	conj	_	VBZ|02604760-v|Entity+
+14	in	in	ADP	IN	_	13	prep	_	IN|?|?
+15	background	background	NOUN	NN	_	14	pobj	_	NN|14513259-n|Region+
+16	.	.	.	.	_	4	punct	_	Fp|?|?

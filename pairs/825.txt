@@ -8,31 +8,31 @@ CONCEPTS B: Human=,Gear=,Entity+,PhysicalAttribute+,SubjectiveAssessmentAttribut
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubjpass	_	NN|00031264-n|Group=
-3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|07942152-n|GroupOfPeople=
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	auxpass	_	VBZ|02604760-v|Entity+
-6	equipped	equip	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|02339413-v|Putting+
-7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	unprotective	unprotective	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|01889173-a|capability+
-9	gear	gear	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|03430551-n|Gear=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	6	nsubjpass	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	people	people	NOUN	NNS	_	3	pobj	_	NNS|07942152-n|GroupOfPeople=
+5	is	be	VERB	VBZ	_	6	auxpass	_	VBZ|02604760-v|Entity+
+6	equipped	equip	VERB	VBN	_	0	ROOT	_	VBN|02339413-v|Putting+
+7	with	with	ADP	IN	_	6	prep	_	IN|?|?
+8	unprotective	unprotective	ADJ	JJ	_	9	amod	_	JJ|01889173-a|capability+
+9	gear	gear	NOUN	NN	_	7	pobj	_	NN|03430551-n|Gear=
+10	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|00007846-n|Human=
-3	in	in	SCONJ	IN	fPOS=SCONJ++IN	4	mark	_	IN|?|?
-4	biking	biking	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	2	acl	_	VBG|?|?
-5	gear	gear	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03430551-n|Gear=
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-8	steadily	steadily	ADV	RB	fPOS=ADV++RB	7	advmod	_	RB|00050186-r|SubjectiveAssessmentAttribute+
-9	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-10	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|08573472-n|FrontFn=
-11	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-12	some	some	DET	DT	fPOS=DET++DT	13	det	_	DT|?|?
-13	mountains	mountain	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	nmod	_	NNS|13774404-n|SubjectiveAssessmentAttribute+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	7	nsubj	_	NN|00007846-n|Human=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	biking	biking	NOUN	NN	_	5	nn	_	VBG|?|?
+5	gear	gear	NOUN	NN	_	3	pobj	_	NN|03430551-n|Gear=
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+8	steadily	steadily	ADV	RB	_	7	advmod	_	RB|00050186-r|SubjectiveAssessmentAttribute+
+9	in	in	ADP	IN	_	7	prep	_	IN|?|?
+10	front	front	NOUN	NN	_	9	pobj	_	NN|08573472-n|FrontFn=
+11	of	of	ADP	IN	_	10	prep	_	IN|?|?
+12	some	some	DET	DT	_	13	det	_	DT|?|?
+13	mountains	mountain	NOUN	NNS	_	11	pobj	_	NNS|13774404-n|SubjectiveAssessmentAttribute+
+14	.	.	.	.	_	7	punct	_	Fp|?|?

@@ -8,36 +8,36 @@ CONCEPTS B: HumanYouth=,Human+,Pink+,Shirt=,Entity+,SubjectiveAssessmentAttribut
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	young	young	ADJ	JJ	fPOS=ADV++RBS	4	amod	_	JJ|01646941-a|HumanYouth=
-3	peaceful	peaceful	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|01740892-a|SubjectiveWeakPositiveAttribute+
-4	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|10129825-n|Human+
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
-7	about	about	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-9	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	NN|12102133-n|Grass=
-10	found	find	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	VBD|02285629-v|Learning+
-11	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-13	pink	pink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	JJ|00379595-a|Pink+
-14	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|04197391-n|Shirt=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	The	the	DET	DT	_	4	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	4	amod	_	JJ|01646941-a|HumanYouth=
+3	peaceful	peaceful	ADJ	JJ	_	4	amod	_	JJ|01740892-a|SubjectiveWeakPositiveAttribute+
+4	girl	girl	NOUN	NN	_	6	nsubj	_	NN|10129825-n|Human+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+7	about	about	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	grass	grass	NOUN	NN	_	7	pobj	_	NN|12102133-n|Grass=
+10	found	find	VERB	VBN	_	9	partmod	_	VBD|02285629-v|Learning+
+11	in	in	ADP	IN	_	10	prep	_	IN|?|?
+12	the	the	DET	DT	_	14	det	_	DT|?|?
+13	pink	pink	ADJ	JJ	_	14	amod	_	JJ|00379595-a|Pink+
+14	shirt	shirt	NOUN	NN	_	11	pobj	_	NN|04197391-n|Shirt=
+15	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01646941-a|HumanYouth=
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	NN|10129825-n|Human+
-4	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	pink	pink	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	compound	_	JJ|00379595-a|Pink+
-7	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|04197391-n|Shirt=
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
-9	peacefully	peacefully	ADV	RB	fPOS=ADV++RB	10	advmod	_	RB|00109817-r|SubjectiveAssessmentAttribute+
-10	lying	lie	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
-11	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|12102133-n|Grass=
-14	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	10	nsubj	_	NN|10129825-n|Human+
+4	with	with	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	pink	pink	ADJ	JJ	_	7	amod	_	JJ|00379595-a|Pink+
+7	shirt	shirt	NOUN	NN	_	4	pobj	_	NN|04197391-n|Shirt=
+8	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+9	peacefully	peacefully	ADV	RB	_	10	advmod	_	RB|00109817-r|SubjectiveAssessmentAttribute+
+10	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+11	on	on	ADP	IN	_	10	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	grass	grass	NOUN	NN	_	11	pobj	_	NN|12102133-n|Grass=
+14	.	.	.	.	_	10	punct	_	Fp|?|?

@@ -8,24 +8,24 @@ CONCEPTS B: PoliceOfficer=,Entity+,Speaking+,SocialRole+
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	military	military	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01518386-a|MilitaryOrganization=
-3	officer	officer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10448983-n|PoliceOfficer=
-4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	VBZ|02604760-v|Entity+
-5	barking	bark	ADJ	JJ	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01047745-v|RadiatingSound+
-6	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	recruits	recruit	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	NNS|10512372-n|SocialRole+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	military	military	ADJ	JJ	_	3	amod	_	JJ|01518386-a|MilitaryOrganization=
+3	officer	officer	NOUN	NN	_	5	nsubj	_	NN|10448983-n|PoliceOfficer=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	barking	bark	VERB	VBG	_	0	ROOT	_	VBG|01047745-v|RadiatingSound+
+6	at	at	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	recruits	recruit	NOUN	NNS	_	6	pobj	_	NNS|10512372-n|SocialRole+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	officer	officer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10448983-n|PoliceOfficer=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	talking	talk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|00941990-v|Speaking+
-5	to	to	ADP	IN	fPOS=ADP++IN	7	case	_	TO|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	recruits	recruit	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|10512372-n|SocialRole+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	An	a	DET	DT	_	2	det	_	DT|?|?
+2	officer	officer	NOUN	NN	_	4	nsubj	_	NN|10448983-n|PoliceOfficer=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+5	to	to	ADP	IN	_	4	prep	_	TO|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	recruits	recruit	NOUN	NNS	_	5	pobj	_	NNS|10512372-n|SocialRole+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

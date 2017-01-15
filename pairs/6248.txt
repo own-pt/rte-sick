@@ -8,25 +8,25 @@ CONCEPTS B: SubjectiveAssessmentAttribute+,PhysicalAttribute+,SittingDown+,Polic
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	cop	cop	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09879144-n|SubjectiveAssessmentAttribute+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-5	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	police	police	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	NN|08209687-n|PoliceOrganization+
-8	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02834778-n|Bicycle=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	cop	cop	NOUN	NN	_	4	nsubj	_	NN|09879144-n|SubjectiveAssessmentAttribute+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	police	police	NOUN	NN	_	8	nn	_	NN|08209687-n|PoliceOrganization+
+8	bike	bike	NOUN	NN	_	5	pobj	_	NN|02834778-n|Bicycle=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	cop	cop	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09879144-n|SubjectiveAssessmentAttribute+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-5	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	police	police	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	NN|08209687-n|PoliceOrganization+
-8	bicycle	bicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02834778-n|Bicycle=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	cop	cop	NOUN	NN	_	4	nsubj	_	NN|09879144-n|SubjectiveAssessmentAttribute+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	police	police	NOUN	NN	_	8	nn	_	NN|08209687-n|PoliceOrganization+
+8	bicycle	bicycle	NOUN	NN	_	5	pobj	_	NN|02834778-n|Bicycle=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

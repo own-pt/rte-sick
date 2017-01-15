@@ -8,25 +8,25 @@ CONCEPTS B: Position+,Entity+,SubjectiveWeakPositiveAttribute+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	female	female	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01477806-a|Female=
-3	cheerleader	cheerleader	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|09913455-n|Position+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
-5	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	knee	knee	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|05573602-n|Knee+
-9	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-11	male	male	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|01476685-a|Male=
-12	cheerleader	cheerleader	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|09913455-n|Position+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	female	female	ADJ	JJ	_	3	amod	_	JJ|01477806-a|Female=
+3	cheerleader	cheerleader	NOUN	NN	_	5	nsubj	_	NN|09913455-n|Position+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	knee	knee	NOUN	NN	_	6	pobj	_	NN|05573602-n|Knee+
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	male	male	ADJ	JJ	_	12	amod	_	JJ|01476685-a|Male=
+12	cheerleader	cheerleader	NOUN	NN	_	9	pobj	_	NN|09913455-n|Position+
+13	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	DT|?|?
-2	cheerleaders	cheerleader	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|09913455-n|Position+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	relaxing	relax	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01922227-a|SubjectiveWeakPositiveAttribute+
-5	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	cheerleaders	cheerleader	NOUN	NNS	_	4	nsubj	_	NNS|09913455-n|Position+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	relaxing	relax	VERB	VBG	_	0	ROOT	_	VBG|01922227-a|SubjectiveWeakPositiveAttribute+
+5	.	.	.	.	_	4	punct	_	Fp|?|?

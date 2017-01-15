@@ -8,26 +8,26 @@ CONCEPTS B: Entity+,Human+,Human+,SubjectiveAssessmentAttribute+,Building+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	blonde	blonde	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00243606-a|Human+
-3	lady	lady	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|09989290-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
-6	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	tower	tower	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|04460130-n|Building+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	blonde	blonde	ADJ	JJ	_	3	amod	_	JJ|00243606-a|Human+
+3	lady	lady	NOUN	NN	_	5	nsubj	_	NN|09989290-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+6	at	at	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	tower	tower	NOUN	NN	_	6	pobj	_	NN|04460130-n|Building+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	DT|?|?
-4	blonde	blonde	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	JJ|00243606-a|Human+
-5	lady	lady	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|09989290-n|Human+
-6	looking	look	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	acl	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
-7	at	at	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	tower	tower	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|04460130-n|Building+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	blonde	blonde	ADJ	JJ	_	5	amod	_	JJ|00243606-a|Human+
+5	lady	lady	NOUN	NN	_	2	nsubj	_	NN|09989290-n|Human+
+6	looking	look	VERB	VBG	_	5	partmod	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+7	at	at	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	tower	tower	NOUN	NN	_	7	pobj	_	NN|04460130-n|Building+
+10	.	.	.	.	_	2	punct	_	Fp|?|?

@@ -8,26 +8,26 @@ CONCEPTS B: GamePiece+,Entity+,EndFn+,Artifact+,Hand+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	breaking	break	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02681524-v|EndFn+
-5	wooden	wooden	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|01141595-a|SubjectiveAssessmentAttribute+
-6	boards	board	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|03201208-n|Table+
-7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	9	nmod:poss	_	PRP$|?|?
-9	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|05564590-n|Hand+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	breaking	break	VERB	VBG	_	0	ROOT	_	VBG|02681524-v|EndFn+
+5	wooden	wooden	ADJ	JJ	_	6	amod	_	JJ|01141595-a|SubjectiveAssessmentAttribute+
+6	boards	board	NOUN	NNS	_	4	dobj	_	NNS|03201208-n|Table+
+7	with	with	ADP	IN	_	4	prep	_	IN|?|?
+8	his	his	PRON	PRP$	_	9	poss	_	PRP$|?|?
+9	hand	hand	NOUN	NN	_	7	pobj	_	NN|05564590-n|Hand+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|03716327-n|GamePiece+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	breaking	break	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02681524-v|EndFn+
-5	tiles	tile	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|15074568-n|Artifact+
-6	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	8	nmod:poss	_	PRP$|?|?
-8	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	NNS|05564590-n|Hand+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|03716327-n|GamePiece+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	breaking	break	VERB	VBG	_	0	ROOT	_	VBG|02681524-v|EndFn+
+5	tiles	tile	NOUN	NNS	_	4	dobj	_	NNS|15074568-n|Artifact+
+6	with	with	ADP	IN	_	4	prep	_	IN|?|?
+7	his	his	PRON	PRP$	_	8	poss	_	PRP$|?|?
+8	hands	hand	NOUN	NNS	_	6	pobj	_	NNS|05564590-n|Hand+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

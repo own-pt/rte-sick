@@ -8,28 +8,28 @@ CONCEPTS B: Group=,Entity+,Translocation+,Roadway=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|00031264-n|Group=
-3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	rollerbladers	rollerbladers	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|?|?
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	lining	line	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01270784-v|Combining+
-7	up	up	NOUN	NN	fPOS=ADP++RP	6	compound:prt	_	RP|00097011-r|Increasing+
-8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|04334599-n|Roadway=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	rollerbladers	rollerbladers	NOUN	NNS	_	3	pobj	_	NNS|?|?
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	lining	line	VERB	VBG	_	0	ROOT	_	VBG|01270784-v|Combining+
+7	up	up	PRT	RP	_	6	prt	_	RP|00097011-r|Increasing+
+8	on	on	ADP	IN	_	6	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	street	street	NOUN	NN	_	8	pobj	_	NN|04334599-n|Roadway=
+11	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|00031264-n|Group=
-3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	rollerbladers	rollerbladers	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|?|?
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	cop	_	VBZ|02604760-v|Entity+
-6	scattering	scatter	NOUN	NN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02028994-v|Translocation+
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|04334599-n|Roadway=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	rollerbladers	rollerbladers	NOUN	NNS	_	3	pobj	_	NNS|?|?
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	scattering	scatter	VERB	VBG	_	0	ROOT	_	VBG|02028994-v|Translocation+
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	street	street	NOUN	NN	_	7	pobj	_	NN|04334599-n|Roadway=
+10	.	.	.	.	_	6	punct	_	Fp|?|?

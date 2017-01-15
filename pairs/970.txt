@@ -8,41 +8,41 @@ CONCEPTS B: Man=,Shirt=,Coloring+,ColorAttribute+,Entity+,Walking=,Man=,Black=,S
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubjpass	_	NN|02472293-n|Hominid=
-3	doing	do	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	2	acl	_	VBG|01712704-v|IntentionalProcess+
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	pose	pose	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	NN|00755673-n|Pretending+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-7	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	8	auxpass	_	VBG|02604760-v|Entity+
-8	watched	watch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|02150948-v|Looking=
-9	by	by	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	another	another	DET	DT	fPOS=DET++DT	11	det	_	DT|?|?
-11	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|02472293-n|Hominid=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubjpass	_	NN|02472293-n|Hominid=
+3	doing	do	VERB	VBG	_	2	partmod	_	VBG|01712704-v|IntentionalProcess+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	pose	pose	NOUN	NN	_	3	dobj	_	NN|00755673-n|Pretending+
+6	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+7	being	be	VERB	VBG	_	8	auxpass	_	VBG|02604760-v|Entity+
+8	watched	watch	VERB	VBN	_	0	ROOT	_	VBN|02150948-v|Looking=
+9	by	by	ADP	IN	_	8	prep	_	IN|?|?
+10	another	another	DET	DT	_	11	det	_	DT|?|?
+11	man	man	NOUN	NN	_	9	pobj	_	NN|02472293-n|Hominid=
+12	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|10287213-n|Man=
-3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|04197391-n|Shirt=
-6	dyed	dye	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	7	amod	_	VBN|00283090-v|Coloring+
-7	purple	purple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	appos	_	NN|04970059-n|ColorAttribute+
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
-9	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	7	acl	_	VBG|01904930-v|Walking=
-10	away	away	ADV	RB	fPOS=ADV++RB	9	advmod	_	RP|00234951-r|?
-11	from	from	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|10287213-n|Man=
-14	in	in	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
-15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	DT|?|?
-16	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	JJ|00392812-a|Black=
-17	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	NN|04197391-n|Shirt=
-18	,	,	PUNCT	,	fPOS=PUNCT++,	13	punct	_	Fc|?|?
-19	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	21	nsubj	_	WP|?|?
-20	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	21	cop	_	VBZ|02604760-v|Entity+
-21	serious	serious	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	acl:relcl	_	JJ|02118379-a|SubjectiveAssessmentAttribute+
-22	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	9	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	7	det	_	DT|?|?
+5	shirt	shirt	NOUN	NN	_	6	dep	_	NN|04197391-n|Shirt=
+6	dyed	dye	VERB	VBN	_	7	amod	_	VBN|00283090-v|Coloring+
+7	purple	purple	NOUN	NN	_	3	pobj	_	NN|04970059-n|ColorAttribute+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+10	away	away	ADV	RB	_	9	advmod	_	RP|00234951-r|?
+11	from	from	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	man	man	NOUN	NN	_	11	pobj	_	NN|10287213-n|Man=
+14	in	in	ADP	IN	_	13	prep	_	IN|?|?
+15	a	a	DET	DT	_	17	det	_	DT|?|?
+16	black	black	ADJ	JJ	_	17	amod	_	JJ|00392812-a|Black=
+17	shirt	shirt	NOUN	NN	_	14	pobj	_	NN|04197391-n|Shirt=
+18	,	,	.	,	_	13	punct	_	Fc|?|?
+19	who	who	PRON	WP	_	21	nsubj	_	WP|?|?
+20	is	be	VERB	VBZ	_	21	cop	_	VBZ|02604760-v|Entity+
+21	serious	serious	ADJ	JJ	_	13	rcmod	_	JJ|02118379-a|SubjectiveAssessmentAttribute+
+22	.	.	.	.	_	9	punct	_	Fp|?|?

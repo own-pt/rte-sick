@@ -8,40 +8,40 @@ CONCEPTS B: SubjectiveAssessmentAttribute=,Entity+,Looking=,Motion+,Automobile=,
 
 CONLL A:
 
-1	People	people	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NNS|07942152-n|GroupOfPeople=
-2	at	at	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-3	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-4	drag	drag	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	compound	_	NN|11504898-n|Process+
-5	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	1	nmod	_	NN|07458453-n|Racing=
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	VBP|02604760-v|Entity+
-7	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02685951-v|PhysicalAttribute+
-8	away	away	ADV	RB	fPOS=ADV++RB	7	advmod	_	RP|00233295-r|?
-9	from	from	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	flames	flame	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	NNS|13480848-n|Combustion=
-12	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	14	nsubj	_	WDT|?|?
-13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	14	aux	_	VBP|02604760-v|Entity+
-14	coming	come	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	11	acl:relcl	_	VBG|02005948-v|Arriving=
-15	out	out	ADP	IN	fPOS=ADP++IN	18	case	_	RP|00233295-r|?
-16	of	of	ADP	IN	fPOS=ADP++IN	18	case	_	IN|?|?
-17	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	18	det	_	DT|?|?
-18	cars	car	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	14	nmod	_	NNS|02958343-n|Automobile=
-19	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	People	people	NOUN	NNS	_	7	nsubj	_	NNS|07942152-n|GroupOfPeople=
+2	at	at	ADP	IN	_	1	prep	_	IN|?|?
+3	a	a	DET	DT	_	5	det	_	DT|?|?
+4	drag	drag	NOUN	NN	_	5	nn	_	NN|11504898-n|Process+
+5	race	race	NOUN	NN	_	2	pobj	_	NN|07458453-n|Racing=
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	running	run	VERB	VBG	_	0	ROOT	_	VBG|02685951-v|PhysicalAttribute+
+8	away	away	ADV	RB	_	7	advmod	_	RP|00233295-r|?
+9	from	from	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	flames	flame	NOUN	NNS	_	9	pobj	_	NNS|13480848-n|Combustion=
+12	that	that	DET	WDT	_	14	nsubj	_	WDT|?|?
+13	are	be	VERB	VBP	_	14	aux	_	VBP|02604760-v|Entity+
+14	coming	come	VERB	VBG	_	11	rcmod	_	VBG|02005948-v|Arriving=
+15	out	out	ADP	IN	_	14	prep	_	RP|00233295-r|?
+16	of	of	ADP	IN	_	15	pcomp	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	cars	car	NOUN	NNS	_	16	pobj	_	NNS|02958343-n|Automobile=
+19	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	crowd	crowd	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	watching	watch	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02150948-v|Looking=
-5	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	7	nummod	_	Z|?|?
-6	racing	race	VERB	VBG	Number=Sing|fPOS=NOUN++NN	7	compound	_	VBG|02058994-v|Motion+
-7	cars	car	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|02958343-n|Automobile=
-8	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	10	nsubj	_	WDT|?|?
-9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	10	aux	_	VBP|02604760-v|Entity+
-10	leaving	leave	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	7	acl:relcl	_	VBG|02635659-v|Process+
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-12	starting	start	VERB	VBG	Number=Sing|fPOS=NOUN++NN	13	compound	_	VBG|02014165-v|Leaving=
-13	line	line	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	NN|00582388-n|Position+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	crowd	crowd	NOUN	NN	_	4	nsubj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	watching	watch	VERB	VBG	_	0	ROOT	_	VBG|02150948-v|Looking=
+5	two	2	NUM	CD	_	7	num	_	Z|?|?
+6	racing	race	NOUN	NN	_	7	nn	_	VBG|02058994-v|Motion+
+7	cars	car	NOUN	NNS	_	4	dobj	_	NNS|02958343-n|Automobile=
+8	that	that	DET	WDT	_	10	nsubj	_	WDT|?|?
+9	are	be	VERB	VBP	_	10	aux	_	VBP|02604760-v|Entity+
+10	leaving	leave	VERB	VBG	_	7	rcmod	_	VBG|02635659-v|Process+
+11	the	the	DET	DT	_	13	det	_	DT|?|?
+12	starting	start	NOUN	NN	_	13	nn	_	VBG|02014165-v|Leaving=
+13	line	line	NOUN	NN	_	10	dobj	_	NN|00582388-n|Position+
+14	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -8,20 +8,20 @@ CONCEPTS B: Carnivore+,Mammal+,Entity+,PhysicalAttribute+,Meeting=
 
 CONLL A:
 
-1	Two	2	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	compound	_	Z|?|?
-2	pandas	panda	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02510455-n|Carnivore+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
-5	together	together	ADV	RB	fPOS=ADV++RB	4	advmod	_	RB|00507927-r|Meeting=
-6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	pandas	panda	NOUN	NNS	_	4	nsubj	_	NNS|02510455-n|Carnivore+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+5	together	together	ADV	RB	_	4	advmod	_	RB|00507927-r|Meeting=
+6	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	Degree=Pos|fPOS=ADJ++JJ	3	nummod	_	Z|?|?
-2	panda	panda	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	amod	_	NN|02510455-n|Carnivore+
-3	bears	bear	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|02131653-n|Mammal+
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02604760-v|Entity+
-5	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
-6	together	together	ADV	RB	fPOS=ADV++RB	5	advmod	_	RB|00507927-r|Meeting=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	panda	panda	NOUN	NN	_	3	nn	_	NN|02510455-n|Carnivore+
+3	bears	bear	NOUN	NNS	_	5	nsubj	_	NNS|02131653-n|Mammal+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+6	together	together	ADV	RB	_	5	advmod	_	RB|00507927-r|Meeting=
+7	.	.	.	.	_	5	punct	_	Fp|?|?

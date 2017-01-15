@@ -8,41 +8,41 @@ CONCEPTS B: Group=,Canine+,SexualReproduction+,Racing+,Entity+,CoveringFn=,Visua
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|00031264-n|Group=
-3	of	of	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	racing	race	VERB	VBG	Number=Sing|fPOS=NOUN++NN	5	amod	_	VBG|01086103-v|Racing+
-5	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|02084071-n|Canine+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=AUX++VBG	0	ROOT	_	VBG|00047745-v|CoveringFn=
-8	striped	striped	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	9	amod	_	JJ|01790807-a|VisualAttribute+
-9	uniforms	uniform	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	dobj	_	NNS|04509592-n|UniformClothing=
-10	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
-11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	VBZ|02604760-v|Entity+
-12	running	run	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	conj	_	VBG|01086103-v|Racing+
-13	down	down	ADP	RP	fPOS=ADP++RP	12	compound:prt	_	RP|00096089-r|earlier+
-14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-15	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	dobj	_	NN|04037625-n|StationaryArtifact+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	7	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	racing	race	NOUN	NN	_	5	nn	_	VBG|01086103-v|Racing+
+5	dogs	dog	NOUN	NNS	_	3	pobj	_	NNS|02084071-n|Canine+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+8	striped	striped	VERB	VBN	_	9	amod	_	JJ|01790807-a|VisualAttribute+
+9	uniforms	uniform	NOUN	NNS	_	7	dobj	_	NNS|04509592-n|UniformClothing=
+10	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	running	run	VERB	VBG	_	7	conj	_	VBG|01086103-v|Racing+
+13	down	down	PRT	RP	_	12	prt	_	RP|00096089-r|earlier+
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	track	track	NOUN	NN	_	12	dobj	_	NN|04037625-n|StationaryArtifact+
+16	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|00031264-n|Group=
-3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|02084071-n|Canine+
-5	bred	breed	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	2	acl	_	VBN|00056334-v|SexualReproduction+
-6	for	for	SCONJ	IN	fPOS=SCONJ++IN	7	mark	_	IN|?|?
-7	racing	race	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	advcl	_	VBG|01086103-v|Racing+
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
-9	wearing	wear	VERB	VBG	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	VBG|00047745-v|CoveringFn=
-10	striped	striped	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	11	amod	_	JJ|01790807-a|VisualAttribute+
-11	uniforms	uniform	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	dobj	_	NNS|04509592-n|UniformClothing=
-12	and	and	CONJ	CC	fPOS=CONJ++CC	9	cc	_	CC|?|?
-13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	14	aux	_	VBZ|02604760-v|Entity+
-14	running	run	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	9	conj	_	VBG|01086103-v|Racing+
-15	down	down	ADP	RP	fPOS=ADP++RP	14	compound:prt	_	RP|00096089-r|earlier+
-16	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	DT|?|?
-17	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	NN|04037625-n|StationaryArtifact+
-18	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	9	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	dogs	dog	NOUN	NNS	_	3	pobj	_	NNS|02084071-n|Canine+
+5	bred	breed	VERB	VBN	_	2	partmod	_	VBN|00056334-v|SexualReproduction+
+6	for	for	ADP	IN	_	5	prep	_	IN|?|?
+7	racing	race	NOUN	NN	_	6	pobj	_	VBG|01086103-v|Racing+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+10	striped	striped	VERB	VBN	_	11	amod	_	JJ|01790807-a|VisualAttribute+
+11	uniforms	uniform	NOUN	NNS	_	9	dobj	_	NNS|04509592-n|UniformClothing=
+12	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+13	is	be	VERB	VBZ	_	14	aux	_	VBZ|02604760-v|Entity+
+14	running	run	VERB	VBG	_	9	conj	_	VBG|01086103-v|Racing+
+15	down	down	PRT	RP	_	14	prt	_	RP|00096089-r|earlier+
+16	a	a	DET	DT	_	17	det	_	DT|?|?
+17	track	track	NOUN	NN	_	14	dobj	_	NN|04037625-n|StationaryArtifact+
+18	.	.	.	.	_	9	punct	_	Fp|?|?

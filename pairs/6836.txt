@@ -8,32 +8,32 @@ CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,IntentionalProcess
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	kids	kid	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|09917593-n|HumanChild=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	chasing	chase	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02001858-v|Pursuing+
-5	each	each	DET	DT	fPOS=DET++DT	6	det	_	DT|?|?
-6	other	other	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	4	dobj	_	JJ|02069355-a|equal+
-7	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|15019030-n|Sand=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	kids	kid	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	chasing	chase	VERB	VBG	_	0	ROOT	_	VBG|02001858-v|Pursuing+
+5	each	each	DET	DT	_	6	det	_	DT|?|?
+6	other	other	ADJ	JJ	_	4	dobj	_	JJ|02069355-a|equal+
+7	in	in	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	sand	sand	NOUN	NN	_	7	pobj	_	NN|15019030-n|Sand=
+10	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10285313-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01717169-v|IntentionalProcess+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	ground	ground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|09334396-n|LandArea=
-9	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-10	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	VBG|01717169-v|IntentionalProcess+
-11	with	with	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-13	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-14	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|10129825-n|Human+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	boy	boy	NOUN	NN	_	5	nsubj	_	NN|10285313-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01717169-v|IntentionalProcess+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	ground	ground	NOUN	NN	_	6	pobj	_	NN|09334396-n|LandArea=
+9	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+10	playing	play	VERB	VBG	_	5	conj	_	VBG|01717169-v|IntentionalProcess+
+11	with	with	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	14	det	_	DT|?|?
+13	little	little	ADJ	JJ	_	14	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+14	girl	girl	NOUN	NN	_	11	pobj	_	NN|10129825-n|Human+
+15	.	.	.	.	_	5	punct	_	Fp|?|?

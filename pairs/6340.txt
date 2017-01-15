@@ -8,42 +8,42 @@ CONCEPTS B: White=,Canine+,RecreationOrExercise+,HoofedMammal+,Ear=,Entity+,Huma
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00393105-a|White=
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-7	Christmas	christmas	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	8	compound	_	NN|15196537-n|TimeInterval+
-8	reindeer	reindeer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	NN|02433925-n|HoofedMammal+
-9	headband	headband	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|03502042-n|Clothing+
-10	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	VBZ|02604760-v|Entity+
-12	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	VBG|01719302-v|DramaticActing+
-13	with	with	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-15	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	NN|02084071-n|Canine+
-16	with	with	ADP	IN	fPOS=ADP++IN	19	case	_	IN|?|?
-17	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	19	det	_	DT|?|?
-18	brown	brown	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	19	amod	_	JJ|00245112-a|Human+
-19	coat	coat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	NN|03057021-n|Coat=
-20	in	in	ADP	IN	fPOS=ADP++IN	22	case	_	IN|?|?
-21	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	22	det	_	DT|?|?
-22	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	19	nmod	_	NN|12102133-n|Grass=
-23	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
+6	a	a	DET	DT	_	9	det	_	DT|?|?
+7	Christmas	christmas	NOUN	NNP	_	9	nn	_	NN|15196537-n|TimeInterval+
+8	reindeer	reindeer	NOUN	NN	_	9	nn	_	NN|02433925-n|HoofedMammal+
+9	headband	headband	NOUN	NN	_	5	dobj	_	NN|03502042-n|Clothing+
+10	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	playing	play	VERB	VBG	_	5	conj	_	VBG|01719302-v|DramaticActing+
+13	with	with	ADP	IN	_	12	prep	_	IN|?|?
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	dog	dog	NOUN	NN	_	13	pobj	_	NN|02084071-n|Canine+
+16	with	with	ADP	IN	_	12	prep	_	IN|?|?
+17	a	a	DET	DT	_	19	det	_	DT|?|?
+18	brown	brown	ADJ	JJ	_	19	amod	_	JJ|00245112-a|Human+
+19	coat	coat	NOUN	NN	_	16	pobj	_	NN|03057021-n|Coat=
+20	in	in	ADP	IN	_	12	prep	_	IN|?|?
+21	the	the	DET	DT	_	22	det	_	DT|?|?
+22	grass	grass	NOUN	NN	_	20	pobj	_	NN|12102133-n|Grass=
+23	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00393105-a|White=
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	NN|02084071-n|Canine+
-4	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	3	acl	_	VBG|00075021-v|RecreationOrExercise+
-5	reindeer	reindeer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	NN|02433925-n|HoofedMammal+
-6	ears	ear	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|05320899-n|Ear=
-7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	11	cop	_	VBZ|02604760-v|Entity+
-8	near	near	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	brown	brown	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	JJ|00245112-a|Human+
-11	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|02084071-n|Canine+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	dog	dog	NOUN	NN	_	7	nsubj	_	NN|02084071-n|Canine+
+4	wearing	wear	VERB	VBG	_	3	partmod	_	VBG|00075021-v|RecreationOrExercise+
+5	reindeer	reindeer	NOUN	NN	_	6	nn	_	NN|02433925-n|HoofedMammal+
+6	ears	ear	NOUN	NNS	_	4	dobj	_	NNS|05320899-n|Ear=
+7	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+8	near	near	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	brown	brown	ADJ	JJ	_	11	amod	_	JJ|00245112-a|Human+
+11	dog	dog	NOUN	NN	_	8	pobj	_	NN|02084071-n|Canine+
+12	.	.	.	.	_	7	punct	_	Fp|?|?

@@ -8,30 +8,30 @@ CONCEPTS B: Man=,White=,Hat+,Entity+,Process+,Attribute+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10287213-n|Man=
-3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-5	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	amod	_	JJ|00393105-a|White=
-6	hat	hat	NOUN	NN	PronType=Rel|fPOS=PRON++WDT	2	nmod	_	NN|03497657-n|Hat+
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-8	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-9	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	NN|03467517-n|Guitar=
-10	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-11	stage	stage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|13939892-n|Attribute+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	_	6	amod	_	JJ|00393105-a|White=
+6	hat	hat	NOUN	NN	_	3	pobj	_	NN|03497657-n|Hat+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+9	guitar	guitar	NOUN	NN	_	8	dobj	_	NN|03467517-n|Guitar=
+10	on	on	ADP	IN	_	8	prep	_	IN|?|?
+11	stage	stage	NOUN	NN	_	10	pobj	_	NN|13939892-n|Attribute+
+12	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10287213-n|Man=
-3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-5	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	amod	_	JJ|00393105-a|White=
-6	hat	hat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03497657-n|Hat+
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-8	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00120316-v|Process+
-9	off	off	ADP	IN	fPOS=ADP++IN	10	case	_	RP|00232936-r|?
-10	stage	stage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|13939892-n|Attribute+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	_	6	amod	_	JJ|00393105-a|White=
+6	hat	hat	NOUN	NN	_	3	pobj	_	NN|03497657-n|Hat+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	getting	get	VERB	VBG	_	0	ROOT	_	VBG|00120316-v|Process+
+9	off	off	ADP	IN	_	8	prep	_	RP|00232936-r|?
+10	stage	stage	NOUN	NN	_	9	pobj	_	NN|13939892-n|Attribute+
+11	.	.	.	.	_	8	punct	_	Fp|?|?

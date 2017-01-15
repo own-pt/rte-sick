@@ -8,30 +8,30 @@ CONCEPTS B: Group=,GroupOfPeople=,Entity+,ShoreArea=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|10287213-n|Man=
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	NN|10787470-n|Woman=
-6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-7	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	8	nummod	_	Z|?|?
-8	girls	girl	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	conj	_	NNS|10129825-n|Human+
-9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	10	aux	_	VBP|02604760-v|Entity+
-10	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	2	acl:relcl	_	VBG|01904930-v|Walking=
-11	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|09217230-n|ShoreArea=
-14	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	10	nsubj	_	NN|10287213-n|Man=
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	woman	woman	NOUN	NN	_	2	conj	_	NN|10787470-n|Woman=
+6	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+7	two	2	NUM	CD	_	8	num	_	Z|?|?
+8	girls	girl	NOUN	NNS	_	2	conj	_	NNS|10129825-n|Human+
+9	are	be	VERB	VBP	_	10	aux	_	VBP|02604760-v|Entity+
+10	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+11	on	on	ADP	IN	_	10	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	beach	beach	NOUN	NN	_	11	pobj	_	NN|09217230-n|ShoreArea=
+14	.	.	.	.	_	10	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|00031264-n|Group=
-3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|07942152-n|GroupOfPeople=
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	cop	_	VBZ|02604760-v|Entity+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|09217230-n|ShoreArea=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	5	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	people	people	NOUN	NNS	_	3	pobj	_	NNS|07942152-n|GroupOfPeople=
+5	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	beach	beach	NOUN	NN	_	6	pobj	_	NN|09217230-n|ShoreArea=
+9	.	.	.	.	_	5	punct	_	Fp|?|?

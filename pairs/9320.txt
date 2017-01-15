@@ -8,25 +8,25 @@ CONCEPTS B: MilitaryUnit+,Entity+,Process+,DirectionChange+,Camera=
 
 CONLL A:
 
-1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	friends	friend	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|10112591-n|SubjectiveAssessmentAttribute=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	making	make	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01617192-v|Process+
-5	faces	face	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	VBZ|01908365-v|DirectionChange+
-6	for	for	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02942699-n|Camera=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	friends	friend	NOUN	NNS	_	4	nsubj	_	NNS|10112591-n|SubjectiveAssessmentAttribute=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	making	make	VERB	VBG	_	0	ROOT	_	VBG|01617192-v|Process+
+5	faces	face	NOUN	NNS	_	4	dobj	_	VBZ|01908365-v|DirectionChange+
+6	for	for	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	camera	camera	NOUN	NN	_	6	pobj	_	NN|02942699-n|Camera=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	enemies	enemy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|08190482-n|MilitaryUnit+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	making	make	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01617192-v|Process+
-5	faces	face	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	VBZ|01908365-v|DirectionChange+
-6	for	for	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02942699-n|Camera=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	enemies	enemy	NOUN	NNS	_	4	nsubj	_	NNS|08190482-n|MilitaryUnit+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	making	make	VERB	VBG	_	0	ROOT	_	VBG|01617192-v|Process+
+5	faces	face	NOUN	NNS	_	4	dobj	_	VBZ|01908365-v|DirectionChange+
+6	for	for	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	camera	camera	NOUN	NN	_	6	pobj	_	NN|02942699-n|Camera=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

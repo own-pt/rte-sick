@@ -8,27 +8,27 @@ CONCEPTS B: Hominid=,Entity+,IntentionalProcess+,Container+,Process+,Substance+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	emptying	empty	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00449692-v|Removing+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	container	container	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	7	compound	_	NN|03094503-n|Container+
-7	made	make	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	VBN|00120316-v|Process+
-8	of	of	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-9	plastic	plastic	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|14592610-n|Substance+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	emptying	empty	VERB	VBG	_	0	ROOT	_	VBG|00449692-v|Removing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	container	container	NOUN	NN	_	4	dobj	_	NN|03094503-n|Container+
+7	made	make	VERB	VBN	_	6	partmod	_	VBN|00120316-v|Process+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	plastic	plastic	NOUN	NN	_	8	pobj	_	NN|14592610-n|Substance+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	filling	fill	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01193721-v|IntentionalProcess+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	container	container	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	7	compound	_	NN|03094503-n|Container+
-7	made	make	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	VBN|01617192-v|Process+
-8	of	of	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-9	plastic	plastic	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|14592610-n|Substance+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	filling	fill	VERB	VBG	_	0	ROOT	_	VBG|01193721-v|IntentionalProcess+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	container	container	NOUN	NN	_	4	dobj	_	NN|03094503-n|Container+
+7	made	make	VERB	VBN	_	6	partmod	_	VBN|01617192-v|Process+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	plastic	plastic	NOUN	NN	_	8	pobj	_	NN|14592610-n|Substance+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

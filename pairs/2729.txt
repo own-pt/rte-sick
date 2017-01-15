@@ -8,33 +8,33 @@ CONCEPTS B: Communication+,Woman=,Entity+,MakingVocalMusic=,Song=,DramaticActing
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	rocking	rock	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01875295-v|Rotating+
-5	over	over	ADP	IN	fPOS=ADP++IN	8	case	_	RP|00226550-r|SubjectiveAssessmentAttribute+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	blanket	blanket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	NN|02849154-n|Blanket+
-8	lying	lie	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	VBG|02690708-v|PhysicalAttribute+
-9	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-10	someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	PRP|?|?
-11	reading	read	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	10	acl	_	VBG|00625119-v|Reading=
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	book	book	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	NN|02870092-n|Book+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	rocking	rock	VERB	VBG	_	0	ROOT	_	VBG|01875295-v|Rotating+
+5	over	over	ADP	IN	_	4	prep	_	RP|00226550-r|SubjectiveAssessmentAttribute+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	blanket	blanket	NOUN	NN	_	5	pobj	_	NN|02849154-n|Blanket+
+8	lying	lie	VERB	VBG	_	7	partmod	_	VBG|02690708-v|PhysicalAttribute+
+9	on	on	ADP	IN	_	8	prep	_	IN|?|?
+10	someone	someone	NOUN	NN	_	9	pobj	_	PRP|?|?
+11	reading	read	VERB	VBG	_	10	partmod	_	VBG|00625119-v|Reading=
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	book	book	NOUN	NN	_	11	dobj	_	NN|02870092-n|Book+
+14	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	seated	seat	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	VBN|01543998-v|Communication+
-3	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10787470-n|Woman=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	singing	sing	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	song	song	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|07048000-n|Song=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-9	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	VBG|01719302-v|DramaticActing+
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|03467517-n|Guitar=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	seated	seat	ADJ	JJ	_	3	amod	_	VBN|01543998-v|Communication+
+3	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	song	song	NOUN	NN	_	5	dobj	_	NN|07048000-n|Song=
+8	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+9	playing	play	VERB	VBG	_	5	conj	_	VBG|01719302-v|DramaticActing+
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	guitar	guitar	NOUN	NN	_	9	dobj	_	NN|03467517-n|Guitar=
+12	.	.	.	.	_	5	punct	_	Fp|?|?

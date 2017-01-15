@@ -8,39 +8,39 @@ CONCEPTS B: Human+,Duck=,Green=,Head=,Entity+,Motion+,Organ+,Water=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	duck	duck	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	NN|01846331-n|Duck=
-3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	JJ|00245112-a|Human+
-5	feathers	feather	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|01896031-n|Feather+
-6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|00375969-a|Green=
-9	head	head	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	NN|05538625-n|Head=
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	VBZ|02604760-v|Entity+
-11	flapping	flap	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02093610-v|Motion+
-12	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	13	nmod:poss	_	PRP$|?|?
-13	wings	wing	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	dobj	_	NNS|02151625-n|Organ+
-14	in	in	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-16	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|14845743-n|Water=
-17	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	duck	duck	NOUN	NN	_	11	nsubj	_	NN|01846331-n|Duck=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	brown	brown	ADJ	JJ	_	5	amod	_	JJ|00245112-a|Human+
+5	feathers	feather	NOUN	NNS	_	3	pobj	_	NNS|01896031-n|Feather+
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	green	green	ADJ	JJ	_	9	amod	_	JJ|00375969-a|Green=
+9	head	head	NOUN	NN	_	5	conj	_	NN|05538625-n|Head=
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	flapping	flap	VERB	VBG	_	0	ROOT	_	VBG|02093610-v|Motion+
+12	its	its	PRON	PRP$	_	13	poss	_	PRP$|?|?
+13	wings	wing	NOUN	NNS	_	11	dobj	_	NNS|02151625-n|Organ+
+14	in	in	ADP	IN	_	11	prep	_	IN|?|?
+15	the	the	DET	DT	_	16	det	_	DT|?|?
+16	water	water	NOUN	NN	_	14	pobj	_	NN|14845743-n|Water=
+17	.	.	.	.	_	11	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00245112-a|Human+
-3	duck	duck	VERB	VB	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|01846331-n|Duck=
-4	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	green	green	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	amod	_	JJ|00375969-a|Green=
-7	head	head	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|05538625-n|Head=
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
-9	flapping	flap	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02093610-v|Motion+
-10	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	11	nmod:poss	_	PRP$|?|?
-11	wings	wing	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	dobj	_	NNS|02151625-n|Organ+
-12	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-14	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|14845743-n|Water=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	duck	duck	NOUN	NN	_	9	nsubj	_	NN|01846331-n|Duck=
+4	with	with	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	green	green	ADJ	JJ	_	7	amod	_	JJ|00375969-a|Green=
+7	head	head	NOUN	NN	_	4	pobj	_	NN|05538625-n|Head=
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	flapping	flap	VERB	VBG	_	0	ROOT	_	VBG|02093610-v|Motion+
+10	its	its	PRON	PRP$	_	11	poss	_	PRP$|?|?
+11	wings	wing	NOUN	NNS	_	9	dobj	_	NNS|02151625-n|Organ+
+12	in	in	ADP	IN	_	9	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	water	water	NOUN	NN	_	12	pobj	_	NN|14845743-n|Water=
+15	.	.	.	.	_	9	punct	_	Fp|?|?

@@ -8,25 +8,25 @@ CONCEPTS B: Hominid=,Entity+,Fist=,ViolentContest+,Jewelry+
 
 CONLL A:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|02472293-n|Hominid=
-3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	cop	_	VBP|02604760-v|Entity+
-4	fist	fist	ADJ	JJ	fPOS=ADV++RB	5	amod	_	NN|05565064-n|Fist=
-5	fighting	fight	NOUN	NN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01090335-v|ViolentContest+
-6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	ring	ring	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|04092609-n|Jewelry+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	5	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	fist	fist	ADJ	JJ	_	5	dep	_	NN|05565064-n|Fist=
+5	fighting	fight	VERB	VBG	_	0	ROOT	_	VBG|01090335-v|ViolentContest+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	ring	ring	NOUN	NN	_	6	pobj	_	NN|04092609-n|Jewelry+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|02472293-n|Hominid=
-3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	cop	_	VBP|02604760-v|Entity+
-4	fist	fist	ADJ	JJ	fPOS=ADV++RB	5	amod	_	NN|05565064-n|Fist=
-5	fighting	fight	NOUN	NN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01090335-v|ViolentContest+
-6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	ring	ring	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|04092609-n|Jewelry+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	cop	_	VBP|02604760-v|Entity+
+4	fist	fist	ADJ	JJ	_	0	ROOT	_	NN|05565064-n|Fist=
+5	fighting	fight	VERB	VBG	_	4	partmod	_	VBG|01090335-v|ViolentContest+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	ring	ring	NOUN	NN	_	6	pobj	_	NN|04092609-n|Jewelry+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

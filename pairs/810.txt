@@ -8,34 +8,34 @@ CONCEPTS B: Human+,Asia=,FrontFn=,Brick+,Window=,SubjectiveAssessmentAttribute+,
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	NN|10129825-n|Human+
-3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02203362-v|Obligation+
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	t-shirt	t-shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	NN|03595614-n|Shirt+
-6	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	CC|?|?
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-8	keeping	keep	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	3	conj	_	VBG|02202384-v|Attribute+
-9	her	her	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	11	nmod:poss	_	PRP$|?|?
-10	mouth	mouth	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	11	amod	_	NN|05302499-n|Mouth+
-11	open	open	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	JJ|01985247-a|SubjectiveStrongPositiveAttribute+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	3	nsubj	_	NN|10129825-n|Human+
+3	has	have	VERB	VBZ	_	0	ROOT	_	VBZ|02203362-v|Obligation+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	t-shirt	t-shirt	NOUN	NN	_	3	dobj	_	NN|03595614-n|Shirt+
+6	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	keeping	keep	VERB	VBG	_	3	conj	_	VBG|02202384-v|Attribute+
+9	her	her	PRON	PRP$	_	10	poss	_	PRP$|?|?
+10	mouth	mouth	NOUN	NN	_	8	dobj	_	NN|05302499-n|Mouth+
+11	open	open	ADJ	JJ	_	8	dep	_	JJ|01985247-a|SubjectiveStrongPositiveAttribute+
+12	.	.	.	.	_	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nsubj	_	NN|10129825-n|Human+
-3	from	from	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	Asia	asia	PROPN	NNP	Number=Sing|fPOS=PROPN++NNP	2	nmod	_	NNS|09207288-n|Asia=
-5	,	,	PUNCT	,	fPOS=PUNCT++,	13	punct	_	Fc|?|?
-6	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-7	front	front	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	13	nmod	_	NN|08573472-n|FrontFn=
-8	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	brick	brick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	NN|02897820-n|Brick+
-11	window	window	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|04587648-n|Window=
-12	,	,	PUNCT	,	fPOS=PUNCT++,	13	punct	_	Fc|?|?
-13	looks	look	NOUN	NNS	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02133435-v|SubjectiveAssessmentAttribute+
-14	surprised	surprise	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	xcomp	_	VBN|00725274-v|EmotionalState+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	13	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	13	nsubj	_	NN|10129825-n|Human+
+3	from	from	ADP	IN	_	2	prep	_	IN|?|?
+4	Asia	asia	NOUN	NNP	_	3	pobj	_	NNS|09207288-n|Asia=
+5	,	,	.	,	_	13	punct	_	Fc|?|?
+6	in	in	ADP	IN	_	13	prep	_	IN|?|?
+7	front	front	NOUN	NN	_	6	pobj	_	NN|08573472-n|FrontFn=
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	brick	brick	NOUN	NN	_	11	nn	_	NN|02897820-n|Brick+
+11	window	window	NOUN	NN	_	8	pobj	_	NN|04587648-n|Window=
+12	,	,	.	,	_	13	punct	_	Fc|?|?
+13	looks	look	VERB	VBZ	_	0	ROOT	_	VBZ|02133435-v|SubjectiveAssessmentAttribute+
+14	surprised	surprise	ADJ	JJ	_	13	acomp	_	VBN|00725274-v|EmotionalState+
+15	.	.	.	.	_	13	punct	_	Fp|?|?

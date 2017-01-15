@@ -8,27 +8,27 @@ CONCEPTS B: Human+,Entity+,Transportation+,SubjectiveWeakNegativeAttribute+,Wate
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|02472293-n|Hominid=
-3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-5	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|00392812-a|Black=
-6	wetsuit	wetsuit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|?|?
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-8	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01955984-v|Carrying=
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	foamy	foamy	NOUN	NN	fPOS=ADP++IN	11	compound	_	JJ|02276305-a|Beverage+
-11	wave	wave	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	NN|13868944-n|ShapeAttribute+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|02472293-n|Hominid=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	black	black	ADJ	JJ	_	6	amod	_	JJ|00392812-a|Black=
+6	wetsuit	wetsuit	NOUN	NN	_	3	pobj	_	NN|?|?
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	foamy	foamy	ADJ	JJ	_	11	amod	_	JJ|02276305-a|Beverage+
+11	wave	wave	NOUN	NN	_	8	dobj	_	NN|13868944-n|ShapeAttribute+
+12	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	surfer	surfer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10679054-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	surfing	surf	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01948077-v|Transportation+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	huge	huge	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|01387319-a|SubjectiveWeakNegativeAttribute+
-7	wave	wave	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|07352190-n|WaterWave+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	surfer	surfer	NOUN	NN	_	4	nsubj	_	NN|10679054-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	surfing	surf	VERB	VBG	_	0	ROOT	_	VBG|01948077-v|Transportation+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	huge	huge	ADJ	JJ	_	7	amod	_	JJ|01387319-a|SubjectiveWeakNegativeAttribute+
+7	wave	wave	NOUN	NN	_	4	dobj	_	NN|07352190-n|WaterWave+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

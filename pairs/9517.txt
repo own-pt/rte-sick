@@ -8,31 +8,31 @@ CONCEPTS B: Woman=,Entity+,DramaticActing+,Human+,Whip+,CultivatedLandArea+,Tran
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	petting	pet	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01425892-v|Touching+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|02084071-n|Canine+
-7	near	near	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-9	stone	stone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	NN|09416076-n|Rock=
-10	path	path	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|08616311-n|Transitway+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	petting	pet	VERB	VBG	_	0	ROOT	_	VBG|01425892-v|Touching+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	dog	dog	NOUN	NN	_	4	dobj	_	NN|02084071-n|Canine+
+7	near	near	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	stone	stone	NOUN	NN	_	10	nn	_	NN|09416076-n|Rock=
+10	path	path	NOUN	NN	_	7	pobj	_	NN|08616311-n|Transitway+
+11	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	brown	brown	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	8	amod	_	JJ|00245112-a|Human+
-8	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02985606-n|Whip+
-9	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-11	garden	garden	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	NN|03417345-n|CultivatedLandArea+
-12	path	path	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|08616311-n|Transitway+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	brown	brown	ADJ	JJ	_	8	amod	_	JJ|00245112-a|Human+
+8	cat	cat	NOUN	NN	_	5	pobj	_	NN|02985606-n|Whip+
+9	on	on	ADP	IN	_	4	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	garden	garden	NOUN	NN	_	12	nn	_	NN|03417345-n|CultivatedLandArea+
+12	path	path	NOUN	NN	_	9	pobj	_	NN|08616311-n|Transitway+
+13	.	.	.	.	_	4	punct	_	Fp|?|?

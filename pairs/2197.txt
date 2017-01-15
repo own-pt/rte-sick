@@ -8,32 +8,32 @@ CONCEPTS B: Entity+,Hominid=,Impelling+,Food+,Separating+,Covering+,BreadOrBiscu
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01494310-v|Putting=
-5	garlic	garlic	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|07818277-n|Garlic=
-6	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	some	some	DET	DT	fPOS=DET++DT	9	det	_	DT|?|?
-8	bread	bread	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	NN|07679356-n|BreadOrBiscuit+
-9	slices	slice	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|07654667-n|PreparedFood+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	putting	put	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+5	garlic	garlic	NOUN	NN	_	4	dobj	_	NN|07818277-n|Garlic=
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	some	some	DET	DT	_	9	det	_	DT|?|?
+8	bread	bread	NOUN	NN	_	9	nn	_	NN|07679356-n|BreadOrBiscuit+
+9	slices	slice	NOUN	NNS	_	6	pobj	_	NNS|07654667-n|PreparedFood+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	6	neg	_	DT|?|?
-4	man	man	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	amod	_	NN|02472293-n|Hominid=
-5	sprinkling	sprinkle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	VBG|01376245-v|Impelling+
-6	seasoning	seasoning	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|07809368-n|Food+
-7	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-8	several	several	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	DT|?|?
-9	sliced	slice	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	VBN|01254477-v|Separating+
-10	and	and	CONJ	CC	fPOS=CONJ++CC	9	cc	_	CC|?|?
-11	buttered	butter	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	9	conj	_	VBN|01267998-v|Covering+
-12	loaves	loaf	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	NNS|07683786-n|BreadOrBiscuit+
-13	of	of	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-14	bread	bread	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	NN|07679356-n|BreadOrBiscuit+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	man	man	NOUN	NN	_	5	nn	_	NN|02472293-n|Hominid=
+5	sprinkling	sprinkle	VERB	VBG	_	2	nsubj	_	VBG|01376245-v|Impelling+
+6	seasoning	seasoning	VERB	VBG	_	5	partmod	_	NN|07809368-n|Food+
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	several	several	ADJ	JJ	_	12	amod	_	DT|?|?
+9	sliced	slice	VERB	VBN	_	12	amod	_	VBN|01254477-v|Separating+
+10	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+11	buttered	butter	VERB	VBN	_	9	conj	_	VBN|01267998-v|Covering+
+12	loaves	loaf	NOUN	NNS	_	7	pobj	_	NNS|07683786-n|BreadOrBiscuit+
+13	of	of	ADP	IN	_	12	prep	_	IN|?|?
+14	bread	bread	NOUN	NN	_	13	pobj	_	NN|07679356-n|BreadOrBiscuit+
+15	.	.	.	.	_	2	punct	_	Fp|?|?

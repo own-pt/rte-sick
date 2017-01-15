@@ -8,23 +8,23 @@ CONCEPTS B: Hominid=,PhysicalAttribute+,SittingDown+,SocialRole+,Device+
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	VBG|01543123-v|SittingDown+
-5	indoors	indoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	RB|00110533-r|Indoors+
-6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	indoors	indoors	ADV	RB	_	4	advmod	_	RB|00110533-r|Indoors+
+6	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-5	outside	outside	ADV	RB	fPOS=ADV++RB	4	advmod	_	IN|?|?
-6	under	under	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	purple	purple	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|01591394-a|SocialRole+
-9	umbrella	umbrella	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04507155-n|Device+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	outside	outside	ADV	RB	_	4	advmod	_	IN|?|?
+6	under	under	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	purple	purple	ADJ	JJ	_	9	amod	_	JJ|01591394-a|SocialRole+
+9	umbrella	umbrella	NOUN	NN	_	6	pobj	_	NN|04507155-n|Device+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

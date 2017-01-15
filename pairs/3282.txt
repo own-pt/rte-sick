@@ -8,31 +8,31 @@ CONCEPTS B: Human+,Entity+,Rotating+,HumanYouth=,Human+,Ocean=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09917593-n|HumanChild=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-5	in	in	ADP	RP	fPOS=ADV++RB	4	advmod	_	RP|00501990-r|PositionalAttribute+
-6	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-7	out	out	ADP	IN	fPOS=ADP++IN	11	case	_	RP|00233413-r|Giving+
-8	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	ocean	ocean	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	NN|09376198-n|Ocean=
-11	waves	wave	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	conj	_	NNS|13868944-n|ShapeAttribute+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	in	in	ADP	IN	_	4	prep	_	RP|00501990-r|PositionalAttribute+
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	out	out	ADP	IN	_	5	conj	_	RP|00233413-r|Giving+
+8	of	of	ADP	IN	_	5	pcomp	_	IN|?|?
+9	the	the	DET	DT	_	11	det	_	DT|?|?
+10	ocean	ocean	NOUN	NN	_	11	nn	_	NN|09376198-n|Ocean=
+11	waves	wave	NOUN	NNS	_	8	pobj	_	NNS|13868944-n|ShapeAttribute+
+12	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10285313-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	waving	wave	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01446901-v|Rotating+
-5	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	some	some	DET	DT	fPOS=DET++DT	8	det	_	DT|?|?
-7	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	8	amod	_	JJ|01646941-a|HumanYouth=
-8	runners	runner	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|10542888-n|Human+
-9	from	from	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	ocean	ocean	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|09376198-n|Ocean=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	waving	wave	VERB	VBG	_	0	ROOT	_	VBG|01446901-v|Rotating+
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	some	some	DET	DT	_	8	det	_	DT|?|?
+7	young	young	ADJ	JJ	_	8	amod	_	JJ|01646941-a|HumanYouth=
+8	runners	runner	NOUN	NNS	_	5	pobj	_	NNS|10542888-n|Human+
+9	from	from	ADP	IN	_	4	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	ocean	ocean	NOUN	NN	_	9	pobj	_	NN|09376198-n|Ocean=
+12	.	.	.	.	_	4	punct	_	Fp|?|?

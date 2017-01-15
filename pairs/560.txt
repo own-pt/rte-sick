@@ -8,42 +8,42 @@ CONCEPTS B: Canine+,Entity+,Human+,Black=,Entity+,Attribute+,Grass=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	dark	dark	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	amod	_	JJ|00409440-a|SubjectiveWeakNegativeAttribute+
-3	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|01131935-a|SubjectiveWeakNegativeAttribute+
-4	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	NN|02084071-n|Canine+
-5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-7	light	light	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	JJ|01186408-a|SubjectiveWeakPositiveAttribute+
-8	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	JJ|00245112-a|Human+
-9	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	conj	_	NN|02084071-n|Canine+
-10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	11	aux	_	VBP|02604760-v|Entity+
-11	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-12	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-14	yard	yard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|04610879-n|LandArea=
-15	in	in	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
-16	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	17	det	_	DT|?|?
-17	back	back	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	NN|02767433-n|CorpuscularObject+
-18	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	Fp|?|?
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	dark	dark	ADJ	JJ	_	4	amod	_	JJ|00409440-a|SubjectiveWeakNegativeAttribute+
+3	black	black	ADJ	JJ	_	4	amod	_	JJ|01131935-a|SubjectiveWeakNegativeAttribute+
+4	dog	dog	NOUN	NN	_	11	nsubj	_	NN|02084071-n|Canine+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	a	a	DET	DT	_	9	det	_	DT|?|?
+7	light	light	ADJ	JJ	_	9	amod	_	JJ|01186408-a|SubjectiveWeakPositiveAttribute+
+8	brown	brown	ADJ	JJ	_	9	amod	_	JJ|00245112-a|Human+
+9	dog	dog	NOUN	NN	_	4	conj	_	NN|02084071-n|Canine+
+10	are	be	VERB	VBP	_	11	aux	_	VBP|02604760-v|Entity+
+11	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+12	in	in	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	yard	yard	NOUN	NN	_	12	pobj	_	NN|04610879-n|LandArea=
+15	in	in	ADP	IN	_	11	prep	_	IN|?|?
+16	the	the	DET	DT	_	17	det	_	DT|?|?
+17	back	back	NOUN	NN	_	15	pobj	_	NN|02767433-n|CorpuscularObject+
+18	.	.	.	.	_	11	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|02084071-n|Canine+
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
-4	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	6	nsubj	_	WDT|?|?
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	cop	_	VBZ|02604760-v|Entity+
-6	brown	brown	ADJ	JJ	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	2	acl:relcl	_	JJ|00245112-a|Human+
-7	,	,	PUNCT	,	fPOS=PUNCT++,	6	punct	_	Fc|?|?
-8	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	JJ|00392812-a|Black=
-11	one	1	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nsubj	_	Z|?|?
-12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	13	aux	_	VBP|02604760-v|Entity+
-13	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	VBG|01525666-v|Attribute+
-14	in	in	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-16	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	NN|12102133-n|Grass=
-17	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	0	ROOT	_	NN|02084071-n|Canine+
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	which	which	DET	WDT	_	6	nsubj	_	WDT|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	brown	brown	ADJ	JJ	_	2	rcmod	_	JJ|00245112-a|Human+
+7	,	,	.	,	_	6	punct	_	Fc|?|?
+8	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	black	black	ADJ	JJ	_	11	amod	_	JJ|00392812-a|Black=
+11	one	1	NUM	CD	_	13	nsubj	_	Z|?|?
+12	are	be	VERB	VBP	_	13	aux	_	VBP|02604760-v|Entity+
+13	running	run	VERB	VBG	_	6	conj	_	VBG|01525666-v|Attribute+
+14	in	in	ADP	IN	_	13	prep	_	IN|?|?
+15	the	the	DET	DT	_	16	det	_	DT|?|?
+16	grass	grass	NOUN	NN	_	14	pobj	_	NN|12102133-n|Grass=
+17	.	.	.	.	_	2	punct	_	Fp|?|?

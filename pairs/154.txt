@@ -8,22 +8,22 @@ CONCEPTS B: Deer=,Entity+,Ambulating=,SubjectiveAssessmentAttribute+,Device+
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
-4	deer	deer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|02430045-n|Deer=
-5	jumping	jump	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	VBG|01963942-v|Ambulating=
-6	fences	fence	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	NNS|03327234-n|Device+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	6	det	_	DT|?|?
+4	deer	deer	NOUN	NN	_	5	nn	_	NN|02430045-n|Deer=
+5	jumping	jump	VERB	VBG	_	6	nn	_	VBG|01963942-v|Ambulating=
+6	fences	fence	NOUN	NNS	_	2	nsubj	_	NNS|03327234-n|Device+
+7	.	.	.	.	_	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	deer	deer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02430045-n|Deer=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-5	over	over	ADP	IN	fPOS=ADP++IN	7	case	_	RP|00226550-r|SubjectiveAssessmentAttribute+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	fence	fence	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03327234-n|Device+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	deer	deer	NOUN	NN	_	4	nsubj	_	NN|02430045-n|Deer=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	over	over	ADP	IN	_	4	prep	_	RP|00226550-r|SubjectiveAssessmentAttribute+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	fence	fence	NOUN	NN	_	5	pobj	_	NN|03327234-n|Device+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

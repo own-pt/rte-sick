@@ -8,34 +8,34 @@ CONCEPTS B: Entity+,Human+,Canine+,Looking=,SubjectiveAssessmentAttribute+,Human
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00245112-a|Human+
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	staring	stare	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02132745-v|Looking=
-6	attentively	attentively	ADV	RB	fPOS=ADV++RB	5	advmod	_	RB|00196417-r|SubjectiveAssessmentAttribute+
-7	at	at	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-9	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	amod	_	JJ|00245112-a|Human+
-10	and	and	CONJ	CC	fPOS=CONJ++CC	9	cc	_	CC|?|?
-11	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	conj	_	JJ|00393105-a|White=
-12	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02084071-n|Canine+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	staring	stare	VERB	VBG	_	0	ROOT	_	VBG|02132745-v|Looking=
+6	attentively	attentively	ADV	RB	_	5	advmod	_	RB|00196417-r|SubjectiveAssessmentAttribute+
+7	at	at	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	12	det	_	DT|?|?
+9	brown	brown	ADJ	JJ	_	12	amod	_	JJ|00245112-a|Human+
+10	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+11	white	white	ADJ	JJ	_	9	conj	_	JJ|00393105-a|White=
+12	dog	dog	NOUN	NN	_	7	pobj	_	NN|02084071-n|Canine+
+13	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	DT|?|?
-4	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	JJ|00245112-a|Human+
-5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|02084071-n|Canine+
-6	staring	stare	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	acl	_	VBG|02132745-v|Looking=
-7	attentively	attentively	ADV	RB	fPOS=ADV++RB	6	advmod	_	RB|00196417-r|SubjectiveAssessmentAttribute+
-8	at	at	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-10	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	amod	_	JJ|00245112-a|Human+
-11	and	and	CONJ	CC	fPOS=CONJ++CC	10	cc	_	CC|?|?
-12	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	conj	_	JJ|00393105-a|White=
-13	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|02084071-n|Canine+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	brown	brown	ADJ	JJ	_	5	amod	_	JJ|00245112-a|Human+
+5	dog	dog	NOUN	NN	_	2	nsubj	_	NN|02084071-n|Canine+
+6	staring	stare	VERB	VBG	_	5	partmod	_	VBG|02132745-v|Looking=
+7	attentively	attentively	ADV	RB	_	6	advmod	_	RB|00196417-r|SubjectiveAssessmentAttribute+
+8	at	at	ADP	IN	_	6	prep	_	IN|?|?
+9	a	a	DET	DT	_	13	det	_	DT|?|?
+10	brown	brown	ADJ	JJ	_	13	amod	_	JJ|00245112-a|Human+
+11	and	and	CONJ	CC	_	10	cc	_	CC|?|?
+12	white	white	ADJ	JJ	_	10	conj	_	JJ|00393105-a|White=
+13	dog	dog	NOUN	NN	_	8	pobj	_	NN|02084071-n|Canine+
+14	.	.	.	.	_	2	punct	_	Fp|?|?

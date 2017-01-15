@@ -8,25 +8,25 @@ CONCEPTS B: Human+,Entity+,Position+,Piano=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10129825-n|Human+
-4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	grand	grand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	JJ|02024928-a|SubjectiveWeakPositiveAttribute+
-8	piano	piano	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|03928116-n|Piano=
-9	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-10	stage	stage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|13939892-n|Attribute+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	grand	grand	ADJ	JJ	_	8	amod	_	JJ|02024928-a|SubjectiveWeakPositiveAttribute+
+8	piano	piano	NOUN	NN	_	5	dobj	_	NN|03928116-n|Piano=
+9	on	on	ADP	IN	_	5	prep	_	IN|?|?
+10	stage	stage	NOUN	NN	_	9	pobj	_	NN|13939892-n|Attribute+
+11	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10129825-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	practicing	practice	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02568672-v|Position+
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	piano	piano	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03928116-n|Piano=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	practicing	practice	VERB	VBG	_	0	ROOT	_	VBG|02568672-v|Position+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	piano	piano	NOUN	NN	_	4	dobj	_	NN|03928116-n|Piano=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

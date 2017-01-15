@@ -8,28 +8,28 @@ CONCEPTS B: Hominid=,Entity+,Transportation+,earlier+,Covering+,Hill=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	skier	skier	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|10605253-n|Human+
-3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	JJ|00392812-a|Black=
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	catching	catch	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01439190-v|Grabbing+
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	tiny	tiny	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|01392249-a|SubjectiveStrongNegativeAttribute+
-9	bit	bit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|02844307-n|EngineeringComponent+
-10	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-11	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|00300441-n|AirTransportation+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	skier	skier	NOUN	NN	_	6	nsubj	_	NN|10605253-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	black	black	ADJ	JJ	_	3	pobj	_	JJ|00392812-a|Black=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	catching	catch	VERB	VBG	_	0	ROOT	_	VBG|01439190-v|Grabbing+
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	tiny	tiny	ADJ	JJ	_	9	amod	_	JJ|01392249-a|SubjectiveStrongNegativeAttribute+
+9	bit	bit	NOUN	NN	_	6	dobj	_	NN|02844307-n|EngineeringComponent+
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	air	air	NOUN	NN	_	10	pobj	_	NN|00300441-n|AirTransportation+
+12	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	skiing	ski	VERB	VBG	VerbForm=Ger|fPOS=AUX++VBG	0	ROOT	_	VBG|01938426-v|Transportation+
-5	down	down	ADP	IN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	4	compound:prt	_	RP|00096089-r|earlier+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	snowy	snowy	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	8	compound	_	JJ|01698231-a|Covering+
-8	hill	hill	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|09303008-n|Hill=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	skiing	ski	VERB	VBG	_	0	ROOT	_	VBG|01938426-v|Transportation+
+5	down	down	ADP	IN	_	4	prep	_	RP|00096089-r|earlier+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	snowy	snowy	ADJ	JJ	_	8	amod	_	JJ|01698231-a|Covering+
+8	hill	hill	NOUN	NN	_	5	pobj	_	NN|09303008-n|Hill=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

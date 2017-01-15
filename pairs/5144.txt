@@ -8,22 +8,22 @@ CONCEPTS B: Hominid=,Entity+,Position+,SubjectiveStrongPositiveAttribute+,Recrea
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-6	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|14845743-n|Water=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	water	water	NOUN	NN	_	5	pobj	_	NN|14845743-n|Water=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	doing	do	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02568672-v|Position+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	magic	magic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|01576071-a|SubjectiveStrongPositiveAttribute+
-7	trick	trick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|00099951-n|RecreationOrExercise+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|02568672-v|Position+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	magic	magic	ADJ	JJ	_	7	nn	_	JJ|01576071-a|SubjectiveStrongPositiveAttribute+
+7	trick	trick	NOUN	NN	_	4	dobj	_	NN|00099951-n|RecreationOrExercise+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

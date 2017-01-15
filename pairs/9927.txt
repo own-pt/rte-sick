@@ -8,20 +8,20 @@ CONCEPTS B: Rugby=,Human+,Entity+,Putting+,equal+
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	lady	lady	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|09989290-n|Human+
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	VBZ|02604760-v|Entity+
-4	dicing	dice	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	VBG|01256867-v|Cutting+
-5	onions	onion	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	NNS|12433081-n|FruitOrVegetable+
-6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	lady	lady	NOUN	NN	_	4	nsubj	_	NN|09989290-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	dicing	dice	VERB	VBG	_	0	ROOT	_	VBG|01256867-v|Cutting+
+5	onions	onion	NOUN	NNS	_	4	dobj	_	NNS|12433081-n|FruitOrVegetable+
+6	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Rugby	rugby	PROPN	NNP	fPOS=ADP++IN	2	amod	_	NN|00470966-n|Rugby=
-2	players	player	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|10439851-n|Human+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	tackling	tackle	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01491697-v|Putting+
-5	each	each	DET	DT	fPOS=DET++DT	6	det	_	DT|?|?
-6	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	dobj	_	JJ|02069355-a|equal+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Rugby	rugby	NOUN	NN	_	2	nn	_	NN|00470966-n|Rugby=
+2	players	player	NOUN	NNS	_	4	nsubj	_	NNS|10439851-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	tackling	tackle	VERB	VBG	_	0	ROOT	_	VBG|01491697-v|Putting+
+5	each	each	DET	DT	_	6	det	_	DT|?|?
+6	other	other	ADJ	JJ	_	4	dobj	_	JJ|02069355-a|equal+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

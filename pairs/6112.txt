@@ -8,31 +8,31 @@ CONCEPTS B: Canine+,Black=,Man=,Entity+,Attribute+,Human+,Leaf=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|02084071-n|Canine+
-3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-5	colored	color	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	VBN|00283911-v|SurfaceChange+
-6	coat	coat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03057021-n|Coat=
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-8	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-9	across	across	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	yard	yard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|04610879-n|LandArea=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	8	nsubj	_	NN|02084071-n|Canine+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	colored	color	ADJ	JJ	_	6	amod	_	VBN|00283911-v|SurfaceChange+
+6	coat	coat	NOUN	NN	_	3	pobj	_	NN|03057021-n|Coat=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+9	across	across	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	yard	yard	NOUN	NN	_	9	pobj	_	NN|04610879-n|LandArea=
+12	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|02084071-n|Canine+
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-5	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|00392812-a|Black=
-6	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	NN|10287213-n|Man=
-7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	8	aux	_	VBP|02604760-v|Entity+
-8	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-9	through	through	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	brown	brown	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	JJ|00245112-a|Human+
-11	leaves	leaf	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	NNS|13152742-n|Leaf=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	8	nsubj	_	NN|02084071-n|Canine+
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	black	black	ADJ	JJ	_	6	amod	_	JJ|00392812-a|Black=
+6	man	man	NOUN	NN	_	2	conj	_	NN|10287213-n|Man=
+7	are	be	VERB	VBP	_	8	aux	_	VBP|02604760-v|Entity+
+8	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+9	through	through	ADP	IN	_	8	prep	_	IN|?|?
+10	brown	brown	ADJ	JJ	_	11	amod	_	JJ|00245112-a|Human+
+11	leaves	leaf	NOUN	NNS	_	9	pobj	_	NNS|13152742-n|Leaf=
+12	.	.	.	.	_	8	punct	_	Fp|?|?

@@ -8,43 +8,43 @@ CONCEPTS B: Human+,Woman=,PhysicalAttribute+,SittingDown+,Roof=,SubjectiveAssess
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	blond	blond	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00243606-a|Human+
-3	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10787470-n|Woman=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
-5	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	roof	roof	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|04105068-n|Roof=
-9	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-11	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
-12	vehicle	vehicle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|04524313-n|Vehicle=
-13	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-14	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	15	nummod	_	Z|?|?
-15	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	17	nsubj	_	NNS|07942152-n|GroupOfPeople=
-16	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	17	cop	_	VBP|02655135-v|PhysicalAttribute+
-17	inside	inside	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	conj	_	RB|00110815-r|Indoors+
-18	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	blond	blond	ADJ	JJ	_	3	amod	_	JJ|00243606-a|Human+
+3	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	roof	roof	NOUN	NN	_	6	pobj	_	NN|04105068-n|Roof=
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	yellow	yellow	ADJ	JJ	_	12	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+12	vehicle	vehicle	NOUN	NN	_	9	pobj	_	NN|04524313-n|Vehicle=
+13	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+14	two	2	NUM	CD	_	15	num	_	Z|?|?
+15	people	people	NOUN	NNS	_	16	nsubj	_	NNS|07942152-n|GroupOfPeople=
+16	are	be	VERB	VBP	_	5	conj	_	VBP|02655135-v|PhysicalAttribute+
+17	inside	inside	ADV	RB	_	16	advmod	_	RB|00110815-r|Indoors+
+18	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	blond	blond	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00243606-a|Human+
-3	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10787470-n|Woman=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
-5	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	roof	roof	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|04105068-n|Roof=
-9	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-11	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
-12	vehicle	vehicle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|04524313-n|Vehicle=
-13	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-14	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	15	nummod	_	Z|?|?
-15	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	17	nsubj	_	NNS|07942152-n|GroupOfPeople=
-16	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	17	cop	_	VBP|02655135-v|PhysicalAttribute+
-17	outside	outside	ADJ	JJ	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	5	conj	_	JJ|01692222-a|located+
-18	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	blond	blond	ADJ	JJ	_	3	amod	_	JJ|00243606-a|Human+
+3	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	roof	roof	NOUN	NN	_	6	pobj	_	NN|04105068-n|Roof=
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	yellow	yellow	ADJ	JJ	_	12	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+12	vehicle	vehicle	NOUN	NN	_	9	pobj	_	NN|04524313-n|Vehicle=
+13	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+14	two	2	NUM	CD	_	15	num	_	Z|?|?
+15	people	people	NOUN	NNS	_	16	nsubj	_	NNS|07942152-n|GroupOfPeople=
+16	are	be	VERB	VBP	_	5	conj	_	VBP|02655135-v|PhysicalAttribute+
+17	outside	outside	ADV	RB	_	16	advmod	_	JJ|01692222-a|located+
+18	.	.	.	.	_	5	punct	_	Fp|?|?

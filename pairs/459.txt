@@ -8,26 +8,26 @@ CONCEPTS B: HumanChild=,Entity+,PhysicalAttribute+,SubjectiveWeakPositiveAttribu
 
 CONLL A:
 
-1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-5	next	next	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	advmod	_	JJ|01294975-a|Position+
-6	to	to	ADP	IN	fPOS=ADP++IN	9	case	_	TO|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	NN|13912260-n|ContentBearingObject+
-9	limb	limb	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|13163803-n|BodyPart+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	next	next	ADV	RB	_	4	advmod	_	JJ|01294975-a|Position+
+6	to	to	ADP	IN	_	5	prep	_	TO|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	tree	tree	NOUN	NN	_	9	nn	_	NN|13912260-n|ContentBearingObject+
+9	limb	limb	NOUN	NN	_	6	pobj	_	NN|13163803-n|BodyPart+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|09917593-n|HumanChild=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	hanging	hang	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01482075-v|PhysicalAttribute+
-5	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-8	branch	branch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|13913849-n|ShapeAttribute+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	hanging	hang	VERB	VBG	_	0	ROOT	_	VBG|01482075-v|PhysicalAttribute+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	large	large	ADJ	JJ	_	8	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+8	branch	branch	NOUN	NN	_	5	pobj	_	NN|13913849-n|ShapeAttribute+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

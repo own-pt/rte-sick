@@ -8,23 +8,23 @@ CONCEPTS B: Human=,Entity+,DramaticActing+,Piano=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	potato	potato	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	NN|07710616-n|PotatoTuber=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	VBG|02604760-v|Entity+
-5	sliced	slice	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|01254477-v|Separating+
-6	by	by	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|00007846-n|Human=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	potato	potato	NOUN	NN	_	5	nsubjpass	_	NN|07710616-n|PotatoTuber=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	sliced	slice	VERB	VBN	_	0	ROOT	_	VBN|01254477-v|Separating+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	person	person	NOUN	NN	_	6	pobj	_	NN|00007846-n|Human=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	piano	piano	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03928116-n|Piano=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	piano	piano	NOUN	NN	_	4	dobj	_	NN|03928116-n|Piano=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

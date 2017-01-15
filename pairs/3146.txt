@@ -8,26 +8,26 @@ CONCEPTS B: Human+,Entity+,Expressing+,Hand+,Human=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10200047-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	practicing	practice	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	VBG|02568672-v|Position+
-5	martial	martial	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|01518860-a|SubjectiveStrongNegativeAttribute+
-6	arts	art	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|02743547-n|ArtWork=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	monkey	monkey	NOUN	NN	_	4	nsubj	_	NN|10200047-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	practicing	practice	VERB	VBG	_	0	ROOT	_	VBG|02568672-v|Position+
+5	martial	martial	ADJ	JJ	_	6	amod	_	JJ|01518860-a|SubjectiveStrongNegativeAttribute+
+6	arts	art	NOUN	NNS	_	4	dobj	_	NNS|02743547-n|ArtWork=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10200047-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	kicking	kick	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00907147-v|Expressing+
-5	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	gloved	glove	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	VBN|?|?
-8	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|05564590-n|Hand+
-9	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|00007846-n|Human=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	monkey	monkey	NOUN	NN	_	4	nsubj	_	NN|10200047-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	kicking	kick	VERB	VBG	_	0	ROOT	_	VBG|00907147-v|Expressing+
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	8	det	_	DT|?|?
+7	gloved	glove	ADJ	JJ	_	8	amod	_	VBN|?|?
+8	hand	hand	NOUN	NN	_	5	pobj	_	NN|05564590-n|Hand+
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	person	person	NOUN	NN	_	9	pobj	_	NN|00007846-n|Human=
+12	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -8,32 +8,32 @@ CONCEPTS B: HumanChild=,Entity+,PhysicalAttribute+,Motion+,Gun=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|09917593-n|HumanChild=
-3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	gun	gun	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03467984-n|Gun=
-6	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	10	dobj	_	IN|?|?
-7	sprays	spray	VERB	VBZ	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	8	amod	_	NNS|02754103-n|Device+
-8	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	NN|14845743-n|Water=
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
-10	laughing	laugh	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	acl:relcl	_	VBG|00031820-v|Laughing=
-11	and	and	CONJ	CC	fPOS=CONJ++CC	10	cc	_	CC|?|?
-12	getting	get	VERB	VBG	Number=Sing|fPOS=NOUN++NN	10	conj	_	VBG|00120316-v|Process+
-13	hit	hit	NOUN	NN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	12	ccomp	_	VBN|02020590-v|Arriving=
-14	by	by	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-15	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	16	amod	_	JJ|02069355-a|equal+
-16	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	nmod	_	NNS|10285313-n|Human+
-17	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	10	nsubj	_	NN|09917593-n|HumanChild=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	gun	gun	NOUN	NN	_	3	pobj	_	NN|03467984-n|Gun=
+6	that	that	DET	WDT	_	7	nsubj	_	IN|?|?
+7	sprays	spray	VERB	VBZ	_	5	rcmod	_	NNS|02754103-n|Device+
+8	water	water	NOUN	NN	_	7	dobj	_	NN|14845743-n|Water=
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	laughing	laugh	VERB	VBG	_	0	ROOT	_	VBG|00031820-v|Laughing=
+11	and	and	CONJ	CC	_	10	cc	_	CC|?|?
+12	getting	get	VERB	VBG	_	13	auxpass	_	VBG|00120316-v|Process+
+13	hit	hit	VERB	VBN	_	10	conj	_	VBN|02020590-v|Arriving=
+14	by	by	ADP	IN	_	13	prep	_	IN|?|?
+15	other	other	ADJ	JJ	_	16	amod	_	JJ|02069355-a|equal+
+16	boys	boy	NOUN	NNS	_	14	pobj	_	NNS|10285313-n|Human+
+17	.	.	.	.	_	10	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09917593-n|HumanChild=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02701210-v|PhysicalAttribute+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	squirt	squirt	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	NN|07436100-n|Motion+
-7	gun	gun	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03467984-n|Gun=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|02701210-v|PhysicalAttribute+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	squirt	squirt	NOUN	NN	_	7	nn	_	NN|07436100-n|Motion+
+7	gun	gun	NOUN	NN	_	4	dobj	_	NN|03467984-n|Gun=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

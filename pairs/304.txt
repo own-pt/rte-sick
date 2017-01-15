@@ -8,27 +8,27 @@ CONCEPTS B: HumanYouth=,top+,Woman=,Entity+,Covering+,Paint+
 
 CONLL A:
 
-1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-2	old	old	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	5	amod	_	JJ|01643620-a|SubjectiveAssessmentAttribute+
-3	,	,	PUNCT	,	fPOS=PUNCT++,	5	punct	_	Fc|?|?
-4	topless	topless	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	5	amod	_	JJ|02442082-a|top+
-5	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubjpass	_	NN|10787470-n|Woman=
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	auxpass	_	VBZ|02604760-v|Entity+
-7	covered	cover	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|01332730-v|Covering+
-8	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-9	paint	paint	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|03875218-n|Paint+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	An	a	DET	DT	_	5	det	_	DT|?|?
+2	old	old	ADJ	JJ	_	5	amod	_	JJ|01643620-a|SubjectiveAssessmentAttribute+
+3	,	,	.	,	_	5	punct	_	Fc|?|?
+4	topless	topless	ADJ	JJ	_	5	amod	_	JJ|02442082-a|top+
+5	woman	woman	NOUN	NN	_	7	nsubjpass	_	NN|10787470-n|Woman=
+6	is	be	VERB	VBZ	_	7	auxpass	_	VBZ|02604760-v|Entity+
+7	covered	cover	VERB	VBN	_	0	ROOT	_	VBN|01332730-v|Covering+
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	paint	paint	NOUN	NN	_	8	pobj	_	NN|03875218-n|Paint+
+10	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	5	amod	_	JJ|01646941-a|HumanYouth=
-3	,	,	PUNCT	,	fPOS=PUNCT++,	5	punct	_	Fc|?|?
-4	topless	topless	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	5	amod	_	JJ|02442082-a|top+
-5	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubjpass	_	NN|10787470-n|Woman=
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	auxpass	_	VBZ|02604760-v|Entity+
-7	covered	cover	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|01332730-v|Covering+
-8	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-9	paint	paint	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|03875218-n|Paint+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	5	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	5	amod	_	JJ|01646941-a|HumanYouth=
+3	,	,	.	,	_	5	punct	_	Fc|?|?
+4	topless	topless	ADJ	JJ	_	5	amod	_	JJ|02442082-a|top+
+5	woman	woman	NOUN	NN	_	7	nsubjpass	_	NN|10787470-n|Woman=
+6	is	be	VERB	VBZ	_	7	auxpass	_	VBZ|02604760-v|Entity+
+7	covered	cover	VERB	VBN	_	0	ROOT	_	VBN|01332730-v|Covering+
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	paint	paint	NOUN	NN	_	8	pobj	_	NN|03875218-n|Paint+
+10	.	.	.	.	_	7	punct	_	Fp|?|?

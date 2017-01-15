@@ -8,31 +8,31 @@ CONCEPTS B: Device+,FrontFn=,Human+,Dancing+,Human+,Entity+,Asleep+
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	blond	blond	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00243606-a|Human+
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10129825-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	dancing	dance	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01708676-v|Dancing+
-6	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-7	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|08573472-n|FrontFn=
-8	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	sound	sound	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	JJ|00693020-a|Asleep+
-11	equipment	equipment	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|03294048-n|Device+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	blond	blond	ADJ	JJ	_	3	amod	_	JJ|00243606-a|Human+
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	front	front	NOUN	NN	_	6	pobj	_	NN|08573472-n|FrontFn=
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	11	det	_	DT|?|?
+10	sound	sound	ADJ	JJ	_	11	amod	_	JJ|00693020-a|Asleep+
+11	equipment	equipment	NOUN	NN	_	8	pobj	_	NN|03294048-n|Device+
+12	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	equipment	equipment	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	NN|03294048-n|Device+
-3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|08573472-n|FrontFn=
-5	of	of	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-7	blond	blond	SCONJ	IN	Number=Sing|fPOS=NOUN++NN	9	amod	_	JJ|00243606-a|Human+
-8	dancing	dance	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	9	amod	_	VBG|01708676-v|Dancing+
-9	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|10129825-n|Human+
-10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	11	cop	_	VBZ|02604760-v|Entity+
-11	sound	sound	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	JJ|00693020-a|Asleep+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	equipment	equipment	NOUN	NN	_	11	nsubj	_	NN|03294048-n|Device+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	front	front	NOUN	NN	_	3	pobj	_	NN|08573472-n|FrontFn=
+5	of	of	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	9	det	_	DT|?|?
+7	blond	blond	ADJ	JJ	_	8	amod	_	JJ|00243606-a|Human+
+8	dancing	dance	NOUN	NN	_	9	nn	_	VBG|01708676-v|Dancing+
+9	girl	girl	NOUN	NN	_	5	pobj	_	NN|10129825-n|Human+
+10	is	be	VERB	VBZ	_	11	cop	_	VBZ|02604760-v|Entity+
+11	sound	sound	ADJ	JJ	_	0	ROOT	_	JJ|00693020-a|Asleep+
+12	.	.	.	.	_	11	punct	_	Fp|?|?

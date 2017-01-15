@@ -8,26 +8,26 @@ CONCEPTS B: Woman=,Entity+,not=,Killing+,Pork=,Meat+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	cop	_	VBZ|02604760-v|Entity+
-4	cooking	cook	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	8	amod	_	VBG|00322847-v|Cooking+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-6	breaded	breaded	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	VBN|?|?
-7	pork	pork	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	NN|07668702-n|Pork=
-8	chop	chop	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|07653982-n|Meat+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cooking	cook	VERB	VBG	_	0	ROOT	_	VBG|00322847-v|Cooking+
+5	a	a	DET	DT	_	8	det	_	DT|?|?
+6	breaded	breaded	ADJ	JJ	_	8	amod	_	VBN|?|?
+7	pork	pork	NOUN	NN	_	8	nn	_	NN|07668702-n|Pork=
+8	chop	chop	NOUN	NN	_	4	dobj	_	NN|07653982-n|Meat+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	RB|00024073-r|not=
-5	frying	fry	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02484957-v|Killing+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-7	breaded	breaded	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	VBN|?|?
-8	pork	pork	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	NN|07668702-n|Pork=
-9	chop	chop	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|07653982-n|Meat+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	frying	fry	VERB	VBG	_	0	ROOT	_	VBG|02484957-v|Killing+
+6	a	a	DET	DT	_	9	det	_	DT|?|?
+7	breaded	breaded	VERB	VBN	_	9	amod	_	VBN|?|?
+8	pork	pork	NOUN	NN	_	9	nn	_	NN|07668702-n|Pork=
+9	chop	chop	NOUN	NN	_	5	dobj	_	NN|07653982-n|Meat+
+10	.	.	.	.	_	5	punct	_	Fp|?|?

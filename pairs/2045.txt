@@ -8,23 +8,23 @@ CONCEPTS B: RecreationOrExercise+,Device=,Entity+,SubjectiveStrongPositiveAttrib
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02985606-n|Whip+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	device	device	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03183080-n|Device=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	4	nsubj	_	NN|02985606-n|Whip+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	device	device	NOUN	NN	_	5	pobj	_	NN|03183080-n|Device=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	playing	play	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	VBG|02418686-v|RecreationOrExercise+
-3	device	device	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|03183080-n|Device=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	amusing	amuse	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01344485-a|SubjectiveStrongPositiveAttribute+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|02985606-n|Whip+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	playing	play	VERB	VBG	_	3	nn	_	VBG|02418686-v|RecreationOrExercise+
+3	device	device	NOUN	NN	_	5	nsubj	_	NN|03183080-n|Device=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	amusing	amuse	VERB	VBG	_	0	ROOT	_	VBG|01344485-a|SubjectiveStrongPositiveAttribute+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	cat	cat	NOUN	NN	_	5	dobj	_	NN|02985606-n|Whip+
+8	.	.	.	.	_	5	punct	_	Fp|?|?

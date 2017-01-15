@@ -8,19 +8,19 @@ CONCEPTS B: HumanBaby=,Carnivore+,Entity+,OrganismProcess+
 
 CONLL A:
 
-1	Two	2	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	compound	_	Z|?|?
-2	pandas	panda	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02510455-n|Carnivore+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
-5	together	together	ADV	RB	fPOS=ADV++RB	4	advmod	_	RB|00507927-r|Meeting=
-6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	pandas	panda	NOUN	NNS	_	4	nsubj	_	NNS|02510455-n|Carnivore+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+5	together	together	ADV	RB	_	4	advmod	_	RB|00507927-r|Meeting=
+6	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	Z|?|?
-2	baby	baby	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	NN|09827683-n|HumanBaby=
-3	pandas	panda	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|02510455-n|Carnivore+
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02604760-v|Entity+
-5	sleeping	sleep	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00014742-v|OrganismProcess+
-6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	baby	baby	NOUN	NN	_	3	nn	_	NN|09827683-n|HumanBaby=
+3	pandas	panda	NOUN	NNS	_	5	nsubj	_	NNS|02510455-n|Carnivore+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	sleeping	sleep	VERB	VBG	_	0	ROOT	_	VBG|00014742-v|OrganismProcess+
+6	.	.	.	.	_	5	punct	_	Fp|?|?

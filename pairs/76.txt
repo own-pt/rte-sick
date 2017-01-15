@@ -8,28 +8,28 @@ CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Clothing+,SubjectiveAssess
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10129825-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
-6	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|10787470-n|Woman=
-9	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-10	costume	costume	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|03113657-n|Clothing+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+6	at	at	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	woman	woman	NOUN	NN	_	6	pobj	_	NN|10787470-n|Woman=
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	costume	costume	NOUN	NN	_	9	pobj	_	NN|03113657-n|Clothing+
+11	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|10129825-n|Human+
-4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-5	costume	costume	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|03113657-n|Clothing+
-6	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02133435-v|SubjectiveAssessmentAttribute+
-7	like	like	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|10787470-n|Woman=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	_	6	nsubj	_	NN|10129825-n|Human+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	costume	costume	NOUN	NN	_	4	pobj	_	NN|03113657-n|Clothing+
+6	looks	look	VERB	VBZ	_	0	ROOT	_	VBZ|02133435-v|SubjectiveAssessmentAttribute+
+7	like	like	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	woman	woman	NOUN	NN	_	7	pobj	_	NN|10787470-n|Woman=
+10	.	.	.	.	_	6	punct	_	Fp|?|?

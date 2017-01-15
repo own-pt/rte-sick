@@ -8,31 +8,31 @@ CONCEPTS B: Clothing[,Human+,Entity+,Walking=,FrontFn=,GroupOfPeople=,Animal=,Pa
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	5	amod	_	JJ|01646941-a|HumanYouth=
-3	,	,	PUNCT	,	fPOS=PUNCT++,	5	punct	_	Fc|?|?
-4	topless	topless	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	5	amod	_	JJ|02442082-a|top+
-5	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubjpass	_	NN|10787470-n|Woman=
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	auxpass	_	VBZ|02604760-v|Entity+
-7	covered	cover	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|01332730-v|Covering+
-8	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-9	paint	paint	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|03875218-n|Paint+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	5	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	5	amod	_	JJ|01646941-a|HumanYouth=
+3	,	,	.	,	_	5	punct	_	Fc|?|?
+4	topless	topless	ADJ	JJ	_	5	amod	_	JJ|02442082-a|top+
+5	woman	woman	NOUN	NN	_	7	nsubjpass	_	NN|10787470-n|Woman=
+6	is	be	VERB	VBZ	_	7	auxpass	_	VBZ|02604760-v|Entity+
+7	covered	cover	VERB	VBN	_	0	ROOT	_	VBN|01332730-v|Covering+
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	paint	paint	NOUN	NN	_	8	pobj	_	NN|03875218-n|Paint+
+10	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	nude	nude	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00457998-a|Clothing[
-3	lady	lady	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|09989290-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
-6	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-7	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|08573472-n|FrontFn=
-8	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	many	many	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	DT|?|?
-10	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	NNS|07942152-n|GroupOfPeople=
-11	in	in	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-12	body	body	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	compound	_	NN|05216365-n|Animal=
-13	paint	paint	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|03875218-n|Paint+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	nude	nude	ADJ	JJ	_	3	amod	_	JJ|00457998-a|Clothing[
+3	lady	lady	NOUN	NN	_	5	nsubj	_	NN|09989290-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	front	front	NOUN	NN	_	6	pobj	_	NN|08573472-n|FrontFn=
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	many	many	ADJ	JJ	_	10	amod	_	DT|?|?
+10	people	people	NOUN	NNS	_	8	pobj	_	NNS|07942152-n|GroupOfPeople=
+11	in	in	ADP	IN	_	10	prep	_	IN|?|?
+12	body	body	NOUN	NN	_	13	nn	_	NN|05216365-n|Animal=
+13	paint	paint	NOUN	NN	_	11	pobj	_	NN|03875218-n|Paint+
+14	.	.	.	.	_	5	punct	_	Fp|?|?

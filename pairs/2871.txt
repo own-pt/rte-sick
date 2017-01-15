@@ -8,21 +8,21 @@ CONCEPTS B: GroupOfPeople=,Entity+,Transportation+,Bicycle=
 
 CONLL A:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02102398-v|Transportation+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03790512-n|PassengerVehicle+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	motorcycle	motorcycle	NOUN	NN	_	4	dobj	_	NN|03790512-n|PassengerVehicle+
+7	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02102398-v|Transportation+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|02834778-n|Bicycle=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	bike	bike	NOUN	NN	_	4	dobj	_	NN|02834778-n|Bicycle=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

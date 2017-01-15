@@ -8,20 +8,20 @@ CONCEPTS B: Human=,Entity+,Separating+,FruitOrVegetable+
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|00007846-n|Human=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	RB|00024073-r|not=
-5	slicing	slice	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01254477-v|Separating+
-6	onions	onion	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	NNS|12433081-n|FruitOrVegetable+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	5	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+6	onions	onion	NOUN	NNS	_	5	dobj	_	NNS|12433081-n|FruitOrVegetable+
+7	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|00007846-n|Human=
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	cop	_	VBZ|02604760-v|Entity+
-4	slicing	slice	NOUN	NN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	compound	_	VBG|01254477-v|Separating+
-5	onions	onion	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	NNS|12433081-n|FruitOrVegetable+
-6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	onions	onion	NOUN	NNS	_	4	dobj	_	NNS|12433081-n|FruitOrVegetable+
+6	.	.	.	.	_	4	punct	_	Fp|?|?

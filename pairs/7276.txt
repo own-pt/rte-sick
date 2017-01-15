@@ -8,22 +8,22 @@ CONCEPTS B: Human+,Canine+,Entity+,DramaticActing+,Outdoors+
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00245112-a|Human+
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-5	not	not	PART	RB	fPOS=PART++RB	6	neg	_	RB|00024073-r|not=
-6	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-7	outdoors	outdoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	dobj	_	RB|00110659-r|Outdoors+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	dog	dog	NOUN	NN	_	6	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	not	not	ADV	RB	_	6	neg	_	RB|00024073-r|not=
+6	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+7	outdoors	outdoors	ADV	RB	_	6	advmod	_	RB|00110659-r|Outdoors+
+8	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	brown	brown	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00245112-a|Human+
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	playing	play	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	VBG|01719302-v|DramaticActing+
-6	outdoors	outdoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	RB|00110659-r|Outdoors+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	outdoors	outdoors	ADV	RB	_	5	advmod	_	RB|00110659-r|Outdoors+
+7	.	.	.	.	_	5	punct	_	Fp|?|?

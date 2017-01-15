@@ -8,24 +8,24 @@ CONCEPTS B: Human+,PhysicalAttribute+,SittingDown+,PoliceOrganization+,Hominid=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	policeman	policeman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10448983-n|PoliceOfficer=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03790512-n|PassengerVehicle+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	policeman	policeman	NOUN	NN	_	4	nsubj	_	NN|10448983-n|PoliceOfficer=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	motorcycle	motorcycle	NOUN	NN	_	5	pobj	_	NN|03790512-n|PassengerVehicle+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	motorcyclist	motorcyclist	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10334009-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-5	by	by	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	police	police	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	NN|08209687-n|PoliceOrganization+
-8	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02472293-n|Hominid=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	motorcyclist	motorcyclist	NOUN	NN	_	4	nsubj	_	NN|10334009-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	by	by	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	police	police	NOUN	NN	_	8	nn	_	NN|08209687-n|PoliceOrganization+
+8	man	man	NOUN	NN	_	5	pobj	_	NN|02472293-n|Hominid=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

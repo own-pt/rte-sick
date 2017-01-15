@@ -8,23 +8,23 @@ CONCEPTS B: Whip+,Entity+,Ambulating=,Box=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10285313-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00941990-v|Speaking+
-5	to	to	ADP	IN	fPOS=ADP++IN	7	case	_	TO|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	leaf	leaf	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|13152742-n|Leaf=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+5	to	to	ADP	IN	_	4	prep	_	TO|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	leaf	leaf	NOUN	NN	_	5	pobj	_	NN|13152742-n|Leaf=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02985606-n|Whip+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-5	into	into	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	box	box	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02883344-n|Box=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	4	nsubj	_	NN|02985606-n|Whip+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	into	into	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	box	box	NOUN	NN	_	5	pobj	_	NN|02883344-n|Box=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

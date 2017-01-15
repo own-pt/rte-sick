@@ -8,37 +8,37 @@ CONCEPTS B: Man=,Hat+,PhysicalAttribute+,SittingDown+,LandArea=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01646941-a|HumanYouth=
-3	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nsubj	_	NN|00007846-n|Human=
-4	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|00393105-a|White=
-7	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|04197391-n|Shirt=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
-9	gold	gold	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	conj	_	NN|14638799-n|Gold=
-10	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
-11	black	black	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	12	amod	_	JJ|00392812-a|Black=
-12	hat	hat	NOUN	NN	PronType=Rel|fPOS=PRON++WDT	7	conj	_	NN|03497657-n|Hat+
-13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	14	aux	_	VBZ|02655135-v|PhysicalAttribute+
-14	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-15	with	with	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
-16	crossed	cross	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	17	amod	_	VBN|02023396-v|Process+
-17	legs	leg	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	14	nmod	_	NNS|05560787-n|Limb=
-18	.	.	PUNCT	.	fPOS=PUNCT++.	14	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	person	person	NOUN	NN	_	14	nsubj	_	NN|00007846-n|Human=
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	white	white	ADJ	JJ	_	7	amod	_	JJ|00393105-a|White=
+7	shirt	shirt	NOUN	NN	_	4	pobj	_	NN|04197391-n|Shirt=
+8	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+9	gold	gold	NOUN	NN	_	7	conj	_	NN|14638799-n|Gold=
+10	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+11	black	black	ADJ	JJ	_	12	amod	_	JJ|00392812-a|Black=
+12	hat	hat	NOUN	NN	_	9	conj	_	NN|03497657-n|Hat+
+13	is	be	VERB	VBZ	_	14	aux	_	VBZ|02655135-v|PhysicalAttribute+
+14	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+15	with	with	ADP	IN	_	14	prep	_	IN|?|?
+16	crossed	cross	ADJ	JJ	_	17	amod	_	VBN|02023396-v|Process+
+17	legs	leg	NOUN	NNS	_	15	pobj	_	NNS|05560787-n|Limb=
+18	.	.	.	.	_	14	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|10287213-n|Man=
-3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	backwards	backwards	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	JJ|?|?
-6	hat	hat	PRON	WP	PronType=Rel|fPOS=PRON++WDT	8	nsubj	_	NN|03497657-n|Hat+
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02655135-v|PhysicalAttribute+
-8	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	acl:relcl	_	VBG|01543123-v|SittingDown+
-9	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	ground	ground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|09334396-n|LandArea=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	backwards	backwards	X	FW	_	6	nn	_	JJ|?|?
+6	hat	hat	NOUN	NN	_	3	pobj	_	NN|03497657-n|Hat+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02655135-v|PhysicalAttribute+
+8	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+9	on	on	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	ground	ground	NOUN	NN	_	9	pobj	_	NN|09334396-n|LandArea=
+12	.	.	.	.	_	8	punct	_	Fp|?|?

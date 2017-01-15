@@ -8,25 +8,25 @@ CONCEPTS B: SubjectiveWeakPositiveAttribute+,Green=,Ball=,Entity+,SoundAttribute
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	big	big	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-3	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|00375969-a|Green=
-4	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02778669-n|Ball=
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	missing	miss	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02632353-v|Process+
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	potato	potato	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|07710616-n|PotatoTuber=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	big	big	ADJ	JJ	_	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	green	green	ADJ	JJ	_	4	amod	_	JJ|00375969-a|Green=
+4	ball	ball	NOUN	NN	_	6	nsubj	_	NN|02778669-n|Ball=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	missing	miss	VERB	VBG	_	0	ROOT	_	VBG|02632353-v|Process+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	potato	potato	NOUN	NN	_	6	dobj	_	NN|07710616-n|PotatoTuber=
+9	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	big	big	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-3	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|00375969-a|Green=
-4	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02778669-n|Ball=
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	knocking	knock	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02185373-v|SoundAttribute+
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	potato	potato	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|07710616-n|PotatoTuber=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	big	big	ADJ	JJ	_	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	green	green	ADJ	JJ	_	4	amod	_	JJ|00375969-a|Green=
+4	ball	ball	NOUN	NN	_	6	nsubj	_	NN|02778669-n|Ball=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	knocking	knock	VERB	VBG	_	0	ROOT	_	VBG|02185373-v|SoundAttribute+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	potato	potato	NOUN	NN	_	6	dobj	_	NN|07710616-n|PotatoTuber=
+9	.	.	.	.	_	6	punct	_	Fp|?|?

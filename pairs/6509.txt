@@ -8,32 +8,32 @@ CONCEPTS B: Human+,Canine+,Black=,Canine+,Entity+,Grass=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	brown	brown	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00245112-a|Human+
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|02084071-n|Canine+
-4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	CC|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|00392812-a|Black=
-7	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	conj	_	NN|02084071-n|Canine+
-8	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	9	cop	_	VBP|02604760-v|Entity+
-9	far	far	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	RB|00101323-r|SubjectiveAssessmentAttribute+
-10	from	from	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|12102133-n|Grass=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	dog	dog	NOUN	NN	_	8	nsubj	_	NN|02084071-n|Canine+
+4	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	black	black	ADJ	JJ	_	7	amod	_	JJ|00392812-a|Black=
+7	dog	dog	NOUN	NN	_	3	conj	_	NN|02084071-n|Canine+
+8	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+9	far	far	ADV	RB	_	8	advmod	_	RB|00101323-r|SubjectiveAssessmentAttribute+
+10	from	from	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	grass	grass	NOUN	NN	_	10	pobj	_	NN|12102133-n|Grass=
+13	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	brown	brown	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00245112-a|Human+
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	NN|02084071-n|Canine+
-4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	CC|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|00392812-a|Black=
-7	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	conj	_	NN|02084071-n|Canine+
-8	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	11	cop	_	VBP|02604760-v|Entity+
-9	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|12102133-n|Grass=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	dog	dog	NOUN	NN	_	8	nsubj	_	NN|02084071-n|Canine+
+4	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	black	black	ADJ	JJ	_	7	amod	_	JJ|00392812-a|Black=
+7	dog	dog	NOUN	NN	_	3	conj	_	NN|02084071-n|Canine+
+8	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	grass	grass	NOUN	NN	_	9	pobj	_	NN|12102133-n|Grass=
+12	.	.	.	.	_	8	punct	_	Fp|?|?

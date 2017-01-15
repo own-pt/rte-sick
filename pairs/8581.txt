@@ -8,33 +8,33 @@ CONCEPTS B: Canine+,Entity+,Motion+,LandArea=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	tan	tan	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00384533-a|ColorAttribute+
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|02084071-n|Canine+
-4	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	6	nsubj	_	WDT|?|?
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02604760-v|Entity+
-6	dirty	dirty	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	acl:relcl	_	JJ|00419289-a|Dirty=
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-8	rolling	roll	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01866192-v|Motion+
-9	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	dirt	dirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|14498096-n|SubjectiveAssessmentAttribute+
-12	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	CC|?|?
-13	looking	look	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	8	conj	_	VBG|02693319-v|FrontFn+
-14	right	right	NOUN	NN	fPOS=ADV++RB	17	advmod	_	NN|05565337-n|Hand+
-15	at	at	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
-16	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	17	det	_	DT|?|?
-17	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	NN|02942699-n|Camera=
-18	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	tan	tan	ADJ	JJ	_	3	amod	_	JJ|00384533-a|ColorAttribute+
+3	dog	dog	NOUN	NN	_	8	nsubj	_	NN|02084071-n|Canine+
+4	which	which	DET	WDT	_	6	nsubj	_	WDT|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	dirty	dirty	ADJ	JJ	_	3	rcmod	_	JJ|00419289-a|Dirty=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	rolling	roll	VERB	VBG	_	0	ROOT	_	VBG|01866192-v|Motion+
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	dirt	dirt	NOUN	NN	_	9	pobj	_	NN|14498096-n|SubjectiveAssessmentAttribute+
+12	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+13	looking	look	VERB	VBG	_	8	conj	_	VBG|02693319-v|FrontFn+
+14	right	right	ADV	RB	_	15	advmod	_	NN|05565337-n|Hand+
+15	at	at	ADP	IN	_	13	prep	_	IN|?|?
+16	the	the	DET	DT	_	17	det	_	DT|?|?
+17	camera	camera	NOUN	NN	_	15	pobj	_	NN|02942699-n|Camera=
+18	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02084071-n|Canine+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	rolling	roll	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01866192-v|Motion+
-5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	ground	ground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|09334396-n|LandArea=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	rolling	roll	VERB	VBG	_	0	ROOT	_	VBG|01866192-v|Motion+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	ground	ground	NOUN	NN	_	5	pobj	_	NN|09334396-n|LandArea=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

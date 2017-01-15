@@ -8,25 +8,25 @@ CONCEPTS B: Human+,Entity+,Transportation+,Carrying=,WaterWave+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	lady	lady	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09989290-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	surfing	surf	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01948077-v|Transportation+
-5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-6	riding	ride	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|01955984-v|Carrying=
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	wave	wave	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|07352190-n|WaterWave+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	lady	lady	NOUN	NN	_	4	nsubj	_	NN|09989290-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	surfing	surf	VERB	VBG	_	0	ROOT	_	VBG|01948077-v|Transportation+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	riding	ride	VERB	VBG	_	4	conj	_	VBG|01955984-v|Carrying=
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	wave	wave	NOUN	NN	_	6	dobj	_	NN|07352190-n|WaterWave+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10285313-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	surfing	surf	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01948077-v|Transportation+
-5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-6	riding	ride	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|01955984-v|Carrying=
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	wave	wave	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|07352190-n|WaterWave+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	surfing	surf	VERB	VBG	_	0	ROOT	_	VBG|01948077-v|Transportation+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	riding	ride	VERB	VBG	_	4	conj	_	VBG|01955984-v|Carrying=
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	wave	wave	NOUN	NN	_	6	dobj	_	NN|07352190-n|WaterWave+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

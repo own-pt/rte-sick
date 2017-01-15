@@ -8,25 +8,25 @@ CONCEPTS B: Woman=,Entity+,Inclining+,Process+,Camera=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	crouching	crouch	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02062632-v|Inclining+
-5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-6	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|01217043-v|Process+
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|02942699-n|Camera=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	crouching	crouch	VERB	VBG	_	0	ROOT	_	VBG|02062632-v|Inclining+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	holding	hold	VERB	VBG	_	4	conj	_	VBG|01217043-v|Process+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	camera	camera	NOUN	NN	_	6	dobj	_	NN|02942699-n|Camera=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	crouching	crouch	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02062632-v|Inclining+
-5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-6	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|01217043-v|Process+
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|02942699-n|Camera=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	crouching	crouch	VERB	VBG	_	0	ROOT	_	VBG|02062632-v|Inclining+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	holding	hold	VERB	VBG	_	4	conj	_	VBG|01217043-v|Process+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	camera	camera	NOUN	NN	_	6	dobj	_	NN|02942699-n|Camera=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

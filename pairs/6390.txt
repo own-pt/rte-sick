@@ -8,31 +8,31 @@ CONCEPTS B: GroupOfPeople=,Entity+,Walking=,Roadway+,Waterfall=,Entity+,Subjecti
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	waterfall	waterfall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09475292-n|Waterfall=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	flowing	flow	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02066939-v|LiquidMotion+
-5	into	into	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	shallow	shallow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|00691696-a|SubjectiveWeakNegativeAttribute+
-8	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|09397607-n|StaticWaterArea+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	waterfall	waterfall	NOUN	NN	_	4	nsubj	_	NN|09475292-n|Waterfall=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	flowing	flow	VERB	VBG	_	0	ROOT	_	VBG|02066939-v|LiquidMotion+
+5	into	into	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	shallow	shallow	ADJ	JJ	_	8	amod	_	JJ|00691696-a|SubjectiveWeakNegativeAttribute+
+8	pool	pool	NOUN	NN	_	5	pobj	_	NN|09397607-n|StaticWaterArea+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
-5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04096066-n|Roadway+
-8	beside	beside	ADP	IN	VerbForm=Ger|fPOS=VERB++VBG	10	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	waterfall	waterfall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|09475292-n|Waterfall=
-11	,	,	PUNCT	,	fPOS=PUNCT++,	7	punct	_	Fc|?|?
-12	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	14	nsubj	_	WDT|?|?
-13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	14	cop	_	VBZ|02604760-v|Entity+
-14	beautiful	beautiful	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	acl:relcl	_	JJ|00217728-a|SubjectiveStrongPositiveAttribute+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	road	road	NOUN	NN	_	5	pobj	_	NN|04096066-n|Roadway+
+8	beside	beside	ADP	IN	_	4	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	waterfall	waterfall	NOUN	NN	_	8	pobj	_	NN|09475292-n|Waterfall=
+11	,	,	.	,	_	10	punct	_	Fc|?|?
+12	which	which	DET	WDT	_	14	nsubj	_	WDT|?|?
+13	is	be	VERB	VBZ	_	14	cop	_	VBZ|02604760-v|Entity+
+14	beautiful	beautiful	ADJ	JJ	_	10	rcmod	_	JJ|00217728-a|SubjectiveStrongPositiveAttribute+
+15	.	.	.	.	_	4	punct	_	Fp|?|?

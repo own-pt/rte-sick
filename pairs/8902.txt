@@ -8,21 +8,21 @@ CONCEPTS B: Text+,Entity+,Carrying=,Trail+
 
 CONLL A:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	riding	ride	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	VBG|01955984-v|Carrying=
-5	motorbikes	motorbike	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|03769722-n|TransportationDevice+
-6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+5	motorbikes	motorbike	NOUN	NNS	_	4	dobj	_	NNS|03769722-n|TransportationDevice+
+6	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Dirt	dirt	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	2	amod	_	NN|07223811-n|Text+
-2	bikers	biker	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|?|?
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01955984-v|Carrying=
-5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	trail	trail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04466613-n|Trail+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Dirt	dirt	NOUN	NN	_	2	nn	_	NN|07223811-n|Text+
+2	bikers	biker	NOUN	NNS	_	4	nsubj	_	NNS|?|?
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	trail	trail	NOUN	NN	_	5	pobj	_	NN|04466613-n|Trail+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

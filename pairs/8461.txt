@@ -8,30 +8,30 @@ CONCEPTS B: Man=,Hat+,PhysicalAttribute+,SittingDown+,LandArea=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10287213-n|Man=
-3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	no	no	DET	DT	fPOS=DET++DT	5	neg	_	DT|?|?
-5	hat	hat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03497657-n|Hat+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02655135-v|PhysicalAttribute+
-7	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	ground	ground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|09334396-n|LandArea=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|10287213-n|Man=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	no	no	DET	DT	_	5	det	_	DT|?|?
+5	hat	hat	NOUN	NN	_	3	pobj	_	NN|03497657-n|Hat+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02655135-v|PhysicalAttribute+
+7	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	ground	ground	NOUN	NN	_	8	pobj	_	NN|09334396-n|LandArea=
+11	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|10287213-n|Man=
-3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	backwards	backwards	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	JJ|?|?
-6	hat	hat	PRON	WP	PronType=Rel|fPOS=PRON++WDT	8	nsubj	_	NN|03497657-n|Hat+
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02655135-v|PhysicalAttribute+
-8	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	acl:relcl	_	VBG|01543123-v|SittingDown+
-9	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	ground	ground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|09334396-n|LandArea=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	backwards	backwards	X	FW	_	6	nn	_	JJ|?|?
+6	hat	hat	NOUN	NN	_	3	pobj	_	NN|03497657-n|Hat+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02655135-v|PhysicalAttribute+
+8	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+9	on	on	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	ground	ground	NOUN	NN	_	9	pobj	_	NN|09334396-n|LandArea=
+12	.	.	.	.	_	8	punct	_	Fp|?|?

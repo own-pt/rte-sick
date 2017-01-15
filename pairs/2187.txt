@@ -8,20 +8,20 @@ CONCEPTS B: GroupOfPeople=,Entity+,not=,DramaticActing+,Cricket=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	few	few	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	DT|?|?
-3	men	man	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NNS|02472293-n|Hominid=
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02604760-v|Entity+
-5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-6	cricket	cricket	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	5	xcomp	_	NN|00476389-n|Cricket=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	quantmod	_	DT|?|?
+2	few	few	ADJ	JJ	_	3	num	_	DT|?|?
+3	men	man	NOUN	NNS	_	5	nsubj	_	NNS|02472293-n|Hominid=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	cricket	cricket	NOUN	NN	_	5	dobj	_	NN|00476389-n|Cricket=
+7	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-3	not	not	PART	RB	fPOS=PART++RB	4	neg	_	RB|00024073-r|not=
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	cricket	cricket	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	dobj	_	NN|00476389-n|Cricket=
-6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	People	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+2	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+3	not	not	ADV	RB	_	4	neg	_	RB|00024073-r|not=
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	cricket	cricket	NOUN	NN	_	4	dobj	_	NN|00476389-n|Cricket=
+6	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -8,22 +8,22 @@ CONCEPTS B: SocialRole+,Entity+,Rotating+,Human+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	surfer	surfer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10679054-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01955984-v|Carrying=
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	wave	wave	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|07352190-n|WaterWave+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	surfer	surfer	NOUN	NN	_	4	nsubj	_	NN|10679054-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	wave	wave	NOUN	NN	_	4	dobj	_	NN|07352190-n|WaterWave+
+7	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	rider	rider	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10403876-n|SocialRole+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	waving	wave	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01446901-v|Rotating+
-5	at	at	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	surfer	surfer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|10679054-n|Human+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	rider	rider	NOUN	NN	_	4	nsubj	_	NN|10403876-n|SocialRole+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	waving	wave	VERB	VBG	_	0	ROOT	_	VBG|01446901-v|Rotating+
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	surfer	surfer	NOUN	NN	_	5	pobj	_	NN|10679054-n|Human+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

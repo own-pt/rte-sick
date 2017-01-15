@@ -8,28 +8,28 @@ CONCEPTS B: Human+,Entity+,Laughing=,Breathing+,equal+,Human+,Entity+,Looking=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|00031264-n|Group=
-3	of	of	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	Asian	asian	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	JJ|02968525-a|AsianEthnicity=
-5	girls	girl	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|10129825-n|Human+
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	VBP|02604760-v|Entity+
-7	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-8	together	together	ADV	RB	fPOS=ADV++RB	7	advmod	_	RB|00507927-r|Meeting=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	7	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	Asian	asian	ADJ	JJ	_	5	amod	_	JJ|02968525-a|AsianEthnicity=
+5	girls	girl	NOUN	NNS	_	3	pobj	_	NNS|10129825-n|Human+
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+8	together	together	ADV	RB	_	7	advmod	_	RB|00507927-r|Meeting=
+9	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	Z|?|?
-2	girls	girl	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|10129825-n|Human+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	laughing	laugh	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00031820-v|Laughing=
-5	breathlessly	breathlessly	ADV	RB	Degree=Cmp|fPOS=ADJ++JJR	4	advmod	_	RB|00219748-r|Breathing+
-6	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-7	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|02069355-a|equal+
-8	girls	girl	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	nsubj	_	NNS|10129825-n|Human+
-9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	10	aux	_	VBP|02604760-v|Entity+
-10	watching	watch	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|02150948-v|Looking=
-11	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|fPOS=PRON++PRP	10	dobj	_	PRP|?|?
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	girls	girl	NOUN	NNS	_	4	nsubj	_	NNS|10129825-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	laughing	laugh	VERB	VBG	_	0	ROOT	_	VBG|00031820-v|Laughing=
+5	breathlessly	breathlessly	ADV	RB	_	4	advmod	_	RB|00219748-r|Breathing+
+6	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+7	other	other	ADJ	JJ	_	8	amod	_	JJ|02069355-a|equal+
+8	girls	girl	NOUN	NNS	_	10	nsubj	_	NNS|10129825-n|Human+
+9	are	be	VERB	VBP	_	10	aux	_	VBP|02604760-v|Entity+
+10	watching	watch	VERB	VBG	_	4	conj	_	VBG|02150948-v|Looking=
+11	them	them	PRON	PRP	_	10	dobj	_	PRP|?|?
+12	.	.	.	.	_	4	punct	_	Fp|?|?

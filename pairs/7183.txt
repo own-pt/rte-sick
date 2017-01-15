@@ -8,22 +8,22 @@ CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Putting+,Clothing+
 
 CONLL A:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	compound	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	NNS|10285313-n|Human+
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	VBP|02604760-v|Entity+
-5	not	not	PART	RB	fPOS=PART++RB	6	neg	_	RB|00024073-r|not=
-6	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|00052374-v|Putting+
-7	tuxedos	tuxedo	ADV	RB	Number=Plur|fPOS=NOUN++NNS	6	dobj	_	NNS|03201776-n|Clothing+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	boys	boy	NOUN	NNS	_	6	nsubj	_	NNS|10285313-n|Human+
+4	are	be	VERB	VBP	_	6	aux	_	VBP|02604760-v|Entity+
+5	not	not	ADV	RB	_	6	neg	_	RB|00024073-r|not=
+6	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+7	tuxedos	tuxedo	NOUN	NNS	_	6	dobj	_	NNS|03201776-n|Clothing+
+8	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	nmod:npmod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	NNS|10285313-n|Human+
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	6	cop	_	VBP|02604760-v|Entity+
-5	wearing	wear	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	VBG|00052374-v|Putting+
-6	tuxedos	tuxedo	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	NNS|03201776-n|Clothing+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	boys	boy	NOUN	NNS	_	5	nsubj	_	NNS|10285313-n|Human+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+6	tuxedos	tuxedo	NOUN	NNS	_	5	dobj	_	NNS|03201776-n|Clothing+
+7	.	.	.	.	_	5	punct	_	Fp|?|?

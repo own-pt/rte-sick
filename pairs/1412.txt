@@ -8,17 +8,17 @@ CONCEPTS B: Hominid=,Entity+,Decreasing+,Wood=
 
 CONLL A:
 
-1	Men	man	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	NNS|02472293-n|Hominid=
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	3	aux	_	VBP|02604760-v|Entity+
-3	sawing	saw	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01559590-v|Cutting+
-4	logs	log	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	dobj	_	NNS|06812631-n|LogFn=
-5	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	Men	man	NOUN	NNS	_	3	nsubj	_	NNS|02472293-n|Hominid=
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	sawing	saw	VERB	VBG	_	0	ROOT	_	VBG|01559590-v|Cutting+
+4	logs	log	NOUN	NNS	_	3	dobj	_	NNS|06812631-n|LogFn=
+5	.	.	.	.	_	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Men	man	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	NNS|02472293-n|Hominid=
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	3	aux	_	VBP|02604760-v|Entity+
-3	cutting	cut	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00429060-v|Decreasing+
-4	wood	wood	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	NN|15098161-n|Wood=
-5	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	Men	man	NOUN	NNS	_	3	nsubj	_	NNS|02472293-n|Hominid=
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|00429060-v|Decreasing+
+4	wood	wood	NOUN	NN	_	3	dobj	_	NN|15098161-n|Wood=
+5	.	.	.	.	_	3	punct	_	Fp|?|?

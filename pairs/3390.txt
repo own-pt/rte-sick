@@ -8,23 +8,23 @@ CONCEPTS B: Carnivore+,Entity+,Process+,Bamboo=
 
 CONLL A:
 
-1	Some	some	DET	DT	fPOS=ADV++RB	2	det	_	DT|?|?
-2	bamboo	bamboo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	NN|12147226-n|Bamboo=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	VBG|02604760-v|Entity+
-5	eaten	eat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|01157517-v|Process+
-6	by	by	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	panda	panda	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	NN|02510455-n|Carnivore+
-9	bear	bear	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02131653-n|Mammal+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	bamboo	bamboo	NOUN	NN	_	5	nsubjpass	_	NN|12147226-n|Bamboo=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	eaten	eat	VERB	VBN	_	0	ROOT	_	VBN|01157517-v|Process+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	panda	panda	NOUN	NN	_	9	nn	_	NN|02510455-n|Carnivore+
+9	bear	bear	NOUN	NN	_	6	pobj	_	NN|02131653-n|Mammal+
+10	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	panda	panda	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02510455-n|Carnivore+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01157517-v|Process+
-5	bamboo	bamboo	NOUN	NN	fPOS=X++FW	4	dobj	_	NN|12147226-n|Bamboo=
-6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	panda	panda	NOUN	NN	_	4	nsubj	_	NN|02510455-n|Carnivore+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+5	bamboo	bamboo	NOUN	NN	_	4	dobj	_	NN|12147226-n|Bamboo=
+6	.	.	.	.	_	4	punct	_	Fp|?|?

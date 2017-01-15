@@ -8,24 +8,24 @@ CONCEPTS B: Hominid=,Entity+,ViolentContest+,FemaleCow=,Food+
 
 CONLL A:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubjpass	_	NNS|02472293-n|Hominid=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	4	auxpass	_	VBP|02604760-v|Entity+
-4	outside	outside	VERB	VBN	fPOS=ADP++IN	0	ROOT	_	IN|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	cattle	cattle	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	compound	_	NNS|02402425-n|Cow=
-7	pen	pen	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03907227-n|StationaryArtifact+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	3	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+4	outside	outside	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	cattle	cattle	NOUN	NNS	_	7	nn	_	NNS|02402425-n|Cow=
+7	pen	pen	NOUN	NN	_	4	pobj	_	NN|03907227-n|StationaryArtifact+
+8	.	.	.	.	_	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02472293-n|Hominid=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	fighting	fight	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01090335-v|ViolentContest+
-5	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	cow	cow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	NN|02403454-n|FemaleCow=
-8	pasture	pasture	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|07801091-n|Food+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	fighting	fight	VERB	VBG	_	0	ROOT	_	VBG|01090335-v|ViolentContest+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	cow	cow	NOUN	NN	_	8	nn	_	NN|02403454-n|FemaleCow=
+8	pasture	pasture	NOUN	NN	_	5	pobj	_	NN|07801091-n|Food+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

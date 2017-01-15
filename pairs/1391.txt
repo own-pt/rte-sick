@@ -8,22 +8,22 @@ CONCEPTS B: Human=,Entity+,Cutting+,Red=,FruitOrVegetable+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02102398-v|Transportation+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03790512-n|PassengerVehicle+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	motorcycle	motorcycle	NOUN	NN	_	4	dobj	_	NN|03790512-n|PassengerVehicle+
+7	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	chopping	chop	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01258091-v|Cutting+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	red	red	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|00381097-a|Red=
-7	onion	onion	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|12433081-n|FruitOrVegetable+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	chopping	chop	VERB	VBG	_	0	ROOT	_	VBG|01258091-v|Cutting+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	red	red	ADJ	JJ	_	7	amod	_	JJ|00381097-a|Red=
+7	onion	onion	NOUN	NN	_	4	dobj	_	NN|12433081-n|FruitOrVegetable+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

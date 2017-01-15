@@ -8,27 +8,27 @@ CONCEPTS B: Hominid=,Entity+,Separating+,Increasing+,Icon+,Lake=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	taking	take	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
-5	pictures	picture	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|03931044-n|Icon+
-6	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	lake	lake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|09328904-n|Lake=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	taking	take	VERB	VBG	_	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
+5	pictures	picture	NOUN	NNS	_	4	dobj	_	NNS|03931044-n|Icon+
+6	of	of	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	lake	lake	NOUN	NN	_	6	pobj	_	NN|09328904-n|Lake=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	tearing	tear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01573515-v|Separating+
-5	up	up	ADP	IN	fPOS=ADP++IN	7	case	_	RP|00097011-r|Increasing+
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	pictures	picture	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|03931044-n|Icon+
-8	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	lake	lake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|09328904-n|Lake=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	tearing	tear	VERB	VBG	_	0	ROOT	_	VBG|01573515-v|Separating+
+5	up	up	PRT	RP	_	4	prt	_	RP|00097011-r|Increasing+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	pictures	picture	NOUN	NNS	_	4	dobj	_	NNS|03931044-n|Icon+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	lake	lake	NOUN	NN	_	8	pobj	_	NN|09328904-n|Lake=
+11	.	.	.	.	_	4	punct	_	Fp|?|?

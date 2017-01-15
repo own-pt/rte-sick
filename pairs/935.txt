@@ -8,38 +8,38 @@ CONCEPTS B: HumanYouth=,HumanChild=,Entity+,RecreationOrExercise+,Green=,Shoe=,D
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	JJ|01646941-a|HumanYouth=
-3	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|09917593-n|HumanChild=
-4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	VBZ|02620587-v|Attribute+
-5	barefoot	barefoot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	RB|00278078-r|Clothing[
-6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02620587-v|Attribute+
-8	walking	walk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	VBG|01904930-v|Walking=
-9	past	past	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-11	puddle	puddle	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	NN|09397607-n|StaticWaterArea+
-12	full	full	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	JJ|01083157-a|ContainerFull+
-13	of	of	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-14	mud	mud	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	NN|14956325-n|Soil=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	child	child	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	5	cop	_	VBZ|02620587-v|Attribute+
+5	barefoot	barefoot	NOUN	NN	_	0	ROOT	_	RB|00278078-r|Clothing[
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02620587-v|Attribute+
+8	walking	walk	VERB	VBG	_	5	conj	_	VBG|01904930-v|Walking=
+9	past	past	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	puddle	puddle	NOUN	NN	_	9	pobj	_	NN|09397607-n|StaticWaterArea+
+12	full	full	ADJ	JJ	_	11	amod	_	JJ|01083157-a|ContainerFull+
+13	of	of	ADP	IN	_	12	prep	_	IN|?|?
+14	mud	mud	NOUN	NN	_	13	pobj	_	NN|14956325-n|Soil=
+15	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	JJ|01646941-a|HumanYouth=
-3	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|09917593-n|HumanChild=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
-6	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|00375969-a|Green=
-7	boots	boot	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	NNS|02872752-n|Shoe=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-9	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	VBG|01719302-v|DramaticActing+
-10	in	in	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-12	puddle	puddle	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	NN|09397607-n|StaticWaterArea+
-13	full	full	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	JJ|01083157-a|ContainerFull+
-14	of	of	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-15	mud	mud	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	NN|14956325-n|Soil=
-16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	child	child	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
+6	green	green	ADJ	JJ	_	7	amod	_	JJ|00375969-a|Green=
+7	boots	boot	NOUN	NNS	_	5	dobj	_	NNS|02872752-n|Shoe=
+8	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+9	playing	play	VERB	VBG	_	5	conj	_	VBG|01719302-v|DramaticActing+
+10	in	in	ADP	IN	_	9	prt	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	puddle	puddle	NOUN	NN	_	9	dobj	_	NN|09397607-n|StaticWaterArea+
+13	full	full	ADJ	JJ	_	12	amod	_	JJ|01083157-a|ContainerFull+
+14	of	of	ADP	IN	_	13	prep	_	IN|?|?
+15	mud	mud	NOUN	NN	_	14	pobj	_	NN|14956325-n|Soil=
+16	.	.	.	.	_	5	punct	_	Fp|?|?

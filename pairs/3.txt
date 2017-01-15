@@ -8,32 +8,32 @@ CONCEPTS B: HumanChild=,Entity+,DramaticActing+,Outdoors+,Hominid=,Smiling+
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	JJ|01646941-a|HumanYouth=
-3	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|10285313-n|Human+
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	5	aux	_	VBP|02604760-v|Entity+
-5	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-6	outdoors	outdoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	RB|00110659-r|Outdoors+
-7	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	NN|10287213-n|Man=
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	12	cop	_	VBZ|02604760-v|Entity+
-11	smiling	smile	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	VBG|00028565-v|Smiling=
-12	nearby	nearby	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	RB|00071321-r|Near=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	boys	boy	NOUN	NNS	_	5	nsubj	_	NNS|10285313-n|Human+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	outdoors	outdoors	ADV	RB	_	5	advmod	_	RB|00110659-r|Outdoors+
+7	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	man	man	NOUN	NN	_	11	nsubj	_	NN|10287213-n|Man=
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	smiling	smile	VERB	VBG	_	5	conj	_	VBG|00028565-v|Smiling=
+12	nearby	nearby	ADV	RB	_	11	advmod	_	RB|00071321-r|Near=
+13	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	kids	kid	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|09917593-n|HumanChild=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	outdoors	outdoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	RB|00110659-r|Outdoors+
-6	near	near	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02472293-n|Hominid=
-9	with	with	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	smile	smile	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|06878071-n|Smiling+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	kids	kid	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	outdoors	outdoors	ADV	RB	_	4	advmod	_	RB|00110659-r|Outdoors+
+6	near	near	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	man	man	NOUN	NN	_	6	pobj	_	NN|02472293-n|Hominid=
+9	with	with	ADP	IN	_	4	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	smile	smile	NOUN	NN	_	9	pobj	_	NN|06878071-n|Smiling+
+12	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -8,39 +8,39 @@ CONCEPTS B: SubjectiveStrongPositiveAttribute+,SubjectiveAssessmentAttribute=,Gr
 
 CONLL A:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|10287213-n|Man=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	funny	funny	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|01265308-a|SubjectiveStrongPositiveAttribute+
-7	skit	skit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|00551508-n|Pretending+
-8	with	with	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	boxer	boxer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|09870208-n|Boxer=
-11	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-12	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|08573472-n|FrontFn=
-13	of	of	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-15	crowd	crowd	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	NN|08182379-n|SubjectiveAssessmentAttribute=
-16	of	of	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
-17	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	15	nmod	_	NNS|07942152-n|GroupOfPeople=
-18	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|10287213-n|Man=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	funny	funny	ADJ	JJ	_	7	amod	_	JJ|01265308-a|SubjectiveStrongPositiveAttribute+
+7	skit	skit	NOUN	NN	_	4	dobj	_	NN|00551508-n|Pretending+
+8	with	with	ADP	IN	_	4	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	boxer	boxer	NOUN	NN	_	8	pobj	_	NN|09870208-n|Boxer=
+11	in	in	ADP	IN	_	10	prep	_	IN|?|?
+12	front	front	NOUN	NN	_	11	pobj	_	NN|08573472-n|FrontFn=
+13	of	of	ADP	IN	_	12	prep	_	IN|?|?
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	crowd	crowd	NOUN	NN	_	13	pobj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+16	of	of	ADP	IN	_	15	prep	_	IN|?|?
+17	people	people	NOUN	NNS	_	16	pobj	_	NNS|07942152-n|GroupOfPeople=
+18	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	funny	funny	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01265308-a|SubjectiveStrongPositiveAttribute+
-3	crowd	crowd	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
-4	of	of	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-5	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nmod	_	NNS|07942152-n|GroupOfPeople=
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	skit	skit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	NN|00551508-n|Pretending+
-10	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-11	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	13	nummod	_	Z|?|?
-12	boxing	box	VERB	VBG	Number=Sing|fPOS=NOUN++NN	13	amod	_	VBG|01419982-v|ViolentContest+
-13	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	nmod	_	NNS|02472293-n|Hominid=
-14	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	funny	funny	ADJ	JJ	_	3	amod	_	JJ|01265308-a|SubjectiveStrongPositiveAttribute+
+3	crowd	crowd	NOUN	NN	_	7	nsubj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+4	of	of	ADP	IN	_	3	prep	_	IN|?|?
+5	people	people	NOUN	NNS	_	4	pobj	_	NNS|07942152-n|GroupOfPeople=
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	skit	skit	NOUN	NN	_	7	dobj	_	NN|00551508-n|Pretending+
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	two	2	NUM	CD	_	13	num	_	Z|?|?
+12	boxing	box	NOUN	NN	_	13	nn	_	VBG|01419982-v|ViolentContest+
+13	men	man	NOUN	NNS	_	10	pobj	_	NNS|02472293-n|Hominid=
+14	.	.	.	.	_	7	punct	_	Fp|?|?

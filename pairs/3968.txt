@@ -8,25 +8,25 @@ CONCEPTS B: Entity+,Woman=,Separating+,FruitOrVegetable+,Garlic=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	slicing	slice	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01254477-v|Separating+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	big	big	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-7	pepper	pepper	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|07815588-n|SpicePepper=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	big	big	ADJ	JJ	_	7	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+7	pepper	pepper	NOUN	NN	_	4	dobj	_	NN|07815588-n|SpicePepper=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
-4	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|10787470-n|Woman=
-5	slicing	slice	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	VBG|01254477-v|Separating+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	clove	clove	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|07814487-n|FruitOrVegetable+
-8	of	of	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-9	garlic	garlic	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|07818277-n|Garlic=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	woman	woman	NOUN	NN	_	2	nsubj	_	NN|10787470-n|Woman=
+5	slicing	slice	VERB	VBG	_	4	partmod	_	VBG|01254477-v|Separating+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	clove	clove	NOUN	NN	_	5	dobj	_	NN|07814487-n|FruitOrVegetable+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	garlic	garlic	NOUN	NN	_	8	pobj	_	NN|07818277-n|Garlic=
+10	.	.	.	.	_	2	punct	_	Fp|?|?

@@ -8,32 +8,32 @@ CONCEPTS B: Hominid=,Entity+,IntentionalProcess+,TransportationDevice+,Recreatio
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	skateboard	skateboard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	NN|04225987-n|TransportationDevice+
-7	trick	trick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|00427580-n|RecreationOrExercise+
-8	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-9	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-10	outdoor	outdoor	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|01692222-a|located+
-11	park	park	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	12	compound	_	NN|08615374-n|Park+
-12	porch	porch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|03984381-n|Porch=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	skateboard	skateboard	NOUN	NN	_	7	nn	_	NN|04225987-n|TransportationDevice+
+7	trick	trick	NOUN	NN	_	4	dobj	_	NN|00427580-n|RecreationOrExercise+
+8	on	on	ADP	IN	_	4	prep	_	IN|?|?
+9	an	a	DET	DT	_	12	det	_	DT|?|?
+10	outdoor	outdoor	ADJ	JJ	_	12	amod	_	JJ|01692222-a|located+
+11	park	park	NOUN	NN	_	12	nn	_	NN|08615374-n|Park+
+12	porch	porch	NOUN	NN	_	8	pobj	_	NN|03984381-n|Porch=
+13	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	skateboard	skateboard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	NN|04225987-n|TransportationDevice+
-7	trick	trick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|00427580-n|RecreationOrExercise+
-8	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	park	park	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	NN|08615374-n|Park+
-11	porch	porch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03984381-n|Porch=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	skateboard	skateboard	NOUN	NN	_	7	nn	_	NN|04225987-n|TransportationDevice+
+7	trick	trick	NOUN	NN	_	4	dobj	_	NN|00427580-n|RecreationOrExercise+
+8	on	on	ADP	IN	_	4	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	park	park	NOUN	NN	_	11	nn	_	NN|08615374-n|Park+
+11	porch	porch	NOUN	NN	_	8	pobj	_	NN|03984381-n|Porch=
+12	.	.	.	.	_	4	punct	_	Fp|?|?

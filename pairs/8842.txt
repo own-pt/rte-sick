@@ -8,38 +8,38 @@ CONCEPTS B: Human+,White=,Canine+,Human+,Black=,Clothing+,Entity+,Running=,Subje
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-2	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	JJ|00245112-a|Human+
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	JJ|00393105-a|White=
-5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nsubj	_	NN|02084071-n|Canine+
-6	with	with	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-8	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	JJ|00245112-a|Human+
-9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	CC|?|?
-10	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	conj	_	JJ|00392812-a|Black=
-11	bandanna	bandanna	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02786198-n|Clothing+
-12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	14	aux	_	VBZ|02604760-v|Entity+
-13	quickly	quickly	ADV	RB	fPOS=ADV++RB	14	advmod	_	RB|00085811-r|SubjectiveAssessmentAttribute+
-14	running	run	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	VBG|01525666-v|Attribute+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	14	punct	_	Fp|?|?
+1	A	a	DET	DT	_	5	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	5	amod	_	JJ|00245112-a|Human+
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	white	white	ADJ	JJ	_	2	conj	_	JJ|00393105-a|White=
+5	dog	dog	NOUN	NN	_	14	nsubj	_	NN|02084071-n|Canine+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	11	det	_	DT|?|?
+8	brown	brown	ADJ	JJ	_	11	amod	_	JJ|00245112-a|Human+
+9	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+10	black	black	ADJ	JJ	_	8	conj	_	JJ|00392812-a|Black=
+11	bandanna	bandanna	NOUN	NN	_	6	pobj	_	NN|02786198-n|Clothing+
+12	is	be	VERB	VBZ	_	14	aux	_	VBZ|02604760-v|Entity+
+13	quickly	quickly	ADV	RB	_	14	advmod	_	RB|00085811-r|SubjectiveAssessmentAttribute+
+14	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+15	.	.	.	.	_	14	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-2	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	JJ|00245112-a|Human+
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	JJ|00393105-a|White=
-5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nsubj	_	NN|02084071-n|Canine+
-6	with	with	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-8	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	JJ|00245112-a|Human+
-9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	CC|?|?
-10	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	conj	_	JJ|00392812-a|Black=
-11	bandanna	bandanna	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02786198-n|Clothing+
-12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	VBZ|02604760-v|Entity+
-13	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01926311-v|Running=
-14	very	very	ADV	RB	fPOS=ADV++RB	15	advmod	_	RB|00031899-r|SubjectiveAssessmentAttribute+
-15	fast	fast	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	advmod	_	RB|00086000-r|SubjectiveAssessmentAttribute+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	13	punct	_	Fp|?|?
+1	A	a	DET	DT	_	5	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	5	amod	_	JJ|00245112-a|Human+
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	white	white	ADJ	JJ	_	2	conj	_	JJ|00393105-a|White=
+5	dog	dog	NOUN	NN	_	13	nsubj	_	NN|02084071-n|Canine+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	11	det	_	DT|?|?
+8	brown	brown	ADJ	JJ	_	11	amod	_	JJ|00245112-a|Human+
+9	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+10	black	black	ADJ	JJ	_	8	conj	_	JJ|00392812-a|Black=
+11	bandanna	bandanna	NOUN	NN	_	6	pobj	_	NN|02786198-n|Clothing+
+12	is	be	VERB	VBZ	_	13	aux	_	VBZ|02604760-v|Entity+
+13	running	run	VERB	VBG	_	0	ROOT	_	VBG|01926311-v|Running=
+14	very	very	ADV	RB	_	15	advmod	_	RB|00031899-r|SubjectiveAssessmentAttribute+
+15	fast	fast	ADJ	JJ	_	13	advmod	_	RB|00086000-r|SubjectiveAssessmentAttribute+
+16	.	.	.	.	_	13	punct	_	Fp|?|?

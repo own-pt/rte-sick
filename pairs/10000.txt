@@ -8,25 +8,25 @@ CONCEPTS B: Woman=,CuttingDevice+,Entity+,Separating+,SpicePepper=
 
 CONLL A:
 
-1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02084071-n|Canine+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	resting	rest	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00117985-v|PastFn=
-5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	sidewalk	sidewalk	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04215402-n|Sidewalk=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	resting	rest	VERB	VBG	_	0	ROOT	_	VBG|00117985-v|PastFn=
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	sidewalk	sidewalk	NOUN	NN	_	5	pobj	_	NN|04215402-n|Sidewalk=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10787470-n|Woman=
-3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	knife	knife	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03623556-n|CuttingDevice+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	slicing	slice	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01254477-v|Separating+
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	pepper	pepper	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	NN|07815588-n|SpicePepper=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	7	nsubj	_	NN|10787470-n|Woman=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	knife	knife	NOUN	NN	_	3	pobj	_	NN|03623556-n|CuttingDevice+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	pepper	pepper	NOUN	NN	_	7	dobj	_	NN|07815588-n|SpicePepper=
+10	.	.	.	.	_	7	punct	_	Fp|?|?

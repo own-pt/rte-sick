@@ -8,24 +8,24 @@ CONCEPTS B: HumanChild=,Entity+,CoveringFn=,Black=,Clothing+,Motion+
 
 CONLL A:
 
-1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	Z|?|?
-2	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|09917593-n|HumanChild=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	bouncing	bounce	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01892104-v|Motion+
-5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	colorful	colorful	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|00394562-a|ColorAttribute+
-7	balls	ball	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|02778669-n|Ball=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	bouncing	bounce	VERB	VBG	_	0	ROOT	_	VBG|01892104-v|Motion+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	colorful	colorful	ADJ	JJ	_	7	amod	_	JJ|00394562-a|ColorAttribute+
+7	balls	ball	NOUN	NNS	_	5	pobj	_	NNS|02778669-n|Ball=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|09917593-n|HumanChild=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00047745-v|CoveringFn=
-5	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|00392812-a|Black=
-6	tights	tights	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|04434932-n|Clothing+
-7	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-8	hopping	hop	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|02095211-v|Motion+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+5	black	black	ADJ	JJ	_	6	amod	_	JJ|00392812-a|Black=
+6	tights	tights	NOUN	NNS	_	4	dobj	_	NNS|04434932-n|Clothing+
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	hopping	hop	VERB	VBG	_	6	conj	_	VBG|02095211-v|Motion+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -8,26 +8,26 @@ CONCEPTS B: Human+,Entity+,Transportation+,Canine+,BodyPart+
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
-4	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|10200047-n|Human+
-5	pulling	pull	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	VBG|02057499-v|Transportation+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod:poss	_	NN|02084071-n|Canine+
-8	's	's	PART	POS	fPOS=PART++POS	7	case	_	POS|?|?
-9	tail	tail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|02157557-n|BodyPart+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	monkey	monkey	NOUN	NN	_	2	nsubj	_	NN|10200047-n|Human+
+5	pulling	pull	VERB	VBG	_	4	partmod	_	VBG|02057499-v|Transportation+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	dog	dog	NOUN	NN	_	9	poss	_	NN|02084071-n|Canine+
+8	's	's	PRT	POS	_	7	possessive	_	POS|?|?
+9	tail	tail	NOUN	NN	_	5	dobj	_	NN|02157557-n|BodyPart+
+10	.	.	.	.	_	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10200047-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	pulling	pull	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02057499-v|Transportation+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod:poss	_	NN|02084071-n|Canine+
-7	's	's	PART	POS	fPOS=PART++POS	6	case	_	POS|?|?
-8	tail	tail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|02157557-n|BodyPart+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	monkey	monkey	NOUN	NN	_	4	nsubj	_	NN|10200047-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	pulling	pull	VERB	VBG	_	0	ROOT	_	VBG|02057499-v|Transportation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	dog	dog	NOUN	NN	_	8	poss	_	NN|02084071-n|Canine+
+7	's	's	PRT	POS	_	6	possessive	_	POS|?|?
+8	tail	tail	NOUN	NN	_	4	dobj	_	NN|02157557-n|BodyPart+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

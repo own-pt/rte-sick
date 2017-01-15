@@ -8,28 +8,28 @@ CONCEPTS B: Tennis=,Human+,Entity+,BodyMotion+,Hand+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	tennis	tennis	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	compound	_	NN|00482298-n|Tennis=
-3	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|10439851-n|Human+
-4	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|00375969-a|Green=
-7	headband	headband	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|03502042-n|Clothing+
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
-9	missing	miss	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02632353-v|Process+
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|02778669-n|Ball=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	tennis	tennis	NOUN	NN	_	3	nn	_	NN|00482298-n|Tennis=
+3	player	player	NOUN	NN	_	9	nsubj	_	NN|10439851-n|Human+
+4	with	with	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	green	green	ADJ	JJ	_	7	amod	_	JJ|00375969-a|Green=
+7	headband	headband	NOUN	NN	_	4	pobj	_	NN|03502042-n|Clothing+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	missing	miss	VERB	VBG	_	0	ROOT	_	VBG|02632353-v|Process+
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	ball	ball	NOUN	NN	_	9	dobj	_	NN|02778669-n|Ball=
+12	.	.	.	.	_	9	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	tennis	tennis	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	compound	_	NN|00482298-n|Tennis=
-3	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10439851-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	lunging	lunge	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02062212-v|BodyMotion+
-6	to	to	ADP	IN	fPOS=ADP++IN	8	case	_	TO|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	left	left	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|05565548-n|Hand+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	tennis	tennis	NOUN	NN	_	3	nn	_	NN|00482298-n|Tennis=
+3	player	player	NOUN	NN	_	5	nsubj	_	NN|10439851-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	lunging	lunge	VERB	VBG	_	0	ROOT	_	VBG|02062212-v|BodyMotion+
+6	to	to	ADP	IN	_	5	prep	_	TO|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	left	left	NOUN	NN	_	6	pobj	_	NN|05565548-n|Hand+
+9	.	.	.	.	_	5	punct	_	Fp|?|?

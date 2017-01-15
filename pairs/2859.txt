@@ -8,21 +8,21 @@ CONCEPTS B: Whip+,Entity+,PhysicalAttribute+,Meeting=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	cats	cat	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02985606-n|Whip+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	each	each	DET	DT	fPOS=DET++DT	7	det	_	DT|?|?
-7	other	other	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	4	nmod	_	JJ|02069355-a|equal+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	cats	cat	NOUN	NNS	_	4	nsubj	_	NNS|02985606-n|Whip+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	each	each	DET	DT	_	7	det	_	DT|?|?
+7	other	other	ADJ	JJ	_	5	pobj	_	JJ|02069355-a|equal+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NOUN	NN	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	cats	cat	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02985606-n|Whip+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
-5	together	together	ADV	RB	fPOS=ADV++RB	4	advmod	_	RB|00507927-r|Meeting=
-6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	cats	cat	NOUN	NNS	_	4	nsubj	_	NNS|02985606-n|Whip+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+5	together	together	ADV	RB	_	4	advmod	_	RB|00507927-r|Meeting=
+6	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -8,36 +8,36 @@ CONCEPTS B: Entity+,White=,Canine+,RecreationOrExercise+,TimeInterval+,HoofedMam
 
 CONLL A:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|09917593-n|HumanChild=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	soccer	soccer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|00478262-n|Soccer=
-6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|08615374-n|Park+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	soccer	soccer	NOUN	NN	_	4	dobj	_	NN|00478262-n|Soccer=
+6	in	in	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	park	park	NOUN	NN	_	6	pobj	_	NN|08615374-n|Park+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	DT|?|?
-4	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	JJ|00393105-a|White=
-5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|02084071-n|Canine+
-6	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	acl	_	VBG|00075021-v|RecreationOrExercise+
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-8	Christmas	christmas	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	compound	_	NN|15196537-n|TimeInterval+
-9	reindeer	reindeer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	NN|02433925-n|HoofedMammal+
-10	headband	headband	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|03502042-n|Clothing+
-11	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
-12	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	conj	_	VBG|01719302-v|DramaticActing+
-13	with	with	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-15	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	compound	_	JJ|00245112-a|Human+
-16	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	NN|02084071-n|Canine+
-17	in	in	ADP	IN	fPOS=ADP++IN	19	case	_	IN|?|?
-18	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	DT|?|?
-19	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	NN|12102133-n|Grass=
-20	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	white	white	ADJ	JJ	_	5	amod	_	JJ|00393105-a|White=
+5	dog	dog	NOUN	NN	_	2	nsubj	_	NN|02084071-n|Canine+
+6	wearing	wear	VERB	VBG	_	5	dep	_	VBG|00075021-v|RecreationOrExercise+
+7	a	a	DET	DT	_	10	det	_	DT|?|?
+8	Christmas	christmas	NOUN	NNP	_	10	nn	_	NN|15196537-n|TimeInterval+
+9	reindeer	reindeer	NOUN	NN	_	10	nn	_	NN|02433925-n|HoofedMammal+
+10	headband	headband	NOUN	NN	_	6	dobj	_	NN|03502042-n|Clothing+
+11	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+12	playing	play	VERB	VBG	_	6	conj	_	VBG|01719302-v|DramaticActing+
+13	with	with	ADP	IN	_	12	prep	_	IN|?|?
+14	a	a	DET	DT	_	16	det	_	DT|?|?
+15	brown	brown	ADJ	JJ	_	16	amod	_	JJ|00245112-a|Human+
+16	dog	dog	NOUN	NN	_	13	pobj	_	NN|02084071-n|Canine+
+17	in	in	ADP	IN	_	12	prep	_	IN|?|?
+18	the	the	DET	DT	_	19	det	_	DT|?|?
+19	grass	grass	NOUN	NN	_	17	pobj	_	NN|12102133-n|Grass=
+20	.	.	.	.	_	2	punct	_	Fp|?|?

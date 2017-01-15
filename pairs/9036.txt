@@ -8,28 +8,28 @@ CONCEPTS B: Canine+,Entity+,DramaticActing+,TextureAttribute+,ShoreArea=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00393105-a|White=
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	approaching	approach	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02053941-v|Arriving=
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	golden	golden	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|00670938-a|SubjectiveWeakPositiveAttribute+
-8	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|02084071-n|Canine+
-9	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	pebbly	pebbly	ADV	RB	fPOS=ADV++RB	11	advmod	_	JJ|02242223-a|LandArea+
-11	beach	beach	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|09217230-n|ShoreArea=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	approaching	approach	VERB	VBG	_	0	ROOT	_	VBG|02053941-v|Arriving=
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	golden	golden	ADJ	JJ	_	8	amod	_	JJ|00670938-a|SubjectiveWeakPositiveAttribute+
+8	dog	dog	NOUN	NN	_	5	dobj	_	NN|02084071-n|Canine+
+9	on	on	ADP	IN	_	8	prep	_	IN|?|?
+10	pebbly	pebbly	ADV	RB	_	11	amod	_	JJ|02242223-a|LandArea+
+11	beach	beach	NOUN	NN	_	9	pobj	_	NN|09217230-n|ShoreArea=
+12	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	Z|?|?
-2	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02084071-n|Canine+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	rocky	rocky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	JJ|02243567-a|TextureAttribute+
-8	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|09217230-n|ShoreArea=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	rocky	rocky	ADJ	JJ	_	8	amod	_	JJ|02243567-a|TextureAttribute+
+8	beach	beach	NOUN	NN	_	5	pobj	_	NN|09217230-n|ShoreArea=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

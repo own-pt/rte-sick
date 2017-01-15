@@ -8,29 +8,29 @@ CONCEPTS B: Horse=,Position+,Entity+,Ambulating=,Barrier=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|02374451-n|Horse=
-3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	no	no	DET	DT	fPOS=DET++DT	5	neg	_	DT|?|?
-5	rider	rider	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|10529965-n|Position+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	falling	fall	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02229828-v|Getting+
-8	over	over	ADP	IN	fPOS=ADP++IN	10	case	_	RP|00226550-r|SubjectiveAssessmentAttribute+
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	hurdle	hurdle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|00120515-n|Motion+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	horse	horse	NOUN	NN	_	7	nsubj	_	NN|02374451-n|Horse=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	no	no	DET	DT	_	5	det	_	DT|?|?
+5	rider	rider	NOUN	NN	_	3	pobj	_	NN|10529965-n|Position+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	falling	fall	VERB	VBG	_	0	ROOT	_	VBG|02229828-v|Getting+
+8	over	over	ADP	IN	_	7	prep	_	RP|00226550-r|SubjectiveAssessmentAttribute+
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	hurdle	hurdle	NOUN	NN	_	8	pobj	_	NN|00120515-n|Motion+
+11	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|02374451-n|Horse=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	5	nmod:poss	_	PRP$|?|?
-5	rider	rider	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	NN|10529965-n|Position+
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	VBP|02604760-v|Entity+
-7	leaping	leap	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-8	over	over	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	barrier	barrier	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|02796623-n|Barrier=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	horse	horse	NOUN	NN	_	7	nsubj	_	NN|02374451-n|Horse=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	its	its	PRON	PRP$	_	5	poss	_	PRP$|?|?
+5	rider	rider	NOUN	NN	_	2	conj	_	NN|10529965-n|Position+
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	leaping	leap	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+8	over	over	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	barrier	barrier	NOUN	NN	_	8	pobj	_	NN|02796623-n|Barrier=
+11	.	.	.	.	_	7	punct	_	Fp|?|?

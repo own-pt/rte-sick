@@ -8,42 +8,42 @@ CONCEPTS B: Hominid=,PhysicalAttribute+,SittingDown+,Bicycle=,PhysicalAttribute+
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02655135-v|PhysicalAttribute+
-3	no	no	DET	DT	fPOS=DET++DT	6	neg	_	DT|?|?
-4	man	man	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	NN|10287213-n|Man=
-5	wearing	wear	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	amod	_	VBG|00047745-v|CoveringFn=
-6	clothes	clothes	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nsubj	_	NNS|02728440-n|Clothing+
-7	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	9	nsubjpass	_	WDT|?|?
-8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	9	auxpass	_	VBP|02655135-v|PhysicalAttribute+
-9	covered	cover	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	6	acl:relcl	_	VBN|01332730-v|Covering+
-10	with	with	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-11	paint	paint	NUM	CD	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|03875218-n|Paint+
-12	or	or	CONJ	CC	fPOS=CONJ++CC	9	cc	_	CC|?|?
-13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	14	aux	_	VBZ|02655135-v|PhysicalAttribute+
-14	sitting	sit	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	9	conj	_	VBG|01543123-v|SittingDown+
-15	outside	outside	ADV	RB	fPOS=ADV++RB	14	advmod	_	IN|?|?
-16	in	in	ADP	IN	fPOS=ADP++IN	19	case	_	IN|?|?
-17	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	19	det	_	DT|?|?
-18	busy	busy	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	19	amod	_	JJ|00292937-a|SubjectiveWeakNegativeAttribute+
-19	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	NN|08497294-n|GeographicArea+
-20	writing	write	VERB	VBG	Number=Sing|fPOS=NOUN++NN	14	advcl	_	VBG|00993014-v|WrittenCommunication=
-21	something	something	NOUN	NN	Number=Sing|fPOS=NOUN++NN	20	dobj	_	PRP|?|?
-22	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02655135-v|PhysicalAttribute+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|10287213-n|Man=
+5	wearing	wear	VERB	VBG	_	4	partmod	_	VBG|00047745-v|CoveringFn=
+6	clothes	clothes	NOUN	NNS	_	5	dobj	_	NNS|02728440-n|Clothing+
+7	that	that	DET	WDT	_	9	nsubjpass	_	WDT|?|?
+8	are	be	VERB	VBP	_	9	auxpass	_	VBP|02655135-v|PhysicalAttribute+
+9	covered	cover	VERB	VBN	_	4	rcmod	_	VBN|01332730-v|Covering+
+10	with	with	ADP	IN	_	9	prep	_	IN|?|?
+11	paint	paint	NOUN	NN	_	10	pobj	_	NN|03875218-n|Paint+
+12	or	or	CONJ	CC	_	9	cc	_	CC|?|?
+13	is	be	VERB	VBZ	_	14	aux	_	VBZ|02655135-v|PhysicalAttribute+
+14	sitting	sit	VERB	VBG	_	9	conj	_	VBG|01543123-v|SittingDown+
+15	outside	outside	ADV	RB	_	14	advmod	_	IN|?|?
+16	in	in	ADP	IN	_	14	prep	_	IN|?|?
+17	a	a	DET	DT	_	19	det	_	DT|?|?
+18	busy	busy	ADJ	JJ	_	19	amod	_	JJ|00292937-a|SubjectiveWeakNegativeAttribute+
+19	area	area	NOUN	NN	_	16	pobj	_	NN|08497294-n|GeographicArea+
+20	writing	write	VERB	VBG	_	19	partmod	_	VBG|00993014-v|WrittenCommunication=
+21	something	something	NOUN	NN	_	20	dobj	_	PRP|?|?
+22	.	.	.	.	_	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-5	near	near	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02834778-n|Bicycle=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02655135-v|PhysicalAttribute+
-10	writing	write	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|00993014-v|WrittenCommunication=
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	note	note	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	NN|06504462-n|FactualText=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	near	near	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	bike	bike	NOUN	NN	_	5	pobj	_	NN|02834778-n|Bicycle=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02655135-v|PhysicalAttribute+
+10	writing	write	VERB	VBG	_	4	conj	_	VBG|00993014-v|WrittenCommunication=
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	note	note	NOUN	NN	_	10	dobj	_	NN|06504462-n|FactualText=
+13	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -8,26 +8,26 @@ CONCEPTS B: Flute=,Entity+,Entity+,Putting=,Human+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	flute	flute	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	NN|03372029-n|Flute=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	VBG|02604760-v|Entity+
-5	played	play	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|01719302-v|DramaticActing+
-6	by	by	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|10129825-n|Human+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	flute	flute	NOUN	NN	_	5	nsubjpass	_	NN|03372029-n|Flute=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	played	play	VERB	VBN	_	0	ROOT	_	VBN|01719302-v|DramaticActing+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	girl	girl	NOUN	NN	_	6	pobj	_	NN|10129825-n|Human+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	flute	flute	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	NN|03372029-n|Flute=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	VBG|02604760-v|Entity+
-5	put	put	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|01494310-v|Putting=
-6	away	away	ADV	RB	fPOS=ADV++RB	5	advmod	_	RP|00234951-r|?
-7	by	by	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|10129825-n|Human+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	flute	flute	NOUN	NN	_	5	nsubjpass	_	NN|03372029-n|Flute=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	put	put	VERB	VBN	_	0	ROOT	_	VBN|01494310-v|Putting=
+6	away	away	PRT	RP	_	5	prt	_	RP|00234951-r|?
+7	by	by	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	girl	girl	NOUN	NN	_	7	pobj	_	NN|10129825-n|Human+
+10	.	.	.	.	_	5	punct	_	Fp|?|?

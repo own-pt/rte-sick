@@ -8,34 +8,34 @@ CONCEPTS B: MilitaryUnit+,Entity+,Process+,DirectionChange+,Camera=
 
 CONLL A:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	14	nsubj	_	NNS|10287213-n|Man=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	NN|10129825-n|Human+
-6	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-7	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|08573472-n|FrontFn=
-8	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-10	wood	wood	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	NN|15098161-n|Wood=
-11	panel	panel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	NN|03882058-n|EngineeringComponent+
-12	wall	wall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|04546855-n|Wall=
-13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	14	aux	_	VBP|02604760-v|Entity+
-14	posing	pose	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01494310-v|Putting=
-15	with	with	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
-16	funny	funny	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	JJ|01265308-a|SubjectiveStrongPositiveAttribute+
-17	faces	face	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	14	nmod	_	NNS|05600637-n|Face+
-18	.	.	PUNCT	.	fPOS=PUNCT++.	14	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	14	nsubj	_	NNS|10287213-n|Man=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	girl	girl	NOUN	NN	_	2	conj	_	NN|10129825-n|Human+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	front	front	NOUN	NN	_	6	pobj	_	NN|08573472-n|FrontFn=
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	12	det	_	DT|?|?
+10	wood	wood	NOUN	NN	_	11	nn	_	NN|15098161-n|Wood=
+11	panel	panel	NOUN	NN	_	12	nn	_	NN|03882058-n|EngineeringComponent+
+12	wall	wall	NOUN	NN	_	8	pobj	_	NN|04546855-n|Wall=
+13	are	be	VERB	VBP	_	14	aux	_	VBP|02604760-v|Entity+
+14	posing	pose	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+15	with	with	ADP	IN	_	14	prep	_	IN|?|?
+16	funny	funny	ADJ	JJ	_	17	amod	_	JJ|01265308-a|SubjectiveStrongPositiveAttribute+
+17	faces	face	NOUN	NNS	_	15	pobj	_	NNS|05600637-n|Face+
+18	.	.	.	.	_	14	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	enemies	enemy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|08190482-n|MilitaryUnit+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	making	make	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01617192-v|Process+
-5	faces	face	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	VBZ|01908365-v|DirectionChange+
-6	for	for	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02942699-n|Camera=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	enemies	enemy	NOUN	NNS	_	4	nsubj	_	NNS|08190482-n|MilitaryUnit+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	making	make	VERB	VBG	_	0	ROOT	_	VBG|01617192-v|Process+
+5	faces	face	NOUN	NNS	_	4	dobj	_	VBZ|01908365-v|DirectionChange+
+6	for	for	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	camera	camera	NOUN	NN	_	6	pobj	_	NN|02942699-n|Camera=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

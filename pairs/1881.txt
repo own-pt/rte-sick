@@ -8,25 +8,25 @@ CONCEPTS B: Feline+,Entity+,Process+
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	food	food	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubjpass	_	NN|05811214-n|SubjectiveAssessmentAttribute+
-3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	trays	tray	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|04476259-n|Tray=
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-7	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	8	auxpass	_	VBG|02604760-v|Entity+
-8	eaten	eat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|01168468-v|Eating=
-9	by	by	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	kittens	kitten	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	NNS|02122948-n|Feline+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	food	food	NOUN	NN	_	8	nsubjpass	_	NN|05811214-n|SubjectiveAssessmentAttribute+
+3	on	on	ADP	IN	_	2	prep	_	IN|?|?
+4	the	the	DET	DT	_	5	det	_	DT|?|?
+5	trays	tray	NOUN	NNS	_	3	pobj	_	NNS|04476259-n|Tray=
+6	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+7	being	be	VERB	VBG	_	8	auxpass	_	VBG|02604760-v|Entity+
+8	eaten	eat	VERB	VBN	_	0	ROOT	_	VBN|01168468-v|Eating=
+9	by	by	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	kittens	kitten	NOUN	NNS	_	9	pobj	_	NNS|02122948-n|Feline+
+12	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	few	few	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	DT|?|?
-3	kittens	kitten	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|02122948-n|Feline+
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02604760-v|Entity+
-5	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01157517-v|Process+
-6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	few	few	ADJ	JJ	_	3	amod	_	DT|?|?
+3	kittens	kitten	NOUN	NNS	_	5	nsubj	_	NNS|02122948-n|Feline+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+6	.	.	.	.	_	5	punct	_	Fp|?|?

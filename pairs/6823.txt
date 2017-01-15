@@ -8,29 +8,29 @@ CONCEPTS B: SubjectiveWeakPositiveAttribute+,StreamWaterArea=,Attribute+,Contain
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-3	duck	duck	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|01846331-n|Duck=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	flying	fly	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01941093-v|FlyingAircraft=
-6	over	over	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	rocky	rocky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	amod	_	JJ|02243567-a|TextureAttribute+
-9	stream	stream	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|09448361-n|StreamWaterArea=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	duck	duck	NOUN	NN	_	5	nsubj	_	NN|01846331-n|Duck=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	flying	fly	VERB	VBG	_	0	ROOT	_	VBG|01941093-v|FlyingAircraft=
+6	over	over	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	rocky	rocky	ADJ	JJ	_	9	amod	_	JJ|02243567-a|TextureAttribute+
+9	stream	stream	NOUN	NN	_	6	pobj	_	NN|09448361-n|StreamWaterArea=
+10	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-3	stream	stream	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|09448361-n|StreamWaterArea=
-4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	VBZ|02620587-v|Attribute+
-5	full	full	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	JJ|01083157-a|ContainerFull+
-6	of	of	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-7	rocks	rock	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	NNS|14696793-n|Mineral+
-8	,	,	PUNCT	,	fPOS=PUNCT++,	7	punct	_	Fc|?|?
-9	ducks	duck	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	conj	_	NNS|01846331-n|Duck=
-10	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
-11	flies	fly	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	conj	_	VBZ|01941093-v|FlyingAircraft=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	stream	stream	NOUN	NN	_	5	nsubj	_	NN|09448361-n|StreamWaterArea=
+4	is	be	VERB	VBZ	_	5	cop	_	VBZ|02620587-v|Attribute+
+5	full	full	ADJ	JJ	_	0	ROOT	_	JJ|01083157-a|ContainerFull+
+6	of	of	ADP	IN	_	5	prep	_	IN|?|?
+7	rocks	rock	NOUN	NNS	_	6	pobj	_	NNS|14696793-n|Mineral+
+8	,	,	.	,	_	7	punct	_	Fc|?|?
+9	ducks	duck	NOUN	NNS	_	7	conj	_	NNS|01846331-n|Duck=
+10	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+11	flies	fly	NOUN	NNS	_	7	conj	_	VBZ|01941093-v|FlyingAircraft=
+12	.	.	.	.	_	5	punct	_	Fp|?|?

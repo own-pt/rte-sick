@@ -8,19 +8,19 @@ CONCEPTS B: FemaleCow=,Entity+,Process+,Hay=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	cow	cow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02403454-n|FemaleCow=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	VBZ|02604760-v|Entity+
-4	eating	eat	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	VBG|01157517-v|Process+
-5	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|12102133-n|Grass=
-6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cow	cow	NOUN	NN	_	4	nsubj	_	NN|02403454-n|FemaleCow=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+5	grass	grass	NOUN	NN	_	4	dobj	_	NN|12102133-n|Grass=
+6	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	cow	cow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02403454-n|FemaleCow=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	VBZ|02604760-v|Entity+
-4	eating	eat	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	VBG|01157517-v|Process+
-5	hay	hay	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|07802026-n|Hay=
-6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cow	cow	NOUN	NN	_	4	nsubj	_	NN|02403454-n|FemaleCow=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+5	hay	hay	NOUN	NN	_	4	dobj	_	NN|07802026-n|Hay=
+6	.	.	.	.	_	4	punct	_	Fp|?|?

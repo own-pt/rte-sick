@@ -8,36 +8,36 @@ CONCEPTS B: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,DramaticActin
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	father	father	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10107303-n|SocialRole+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	pulling	pull	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02057499-v|Transportation+
-5	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	6	nmod:poss	_	PRP$|?|?
-6	daughter	daughter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|09992837-n|BiologicalAttribute+
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	go-kart	go-kart	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03444034-n|PoweredVehicle+
-10	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-11	another	another	DET	DT	fPOS=DET++DT	12	det	_	DT|?|?
-12	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nsubj	_	NN|09992837-n|BiologicalAttribute+
-13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	14	aux	_	VBZ|02604760-v|Entity+
-14	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
-15	away	away	ADV	RB	fPOS=ADV++RB	14	advmod	_	RP|00234951-r|?
-16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	father	father	NOUN	NN	_	4	nsubj	_	NN|10107303-n|SocialRole+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	pulling	pull	VERB	VBG	_	0	ROOT	_	VBG|02057499-v|Transportation+
+5	his	his	PRON	PRP$	_	6	poss	_	PRP$|?|?
+6	daughter	daughter	NOUN	NN	_	4	dobj	_	NN|09992837-n|BiologicalAttribute+
+7	on	on	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	go-kart	go-kart	NOUN	NN	_	7	pobj	_	NN|03444034-n|PoweredVehicle+
+10	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+11	another	another	DET	DT	_	12	det	_	DT|?|?
+12	girl	girl	NOUN	NN	_	14	nsubj	_	NN|09992837-n|BiologicalAttribute+
+13	is	be	VERB	VBZ	_	14	aux	_	VBZ|02604760-v|Entity+
+14	looking	look	VERB	VBG	_	4	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+15	away	away	ADV	RB	_	14	advmod	_	RP|00234951-r|?
+16	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	Z|?|?
-2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|09917593-n|HumanChild=
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02604760-v|Entity+
-5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-6	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	NN|03964744-n|RecreationOrExerciseDevice+
-9	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02958343-n|Automobile=
-10	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|04334599-n|Roadway=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	small	small	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	children	child	NOUN	NNS	_	5	nsubj	_	NNS|09917593-n|HumanChild=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	toy	toy	NOUN	NN	_	9	nn	_	NN|03964744-n|RecreationOrExerciseDevice+
+9	car	car	NOUN	NN	_	6	pobj	_	NN|02958343-n|Automobile=
+10	in	in	ADP	IN	_	5	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	street	street	NOUN	NN	_	10	pobj	_	NN|04334599-n|Roadway=
+13	.	.	.	.	_	5	punct	_	Fp|?|?

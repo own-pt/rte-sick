@@ -8,29 +8,29 @@ CONCEPTS B: Soccer=,Human+,Entity+,Game+,GameGoal=
 
 CONLL A:
 
-1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	DT|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	4	nsubj	_	WP|?|?
-4	play	play	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	2	acl:relcl	_	VBP|01719302-v|DramaticActing+
-5	soccer	soccer	NOUN	NN	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NN|00478262-n|Soccer=
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	VBP|02604760-v|Entity+
-7	kicking	kick	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01112979-v|Impelling+
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-9	soccer	soccer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	NN|00478262-n|Soccer=
-10	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	NN|02778669-n|Ball=
-11	into	into	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	goal	goal	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|03442756-n|GameGoal=
-14	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	people	people	NOUN	NNS	_	7	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	who	who	PRON	WP	_	4	nsubj	_	WP|?|?
+4	play	play	VERB	VBP	_	2	rcmod	_	VBP|01719302-v|DramaticActing+
+5	soccer	soccer	NOUN	NN	_	4	dobj	_	NN|00478262-n|Soccer=
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	kicking	kick	VERB	VBG	_	0	ROOT	_	VBG|01112979-v|Impelling+
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	soccer	soccer	NOUN	NN	_	10	nn	_	NN|00478262-n|Soccer=
+10	ball	ball	NOUN	NN	_	7	dobj	_	NN|02778669-n|Ball=
+11	into	into	ADP	IN	_	7	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	goal	goal	NOUN	NN	_	11	pobj	_	NN|03442756-n|GameGoal=
+14	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	soccer	soccer	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	NN|00478262-n|Soccer=
-3	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10439851-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	scoring	score	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01111816-v|Game+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	goal	goal	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|03442756-n|GameGoal=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	soccer	soccer	NOUN	NN	_	3	nn	_	NN|00478262-n|Soccer=
+3	player	player	NOUN	NN	_	5	nsubj	_	NN|10439851-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	scoring	score	VERB	VBG	_	0	ROOT	_	VBG|01111816-v|Game+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	goal	goal	NOUN	NN	_	5	dobj	_	NN|03442756-n|GameGoal=
+8	.	.	.	.	_	5	punct	_	Fp|?|?

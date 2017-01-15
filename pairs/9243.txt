@@ -8,41 +8,41 @@ CONCEPTS B: Woman=,SubjectiveStrongNegativeAttribute+,Entity+,Putting=,Icon+,Pos
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-5	at	at	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	wheel	wheel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04574999-n|VehicleWheel=
-8	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-10	classic	classic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|00413622-a|ArtWork+
-11	American	american	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|02927303-a|LandArea@
-12	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|02958343-n|Automobile=
-13	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	14	nsubj	_	WDT|?|?
-14	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	12	acl:relcl	_	VBZ|00065639-v|Damaging+
-15	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	16	nmod:poss	_	PRP$|?|?
-16	door	door	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	NN|03224032-n|Door+
-17	and	and	CONJ	CC	fPOS=CONJ++CC	16	cc	_	CC|?|?
-18	trunk	trunk	VERB	VB	Number=Sing|fPOS=PROPN++NNP	16	conj	_	NN|05549830-n|Torso+
-19	open	open	ADJ	JJ	Number=Sing|fPOS=PROPN++NNP	14	xcomp	_	JJ|01652902-a|SubjectiveWeakPositiveAttribute+
-20	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	wheel	wheel	NOUN	NN	_	5	pobj	_	NN|04574999-n|VehicleWheel=
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	12	det	_	DT|?|?
+10	classic	classic	ADJ	JJ	_	12	amod	_	JJ|00413622-a|ArtWork+
+11	American	american	ADJ	JJ	_	12	amod	_	JJ|02927303-a|LandArea@
+12	car	car	NOUN	NN	_	8	pobj	_	NN|02958343-n|Automobile=
+13	that	that	DET	WDT	_	14	nsubj	_	WDT|?|?
+14	has	have	VERB	VBZ	_	12	rcmod	_	VBZ|00065639-v|Damaging+
+15	its	its	PRON	PRP$	_	16	poss	_	PRP$|?|?
+16	door	door	NOUN	NN	_	14	dobj	_	NN|03224032-n|Door+
+17	and	and	CONJ	CC	_	16	cc	_	CC|?|?
+18	trunk	trunk	NOUN	NN	_	16	conj	_	NN|05549830-n|Torso+
+19	open	open	ADV	RB	_	14	advmod	_	JJ|01652902-a|SubjectiveWeakPositiveAttribute+
+20	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|10787470-n|Woman=
-3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	blue	blue	NOUN	NN	Number=Sing|fPOS=PROPN++NNP	2	nmod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	posing	pose	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01494310-v|Putting=
-7	for	for	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	picture	picture	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|03931044-n|Icon+
-10	next	next	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	JJ|01294975-a|Position+
-11	to	to	ADP	IN	fPOS=ADP++IN	13	case	_	TO|?|?
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|02958343-n|Automobile=
-14	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	6	nsubj	_	NN|10787470-n|Woman=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	blue	blue	NOUN	NN	_	3	pobj	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	posing	pose	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+7	for	for	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	picture	picture	NOUN	NN	_	7	pobj	_	NN|03931044-n|Icon+
+10	next	next	ADV	RB	_	9	advmod	_	JJ|01294975-a|Position+
+11	to	to	ADP	IN	_	10	prep	_	TO|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	car	car	NOUN	NN	_	11	pobj	_	NN|02958343-n|Automobile=
+14	.	.	.	.	_	6	punct	_	Fp|?|?

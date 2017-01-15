@@ -8,43 +8,43 @@ CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,SubjectiveAssessmentAttribute+,E
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-5	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-7	rocky	rocky	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|02243567-a|TextureAttribute+
-8	mountain	mountain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	NN|13774404-n|SubjectiveAssessmentAttribute+
-9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	CC|?|?
-10	gray	gray	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	conj	_	JJ|00389310-a|Gray+
-11	clouds	cloud	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|09247410-n|Cloud=
-12	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	15	cop	_	VBP|02604760-v|Entity+
-13	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-15	background	background	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|14513259-n|Region+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	rocky	rocky	ADJ	JJ	_	8	amod	_	JJ|02243567-a|TextureAttribute+
+8	mountain	mountain	NOUN	NN	_	5	pobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+9	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+10	gray	gray	ADJ	JJ	_	11	amod	_	JJ|00389310-a|Gray+
+11	clouds	cloud	NOUN	NNS	_	12	nsubj	_	NNS|09247410-n|Cloud=
+12	are	be	VERB	VBP	_	4	conj	_	VBP|02604760-v|Entity+
+13	in	in	ADP	IN	_	12	prep	_	IN|?|?
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	background	background	NOUN	NN	_	13	pobj	_	NN|14513259-n|Region+
+16	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	mountain	mountain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|13774404-n|SubjectiveAssessmentAttribute+
-8	,	,	PUNCT	,	fPOS=PUNCT++,	7	punct	_	Fc|?|?
-9	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	11	nsubj	_	WDT|?|?
-10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	11	cop	_	VBZ|02604760-v|Entity+
-11	rocky	rocky	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	acl:relcl	_	JJ|02243567-a|TextureAttribute+
-12	,	,	PUNCT	,	fPOS=PUNCT++,	11	punct	_	Fc|?|?
-13	and	and	CONJ	CC	fPOS=CONJ++CC	11	cc	_	CC|?|?
-14	gray	gray	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	compound	_	JJ|00389310-a|Gray+
-15	clouds	cloud	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	19	nsubj	_	NNS|09247410-n|Cloud=
-16	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	19	cop	_	VBP|02604760-v|Entity+
-17	in	in	ADP	IN	fPOS=ADP++IN	19	case	_	IN|?|?
-18	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	DT|?|?
-19	background	background	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	conj	_	NN|14513259-n|Region+
-20	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	mountain	mountain	NOUN	NN	_	5	pobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+8	,	,	.	,	_	7	punct	_	Fc|?|?
+9	which	which	DET	WDT	_	11	nsubj	_	WDT|?|?
+10	is	be	VERB	VBZ	_	11	cop	_	VBZ|02604760-v|Entity+
+11	rocky	rocky	ADJ	JJ	_	7	rcmod	_	JJ|02243567-a|TextureAttribute+
+12	,	,	.	,	_	11	punct	_	Fc|?|?
+13	and	and	CONJ	CC	_	11	cc	_	CC|?|?
+14	gray	gray	ADJ	JJ	_	15	amod	_	JJ|00389310-a|Gray+
+15	clouds	cloud	NOUN	NNS	_	16	nsubj	_	NNS|09247410-n|Cloud=
+16	are	be	VERB	VBP	_	11	conj	_	VBP|02604760-v|Entity+
+17	in	in	ADP	IN	_	16	prep	_	IN|?|?
+18	the	the	DET	DT	_	19	det	_	DT|?|?
+19	background	background	NOUN	NN	_	17	pobj	_	NN|14513259-n|Region+
+20	.	.	.	.	_	4	punct	_	Fp|?|?

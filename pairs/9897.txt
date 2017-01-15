@@ -8,40 +8,40 @@ CONCEPTS B: Hominid=,Entity+,FinancialTransaction+,Getting+,Horse=,Transitway+,P
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	NN|10287213-n|Man=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	5	nummod	_	Z|?|?
-5	women	woman	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	conj	_	NNS|10787470-n|Woman=
-6	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	darkened	darken	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	9	amod	_	VBN|00311559-v|SurfaceChange+
-9	room	room	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|04105893-n|Room=
-10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	11	aux	_	VBP|02655135-v|PhysicalAttribute+
-11	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-12	at	at	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-14	table	table	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	11	nmod	_	NN|08266235-n|ContentBearingObject+
-15	with	with	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-16	candles	candle	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	11	nmod	_	NNS|02948072-n|Candle=
-17	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	11	nsubj	_	NN|10287213-n|Man=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	two	2	NUM	CD	_	5	num	_	Z|?|?
+5	women	woman	NOUN	NNS	_	2	conj	_	NNS|10787470-n|Woman=
+6	in	in	ADP	IN	_	2	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	darkened	darken	ADJ	JJ	_	9	amod	_	VBN|00311559-v|SurfaceChange+
+9	room	room	NOUN	NN	_	6	pobj	_	NN|04105893-n|Room=
+10	are	be	VERB	VBP	_	11	aux	_	VBP|02655135-v|PhysicalAttribute+
+11	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+12	at	at	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	table	table	NOUN	NN	_	12	pobj	_	NN|08266235-n|ContentBearingObject+
+15	with	with	ADP	IN	_	14	prep	_	IN|?|?
+16	candles	candle	NOUN	NNS	_	15	pobj	_	NNS|02948072-n|Candle=
+17	.	.	.	.	_	11	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	VBZ|02604760-v|Entity+
-4	abruptly	abruptly	ADV	RB	fPOS=ADV++RB	5	advmod	_	RB|00061528-r|FinancialTransaction+
-5	falling	fall	ADJ	JJ	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02229828-v|Getting+
-6	off	off	ADP	IN	fPOS=ADP++RP	8	case	_	RP|00232936-r|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02374451-n|Horse=
-9	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-11	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	NN|09387222-n|Transitway+
-12	laid	lay	VERB	VBD	Number=Sing|fPOS=NOUN++NN	5	nmod	_	VBN|01494310-v|Putting=
-13	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-15	wild	wild	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	JJ|02389220-a|Organism+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	abruptly	abruptly	ADV	RB	_	5	advmod	_	RB|00061528-r|FinancialTransaction+
+5	falling	fall	VERB	VBG	_	0	ROOT	_	VBG|02229828-v|Getting+
+6	off	off	ADP	IN	_	5	prep	_	RP|00232936-r|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	horse	horse	NOUN	NN	_	6	pobj	_	NN|02374451-n|Horse=
+9	on	on	ADP	IN	_	5	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	track	track	NOUN	NN	_	9	pobj	_	NN|09387222-n|Transitway+
+12	laid	lay	VERB	VBN	_	11	partmod	_	VBN|01494310-v|Putting=
+13	in	in	ADP	IN	_	12	prep	_	IN|?|?
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	wild	wild	NOUN	NN	_	13	pobj	_	JJ|02389220-a|Organism+
+16	.	.	.	.	_	5	punct	_	Fp|?|?

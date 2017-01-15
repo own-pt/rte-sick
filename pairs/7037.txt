@@ -8,32 +8,32 @@ CONCEPTS B: Position+,Entity+,RecreationOrExercise+,SubjectiveStrongNegativeAttr
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	rider	rider	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	NN|10530150-n|Human+
-3	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-5	blue	blue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
-6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-7	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|00392812-a|Black=
-8	motocross	motocross	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	NN|?|?
-9	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|02834778-n|Bicycle=
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	12	aux	_	VBZ|02604760-v|Entity+
-11	not	not	PART	RB	fPOS=PART++RB	12	neg	_	RB|00024073-r|not=
-12	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|00047745-v|CoveringFn=
-13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-14	pants	pant	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	dobj	_	NNS|04489008-n|Trousers+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	rider	rider	NOUN	NN	_	12	nsubj	_	NN|10530150-n|Human+
+3	on	on	ADP	IN	_	2	prep	_	IN|?|?
+4	the	the	DET	DT	_	9	det	_	DT|?|?
+5	blue	blue	ADJ	JJ	_	9	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	black	black	ADJ	JJ	_	5	conj	_	JJ|00392812-a|Black=
+8	motocross	motocross	NOUN	NN	_	9	nn	_	NN|?|?
+9	bike	bike	NOUN	NN	_	3	pobj	_	NN|02834778-n|Bicycle=
+10	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+11	not	not	ADV	RB	_	12	neg	_	RB|00024073-r|not=
+12	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	pants	pant	NOUN	NNS	_	12	dobj	_	NNS|04489008-n|Trousers+
+15	.	.	.	.	_	12	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	motocross	motocross	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	amod	_	NN|?|?
-3	rider	rider	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10529965-n|Position+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
-6	blue	blue	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
-7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
-8	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	conj	_	JJ|00392812-a|Black=
-9	pants	pant	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	NNS|04489008-n|Trousers+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	motocross	motocross	NOUN	NN	_	3	nn	_	NN|?|?
+3	rider	rider	NOUN	NN	_	5	nsubj	_	NN|10529965-n|Position+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
+6	blue	blue	ADJ	JJ	_	9	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	black	black	ADJ	JJ	_	6	conj	_	JJ|00392812-a|Black=
+9	pants	pant	NOUN	NNS	_	5	dobj	_	NNS|04489008-n|Trousers+
+10	.	.	.	.	_	5	punct	_	Fp|?|?

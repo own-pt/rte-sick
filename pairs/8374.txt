@@ -8,37 +8,37 @@ CONCEPTS B: Canine+,Entity+,Ambulating=,Covering+,Grass=,Rock=
 
 CONLL A:
 
-1	Two	2	ADP	IN	NumType=Card|fPOS=NUM++CD	3	nummod	_	Z|?|?
-2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-3	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	16	nsubj	_	NNS|02084071-n|Canine+
-4	,	,	PUNCT	,	fPOS=PUNCT++,	3	punct	_	Fc|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-6	light	light	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	NN|11473954-n|RadiatingVisibleLight+
-7	colored	color	ADJ	JJ	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	8	amod	_	VBD|00283911-v|SurfaceChange+
-8	one	1	NOUN	NN	NumType=Card|fPOS=NUM++CD	3	appos	_	Z|?|?
-9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	CC|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-11	dark	dark	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	amod	_	JJ|00409440-a|SubjectiveWeakNegativeAttribute+
-12	one	1	NUM	CD	Number=Sing|fPOS=NOUN++NN	8	conj	_	Z|?|?
-13	,	,	PUNCT	,	fPOS=PUNCT++,	16	punct	_	Fc|?|?
-14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	16	aux	_	VBP|02604760-v|Entity+
-15	quickly	quickly	ADV	RB	fPOS=ADV++RB	16	advmod	_	RB|00085811-r|SubjectiveAssessmentAttribute+
-16	moving	move	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01767949-v|PsychologicalProcess+
-17	through	through	ADP	IN	fPOS=ADP++IN	19	case	_	IN|?|?
-18	snowy	snowy	ADV	RB	Number=Sing|fPOS=PROPN++NNP	19	compound	_	JJ|01698231-a|Covering+
-19	terrain	terrain	ADV	RB	Number=Sing|fPOS=PROPN++NNP	16	nmod	_	NN|08674563-n|LandArea+
-20	.	.	PUNCT	.	fPOS=PUNCT++.	16	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	large	large	ADJ	JJ	_	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	dogs	dog	NOUN	NNS	_	16	nsubj	_	NNS|02084071-n|Canine+
+4	,	,	.	,	_	3	punct	_	Fc|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	light	light	NOUN	NN	_	3	appos	_	NN|11473954-n|RadiatingVisibleLight+
+7	colored	color	VERB	VBN	_	6	partmod	_	VBD|00283911-v|SurfaceChange+
+8	one	1	NUM	CD	_	7	dobj	_	Z|?|?
+9	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	dark	dark	ADJ	JJ	_	12	amod	_	JJ|00409440-a|SubjectiveWeakNegativeAttribute+
+12	one	1	NUM	CD	_	8	conj	_	Z|?|?
+13	,	,	.	,	_	3	punct	_	Fc|?|?
+14	are	be	VERB	VBP	_	16	aux	_	VBP|02604760-v|Entity+
+15	quickly	quickly	ADV	RB	_	16	advmod	_	RB|00085811-r|SubjectiveAssessmentAttribute+
+16	moving	move	VERB	VBG	_	0	ROOT	_	VBG|01767949-v|PsychologicalProcess+
+17	through	through	ADP	IN	_	16	prep	_	IN|?|?
+18	snowy	snowy	ADJ	JJ	_	19	amod	_	JJ|01698231-a|Covering+
+19	terrain	terrain	NOUN	NN	_	17	pobj	_	NN|08674563-n|LandArea+
+20	.	.	.	.	_	16	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	Z|?|?
-2	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02084071-n|Canine+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	leaping	leap	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-5	through	through	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	snowy	snowy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	JJ|01698231-a|Covering+
-7	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|12102133-n|Grass=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
-9	rocks	rock	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	conj	_	NNS|09416076-n|Rock=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	leaping	leap	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	through	through	ADP	IN	_	4	prep	_	IN|?|?
+6	snowy	snowy	ADJ	JJ	_	7	amod	_	JJ|01698231-a|Covering+
+7	grass	grass	NOUN	NN	_	5	pobj	_	NN|12102133-n|Grass=
+8	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+9	rocks	rock	NOUN	NNS	_	7	conj	_	NNS|09416076-n|Rock=
+10	.	.	.	.	_	4	punct	_	Fp|?|?

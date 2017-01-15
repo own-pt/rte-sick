@@ -8,25 +8,25 @@ CONCEPTS B: Bird+,Entity+,LinguisticCommunication[,FrontFn=,Microphone=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	parrot	parrot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|01816887-n|Bird+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00941990-v|Speaking+
-5	into	into	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	microphone	microphone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03759954-n|Microphone=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	parrot	parrot	NOUN	NN	_	4	nsubj	_	NN|01816887-n|Bird+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+5	into	into	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	microphone	microphone	NOUN	NN	_	5	pobj	_	NN|03759954-n|Microphone=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	parrot	parrot	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|01816887-n|Bird+
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	cop	_	VBZ|02604760-v|Entity+
-4	silent	silent	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	JJ|00942163-a|LinguisticCommunication[
-5	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-6	front	front	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	nmod	_	NN|08573472-n|FrontFn=
-7	of	of	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	microphone	microphone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|03759954-n|Microphone=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	parrot	parrot	NOUN	NN	_	4	nsubj	_	NN|01816887-n|Bird+
+3	is	be	VERB	VBZ	_	4	cop	_	VBZ|02604760-v|Entity+
+4	silent	silent	ADJ	JJ	_	0	ROOT	_	JJ|00942163-a|LinguisticCommunication[
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	front	front	NOUN	NN	_	5	pobj	_	NN|08573472-n|FrontFn=
+7	of	of	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	microphone	microphone	NOUN	NN	_	7	pobj	_	NN|03759954-n|Microphone=
+10	.	.	.	.	_	4	punct	_	Fp|?|?

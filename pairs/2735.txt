@@ -8,25 +8,25 @@ CONCEPTS B: Woman=,Entity+,DramaticActing+,Radiating+,Guitar=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03467517-n|Guitar=
-7	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	9	nsubj	_	WDT|?|?
-8	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	9	cop	_	VBZ|02604760-v|Entity+
-9	electric	electric	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	acl:relcl	_	JJ|02826877-a|Radiating+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+7	which	which	DET	WDT	_	9	nsubj	_	WDT|?|?
+8	is	be	VERB	VBZ	_	9	cop	_	VBZ|02604760-v|Entity+
+9	electric	electric	ADJ	JJ	_	6	rcmod	_	JJ|02826877-a|Radiating+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	electric	electric	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|02826877-a|Radiating+
-7	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03467517-n|Guitar=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	an	a	DET	DT	_	7	det	_	DT|?|?
+6	electric	electric	ADJ	JJ	_	7	amod	_	JJ|02826877-a|Radiating+
+7	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

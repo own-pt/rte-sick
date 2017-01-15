@@ -8,30 +8,30 @@ CONCEPTS B: Human+,Canine+,Entity+,DramaticActing+,Artifact+,Water=
 
 CONLL A:
 
-1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	Z|?|?
-2	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02084071-n|Canine+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	battling	battle	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01092366-v|ViolentContest+
-5	for	for	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	frisbee	frisbee	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03397947-n|Artifact+
-8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	lake	lake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|09328904-n|Lake=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	battling	battle	VERB	VBG	_	0	ROOT	_	VBG|01092366-v|ViolentContest+
+5	for	for	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	frisbee	frisbee	NOUN	NN	_	5	pobj	_	NN|03397947-n|Artifact+
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	lake	lake	NOUN	NN	_	8	pobj	_	NN|09328904-n|Lake=
+11	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	Z|?|?
-2	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00245112-a|Human+
-3	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|02084071-n|Canine+
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02604760-v|Entity+
-5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-6	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	frisbee	frisbee	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|03397947-n|Artifact+
-9	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|14845743-n|Water=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	dogs	dog	NOUN	NNS	_	5	nsubj	_	NNS|02084071-n|Canine+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	frisbee	frisbee	NOUN	NN	_	6	pobj	_	NN|03397947-n|Artifact+
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	water	water	NOUN	NN	_	9	pobj	_	NN|14845743-n|Water=
+12	.	.	.	.	_	5	punct	_	Fp|?|?

@@ -8,28 +8,28 @@ CONCEPTS B: Feline+,Entity+,EmotionalState+,Drinking+,Milk=,Dish+
 
 CONLL A:
 
-1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	Z|?|?
-2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|09917593-n|HumanChild=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	drinking	drink	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01171183-v|Drinking+
-6	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|14845743-n|Water=
-7	from	from	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	cup	cup	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|03147509-n|Cup=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	One	1	NUM	CD	_	3	num	_	Z|?|?
+2	small	small	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	child	child	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	drinking	drink	VERB	VBG	_	0	ROOT	_	VBG|01171183-v|Drinking+
+6	water	water	NOUN	NN	_	5	dobj	_	NN|14845743-n|Water=
+7	from	from	ADP	IN	_	5	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	cup	cup	NOUN	NN	_	7	pobj	_	NN|03147509-n|Cup=
+10	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	kitten	kitten	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02122948-n|Feline+
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	eagerly	eagerly	ADV	RB	fPOS=ADV++RB	5	advmod	_	RB|00200777-r|EmotionalState+
-5	drinking	drink	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01171183-v|Drinking+
-6	some	some	DET	DT	fPOS=DET++DT	7	det	_	DT|?|?
-7	milk	milk	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|07844042-n|Milk=
-8	from	from	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	bowl	bowl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02880940-n|Dish+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	kitten	kitten	NOUN	NN	_	5	nsubj	_	NN|02122948-n|Feline+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	eagerly	eagerly	ADV	RB	_	5	advmod	_	RB|00200777-r|EmotionalState+
+5	drinking	drink	VERB	VBG	_	0	ROOT	_	VBG|01171183-v|Drinking+
+6	some	some	DET	DT	_	7	det	_	DT|?|?
+7	milk	milk	NOUN	NN	_	5	dobj	_	NN|07844042-n|Milk=
+8	from	from	ADP	IN	_	5	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	bowl	bowl	NOUN	NN	_	8	pobj	_	NN|02880940-n|Dish+
+11	.	.	.	.	_	5	punct	_	Fp|?|?

@@ -8,26 +8,26 @@ CONCEPTS B: Human=,Entity+,IntentionalProcess+,RecreationOrExercise+,PassengerVe
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|02472293-n|Hominid=
-3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03790512-n|PassengerVehicle+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	doing	do	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	trick	trick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	NN|00427580-n|RecreationOrExercise+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|02472293-n|Hominid=
+3	on	on	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	motorcycle	motorcycle	NOUN	NN	_	3	pobj	_	NN|03790512-n|PassengerVehicle+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	trick	trick	NOUN	NN	_	7	dobj	_	NN|00427580-n|RecreationOrExercise+
+10	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	performing	perform	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
-5	tricks	trick	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|00427580-n|RecreationOrExercise+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03790512-n|PassengerVehicle+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	tricks	trick	NOUN	NNS	_	4	dobj	_	NNS|00427580-n|RecreationOrExercise+
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	motorcycle	motorcycle	NOUN	NN	_	6	pobj	_	NN|03790512-n|PassengerVehicle+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

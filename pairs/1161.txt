@@ -8,26 +8,26 @@ CONCEPTS B: Woman=,Entity+,Putting=,Abstract+,Dish+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	cracking	crack	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00336260-v|Damaging+
-5	some	some	DET	DT	fPOS=DET++DT	6	det	_	DT|?|?
-6	eggs	egg	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|05524615-n|Gland+
-7	into	into	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	container	container	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03094503-n|Container+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cracking	crack	VERB	VBG	_	0	ROOT	_	VBG|00336260-v|Damaging+
+5	some	some	DET	DT	_	6	det	_	DT|?|?
+6	eggs	egg	NOUN	NNS	_	4	dobj	_	NNS|05524615-n|Gland+
+7	into	into	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	container	container	NOUN	NN	_	7	pobj	_	NN|03094503-n|Container+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	adding	add	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00182406-v|Putting=
-5	ingredients	ingredient	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|05868954-n|Abstract+
-6	to	to	ADP	IN	fPOS=ADP++IN	8	case	_	TO|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	bowl	bowl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02880940-n|Dish+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	adding	add	VERB	VBG	_	0	ROOT	_	VBG|00182406-v|Putting=
+5	ingredients	ingredient	NOUN	NNS	_	4	dobj	_	NNS|05868954-n|Abstract+
+6	to	to	ADP	IN	_	4	prep	_	TO|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	bowl	bowl	NOUN	NN	_	6	pobj	_	NN|02880940-n|Dish+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

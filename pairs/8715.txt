@@ -8,22 +8,22 @@ CONCEPTS B: White=,Canine+,Entity+,Attribute+,Meeting=
 
 CONLL A:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	Z|?|?
-2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00393105-a|White=
-3	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	NNS|02084071-n|Canine+
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	VBP|02604760-v|Entity+
-5	not	not	PART	RB	fPOS=PART++RB	6	neg	_	RB|00024073-r|not=
-6	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-7	together	together	ADV	RB	fPOS=ADV++RB	6	advmod	_	RB|00507927-r|Meeting=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	dogs	dog	NOUN	NNS	_	6	nsubj	_	NNS|02084071-n|Canine+
+4	are	be	VERB	VBP	_	6	aux	_	VBP|02604760-v|Entity+
+5	not	not	ADV	RB	_	6	neg	_	RB|00024073-r|not=
+6	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+7	together	together	ADV	RB	_	6	advmod	_	RB|00507927-r|Meeting=
+8	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	VERB	VB	NumType=Card|fPOS=NUM++CD	3	nummod	_	Z|?|?
-2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00393105-a|White=
-3	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|02084071-n|Canine+
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02604760-v|Entity+
-5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-6	together	together	ADV	RB	fPOS=ADV++RB	5	advmod	_	RB|00507927-r|Meeting=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	dogs	dog	NOUN	NNS	_	5	nsubj	_	NNS|02084071-n|Canine+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	together	together	ADV	RB	_	5	advmod	_	RB|00507927-r|Meeting=
+7	.	.	.	.	_	5	punct	_	Fp|?|?

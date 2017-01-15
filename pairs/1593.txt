@@ -8,30 +8,30 @@ CONCEPTS B: Liquid=,Entity+,Entity+,Pouring=,PotOrPan=,Man=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	chef	chef	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|09963574-n|Chef=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	carefully	carefully	ADV	RB	fPOS=ADV++RB	5	advmod	_	RB|00153568-r|SubjectiveAssessmentAttribute+
-5	pouring	pour	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02069551-v|Pouring=
-6	some	some	DET	DT	fPOS=DET++DT	7	det	_	DT|?|?
-7	oil	oil	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|14966667-n|Oil=
-8	into	into	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	pan	pan	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|03880531-n|PotOrPan=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	chef	chef	NOUN	NN	_	5	nsubj	_	NN|09963574-n|Chef=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	carefully	carefully	ADV	RB	_	5	advmod	_	RB|00153568-r|SubjectiveAssessmentAttribute+
+5	pouring	pour	VERB	VBG	_	0	ROOT	_	VBG|02069551-v|Pouring=
+6	some	some	DET	DT	_	7	det	_	DT|?|?
+7	oil	oil	NOUN	NN	_	5	dobj	_	NN|14966667-n|Oil=
+8	into	into	ADP	IN	_	5	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	pan	pan	NOUN	NN	_	8	pobj	_	NN|03880531-n|PotOrPan=
+11	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	DT|?|?
-2	liquid	liquid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	NN|14940100-n|Liquid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	VBG|02604760-v|Entity+
-5	poured	pour	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|02069551-v|Pouring=
-6	into	into	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	pan	pan	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|03880531-n|PotOrPan=
-9	by	by	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|10287213-n|Man=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	liquid	liquid	NOUN	NN	_	5	nsubjpass	_	NN|14940100-n|Liquid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	poured	pour	VERB	VBN	_	0	ROOT	_	VBN|02069551-v|Pouring=
+6	into	into	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	pan	pan	NOUN	NN	_	6	pobj	_	NN|03880531-n|PotOrPan=
+9	by	by	ADP	IN	_	5	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	man	man	NOUN	NN	_	9	pobj	_	NN|10287213-n|Man=
+12	.	.	.	.	_	5	punct	_	Fp|?|?

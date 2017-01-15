@@ -8,27 +8,27 @@ CONCEPTS B: Hominid=,Entity+,Game+,Football+,Lawn=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	shirtless	shirtless	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|?|?
-3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02472293-n|Hominid=
-4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	playing	play	VERB	VBG	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	VBG|01072949-v|Game+
-6	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|00468480-n|Football+
-7	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	gym	gym	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|03472112-n|ExerciseCenter=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	shirtless	shirtless	ADJ	JJ	_	3	amod	_	JJ|?|?
+3	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01072949-v|Game+
+6	football	football	NOUN	NN	_	5	dobj	_	NN|00468480-n|Football+
+7	in	in	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	gym	gym	NOUN	NN	_	7	pobj	_	NN|03472112-n|ExerciseCenter=
+10	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	shirtless	shirtless	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|?|?
-3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02472293-n|Hominid=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	playing	play	VERB	VBG	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	VBG|01072949-v|Game+
-6	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|00468480-n|Football+
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	lawn	lawn	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|08591592-n|Lawn=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	shirtless	shirtless	ADJ	JJ	_	3	amod	_	JJ|?|?
+3	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01072949-v|Game+
+6	football	football	NOUN	NN	_	5	dobj	_	NN|00468480-n|Football+
+7	on	on	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	lawn	lawn	NOUN	NN	_	7	pobj	_	NN|08591592-n|Lawn=
+10	.	.	.	.	_	5	punct	_	Fp|?|?

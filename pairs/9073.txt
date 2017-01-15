@@ -8,27 +8,27 @@ CONCEPTS B: Human+,Entity+,Putting=,Ocean=,Near+,ShoreArea=
 
 CONLL A:
 
-1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	Z|?|?
-2	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|09917593-n|HumanChild=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	rolling	roll	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01866192-v|Motion+
-5	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	dirty	dirty	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	amod	_	JJ|00419289-a|Dirty=
-7	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|14845743-n|Water=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	rolling	roll	VERB	VBG	_	0	ROOT	_	VBG|01866192-v|Motion+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	dirty	dirty	ADJ	JJ	_	7	amod	_	JJ|00419289-a|Dirty=
+7	water	water	NOUN	NN	_	5	pobj	_	NN|14845743-n|Water=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|10285313-n|Human+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	laying	lay	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01494310-v|Putting=
-5	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	ocean	ocean	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	nmod	_	NN|09376198-n|Ocean=
-8	close	close	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	advmod	_	RB|00409709-r|Near+
-9	to	to	ADP	IN	fPOS=ADP++IN	11	case	_	TO|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|09217230-n|ShoreArea=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	boys	boy	NOUN	NNS	_	4	nsubj	_	NNS|10285313-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	laying	lay	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	ocean	ocean	NOUN	NN	_	5	pobj	_	NN|09376198-n|Ocean=
+8	close	close	ADV	RB	_	4	advmod	_	RB|00409709-r|Near+
+9	to	to	ADP	IN	_	8	prep	_	TO|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	beach	beach	NOUN	NN	_	9	pobj	_	NN|09217230-n|ShoreArea=
+12	.	.	.	.	_	4	punct	_	Fp|?|?

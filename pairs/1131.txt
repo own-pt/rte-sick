@@ -8,21 +8,21 @@ CONCEPTS B: Region@,SocialRole+,SocialRole+,Clothing+
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	turtle	turtle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|04502197-n|Clothing+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02445925-v|SocialRole+
-4	following	follow	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02445925-v|SocialRole+
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	fish	fish	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|08688076-n|Region@
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	turtle	turtle	NOUN	NN	_	4	nsubj	_	NN|04502197-n|Clothing+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02445925-v|SocialRole+
+4	following	follow	VERB	VBG	_	0	ROOT	_	VBG|02445925-v|SocialRole+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	fish	fish	NOUN	NN	_	4	dobj	_	NN|08688076-n|Region@
+7	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	fish	fish	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|08688076-n|Region@
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02445925-v|SocialRole+
-4	following	follow	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02445925-v|SocialRole+
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	turtle	turtle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|04502197-n|Clothing+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	fish	fish	NOUN	NN	_	4	nsubj	_	NN|08688076-n|Region@
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02445925-v|SocialRole+
+4	following	follow	VERB	VBG	_	0	ROOT	_	VBG|02445925-v|SocialRole+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	turtle	turtle	NOUN	NN	_	4	dobj	_	NN|04502197-n|Clothing+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

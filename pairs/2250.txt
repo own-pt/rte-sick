@@ -8,24 +8,24 @@ CONCEPTS B: CerealGrain=,Entity+,Entity+,Process+,Hominid=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01168468-v|Eating=
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	bowl	bowl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|02880940-n|Dish+
-7	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-8	cereal	cereal	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|07802417-n|CerealGrain=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01168468-v|Eating=
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	bowl	bowl	NOUN	NN	_	4	dobj	_	NN|02880940-n|Dish+
+7	of	of	ADP	IN	_	6	prep	_	IN|?|?
+8	cereal	cereal	NOUN	NN	_	7	pobj	_	NN|07802417-n|CerealGrain=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Cereal	cereal	PROPN	NNP	Number=Sing|fPOS=PROPN++NNP	4	nsubjpass	_	NN|07802417-n|CerealGrain=
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-3	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	4	auxpass	_	VBG|02604760-v|Entity+
-4	eaten	eat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|01157517-v|Process+
-5	by	by	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02472293-n|Hominid=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Cereal	cereal	NOUN	NN	_	4	nsubjpass	_	NN|07802417-n|CerealGrain=
+2	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+3	being	be	VERB	VBG	_	4	auxpass	_	VBG|02604760-v|Entity+
+4	eaten	eat	VERB	VBN	_	0	ROOT	_	VBN|01157517-v|Process+
+5	by	by	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	man	man	NOUN	NN	_	5	pobj	_	NN|02472293-n|Hominid=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

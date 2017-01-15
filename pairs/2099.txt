@@ -8,27 +8,27 @@ CONCEPTS B: Human+,Entity+,Giving+,TimeInterval+,Hominid=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00393105-a|White=
-3	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubjpass	_	NN|02958343-n|Automobile=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-5	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	6	auxpass	_	VBG|02604760-v|Entity+
-6	driven	drive	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|01930874-v|Transportation+
-7	by	by	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|02472293-n|Hominid=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	car	car	NOUN	NN	_	6	nsubjpass	_	NN|02958343-n|Automobile=
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	being	be	VERB	VBG	_	6	auxpass	_	VBG|02604760-v|Entity+
+6	driven	drive	VERB	VBN	_	0	ROOT	_	VBN|01930874-v|Transportation+
+7	by	by	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	man	man	NOUN	NN	_	7	pobj	_	NN|02472293-n|Hominid=
+10	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	interviewer	interviewer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10213319-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	granting	grant	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02255268-v|Giving+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	break	break	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|15271008-n|TimeInterval+
-7	to	to	ADP	IN	fPOS=ADP++IN	9	case	_	TO|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|02472293-n|Hominid=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	interviewer	interviewer	NOUN	NN	_	4	nsubj	_	NN|10213319-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	granting	grant	VERB	VBG	_	0	ROOT	_	VBG|02255268-v|Giving+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	break	break	NOUN	NN	_	4	dobj	_	NN|15271008-n|TimeInterval+
+7	to	to	ADP	IN	_	6	prep	_	TO|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	man	man	NOUN	NN	_	7	pobj	_	NN|02472293-n|Hominid=
+10	.	.	.	.	_	4	punct	_	Fp|?|?

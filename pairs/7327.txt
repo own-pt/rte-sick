@@ -8,25 +8,25 @@ CONCEPTS B: Hominid=,Entity+,SubjectiveAssessmentAttribute+,LengthMeasure+
 
 CONLL A:
 
-1	Three	3	DET	DT	Number=Plur|PronType=Dem|fPOS=DET++DT	2	det	_	Z|?|?
-2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02472293-n|Hominid=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
-5	absent	absent	ADV	RBS	Degree=Pos|fPOS=ADJ++JJ	4	advmod	_	VBP|00421535-v|Removing+
-6	mindedly	mindedly	ADV	RB	fPOS=ADV++RB	9	advmod	_	RB|?|?
-7	into	into	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	distance	distance	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|05084201-n|LengthMeasure+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+5	absent	absent	ADJ	JJ	_	4	acomp	_	VBP|00421535-v|Removing+
+6	mindedly	mindedly	ADV	RB	_	4	advmod	_	RB|?|?
+7	into	into	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	distance	distance	NOUN	NN	_	7	pobj	_	NN|05084201-n|LengthMeasure+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Three	3	DET	DT	Number=Plur|PronType=Dem|fPOS=DET++DT	2	det	_	Z|?|?
-2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02472293-n|Hominid=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
-5	into	into	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	distance	distance	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|05084201-n|LengthMeasure+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+5	into	into	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	distance	distance	NOUN	NN	_	5	pobj	_	NN|05084201-n|LengthMeasure+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

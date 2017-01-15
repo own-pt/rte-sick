@@ -8,27 +8,27 @@ CONCEPTS B: SubjectiveStrongPositiveAttribute+,RecreationOrExercise+,Entity+,Ent
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02604760-v|Entity+
-4	dangerously	dangerously	ADV	RB	fPOS=ADV++RB	6	advmod	_	RB|00090228-r|SubjectiveAssessmentAttribute+
-5	throwing	throw	ADJ	JJ	fPOS=ADP++IN	6	amod	_	VBG|01508368-v|Impelling+
-6	knives	knife	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	NNS|03623556-n|CuttingDevice+
-7	at	at	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|13912260-n|ContentBearingObject+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	dangerously	dangerously	ADV	RB	_	5	advmod	_	RB|00090228-r|SubjectiveAssessmentAttribute+
+5	throwing	throw	VERB	VBG	_	0	ROOT	_	VBG|01508368-v|Impelling+
+6	knives	knife	NOUN	NNS	_	5	dobj	_	NNS|03623556-n|CuttingDevice+
+7	at	at	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	tree	tree	NOUN	NN	_	7	pobj	_	NN|13912260-n|ContentBearingObject+
+10	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	magic	magic	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	JJ|01576071-a|SubjectiveStrongPositiveAttribute+
-3	trick	trick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubjpass	_	NN|00099951-n|RecreationOrExercise+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-5	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	6	auxpass	_	VBG|02604760-v|Entity+
-6	performed	perform	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|01712704-v|IntentionalProcess+
-7	by	by	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	magician	magician	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|10625860-n|SkilledOccupation+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	magic	magic	ADJ	JJ	_	3	amod	_	JJ|01576071-a|SubjectiveStrongPositiveAttribute+
+3	trick	trick	NOUN	NN	_	6	nsubjpass	_	NN|00099951-n|RecreationOrExercise+
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	being	be	VERB	VBG	_	6	auxpass	_	VBG|02604760-v|Entity+
+6	performed	perform	VERB	VBN	_	0	ROOT	_	VBN|01712704-v|IntentionalProcess+
+7	by	by	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	magician	magician	NOUN	NN	_	7	pobj	_	NN|10625860-n|SkilledOccupation+
+10	.	.	.	.	_	6	punct	_	Fp|?|?

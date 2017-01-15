@@ -8,27 +8,27 @@ CONCEPTS B: Entity+,Hominid=,EndFn+,SubjectiveAssessmentAttribute+,Table+,Hand+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|03716327-n|GamePiece+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	breaking	break	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02681524-v|EndFn+
-5	tiles	tile	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|15074568-n|Artifact+
-6	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	8	nmod:poss	_	PRP$|?|?
-8	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	NNS|05564590-n|Hand+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|03716327-n|GamePiece+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	breaking	break	VERB	VBG	_	0	ROOT	_	VBG|02681524-v|EndFn+
+5	tiles	tile	NOUN	NNS	_	4	dobj	_	NNS|15074568-n|Artifact+
+6	with	with	ADP	IN	_	4	prep	_	IN|?|?
+7	his	his	PRON	PRP$	_	8	poss	_	PRP$|?|?
+8	hands	hand	NOUN	NNS	_	6	pobj	_	NNS|05564590-n|Hand+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
-4	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|02472293-n|Hominid=
-5	breaking	break	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	VBG|02681524-v|EndFn+
-6	wooden	wooden	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	JJ|01141595-a|SubjectiveAssessmentAttribute+
-7	boards	board	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	NNS|03201208-n|Table+
-8	with	with	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	10	nmod:poss	_	PRP$|?|?
-10	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|05564590-n|Hand+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	breaking	break	VERB	VBG	_	4	partmod	_	VBG|02681524-v|EndFn+
+6	wooden	wooden	ADJ	JJ	_	7	amod	_	JJ|01141595-a|SubjectiveAssessmentAttribute+
+7	boards	board	NOUN	NNS	_	5	dobj	_	NNS|03201208-n|Table+
+8	with	with	ADP	IN	_	5	prep	_	IN|?|?
+9	his	his	PRON	PRP$	_	10	poss	_	PRP$|?|?
+10	hand	hand	NOUN	NN	_	8	pobj	_	NN|05564590-n|Hand+
+11	.	.	.	.	_	2	punct	_	Fp|?|?

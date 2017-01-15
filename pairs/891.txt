@@ -8,24 +8,24 @@ CONCEPTS B: Collection+,GroupOfPeople=,Entity+,ShoreArea=
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
-4	one	one	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|13742573-n|PositiveInteger@
-5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	shore	shore	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|09433442-n|ShoreArea=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	one	one	NOUN	NN	_	2	nsubj	_	NN|13742573-n|PositiveInteger@
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	shore	shore	NOUN	NN	_	5	pobj	_	NN|09433442-n|ShoreArea=
+8	.	.	.	.	_	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	bunch	bunch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|07959943-n|Collection+
-3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|07942152-n|GroupOfPeople=
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	cop	_	VBZ|02604760-v|Entity+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	shore	shore	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|09433442-n|ShoreArea=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	bunch	bunch	NOUN	NN	_	5	nsubj	_	NN|07959943-n|Collection+
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	people	people	NOUN	NNS	_	3	pobj	_	NNS|07942152-n|GroupOfPeople=
+5	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	shore	shore	NOUN	NN	_	6	pobj	_	NN|09433442-n|ShoreArea=
+9	.	.	.	.	_	5	punct	_	Fp|?|?

@@ -8,22 +8,22 @@ CONCEPTS B: HumanYouth=,Hominid=,Entity+,Mineral+,Increasing+
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	JJ|01646941-a|HumanYouth=
-3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02472293-n|Hominid=
-4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02604760-v|Entity+
-5	not	not	PART	RB	fPOS=PART++RB	6	neg	_	RB|00024073-r|not=
-6	rock	rock	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	VB|01875295-v|Rotating+
-7	climbing	climb	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	acl	_	VBG|00433232-v|Increasing+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	man	man	NOUN	NN	_	7	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	7	cop	_	VBZ|02604760-v|Entity+
+5	not	not	ADV	RB	_	7	neg	_	RB|00024073-r|not=
+6	rock	rock	NOUN	NN	_	7	nn	_	VB|01875295-v|Rotating+
+7	climbing	climb	NOUN	NN	_	0	ROOT	_	VBG|00433232-v|Increasing+
+8	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	JJ|01646941-a|HumanYouth=
-3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02472293-n|Hominid=
-4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	cop	_	VBZ|02604760-v|Entity+
-5	rock	rock	NOUN	NN	VerbForm=Inf|fPOS=VERB++VB	0	ROOT	_	NN|14696793-n|Mineral+
-6	climbing	climb	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	acl	_	VBG|00433232-v|Increasing+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	man	man	NOUN	NN	_	6	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	rock	rock	NOUN	NN	_	6	nn	_	NN|14696793-n|Mineral+
+6	climbing	climb	VERB	VBG	_	0	ROOT	_	VBG|00433232-v|Increasing+
+7	.	.	.	.	_	6	punct	_	Fp|?|?

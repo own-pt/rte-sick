@@ -8,40 +8,40 @@ CONCEPTS B: Entity+,Basketball=,Human+,Government+,Floor+,PositiveInteger@,Entit
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	basketball	basketball	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	NN|00480993-n|Basketball=
-3	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10439851-n|Human+
-4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	cop	_	VBZ|02604760-v|Entity+
-5	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	court	court	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	NN|08329453-n|Government+
-8	floor	floor	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|03365592-n|Floor+
-9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	CC|?|?
-10	another	another	DET	DT	fPOS=DET++DT	11	det	_	DT|?|?
-11	one	one	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nsubj	_	NN|13742573-n|PositiveInteger@
-12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	13	aux	_	VBZ|02604760-v|Entity+
-13	grabbing	grab	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	8	conj	_	VBG|01439190-v|Grabbing+
-14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-15	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	dobj	_	NN|02778669-n|Ball=
-16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	basketball	basketball	NOUN	NN	_	3	nn	_	NN|00480993-n|Basketball=
+3	player	player	NOUN	NN	_	4	nsubj	_	NN|10439851-n|Human+
+4	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	8	det	_	DT|?|?
+7	court	court	NOUN	NN	_	8	nn	_	NN|08329453-n|Government+
+8	floor	floor	NOUN	NN	_	5	pobj	_	NN|03365592-n|Floor+
+9	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+10	another	another	DET	DT	_	11	det	_	DT|?|?
+11	one	one	NOUN	NN	_	13	nsubj	_	NN|13742573-n|PositiveInteger@
+12	is	be	VERB	VBZ	_	13	aux	_	VBZ|02604760-v|Entity+
+13	grabbing	grab	VERB	VBG	_	4	conj	_	VBG|01439190-v|Grabbing+
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	ball	ball	NOUN	NN	_	13	dobj	_	NN|02778669-n|Ball=
+16	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	DT|?|?
-4	basketball	basketball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	compound	_	NN|00480993-n|Basketball=
-5	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|10439851-n|Human+
-6	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	court	court	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	NN|08329453-n|Government+
-9	floor	floor	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03365592-n|Floor+
-10	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-11	no	no	DET	DT	fPOS=DET++DT	12	neg	_	DT|?|?
-12	one	one	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nsubj	_	NN|13742573-n|PositiveInteger@
-13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	14	aux	_	VBZ|02604760-v|Entity+
-14	grabbing	grab	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	2	conj	_	VBG|01439190-v|Grabbing+
-15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-16	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	NN|02778669-n|Ball=
-17	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	basketball	basketball	NOUN	NN	_	5	nn	_	NN|00480993-n|Basketball=
+5	player	player	NOUN	NN	_	2	nsubj	_	NN|10439851-n|Human+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	9	det	_	DT|?|?
+8	court	court	NOUN	NN	_	9	nn	_	NN|08329453-n|Government+
+9	floor	floor	NOUN	NN	_	6	pobj	_	NN|03365592-n|Floor+
+10	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+11	no	no	DET	DT	_	12	det	_	DT|?|?
+12	one	one	NOUN	NN	_	14	nsubj	_	NN|13742573-n|PositiveInteger@
+13	is	be	VERB	VBZ	_	14	aux	_	VBZ|02604760-v|Entity+
+14	grabbing	grab	VERB	VBG	_	2	conj	_	VBG|01439190-v|Grabbing+
+15	the	the	DET	DT	_	16	det	_	DT|?|?
+16	ball	ball	NOUN	NN	_	14	dobj	_	NN|02778669-n|Ball=
+17	.	.	.	.	_	2	punct	_	Fp|?|?

@@ -8,30 +8,30 @@ CONCEPTS B: Hominid=,Entity+,Motion+,Artifact+,Motion+,Contest+
 
 CONLL A:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|07458453-n|Racing=
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	VBP|02604760-v|Entity+
-7	flipping	flip	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01893601-v|Impelling+
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	tires	tire	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	dobj	_	NNS|04440749-n|Artifact+
-10	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	tractor	tractor	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|04465666-n|Truck+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	7	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	race	race	NOUN	NN	_	3	pobj	_	NN|07458453-n|Racing=
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	flipping	flip	VERB	VBG	_	0	ROOT	_	VBG|01893601-v|Impelling+
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	tires	tire	NOUN	NNS	_	7	dobj	_	NNS|04440749-n|Artifact+
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	tractor	tractor	NOUN	NN	_	10	pobj	_	NN|04465666-n|Truck+
+13	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02472293-n|Hominid=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	racing	race	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02058994-v|Motion+
-5	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-7	tire	tire	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	NN|04440749-n|Artifact+
-8	rolling	roll	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	VBG|01866192-v|Motion+
-9	competition	competition	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|01168569-n|Contest+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	racing	race	VERB	VBG	_	0	ROOT	_	VBG|02058994-v|Motion+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	9	det	_	DT|?|?
+7	tire	tire	NOUN	NN	_	8	nn	_	NN|04440749-n|Artifact+
+8	rolling	roll	VERB	VBG	_	9	nn	_	VBG|01866192-v|Motion+
+9	competition	competition	NOUN	NN	_	5	pobj	_	NN|01168569-n|Contest+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

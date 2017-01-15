@@ -8,30 +8,30 @@ CONCEPTS B: Hominid=,Entity+,Increasing+,SubjectiveAssessmentAttribute+
 
 CONLL A:
 
-1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-5	off	off	ADP	IN	fPOS=ADP++RP	8	case	_	RP|00232936-r|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	NN|14696793-n|Mineral+
-8	wall	wall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04546855-n|Wall=
-9	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-10	another	another	DET	DT	fPOS=DET++DT	11	det	_	DT|?|?
-11	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nsubj	_	NN|02472293-n|Hominid=
-12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	VBZ|02604760-v|Entity+
-13	dropping	drop	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|00614999-v|IntentionalProcess+
-14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-15	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	dobj	_	NN|04108268-n|String+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	off	off	PRT	RP	_	4	prep	_	RP|00232936-r|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	rock	rock	NOUN	NN	_	8	nn	_	NN|14696793-n|Mineral+
+8	wall	wall	NOUN	NN	_	5	pobj	_	NN|04546855-n|Wall=
+9	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+10	another	another	DET	DT	_	11	det	_	DT|?|?
+11	man	man	NOUN	NN	_	13	nsubj	_	NN|02472293-n|Hominid=
+12	is	be	VERB	VBZ	_	13	aux	_	VBZ|02604760-v|Entity+
+13	dropping	drop	VERB	VBG	_	4	conj	_	VBG|00614999-v|IntentionalProcess+
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	rope	rope	NOUN	NN	_	13	dobj	_	NN|04108268-n|String+
+16	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02472293-n|Hominid=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00433232-v|Increasing+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	mountain	mountain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	climbing	climb	VERB	VBG	_	0	ROOT	_	VBG|00433232-v|Increasing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	mountain	mountain	NOUN	NN	_	4	dobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

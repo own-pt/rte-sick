@@ -8,35 +8,35 @@ CONCEPTS B: Hominid=,Entity+,Inclining+,LengthMeasure@,Entity+,Process+,GroupOfP
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	middle	middle	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	NN|08523483-n|Region+
-3	eastern	eastern	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|00823665-a|East+
-4	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02472293-n|Hominid=
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-7	against	against	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-9	lamp	lamp	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	compound	_	NN|03636649-n|Device+
-10	post	post	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|00586262-n|Position=
-11	near	near	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	IN|?|?
-12	to	to	ADP	IN	fPOS=ADP++IN	14	case	_	TO|?|?
-13	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	JJ|02069355-a|equal+
-14	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	NNS|07942152-n|GroupOfPeople=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	middle	middle	ADJ	JJ	_	4	amod	_	NN|08523483-n|Region+
+3	eastern	eastern	ADJ	JJ	_	4	amod	_	JJ|00823665-a|East+
+4	man	man	NOUN	NN	_	6	nsubj	_	NN|02472293-n|Hominid=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+7	against	against	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	lamp	lamp	NOUN	NN	_	10	nn	_	NN|03636649-n|Device+
+10	post	post	NOUN	NN	_	7	pobj	_	NN|00586262-n|Position=
+11	near	near	ADP	IN	_	10	prep	_	IN|?|?
+12	to	to	ADP	IN	_	11	pcomp	_	TO|?|?
+13	other	other	ADJ	JJ	_	14	amod	_	JJ|02069355-a|equal+
+14	people	people	NOUN	NNS	_	12	pobj	_	NNS|07942152-n|GroupOfPeople=
+15	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	leaning	lean	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02038357-v|Inclining+
-5	against	against	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	pole	pole	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|13650921-n|LengthMeasure@
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	auxpass	_	VBZ|02604760-v|Entity+
-10	surrounded	surround	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	4	conj	_	VBN|01467370-v|Process+
-11	by	by	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-12	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	nmod	_	NNS|07942152-n|GroupOfPeople=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	leaning	lean	VERB	VBG	_	0	ROOT	_	VBG|02038357-v|Inclining+
+5	against	against	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	pole	pole	NOUN	NN	_	5	pobj	_	NN|13650921-n|LengthMeasure@
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	auxpass	_	VBZ|02604760-v|Entity+
+10	surrounded	surround	VERB	VBN	_	4	conj	_	VBN|01467370-v|Process+
+11	by	by	ADP	IN	_	10	prep	_	IN|?|?
+12	people	people	NOUN	NNS	_	11	pobj	_	NNS|07942152-n|GroupOfPeople=
+13	.	.	.	.	_	4	punct	_	Fp|?|?

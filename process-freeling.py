@@ -7,8 +7,8 @@ import subprocess
 import re
 
 ## Modify this line to be your FreeLing installation directory
-FREELINGDIR = "/usr/local";
-SUMODIR="/opt/sumo/KBs";
+FREELINGDIR = "/home/fcbr/bin/freeling-4.0";
+SUMODIR="/home/fcbr/repos/sumo/KBs";
 
 DATA = FREELINGDIR+"/share/freeling/";
 LANG="en";

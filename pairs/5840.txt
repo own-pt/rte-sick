@@ -8,23 +8,23 @@ CONCEPTS B: Entity+,Hominid=,Decreasing+,Cliff=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02102398-v|Transportation+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03790512-n|PassengerVehicle+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	motorcycle	motorcycle	NOUN	NN	_	4	dobj	_	NN|03790512-n|PassengerVehicle+
+7	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
-4	man	man	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	2	nsubj	_	NN|02472293-n|Hominid=
-5	diving	dive	VERB	VBG	Number=Sing|fPOS=NOUN++NN	4	acl	_	VBG|01967373-v|Decreasing+
-6	off	off	ADP	IN	fPOS=ADP++IN	8	case	_	RP|00232936-r|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	cliff	cliff	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|09246464-n|Cliff=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	diving	dive	VERB	VBG	_	4	partmod	_	VBG|01967373-v|Decreasing+
+6	off	off	PRT	RP	_	5	prep	_	RP|00232936-r|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	cliff	cliff	NOUN	NN	_	6	pobj	_	NN|09246464-n|Cliff=
+9	.	.	.	.	_	2	punct	_	Fp|?|?

@@ -8,31 +8,31 @@ CONCEPTS B: HumanYouth=,GroupOfPeople=,Entity+,Putting=,Photograph=,Process+,Bev
 
 CONLL A:
 
-1	Several	several	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	DT|?|?
-2	young	young	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01646941-a|HumanYouth=
-3	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02604760-v|Entity+
-5	posing	pose	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01494310-v|Putting=
-6	for	for	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-8	photo	photo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	NN|03925226-n|Photograph=
-9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	CC|?|?
-10	holding	hold	VERB	VBG	Number=Sing|fPOS=NOUN++NN	8	conj	_	VBG|02700867-v|Process+
-11	beers	beer	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	NNS|07886849-n|Beer=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	Several	several	ADJ	JJ	_	3	amod	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	people	people	NOUN	NNS	_	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	posing	pose	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+6	for	for	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	photo	photo	NOUN	NN	_	6	pobj	_	NN|03925226-n|Photograph=
+9	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+10	holding	hold	VERB	VBG	_	5	conj	_	VBG|02700867-v|Process+
+11	beers	beer	NOUN	NNS	_	10	dobj	_	NNS|07886849-n|Beer=
+12	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Several	several	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	DT|?|?
-2	young	young	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01646941-a|HumanYouth=
-3	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02604760-v|Entity+
-5	posing	pose	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01494310-v|Putting=
-6	for	for	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	photo	photo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|03925226-n|Photograph=
-9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	CC|?|?
-10	holding	hold	VERB	VBG	Number=Sing|fPOS=NOUN++NN	11	compound	_	VBG|02700867-v|Process+
-11	drinks	drink	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	conj	_	NNS|07885223-n|Beverage+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	Several	several	ADJ	JJ	_	3	amod	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	people	people	NOUN	NNS	_	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	posing	pose	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+6	for	for	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	photo	photo	NOUN	NN	_	6	pobj	_	NN|03925226-n|Photograph=
+9	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+10	holding	hold	VERB	VBG	_	5	conj	_	VBG|02700867-v|Process+
+11	drinks	drink	NOUN	NNS	_	10	dobj	_	NNS|07885223-n|Beverage+
+12	.	.	.	.	_	5	punct	_	Fp|?|?

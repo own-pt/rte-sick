@@ -8,35 +8,35 @@ CONCEPTS B: Entity+,IceHockey=,Human+,SubjectiveAssessmentAttribute+,HoofedMamma
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	ice	ice	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	NN|14915184-n|Solid+
-3	hockey	hockey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	compound	_	NN|00463543-n|IceHockey=
-4	goalkeeper	goalkeeper	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|10134001-n|SportsPosition+
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
-9	jersey	jersey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|08887238-n|HoofedMammal+
-10	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
-11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	VBZ|02604760-v|Entity+
-12	defending	defend	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	VBG|01129876-v|Contest+
-13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-14	goal	goal	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	dobj	_	NN|03442756-n|GameGoal=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	The	the	DET	DT	_	4	det	_	DT|?|?
+2	ice	ice	NOUN	NN	_	3	nn	_	NN|14915184-n|Solid+
+3	hockey	hockey	NOUN	NN	_	4	nn	_	NN|00463543-n|IceHockey=
+4	goalkeeper	goalkeeper	NOUN	NN	_	6	nsubj	_	NN|10134001-n|SportsPosition+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	yellow	yellow	ADJ	JJ	_	9	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+9	jersey	jersey	NOUN	NN	_	6	dobj	_	NN|08887238-n|HoofedMammal+
+10	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	defending	defend	VERB	VBG	_	6	conj	_	VBG|01129876-v|Contest+
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	goal	goal	NOUN	NN	_	12	dobj	_	NN|03442756-n|GameGoal=
+15	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	DT|?|?
-4	hockey	hockey	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	NN|00463543-n|IceHockey=
-5	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|10439851-n|Human+
-6	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
-9	jersey	jersey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|08887238-n|HoofedMammal+
-10	guarding	guard	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	9	acl	_	VBG|02456031-v|RegulatoryProcess+
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	goal	goal	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	NN|03442756-n|GameGoal=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	hockey	hockey	NOUN	NN	_	5	nn	_	NN|00463543-n|IceHockey=
+5	player	player	NOUN	NN	_	2	nsubj	_	NN|10439851-n|Human+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	yellow	yellow	ADJ	JJ	_	9	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+9	jersey	jersey	NOUN	NN	_	6	pobj	_	NN|08887238-n|HoofedMammal+
+10	guarding	guard	VERB	VBG	_	9	partmod	_	VBG|02456031-v|RegulatoryProcess+
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	goal	goal	NOUN	NN	_	10	dobj	_	NN|03442756-n|GameGoal=
+13	.	.	.	.	_	2	punct	_	Fp|?|?

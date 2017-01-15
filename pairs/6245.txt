@@ -8,35 +8,35 @@ CONCEPTS B: DiseaseOrSyndrome+,SubjectiveAssessmentAttribute+,Canine+,Entity+,Ph
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|02084071-n|Canine+
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
-4	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	6	nsubj	_	WDT|?|?
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	cop	_	VBZ|02604760-v|Entity+
-6	brown	brown	ADJ	JJ	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	2	acl:relcl	_	JJ|00245112-a|Human+
-7	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	Fc|?|?
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
-9	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-10	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|00300441-n|AirTransportation+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	9	nsubj	_	NN|02084071-n|Canine+
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	which	which	DET	WDT	_	6	nsubj	_	WDT|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	brown	brown	ADJ	JJ	_	2	rcmod	_	JJ|00245112-a|Human+
+7	,	,	.	,	_	2	punct	_	Fc|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+10	in	in	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	air	air	NOUN	NN	_	10	pobj	_	NN|00300441-n|AirTransportation+
+13	.	.	.	.	_	9	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	malnourished	malnourished	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|02300914-a|DiseaseOrSyndrome+
-3	looking	look	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	4	amod	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
-4	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02084071-n|Canine+
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-7	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-8	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	10	nmod:poss	_	PRP$|?|?
-9	hind	hind	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	JJ|00131692-a|BackFn+
-10	legs	leg	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	NNS|05560787-n|Limb=
-11	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
-12	preparing	prepare	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	conj	_	VBG|00602805-v|Learning+
-13	to	to	PART	TO	fPOS=ADP++IN	14	mark	_	TO|?|?
-14	jump	jump	VERB	VB	Number=Sing|fPOS=NOUN++NN	12	xcomp	_	VB|01963942-v|Ambulating=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	malnourished	malnourished	ADJ	JJ	_	4	amod	_	JJ|02300914-a|DiseaseOrSyndrome+
+3	looking	look	VERB	VBG	_	4	amod	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+4	dog	dog	NOUN	NN	_	6	nsubj	_	NN|02084071-n|Canine+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	its	its	PRON	PRP$	_	10	poss	_	PRP$|?|?
+9	hind	hind	ADJ	JJ	_	10	amod	_	JJ|00131692-a|BackFn+
+10	legs	leg	NOUN	NNS	_	7	pobj	_	NNS|05560787-n|Limb=
+11	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+12	preparing	prepare	VERB	VBG	_	6	conj	_	VBG|00602805-v|Learning+
+13	to	to	PRT	TO	_	14	aux	_	TO|?|?
+14	jump	jump	VERB	VB	_	12	xcomp	_	VB|01963942-v|Ambulating=
+15	.	.	.	.	_	6	punct	_	Fp|?|?

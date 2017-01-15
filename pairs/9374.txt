@@ -8,41 +8,41 @@ CONCEPTS B: Man=,Red=,Coat=,Fabric+,Trousers+,Entity+,Walking=,LandArea@,Attribu
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nsubj	_	NN|00007846-n|Human=
-3	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-5	red	red	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	6	advmod	_	JJ|00381097-a|Red=
-6	hooded	hooded	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|?|?
-7	jacket	jacket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03589791-n|Coat=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	JJ|00392812-a|Black=
-11	backpack	backpack	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	conj	_	NN|02769748-n|Bag+
-12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	VBZ|02604760-v|Entity+
-13	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
-14	near	near	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
-15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	DT|?|?
-16	rocky	rocky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	compound	_	JJ|02243567-a|TextureAttribute+
-17	wall	wall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	NN|04546855-n|Wall=
-18	.	.	PUNCT	.	fPOS=PUNCT++.	13	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	13	nsubj	_	NN|00007846-n|Human=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	7	det	_	DT|?|?
+5	red	red	ADJ	JJ	_	7	amod	_	JJ|00381097-a|Red=
+6	hooded	hooded	ADJ	JJ	_	7	amod	_	JJ|?|?
+7	jacket	jacket	NOUN	NN	_	3	pobj	_	NN|03589791-n|Coat=
+8	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	black	black	ADJ	JJ	_	11	amod	_	JJ|00392812-a|Black=
+11	backpack	backpack	NOUN	NN	_	7	conj	_	NN|02769748-n|Bag+
+12	is	be	VERB	VBZ	_	13	aux	_	VBZ|02604760-v|Entity+
+13	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+14	near	near	ADP	IN	_	13	prep	_	IN|?|?
+15	a	a	DET	DT	_	17	det	_	DT|?|?
+16	rocky	rocky	ADJ	JJ	_	17	amod	_	JJ|02243567-a|TextureAttribute+
+17	wall	wall	NOUN	NN	_	14	pobj	_	NN|04546855-n|Wall=
+18	.	.	.	.	_	13	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	NN|10287213-n|Man=
-3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-5	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|00381097-a|Red=
-6	jacket	jacket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03589791-n|Coat=
-7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
-8	khaki	khaki	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	NN|03615406-n|Fabric+
-9	pants	pant	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	conj	_	NNS|04489008-n|Trousers+
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	VBZ|02604760-v|Entity+
-11	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
-12	through	through	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-13	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-14	American	american	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	JJ|02927303-a|LandArea@
-15	state	state	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|00024720-n|Attribute=
-16	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	11	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	9	det	_	DT|?|?
+5	red	red	ADJ	JJ	_	9	amod	_	JJ|00381097-a|Red=
+6	jacket	jacket	NOUN	NN	_	9	nn	_	NN|03589791-n|Coat=
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	khaki	khaki	ADJ	JJ	_	6	conj	_	NN|03615406-n|Fabric+
+9	pants	pant	NOUN	NNS	_	3	pobj	_	NNS|04489008-n|Trousers+
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+12	through	through	ADP	IN	_	11	prep	_	IN|?|?
+13	an	a	DET	DT	_	15	det	_	DT|?|?
+14	American	american	ADJ	JJ	_	15	amod	_	JJ|02927303-a|LandArea@
+15	state	state	NOUN	NN	_	12	pobj	_	NN|00024720-n|Attribute=
+16	.	.	.	.	_	11	punct	_	Fp|?|?

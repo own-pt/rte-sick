@@ -8,30 +8,30 @@ CONCEPTS B: Canine+,Entity+,SubjectiveAssessmentAttribute+,Red=,Ball=,AirTranspo
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|02084071-n|Canine+
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	cop	_	VBZ|02604760-v|Entity+
-4	near	near	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|00381097-a|Red=
-7	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|02778669-n|Ball=
-8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|00300441-n|AirTransportation+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	3	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+4	near	near	ADP	IN	_	3	prep	_	IN|?|?
+5	the	the	DET	DT	_	7	det	_	DT|?|?
+6	red	red	ADJ	JJ	_	7	amod	_	JJ|00381097-a|Red=
+7	ball	ball	NOUN	NN	_	4	pobj	_	NN|02778669-n|Ball=
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	air	air	NOUN	NN	_	8	pobj	_	NN|00300441-n|AirTransportation+
+11	.	.	.	.	_	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02084071-n|Canine+
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	cop	_	VBZ|02604760-v|Entity+
-4	far	far	ADV	RB	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	RB|00101323-r|SubjectiveAssessmentAttribute+
-5	from	from	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|00381097-a|Red=
-8	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02778669-n|Ball=
-9	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|00300441-n|AirTransportation+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	3	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+4	far	far	ADV	RB	_	3	advmod	_	RB|00101323-r|SubjectiveAssessmentAttribute+
+5	from	from	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	8	det	_	DT|?|?
+7	red	red	ADJ	JJ	_	8	amod	_	JJ|00381097-a|Red=
+8	ball	ball	NOUN	NN	_	5	pobj	_	NN|02778669-n|Ball=
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	air	air	NOUN	NN	_	9	pobj	_	NN|00300441-n|AirTransportation+
+12	.	.	.	.	_	3	punct	_	Fp|?|?

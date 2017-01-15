@@ -8,32 +8,32 @@ CONCEPTS B: White=,Canine+,RecreationOrExercise+,HoofedMammal+,Ear=,Entity+,Huma
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00393105-a|White=
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|02084071-n|Canine+
-4	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	3	acl	_	VBG|00075021-v|RecreationOrExercise+
-5	reindeer	reindeer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	NN|02433925-n|HoofedMammal+
-6	ears	ear	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|05320899-n|Ear=
-7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	cop	_	VBZ|02604760-v|Entity+
-8	close	close	ADJ	JJ	VerbForm=Inf|fPOS=VERB++VB	0	ROOT	_	RB|00409709-r|Near+
-9	to	to	ADP	IN	fPOS=ADP++IN	12	case	_	TO|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-11	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|00245112-a|Human+
-12	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|02084071-n|Canine+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	dog	dog	NOUN	NN	_	8	nsubj	_	NN|02084071-n|Canine+
+4	wearing	wear	VERB	VBG	_	3	partmod	_	VBG|00075021-v|RecreationOrExercise+
+5	reindeer	reindeer	NOUN	NN	_	6	nn	_	NN|02433925-n|HoofedMammal+
+6	ears	ear	NOUN	NNS	_	4	dobj	_	NNS|05320899-n|Ear=
+7	is	be	VERB	VBZ	_	8	cop	_	VBZ|02604760-v|Entity+
+8	close	close	ADJ	JJ	_	0	ROOT	_	RB|00409709-r|Near+
+9	to	to	ADP	IN	_	8	prep	_	TO|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	brown	brown	ADJ	JJ	_	12	amod	_	JJ|00245112-a|Human+
+12	dog	dog	NOUN	NN	_	9	pobj	_	NN|02084071-n|Canine+
+13	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00393105-a|White=
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	NN|02084071-n|Canine+
-4	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	3	acl	_	VBG|00075021-v|RecreationOrExercise+
-5	reindeer	reindeer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	NN|02433925-n|HoofedMammal+
-6	ears	ear	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|05320899-n|Ear=
-7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	11	cop	_	VBZ|02604760-v|Entity+
-8	near	near	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	brown	brown	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	JJ|00245112-a|Human+
-11	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|02084071-n|Canine+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	dog	dog	NOUN	NN	_	7	nsubj	_	NN|02084071-n|Canine+
+4	wearing	wear	VERB	VBG	_	3	partmod	_	VBG|00075021-v|RecreationOrExercise+
+5	reindeer	reindeer	NOUN	NN	_	6	nn	_	NN|02433925-n|HoofedMammal+
+6	ears	ear	NOUN	NNS	_	4	dobj	_	NNS|05320899-n|Ear=
+7	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+8	near	near	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	brown	brown	ADJ	JJ	_	11	amod	_	JJ|00245112-a|Human+
+11	dog	dog	NOUN	NN	_	8	pobj	_	NN|02084071-n|Canine+
+12	.	.	.	.	_	7	punct	_	Fp|?|?

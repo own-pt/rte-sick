@@ -8,33 +8,33 @@ CONCEPTS B: Hominid=,SurfaceChange+,Entity+,IntentionalProcess+,Sofa=,Process+,P
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02472293-n|Hominid=
-3	with	with	ADP	IN	fPOS=SCONJ++IN	4	case	_	IN|?|?
-4	tattoos	tattoo	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|00263353-n|SurfaceChange+
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02700867-v|Process+
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	couch	couch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|04256520-n|Sofa=
-9	with	with	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	pencil	pencil	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|03908204-n|Pencil=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	6	nsubj	_	NN|02472293-n|Hominid=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	tattoos	tattoo	NOUN	NNS	_	3	pobj	_	NNS|00263353-n|SurfaceChange+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|02700867-v|Process+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	couch	couch	NOUN	NN	_	6	dobj	_	NN|04256520-n|Sofa=
+9	with	with	ADP	IN	_	6	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	pencil	pencil	NOUN	NN	_	9	pobj	_	NN|03908204-n|Pencil=
+12	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02472293-n|Hominid=
-3	with	with	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	tattoos	tattoo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NNS|00263353-n|SurfaceChange+
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	lounging	lounge	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01528339-v|IntentionalProcess+
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	couch	couch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|04256520-n|Sofa=
-10	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
-11	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	conj	_	VBG|02700867-v|Process+
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	pencil	pencil	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	NN|03908204-n|Pencil=
-14	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	6	nsubj	_	NN|02472293-n|Hominid=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	tattoos	tattoo	NOUN	NNS	_	3	pobj	_	NNS|00263353-n|SurfaceChange+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	lounging	lounge	VERB	VBG	_	0	ROOT	_	VBG|01528339-v|IntentionalProcess+
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	couch	couch	NOUN	NN	_	7	pobj	_	NN|04256520-n|Sofa=
+10	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+11	holding	hold	VERB	VBG	_	6	conj	_	VBG|02700867-v|Process+
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	pencil	pencil	NOUN	NN	_	11	dobj	_	NN|03908204-n|Pencil=
+14	.	.	.	.	_	6	punct	_	Fp|?|?

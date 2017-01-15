@@ -8,39 +8,39 @@ CONCEPTS B: HumanYouth=,Swimmer+,PhysicalAttribute+,SittingDown+,Removing+,Cloth
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	JJ|01646941-a|HumanYouth=
-3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10285313-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
-5	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-6	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	bathing	bathe	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	VBG|00035603-v|Bathing+
-9	suit	suit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|04350905-n|ClothingSuit+
-10	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-11	waiting	wait	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	VBG|02637938-v|PsychologicalProcess+
-12	for	for	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-14	next	next	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	JJ|01294975-a|Position+
-15	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|07458453-n|Racing=
-16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	boy	boy	NOUN	NN	_	5	nsubj	_	NN|10285313-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	bathing	bathe	NOUN	NN	_	9	nn	_	VBG|00035603-v|Bathing+
+9	suit	suit	NOUN	NN	_	6	pobj	_	NN|04350905-n|ClothingSuit+
+10	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+11	waiting	wait	VERB	VBG	_	5	conj	_	VBG|02637938-v|PsychologicalProcess+
+12	for	for	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	15	det	_	DT|?|?
+14	next	next	ADJ	JJ	_	15	amod	_	JJ|01294975-a|Position+
+15	race	race	NOUN	NN	_	12	pobj	_	NN|07458453-n|Racing=
+16	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01646941-a|HumanYouth=
-3	swimmer	swimmer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10683126-n|Swimmer+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
-5	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-6	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	bathing	bathe	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	VBG|00037919-v|Removing+
-9	suit	suit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|04350905-n|ClothingSuit+
-10	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-11	waiting	wait	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	conj	_	VBG|02637938-v|PsychologicalProcess+
-12	for	for	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-14	next	next	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	JJ|01294975-a|Position+
-15	race	race	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|07458453-n|Racing=
-16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	swimmer	swimmer	NOUN	NN	_	5	nsubj	_	NN|10683126-n|Swimmer+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	bathing	bathe	NOUN	NN	_	9	nn	_	VBG|00037919-v|Removing+
+9	suit	suit	NOUN	NN	_	6	pobj	_	NN|04350905-n|ClothingSuit+
+10	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+11	waiting	wait	VERB	VBG	_	5	conj	_	VBG|02637938-v|PsychologicalProcess+
+12	for	for	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	15	det	_	DT|?|?
+14	next	next	ADJ	JJ	_	15	amod	_	JJ|01294975-a|Position+
+15	race	race	NOUN	NN	_	12	pobj	_	NN|07458453-n|Racing=
+16	.	.	.	.	_	5	punct	_	Fp|?|?

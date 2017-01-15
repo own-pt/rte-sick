@@ -8,22 +8,22 @@ CONCEPTS B: Hominid=,Entity+,Attribute+,Device+
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	NN|02472293-n|Hominid=
-3	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02627934-v|Attribute+
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	stenograph	stenograph	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	NN|04314632-n|Device+
-6	to	to	PART	TO	fPOS=PART++TO	7	mark	_	TO|?|?
-7	operate	operate	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	5	acl	_	VB|01224744-v|Guiding+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	3	nsubj	_	NN|02472293-n|Hominid=
+3	needs	need	VERB	VBZ	_	0	ROOT	_	VBZ|02627934-v|Attribute+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	stenograph	stenograph	NOUN	NN	_	3	dobj	_	NN|04314632-n|Device+
+6	to	to	PRT	TO	_	7	aux	_	TO|?|?
+7	operate	operate	VERB	VB	_	5	infmod	_	VB|01224744-v|Guiding+
+8	.	.	.	.	_	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	operating	operate	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	stenograph	stenograph	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|04314632-n|Device+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	operating	operate	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	stenograph	stenograph	NOUN	NN	_	4	dobj	_	NN|04314632-n|Device+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

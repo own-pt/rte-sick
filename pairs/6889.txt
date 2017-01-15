@@ -8,46 +8,46 @@ CONCEPTS B: HumanYouth=,Human+,WinterSeason+,BodyPart+,Entity+,Ambulating=,Miner
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	DT|?|?
-4	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	JJ|01646941-a|HumanYouth=
-5	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|10129825-n|Human+
-6	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	winter	winter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	NN|15237782-n|WinterSeason+
-9	coat	coat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|01898731-n|BodyPart+
-10	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	9	acl	_	VBG|01963942-v|Ambulating=
-11	off	off	ADP	IN	fPOS=ADP++RP	10	compound:prt	_	RP|00232936-r|?
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	boulder	boulder	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	NN|09227839-n|Mineral+
-14	into	into	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-16	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|15019030-n|Sand=
-17	at	at	ADP	IN	fPOS=ADP++IN	19	case	_	IN|?|?
-18	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	19	det	_	DT|?|?
-19	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|09217230-n|ShoreArea=
-20	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	young	young	ADJ	JJ	_	5	amod	_	JJ|01646941-a|HumanYouth=
+5	girl	girl	NOUN	NN	_	2	nsubj	_	NN|10129825-n|Human+
+6	in	in	ADP	IN	_	2	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	winter	winter	NOUN	NN	_	9	nn	_	NN|15237782-n|WinterSeason+
+9	coat	coat	NOUN	NN	_	6	pobj	_	NN|01898731-n|BodyPart+
+10	jumping	jump	VERB	VBG	_	2	xcomp	_	VBG|01963942-v|Ambulating=
+11	off	off	PRT	RP	_	10	prt	_	RP|00232936-r|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	boulder	boulder	NOUN	NN	_	10	dobj	_	NN|09227839-n|Mineral+
+14	into	into	ADP	IN	_	13	prep	_	IN|?|?
+15	the	the	DET	DT	_	16	det	_	DT|?|?
+16	sand	sand	NOUN	NN	_	14	pobj	_	NN|15019030-n|Sand=
+17	at	at	ADP	IN	_	10	prep	_	IN|?|?
+18	a	a	DET	DT	_	19	det	_	DT|?|?
+19	beach	beach	NOUN	NN	_	17	pobj	_	NN|09217230-n|ShoreArea=
+20	.	.	.	.	_	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01646941-a|HumanYouth=
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|10129825-n|Human+
-4	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	winter	winter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	NN|15237782-n|WinterSeason+
-7	coat	coat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|01898731-n|BodyPart+
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
-9	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-10	off	off	ADP	RP	fPOS=ADP++IN	12	case	_	RP|00232936-r|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	boulder	boulder	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|09227839-n|Mineral+
-13	into	into	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-15	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	NN|15019030-n|Sand=
-16	at	at	ADP	IN	fPOS=ADP++IN	18	case	_	IN|?|?
-17	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	18	det	_	DT|?|?
-18	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|09217230-n|ShoreArea=
-19	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	9	nsubj	_	NN|10129825-n|Human+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	winter	winter	NOUN	NN	_	7	nn	_	NN|15237782-n|WinterSeason+
+7	coat	coat	NOUN	NN	_	4	pobj	_	NN|01898731-n|BodyPart+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+10	off	off	PRT	RP	_	9	prt	_	RP|00232936-r|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	boulder	boulder	NOUN	NN	_	9	dobj	_	NN|09227839-n|Mineral+
+13	into	into	ADP	IN	_	12	prep	_	IN|?|?
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	sand	sand	NOUN	NN	_	13	pobj	_	NN|15019030-n|Sand=
+16	at	at	ADP	IN	_	9	prep	_	IN|?|?
+17	a	a	DET	DT	_	18	det	_	DT|?|?
+18	beach	beach	NOUN	NN	_	16	pobj	_	NN|09217230-n|ShoreArea=
+19	.	.	.	.	_	9	punct	_	Fp|?|?

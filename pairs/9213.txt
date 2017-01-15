@@ -8,27 +8,27 @@ CONCEPTS B: Hominid=,Entity+,Ambulating=,SubjectiveAssessmentAttribute+,LogFn=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10287213-n|Man=
-3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	no	no	DET	DT	fPOS=DET++DT	5	neg	_	DT|?|?
-5	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|04197391-n|Shirt=
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-8	over	over	ADP	IN	fPOS=ADP++IN	10	case	_	RP|00226550-r|SubjectiveAssessmentAttribute+
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	log	log	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|06812631-n|LogFn=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|10287213-n|Man=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	no	no	DET	DT	_	5	det	_	DT|?|?
+5	shirt	shirt	NOUN	NN	_	3	pobj	_	NN|04197391-n|Shirt=
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+8	over	over	ADP	IN	_	7	prep	_	RP|00226550-r|SubjectiveAssessmentAttribute+
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	log	log	NOUN	NN	_	8	pobj	_	NN|06812631-n|LogFn=
+11	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	shirtless	shirtless	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|?|?
-3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02472293-n|Hominid=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-6	over	over	ADP	IN	fPOS=ADP++IN	8	case	_	RP|00226550-r|SubjectiveAssessmentAttribute+
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	log	log	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|06812631-n|LogFn=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	shirtless	shirtless	NOUN	NN	_	3	nn	_	JJ|?|?
+3	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+6	over	over	ADP	IN	_	5	prep	_	RP|00226550-r|SubjectiveAssessmentAttribute+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	log	log	NOUN	NN	_	6	pobj	_	NN|06812631-n|LogFn=
+9	.	.	.	.	_	5	punct	_	Fp|?|?

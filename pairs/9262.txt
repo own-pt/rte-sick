@@ -8,37 +8,37 @@ CONCEPTS B: Man=,Brick+,Wall=,Entity+,CoveringFn=,Artifact+,Mouth+,Hair=,Fabric+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|00047745-v|CoveringFn=
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-6	clear	clear	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|00431447-a|SubjectiveAssessmentAttribute+
-7	plastic	plastic	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	8	compound	_	NN|14592610-n|Substance+
-8	cap	cap	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|02954938-n|Device+
-9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	CC|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	mask	mask	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	conj	_	NN|03724870-n|Artifact+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+5	a	a	DET	DT	_	8	det	_	DT|?|?
+6	clear	clear	ADJ	JJ	_	8	amod	_	JJ|00431447-a|SubjectiveAssessmentAttribute+
+7	plastic	plastic	NOUN	NN	_	8	nn	_	NN|14592610-n|Substance+
+8	cap	cap	NOUN	NN	_	4	dobj	_	NN|02954938-n|Device+
+9	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	mask	mask	NOUN	NN	_	8	conj	_	NN|03724870-n|Artifact+
+12	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10287213-n|Man=
-3	by	by	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-5	brick	brick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	NN|02897820-n|Brick+
-6	wall	wall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|04546855-n|Wall=
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-8	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00047745-v|CoveringFn=
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	mask	mask	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	NN|03724870-n|Artifact+
-11	around	around	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-12	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	13	nmod:poss	_	PRP$|?|?
-13	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|05302499-n|Mouth+
-14	and	and	CONJ	CC	fPOS=CONJ++CC	10	cc	_	CC|?|?
-15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	DT|?|?
-16	hair	hair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	compound	_	NN|05254795-n|Hair=
-17	net	net	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	conj	_	NN|03819595-n|Fabric+
-18	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+3	by	by	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	brick	brick	NOUN	NN	_	6	nn	_	NN|02897820-n|Brick+
+6	wall	wall	NOUN	NN	_	3	pobj	_	NN|04546855-n|Wall=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	mask	mask	NOUN	NN	_	8	dobj	_	NN|03724870-n|Artifact+
+11	around	around	ADP	IN	_	10	prep	_	IN|?|?
+12	his	his	PRON	PRP$	_	13	poss	_	PRP$|?|?
+13	mouth	mouth	NOUN	NN	_	11	pobj	_	NN|05302499-n|Mouth+
+14	and	and	CONJ	CC	_	10	cc	_	CC|?|?
+15	a	a	DET	DT	_	17	det	_	DT|?|?
+16	hair	hair	NOUN	NN	_	17	nn	_	NN|05254795-n|Hair=
+17	net	net	ADJ	JJ	_	10	conj	_	NN|03819595-n|Fabric+
+18	.	.	.	.	_	8	punct	_	Fp|?|?

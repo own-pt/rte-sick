@@ -8,24 +8,24 @@ CONCEPTS B: Human+,Entity+,Entity+,Kissing+,Man=
 
 CONLL A:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	kissing	kiss	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01431230-v|Kissing+
-5	near	near	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	crowd	crowd	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|08182379-n|SubjectiveAssessmentAttribute=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	kissing	kiss	VERB	VBG	_	0	ROOT	_	VBG|01431230-v|Kissing+
+5	near	near	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	crowd	crowd	NOUN	NN	_	5	pobj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	lady	lady	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	NN|09989290-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	VBG|02604760-v|Entity+
-5	kissed	kiss	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|01431230-v|Kissing+
-6	by	by	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|10287213-n|Man=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	lady	lady	NOUN	NN	_	5	nsubjpass	_	NN|09989290-n|Human+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	kissed	kiss	VERB	VBN	_	0	ROOT	_	VBN|01431230-v|Kissing+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	man	man	NOUN	NN	_	6	pobj	_	NN|10287213-n|Man=
+9	.	.	.	.	_	5	punct	_	Fp|?|?

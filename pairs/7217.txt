@@ -8,36 +8,36 @@ CONCEPTS B: Human+,Canine+,Entity+,Attribute+,LandArea=,RecreationOrExerciseDevi
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	colored	color	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	VBN|00283911-v|SurfaceChange+
-3	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubjpass	_	NN|03964744-n|RecreationOrExerciseDevice+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-5	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	6	auxpass	_	VBG|02604760-v|Entity+
-6	carried	carry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|01449974-v|Transportation+
-7	by	by	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-9	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	JJ|00245112-a|Human+
-10	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|02084071-n|Canine+
-11	in	in	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|12102133-n|Grass=
-14	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	colored	color	VERB	VBN	_	3	amod	_	VBN|00283911-v|SurfaceChange+
+3	toy	toy	NOUN	NN	_	6	nsubjpass	_	NN|03964744-n|RecreationOrExerciseDevice+
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	being	be	VERB	VBG	_	6	auxpass	_	VBG|02604760-v|Entity+
+6	carried	carry	VERB	VBN	_	0	ROOT	_	VBN|01449974-v|Transportation+
+7	by	by	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	brown	brown	ADJ	JJ	_	10	amod	_	JJ|00245112-a|Human+
+10	dog	dog	NOUN	NN	_	7	pobj	_	NN|02084071-n|Canine+
+11	in	in	ADP	IN	_	6	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	grass	grass	NOUN	NN	_	11	pobj	_	NN|12102133-n|Grass=
+14	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00245112-a|Human+
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-6	across	across	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	yard	yard	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|04610879-n|LandArea=
-9	with	with	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|03964744-n|RecreationOrExerciseDevice+
-12	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-13	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	14	nmod:poss	_	PRP$|?|?
-14	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|05302499-n|Mouth+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	across	across	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	yard	yard	NOUN	NN	_	6	pobj	_	NN|04610879-n|LandArea=
+9	with	with	ADP	IN	_	5	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	toy	toy	NOUN	NN	_	9	pobj	_	NN|03964744-n|RecreationOrExerciseDevice+
+12	in	in	ADP	IN	_	11	prep	_	IN|?|?
+13	its	its	PRON	PRP$	_	14	poss	_	PRP$|?|?
+14	mouth	mouth	NOUN	NN	_	12	pobj	_	NN|05302499-n|Mouth+
+15	.	.	.	.	_	5	punct	_	Fp|?|?

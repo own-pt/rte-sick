@@ -8,19 +8,19 @@ CONCEPTS B: Canine+,Entity+,DramaticActing+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	tiger	tiger	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	NN|02129604-n|Feline+
-3	cub	cub	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|01322685-n|NonFullyFormed+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	roaring	roar	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	VBG|00029836-v|Expressing+
-6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	tiger	tiger	NOUN	NN	_	3	nn	_	NN|02129604-n|Feline+
+3	cub	cub	NOUN	NN	_	5	nsubj	_	NN|01322685-n|NonFullyFormed+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	roaring	roar	VERB	VBG	_	0	ROOT	_	VBG|00029836-v|Expressing+
+6	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	Number=Sing|fPOS=NOUN++NN	2	nummod	_	Z|?|?
-2	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02084071-n|Canine+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	outside	outside	ADV	RB	fPOS=ADV++RB	4	advmod	_	IN|?|?
-6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	outside	outside	ADV	RB	_	4	advmod	_	IN|?|?
+6	.	.	.	.	_	4	punct	_	Fp|?|?

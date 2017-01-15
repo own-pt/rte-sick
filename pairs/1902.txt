@@ -8,24 +8,24 @@ CONCEPTS B: RadiatingSound+,Actor=,Entity+,FormalMeeting=,GroupOfPeople=
 
 CONLL A:
 
-1	Two	2	NUM	CD	Degree=Pos|fPOS=ADJ++JJ	2	nummod	_	Z|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	ping	ping	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	xcomp	_	NN|07389569-n|RadiatingSound+
-6	pong	pong	ADV	RB	fPOS=ADV++RB	5	advmod	_	RB|?|?
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	ping	ping	NOUN	NN	_	6	nn	_	NN|07389569-n|RadiatingSound+
+6	pong	pong	NOUN	NN	_	4	dobj	_	RB|?|?
+7	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	ping	ping	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	amod	_	NN|07389569-n|RadiatingSound+
-3	pong	pong	ADJ	JJ	fPOS=ADP++IN	4	amod	_	JJ|?|?
-4	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|09765278-n|Actor=
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	meeting	meeting	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	NN|08307589-n|FormalMeeting=
-7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	9	nummod	_	Z|?|?
-9	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	NNS|07942152-n|GroupOfPeople=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	ping	ping	NOUN	NN	_	3	nn	_	NN|07389569-n|RadiatingSound+
+3	pong	pong	NOUN	NN	_	4	nn	_	JJ|?|?
+4	player	player	NOUN	NN	_	6	nsubj	_	NN|09765278-n|Actor=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	meeting	meeting	VERB	VBG	_	0	ROOT	_	NN|08307589-n|FormalMeeting=
+7	with	with	ADP	IN	_	6	prep	_	IN|?|?
+8	two	2	NUM	CD	_	9	num	_	Z|?|?
+9	people	people	NOUN	NNS	_	7	pobj	_	NNS|07942152-n|GroupOfPeople=
+10	.	.	.	.	_	6	punct	_	Fp|?|?

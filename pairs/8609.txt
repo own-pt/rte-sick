@@ -8,29 +8,29 @@ CONCEPTS B: Human=,SubjectiveAssessmentAttribute+,Text+,Bicycle=,Entity+,Physica
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
-4	cyclist	cyclist	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|09986189-n|Human+
-5	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-7	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
-8	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	NN|02834778-n|Bicycle=
-9	airborne	airborne	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	JJ|01522895-a|AirTransportation+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	cyclist	cyclist	NOUN	NN	_	2	nsubj	_	NN|09986189-n|Human+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	9	det	_	DT|?|?
+7	yellow	yellow	ADJ	JJ	_	8	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+8	bike	bike	NOUN	NN	_	9	nn	_	NN|02834778-n|Bicycle=
+9	airborne	airborne	ADJ	JJ	_	5	pobj	_	JJ|01522895-a|AirTransportation+
+10	.	.	.	.	_	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|00007846-n|Human=
-3	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-5	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
-6	dirt	dirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	NN|07223811-n|Text+
-7	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|02834778-n|Bicycle=
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
-9	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	jump	jump	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|00303849-n|Transportation+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	9	nsubj	_	NN|00007846-n|Human=
+3	on	on	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	7	det	_	DT|?|?
+5	yellow	yellow	ADJ	JJ	_	7	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+6	dirt	dirt	NOUN	NN	_	7	nn	_	NN|07223811-n|Text+
+7	bike	bike	NOUN	NN	_	3	pobj	_	NN|02834778-n|Bicycle=
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	taking	take	VERB	VBG	_	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	jump	jump	NOUN	NN	_	9	dobj	_	NN|00303849-n|Transportation+
+12	.	.	.	.	_	9	punct	_	Fp|?|?

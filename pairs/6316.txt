@@ -8,33 +8,33 @@ CONCEPTS B: SubjectiveAssessmentAttribute+,Canine+,Entity+,Attribute+,White=,Sno
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	stopping	stop	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02680814-v|Process+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|00393105-a|White=
-8	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|15043763-n|Snowing=
-9	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-11	sunny	sunny	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|00363938-a|Happiness+
-12	day	day	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|15155220-n|Day=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	yellow	yellow	ADJ	JJ	_	3	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	stopping	stop	VERB	VBG	_	0	ROOT	_	VBG|02680814-v|Process+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	white	white	ADJ	JJ	_	8	amod	_	JJ|00393105-a|White=
+8	snow	snow	NOUN	NN	_	6	pobj	_	NN|15043763-n|Snowing=
+9	on	on	ADP	IN	_	5	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	sunny	sunny	ADJ	JJ	_	12	amod	_	JJ|00363938-a|Happiness+
+12	day	day	NOUN	NN	_	9	pobj	_	NN|15155220-n|Day=
+13	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|00393105-a|White=
-8	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|15043763-n|Snowing=
-9	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-11	sunny	sunny	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|00363938-a|Happiness+
-12	day	day	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|15155220-n|Day=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	yellow	yellow	ADJ	JJ	_	3	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	white	white	ADJ	JJ	_	8	amod	_	JJ|00393105-a|White=
+8	snow	snow	NOUN	NN	_	6	pobj	_	NN|15043763-n|Snowing=
+9	on	on	ADP	IN	_	5	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	sunny	sunny	ADJ	JJ	_	12	amod	_	JJ|00363938-a|Happiness+
+12	day	day	NOUN	NN	_	9	pobj	_	NN|15155220-n|Day=
+13	.	.	.	.	_	5	punct	_	Fp|?|?

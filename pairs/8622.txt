@@ -8,25 +8,25 @@ CONCEPTS B: FullyFormed+,PhysicalAttribute+,SittingDown+,RadiatingSound+,Attribu
 
 CONLL A:
 
-1	Five	5	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	2	amod	_	Z|?|?
-2	adults	adult	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|09605289-n|FullyFormed+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	stone	stone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	NN|14696793-n|Mineral+
-7	steps	step	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|07383823-n|RadiatingSound+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Five	5	NUM	CD	_	2	num	_	Z|?|?
+2	adults	adult	NOUN	NNS	_	4	nsubj	_	NNS|09605289-n|FullyFormed+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	stone	stone	NOUN	NN	_	7	nn	_	NN|14696793-n|Mineral+
+7	steps	step	NOUN	NNS	_	5	pobj	_	NNS|07383823-n|RadiatingSound+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Five	5	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	2	amod	_	Z|?|?
-2	adults	adult	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|09605289-n|FullyFormed+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	steps	step	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	compound	_	NNS|07383823-n|RadiatingSound+
-7	made	make	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	VBN|02621395-v|Attribute+
-8	of	of	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-9	stone	stone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|14696793-n|Mineral+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Five	5	NUM	CD	_	2	num	_	Z|?|?
+2	adults	adult	NOUN	NNS	_	4	nsubj	_	NNS|09605289-n|FullyFormed+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	steps	step	NOUN	NNS	_	5	pobj	_	NNS|07383823-n|RadiatingSound+
+7	made	make	VERB	VBN	_	6	partmod	_	VBN|02621395-v|Attribute+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	stone	stone	NOUN	NN	_	8	pobj	_	NN|14696793-n|Mineral+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

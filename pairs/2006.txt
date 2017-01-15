@@ -8,23 +8,23 @@ CONCEPTS B: TransportationDevice+,Position+,Entity+,Attribute+,SubjectiveAssessm
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01955984-v|Carrying=
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	motorbike	motorbike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03769722-n|TransportationDevice+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	motorbike	motorbike	NOUN	NN	_	4	dobj	_	NN|03769722-n|TransportationDevice+
+7	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	motorbike	motorbike	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	NN|03769722-n|TransportationDevice+
-3	rider	rider	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10529965-n|Position+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-6	over	over	ADP	IN	fPOS=ADP++IN	8	case	_	RP|00226550-r|SubjectiveAssessmentAttribute+
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02472293-n|Hominid=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	motorbike	motorbike	NOUN	NN	_	3	nn	_	NN|03769722-n|TransportationDevice+
+3	rider	rider	NOUN	NN	_	5	nsubj	_	NN|10529965-n|Position+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	over	over	ADP	IN	_	5	prep	_	RP|00226550-r|SubjectiveAssessmentAttribute+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	man	man	NOUN	NN	_	6	pobj	_	NN|02472293-n|Hominid=
+9	.	.	.	.	_	5	punct	_	Fp|?|?

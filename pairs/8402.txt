@@ -8,31 +8,31 @@ CONCEPTS B: Entity+,Hominid=,MakingInstrumentalMusic+,Guitar=,Position+,Drummer=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	bald	bald	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01705088-a|SubjectiveAssessmentAttribute+
-3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|02472293-n|Hominid=
-4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	band	band	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|08249038-n|MusicalGroup+
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-8	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-9	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	NN|03467517-n|Guitar=
-10	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	spotlight	spotlight	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|14433769-n|SubjectiveAssessmentAttribute+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	bald	bald	ADJ	JJ	_	3	amod	_	JJ|01705088-a|SubjectiveAssessmentAttribute+
+3	man	man	NOUN	NN	_	8	nsubj	_	NN|02472293-n|Hominid=
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	band	band	NOUN	NN	_	4	pobj	_	NN|08249038-n|MusicalGroup+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+9	guitar	guitar	NOUN	NN	_	8	dobj	_	NN|03467517-n|Guitar=
+10	in	in	ADP	IN	_	8	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	spotlight	spotlight	NOUN	NN	_	10	pobj	_	NN|14433769-n|SubjectiveAssessmentAttribute+
+13	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
-4	man	man	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|02472293-n|Hominid=
-5	playing	play	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	VBG|01726172-v|MakingInstrumentalMusic+
-6	guitar	guitar	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|03467517-n|Guitar=
-7	next	next	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	5	advmod	_	JJ|01294975-a|Position+
-8	to	to	ADP	IN	fPOS=ADP++IN	10	case	_	TO|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	drummer	drummer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|10036929-n|Drummer=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	playing	play	VERB	VBG	_	4	partmod	_	VBG|01726172-v|MakingInstrumentalMusic+
+6	guitar	guitar	NOUN	NN	_	5	dobj	_	NN|03467517-n|Guitar=
+7	next	next	ADV	RB	_	5	advmod	_	JJ|01294975-a|Position+
+8	to	to	ADP	IN	_	7	prep	_	TO|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	drummer	drummer	NOUN	NN	_	8	pobj	_	NN|10036929-n|Drummer=
+11	.	.	.	.	_	2	punct	_	Fp|?|?

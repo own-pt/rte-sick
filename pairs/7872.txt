@@ -8,35 +8,35 @@ CONCEPTS B: Hominid=,SubjectiveStrongNegativeAttribute+,Entity+,Carrying=,Horse=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00393105-a|White=
-3	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubjpass	_	NN|02374451-n|Horse=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-5	being	be	VERB	VBG	VerbForm=Ger|fPOS=AUX++VBG	6	auxpass	_	VBG|02604760-v|Entity+
-6	ridden	ride	ADJ	JJ	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|01957529-v|Transportation+
-7	by	by	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|10287213-n|Man=
-10	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-12	blue	blue	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	13	compound	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
-13	cowboy	cowboy	NOUN	NN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	14	compound	_	NN|09972661-n|FarmHand+
-14	hat	hat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|03497657-n|Hat+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	horse	horse	NOUN	NN	_	6	nsubjpass	_	NN|02374451-n|Horse=
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	being	be	VERB	VBG	_	6	auxpass	_	VBG|02604760-v|Entity+
+6	ridden	ride	VERB	VBN	_	0	ROOT	_	VBN|01957529-v|Transportation+
+7	by	by	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	man	man	NOUN	NN	_	7	pobj	_	NN|10287213-n|Man=
+10	in	in	ADP	IN	_	6	prep	_	IN|?|?
+11	a	a	DET	DT	_	14	det	_	DT|?|?
+12	blue	blue	ADJ	JJ	_	14	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+13	cowboy	cowboy	NOUN	NN	_	14	nn	_	NN|09972661-n|FarmHand+
+14	hat	hat	NOUN	NN	_	10	pobj	_	NN|03497657-n|Hat+
+15	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02472293-n|Hominid=
-3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	blue	blue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01955984-v|Carrying=
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|02374451-n|Horse=
-9	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-11	dirt	dirt	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	compound	_	NN|07223811-n|Text+
-12	road	road	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|04096066-n|Roadway+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	6	nsubj	_	NN|02472293-n|Hominid=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	blue	blue	NOUN	NN	_	3	pobj	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	horse	horse	NOUN	NN	_	6	dobj	_	NN|02374451-n|Horse=
+9	on	on	ADP	IN	_	6	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	dirt	dirt	NOUN	NN	_	12	nn	_	NN|07223811-n|Text+
+12	road	road	NOUN	NN	_	9	pobj	_	NN|04096066-n|Roadway+
+13	.	.	.	.	_	6	punct	_	Fp|?|?

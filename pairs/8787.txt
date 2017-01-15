@@ -8,25 +8,25 @@ CONCEPTS B: Human+,Entity+,Motion+,String+,Sidewalk=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10129825-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	skipping	skip	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01892734-v|Motion+
-5	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|04108268-n|String+
-6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|08615374-n|Park+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	skipping	skip	VERB	VBG	_	0	ROOT	_	VBG|01892734-v|Motion+
+5	rope	rope	NOUN	NN	_	4	dobj	_	NN|04108268-n|String+
+6	in	in	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	park	park	NOUN	NN	_	6	pobj	_	NN|08615374-n|Park+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10129825-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	skipping	skip	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01892734-v|Motion+
-5	rope	rope	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|04108268-n|String+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	sidewalk	sidewalk	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04215402-n|Sidewalk=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	skipping	skip	VERB	VBG	_	0	ROOT	_	VBG|01892734-v|Motion+
+5	rope	rope	NOUN	NN	_	4	dobj	_	NN|04108268-n|String+
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	sidewalk	sidewalk	NOUN	NN	_	6	pobj	_	NN|04215402-n|Sidewalk=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -8,26 +8,26 @@ CONCEPTS B: Canine+,Entity+,not=,DramaticActing+,FloweringPlant+,GeographicArea+
 
 CONLL A:
 
-1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02084071-n|Canine+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	grassy	grassy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	JJ|00209620-a|FloweringPlant+
-8	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|08497294-n|GeographicArea+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Four	4	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	grassy	grassy	ADJ	JJ	_	8	amod	_	JJ|00209620-a|FloweringPlant+
+8	area	area	NOUN	NN	_	5	pobj	_	NN|08497294-n|GeographicArea+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|02084071-n|Canine+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02604760-v|Entity+
-4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	RB|00024073-r|not=
-5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-6	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	grassy	grassy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	JJ|00209620-a|FloweringPlant+
-9	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|08497294-n|GeographicArea+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	Four	4	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	5	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	grassy	grassy	ADJ	JJ	_	9	amod	_	JJ|00209620-a|FloweringPlant+
+9	area	area	NOUN	NN	_	6	pobj	_	NN|08497294-n|GeographicArea+
+10	.	.	.	.	_	5	punct	_	Fp|?|?

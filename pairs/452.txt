@@ -8,24 +8,24 @@ CONCEPTS B: Human+,Human+,Entity+,Carrying=,ShapeAttribute+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	lady	lady	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09989290-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	surfing	surf	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01948077-v|Transportation+
-5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-6	riding	ride	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|01955984-v|Carrying=
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	wave	wave	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|07352190-n|WaterWave+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	lady	lady	NOUN	NN	_	4	nsubj	_	NN|09989290-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	surfing	surf	VERB	VBG	_	0	ROOT	_	VBG|01948077-v|Transportation+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	riding	ride	VERB	VBG	_	4	conj	_	VBG|01955984-v|Carrying=
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	wave	wave	NOUN	NN	_	6	dobj	_	NN|07352190-n|WaterWave+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	blond	blond	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00243606-a|Human+
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10129825-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01955984-v|Carrying=
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	waves	wave	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	NNS|13868944-n|ShapeAttribute+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	blond	blond	ADJ	JJ	_	3	amod	_	JJ|00243606-a|Human+
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	waves	wave	NOUN	NNS	_	5	dobj	_	NNS|13868944-n|ShapeAttribute+
+8	.	.	.	.	_	5	punct	_	Fp|?|?

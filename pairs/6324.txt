@@ -8,34 +8,34 @@ CONCEPTS B: Human+,Entity+,Putting+,Trousers+,Pink+,Shirt=,Entity+,Attribute+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10129825-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00052374-v|Putting+
-5	jeans	jean	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|03594734-n|Trousers+
-6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	pink	pink	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|00379595-a|Pink+
-9	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	NN|04197391-n|Shirt=
-10	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	VBZ|02604760-v|Entity+
-12	cheerfully	cheerfully	ADV	RB	fPOS=ADV++RB	13	advmod	_	RB|00230749-r|EmotionalState+
-13	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|01525666-v|Attribute+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+5	jeans	jean	NOUN	NNS	_	4	dobj	_	NNS|03594734-n|Trousers+
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	pink	pink	ADJ	JJ	_	9	amod	_	JJ|00379595-a|Pink+
+9	shirt	shirt	NOUN	NN	_	5	conj	_	NN|04197391-n|Shirt=
+10	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+11	is	be	VERB	VBZ	_	13	aux	_	VBZ|02604760-v|Entity+
+12	cheerfully	cheerfully	ADV	RB	_	13	advmod	_	RB|00230749-r|EmotionalState+
+13	running	run	VERB	VBG	_	4	conj	_	VBG|01525666-v|Attribute+
+14	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10129825-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00052374-v|Putting+
-5	jeans	jean	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|03594734-n|Trousers+
-6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	pink	pink	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|00379595-a|Pink+
-9	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	NN|04197391-n|Shirt=
-10	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	VBZ|02604760-v|Entity+
-12	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|01525666-v|Attribute+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+5	jeans	jean	NOUN	NNS	_	4	dobj	_	NNS|03594734-n|Trousers+
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	pink	pink	ADJ	JJ	_	9	amod	_	JJ|00379595-a|Pink+
+9	shirt	shirt	NOUN	NN	_	5	conj	_	NN|04197391-n|Shirt=
+10	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	running	run	VERB	VBG	_	4	conj	_	VBG|01525666-v|Attribute+
+13	.	.	.	.	_	4	punct	_	Fp|?|?

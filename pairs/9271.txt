@@ -8,36 +8,36 @@ CONCEPTS B: Animal=,Entity+,Kennel=,BackFn+,Limb=,Entity+,DirectionChange+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00392812-a|Black=
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|02084071-n|Canine+
-4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	CC|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
-7	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	conj	_	NN|02084071-n|Canine+
-8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	9	aux	_	VBP|02604760-v|Entity+
-9	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-10	with	with	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	each	each	DET	DT	fPOS=DET++DT	12	det	_	DT|?|?
-12	other	other	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	9	nmod	_	JJ|02069355-a|equal+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	dog	dog	NOUN	NN	_	9	nsubj	_	NN|02084071-n|Canine+
+4	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	yellow	yellow	ADJ	JJ	_	7	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+7	dog	dog	NOUN	NN	_	3	conj	_	NN|02084071-n|Canine+
+8	are	be	VERB	VBP	_	9	aux	_	VBP|02604760-v|Entity+
+9	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+10	with	with	ADP	IN	_	9	prep	_	IN|?|?
+11	each	each	DET	DT	_	12	det	_	DT|?|?
+12	other	other	ADJ	JJ	_	10	pobj	_	JJ|02069355-a|equal+
+13	.	.	.	.	_	9	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	animals	animal	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	NNS|00015388-n|Animal=
-3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	6	cop	_	VBP|02604760-v|Entity+
-4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	kennel	kennel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|03610524-n|Kennel=
-7	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-8	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	10	nmod:poss	_	PRP$|?|?
-9	hind	hind	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	10	amod	_	JJ|00131692-a|BackFn+
-10	legs	leg	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	NNS|05560787-n|Limb=
-11	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
-12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	13	aux	_	VBP|02604760-v|Entity+
-13	facing	face	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	VBG|01908365-v|DirectionChange+
-14	one	1	NUM	CD	NumType=Card|fPOS=NUM++CD	13	dobj	_	Z|?|?
-15	another	another	ADV	RB	fPOS=DET++DT	13	advmod	_	DT|?|?
-16	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	animals	animal	NOUN	NNS	_	3	nsubj	_	NNS|00015388-n|Animal=
+3	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	kennel	kennel	NOUN	NN	_	4	pobj	_	NN|03610524-n|Kennel=
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	their	their	PRON	PRP$	_	10	poss	_	PRP$|?|?
+9	hind	hind	ADJ	JJ	_	10	amod	_	JJ|00131692-a|BackFn+
+10	legs	leg	NOUN	NNS	_	7	pobj	_	NNS|05560787-n|Limb=
+11	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+12	are	be	VERB	VBP	_	13	aux	_	VBP|02604760-v|Entity+
+13	facing	face	VERB	VBG	_	3	conj	_	VBG|01908365-v|DirectionChange+
+14	one	1	NUM	CD	_	13	dobj	_	Z|?|?
+15	another	another	DET	DT	_	14	dep	_	DT|?|?
+16	.	.	.	.	_	3	punct	_	Fp|?|?

@@ -8,40 +8,40 @@ CONCEPTS B: Entity+,HumanYouth=,Human+,Ambulating=,AirTransportation+,Knee+,Gras
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	JJ|01646941-a|HumanYouth=
-3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10285313-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|00300441-n|AirTransportation+
-9	with	with	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-10	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	12	nmod:poss	_	PRP$|?|?
-11	knees	knee	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	compound	_	NNS|05573602-n|Knee+
-12	bent	bent	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|12106786-n|Grass+
-13	and	and	CONJ	CC	fPOS=CONJ++CC	12	cc	_	CC|?|?
-14	arms	arm	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	15	compound	_	NNS|04236377-n|Sleeve+
-15	spread	spread	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	conj	_	NN|07445896-n|Putting+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	boy	boy	NOUN	NN	_	5	nsubj	_	NN|10285313-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	air	air	NOUN	NN	_	6	pobj	_	NN|00300441-n|AirTransportation+
+9	with	with	ADP	IN	_	5	prep	_	IN|?|?
+10	his	his	PRON	PRP$	_	11	poss	_	PRP$|?|?
+11	knees	knee	NOUN	NNS	_	9	pobj	_	NNS|05573602-n|Knee+
+12	bent	bent	ADJ	JJ	_	11	advmod	_	NN|12106786-n|Grass+
+13	and	and	CONJ	CC	_	11	cc	_	CC|?|?
+14	arms	arm	NOUN	NNS	_	15	nn	_	NNS|04236377-n|Sleeve+
+15	spread	spread	NOUN	NN	_	11	conj	_	NN|07445896-n|Putting+
+16	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	DT|?|?
-4	young	young	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	JJ|01646941-a|HumanYouth=
-5	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|10285313-n|Human+
-6	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	acl	_	VBG|01963942-v|Ambulating=
-7	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|00300441-n|AirTransportation+
-10	with	with	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-11	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	13	nmod:poss	_	PRP$|?|?
-12	knees	knee	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	compound	_	NNS|05573602-n|Knee+
-13	bent	bent	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|12106786-n|Grass+
-14	and	and	CONJ	CC	fPOS=CONJ++CC	13	cc	_	CC|?|?
-15	arms	arm	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	16	compound	_	NNS|04236377-n|Sleeve+
-16	spread	spread	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	conj	_	NN|07445896-n|Putting+
-17	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	young	young	ADJ	JJ	_	5	amod	_	JJ|01646941-a|HumanYouth=
+5	boy	boy	NOUN	NN	_	6	nsubj	_	NN|10285313-n|Human+
+6	jumping	jump	VERB	VBG	_	2	dep	_	VBG|01963942-v|Ambulating=
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	air	air	NOUN	NN	_	7	pobj	_	NN|00300441-n|AirTransportation+
+10	with	with	ADP	IN	_	6	prep	_	IN|?|?
+11	his	his	PRON	PRP$	_	12	poss	_	PRP$|?|?
+12	knees	knee	NOUN	NNS	_	13	dep	_	NNS|05573602-n|Knee+
+13	bent	bent	ADJ	JJ	_	10	pobj	_	NN|12106786-n|Grass+
+14	and	and	CONJ	CC	_	13	cc	_	CC|?|?
+15	arms	arm	NOUN	NNS	_	16	nn	_	NNS|04236377-n|Sleeve+
+16	spread	spread	NOUN	NN	_	13	conj	_	NN|07445896-n|Putting+
+17	.	.	.	.	_	2	punct	_	Fp|?|?

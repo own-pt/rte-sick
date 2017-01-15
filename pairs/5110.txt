@@ -8,21 +8,21 @@ CONCEPTS B: Chef=,Entity+,Learning+,Meal=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	chef	chef	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09963574-n|Chef=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	preparing	prepare	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01664172-v|Cooking+
-5	some	some	DET	DT	fPOS=DET++DT	6	det	_	DT|?|?
-6	food	food	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|05811214-n|SubjectiveAssessmentAttribute+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	chef	chef	NOUN	NN	_	4	nsubj	_	NN|09963574-n|Chef=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	preparing	prepare	VERB	VBG	_	0	ROOT	_	VBG|01664172-v|Cooking+
+5	some	some	DET	DT	_	6	det	_	DT|?|?
+6	food	food	NOUN	NN	_	4	dobj	_	NN|05811214-n|SubjectiveAssessmentAttribute+
+7	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	chef	chef	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09963574-n|Chef=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	preparing	prepare	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00602805-v|Learning+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	meal	meal	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|07573696-n|Meal=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	chef	chef	NOUN	NN	_	4	nsubj	_	NN|09963574-n|Chef=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	preparing	prepare	VERB	VBG	_	0	ROOT	_	VBG|00602805-v|Learning+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	meal	meal	NOUN	NN	_	4	dobj	_	NN|07573696-n|Meal=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

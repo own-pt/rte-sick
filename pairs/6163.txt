@@ -8,32 +8,32 @@ CONCEPTS B: Human+,Human+,Entity+,DramaticActing+,RecreationOrExercise+,Weapon=,
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10285313-n|Human+
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	NN|10129825-n|Human+
-6	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	8	cop	_	VBP|02604760-v|Entity+
-7	cheerfully	cheerfully	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	RB|00230749-r|EmotionalState+
-8	playing	play	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	VBG|01719302-v|DramaticActing+
-9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	CC|?|?
-10	wearing	wear	VERB	VBG	Number=Sing|fPOS=NOUN++NN	8	conj	_	VBG|00075021-v|RecreationOrExercise+
-11	arm	arm	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	NN|04565375-n|Weapon=
-12	floats	float	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	dobj	_	NNS|07923034-n|Beverage+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	8	nsubj	_	NN|10285313-n|Human+
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	the	the	DET	DT	_	5	det	_	DT|?|?
+5	girl	girl	NOUN	NN	_	2	conj	_	NN|10129825-n|Human+
+6	are	be	VERB	VBP	_	8	aux	_	VBP|02604760-v|Entity+
+7	cheerfully	cheerfully	ADV	RB	_	8	advmod	_	RB|00230749-r|EmotionalState+
+8	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+9	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+10	wearing	wear	VERB	VBG	_	8	conj	_	VBG|00075021-v|RecreationOrExercise+
+11	arm	arm	NOUN	NN	_	12	nn	_	NN|04565375-n|Weapon=
+12	floats	float	NOUN	NNS	_	10	dobj	_	NNS|07923034-n|Beverage+
+13	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10285313-n|Human+
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	NN|10129825-n|Human+
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	VBP|02604760-v|Entity+
-7	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
-9	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	conj	_	VBG|00075021-v|RecreationOrExercise+
-10	arm	arm	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	NN|04565375-n|Weapon=
-11	floats	float	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	dobj	_	NNS|07923034-n|Beverage+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	7	nsubj	_	NN|10285313-n|Human+
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	the	the	DET	DT	_	5	det	_	DT|?|?
+5	girl	girl	NOUN	NN	_	2	conj	_	NN|10129825-n|Human+
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+8	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+9	wearing	wear	VERB	VBG	_	7	conj	_	VBG|00075021-v|RecreationOrExercise+
+10	arm	arm	NOUN	NN	_	11	nn	_	NN|04565375-n|Weapon=
+11	floats	float	NOUN	NNS	_	9	dobj	_	NNS|07923034-n|Beverage+
+12	.	.	.	.	_	7	punct	_	Fp|?|?

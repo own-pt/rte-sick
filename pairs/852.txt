@@ -8,35 +8,35 @@ CONCEPTS B: Woman=,Hair+,Entity+,Increasing+,Wall=,Mineral+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|02472293-n|Hominid=
-3	with	with	ADP	IN	fPOS=ADP++IN	5	mark	_	IN|?|?
-4	equipment	equipment	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|03294048-n|Device+
-5	used	use	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	2	acl	_	VBN|01158872-v|IntentionalProcess+
-6	for	for	SCONJ	IN	fPOS=SCONJ++IN	7	mark	_	IN|?|?
-7	climbing	climb	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	advcl	_	VBG|00433232-v|Increasing+
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
-9	hanging	hang	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01482075-v|PhysicalAttribute+
-10	from	from	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-12	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	15	amod	_	JJ|00393105-a|White=
-13	,	,	PUNCT	,	fPOS=PUNCT++,	15	punct	_	Fc|?|?
-14	vertical	vertical	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	JJ|01235859-a|Vertical+
-15	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|14696793-n|Mineral+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	9	nsubj	_	NN|02472293-n|Hominid=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	equipment	equipment	NOUN	NN	_	3	pobj	_	NN|03294048-n|Device+
+5	used	use	VERB	VBN	_	4	partmod	_	VBN|01158872-v|IntentionalProcess+
+6	for	for	ADP	IN	_	5	prep	_	IN|?|?
+7	climbing	climb	NOUN	NN	_	6	pobj	_	VBG|00433232-v|Increasing+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	hanging	hang	VERB	VBG	_	0	ROOT	_	VBG|01482075-v|PhysicalAttribute+
+10	from	from	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	15	det	_	DT|?|?
+12	white	white	NOUN	NN	_	15	amod	_	JJ|00393105-a|White=
+13	,	,	.	,	_	15	punct	_	Fc|?|?
+14	vertical	vertical	ADJ	JJ	_	15	amod	_	JJ|01235859-a|Vertical+
+15	rock	rock	NOUN	NN	_	10	pobj	_	NN|14696793-n|Mineral+
+16	.	.	.	.	_	9	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10787470-n|Woman=
-3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	ponytail	ponytail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|05260380-n|Hair+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00433232-v|Increasing+
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	wall	wall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	NN|04546855-n|Wall=
-10	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-11	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|14696793-n|Mineral+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	7	nsubj	_	NN|10787470-n|Woman=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	ponytail	ponytail	NOUN	NN	_	3	pobj	_	NN|05260380-n|Hair+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	climbing	climb	VERB	VBG	_	0	ROOT	_	VBG|00433232-v|Increasing+
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	wall	wall	NOUN	NN	_	7	dobj	_	NN|04546855-n|Wall=
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	rock	rock	NOUN	NN	_	10	pobj	_	NN|14696793-n|Mineral+
+12	.	.	.	.	_	7	punct	_	Fp|?|?

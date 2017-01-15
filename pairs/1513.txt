@@ -8,21 +8,21 @@ CONCEPTS B: Hominid=,Entity+,DramaticActing+,RadiatingSound+
 
 CONLL A:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02472293-n|Hominid=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	table	table	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	NN|08266235-n|ContentBearingObject+
-6	tennis	tennis	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|00482298-n|Tennis=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	table	table	NOUN	NN	_	6	nn	_	NN|08266235-n|ContentBearingObject+
+6	tennis	tennis	NOUN	NN	_	4	dobj	_	NN|00482298-n|Tennis=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02472293-n|Hominid=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	ping	ping	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	xcomp	_	NN|07389569-n|RadiatingSound+
-6	pong	pong	ADV	RB	fPOS=ADV++RB	5	advmod	_	RB|?|?
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	ping	ping	NOUN	NN	_	6	nn	_	NN|07389569-n|RadiatingSound+
+6	pong	pong	NOUN	NN	_	4	dobj	_	RB|?|?
+7	.	.	.	.	_	4	punct	_	Fp|?|?

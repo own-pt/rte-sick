@@ -8,27 +8,27 @@ CONCEPTS B: Artifact+,Entity+,Entity+,EndFn+,Hand+,GamePiece+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|03716327-n|GamePiece+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	breaking	break	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02681524-v|EndFn+
-5	tiles	tile	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|15074568-n|Artifact+
-6	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	8	nmod:poss	_	PRP$|?|?
-8	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	NNS|05564590-n|Hand+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|03716327-n|GamePiece+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	breaking	break	VERB	VBG	_	0	ROOT	_	VBG|02681524-v|EndFn+
+5	tiles	tile	NOUN	NNS	_	4	dobj	_	NNS|15074568-n|Artifact+
+6	with	with	ADP	IN	_	4	prep	_	IN|?|?
+7	his	his	PRON	PRP$	_	8	poss	_	PRP$|?|?
+8	hands	hand	NOUN	NNS	_	6	pobj	_	NNS|05564590-n|Hand+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Tiles	tile	NOUN	NNS	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	nsubjpass	_	NNS|15074568-n|Artifact+
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-3	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	4	auxpass	_	VBG|02604760-v|Entity+
-4	broken	break	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|02681524-v|EndFn+
-5	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	7	nmod:poss	_	PRP$|?|?
-7	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|05564590-n|Hand+
-8	by	by	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03716327-n|GamePiece+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Tiles	tile	NOUN	NNS	_	4	nsubjpass	_	NNS|15074568-n|Artifact+
+2	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+3	being	be	VERB	VBG	_	4	auxpass	_	VBG|02604760-v|Entity+
+4	broken	break	VERB	VBN	_	0	ROOT	_	VBN|02681524-v|EndFn+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	his	his	PRON	PRP$	_	7	poss	_	PRP$|?|?
+7	hands	hand	NOUN	NNS	_	5	pobj	_	NNS|05564590-n|Hand+
+8	by	by	ADP	IN	_	4	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	man	man	NOUN	NN	_	8	pobj	_	NN|03716327-n|GamePiece+
+11	.	.	.	.	_	4	punct	_	Fp|?|?

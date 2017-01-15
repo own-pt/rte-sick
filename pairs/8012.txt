@@ -8,31 +8,31 @@ CONCEPTS B: Device+,Entity+,Entity+,PhysicalAttribute+,Tennis=,Human+,earlier+,G
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	tennis	tennis	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	compound	_	NN|00482298-n|Tennis=
-3	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10439851-n|Human+
-4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-5	mid	mid	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	6	compound	_	JJ|00816324-a|earlier+
-6	game	game	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|00455599-n|Game=
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-8	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01216670-v|Touching+
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	racquet	racquet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	NN|04039381-n|Device+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	tennis	tennis	NOUN	NN	_	3	nn	_	NN|00482298-n|Tennis=
+3	player	player	NOUN	NN	_	8	nsubj	_	NN|10439851-n|Human+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	mid	mid	ADJ	JJ	_	6	amod	_	JJ|00816324-a|earlier+
+6	game	game	NOUN	NN	_	4	pobj	_	NN|00455599-n|Game=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|01216670-v|Touching+
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	racquet	racquet	NOUN	NN	_	8	dobj	_	NN|04039381-n|Device+
+11	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	racquet	racquet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	NN|04039381-n|Device+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	VBG|02604760-v|Entity+
-5	held	hold	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|02701210-v|PhysicalAttribute+
-6	by	by	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	tennis	tennis	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	NN|00482298-n|Tennis=
-9	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|10439851-n|Human+
-10	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	mid	mid	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	compound	_	JJ|00816324-a|earlier+
-12	game	game	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|00455599-n|Game=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	racquet	racquet	NOUN	NN	_	5	nsubjpass	_	NN|04039381-n|Device+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	held	hold	VERB	VBN	_	0	ROOT	_	VBN|02701210-v|PhysicalAttribute+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	tennis	tennis	NOUN	NN	_	9	nn	_	NN|00482298-n|Tennis=
+9	player	player	NOUN	NN	_	6	pobj	_	NN|10439851-n|Human+
+10	in	in	ADP	IN	_	5	prep	_	IN|?|?
+11	mid	mid	ADJ	JJ	_	12	amod	_	JJ|00816324-a|earlier+
+12	game	game	NOUN	NN	_	10	pobj	_	NN|00455599-n|Game=
+13	.	.	.	.	_	5	punct	_	Fp|?|?

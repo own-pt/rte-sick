@@ -8,41 +8,41 @@ CONCEPTS B: Woman=,Entity+,HumanYouth=,AsianEthnicity=,Glove+,SurfaceChange+,Col
 
 CONLL A:
 
-1	A	a	DET	DT	Number=Sing|fPOS=PROPN++NNP	4	det	_	DT|?|?
-2	young	young	VERB	VBN	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	4	amod	_	JJ|01646941-a|HumanYouth=
-3	Asian	asian	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|02968525-a|AsianEthnicity=
-4	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|10787470-n|Woman=
-5	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	pink	pink	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	amod	_	JJ|00379595-a|Pink+
-7	gloves	glove	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|03441112-n|Glove+
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
-9	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-10	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|15043763-n|Snowing=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	4	amod	_	JJ|01646941-a|HumanYouth=
+3	Asian	asian	ADJ	JJ	_	4	amod	_	JJ|02968525-a|AsianEthnicity=
+4	woman	woman	NOUN	NN	_	9	nsubj	_	NN|10787470-n|Woman=
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	pink	pink	ADJ	JJ	_	7	amod	_	JJ|00379595-a|Pink+
+7	gloves	glove	NOUN	NNS	_	5	pobj	_	NNS|03441112-n|Glove+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+10	in	in	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	snow	snow	NOUN	NN	_	10	pobj	_	NN|15043763-n|Snowing=
+13	.	.	.	.	_	9	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	nsubj	_	NN|10787470-n|Woman=
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
-4	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	6	nsubj	_	WP|?|?
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02604760-v|Entity+
-6	young	young	ADJ	JJ	Number=Sing|fPOS=PROPN++NNP	2	acl:relcl	_	JJ|01646941-a|HumanYouth=
-7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
-8	Asian	asian	ADJ	JJ	Number=Sing|fPOS=PROPN++NNP	6	conj	_	JJ|02968525-a|AsianEthnicity=
-9	,	,	PUNCT	,	fPOS=PUNCT++,	17	punct	_	Fc|?|?
-10	with	with	ADP	IN	fPOS=SCONJ++IN	11	case	_	IN|?|?
-11	gloves	glove	NOUN	NNS	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	17	nmod	_	NNS|03441112-n|Glove+
-12	colored	color	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	11	acl	_	VBN|00283911-v|SurfaceChange+
-13	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-14	pink	pink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	NN|04970916-n|ColorAttribute+
-15	,	,	PUNCT	,	fPOS=PUNCT++,	17	punct	_	Fc|?|?
-16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	17	aux	_	VBZ|02604760-v|Entity+
-17	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-18	in	in	ADP	IN	fPOS=ADP++IN	20	case	_	IN|?|?
-19	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	20	det	_	DT|?|?
-20	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	nmod	_	NN|15043763-n|Snowing=
-21	.	.	PUNCT	.	fPOS=PUNCT++.	17	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	17	nsubj	_	NN|10787470-n|Woman=
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	_	6	nsubj	_	WP|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	young	young	ADJ	JJ	_	2	rcmod	_	JJ|01646941-a|HumanYouth=
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	Asian	asian	ADJ	JJ	_	6	conj	_	JJ|02968525-a|AsianEthnicity=
+9	,	,	.	,	_	6	punct	_	Fc|?|?
+10	with	with	ADP	IN	_	6	prep	_	IN|?|?
+11	gloves	glove	NOUN	NNS	_	10	pobj	_	NNS|03441112-n|Glove+
+12	colored	color	VERB	VBN	_	11	partmod	_	VBN|00283911-v|SurfaceChange+
+13	in	in	ADP	IN	_	12	prep	_	IN|?|?
+14	pink	pink	ADJ	JJ	_	13	pobj	_	NN|04970916-n|ColorAttribute+
+15	,	,	.	,	_	2	punct	_	Fc|?|?
+16	is	be	VERB	VBZ	_	17	aux	_	VBZ|02604760-v|Entity+
+17	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+18	in	in	ADP	IN	_	17	prep	_	IN|?|?
+19	the	the	DET	DT	_	20	det	_	DT|?|?
+20	snow	snow	NOUN	NN	_	18	pobj	_	NN|15043763-n|Snowing=
+21	.	.	.	.	_	17	punct	_	Fp|?|?

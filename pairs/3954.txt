@@ -8,37 +8,37 @@ CONCEPTS B: Human+,Entity+,Transportation+,Bicycle=,PositionalAttribute+,Mixture
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10285313-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02102398-v|Transportation+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|02834778-n|Bicycle=
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	top	top	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|08663354-n|PositionalAttribute+
-10	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-12	fence	fence	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	compound	_	NN|03327234-n|Device+
-13	made	make	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	VBN|02621395-v|Attribute+
-14	of	of	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-15	metal	metal	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	NN|14586769-n|Mixture+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	bike	bike	NOUN	NN	_	4	dobj	_	NN|02834778-n|Bicycle=
+7	on	on	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	top	top	NOUN	NN	_	7	pobj	_	NN|08663354-n|PositionalAttribute+
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	fence	fence	NOUN	NN	_	10	pobj	_	NN|03327234-n|Device+
+13	made	make	VERB	VBN	_	12	partmod	_	VBN|02621395-v|Attribute+
+14	of	of	ADP	IN	_	13	prep	_	IN|?|?
+15	metal	metal	NOUN	NN	_	14	pobj	_	NN|14586769-n|Mixture+
+16	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10285313-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02102398-v|Transportation+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|02834778-n|Bicycle=
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	top	top	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|08663354-n|PositionalAttribute+
-10	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-12	metal	metal	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	compound	_	NN|14586769-n|Mixture+
-13	fence	fence	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|03327234-n|Device+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	bike	bike	NOUN	NN	_	4	dobj	_	NN|02834778-n|Bicycle=
+7	on	on	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	top	top	NOUN	NN	_	7	pobj	_	NN|08663354-n|PositionalAttribute+
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	metal	metal	NOUN	NN	_	13	nn	_	NN|14586769-n|Mixture+
+13	fence	fence	NOUN	NN	_	10	pobj	_	NN|03327234-n|Device+
+14	.	.	.	.	_	4	punct	_	Fp|?|?

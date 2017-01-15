@@ -8,27 +8,27 @@ CONCEPTS B: Hominid=,White=,Automobile=,Entity+,Entity+,Transportation+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00393105-a|White=
-3	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubjpass	_	NN|02958343-n|Automobile=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-5	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	6	auxpass	_	VBG|02604760-v|Entity+
-6	driven	drive	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|01930874-v|Transportation+
-7	by	by	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|02472293-n|Hominid=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	car	car	NOUN	NN	_	6	nsubjpass	_	NN|02958343-n|Automobile=
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	being	be	VERB	VBG	_	6	auxpass	_	VBG|02604760-v|Entity+
+6	driven	drive	VERB	VBN	_	0	ROOT	_	VBN|01930874-v|Transportation+
+7	by	by	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	man	man	NOUN	NN	_	7	pobj	_	NN|02472293-n|Hominid=
+10	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod:poss	_	NN|02472293-n|Hominid=
-3	's	's	PART	POS	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	2	case	_	POS|?|?
-4	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	JJ|00393105-a|White=
-5	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubjpass	_	NN|02958343-n|Automobile=
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-7	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	8	auxpass	_	VBG|02604760-v|Entity+
-8	driven	drive	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|01930874-v|Transportation+
-9	away	away	ADV	RB	fPOS=ADV++RB	8	advmod	_	RP|00234951-r|?
-10	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	poss	_	NN|02472293-n|Hominid=
+3	's	's	PRT	POS	_	2	possessive	_	POS|?|?
+4	white	white	ADJ	JJ	_	5	amod	_	JJ|00393105-a|White=
+5	car	car	NOUN	NN	_	8	nsubjpass	_	NN|02958343-n|Automobile=
+6	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+7	being	be	VERB	VBG	_	8	auxpass	_	VBG|02604760-v|Entity+
+8	driven	drive	VERB	VBN	_	0	ROOT	_	VBN|01930874-v|Transportation+
+9	away	away	ADV	RB	_	8	advmod	_	RP|00234951-r|?
+10	.	.	.	.	_	8	punct	_	Fp|?|?

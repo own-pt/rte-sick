@@ -8,28 +8,28 @@ CONCEPTS B: HumanBaby=,HoofedMammal+,SocialRole+,SocialRole+,FullyFormed+,Hoofed
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	baby	baby	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	NN|09827683-n|HumanBaby=
-3	rhino	rhino	NOUN	NN	fPOS=ADV++RB	8	nsubj	_	NN|02391994-n|HoofedMammal+
-4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	CC|?|?
-5	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	6	nmod:poss	_	PRP$|?|?
-6	mother	mother	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	conj	_	NN|10332385-n|BiologicalAttribute+
-7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	8	aux	_	VBP|02604760-v|Entity+
-8	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-9	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	pen	pen	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|03907227-n|StationaryArtifact+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	baby	baby	NOUN	NN	_	3	nn	_	NN|09827683-n|HumanBaby=
+3	rhino	rhino	NOUN	NN	_	8	nsubj	_	NN|02391994-n|HoofedMammal+
+4	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+5	its	its	PRON	PRP$	_	6	poss	_	PRP$|?|?
+6	mother	mother	NOUN	NN	_	3	conj	_	NN|10332385-n|BiologicalAttribute+
+7	are	be	VERB	VBP	_	8	aux	_	VBP|02604760-v|Entity+
+8	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	pen	pen	NOUN	NN	_	9	pobj	_	NN|03907227-n|StationaryArtifact+
+12	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	baby	baby	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	NN|09827683-n|HumanBaby=
-3	rhino	rhino	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02391994-n|HoofedMammal+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02445925-v|SocialRole+
-5	following	follow	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02445925-v|SocialRole+
-6	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	adult	adult	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|09605289-n|FullyFormed+
-8	rhino	rhino	ADV	RB	fPOS=ADV++RB	7	advmod	_	NN|02391994-n|HoofedMammal+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	baby	baby	NOUN	NN	_	3	nn	_	NN|09827683-n|HumanBaby=
+3	rhino	rhino	NOUN	NN	_	5	nsubj	_	NN|02391994-n|HoofedMammal+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02445925-v|SocialRole+
+5	following	follow	VERB	VBG	_	0	ROOT	_	VBG|02445925-v|SocialRole+
+6	an	a	DET	DT	_	8	det	_	DT|?|?
+7	adult	adult	NOUN	NN	_	8	nn	_	NN|09605289-n|FullyFormed+
+8	rhino	rhino	NOUN	NN	_	5	dobj	_	NN|02391994-n|HoofedMammal+
+9	.	.	.	.	_	5	punct	_	Fp|?|?

@@ -8,23 +8,23 @@ CONCEPTS B: Milk=,Entity+,Entity+,Drinking+,Whip+
 
 CONLL A:
 
-1	Milk	milk	PROPN	NNP	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|07844042-n|Milk=
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02604760-v|Entity+
-3	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-4	kitten	kitten	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod:poss	_	NN|02122948-n|Feline+
-5	's	's	PART	POS	fPOS=PART++POS	4	case	_	POS|?|?
-6	drink	drink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|07885223-n|Beverage+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	Milk	milk	NOUN	NN	_	6	nsubj	_	NN|07844042-n|Milk=
+2	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+3	a	a	DET	DT	_	4	det	_	DT|?|?
+4	kitten	kitten	NOUN	NN	_	6	poss	_	NN|02122948-n|Feline+
+5	's	's	PRT	POS	_	4	possessive	_	POS|?|?
+6	drink	drink	NOUN	NN	_	0	ROOT	_	NN|07885223-n|Beverage+
+7	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	milk	milk	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	NN|07844042-n|Milk=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	VBG|02604760-v|Entity+
-5	drunk	drink	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|01171183-v|Drinking+
-6	by	by	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02985606-n|Whip+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	milk	milk	NOUN	NN	_	5	nsubjpass	_	NN|07844042-n|Milk=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	drunk	drink	VERB	VBN	_	0	ROOT	_	VBN|01171183-v|Drinking+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	cat	cat	NOUN	NN	_	6	pobj	_	NN|02985606-n|Whip+
+9	.	.	.	.	_	5	punct	_	Fp|?|?

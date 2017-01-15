@@ -8,24 +8,24 @@ CONCEPTS B: Sea=,Clothing+,Entity+,Hunting+,Region@
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	sea	sea	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	NN|09426788-n|Sea=
-3	turtle	turtle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|04502197-n|Clothing+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-5	not	not	PART	RB	fPOS=PART++RB	6	neg	_	RB|00024073-r|not=
-6	hunting	hunt	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01143838-v|Hunting+
-7	for	for	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-8	fish	fish	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|08688076-n|Region@
-9	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	sea	sea	NOUN	NN	_	3	nn	_	NN|09426788-n|Sea=
+3	turtle	turtle	NOUN	NN	_	6	nsubj	_	NN|04502197-n|Clothing+
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	not	not	ADV	RB	_	6	neg	_	RB|00024073-r|not=
+6	hunting	hunt	VERB	VBG	_	0	ROOT	_	VBG|01143838-v|Hunting+
+7	for	for	ADP	IN	_	6	prep	_	IN|?|?
+8	fish	fish	NOUN	NN	_	7	pobj	_	NN|08688076-n|Region@
+9	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	sea	sea	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	NN|09426788-n|Sea=
-3	turtle	turtle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|04502197-n|Clothing+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	hunting	hunting	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	NN|00452293-n|Hunting+
-6	for	for	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-7	fish	fish	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|08688076-n|Region@
-8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	sea	sea	NOUN	NN	_	3	nn	_	NN|09426788-n|Sea=
+3	turtle	turtle	NOUN	NN	_	5	nsubj	_	NN|04502197-n|Clothing+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	hunting	hunting	VERB	VBG	_	0	ROOT	_	NN|00452293-n|Hunting+
+6	for	for	ADP	IN	_	5	prep	_	IN|?|?
+7	fish	fish	NOUN	NNS	_	6	pobj	_	NN|08688076-n|Region@
+8	.	.	.	.	_	5	punct	_	Fp|?|?

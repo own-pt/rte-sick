@@ -8,29 +8,29 @@ CONCEPTS B: Canine+,GroupOfPeople=,Entity+,Walking=,Wood=
 
 CONLL A:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	women	woman	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	NNS|10787470-n|Woman=
-3	with	with	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|02084071-n|Canine+
-5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	VBP|02604760-v|Entity+
-6	walking	walk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
-7	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-9	forest	forest	NOUN	NN	Degree=Sup|fPOS=ADJ++JJS	10	compound	_	NN|09284015-n|Forest=
-10	path	path	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|08616311-n|Transitway+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	women	woman	NOUN	NNS	_	6	nsubj	_	NNS|10787470-n|Woman=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	dogs	dog	NOUN	NNS	_	3	pobj	_	NNS|02084071-n|Canine+
+5	are	be	VERB	VBP	_	6	aux	_	VBP|02604760-v|Entity+
+6	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	forest	forest	NOUN	NN	_	10	nn	_	NN|09284015-n|Forest=
+10	path	path	NOUN	NN	_	7	pobj	_	NN|08616311-n|Transitway+
+11	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubj	_	NNS|02084071-n|Canine+
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	5	nummod	_	Z|?|?
-5	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	conj	_	NNS|07942152-n|GroupOfPeople=
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	VBP|02604760-v|Entity+
-7	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
-8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	woods	wood	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	NNS|15098161-n|Wood=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	7	nsubj	_	NNS|02084071-n|Canine+
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	two	2	NUM	CD	_	5	num	_	Z|?|?
+5	people	people	NOUN	NNS	_	2	conj	_	NNS|07942152-n|GroupOfPeople=
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	woods	wood	NOUN	NNS	_	8	pobj	_	NNS|15098161-n|Wood=
+11	.	.	.	.	_	7	punct	_	Fp|?|?

@@ -8,40 +8,40 @@ CONCEPTS B: Man=,Entity+,Putting+,SubjectiveStrongNegativeAttribute+,SurfaceChan
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10287213-n|Man=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00052374-v|Putting+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-6	blue	blue	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	compound	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
-7	checkered	checker	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	8	amod	_	VBN|01692978-v|SurfaceChange+
-8	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|04197391-n|Shirt=
-9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	CC|?|?
-10	cheerfully	cheerfully	NOUN	NN	fPOS=ADV++RB	8	conj	_	RB|00230749-r|EmotionalState+
-11	riding	ride	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	10	acl	_	VBG|02102398-v|Transportation+
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	unicycle	unicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	NN|04509417-n|AgentPoweredVehicle+
-14	in	in	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-16	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	NN|04334599-n|Roadway=
-17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+5	a	a	DET	DT	_	8	det	_	DT|?|?
+6	blue	blue	ADJ	JJ	_	8	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+7	checkered	checker	VERB	VBN	_	8	amod	_	VBN|01692978-v|SurfaceChange+
+8	shirt	shirt	NOUN	NN	_	4	dobj	_	NN|04197391-n|Shirt=
+9	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+10	cheerfully	cheerfully	ADV	RB	_	11	advmod	_	RB|00230749-r|EmotionalState+
+11	riding	ride	VERB	VBG	_	4	conj	_	VBG|02102398-v|Transportation+
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	unicycle	unicycle	NOUN	NN	_	11	dobj	_	NN|04509417-n|AgentPoweredVehicle+
+14	in	in	ADP	IN	_	13	prep	_	IN|?|?
+15	the	the	DET	DT	_	16	det	_	DT|?|?
+16	street	street	NOUN	NN	_	14	pobj	_	NN|04334599-n|Roadway=
+17	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10287213-n|Man=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00052374-v|Putting+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-6	blue	blue	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	compound	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
-7	checkered	checker	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	8	amod	_	VBN|01692978-v|SurfaceChange+
-8	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|04197391-n|Shirt=
-9	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-10	riding	ride	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|02102398-v|Transportation+
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	unicycle	unicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	NN|04509417-n|AgentPoweredVehicle+
-13	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-14	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-15	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|04334599-n|Roadway=
-16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+5	a	a	DET	DT	_	8	det	_	DT|?|?
+6	blue	blue	ADJ	JJ	_	8	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+7	checkered	checker	VERB	VBN	_	8	amod	_	VBN|01692978-v|SurfaceChange+
+8	shirt	shirt	NOUN	NN	_	4	dobj	_	NN|04197391-n|Shirt=
+9	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+10	riding	ride	VERB	VBG	_	4	conj	_	VBG|02102398-v|Transportation+
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	unicycle	unicycle	NOUN	NN	_	10	dobj	_	NN|04509417-n|AgentPoweredVehicle+
+13	in	in	ADP	IN	_	12	prep	_	IN|?|?
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	street	street	NOUN	NN	_	13	pobj	_	NN|04334599-n|Roadway=
+16	.	.	.	.	_	4	punct	_	Fp|?|?

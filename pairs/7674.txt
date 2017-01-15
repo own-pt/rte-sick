@@ -8,37 +8,37 @@ CONCEPTS B: Hominid=,Entity+,IntentionalProcess+,BodyMotion+,ShoreArea=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	handstand	handstand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|00436187-n|BodyMotion+
-7	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-9	wet	wet	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	VBN|00214951-v|Wetting=
-10	sand	sand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|15019030-n|Sand=
-11	at	at	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	edge	edge	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03264136-n|Object+
-14	of	of	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-16	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	NN|14845743-n|Water=
-17	at	at	ADP	IN	fPOS=ADP++IN	19	case	_	IN|?|?
-18	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	DT|?|?
-19	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|09217230-n|ShoreArea=
-20	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	handstand	handstand	NOUN	NN	_	4	dobj	_	NN|00436187-n|BodyMotion+
+7	on	on	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	10	det	_	DT|?|?
+9	wet	wet	ADJ	JJ	_	10	amod	_	VBN|00214951-v|Wetting=
+10	sand	sand	NOUN	NN	_	7	pobj	_	NN|15019030-n|Sand=
+11	at	at	ADP	IN	_	4	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	edge	edge	NOUN	NN	_	11	pobj	_	NN|03264136-n|Object+
+14	of	of	ADP	IN	_	13	prep	_	IN|?|?
+15	the	the	DET	DT	_	16	det	_	DT|?|?
+16	water	water	NOUN	NN	_	14	pobj	_	NN|14845743-n|Water=
+17	at	at	ADP	IN	_	13	prep	_	IN|?|?
+18	the	the	DET	DT	_	19	det	_	DT|?|?
+19	beach	beach	NOUN	NN	_	17	pobj	_	NN|09217230-n|ShoreArea=
+20	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	performing	perform	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	handstand	handstand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|00436187-n|BodyMotion+
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	beach	beach	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|09217230-n|ShoreArea=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	handstand	handstand	NOUN	NN	_	4	dobj	_	NN|00436187-n|BodyMotion+
+7	on	on	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	beach	beach	NOUN	NN	_	7	pobj	_	NN|09217230-n|ShoreArea=
+10	.	.	.	.	_	4	punct	_	Fp|?|?

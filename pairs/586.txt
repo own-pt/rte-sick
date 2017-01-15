@@ -8,38 +8,38 @@ CONCEPTS B: Group=,Human+,Entity+,DramaticActing+,Ball=,FrontFn=,SubjectiveWeakP
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|09917593-n|HumanChild=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02604760-v|Entity+
-4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	RB|00024073-r|not=
-5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-6	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-7	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|08573472-n|FrontFn=
-8	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-11	door	door	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|03224032-n|Door+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	children	child	NOUN	NNS	_	5	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	front	front	NOUN	NN	_	6	pobj	_	NN|08573472-n|FrontFn=
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	large	large	ADJ	JJ	_	11	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+11	door	door	NOUN	NN	_	8	pobj	_	NN|03224032-n|Door+
+12	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|00031264-n|Group=
-3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|10285313-n|Human+
-5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	6	aux	_	VBP|02604760-v|Entity+
-6	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|02778669-n|Ball=
-10	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-11	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|08573472-n|FrontFn=
-12	of	of	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-14	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	16	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-15	door	door	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	compound	_	NN|03224032-n|Door+
-16	made	make	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	VBN|02621395-v|Attribute+
-17	of	of	ADP	IN	fPOS=ADP++IN	18	case	_	IN|?|?
-18	wood	wood	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	nmod	_	NN|15098161-n|Wood=
-19	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	boys	boy	NOUN	NNS	_	3	pobj	_	NNS|10285313-n|Human+
+5	are	be	VERB	VBP	_	6	aux	_	VBP|02604760-v|Entity+
+6	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+7	with	with	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	ball	ball	NOUN	NN	_	7	pobj	_	NN|02778669-n|Ball=
+10	in	in	ADP	IN	_	6	prep	_	IN|?|?
+11	front	front	NOUN	NN	_	10	pobj	_	NN|08573472-n|FrontFn=
+12	of	of	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	15	det	_	DT|?|?
+14	large	large	ADJ	JJ	_	15	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+15	door	door	NOUN	NN	_	12	pobj	_	NN|03224032-n|Door+
+16	made	make	VERB	VBN	_	15	partmod	_	VBN|02621395-v|Attribute+
+17	of	of	ADP	IN	_	16	prep	_	IN|?|?
+18	wood	wood	NOUN	NN	_	17	pobj	_	NN|15098161-n|Wood=
+19	.	.	.	.	_	6	punct	_	Fp|?|?

@@ -8,27 +8,27 @@ CONCEPTS B: GroupOfPeople=,PhysicalAttribute+,SittingDown+,Motion+,Cement=,Geogr
 
 CONLL A:
 
-1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-5	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-7	low	low	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	JJ|01212469-a|Motion+
-8	cement	cement	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	NN|14804175-n|Cement=
-9	ledge	ledge	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|09337253-n|GeographicArea+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Four	4	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	9	det	_	DT|?|?
+7	low	low	ADJ	JJ	_	9	amod	_	JJ|01212469-a|Motion+
+8	cement	cement	NOUN	NN	_	9	nn	_	NN|14804175-n|Cement=
+9	ledge	ledge	NOUN	NN	_	5	pobj	_	NN|09337253-n|GeographicArea+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-5	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-7	low	low	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|01212469-a|Motion+
-8	cement	cement	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	NN|14804175-n|Cement=
-9	ledge	ledge	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|09337253-n|GeographicArea+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Four	4	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	9	det	_	DT|?|?
+7	low	low	ADJ	JJ	_	9	amod	_	JJ|01212469-a|Motion+
+8	cement	cement	NOUN	NN	_	9	nn	_	NN|14804175-n|Cement=
+9	ledge	ledge	NOUN	NN	_	5	pobj	_	NN|09337253-n|GeographicArea+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -8,34 +8,34 @@ CONCEPTS B: Human+,Canine+,Entity+,not=,Smelling+,CorpuscularObject+,SubjectiveS
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	brown	brown	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	JJ|00245112-a|Human+
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	sniffing	sniff	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02125032-v|Smelling+
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	back	back	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|02767433-n|CorpuscularObject+
-8	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-10	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-11	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|00392812-a|Black=
-12	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|02084071-n|Canine+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	sniffing	sniff	VERB	VBG	_	0	ROOT	_	VBG|02125032-v|Smelling+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	back	back	NOUN	NN	_	5	dobj	_	NN|02767433-n|CorpuscularObject+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	12	det	_	DT|?|?
+10	small	small	ADJ	JJ	_	12	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+11	black	black	ADJ	JJ	_	12	amod	_	JJ|00392812-a|Black=
+12	dog	dog	NOUN	NN	_	8	pobj	_	NN|02084071-n|Canine+
+13	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	JJ|00245112-a|Human+
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-5	not	not	PART	RB	fPOS=PART++RB	6	neg	_	RB|00024073-r|not=
-6	sniffing	sniff	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02125032-v|Smelling+
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	back	back	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|02767433-n|CorpuscularObject+
-9	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-11	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-12	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	JJ|00392812-a|Black=
-13	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|02084071-n|Canine+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	dog	dog	NOUN	NN	_	6	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	not	not	ADV	RB	_	6	neg	_	RB|00024073-r|not=
+6	sniffing	sniff	VERB	VBG	_	0	ROOT	_	VBG|02125032-v|Smelling+
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	back	back	NOUN	NN	_	6	dobj	_	NN|02767433-n|CorpuscularObject+
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	13	det	_	DT|?|?
+11	small	small	ADJ	JJ	_	13	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+12	black	black	ADJ	JJ	_	13	amod	_	JJ|00392812-a|Black=
+13	dog	dog	NOUN	NN	_	9	pobj	_	NN|02084071-n|Canine+
+14	.	.	.	.	_	6	punct	_	Fp|?|?

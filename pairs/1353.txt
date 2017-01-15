@@ -8,30 +8,30 @@ CONCEPTS B: Canine+,Entity+,Motion+,Object+,Object+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	cute	cute	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00167278-a|SubjectiveStrongPositiveAttribute+
-3	puppy	puppy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|10493835-n|SocialRole+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-5	repeatedly	repeatedly	ADV	RB	fPOS=ADV++RB	6	advmod	_	RB|00176880-r|SubjectiveAssessmentAttribute+
-6	rolling	roll	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01866192-v|Motion+
-7	from	from	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-8	side	side	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|08649345-n|Region+
-9	to	to	ADP	IN	fPOS=ADP++IN	10	case	_	TO|?|?
-10	side	side	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|08649345-n|Region+
-11	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-12	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	13	nmod:poss	_	PRP$|?|?
-13	back	back	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|02767433-n|CorpuscularObject+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	cute	cute	ADJ	JJ	_	3	amod	_	JJ|00167278-a|SubjectiveStrongPositiveAttribute+
+3	puppy	puppy	NOUN	NN	_	6	nsubj	_	NN|10493835-n|SocialRole+
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	repeatedly	repeatedly	ADV	RB	_	6	advmod	_	RB|00176880-r|SubjectiveAssessmentAttribute+
+6	rolling	roll	VERB	VBG	_	0	ROOT	_	VBG|01866192-v|Motion+
+7	from	from	ADP	IN	_	6	prep	_	IN|?|?
+8	side	side	NOUN	NN	_	7	pobj	_	NN|08649345-n|Region+
+9	to	to	ADP	IN	_	6	prep	_	TO|?|?
+10	side	side	NOUN	NN	_	9	pobj	_	NN|08649345-n|Region+
+11	on	on	ADP	IN	_	6	prep	_	IN|?|?
+12	its	its	PRON	PRP$	_	13	poss	_	PRP$|?|?
+13	back	back	NOUN	NN	_	11	pobj	_	NN|02767433-n|CorpuscularObject+
+14	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02084071-n|Canine+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	rolling	roll	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01866192-v|Motion+
-5	from	from	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-6	side	side	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|08510666-n|Object+
-7	to	to	ADP	IN	fPOS=PART++TO	8	mark	_	TO|?|?
-8	side	side	NOUN	NN	VerbForm=Inf|fPOS=VERB++VB	4	advcl	_	NN|08510666-n|Object+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	rolling	roll	VERB	VBG	_	0	ROOT	_	VBG|01866192-v|Motion+
+5	from	from	ADP	IN	_	4	prep	_	IN|?|?
+6	side	side	NOUN	NN	_	5	pobj	_	NN|08510666-n|Object+
+7	to	to	ADP	IN	_	4	prep	_	TO|?|?
+8	side	side	NOUN	NN	_	7	pobj	_	NN|08510666-n|Object+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

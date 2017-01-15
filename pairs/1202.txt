@@ -8,25 +8,25 @@ CONCEPTS B: Hominid=,Entity+,Speaking+,Attribute+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	making	make	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01617192-v|Process+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	speech	speech	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|07109196-n|Speaking+
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	podium	podium	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03159640-n|Artifact+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	making	make	VERB	VBG	_	0	ROOT	_	VBG|01617192-v|Process+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	speech	speech	NOUN	NN	_	4	dobj	_	NN|07109196-n|Speaking+
+7	on	on	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	podium	podium	NOUN	NN	_	7	pobj	_	NN|03159640-n|Artifact+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	speaking	speak	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00963570-v|Speaking+
-5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	stage	stage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|13939892-n|Attribute+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	speaking	speak	VERB	VBG	_	0	ROOT	_	VBG|00963570-v|Speaking+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	stage	stage	NOUN	NN	_	5	pobj	_	NN|13939892-n|Attribute+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

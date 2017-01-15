@@ -8,31 +8,31 @@ CONCEPTS B: Hominid=,Bicycle=,Entity+,Carrying=,Bicycle=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	RB|00024073-r|not=
-5	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	wheelie	wheelie	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|?|?
-8	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	mountain	mountain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	NN|13774404-n|SubjectiveAssessmentAttribute+
-11	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|02834778-n|Bicycle=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	wheelie	wheelie	NOUN	NN	_	5	dobj	_	NN|?|?
+8	on	on	ADP	IN	_	5	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	mountain	mountain	NOUN	NN	_	11	nn	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+11	bike	bike	NOUN	NN	_	8	pobj	_	NN|02834778-n|Bicycle=
+12	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|02472293-n|Hominid=
-3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	bicycle	bicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|02834778-n|Bicycle=
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01955984-v|Carrying=
-8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	one	1	NUM	CD	NumType=Card|fPOS=NUM++CD	10	nummod	_	Z|?|?
-10	wheel	wheel	NOUN	NN	PronType=Int|fPOS=ADV++WRB	7	nmod	_	NN|02834778-n|Bicycle=
-11	only	only	ADV	RB	fPOS=ADV++RB	10	advmod	_	RB|00004722-r|?
-12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|02472293-n|Hominid=
+3	on	on	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	bicycle	bicycle	NOUN	NN	_	3	pobj	_	NN|02834778-n|Bicycle=
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	one	1	NUM	CD	_	10	num	_	Z|?|?
+10	wheel	wheel	NOUN	NN	_	8	pobj	_	NN|02834778-n|Bicycle=
+11	only	only	ADV	RB	_	10	advmod	_	RB|00004722-r|?
+12	.	.	.	.	_	7	punct	_	Fp|?|?

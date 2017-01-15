@@ -8,24 +8,24 @@ CONCEPTS B: Giving+,Human+,Entity+,Process+,Bicycle=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	helmeted	helmeted	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	3	amod	_	JJ|01094767-a|Giving+
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10129825-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02102398-v|Transportation+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|02834778-n|Bicycle=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	helmeted	helmeted	ADJ	JJ	_	3	amod	_	JJ|01094767-a|Giving+
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	bike	bike	NOUN	NN	_	5	dobj	_	NN|02834778-n|Bicycle=
+8	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	helmeted	helmeted	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	3	amod	_	JJ|01094767-a|Giving+
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10129825-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	perching	perch	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01978700-v|Process+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02834778-n|Bicycle=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	helmeted	helmeted	ADJ	JJ	_	3	amod	_	JJ|01094767-a|Giving+
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	perching	perch	VERB	VBG	_	0	ROOT	_	VBG|01978700-v|Process+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	bike	bike	NOUN	NN	_	6	pobj	_	NN|02834778-n|Bicycle=
+9	.	.	.	.	_	5	punct	_	Fp|?|?

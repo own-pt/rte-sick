@@ -8,43 +8,43 @@ CONCEPTS B: GamePiece+,Entity+,PhysicalAttribute+,Bicycle=,Entity+,WrittenCommun
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10287213-n|Man=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
-4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00047745-v|CoveringFn=
-5	clothes	clothes	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|02728440-n|Clothing+
-6	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	8	nsubjpass	_	WDT|?|?
-7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	8	auxpass	_	VBP|02655135-v|PhysicalAttribute+
-8	covered	cover	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	5	acl:relcl	_	VBN|01332730-v|Covering+
-9	with	with	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-10	paint	paint	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|03875218-n|Paint+
-11	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	CC|?|?
-12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	13	aux	_	VBZ|02655135-v|PhysicalAttribute+
-13	sitting	sit	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	8	conj	_	VBG|01543123-v|SittingDown+
-14	outside	outside	ADV	RB	fPOS=ADV++RB	13	advmod	_	IN|?|?
-15	in	in	ADP	IN	fPOS=ADP++IN	18	case	_	IN|?|?
-16	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	18	det	_	DT|?|?
-17	busy	busy	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	18	amod	_	JJ|00292937-a|SubjectiveWeakNegativeAttribute+
-18	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	NN|08497294-n|GeographicArea+
-19	writing	write	VERB	VBG	Number=Sing|fPOS=NOUN++NN	13	advcl	_	VBG|00993014-v|WrittenCommunication=
-20	something	something	NOUN	NN	Number=Sing|fPOS=NOUN++NN	19	dobj	_	PRP|?|?
-21	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+5	clothes	clothes	NOUN	NNS	_	4	dobj	_	NNS|02728440-n|Clothing+
+6	that	that	DET	WDT	_	8	nsubjpass	_	WDT|?|?
+7	are	be	VERB	VBP	_	8	auxpass	_	VBP|02655135-v|PhysicalAttribute+
+8	covered	cover	VERB	VBN	_	5	rcmod	_	VBN|01332730-v|Covering+
+9	with	with	ADP	IN	_	8	prep	_	IN|?|?
+10	paint	paint	NOUN	NN	_	9	pobj	_	NN|03875218-n|Paint+
+11	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+12	is	be	VERB	VBZ	_	13	aux	_	VBZ|02655135-v|PhysicalAttribute+
+13	sitting	sit	VERB	VBG	_	8	conj	_	VBG|01543123-v|SittingDown+
+14	outside	outside	ADV	RB	_	13	advmod	_	IN|?|?
+15	in	in	ADP	IN	_	13	prep	_	IN|?|?
+16	a	a	DET	DT	_	18	det	_	DT|?|?
+17	busy	busy	ADJ	JJ	_	18	amod	_	JJ|00292937-a|SubjectiveWeakNegativeAttribute+
+18	area	area	NOUN	NN	_	15	pobj	_	NN|08497294-n|GeographicArea+
+19	writing	write	VERB	VBG	_	18	partmod	_	VBG|00993014-v|WrittenCommunication=
+20	something	something	NOUN	NN	_	19	dobj	_	PRP|?|?
+21	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|03716327-n|GamePiece+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-5	near	near	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02834778-n|Bicycle=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
-10	writing	write	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|00993014-v|WrittenCommunication=
-11	on	on	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-13	piece	piece	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	NN|03716327-n|GamePiece+
-14	paper	paper	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|06267145-n|Newspaper=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|03716327-n|GamePiece+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	near	near	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	bike	bike	NOUN	NN	_	5	pobj	_	NN|02834778-n|Bicycle=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	writing	write	VERB	VBG	_	4	conj	_	VBG|00993014-v|WrittenCommunication=
+11	on	on	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	14	det	_	DT|?|?
+13	piece	piece	NOUN	NN	_	14	nn	_	NN|03716327-n|GamePiece+
+14	paper	paper	NOUN	NN	_	11	pobj	_	NN|06267145-n|Newspaper=
+15	.	.	.	.	_	4	punct	_	Fp|?|?

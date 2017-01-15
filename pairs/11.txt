@@ -8,37 +8,37 @@ CONCEPTS B: Human+,Canine+,Entity+,Helping=,Animal=,FrontFn=,Man=,Trousers+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	JJ|00245112-a|Human+
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	attacking	attack	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01119169-v|Attack=
-6	another	another	DET	DT	fPOS=DET++DT	7	det	_	DT|?|?
-7	animal	animal	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|00015388-n|Animal=
-8	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-9	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|08573472-n|FrontFn=
-10	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|10287213-n|Man=
-13	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-14	pants	pant	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	NNS|04489008-n|Trousers+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	attacking	attack	VERB	VBG	_	0	ROOT	_	VBG|01119169-v|Attack=
+6	another	another	DET	DT	_	7	det	_	DT|?|?
+7	animal	animal	NOUN	NN	_	5	dobj	_	NN|00015388-n|Animal=
+8	in	in	ADP	IN	_	5	prep	_	IN|?|?
+9	front	front	NOUN	NN	_	8	pobj	_	NN|08573472-n|FrontFn=
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	man	man	NOUN	NN	_	10	pobj	_	NN|10287213-n|Man=
+13	in	in	ADP	IN	_	12	prep	_	IN|?|?
+14	pants	pant	NOUN	NNS	_	13	pobj	_	NNS|04489008-n|Trousers+
+15	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	brown	brown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	JJ|00245112-a|Human+
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	helping	help	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02547586-v|Helping=
-6	another	another	DET	DT	fPOS=DET++DT	7	det	_	DT|?|?
-7	animal	animal	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|00015388-n|Animal=
-8	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-9	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|08573472-n|FrontFn=
-10	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|10287213-n|Man=
-13	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-14	pants	pant	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	NNS|04489008-n|Trousers+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	helping	help	VERB	VBG	_	0	ROOT	_	VBG|02547586-v|Helping=
+6	another	another	DET	DT	_	7	det	_	DT|?|?
+7	animal	animal	NOUN	NN	_	5	dobj	_	NN|00015388-n|Animal=
+8	in	in	ADP	IN	_	5	prep	_	IN|?|?
+9	front	front	NOUN	NN	_	8	pobj	_	NN|08573472-n|FrontFn=
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	man	man	NOUN	NN	_	10	pobj	_	NN|10287213-n|Man=
+13	in	in	ADP	IN	_	12	prep	_	IN|?|?
+14	pants	pant	NOUN	NNS	_	13	pobj	_	NNS|04489008-n|Trousers+
+15	.	.	.	.	_	5	punct	_	Fp|?|?

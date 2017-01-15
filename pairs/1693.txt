@@ -8,22 +8,22 @@ CONCEPTS B: SubjectiveStrongNegativeAttribute+,Whip+,Entity+,Drinking+,Subjectiv
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	kitten	kitten	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02122948-n|Feline+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	drinking	drink	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01171183-v|Drinking+
-5	fresh	fresh	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|01067694-a|SubjectiveWeakPositiveAttribute+
-6	milk	milk	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|05399034-n|BodySubstance+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	kitten	kitten	NOUN	NN	_	4	nsubj	_	NN|02122948-n|Feline+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	drinking	drink	VERB	VBG	_	0	ROOT	_	VBG|01171183-v|Drinking+
+5	fresh	fresh	ADJ	JJ	_	6	amod	_	JJ|01067694-a|SubjectiveWeakPositiveAttribute+
+6	milk	milk	NOUN	NN	_	4	dobj	_	NN|05399034-n|BodySubstance+
+7	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|02985606-n|Whip+
-4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	7	cop	_	VBZ|02604760-v|Entity+
-5	drinking	drink	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	amod	_	VBG|01171183-v|Drinking+
-6	fresh	fresh	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|01067694-a|SubjectiveWeakPositiveAttribute+
-7	milk	milk	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|05399034-n|BodySubstance+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	cat	cat	NOUN	NN	_	5	nsubj	_	NN|02985606-n|Whip+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	drinking	drink	VERB	VBG	_	0	ROOT	_	VBG|01171183-v|Drinking+
+6	fresh	fresh	ADJ	JJ	_	7	amod	_	JJ|01067694-a|SubjectiveWeakPositiveAttribute+
+7	milk	milk	NOUN	NN	_	5	dobj	_	NN|05399034-n|BodySubstance+
+8	.	.	.	.	_	5	punct	_	Fp|?|?

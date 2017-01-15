@@ -8,36 +8,36 @@ CONCEPTS B: Football+,Human+,Entity+,Publication+,Human+,Transportation+,Footbal
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	NN|00468480-n|Football+
-3	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	NN|10439851-n|Human+
-4	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	purple	purple	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|01591394-a|SocialRole+
-7	jersey	jersey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|08887238-n|HoofedMammal+
-8	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
-9	breathlessly	breathlessly	ADV	RB	fPOS=ADV++RB	10	advmod	_	RB|00219748-r|Breathing+
-10	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01926311-v|Running=
-11	with	with	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|02778669-n|Ball=
-14	for	for	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-16	touchdown	touchdown	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|00188766-n|FootballTouchdown+
-17	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	football	football	NOUN	NN	_	3	nn	_	NN|00468480-n|Football+
+3	player	player	NOUN	NN	_	10	nsubj	_	NN|10439851-n|Human+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	purple	purple	ADJ	JJ	_	7	amod	_	JJ|01591394-a|SocialRole+
+7	jersey	jersey	NOUN	NN	_	4	pobj	_	NN|08887238-n|HoofedMammal+
+8	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+9	breathlessly	breathlessly	ADV	RB	_	10	advmod	_	RB|00219748-r|Breathing+
+10	running	run	VERB	VBG	_	0	ROOT	_	VBG|01926311-v|Running=
+11	with	with	ADP	IN	_	10	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	ball	ball	NOUN	NN	_	11	pobj	_	NN|02778669-n|Ball=
+14	for	for	ADP	IN	_	10	prep	_	IN|?|?
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	touchdown	touchdown	NOUN	NN	_	14	pobj	_	NN|00188766-n|FootballTouchdown+
+17	.	.	.	.	_	10	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	NN|00468480-n|Football+
-3	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10439851-n|Human+
-4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01746359-v|Publication+
-6	past	past	ADJ	JJ	VerbForm=Inf|fPOS=VERB++VB	8	case	_	IN|?|?
-7	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	official	official	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|10372373-n|Human+
-9	carrying	carry	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	8	acl	_	VBG|01449974-v|Transportation+
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	football	football	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|00468480-n|Football+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	football	football	NOUN	NN	_	3	nn	_	NN|00468480-n|Football+
+3	player	player	NOUN	NN	_	5	nsubj	_	NN|10439851-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01746359-v|Publication+
+6	past	past	ADP	IN	_	5	prep	_	IN|?|?
+7	an	a	DET	DT	_	8	det	_	DT|?|?
+8	official	official	NOUN	NN	_	6	pobj	_	NN|10372373-n|Human+
+9	carrying	carry	VERB	VBG	_	8	partmod	_	VBG|01449974-v|Transportation+
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	football	football	NOUN	NN	_	9	dobj	_	NN|00468480-n|Football+
+12	.	.	.	.	_	5	punct	_	Fp|?|?

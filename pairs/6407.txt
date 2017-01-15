@@ -8,28 +8,28 @@ CONCEPTS B: Black=,Hominid=,Entity+,EndFn+,Dancing+,Sidewalk=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00392812-a|Black=
-3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02472293-n|Hominid=
-4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02604760-v|Entity+
-5	skillfully	skillfully	ADJ	JJ	fPOS=ADV++RB	6	advmod	_	RB|00455933-r|SubjectiveAssessmentAttribute+
-6	break	break	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	VB|02681524-v|EndFn+
-7	dancing	dance	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	6	acl	_	VBG|01708676-v|Dancing+
-8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	pavement	pavement	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|04215402-n|Sidewalk=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	man	man	NOUN	NN	_	7	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	7	cop	_	VBZ|02604760-v|Entity+
+5	skillfully	skillfully	ADV	RB	_	6	advmod	_	RB|00455933-r|SubjectiveAssessmentAttribute+
+6	break	break	VERB	VB	_	7	amod	_	VB|02681524-v|EndFn+
+7	dancing	dance	NOUN	NN	_	0	ROOT	_	VBG|01708676-v|Dancing+
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	pavement	pavement	NOUN	NN	_	8	pobj	_	NN|04215402-n|Sidewalk=
+11	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00392812-a|Black=
-3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02472293-n|Hominid=
-4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	VBZ|02604760-v|Entity+
-5	break	break	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	VB|02681524-v|EndFn+
-6	dancing	dance	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	acl	_	VBG|01708676-v|Dancing+
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	pavement	pavement	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|04215402-n|Sidewalk=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	break	break	VERB	VB	_	0	ROOT	_	VB|02681524-v|EndFn+
+6	dancing	dance	VERB	VBG	_	5	dobj	_	VBG|01708676-v|Dancing+
+7	on	on	ADP	IN	_	5	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	pavement	pavement	NOUN	NN	_	7	pobj	_	NN|04215402-n|Sidewalk=
+10	.	.	.	.	_	5	punct	_	Fp|?|?

@@ -8,35 +8,35 @@ CONCEPTS B: HumanYouth=,Human+,Painting=,Face+,Entity+,PhysicalAttribute+,Positi
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	JJ|01646941-a|HumanYouth=
-3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10285313-n|Human+
-4	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-5	painted	paint	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	VBN|01362736-v|Painting=
-6	face	face	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|05600637-n|Face+
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-8	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-9	next	next	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	advmod	_	JJ|01294975-a|Position+
-10	to	to	ADP	IN	fPOS=ADP++IN	13	case	_	TO|?|?
-11	some	some	DET	DT	fPOS=DET++DT	13	det	_	DT|?|?
-12	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	JJ|02069355-a|equal+
-13	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	NNS|09917593-n|HumanChild=
-14	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	boy	boy	NOUN	NN	_	8	nsubj	_	NN|10285313-n|Human+
+4	with	with	ADP	IN	_	3	prep	_	IN|?|?
+5	painted	paint	VERB	VBN	_	6	amod	_	VBN|01362736-v|Painting=
+6	face	face	NOUN	NN	_	4	pobj	_	NN|05600637-n|Face+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+9	next	next	ADJ	JJ	_	8	advmod	_	JJ|01294975-a|Position+
+10	to	to	ADP	IN	_	9	prep	_	TO|?|?
+11	some	some	DET	DT	_	13	det	_	DT|?|?
+12	other	other	ADJ	JJ	_	13	amod	_	JJ|02069355-a|equal+
+13	children	child	NOUN	NNS	_	10	pobj	_	NNS|09917593-n|HumanChild=
+14	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01646941-a|HumanYouth=
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10129825-n|Human+
-4	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-5	painted	paint	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	VBN|01362736-v|Painting=
-6	face	face	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|05600637-n|Face+
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-8	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-9	next	next	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	advmod	_	JJ|01294975-a|Position+
-10	to	to	ADP	IN	fPOS=ADP++IN	13	case	_	TO|?|?
-11	some	some	DET	DT	fPOS=DET++DT	13	det	_	DT|?|?
-12	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	JJ|02069355-a|equal+
-13	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	NNS|09917593-n|HumanChild=
-14	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	8	nsubj	_	NN|10129825-n|Human+
+4	with	with	ADP	IN	_	3	prep	_	IN|?|?
+5	painted	paint	VERB	VBN	_	6	amod	_	VBN|01362736-v|Painting=
+6	face	face	NOUN	NN	_	4	pobj	_	NN|05600637-n|Face+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+9	next	next	ADJ	JJ	_	8	advmod	_	JJ|01294975-a|Position+
+10	to	to	ADP	IN	_	9	prep	_	TO|?|?
+11	some	some	DET	DT	_	13	det	_	DT|?|?
+12	other	other	ADJ	JJ	_	13	amod	_	JJ|02069355-a|equal+
+13	children	child	NOUN	NNS	_	10	pobj	_	NNS|09917593-n|HumanChild=
+14	.	.	.	.	_	8	punct	_	Fp|?|?

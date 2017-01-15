@@ -8,27 +8,27 @@ CONCEPTS B: Entity+,Entity+,Attribute+,Ocean=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10287213-n|Man=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	NN|10787470-n|Woman=
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	VBP|02604760-v|Entity+
-7	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-8	together	together	ADV	RB	fPOS=ADV++RB	7	advmod	_	RP|00507927-r|Meeting=
-9	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
-10	holding	hold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	conj	_	VBG|02203362-v|Obligation+
-11	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	dobj	_	NNS|05564590-n|Hand+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|10287213-n|Man=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	woman	woman	NOUN	NN	_	2	conj	_	NN|10787470-n|Woman=
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+8	together	together	ADV	RB	_	7	advmod	_	RP|00507927-r|Meeting=
+9	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+10	holding	hold	VERB	VBG	_	7	conj	_	VBG|02203362-v|Obligation+
+11	hands	hand	NOUN	NNS	_	10	dobj	_	NNS|05564590-n|Hand+
+12	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	couple	couple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|13743605-n|Entity+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-5	towards	towards	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	ocean	ocean	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|09376198-n|Ocean=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	couple	couple	NOUN	NN	_	4	nsubj	_	NN|13743605-n|Entity+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	towards	towards	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	ocean	ocean	NOUN	NN	_	5	pobj	_	NN|09376198-n|Ocean=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

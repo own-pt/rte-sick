@@ -8,26 +8,26 @@ CONCEPTS B: HumanYouth=,Woman=,Entity+,Communication+,ViolentContest=
 
 CONLL A:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	kickboxing	kickboxing	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	NN|?|?
-5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-6	spectators	spectator	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nsubj	_	NNS|10633450-n|SocialRole+
-7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	8	aux	_	VBP|02604760-v|Entity+
-8	watching	watch	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|02150948-v|Looking=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	cop	_	VBP|02604760-v|Entity+
+4	kickboxing	kickboxing	VERB	VBG	_	0	ROOT	_	NN|?|?
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	spectators	spectator	NOUN	NNS	_	8	nsubj	_	NNS|10633450-n|SocialRole+
+7	are	be	VERB	VBP	_	8	aux	_	VBP|02604760-v|Entity+
+8	watching	watch	VERB	VBG	_	4	conj	_	VBG|02150948-v|Looking=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	Z|?|?
-2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01646941-a|HumanYouth=
-3	women	woman	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|10787470-n|Woman=
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02604760-v|Entity+
-5	sparring	spar	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|00773922-v|Communication+
-6	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	kickboxing	kickboxing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	NN|?|?
-9	fight	fight	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|01170962-n|ViolentContest=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	women	woman	NOUN	NNS	_	5	nsubj	_	NNS|10787470-n|Woman=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	sparring	spar	VERB	VBG	_	0	ROOT	_	VBG|00773922-v|Communication+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	kickboxing	kickboxing	VERB	VBG	_	9	nn	_	NN|?|?
+9	fight	fight	NOUN	NN	_	6	pobj	_	NN|01170962-n|ViolentContest=
+10	.	.	.	.	_	5	punct	_	Fp|?|?

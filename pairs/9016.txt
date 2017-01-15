@@ -8,41 +8,41 @@ CONCEPTS B: HumanYouth=,Human+,SubjectiveAssessmentAttribute+,FluidContainer+,Po
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01646941-a|HumanYouth=
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	NN|10129825-n|Human+
-4	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-6	heart	heart	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	amod	_	NN|05921123-n|SubjectiveAssessmentAttribute+
-7	tank	tank	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	NN|04388743-n|FluidContainer+
-8	top	top	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|08663354-n|PositionalAttribute+
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
-10	raising	raise	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01974062-v|MotionUpward=
-11	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	12	nmod:poss	_	PRP$|?|?
-12	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	dobj	_	NNS|05564590-n|Hand+
-13	as	as	SCONJ	IN	fPOS=SCONJ++IN	16	mark	_	IN|?|?
-14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	16	nsubj	_	PRP|?|?
-15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	16	aux	_	VBZ|02604760-v|Entity+
-16	sliding	slide	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	10	advcl	_	VBG|02090990-v|Translocation+
-17	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	10	nsubj	_	NN|10129825-n|Human+
+4	with	with	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	8	det	_	DT|?|?
+6	heart	heart	NOUN	NN	_	7	nn	_	NN|05921123-n|SubjectiveAssessmentAttribute+
+7	tank	tank	NOUN	NN	_	8	nn	_	NN|04388743-n|FluidContainer+
+8	top	top	NOUN	NN	_	4	pobj	_	NN|08663354-n|PositionalAttribute+
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	raising	raise	VERB	VBG	_	0	ROOT	_	VBG|01974062-v|MotionUpward=
+11	her	her	PRON	PRP$	_	12	poss	_	PRP$|?|?
+12	hands	hand	NOUN	NNS	_	10	dobj	_	NNS|05564590-n|Hand+
+13	as	as	ADP	IN	_	16	mark	_	IN|?|?
+14	she	she	PRON	PRP	_	16	nsubj	_	PRP|?|?
+15	is	be	VERB	VBZ	_	16	aux	_	VBZ|02604760-v|Entity+
+16	sliding	slide	VERB	VBG	_	10	advcl	_	VBG|02090990-v|Translocation+
+17	.	.	.	.	_	10	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	JJ|01646941-a|HumanYouth=
-3	boy	boy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	NN|10285313-n|Human+
-4	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-6	heart	heart	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	compound	_	NN|05921123-n|SubjectiveAssessmentAttribute+
-7	tank	tank	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	NN|04388743-n|FluidContainer+
-8	top	top	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|08663354-n|PositionalAttribute+
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
-10	raising	raise	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01974062-v|MotionUpward=
-11	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	12	nmod:poss	_	PRP$|?|?
-12	hands	hand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	dobj	_	NNS|05564590-n|Hand+
-13	as	as	SCONJ	IN	fPOS=SCONJ++IN	16	mark	_	IN|?|?
-14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	16	nsubj	_	PRP|?|?
-15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	16	aux	_	VBZ|02604760-v|Entity+
-16	sliding	slide	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	10	advcl	_	VBG|02090990-v|Translocation+
-17	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	boy	boy	NOUN	NN	_	10	nsubj	_	NN|10285313-n|Human+
+4	with	with	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	8	det	_	DT|?|?
+6	heart	heart	NOUN	NN	_	7	nn	_	NN|05921123-n|SubjectiveAssessmentAttribute+
+7	tank	tank	NOUN	NN	_	8	nn	_	NN|04388743-n|FluidContainer+
+8	top	top	NOUN	NN	_	4	pobj	_	NN|08663354-n|PositionalAttribute+
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	raising	raise	VERB	VBG	_	0	ROOT	_	VBG|01974062-v|MotionUpward=
+11	his	his	PRON	PRP$	_	12	poss	_	PRP$|?|?
+12	hands	hand	NOUN	NNS	_	10	dobj	_	NNS|05564590-n|Hand+
+13	as	as	ADP	IN	_	16	mark	_	IN|?|?
+14	he	he	PRON	PRP	_	16	nsubj	_	PRP|?|?
+15	is	be	VERB	VBZ	_	16	aux	_	VBZ|02604760-v|Entity+
+16	sliding	slide	VERB	VBG	_	10	advcl	_	VBG|02090990-v|Translocation+
+17	.	.	.	.	_	10	punct	_	Fp|?|?

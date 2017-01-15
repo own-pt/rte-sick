@@ -8,24 +8,24 @@ CONCEPTS B: Hominid=,Entity+,Dancing+,Ceiling=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	famous	famous	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01375831-a|SubjectiveStrongPositiveAttribute+
-3	singer	singer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10599806-n|Musician+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	dancing	dance	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01708676-v|Dancing+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	ceiling	ceiling	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02990373-n|Ceiling=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	famous	famous	ADJ	JJ	_	3	amod	_	JJ|01375831-a|SubjectiveStrongPositiveAttribute+
+3	singer	singer	NOUN	NN	_	5	nsubj	_	NN|10599806-n|Musician+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	ceiling	ceiling	NOUN	NN	_	6	pobj	_	NN|02990373-n|Ceiling=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	dancing	dance	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01708676-v|Dancing+
-5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	ceiling	ceiling	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02990373-n|Ceiling=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	ceiling	ceiling	NOUN	NN	_	5	pobj	_	NN|02990373-n|Ceiling=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

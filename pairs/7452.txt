@@ -8,34 +8,34 @@ CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Ambulating=,Woman=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|09917593-n|HumanChild=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	showing	show	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00943837-v|Expressing=
-6	boredom	boredom	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|07539790-n|Boredom=
-7	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-9	swing	swing	VERB	VBG	Number=Sing|fPOS=NOUN++NN	10	amod	_	NN|04992008-n|SoundAttribute+
-10	set	set	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	VBN|01494310-v|Putting=
-11	at	at	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|08615374-n|Park+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	small	small	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	child	child	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	showing	show	VERB	VBG	_	0	ROOT	_	VBG|00943837-v|Expressing=
+6	boredom	boredom	NOUN	NN	_	5	dobj	_	NN|07539790-n|Boredom=
+7	on	on	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	swing	swing	NOUN	NN	_	7	pobj	_	NN|04992008-n|SoundAttribute+
+10	set	set	VERB	VBN	_	9	partmod	_	VBN|01494310-v|Putting=
+11	at	at	ADP	IN	_	10	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	park	park	NOUN	NN	_	11	pobj	_	NN|08615374-n|Park+
+14	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10129825-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	swinging	swing	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01877355-v|Ambulating=
-6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	NN|10787470-n|Woman=
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
-10	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	VBG|01546111-v|PhysicalAttribute+
-11	behind	behind	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-12	her	her	PRON	PRP	PronType=Dem|fPOS=ADV++RB	10	nmod	_	PRP$|?|?
-13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	swinging	swing	VERB	VBG	_	0	ROOT	_	VBG|01877355-v|Ambulating=
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	woman	woman	NOUN	NN	_	10	nsubj	_	NN|10787470-n|Woman=
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	standing	stand	VERB	VBG	_	5	conj	_	VBG|01546111-v|PhysicalAttribute+
+11	behind	behind	ADP	IN	_	10	prep	_	IN|?|?
+12	her	her	PRON	PRP	_	11	pobj	_	PRP$|?|?
+13	.	.	.	.	_	5	punct	_	Fp|?|?

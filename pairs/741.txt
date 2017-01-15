@@ -8,25 +8,25 @@ CONCEPTS B: Wedding+,Entity+,Entity+,Walking=,earlier+,LandTransitway+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	married	marry	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	VBN|02488834-v|Wedding+
-3	couple	couple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|13743605-n|Entity+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
-6	up	up	ADP	IN	fPOS=ADP++IN	8	case	_	RP|00097011-r|Increasing+
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	aisle	aisle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02693860-n|LandTransitway+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	married	marry	ADJ	JJ	_	3	amod	_	VBN|02488834-v|Wedding+
+3	couple	couple	NOUN	NN	_	5	nsubj	_	NN|13743605-n|Entity+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+6	up	up	PRT	RP	_	5	prt	_	RP|00097011-r|Increasing+
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	aisle	aisle	NOUN	NN	_	5	dobj	_	NN|02693860-n|LandTransitway+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	married	marry	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	VBN|02488834-v|Wedding+
-3	couple	couple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|13743605-n|Entity+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-5	walking	walk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	ccomp	_	VBG|01904930-v|Walking=
-6	down	down	ADP	IN	fPOS=ADP++IN	8	case	_	RP|00096089-r|earlier+
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	aisle	aisle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02693860-n|LandTransitway+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	married	marry	ADJ	JJ	_	3	amod	_	VBN|02488834-v|Wedding+
+3	couple	couple	NOUN	NN	_	5	nsubj	_	NN|13743605-n|Entity+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+6	down	down	PRT	RP	_	5	prep	_	RP|00096089-r|earlier+
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	aisle	aisle	NOUN	NN	_	6	pobj	_	NN|02693860-n|LandTransitway+
+9	.	.	.	.	_	5	punct	_	Fp|?|?

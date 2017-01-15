@@ -8,37 +8,37 @@ CONCEPTS B: Entity+,Process+,AirTransportation+,StationaryArtifact+,Water=,Regio
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	DT|?|?
-4	bmx	bmx	NOUN	NN	fPOS=PART++TO	5	compound	_	NN|?|?
-5	biker	biker	NOUN	NN	VerbForm=Inf|fPOS=VERB++VB	2	nsubj	_	NN|?|?
-6	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	acl	_	VBG|01963942-v|Ambulating=
-7	dirt	dirt	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	compound	_	NN|07223811-n|Text+
-8	ramps	ramp	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	dobj	_	NNS|04051549-n|StationaryArtifact+
-9	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-10	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|08573472-n|FrontFn=
-11	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	body	body	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|05216365-n|Animal=
-14	of	of	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-15	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	NN|14845743-n|Water=
-16	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	8	det	_	DT|?|?
+4	bmx	bmx	NOUN	NNP	_	5	nn	_	NN|?|?
+5	biker	biker	NOUN	NN	_	8	nn	_	NN|?|?
+6	jumping	jump	VERB	VBG	_	7	nn	_	VBG|01963942-v|Ambulating=
+7	dirt	dirt	NOUN	NN	_	8	nn	_	NN|07223811-n|Text+
+8	ramps	ramp	NOUN	NNS	_	2	nsubj	_	NNS|04051549-n|StationaryArtifact+
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	front	front	NOUN	NN	_	9	pobj	_	NN|08573472-n|FrontFn=
+11	of	of	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	body	body	NOUN	NN	_	11	pobj	_	NN|05216365-n|Animal=
+14	of	of	ADP	IN	_	13	prep	_	IN|?|?
+15	water	water	NOUN	NN	_	14	pobj	_	NN|14845743-n|Water=
+16	.	.	.	.	_	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	DT|?|?
-2	bikers	biker	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|?|?
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00120316-v|Process+
-5	airborne	airborne	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	4	xcomp	_	JJ|01522895-a|AirTransportation+
-6	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-8	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	NN|04037625-n|StationaryArtifact+
-9	near	near	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	amod	_	IN|?|?
-10	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|14845743-n|Water=
-11	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	skyline	skyline	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	NN|08585657-n|Region+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	bikers	biker	NOUN	NNS	_	5	nsubj	_	NNS|?|?
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	getting	get	VERB	VBG	_	5	dep	_	VBG|00120316-v|Process+
+5	airborne	airborne	ADJ	JJ	_	0	ROOT	_	JJ|01522895-a|AirTransportation+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	track	track	NOUN	NN	_	6	pobj	_	NN|04037625-n|StationaryArtifact+
+9	near	near	ADP	IN	_	8	prep	_	IN|?|?
+10	water	water	NOUN	NN	_	9	pobj	_	NN|14845743-n|Water=
+11	and	and	CONJ	CC	_	10	cc	_	CC|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	skyline	skyline	NOUN	NN	_	10	conj	_	NN|08585657-n|Region+
+14	.	.	.	.	_	5	punct	_	Fp|?|?

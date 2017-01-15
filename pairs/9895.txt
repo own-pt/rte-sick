@@ -8,36 +8,36 @@ CONCEPTS B: Man=,Woman=,Entity+,Walking=,Meeting=,Wood=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	using	use	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01158872-v|IntentionalProcess+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	sledgehammer	sledgehammer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03731695-n|Device+
-7	to	to	PART	TO	fPOS=PART++TO	8	mark	_	TO|?|?
-8	break	break	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	6	acl	_	VB|02681524-v|EndFn+
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	concrete	concrete	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	11	amod	_	JJ|00013160-a|Physical+
-11	block	block	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	NN|13914608-n|ShapeAttribute+
-12	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	16	nsubj	_	WDT|?|?
-13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	16	cop	_	VBZ|02604760-v|Entity+
-14	on	on	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-15	another	another	DET	DT	fPOS=DET++DT	16	det	_	DT|?|?
-16	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	acl:relcl	_	NN|00007846-n|Human=
-17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	using	use	VERB	VBG	_	0	ROOT	_	VBG|01158872-v|IntentionalProcess+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	sledgehammer	sledgehammer	NOUN	NN	_	4	dobj	_	NN|03731695-n|Device+
+7	to	to	PRT	TO	_	8	aux	_	TO|?|?
+8	break	break	VERB	VB	_	4	xcomp	_	VB|02681524-v|EndFn+
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	concrete	concrete	ADJ	JJ	_	11	amod	_	JJ|00013160-a|Physical+
+11	block	block	NOUN	NN	_	8	dobj	_	NN|13914608-n|ShapeAttribute+
+12	that	that	DET	WDT	_	13	nsubj	_	WDT|?|?
+13	is	be	VERB	VBZ	_	11	rcmod	_	VBZ|02604760-v|Entity+
+14	on	on	ADP	IN	_	13	prep	_	IN|?|?
+15	another	another	DET	DT	_	16	det	_	DT|?|?
+16	person	person	NOUN	NN	_	14	pobj	_	NN|00007846-n|Human=
+17	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10287213-n|Man=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	NN|10787470-n|Woman=
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	VBP|02604760-v|Entity+
-7	walking	walk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
-8	together	together	ADV	RB	fPOS=ADV++RB	7	advmod	_	RB|00507927-r|Meeting=
-9	through	through	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	woods	wood	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	NNS|15098161-n|Wood=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|10287213-n|Man=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	woman	woman	NOUN	NN	_	2	conj	_	NN|10787470-n|Woman=
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+8	together	together	ADV	RB	_	7	advmod	_	RB|00507927-r|Meeting=
+9	through	through	ADP	IN	_	7	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	woods	wood	NOUN	NNS	_	9	pobj	_	NNS|15098161-n|Wood=
+12	.	.	.	.	_	7	punct	_	Fp|?|?

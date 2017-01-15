@@ -8,38 +8,38 @@ CONCEPTS B: Group=,GroupOfPeople=,PhysicalAttribute+,SittingDown+,Object+,Red=,M
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubjpass	_	NN|00031264-n|Group=
-3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|07942152-n|GroupOfPeople=
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	auxpass	_	VBZ|02655135-v|PhysicalAttribute+
-6	sitting	sit	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	ccomp	_	VBG|01543123-v|SittingDown+
-7	relaxed	relax	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|02601996-v|IntentionalProcess+
-8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	both	both	DET	DT	fPOS=DET++DT	10	det	_	DT|?|?
-10	sides	side	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	NNS|08510666-n|Object+
-11	of	of	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-13	red	red	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	JJ|00381097-a|Red=
-14	stone	stone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	compound	_	NN|14696793-n|Mineral+
-15	monument	monument	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|03743902-n|Monument+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	people	people	NOUN	NNS	_	3	pobj	_	NNS|07942152-n|GroupOfPeople=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02655135-v|PhysicalAttribute+
+6	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+7	relaxed	relax	ADJ	JJ	_	6	acomp	_	VBN|02601996-v|IntentionalProcess+
+8	on	on	ADP	IN	_	6	prep	_	IN|?|?
+9	both	both	DET	DT	_	10	det	_	DT|?|?
+10	sides	side	NOUN	NNS	_	8	pobj	_	NNS|08510666-n|Object+
+11	of	of	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	15	det	_	DT|?|?
+13	red	red	ADJ	JJ	_	15	amod	_	JJ|00381097-a|Red=
+14	stone	stone	NOUN	NN	_	15	nn	_	NN|14696793-n|Mineral+
+15	monument	monument	NOUN	NN	_	11	pobj	_	NN|03743902-n|Monument+
+16	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|00031264-n|Group=
-3	of	of	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|07942152-n|GroupOfPeople=
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02655135-v|PhysicalAttribute+
-6	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	both	both	DET	DT	fPOS=DET++DT	9	det	_	DT|?|?
-9	sides	side	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nmod	_	NNS|08510666-n|Object+
-10	of	of	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-12	red	red	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	JJ|00381097-a|Red=
-13	stone	stone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	NN|14696793-n|Mineral+
-14	structure	structure	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|04341686-n|Artifact+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	people	people	NOUN	NNS	_	3	pobj	_	NNS|07942152-n|GroupOfPeople=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02655135-v|PhysicalAttribute+
+6	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	both	both	DET	DT	_	9	det	_	DT|?|?
+9	sides	side	NOUN	NNS	_	7	pobj	_	NNS|08510666-n|Object+
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	14	det	_	DT|?|?
+12	red	red	ADJ	JJ	_	14	amod	_	JJ|00381097-a|Red=
+13	stone	stone	NOUN	NN	_	14	nn	_	NN|14696793-n|Mineral+
+14	structure	structure	NOUN	NN	_	10	pobj	_	NN|04341686-n|Artifact+
+15	.	.	.	.	_	6	punct	_	Fp|?|?

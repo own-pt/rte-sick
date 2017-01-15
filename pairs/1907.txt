@@ -8,23 +8,23 @@ CONCEPTS B: Animal=,Entity+,Giving+,Water=
 
 CONLL A:
 
-1	Two	2	NUM	CD	Degree=Pos|fPOS=ADJ++JJ	2	nummod	_	Z|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	ping	ping	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	xcomp	_	NN|07389569-n|RadiatingSound+
-6	pong	pong	ADV	RB	fPOS=ADV++RB	5	advmod	_	RB|?|?
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	ping	ping	NOUN	NN	_	6	nn	_	NN|07389569-n|RadiatingSound+
+6	pong	pong	NOUN	NN	_	4	dobj	_	RB|?|?
+7	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	few	few	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	DT|?|?
-3	animals	animal	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nsubj	_	NNS|00015388-n|Animal=
-4	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	8	cop	_	VBP|02604760-v|Entity+
-5	out	out	ADP	IN	fPOS=ADP++IN	8	case	_	RP|00233413-r|Giving+
-6	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|14845743-n|Water=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	few	few	ADJ	JJ	_	3	amod	_	DT|?|?
+3	animals	animal	NOUN	NNS	_	4	nsubj	_	NNS|00015388-n|Animal=
+4	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+5	out	out	ADP	IN	_	4	prep	_	RP|00233413-r|Giving+
+6	of	of	ADP	IN	_	5	pcomp	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	water	water	NOUN	NN	_	6	pobj	_	NN|14845743-n|Water=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

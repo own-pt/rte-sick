@@ -8,24 +8,24 @@ CONCEPTS B: Canine+,Entity+,RadiatingSound+,Ball=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02084071-n|Canine+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	swimming	swim	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01960911-v|Swimming+
-5	after	after	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	tennis	tennis	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	8	compound	_	NN|00482298-n|Tennis=
-8	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02778669-n|Ball=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	swimming	swim	VERB	VBG	_	0	ROOT	_	VBG|01960911-v|Swimming+
+5	after	after	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	tennis	tennis	NOUN	NN	_	8	nn	_	NN|00482298-n|Tennis=
+8	ball	ball	NOUN	NN	_	5	pobj	_	NN|02778669-n|Ball=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02084071-n|Canine+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	barking	bark	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01047745-v|RadiatingSound+
-5	at	at	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02778669-n|Ball=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	barking	bark	VERB	VBG	_	0	ROOT	_	VBG|01047745-v|RadiatingSound+
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	ball	ball	NOUN	NN	_	5	pobj	_	NN|02778669-n|Ball=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

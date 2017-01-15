@@ -8,40 +8,40 @@ CONCEPTS B: Man=,Woman=,Entity+,Room=,Painting=,ColorAttribute+,Putting+,Subject
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02130524-v|Looking=
-5	curiously	curiously	ADV	RB	fPOS=ADV++RB	4	advmod	_	RB|00035491-r|SubjectiveAssessmentAttribute+
-6	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|10287213-n|Man=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02130524-v|Looking=
+5	curiously	curiously	ADV	RB	_	4	advmod	_	RB|00035491-r|SubjectiveAssessmentAttribute+
+6	at	at	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	man	man	NOUN	NN	_	6	pobj	_	NN|10287213-n|Man=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|10287213-n|Man=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	conj	_	NN|10787470-n|Woman=
-6	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	9	cop	_	VBP|02604760-v|Entity+
-7	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	room	room	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|04105893-n|Room=
-10	painted	paint	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	9	amod	_	VBD|01362736-v|Painting=
-11	beige	beige	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	JJ|00370501-a|ColorAttribute+
-12	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	Fc|?|?
-13	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	9	conj	_	VBG|00052374-v|Putting+
-14	dark	dark	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	amod	_	JJ|00409440-a|SubjectiveWeakNegativeAttribute+
-15	colored	color	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	16	amod	_	VBN|00283911-v|SurfaceChange+
-16	shirts	shirt	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	13	dobj	_	NNS|04197391-n|Shirt=
-17	and	and	CONJ	CC	fPOS=CONJ++CC	9	cc	_	CC|?|?
-18	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	19	det	_	DT|?|?
-19	monitor	monitor	NOUN	NN	Number=Sing|fPOS=NOUN++NN	23	nsubj	_	NN|10478960-n|SocialRole+
-20	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	23	cop	_	VBZ|02604760-v|Entity+
-21	in	in	ADP	IN	fPOS=ADP++IN	23	case	_	IN|?|?
-22	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	23	det	_	DT|?|?
-23	background	background	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	conj	_	NN|14513259-n|Region+
-24	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	6	nsubj	_	NN|10287213-n|Man=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	woman	woman	NOUN	NN	_	2	conj	_	NN|10787470-n|Woman=
+6	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+7	in	in	ADP	IN	_	20	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	room	room	NOUN	NN	_	7	pobj	_	NN|04105893-n|Room=
+10	painted	paint	VERB	VBN	_	9	partmod	_	VBD|01362736-v|Painting=
+11	beige	beige	ADV	RB	_	10	advmod	_	JJ|00370501-a|ColorAttribute+
+12	,	,	.	,	_	20	punct	_	Fc|?|?
+13	wearing	wear	VERB	VBG	_	20	csubj	_	VBG|00052374-v|Putting+
+14	dark	dark	ADJ	JJ	_	16	amod	_	JJ|00409440-a|SubjectiveWeakNegativeAttribute+
+15	colored	color	VERB	VBN	_	16	amod	_	VBN|00283911-v|SurfaceChange+
+16	shirts	shirt	NOUN	NNS	_	13	dobj	_	NNS|04197391-n|Shirt=
+17	and	and	CONJ	CC	_	16	cc	_	CC|?|?
+18	a	a	DET	DT	_	19	det	_	DT|?|?
+19	monitor	monitor	NOUN	NN	_	16	conj	_	NN|10478960-n|SocialRole+
+20	is	be	VERB	VBZ	_	6	ccomp	_	VBZ|02604760-v|Entity+
+21	in	in	ADP	IN	_	20	prep	_	IN|?|?
+22	the	the	DET	DT	_	23	det	_	DT|?|?
+23	background	background	NOUN	NN	_	21	pobj	_	NN|14513259-n|Region+
+24	.	.	.	.	_	6	punct	_	Fp|?|?

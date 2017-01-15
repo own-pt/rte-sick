@@ -8,34 +8,34 @@ CONCEPTS B: Canine+,Entity+,Snowing=,Entity+,Ambulating=,SubjectiveStrongPositiv
 
 CONLL A:
 
-1	Two	2	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	compound	_	Z|?|?
-2	crocodiles	crocodile	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|01697178-n|Reptile+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	floating	float	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01904293-v|Swimming+
-5	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-7	green	green	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	8	advmod	_	NN|04967191-n|Green+
-8	colored	color	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	10	amod	_	VBD|00283911-v|SurfaceChange+
-9	swimming	swim	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	10	compound	_	VBG|01904293-v|Swimming+
-10	pool	pool	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|09397607-n|StaticWaterArea+
-11	near	near	ADP	IN	Number=Sing|fPOS=NOUN++NN	14	case	_	IN|?|?
-12	some	some	DET	DT	fPOS=DET++DT	14	det	_	DT|?|?
-13	playing	play	NOUN	NN	VerbForm=Ger|fPOS=VERB++VBG	14	compound	_	VBG|01719302-v|DramaticActing+
-14	kids	kid	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	nmod	_	NNS|09917593-n|HumanChild=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	crocodiles	crocodile	NOUN	NNS	_	4	nsubj	_	NNS|01697178-n|Reptile+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	floating	float	VERB	VBG	_	0	ROOT	_	VBG|01904293-v|Swimming+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	10	det	_	DT|?|?
+7	green	green	ADJ	JJ	_	10	amod	_	NN|04967191-n|Green+
+8	colored	color	VERB	VBN	_	10	amod	_	VBD|00283911-v|SurfaceChange+
+9	swimming	swim	NOUN	NN	_	10	nn	_	VBG|01904293-v|Swimming+
+10	pool	pool	NOUN	NN	_	5	pobj	_	NN|09397607-n|StaticWaterArea+
+11	near	near	ADP	IN	_	10	prep	_	IN|?|?
+12	some	some	DET	DT	_	14	det	_	DT|?|?
+13	playing	play	VERB	VBG	_	14	amod	_	VBG|01719302-v|DramaticActing+
+14	kids	kid	NOUN	NNS	_	11	pobj	_	NNS|09917593-n|HumanChild=
+15	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NOUN	NN	NumType=Card|fPOS=NUM++CD	2	compound	_	Z|?|?
-2	poodles	poodle	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	nsubj	_	NNS|02113335-n|Canine+
-3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	6	cop	_	VBP|02604760-v|Entity+
-4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	snow	snow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	NN|15043763-n|Snowing=
-7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
-8	one	one	NUM	CD	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	PRP|?|?
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
-10	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	VBG|01963942-v|Ambulating=
-11	high	high	ADJ	JJ	fPOS=ADV++RB	10	advmod	_	JJ|02339120-a|SubjectiveStrongPositiveAttribute+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	poodles	poodle	NOUN	NNS	_	3	nsubj	_	NNS|02113335-n|Canine+
+3	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	snow	snow	NOUN	NN	_	4	pobj	_	NN|15043763-n|Snowing=
+7	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+8	one	one	NUM	CD	_	10	nsubj	_	PRP|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	jumping	jump	VERB	VBG	_	3	conj	_	VBG|01963942-v|Ambulating=
+11	high	high	ADJ	JJ	_	10	advmod	_	JJ|02339120-a|SubjectiveStrongPositiveAttribute+
+12	.	.	.	.	_	3	punct	_	Fp|?|?

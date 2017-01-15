@@ -8,37 +8,37 @@ CONCEPTS B: Woman=,Entity+,Impacting+,Man=,Entity+,Attribute+,BirdEgg=,Dish+,Int
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|00007846-n|Human=
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	cop	_	VBZ|02604760-v|Entity+
-4	strongly	strongly	ADV	RB	fPOS=ADV++RB	5	advmod	_	RB|00177289-r|SubjectiveAssessmentAttribute+
-5	whisking	whisk	ADJ	JJS	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	VBG|01435254-v|Removing+
-6	eggs	egg	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	NNS|05524615-n|Gland+
-7	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	bowl	bowl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|02880940-n|Dish+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	5	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	strongly	strongly	ADV	RB	_	5	advmod	_	RB|00177289-r|SubjectiveAssessmentAttribute+
+5	whisking	whisk	VERB	VBG	_	0	ROOT	_	VBG|01435254-v|Removing+
+6	eggs	egg	NOUN	NNS	_	5	dobj	_	NNS|05524615-n|Gland+
+7	in	in	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	bowl	bowl	NOUN	NN	_	7	pobj	_	NN|02880940-n|Dish+
+10	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	beating	beat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01398919-v|Impacting+
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|10287213-n|Man=
-7	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	9	nsubj	_	WDT|?|?
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
-9	keeping	keep	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	acl:relcl	_	VBG|02202384-v|Attribute+
-10	two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	11	nummod	_	Z|?|?
-11	eggs	egg	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	9	dobj	_	NNS|07840804-n|BirdEgg=
-12	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-14	bowl	bowl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|02880940-n|Dish+
-15	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	Fc|?|?
-16	using	use	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	9	advcl	_	VBG|01158872-v|IntentionalProcess+
-17	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	19	det	_	DT|?|?
-18	wire	wire	NOUN	NN	Number=Sing|fPOS=NOUN++NN	19	compound	_	NN|04594218-n|Wire=
-19	whisk	whisk	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	dobj	_	NN|04578934-n|Device+
-20	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	beating	beat	VERB	VBG	_	0	ROOT	_	VBG|01398919-v|Impacting+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	man	man	NOUN	NN	_	4	dobj	_	NN|10287213-n|Man=
+7	that	that	DET	WDT	_	9	nsubj	_	WDT|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	keeping	keep	VERB	VBG	_	6	rcmod	_	VBG|02202384-v|Attribute+
+10	two	2	NUM	CD	_	11	num	_	Z|?|?
+11	eggs	egg	NOUN	NNS	_	9	dobj	_	NNS|07840804-n|BirdEgg=
+12	in	in	ADP	IN	_	9	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	bowl	bowl	NOUN	NN	_	12	pobj	_	NN|02880940-n|Dish+
+15	,	,	.	,	_	9	punct	_	Fc|?|?
+16	using	use	VERB	VBG	_	9	partmod	_	VBG|01158872-v|IntentionalProcess+
+17	a	a	DET	DT	_	19	det	_	DT|?|?
+18	wire	wire	NOUN	NN	_	19	nn	_	NN|04594218-n|Wire=
+19	whisk	whisk	NOUN	NN	_	16	dobj	_	NN|04578934-n|Device+
+20	.	.	.	.	_	4	punct	_	Fp|?|?

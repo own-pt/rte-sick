@@ -8,37 +8,37 @@ CONCEPTS B: Human+,LandArea@,Clothing=,Substance+,Hand+,Entity+,WhenFn=,Intentio
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	NN|10287213-n|Man=
-3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	Indian	indian	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	JJ|02928347-a|LandArea@
-5	clothing	clothing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03051540-n|Clothing=
-6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-7	henna	henna	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	NN|14988741-n|Substance+
-8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	10	nmod:poss	_	PRP$|?|?
-10	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|05564590-n|Hand+
-11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	VBZ|02604760-v|Entity+
-12	going	go	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02618149-v|WhenFn=
-13	through	through	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-14	paperwork	paperwork	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	NN|00582071-n|IntentionalProcess+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	12	nsubj	_	NN|10287213-n|Man=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	Indian	indian	ADJ	JJ	_	5	amod	_	JJ|02928347-a|LandArea@
+5	clothing	clothing	NOUN	NN	_	3	pobj	_	NN|03051540-n|Clothing=
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	henna	henna	NOUN	NN	_	5	conj	_	NN|14988741-n|Substance+
+8	on	on	ADP	IN	_	5	prep	_	IN|?|?
+9	his	his	PRON	PRP$	_	10	poss	_	PRP$|?|?
+10	hand	hand	NOUN	NN	_	8	pobj	_	NN|05564590-n|Hand+
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	going	go	VERB	VBG	_	0	ROOT	_	VBG|02618149-v|WhenFn=
+13	through	through	ADP	IN	_	12	prep	_	IN|?|?
+14	paperwork	paperwork	NOUN	NN	_	13	pobj	_	NN|00582071-n|IntentionalProcess+
+15	.	.	.	.	_	12	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	NN|10129825-n|Human+
-3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	Indian	indian	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	JJ|02928347-a|LandArea@
-5	clothing	clothing	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03051540-n|Clothing=
-6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-7	henna	henna	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	conj	_	NN|14988741-n|Substance+
-8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	10	nmod:poss	_	PRP$|?|?
-10	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|05564590-n|Hand+
-11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	VBZ|02604760-v|Entity+
-12	going	go	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02618149-v|WhenFn=
-13	through	through	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-14	paperwork	paperwork	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	NN|00582071-n|IntentionalProcess+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	12	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	12	nsubj	_	NN|10129825-n|Human+
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	Indian	indian	ADJ	JJ	_	5	amod	_	JJ|02928347-a|LandArea@
+5	clothing	clothing	NOUN	NN	_	3	pobj	_	NN|03051540-n|Clothing=
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	henna	henna	NOUN	NN	_	5	conj	_	NN|14988741-n|Substance+
+8	on	on	ADP	IN	_	5	prep	_	IN|?|?
+9	her	her	PRON	PRP$	_	10	poss	_	PRP$|?|?
+10	hand	hand	NOUN	NN	_	8	pobj	_	NN|05564590-n|Hand+
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	going	go	VERB	VBG	_	0	ROOT	_	VBG|02618149-v|WhenFn=
+13	through	through	ADP	IN	_	12	prep	_	IN|?|?
+14	paperwork	paperwork	NOUN	NN	_	13	pobj	_	NN|00582071-n|IntentionalProcess+
+15	.	.	.	.	_	12	punct	_	Fp|?|?

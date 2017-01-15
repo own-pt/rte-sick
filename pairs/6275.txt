@@ -8,33 +8,33 @@ CONCEPTS B: Entity+,Canine+,Swimming+,Lake=,Sunlight+,RadiatingLight+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|02084071-n|Canine+
-3	with	with	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-5	golden	golden	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|00670938-a|SubjectiveWeakPositiveAttribute+
-6	coat	coat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03057021-n|Coat=
-7	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	cop	_	VBZ|02604760-v|Entity+
-8	swimming	swim	NOUN	NN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01960911-v|Swimming+
-9	through	through	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	water	water	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|14845743-n|Water=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	8	nsubj	_	NN|02084071-n|Canine+
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	golden	golden	ADJ	JJ	_	6	amod	_	JJ|00670938-a|SubjectiveWeakPositiveAttribute+
+6	coat	coat	NOUN	NN	_	3	pobj	_	NN|03057021-n|Coat=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	swimming	swim	VERB	VBG	_	0	ROOT	_	VBG|01960911-v|Swimming+
+9	through	through	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	water	water	NOUN	NN	_	9	pobj	_	NN|14845743-n|Water=
+12	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
-4	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|02084071-n|Canine+
-5	swimming	swim	VERB	VBG	Number=Sing|fPOS=NOUN++NN	4	acl	_	VBG|01960911-v|Swimming+
-6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	lake	lake	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|09328904-n|Lake=
-9	with	with	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-10	sunshine	sunshine	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|11485367-n|Sunlight+
-11	shining	shine	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	10	acl	_	VBG|02763740-v|RadiatingLight+
-12	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-13	him	him	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	11	nmod	_	PRP|?|?
-14	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	dog	dog	NOUN	NN	_	5	nn	_	NN|02084071-n|Canine+
+5	swimming	swim	NOUN	NN	_	2	nsubj	_	VBG|01960911-v|Swimming+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	lake	lake	NOUN	NN	_	6	pobj	_	NN|09328904-n|Lake=
+9	with	with	ADP	IN	_	8	prep	_	IN|?|?
+10	sunshine	sunshine	NOUN	NN	_	11	nsubj	_	NN|11485367-n|Sunlight+
+11	shining	shine	VERB	VBG	_	9	pcomp	_	VBG|02763740-v|RadiatingLight+
+12	on	on	ADP	IN	_	11	prep	_	IN|?|?
+13	him	him	PRON	PRP	_	12	pobj	_	PRP|?|?
+14	.	.	.	.	_	2	punct	_	Fp|?|?

@@ -8,32 +8,32 @@ CONCEPTS B: SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Attribute+,Grass=,T
 
 CONLL A:
 
-1	An	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	old	old	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01643620-a|SubjectiveAssessmentAttribute+
-3	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|00007846-n|Human=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
-5	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	bench	bench	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02828884-n|Seat+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	An	a	DET	DT	_	3	det	_	DT|?|?
+2	old	old	ADJ	JJ	_	3	amod	_	JJ|01643620-a|SubjectiveAssessmentAttribute+
+3	person	person	NOUN	NN	_	5	nsubj	_	NN|00007846-n|Human=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	bench	bench	NOUN	NN	_	6	pobj	_	NN|02828884-n|Seat+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|12102133-n|Grass=
-9	with	with	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-11	tennis	tennis	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	compound	_	NN|00482298-n|Tennis=
-12	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|02778669-n|Ball=
-13	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-14	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	15	nmod:poss	_	PRP$|?|?
-15	mouth	mouth	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	NN|05302499-n|Mouth+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	grass	grass	NOUN	NN	_	6	pobj	_	NN|12102133-n|Grass=
+9	with	with	ADP	IN	_	5	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	tennis	tennis	NOUN	NN	_	12	nn	_	NN|00482298-n|Tennis=
+12	ball	ball	NOUN	NN	_	9	pobj	_	NN|02778669-n|Ball=
+13	in	in	ADP	IN	_	12	prep	_	IN|?|?
+14	its	its	PRON	PRP$	_	15	poss	_	PRP$|?|?
+15	mouth	mouth	NOUN	NN	_	13	pobj	_	NN|05302499-n|Mouth+
+16	.	.	.	.	_	5	punct	_	Fp|?|?

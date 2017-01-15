@@ -8,30 +8,30 @@ CONCEPTS B: Human+,Entity+,Ambulating=,StationaryArtifact+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	JJ|01646941-a|HumanYouth=
-3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|10287213-n|Man=
-4	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	bmx	bmx	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	7	compound	_	NN|?|?
-7	bicycle	bicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|02834778-n|Bicycle=
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
-9	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-10	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-12	masonry	masonry	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	NN|00608896-n|OccupationalTrade+
-13	pyramid	pyramid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|13914837-n|ShapeAttribute+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	man	man	NOUN	NN	_	9	nsubj	_	NN|10287213-n|Man=
+4	on	on	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	bmx	bmx	NOUN	NNP	_	7	nn	_	NN|?|?
+7	bicycle	bicycle	NOUN	NN	_	4	pobj	_	NN|02834778-n|Bicycle=
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	masonry	masonry	NOUN	NN	_	13	nn	_	NN|00608896-n|OccupationalTrade+
+13	pyramid	pyramid	NOUN	NN	_	10	pobj	_	NN|13914837-n|ShapeAttribute+
+14	.	.	.	.	_	9	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	bicyclist	bicyclist	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09986189-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-5	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	pyramid-shaped	pyramid-shaped	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	NN|?|?
-8	ramp	ramp	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04051549-n|StationaryArtifact+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	bicyclist	bicyclist	NOUN	NN	_	4	nsubj	_	NN|09986189-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	pyramid-shaped	pyramid-shaped	ADJ	JJ	_	8	amod	_	NN|?|?
+8	ramp	ramp	NOUN	NN	_	5	pobj	_	NN|04051549-n|StationaryArtifact+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

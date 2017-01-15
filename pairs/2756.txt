@@ -8,28 +8,28 @@ CONCEPTS B: Entity+,Soccer=,Human+,Impelling+,Soccer=,Ball=,GameGoal=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	soccer	soccer	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	NN|00478262-n|Soccer=
-3	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10439851-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	scoring	score	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01111816-v|Game+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	goal	goal	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|03442756-n|GameGoal=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	soccer	soccer	NOUN	NN	_	3	nn	_	NN|00478262-n|Soccer=
+3	player	player	NOUN	NN	_	5	nsubj	_	NN|10439851-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	scoring	score	VERB	VBG	_	0	ROOT	_	VBG|01111816-v|Game+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	goal	goal	NOUN	NN	_	5	dobj	_	NN|03442756-n|GameGoal=
+8	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	0	ROOT	_	VBP|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	DT|?|?
-4	soccer	soccer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	compound	_	NN|00478262-n|Soccer=
-5	players	player	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nsubj	_	NNS|10439851-n|Human+
-6	kicking	kick	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	acl	_	VBG|01112979-v|Impelling+
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	soccer	soccer	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	compound	_	NN|00478262-n|Soccer=
-9	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|02778669-n|Ball=
-10	into	into	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	goal	goal	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|03442756-n|GameGoal=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	soccer	soccer	NOUN	NN	_	5	nn	_	NN|00478262-n|Soccer=
+5	players	player	NOUN	NNS	_	2	nsubj	_	NNS|10439851-n|Human+
+6	kicking	kick	VERB	VBG	_	5	partmod	_	VBG|01112979-v|Impelling+
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	soccer	soccer	NOUN	NN	_	9	nn	_	NN|00478262-n|Soccer=
+9	ball	ball	NOUN	NN	_	6	dobj	_	NN|02778669-n|Ball=
+10	into	into	ADP	IN	_	6	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	goal	goal	NOUN	NN	_	10	pobj	_	NN|03442756-n|GameGoal=
+13	.	.	.	.	_	2	punct	_	Fp|?|?

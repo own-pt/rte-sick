@@ -8,29 +8,29 @@ CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Carrying=,Recreati
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09917593-n|HumanChild=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-5	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-7	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	JJ|00381097-a|Red=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
-9	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	conj	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
-10	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	NN|03964744-n|RecreationOrExerciseDevice+
-11	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02958343-n|Automobile=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	11	det	_	DT|?|?
+7	red	red	ADJ	JJ	_	11	amod	_	JJ|00381097-a|Red=
+8	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+9	yellow	yellow	ADJ	JJ	_	7	conj	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+10	toy	toy	NOUN	NN	_	11	nn	_	NN|03964744-n|RecreationOrExerciseDevice+
+11	car	car	NOUN	NN	_	5	pobj	_	NN|02958343-n|Automobile=
+12	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10129825-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01955984-v|Carrying=
-6	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	toy	toy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	NN|03964744-n|RecreationOrExerciseDevice+
-9	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02958343-n|Automobile=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	small	small	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	9	det	_	DT|?|?
+8	toy	toy	NOUN	NN	_	9	nn	_	NN|03964744-n|RecreationOrExerciseDevice+
+9	car	car	NOUN	NN	_	6	pobj	_	NN|02958343-n|Automobile=
+10	.	.	.	.	_	5	punct	_	Fp|?|?

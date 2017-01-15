@@ -8,32 +8,32 @@ CONCEPTS B: HumanChild=,Entity+,DramaticActing+,Soccer=,Park+
 
 CONLL A:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	0	ROOT	_	VBP|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	5	neg	_	DT|?|?
-4	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-5	boys	boy	NOUN	NNS	fPOS=SCONJ++IN	2	nsubj	_	NNS|10285313-n|Human+
-6	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	5	acl	_	VBG|01719302-v|DramaticActing+
-7	outside	outside	ADV	RB	fPOS=ADV++RB	6	advmod	_	IN|?|?
-8	with	with	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	soccer	soccer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	NN|00478262-n|Soccer=
-11	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|02778669-n|Ball=
-12	on	on	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-14	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	JJ|00375969-a|Green=
-15	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|12102133-n|Grass=
-16	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	little	little	ADJ	JJ	_	5	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+5	boys	boy	NOUN	NNS	_	2	nsubj	_	NNS|10285313-n|Human+
+6	playing	play	VERB	VBG	_	5	partmod	_	VBG|01719302-v|DramaticActing+
+7	outside	outside	ADV	RB	_	6	advmod	_	IN|?|?
+8	with	with	ADP	IN	_	6	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	soccer	soccer	NOUN	NN	_	11	nn	_	NN|00478262-n|Soccer=
+11	ball	ball	NOUN	NN	_	8	pobj	_	NN|02778669-n|Ball=
+12	on	on	ADP	IN	_	6	prep	_	IN|?|?
+13	the	the	DET	DT	_	15	det	_	DT|?|?
+14	green	green	ADJ	JJ	_	15	amod	_	JJ|00375969-a|Green=
+15	grass	grass	NOUN	NN	_	12	pobj	_	NN|12102133-n|Grass=
+16	.	.	.	.	_	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|09917593-n|HumanChild=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	soccer	soccer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|00478262-n|Soccer=
-6	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	park	park	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|08615374-n|Park+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	soccer	soccer	NOUN	NN	_	4	dobj	_	NN|00478262-n|Soccer=
+6	in	in	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	park	park	NOUN	NN	_	6	pobj	_	NN|08615374-n|Park+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

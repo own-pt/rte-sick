@@ -8,27 +8,27 @@ CONCEPTS B: Human+,Entity+,PhysicalAttribute+,Destruction+,Automobile=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|10285313-n|Human+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-5	in	in	ADP	IN	fPOS=ADV++RB	6	case	_	IN|?|?
-6	front	front	NOUN	NN	fPOS=ADP++IN	4	nmod	_	NN|08573472-n|FrontFn=
-7	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-9	burning	burning	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	amod	_	NN|14325437-n|PathologicProcess+
-10	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|02958343-n|Automobile=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	boys	boy	NOUN	NNS	_	4	nsubj	_	NNS|10285313-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	front	front	NOUN	NN	_	5	pobj	_	NN|08573472-n|FrontFn=
+7	of	of	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	10	det	_	DT|?|?
+9	burning	burning	VERB	VBG	_	10	amod	_	NN|14325437-n|PathologicProcess+
+10	car	car	NOUN	NN	_	7	pobj	_	NN|02958343-n|Automobile=
+11	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|10285313-n|Human+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-6	burning	burn	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|00378664-v|Destruction+
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|02958343-n|Automobile=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	boys	boy	NOUN	NNS	_	4	nsubj	_	NNS|10285313-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	burning	burn	VERB	VBG	_	4	conj	_	VBG|00378664-v|Destruction+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	car	car	NOUN	NN	_	6	dobj	_	NN|02958343-n|Automobile=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

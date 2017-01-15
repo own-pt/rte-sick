@@ -8,29 +8,29 @@ CONCEPTS B: FamilyGroup+,SubjectiveAssessmentAttribute+,Happiness=,Entity+,Putti
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	happy	happy	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01148283-a|Happiness=
-3	family	family	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|07970721-n|FamilyGroup+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	posing	pose	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01494310-v|Putting=
-6	by	by	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	fireplace	fireplace	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|03346455-n|Fireplace=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	happy	happy	ADJ	JJ	_	3	amod	_	JJ|01148283-a|Happiness=
+3	family	family	NOUN	NN	_	5	nsubj	_	NN|07970721-n|FamilyGroup+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	posing	pose	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	fireplace	fireplace	NOUN	NN	_	6	pobj	_	NN|03346455-n|Fireplace=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	family	family	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|07970721-n|FamilyGroup+
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
-4	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	5	nsubj	_	WDT|?|?
-5	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	2	acl:relcl	_	VBZ|02133435-v|SubjectiveAssessmentAttribute+
-6	happy	happy	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	xcomp	_	JJ|01148283-a|Happiness=
-7	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	Fc|?|?
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
-9	posing	pose	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01494310-v|Putting=
-10	by	by	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	fireplace	fireplace	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|03346455-n|Fireplace=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	family	family	NOUN	NN	_	9	nsubj	_	NN|07970721-n|FamilyGroup+
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	which	which	DET	WDT	_	5	nsubj	_	WDT|?|?
+5	looks	look	VERB	VBZ	_	2	rcmod	_	VBZ|02133435-v|SubjectiveAssessmentAttribute+
+6	happy	happy	ADJ	JJ	_	5	acomp	_	JJ|01148283-a|Happiness=
+7	,	,	.	,	_	2	punct	_	Fc|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	posing	pose	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+10	by	by	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	fireplace	fireplace	NOUN	NN	_	10	pobj	_	NN|03346455-n|Fireplace=
+13	.	.	.	.	_	9	punct	_	Fp|?|?

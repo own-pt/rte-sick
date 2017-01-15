@@ -8,29 +8,29 @@ CONCEPTS B: HumanChild=,Entity+,Position+,Attribute+,Entity+,SubjectiveAssessmen
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	doing	do	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02568672-v|Position+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	magic	magic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|01576071-a|SubjectiveStrongPositiveAttribute+
-7	trick	trick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|00099951-n|RecreationOrExercise+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|02568672-v|Position+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	magic	magic	ADJ	JJ	_	7	nn	_	JJ|01576071-a|SubjectiveStrongPositiveAttribute+
+7	trick	trick	NOUN	NN	_	4	dobj	_	NN|00099951-n|RecreationOrExercise+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	kid	kid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	NN|09917593-n|HumanChild=
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
-4	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	6	nsubj	_	WP|?|?
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	2	acl:relcl	_	VBG|02568672-v|Position+
-7	magic	magic	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|05967977-n|Attribute+
-8	,	,	PUNCT	,	fPOS=PUNCT++,	10	punct	_	Fc|?|?
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
-10	tricking	trick	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02575723-v|SubjectiveAssessmentAttribute+
-11	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-12	old	old	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	JJ|01643620-a|SubjectiveAssessmentAttribute+
-13	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	NN|10287213-n|Man=
-14	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	kid	kid	NOUN	NN	_	10	nsubj	_	NN|09917593-n|HumanChild=
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	_	6	nsubj	_	WP|?|?
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	doing	do	VERB	VBG	_	2	rcmod	_	VBG|02568672-v|Position+
+7	magic	magic	NOUN	NN	_	6	dobj	_	NN|05967977-n|Attribute+
+8	,	,	.	,	_	10	punct	_	Fc|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	tricking	trick	VERB	VBG	_	0	ROOT	_	VBG|02575723-v|SubjectiveAssessmentAttribute+
+11	an	a	DET	DT	_	13	det	_	DT|?|?
+12	old	old	ADJ	JJ	_	13	amod	_	JJ|01643620-a|SubjectiveAssessmentAttribute+
+13	man	man	NOUN	NN	_	10	dobj	_	NN|10287213-n|Man=
+14	.	.	.	.	_	10	punct	_	Fp|?|?

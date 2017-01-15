@@ -8,23 +8,23 @@ CONCEPTS B: Deer=,Entity+,Ambulating=,SubjectiveAssessmentAttribute+,Device+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	deer	deer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02430045-n|Deer=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-5	over	over	ADP	IN	fPOS=ADP++IN	7	case	_	RP|00226550-r|SubjectiveAssessmentAttribute+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	wall	wall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04546855-n|Wall=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	deer	deer	NOUN	NN	_	4	nsubj	_	NN|02430045-n|Deer=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	over	over	ADP	IN	_	4	prep	_	RP|00226550-r|SubjectiveAssessmentAttribute+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	wall	wall	NOUN	NN	_	5	pobj	_	NN|04546855-n|Wall=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	deer	deer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02430045-n|Deer=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-5	over	over	ADP	IN	fPOS=ADP++IN	7	case	_	RP|00226550-r|SubjectiveAssessmentAttribute+
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	fence	fence	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03327234-n|Device+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	deer	deer	NOUN	NN	_	4	nsubj	_	NN|02430045-n|Deer=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	over	over	ADP	IN	_	4	prep	_	RP|00226550-r|SubjectiveAssessmentAttribute+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	fence	fence	NOUN	NN	_	5	pobj	_	NN|03327234-n|Device+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

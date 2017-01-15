@@ -8,26 +8,26 @@ CONCEPTS B: RadiatingSound+,Canine+,Entity+,SubjectiveAssessmentAttribute+,Incre
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	great	great	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01123879-a|RadiatingSound+
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00433232-v|Increasing+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	steep	steep	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	8	compound	_	JJ|01144887-a|LandArea+
-8	hill	hill	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|09303008-n|Hill=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	great	great	ADJ	JJ	_	3	amod	_	JJ|01123879-a|RadiatingSound+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	climbing	climb	VERB	VBG	_	0	ROOT	_	VBG|00433232-v|Increasing+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	steep	steep	ADJ	JJ	_	8	amod	_	JJ|01144887-a|LandArea+
+8	hill	hill	NOUN	NN	_	5	dobj	_	NN|09303008-n|Hill=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	great	great	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01123879-a|RadiatingSound+
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-5	wildly	wildly	ADV	RB	fPOS=ADV++RB	6	advmod	_	RB|00174987-r|SubjectiveAssessmentAttribute+
-6	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00433232-v|Increasing+
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	steep	steep	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	JJ|01144887-a|LandArea+
-9	hill	hill	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|09303008-n|Hill=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	great	great	ADJ	JJ	_	3	amod	_	JJ|01123879-a|RadiatingSound+
+3	dog	dog	NOUN	NN	_	6	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	wildly	wildly	ADV	RB	_	6	advmod	_	RB|00174987-r|SubjectiveAssessmentAttribute+
+6	climbing	climb	VERB	VBG	_	0	ROOT	_	VBG|00433232-v|Increasing+
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	steep	steep	ADJ	JJ	_	9	amod	_	JJ|01144887-a|LandArea+
+9	hill	hill	NOUN	NN	_	6	dobj	_	NN|09303008-n|Hill=
+10	.	.	.	.	_	6	punct	_	Fp|?|?

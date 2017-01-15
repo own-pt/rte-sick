@@ -8,31 +8,31 @@ CONCEPTS B: FullyFormed+,PhysicalAttribute+,SittingDown+,Mineral+,RadiatingSound
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	NN|02834778-n|Bicycle=
-3	rider	rider	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	NN|10530150-n|Human+
-4	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-6	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	amod	_	JJ|00392812-a|Black=
-7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
-8	red	red	ADJ	JJ	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	6	conj	_	JJ|00381097-a|Red=
-9	uniform	uniform	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|04509592-n|UniformClothing=
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	VBZ|02604760-v|Entity+
-11	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-12	on	on	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-14	dirt	dirt	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	compound	_	NN|07223811-n|Text+
-15	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|02834778-n|Bicycle=
-16	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	bike	bike	NOUN	NN	_	3	nn	_	NN|02834778-n|Bicycle=
+3	rider	rider	NOUN	NN	_	11	nsubj	_	NN|10530150-n|Human+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	9	det	_	DT|?|?
+6	black	black	ADJ	JJ	_	9	amod	_	JJ|00392812-a|Black=
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	red	red	ADJ	JJ	_	6	conj	_	JJ|00381097-a|Red=
+9	uniform	uniform	NOUN	NN	_	4	pobj	_	NN|04509592-n|UniformClothing=
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+12	on	on	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	15	det	_	DT|?|?
+14	dirt	dirt	NOUN	NN	_	15	nn	_	NN|07223811-n|Text+
+15	bike	bike	NOUN	NN	_	12	pobj	_	NN|02834778-n|Bicycle=
+16	.	.	.	.	_	11	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Five	5	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	2	amod	_	Z|?|?
-2	adults	adult	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|09605289-n|FullyFormed+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	stone	stone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	NN|14696793-n|Mineral+
-7	steps	step	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|07383823-n|RadiatingSound+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Five	5	NUM	CD	_	2	num	_	Z|?|?
+2	adults	adult	NOUN	NNS	_	4	nsubj	_	NNS|09605289-n|FullyFormed+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	stone	stone	NOUN	NN	_	7	nn	_	NN|14696793-n|Mineral+
+7	steps	step	NOUN	NNS	_	5	pobj	_	NNS|07383823-n|RadiatingSound+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -8,20 +8,20 @@ CONCEPTS B: GroupOfPeople=,Entity+,DramaticActing+,Cricket=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	few	few	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	DT|?|?
-3	men	man	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NNS|02472293-n|Hominid=
-4	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	7	cop	_	VBP|02604760-v|Entity+
-5	cheerfully	cheerfully	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	RB|00230749-r|EmotionalState+
-6	playing	play	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	VBG|01719302-v|DramaticActing+
-7	cricket	cricket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|00476389-n|Cricket=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	few	few	ADJ	JJ	_	3	amod	_	DT|?|?
+3	men	man	NOUN	NNS	_	6	nsubj	_	NNS|02472293-n|Hominid=
+4	are	be	VERB	VBP	_	6	aux	_	VBP|02604760-v|Entity+
+5	cheerfully	cheerfully	ADV	RB	_	6	advmod	_	RB|00230749-r|EmotionalState+
+6	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+7	cricket	cricket	NOUN	NN	_	6	dobj	_	NN|00476389-n|Cricket=
+8	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	NNS|07942152-n|GroupOfPeople=
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	3	aux	_	VBP|02604760-v|Entity+
-3	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-4	cricket	cricket	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	dobj	_	NN|00476389-n|Cricket=
-5	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	People	people	NOUN	NNS	_	3	nsubj	_	NNS|07942152-n|GroupOfPeople=
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+4	cricket	cricket	NOUN	NN	_	3	dobj	_	NN|00476389-n|Cricket=
+5	.	.	.	.	_	3	punct	_	Fp|?|?

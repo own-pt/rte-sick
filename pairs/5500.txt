@@ -8,21 +8,21 @@ CONCEPTS B: Woman=,Entity+,EmploymentFiring+,Weapon=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	firing	fire	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01134238-v|Shooting+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	rifle	rifle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|04090263-n|Rifle=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	firing	fire	VERB	VBG	_	0	ROOT	_	VBG|01134238-v|Shooting+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	rifle	rifle	NOUN	NN	_	4	dobj	_	NN|04090263-n|Rifle=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	firing	fire	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02402825-v|EmploymentFiring+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	weapon	weapon	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|04565375-n|Weapon=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	firing	fire	VERB	VBG	_	0	ROOT	_	VBG|02402825-v|EmploymentFiring+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	weapon	weapon	NOUN	NN	_	4	dobj	_	NN|04565375-n|Weapon=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

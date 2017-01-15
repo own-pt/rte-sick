@@ -8,22 +8,22 @@ CONCEPTS B: Feline+,Entity+,Process+
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	kittens	kitten	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02122948-n|Feline+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01168468-v|Eating=
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	food	food	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|05811214-n|SubjectiveAssessmentAttribute+
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	trays	tray	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|04476259-n|Tray=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	kittens	kitten	NOUN	NNS	_	4	nsubj	_	NNS|02122948-n|Feline+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01168468-v|Eating=
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	food	food	NOUN	NN	_	4	dobj	_	NN|05811214-n|SubjectiveAssessmentAttribute+
+7	on	on	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	trays	tray	NOUN	NNS	_	7	pobj	_	NNS|04476259-n|Tray=
+10	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Some	some	DET	DT	Number=Sing|fPOS=NOUN++NN	2	det	_	DT|?|?
-2	kittens	kitten	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02122948-n|Feline+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01157517-v|Process+
-5	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	kittens	kitten	NOUN	NNS	_	4	nsubj	_	NNS|02122948-n|Feline+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+5	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -8,42 +8,42 @@ CONCEPTS B: Man=,VisualAttribute+,NormativeAttribute+,Device+,Entity+,PhysicalAt
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	muscular	muscular	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00828336-a|Human+
-3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02472293-n|Hominid=
-4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	cop	_	VBZ|02604760-v|Entity+
-5	dancing	dance	ADJ	JJ	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01708676-v|Dancing+
-6	and	and	CONJ	CC	fPOS=CONJ++CC	5	cc	_	CC|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	NN|02472293-n|Hominid=
-9	behind	behind	ADP	IN	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	10	case	_	IN|?|?
-10	him	him	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	8	nmod	_	PRP|?|?
-11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	VBZ|02604760-v|Entity+
-12	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	5	conj	_	VBG|00047745-v|CoveringFn=
-13	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	14	amod	_	JJ|00375969-a|Green=
-14	beads	bead	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	dobj	_	NNS|13901585-n|ShapeAttribute+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	muscular	muscular	ADJ	JJ	_	3	amod	_	JJ|00828336-a|Human+
+3	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	man	man	NOUN	NN	_	12	nsubj	_	NN|02472293-n|Hominid=
+9	behind	behind	ADP	IN	_	8	prep	_	IN|?|?
+10	him	him	PRON	PRP	_	9	pobj	_	PRP|?|?
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	wearing	wear	VERB	VBG	_	5	conj	_	VBG|00047745-v|CoveringFn=
+13	green	green	ADJ	JJ	_	14	amod	_	JJ|00375969-a|Green=
+14	beads	bead	NOUN	NNS	_	12	dobj	_	NNS|13901585-n|ShapeAttribute+
+15	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	shirtless	shirtless	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|?|?
-3	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	NN|10287213-n|Man=
-4	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-5	striped	striped	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	amod	_	JJ|01790807-a|VisualAttribute+
-6	shorts	short	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nmod	_	NNS|04204755-n|NormativeAttribute+
-7	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
-8	sunglasses	sunglass	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	conj	_	NNS|04355933-n|Device+
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
-10	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-11	near	near	ADP	IN	Number=Sing|fPOS=NOUN++NN	13	case	_	IN|?|?
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|10287213-n|Man=
-14	in	in	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
-15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	17	det	_	DT|?|?
-16	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	17	amod	_	JJ|00393105-a|White=
-17	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|04197391-n|Shirt=
-18	and	and	CONJ	CC	fPOS=CONJ++CC	17	cc	_	CC|?|?
-19	sunglasses	sunglass	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	17	conj	_	NNS|04355933-n|Device+
-20	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	shirtless	shirtless	ADJ	JJ	_	3	amod	_	JJ|?|?
+3	man	man	NOUN	NN	_	10	nsubj	_	NN|10287213-n|Man=
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	striped	striped	ADJ	JJ	_	6	amod	_	JJ|01790807-a|VisualAttribute+
+6	shorts	short	NOUN	NNS	_	4	pobj	_	NNS|04204755-n|NormativeAttribute+
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	sunglasses	sunglass	NOUN	NNS	_	6	conj	_	NNS|04355933-n|Device+
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+11	near	near	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	man	man	NOUN	NN	_	11	pobj	_	NN|10287213-n|Man=
+14	in	in	ADP	IN	_	10	prep	_	IN|?|?
+15	a	a	DET	DT	_	17	det	_	DT|?|?
+16	white	white	ADJ	JJ	_	17	amod	_	JJ|00393105-a|White=
+17	shirt	shirt	NOUN	NN	_	14	pobj	_	NN|04197391-n|Shirt=
+18	and	and	CONJ	CC	_	17	cc	_	CC|?|?
+19	sunglasses	sunglass	NOUN	NNS	_	17	conj	_	NNS|04355933-n|Device+
+20	.	.	.	.	_	10	punct	_	Fp|?|?

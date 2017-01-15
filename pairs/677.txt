@@ -8,46 +8,46 @@ CONCEPTS B: Canine+,Entity+,Black=,White=,Entity+,Looking=,equal+,Roadway=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nsubj	_	NN|02084071-n|Canine+
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
-4	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	6	nsubj	_	WDT|?|?
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02604760-v|Entity+
-6	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	JJ|00392812-a|Black=
-7	,	,	PUNCT	,	fPOS=PUNCT++,	6	punct	_	Fc|?|?
-8	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	white	white	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	6	conj	_	JJ|00393105-a|White=
-11	one	1	PRON	PRP	Number=Sing|fPOS=NOUN++NN	10	nmod	_	Z|?|?
-12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	13	aux	_	VBP|02604760-v|Entity+
-13	ignoring	ignore	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00800930-v|IntentionalProcess+
-14	each	each	DET	DT	fPOS=DET++DT	15	det	_	DT|?|?
-15	other	other	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	13	dobj	_	JJ|02069355-a|equal+
-16	in	in	ADP	IN	fPOS=ADP++IN	18	case	_	IN|?|?
-17	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	18	det	_	DT|?|?
-18	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	NN|04334599-n|Roadway=
-19	.	.	PUNCT	.	fPOS=PUNCT++.	13	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	0	ROOT	_	NN|02084071-n|Canine+
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	which	which	DET	WDT	_	6	nsubj	_	WDT|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	black	black	ADJ	JJ	_	2	rcmod	_	JJ|00392812-a|Black=
+7	,	,	.	,	_	6	punct	_	Fc|?|?
+8	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	white	white	ADJ	JJ	_	11	amod	_	JJ|00393105-a|White=
+11	one	1	NUM	CD	_	13	nsubj	_	Z|?|?
+12	are	be	VERB	VBP	_	13	aux	_	VBP|02604760-v|Entity+
+13	ignoring	ignore	VERB	VBG	_	6	conj	_	VBG|00800930-v|IntentionalProcess+
+14	each	each	DET	DT	_	15	det	_	DT|?|?
+15	other	other	ADJ	JJ	_	13	dobj	_	JJ|02069355-a|equal+
+16	in	in	ADP	IN	_	13	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	street	street	NOUN	NN	_	16	pobj	_	NN|04334599-n|Roadway=
+19	.	.	.	.	_	2	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nsubj	_	NN|02084071-n|Canine+
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
-4	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	6	nsubj	_	WDT|?|?
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02604760-v|Entity+
-6	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	JJ|00392812-a|Black=
-7	,	,	PUNCT	,	fPOS=PUNCT++,	6	punct	_	Fc|?|?
-8	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	JJ|00393105-a|White=
-11	one	1	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	conj	_	Z|?|?
-12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	13	aux	_	VBP|02604760-v|Entity+
-13	staring	stare	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02132745-v|Looking=
-14	at	at	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-15	each	each	DET	DT	fPOS=DET++DT	16	det	_	DT|?|?
-16	other	other	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	13	nmod	_	JJ|02069355-a|equal+
-17	in	in	ADP	IN	fPOS=ADP++IN	19	case	_	IN|?|?
-18	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	19	det	_	DT|?|?
-19	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nmod	_	NN|04334599-n|Roadway=
-20	.	.	PUNCT	.	fPOS=PUNCT++.	13	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	0	ROOT	_	NN|02084071-n|Canine+
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	which	which	DET	WDT	_	6	nsubj	_	WDT|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	black	black	ADJ	JJ	_	2	rcmod	_	JJ|00392812-a|Black=
+7	,	,	.	,	_	6	punct	_	Fc|?|?
+8	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	white	white	ADJ	JJ	_	11	amod	_	JJ|00393105-a|White=
+11	one	1	NUM	CD	_	13	nsubj	_	Z|?|?
+12	are	be	VERB	VBP	_	13	aux	_	VBP|02604760-v|Entity+
+13	staring	stare	VERB	VBG	_	6	conj	_	VBG|02132745-v|Looking=
+14	at	at	ADP	IN	_	13	prep	_	IN|?|?
+15	each	each	DET	DT	_	16	det	_	DT|?|?
+16	other	other	ADJ	JJ	_	14	pobj	_	JJ|02069355-a|equal+
+17	in	in	ADP	IN	_	13	prep	_	IN|?|?
+18	the	the	DET	DT	_	19	det	_	DT|?|?
+19	street	street	NOUN	NN	_	17	pobj	_	NN|04334599-n|Roadway=
+20	.	.	.	.	_	2	punct	_	Fp|?|?

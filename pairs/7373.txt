@@ -8,30 +8,30 @@ CONCEPTS B: Human=,Entity+,PhysicalAttribute+,Mountain=,LandArea+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-5	behind	behind	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	rocks	rock	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|14696793-n|Mineral+
-8	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-9	clouds	cloud	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	NNS|09247410-n|Cloud=
-10	on	on	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-11	top	top	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	JJ|02439949-a|top=
-12	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-13	them	them	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|fPOS=PRON++PRP	11	nmod	_	PRP|?|?
-14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	behind	behind	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	rocks	rock	NOUN	NNS	_	5	pobj	_	NNS|14696793-n|Mineral+
+8	with	with	ADP	IN	_	4	prep	_	IN|?|?
+9	clouds	cloud	NOUN	NNS	_	8	pobj	_	NNS|09247410-n|Cloud=
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	top	top	NOUN	NN	_	10	pobj	_	JJ|02439949-a|top=
+12	of	of	ADP	IN	_	11	prep	_	IN|?|?
+13	them	them	PRON	PRP	_	12	pobj	_	PRP|?|?
+14	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-5	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	mountain	mountain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	NN|09359803-n|Mountain=
-8	top	top	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|08617963-n|LandArea+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	mountain	mountain	NOUN	NN	_	8	nn	_	NN|09359803-n|Mountain=
+8	top	top	NOUN	NN	_	5	pobj	_	NN|08617963-n|LandArea+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

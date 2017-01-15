@@ -8,35 +8,35 @@ CONCEPTS B: Black=,White=,Canine+,Entity+,DramaticActing+,EndFn+,Volleyball=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-2	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	JJ|00392812-a|Black=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	JJ|00393105-a|White=
-5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|02084071-n|Canine+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-8	with	with	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	tattered	tatter	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	VBN|?|?
-11	volleyball	volleyball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|00480211-n|Volleyball=
-12	in	in	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-14	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	JJ|00245112-a|Human+
-15	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|05996646-n|FieldOfStudy=
-16	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	5	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	5	amod	_	JJ|00392812-a|Black=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	white	white	ADJ	JJ	_	2	conj	_	JJ|00393105-a|White=
+5	dog	dog	NOUN	NN	_	7	nsubj	_	NN|02084071-n|Canine+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+8	with	with	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	tattered	tatter	VERB	VBN	_	11	amod	_	VBN|?|?
+11	volleyball	volleyball	NOUN	NN	_	8	pobj	_	NN|00480211-n|Volleyball=
+12	in	in	ADP	IN	_	7	prep	_	IN|?|?
+13	a	a	DET	DT	_	15	det	_	DT|?|?
+14	brown	brown	ADJ	JJ	_	15	amod	_	JJ|00245112-a|Human+
+15	field	field	NOUN	NN	_	12	pobj	_	NN|05996646-n|FieldOfStudy=
+16	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-2	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	JJ|00392812-a|Black=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	JJ|00393105-a|White=
-5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|02084071-n|Canine+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-8	with	with	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	broken	break	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	VBN|02681524-v|EndFn+
-11	volleyball	volleyball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|00480211-n|Volleyball=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	5	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	5	amod	_	JJ|00392812-a|Black=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	white	white	ADJ	JJ	_	2	conj	_	JJ|00393105-a|White=
+5	dog	dog	NOUN	NN	_	7	nsubj	_	NN|02084071-n|Canine+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+8	with	with	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	broken	break	VERB	VBN	_	11	amod	_	VBN|02681524-v|EndFn+
+11	volleyball	volleyball	NOUN	NN	_	8	pobj	_	NN|00480211-n|Volleyball=
+12	.	.	.	.	_	7	punct	_	Fp|?|?

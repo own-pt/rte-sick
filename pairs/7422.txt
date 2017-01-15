@@ -8,29 +8,29 @@ CONCEPTS B: Canine+,Entity+,Pursuing+,Ball=,Grass=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubjpass	_	NN|02084071-n|Canine+
-3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|02778669-n|Ball=
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-7	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	8	auxpass	_	VBG|02604760-v|Entity+
-8	chased	chase	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|02001858-v|Pursuing+
-9	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|12102133-n|Grass=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	8	nsubjpass	_	NN|02084071-n|Canine+
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	ball	ball	NOUN	NN	_	3	pobj	_	NN|02778669-n|Ball=
+6	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+7	being	be	VERB	VBG	_	8	auxpass	_	VBG|02604760-v|Entity+
+8	chased	chase	VERB	VBN	_	0	ROOT	_	VBN|02001858-v|Pursuing+
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	grass	grass	NOUN	NN	_	9	pobj	_	NN|12102133-n|Grass=
+12	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02084071-n|Canine+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	chasing	chase	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02001858-v|Pursuing+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|02778669-n|Ball=
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|12102133-n|Grass=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	chasing	chase	VERB	VBG	_	0	ROOT	_	VBG|02001858-v|Pursuing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	ball	ball	NOUN	NN	_	4	dobj	_	NN|02778669-n|Ball=
+7	on	on	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	grass	grass	NOUN	NN	_	7	pobj	_	NN|12102133-n|Grass=
+10	.	.	.	.	_	4	punct	_	Fp|?|?

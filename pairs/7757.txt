@@ -8,25 +8,25 @@ CONCEPTS B: GroupOfPeople=,Entity+,Walking=,Roadway=,Entity+,SocialInteraction+
 
 CONLL A:
 
-1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	NNS|07942152-n|GroupOfPeople=
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	3	aux	_	VBP|02604760-v|Entity+
-3	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
-4	through	through	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	crowded	crowd	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	VBN|02027612-v|SocialInteraction+
-7	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|04334599-n|Roadway=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	People	people	NOUN	NNS	_	3	nsubj	_	NNS|07942152-n|GroupOfPeople=
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+4	through	through	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	crowded	crowd	ADJ	JJ	_	7	amod	_	VBN|02027612-v|SocialInteraction+
+7	street	street	NOUN	NN	_	4	pobj	_	NN|04334599-n|Roadway=
+8	.	.	.	.	_	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubj	_	NNS|07942152-n|GroupOfPeople=
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	3	aux	_	VBP|02604760-v|Entity+
-3	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
-4	through	through	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	street	street	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|04334599-n|Roadway=
-7	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	9	nsubjpass	_	WDT|?|?
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	auxpass	_	VBZ|02604760-v|Entity+
-9	crowded	crowd	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	6	acl:relcl	_	VBN|02027612-v|SocialInteraction+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	People	people	NOUN	NNS	_	3	nsubj	_	NNS|07942152-n|GroupOfPeople=
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+4	through	through	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	street	street	NOUN	NN	_	4	pobj	_	NN|04334599-n|Roadway=
+7	which	which	DET	WDT	_	9	nsubjpass	_	WDT|?|?
+8	is	be	VERB	VBZ	_	9	auxpass	_	VBZ|02604760-v|Entity+
+9	crowded	crowd	VERB	VBN	_	6	rcmod	_	VBN|02027612-v|SocialInteraction+
+10	.	.	.	.	_	3	punct	_	Fp|?|?

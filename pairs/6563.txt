@@ -8,27 +8,27 @@ CONCEPTS B: HumanYouth=,Hominid=,Entity+,DramaticActing+,SubjectiveWeakPositiveA
 
 CONLL A:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
-5	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	gold	gold	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	NN|14638799-n|Gold=
-8	statue	statue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04306847-n|Sculpture+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	gold	gold	ADJ	JJ	_	8	amod	_	NN|14638799-n|Gold=
+8	statue	statue	NOUN	NN	_	5	pobj	_	NN|04306847-n|Sculpture+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	3	nummod	_	Z|?|?
-2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01646941-a|HumanYouth=
-3	men	man	NOUN	NNS	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NNS|02472293-n|Hominid=
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02604760-v|Entity+
-5	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-6	outside	outside	ADP	IN	fPOS=ADV++RB	10	advmod	_	IN|?|?
-7	near	near	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-9	golden	golden	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	amod	_	JJ|00670938-a|SubjectiveWeakPositiveAttribute+
-10	statue	statue	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|04306847-n|Sculpture+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	men	man	NOUN	NNS	_	5	nsubj	_	NNS|02472293-n|Hominid=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	outside	outside	ADV	RB	_	5	advmod	_	IN|?|?
+7	near	near	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	golden	golden	ADJ	JJ	_	10	amod	_	JJ|00670938-a|SubjectiveWeakPositiveAttribute+
+10	statue	statue	NOUN	NN	_	7	pobj	_	NN|04306847-n|Sculpture+
+11	.	.	.	.	_	5	punct	_	Fp|?|?

@@ -8,22 +8,22 @@ CONCEPTS B: Human=,Entity+,Folding+,PreparedFood+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	slowly	slowly	ADV	RB	fPOS=ADV++RB	5	advmod	_	RB|00161630-r|NormativeAttribute+
-5	folding	fold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01277974-v|Folding+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	tortilla	tortilla	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|07880583-n|PreparedFood+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	slowly	slowly	ADV	RB	_	5	advmod	_	RB|00161630-r|NormativeAttribute+
+5	folding	fold	VERB	VBG	_	0	ROOT	_	VBG|01277974-v|Folding+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	tortilla	tortilla	NOUN	NN	_	5	dobj	_	NN|07880583-n|PreparedFood+
+8	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	folding	fold	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01277974-v|Folding+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	tortilla	tortilla	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|07880583-n|PreparedFood+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	folding	fold	VERB	VBG	_	0	ROOT	_	VBG|01277974-v|Folding+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	tortilla	tortilla	NOUN	NN	_	4	dobj	_	NN|07880583-n|PreparedFood+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

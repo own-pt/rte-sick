@@ -8,28 +8,28 @@ CONCEPTS B: Human+,Entity+,StateOfMind+,IntentionalProcess+,RecreationOrExercise
 
 CONLL A:
 
-1	One	1	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	bicycle	bicycle	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	amod	_	NN|02834778-n|Bicycle=
-7	trick	trick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|00427580-n|RecreationOrExercise+
-8	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-9	midair	midair	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|08600147-n|Region+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	bicycle	bicycle	NOUN	NN	_	7	nn	_	NN|02834778-n|Bicycle=
+7	trick	trick	NOUN	NN	_	4	dobj	_	NN|00427580-n|RecreationOrExercise+
+8	in	in	ADP	IN	_	4	prep	_	IN|?|?
+9	midair	midair	NOUN	NN	_	8	pobj	_	NN|08600147-n|Region+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	cyclist	cyclist	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|09986189-n|Human+
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	fearlessly	fearlessly	ADV	RB	fPOS=ADV++RB	5	advmod	_	RB|00199687-r|StateOfMind+
-5	performing	perform	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	trick	trick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|00427580-n|RecreationOrExercise+
-8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|00300441-n|AirTransportation+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cyclist	cyclist	NOUN	NN	_	5	nsubj	_	NN|09986189-n|Human+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	fearlessly	fearlessly	ADV	RB	_	5	advmod	_	RB|00199687-r|StateOfMind+
+5	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	trick	trick	NOUN	NN	_	5	dobj	_	NN|00427580-n|RecreationOrExercise+
+8	in	in	ADP	IN	_	5	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	air	air	NOUN	NN	_	8	pobj	_	NN|00300441-n|AirTransportation+
+11	.	.	.	.	_	5	punct	_	Fp|?|?

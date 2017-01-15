@@ -8,27 +8,27 @@ CONCEPTS B: Human+,Human+,Entity+,PhysicalAttribute+,String+
 
 CONLL A:
 
-1	Nobody	nobody	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	PRP|?|?
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	VBZ|02604760-v|Entity+
-3	dangling	dangle	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02717472-v|SubjectiveAssessmentAttribute+
-4	from	from	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-5	straps	strap	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nmod	_	NNS|04333129-n|Device+
-6	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	CC|?|?
-7	kicking	kick	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	3	conj	_	VBG|00907147-v|Expressing+
-8	at	at	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	each	each	DET	DT	fPOS=DET++DT	10	det	_	DT|?|?
-10	other	other	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	nmod	_	JJ|02069355-a|equal+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	Nobody	nobody	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	dangling	dangle	VERB	VBG	_	0	ROOT	_	VBG|02717472-v|SubjectiveAssessmentAttribute+
+4	from	from	ADP	IN	_	3	prep	_	IN|?|?
+5	straps	strap	NOUN	NNS	_	4	pobj	_	NNS|04333129-n|Device+
+6	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+7	kicking	kick	VERB	VBG	_	3	conj	_	VBG|00907147-v|Expressing+
+8	at	at	ADP	IN	_	7	prep	_	IN|?|?
+9	each	each	DET	DT	_	10	det	_	DT|?|?
+10	other	other	ADJ	JJ	_	8	pobj	_	JJ|02069355-a|equal+
+11	.	.	.	.	_	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	blonde	blonde	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00243606-a|Human+
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10129825-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	hanging	hang	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01482075-v|PhysicalAttribute+
-6	by	by	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	gymnastic	gymnastic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|02849732-a|?
-8	ropes	rope	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	NNS|04108268-n|String+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	blonde	blonde	ADJ	JJ	_	3	amod	_	JJ|00243606-a|Human+
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	hanging	hang	VERB	VBG	_	0	ROOT	_	VBG|01482075-v|PhysicalAttribute+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	gymnastic	gymnastic	ADJ	JJ	_	8	amod	_	JJ|02849732-a|?
+8	ropes	rope	NOUN	NNS	_	6	pobj	_	NNS|04108268-n|String+
+9	.	.	.	.	_	5	punct	_	Fp|?|?

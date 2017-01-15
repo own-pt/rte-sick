@@ -8,27 +8,27 @@ CONCEPTS B: Human+,Damaging+,SurfaceChange+,TimeDuration+,TraitAttribute+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	NN|10129825-n|Human+
-3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|00065639-v|Damaging+
-4	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|00392812-a|Black=
-5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-6	orange	orange	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	conj	_	NN|04965179-n|OrangeColor+
-7	patches	patch	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	dobj	_	NNS|15246353-n|TimeDuration+
-8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	cheeks	cheek	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nmod	_	NNS|04838210-n|TraitAttribute+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	3	nsubj	_	NN|10129825-n|Human+
+3	has	have	VERB	VBZ	_	0	ROOT	_	VBZ|00065639-v|Damaging+
+4	black	black	ADJ	JJ	_	7	amod	_	JJ|00392812-a|Black=
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	orange	orange	NOUN	NN	_	4	conj	_	NN|04965179-n|OrangeColor+
+7	patches	patch	NOUN	NNS	_	3	dobj	_	NNS|15246353-n|TimeDuration+
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	cheeks	cheek	NOUN	NNS	_	8	pobj	_	NNS|04838210-n|TraitAttribute+
+11	.	.	.	.	_	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10129825-n|Human+
-3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|00065639-v|Damaging+
-4	colored	color	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	0	ROOT	_	VBN|00283911-v|SurfaceChange+
-5	patches	patch	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|15246353-n|TimeDuration+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	cheeks	cheek	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	NNS|04838210-n|TraitAttribute+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	has	have	VERB	VBZ	_	4	aux	_	VBZ|00065639-v|Damaging+
+4	colored	color	VERB	VBN	_	0	ROOT	_	VBN|00283911-v|SurfaceChange+
+5	patches	patch	NOUN	NNS	_	4	dobj	_	NNS|15246353-n|TimeDuration+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	cheeks	cheek	NOUN	NNS	_	6	pobj	_	NNS|04838210-n|TraitAttribute+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

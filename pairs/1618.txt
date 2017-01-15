@@ -8,25 +8,25 @@ CONCEPTS B: Device+,Entity+,EmotionalState+,DramaticActing+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	guy	guy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|03471779-n|Device+
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	cheerfully	cheerfully	ADJ	JJ	fPOS=ADV++RB	5	advmod	_	RB|00230749-r|EmotionalState+
-5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-6	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	footbag	footbag	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|?|?
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	guy	guy	NOUN	NN	_	5	nsubj	_	NN|03471779-n|Device+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	cheerfully	cheerfully	ADV	RB	_	5	advmod	_	RB|00230749-r|EmotionalState+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	footbag	footbag	NOUN	NN	_	6	pobj	_	NN|?|?
+9	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	guy	guy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|03471779-n|Device+
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	cheerfully	cheerfully	ADJ	JJ	fPOS=ADV++RB	5	advmod	_	RB|00230749-r|EmotionalState+
-5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-6	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	footbag	footbag	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|?|?
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	guy	guy	NOUN	NN	_	5	nsubj	_	NN|03471779-n|Device+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	cheerfully	cheerfully	ADV	RB	_	5	advmod	_	RB|00230749-r|EmotionalState+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	footbag	footbag	NOUN	NN	_	6	pobj	_	NN|?|?
+9	.	.	.	.	_	5	punct	_	Fp|?|?

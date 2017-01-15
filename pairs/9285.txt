@@ -8,33 +8,33 @@ CONCEPTS B: Hominid=,Entity+,Transportation+,earlier+,Hill=,Ambulating=,Red=,Ent
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	skiing	ski	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01938426-v|Transportation+
-5	down	down	ADP	RP	fPOS=ADP++IN	4	compound:prt	_	RP|00096089-r|earlier+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	hill	hill	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|09303008-n|Hill=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
-9	over	over	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-11	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|00381097-a|Red=
-12	obstacle	obstacle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	conj	_	NN|05690269-n|Entity+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	skiing	ski	VERB	VBG	_	0	ROOT	_	VBG|01938426-v|Transportation+
+5	down	down	ADP	IN	_	4	prep	_	RP|00096089-r|earlier+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	hill	hill	NOUN	NN	_	5	pobj	_	NN|09303008-n|Hill=
+8	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+9	over	over	ADP	IN	_	5	conj	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	red	red	ADJ	JJ	_	12	amod	_	JJ|00381097-a|Red=
+12	obstacle	obstacle	NOUN	NN	_	9	pobj	_	NN|05690269-n|Entity+
+13	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	skiing	ski	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01938426-v|Transportation+
-5	down	down	ADP	RP	fPOS=ADP++IN	4	compound:prt	_	RP|00096089-r|earlier+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	hill	hill	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|09303008-n|Hill=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-9	jumping	jump	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|01963942-v|Ambulating=
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-11	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|00381097-a|Red=
-12	obstacle	obstacle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|05690269-n|Entity+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	skiing	ski	VERB	VBG	_	0	ROOT	_	VBG|01938426-v|Transportation+
+5	down	down	ADP	IN	_	4	prep	_	RP|00096089-r|earlier+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	hill	hill	NOUN	NN	_	5	pobj	_	NN|09303008-n|Hill=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	jumping	jump	VERB	VBG	_	4	conj	_	VBG|01963942-v|Ambulating=
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	red	red	ADJ	JJ	_	12	amod	_	JJ|00381097-a|Red=
+12	obstacle	obstacle	NOUN	NN	_	9	dobj	_	NN|05690269-n|Entity+
+13	.	.	.	.	_	4	punct	_	Fp|?|?

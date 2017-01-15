@@ -8,39 +8,39 @@ CONCEPTS B: Man=,Entity+,CoveringFn=,Sport=,UniformClothing=,Entity+,Attribute+,
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	NN|09765278-n|Actor=
-3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	purple	purple	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|04970059-n|ColorAttribute+
-5	,	,	PUNCT	,	fPOS=PUNCT++,	4	punct	_	Fc|?|?
-6	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	4	conj	_	JJ|00393105-a|White=
-7	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-8	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	conj	_	JJ|00392812-a|Black=
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	VBZ|02604760-v|Entity+
-10	not	not	PART	RB	fPOS=PART++RB	11	neg	_	RB|00024073-r|not=
-11	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01072949-v|Game+
-12	near	near	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-13	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-14	end	end	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|08566028-n|Region+
-15	of	of	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
-16	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	17	det	_	DT|?|?
-17	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	NN|05996646-n|FieldOfStudy=
-18	.	.	PUNCT	.	fPOS=PUNCT++.	11	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	player	player	NOUN	NN	_	11	nsubj	_	NN|09765278-n|Actor=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	purple	purple	ADJ	JJ	_	3	pobj	_	NN|04970059-n|ColorAttribute+
+5	,	,	.	,	_	4	punct	_	Fc|?|?
+6	white	white	ADJ	JJ	_	4	conj	_	JJ|00393105-a|White=
+7	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+8	black	black	ADJ	JJ	_	4	conj	_	JJ|00392812-a|Black=
+9	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+10	not	not	ADV	RB	_	11	neg	_	RB|00024073-r|not=
+11	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01072949-v|Game+
+12	near	near	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	end	end	NOUN	NN	_	12	pobj	_	NN|08566028-n|Region+
+15	of	of	ADP	IN	_	14	prep	_	IN|?|?
+16	the	the	DET	DT	_	17	det	_	DT|?|?
+17	field	field	NOUN	NN	_	15	pobj	_	NN|05996646-n|FieldOfStudy=
+18	.	.	.	.	_	11	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10287213-n|Man=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00047745-v|CoveringFn=
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	sports	sport	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	compound	_	NNS|00523513-n|Sport=
-7	uniform	uniform	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|04509592-n|UniformClothing=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
-10	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|01525666-v|Attribute+
-11	down	down	ADP	IN	fPOS=ADP++IN	13	case	_	RP|00096089-r|earlier+
-12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|05996646-n|FieldOfStudy=
-14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	sports	sport	NOUN	NNS	_	7	nn	_	NNS|00523513-n|Sport=
+7	uniform	uniform	NOUN	NN	_	4	dobj	_	NN|04509592-n|UniformClothing=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	running	run	VERB	VBG	_	4	conj	_	VBG|01525666-v|Attribute+
+11	down	down	ADP	IN	_	10	prep	_	RP|00096089-r|earlier+
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	field	field	NOUN	NN	_	11	pobj	_	NN|05996646-n|FieldOfStudy=
+14	.	.	.	.	_	4	punct	_	Fp|?|?

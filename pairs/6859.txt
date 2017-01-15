@@ -8,22 +8,22 @@ CONCEPTS B: Canine+,Entity+,Attribute+,Increasing+,FloweringPlant+,Hill=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02084071-n|Canine+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-5	downhill	downhill	ADJ	JJ	fPOS=ADV++RB	4	xcomp	_	RB|00322423-r|SubjectiveAssessmentAttribute+
-6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	downhill	downhill	ADV	RB	_	4	advmod	_	RB|00322423-r|SubjectiveAssessmentAttribute+
+6	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02084071-n|Canine+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-5	up	up	ADP	IN	fPOS=ADP++IN	8	case	_	RP|00097011-r|Increasing+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	grassy	grassy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	JJ|00209620-a|FloweringPlant+
-8	hill	hill	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|09303008-n|Hill=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	up	up	PRT	RP	_	4	prt	_	RP|00097011-r|Increasing+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	grassy	grassy	NOUN	NN	_	8	amod	_	JJ|00209620-a|FloweringPlant+
+8	hill	hill	NOUN	NN	_	4	dobj	_	NN|09303008-n|Hill=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -8,31 +8,31 @@ CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,DramaticActing+,Pi
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10129825-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	piano	piano	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|03928116-n|Piano=
-8	,	,	PUNCT	,	fPOS=PUNCT++,	7	punct	_	Fc|?|?
-9	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	12	nsubj	_	WDT|?|?
-10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	12	cop	_	VBZ|02604760-v|Entity+
-11	very	very	ADV	RB	fPOS=ADV++RB	12	advmod	_	RB|00031899-r|SubjectiveAssessmentAttribute+
-12	big	big	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	acl:relcl	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-13	,	,	PUNCT	,	fPOS=PUNCT++,	12	punct	_	Fc|?|?
-14	on	on	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-15	stage	stage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	NN|13939892-n|Attribute+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	piano	piano	NOUN	NN	_	5	dobj	_	NN|03928116-n|Piano=
+8	,	,	.	,	_	7	punct	_	Fc|?|?
+9	which	which	DET	WDT	_	12	nsubj	_	WDT|?|?
+10	is	be	VERB	VBZ	_	12	cop	_	VBZ|02604760-v|Entity+
+11	very	very	ADV	RB	_	12	advmod	_	RB|00031899-r|SubjectiveAssessmentAttribute+
+12	big	big	ADJ	JJ	_	7	rcmod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+13	,	,	.	,	_	12	punct	_	Fc|?|?
+14	on	on	ADP	IN	_	12	prep	_	IN|?|?
+15	stage	stage	NOUN	NN	_	14	pobj	_	NN|13939892-n|Attribute+
+16	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10129825-n|Human+
-4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	piano	piano	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|03928116-n|Piano=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	piano	piano	NOUN	NN	_	5	dobj	_	NN|03928116-n|Piano=
+8	.	.	.	.	_	5	punct	_	Fp|?|?

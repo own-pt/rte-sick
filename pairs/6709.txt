@@ -8,32 +8,32 @@ CONCEPTS B: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,Outdoors+,Inc
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	little	little	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|09917593-n|HumanChild=
-4	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	pink	pink	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	amod	_	JJ|00379595-a|Pink+
-7	sweater	sweater	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|04370048-n|Clothing+
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
-9	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00433232-v|Increasing+
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-11	concrete	concrete	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	12	compound	_	JJ|00013160-a|Physical+
-12	staircase	staircase	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|04298308-n|Steps=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	child	child	NOUN	NN	_	9	nsubj	_	NN|09917593-n|HumanChild=
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	pink	pink	ADJ	JJ	_	7	amod	_	JJ|00379595-a|Pink+
+7	sweater	sweater	NOUN	NN	_	4	pobj	_	NN|04370048-n|Clothing+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	climbing	climb	VERB	VBG	_	0	ROOT	_	VBG|00433232-v|Increasing+
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	concrete	concrete	ADJ	JJ	_	12	amod	_	JJ|00013160-a|Physical+
+12	staircase	staircase	NOUN	NN	_	9	dobj	_	NN|04298308-n|Steps=
+13	.	.	.	.	_	9	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-3	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	NN|09917593-n|HumanChild=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	auxpass	_	VBZ|02604760-v|Entity+
-5	outdoors	outdoors	PRON	PRP$	fPOS=ADV++RB	6	nmod:poss	_	RB|00110659-r|Outdoors+
-6	climbing	climb	NOUN	NN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	7	nsubj	_	VBG|00433232-v|Increasing+
-7	steps	step	VERB	VBZ	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	NNS|07383823-n|RadiatingSound+
-8	in	in	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	grassy	grassy	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	11	compound	_	JJ|00209620-a|FloweringPlant+
-11	area	area	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|08497294-n|GeographicArea+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	small	small	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	child	child	NOUN	NN	_	6	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	outdoors	outdoors	ADV	RB	_	6	advmod	_	RB|00110659-r|Outdoors+
+6	climbing	climb	VERB	VBG	_	0	ROOT	_	VBG|00433232-v|Increasing+
+7	steps	step	NOUN	NNS	_	6	dobj	_	NNS|07383823-n|RadiatingSound+
+8	in	in	ADP	IN	_	6	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	grassy	grassy	ADJ	JJ	_	11	amod	_	JJ|00209620-a|FloweringPlant+
+11	area	area	NOUN	NN	_	8	pobj	_	NN|08497294-n|GeographicArea+
+12	.	.	.	.	_	6	punct	_	Fp|?|?

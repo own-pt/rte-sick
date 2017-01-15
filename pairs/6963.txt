@@ -8,25 +8,25 @@ CONCEPTS B: GroupOfPeople=,Entity+,IntentionalProcess+,MakingMusic=,Outdoors+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10287213-n|Man=
-3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-5	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	6	amod	_	JJ|00393105-a|White=
-6	hat	hat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03497657-n|Hat+
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-8	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00120316-v|Process+
-9	off	off	ADP	IN	fPOS=ADP++IN	10	case	_	RP|00232936-r|?
-10	stage	stage	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|13939892-n|Attribute+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	_	6	amod	_	JJ|00393105-a|White=
+6	hat	hat	NOUN	NN	_	3	pobj	_	NN|03497657-n|Hat+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	getting	get	VERB	VBG	_	0	ROOT	_	VBG|00120316-v|Process+
+9	off	off	ADP	IN	_	8	prep	_	RP|00232936-r|?
+10	stage	stage	NOUN	NN	_	9	pobj	_	NN|13939892-n|Attribute+
+11	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	performing	perform	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
-5	music	music	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	NN|07020895-n|MakingMusic=
-6	outdoors	outdoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	RB|00110659-r|Outdoors+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Four	4	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	music	music	NOUN	NN	_	4	dobj	_	NN|07020895-n|MakingMusic=
+6	outdoors	outdoors	ADV	RB	_	4	advmod	_	RB|00110659-r|Outdoors+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

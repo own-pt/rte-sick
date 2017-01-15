@@ -8,29 +8,29 @@ CONCEPTS B: Human=,Black=,Coat=,Entity+,IntentionalProcess+,RecreationOrExercise
 
 CONLL A:
 
-1	Nobody	nobody	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	PRP|?|?
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	VBZ|02604760-v|Entity+
-3	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01955984-v|Carrying=
-4	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	bicycle	bicycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	NN|02834778-n|Bicycle=
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	one	1	NUM	CD	NumType=Card|fPOS=NUM++CD	8	nummod	_	Z|?|?
-8	wheel	wheel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|02834778-n|Bicycle=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	Nobody	nobody	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+4	the	the	DET	DT	_	5	det	_	DT|?|?
+5	bicycle	bicycle	NOUN	NN	_	3	dobj	_	NN|02834778-n|Bicycle=
+6	on	on	ADP	IN	_	3	prep	_	IN|?|?
+7	one	1	NUM	CD	_	8	num	_	Z|?|?
+8	wheel	wheel	NOUN	NN	_	6	pobj	_	NN|02834778-n|Bicycle=
+9	.	.	.	.	_	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|00007846-n|Human=
-3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-5	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|00392812-a|Black=
-6	jacket	jacket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03589791-n|Coat=
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-8	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
-9	tricks	trick	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	dobj	_	NNS|00427580-n|RecreationOrExercise+
-10	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	motorbike	motorbike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|03769722-n|TransportationDevice+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	8	nsubj	_	NN|00007846-n|Human=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	black	black	ADJ	JJ	_	6	amod	_	JJ|00392812-a|Black=
+6	jacket	jacket	NOUN	NN	_	3	pobj	_	NN|03589791-n|Coat=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+9	tricks	trick	NOUN	NNS	_	8	dobj	_	NNS|00427580-n|RecreationOrExercise+
+10	on	on	ADP	IN	_	8	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	motorbike	motorbike	NOUN	NN	_	10	pobj	_	NN|03769722-n|TransportationDevice+
+13	.	.	.	.	_	8	punct	_	Fp|?|?

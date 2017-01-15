@@ -8,39 +8,39 @@ CONCEPTS B: ArtWork+,Entity+,Entity+,Transfer+,Human+,ColorAttribute+
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10129825-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00052374-v|Putting+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|00393105-a|White=
-7	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|04197391-n|Shirt=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	pink	pink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	JJ|00379595-a|Pink+
-11	skirt	skirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	conj	_	NN|04230808-n|Clothing+
-12	,	,	PUNCT	,	fPOS=PUNCT++,	4	punct	_	Fc|?|?
-13	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	15	aux	_	VBZ|02604760-v|Entity+
-15	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|01546111-v|PhysicalAttribute+
-16	in	in	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
-17	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	NN|03398467-n|FrontFn=
-18	of	of	ADP	IN	fPOS=ADP++IN	20	case	_	IN|?|?
-19	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	20	det	_	DT|?|?
-20	house	house	NOUN	NN	Number=Sing|fPOS=NOUN++NN	17	nmod	_	NN|04417809-n|Auditorium+
-21	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	white	white	ADJ	JJ	_	7	amod	_	JJ|00393105-a|White=
+7	shirt	shirt	NOUN	NN	_	4	dobj	_	NN|04197391-n|Shirt=
+8	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	pink	pink	ADJ	JJ	_	11	amod	_	JJ|00379595-a|Pink+
+11	skirt	skirt	NOUN	NN	_	7	conj	_	NN|04230808-n|Clothing+
+12	,	,	.	,	_	4	punct	_	Fc|?|?
+13	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+14	is	be	VERB	VBZ	_	15	aux	_	VBZ|02604760-v|Entity+
+15	standing	stand	VERB	VBG	_	4	conj	_	VBG|01546111-v|PhysicalAttribute+
+16	in	in	ADP	IN	_	15	prep	_	IN|?|?
+17	front	front	NOUN	NN	_	16	pobj	_	NN|03398467-n|FrontFn=
+18	of	of	ADP	IN	_	17	prep	_	IN|?|?
+19	a	a	DET	DT	_	20	det	_	DT|?|?
+20	house	house	NOUN	NN	_	18	pobj	_	NN|04417809-n|Auditorium+
+21	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	ribbon	ribbon	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	NN|04087899-n|ArtWork+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	VBG|02604760-v|Entity+
-5	twirled	twirl	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|02048051-v|Transfer+
-6	by	by	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|10129825-n|Human+
-9	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-10	pink	pink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|04970916-n|ColorAttribute+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	ribbon	ribbon	NOUN	NN	_	5	nsubjpass	_	NN|04087899-n|ArtWork+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	twirled	twirl	VERB	VBN	_	0	ROOT	_	VBN|02048051-v|Transfer+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	girl	girl	NOUN	NN	_	6	pobj	_	NN|10129825-n|Human+
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	pink	pink	NOUN	NN	_	9	pobj	_	NN|04970916-n|ColorAttribute+
+11	.	.	.	.	_	5	punct	_	Fp|?|?

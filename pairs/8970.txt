@@ -8,35 +8,35 @@ CONCEPTS B: Red=,Human+,Canine+,Entity+,Making+,Nose+,Vacationing=,Psychological
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	NN|02084071-n|Canine+
-3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	0	ROOT	_	VBZ|00065639-v|Damaging+
-4	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	5	nmod:poss	_	PRP$|?|?
-5	head	head	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	NN|05538625-n|Head=
-6	inside	inside	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-8	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|00381097-a|Red=
-9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	CC|?|?
-10	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	conj	_	JJ|00375969-a|Green=
-11	gift	gift	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	12	compound	_	NN|05624042-n|PsychologicalAttribute+
-12	bag	bag	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|02773037-n|Container+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	3	nsubj	_	NN|02084071-n|Canine+
+3	has	have	VERB	VBZ	_	0	ROOT	_	VBZ|00065639-v|Damaging+
+4	its	its	PRON	PRP$	_	5	poss	_	PRP$|?|?
+5	head	head	NOUN	NN	_	3	dobj	_	NN|05538625-n|Head=
+6	inside	inside	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	12	det	_	DT|?|?
+8	red	red	ADJ	JJ	_	12	amod	_	JJ|00381097-a|Red=
+9	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+10	green	green	ADJ	JJ	_	8	conj	_	JJ|00375969-a|Green=
+11	gift	gift	NOUN	NN	_	12	nn	_	NN|05624042-n|PsychologicalAttribute+
+12	bag	bag	NOUN	NN	_	6	pobj	_	NN|02773037-n|Container+
+13	.	.	.	.	_	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Case=Nom|Number=Sing|Person=1|PronType=Prs|fPOS=PRON++PRP	5	det	_	DT|?|?
-2	red	red	VERB	VBN	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	5	amod	_	JJ|00381097-a|Red=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	brown	brown	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	JJ|00245112-a|Human+
-5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|02084071-n|Canine+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	digging	dig	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01309701-v|Making+
-8	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	9	nmod:poss	_	PRP$|?|?
-9	nose	nose	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	NN|05598147-n|Nose+
-10	inside	inside	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-12	holiday	holiday	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	compound	_	NN|15137890-n|Vacationing=
-13	gift	gift	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	compound	_	NN|05624042-n|PsychologicalAttribute+
-14	bag	bag	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|02773037-n|Container+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	5	det	_	DT|?|?
+2	red	red	ADJ	JJ	_	5	amod	_	JJ|00381097-a|Red=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	brown	brown	ADJ	JJ	_	2	conj	_	JJ|00245112-a|Human+
+5	dog	dog	NOUN	NN	_	7	nsubj	_	NN|02084071-n|Canine+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	digging	dig	VERB	VBG	_	0	ROOT	_	VBG|01309701-v|Making+
+8	its	its	PRON	PRP$	_	9	poss	_	PRP$|?|?
+9	nose	nose	NOUN	NN	_	7	dobj	_	NN|05598147-n|Nose+
+10	inside	inside	ADP	IN	_	7	prep	_	IN|?|?
+11	the	the	DET	DT	_	14	det	_	DT|?|?
+12	holiday	holiday	NOUN	NN	_	14	nn	_	NN|15137890-n|Vacationing=
+13	gift	gift	NOUN	NN	_	14	nn	_	NN|05624042-n|PsychologicalAttribute+
+14	bag	bag	NOUN	NN	_	10	pobj	_	NN|02773037-n|Container+
+15	.	.	.	.	_	7	punct	_	Fp|?|?

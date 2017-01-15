@@ -8,27 +8,27 @@ CONCEPTS B: HumanChild=,PhysicalAttribute+,SittingDown+,earlier+,Damaging+,Knee+
 
 CONLL A:
 
-1	Two	2	NOUN	NN	NumType=Card|fPOS=NUM++CD	3	nummod	_	Z|?|?
-2	young	young	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	amod	_	JJ|01646941-a|HumanYouth=
-3	girls	girl	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|10129825-n|Human+
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02655135-v|PhysicalAttribute+
-5	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	ground	ground	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|09334396-n|LandArea=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girls	girl	NOUN	NNS	_	5	nsubj	_	NNS|10129825-n|Human+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	ground	ground	NOUN	NN	_	6	pobj	_	NN|09334396-n|LandArea=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Several	several	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	DT|?|?
-2	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|09917593-n|HumanChild=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	VerbForm=Ger|fPOS=AUX++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-5	down	down	ADV	RB	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	4	advmod	_	RP|00096089-r|earlier+
-6	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-7	have	have	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	4	conj	_	VB|00065639-v|Damaging+
-8	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	9	nmod:poss	_	PRP$|?|?
-9	knees	knee	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	dobj	_	NNS|05573602-n|Knee+
-10	raised	raise	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	9	acl	_	VBD|01974062-v|MotionUpward=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Several	several	ADJ	JJ	_	2	amod	_	DT|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	down	down	PRT	RP	_	4	advmod	_	RP|00096089-r|earlier+
+6	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+7	have	have	VERB	VBP	_	4	conj	_	VB|00065639-v|Damaging+
+8	their	their	PRON	PRP$	_	9	poss	_	PRP$|?|?
+9	knees	knee	NOUN	NNS	_	10	nsubj	_	NNS|05573602-n|Knee+
+10	raised	raise	VERB	VBN	_	7	ccomp	_	VBD|01974062-v|MotionUpward=
+11	.	.	.	.	_	4	punct	_	Fp|?|?

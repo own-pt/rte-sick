@@ -8,26 +8,26 @@ CONCEPTS B: GroupOfPeople=,Entity+,Meeting+,Fire+,NightTime+
 
 CONLL A:
 
-1	Several	several	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	DT|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-5	around	around	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	fire	fire	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|13480848-n|Combustion=
-8	at	at	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-9	night	night	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|15167027-n|NightTime+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Several	several	ADJ	JJ	_	2	amod	_	DT|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	around	around	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	fire	fire	NOUN	NN	_	5	pobj	_	NN|13480848-n|Combustion=
+8	at	at	ADP	IN	_	4	prep	_	IN|?|?
+9	night	night	NOUN	NN	_	8	pobj	_	NN|15167027-n|NightTime+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	People	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nsubjpass	_	NNS|07942152-n|GroupOfPeople=
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	3	auxpass	_	VBP|02604760-v|Entity+
-3	clustered	cluster	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|02025009-v|Meeting+
-4	around	around	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	bonfire	bonfire	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|07303335-n|Fire+
-7	at	at	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-8	night	night	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|15167027-n|NightTime+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	People	people	NOUN	NNS	_	3	nsubjpass	_	NNS|07942152-n|GroupOfPeople=
+2	are	be	VERB	VBP	_	3	auxpass	_	VBP|02604760-v|Entity+
+3	clustered	cluster	VERB	VBN	_	0	ROOT	_	VBN|02025009-v|Meeting+
+4	around	around	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	bonfire	bonfire	NOUN	NN	_	4	pobj	_	NN|07303335-n|Fire+
+7	at	at	ADP	IN	_	6	prep	_	IN|?|?
+8	night	night	NOUN	NN	_	7	pobj	_	NN|15167027-n|NightTime+
+9	.	.	.	.	_	3	punct	_	Fp|?|?

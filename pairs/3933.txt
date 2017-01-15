@@ -8,34 +8,34 @@ CONCEPTS B: Man=,Entity+,IntentionalProcess+,SubjectiveStrongPositiveAttribute+,
 
 CONLL A:
 
-1	Boys	boy	NOUN	NNS	fPOS=ADV++RB	3	nsubj	_	NNS|10285313-n|Human+
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	3	aux	_	VBP|02604760-v|Entity+
-3	dancing	dance	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01708676-v|Dancing+
-4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-5	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|08573472-n|FrontFn=
-6	of	of	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	some	some	DET	DT	fPOS=DET++DT	8	det	_	DT|?|?
-8	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	NNS|07942152-n|GroupOfPeople=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	Boys	boy	NOUN	NNS	_	3	nsubj	_	NNS|10285313-n|Human+
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	front	front	NOUN	NN	_	4	pobj	_	NN|08573472-n|FrontFn=
+6	of	of	ADP	IN	_	5	prep	_	IN|?|?
+7	some	some	DET	DT	_	8	det	_	DT|?|?
+8	people	people	NOUN	NNS	_	6	pobj	_	NNS|07942152-n|GroupOfPeople=
+9	.	.	.	.	_	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|10287213-n|Man=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	funny	funny	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|01265308-a|SubjectiveStrongPositiveAttribute+
-7	skit	skit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|00551508-n|Pretending+
-8	with	with	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	boxer	boxer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|09870208-n|Boxer=
-11	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-12	front	front	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|08573472-n|FrontFn=
-13	of	of	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-15	crowd	crowd	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	NN|08182379-n|SubjectiveAssessmentAttribute=
-16	of	of	ADP	IN	fPOS=ADP++IN	17	case	_	IN|?|?
-17	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	15	nmod	_	NNS|07942152-n|GroupOfPeople=
-18	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|10287213-n|Man=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	funny	funny	ADJ	JJ	_	7	amod	_	JJ|01265308-a|SubjectiveStrongPositiveAttribute+
+7	skit	skit	NOUN	NN	_	4	dobj	_	NN|00551508-n|Pretending+
+8	with	with	ADP	IN	_	4	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	boxer	boxer	NOUN	NN	_	8	pobj	_	NN|09870208-n|Boxer=
+11	in	in	ADP	IN	_	10	prep	_	IN|?|?
+12	front	front	NOUN	NN	_	11	pobj	_	NN|08573472-n|FrontFn=
+13	of	of	ADP	IN	_	12	prep	_	IN|?|?
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	crowd	crowd	NOUN	NN	_	13	pobj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+16	of	of	ADP	IN	_	15	prep	_	IN|?|?
+17	people	people	NOUN	NNS	_	16	pobj	_	NNS|07942152-n|GroupOfPeople=
+18	.	.	.	.	_	4	punct	_	Fp|?|?

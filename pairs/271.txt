@@ -8,32 +8,32 @@ CONCEPTS B: Position+,Entity+,Carrying=,Cask=,Horse=,StationaryArtifact+
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	brown	brown	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00245112-a|Human+
-3	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|02374451-n|Horse=
-4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	cop	_	VBZ|02604760-v|Entity+
-5	near	near	ADV	RB	fPOS=ADP++IN	8	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	red	red	VERB	VBN	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|00381097-a|Red=
-8	barrel	barrel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	NN|02795169-n|Cask=
-9	at	at	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	rodeo	rodeo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|00522939-n|RecreationOrExercise+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	horse	horse	NOUN	NN	_	4	nsubj	_	NN|02374451-n|Horse=
+4	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+5	near	near	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	red	red	ADJ	JJ	_	8	amod	_	JJ|00381097-a|Red=
+8	barrel	barrel	NOUN	NN	_	5	pobj	_	NN|02795169-n|Cask=
+9	at	at	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	rodeo	rodeo	NOUN	NN	_	9	pobj	_	NN|00522939-n|RecreationOrExercise+
+12	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	cowgirl	cowgirl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09973422-n|Position+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01955984-v|Carrying=
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	barrel	barrel	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	dobj	_	NN|02795169-n|Cask=
-7	near	near	ADP	IN	Number=Sing|fPOS=NOUN++NN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	horse	horse	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02374451-n|Horse=
-10	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	corner	corner	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03109486-n|StationaryArtifact+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cowgirl	cowgirl	NOUN	NN	_	4	nsubj	_	NN|09973422-n|Position+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	barrel	barrel	NOUN	NN	_	4	dobj	_	NN|02795169-n|Cask=
+7	near	near	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	horse	horse	NOUN	NN	_	7	pobj	_	NN|02374451-n|Horse=
+10	in	in	ADP	IN	_	4	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	corner	corner	NOUN	NN	_	10	pobj	_	NN|03109486-n|StationaryArtifact+
+13	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -8,23 +8,23 @@ CONCEPTS B: Entity+,Process+,SubjectiveAssessmentAttribute+,Animal=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	piano	piano	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	NN|03928116-n|Piano=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	VBG|02604760-v|Entity+
-5	played	play	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|01719302-v|DramaticActing+
-6	by	by	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-7	someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	PRP|?|?
-8	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	piano	piano	NOUN	NN	_	5	nsubjpass	_	NN|03928116-n|Piano=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	played	play	VERB	VBN	_	0	ROOT	_	VBN|01719302-v|DramaticActing+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	someone	someone	NOUN	NN	_	6	pobj	_	PRP|?|?
+8	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	PRP|?|?
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	VBZ|02604760-v|Entity+
-3	giving	give	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01629000-v|Process+
-4	food	food	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	NN|05811214-n|SubjectiveAssessmentAttribute+
-5	to	to	ADP	IN	fPOS=ADP++IN	7	case	_	TO|?|?
-6	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	animal	animal	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|00015388-n|Animal=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	giving	give	VERB	VBG	_	0	ROOT	_	VBG|01629000-v|Process+
+4	food	food	NOUN	NN	_	3	dobj	_	NN|05811214-n|SubjectiveAssessmentAttribute+
+5	to	to	ADP	IN	_	3	prep	_	TO|?|?
+6	an	a	DET	DT	_	7	det	_	DT|?|?
+7	animal	animal	NOUN	NN	_	5	pobj	_	NN|00015388-n|Animal=
+8	.	.	.	.	_	3	punct	_	Fp|?|?

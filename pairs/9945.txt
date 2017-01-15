@@ -8,28 +8,28 @@ CONCEPTS B: Feline+,Entity+,Process+
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	tan	tan	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00384533-a|ColorAttribute+
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	watching	watch	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02150948-v|Looking=
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	brown	brown	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|00245112-a|Human+
-8	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|02084071-n|Canine+
-9	that	that	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	11	nsubj	_	WDT|?|?
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	11	aux	_	VBZ|02604760-v|Entity+
-11	swimming	swim	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	8	acl:relcl	_	VBG|01960911-v|Swimming+
-12	in	in	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-14	pond	pond	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|09397391-n|Lake+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	tan	tan	ADJ	JJ	_	3	amod	_	JJ|00384533-a|ColorAttribute+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	watching	watch	VERB	VBG	_	0	ROOT	_	VBG|02150948-v|Looking=
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	brown	brown	ADJ	JJ	_	8	amod	_	JJ|00245112-a|Human+
+8	dog	dog	NOUN	NN	_	5	dobj	_	NN|02084071-n|Canine+
+9	that	that	DET	WDT	_	11	nsubj	_	WDT|?|?
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	swimming	swim	VERB	VBG	_	8	rcmod	_	VBG|01960911-v|Swimming+
+12	in	in	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	pond	pond	NOUN	NN	_	12	pobj	_	NN|09397391-n|Lake+
+15	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	few	few	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	DT|?|?
-3	kittens	kitten	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|02122948-n|Feline+
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02604760-v|Entity+
-5	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01157517-v|Process+
-6	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	few	few	ADJ	JJ	_	3	amod	_	DT|?|?
+3	kittens	kitten	NOUN	NNS	_	5	nsubj	_	NNS|02122948-n|Feline+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+6	.	.	.	.	_	5	punct	_	Fp|?|?

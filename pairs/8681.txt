@@ -8,41 +8,41 @@ CONCEPTS B: Woman=,Dressing+,Black=,Entity+,CoveringFn=,Clothing+,IntentionalPro
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10287213-n|Man=
-3	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	2	acl	_	VBN|00046534-v|Dressing+
-4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-5	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	JJ|00392812-a|Black=
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00047745-v|CoveringFn=
-8	inline	inline	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|?|?
-9	skates	skate	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	dobj	_	NNS|04225729-n|Clothing+
-10	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
-11	performing	perform	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	conj	_	VBG|01712704-v|IntentionalProcess+
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	trick	trick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	NN|00427580-n|RecreationOrExercise+
-14	on	on	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-16	rail	rail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|04047401-n|Handle+
-17	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|10287213-n|Man=
+3	dressed	dress	VERB	VBN	_	2	partmod	_	VBN|00046534-v|Dressing+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	black	black	ADJ	JJ	_	4	pobj	_	JJ|00392812-a|Black=
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+8	inline	inline	NOUN	NN	_	9	nn	_	JJ|?|?
+9	skates	skate	NOUN	NNS	_	7	dobj	_	NNS|04225729-n|Clothing+
+10	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+11	performing	perform	VERB	VBG	_	7	conj	_	VBG|01712704-v|IntentionalProcess+
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	trick	trick	NOUN	NN	_	11	dobj	_	NN|00427580-n|RecreationOrExercise+
+14	on	on	ADP	IN	_	11	prep	_	IN|?|?
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	rail	rail	NOUN	NN	_	14	pobj	_	NN|04047401-n|Handle+
+17	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10787470-n|Woman=
-3	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	2	acl	_	VBN|00046534-v|Dressing+
-4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-5	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	JJ|00392812-a|Black=
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00047745-v|CoveringFn=
-8	inline	inline	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|?|?
-9	skates	skate	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	dobj	_	NNS|04225729-n|Clothing+
-10	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
-11	performing	perform	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	7	conj	_	VBG|01712704-v|IntentionalProcess+
-12	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	trick	trick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	dobj	_	NN|00427580-n|RecreationOrExercise+
-14	on	on	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-16	rail	rail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	NN|04047401-n|Handle+
-17	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	7	nsubj	_	NN|10787470-n|Woman=
+3	dressed	dress	VERB	VBN	_	2	partmod	_	VBN|00046534-v|Dressing+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	black	black	ADJ	JJ	_	4	pobj	_	JJ|00392812-a|Black=
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+8	inline	inline	NOUN	NN	_	9	nn	_	JJ|?|?
+9	skates	skate	NOUN	NNS	_	7	dobj	_	NNS|04225729-n|Clothing+
+10	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+11	performing	perform	VERB	VBG	_	7	conj	_	VBG|01712704-v|IntentionalProcess+
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	trick	trick	NOUN	NN	_	11	dobj	_	NN|00427580-n|RecreationOrExercise+
+14	on	on	ADP	IN	_	11	prep	_	IN|?|?
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	rail	rail	NOUN	NN	_	14	pobj	_	NN|04047401-n|Handle+
+17	.	.	.	.	_	7	punct	_	Fp|?|?

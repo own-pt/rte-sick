@@ -8,27 +8,27 @@ CONCEPTS B: ArtWork+,Entity+,Entity+,Transfer+,Human+,ColorAttribute+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|10129825-n|Human+
-3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	pink	pink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|04970916-n|ColorAttribute+
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	twirling	twirl	VERB	VBG	fPOS=ADP++IN	0	ROOT	_	VBG|02048051-v|Transfer+
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	ribbon	ribbon	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|04087899-n|ArtWork+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	6	nsubj	_	NN|10129825-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	pink	pink	NOUN	NN	_	3	pobj	_	NN|04970916-n|ColorAttribute+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	twirling	twirl	VERB	VBG	_	0	ROOT	_	VBG|02048051-v|Transfer+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	ribbon	ribbon	NOUN	NN	_	6	dobj	_	NN|04087899-n|ArtWork+
+9	.	.	.	.	_	6	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	ribbon	ribbon	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	NN|04087899-n|ArtWork+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	VBG|02604760-v|Entity+
-5	twirled	twirl	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|02048051-v|Transfer+
-6	by	by	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|10129825-n|Human+
-9	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-10	pink	pink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|04970916-n|ColorAttribute+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	ribbon	ribbon	NOUN	NN	_	5	nsubjpass	_	NN|04087899-n|ArtWork+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	twirled	twirl	VERB	VBN	_	0	ROOT	_	VBN|02048051-v|Transfer+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	girl	girl	NOUN	NN	_	6	pobj	_	NN|10129825-n|Human+
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	pink	pink	NOUN	NN	_	9	pobj	_	NN|04970916-n|ColorAttribute+
+11	.	.	.	.	_	5	punct	_	Fp|?|?

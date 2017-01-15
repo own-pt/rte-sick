@@ -8,37 +8,37 @@ CONCEPTS B: Black=,White=,Canine+,Entity+,not=,Attribute+,Entity+,Human=,SocialR
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-2	black	black	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	5	amod	_	JJ|00392812-a|Black=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	JJ|00393105-a|White=
-5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|02084071-n|Canine+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-8	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	NN|00007846-n|Human=
-11	stands	stand	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	conj	_	VBZ|01546111-v|PhysicalAttribute+
-12	behind	behind	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	11	nmod	_	PRP|?|?
-14	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	The	the	DET	DT	_	5	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	5	amod	_	JJ|00392812-a|Black=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	white	white	ADJ	JJ	_	2	conj	_	JJ|00393105-a|White=
+5	dog	dog	NOUN	NN	_	7	nsubj	_	NN|02084071-n|Canine+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+8	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	person	person	NOUN	NN	_	11	nsubj	_	NN|00007846-n|Human=
+11	stands	stand	VERB	VBZ	_	7	conj	_	VBZ|01546111-v|PhysicalAttribute+
+12	behind	behind	ADP	IN	_	11	prep	_	IN|?|?
+13	it	it	PRON	PRP	_	12	pobj	_	PRP|?|?
+14	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-2	black	black	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	5	amod	_	JJ|00392812-a|Black=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	JJ|00393105-a|White=
-5	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|02084071-n|Canine+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-7	not	not	PART	RB	fPOS=PART++RB	8	neg	_	RB|00024073-r|not=
-8	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-9	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	CC|?|?
-10	there	there	PRON	EX	fPOS=PRON++EX	11	expl	_	EX|?|?
-11	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	8	conj	_	VBZ|02604760-v|Entity+
-12	no	no	DET	DT	fPOS=DET++DT	13	neg	_	DT|?|?
-13	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nsubj	_	NN|00007846-n|Human=
-14	standing	standing	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	13	acl	_	NN|13948136-n|SocialRole+
-15	behind	behind	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	IN|?|?
-16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	The	the	DET	DT	_	5	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	5	amod	_	JJ|00392812-a|Black=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	white	white	ADJ	JJ	_	2	conj	_	JJ|00393105-a|White=
+5	dog	dog	NOUN	NN	_	8	nsubj	_	NN|02084071-n|Canine+
+6	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+7	not	not	ADV	RB	_	8	neg	_	RB|00024073-r|not=
+8	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+9	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+10	there	there	DET	EX	_	11	expl	_	EX|?|?
+11	is	be	VERB	VBZ	_	8	conj	_	VBZ|02604760-v|Entity+
+12	no	no	DET	DT	_	13	det	_	DT|?|?
+13	person	person	NOUN	NN	_	11	nsubj	_	NN|00007846-n|Human=
+14	standing	standing	VERB	VBG	_	13	partmod	_	NN|13948136-n|SocialRole+
+15	behind	behind	ADV	RB	_	14	advmod	_	IN|?|?
+16	.	.	.	.	_	8	punct	_	Fp|?|?

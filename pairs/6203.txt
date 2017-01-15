@@ -8,39 +8,39 @@ CONCEPTS B: Human+,Entity+,Entity+,Keeping+,Head=,Group=,GroupOfPeople=,Bicycle=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	bicyclist	bicyclist	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09986189-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02681795-v|Keeping+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|02834778-n|Bicycle=
-7	over	over	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	9	nmod:poss	_	PRP$|?|?
-9	head	head	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|05538625-n|Head=
-10	in	in	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|00031264-n|Group=
-13	of	of	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-14	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	12	nmod	_	NNS|07942152-n|GroupOfPeople=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	bicyclist	bicyclist	NOUN	NN	_	4	nsubj	_	NN|09986189-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|02681795-v|Keeping+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	bike	bike	NOUN	NN	_	4	dobj	_	NN|02834778-n|Bicycle=
+7	over	over	ADP	IN	_	4	prep	_	IN|?|?
+8	his	his	PRON	PRP$	_	9	poss	_	PRP$|?|?
+9	head	head	NOUN	NN	_	7	pobj	_	NN|05538625-n|Head=
+10	in	in	ADP	IN	_	4	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	group	group	NOUN	NN	_	10	pobj	_	NN|00031264-n|Group=
+13	of	of	ADP	IN	_	12	prep	_	IN|?|?
+14	people	people	NOUN	NNS	_	13	pobj	_	NNS|07942152-n|GroupOfPeople=
+15	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	cyclist	cyclist	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	NN|09986189-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	VBG|02604760-v|Entity+
-5	held	hold	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|02681795-v|Keeping+
-6	over	over	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	heads	head	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nmod	_	NNS|05538625-n|Head=
-9	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|00031264-n|Group=
-12	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-13	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	NNS|07942152-n|GroupOfPeople=
-14	with	with	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-15	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-16	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|02834778-n|Bicycle=
-17	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cyclist	cyclist	NOUN	NN	_	5	nsubjpass	_	NN|09986189-n|Human+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	held	hold	VERB	VBN	_	0	ROOT	_	VBN|02681795-v|Keeping+
+6	over	over	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	heads	head	NOUN	NNS	_	6	pobj	_	NNS|05538625-n|Head=
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	group	group	NOUN	NN	_	9	pobj	_	NN|00031264-n|Group=
+12	of	of	ADP	IN	_	11	prep	_	IN|?|?
+13	people	people	NOUN	NNS	_	12	pobj	_	NNS|07942152-n|GroupOfPeople=
+14	with	with	ADP	IN	_	13	prep	_	IN|?|?
+15	the	the	DET	DT	_	16	det	_	DT|?|?
+16	bike	bike	NOUN	NN	_	14	pobj	_	NN|02834778-n|Bicycle=
+17	.	.	.	.	_	5	punct	_	Fp|?|?

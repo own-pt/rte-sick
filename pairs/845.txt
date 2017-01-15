@@ -8,31 +8,31 @@ CONCEPTS B: Woman=,Entity+,Pursuing+,Horse+,Mineral+,Increasing+,Wall=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10787470-n|Woman=
-3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	ponytail	ponytail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|05260380-n|Hair+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00433232-v|Increasing+
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	wall	wall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	NN|04546855-n|Wall=
-10	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-11	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|14696793-n|Mineral+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	7	nsubj	_	NN|10787470-n|Woman=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	ponytail	ponytail	NOUN	NN	_	3	pobj	_	NN|05260380-n|Hair+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	climbing	climb	VERB	VBG	_	0	ROOT	_	VBG|00433232-v|Increasing+
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	wall	wall	NOUN	NN	_	7	dobj	_	NN|04546855-n|Wall=
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	rock	rock	NOUN	NN	_	10	pobj	_	NN|14696793-n|Mineral+
+12	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	tailing	tail	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02001858-v|Pursuing+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	pony	pony	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	dobj	_	NN|02380335-n|Horse+
-7	near	near	ADP	IN	Number=Sing|fPOS=NOUN++NN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	rock	rock	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|14696793-n|Mineral+
-10	climbing	climb	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	9	acl	_	VBG|00433232-v|Increasing+
-11	wall	wall	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	NN|04546855-n|Wall=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	tailing	tail	VERB	VBG	_	0	ROOT	_	VBG|02001858-v|Pursuing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	pony	pony	NOUN	NN	_	4	dobj	_	NN|02380335-n|Horse+
+7	near	near	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	11	det	_	DT|?|?
+9	rock	rock	NOUN	NN	_	10	nn	_	NN|14696793-n|Mineral+
+10	climbing	climb	VERB	VBG	_	11	nn	_	VBG|00433232-v|Increasing+
+11	wall	wall	NOUN	NN	_	7	pobj	_	NN|04546855-n|Wall=
+12	.	.	.	.	_	4	punct	_	Fp|?|?

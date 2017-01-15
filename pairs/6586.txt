@@ -8,26 +8,26 @@ CONCEPTS B: HumanYouth=,Human+,Entity+,PhysicalAttribute+,Limb=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	JJ|01646941-a|HumanYouth=
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10129825-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	standing	stand	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-6	challengingly	challengingly	ADJ	JJ	fPOS=ADV++RB	5	advmod	_	RB|?|?
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	one	1	NUM	CD	NumType=Card|fPOS=NUM++CD	9	nummod	_	Z|?|?
-9	leg	leg	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|05560787-n|Limb=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+6	challengingly	challengingly	ADV	RB	_	5	advmod	_	RB|?|?
+7	on	on	ADP	IN	_	5	prep	_	IN|?|?
+8	one	1	NUM	CD	_	9	num	_	Z|?|?
+9	leg	leg	NOUN	NN	_	7	pobj	_	NN|05560787-n|Limb=
+10	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	amod	_	JJ|01646941-a|HumanYouth=
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10129825-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	one	1	NUM	CD	NumType=Card|fPOS=NUM++CD	8	nummod	_	Z|?|?
-8	leg	leg	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|05560787-n|Limb=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	one	1	NUM	CD	_	8	num	_	Z|?|?
+8	leg	leg	NOUN	NN	_	6	pobj	_	NN|05560787-n|Limb=
+9	.	.	.	.	_	5	punct	_	Fp|?|?

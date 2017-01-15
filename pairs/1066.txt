@@ -8,32 +8,32 @@ CONCEPTS B: Position+,Entity+,Process+,TransportationDevice+,Human=,Process=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|00007846-n|Human=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01955984-v|Carrying=
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	motorbike	motorbike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03769722-n|TransportationDevice+
-7	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-9	sandy	sandy	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	compound	_	JJ|00142040-a|part+
-10	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|04037625-n|StationaryArtifact+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	motorbike	motorbike	NOUN	NN	_	4	dobj	_	NN|03769722-n|TransportationDevice+
+7	on	on	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	sandy	sandy	ADJ	JJ	_	10	amod	_	JJ|00142040-a|part+
+10	track	track	NOUN	NN	_	7	pobj	_	NN|04037625-n|StationaryArtifact+
+11	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	motocross	motocross	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	NN|?|?
-3	rider	rider	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10529965-n|Position+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	giving	give	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01629000-v|Process+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	motorbike	motorbike	NOUN	NN	NumType=Card|fPOS=NUM++CD	5	dobj	_	NN|03769722-n|TransportationDevice+
-8	to	to	ADP	IN	fPOS=ADP++IN	10	case	_	TO|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|00007846-n|Human=
-11	at	at	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-12	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	event	event	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|00029378-n|Process=
-14	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	motocross	motocross	NOUN	NN	_	3	nn	_	NN|?|?
+3	rider	rider	NOUN	NN	_	5	nsubj	_	NN|10529965-n|Position+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	giving	give	VERB	VBG	_	0	ROOT	_	VBG|01629000-v|Process+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	motorbike	motorbike	NOUN	NN	_	5	dobj	_	NN|03769722-n|TransportationDevice+
+8	to	to	ADP	IN	_	5	prep	_	TO|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	person	person	NOUN	NN	_	8	pobj	_	NN|00007846-n|Human=
+11	at	at	ADP	IN	_	5	prep	_	IN|?|?
+12	an	a	DET	DT	_	13	det	_	DT|?|?
+13	event	event	NOUN	NN	_	11	pobj	_	NN|00029378-n|Process=
+14	.	.	.	.	_	5	punct	_	Fp|?|?

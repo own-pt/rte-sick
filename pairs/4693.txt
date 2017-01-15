@@ -8,24 +8,24 @@ CONCEPTS B: Hominid=,Entity+,IntentionalProcess+,SubjectiveStrongNegativeAttribu
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	hiding	hide	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02144835-v|Concealing=
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-7	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|10200047-n|Human+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	hiding	hide	VERB	VBG	_	0	ROOT	_	VBG|02144835-v|Concealing=
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	small	small	ADJ	JJ	_	7	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+7	monkey	monkey	NOUN	NN	_	4	dobj	_	NN|10200047-n|Human+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	showing	show	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02137132-v|IntentionalProcess+
-5	off	off	ADP	RP	fPOS=ADP++IN	8	case	_	RP|00232936-r|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-8	monkey	monkey	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|10200047-n|Human+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	showing	show	VERB	VBG	_	0	ROOT	_	VBG|02137132-v|IntentionalProcess+
+5	off	off	PRT	RP	_	4	prt	_	RP|00232936-r|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	small	small	ADJ	JJ	_	8	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+8	monkey	monkey	NOUN	NN	_	4	dobj	_	NN|10200047-n|Human+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

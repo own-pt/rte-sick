@@ -8,42 +8,42 @@ CONCEPTS B: Human+,Dressing+,OrangeColor+,Entity+,Transportation+,PassengerVehic
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|10287213-n|Man=
-3	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-5	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
-6	sport	sport	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	compound	_	NN|00523513-n|Sport=
-7	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|02834778-n|Bicycle=
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
-9	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	wheelie	wheelie	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|?|?
-12	and	and	CONJ	CC	fPOS=CONJ++CC	9	cc	_	CC|?|?
-13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-14	friend	friend	NOUN	NN	Number=Sing|fPOS=NOUN++NN	20	nsubj	_	NN|10112591-n|SubjectiveAssessmentAttribute=
-15	on	on	ADP	IN	fPOS=ADP++IN	18	case	_	IN|?|?
-16	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	18	det	_	DT|?|?
-17	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	18	amod	_	JJ|00392812-a|Black=
-18	bike	bike	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	nmod	_	NN|02834778-n|Bicycle=
-19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	20	aux	_	VBZ|02604760-v|Entity+
-20	catching	catch	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	9	conj	_	VBG|01439190-v|Grabbing+
-21	up	up	ADP	RP	fPOS=ADP++RP	20	compound:prt	_	RP|00097011-r|Increasing+
-22	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	9	nsubj	_	NN|10287213-n|Man=
+3	on	on	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	7	det	_	DT|?|?
+5	yellow	yellow	ADJ	JJ	_	7	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+6	sport	sport	NOUN	NN	_	7	nn	_	NN|00523513-n|Sport=
+7	bike	bike	NOUN	NN	_	3	pobj	_	NN|02834778-n|Bicycle=
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	wheelie	wheelie	NOUN	NN	_	9	dobj	_	NN|?|?
+12	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	friend	friend	NOUN	NN	_	20	nsubj	_	NN|10112591-n|SubjectiveAssessmentAttribute=
+15	on	on	ADP	IN	_	14	prep	_	IN|?|?
+16	a	a	DET	DT	_	18	det	_	DT|?|?
+17	black	black	ADJ	JJ	_	18	amod	_	JJ|00392812-a|Black=
+18	bike	bike	NOUN	NN	_	15	pobj	_	NN|02834778-n|Bicycle=
+19	is	be	VERB	VBZ	_	20	aux	_	VBZ|02604760-v|Entity+
+20	catching	catch	VERB	VBG	_	9	conj	_	VBG|01439190-v|Grabbing+
+21	up	up	PRT	RP	_	20	prt	_	RP|00097011-r|Increasing+
+22	.	.	.	.	_	9	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	rider	rider	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10530150-n|Human+
-3	dressed	dress	VERB	VBN	Mood=Ind|Tense=Past|VerbForm=Fin|fPOS=VERB++VBD	2	acl	_	VBN|00046534-v|Dressing+
-4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-5	orange	orange	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|04965179-n|OrangeColor+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	driving	drive	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01930874-v|Transportation+
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	NN|03790512-n|PassengerVehicle+
-10	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	one	1	NUM	CD	Number=Sing|fPOS=NOUN++NN	12	nummod	_	Z|?|?
-12	wheel	wheel	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|04574999-n|VehicleWheel=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	rider	rider	NOUN	NN	_	7	nsubj	_	NN|10530150-n|Human+
+3	dressed	dress	VERB	VBN	_	2	partmod	_	VBN|00046534-v|Dressing+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	orange	orange	NOUN	NN	_	4	pobj	_	NN|04965179-n|OrangeColor+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	driving	drive	VERB	VBG	_	0	ROOT	_	VBG|01930874-v|Transportation+
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	motorcycle	motorcycle	NOUN	NN	_	7	dobj	_	NN|03790512-n|PassengerVehicle+
+10	on	on	ADP	IN	_	7	prep	_	IN|?|?
+11	one	1	NUM	CD	_	12	num	_	Z|?|?
+12	wheel	wheel	NOUN	NN	_	10	pobj	_	NN|04574999-n|VehicleWheel=
+13	.	.	.	.	_	7	punct	_	Fp|?|?

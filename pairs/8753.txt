@@ -8,28 +8,28 @@ CONCEPTS B: GroupOfPeople=,Entity+,not=,Walking=,Cable+,Bridge+
 
 CONLL A:
 
-1	Several	several	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	DT|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
-5	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-6	line	line	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04402057-n|Cable+
-7	across	across	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	bridge	bridge	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|02898711-n|Bridge+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Several	several	ADJ	JJ	_	2	amod	_	DT|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	line	line	NOUN	NN	_	5	pobj	_	NN|04402057-n|Cable+
+7	across	across	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	bridge	bridge	NOUN	NN	_	7	pobj	_	NN|02898711-n|Bridge+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Several	several	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	amod	_	DT|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02604760-v|Entity+
-4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	RB|00024073-r|not=
-5	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
-6	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-7	line	line	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|04402057-n|Cable+
-8	across	across	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	bridge	bridge	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02898711-n|Bridge+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	Several	several	ADJ	JJ	_	2	amod	_	DT|?|?
+2	people	people	NOUN	NNS	_	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	line	line	NOUN	NN	_	6	pobj	_	NN|04402057-n|Cable+
+8	across	across	ADP	IN	_	5	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	bridge	bridge	NOUN	NN	_	8	pobj	_	NN|02898711-n|Bridge+
+11	.	.	.	.	_	5	punct	_	Fp|?|?

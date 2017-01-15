@@ -8,26 +8,26 @@ CONCEPTS B: Entity+,Whip+,Ambulating=,SocialRole+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02985606-n|Whip+
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	cop	_	VBZ|02604760-v|Entity+
-4	stuck	stick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	0	ROOT	_	VBN|01614581-v|Attaching+
-5	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-7	moving	move	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	VBG|01767949-v|PsychologicalProcess+
-8	ceiling	ceiling	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	NN|02990373-n|Ceiling=
-9	fan	fan	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|10077593-n|SocialRole+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	4	nsubjpass	_	NN|02985606-n|Whip+
+3	is	be	VERB	VBZ	_	4	auxpass	_	VBZ|02604760-v|Entity+
+4	stuck	stick	VERB	VBN	_	0	ROOT	_	VBN|01614581-v|Attaching+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	9	det	_	DT|?|?
+7	moving	move	VERB	VBG	_	9	amod	_	VBG|01767949-v|PsychologicalProcess+
+8	ceiling	ceiling	NOUN	NN	_	9	nn	_	NN|02990373-n|Ceiling=
+9	fan	fan	NOUN	NN	_	5	pobj	_	NN|10077593-n|SocialRole+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
-4	cat	cat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|02985606-n|Whip+
-5	swinging	swing	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	VBG|01877355-v|Ambulating=
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	fan	fan	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|10077593-n|SocialRole+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	cat	cat	NOUN	NN	_	2	nsubj	_	NN|02985606-n|Whip+
+5	swinging	swing	VERB	VBG	_	4	partmod	_	VBG|01877355-v|Ambulating=
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	fan	fan	NOUN	NN	_	6	pobj	_	NN|10077593-n|SocialRole+
+9	.	.	.	.	_	2	punct	_	Fp|?|?

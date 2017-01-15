@@ -8,33 +8,33 @@ CONCEPTS B: Man=,Hat+,Entity+,PhysicalAttribute+,Green=,Automobile+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10287213-n|Man=
-3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-5	hat	hat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03497657-n|Hat+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-8	outside	outside	ADP	IN	Degree=Pos|fPOS=ADJ++JJ	7	advmod	_	IN|?|?
-9	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-11	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|00375969-a|Green=
-12	jeep	jeep	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|03594945-n|Automobile+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	hat	hat	NOUN	NN	_	3	pobj	_	NN|03497657-n|Hat+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+8	outside	outside	ADV	RB	_	7	advmod	_	IN|?|?
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	green	green	ADJ	JJ	_	12	amod	_	JJ|00375969-a|Green=
+12	jeep	jeep	NOUN	NN	_	9	pobj	_	NN|03594945-n|Automobile+
+13	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|10287213-n|Man=
-3	with	with	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	no	no	DET	DT	fPOS=DET++DT	5	neg	_	DT|?|?
-5	hat	hat	NOUN	NN	PronType=Rel|fPOS=PRON++WDT	2	nmod	_	NN|03497657-n|Hat+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-8	outside	outside	ADP	IN	Degree=Pos|fPOS=ADJ++JJ	7	advmod	_	IN|?|?
-9	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-11	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|00375969-a|Green=
-12	jeep	jeep	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|03594945-n|Automobile+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|10287213-n|Man=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	no	no	DET	DT	_	5	det	_	DT|?|?
+5	hat	hat	NOUN	NN	_	3	pobj	_	NN|03497657-n|Hat+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+8	outside	outside	ADV	RB	_	7	advmod	_	IN|?|?
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	green	green	ADJ	JJ	_	12	amod	_	JJ|00375969-a|Green=
+12	jeep	jeep	NOUN	NN	_	9	pobj	_	NN|03594945-n|Automobile+
+13	.	.	.	.	_	7	punct	_	Fp|?|?

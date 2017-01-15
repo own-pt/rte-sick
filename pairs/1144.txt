@@ -8,24 +8,24 @@ CONCEPTS B: Entity+,Woman=,Wetting+,PrawnMeat=,Human+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	driving	drive	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01930874-v|Transportation+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|02958343-n|Automobile=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	driving	drive	VERB	VBG	_	0	ROOT	_	VBG|01930874-v|Transportation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	car	car	NOUN	NN	_	4	dobj	_	NN|02958343-n|Automobile=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
-4	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nsubj	_	NN|10787470-n|Woman=
-5	dipping	dip	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	VBG|01577093-v|Wetting+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	shrimp	shrimp	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|07794159-n|PrawnMeat=
-8	in	in	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-9	batter	batter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|09843956-n|Human+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	woman	woman	NOUN	NN	_	2	nsubj	_	NN|10787470-n|Woman=
+5	dipping	dip	VERB	VBG	_	4	partmod	_	VBG|01577093-v|Wetting+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	shrimp	shrimp	NOUN	NN	_	5	dobj	_	NN|07794159-n|PrawnMeat=
+8	in	in	ADP	IN	_	5	prep	_	IN|?|?
+9	batter	batter	NOUN	NN	_	8	pobj	_	NN|09843956-n|Human+
+10	.	.	.	.	_	2	punct	_	Fp|?|?

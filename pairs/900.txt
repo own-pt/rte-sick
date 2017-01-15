@@ -8,38 +8,38 @@ CONCEPTS B: Man=,SubjectiveStrongNegativeAttribute+,Clothing+,Entity+,Subjective
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|10287213-n|Man=
-3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-5	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
-6	jumpsuit	jumpsuit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03605598-n|Clothing+
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-8	failing	fail	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02523521-v|NormativeAttribute+
-9	to	to	PART	TO	fPOS=PART++TO	10	mark	_	TO|?|?
-10	perform	perform	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	8	advcl	_	VB|01712704-v|IntentionalProcess+
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	wheelie	wheelie	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	dobj	_	NN|?|?
-13	on	on	ADP	IN	fPOS=ADP++IN	15	case	_	IN|?|?
-14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-15	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nmod	_	NN|03790512-n|PassengerVehicle+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	blue	blue	ADJ	JJ	_	6	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+6	jumpsuit	jumpsuit	NOUN	NN	_	3	pobj	_	NN|03605598-n|Clothing+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	failing	fail	VERB	VBG	_	0	ROOT	_	VBG|02523521-v|NormativeAttribute+
+9	to	to	PRT	TO	_	10	aux	_	TO|?|?
+10	perform	perform	VERB	VB	_	8	xcomp	_	VB|01712704-v|IntentionalProcess+
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	wheelie	wheelie	NOUN	NN	_	10	dobj	_	NN|?|?
+13	on	on	ADP	IN	_	10	prep	_	IN|?|?
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	motorcycle	motorcycle	NOUN	NN	_	13	pobj	_	NN|03790512-n|PassengerVehicle+
+16	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|10287213-n|Man=
-3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-5	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
-6	jumpsuit	jumpsuit	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03605598-n|Clothing+
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	9	aux	_	VBZ|02604760-v|Entity+
-8	courageously	courageously	ADV	RB	fPOS=ADV++RB	9	advmod	_	RB|00172980-r|SubjectiveAssessmentAttribute+
-9	performing	perform	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	wheelie	wheelie	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|?|?
-12	on	on	ADP	IN	fPOS=ADP++IN	14	case	_	IN|?|?
-13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	14	det	_	DT|?|?
-14	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|03790512-n|PassengerVehicle+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	9	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	blue	blue	ADJ	JJ	_	6	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+6	jumpsuit	jumpsuit	NOUN	NN	_	3	pobj	_	NN|03605598-n|Clothing+
+7	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+8	courageously	courageously	ADV	RB	_	9	advmod	_	RB|00172980-r|SubjectiveAssessmentAttribute+
+9	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	wheelie	wheelie	NOUN	NN	_	9	dobj	_	NN|?|?
+12	on	on	ADP	IN	_	9	prep	_	IN|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	motorcycle	motorcycle	NOUN	NN	_	12	pobj	_	NN|03790512-n|PassengerVehicle+
+15	.	.	.	.	_	9	punct	_	Fp|?|?

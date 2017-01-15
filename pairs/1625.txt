@@ -8,24 +8,24 @@ CONCEPTS B: Entity+,Device+,EmotionalState+,DramaticActing+
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	piano	piano	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03928116-n|Piano=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	piano	piano	NOUN	NN	_	4	dobj	_	NN|03928116-n|Piano=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	0	ROOT	_	VBZ|02604760-v|Entity+
-3	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-4	guy	guy	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	NN|03471779-n|Device+
-5	cheerfully	cheerfully	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	2	nsubj	_	RB|00230749-r|EmotionalState+
-6	playing	play	VERB	VBG	Number=Sing|fPOS=NOUN++NN	5	acl	_	VBG|01719302-v|DramaticActing+
-7	with	with	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	footbag	footbag	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|?|?
-10	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	a	a	DET	DT	_	4	det	_	DT|?|?
+4	guy	guy	NOUN	NN	_	2	nsubj	_	NN|03471779-n|Device+
+5	cheerfully	cheerfully	ADV	RB	_	6	advmod	_	RB|00230749-r|EmotionalState+
+6	playing	play	VERB	VBG	_	4	partmod	_	VBG|01719302-v|DramaticActing+
+7	with	with	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	footbag	footbag	NOUN	NN	_	7	pobj	_	NN|?|?
+10	.	.	.	.	_	2	punct	_	Fp|?|?

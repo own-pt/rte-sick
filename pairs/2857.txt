@@ -8,20 +8,20 @@ CONCEPTS B: Whip+,Entity+,ViolentContest+,equal+
 
 CONLL A:
 
-1	Two	2	NOUN	NN	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	cats	cat	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02985606-n|Whip+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
-5	together	together	ADV	RB	fPOS=ADV++RB	4	advmod	_	RB|00507927-r|Meeting=
-6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	cats	cat	NOUN	NNS	_	4	nsubj	_	NNS|02985606-n|Whip+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+5	together	together	ADV	RB	_	4	advmod	_	RB|00507927-r|Meeting=
+6	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	cats	cat	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02985606-n|Whip+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	fighting	fight	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01090335-v|ViolentContest+
-5	each	each	DET	DT	fPOS=DET++DT	6	det	_	DT|?|?
-6	other	other	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	dobj	_	JJ|02069355-a|equal+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	cats	cat	NOUN	NNS	_	4	nsubj	_	NNS|02985606-n|Whip+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	fighting	fight	VERB	VBG	_	0	ROOT	_	VBG|01090335-v|ViolentContest+
+5	each	each	DET	DT	_	6	det	_	DT|?|?
+6	other	other	ADJ	JJ	_	4	dobj	_	JJ|02069355-a|equal+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -8,26 +8,26 @@ CONCEPTS B: Black=,Canine+,Entity+,Walking=,SubjectiveAssessmentAttribute+,Textu
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00392812-a|Black=
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-6	across	across	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	rocky	rocky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	compound	_	JJ|02243567-a|TextureAttribute+
-9	landscape	landscape	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|03640166-n|ArtWork+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	across	across	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	rocky	rocky	ADJ	JJ	_	9	amod	_	JJ|02243567-a|TextureAttribute+
+9	landscape	landscape	NOUN	NN	_	6	pobj	_	NN|03640166-n|ArtWork+
+10	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00392812-a|Black=
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02084071-n|Canine+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	walking	walk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
-6	along	along	ADP	IN	fPOS=ADP++IN	8	case	_	RP|00069164-r|SubjectiveAssessmentAttribute+
-7	rocky	rocky	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	JJ|02243567-a|TextureAttribute+
-8	terrain	terrain	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|08674563-n|LandArea+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+6	along	along	ADP	IN	_	5	prep	_	RP|00069164-r|SubjectiveAssessmentAttribute+
+7	rocky	rocky	ADJ	JJ	_	8	amod	_	JJ|02243567-a|TextureAttribute+
+8	terrain	terrain	NOUN	NN	_	6	pobj	_	NN|08674563-n|LandArea+
+9	.	.	.	.	_	5	punct	_	Fp|?|?

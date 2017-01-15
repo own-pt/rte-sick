@@ -8,21 +8,21 @@ CONCEPTS B: Canine+,Entity+,Licking+,HumanBaby=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02084071-n|Canine+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	licking	lick	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01432176-v|Licking+
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	baby	baby	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|09827683-n|HumanBaby=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	licking	lick	VERB	VBG	_	0	ROOT	_	VBG|01432176-v|Licking+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	baby	baby	NOUN	NN	_	4	dobj	_	NN|09827683-n|HumanBaby=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02084071-n|Canine+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	licking	lick	VERB	VBG	Degree=Pos|fPOS=ADJ++JJ	0	ROOT	_	VBG|01432176-v|Licking+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	baby	baby	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|09827683-n|HumanBaby=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	licking	lick	VERB	VBG	_	0	ROOT	_	VBG|01432176-v|Licking+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	baby	baby	NOUN	NN	_	4	dobj	_	NN|09827683-n|HumanBaby=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

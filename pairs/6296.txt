@@ -8,31 +8,31 @@ CONCEPTS B: Position+,Entity+,Walking+,CoveringFn=,Black=,Pink+,White=,UniformCl
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-3	group	group	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|00031264-n|Group=
-4	of	of	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-5	cheerleaders	cheerleader	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	nmod	_	NNS|09913455-n|Position+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	walking	walk	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
-8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	parade	parade	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|08428485-n|Motion+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	group	group	NOUN	NN	_	7	nsubj	_	NN|00031264-n|Group=
+4	of	of	ADP	IN	_	3	prep	_	IN|?|?
+5	cheerleaders	cheerleader	NOUN	NNS	_	4	pobj	_	NNS|09913455-n|Position+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	parade	parade	NOUN	NN	_	8	pobj	_	NN|08428485-n|Motion+
+11	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	cheerleaders	cheerleader	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|09913455-n|Position+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	parading	parade	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01924712-v|Walking+
-5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-6	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|00047745-v|CoveringFn=
-7	black	black	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|00392812-a|Black=
-8	,	,	PUNCT	,	fPOS=PUNCT++,	7	punct	_	Fc|?|?
-9	pink	pink	VERB	VBP	Number=Sing|fPOS=NOUN++NN	7	conj	_	JJ|00379595-a|Pink+
-10	and	and	CONJ	CC	fPOS=CONJ++CC	7	cc	_	CC|?|?
-11	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	conj	_	JJ|00393105-a|White=
-12	uniforms	uniform	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	6	dobj	_	NNS|04509592-n|UniformClothing=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	cheerleaders	cheerleader	NOUN	NNS	_	4	nsubj	_	NNS|09913455-n|Position+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	parading	parade	VERB	VBG	_	0	ROOT	_	VBG|01924712-v|Walking+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	wearing	wear	VERB	VBG	_	4	conj	_	VBG|00047745-v|CoveringFn=
+7	black	black	ADJ	JJ	_	12	amod	_	JJ|00392812-a|Black=
+8	,	,	.	,	_	7	punct	_	Fc|?|?
+9	pink	pink	ADJ	JJ	_	7	conj	_	JJ|00379595-a|Pink+
+10	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+11	white	white	ADJ	JJ	_	7	conj	_	JJ|00393105-a|White=
+12	uniforms	uniform	NOUN	NNS	_	6	dobj	_	NNS|04509592-n|UniformClothing=
+13	.	.	.	.	_	4	punct	_	Fp|?|?

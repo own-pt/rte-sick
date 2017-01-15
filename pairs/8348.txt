@@ -8,42 +8,42 @@ CONCEPTS B: Automobile+,ContainerFull+,Gear=,CoveringFn=,Clothing+,BeliefGroup+,
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|00007846-n|Human=
-3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-5	motocross	motocross	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	NN|?|?
-6	uniform	uniform	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|04509592-n|UniformClothing=
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-8	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00047745-v|CoveringFn=
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	helmet	helmet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	dobj	_	NN|03513376-n|Clothing+
-11	and	and	CONJ	CC	fPOS=CONJ++CC	8	cc	_	CC|?|?
-12	rides	ride	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	conj	_	VBZ|02102398-v|Transportation+
-13	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	15	det	_	DT|?|?
-14	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	15	amod	_	JJ|00381097-a|Red=
-15	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	dobj	_	NN|03790512-n|PassengerVehicle+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	8	nsubj	_	NN|00007846-n|Human=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	motocross	motocross	ADJ	JJ	_	6	amod	_	NN|?|?
+6	uniform	uniform	NOUN	NN	_	3	pobj	_	NN|04509592-n|UniformClothing=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	helmet	helmet	NOUN	NN	_	8	dobj	_	NN|03513376-n|Clothing+
+11	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+12	rides	ride	VERB	VBZ	_	8	conj	_	VBZ|02102398-v|Transportation+
+13	a	a	DET	DT	_	15	det	_	DT|?|?
+14	red	red	ADJ	JJ	_	15	amod	_	JJ|00381097-a|Red=
+15	motorcycle	motorcycle	NOUN	NN	_	12	dobj	_	NN|03790512-n|PassengerVehicle+
+16	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	racer	racer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|04037443-n|Automobile+
-3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	full	full	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	JJ|01083157-a|ContainerFull+
-5	gear	gear	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03430551-n|Gear=
-6	wears	wear	VERB	VBZ	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	VBZ|00047745-v|CoveringFn=
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	helmet	helmet	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|03513376-n|Clothing+
-9	with	with	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	sponsor	sponsor	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	compound	_	NN|10407954-n|BeliefGroup+
-11	logos	logo	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	nmod	_	NNS|07272084-n|ContentBearingObject+
-12	and	and	CONJ	CC	fPOS=CONJ++CC	6	cc	_	CC|?|?
-13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	14	aux	_	VBZ|02604760-v|Entity+
-14	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	6	conj	_	VBG|02102398-v|Transportation+
-15	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	18	det	_	DT|?|?
-16	blue	blue	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	17	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
-17	sport	sport	NOUN	NN	Number=Sing|fPOS=NOUN++NN	18	compound	_	NN|00523513-n|Sport=
-18	motorcycle	motorcycle	NOUN	NN	Number=Sing|fPOS=NOUN++NN	14	dobj	_	NN|03790512-n|PassengerVehicle+
-19	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	racer	racer	NOUN	NN	_	6	nsubj	_	NN|04037443-n|Automobile+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	full	full	ADJ	JJ	_	5	amod	_	JJ|01083157-a|ContainerFull+
+5	gear	gear	NOUN	NN	_	3	pobj	_	NN|03430551-n|Gear=
+6	wears	wear	VERB	VBZ	_	0	ROOT	_	VBZ|00047745-v|CoveringFn=
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	helmet	helmet	NOUN	NN	_	6	dobj	_	NN|03513376-n|Clothing+
+9	with	with	ADP	IN	_	8	prep	_	IN|?|?
+10	sponsor	sponsor	NOUN	NN	_	11	nn	_	NN|10407954-n|BeliefGroup+
+11	logos	logo	NOUN	NNS	_	9	pobj	_	NNS|07272084-n|ContentBearingObject+
+12	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+13	is	be	VERB	VBZ	_	14	aux	_	VBZ|02604760-v|Entity+
+14	riding	ride	VERB	VBG	_	6	conj	_	VBG|02102398-v|Transportation+
+15	a	a	DET	DT	_	18	det	_	DT|?|?
+16	blue	blue	ADJ	JJ	_	18	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+17	sport	sport	NOUN	NN	_	18	nn	_	NN|00523513-n|Sport=
+18	motorcycle	motorcycle	NOUN	NN	_	14	dobj	_	NN|03790512-n|PassengerVehicle+
+19	.	.	.	.	_	6	punct	_	Fp|?|?

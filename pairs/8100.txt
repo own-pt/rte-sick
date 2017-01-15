@@ -8,23 +8,23 @@ CONCEPTS B: top+,Woman=,Entity+,Entity+,Covering+,Soil=
 
 CONLL A:
 
-1	Mud	mud	PROPN	NNP	Number=Sing|fPOS=PROPN++NNP	3	nsubj	_	NN|14956325-n|Soil=
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	VBZ|02604760-v|Entity+
-3	covering	cover	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01332730-v|Covering+
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-5	topless	topless	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	6	amod	_	JJ|02442082-a|top+
-6	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	NN|10787470-n|Woman=
-7	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	Mud	mud	NOUN	NNP	_	3	nsubj	_	NN|14956325-n|Soil=
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	covering	cover	VERB	VBG	_	0	ROOT	_	VBG|01332730-v|Covering+
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	topless	topless	ADJ	JJ	_	6	amod	_	JJ|02442082-a|top+
+6	woman	woman	NOUN	NN	_	3	dobj	_	NN|10787470-n|Woman=
+7	.	.	.	.	_	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	topless	topless	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|02442082-a|top+
-3	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubjpass	_	NN|10787470-n|Woman=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-5	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	6	auxpass	_	VBG|02604760-v|Entity+
-6	covered	cover	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|01332730-v|Covering+
-7	in	in	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-8	mud	mud	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|14956325-n|Soil=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	topless	topless	ADJ	JJ	_	3	amod	_	JJ|02442082-a|top+
+3	woman	woman	NOUN	NN	_	6	nsubjpass	_	NN|10787470-n|Woman=
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	being	be	VERB	VBG	_	6	auxpass	_	VBG|02604760-v|Entity+
+6	covered	cover	VERB	VBN	_	0	ROOT	_	VBN|01332730-v|Covering+
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	mud	mud	NOUN	NN	_	7	pobj	_	NN|14956325-n|Soil=
+9	.	.	.	.	_	6	punct	_	Fp|?|?

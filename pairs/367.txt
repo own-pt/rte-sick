@@ -8,29 +8,29 @@ CONCEPTS B: Soccer=,Human+,Entity+,Impelling+,Ball=,Giving+,GameGoal=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	soccer	soccer	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	compound	_	NN|00478262-n|Soccer=
-3	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02778669-n|Ball=
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	rolling	roll	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01522276-v|Motion+
-6	into	into	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	goal	goal	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	compound	_	NN|03442756-n|GameGoal=
-9	net	net	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|03820318-n|Artifact+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	soccer	soccer	NOUN	NN	_	3	nn	_	NN|00478262-n|Soccer=
+3	ball	ball	NOUN	NN	_	5	nsubj	_	NN|02778669-n|Ball=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	rolling	roll	VERB	VBG	_	0	ROOT	_	VBG|01522276-v|Motion+
+6	into	into	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	goal	goal	NOUN	NN	_	9	nn	_	NN|03442756-n|GameGoal=
+9	net	net	NOUN	NN	_	6	pobj	_	NN|03820318-n|Artifact+
+10	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	soccer	soccer	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	compound	_	NN|00478262-n|Soccer=
-3	player	player	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10439851-n|Human+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	kicking	kick	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01112979-v|Impelling+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	ball	ball	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	5	dobj	_	NN|02778669-n|Ball=
-8	out	out	ADP	IN	Number=Sing|fPOS=NOUN++NN	11	case	_	RP|00233413-r|Giving+
-9	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	goal	goal	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|03442756-n|GameGoal=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	soccer	soccer	NOUN	NN	_	3	nn	_	NN|00478262-n|Soccer=
+3	player	player	NOUN	NN	_	5	nsubj	_	NN|10439851-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	kicking	kick	VERB	VBG	_	0	ROOT	_	VBG|01112979-v|Impelling+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	ball	ball	NOUN	NN	_	5	dobj	_	NN|02778669-n|Ball=
+8	out	out	ADP	IN	_	5	prep	_	RP|00233413-r|Giving+
+9	of	of	ADP	IN	_	8	pcomp	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	goal	goal	NOUN	NN	_	9	pobj	_	NN|03442756-n|GameGoal=
+12	.	.	.	.	_	5	punct	_	Fp|?|?

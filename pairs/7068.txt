@@ -8,31 +8,31 @@ CONCEPTS B: Hominid=,Clothing+,Entity+,Walking+,Park+,Increasing+,Walking+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	rollerblader	rollerblader	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10537018-n|SocialRole+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	performing	perform	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	trick	trick	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|00427580-n|RecreationOrExercise+
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	ramp	ramp	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04051549-n|StationaryArtifact+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	rollerblader	rollerblader	NOUN	NN	_	4	nsubj	_	NN|10537018-n|SocialRole+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	trick	trick	NOUN	NN	_	4	dobj	_	NN|00427580-n|RecreationOrExercise+
+7	on	on	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	ramp	ramp	NOUN	NN	_	7	pobj	_	NN|04051549-n|StationaryArtifact+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubjpass	_	NN|02472293-n|Hominid=
-3	on	on	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	inline	inline	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	compound	_	JJ|?|?
-5	skates	skate	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|04225729-n|Clothing+
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	auxpass	_	VBZ|02604760-v|Entity+
-7	skating	skate	VERB	VBN	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01936753-v|Walking+
-8	at	at	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	park	park	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	11	compound	_	NN|08615374-n|Park+
-11	built	build	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	VBN|00252990-v|Increasing+
-12	for	for	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-13	skating	skate	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	nmod	_	VBG|01936753-v|Walking+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|02472293-n|Hominid=
+3	on	on	ADP	IN	_	2	prep	_	IN|?|?
+4	inline	inline	NOUN	NN	_	5	nn	_	JJ|?|?
+5	skates	skate	NOUN	NNS	_	3	pobj	_	NNS|04225729-n|Clothing+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	skating	skate	VERB	VBG	_	0	ROOT	_	VBG|01936753-v|Walking+
+8	at	at	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	park	park	NOUN	NN	_	8	pobj	_	NN|08615374-n|Park+
+11	built	build	VERB	VBN	_	10	partmod	_	VBN|00252990-v|Increasing+
+12	for	for	ADP	IN	_	11	prep	_	IN|?|?
+13	skating	skate	NOUN	NN	_	12	pobj	_	VBG|01936753-v|Walking+
+14	.	.	.	.	_	7	punct	_	Fp|?|?

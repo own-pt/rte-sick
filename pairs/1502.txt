@@ -8,23 +8,23 @@ CONCEPTS B: Human+,Karate=,Clothing+,Entity+,ViolentContest+
 
 CONLL A:
 
-1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubj	_	NNS|10285313-n|Human+
-3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	karate	karate	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	5	amod	_	NN|00826397-n|Karate=
-5	uniform	uniform	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|04509592-n|UniformClothing=
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	VBP|02604760-v|Entity+
-7	sparring	spar	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00773922-v|Communication+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	boys	boy	NOUN	NNS	_	7	nsubj	_	NNS|10285313-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	karate	karate	ADJ	JJ	_	5	amod	_	NN|00826397-n|Karate=
+5	uniform	uniform	NOUN	NN	_	3	pobj	_	NN|04509592-n|UniformClothing=
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	sparring	spar	VERB	VBG	_	0	ROOT	_	VBG|00773922-v|Communication+
+8	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Three	3	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	7	nsubj	_	NNS|10285313-n|Human+
-3	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-4	karate	karate	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	5	amod	_	NN|00826397-n|Karate=
-5	costumes	costume	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nmod	_	NNS|03113657-n|Clothing+
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	7	aux	_	VBP|02604760-v|Entity+
-7	fighting	fight	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01090335-v|ViolentContest+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	boys	boy	NOUN	NNS	_	7	nsubj	_	NNS|10285313-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	karate	karate	ADJ	JJ	_	5	amod	_	NN|00826397-n|Karate=
+5	costumes	costume	NOUN	NNS	_	3	pobj	_	NNS|03113657-n|Clothing+
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	fighting	fight	VERB	VBG	_	0	ROOT	_	VBG|01090335-v|ViolentContest+
+8	.	.	.	.	_	7	punct	_	Fp|?|?

@@ -8,32 +8,32 @@ CONCEPTS B: Man=,Putting+,Coloring+,Black=,Shirt=,PhysicalAttribute+,SittingDown
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-5	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-6	tables	table	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	4	conj	_	NNS|08266235-n|ContentBearingObject+
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	comfortable	comfortable	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|00479330-a|SubjectiveWeakPositiveAttribute+
-9	discussion	discussion	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	dobj	_	NN|07138085-n|Text+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	tables	table	NOUN	NNS	_	4	conj	_	NNS|08266235-n|ContentBearingObject+
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	comfortable	comfortable	ADJ	JJ	_	9	amod	_	JJ|00479330-a|SubjectiveWeakPositiveAttribute+
+9	discussion	discussion	NOUN	NN	_	4	dobj	_	NN|07138085-n|Text+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|10287213-n|Man=
-3	wearing	wear	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	2	acl	_	VBG|00052374-v|Putting+
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-5	dyed	dye	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	7	amod	_	VBN|00283090-v|Coloring+
-6	black	black	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	amod	_	JJ|00392812-a|Black=
-7	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	dobj	_	NN|04197391-n|Shirt=
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02655135-v|PhysicalAttribute+
-9	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-10	at	at	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	table	table	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	9	nmod	_	NN|08266235-n|ContentBearingObject+
-13	and	and	CONJ	CC	fPOS=CONJ++CC	12	cc	_	CC|?|?
-14	laughing	laugh	VERB	VBG	Number=Sing|fPOS=NOUN++NN	12	conj	_	VBG|00031820-v|Laughing=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	9	nsubj	_	NN|10287213-n|Man=
+3	wearing	wear	VERB	VBG	_	2	partmod	_	VBG|00052374-v|Putting+
+4	a	a	DET	DT	_	7	det	_	DT|?|?
+5	dyed	dye	ADJ	JJ	_	7	amod	_	VBN|00283090-v|Coloring+
+6	black	black	ADJ	JJ	_	7	amod	_	JJ|00392812-a|Black=
+7	shirt	shirt	NOUN	NN	_	3	dobj	_	NN|04197391-n|Shirt=
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02655135-v|PhysicalAttribute+
+9	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+10	at	at	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	table	table	NOUN	NN	_	10	pobj	_	NN|08266235-n|ContentBearingObject+
+13	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+14	laughing	laugh	VERB	VBG	_	9	conj	_	VBG|00031820-v|Laughing=
+15	.	.	.	.	_	9	punct	_	Fp|?|?

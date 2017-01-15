@@ -8,24 +8,24 @@ CONCEPTS B: Marsupial+,Entity+,Pulling+,Increasing+,Woman=
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	picking	pick	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01452546-v|Pulling+
-5	up	up	ADP	RP	fPOS=ADP++RP	4	compound:prt	_	RP|00097011-r|Increasing+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	baby	baby	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	compound	_	NN|09827683-n|HumanBaby=
-8	kangaroo	kangaroo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|01877134-n|Marsupial+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	picking	pick	VERB	VBG	_	0	ROOT	_	VBG|01452546-v|Pulling+
+5	up	up	PRT	RP	_	4	prt	_	RP|00097011-r|Increasing+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	baby	baby	NOUN	NN	_	8	nn	_	NN|09827683-n|HumanBaby=
+8	kangaroo	kangaroo	NOUN	NN	_	4	dobj	_	NN|01877134-n|Marsupial+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	kangaroo	kangaroo	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|01877134-n|Marsupial+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	picking	pick	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01452546-v|Pulling+
-5	up	up	ADP	RP	fPOS=ADP++IN	4	compound:prt	_	RP|00097011-r|Increasing+
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|10787470-n|Woman=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	kangaroo	kangaroo	NOUN	NN	_	4	nsubj	_	NN|01877134-n|Marsupial+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	picking	pick	VERB	VBG	_	0	ROOT	_	VBG|01452546-v|Pulling+
+5	up	up	PRT	RP	_	4	prt	_	RP|00097011-r|Increasing+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	woman	woman	NOUN	NN	_	4	dobj	_	NN|10787470-n|Woman=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -8,36 +8,36 @@ CONCEPTS B: GroupOfPeople=,Entity+,Walking+,Snowing=,ArtWork+,Entity+,Subjective
 
 CONLL A:
 
-1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01904930-v|Walking=
-5	across	across	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	thick	thick	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	amod	_	JJ|02387413-a|Human+
-7	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|15043763-n|Snowing=
-8	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	sun	sun	NOUN	NN	Number=Sing|fPOS=NOUN++NN	12	nsubj	_	NN|09450163-n|Sol=
-11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	12	aux	_	VBZ|02604760-v|Entity+
-12	setting	set	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	4	conj	_	VBG|01494310-v|Putting=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Four	4	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+5	across	across	ADP	IN	_	4	prep	_	IN|?|?
+6	thick	thick	ADJ	JJ	_	7	amod	_	JJ|02387413-a|Human+
+7	snow	snow	NOUN	NN	_	5	pobj	_	NN|15043763-n|Snowing=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	sun	sun	NOUN	NN	_	12	nsubj	_	NN|09450163-n|Sol=
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	setting	set	VERB	VBG	_	4	conj	_	VBG|01494310-v|Putting=
+13	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Some	some	DET	DT	fPOS=DET++DT	2	det	_	DT|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	treading	tread	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02091410-v|Walking+
-5	through	through	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	snow	snow	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|15043763-n|Snowing=
-8	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	landscape	landscape	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|03640166-n|ArtWork+
-11	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	13	nsubj	_	WDT|?|?
-12	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	13	cop	_	VBZ|02604760-v|Entity+
-13	beautiful	beautiful	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	10	acl:relcl	_	JJ|00217728-a|SubjectiveStrongPositiveAttribute+
-14	and	and	CONJ	CC	fPOS=CONJ++CC	13	cc	_	CC|?|?
-15	snowy	snowy	NOUN	NN	fPOS=ADV++RB	13	conj	_	JJ|01698231-a|Covering+
-16	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	treading	tread	VERB	VBG	_	0	ROOT	_	VBG|02091410-v|Walking+
+5	through	through	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	snow	snow	NOUN	NN	_	5	pobj	_	NN|15043763-n|Snowing=
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	landscape	landscape	NOUN	NN	_	8	pobj	_	NN|03640166-n|ArtWork+
+11	which	which	DET	WDT	_	13	nsubj	_	WDT|?|?
+12	is	be	VERB	VBZ	_	13	cop	_	VBZ|02604760-v|Entity+
+13	beautiful	beautiful	ADJ	JJ	_	10	rcmod	_	JJ|00217728-a|SubjectiveStrongPositiveAttribute+
+14	and	and	CONJ	CC	_	13	cc	_	CC|?|?
+15	snowy	snowy	ADJ	JJ	_	13	conj	_	JJ|01698231-a|Covering+
+16	.	.	.	.	_	4	punct	_	Fp|?|?

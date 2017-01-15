@@ -8,26 +8,26 @@ CONCEPTS B: HumanChild=,OrangeColor+,Entity+,DramaticActing+,Artifact+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	child	child	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09917593-n|HumanChild=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	smashing	smash	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|00335923-v|Destruction+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	snow	snow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	NN|15043763-n|Snowing=
-7	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|02778669-n|Ball=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	smashing	smash	VERB	VBG	_	0	ROOT	_	VBG|00335923-v|Destruction+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	snow	snow	NOUN	NN	_	7	nn	_	NN|15043763-n|Snowing=
+7	ball	ball	NOUN	NN	_	4	dobj	_	NN|02778669-n|Ball=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	kid	kid	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|09917593-n|HumanChild=
-3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	orange	orange	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|04965179-n|OrangeColor+
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	playing	play	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-7	outside	outside	ADP	IN	fPOS=ADP++IN	6	advmod	_	IN|?|?
-8	with	with	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	snowball	snowball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|04251560-n|Artifact+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	kid	kid	NOUN	NN	_	6	nsubj	_	NN|09917593-n|HumanChild=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	orange	orange	NOUN	NN	_	3	pobj	_	NN|04965179-n|OrangeColor+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+7	outside	outside	ADV	RB	_	6	advmod	_	IN|?|?
+8	with	with	ADP	IN	_	6	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	snowball	snowball	NOUN	NN	_	8	pobj	_	NN|04251560-n|Artifact+
+11	.	.	.	.	_	6	punct	_	Fp|?|?

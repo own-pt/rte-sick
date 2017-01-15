@@ -8,40 +8,40 @@ CONCEPTS B: Human+,Entity+,Putting+,Pink+,Shirt=,White=,WrittenCommunication=,En
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	young	young	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01646941-a|HumanYouth=
-3	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nsubj	_	NN|10129825-n|Human+
-4	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	pink	pink	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	7	compound	_	JJ|00379595-a|Pink+
-7	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|04197391-n|Shirt=
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	10	aux	_	VBZ|02604760-v|Entity+
-9	peacefully	peacefully	ADV	RB	fPOS=ADV++RB	10	advmod	_	RB|00109817-r|SubjectiveAssessmentAttribute+
-10	lying	lie	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
-11	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-12	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-13	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	nmod	_	NN|12102133-n|Grass=
-14	.	.	PUNCT	.	fPOS=PUNCT++.	10	punct	_	Fp|?|?
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	10	nsubj	_	NN|10129825-n|Human+
+4	with	with	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	pink	pink	ADJ	JJ	_	7	amod	_	JJ|00379595-a|Pink+
+7	shirt	shirt	NOUN	NN	_	4	pobj	_	NN|04197391-n|Shirt=
+8	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+9	peacefully	peacefully	ADV	RB	_	10	advmod	_	RB|00109817-r|SubjectiveAssessmentAttribute+
+10	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+11	on	on	ADP	IN	_	10	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	grass	grass	NOUN	NN	_	11	pobj	_	NN|12102133-n|Grass=
+14	.	.	.	.	_	10	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10129825-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00052374-v|Putting+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	pink	pink	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|00379595-a|Pink+
-7	shirt	shirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|04197391-n|Shirt=
-8	with	with	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	white	white	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	10	amod	_	JJ|00393105-a|White=
-10	writing	write	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	VBG|00993014-v|WrittenCommunication=
-11	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|fPOS=PRON++PRP	4	nmod	_	PRP|?|?
-13	and	and	CONJ	CC	fPOS=CONJ++CC	4	cc	_	CC|?|?
-14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	15	aux	_	VBZ|02604760-v|Entity+
-15	lying	lie	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	conj	_	VBG|02690708-v|PhysicalAttribute+
-16	in	in	ADP	IN	fPOS=ADP++IN	18	case	_	IN|?|?
-17	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	18	det	_	DT|?|?
-18	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	15	nmod	_	NN|12102133-n|Grass=
-19	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	pink	pink	ADJ	JJ	_	7	amod	_	JJ|00379595-a|Pink+
+7	shirt	shirt	NOUN	NN	_	4	dobj	_	NN|04197391-n|Shirt=
+8	with	with	ADP	IN	_	4	prep	_	IN|?|?
+9	white	white	ADJ	JJ	_	10	amod	_	JJ|00393105-a|White=
+10	writing	write	NOUN	NN	_	8	pobj	_	VBG|00993014-v|WrittenCommunication=
+11	on	on	ADP	IN	_	10	prep	_	IN|?|?
+12	it	it	PRON	PRP	_	11	pobj	_	PRP|?|?
+13	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+14	is	be	VERB	VBZ	_	15	aux	_	VBZ|02604760-v|Entity+
+15	lying	lie	VERB	VBG	_	4	conj	_	VBG|02690708-v|PhysicalAttribute+
+16	in	in	ADP	IN	_	15	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	grass	grass	NOUN	NN	_	16	pobj	_	NN|12102133-n|Grass=
+19	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -8,30 +8,30 @@ CONCEPTS B: Human+,Entity+,not=,PhysicalAttribute+,FrontFn=,PathologicProcess+,A
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|10285313-n|Human+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-5	in	in	ADP	IN	fPOS=ADV++RB	6	case	_	IN|?|?
-6	front	front	NOUN	NN	fPOS=ADP++IN	4	nmod	_	NN|08573472-n|FrontFn=
-7	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-9	burning	burning	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	amod	_	NN|14325437-n|PathologicProcess+
-10	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|02958343-n|Automobile=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	boys	boy	NOUN	NNS	_	4	nsubj	_	NNS|10285313-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	front	front	NOUN	NN	_	5	pobj	_	NN|08573472-n|FrontFn=
+7	of	of	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	10	det	_	DT|?|?
+9	burning	burning	VERB	VBG	_	10	amod	_	NN|14325437-n|PathologicProcess+
+10	car	car	NOUN	NN	_	7	pobj	_	NN|02958343-n|Automobile=
+11	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	boys	boy	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|10285313-n|Human+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02604760-v|Entity+
-4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	RB|00024073-r|not=
-5	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-6	in	in	ADP	IN	fPOS=ADV++RB	7	case	_	IN|?|?
-7	front	front	NOUN	NN	fPOS=ADP++IN	5	nmod	_	NN|08573472-n|FrontFn=
-8	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	burning	burning	NOUN	NN	Number=Sing|fPOS=NOUN++NN	11	amod	_	NN|14325437-n|PathologicProcess+
-11	car	car	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|02958343-n|Automobile=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	boys	boy	NOUN	NNS	_	5	nsubj	_	NNS|10285313-n|Human+
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	front	front	NOUN	NN	_	6	pobj	_	NN|08573472-n|FrontFn=
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	11	det	_	DT|?|?
+10	burning	burning	VERB	VBG	_	11	amod	_	NN|14325437-n|PathologicProcess+
+11	car	car	NOUN	NN	_	8	pobj	_	NN|02958343-n|Automobile=
+12	.	.	.	.	_	5	punct	_	Fp|?|?

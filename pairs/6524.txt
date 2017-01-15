@@ -8,37 +8,37 @@ CONCEPTS B: Human+,Entity+,Process+,Human+,Dressing+,HumanChild=,Entity+,Closing
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	sun	sun	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09450163-n|Sol=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	shining	shine	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02763740-v|RadiatingLight+
-5	on	on	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	face	face	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|05600637-n|Face+
-8	of	of	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|10129825-n|Human+
-11	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	16	nsubj	_	WP|?|?
-12	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	16	cop	_	VBZ|02604760-v|Entity+
-13	in	in	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-15	yellow	yellow	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	16	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
-16	dress	dress	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	acl:relcl	_	NN|02728440-n|Clothing+
-17	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	sun	sun	NOUN	NN	_	4	nsubj	_	NN|09450163-n|Sol=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	shining	shine	VERB	VBG	_	0	ROOT	_	VBG|02763740-v|RadiatingLight+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	face	face	NOUN	NN	_	5	pobj	_	NN|05600637-n|Face+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	girl	girl	NOUN	NN	_	8	pobj	_	NN|10129825-n|Human+
+11	who	who	PRON	WP	_	12	nsubj	_	WP|?|?
+12	is	be	VERB	VBZ	_	10	rcmod	_	VBZ|02604760-v|Entity+
+13	in	in	ADP	IN	_	12	prep	_	IN|?|?
+14	a	a	DET	DT	_	16	det	_	DT|?|?
+15	yellow	yellow	ADJ	JJ	_	16	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+16	dress	dress	NOUN	NN	_	13	pobj	_	NN|02728440-n|Clothing+
+17	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	girl	girl	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|10129825-n|Human+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	surrounding	surround	VERB	VBG	VerbForm=Ger|fPOS=AUX++VBG	0	ROOT	_	VBG|01467370-v|Process+
-5	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|00245112-a|Human+
-6	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	7	amod	_	VBN|00046534-v|Dressing+
-7	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	NNS|09917593-n|HumanChild=
-8	who	who	PRON	WP	PronType=Rel|fPOS=PRON++WP	10	nsubj	_	WP|?|?
-9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	10	aux	_	VBP|02604760-v|Entity+
-10	closing	close	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	7	acl:relcl	_	VBG|01345109-v|Closing=
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	eyes	eye	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	10	dobj	_	NNS|05311054-n|Organ+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	surrounding	surround	VERB	VBG	_	0	ROOT	_	VBG|01467370-v|Process+
+5	brown	brown	ADJ	JJ	_	7	amod	_	JJ|00245112-a|Human+
+6	dressed	dress	VERB	VBN	_	7	amod	_	VBN|00046534-v|Dressing+
+7	children	child	NOUN	NNS	_	4	dobj	_	NNS|09917593-n|HumanChild=
+8	who	who	PRON	WP	_	10	nsubj	_	WP|?|?
+9	are	be	VERB	VBP	_	10	aux	_	VBP|02604760-v|Entity+
+10	closing	close	VERB	VBG	_	7	rcmod	_	VBG|01345109-v|Closing=
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	eyes	eye	NOUN	NNS	_	10	dobj	_	NNS|05311054-n|Organ+
+13	.	.	.	.	_	4	punct	_	Fp|?|?

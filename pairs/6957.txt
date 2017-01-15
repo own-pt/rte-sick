@@ -8,23 +8,23 @@ CONCEPTS B: GroupOfPeople=,Entity+,IntentionalProcess+,MakingMusic=,Outdoors+
 
 CONLL A:
 
-1	Music	music	PROPN	NNP	Number=Sing|fPOS=PROPN++NNP	4	nsubjpass	_	NN|07020895-n|MakingMusic=
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-3	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	4	auxpass	_	VBG|02604760-v|Entity+
-4	performed	perform	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|01712704-v|IntentionalProcess+
-5	by	by	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	four	4	NUM	CD	NumType=Card|fPOS=NUM++CD	8	nummod	_	Z|?|?
-7	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	8	compound	_	NNS|07942152-n|GroupOfPeople=
-8	outdoors	outdoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nmod	_	RB|00110659-r|Outdoors+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Music	music	NOUN	NN	_	4	nsubjpass	_	NN|07020895-n|MakingMusic=
+2	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+3	being	be	VERB	VBG	_	4	auxpass	_	VBG|02604760-v|Entity+
+4	performed	perform	VERB	VBN	_	0	ROOT	_	VBN|01712704-v|IntentionalProcess+
+5	by	by	ADP	IN	_	4	prep	_	IN|?|?
+6	four	4	NUM	CD	_	7	num	_	Z|?|?
+7	people	people	NOUN	NNS	_	5	pobj	_	NNS|07942152-n|GroupOfPeople=
+8	outdoors	outdoors	ADV	RB	_	4	advmod	_	RB|00110659-r|Outdoors+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Four	4	PRON	PRP$	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	performing	perform	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
-5	music	music	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	NN|07020895-n|MakingMusic=
-6	outdoors	outdoors	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	dobj	_	RB|00110659-r|Outdoors+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Four	4	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	music	music	NOUN	NN	_	4	dobj	_	NN|07020895-n|MakingMusic=
+6	outdoors	outdoors	ADV	RB	_	4	advmod	_	RB|00110659-r|Outdoors+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

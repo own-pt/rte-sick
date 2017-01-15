@@ -8,32 +8,32 @@ CONCEPTS B: SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,Attribute+,T
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02084071-n|Canine+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01086103-v|Racing+
-5	alongside	alongside	ADP	IN	VerbForm=Inf|fPOS=VERB++VB	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	fence	fence	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03327234-n|Device+
-8	on	on	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	track	track	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04037625-n|StationaryArtifact+
-11	full	full	NOUN	NN	Number=Sing|fPOS=NOUN++NN	10	amod	_	JJ|01083157-a|ContainerFull+
-12	of	of	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-13	dirt	dirt	NOUN	NN	Number=Sing|fPOS=PROPN++NNP	11	nmod	_	NN|07223811-n|Text+
-14	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01086103-v|Racing+
+5	alongside	alongside	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	fence	fence	NOUN	NN	_	5	pobj	_	NN|03327234-n|Device+
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	track	track	NOUN	NN	_	8	pobj	_	NN|04037625-n|StationaryArtifact+
+11	full	full	ADJ	JJ	_	10	amod	_	JJ|01083157-a|ContainerFull+
+12	of	of	ADP	IN	_	11	prep	_	IN|?|?
+13	dirt	dirt	NOUN	NN	_	12	pobj	_	NN|07223811-n|Text+
+14	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	4	det	_	DT|?|?
-2	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-3	brown	brown	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	4	amod	_	JJ|00245112-a|Human+
-4	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|02084071-n|Canine+
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-7	outside	outside	ADP	IN	fPOS=ADP++IN	6	advmod	_	IN|?|?
-8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	dirt	dirt	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|07223811-n|Text+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	The	the	DET	DT	_	4	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	brown	brown	ADJ	JJ	_	4	amod	_	JJ|00245112-a|Human+
+4	dog	dog	NOUN	NN	_	6	nsubj	_	NN|02084071-n|Canine+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+7	outside	outside	ADV	RB	_	6	advmod	_	IN|?|?
+8	in	in	ADP	IN	_	6	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	dirt	dirt	NOUN	NN	_	8	pobj	_	NN|07223811-n|Text+
+11	.	.	.	.	_	6	punct	_	Fp|?|?

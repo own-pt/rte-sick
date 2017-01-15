@@ -8,34 +8,34 @@ CONCEPTS B: Canine+,Entity+,SubjectiveStrongNegativeAttribute+,Entity+,DramaticA
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02084071-n|Canine+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	jumping	jump	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01963942-v|Ambulating=
-5	in	in	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	air	air	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|00300441-n|AirTransportation+
-8	to	to	PART	TO	fPOS=PART++TO	9	mark	_	TO|?|?
-9	catch	catch	VERB	VB	VerbForm=Inf|fPOS=VERB++VB	4	advcl	_	VB|01439190-v|Grabbing+
-10	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-11	red	red	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	JJ|00381097-a|Red=
-12	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	dobj	_	NN|02778669-n|Ball=
-13	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	air	air	NOUN	NN	_	5	pobj	_	NN|00300441-n|AirTransportation+
+8	to	to	PRT	TO	_	9	aux	_	TO|?|?
+9	catch	catch	VERB	VB	_	4	xcomp	_	VB|01439190-v|Grabbing+
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	red	red	ADJ	JJ	_	12	amod	_	JJ|00381097-a|Red=
+12	ball	ball	NOUN	NN	_	9	dobj	_	NN|02778669-n|Ball=
+13	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|02084071-n|Canine+
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
-4	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	6	nsubj	_	WDT|?|?
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02604760-v|Entity+
-6	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-7	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	Fc|?|?
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
-9	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-10	on	on	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-12	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	JJ|00375969-a|Green=
-13	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|12102133-n|Grass=
-14	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	9	nsubj	_	NN|02084071-n|Canine+
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	which	which	DET	WDT	_	6	nsubj	_	WDT|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	small	small	ADJ	JJ	_	2	rcmod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+7	,	,	.	,	_	2	punct	_	Fc|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	13	det	_	DT|?|?
+12	green	green	ADJ	JJ	_	13	amod	_	JJ|00375969-a|Green=
+13	grass	grass	NOUN	NN	_	10	pobj	_	NN|12102133-n|Grass=
+14	.	.	.	.	_	9	punct	_	Fp|?|?

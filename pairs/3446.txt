@@ -8,26 +8,26 @@ CONCEPTS B: Woman=,Entity+,Entity+,Guiding+,Volleyball=,Woman=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|10787470-n|Woman=
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	cop	_	VBZ|02604760-v|Entity+
-4	serving	serve	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	5	compound	_	VBG|01095218-v|Working+
-5	volleyballs	volleyball	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	0	ROOT	_	NNS|00480211-n|Volleyball=
-6	over	over	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	net	net	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|03820154-n|Artifact+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	serving	serve	VERB	VBG	_	0	ROOT	_	VBG|01095218-v|Working+
+5	volleyballs	volleyball	NOUN	NNS	_	4	dobj	_	NNS|00480211-n|Volleyball=
+6	over	over	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	net	net	NOUN	NN	_	6	pobj	_	NN|03820154-n|Artifact+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubjpass	_	NN|10787470-n|Woman=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	being	be	AUX	VBG	VerbForm=Ger|fPOS=AUX++VBG	5	auxpass	_	VBG|02604760-v|Entity+
-5	handed	hand	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass|fPOS=VERB++VBN	0	ROOT	_	VBN|02000133-v|Guiding+
-6	volleyballs	volleyball	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	dobj	_	NNS|00480211-n|Volleyball=
-7	by	by	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	another	another	DET	DT	fPOS=DET++DT	9	det	_	DT|?|?
-9	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|10787470-n|Woman=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	5	nsubjpass	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	handed	hand	VERB	VBN	_	0	ROOT	_	VBN|02000133-v|Guiding+
+6	volleyballs	volleyball	NOUN	NNS	_	5	dobj	_	NNS|00480211-n|Volleyball=
+7	by	by	ADP	IN	_	5	prep	_	IN|?|?
+8	another	another	DET	DT	_	9	det	_	DT|?|?
+9	woman	woman	NOUN	NN	_	7	pobj	_	NN|10787470-n|Woman=
+10	.	.	.	.	_	5	punct	_	Fp|?|?

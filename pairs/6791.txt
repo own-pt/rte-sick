@@ -8,30 +8,30 @@ CONCEPTS B: Hominid=,Entity+,Obligation+,Artifact+,Increasing+,Hand+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|02472293-n|Hominid=
-3	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	2	acl	_	VBN|00046534-v|Dressing+
-4	in	in	ADP	IN	fPOS=ADP++IN	5	case	_	IN|?|?
-5	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	JJ|00392812-a|Black=
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00050652-v|Dressing+
-8	an	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-9	elaborate	elaborate	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	JJ|01795933-a|SubjectiveStrongNegativeAttribute+
-10	black	black	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	JJ|00392812-a|Black=
-11	mask	mask	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	dobj	_	NN|03724870-n|Artifact+
-12	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|02472293-n|Hominid=
+3	dressed	dress	VERB	VBN	_	2	partmod	_	VBN|00046534-v|Dressing+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	black	black	ADJ	JJ	_	4	pobj	_	JJ|00392812-a|Black=
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00050652-v|Dressing+
+8	an	a	DET	DT	_	11	det	_	DT|?|?
+9	elaborate	elaborate	ADJ	JJ	_	11	amod	_	JJ|01795933-a|SubjectiveStrongNegativeAttribute+
+10	black	black	ADJ	JJ	_	11	amod	_	JJ|00392812-a|Black=
+11	mask	mask	NOUN	NN	_	7	dobj	_	NN|03724870-n|Artifact+
+12	.	.	.	.	_	7	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02203362-v|Obligation+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	mask	mask	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|03724870-n|Artifact+
-7	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-8	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|fPOS=PRON++PRP$	10	nmod:poss	_	PRP$|?|?
-9	raised	raise	VERB	VBN	Tense=Past|VerbForm=Part|fPOS=VERB++VBN	10	compound	_	VBN|00229605-v|Increasing+
-10	hand	hand	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|05564590-n|Hand+
-11	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|02203362-v|Obligation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	mask	mask	NOUN	NN	_	4	dobj	_	NN|03724870-n|Artifact+
+7	in	in	ADP	IN	_	4	prep	_	IN|?|?
+8	his	his	PRON	PRP$	_	10	poss	_	PRP$|?|?
+9	raised	raise	VERB	VBN	_	10	amod	_	VBN|00229605-v|Increasing+
+10	hand	hand	NOUN	NN	_	7	pobj	_	NN|05564590-n|Hand+
+11	.	.	.	.	_	4	punct	_	Fp|?|?

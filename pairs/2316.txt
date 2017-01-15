@@ -8,28 +8,28 @@ CONCEPTS B: Hominid=,Entity+,not=,ShapeChange+,Nail=,Camera=
 
 CONLL A:
 
-1	Someone	someone	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	PRP|?|?
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	3	aux	_	VBZ|02604760-v|Entity+
-3	banging	bang	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01242391-v|Impacting+
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-5	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	NN|02942699-n|Camera=
-6	lens	lens	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	dobj	_	NN|03656484-n|Lens+
-7	against	against	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	nail	nail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|03804744-n|Nail=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	banging	bang	VERB	VBG	_	0	ROOT	_	VBG|01242391-v|Impacting+
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	camera	camera	NOUN	NN	_	6	nn	_	NN|02942699-n|Camera=
+6	lens	lens	NOUN	NN	_	3	dobj	_	NN|03656484-n|Lens+
+7	against	against	ADP	IN	_	3	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	nail	nail	NOUN	NN	_	7	pobj	_	NN|03804744-n|Nail=
+10	.	.	.	.	_	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-4	not	not	PART	RB	fPOS=PART++RB	5	neg	_	RB|00024073-r|not=
-5	hammering	hammer	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01675245-v|ShapeChange+
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	nail	nail	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	dobj	_	NN|03804744-n|Nail=
-8	with	with	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	camera	camera	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|02942699-n|Camera=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	hammering	hammer	VERB	VBG	_	0	ROOT	_	VBG|01675245-v|ShapeChange+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	nail	nail	NOUN	NN	_	5	dobj	_	NN|03804744-n|Nail=
+8	with	with	ADP	IN	_	5	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	camera	camera	NOUN	NN	_	8	pobj	_	NN|02942699-n|Camera=
+11	.	.	.	.	_	5	punct	_	Fp|?|?

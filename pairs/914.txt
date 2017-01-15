@@ -8,24 +8,24 @@ CONCEPTS B: GroupOfPeople=,Entity+,Kissing+,SubjectiveAssessmentAttribute=
 
 CONLL A:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	5	aux	_	VBP|02604760-v|Entity+
-4	passionately	passionately	ADV	RB	fPOS=ADV++RB	5	advmod	_	RB|00209874-r|SubjectiveAssessmentAttribute+
-5	kissing	kiss	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01431230-v|Kissing+
-6	near	near	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	crowd	crowd	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|08182379-n|SubjectiveAssessmentAttribute=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	passionately	passionately	ADV	RB	_	5	advmod	_	RB|00209874-r|SubjectiveAssessmentAttribute+
+5	kissing	kiss	VERB	VBG	_	0	ROOT	_	VBG|01431230-v|Kissing+
+6	near	near	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	crowd	crowd	NOUN	NN	_	6	pobj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	people	people	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	kissing	kiss	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01431230-v|Kissing+
-5	near	near	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	crowd	crowd	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|08182379-n|SubjectiveAssessmentAttribute=
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	kissing	kiss	VERB	VBG	_	0	ROOT	_	VBG|01431230-v|Kissing+
+5	near	near	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	crowd	crowd	NOUN	NN	_	5	pobj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

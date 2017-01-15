@@ -8,32 +8,32 @@ CONCEPTS B: Black=,OrangeColor+,Bird=,Entity+,PhysicalAttribute+,Grass=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|00393105-a|White=
-3	bird	bird	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|01503061-n|Bird=
-4	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	yellow	yellow	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
-7	beak	beak	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	nmod	_	NN|01758308-n|BodyPart+
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02604760-v|Entity+
-9	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-10	in	in	ADP	IN	fPOS=ADP++IN	13	case	_	IN|?|?
-11	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	13	det	_	DT|?|?
-12	green	green	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	13	amod	_	JJ|00375969-a|Green=
-13	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|12102133-n|Grass=
-14	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	bird	bird	NOUN	NN	_	9	nsubj	_	NN|01503061-n|Bird=
+4	with	with	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	yellow	yellow	ADJ	JJ	_	7	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+7	beak	beak	NOUN	NN	_	4	pobj	_	NN|01758308-n|BodyPart+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+10	in	in	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	13	det	_	DT|?|?
+12	green	green	ADJ	JJ	_	13	amod	_	JJ|00375969-a|Green=
+13	grass	grass	NOUN	NN	_	10	pobj	_	NN|12102133-n|Grass=
+14	.	.	.	.	_	9	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	5	det	_	DT|?|?
-2	black	black	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	amod	_	JJ|00392812-a|Black=
-3	and	and	CONJ	CC	fPOS=CONJ++CC	2	cc	_	CC|?|?
-4	orange	orange	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	conj	_	NN|04965179-n|OrangeColor+
-5	bird	bird	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nsubj	_	NN|01503061-n|Bird=
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	7	aux	_	VBZ|02604760-v|Entity+
-7	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
-8	in	in	ADP	IN	fPOS=ADP++IN	10	case	_	IN|?|?
-9	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	10	det	_	DT|?|?
-10	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|12102133-n|Grass=
-11	.	.	PUNCT	.	fPOS=PUNCT++.	7	punct	_	Fp|?|?
+1	A	a	DET	DT	_	5	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	5	amod	_	JJ|00392812-a|Black=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	orange	orange	ADJ	JJ	_	2	conj	_	NN|04965179-n|OrangeColor+
+5	bird	bird	NOUN	NN	_	7	nsubj	_	NN|01503061-n|Bird=
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	grass	grass	NOUN	NN	_	8	pobj	_	NN|12102133-n|Grass=
+11	.	.	.	.	_	7	punct	_	Fp|?|?

@@ -8,34 +8,34 @@ CONCEPTS B: Hominid=,PhysicalAttribute+,SittingDown+,SocialRole+,Device+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	woman	woman	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nsubj	_	NN|10787470-n|Woman=
-3	,	,	PUNCT	,	fPOS=PUNCT++,	2	punct	_	Fc|?|?
-4	who	who	PRON	WP	PronType=Int|fPOS=PRON++WP	6	nsubj	_	WP|?|?
-5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	6	cop	_	VBZ|02655135-v|PhysicalAttribute+
-6	shoeless	shoeless	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	2	acl:relcl	_	JJ|02156686-a|Clothing[
-7	,	,	PUNCT	,	fPOS=PUNCT++,	9	punct	_	Fc|?|?
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	9	aux	_	VBZ|02655135-v|PhysicalAttribute+
-9	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-10	on	on	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	12	det	_	DT|?|?
-12	blanket	blanket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|02849154-n|Blanket+
-13	under	under	ADP	IN	fPOS=ADP++IN	16	case	_	IN|?|?
-14	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	16	det	_	DT|?|?
-15	lavender	lavender	NOUN	NN	Number=Sing|fPOS=NOUN++NN	16	compound	_	NN|12849717-n|FloweringPlant+
-16	umbrella	umbrella	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|04507155-n|Device+
-17	.	.	PUNCT	.	fPOS=PUNCT++.	9	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	9	nsubj	_	NN|10787470-n|Woman=
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	_	6	nsubj	_	WP|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02655135-v|PhysicalAttribute+
+6	shoeless	shoeless	NOUN	NN	_	2	rcmod	_	JJ|02156686-a|Clothing[
+7	,	,	.	,	_	2	punct	_	Fc|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02655135-v|PhysicalAttribute+
+9	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	blanket	blanket	NOUN	NN	_	10	pobj	_	NN|02849154-n|Blanket+
+13	under	under	ADP	IN	_	9	prep	_	IN|?|?
+14	a	a	DET	DT	_	16	det	_	DT|?|?
+15	lavender	lavender	NOUN	NN	_	16	nn	_	NN|12849717-n|FloweringPlant+
+16	umbrella	umbrella	NOUN	NN	_	13	pobj	_	NN|04507155-n|Device+
+17	.	.	.	.	_	9	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
-4	sitting	sit	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01543123-v|SittingDown+
-5	outside	outside	ADV	RB	fPOS=ADV++RB	4	advmod	_	IN|?|?
-6	under	under	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-8	purple	purple	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	amod	_	JJ|01591394-a|SocialRole+
-9	umbrella	umbrella	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|04507155-n|Device+
-10	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	outside	outside	ADV	RB	_	4	advmod	_	IN|?|?
+6	under	under	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	purple	purple	ADJ	JJ	_	9	amod	_	JJ|01591394-a|SocialRole+
+9	umbrella	umbrella	NOUN	NN	_	6	pobj	_	NN|04507155-n|Device+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

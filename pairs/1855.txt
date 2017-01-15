@@ -8,35 +8,35 @@ CONCEPTS B: GamePiece+,Entity+,LeavingAnOrganization+,Butter=,GamePiece+,BreadOr
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	5	cop	_	VBZ|02604760-v|Entity+
-4	carelessly	carelessly	ADV	RB	fPOS=ADV++RB	5	advmod	_	RB|00164150-r|SubjectiveAssessmentAttribute+
-5	smearing	smear	VERB	VB	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01252425-v|SurfaceChange+
-6	butter	butter	NOUN	NN	fPOS=ADV++RB	5	advmod	_	NN|07848338-n|Butter=
-7	on	on	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	slice	slice	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|07654667-n|PreparedFood+
-10	of	of	ADP	IN	fPOS=ADP++IN	12	case	_	IN|?|?
-11	garlic	garlic	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	12	amod	_	NN|07818277-n|Garlic=
-12	bread	bread	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|07679356-n|BreadOrBiscuit+
-13	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	carelessly	carelessly	ADV	RB	_	5	advmod	_	RB|00164150-r|SubjectiveAssessmentAttribute+
+5	smearing	smear	VERB	VBG	_	0	ROOT	_	VBG|01252425-v|SurfaceChange+
+6	butter	butter	NOUN	NN	_	5	dobj	_	NN|07848338-n|Butter=
+7	on	on	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	slice	slice	NOUN	NN	_	7	pobj	_	NN|07654667-n|PreparedFood+
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	garlic	garlic	ADJ	JJ	_	12	amod	_	NN|07818277-n|Garlic=
+12	bread	bread	NOUN	NN	_	10	pobj	_	NN|07679356-n|BreadOrBiscuit+
+13	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|03716327-n|GamePiece+
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	removing	remove	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|02404224-v|LeavingAnOrganization+
-5	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	butter	butter	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|07848338-n|Butter=
-7	from	from	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	piece	piece	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03716327-n|GamePiece+
-10	of	of	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-11	bread	bread	NOUN	NN	Number=Sing|fPOS=NOUN++NN	9	nmod	_	NN|07679356-n|BreadOrBiscuit+
-12	which	which	PRON	WDT	PronType=Rel|fPOS=PRON++WDT	14	nsubj	_	WDT|?|?
-13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBZ	14	cop	_	VBZ|02604760-v|Entity+
-14	big	big	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	9	acl:relcl	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-15	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|03716327-n|GamePiece+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	removing	remove	VERB	VBG	_	0	ROOT	_	VBG|02404224-v|LeavingAnOrganization+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	butter	butter	NOUN	NN	_	4	dobj	_	NN|07848338-n|Butter=
+7	from	from	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	piece	piece	NOUN	NN	_	7	pobj	_	NN|03716327-n|GamePiece+
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	bread	bread	NOUN	NN	_	10	pobj	_	NN|07679356-n|BreadOrBiscuit+
+12	which	which	DET	WDT	_	14	nsubj	_	WDT|?|?
+13	is	be	VERB	VBZ	_	14	cop	_	VBZ|02604760-v|Entity+
+14	big	big	ADJ	JJ	_	9	rcmod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+15	.	.	.	.	_	4	punct	_	Fp|?|?

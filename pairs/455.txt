@@ -8,23 +8,23 @@ CONCEPTS B: HumanChild=,Entity+,Increasing+,ContentBearingObject+
 
 CONLL A:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|09917593-n|HumanChild=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	hanging	hang	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01482075-v|PhysicalAttribute+
-5	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-7	large	large	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	8	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-8	branch	branch	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|13913849-n|ShapeAttribute+
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	hanging	hang	VERB	VBG	_	0	ROOT	_	VBG|01482075-v|PhysicalAttribute+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	large	large	ADJ	JJ	_	8	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+8	branch	branch	NOUN	NN	_	5	pobj	_	NN|13913849-n|ShapeAttribute+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	children	child	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|09917593-n|HumanChild=
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	climbing	climb	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|00433232-v|Increasing+
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-6	tree	tree	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|13912260-n|ContentBearingObject+
-7	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	climbing	climb	VERB	VBG	_	0	ROOT	_	VBG|00433232-v|Increasing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	tree	tree	NOUN	NN	_	4	dobj	_	NN|13912260-n|ContentBearingObject+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

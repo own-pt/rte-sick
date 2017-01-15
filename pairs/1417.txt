@@ -8,18 +8,18 @@ CONCEPTS B: Entity+,Hominid=,Cutting+
 
 CONLL A:
 
-1	Men	man	ADJ	JJ	Number=Sing|fPOS=NOUN++NN	3	nsubj	_	NNS|02472293-n|Hominid=
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	3	aux	_	VBP|02604760-v|Entity+
-3	sawing	saw	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	0	ROOT	_	VBG|01559590-v|Cutting+
-4	logs	log	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	3	dobj	_	NNS|06812631-n|LogFn=
-5	.	.	PUNCT	.	fPOS=PUNCT++.	3	punct	_	Fp|?|?
+1	Men	man	NOUN	NNS	_	3	nsubj	_	NNS|02472293-n|Hominid=
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	sawing	saw	VERB	VBG	_	0	ROOT	_	VBG|01559590-v|Cutting+
+4	logs	log	NOUN	NNS	_	3	dobj	_	NNS|06812631-n|LogFn=
+5	.	.	.	.	_	3	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	There	there	PRON	EX	fPOS=PRON++EX	2	expl	_	EX|?|?
-2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=VERB++VBP	0	ROOT	_	VBP|02604760-v|Entity+
-3	no	no	DET	DT	fPOS=DET++DT	4	neg	_	DT|?|?
-4	men	man	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	2	nsubj	_	NNS|02472293-n|Hominid=
-5	sawing	saw	VERB	VBG	VerbForm=Ger|fPOS=VERB++VBG	4	acl	_	VBG|01559590-v|Cutting+
-6	.	.	PUNCT	.	fPOS=PUNCT++.	2	punct	_	Fp|?|?
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	men	man	NOUN	NNS	_	5	nn	_	NNS|02472293-n|Hominid=
+5	sawing	saw	VERB	VBG	_	2	nsubj	_	VBG|01559590-v|Cutting+
+6	.	.	.	.	_	2	punct	_	Fp|?|?

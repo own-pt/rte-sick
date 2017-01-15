@@ -8,29 +8,29 @@ CONCEPTS B: Human=,ColorAttribute+,Entity+,Attribute+,FieldOfStudy=
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nsubj	_	NN|00007846-n|Human=
-3	in	in	ADP	IN	fPOS=ADP++IN	6	case	_	IN|?|?
-4	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	6	det	_	DT|?|?
-5	pink	pink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	compound	_	JJ|00379595-a|Pink+
-6	jacket	jacket	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|03589791-n|Coat=
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	8	aux	_	VBZ|02604760-v|Entity+
-8	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-9	onto	onto	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-10	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-11	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	8	nmod	_	NN|05996646-n|FieldOfStudy=
-12	.	.	PUNCT	.	fPOS=PUNCT++.	8	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	8	nsubj	_	NN|00007846-n|Human=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	pink	pink	ADJ	JJ	_	6	amod	_	JJ|00379595-a|Pink+
+6	jacket	jacket	NOUN	NN	_	3	pobj	_	NN|03589791-n|Coat=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+9	onto	onto	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	field	field	NOUN	NN	_	9	pobj	_	NN|05996646-n|FieldOfStudy=
+12	.	.	.	.	_	8	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	person	person	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nsubj	_	NN|00007846-n|Human=
-3	in	in	ADP	IN	fPOS=ADP++IN	4	case	_	IN|?|?
-4	pink	pink	NOUN	NN	Number=Sing|fPOS=NOUN++NN	2	nmod	_	NN|04970916-n|ColorAttribute+
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	6	aux	_	VBZ|02604760-v|Entity+
-6	running	run	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01525666-v|Attribute+
-7	onto	onto	ADP	IN	fPOS=ADP++IN	9	case	_	IN|?|?
-8	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	9	det	_	DT|?|?
-9	field	field	NOUN	NN	Number=Sing|fPOS=NOUN++NN	6	nmod	_	NN|05996646-n|FieldOfStudy=
-10	.	.	PUNCT	.	fPOS=PUNCT++.	6	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	6	nsubj	_	NN|00007846-n|Human=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	pink	pink	NOUN	NN	_	3	pobj	_	NN|04970916-n|ColorAttribute+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+7	onto	onto	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	field	field	NOUN	NN	_	7	pobj	_	NN|05996646-n|FieldOfStudy=
+10	.	.	.	.	_	6	punct	_	Fp|?|?

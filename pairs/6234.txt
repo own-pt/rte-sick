@@ -8,31 +8,31 @@ CONCEPTS B: SubjectiveWeakPositiveAttribute+,Canine+,SubjectiveStrongNegativeAtt
 
 CONLL A:
 
-1	Two	2	NUM	CD	NumType=Card|fPOS=NUM++CD	2	nummod	_	Z|?|?
-2	dogs	dog	NOUN	NNS	Number=Plur|fPOS=NOUN++NNS	4	nsubj	_	NNS|02084071-n|Canine+
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	4	aux	_	VBP|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	together	together	ADV	RB	fPOS=ADV++RB	4	advmod	_	RB|00507927-r|Meeting=
-6	on	on	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	grass	grass	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|12102133-n|Grass=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	together	together	ADV	RB	_	4	advmod	_	RB|00507927-r|Meeting=
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	grass	grass	NOUN	NN	_	6	pobj	_	NN|12102133-n|Grass=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	big	big	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
-3	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	13	nsubj	_	NN|02084071-n|Canine+
-4	and	and	CONJ	CC	fPOS=CONJ++CC	3	cc	_	CC|?|?
-5	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-6	small	small	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	7	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
-7	dog	dog	NOUN	NN	Number=Sing|fPOS=NOUN++NN	3	conj	_	NN|02084071-n|Canine+
-8	with	with	ADP	IN	fPOS=ADP++IN	11	case	_	IN|?|?
-9	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	11	det	_	DT|?|?
-10	white	white	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	11	amod	_	JJ|00393105-a|White=
-11	coat	coat	NOUN	NN	Number=Sing|fPOS=NOUN++NN	7	nmod	_	NN|03057021-n|Coat=
-12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBP	13	aux	_	VBP|02604760-v|Entity+
-13	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-14	together	together	ADV	RB	fPOS=ADV++RB	13	advmod	_	RB|00507927-r|Meeting=
-15	.	.	PUNCT	.	fPOS=PUNCT++.	13	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	big	big	ADJ	JJ	_	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	dog	dog	NOUN	NN	_	13	nsubj	_	NN|02084071-n|Canine+
+4	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	small	small	ADJ	JJ	_	7	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+7	dog	dog	NOUN	NN	_	3	conj	_	NN|02084071-n|Canine+
+8	with	with	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	white	white	ADJ	JJ	_	11	amod	_	JJ|00393105-a|White=
+11	coat	coat	NOUN	NN	_	8	pobj	_	NN|03057021-n|Coat=
+12	are	be	VERB	VBP	_	13	aux	_	VBP|02604760-v|Entity+
+13	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+14	together	together	ADV	RB	_	13	advmod	_	RB|00507927-r|Meeting=
+15	.	.	.	.	_	13	punct	_	Fp|?|?

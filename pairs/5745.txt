@@ -8,24 +8,24 @@ CONCEPTS B: HumanBaby=,Entity+,DramaticActing+,Artifact+
 
 CONLL A:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	3	det	_	DT|?|?
-2	tiger	tiger	NOUN	NN	Degree=Pos|fPOS=ADJ++JJ	3	amod	_	NN|02129604-n|Feline+
-3	cub	cub	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nsubj	_	NN|01322685-n|NonFullyFormed+
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	5	aux	_	VBZ|02604760-v|Entity+
-5	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-6	with	with	ADP	IN	fPOS=ADP++IN	8	case	_	IN|?|?
-7	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	8	det	_	DT|?|?
-8	ball	ball	NOUN	NN	Number=Sing|fPOS=NOUN++NN	5	nmod	_	NN|02778669-n|Ball=
-9	.	.	PUNCT	.	fPOS=PUNCT++.	5	punct	_	Fp|?|?
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	tiger	tiger	NOUN	NN	_	3	nn	_	NN|02129604-n|Feline+
+3	cub	cub	NOUN	NN	_	5	nsubj	_	NN|01322685-n|NonFullyFormed+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	ball	ball	NOUN	NN	_	6	pobj	_	NN|02778669-n|Ball=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	A	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	baby	baby	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|09827683-n|HumanBaby=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01719302-v|DramaticActing+
-5	with	with	ADP	IN	fPOS=ADP++IN	7	case	_	IN|?|?
-6	a	a	DET	DT	Definite=Ind|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	doll	doll	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nmod	_	NN|03219135-n|Artifact+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	baby	baby	NOUN	NN	_	4	nsubj	_	NN|09827683-n|HumanBaby=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	doll	doll	NOUN	NN	_	5	pobj	_	NN|03219135-n|Artifact+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

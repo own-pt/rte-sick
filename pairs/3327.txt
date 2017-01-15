@@ -8,21 +8,21 @@ CONCEPTS B: Hominid=,Entity+,Putting=,BreadOrBiscuit+
 
 CONLL A:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	slicing	slice	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01254477-v|Separating+
-5	bread	bread	ADJ	JJ	Degree=Pos|fPOS=ADJ++JJ	4	dobj	_	NN|07679356-n|BreadOrBiscuit+
-6	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	bread	bread	NOUN	NN	_	4	dobj	_	NN|07679356-n|BreadOrBiscuit+
+6	.	.	.	.	_	4	punct	_	Fp|?|?
 
 
 CONLL B:
 
-1	The	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	2	det	_	DT|?|?
-2	man	man	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	nsubj	_	NN|02472293-n|Hominid=
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|fPOS=AUX++VBZ	4	aux	_	VBZ|02604760-v|Entity+
-4	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part|fPOS=VERB++VBG	0	ROOT	_	VBG|01494310-v|Putting=
-5	away	away	ADP	RP	fPOS=ADP++IN	4	compound:prt	_	RP|00234951-r|?
-6	the	the	DET	DT	Definite=Def|PronType=Art|fPOS=DET++DT	7	det	_	DT|?|?
-7	bread	bread	NOUN	NN	Number=Sing|fPOS=NOUN++NN	4	dobj	_	NN|07679356-n|BreadOrBiscuit+
-8	.	.	PUNCT	.	fPOS=PUNCT++.	4	punct	_	Fp|?|?
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	putting	put	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+5	away	away	PRT	RP	_	4	prt	_	RP|00234951-r|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	bread	bread	NOUN	NN	_	4	dobj	_	NN|07679356-n|BreadOrBiscuit+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
