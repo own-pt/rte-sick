@@ -1,5 +1,5 @@
 python3 process-freeling-unique.py
-cat sentences.tokens | ../parse.sh > sentences.conll
+cat sentences.tokens | ../parsey.sh > sentences-parsey.conllu
 python3 combine-unique.py
-rm sentences.conll
-cat *.conll > sentences.conllu
+rm sentences-parsey.conllu
+cat *.conll > sentences-parsey.conllu

@@ -49,7 +49,7 @@ with open('../numbers.sentences', newline='') as csvfile:
         pos_a = read_file('{}.tag'.format(id))[0].split(',')
         lemmas_a = read_file('{}.lemmas'.format(id))[0].split('+')
 
-        conll_a = read_conll('sentences.conll')
+        conll_a = read_conll('sentences-parsey.conllu')
 
         (conlla) = fix_conll(conll_a[i], lemmas_a, senses_a, sumo_a, pos_a)
 
@@ -59,4 +59,3 @@ with open('../numbers.sentences', newline='') as csvfile:
             for t in conlla:
                 o.write("{}\n".format("\t".join(t)))
             o.write('\n')
-
