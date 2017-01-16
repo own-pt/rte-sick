@@ -100,18 +100,18 @@ with open('../SICK.txt', newline='') as csvfile:
                 o.write("{}\n".format("\t".join(t)))
 
         with open("sentences.conllu", 'a') as o:
-            o.write('# pair_id = {}\n'.format(pair_ID))
-            o.write('# sent_id = {}a\n'.format(pair_ID))
-            o.write('# text = {}\n'.format(sentence_A))
+            o.write('# pair_id {}\n'.format(pair_ID))
+            o.write('# sent_id {}a\n'.format(pair_ID))
+            o.write('# text {}\n'.format(sentence_A))
 
             for t in conlla:
                 o.write("{}\n".format("\t".join(t)))
 
             o.write('\n')
 
-            o.write('# pair_id = {}\n'.format(pair_ID))
-            o.write('# sent_id = {}b\n'.format(pair_ID))
-            o.write('# text = {}\n'.format(sentence_B))
+            o.write('# pair_id {}\n'.format(pair_ID))
+            o.write('# sent_id {}b\n'.format(pair_ID))
+            o.write('# text {}\n'.format(sentence_B))
             for t in conllb:
                 o.write("{}\n".format("\t".join(t)))
             o.write('\n')
