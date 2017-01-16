@@ -1,0 +1,37 @@
+sentence A = The children aren't playing in front of a large door.
+sentence B = The children are playing in front of a large door.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: HumanChild=,Entity+,not=,DramaticActing+,FrontFn=,SubjectiveWeakPositiveAttribute+,Door+
+CONCEPTS B: HumanChild=,Entity+,DramaticActing+,FrontFn=,SubjectiveWeakPositiveAttribute+,Door+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	children	child	NOUN	NNS	_	5	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	front	front	NOUN	NN	_	6	pobj	_	NN|08573472-n|FrontFn=
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	large	large	ADJ	JJ	_	11	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+11	door	door	NOUN	NN	_	8	pobj	_	NN|03224032-n|Door+
+12	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	front	front	NOUN	NN	_	5	pobj	_	NN|08573472-n|FrontFn=
+7	of	of	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	large	large	ADJ	JJ	_	10	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+10	door	door	NOUN	NN	_	7	pobj	_	NN|03224032-n|Door+
+11	.	.	.	.	_	4	punct	_	Fp|?|?

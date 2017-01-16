@@ -1,0 +1,34 @@
+sentence A = A man is breaking tiles with his hands.
+sentence B = There is no man breaking wooden boards with his hand.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GamePiece+,Entity+,EndFn+,Artifact+,Hand+
+CONCEPTS B: Entity+,Hominid=,EndFn+,SubjectiveAssessmentAttribute+,Table+,Hand+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|03716327-n|GamePiece+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	breaking	break	VERB	VBG	_	0	ROOT	_	VBG|02681524-v|EndFn+
+5	tiles	tile	NOUN	NNS	_	4	dobj	_	NNS|15074568-n|Artifact+
+6	with	with	ADP	IN	_	4	prep	_	IN|?|?
+7	his	his	PRON	PRP$	_	8	poss	_	PRP$|?|?
+8	hands	hand	NOUN	NNS	_	6	pobj	_	NNS|05564590-n|Hand+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	breaking	break	VERB	VBG	_	4	partmod	_	VBG|02681524-v|EndFn+
+6	wooden	wooden	ADJ	JJ	_	7	amod	_	JJ|01141595-a|SubjectiveAssessmentAttribute+
+7	boards	board	NOUN	NNS	_	5	dobj	_	NNS|03201208-n|Table+
+8	with	with	ADP	IN	_	5	prep	_	IN|?|?
+9	his	his	PRON	PRP$	_	10	poss	_	PRP$|?|?
+10	hand	hand	NOUN	NN	_	8	pobj	_	NN|05564590-n|Hand+
+11	.	.	.	.	_	2	punct	_	Fp|?|?

@@ -1,0 +1,37 @@
+sentence A = Two angels are making snow on the lying children.
+sentence B = Two children are lying in the snow and are making snow angels.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Angel=,Entity+,Process+,Snowing=,PhysicalAttribute+,HumanChild=
+CONCEPTS B: HumanChild=,Entity+,PhysicalAttribute+,Snowing=,Entity+,Process+,Snowing=,Angel=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	angels	angel	NOUN	NNS	_	4	nsubj	_	NNS|09538915-n|Angel=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	making	make	VERB	VBG	_	0	ROOT	_	VBG|00120316-v|Process+
+5	snow	snow	NOUN	NN	_	4	dobj	_	NN|15043763-n|Snowing=
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	9	det	_	DT|?|?
+8	lying	lie	VERB	VBG	_	9	amod	_	VBG|02690708-v|PhysicalAttribute+
+9	children	child	NOUN	NNS	_	6	pobj	_	NNS|09917593-n|HumanChild=
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	snow	snow	NOUN	NN	_	5	pobj	_	NN|15043763-n|Snowing=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	are	be	VERB	VBP	_	10	aux	_	VBP|02604760-v|Entity+
+10	making	make	VERB	VBG	_	4	conj	_	VBG|00120316-v|Process+
+11	snow	snow	NOUN	NN	_	12	nn	_	NN|15043763-n|Snowing=
+12	angels	angel	NOUN	NNS	_	10	dobj	_	NNS|09538915-n|Angel=
+13	.	.	.	.	_	4	punct	_	Fp|?|?

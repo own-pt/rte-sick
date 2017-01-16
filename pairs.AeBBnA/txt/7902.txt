@@ -1,0 +1,43 @@
+sentence A = A white rally car is throwing mud into the air and is approaching a bend in the track.
+sentence B = A white racing vehicle is driving through a puddle.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: White=,PsychologicalProcess+,Automobile=,Entity+,Impelling+,Soil=,AirTransportation+,Entity+,Arriving=,Transitway+,RailroadTrack+
+CONCEPTS B: White=,Motion+,Vehicle=,Entity+,Transportation+,StaticWaterArea+
+
+CONLL A:
+
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	rally	rally	NOUN	NN	_	4	nn	_	NN|00045646-n|PsychologicalProcess+
+4	car	car	NOUN	NN	_	6	nsubj	_	NN|02958343-n|Automobile=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	throwing	throw	VERB	VBG	_	0	ROOT	_	VBG|01508368-v|Impelling+
+7	mud	mud	NOUN	NN	_	6	dobj	_	NN|14956325-n|Soil=
+8	into	into	ADP	IN	_	6	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	air	air	NOUN	NN	_	8	pobj	_	NN|00300441-n|AirTransportation+
+11	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+12	is	be	VERB	VBZ	_	13	aux	_	VBZ|02604760-v|Entity+
+13	approaching	approach	VERB	VBG	_	6	conj	_	VBG|02053941-v|Arriving=
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	bend	bend	NOUN	NN	_	13	dobj	_	NN|02829696-n|Transitway+
+16	in	in	ADP	IN	_	15	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	track	track	NOUN	NN	_	16	pobj	_	NN|04463679-n|RailroadTrack+
+19	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	4	amod	_	JJ|00393105-a|White=
+3	racing	race	NOUN	NN	_	4	nn	_	VBG|02058994-v|Motion+
+4	vehicle	vehicle	NOUN	NN	_	6	nsubj	_	NN|04524313-n|Vehicle=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	driving	drive	VERB	VBG	_	0	ROOT	_	VBG|01930874-v|Transportation+
+7	through	through	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	puddle	puddle	NOUN	NN	_	7	pobj	_	NN|09397607-n|StaticWaterArea+
+10	.	.	.	.	_	6	punct	_	Fp|?|?

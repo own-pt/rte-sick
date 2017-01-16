@@ -1,0 +1,34 @@
+sentence A = An old woman is shaking hands with a man.
+sentence B = A young woman is shaking hands with a man.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveAssessmentAttribute+,Woman=,Entity+,Motion+,Hand+,Man=
+CONCEPTS B: HumanYouth=,Woman=,Entity+,Motion+,Hand+,Man=
+
+CONLL A:
+
+1	An	a	DET	DT	_	3	det	_	DT|?|?
+2	old	old	ADJ	JJ	_	3	amod	_	JJ|01643620-a|SubjectiveAssessmentAttribute+
+3	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	shaking	shake	VERB	VBG	_	0	ROOT	_	VBG|01889610-v|Motion+
+6	hands	hand	NOUN	NNS	_	5	dobj	_	NNS|05564590-n|Hand+
+7	with	with	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	man	man	NOUN	NN	_	7	pobj	_	NN|10287213-n|Man=
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	shaking	shake	VERB	VBG	_	0	ROOT	_	VBG|01889610-v|Motion+
+6	hands	hand	NOUN	NNS	_	5	dobj	_	NNS|05564590-n|Hand+
+7	with	with	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	man	man	NOUN	NN	_	7	pobj	_	NN|10287213-n|Man=
+10	.	.	.	.	_	5	punct	_	Fp|?|?

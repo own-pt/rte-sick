@@ -1,0 +1,34 @@
+sentence A = A white bird is landing swiftly in the water.
+sentence B = A large white crane is flying near the water.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: White=,Bird=,Entity+,Landing+,SubjectiveAssessmentAttribute+,Water=
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,White=,Crane=,Entity+,FlyingAircraft=,Water=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	bird	bird	NOUN	NN	_	5	nsubj	_	NN|01503061-n|Bird=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	landing	land	VERB	VBG	_	0	ROOT	_	VBG|01979901-v|Landing+
+6	swiftly	swiftly	ADV	RB	_	5	advmod	_	RB|00053274-r|SubjectiveAssessmentAttribute+
+7	in	in	ADP	IN	_	5	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	water	water	NOUN	NN	_	7	pobj	_	NN|14845743-n|Water=
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	white	white	ADJ	JJ	_	4	amod	_	JJ|00393105-a|White=
+4	crane	crane	NOUN	NN	_	6	nsubj	_	NN|03126707-n|Crane=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	flying	fly	VERB	VBG	_	0	ROOT	_	VBG|01941093-v|FlyingAircraft=
+7	near	near	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	water	water	NOUN	NN	_	7	pobj	_	NN|14845743-n|Water=
+10	.	.	.	.	_	6	punct	_	Fp|?|?

@@ -1,0 +1,43 @@
+sentence A = The woman wearing silver pants, pink bellbottoms and a pink scarf is riding a bike.
+sentence B = A pedestrian woman is building pink bicycles for boa wearing riders.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Dressing+,Silver=,Trousers+,Pink+,Pink+,Clothing+,Entity+,Transportation+,Bicycle=
+CONCEPTS B: SubjectiveWeakNegativeAttribute+,Woman=,Entity+,Increasing+,Pink+,Bicycle=,ConstrictorSnake+,CoveringFn=,Human+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	14	nsubj	_	NN|10787470-n|Woman=
+3	wearing	wear	VERB	VBG	_	2	partmod	_	VBG|00050652-v|Dressing+
+4	silver	silver	NOUN	NN	_	5	amod	_	NN|14654954-n|Silver=
+5	pants	pant	NOUN	NNS	_	3	dobj	_	NNS|04489008-n|Trousers+
+6	,	,	.	,	_	5	punct	_	Fc|?|?
+7	pink	pink	ADJ	JJ	_	8	amod	_	JJ|00379595-a|Pink+
+8	bellbottoms	bellbottoms	NOUN	NNS	_	5	conj	_	NNS|?|?
+9	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	pink	pink	ADJ	JJ	_	12	amod	_	JJ|00379595-a|Pink+
+12	scarf	scarf	NOUN	NN	_	5	conj	_	NN|04143897-n|Clothing+
+13	is	be	VERB	VBZ	_	14	aux	_	VBZ|02604760-v|Entity+
+14	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	bike	bike	NOUN	NN	_	14	dobj	_	NN|02834778-n|Bicycle=
+17	.	.	.	.	_	14	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	pedestrian	pedestrian	NOUN	NN	_	3	nn	_	JJ|01346343-a|SubjectiveWeakNegativeAttribute+
+3	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	building	build	VERB	VBG	_	0	ROOT	_	VBG|00252990-v|Increasing+
+6	pink	pink	ADJ	JJ	_	7	amod	_	JJ|00379595-a|Pink+
+7	bicycles	bicycle	NOUN	NNS	_	5	dobj	_	NNS|02834778-n|Bicycle=
+8	for	for	ADP	IN	_	5	prep	_	IN|?|?
+9	boa	boa	NOUN	NNS	_	8	pobj	_	NN|01741943-n|ConstrictorSnake+
+10	wearing	wear	VERB	VBG	_	9	partmod	_	VBG|00047745-v|CoveringFn=
+11	riders	rider	NOUN	NNS	_	10	dobj	_	NNS|10530150-n|Human+
+12	.	.	.	.	_	5	punct	_	Fp|?|?

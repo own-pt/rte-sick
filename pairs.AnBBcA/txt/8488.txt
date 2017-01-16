@@ -1,0 +1,34 @@
+sentence A = A shirtless man is playing football in a gym.
+sentence B = A shirtless man is playing football on a lawn.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Hominid=,Entity+,Game+,Football+,ExerciseCenter=
+CONCEPTS B: Hominid=,Entity+,Game+,Football+,Lawn=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	shirtless	shirtless	ADJ	JJ	_	3	amod	_	JJ|?|?
+3	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01072949-v|Game+
+6	football	football	NOUN	NN	_	5	dobj	_	NN|00468480-n|Football+
+7	in	in	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	gym	gym	NOUN	NN	_	7	pobj	_	NN|03472112-n|ExerciseCenter=
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	shirtless	shirtless	ADJ	JJ	_	3	amod	_	JJ|?|?
+3	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01072949-v|Game+
+6	football	football	NOUN	NN	_	5	dobj	_	NN|00468480-n|Football+
+7	on	on	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	lawn	lawn	NOUN	NN	_	7	pobj	_	NN|08591592-n|Lawn=
+10	.	.	.	.	_	5	punct	_	Fp|?|?

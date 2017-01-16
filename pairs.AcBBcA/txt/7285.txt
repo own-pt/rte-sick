@@ -1,0 +1,44 @@
+sentence A = A woman in a fur hat and fur coat is sitting outside a building.
+sentence B = A woman in a fur hat and fur coat is standing outside a building.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Woman=,Fabric+,Hat+,Fabric+,BodyPart+,PhysicalAttribute+,SittingDown+,Building=
+CONCEPTS B: Woman=,Fabric+,Hat+,Fabric+,BodyPart+,Entity+,PhysicalAttribute+,Building=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	11	nsubj	_	NN|10787470-n|Woman=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	fur	fur	NOUN	NN	_	6	nn	_	NN|14764061-n|Fabric+
+6	hat	hat	NOUN	NN	_	3	pobj	_	NN|03497657-n|Hat+
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	fur	fur	NOUN	NN	_	9	nn	_	NN|14764061-n|Fabric+
+9	coat	coat	NOUN	NN	_	6	conj	_	NN|01898731-n|BodyPart+
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02655135-v|PhysicalAttribute+
+11	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+12	outside	outside	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	building	building	NOUN	NN	_	12	pobj	_	NN|02913152-n|Building=
+15	.	.	.	.	_	11	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	11	nsubj	_	NN|10787470-n|Woman=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	fur	fur	NOUN	NN	_	6	nn	_	NN|14764061-n|Fabric+
+6	hat	hat	NOUN	NN	_	3	pobj	_	NN|03497657-n|Hat+
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	fur	fur	NOUN	NN	_	9	nn	_	NN|14764061-n|Fabric+
+9	coat	coat	NOUN	NN	_	6	conj	_	NN|01898731-n|BodyPart+
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+12	outside	outside	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	building	building	NOUN	NN	_	12	pobj	_	NN|02913152-n|Building=
+15	.	.	.	.	_	11	punct	_	Fp|?|?

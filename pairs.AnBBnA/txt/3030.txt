@@ -1,0 +1,31 @@
+sentence A = A few children are jumping on a trampoline.
+sentence B = Two boy are playing on a trampoline.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanChild=,Entity+,Ambulating=,Device+
+CONCEPTS B: Human+,Entity+,DramaticActing+,Device+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	quantmod	_	DT|?|?
+2	few	few	ADJ	JJ	_	3	num	_	DT|?|?
+3	children	child	NOUN	NNS	_	5	nsubj	_	NNS|09917593-n|HumanChild=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	trampoline	trampoline	NOUN	NN	_	6	pobj	_	NN|04469514-n|Device+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	boy	boy	NOUN	NN	_	4	nsubj	_	NN|10285313-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	trampoline	trampoline	NOUN	NN	_	5	pobj	_	NN|04469514-n|Device+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

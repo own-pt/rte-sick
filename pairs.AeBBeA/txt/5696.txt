@@ -1,0 +1,36 @@
+sentence A = Some cheese is being put on a pizza by a man.
+sentence B = A man is putting some cheese on a pizza.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Cheese=,Entity+,Entity+,Putting=,PreparedFood+,Hominid=
+CONCEPTS B: Hominid=,Entity+,Putting=,Cheese=,PreparedFood+
+
+CONLL A:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	cheese	cheese	NOUN	NN	_	5	nsubjpass	_	NN|07850329-n|Cheese=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	put	put	VERB	VBN	_	0	ROOT	_	VBN|01494310-v|Putting=
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	pizza	pizza	NOUN	NN	_	6	pobj	_	NN|07873807-n|PreparedFood+
+9	by	by	ADP	IN	_	5	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	man	man	NOUN	NN	_	9	pobj	_	NN|02472293-n|Hominid=
+12	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	putting	put	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+5	some	some	DET	DT	_	6	det	_	DT|?|?
+6	cheese	cheese	NOUN	NN	_	4	dobj	_	NN|07850329-n|Cheese=
+7	on	on	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	pizza	pizza	NOUN	NN	_	7	pobj	_	NN|07873807-n|PreparedFood+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,30 @@
+sentence A = Two dogs are running through high grass.
+sentence B = Two animals are running through high grass.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,Attribute+,SubjectiveStrongPositiveAttribute+,Grass=
+CONCEPTS B: Animal=,Entity+,Attribute+,SubjectiveStrongPositiveAttribute+,Grass=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	through	through	ADP	IN	_	4	prep	_	IN|?|?
+6	high	high	ADJ	JJ	_	7	amod	_	JJ|02339120-a|SubjectiveStrongPositiveAttribute+
+7	grass	grass	NOUN	NN	_	5	pobj	_	NN|12102133-n|Grass=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	animals	animal	NOUN	NNS	_	4	nsubj	_	NNS|00015388-n|Animal=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	through	through	ADP	IN	_	4	prep	_	IN|?|?
+6	high	high	ADJ	JJ	_	7	amod	_	JJ|02339120-a|SubjectiveStrongPositiveAttribute+
+7	grass	grass	NOUN	NN	_	5	pobj	_	NN|12102133-n|Grass=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

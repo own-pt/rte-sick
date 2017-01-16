@@ -1,0 +1,42 @@
+sentence A = A woman in blue has a yellow ball in the hand.
+sentence B = The girl in blue is chasing the base runner with a number on the jersey.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,SubjectiveStrongNegativeAttribute+,Damaging+,SubjectiveAssessmentAttribute+,Ball=,Hand+
+CONCEPTS B: Human+,SubjectiveStrongNegativeAttribute+,Entity+,Pursuing+,Region+,Human+,Number=,HoofedMammal+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	blue	blue	NOUN	NN	_	3	pobj	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+5	has	have	VERB	VBZ	_	0	ROOT	_	VBZ|00065639-v|Damaging+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	yellow	yellow	ADJ	JJ	_	8	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+8	ball	ball	NOUN	NN	_	5	dobj	_	NN|02778669-n|Ball=
+9	in	in	ADP	IN	_	5	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	hand	hand	NOUN	NN	_	9	pobj	_	NN|05564590-n|Hand+
+12	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	6	nsubj	_	NN|10129825-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	blue	blue	NOUN	NN	_	3	pobj	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	chasing	chase	VERB	VBG	_	0	ROOT	_	VBG|02001858-v|Pursuing+
+7	the	the	DET	DT	_	9	det	_	DT|?|?
+8	base	base	NOUN	NN	_	9	nn	_	NN|03387016-n|Region+
+9	runner	runner	NOUN	NN	_	6	dobj	_	NN|09841696-n|Human+
+10	with	with	ADP	IN	_	6	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	number	number	NOUN	NN	_	10	pobj	_	NN|13582013-n|Number=
+13	on	on	ADP	IN	_	12	prep	_	IN|?|?
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	jersey	jersey	NOUN	NN	_	13	pobj	_	NN|08887238-n|HoofedMammal+
+16	.	.	.	.	_	6	punct	_	Fp|?|?

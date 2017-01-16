@@ -1,0 +1,45 @@
+sentence A = A person in a blue jacket is jumping off of a tall cement wall.
+sentence B = A person in a blue colored jacket is jumping off of a tall cement wall.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Human=,SubjectiveStrongNegativeAttribute+,Coat=,Entity+,Ambulating=,SubjectiveWeakNegativeAttribute+,Cement=,Wall=
+CONCEPTS B: Human=,SubjectiveStrongNegativeAttribute+,SurfaceChange+,Coat=,Entity+,Ambulating=,SubjectiveWeakNegativeAttribute+,Cement=,Wall=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	8	nsubj	_	NN|00007846-n|Human=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	blue	blue	ADJ	JJ	_	6	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+6	jacket	jacket	NOUN	NN	_	3	pobj	_	NN|03589791-n|Coat=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+9	off	off	ADP	IN	_	8	prep	_	RP|00232936-r|?
+10	of	of	ADP	IN	_	9	pcomp	_	IN|?|?
+11	a	a	DET	DT	_	14	det	_	DT|?|?
+12	tall	tall	ADJ	JJ	_	14	amod	_	JJ|02385102-a|SubjectiveWeakNegativeAttribute+
+13	cement	cement	NOUN	NN	_	14	nn	_	NN|14804175-n|Cement=
+14	wall	wall	NOUN	NN	_	10	pobj	_	NN|04546855-n|Wall=
+15	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	9	nsubj	_	NN|00007846-n|Human=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	7	det	_	DT|?|?
+5	blue	blue	ADJ	JJ	_	7	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+6	colored	color	ADJ	JJ	_	7	amod	_	VBN|00283911-v|SurfaceChange+
+7	jacket	jacket	NOUN	NN	_	3	pobj	_	NN|03589791-n|Coat=
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+10	off	off	ADP	IN	_	9	prep	_	RP|00232936-r|?
+11	of	of	ADP	IN	_	10	pcomp	_	IN|?|?
+12	a	a	DET	DT	_	15	det	_	DT|?|?
+13	tall	tall	ADJ	JJ	_	15	amod	_	JJ|02385102-a|SubjectiveWeakNegativeAttribute+
+14	cement	cement	NOUN	NN	_	15	nn	_	NN|14804175-n|Cement=
+15	wall	wall	NOUN	NN	_	11	pobj	_	NN|04546855-n|Wall=
+16	.	.	.	.	_	9	punct	_	Fp|?|?

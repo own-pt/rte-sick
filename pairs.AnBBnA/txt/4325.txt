@@ -1,0 +1,26 @@
+sentence A = The man is drawing.
+sentence B = The woman is drawing a man.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Removing+
+CONCEPTS B: Woman=,Entity+,Removing+,Man=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	drawing	draw	VERB	VBG	_	0	ROOT	_	VBG|01854132-v|Removing+
+5	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	drawing	draw	VERB	VBG	_	0	ROOT	_	VBG|01854132-v|Removing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	man	man	NOUN	NN	_	4	dobj	_	NN|10287213-n|Man=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

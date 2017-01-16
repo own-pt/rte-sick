@@ -1,0 +1,28 @@
+sentence A = A kitten is getting bored.
+sentence B = The kitten is playing with a toy.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Feline+,Entity+,Process+,Drilling=
+CONCEPTS B: Feline+,Entity+,DramaticActing+,RecreationOrExerciseDevice+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	kitten	kitten	NOUN	NN	_	5	nsubj	_	NN|02122948-n|Feline+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	getting	get	VERB	VBG	_	5	dep	_	VBG|00120316-v|Process+
+5	bored	bore	ADJ	JJ	_	0	ROOT	_	VBN|01443021-v|Drilling=
+6	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	kitten	kitten	NOUN	NN	_	4	nsubj	_	NN|02122948-n|Feline+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	toy	toy	NOUN	NN	_	5	pobj	_	NN|03964744-n|RecreationOrExerciseDevice+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

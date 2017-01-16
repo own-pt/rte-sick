@@ -1,0 +1,32 @@
+sentence A = A cat is walking away from some corn.
+sentence B = A cat is eating corn on the cob.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Whip+,Entity+,Walking=,FruitOrVegetable+
+CONCEPTS B: Whip+,Entity+,Eating=,FruitOrVegetable+,Horse+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	4	nsubj	_	NN|02985606-n|Whip+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+5	away	away	ADV	RB	_	4	advmod	_	RP|00234951-r|?
+6	from	from	ADP	IN	_	5	prep	_	IN|?|?
+7	some	some	DET	DT	_	8	det	_	DT|?|?
+8	corn	corn	NOUN	NN	_	6	pobj	_	NN|07731952-n|FruitOrVegetable+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	4	nsubj	_	NN|02985606-n|Whip+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01168468-v|Eating=
+5	corn	corn	NOUN	NN	_	4	dobj	_	NN|07731952-n|FruitOrVegetable+
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	cob	cob	NOUN	NN	_	6	pobj	_	NN|02386141-n|Horse+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

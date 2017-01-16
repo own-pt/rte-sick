@@ -1,0 +1,38 @@
+sentence A = A man in a white hat is touching a cardboard box.
+sentence B = A man in a black hat is reaching for a box.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Man=,White=,Hat+,Entity+,Communication+,Artifact+,Box=
+CONCEPTS B: Man=,Black=,Hat+,Entity+,SubjectiveAssessmentAttribute+,Box=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	_	6	amod	_	JJ|00393105-a|White=
+6	hat	hat	NOUN	NN	_	3	pobj	_	NN|03497657-n|Hat+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	touching	touch	VERB	VBG	_	0	ROOT	_	VBG|02676054-v|Communication+
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	cardboard	cardboard	NOUN	NN	_	11	nn	_	NN|14799601-n|Artifact+
+11	box	box	NOUN	NN	_	8	dobj	_	NN|02883344-n|Box=
+12	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	black	black	ADJ	JJ	_	6	amod	_	JJ|00392812-a|Black=
+6	hat	hat	NOUN	NN	_	3	pobj	_	NN|03497657-n|Hat+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	reaching	reach	VERB	VBG	_	0	ROOT	_	VBG|02526085-v|SubjectiveAssessmentAttribute+
+9	for	for	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	box	box	NOUN	NN	_	9	pobj	_	NN|02883344-n|Box=
+12	.	.	.	.	_	8	punct	_	Fp|?|?

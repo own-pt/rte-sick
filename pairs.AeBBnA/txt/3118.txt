@@ -1,0 +1,33 @@
+sentence A = A woman is carefully applying cosmetics to her eyelid.
+sentence B = A woman is applying cosmetics to her eyelid.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,SubjectiveAssessmentAttribute+,Covering+,Mixture+,Eyelid+
+CONCEPTS B: Woman=,Entity+,Covering+,Mixture+,Eyelid+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	carefully	carefully	ADV	RB	_	5	advmod	_	RB|00153568-r|SubjectiveAssessmentAttribute+
+5	applying	apply	VERB	VBG	_	0	ROOT	_	VBG|01363648-v|Covering+
+6	cosmetics	cosmetic	NOUN	NNS	_	5	dobj	_	NNS|03113152-n|Mixture+
+7	to	to	ADP	IN	_	5	prep	_	TO|?|?
+8	her	her	PRON	PRP$	_	9	poss	_	PRP$|?|?
+9	eyelid	eyelid	NOUN	NN	_	7	pobj	_	NN|05313822-n|Eyelid+
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	applying	apply	VERB	VBG	_	0	ROOT	_	VBG|01363648-v|Covering+
+5	cosmetics	cosmetic	NOUN	NNS	_	4	dobj	_	NNS|03113152-n|Mixture+
+6	to	to	ADP	IN	_	4	prep	_	TO|?|?
+7	her	her	PRON	PRP$	_	8	poss	_	PRP$|?|?
+8	eyelid	eyelid	NOUN	NN	_	6	pobj	_	NN|05313822-n|Eyelid+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

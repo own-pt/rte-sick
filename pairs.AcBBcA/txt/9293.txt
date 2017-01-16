@@ -1,0 +1,33 @@
+sentence A = Two men are not taking a break from construction.
+sentence B = Two men are taking a break from construction.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Hominid=,Entity+,not=,PhysicalAttribute+,TimeInterval+,Constructing=
+CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,TimeInterval+,Constructing=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	5	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	taking	take	VERB	VBG	_	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	break	break	NOUN	NN	_	5	dobj	_	NN|15271008-n|TimeInterval+
+8	from	from	ADP	IN	_	7	prep	_	IN|?|?
+9	construction	construction	NOUN	NN	_	8	pobj	_	NN|00911048-n|Constructing=
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	taking	take	VERB	VBG	_	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	break	break	NOUN	NN	_	4	dobj	_	NN|15271008-n|TimeInterval+
+7	from	from	ADP	IN	_	6	prep	_	IN|?|?
+8	construction	construction	NOUN	NN	_	7	pobj	_	NN|00911048-n|Constructing=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

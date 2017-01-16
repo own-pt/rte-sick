@@ -1,0 +1,39 @@
+sentence A = A man is pointing at a silver sedan.
+sentence B = A man is in a parking lot and is playing tennis against a large wall.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Indicating=,Silver=,TransportationDevice+
+CONCEPTS B: Man=,Entity+,Region+,SubjectiveAssessmentAttribute+,Entity+,DramaticActing+,Tennis=,SubjectiveWeakPositiveAttribute+,Wall=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	pointing	point	VERB	VBG	_	0	ROOT	_	VBG|00923793-v|Indicating=
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	silver	silver	ADJ	JJ	_	8	amod	_	NN|14654954-n|Silver=
+8	sedan	sedan	NOUN	NN	_	5	pobj	_	NN|04166436-n|TransportationDevice+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	3	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	parking	parking	NOUN	NN	_	7	nn	_	NN|13778671-n|Region+
+7	lot	lot	NOUN	NN	_	4	pobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+8	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	playing	play	VERB	VBG	_	3	conj	_	VBG|01719302-v|DramaticActing+
+11	tennis	tennis	NOUN	NN	_	10	dobj	_	NN|00482298-n|Tennis=
+12	against	against	ADP	IN	_	10	prep	_	IN|?|?
+13	a	a	DET	DT	_	15	det	_	DT|?|?
+14	large	large	ADJ	JJ	_	15	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+15	wall	wall	NOUN	NN	_	12	pobj	_	NN|04546855-n|Wall=
+16	.	.	.	.	_	3	punct	_	Fp|?|?

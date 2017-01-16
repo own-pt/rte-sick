@@ -1,0 +1,37 @@
+sentence A = A man is riding a water toy in the water.
+sentence B = A man is playing with a water toy in the water.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Carrying=,Water=,RecreationOrExerciseDevice+,Water=
+CONCEPTS B: Hominid=,Entity+,DramaticActing+,Water=,RecreationOrExerciseDevice+,Water=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	water	water	NOUN	NN	_	7	nn	_	NN|14845743-n|Water=
+7	toy	toy	NOUN	NN	_	4	dobj	_	NN|03964744-n|RecreationOrExerciseDevice+
+8	in	in	ADP	IN	_	4	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	water	water	NOUN	NN	_	8	pobj	_	NN|14845743-n|Water=
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	water	water	NOUN	NN	_	8	nn	_	NN|14845743-n|Water=
+8	toy	toy	NOUN	NN	_	5	pobj	_	NN|03964744-n|RecreationOrExerciseDevice+
+9	in	in	ADP	IN	_	4	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	water	water	NOUN	NN	_	9	pobj	_	NN|14845743-n|Water=
+12	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,32 @@
+sentence A = A man is buttering a piece of bread.
+sentence B = A woman is buttering a piece of bread.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GamePiece+,Entity+,Covering+,GamePiece+,BreadOrBiscuit+
+CONCEPTS B: Woman=,Entity+,Covering+,TimeDuration+,BreadOrBiscuit+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|03716327-n|GamePiece+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	buttering	butter	VERB	VBG	_	0	ROOT	_	VBG|01267998-v|Covering+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	piece	piece	NOUN	NN	_	4	dobj	_	NN|03716327-n|GamePiece+
+7	of	of	ADP	IN	_	6	prep	_	IN|?|?
+8	bread	bread	NOUN	NN	_	7	pobj	_	NN|07679356-n|BreadOrBiscuit+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	buttering	butter	VERB	VBG	_	0	ROOT	_	VBG|01267998-v|Covering+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	piece	piece	NOUN	NN	_	4	dobj	_	NN|15246353-n|TimeDuration+
+7	of	of	ADP	IN	_	6	prep	_	IN|?|?
+8	bread	bread	NOUN	NN	_	7	pobj	_	NN|07679356-n|BreadOrBiscuit+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

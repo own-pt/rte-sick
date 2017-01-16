@@ -1,0 +1,24 @@
+sentence A = Women are sawing logs.
+sentence B = Men are sawing logs.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Cutting+,LogFn=
+CONCEPTS B: Hominid=,Entity+,Cutting+,LogFn=
+
+CONLL A:
+
+1	Women	woman	NOUN	NNS	_	3	nsubj	_	NNS|10787470-n|Woman=
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	sawing	saw	VERB	VBG	_	0	ROOT	_	VBG|01559590-v|Cutting+
+4	logs	log	NOUN	NNS	_	3	dobj	_	NNS|06812631-n|LogFn=
+5	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Men	man	NOUN	NNS	_	3	nsubj	_	NNS|02472293-n|Hominid=
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	sawing	saw	VERB	VBG	_	0	ROOT	_	VBG|01559590-v|Cutting+
+4	logs	log	NOUN	NNS	_	3	dobj	_	NNS|06812631-n|LogFn=
+5	.	.	.	.	_	3	punct	_	Fp|?|?

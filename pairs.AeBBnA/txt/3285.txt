@@ -1,0 +1,36 @@
+sentence A = The young boy is running through the ocean waves.
+sentence B = A child is running in and out of the ocean waves.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,Human+,Entity+,Attribute+,Ocean=,ShapeAttribute+
+CONCEPTS B: HumanChild=,Entity+,Attribute+,PositionalAttribute+,Giving+,Ocean=,ShapeAttribute+
+
+CONLL A:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	boy	boy	NOUN	NN	_	5	nsubj	_	NN|10285313-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	through	through	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	9	det	_	DT|?|?
+8	ocean	ocean	NOUN	NN	_	9	nn	_	NN|09376198-n|Ocean=
+9	waves	wave	NOUN	NNS	_	6	pobj	_	NNS|13868944-n|ShapeAttribute+
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	in	in	ADP	IN	_	4	prep	_	RP|00501990-r|PositionalAttribute+
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	out	out	ADP	IN	_	5	conj	_	RP|00233413-r|Giving+
+8	of	of	ADP	IN	_	5	pcomp	_	IN|?|?
+9	the	the	DET	DT	_	11	det	_	DT|?|?
+10	ocean	ocean	NOUN	NN	_	11	nn	_	NN|09376198-n|Ocean=
+11	waves	wave	NOUN	NNS	_	8	pobj	_	NNS|13868944-n|ShapeAttribute+
+12	.	.	.	.	_	4	punct	_	Fp|?|?

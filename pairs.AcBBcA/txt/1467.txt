@@ -1,0 +1,30 @@
+sentence A = Three men are jumping on a wall.
+sentence B = Three men are jumping off a wall.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Hominid=,Entity+,Ambulating=,Wall=
+CONCEPTS B: Hominid=,Entity+,Ambulating=,Wall=
+
+CONLL A:
+
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	wall	wall	NOUN	NN	_	5	pobj	_	NN|04546855-n|Wall=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	off	off	PRT	RP	_	4	prep	_	RP|00232936-r|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	wall	wall	NOUN	NN	_	5	pobj	_	NN|04546855-n|Wall=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

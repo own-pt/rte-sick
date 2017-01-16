@@ -1,0 +1,36 @@
+sentence A = A yellow dog is running down a sandy path.
+sentence B = A yellow dog is running down a path covered by sand.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: SubjectiveAssessmentAttribute+,Canine+,Entity+,Attribute+,earlier+,part+,Transitway+
+CONCEPTS B: SubjectiveAssessmentAttribute+,Canine+,Entity+,Attribute+,earlier+,Transitway+,Covering+,Sand=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	yellow	yellow	ADJ	JJ	_	3	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	down	down	ADP	IN	_	5	prep	_	RP|00096089-r|earlier+
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	sandy	sandy	ADJ	JJ	_	9	amod	_	JJ|00142040-a|part+
+9	path	path	NOUN	NN	_	6	pobj	_	NN|08616311-n|Transitway+
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	yellow	yellow	ADJ	JJ	_	3	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	down	down	PRT	RP	_	5	prt	_	RP|00096089-r|earlier+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	path	path	NOUN	NN	_	5	dobj	_	NN|08616311-n|Transitway+
+9	covered	cover	VERB	VBN	_	8	partmod	_	VBN|01332730-v|Covering+
+10	by	by	ADP	IN	_	9	prep	_	IN|?|?
+11	sand	sand	NOUN	NN	_	10	pobj	_	NN|15019030-n|Sand=
+12	.	.	.	.	_	5	punct	_	Fp|?|?

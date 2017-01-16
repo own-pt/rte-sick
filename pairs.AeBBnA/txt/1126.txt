@@ -1,0 +1,30 @@
+sentence A = A sea turtle is hunting for fish.
+sentence B = A sea turtle is hunting for food.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Sea=,Clothing+,Entity+,Hunting+,Region@
+CONCEPTS B: Sea=,Clothing+,Entity+,Hunting+,SubjectiveAssessmentAttribute+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	sea	sea	NOUN	NN	_	3	nn	_	NN|09426788-n|Sea=
+3	turtle	turtle	NOUN	NN	_	5	nsubj	_	NN|04502197-n|Clothing+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	hunting	hunting	VERB	VBG	_	0	ROOT	_	NN|00452293-n|Hunting+
+6	for	for	ADP	IN	_	5	prep	_	IN|?|?
+7	fish	fish	NOUN	NNS	_	6	pobj	_	NN|08688076-n|Region@
+8	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	sea	sea	NOUN	NN	_	3	nn	_	NN|09426788-n|Sea=
+3	turtle	turtle	NOUN	NN	_	5	nsubj	_	NN|04502197-n|Clothing+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	hunting	hunting	VERB	VBG	_	0	ROOT	_	NN|00452293-n|Hunting+
+6	for	for	ADP	IN	_	5	prep	_	IN|?|?
+7	food	food	NOUN	NN	_	6	pobj	_	NN|05811214-n|SubjectiveAssessmentAttribute+
+8	.	.	.	.	_	5	punct	_	Fp|?|?

@@ -1,0 +1,25 @@
+sentence A = Two baby pandas are playing.
+sentence B = Two cubs are playing.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanBaby=,Carnivore+,Entity+,DramaticActing+
+CONCEPTS B: NonFullyFormed+,Entity+,DramaticActing+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	baby	baby	NOUN	NN	_	3	nn	_	NN|09827683-n|HumanBaby=
+3	pandas	panda	NOUN	NNS	_	5	nsubj	_	NNS|02510455-n|Carnivore+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	cubs	cub	NOUN	NNS	_	4	nsubj	_	NNS|01322685-n|NonFullyFormed+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	.	.	.	.	_	4	punct	_	Fp|?|?

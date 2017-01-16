@@ -1,0 +1,42 @@
+sentence A = Three men are walking across a rope and wood bridge over a river.
+sentence B = Three people are walking across a rope and wood bridge over a river.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Walking=,String+,Wood=,Bridge+,River=
+CONCEPTS B: GroupOfPeople=,Entity+,Walking=,String+,Wood=,Bridge+,River=
+
+CONLL A:
+
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+5	across	across	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	10	det	_	DT|?|?
+7	rope	rope	NOUN	NN	_	10	nn	_	NN|04108268-n|String+
+8	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+9	wood	wood	NOUN	NN	_	7	conj	_	NN|15098161-n|Wood=
+10	bridge	bridge	NOUN	NN	_	5	pobj	_	NN|02898711-n|Bridge+
+11	over	over	ADP	IN	_	4	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	river	river	NOUN	NN	_	11	pobj	_	NN|09411430-n|River=
+14	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+5	across	across	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	10	det	_	DT|?|?
+7	rope	rope	NOUN	NN	_	10	nn	_	NN|04108268-n|String+
+8	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+9	wood	wood	NOUN	NN	_	7	conj	_	NN|15098161-n|Wood=
+10	bridge	bridge	NOUN	NN	_	5	pobj	_	NN|02898711-n|Bridge+
+11	over	over	ADP	IN	_	4	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	river	river	NOUN	NN	_	11	pobj	_	NN|09411430-n|River=
+14	.	.	.	.	_	4	punct	_	Fp|?|?

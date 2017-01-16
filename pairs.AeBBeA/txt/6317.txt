@@ -1,0 +1,36 @@
+sentence A = A tan dog is running through the snow.
+sentence B = A dog, which is tan, is running through the snow.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: ColorAttribute+,Canine+,Entity+,Attribute+,Snowing=
+CONCEPTS B: Canine+,Entity+,ColorAttribute+,Entity+,Attribute+,Snowing=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	tan	tan	ADJ	JJ	_	3	amod	_	JJ|00384533-a|ColorAttribute+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	through	through	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	snow	snow	NOUN	NN	_	6	pobj	_	NN|15043763-n|Snowing=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	9	nsubj	_	NN|02084071-n|Canine+
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	which	which	DET	WDT	_	6	nsubj	_	WDT|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	tan	tan	ADJ	JJ	_	2	rcmod	_	JJ|00384533-a|ColorAttribute+
+7	,	,	.	,	_	2	punct	_	Fc|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+10	through	through	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	snow	snow	NOUN	NN	_	10	pobj	_	NN|15043763-n|Snowing=
+13	.	.	.	.	_	9	punct	_	Fp|?|?

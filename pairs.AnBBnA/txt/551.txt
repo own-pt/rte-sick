@@ -1,0 +1,42 @@
+sentence A = There is no man in a grey t-shirt sitting on a rock in front of the waterfall.
+sentence B = A woman is sitting and looking at the waterfall.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: PhysicalAttribute+,Man=,Gray+,Shirt+,SittingDown+,Mineral+,FrontFn=,Waterfall=
+CONCEPTS B: Woman=,PhysicalAttribute+,SittingDown+,SubjectiveAssessmentAttribute+,Waterfall=
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02655135-v|PhysicalAttribute+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|10287213-n|Man=
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	grey	grey	NOUN	NN	_	8	amod	_	JJ|00389310-a|Gray+
+8	t-shirt	t-shirt	NOUN	NN	_	5	pobj	_	NN|03595614-n|Shirt+
+9	sitting	sit	VERB	VBG	_	8	partmod	_	VBG|01543123-v|SittingDown+
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	rock	rock	NOUN	NN	_	10	pobj	_	NN|14696793-n|Mineral+
+13	in	in	ADP	IN	_	12	prep	_	IN|?|?
+14	front	front	NOUN	NN	_	13	pobj	_	NN|08573472-n|FrontFn=
+15	of	of	ADP	IN	_	14	prep	_	IN|?|?
+16	the	the	DET	DT	_	17	det	_	DT|?|?
+17	waterfall	waterfall	NOUN	NN	_	15	pobj	_	NN|09475292-n|Waterfall=
+18	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	looking	look	VERB	VBG	_	4	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+7	at	at	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	waterfall	waterfall	NOUN	NN	_	7	pobj	_	NN|09475292-n|Waterfall=
+10	.	.	.	.	_	4	punct	_	Fp|?|?

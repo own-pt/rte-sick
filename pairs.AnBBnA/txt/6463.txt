@@ -1,0 +1,37 @@
+sentence A = Two men are getting off of an orange raft on the shore.
+sentence B = The orange rescue boat is rushing across the water.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Process+,OrangeColor+,SubjectiveAssessmentAttribute+,ShoreArea=
+CONCEPTS B: OrangeColor+,Removing+,WaterVehicle=,Entity+,Translocation+,Water=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	getting	get	VERB	VBG	_	0	ROOT	_	VBG|00120316-v|Process+
+5	off	off	ADP	IN	_	4	prep	_	RP|00232936-r|?
+6	of	of	ADP	IN	_	5	pcomp	_	IN|?|?
+7	an	a	DET	DT	_	9	det	_	DT|?|?
+8	orange	orange	ADJ	JJ	_	9	amod	_	NN|04965179-n|OrangeColor+
+9	raft	raft	NOUN	NN	_	6	pobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	shore	shore	NOUN	NN	_	10	pobj	_	NN|09433442-n|ShoreArea=
+13	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	4	det	_	DT|?|?
+2	orange	orange	ADJ	JJ	_	4	amod	_	NN|04965179-n|OrangeColor+
+3	rescue	rescue	NOUN	NN	_	4	nn	_	NN|00093483-n|Removing+
+4	boat	boat	NOUN	NN	_	6	nsubj	_	NN|02858304-n|WaterVehicle=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	rushing	rush	VERB	VBG	_	0	ROOT	_	VBG|00459498-v|Translocation+
+7	across	across	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	water	water	NOUN	NN	_	7	pobj	_	NN|14845743-n|Water=
+10	.	.	.	.	_	6	punct	_	Fp|?|?

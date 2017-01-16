@@ -1,0 +1,35 @@
+sentence A = The land near a white bird is being watered swiftly.
+sentence B = A white bird is landing swiftly in the water.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Nation=,White=,Bird=,Entity+,Entity+,Wetting+,SubjectiveAssessmentAttribute+
+CONCEPTS B: White=,Bird=,Entity+,Landing+,SubjectiveAssessmentAttribute+,Water=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	land	land	NOUN	NN	_	9	nsubjpass	_	NN|08544813-n|Nation=
+3	near	near	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	_	6	amod	_	JJ|00393105-a|White=
+6	bird	bird	NOUN	NN	_	3	pobj	_	NN|01503061-n|Bird=
+7	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+8	being	be	VERB	VBG	_	9	auxpass	_	VBG|02604760-v|Entity+
+9	watered	water	VERB	VBN	_	0	ROOT	_	VBN|00228236-v|Wetting+
+10	swiftly	swiftly	ADV	RB	_	9	advmod	_	RB|00053274-r|SubjectiveAssessmentAttribute+
+11	.	.	.	.	_	9	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	bird	bird	NOUN	NN	_	5	nsubj	_	NN|01503061-n|Bird=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	landing	land	VERB	VBG	_	0	ROOT	_	VBG|01979901-v|Landing+
+6	swiftly	swiftly	ADV	RB	_	5	advmod	_	RB|00053274-r|SubjectiveAssessmentAttribute+
+7	in	in	ADP	IN	_	5	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	water	water	NOUN	NN	_	7	pobj	_	NN|14845743-n|Water=
+10	.	.	.	.	_	5	punct	_	Fp|?|?

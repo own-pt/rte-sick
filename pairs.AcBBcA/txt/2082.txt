@@ -1,0 +1,42 @@
+sentence A = A person is strongly whisking eggs in a bowl.
+sentence B = There is no woman beating two eggs in a bowl and using a whisk made of wire.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Human=,Entity+,SubjectiveAssessmentAttribute+,Removing+,Gland+,Dish+
+CONCEPTS B: Entity+,Woman=,Impacting+,BirdEgg=,Dish+,IntentionalProcess+,Device+,Attribute+,Wire=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	5	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	strongly	strongly	ADV	RB	_	5	advmod	_	RB|00177289-r|SubjectiveAssessmentAttribute+
+5	whisking	whisk	VERB	VBG	_	0	ROOT	_	VBG|01435254-v|Removing+
+6	eggs	egg	NOUN	NNS	_	5	dobj	_	NNS|05524615-n|Gland+
+7	in	in	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	bowl	bowl	NOUN	NN	_	7	pobj	_	NN|02880940-n|Dish+
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	woman	woman	NOUN	NN	_	2	nsubj	_	NN|10787470-n|Woman=
+5	beating	beat	VERB	VBG	_	4	dep	_	VBG|01398919-v|Impacting+
+6	two	2	NUM	CD	_	7	num	_	Z|?|?
+7	eggs	egg	NOUN	NNS	_	5	dobj	_	NNS|07840804-n|BirdEgg=
+8	in	in	ADP	IN	_	5	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	bowl	bowl	NOUN	NN	_	8	pobj	_	NN|02880940-n|Dish+
+11	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+12	using	use	VERB	VBG	_	5	conj	_	VBG|01158872-v|IntentionalProcess+
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	whisk	whisk	NOUN	NN	_	12	dobj	_	NN|04578934-n|Device+
+15	made	make	VERB	VBN	_	14	partmod	_	VBN|02621395-v|Attribute+
+16	of	of	ADP	IN	_	15	prep	_	IN|?|?
+17	wire	wire	NOUN	NN	_	16	pobj	_	NN|04594218-n|Wire=
+18	.	.	.	.	_	2	punct	_	Fp|?|?

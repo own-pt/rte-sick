@@ -1,0 +1,26 @@
+sentence A = A tiger cub is roaring.
+sentence B = A tiger is walking around.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Feline+,NonFullyFormed+,Entity+,Expressing+
+CONCEPTS B: Feline+,Entity+,Walking=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	tiger	tiger	NOUN	NN	_	3	nn	_	NN|02129604-n|Feline+
+3	cub	cub	NOUN	NN	_	5	nsubj	_	NN|01322685-n|NonFullyFormed+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	roaring	roar	VERB	VBG	_	0	ROOT	_	VBG|00029836-v|Expressing+
+6	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	tiger	tiger	NOUN	NN	_	4	nsubj	_	NN|02129604-n|Feline+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+5	around	around	ADV	RB	_	4	advmod	_	RP|00007015-r|?
+6	.	.	.	.	_	4	punct	_	Fp|?|?

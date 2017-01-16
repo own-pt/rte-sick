@@ -1,0 +1,46 @@
+sentence A = Women are wearing bunny ears and race numbers and are curiously pointing at something in the distance.
+sentence B = Several women are wearing pink bunny ears and are pointing to the right.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,RecreationOrExercise+,Position+,Ear+,Racing=,Number=,Entity+,SubjectiveAssessmentAttribute+,Indicating=,LengthMeasure+
+CONCEPTS B: Woman=,Entity+,RecreationOrExercise+,Pink+,Position+,Ear+,Entity+,Indicating=,Hand+
+
+CONLL A:
+
+1	Women	woman	NOUN	NNS	_	3	nsubj	_	NNS|10787470-n|Woman=
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
+4	bunny	bunny	NOUN	NN	_	5	nn	_	NN|09880189-n|Position+
+5	ears	ear	NOUN	NNS	_	3	dobj	_	NNS|05323889-n|Ear+
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	race	race	NOUN	NN	_	8	nn	_	NN|07458453-n|Racing=
+8	numbers	number	NOUN	NNS	_	5	conj	_	NNS|13582013-n|Number=
+9	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+10	are	be	VERB	VBP	_	12	aux	_	VBP|02604760-v|Entity+
+11	curiously	curiously	ADV	RB	_	12	advmod	_	RB|00035491-r|SubjectiveAssessmentAttribute+
+12	pointing	point	VERB	VBG	_	3	conj	_	VBG|00923793-v|Indicating=
+13	at	at	ADP	IN	_	12	prep	_	IN|?|?
+14	something	something	NOUN	NN	_	13	pobj	_	PRP|?|?
+15	in	in	ADP	IN	_	14	prep	_	IN|?|?
+16	the	the	DET	DT	_	17	det	_	DT|?|?
+17	distance	distance	NOUN	NN	_	15	pobj	_	NN|05084201-n|LengthMeasure+
+18	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Several	several	ADJ	JJ	_	2	amod	_	DT|?|?
+2	women	woman	NOUN	NNS	_	4	nsubj	_	NNS|10787470-n|Woman=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
+5	pink	pink	ADJ	JJ	_	7	amod	_	JJ|00379595-a|Pink+
+6	bunny	bunny	NOUN	NN	_	7	nn	_	NN|09880189-n|Position+
+7	ears	ear	NOUN	NNS	_	4	dobj	_	NNS|05323889-n|Ear+
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	are	be	VERB	VBP	_	10	aux	_	VBP|02604760-v|Entity+
+10	pointing	point	VERB	VBG	_	4	conj	_	VBG|00923793-v|Indicating=
+11	to	to	ADP	IN	_	10	prep	_	TO|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	right	right	NOUN	NN	_	11	pobj	_	NN|05565337-n|Hand+
+14	.	.	.	.	_	4	punct	_	Fp|?|?

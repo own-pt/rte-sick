@@ -1,0 +1,29 @@
+sentence A = The man is playing the guitar.
+sentence B = The man is playing with a skull.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,DramaticActing+,Guitar=
+CONCEPTS B: Hominid=,Entity+,DramaticActing+,Skull+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	skull	skull	NOUN	NN	_	5	pobj	_	NN|05540121-n|Skull+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

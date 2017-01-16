@@ -1,0 +1,31 @@
+sentence A = The microphone in front of the talking parrot is being muted.
+sentence B = A parrot is speaking.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Microphone=,FrontFn=,Speaking+,Bird+,Entity+,Entity+,Decreasing+
+CONCEPTS B: Bird+,Entity+,Speaking+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	microphone	microphone	NOUN	NN	_	11	nsubjpass	_	NN|03759954-n|Microphone=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	front	front	NOUN	NN	_	3	pobj	_	NN|08573472-n|FrontFn=
+5	of	of	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	8	det	_	DT|?|?
+7	talking	talk	NOUN	NN	_	8	amod	_	VBG|00941990-v|Speaking+
+8	parrot	parrot	NOUN	NN	_	5	pobj	_	NN|01816887-n|Bird+
+9	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+10	being	be	VERB	VBG	_	11	auxpass	_	VBG|02604760-v|Entity+
+11	muted	mute	VERB	VBN	_	0	ROOT	_	VBN|02191311-v|Decreasing+
+12	.	.	.	.	_	11	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	parrot	parrot	NOUN	NN	_	4	nsubj	_	NN|01816887-n|Bird+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	speaking	speak	VERB	VBG	_	0	ROOT	_	VBG|00963570-v|Speaking+
+5	.	.	.	.	_	4	punct	_	Fp|?|?

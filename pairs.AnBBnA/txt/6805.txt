@@ -1,0 +1,39 @@
+sentence A = A man is naked and is lying in the field.
+sentence B = A man is wearing a sports uniform and is running down the field.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Clothing[,Entity+,PhysicalAttribute+,FieldOfStudy=
+CONCEPTS B: Man=,Entity+,CoveringFn=,Sport=,UniformClothing=,Entity+,Attribute+,earlier+,FieldOfStudy=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	cop	_	VBZ|02604760-v|Entity+
+4	naked	naked	ADJ	JJ	_	0	ROOT	_	JJ|00457998-a|Clothing[
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	lying	lie	VERB	VBG	_	4	conj	_	VBG|02690708-v|PhysicalAttribute+
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	field	field	NOUN	NN	_	8	pobj	_	NN|05996646-n|FieldOfStudy=
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	sports	sport	NOUN	NNS	_	7	nn	_	NNS|00523513-n|Sport=
+7	uniform	uniform	NOUN	NN	_	4	dobj	_	NN|04509592-n|UniformClothing=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	running	run	VERB	VBG	_	4	conj	_	VBG|01525666-v|Attribute+
+11	down	down	ADP	IN	_	10	prep	_	RP|00096089-r|earlier+
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	field	field	NOUN	NN	_	11	pobj	_	NN|05996646-n|FieldOfStudy=
+14	.	.	.	.	_	4	punct	_	Fp|?|?

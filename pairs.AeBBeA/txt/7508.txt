@@ -1,0 +1,36 @@
+sentence A = Two dogs are battling for a frisbee in a lake.
+sentence B = Two dogs are fighting for a frisbee in a lake.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Canine+,Entity+,ViolentContest+,Artifact+,Lake=
+CONCEPTS B: Canine+,Entity+,ViolentContest+,Artifact+,Lake=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	battling	battle	VERB	VBG	_	0	ROOT	_	VBG|01092366-v|ViolentContest+
+5	for	for	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	frisbee	frisbee	NOUN	NN	_	5	pobj	_	NN|03397947-n|Artifact+
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	lake	lake	NOUN	NN	_	8	pobj	_	NN|09328904-n|Lake=
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	fighting	fight	VERB	VBG	_	0	ROOT	_	VBG|01090335-v|ViolentContest+
+5	for	for	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	frisbee	frisbee	NOUN	NN	_	5	pobj	_	NN|03397947-n|Artifact+
+8	in	in	ADP	IN	_	4	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	lake	lake	NOUN	NN	_	8	pobj	_	NN|09328904-n|Lake=
+11	.	.	.	.	_	4	punct	_	Fp|?|?

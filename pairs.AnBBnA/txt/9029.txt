@@ -1,0 +1,36 @@
+sentence A = Two dogs are playing in a forest.
+sentence B = A brown dog is running after a black dog on a rocky shore.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,DramaticActing+,Forest=
+CONCEPTS B: Human+,Canine+,Entity+,Attribute+,Black=,Canine+,TextureAttribute+,ShoreArea=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	forest	forest	NOUN	NN	_	5	pobj	_	NN|09284015-n|Forest=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	after	after	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	black	black	ADJ	JJ	_	9	amod	_	JJ|00392812-a|Black=
+9	dog	dog	NOUN	NN	_	6	pobj	_	NN|02084071-n|Canine+
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	rocky	rocky	ADJ	JJ	_	13	amod	_	JJ|02243567-a|TextureAttribute+
+13	shore	shore	NOUN	NN	_	10	pobj	_	NN|09433442-n|ShoreArea=
+14	.	.	.	.	_	5	punct	_	Fp|?|?

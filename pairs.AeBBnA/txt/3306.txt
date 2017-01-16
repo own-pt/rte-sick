@@ -1,0 +1,31 @@
+sentence A = An airplane is swiftly flying through the air.
+sentence B = An airplane is flying through the air.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Airplane=,Entity+,SubjectiveAssessmentAttribute+,Motion+,AirTransportation+
+CONCEPTS B: Airplane=,Entity+,FlyingAircraft=,AirTransportation+
+
+CONLL A:
+
+1	An	a	DET	DT	_	2	det	_	DT|?|?
+2	airplane	airplane	NOUN	NN	_	5	nsubj	_	NN|02691156-n|Airplane=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	swiftly	swiftly	ADV	RB	_	5	advmod	_	RB|00053274-r|SubjectiveAssessmentAttribute+
+5	flying	fly	VERB	VBG	_	0	ROOT	_	VBG|01562992-a|Motion+
+6	through	through	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	air	air	NOUN	NN	_	6	pobj	_	NN|00300441-n|AirTransportation+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	An	a	DET	DT	_	2	det	_	DT|?|?
+2	airplane	airplane	NOUN	NN	_	4	nsubj	_	NN|02691156-n|Airplane=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	flying	fly	VERB	VBG	_	0	ROOT	_	VBG|01941093-v|FlyingAircraft=
+5	through	through	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	air	air	NOUN	NN	_	5	pobj	_	NN|00300441-n|AirTransportation+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,35 @@
+sentence A = A man is outside close to a target for blade throwing.
+sentence B = The man is throwing knives at a tree.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Man=,Entity+,located+,Near+,Entity+,PlantLeaf+,Impelling+
+CONCEPTS B: Hominid=,Entity+,Impelling+,CuttingDevice+,ContentBearingObject+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	3	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+4	outside	outside	ADV	RB	_	3	prep	_	JJ|01692222-a|located+
+5	close	close	ADJ	JJ	_	4	pobj	_	RB|00409709-r|Near+
+6	to	to	ADP	IN	_	5	prep	_	TO|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	target	target	NOUN	NN	_	6	pobj	_	NN|05981230-n|Entity+
+9	for	for	ADP	IN	_	3	prep	_	IN|?|?
+10	blade	blade	NOUN	NN	_	11	nn	_	NN|13131883-n|PlantLeaf+
+11	throwing	throw	NOUN	NN	_	9	pobj	_	VBG|01508368-v|Impelling+
+12	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	throwing	throw	VERB	VBG	_	0	ROOT	_	VBG|01508368-v|Impelling+
+5	knives	knife	NOUN	NNS	_	4	dobj	_	NNS|03623556-n|CuttingDevice+
+6	at	at	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	tree	tree	NOUN	NN	_	6	pobj	_	NN|13912260-n|ContentBearingObject+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

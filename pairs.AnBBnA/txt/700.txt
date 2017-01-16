@@ -1,0 +1,50 @@
+sentence A = A dog which is furry and black is in a back yard and is carrying a basket in its mouth.
+sentence B = A dog in a bucket is biting a tree which is probably a pine.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,Organism+,Black=,Entity+,BackFn=,LandArea=,Entity+,Transportation+,Container+,Mouth+
+CONCEPTS B: Canine+,Container+,Entity+,SubjectiveStrongNegativeAttribute+,ContentBearingObject+,Entity+,SubjectiveAssessmentAttribute+,PineTree=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	8	nsubj	_	NN|02084071-n|Canine+
+3	which	which	DET	WDT	_	5	nsubj	_	WDT|?|?
+4	is	be	VERB	VBZ	_	5	cop	_	VBZ|02604760-v|Entity+
+5	furry	furry	ADJ	JJ	_	2	rcmod	_	JJ|00214001-a|Organism+
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	black	black	ADJ	JJ	_	5	conj	_	JJ|00392812-a|Black=
+8	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	back	back	NOUN	NN	_	12	amod	_	JJ|00197576-a|BackFn=
+12	yard	yard	NOUN	NN	_	9	pobj	_	NN|04610879-n|LandArea=
+13	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+14	is	be	VERB	VBZ	_	15	aux	_	VBZ|02604760-v|Entity+
+15	carrying	carry	VERB	VBG	_	8	conj	_	VBG|01449974-v|Transportation+
+16	a	a	DET	DT	_	17	det	_	DT|?|?
+17	basket	basket	NOUN	NN	_	15	dobj	_	NN|02801938-n|Container+
+18	in	in	ADP	IN	_	15	prep	_	IN|?|?
+19	its	its	PRON	PRP$	_	20	poss	_	PRP$|?|?
+20	mouth	mouth	NOUN	NN	_	18	pobj	_	NN|05302499-n|Mouth+
+21	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	7	nsubj	_	NN|02084071-n|Canine+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	bucket	bucket	NOUN	NN	_	3	pobj	_	NN|02909870-n|Container+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	biting	bite	VERB	VBG	_	0	ROOT	_	VBG|02079313-a|SubjectiveStrongNegativeAttribute+
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	tree	tree	NOUN	NN	_	7	dobj	_	NN|13912260-n|ContentBearingObject+
+10	which	which	DET	WDT	_	14	nsubj	_	WDT|?|?
+11	is	be	VERB	VBZ	_	14	cop	_	VBZ|02604760-v|Entity+
+12	probably	probably	ADV	RB	_	14	advmod	_	RB|00296131-r|SubjectiveAssessmentAttribute+
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	pine	pine	NOUN	NN	_	9	rcmod	_	NN|11608250-n|PineTree=
+15	.	.	.	.	_	7	punct	_	Fp|?|?

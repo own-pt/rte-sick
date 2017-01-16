@@ -1,0 +1,42 @@
+sentence A = There is no child holding a water gun or getting sprayed with water.
+sentence B = A laughing child is holding a water gun and getting sprayed with water.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,HumanChild=,Keeping+,Water=,Gun=,Process+,Spraying=,Water=
+CONCEPTS B: Laughing=,HumanChild=,Entity+,Keeping+,Water=,Gun=,Process+,Spraying=,Water=
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	child	child	NOUN	NN	_	2	nsubj	_	NN|09917593-n|HumanChild=
+5	holding	hold	VERB	VBG	_	4	dep	_	VBG|02681795-v|Keeping+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	water	water	NOUN	NN	_	8	nn	_	NN|14845743-n|Water=
+8	gun	gun	NOUN	NN	_	5	dobj	_	NN|03467984-n|Gun=
+9	or	or	CONJ	CC	_	5	cc	_	CC|?|?
+10	getting	get	VERB	VBG	_	11	auxpass	_	VBG|00120316-v|Process+
+11	sprayed	spray	VERB	VBN	_	5	conj	_	VBN|01372682-v|Spraying=
+12	with	with	ADP	IN	_	11	prep	_	IN|?|?
+13	water	water	NOUN	NN	_	12	pobj	_	NN|14845743-n|Water=
+14	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	laughing	laugh	VERB	VBG	_	3	amod	_	VBG|00031820-v|Laughing=
+3	child	child	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|02681795-v|Keeping+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	water	water	NOUN	NN	_	8	nn	_	NN|14845743-n|Water=
+8	gun	gun	NOUN	NN	_	5	dobj	_	NN|03467984-n|Gun=
+9	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+10	getting	get	VERB	VBG	_	11	auxpass	_	VBG|00120316-v|Process+
+11	sprayed	spray	VERB	VBN	_	5	conj	_	VBN|01372682-v|Spraying=
+12	with	with	ADP	IN	_	11	prep	_	IN|?|?
+13	water	water	NOUN	NN	_	12	pobj	_	NN|14845743-n|Water=
+14	.	.	.	.	_	5	punct	_	Fp|?|?

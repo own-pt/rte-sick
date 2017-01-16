@@ -1,0 +1,32 @@
+sentence A = A baby elephant is not eating a small tree.
+sentence B = A little girl is peddling a scooter.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanBaby=,Elephant+,Entity+,not=,Process+,SubjectiveStrongNegativeAttribute+,ContentBearingObject+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Selling+,LandVehicle+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	baby	baby	NOUN	NN	_	3	nn	_	NN|09827683-n|HumanBaby=
+3	elephant	elephant	NOUN	NN	_	6	nsubj	_	NN|02503517-n|Elephant+
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	not	not	ADV	RB	_	6	neg	_	RB|00024073-r|not=
+6	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	small	small	ADJ	JJ	_	9	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+9	tree	tree	NOUN	NN	_	6	dobj	_	NN|13912260-n|ContentBearingObject+
+10	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	peddling	peddle	VERB	VBG	_	0	ROOT	_	VBG|02302817-v|Selling+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	scooter	scooter	NOUN	NN	_	5	dobj	_	NN|03791053-n|LandVehicle+
+8	.	.	.	.	_	5	punct	_	Fp|?|?

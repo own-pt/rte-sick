@@ -1,0 +1,44 @@
+sentence A = The brown dog is spotting a black dog and is playing in the dry grass.
+sentence B = The brown dog is spotting a black dog lying in the dry grass.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Canine+,Entity+,SurfaceChange+,Black=,Canine+,Entity+,DramaticActing+,Dry=,Grass=
+CONCEPTS B: Human+,Canine+,Entity+,SurfaceChange+,Black=,Canine+,PhysicalAttribute+,Dry=,Grass=
+
+CONLL A:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	spotting	spot	VERB	VBG	_	0	ROOT	_	VBG|00509958-v|SurfaceChange+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	black	black	ADJ	JJ	_	8	amod	_	JJ|00392812-a|Black=
+8	dog	dog	NOUN	NN	_	5	dobj	_	NN|02084071-n|Canine+
+9	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	playing	play	VERB	VBG	_	5	conj	_	VBG|01719302-v|DramaticActing+
+12	in	in	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	15	det	_	DT|?|?
+14	dry	dry	ADJ	JJ	_	15	amod	_	JJ|02551380-a|Dry=
+15	grass	grass	NOUN	NN	_	12	pobj	_	NN|12102133-n|Grass=
+16	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	spotting	spot	VERB	VBG	_	0	ROOT	_	VBG|00509958-v|SurfaceChange+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	black	black	ADJ	JJ	_	8	amod	_	JJ|00392812-a|Black=
+8	dog	dog	NOUN	NN	_	5	dobj	_	NN|02084071-n|Canine+
+9	lying	lie	VERB	VBG	_	8	partmod	_	VBG|02690708-v|PhysicalAttribute+
+10	in	in	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	13	det	_	DT|?|?
+12	dry	dry	ADJ	JJ	_	13	amod	_	JJ|02551380-a|Dry=
+13	grass	grass	NOUN	NN	_	10	pobj	_	NN|12102133-n|Grass=
+14	.	.	.	.	_	5	punct	_	Fp|?|?

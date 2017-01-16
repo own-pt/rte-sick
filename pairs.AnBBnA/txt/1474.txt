@@ -1,0 +1,36 @@
+sentence A = Three men are jumping off a wall.
+sentence B = Three young men are running, jumping and kicking near a vending machine.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Ambulating=,Wall=
+CONCEPTS B: HumanYouth=,Hominid=,Entity+,Attribute+,Ambulating=,Expressing+,Selling+,Automobile=
+
+CONLL A:
+
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	off	off	PRT	RP	_	4	prep	_	RP|00232936-r|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	wall	wall	NOUN	NN	_	5	pobj	_	NN|04546855-n|Wall=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Three	3	NUM	CD	_	3	num	_	Z|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	men	man	NOUN	NNS	_	5	nsubj	_	NNS|02472293-n|Hominid=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	,	,	.	,	_	5	punct	_	Fc|?|?
+7	jumping	jump	VERB	VBG	_	5	dep	_	VBG|01963942-v|Ambulating=
+8	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+9	kicking	kick	VERB	VBG	_	7	conj	_	VBG|00907147-v|Expressing+
+10	near	near	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	vending	vend	VERB	VBG	_	13	nn	_	VBG|02302817-v|Selling+
+13	machine	machine	NOUN	NN	_	10	pobj	_	NN|02958343-n|Automobile=
+14	.	.	.	.	_	5	punct	_	Fp|?|?

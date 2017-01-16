@@ -1,0 +1,44 @@
+sentence A = A woman is leaning on the ledge of a balcony.
+sentence B = A man with a white moustache is standing on a balcony and is looking at the road below.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Inclining+,GeographicArea+,StationaryArtifact+
+CONCEPTS B: Man=,White=,FacialHair+,Entity+,PhysicalAttribute+,StationaryArtifact+,Entity+,SubjectiveAssessmentAttribute+,Roadway+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	leaning	lean	VERB	VBG	_	0	ROOT	_	VBG|02038357-v|Inclining+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	ledge	ledge	NOUN	NN	_	5	pobj	_	NN|09337253-n|GeographicArea+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	balcony	balcony	NOUN	NN	_	8	pobj	_	NN|02777927-n|StationaryArtifact+
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	_	6	amod	_	JJ|00393105-a|White=
+6	moustache	moustache	NOUN	NN	_	3	pobj	_	NN|05262185-n|FacialHair+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+9	on	on	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	balcony	balcony	NOUN	NN	_	9	pobj	_	NN|02777927-n|StationaryArtifact+
+12	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+13	is	be	VERB	VBZ	_	14	aux	_	VBZ|02604760-v|Entity+
+14	looking	look	VERB	VBG	_	8	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+15	at	at	ADP	IN	_	14	prep	_	IN|?|?
+16	the	the	DET	DT	_	17	det	_	DT|?|?
+17	road	road	NOUN	NN	_	15	pobj	_	NN|04096066-n|Roadway+
+18	below	below	ADV	RB	_	17	advmod	_	IN|?|?
+19	.	.	.	.	_	8	punct	_	Fp|?|?

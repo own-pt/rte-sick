@@ -1,0 +1,42 @@
+sentence A = The female wearing pink gloves and a brown jacket is smiling in the snow.
+sentence B = A young Asian woman with pink gloves is standing in the snow.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Female=,CoveringFn=,Pink+,Glove+,Human+,Coat=,Entity+,Smiling=,Snowing=
+CONCEPTS B: HumanYouth=,AsianEthnicity=,Woman=,Pink+,Glove+,Entity+,PhysicalAttribute+,Snowing=
+
+CONLL A:
+
+1	The	the	DET	DT	_	5	det	_	DT|?|?
+2	female	female	ADJ	JJ	_	5	amod	_	JJ|01477806-a|Female=
+3	wearing	wear	VERB	VBG	_	5	amod	_	VBG|00047745-v|CoveringFn=
+4	pink	pink	ADJ	JJ	_	5	amod	_	JJ|00379595-a|Pink+
+5	gloves	glove	NOUN	NNS	_	11	nsubj	_	NNS|03441112-n|Glove+
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	brown	brown	ADJ	JJ	_	9	amod	_	JJ|00245112-a|Human+
+9	jacket	jacket	NOUN	NN	_	5	conj	_	NN|03589791-n|Coat=
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	smiling	smile	VERB	VBG	_	0	ROOT	_	VBG|00028565-v|Smiling=
+12	in	in	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	snow	snow	NOUN	NN	_	12	pobj	_	NN|15043763-n|Snowing=
+15	.	.	.	.	_	11	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	4	amod	_	JJ|01646941-a|HumanYouth=
+3	Asian	asian	ADJ	JJ	_	4	amod	_	JJ|02968525-a|AsianEthnicity=
+4	woman	woman	NOUN	NN	_	9	nsubj	_	NN|10787470-n|Woman=
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	pink	pink	ADJ	JJ	_	7	amod	_	JJ|00379595-a|Pink+
+7	gloves	glove	NOUN	NNS	_	5	pobj	_	NNS|03441112-n|Glove+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+10	in	in	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	snow	snow	NOUN	NN	_	10	pobj	_	NN|15043763-n|Snowing=
+13	.	.	.	.	_	9	punct	_	Fp|?|?

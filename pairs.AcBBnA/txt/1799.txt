@@ -1,0 +1,30 @@
+sentence A = A lion is slowly walking.
+sentence B = There is no lion pacing tiredly in a pen.
+entailm AB = A_contradicts_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Region@,Entity+,NormativeAttribute+,Walking=
+CONCEPTS B: Entity+,Region@,Ambulating+,StateOfMind+,StationaryArtifact+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	lion	lion	NOUN	NN	_	5	nsubj	_	NN|08686821-n|Region@
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	slowly	slowly	ADV	RB	_	5	advmod	_	RB|00161630-r|NormativeAttribute+
+5	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+6	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	lion	lion	NOUN	NN	_	5	nn	_	NN|08686821-n|Region@
+5	pacing	pace	VERB	VBG	_	2	nsubj	_	VBG|02091165-v|Ambulating+
+6	tiredly	tiredly	ADV	RB	_	5	advmod	_	RB|00090424-r|StateOfMind+
+7	in	in	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	pen	pen	NOUN	NN	_	7	pobj	_	NN|03907227-n|StationaryArtifact+
+10	.	.	.	.	_	2	punct	_	Fp|?|?

@@ -1,0 +1,32 @@
+sentence A = A dog is playing in the green field.
+sentence B = A dog is playing on the green grass.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,DramaticActing+,Green=,FieldOfStudy=
+CONCEPTS B: Canine+,Entity+,DramaticActing+,Green=,Grass=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	8	det	_	DT|?|?
+7	green	green	ADJ	JJ	_	8	amod	_	JJ|00375969-a|Green=
+8	field	field	NOUN	NN	_	5	pobj	_	NN|05996646-n|FieldOfStudy=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	8	det	_	DT|?|?
+7	green	green	ADJ	JJ	_	8	amod	_	JJ|00375969-a|Green=
+8	grass	grass	NOUN	NN	_	5	pobj	_	NN|12102133-n|Grass=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

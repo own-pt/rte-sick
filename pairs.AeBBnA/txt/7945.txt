@@ -1,0 +1,38 @@
+sentence A = A boy in a white t-shirt is splashing in shallow water.
+sentence B = A kid in a white t-shirt is splashing in shallow water.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,White=,Shirt+,Entity+,Wetting+,SubjectiveWeakNegativeAttribute+,Water=
+CONCEPTS B: HumanChild=,White=,Shirt+,Entity+,Wetting+,SubjectiveWeakNegativeAttribute+,Water=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	8	nsubj	_	NN|10285313-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	_	6	amod	_	JJ|00393105-a|White=
+6	t-shirt	t-shirt	NOUN	NN	_	3	pobj	_	NN|03595614-n|Shirt+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	splashing	splash	VERB	VBG	_	0	ROOT	_	VBG|01374767-v|Wetting+
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	shallow	shallow	ADJ	JJ	_	11	amod	_	JJ|00691696-a|SubjectiveWeakNegativeAttribute+
+11	water	water	NOUN	NN	_	9	pobj	_	NN|14845743-n|Water=
+12	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	kid	kid	NOUN	NN	_	8	nsubj	_	NN|09917593-n|HumanChild=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	_	6	amod	_	JJ|00393105-a|White=
+6	t-shirt	t-shirt	NOUN	NN	_	3	pobj	_	NN|03595614-n|Shirt+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	splashing	splash	VERB	VBG	_	0	ROOT	_	VBG|01374767-v|Wetting+
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	shallow	shallow	ADJ	JJ	_	11	amod	_	JJ|00691696-a|SubjectiveWeakNegativeAttribute+
+11	water	water	NOUN	NN	_	9	pobj	_	NN|14845743-n|Water=
+12	.	.	.	.	_	8	punct	_	Fp|?|?

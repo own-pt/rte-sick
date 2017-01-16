@@ -1,0 +1,28 @@
+sentence A = Someone is not reading the email.
+sentence B = A man is reading the email.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,not=,Reading=,Device+
+CONCEPTS B: Hominid=,Entity+,Reading=,Device+
+
+CONLL A:
+
+1	Someone	someone	NOUN	NN	_	4	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+3	not	not	ADV	RB	_	4	neg	_	RB|00024073-r|not=
+4	reading	read	VERB	VBG	_	0	ROOT	_	VBG|00625119-v|Reading=
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	email	email	NOUN	NN	_	4	dobj	_	NN|06279326-n|Device+
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	reading	read	VERB	VBG	_	0	ROOT	_	VBG|00625119-v|Reading=
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	email	email	NOUN	NN	_	4	dobj	_	NN|06279326-n|Device+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

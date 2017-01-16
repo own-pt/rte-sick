@@ -1,0 +1,26 @@
+sentence A = Nobody is beating an egg.
+sentence B = Someone is beating an egg.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Impacting+,Gland+
+CONCEPTS B: Entity+,Impacting+,Gland+
+
+CONLL A:
+
+1	Nobody	nobody	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	beating	beat	VERB	VBG	_	0	ROOT	_	VBG|01398919-v|Impacting+
+4	an	a	DET	DT	_	5	det	_	DT|?|?
+5	egg	egg	NOUN	NN	_	3	dobj	_	NN|05524615-n|Gland+
+6	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	beating	beat	VERB	VBG	_	0	ROOT	_	VBG|01398919-v|Impacting+
+4	an	a	DET	DT	_	5	det	_	DT|?|?
+5	egg	egg	NOUN	NN	_	3	dobj	_	NN|05524615-n|Gland+
+6	.	.	.	.	_	3	punct	_	Fp|?|?

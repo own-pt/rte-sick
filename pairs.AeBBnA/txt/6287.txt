@@ -1,0 +1,38 @@
+sentence A = A black dog is running in the grass and its tongue is hanging out.
+sentence B = A black dog is running in the grass.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Black=,Canine+,Entity+,Attribute+,Grass=,Tongue=,Entity+,PhysicalAttribute+,Giving+
+CONCEPTS B: Black=,Canine+,Entity+,Attribute+,Grass=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	grass	grass	NOUN	NN	_	6	pobj	_	NN|12102133-n|Grass=
+9	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+10	its	its	PRON	PRP$	_	11	poss	_	PRP$|?|?
+11	tongue	tongue	NOUN	NN	_	13	nsubj	_	NN|05301072-n|Tongue=
+12	is	be	VERB	VBZ	_	13	aux	_	VBZ|02604760-v|Entity+
+13	hanging	hang	VERB	VBG	_	5	conj	_	VBG|01482075-v|PhysicalAttribute+
+14	out	out	PRT	RP	_	13	prt	_	RP|00233413-r|Giving+
+15	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	grass	grass	NOUN	NN	_	6	pobj	_	NN|12102133-n|Grass=
+9	.	.	.	.	_	5	punct	_	Fp|?|?

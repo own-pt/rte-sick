@@ -1,0 +1,36 @@
+sentence A = There is no dog standing on the side of a mountain.
+sentence B = A white dog is standing on a grassy hillside.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Canine+,SocialRole+,Object+,SubjectiveAssessmentAttribute+
+CONCEPTS B: White=,Canine+,Entity+,PhysicalAttribute+,FloweringPlant+,SlopedArea+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	dog	dog	NOUN	NN	_	5	nn	_	NN|02084071-n|Canine+
+5	standing	standing	NOUN	NN	_	2	nsubj	_	NN|13948136-n|SocialRole+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	side	side	NOUN	NN	_	6	pobj	_	NN|08510666-n|Object+
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	mountain	mountain	NOUN	NN	_	9	pobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+12	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	grassy	grassy	ADJ	JJ	_	9	amod	_	JJ|00209620-a|FloweringPlant+
+9	hillside	hillside	NOUN	NN	_	6	pobj	_	NN|09303528-n|SlopedArea+
+10	.	.	.	.	_	5	punct	_	Fp|?|?

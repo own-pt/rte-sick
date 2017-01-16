@@ -1,0 +1,30 @@
+sentence A = A man is doing a card trick.
+sentence B = A man is doing a magic trick.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,IntentionalProcess+,PlayingCard+,RecreationOrExercise+
+CONCEPTS B: Hominid=,Entity+,Position+,SubjectiveStrongPositiveAttribute+,RecreationOrExercise+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	card	card	NOUN	NN	_	7	nn	_	NN|02962545-n|PlayingCard+
+7	trick	trick	NOUN	NN	_	4	dobj	_	NN|00427580-n|RecreationOrExercise+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|02568672-v|Position+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	magic	magic	ADJ	JJ	_	7	nn	_	JJ|01576071-a|SubjectiveStrongPositiveAttribute+
+7	trick	trick	NOUN	NN	_	4	dobj	_	NN|00099951-n|RecreationOrExercise+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

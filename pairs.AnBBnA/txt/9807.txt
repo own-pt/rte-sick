@@ -1,0 +1,38 @@
+sentence A = The Jockeys are riding horses on the field, which is completely green.
+sentence B = The black bird is sitting in a leafless tree.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Position+,Entity+,Transportation+,Horse=,FieldOfStudy=,Entity+,SubjectiveAssessmentAttribute+,Green=
+CONCEPTS B: Black=,Bird=,PhysicalAttribute+,SittingDown+,Plant+,ContentBearingObject+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	Jockeys	jockey	NOUN	NNPS	_	4	nsubj	_	NNS|10223177-n|Position+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01957529-v|Transportation+
+5	horses	horse	NOUN	NNS	_	4	dobj	_	NNS|02374451-n|Horse=
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	field	field	NOUN	NN	_	6	pobj	_	NN|05996646-n|FieldOfStudy=
+9	,	,	.	,	_	8	punct	_	Fc|?|?
+10	which	which	DET	WDT	_	13	nsubj	_	WDT|?|?
+11	is	be	VERB	VBZ	_	13	cop	_	VBZ|02604760-v|Entity+
+12	completely	completely	ADV	RB	_	13	advmod	_	RB|00008007-r|SubjectiveAssessmentAttribute+
+13	green	green	ADJ	JJ	_	8	rcmod	_	JJ|00375969-a|Green=
+14	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	bird	bird	NOUN	NN	_	5	nsubj	_	NN|01503061-n|Bird=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	leafless	leafless	NOUN	NN	_	9	nn	_	JJ|01703494-a|Plant+
+9	tree	tree	NOUN	NN	_	6	pobj	_	NN|13912260-n|ContentBearingObject+
+10	.	.	.	.	_	5	punct	_	Fp|?|?

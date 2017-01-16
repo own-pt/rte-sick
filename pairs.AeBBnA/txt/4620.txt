@@ -1,0 +1,34 @@
+sentence A = The boy is shortening the grass by the curb with scissors.
+sentence B = A boy is cutting grass with scissors.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Shortening+,Grass=,Curb+
+CONCEPTS B: Human+,Entity+,Decreasing+,Grass=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	shortening	shorten	VERB	VBG	_	0	ROOT	_	VBG|00316768-v|Shortening+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	grass	grass	NOUN	NN	_	4	dobj	_	NN|12102133-n|Grass=
+7	by	by	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	curb	curb	NOUN	NN	_	7	pobj	_	NN|03148920-n|Curb+
+10	with	with	ADP	IN	_	9	prep	_	IN|?|?
+11	scissors	scissor	NOUN	NNS	_	10	pobj	_	NNS|?|?
+12	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|00429060-v|Decreasing+
+5	grass	grass	NOUN	NN	_	4	dobj	_	NN|12102133-n|Grass=
+6	with	with	ADP	IN	_	4	prep	_	IN|?|?
+7	scissors	scissor	NOUN	NNS	_	6	pobj	_	NNS|?|?
+8	.	.	.	.	_	4	punct	_	Fp|?|?

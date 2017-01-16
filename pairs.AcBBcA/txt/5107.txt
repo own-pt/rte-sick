@@ -1,0 +1,29 @@
+sentence A = There is no chef preparing a meal.
+sentence B = A chef is preparing some food.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Chef=,Learning+,Meal=
+CONCEPTS B: Chef=,Entity+,Cooking+,SubjectiveAssessmentAttribute+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	chef	chef	NOUN	NN	_	2	nsubj	_	NN|09963574-n|Chef=
+5	preparing	prepare	VERB	VBG	_	4	partmod	_	VBG|00602805-v|Learning+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	meal	meal	NOUN	NN	_	5	dobj	_	NN|07573696-n|Meal=
+8	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	chef	chef	NOUN	NN	_	4	nsubj	_	NN|09963574-n|Chef=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	preparing	prepare	VERB	VBG	_	0	ROOT	_	VBG|01664172-v|Cooking+
+5	some	some	DET	DT	_	6	det	_	DT|?|?
+6	food	food	NOUN	NN	_	4	dobj	_	NN|05811214-n|SubjectiveAssessmentAttribute+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

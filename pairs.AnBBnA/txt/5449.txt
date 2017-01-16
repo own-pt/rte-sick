@@ -1,0 +1,27 @@
+sentence A = A woman is cooking fish.
+sentence B = A woman is not frying fish.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Cooking+,Region@
+CONCEPTS B: Woman=,Entity+,not=,Killing+,Region@
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cooking	cook	VERB	VBG	_	0	ROOT	_	VBG|00322847-v|Cooking+
+5	fish	fish	NOUN	NN	_	4	dobj	_	NN|08688076-n|Region@
+6	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	6	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	6	neg	_	RB|00024073-r|not=
+5	frying	fry	VERB	VBG	_	6	amod	_	VBG|02484957-v|Killing+
+6	fish	fish	NOUN	NN	_	0	ROOT	_	NN|08688076-n|Region@
+7	.	.	.	.	_	6	punct	_	Fp|?|?

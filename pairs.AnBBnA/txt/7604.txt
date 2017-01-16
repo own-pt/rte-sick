@@ -1,0 +1,35 @@
+sentence A = It is snowing on two playing dogs.
+sentence B = A brown dog and a gray dog are playing in the snow.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,Snowing=,DramaticActing+,Canine+
+CONCEPTS B: Human+,Canine+,Gray+,Canine+,Entity+,DramaticActing+,Snowing=
+
+CONLL A:
+
+1	It	it	PRON	PRP	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	snowing	snow	VERB	VBG	_	0	ROOT	_	VBG|02758977-v|Snowing=
+4	on	on	ADP	IN	_	3	prep	_	IN|?|?
+5	two	2	NUM	CD	_	7	num	_	Z|?|?
+6	playing	play	VERB	VBG	_	7	amod	_	VBG|01719302-v|DramaticActing+
+7	dogs	dog	NOUN	NNS	_	4	pobj	_	NNS|02084071-n|Canine+
+8	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	dog	dog	NOUN	NN	_	9	nsubj	_	NN|02084071-n|Canine+
+4	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	gray	gray	ADJ	JJ	_	7	amod	_	JJ|00389310-a|Gray+
+7	dog	dog	NOUN	NN	_	3	conj	_	NN|02084071-n|Canine+
+8	are	be	VERB	VBP	_	9	aux	_	VBP|02604760-v|Entity+
+9	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+10	in	in	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	snow	snow	NOUN	NN	_	10	pobj	_	NN|15043763-n|Snowing=
+13	.	.	.	.	_	9	punct	_	Fp|?|?

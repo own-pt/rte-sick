@@ -1,0 +1,30 @@
+sentence A = Two dogs are running through the park.
+sentence B = Two animals are running through the park.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,Attribute+,Park+
+CONCEPTS B: Animal=,Entity+,Attribute+,Park+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	through	through	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	park	park	NOUN	NN	_	5	pobj	_	NN|08615374-n|Park+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	animals	animal	NOUN	NNS	_	4	nsubj	_	NNS|00015388-n|Animal=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	through	through	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	park	park	NOUN	NN	_	5	pobj	_	NN|08615374-n|Park+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

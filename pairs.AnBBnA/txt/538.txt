@@ -1,0 +1,31 @@
+sentence A = One man is wearing a black helmet and pushing a bicycle.
+sentence B = A biker is naked.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,CoveringFn=,Black=,Clothing+,Pushing=,Bicycle=
+CONCEPTS B: Entity+,Clothing[
+
+CONLL A:
+
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	black	black	ADJ	JJ	_	7	amod	_	JJ|00392812-a|Black=
+7	helmet	helmet	NOUN	NN	_	4	dobj	_	NN|03513376-n|Clothing+
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	pushing	push	VERB	VBG	_	4	conj	_	VBG|01871979-v|Pushing=
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	bicycle	bicycle	NOUN	NN	_	9	dobj	_	NN|02834778-n|Bicycle=
+12	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	biker	biker	NOUN	NN	_	4	nsubj	_	NN|?|?
+3	is	be	VERB	VBZ	_	4	cop	_	VBZ|02604760-v|Entity+
+4	naked	naked	ADJ	JJ	_	0	ROOT	_	JJ|00457998-a|Clothing[
+5	.	.	.	.	_	4	punct	_	Fp|?|?

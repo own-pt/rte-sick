@@ -1,0 +1,36 @@
+sentence A = A brown and white cat is jumping on the sidewalk.
+sentence B = A brown and white dog is jumping on the sidewalk.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,White=,Whip+,Entity+,Ambulating=,Sidewalk=
+CONCEPTS B: Human+,White=,Canine+,Entity+,Ambulating=,Sidewalk=
+
+CONLL A:
+
+1	A	a	DET	DT	_	5	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	5	amod	_	JJ|00245112-a|Human+
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	white	white	ADJ	JJ	_	2	conj	_	JJ|00393105-a|White=
+5	cat	cat	NOUN	NN	_	7	nsubj	_	NN|02985606-n|Whip+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	sidewalk	sidewalk	NOUN	NN	_	8	pobj	_	NN|04215402-n|Sidewalk=
+11	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	5	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	5	amod	_	JJ|00245112-a|Human+
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	white	white	ADJ	JJ	_	2	conj	_	JJ|00393105-a|White=
+5	dog	dog	NOUN	NN	_	7	nsubj	_	NN|02084071-n|Canine+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	sidewalk	sidewalk	NOUN	NN	_	8	pobj	_	NN|04215402-n|Sidewalk=
+11	.	.	.	.	_	7	punct	_	Fp|?|?

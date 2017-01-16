@@ -1,0 +1,49 @@
+sentence A = There is no man wearing clothes that are covered with paint or is sitting outside in a busy area writing something.
+sentence B = A man is sitting near a bike and is writing a note.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: PhysicalAttribute+,Man=,CoveringFn=,Clothing+,PhysicalAttribute+,Covering+,Paint+,PhysicalAttribute+,SittingDown+,SubjectiveWeakNegativeAttribute+,GeographicArea+,WrittenCommunication=
+CONCEPTS B: Hominid=,PhysicalAttribute+,SittingDown+,Bicycle=,PhysicalAttribute+,WrittenCommunication=,FactualText=
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02655135-v|PhysicalAttribute+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|10287213-n|Man=
+5	wearing	wear	VERB	VBG	_	4	partmod	_	VBG|00047745-v|CoveringFn=
+6	clothes	clothes	NOUN	NNS	_	5	dobj	_	NNS|02728440-n|Clothing+
+7	that	that	DET	WDT	_	9	nsubjpass	_	WDT|?|?
+8	are	be	VERB	VBP	_	9	auxpass	_	VBP|02655135-v|PhysicalAttribute+
+9	covered	cover	VERB	VBN	_	4	rcmod	_	VBN|01332730-v|Covering+
+10	with	with	ADP	IN	_	9	prep	_	IN|?|?
+11	paint	paint	NOUN	NN	_	10	pobj	_	NN|03875218-n|Paint+
+12	or	or	CONJ	CC	_	9	cc	_	CC|?|?
+13	is	be	VERB	VBZ	_	14	aux	_	VBZ|02655135-v|PhysicalAttribute+
+14	sitting	sit	VERB	VBG	_	9	conj	_	VBG|01543123-v|SittingDown+
+15	outside	outside	ADV	RB	_	14	advmod	_	IN|?|?
+16	in	in	ADP	IN	_	14	prep	_	IN|?|?
+17	a	a	DET	DT	_	19	det	_	DT|?|?
+18	busy	busy	ADJ	JJ	_	19	amod	_	JJ|00292937-a|SubjectiveWeakNegativeAttribute+
+19	area	area	NOUN	NN	_	16	pobj	_	NN|08497294-n|GeographicArea+
+20	writing	write	VERB	VBG	_	19	partmod	_	VBG|00993014-v|WrittenCommunication=
+21	something	something	NOUN	NN	_	20	dobj	_	PRP|?|?
+22	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	near	near	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	bike	bike	NOUN	NN	_	5	pobj	_	NN|02834778-n|Bicycle=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02655135-v|PhysicalAttribute+
+10	writing	write	VERB	VBG	_	4	conj	_	VBG|00993014-v|WrittenCommunication=
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	note	note	NOUN	NN	_	10	dobj	_	NN|06504462-n|FactualText=
+13	.	.	.	.	_	4	punct	_	Fp|?|?

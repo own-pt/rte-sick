@@ -1,0 +1,41 @@
+sentence A = A woman, who is old, is near a white dog.
+sentence B = A woman, who is old, is far from a white dog.
+entailm AB = A_contradicts_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,SubjectiveAssessmentAttribute+,Entity+,White=,Canine+
+CONCEPTS B: Woman=,Entity+,SubjectiveAssessmentAttribute+,Entity+,SubjectiveAssessmentAttribute+,White=,Canine+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	8	nsubj	_	NN|10787470-n|Woman=
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	_	6	nsubj	_	WP|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	old	old	ADJ	JJ	_	2	rcmod	_	JJ|01643620-a|SubjectiveAssessmentAttribute+
+7	,	,	.	,	_	8	punct	_	Fc|?|?
+8	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+9	near	near	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	white	white	ADJ	JJ	_	12	amod	_	JJ|00393105-a|White=
+12	dog	dog	NOUN	NN	_	9	pobj	_	NN|02084071-n|Canine+
+13	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	8	nsubj	_	NN|10787470-n|Woman=
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	_	6	nsubj	_	WP|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	old	old	ADJ	JJ	_	2	rcmod	_	JJ|01643620-a|SubjectiveAssessmentAttribute+
+7	,	,	.	,	_	8	punct	_	Fc|?|?
+8	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+9	far	far	ADV	RB	_	8	advmod	_	RB|00101323-r|SubjectiveAssessmentAttribute+
+10	from	from	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	white	white	ADJ	JJ	_	13	amod	_	JJ|00393105-a|White=
+13	dog	dog	NOUN	NN	_	10	pobj	_	NN|02084071-n|Canine+
+14	.	.	.	.	_	8	punct	_	Fp|?|?

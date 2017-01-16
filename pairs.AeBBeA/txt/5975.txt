@@ -1,0 +1,56 @@
+sentence A = The man in a hat suited for cowboys is walking through a market and is putting a hand in his pocket.
+sentence B = The man in a cowboy hat is walking through a market and is putting a hand in his pocket.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Man=,Hat+,SubjectiveAssessmentAttribute+,FarmHand+,Entity+,Walking=,GroceryStore=,Entity+,Putting=,FarmHand=,Pocket=
+CONCEPTS B: Man=,FarmHand+,Hat+,Entity+,Walking=,GroceryStore=,Entity+,Putting=,FarmHand=,Pocket=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	10	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	hat	hat	NOUN	NN	_	3	pobj	_	NN|03497657-n|Hat+
+6	suited	suit	VERB	VBN	_	5	partmod	_	VBN|02699941-v|SubjectiveAssessmentAttribute+
+7	for	for	ADP	IN	_	6	prep	_	IN|?|?
+8	cowboys	cowboy	NOUN	NNS	_	7	pobj	_	NNS|09972661-n|FarmHand+
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+11	through	through	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	market	market	NOUN	NN	_	11	pobj	_	NN|03461385-n|GroceryStore=
+14	and	and	CONJ	CC	_	10	cc	_	CC|?|?
+15	is	be	VERB	VBZ	_	16	aux	_	VBZ|02604760-v|Entity+
+16	putting	put	VERB	VBG	_	10	conj	_	VBG|01494310-v|Putting=
+17	a	a	DET	DT	_	18	det	_	DT|?|?
+18	hand	hand	NOUN	NN	_	16	dobj	_	NN|10176679-n|FarmHand=
+19	in	in	ADP	IN	_	16	prep	_	IN|?|?
+20	his	his	PRON	PRP$	_	21	poss	_	PRP$|?|?
+21	pocket	pocket	NOUN	NN	_	19	pobj	_	NN|03972524-n|Pocket=
+22	.	.	.	.	_	10	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	cowboy	cowboy	NOUN	NN	_	6	nn	_	NN|09972661-n|FarmHand+
+6	hat	hat	NOUN	NN	_	3	pobj	_	NN|03497657-n|Hat+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+9	through	through	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	market	market	NOUN	NN	_	9	pobj	_	NN|03461385-n|GroceryStore=
+12	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+13	is	be	VERB	VBZ	_	14	aux	_	VBZ|02604760-v|Entity+
+14	putting	put	VERB	VBG	_	8	conj	_	VBG|01494310-v|Putting=
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	hand	hand	NOUN	NN	_	14	dobj	_	NN|10176679-n|FarmHand=
+17	in	in	ADP	IN	_	14	prep	_	IN|?|?
+18	his	his	PRON	PRP$	_	19	poss	_	PRP$|?|?
+19	pocket	pocket	NOUN	NN	_	17	pobj	_	NN|03972524-n|Pocket=
+20	.	.	.	.	_	8	punct	_	Fp|?|?

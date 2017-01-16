@@ -1,0 +1,35 @@
+sentence A = There is no dog playing in a field of brown grass.
+sentence B = Four dogs are playing in a grassy area.
+entailm AB = A_contradicts_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,Canine+,DramaticActing+,FieldOfStudy=,Human+,Grass=
+CONCEPTS B: Canine+,Entity+,DramaticActing+,FloweringPlant+,GeographicArea+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	dog	dog	NOUN	NN	_	2	nsubj	_	NN|02084071-n|Canine+
+5	playing	play	VERB	VBG	_	4	partmod	_	VBG|01719302-v|DramaticActing+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	field	field	NOUN	NN	_	6	pobj	_	NN|05996646-n|FieldOfStudy=
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	brown	brown	ADJ	JJ	_	11	amod	_	JJ|00245112-a|Human+
+11	grass	grass	NOUN	NN	_	9	pobj	_	NN|12102133-n|Grass=
+12	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Four	4	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	grassy	grassy	ADJ	JJ	_	8	amod	_	JJ|00209620-a|FloweringPlant+
+8	area	area	NOUN	NN	_	5	pobj	_	NN|08497294-n|GeographicArea+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

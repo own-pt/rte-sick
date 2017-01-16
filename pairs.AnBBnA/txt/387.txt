@@ -1,0 +1,40 @@
+sentence A = A brown and white dog is running through the tall grass.
+sentence B = A black and tan dog is running through the low and green grass.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,White=,Canine+,Entity+,Attribute+,SubjectiveWeakNegativeAttribute+,Grass=
+CONCEPTS B: Black=,ColorAttribute+,Canine+,Entity+,Attribute+,Motion+,Green=,Grass=
+
+CONLL A:
+
+1	A	a	DET	DT	_	5	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	5	amod	_	JJ|00245112-a|Human+
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	white	white	ADJ	JJ	_	2	conj	_	JJ|00393105-a|White=
+5	dog	dog	NOUN	NN	_	7	nsubj	_	NN|02084071-n|Canine+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+8	through	through	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	11	det	_	DT|?|?
+10	tall	tall	ADJ	JJ	_	11	amod	_	JJ|02385102-a|SubjectiveWeakNegativeAttribute+
+11	grass	grass	NOUN	NN	_	8	pobj	_	NN|12102133-n|Grass=
+12	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	5	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	5	amod	_	JJ|00392812-a|Black=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	tan	tan	ADJ	JJ	_	2	conj	_	JJ|00384533-a|ColorAttribute+
+5	dog	dog	NOUN	NN	_	7	nsubj	_	NN|02084071-n|Canine+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+8	through	through	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	13	det	_	DT|?|?
+10	low	low	ADJ	JJ	_	13	amod	_	JJ|01212469-a|Motion+
+11	and	and	CONJ	CC	_	10	cc	_	CC|?|?
+12	green	green	ADJ	JJ	_	10	conj	_	JJ|00375969-a|Green=
+13	grass	grass	NOUN	NN	_	8	pobj	_	NN|12102133-n|Grass=
+14	.	.	.	.	_	7	punct	_	Fp|?|?

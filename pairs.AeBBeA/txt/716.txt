@@ -1,0 +1,34 @@
+sentence A = A few men in a competition are running outside.
+sentence B = A few men in a competition are running outdoors.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Hominid=,SocialRole+,Entity+,Attribute+
+CONCEPTS B: Hominid=,SocialRole+,Entity+,Attribute+,Outdoors+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	quantmod	_	DT|?|?
+2	few	few	ADJ	JJ	_	3	num	_	DT|?|?
+3	men	man	NOUN	NNS	_	8	nsubj	_	NNS|02472293-n|Hominid=
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	competition	competition	NOUN	NN	_	4	pobj	_	NN|10533013-n|SocialRole+
+7	are	be	VERB	VBP	_	8	aux	_	VBP|02604760-v|Entity+
+8	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+9	outside	outside	ADV	RB	_	8	advmod	_	IN|?|?
+10	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	quantmod	_	DT|?|?
+2	few	few	ADJ	JJ	_	3	num	_	DT|?|?
+3	men	man	NOUN	NNS	_	8	nsubj	_	NNS|02472293-n|Hominid=
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	competition	competition	NOUN	NN	_	4	pobj	_	NN|10533013-n|SocialRole+
+7	are	be	VERB	VBP	_	8	aux	_	VBP|02604760-v|Entity+
+8	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+9	outdoors	outdoors	ADV	RB	_	8	advmod	_	RB|00110659-r|Outdoors+
+10	.	.	.	.	_	8	punct	_	Fp|?|?

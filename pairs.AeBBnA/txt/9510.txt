@@ -1,0 +1,37 @@
+sentence A = A brown puppy is gnawing a wooden post that is stuck into the ground.
+sentence B = A brown puppy is biting a pole.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,SocialRole+,Entity+,Damaging+,SubjectiveAssessmentAttribute+,Position=,Entity+,Attaching+,LandArea=
+CONCEPTS B: Human+,SocialRole+,Entity+,SubjectiveStrongNegativeAttribute+,LengthMeasure@
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	puppy	puppy	NOUN	NN	_	5	nsubj	_	NN|10493835-n|SocialRole+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	gnawing	gnaw	VERB	VBG	_	0	ROOT	_	VBG|00275253-v|Damaging+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	wooden	wooden	ADJ	JJ	_	8	amod	_	JJ|01141595-a|SubjectiveAssessmentAttribute+
+8	post	post	NOUN	NN	_	5	dobj	_	NN|00586262-n|Position=
+9	that	that	DET	WDT	_	11	nsubjpass	_	WDT|?|?
+10	is	be	VERB	VBZ	_	11	auxpass	_	VBZ|02604760-v|Entity+
+11	stuck	stick	VERB	VBN	_	8	rcmod	_	VBN|01614581-v|Attaching+
+12	into	into	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	ground	ground	NOUN	NN	_	12	pobj	_	NN|09334396-n|LandArea=
+15	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	puppy	puppy	NOUN	NN	_	5	nsubj	_	NN|10493835-n|SocialRole+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	biting	bite	VERB	VBG	_	0	ROOT	_	VBG|02079313-a|SubjectiveStrongNegativeAttribute+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	pole	pole	NOUN	NN	_	5	dobj	_	NN|13650921-n|LengthMeasure@
+8	.	.	.	.	_	5	punct	_	Fp|?|?

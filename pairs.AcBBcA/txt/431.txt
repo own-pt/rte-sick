@@ -1,0 +1,35 @@
+sentence A = Two men are not holding fishing poles.
+sentence B = Two men are standing near the water and are holding fishing poles.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Hominid=,Entity+,not=,Keeping+,FishingSport=,LengthMeasure@
+CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,Water=,Entity+,Process+,FishingSport=,LengthMeasure@
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	5	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|02681795-v|Keeping+
+6	fishing	fishing	NOUN	NN	_	7	nn	_	NN|00453935-n|FishingSport=
+7	poles	pole	NOUN	NNS	_	5	dobj	_	NNS|13650921-n|LengthMeasure@
+8	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	near	near	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	water	water	NOUN	NN	_	5	pobj	_	NN|14845743-n|Water=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	are	be	VERB	VBP	_	10	aux	_	VBP|02604760-v|Entity+
+10	holding	hold	VERB	VBG	_	4	conj	_	VBG|01217043-v|Process+
+11	fishing	fishing	NOUN	NN	_	12	nn	_	NN|00453935-n|FishingSport=
+12	poles	pole	NOUN	NNS	_	10	dobj	_	NNS|13650921-n|LengthMeasure@
+13	.	.	.	.	_	4	punct	_	Fp|?|?

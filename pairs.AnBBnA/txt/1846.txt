@@ -1,0 +1,39 @@
+sentence A = The girl, who is little, is carefully combing her hair into a pony tail.
+sentence B = One man is sitting on the chair.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,SubjectiveStrongNegativeAttribute+,Entity+,SubjectiveAssessmentAttribute+,ShapeChange+,Hair=,Horse+,BodyPart+
+CONCEPTS B: Hominid=,PhysicalAttribute+,SittingDown+,Chair=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	10	nsubj	_	NN|10129825-n|Human+
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	_	6	nsubj	_	WP|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	little	little	ADJ	JJ	_	2	rcmod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+7	,	,	.	,	_	10	punct	_	Fc|?|?
+8	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+9	carefully	carefully	ADV	RB	_	10	advmod	_	RB|00153568-r|SubjectiveAssessmentAttribute+
+10	combing	comb	VERB	VBG	_	0	ROOT	_	VBG|01596645-v|ShapeChange+
+11	her	her	PRON	PRP$	_	12	poss	_	PRP$|?|?
+12	hair	hair	NOUN	NN	_	10	dobj	_	NN|05254795-n|Hair=
+13	into	into	ADP	IN	_	10	prep	_	IN|?|?
+14	a	a	DET	DT	_	16	det	_	DT|?|?
+15	pony	pony	NOUN	NN	_	16	nn	_	NN|02382437-n|Horse+
+16	tail	tail	NOUN	NN	_	13	pobj	_	NN|02157557-n|BodyPart+
+17	.	.	.	.	_	10	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	chair	chair	NOUN	NN	_	5	pobj	_	NN|03001627-n|Chair=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

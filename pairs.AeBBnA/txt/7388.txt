@@ -1,0 +1,33 @@
+sentence A = A child is playfully swimming underwater in a pool.
+sentence B = A child is swimming underwater in a pool.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanChild=,Entity+,SubjectiveAssessmentAttribute+,Swimming+,StaticWaterArea+
+CONCEPTS B: HumanChild=,Entity+,Swimming+,StaticWaterArea+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	6	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+4	playfully	playfully	ADV	RB	_	6	advmod	_	RB|00425582-r|SubjectiveAssessmentAttribute+
+5	swimming	swim	VERB	VBG	_	6	amod	_	VBG|01960911-v|Swimming+
+6	underwater	underwater	ADJ	JJ	_	0	ROOT	_	NN|?|?
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	pool	pool	NOUN	NN	_	7	pobj	_	NN|09397607-n|StaticWaterArea+
+10	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	swimming	swim	VERB	VBG	_	0	ROOT	_	VBG|01960911-v|Swimming+
+5	underwater	underwater	ADJ	JJ	_	4	advmod	_	NN|?|?
+6	in	in	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	pool	pool	NOUN	NN	_	6	pobj	_	NN|09397607-n|StaticWaterArea+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

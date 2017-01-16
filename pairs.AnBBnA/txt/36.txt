@@ -1,0 +1,41 @@
+sentence A = A man with a jersey is dunking the ball at a basketball game.
+sentence B = The player is missing the basket and a crowd is in background.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Man=,HoofedMammal+,Entity+,Wetting+,Ball=,Basketball=,Game=
+CONCEPTS B: Human+,Entity+,Process+,Container+,SubjectiveAssessmentAttribute=,Entity+,Region+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|10287213-n|Man=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	jersey	jersey	NOUN	NN	_	3	pobj	_	NN|08887238-n|HoofedMammal+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	dunking	dunk	VERB	VBG	_	0	ROOT	_	VBG|01577093-v|Wetting+
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	ball	ball	NOUN	NN	_	7	dobj	_	NN|02778669-n|Ball=
+10	at	at	ADP	IN	_	7	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	basketball	basketball	NOUN	NN	_	13	nn	_	NN|00480993-n|Basketball=
+13	game	game	NOUN	NN	_	10	pobj	_	NN|00455599-n|Game=
+14	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	player	player	NOUN	NN	_	4	nsubj	_	NN|10439851-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	missing	miss	VERB	VBG	_	0	ROOT	_	VBG|02632353-v|Process+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	basket	basket	NOUN	NN	_	4	dobj	_	NN|02801938-n|Container+
+7	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	crowd	crowd	NOUN	NN	_	10	nsubj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+10	is	be	VERB	VBZ	_	4	conj	_	VBZ|02604760-v|Entity+
+11	in	in	ADP	IN	_	10	prep	_	IN|?|?
+12	background	background	NOUN	NN	_	11	pobj	_	NN|14513259-n|Region+
+13	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,36 @@
+sentence A = A cyclist is performing a jump on a bicycle.
+sentence B = A bicyclist is performing a trick over wall full of graffiti.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,IntentionalProcess+,Transportation+,Bicycle=
+CONCEPTS B: Human+,Entity+,IntentionalProcess+,RecreationOrExercise+,Wall=,ContainerFull+,ArtWork+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cyclist	cyclist	NOUN	NN	_	4	nsubj	_	NN|09986189-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	jump	jump	NOUN	NN	_	4	dobj	_	NN|00303849-n|Transportation+
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	bicycle	bicycle	NOUN	NN	_	7	pobj	_	NN|02834778-n|Bicycle=
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	bicyclist	bicyclist	NOUN	NN	_	4	nsubj	_	NN|09986189-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	trick	trick	NOUN	NN	_	4	dobj	_	NN|00427580-n|RecreationOrExercise+
+7	over	over	ADP	IN	_	6	prep	_	IN|?|?
+8	wall	wall	NOUN	NN	_	7	pobj	_	NN|04546855-n|Wall=
+9	full	full	ADJ	JJ	_	6	amod	_	JJ|01083157-a|ContainerFull+
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	graffiti	graffito	NOUN	NN	_	10	pobj	_	NNS|03451798-n|ArtWork+
+12	.	.	.	.	_	4	punct	_	Fp|?|?

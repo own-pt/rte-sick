@@ -1,0 +1,42 @@
+sentence A = An old woman is carrying a lot of colorful scarves on the beach.
+sentence B = A young woman is carrying a lot of colorful scarves on the beach.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveAssessmentAttribute+,Woman=,Entity+,Transportation+,SubjectiveAssessmentAttribute+,ColorAttribute+,Clothing+,ShoreArea=
+CONCEPTS B: HumanYouth=,Woman=,Entity+,Transportation+,SubjectiveAssessmentAttribute+,ColorAttribute+,Clothing+,ShoreArea=
+
+CONLL A:
+
+1	An	a	DET	DT	_	3	det	_	DT|?|?
+2	old	old	ADJ	JJ	_	3	amod	_	JJ|01643620-a|SubjectiveAssessmentAttribute+
+3	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	carrying	carry	VERB	VBG	_	0	ROOT	_	VBG|01449974-v|Transportation+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	lot	lot	NOUN	NN	_	5	dobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	colorful	colorful	ADJ	JJ	_	10	amod	_	JJ|00394562-a|ColorAttribute+
+10	scarves	scarf	NOUN	NNS	_	8	pobj	_	NNS|04143897-n|Clothing+
+11	on	on	ADP	IN	_	5	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	beach	beach	NOUN	NN	_	11	pobj	_	NN|09217230-n|ShoreArea=
+14	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	carrying	carry	VERB	VBG	_	0	ROOT	_	VBG|01449974-v|Transportation+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	lot	lot	NOUN	NN	_	5	dobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	colorful	colorful	ADJ	JJ	_	10	amod	_	JJ|00394562-a|ColorAttribute+
+10	scarves	scarf	NOUN	NNS	_	8	pobj	_	NNS|04143897-n|Clothing+
+11	on	on	ADP	IN	_	5	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	beach	beach	NOUN	NN	_	11	pobj	_	NN|09217230-n|ShoreArea=
+14	.	.	.	.	_	5	punct	_	Fp|?|?

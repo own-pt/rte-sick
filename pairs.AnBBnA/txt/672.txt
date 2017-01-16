@@ -1,0 +1,32 @@
+sentence A = One man is doing a bicycle trick in midair.
+sentence B = The air is tricking a performing cyclist.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,IntentionalProcess+,Bicycle=,RecreationOrExercise+,Region+
+CONCEPTS B: AirTransportation+,Entity+,SubjectiveAssessmentAttribute+,IntentionalProcess+,Human+
+
+CONLL A:
+
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	bicycle	bicycle	NOUN	NN	_	7	nn	_	NN|02834778-n|Bicycle=
+7	trick	trick	NOUN	NN	_	4	dobj	_	NN|00427580-n|RecreationOrExercise+
+8	in	in	ADP	IN	_	4	prep	_	IN|?|?
+9	midair	midair	NOUN	NN	_	8	pobj	_	NN|08600147-n|Region+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	air	air	NOUN	NN	_	4	nsubj	_	NN|00300441-n|AirTransportation+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	tricking	trick	VERB	VBG	_	0	ROOT	_	VBG|02575723-v|SubjectiveAssessmentAttribute+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	performing	perform	VERB	VBG	_	7	amod	_	VBG|01712704-v|IntentionalProcess+
+7	cyclist	cyclist	NOUN	NN	_	4	dobj	_	NN|09986189-n|Human+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

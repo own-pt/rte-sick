@@ -1,0 +1,31 @@
+sentence A = Drinking milk helps a cat's hunger.
+sentence B = The cat is licking milk from a saucer.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Drinking+,Milk=,Helping=,Whip+,Hungry+
+CONCEPTS B: Whip+,Entity+,Licking+,Milk=,Circle+
+
+CONLL A:
+
+1	Drinking	drink	VERB	VBG	_	3	csubj	_	VBG|01171183-v|Drinking+
+2	milk	milk	NOUN	NN	_	1	dobj	_	NN|07844042-n|Milk=
+3	helps	help	VERB	VBZ	_	0	ROOT	_	VBZ|02547586-v|Helping=
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	cat	cat	NOUN	NN	_	7	poss	_	NN|02985606-n|Whip+
+6	's	's	PRT	POS	_	5	possessive	_	POS|?|?
+7	hunger	hunger	NOUN	NN	_	3	dobj	_	NN|14039534-n|Hungry+
+8	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	4	nsubj	_	NN|02985606-n|Whip+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	licking	lick	VERB	VBG	_	0	ROOT	_	VBG|01432176-v|Licking+
+5	milk	milk	NOUN	NN	_	4	dobj	_	NN|07844042-n|Milk=
+6	from	from	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	saucer	saucer	NOUN	NN	_	6	pobj	_	NN|13875185-n|Circle+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,32 @@
+sentence A = A person is sitting on a mountain top.
+sentence B = A person is standing on a mountain top.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human=,PhysicalAttribute+,SittingDown+,Mountain=,LandArea+
+CONCEPTS B: Human=,Entity+,PhysicalAttribute+,Mountain=,LandArea+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	mountain	mountain	NOUN	NN	_	8	nn	_	NN|09359803-n|Mountain=
+8	top	top	NOUN	NN	_	5	pobj	_	NN|08617963-n|LandArea+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	mountain	mountain	NOUN	NN	_	8	nn	_	NN|09359803-n|Mountain=
+8	top	top	NOUN	NN	_	5	pobj	_	NN|08617963-n|LandArea+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

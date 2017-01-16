@@ -1,0 +1,32 @@
+sentence A = A rabbit is playing with a stuffed bunny.
+sentence B = A bunny is playing with a stuffed bunny.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Rabbit=,Entity+,DramaticActing+,Motion+,Position+
+CONCEPTS B: Position+,Entity+,DramaticActing+,Motion+,Position+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	rabbit	rabbit	NOUN	NN	_	4	nsubj	_	NN|02324045-n|Rabbit=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	stuffed	stuff	VERB	VBN	_	8	amod	_	VBN|01524871-v|Motion+
+8	bunny	bunny	NOUN	NN	_	5	pobj	_	NN|09880189-n|Position+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	bunny	bunny	NOUN	NN	_	4	nsubj	_	NN|09880189-n|Position+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	stuffed	stuff	VERB	VBN	_	8	amod	_	VBN|01524871-v|Motion+
+8	bunny	bunny	NOUN	NN	_	5	pobj	_	NN|09880189-n|Position+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

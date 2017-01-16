@@ -1,0 +1,29 @@
+sentence A = A woman is putting on makeup.
+sentence B = There is no woman putting on makeup.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Woman=,Entity+,Putting=,Mixture+
+CONCEPTS B: Entity+,Woman=,Putting=,Mixture+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	putting	put	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+5	on	on	PRT	RP	_	4	prt	_	IN|?|?
+6	makeup	makeup	NOUN	NN	_	4	dobj	_	NN|03714235-n|Mixture+
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	woman	woman	NOUN	NN	_	2	nsubj	_	NN|10787470-n|Woman=
+5	putting	put	VERB	VBG	_	4	partmod	_	VBG|01494310-v|Putting=
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	makeup	makeup	NOUN	NN	_	6	pobj	_	NN|03714235-n|Mixture+
+8	.	.	.	.	_	2	punct	_	Fp|?|?

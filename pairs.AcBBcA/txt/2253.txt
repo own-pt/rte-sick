@@ -1,0 +1,30 @@
+sentence A = The man is eating cereal.
+sentence B = There is no man eating a bowl of cereal.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Hominid=,Entity+,Eating=,CerealGrain=
+CONCEPTS B: Entity+,Hominid=,Eating=,Dish+,CerealGrain=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01168468-v|Eating=
+5	cereal	cereal	NOUN	NN	_	4	dobj	_	NN|07802417-n|CerealGrain=
+6	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	eating	eat	VERB	VBG	_	4	partmod	_	VBG|01168468-v|Eating=
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	bowl	bowl	NOUN	NN	_	5	dobj	_	NN|02880940-n|Dish+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	cereal	cereal	NOUN	NN	_	8	pobj	_	NN|07802417-n|CerealGrain=
+10	.	.	.	.	_	2	punct	_	Fp|?|?

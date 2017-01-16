@@ -1,0 +1,30 @@
+sentence A = A man and a woman are silent.
+sentence B = A man and a woman are eating.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Man=,Woman=,Entity+,LinguisticCommunication[
+CONCEPTS B: Man=,Woman=,Entity+,Process+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|10287213-n|Man=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	woman	woman	NOUN	NN	_	2	conj	_	NN|10787470-n|Woman=
+6	are	be	VERB	VBP	_	7	cop	_	VBP|02604760-v|Entity+
+7	silent	silent	ADJ	JJ	_	0	ROOT	_	JJ|00942163-a|LinguisticCommunication[
+8	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|10287213-n|Man=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	woman	woman	NOUN	NN	_	2	conj	_	NN|10787470-n|Woman=
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+8	.	.	.	.	_	7	punct	_	Fp|?|?

@@ -1,0 +1,37 @@
+sentence A = A seated woman is singing a song and playing the guitar.
+sentence B = A woman on a rock is standing and looking around.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Communication+,Woman=,Entity+,MakingVocalMusic=,Song=,DramaticActing+,Guitar=
+CONCEPTS B: Woman=,Mineral+,Entity+,PhysicalAttribute+,SubjectiveAssessmentAttribute+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	seated	seat	ADJ	JJ	_	3	amod	_	VBN|01543998-v|Communication+
+3	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	song	song	NOUN	NN	_	5	dobj	_	NN|07048000-n|Song=
+8	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+9	playing	play	VERB	VBG	_	5	conj	_	VBG|01719302-v|DramaticActing+
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	guitar	guitar	NOUN	NN	_	9	dobj	_	NN|03467517-n|Guitar=
+12	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	7	nsubj	_	NN|10787470-n|Woman=
+3	on	on	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	rock	rock	NOUN	NN	_	3	pobj	_	NN|14696793-n|Mineral+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+8	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+9	looking	look	VERB	VBG	_	7	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+10	around	around	ADV	RB	_	9	advmod	_	RP|00007015-r|?
+11	.	.	.	.	_	7	punct	_	Fp|?|?

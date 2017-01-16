@@ -1,0 +1,33 @@
+sentence A = A lone biker is jumping in the air.
+sentence B = A biker is jumping in the air, alone.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: SocialInteraction[,Entity+,Ambulating=,AirTransportation+
+CONCEPTS B: Entity+,Ambulating=,AirTransportation+,SocialInteraction[
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	lone	lone	ADJ	JJ	_	3	amod	_	JJ|02251212-a|SocialInteraction[
+3	biker	biker	NOUN	NN	_	5	nsubj	_	NN|?|?
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	air	air	NOUN	NN	_	6	pobj	_	NN|00300441-n|AirTransportation+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	biker	biker	NOUN	NN	_	4	nsubj	_	NN|?|?
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	air	air	NOUN	NN	_	5	pobj	_	NN|00300441-n|AirTransportation+
+8	,	,	.	,	_	4	punct	_	Fc|?|?
+9	alone	alone	ADV	RB	_	4	advmod	_	RB|00157967-r|SocialInteraction[
+10	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,43 @@
+sentence A = The football is between the feet of a boy who is lying on the grass.
+sentence B = The little kid is playing football and falling harmlessly into the grass.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Football+,Entity+,Foot+,Human+,Entity+,PhysicalAttribute+,Grass=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,DramaticActing+,Football+,Getting+,Damaging[,Grass=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	football	football	NOUN	NN	_	3	nsubj	_	NN|00468480-n|Football+
+3	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+4	between	between	ADP	IN	_	3	prep	_	IN|?|?
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	feet	foot	NOUN	NNS	_	4	pobj	_	NNS|05563266-n|Foot+
+7	of	of	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	boy	boy	NOUN	NN	_	7	pobj	_	NN|10285313-n|Human+
+10	who	who	PRON	WP	_	12	nsubj	_	WP|?|?
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	lying	lie	VERB	VBG	_	9	rcmod	_	VBG|02690708-v|PhysicalAttribute+
+13	on	on	ADP	IN	_	12	prep	_	IN|?|?
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	grass	grass	NOUN	NN	_	13	pobj	_	NN|12102133-n|Grass=
+16	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	kid	kid	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	football	football	NOUN	NN	_	5	dobj	_	NN|00468480-n|Football+
+7	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+8	falling	fall	VERB	VBG	_	5	conj	_	VBG|02229828-v|Getting+
+9	harmlessly	harmlessly	ADV	RB	_	8	advmod	_	RB|00310036-r|Damaging[
+10	into	into	ADP	IN	_	8	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	grass	grass	NOUN	NN	_	10	pobj	_	NN|12102133-n|Grass=
+13	.	.	.	.	_	5	punct	_	Fp|?|?

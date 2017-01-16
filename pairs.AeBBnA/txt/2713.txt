@@ -1,0 +1,33 @@
+sentence A = The man is clumsily kick boxing with a trainer.
+sentence B = The man is kick boxing with a trainer.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,SubjectiveAssessmentAttribute+,Expressing+,ViolentContest+,Device+
+CONCEPTS B: Hominid=,Entity+,Expressing+,ViolentContest+,Device+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	clumsily	clumsily	ADV	RB	_	5	advmod	_	RB|00190359-r|SubjectiveAssessmentAttribute+
+5	kick	kick	VERB	VB	_	0	ROOT	_	VBP|00907147-v|Expressing+
+6	boxing	box	NOUN	NN	_	5	dobj	_	VBG|01419982-v|ViolentContest+
+7	with	with	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	trainer	trainer	NOUN	NN	_	7	pobj	_	NN|03363363-n|Device+
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	3	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+4	kick	kick	VERB	VB	_	3	ccomp	_	VBP|00907147-v|Expressing+
+5	boxing	box	VERB	VBG	_	4	dobj	_	VBG|01419982-v|ViolentContest+
+6	with	with	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	trainer	trainer	NOUN	NN	_	6	pobj	_	NN|03363363-n|Device+
+9	.	.	.	.	_	3	punct	_	Fp|?|?

@@ -1,0 +1,45 @@
+sentence A = A young oriental girl is standing above the crowd and is playing with a pinwheel.
+sentence B = A young oriental girl is standing above people and is playing with a pinwheel.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,Asia+,Human+,Entity+,PhysicalAttribute+,SubjectiveAssessmentAttribute=,Entity+,DramaticActing+,FloweringPlant+
+CONCEPTS B: HumanYouth=,Asia+,Human+,Entity+,PhysicalAttribute+,GroupOfPeople=,Entity+,DramaticActing+,FloweringPlant+
+
+CONLL A:
+
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	4	amod	_	JJ|01646941-a|HumanYouth=
+3	oriental	oriental	ADJ	JJ	_	4	amod	_	JJ|00825807-a|Asia+
+4	girl	girl	NOUN	NN	_	6	nsubj	_	NN|10129825-n|Human+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+7	above	above	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	crowd	crowd	NOUN	NN	_	7	pobj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+10	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	playing	play	VERB	VBG	_	6	conj	_	VBG|01719302-v|DramaticActing+
+13	with	with	ADP	IN	_	12	prep	_	IN|?|?
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	pinwheel	pinwheel	NOUN	NN	_	13	pobj	_	NN|12786836-n|FloweringPlant+
+16	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	4	amod	_	JJ|01646941-a|HumanYouth=
+3	oriental	oriental	ADJ	JJ	_	4	amod	_	JJ|00825807-a|Asia+
+4	girl	girl	NOUN	NN	_	6	nsubj	_	NN|10129825-n|Human+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+7	above	above	ADP	IN	_	6	prep	_	IN|?|?
+8	people	people	NOUN	NNS	_	7	pobj	_	NNS|07942152-n|GroupOfPeople=
+9	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	playing	play	VERB	VBG	_	6	conj	_	VBG|01719302-v|DramaticActing+
+12	with	with	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	pinwheel	pinwheel	NOUN	NN	_	12	pobj	_	NN|12786836-n|FloweringPlant+
+15	.	.	.	.	_	6	punct	_	Fp|?|?

@@ -1,0 +1,40 @@
+sentence A = A child is holding a camera in front of his face.
+sentence B = A camera is being held in front of the face of a child.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanChild=,Entity+,Process+,Camera=,FrontFn=,Face+
+CONCEPTS B: Camera=,Entity+,Entity+,Process+,FrontFn=,Face+,HumanChild=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|01217043-v|Process+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	camera	camera	NOUN	NN	_	4	dobj	_	NN|02942699-n|Camera=
+7	in	in	ADP	IN	_	4	prep	_	IN|?|?
+8	front	front	NOUN	NN	_	7	pobj	_	NN|08573472-n|FrontFn=
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	his	his	PRON	PRP$	_	11	poss	_	PRP$|?|?
+11	face	face	NOUN	NN	_	9	pobj	_	NN|05600637-n|Face+
+12	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	camera	camera	NOUN	NN	_	5	nsubjpass	_	NN|02942699-n|Camera=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	held	hold	VERB	VBN	_	0	ROOT	_	VBN|01217043-v|Process+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	front	front	NOUN	NN	_	6	pobj	_	NN|08573472-n|FrontFn=
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	face	face	NOUN	NN	_	8	pobj	_	NN|05600637-n|Face+
+11	of	of	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	child	child	NOUN	NN	_	11	pobj	_	NN|09917593-n|HumanChild=
+14	.	.	.	.	_	5	punct	_	Fp|?|?

@@ -1,0 +1,32 @@
+sentence A = A monkey is pulling a dog's tail.
+sentence B = A dog is pulling a monkey's tail.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Transportation+,Canine+,BodyPart+
+CONCEPTS B: Canine+,Entity+,Transportation+,Human+,BodyPart+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	monkey	monkey	NOUN	NN	_	4	nsubj	_	NN|10200047-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	pulling	pull	VERB	VBG	_	0	ROOT	_	VBG|02057499-v|Transportation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	dog	dog	NOUN	NN	_	8	poss	_	NN|02084071-n|Canine+
+7	's	's	PRT	POS	_	6	possessive	_	POS|?|?
+8	tail	tail	NOUN	NN	_	4	dobj	_	NN|02157557-n|BodyPart+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	pulling	pull	VERB	VBG	_	0	ROOT	_	VBG|02057499-v|Transportation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	monkey	monkey	NOUN	NN	_	8	poss	_	NN|10200047-n|Human+
+7	's	's	PRT	POS	_	6	possessive	_	POS|?|?
+8	tail	tail	NOUN	NN	_	4	dobj	_	NN|02157557-n|BodyPart+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

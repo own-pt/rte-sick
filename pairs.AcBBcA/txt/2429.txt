@@ -1,0 +1,31 @@
+sentence A = There is no man running down the road.
+sentence B = A man is running down the road.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Hominid=,Attribute+,earlier+,Roadway+
+CONCEPTS B: Hominid=,Entity+,Attribute+,earlier+,Roadway+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	running	run	VERB	VBG	_	4	partmod	_	VBG|01525666-v|Attribute+
+6	down	down	ADP	IN	_	5	prep	_	RP|00096089-r|earlier+
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	road	road	NOUN	NN	_	6	pobj	_	NN|04096066-n|Roadway+
+9	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	down	down	ADP	IN	_	4	prep	_	RP|00096089-r|earlier+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	road	road	NOUN	NN	_	5	pobj	_	NN|04096066-n|Roadway+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,36 @@
+sentence A = Two dogs and two people are sitting in the woods.
+sentence B = Two dogs and two people are walking in the woods.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Canine+,GroupOfPeople=,PhysicalAttribute+,SittingDown+,Wood=
+CONCEPTS B: Canine+,GroupOfPeople=,Entity+,Walking=,Wood=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	7	nsubj	_	NNS|02084071-n|Canine+
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	two	2	NUM	CD	_	5	num	_	Z|?|?
+5	people	people	NOUN	NNS	_	2	conj	_	NNS|07942152-n|GroupOfPeople=
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02655135-v|PhysicalAttribute+
+7	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	woods	wood	NOUN	NNS	_	8	pobj	_	NNS|15098161-n|Wood=
+11	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	7	nsubj	_	NNS|02084071-n|Canine+
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	two	2	NUM	CD	_	5	num	_	Z|?|?
+5	people	people	NOUN	NNS	_	2	conj	_	NNS|07942152-n|GroupOfPeople=
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	woods	wood	NOUN	NNS	_	8	pobj	_	NNS|15098161-n|Wood=
+11	.	.	.	.	_	7	punct	_	Fp|?|?

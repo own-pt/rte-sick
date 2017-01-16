@@ -1,0 +1,49 @@
+sentence A = Two young boys are looking up at the camera and one is sticking out his tongue.
+sentence B = The little boy is sticking his tongue out for the camera and another boy is looking on.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,Human+,Entity+,SubjectiveAssessmentAttribute+,Increasing+,Camera=,Entity+,Attaching+,Giving+,Tongue=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Attaching+,Tongue=,Giving+,Camera=,Human+,Entity+,SubjectiveAssessmentAttribute+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	boys	boy	NOUN	NNS	_	5	nsubj	_	NNS|10285313-n|Human+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+6	up	up	PRT	RP	_	5	prt	_	RP|00097011-r|Increasing+
+7	at	at	ADP	IN	_	5	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	camera	camera	NOUN	NN	_	7	pobj	_	NN|02942699-n|Camera=
+10	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+11	one	one	NUM	CD	_	13	nsubj	_	PRP|?|?
+12	is	be	VERB	VBZ	_	13	aux	_	VBZ|02604760-v|Entity+
+13	sticking	stick	VERB	VBG	_	5	conj	_	VBG|01614581-v|Attaching+
+14	out	out	PRT	RP	_	13	prt	_	RP|00233413-r|Giving+
+15	his	his	PRON	PRP$	_	16	poss	_	PRP$|?|?
+16	tongue	tongue	NOUN	NN	_	13	dobj	_	NN|05301072-n|Tongue=
+17	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	boy	boy	NOUN	NN	_	5	nsubj	_	NN|10285313-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	sticking	stick	VERB	VBG	_	0	ROOT	_	VBG|01614581-v|Attaching+
+6	his	his	PRON	PRP$	_	7	poss	_	PRP$|?|?
+7	tongue	tongue	NOUN	NN	_	5	dobj	_	NN|05301072-n|Tongue=
+8	out	out	PRT	RP	_	5	prt	_	RP|00233413-r|Giving+
+9	for	for	ADP	IN	_	5	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	camera	camera	NOUN	NN	_	9	pobj	_	NN|02942699-n|Camera=
+12	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+13	another	another	DET	DT	_	14	det	_	DT|?|?
+14	boy	boy	NOUN	NN	_	16	nsubj	_	NN|10285313-n|Human+
+15	is	be	VERB	VBZ	_	16	aux	_	VBZ|02604760-v|Entity+
+16	looking	look	VERB	VBG	_	5	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+17	on	on	PRT	RP	_	16	prt	_	IN|?|?
+18	.	.	.	.	_	5	punct	_	Fp|?|?

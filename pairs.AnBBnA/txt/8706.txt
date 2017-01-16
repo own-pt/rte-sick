@@ -1,0 +1,44 @@
+sentence A = A shirtless man is posing with a girl who is hiking in a park.
+sentence B = A shirtless woman is posing with a girl who is hiking in a park.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Man=,Entity+,Putting=,Human+,Entity+,Walking+,Park+
+CONCEPTS B: Woman=,Entity+,Putting=,Human+,Entity+,Walking+,Park+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	shirtless	shirtless	NOUN	NN	_	3	nn	_	JJ|?|?
+3	man	man	NOUN	NN	_	5	nsubj	_	NN|10287213-n|Man=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	posing	pose	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	girl	girl	NOUN	NN	_	6	pobj	_	NN|10129825-n|Human+
+9	who	who	PRON	WP	_	11	nsubj	_	WP|?|?
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	hiking	hike	VERB	VBG	_	8	rcmod	_	VBG|01920932-v|Walking+
+12	in	in	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	park	park	NOUN	NN	_	12	pobj	_	NN|08615374-n|Park+
+15	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	shirtless	shirtless	ADJ	JJ	_	3	amod	_	JJ|?|?
+3	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	posing	pose	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	girl	girl	NOUN	NN	_	6	pobj	_	NN|10129825-n|Human+
+9	who	who	PRON	WP	_	11	nsubj	_	WP|?|?
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	hiking	hike	VERB	VBG	_	8	rcmod	_	VBG|01920932-v|Walking+
+12	in	in	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	park	park	NOUN	NN	_	12	pobj	_	NN|08615374-n|Park+
+15	.	.	.	.	_	5	punct	_	Fp|?|?

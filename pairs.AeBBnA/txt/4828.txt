@@ -1,0 +1,30 @@
+sentence A = A man is cutting a potato into pieces.
+sentence B = A man is cutting a potato.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GamePiece+,Entity+,Cutting+,PotatoTuber=,GamePiece+
+CONCEPTS B: Hominid=,Entity+,Decreasing+,PotatoTuber=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|03716327-n|GamePiece+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|01552519-v|Cutting+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	potato	potato	NOUN	NN	_	4	dobj	_	NN|07710616-n|PotatoTuber=
+7	into	into	ADP	IN	_	4	prep	_	IN|?|?
+8	pieces	piece	NOUN	NNS	_	7	pobj	_	NNS|03716327-n|GamePiece+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|00429060-v|Decreasing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	potato	potato	NOUN	NN	_	4	dobj	_	NN|07710616-n|PotatoTuber=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

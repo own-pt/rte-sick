@@ -1,0 +1,30 @@
+sentence A = Three women are sitting in a village.
+sentence B = Three women are running in a village.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,PhysicalAttribute+,SittingDown+,City+
+CONCEPTS B: Woman=,Entity+,Attribute+,City+
+
+CONLL A:
+
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	women	woman	NOUN	NNS	_	4	nsubj	_	NNS|10787470-n|Woman=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	village	village	NOUN	NN	_	5	pobj	_	NN|08226699-n|City+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	women	woman	NOUN	NNS	_	4	nsubj	_	NNS|10787470-n|Woman=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	village	village	NOUN	NN	_	5	pobj	_	NN|08226699-n|City+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

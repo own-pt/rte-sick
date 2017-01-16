@@ -1,0 +1,39 @@
+sentence A = A man is severing the toe of an empty leather boot with a sword.
+sentence B = A man is cutting a boot with a sword.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Cutting+,Toe=,ContainerEmpty+,Leather=,Shoe=,Sword+
+CONCEPTS B: Hominid=,Entity+,Cutting+,Shoe=,Sword+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	severing	sever	VERB	VBG	_	0	ROOT	_	VBG|01560731-v|Cutting+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	toe	toe	NOUN	NN	_	4	dobj	_	NN|05577410-n|Toe=
+7	of	of	ADP	IN	_	6	prep	_	IN|?|?
+8	an	a	DET	DT	_	11	det	_	DT|?|?
+9	empty	empty	ADJ	JJ	_	11	amod	_	JJ|01086545-a|ContainerEmpty+
+10	leather	leather	NOUN	NN	_	11	nn	_	NN|14759722-n|Leather=
+11	boot	boot	NOUN	NN	_	7	pobj	_	NN|02872752-n|Shoe=
+12	with	with	ADP	IN	_	4	prep	_	IN|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	sword	sword	NOUN	NN	_	12	pobj	_	NN|04373894-n|Sword+
+15	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|01552519-v|Cutting+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	boot	boot	NOUN	NN	_	4	dobj	_	NN|02872752-n|Shoe=
+7	with	with	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	sword	sword	NOUN	NN	_	7	pobj	_	NN|04373894-n|Sword+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

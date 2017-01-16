@@ -1,0 +1,31 @@
+sentence A = A band is not performing on a stage.
+sentence B = A band is performing on a stage.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: MusicalGroup+,Entity+,not=,IntentionalProcess+,Attribute+
+CONCEPTS B: MusicalGroup+,Entity+,IntentionalProcess+,Attribute+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	band	band	NOUN	NN	_	5	nsubj	_	NN|08249038-n|MusicalGroup+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	stage	stage	NOUN	NN	_	6	pobj	_	NN|13939892-n|Attribute+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	band	band	NOUN	NN	_	4	nsubj	_	NN|08249038-n|MusicalGroup+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	stage	stage	NOUN	NN	_	5	pobj	_	NN|13939892-n|Attribute+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

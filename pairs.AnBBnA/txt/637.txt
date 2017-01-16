@@ -1,0 +1,42 @@
+sentence A = A father is in the swimming pool during his daughters launch.
+sentence B = The man is tossing a kid into the swimming pool that is near the ocean.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SocialRole+,Entity+,Swimming+,StaticWaterArea+,BiologicalAttribute+,Impelling+
+CONCEPTS B: Hominid=,Entity+,Removing+,HumanChild=,Swimming+,StaticWaterArea+,Entity+,Ocean=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	father	father	NOUN	NN	_	3	nsubj	_	NN|10107303-n|SocialRole+
+3	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	the	the	DET	DT	_	7	det	_	DT|?|?
+6	swimming	swim	NOUN	NN	_	7	nn	_	VBG|01960911-v|Swimming+
+7	pool	pool	NOUN	NN	_	4	pobj	_	NN|09397607-n|StaticWaterArea+
+8	during	during	ADP	IN	_	7	prep	_	IN|?|?
+9	his	his	PRON	PRP$	_	11	poss	_	PRP$|?|?
+10	daughters	daughter	NOUN	NNS	_	11	nn	_	NNS|09992837-n|BiologicalAttribute+
+11	launch	launch	NOUN	NN	_	8	pobj	_	NN|00103140-n|Impelling+
+12	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	tossing	toss	VERB	VBG	_	0	ROOT	_	VBG|02222318-v|Removing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	kid	kid	NOUN	NN	_	4	dobj	_	NN|09917593-n|HumanChild=
+7	into	into	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	10	det	_	DT|?|?
+9	swimming	swim	NOUN	NN	_	10	nn	_	VBG|01960911-v|Swimming+
+10	pool	pool	NOUN	NN	_	7	pobj	_	NN|09397607-n|StaticWaterArea+
+11	that	that	DET	WDT	_	12	nsubj	_	WDT|?|?
+12	is	be	VERB	VBZ	_	10	rcmod	_	VBZ|02604760-v|Entity+
+13	near	near	ADP	IN	_	12	prep	_	IN|?|?
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	ocean	ocean	NOUN	NN	_	13	pobj	_	NN|09376198-n|Ocean=
+16	.	.	.	.	_	4	punct	_	Fp|?|?

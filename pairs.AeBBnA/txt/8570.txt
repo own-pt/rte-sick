@@ -1,0 +1,50 @@
+sentence A = A large dog and a small dog are standing next to the kitchen counter and are sniffing.
+sentence B = A large dog and a small dog are standing next to the kitchen counter and are investigating.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Canine+,SubjectiveStrongNegativeAttribute+,Canine+,Entity+,PhysicalAttribute+,Position+,Kitchen=,Table+,Entity+,Smelling+
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Canine+,SubjectiveStrongNegativeAttribute+,Canine+,Entity+,PhysicalAttribute+,Position+,Kitchen=,Table+,Entity+,Investigating+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	dog	dog	NOUN	NN	_	9	nsubj	_	NN|02084071-n|Canine+
+4	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	small	small	ADJ	JJ	_	7	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+7	dog	dog	NOUN	NN	_	3	conj	_	NN|02084071-n|Canine+
+8	are	be	VERB	VBP	_	9	aux	_	VBP|02604760-v|Entity+
+9	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+10	next	next	ADV	RB	_	9	advmod	_	JJ|01294975-a|Position+
+11	to	to	ADP	IN	_	10	prep	_	TO|?|?
+12	the	the	DET	DT	_	14	det	_	DT|?|?
+13	kitchen	kitchen	NOUN	NN	_	14	nn	_	NN|03619890-n|Kitchen=
+14	counter	counter	NOUN	NN	_	11	pobj	_	NN|03116530-n|Table+
+15	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+16	are	be	VERB	VBP	_	17	aux	_	VBP|02604760-v|Entity+
+17	sniffing	sniff	VERB	VBG	_	9	conj	_	VBG|02125032-v|Smelling+
+18	.	.	.	.	_	9	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	dog	dog	NOUN	NN	_	9	nsubj	_	NN|02084071-n|Canine+
+4	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	small	small	ADJ	JJ	_	7	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+7	dog	dog	NOUN	NN	_	3	conj	_	NN|02084071-n|Canine+
+8	are	be	VERB	VBP	_	9	aux	_	VBP|02604760-v|Entity+
+9	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+10	next	next	ADV	RB	_	9	advmod	_	JJ|01294975-a|Position+
+11	to	to	ADP	IN	_	10	prep	_	TO|?|?
+12	the	the	DET	DT	_	14	det	_	DT|?|?
+13	kitchen	kitchen	NOUN	NN	_	14	nn	_	NN|03619890-n|Kitchen=
+14	counter	counter	NOUN	NN	_	11	pobj	_	NN|03116530-n|Table+
+15	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+16	are	be	VERB	VBP	_	17	aux	_	VBP|02604760-v|Entity+
+17	investigating	investigate	VERB	VBG	_	9	conj	_	VBG|00785962-v|Investigating+
+18	.	.	.	.	_	9	punct	_	Fp|?|?

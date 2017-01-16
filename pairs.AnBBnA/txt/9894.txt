@@ -1,0 +1,42 @@
+sentence A = People are sitting against a wall.
+sentence B = A woman is wearing a blue shirt with a white vest and a white cap and is talking and marching.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GroupOfPeople=,PhysicalAttribute+,SittingDown+,Wall=
+CONCEPTS B: Woman=,Entity+,Putting+,SubjectiveStrongNegativeAttribute+,Shirt=,White=,Clothing+,White=,Device+,Entity+,Speaking+,Walking+
+
+CONLL A:
+
+1	People	people	NOUN	NNS	_	3	nsubj	_	NNS|07942152-n|GroupOfPeople=
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02655135-v|PhysicalAttribute+
+3	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+4	against	against	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	wall	wall	NOUN	NN	_	4	pobj	_	NN|04546855-n|Wall=
+7	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	blue	blue	ADJ	JJ	_	7	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+7	shirt	shirt	NOUN	NN	_	4	dobj	_	NN|04197391-n|Shirt=
+8	with	with	ADP	IN	_	4	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	white	white	ADJ	JJ	_	11	amod	_	JJ|00393105-a|White=
+11	vest	vest	NOUN	NN	_	8	pobj	_	NN|04531873-n|Clothing+
+12	and	and	CONJ	CC	_	11	cc	_	CC|?|?
+13	a	a	DET	DT	_	15	det	_	DT|?|?
+14	white	white	ADJ	JJ	_	15	amod	_	JJ|00393105-a|White=
+15	cap	cap	NOUN	NN	_	11	conj	_	NN|02954938-n|Device+
+16	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+17	is	be	VERB	VBZ	_	18	aux	_	VBZ|02604760-v|Entity+
+18	talking	talk	VERB	VBG	_	4	conj	_	VBG|00941990-v|Speaking+
+19	and	and	CONJ	CC	_	18	cc	_	CC|?|?
+20	marching	march	VERB	VBG	_	18	conj	_	VBG|01919391-v|Walking+
+21	.	.	.	.	_	4	punct	_	Fp|?|?

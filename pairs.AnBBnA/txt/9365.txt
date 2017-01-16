@@ -1,0 +1,34 @@
+sentence A = A surfer in a black wetsuit is riding a foamy wave.
+sentence B = A surfer is surfing a huge wave.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Black=,Entity+,Carrying=,Beverage+,WaterWave+
+CONCEPTS B: Human+,Entity+,Transportation+,SubjectiveWeakNegativeAttribute+,WaterWave+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	surfer	surfer	NOUN	NN	_	8	nsubj	_	NN|10679054-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	black	black	ADJ	JJ	_	6	amod	_	JJ|00392812-a|Black=
+6	wetsuit	wetsuit	NOUN	NN	_	3	pobj	_	NN|?|?
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	foamy	foamy	ADJ	JJ	_	11	amod	_	JJ|02276305-a|Beverage+
+11	wave	wave	NOUN	NN	_	8	dobj	_	NN|07352190-n|WaterWave+
+12	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	surfer	surfer	NOUN	NN	_	4	nsubj	_	NN|10679054-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	surfing	surf	VERB	VBG	_	0	ROOT	_	VBG|01948077-v|Transportation+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	huge	huge	ADJ	JJ	_	7	amod	_	JJ|01387319-a|SubjectiveWeakNegativeAttribute+
+7	wave	wave	NOUN	NN	_	4	dobj	_	NN|07352190-n|WaterWave+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

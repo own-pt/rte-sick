@@ -1,0 +1,35 @@
+sentence A = Children are playing in a fountain that is spraying water from the ground.
+sentence B = Children are playing in ground fountains.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanChild=,Entity+,DramaticActing+,Creek+,Entity+,Spraying=,Water=,LandArea=
+CONCEPTS B: HumanChild=,Entity+,DramaticActing+,LandArea=,Creek+
+
+CONLL A:
+
+1	Children	child	NOUN	NNS	_	3	nsubj	_	NNS|09917593-n|HumanChild=
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	fountain	fountain	NOUN	NN	_	4	pobj	_	NN|09443453-n|Creek+
+7	that	that	DET	WDT	_	9	nsubj	_	WDT|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	spraying	spray	VERB	VBG	_	6	rcmod	_	VBG|01372682-v|Spraying=
+10	water	water	NOUN	NN	_	9	dobj	_	NN|14845743-n|Water=
+11	from	from	ADP	IN	_	9	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	ground	ground	NOUN	NN	_	11	pobj	_	NN|09334396-n|LandArea=
+14	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Children	child	NOUN	NNS	_	3	nsubj	_	NNS|09917593-n|HumanChild=
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	ground	ground	NOUN	NN	_	6	nn	_	NN|09334396-n|LandArea=
+6	fountains	fountain	NOUN	NNS	_	4	pobj	_	NNS|09443453-n|Creek+
+7	.	.	.	.	_	3	punct	_	Fp|?|?

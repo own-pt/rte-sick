@@ -1,0 +1,33 @@
+sentence A = A nearby throng of people are kissing two by two.
+sentence B = Two people are kissing near a crowd.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Near+,GroupOfPeople+,GroupOfPeople=,Entity+,Kissing+
+CONCEPTS B: GroupOfPeople=,Entity+,Kissing+,SubjectiveAssessmentAttribute=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	nearby	nearby	ADJ	JJ	_	3	amod	_	JJ|00445169-a|Near+
+3	throng	throng	NOUN	NN	_	7	nsubj	_	NN|08182716-n|GroupOfPeople+
+4	of	of	ADP	IN	_	3	prep	_	IN|?|?
+5	people	people	NOUN	NNS	_	4	pobj	_	NNS|07942152-n|GroupOfPeople=
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	kissing	kiss	VERB	VBG	_	0	ROOT	_	VBG|01431230-v|Kissing+
+8	two	2	NUM	CD	_	7	dobj	_	Z|?|?
+9	by	by	ADP	IN	_	8	prep	_	IN|?|?
+10	two	2	NUM	CD	_	9	pobj	_	Z|?|?
+11	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	kissing	kiss	VERB	VBG	_	0	ROOT	_	VBG|01431230-v|Kissing+
+5	near	near	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	crowd	crowd	NOUN	NN	_	5	pobj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

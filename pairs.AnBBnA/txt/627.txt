@@ -1,0 +1,37 @@
+sentence A = A father is launching the daughter in a swimming pool.
+sentence B = A father is taking away his daughter from a swimming pool.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SocialRole+,Entity+,Impelling+,BiologicalAttribute+,Swimming+,StaticWaterArea+
+CONCEPTS B: SocialRole+,Entity+,PhysicalAttribute+,BiologicalAttribute+,Swimming+,StaticWaterArea+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	father	father	NOUN	NN	_	4	nsubj	_	NN|10107303-n|SocialRole+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	launching	launch	VERB	VBG	_	0	ROOT	_	VBG|01515196-v|Impelling+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	daughter	daughter	NOUN	NN	_	4	dobj	_	NN|09992837-n|BiologicalAttribute+
+7	in	in	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	swimming	swim	NOUN	NN	_	10	nn	_	VBG|01960911-v|Swimming+
+10	pool	pool	NOUN	NN	_	7	pobj	_	NN|09397607-n|StaticWaterArea+
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	father	father	NOUN	NN	_	4	nsubj	_	NN|10107303-n|SocialRole+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	taking	take	VERB	VBG	_	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
+5	away	away	PRT	RP	_	4	prt	_	RP|00234951-r|?
+6	his	his	PRON	PRP$	_	7	poss	_	PRP$|?|?
+7	daughter	daughter	NOUN	NN	_	4	dobj	_	NN|09992837-n|BiologicalAttribute+
+8	from	from	ADP	IN	_	4	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	swimming	swim	NOUN	NN	_	11	nn	_	VBG|01960911-v|Swimming+
+11	pool	pool	NOUN	NN	_	8	pobj	_	NN|09397607-n|StaticWaterArea+
+12	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,30 @@
+sentence A = Two men are standing in deep water.
+sentence B = Two men are walking through the water.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,PhysicalAttribute+,PositionalAttribute+,Water=
+CONCEPTS B: Hominid=,Entity+,Walking=,Water=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	deep	deep	ADJ	JJ	_	7	amod	_	JJ|00445937-a|PositionalAttribute+
+7	water	water	NOUN	NN	_	5	pobj	_	NN|14845743-n|Water=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+5	through	through	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	water	water	NOUN	NN	_	5	pobj	_	NN|14845743-n|Water=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

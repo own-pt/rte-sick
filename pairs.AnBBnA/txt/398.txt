@@ -1,0 +1,43 @@
+sentence A = A man is sitting near a bike and is writing a note.
+sentence B = A man with paint covered clothes is sitting outside in a busy area writing something.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,PhysicalAttribute+,SittingDown+,Bicycle=,PhysicalAttribute+,WrittenCommunication=,FactualText=
+CONCEPTS B: Man=,Painting=,Covering+,Clothing+,PhysicalAttribute+,SittingDown+,SubjectiveWeakNegativeAttribute+,GeographicArea+,WrittenCommunication=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	near	near	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	bike	bike	NOUN	NN	_	5	pobj	_	NN|02834778-n|Bicycle=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02655135-v|PhysicalAttribute+
+10	writing	write	VERB	VBG	_	4	conj	_	VBG|00993014-v|WrittenCommunication=
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	note	note	NOUN	NN	_	10	dobj	_	NN|06504462-n|FactualText=
+13	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	paint	paint	NOUN	NN	_	5	dep	_	VBP|01362736-v|Painting=
+5	covered	cover	VERB	VBN	_	6	amod	_	VBN|01332730-v|Covering+
+6	clothes	clothes	NOUN	NNS	_	3	pobj	_	NNS|02728440-n|Clothing+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02655135-v|PhysicalAttribute+
+8	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+9	outside	outside	ADV	RB	_	8	advmod	_	IN|?|?
+10	in	in	ADP	IN	_	8	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	busy	busy	ADJ	JJ	_	13	amod	_	JJ|00292937-a|SubjectiveWeakNegativeAttribute+
+13	area	area	NOUN	NN	_	10	pobj	_	NN|08497294-n|GeographicArea+
+14	writing	write	VERB	VBG	_	13	partmod	_	VBG|00993014-v|WrittenCommunication=
+15	something	something	NOUN	NN	_	14	dobj	_	PRP|?|?
+16	.	.	.	.	_	8	punct	_	Fp|?|?

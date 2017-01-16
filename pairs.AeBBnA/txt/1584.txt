@@ -1,0 +1,31 @@
+sentence A = A hole is being burrowed by the badger.
+sentence B = A badger is shrewdly digging the earth.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hole=,Entity+,Entity+,Translocation+,Carnivore+
+CONCEPTS B: Carnivore+,Entity+,SubjectiveAssessmentAttribute+,Making+,PlanetEarth=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	hole	hole	NOUN	NN	_	5	nsubjpass	_	NN|03526198-n|Hole=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	burrowed	burrow	VERB	VBN	_	0	ROOT	_	VBN|02042067-v|Translocation+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	badger	badger	NOUN	NN	_	6	pobj	_	NN|02447366-n|Carnivore+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	badger	badger	NOUN	NN	_	5	nsubj	_	NN|02447366-n|Carnivore+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	shrewdly	shrewdly	ADV	RB	_	5	advmod	_	RB|00272587-r|SubjectiveAssessmentAttribute+
+5	digging	dig	VERB	VBG	_	0	ROOT	_	VBG|01309701-v|Making+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	earth	earth	NOUN	NN	_	5	dobj	_	NN|09270894-n|PlanetEarth=
+8	.	.	.	.	_	5	punct	_	Fp|?|?

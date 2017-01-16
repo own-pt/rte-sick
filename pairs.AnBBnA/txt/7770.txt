@@ -1,0 +1,30 @@
+sentence A = The big surfer is riding and waving.
+sentence B = The surfer is riding a big wave.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Human+,Entity+,Carrying=,Rotating+
+CONCEPTS B: Human+,Entity+,Carrying=,SubjectiveWeakPositiveAttribute+,WaterWave+
+
+CONLL A:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	big	big	ADJ	JJ	_	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	surfer	surfer	NOUN	NN	_	5	nsubj	_	NN|10679054-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	waving	wave	VERB	VBG	_	5	conj	_	VBG|01446901-v|Rotating+
+8	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	surfer	surfer	NOUN	NN	_	4	nsubj	_	NN|10679054-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	big	big	ADJ	JJ	_	7	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+7	wave	wave	NOUN	NN	_	4	dobj	_	NN|07352190-n|WaterWave+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

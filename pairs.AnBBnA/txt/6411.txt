@@ -1,0 +1,44 @@
+sentence A = The male, who is dark skinned, is standing on one hand in front of a yellow building.
+sentence B = A black man is break dancing on the pavement.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,SubjectiveWeakNegativeAttribute+,Separating+,Entity+,PhysicalAttribute+,Hand+,FrontFn=,SubjectiveAssessmentAttribute+,Building=
+CONCEPTS B: Black=,Hominid=,Entity+,EndFn+,Dancing+,Sidewalk=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	male	male	NOUN	NN	_	10	nsubj	_	NN|09624168-n|Human+
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	_	7	nsubj	_	WP|?|?
+5	is	be	VERB	VBZ	_	7	cop	_	VBZ|02604760-v|Entity+
+6	dark	dark	ADJ	JJ	_	7	amod	_	JJ|00409440-a|SubjectiveWeakNegativeAttribute+
+7	skinned	skin	VERB	VBN	_	2	rcmod	_	VBN|01262936-v|Separating+
+8	,	,	.	,	_	2	punct	_	Fc|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+11	on	on	ADP	IN	_	10	prep	_	IN|?|?
+12	one	1	NUM	CD	_	13	num	_	Z|?|?
+13	hand	hand	NOUN	NN	_	11	pobj	_	NN|05564590-n|Hand+
+14	in	in	ADP	IN	_	10	prep	_	IN|?|?
+15	front	front	NOUN	NN	_	14	pobj	_	NN|08573472-n|FrontFn=
+16	of	of	ADP	IN	_	15	prep	_	IN|?|?
+17	a	a	DET	DT	_	19	det	_	DT|?|?
+18	yellow	yellow	ADJ	JJ	_	19	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+19	building	building	NOUN	NN	_	16	pobj	_	NN|02913152-n|Building=
+20	.	.	.	.	_	10	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	break	break	VERB	VB	_	0	ROOT	_	VB|02681524-v|EndFn+
+6	dancing	dance	VERB	VBG	_	5	dobj	_	VBG|01708676-v|Dancing+
+7	on	on	ADP	IN	_	5	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	pavement	pavement	NOUN	NN	_	7	pobj	_	NN|04215402-n|Sidewalk=
+10	.	.	.	.	_	5	punct	_	Fp|?|?

@@ -1,0 +1,42 @@
+sentence A = Two football players are scrambling for the ball on the court.
+sentence B = A basketball player is on the court floor and another one is grabbing the ball.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Football+,Human+,Entity+,Putting+,Ball=,Government+
+CONCEPTS B: Basketball=,Human+,Entity+,Government+,Floor+,PositiveInteger@,Entity+,Grabbing+,Ball=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	football	football	NOUN	NN	_	3	nn	_	NN|00468480-n|Football+
+3	players	player	NOUN	NNS	_	5	nsubj	_	NNS|10439851-n|Human+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	scrambling	scramble	VERB	VBG	_	0	ROOT	_	VBG|01472807-v|Putting+
+6	for	for	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	ball	ball	NOUN	NN	_	6	pobj	_	NN|02778669-n|Ball=
+9	on	on	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	court	court	NOUN	NN	_	9	pobj	_	NN|08329453-n|Government+
+12	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	basketball	basketball	NOUN	NN	_	3	nn	_	NN|00480993-n|Basketball=
+3	player	player	NOUN	NN	_	4	nsubj	_	NN|10439851-n|Human+
+4	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	8	det	_	DT|?|?
+7	court	court	NOUN	NN	_	8	nn	_	NN|08329453-n|Government+
+8	floor	floor	NOUN	NN	_	5	pobj	_	NN|03365592-n|Floor+
+9	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+10	another	another	DET	DT	_	11	det	_	DT|?|?
+11	one	one	NOUN	NN	_	13	nsubj	_	NN|13742573-n|PositiveInteger@
+12	is	be	VERB	VBZ	_	13	aux	_	VBZ|02604760-v|Entity+
+13	grabbing	grab	VERB	VBG	_	4	conj	_	VBG|01439190-v|Grabbing+
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	ball	ball	NOUN	NN	_	13	dobj	_	NN|02778669-n|Ball=
+16	.	.	.	.	_	4	punct	_	Fp|?|?

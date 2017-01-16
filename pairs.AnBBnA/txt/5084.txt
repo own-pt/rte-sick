@@ -1,0 +1,30 @@
+sentence A = A man is fishing in the river.
+sentence B = A man is fishing in the stream.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Pursuing+,River=
+CONCEPTS B: Hominid=,Entity+,Pursuing+,StreamWaterArea=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	fishing	fish	VERB	VBG	_	0	ROOT	_	VBG|01140794-v|Pursuing+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	river	river	NOUN	NN	_	5	pobj	_	NN|09411430-n|River=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	fishing	fish	VERB	VBG	_	0	ROOT	_	VBG|01140794-v|Pursuing+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	stream	stream	NOUN	NN	_	5	pobj	_	NN|09448361-n|StreamWaterArea=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

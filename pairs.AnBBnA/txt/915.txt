@@ -1,0 +1,30 @@
+sentence A = Two people are arguing near a crowd.
+sentence B = Two people are kissing near a crowd.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GroupOfPeople=,Entity+,Stating+,SubjectiveAssessmentAttribute=
+CONCEPTS B: GroupOfPeople=,Entity+,Kissing+,SubjectiveAssessmentAttribute=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	arguing	argue	VERB	VBG	_	0	ROOT	_	VBG|00772189-v|Stating+
+5	near	near	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	crowd	crowd	NOUN	NN	_	5	pobj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	kissing	kiss	VERB	VBG	_	0	ROOT	_	VBG|01431230-v|Kissing+
+5	near	near	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	crowd	crowd	NOUN	NN	_	5	pobj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

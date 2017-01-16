@@ -1,0 +1,30 @@
+sentence A = Three men are looking into the distance.
+sentence B = Three men are looking at something nearby.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Hominid=,Entity+,SubjectiveAssessmentAttribute+,LengthMeasure+
+CONCEPTS B: Hominid=,Entity+,SubjectiveAssessmentAttribute+,Near=
+
+CONLL A:
+
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+5	into	into	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	distance	distance	NOUN	NN	_	5	pobj	_	NN|05084201-n|LengthMeasure+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	something	something	NOUN	NN	_	5	pobj	_	PRP|?|?
+7	nearby	nearby	ADV	RB	_	6	advmod	_	RB|00071321-r|Near=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

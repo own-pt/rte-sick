@@ -1,0 +1,48 @@
+sentence A = The woman is using a sledgehammer to break a concrete block that is on another man.
+sentence B = The man is using a sledgehammer to break a concrete block that is on another man.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,IntentionalProcess+,Device+,EndFn+,Physical+,ShapeAttribute+,Entity+,Man=
+CONCEPTS B: Hominid=,Entity+,IntentionalProcess+,Device+,EndFn+,Physical+,ShapeAttribute+,Entity+,Hominid=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	using	use	VERB	VBG	_	0	ROOT	_	VBG|01158872-v|IntentionalProcess+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	sledgehammer	sledgehammer	NOUN	NN	_	4	dobj	_	NN|03731695-n|Device+
+7	to	to	PRT	TO	_	8	aux	_	TO|?|?
+8	break	break	VERB	VB	_	4	xcomp	_	VB|02681524-v|EndFn+
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	concrete	concrete	ADJ	JJ	_	11	amod	_	JJ|00013160-a|Physical+
+11	block	block	NOUN	NN	_	8	dobj	_	NN|13914608-n|ShapeAttribute+
+12	that	that	DET	WDT	_	13	nsubj	_	WDT|?|?
+13	is	be	VERB	VBZ	_	11	rcmod	_	VBZ|02604760-v|Entity+
+14	on	on	ADP	IN	_	13	prep	_	IN|?|?
+15	another	another	DET	DT	_	16	det	_	DT|?|?
+16	man	man	NOUN	NN	_	14	pobj	_	NN|10287213-n|Man=
+17	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	using	use	VERB	VBG	_	0	ROOT	_	VBG|01158872-v|IntentionalProcess+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	sledgehammer	sledgehammer	NOUN	NN	_	4	dobj	_	NN|03731695-n|Device+
+7	to	to	PRT	TO	_	8	aux	_	TO|?|?
+8	break	break	VERB	VB	_	4	xcomp	_	VB|02681524-v|EndFn+
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	concrete	concrete	ADJ	JJ	_	11	amod	_	JJ|00013160-a|Physical+
+11	block	block	NOUN	NN	_	8	dobj	_	NN|13914608-n|ShapeAttribute+
+12	that	that	DET	WDT	_	13	nsubj	_	WDT|?|?
+13	is	be	VERB	VBZ	_	11	rcmod	_	VBZ|02604760-v|Entity+
+14	on	on	ADP	IN	_	13	prep	_	IN|?|?
+15	another	another	DET	DT	_	16	det	_	DT|?|?
+16	man	man	NOUN	NN	_	14	pobj	_	NN|02472293-n|Hominid=
+17	.	.	.	.	_	4	punct	_	Fp|?|?

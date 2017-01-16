@@ -1,0 +1,35 @@
+sentence A = The camera man is nailing a hammer to the wall.
+sentence B = Someone is banging a camera lens against a nail.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Camera=,Hominid=,Entity+,Impacting+,Device+,Wall=
+CONCEPTS B: Entity+,Impacting+,Camera=,Lens+,Nail=
+
+CONLL A:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	camera	camera	NOUN	NN	_	3	nn	_	NN|02942699-n|Camera=
+3	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	nailing	nail	VERB	VBG	_	0	ROOT	_	VBG|01401772-v|Impacting+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	hammer	hammer	NOUN	NN	_	5	dobj	_	NN|03481521-n|Device+
+8	to	to	ADP	IN	_	5	prep	_	TO|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	wall	wall	NOUN	NN	_	8	pobj	_	NN|04546855-n|Wall=
+11	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	banging	bang	VERB	VBG	_	0	ROOT	_	VBG|01242391-v|Impacting+
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	camera	camera	NOUN	NN	_	6	nn	_	NN|02942699-n|Camera=
+6	lens	lens	NOUN	NN	_	3	dobj	_	NN|03656484-n|Lens+
+7	against	against	ADP	IN	_	3	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	nail	nail	NOUN	NN	_	7	pobj	_	NN|03804744-n|Nail=
+10	.	.	.	.	_	3	punct	_	Fp|?|?

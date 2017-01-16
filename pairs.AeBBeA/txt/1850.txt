@@ -1,0 +1,41 @@
+sentence A = A man is carelessly smearing butter on a slice of garlic flavored bread.
+sentence B = The man is carelessly smearing butter on a slice of garlic bread.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Hominid=,Entity+,SubjectiveAssessmentAttribute+,SurfaceChange+,Butter=,PreparedFood+,Garlic=,BreadOrBiscuit+
+CONCEPTS B: Hominid=,Entity+,SubjectiveAssessmentAttribute+,SurfaceChange+,Butter=,PreparedFood+,Garlic=,BreadOrBiscuit+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	carelessly	carelessly	ADV	RB	_	5	advmod	_	RB|00164150-r|SubjectiveAssessmentAttribute+
+5	smearing	smear	VERB	VBG	_	0	ROOT	_	VBG|01252425-v|SurfaceChange+
+6	butter	butter	NOUN	NN	_	5	dobj	_	NN|07848338-n|Butter=
+7	on	on	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	slice	slice	NOUN	NN	_	7	pobj	_	NN|07654667-n|PreparedFood+
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	garlic	garlic	NOUN	NN	_	13	amod	_	NN|07818277-n|Garlic=
+12	flavored	flavored	VERB	VBN	_	13	amod	_	VBN|?|?
+13	bread	bread	NOUN	NN	_	10	pobj	_	NN|07679356-n|BreadOrBiscuit+
+14	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	carelessly	carelessly	ADV	RB	_	5	advmod	_	RB|00164150-r|SubjectiveAssessmentAttribute+
+5	smearing	smear	VERB	VBG	_	0	ROOT	_	VBG|01252425-v|SurfaceChange+
+6	butter	butter	NOUN	NN	_	5	dobj	_	NN|07848338-n|Butter=
+7	on	on	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	slice	slice	NOUN	NN	_	7	pobj	_	NN|07654667-n|PreparedFood+
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	garlic	garlic	ADJ	JJ	_	12	amod	_	NN|07818277-n|Garlic=
+12	bread	bread	NOUN	NN	_	10	pobj	_	NN|07679356-n|BreadOrBiscuit+
+13	.	.	.	.	_	5	punct	_	Fp|?|?

@@ -1,0 +1,30 @@
+sentence A = A monkey is riding a bike.
+sentence B = A bike is being ridden over a monkey.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Transportation+,Bicycle=
+CONCEPTS B: Bicycle=,Entity+,Entity+,Transportation+,Human+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	monkey	monkey	NOUN	NN	_	4	nsubj	_	NN|10200047-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	bike	bike	NOUN	NN	_	4	dobj	_	NN|02834778-n|Bicycle=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	bike	bike	NOUN	NN	_	5	nsubjpass	_	NN|02834778-n|Bicycle=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	ridden	ride	VERB	VBN	_	0	ROOT	_	VBN|02102398-v|Transportation+
+6	over	over	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	monkey	monkey	NOUN	NN	_	6	pobj	_	NN|10200047-n|Human+
+9	.	.	.	.	_	5	punct	_	Fp|?|?

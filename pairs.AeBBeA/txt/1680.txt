@@ -1,0 +1,36 @@
+sentence A = Some oil is being poured on the tomatoes by the man.
+sentence B = The man is pouring some oil on the tomatoes.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Oil=,Entity+,Entity+,Pouring=,Tomato=,Hominid=
+CONCEPTS B: Hominid=,Entity+,Pouring=,Oil=,Tomato=
+
+CONLL A:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	oil	oil	NOUN	NN	_	5	nsubjpass	_	NN|14966667-n|Oil=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	poured	pour	VERB	VBN	_	0	ROOT	_	VBN|02069551-v|Pouring=
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	tomatoes	tomato	NOUN	NNS	_	6	pobj	_	NNS|07734017-n|Tomato=
+9	by	by	ADP	IN	_	5	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	man	man	NOUN	NN	_	9	pobj	_	NN|02472293-n|Hominid=
+12	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	pouring	pour	VERB	VBG	_	0	ROOT	_	VBG|02069551-v|Pouring=
+5	some	some	DET	DT	_	6	det	_	DT|?|?
+6	oil	oil	NOUN	NN	_	4	dobj	_	NN|14966667-n|Oil=
+7	on	on	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	tomatoes	tomato	NOUN	NNS	_	7	pobj	_	NNS|07734017-n|Tomato=
+10	.	.	.	.	_	4	punct	_	Fp|?|?

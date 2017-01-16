@@ -1,0 +1,54 @@
+sentence A = A white dog is wearing a Christmas reindeer headband and is playing with a brown dog in the grass.
+sentence B = There is no white dog wearing a Christmas reindeer headband and playing with a brown dog in the grass.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: White=,Canine+,Entity+,RecreationOrExercise+,TimeInterval+,HoofedMammal+,Clothing+,Entity+,DramaticActing+,Human+,Canine+,Grass=
+CONCEPTS B: Entity+,White=,Canine+,RecreationOrExercise+,TimeInterval+,HoofedMammal+,Clothing+,DramaticActing+,Human+,Canine+,Grass=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
+6	a	a	DET	DT	_	9	det	_	DT|?|?
+7	Christmas	christmas	NOUN	NNP	_	9	nn	_	NN|15196537-n|TimeInterval+
+8	reindeer	reindeer	NOUN	NN	_	9	nn	_	NN|02433925-n|HoofedMammal+
+9	headband	headband	NOUN	NN	_	5	dobj	_	NN|03502042-n|Clothing+
+10	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	playing	play	VERB	VBG	_	5	conj	_	VBG|01719302-v|DramaticActing+
+13	with	with	ADP	IN	_	12	prep	_	IN|?|?
+14	a	a	DET	DT	_	16	det	_	DT|?|?
+15	brown	brown	ADJ	JJ	_	16	amod	_	JJ|00245112-a|Human+
+16	dog	dog	NOUN	NN	_	13	pobj	_	NN|02084071-n|Canine+
+17	in	in	ADP	IN	_	12	prep	_	IN|?|?
+18	the	the	DET	DT	_	19	det	_	DT|?|?
+19	grass	grass	NOUN	NN	_	17	pobj	_	NN|12102133-n|Grass=
+20	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	white	white	ADJ	JJ	_	5	amod	_	JJ|00393105-a|White=
+5	dog	dog	NOUN	NN	_	2	nsubj	_	NN|02084071-n|Canine+
+6	wearing	wear	VERB	VBG	_	5	dep	_	VBG|00075021-v|RecreationOrExercise+
+7	a	a	DET	DT	_	10	det	_	DT|?|?
+8	Christmas	christmas	NOUN	NNP	_	10	nn	_	NN|15196537-n|TimeInterval+
+9	reindeer	reindeer	NOUN	NN	_	10	nn	_	NN|02433925-n|HoofedMammal+
+10	headband	headband	NOUN	NN	_	6	dobj	_	NN|03502042-n|Clothing+
+11	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+12	playing	play	VERB	VBG	_	6	conj	_	VBG|01719302-v|DramaticActing+
+13	with	with	ADP	IN	_	12	prep	_	IN|?|?
+14	a	a	DET	DT	_	16	det	_	DT|?|?
+15	brown	brown	ADJ	JJ	_	16	amod	_	JJ|00245112-a|Human+
+16	dog	dog	NOUN	NN	_	13	pobj	_	NN|02084071-n|Canine+
+17	in	in	ADP	IN	_	12	prep	_	IN|?|?
+18	the	the	DET	DT	_	19	det	_	DT|?|?
+19	grass	grass	NOUN	NN	_	17	pobj	_	NN|12102133-n|Grass=
+20	.	.	.	.	_	2	punct	_	Fp|?|?

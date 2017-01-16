@@ -1,0 +1,37 @@
+sentence A = A man is cutting pieces of butter into a mixing bowl.
+sentence B = There is no butter being added to the stand mixer.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GamePiece+,Entity+,Cutting+,GamePiece+,Butter=,IntentionalProcess+,Dish+
+CONCEPTS B: Entity+,Butter=,Entity+,Putting=,SubjectiveAssessmentAttribute=,Device+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|03716327-n|GamePiece+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|01552519-v|Cutting+
+5	pieces	piece	NOUN	NNS	_	4	dobj	_	NNS|03716327-n|GamePiece+
+6	of	of	ADP	IN	_	5	prep	_	IN|?|?
+7	butter	butter	NOUN	NN	_	6	pobj	_	NN|07848338-n|Butter=
+8	into	into	ADP	IN	_	4	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	mixing	mix	VERB	VBG	_	11	amod	_	VBG|00394813-v|IntentionalProcess+
+11	bowl	bowl	NOUN	NN	_	8	pobj	_	NN|02880940-n|Dish+
+12	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	butter	butter	NOUN	NN	_	2	nsubj	_	NN|07848338-n|Butter=
+5	being	be	VERB	VBG	_	6	auxpass	_	VBG|02604760-v|Entity+
+6	added	add	VERB	VBN	_	4	partmod	_	VBD|00182406-v|Putting=
+7	to	to	ADP	IN	_	6	prep	_	TO|?|?
+8	the	the	DET	DT	_	10	det	_	DT|?|?
+9	stand	stand	NOUN	NN	_	10	nn	_	NN|06210363-n|SubjectiveAssessmentAttribute=
+10	mixer	mixer	NOUN	NN	_	7	pobj	_	NN|03775199-n|Device+
+11	.	.	.	.	_	2	punct	_	Fp|?|?

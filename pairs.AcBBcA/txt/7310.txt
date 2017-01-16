@@ -1,0 +1,39 @@
+sentence A = There is no man wearing a straw hat who is smoking a cigarette.
+sentence B = The man in the straw hat is smoking a cigarette.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Man=,CoveringFn=,Hay=,Hat+,Entity+,Smoking=,CigarOrCigarette+
+CONCEPTS B: Man=,Hay=,Hat+,Entity+,Smoking=,CigarOrCigarette+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|10287213-n|Man=
+5	wearing	wear	VERB	VBG	_	4	partmod	_	VBG|00047745-v|CoveringFn=
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	straw	straw	NOUN	NN	_	8	nn	_	NN|14959939-n|Hay=
+8	hat	hat	NOUN	NN	_	5	dobj	_	NN|03497657-n|Hat+
+9	who	who	PRON	WP	_	11	nsubj	_	WP|?|?
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	smoking	smoke	VERB	VBG	_	8	rcmod	_	VBG|01198101-v|Smoking=
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	cigarette	cigarette	NOUN	NN	_	11	dobj	_	NN|03030663-n|CigarOrCigarette+
+14	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	the	the	DET	DT	_	6	det	_	DT|?|?
+5	straw	straw	NOUN	NN	_	6	nn	_	NN|14959939-n|Hay=
+6	hat	hat	NOUN	NN	_	3	pobj	_	NN|03497657-n|Hat+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	smoking	smoke	VERB	VBG	_	0	ROOT	_	VBG|01198101-v|Smoking=
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	cigarette	cigarette	NOUN	NN	_	8	dobj	_	NN|03030663-n|CigarOrCigarette+
+11	.	.	.	.	_	8	punct	_	Fp|?|?

@@ -1,0 +1,30 @@
+sentence A = The man is talking about the telephone.
+sentence B = The man is talking on the telephone.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Speaking+,Telephone=
+CONCEPTS B: Hominid=,Entity+,Speaking+,Telephone=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+5	about	about	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	telephone	telephone	NOUN	NN	_	5	pobj	_	NN|04401088-n|Telephone=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	telephone	telephone	NOUN	NN	_	5	pobj	_	NN|04401088-n|Telephone=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

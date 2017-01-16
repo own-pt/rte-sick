@@ -1,0 +1,28 @@
+sentence A = The animal with big eyes is voraciously eating.
+sentence B = A lemur is eating.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Animal=,SubjectiveWeakPositiveAttribute+,Organ+,Entity+,SubjectiveAssessmentAttribute+,Eating=
+CONCEPTS B: Primate+,Entity+,Process+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	animal	animal	NOUN	NN	_	8	nsubj	_	NN|00015388-n|Animal=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	big	big	ADJ	JJ	_	5	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+5	eyes	eye	NOUN	NNS	_	3	pobj	_	NNS|05311054-n|Organ+
+6	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+7	voraciously	voraciously	ADV	RB	_	8	advmod	_	RB|00493732-r|SubjectiveAssessmentAttribute+
+8	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01168468-v|Eating=
+9	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	lemur	lemur	NOUN	NN	_	4	nsubj	_	NN|02496913-n|Primate+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+5	.	.	.	.	_	4	punct	_	Fp|?|?

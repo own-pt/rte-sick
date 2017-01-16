@@ -1,0 +1,33 @@
+sentence A = The man is putting chicken into the container.
+sentence B = A man is putting some food in a container.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Putting=,ChickenMeat+,Container+
+CONCEPTS B: Hominid=,Entity+,Putting=,SubjectiveAssessmentAttribute+,Container+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	putting	put	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+5	chicken	chicken	NOUN	NN	_	4	dobj	_	NN|07644967-n|ChickenMeat+
+6	into	into	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	container	container	NOUN	NN	_	6	pobj	_	NN|03094503-n|Container+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	putting	put	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+5	some	some	DET	DT	_	6	det	_	DT|?|?
+6	food	food	NOUN	NN	_	4	dobj	_	NN|05811214-n|SubjectiveAssessmentAttribute+
+7	in	in	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	container	container	NOUN	NN	_	7	pobj	_	NN|03094503-n|Container+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,30 @@
+sentence A = Some instruments are being played by a band.
+sentence B = A band is playing some instruments.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: MusicalInstrument=,Entity+,Entity+,DramaticActing+,MusicalGroup+
+CONCEPTS B: MusicalGroup+,Entity+,DramaticActing+,MusicalInstrument=
+
+CONLL A:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	instruments	instrument	NOUN	NNS	_	5	nsubjpass	_	NNS|03800933-n|MusicalInstrument=
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	played	play	VERB	VBN	_	0	ROOT	_	VBN|01719302-v|DramaticActing+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	band	band	NOUN	NN	_	6	pobj	_	NN|08249038-n|MusicalGroup+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	band	band	NOUN	NN	_	4	nsubj	_	NN|08249038-n|MusicalGroup+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	some	some	DET	DT	_	6	det	_	DT|?|?
+6	instruments	instrument	NOUN	NNS	_	4	dobj	_	NNS|03800933-n|MusicalInstrument=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

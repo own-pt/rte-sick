@@ -1,0 +1,27 @@
+sentence A = Nobody is riding a bike.
+sentence B = Two people are riding a bike.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Transportation+,Bicycle=
+CONCEPTS B: GroupOfPeople=,Entity+,Transportation+,Bicycle=
+
+CONLL A:
+
+1	Nobody	nobody	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	bike	bike	NOUN	NN	_	3	dobj	_	NN|02834778-n|Bicycle=
+6	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	bike	bike	NOUN	NN	_	4	dobj	_	NN|02834778-n|Bicycle=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

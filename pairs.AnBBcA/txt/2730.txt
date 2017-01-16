@@ -1,0 +1,45 @@
+sentence A = A woman on a rock is lying on a blanket and reading a book.
+sentence B = A woman, who is seated, is singing a song and playing the guitar.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Woman=,Mineral+,Entity+,PhysicalAttribute+,Blanket+,Reading=,Book+
+CONCEPTS B: Woman=,Entity+,Communication+,Entity+,MakingVocalMusic=,Song=,DramaticActing+,Guitar=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	7	nsubj	_	NN|10787470-n|Woman=
+3	on	on	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	rock	rock	NOUN	NN	_	3	pobj	_	NN|14696793-n|Mineral+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	blanket	blanket	NOUN	NN	_	8	pobj	_	NN|02849154-n|Blanket+
+11	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+12	reading	read	VERB	VBG	_	7	conj	_	VBG|00625119-v|Reading=
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	book	book	NOUN	NN	_	12	dobj	_	NN|02870092-n|Book+
+15	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	9	nsubj	_	NN|10787470-n|Woman=
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	_	6	nsubjpass	_	WP|?|?
+5	is	be	VERB	VBZ	_	6	auxpass	_	VBZ|02604760-v|Entity+
+6	seated	seat	VERB	VBN	_	2	rcmod	_	VBN|01543998-v|Communication+
+7	,	,	.	,	_	9	punct	_	Fc|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	song	song	NOUN	NN	_	9	dobj	_	NN|07048000-n|Song=
+12	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+13	playing	play	VERB	VBG	_	9	conj	_	VBG|01719302-v|DramaticActing+
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	guitar	guitar	NOUN	NN	_	13	dobj	_	NN|03467517-n|Guitar=
+16	.	.	.	.	_	9	punct	_	Fp|?|?

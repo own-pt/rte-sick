@@ -1,0 +1,32 @@
+sentence A = Two children are leaning on a rusty ledge.
+sentence B = Two children are peering over a rusty ledge.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanChild=,Entity+,Inclining+,Oxidation+,GeographicArea+
+CONCEPTS B: HumanChild=,Entity+,Looking=,Oxidation+,GeographicArea+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	leaning	lean	VERB	VBG	_	0	ROOT	_	VBG|02038357-v|Inclining+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	rusty	rusty	ADJ	JJ	_	8	amod	_	JJ|02053094-a|Oxidation+
+8	ledge	ledge	NOUN	NN	_	5	pobj	_	NN|09337253-n|GeographicArea+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	peering	peer	VERB	VBG	_	0	ROOT	_	VBG|02168965-v|Looking=
+5	over	over	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	rusty	rusty	ADJ	JJ	_	8	amod	_	JJ|02053094-a|Oxidation+
+8	ledge	ledge	NOUN	NN	_	5	pobj	_	NN|09337253-n|GeographicArea+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

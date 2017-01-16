@@ -1,0 +1,26 @@
+sentence A = The man is lifting weights.
+sentence B = The man is lowering barbells.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,MotionUpward=,MassMeasure+
+CONCEPTS B: Hominid=,Entity+,Decreasing+,AnaerobicExerciseDevice+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	lifting	lift	VERB	VBG	_	0	ROOT	_	VBG|01974062-v|MotionUpward=
+5	weights	weight	NOUN	NNS	_	4	dobj	_	NNS|05026843-n|MassMeasure+
+6	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	lowering	lower	VERB	VBG	_	0	ROOT	_	VBG|01574923-v|Decreasing+
+5	barbells	barbell	NOUN	NNS	_	4	dobj	_	NNS|02790996-n|AnaerobicExerciseDevice+
+6	.	.	.	.	_	4	punct	_	Fp|?|?

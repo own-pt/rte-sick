@@ -1,0 +1,54 @@
+sentence A = A man in a white shirt and sunglasses and a man in a black shirt and sunglasses are sitting at a table with four beer bottles.
+sentence B = There are no men sitting at the table with four beer bottles.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Man=,White=,Shirt=,Device+,Man=,Black=,Shirt=,Device+,PhysicalAttribute+,SittingDown+,ContentBearingObject+,Beer=,Bottle=
+CONCEPTS B: PhysicalAttribute+,Hominid=,SittingDown+,ContentBearingObject+,Beer=,Bottle=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	19	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	_	6	amod	_	JJ|00393105-a|White=
+6	shirt	shirt	NOUN	NN	_	3	pobj	_	NN|04197391-n|Shirt=
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	sunglasses	sunglass	NOUN	NNS	_	6	conj	_	NNS|04355933-n|Device+
+9	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	man	man	NOUN	NN	_	2	conj	_	NN|10287213-n|Man=
+12	in	in	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	15	det	_	DT|?|?
+14	black	black	ADJ	JJ	_	15	amod	_	JJ|00392812-a|Black=
+15	shirt	shirt	NOUN	NN	_	12	pobj	_	NN|04197391-n|Shirt=
+16	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+17	sunglasses	sunglass	NOUN	NNS	_	2	conj	_	NNS|04355933-n|Device+
+18	are	be	VERB	VBP	_	19	aux	_	VBP|02655135-v|PhysicalAttribute+
+19	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+20	at	at	ADP	IN	_	19	prep	_	IN|?|?
+21	a	a	DET	DT	_	22	det	_	DT|?|?
+22	table	table	NOUN	NN	_	20	pobj	_	NN|08266235-n|ContentBearingObject+
+23	with	with	ADP	IN	_	22	prep	_	IN|?|?
+24	four	4	NUM	CD	_	26	num	_	Z|?|?
+25	beer	beer	NOUN	NN	_	26	nn	_	NN|07886849-n|Beer=
+26	bottles	bottle	NOUN	NNS	_	23	pobj	_	NNS|02876657-n|Bottle=
+27	.	.	.	.	_	19	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	are	be	VERB	VBP	_	0	ROOT	_	VBP|02655135-v|PhysicalAttribute+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	men	man	NOUN	NNS	_	2	nsubj	_	NNS|02472293-n|Hominid=
+5	sitting	sit	VERB	VBG	_	4	partmod	_	VBG|01543123-v|SittingDown+
+6	at	at	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	table	table	NOUN	NN	_	6	pobj	_	NN|08266235-n|ContentBearingObject+
+9	with	with	ADP	IN	_	5	prep	_	IN|?|?
+10	four	4	NUM	CD	_	12	num	_	Z|?|?
+11	beer	beer	NOUN	NN	_	12	nn	_	NN|07886849-n|Beer=
+12	bottles	bottle	NOUN	NNS	_	9	pobj	_	NNS|02876657-n|Bottle=
+13	.	.	.	.	_	2	punct	_	Fp|?|?

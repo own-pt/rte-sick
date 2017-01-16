@@ -1,0 +1,37 @@
+sentence A = There is no young child dressed for cold weather standing outside.
+sentence B = A young child dressed for cold weather is standing outside.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,HumanYouth=,HumanChild=,Dressing+,ColdTemperature=,WeatherProcess+,SocialRole+
+CONCEPTS B: HumanYouth=,HumanChild=,Dressing+,ColdTemperature=,WeatherProcess+,Entity+,PhysicalAttribute+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	young	young	ADJ	JJ	_	5	amod	_	JJ|01646941-a|HumanYouth=
+5	child	child	NOUN	NN	_	2	nsubj	_	NN|09917593-n|HumanChild=
+6	dressed	dress	VERB	VBN	_	5	partmod	_	VBN|00046534-v|Dressing+
+7	for	for	ADP	IN	_	6	prep	_	IN|?|?
+8	cold	cold	ADJ	JJ	_	9	amod	_	JJ|01251128-a|ColdTemperature=
+9	weather	weather	NOUN	NN	_	7	pobj	_	NN|11524662-n|WeatherProcess+
+10	standing	standing	VERB	VBG	_	9	partmod	_	NN|13948136-n|SocialRole+
+11	outside	outside	ADV	RB	_	10	advmod	_	IN|?|?
+12	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	child	child	NOUN	NN	_	9	nsubj	_	NN|09917593-n|HumanChild=
+4	dressed	dress	VERB	VBN	_	3	partmod	_	VBN|00046534-v|Dressing+
+5	for	for	ADP	IN	_	4	prep	_	IN|?|?
+6	cold	cold	ADJ	JJ	_	7	amod	_	JJ|01251128-a|ColdTemperature=
+7	weather	weather	NOUN	NN	_	5	pobj	_	NN|11524662-n|WeatherProcess+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+10	outside	outside	ADV	RB	_	9	advmod	_	IN|?|?
+11	.	.	.	.	_	9	punct	_	Fp|?|?

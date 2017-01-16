@@ -1,0 +1,39 @@
+sentence A = The cat perched on the table is looking out the window.
+sentence B = The cat perched on the table is looking curiously out the window.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Whip+,Process+,ContentBearingObject+,Entity+,SubjectiveAssessmentAttribute+,Giving+,Window=
+CONCEPTS B: Whip+,Process+,ContentBearingObject+,Entity+,Looking=,SubjectiveAssessmentAttribute+,Window=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	8	nsubj	_	NN|02985606-n|Whip+
+3	perched	perch	VERB	VBN	_	2	partmod	_	VBN|01978700-v|Process+
+4	on	on	ADP	IN	_	3	prep	_	IN|?|?
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	table	table	NOUN	NN	_	4	pobj	_	NN|08266235-n|ContentBearingObject+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+9	out	out	ADP	IN	_	8	prep	_	RP|00233413-r|Giving+
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	window	window	NOUN	NN	_	9	pobj	_	NN|04587648-n|Window=
+12	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	8	nsubj	_	NN|02985606-n|Whip+
+3	perched	perch	VERB	VBN	_	2	partmod	_	VBN|01978700-v|Process+
+4	on	on	ADP	IN	_	3	prep	_	IN|?|?
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	table	table	NOUN	NN	_	4	pobj	_	NN|08266235-n|ContentBearingObject+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02130524-v|Looking=
+9	curiously	curiously	ADV	RB	_	8	advmod	_	RB|00035491-r|SubjectiveAssessmentAttribute+
+10	out	out	ADP	IN	_	8	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	window	window	NOUN	NN	_	10	pobj	_	NN|04587648-n|Window=
+13	.	.	.	.	_	8	punct	_	Fp|?|?

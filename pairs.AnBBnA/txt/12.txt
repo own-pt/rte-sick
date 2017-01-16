@@ -1,0 +1,26 @@
+sentence A = Two dogs are fighting.
+sentence B = Two dogs are wrestling and hugging.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,ViolentContest+
+CONCEPTS B: Canine+,Entity+,Wrestling+,Embracing+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	fighting	fight	VERB	VBG	_	0	ROOT	_	VBG|01090335-v|ViolentContest+
+5	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	wrestling	wrestle	VERB	VBG	_	0	ROOT	_	VBG|01504699-v|Wrestling+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	hugging	hug	VERB	VBG	_	4	conj	_	VBG|01424456-v|Embracing+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

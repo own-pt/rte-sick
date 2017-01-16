@@ -1,0 +1,36 @@
+sentence A = Two people are standing in the ocean and watching the sunset.
+sentence B = A couple or people are wading through the water.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GroupOfPeople=,Entity+,PhysicalAttribute+,Ocean=,Looking=,Sunset+
+CONCEPTS B: Entity+,GroupOfPeople=,Entity+,Wetting+,Water=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	ocean	ocean	NOUN	NN	_	5	pobj	_	NN|09376198-n|Ocean=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	watching	watch	VERB	VBG	_	4	conj	_	VBG|02150948-v|Looking=
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	sunset	sunset	NOUN	NN	_	9	dobj	_	NN|15169248-n|Sunset+
+12	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	couple	couple	NOUN	NN	_	6	nsubj	_	NN|13743605-n|Entity+
+3	or	or	CONJ	CC	_	2	cc	_	CC|?|?
+4	people	people	NOUN	NNS	_	2	conj	_	NNS|07942152-n|GroupOfPeople=
+5	are	be	VERB	VBP	_	6	aux	_	VBP|02604760-v|Entity+
+6	wading	wade	VERB	VBG	_	0	ROOT	_	VBG|01916214-v|Wetting+
+7	through	through	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	water	water	NOUN	NN	_	7	pobj	_	NN|14845743-n|Water=
+10	.	.	.	.	_	6	punct	_	Fp|?|?

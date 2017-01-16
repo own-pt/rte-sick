@@ -1,0 +1,33 @@
+sentence A = A brown dog is jumping in the air.
+sentence B = A healthy looking dog is lying on the ground.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Canine+,Entity+,Ambulating=,AirTransportation+
+CONCEPTS B: DiseaseOrSyndrome[,SubjectiveAssessmentAttribute+,Canine+,Entity+,PhysicalAttribute+,LandArea=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	air	air	NOUN	NN	_	6	pobj	_	NN|00300441-n|AirTransportation+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	healthy	healthy	ADJ	JJ	_	4	amod	_	JJ|01170243-a|DiseaseOrSyndrome[
+3	looking	look	VERB	VBG	_	4	amod	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+4	dog	dog	NOUN	NN	_	6	nsubj	_	NN|02084071-n|Canine+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	ground	ground	NOUN	NN	_	7	pobj	_	NN|09334396-n|LandArea=
+10	.	.	.	.	_	6	punct	_	Fp|?|?

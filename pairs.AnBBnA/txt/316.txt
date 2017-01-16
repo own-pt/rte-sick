@@ -1,0 +1,43 @@
+sentence A = A crowd of people is near the water.
+sentence B = A group of children wearing the same clothes is waiting at a gate and one is kissing the mother.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveAssessmentAttribute=,GroupOfPeople=,Entity+,Water=
+CONCEPTS B: Group=,HumanChild=,CoveringFn=,equal+,Clothing+,Entity+,PsychologicalProcess+,Door=,Entity+,Kissing+,BiologicalAttribute+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	crowd	crowd	NOUN	NN	_	5	nsubj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	people	people	NOUN	NNS	_	3	pobj	_	NNS|07942152-n|GroupOfPeople=
+5	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+6	near	near	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	water	water	NOUN	NN	_	6	pobj	_	NN|14845743-n|Water=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	10	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	children	child	NOUN	NNS	_	3	pobj	_	NNS|09917593-n|HumanChild=
+5	wearing	wear	VERB	VBG	_	4	partmod	_	VBG|00047745-v|CoveringFn=
+6	the	the	DET	DT	_	8	det	_	DT|?|?
+7	same	same	ADJ	JJ	_	8	amod	_	JJ|02062670-a|equal+
+8	clothes	clothes	NOUN	NNS	_	5	dobj	_	NNS|02728440-n|Clothing+
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	waiting	wait	VERB	VBG	_	0	ROOT	_	VBG|02637938-v|PsychologicalProcess+
+11	at	at	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	gate	gate	NOUN	NN	_	11	pobj	_	NN|03427296-n|Door=
+14	and	and	CONJ	CC	_	10	cc	_	CC|?|?
+15	one	one	NUM	CD	_	17	nsubj	_	PRP|?|?
+16	is	be	VERB	VBZ	_	17	aux	_	VBZ|02604760-v|Entity+
+17	kissing	kiss	VERB	VBG	_	10	conj	_	VBG|01431230-v|Kissing+
+18	the	the	DET	DT	_	19	det	_	DT|?|?
+19	mother	mother	NOUN	NN	_	17	dobj	_	NN|10332385-n|BiologicalAttribute+
+20	.	.	.	.	_	10	punct	_	Fp|?|?

@@ -1,0 +1,38 @@
+sentence A = The men in brown shorts are walking on the rocks beside a river.
+sentence B = Three boys are walking on rocks along a river.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Human+,NormativeAttribute+,Entity+,Walking=,Mineral+,River=
+CONCEPTS B: Human+,Entity+,Walking=,Mineral+,River=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	men	man	NOUN	NNS	_	7	nsubj	_	NNS|02472293-n|Hominid=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	brown	brown	ADJ	JJ	_	5	amod	_	JJ|00245112-a|Human+
+5	shorts	short	NOUN	NNS	_	3	pobj	_	NNS|04204755-n|NormativeAttribute+
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	rocks	rock	NOUN	NNS	_	8	pobj	_	NNS|14696793-n|Mineral+
+11	beside	beside	ADP	IN	_	7	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	river	river	NOUN	NN	_	11	pobj	_	NN|09411430-n|River=
+14	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	boys	boy	NOUN	NNS	_	4	nsubj	_	NNS|10285313-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	rocks	rock	NOUN	NNS	_	5	pobj	_	NNS|14696793-n|Mineral+
+7	along	along	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	river	river	NOUN	NN	_	7	pobj	_	NN|09411430-n|River=
+10	.	.	.	.	_	4	punct	_	Fp|?|?

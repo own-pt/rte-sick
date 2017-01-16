@@ -1,0 +1,38 @@
+sentence A = A man on a bicycle is riding on one wheel only.
+sentence B = A person on a bike is riding on one wheel only.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Bicycle=,Entity+,Carrying=,Bicycle=
+CONCEPTS B: Human=,Bicycle=,Entity+,Transportation+,Bicycle=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|02472293-n|Hominid=
+3	on	on	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	bicycle	bicycle	NOUN	NN	_	3	pobj	_	NN|02834778-n|Bicycle=
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	one	1	NUM	CD	_	10	num	_	Z|?|?
+10	wheel	wheel	NOUN	NN	_	8	pobj	_	NN|02834778-n|Bicycle=
+11	only	only	ADV	RB	_	10	advmod	_	RB|00004722-r|?
+12	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	7	nsubj	_	NN|00007846-n|Human=
+3	on	on	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	bike	bike	NOUN	NN	_	3	pobj	_	NN|02834778-n|Bicycle=
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	one	1	NUM	CD	_	10	num	_	Z|?|?
+10	wheel	wheel	NOUN	NN	_	8	pobj	_	NN|02834778-n|Bicycle=
+11	only	only	ADV	RB	_	10	advmod	_	RB|00004722-r|?
+12	.	.	.	.	_	7	punct	_	Fp|?|?

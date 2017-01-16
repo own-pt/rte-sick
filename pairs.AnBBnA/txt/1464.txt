@@ -1,0 +1,24 @@
+sentence A = A baby is crying.
+sentence B = A man is exercising.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanBaby=,Entity+,Weeping=
+CONCEPTS B: Hominid=,Entity+,RecreationOrExercise+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	baby	baby	NOUN	NN	_	4	nsubj	_	NN|09827683-n|HumanBaby=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	crying	cry	VERB	VBG	_	0	ROOT	_	VBG|00066191-v|Weeping=
+5	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	exercising	exercise	VERB	VBG	_	0	ROOT	_	VBG|00099721-v|RecreationOrExercise+
+5	.	.	.	.	_	4	punct	_	Fp|?|?

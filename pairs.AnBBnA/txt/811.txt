@@ -1,0 +1,42 @@
+sentence A = There is no girl wearing a t-shirt and keeping her mouth open.
+sentence B = A girl from Asia, in front of a brick window, looks surprised.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,Human+,Putting+,Shirt+,Attribute+,Mouth+,SubjectiveWeakPositiveAttribute+
+CONCEPTS B: Human+,Asia=,FrontFn=,Brick+,Window=,SubjectiveAssessmentAttribute+,EmotionalState+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	girl	girl	NOUN	NN	_	2	nsubj	_	NN|10129825-n|Human+
+5	wearing	wear	VERB	VBG	_	4	dep	_	VBG|00052374-v|Putting+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	t-shirt	t-shirt	NOUN	NN	_	5	dobj	_	NN|03595614-n|Shirt+
+8	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+9	keeping	keep	VERB	VBG	_	5	conj	_	VBG|02202384-v|Attribute+
+10	her	her	PRON	PRP$	_	11	poss	_	PRP$|?|?
+11	mouth	mouth	NOUN	NN	_	9	dobj	_	NN|05302499-n|Mouth+
+12	open	open	ADJ	JJ	_	9	dep	_	JJ|01652902-a|SubjectiveWeakPositiveAttribute+
+13	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	13	nsubj	_	NN|10129825-n|Human+
+3	from	from	ADP	IN	_	2	prep	_	IN|?|?
+4	Asia	asia	NOUN	NNP	_	3	pobj	_	NNS|09207288-n|Asia=
+5	,	,	.	,	_	13	punct	_	Fc|?|?
+6	in	in	ADP	IN	_	13	prep	_	IN|?|?
+7	front	front	NOUN	NN	_	6	pobj	_	NN|08573472-n|FrontFn=
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	brick	brick	NOUN	NN	_	11	nn	_	NN|02897820-n|Brick+
+11	window	window	NOUN	NN	_	8	pobj	_	NN|04587648-n|Window=
+12	,	,	.	,	_	13	punct	_	Fc|?|?
+13	looks	look	VERB	VBZ	_	0	ROOT	_	VBZ|02133435-v|SubjectiveAssessmentAttribute+
+14	surprised	surprise	ADJ	JJ	_	13	acomp	_	VBN|00725274-v|EmotionalState+
+15	.	.	.	.	_	13	punct	_	Fp|?|?

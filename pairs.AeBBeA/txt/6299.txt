@@ -1,0 +1,44 @@
+sentence A = A shoeless woman is sitting on a blanket under a lavender umbrella.
+sentence B = A woman, who is shoeless, is sitting on a blanket under a lavender umbrella.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Clothing[,Woman=,PhysicalAttribute+,SittingDown+,Blanket+,FloweringPlant+,Device+
+CONCEPTS B: Woman=,PhysicalAttribute+,Clothing[,PhysicalAttribute+,SittingDown+,Blanket+,FloweringPlant+,Device+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	shoeless	shoeless	ADJ	JJ	_	3	amod	_	JJ|02156686-a|Clothing[
+3	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	blanket	blanket	NOUN	NN	_	6	pobj	_	NN|02849154-n|Blanket+
+9	under	under	ADP	IN	_	5	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	lavender	lavender	NOUN	NN	_	12	nn	_	NN|12849717-n|FloweringPlant+
+12	umbrella	umbrella	NOUN	NN	_	9	pobj	_	NN|04507155-n|Device+
+13	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	9	nsubj	_	NN|10787470-n|Woman=
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	_	6	nsubj	_	WP|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02655135-v|PhysicalAttribute+
+6	shoeless	shoeless	NOUN	NN	_	2	rcmod	_	JJ|02156686-a|Clothing[
+7	,	,	.	,	_	2	punct	_	Fc|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02655135-v|PhysicalAttribute+
+9	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	blanket	blanket	NOUN	NN	_	10	pobj	_	NN|02849154-n|Blanket+
+13	under	under	ADP	IN	_	9	prep	_	IN|?|?
+14	a	a	DET	DT	_	16	det	_	DT|?|?
+15	lavender	lavender	NOUN	NN	_	16	nn	_	NN|12849717-n|FloweringPlant+
+16	umbrella	umbrella	NOUN	NN	_	13	pobj	_	NN|04507155-n|Device+
+17	.	.	.	.	_	9	punct	_	Fp|?|?

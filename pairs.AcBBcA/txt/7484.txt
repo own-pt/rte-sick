@@ -1,0 +1,41 @@
+sentence A = Two guys are sitting around a table and holding beers in their hands.
+sentence B = There are no men sitting at the table with four beer bottles.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Device+,PhysicalAttribute+,SittingDown+,ContentBearingObject+,Process+,Beer=,Hand+
+CONCEPTS B: PhysicalAttribute+,Hominid=,SittingDown+,ContentBearingObject+,Beer=,Bottle=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	guys	guy	NOUN	NNS	_	4	nsubj	_	NNS|03471779-n|Device+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	around	around	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	table	table	NOUN	NN	_	5	pobj	_	NN|08266235-n|ContentBearingObject+
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	holding	hold	VERB	VBG	_	4	conj	_	VBG|01217043-v|Process+
+10	beers	beer	NOUN	NNS	_	9	dobj	_	NNS|07886849-n|Beer=
+11	in	in	ADP	IN	_	9	prep	_	IN|?|?
+12	their	their	PRON	PRP$	_	13	poss	_	PRP$|?|?
+13	hands	hand	NOUN	NNS	_	11	pobj	_	NNS|05564590-n|Hand+
+14	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	are	be	VERB	VBP	_	0	ROOT	_	VBP|02655135-v|PhysicalAttribute+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	men	man	NOUN	NNS	_	2	nsubj	_	NNS|02472293-n|Hominid=
+5	sitting	sit	VERB	VBG	_	4	partmod	_	VBG|01543123-v|SittingDown+
+6	at	at	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	table	table	NOUN	NN	_	6	pobj	_	NN|08266235-n|ContentBearingObject+
+9	with	with	ADP	IN	_	5	prep	_	IN|?|?
+10	four	4	NUM	CD	_	12	num	_	Z|?|?
+11	beer	beer	NOUN	NN	_	12	nn	_	NN|07886849-n|Beer=
+12	bottles	bottle	NOUN	NNS	_	9	pobj	_	NNS|02876657-n|Bottle=
+13	.	.	.	.	_	2	punct	_	Fp|?|?

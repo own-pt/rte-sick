@@ -1,0 +1,36 @@
+sentence A = A shirtless man is playing football on a lawn.
+sentence B = A football is being held by a man with no shirt.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Game+,Football+,Lawn=
+CONCEPTS B: Football+,Entity+,Entity+,Process+,Man=,Shirt=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	shirtless	shirtless	ADJ	JJ	_	3	amod	_	JJ|?|?
+3	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01072949-v|Game+
+6	football	football	NOUN	NN	_	5	dobj	_	NN|00468480-n|Football+
+7	on	on	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	lawn	lawn	NOUN	NN	_	7	pobj	_	NN|08591592-n|Lawn=
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	football	football	NOUN	NN	_	5	nsubjpass	_	NN|00468480-n|Football+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	held	hold	VERB	VBN	_	0	ROOT	_	VBN|01217043-v|Process+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	man	man	NOUN	NN	_	6	pobj	_	NN|10287213-n|Man=
+9	with	with	ADP	IN	_	5	prep	_	IN|?|?
+10	no	no	DET	DT	_	11	det	_	DT|?|?
+11	shirt	shirt	NOUN	NN	_	9	pobj	_	NN|04197391-n|Shirt=
+12	.	.	.	.	_	5	punct	_	Fp|?|?

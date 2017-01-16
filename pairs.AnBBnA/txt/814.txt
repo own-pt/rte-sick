@@ -1,0 +1,42 @@
+sentence A = A girl is looking on surprised from a front window in a house in Asia.
+sentence B = A girl is wearing a t-shirt and has her mouth open.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,SubjectiveAssessmentAttribute+,EmotionalState+,FrontFn=,Window=,Auditorium+,Asia=
+CONCEPTS B: Human+,Entity+,Putting+,Shirt+,Attribute+,Mouth+,SubjectiveStrongPositiveAttribute+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	surprised	surprise	ADJ	JJ	_	5	pobj	_	VBN|00725274-v|EmotionalState+
+7	from	from	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	front	front	ADJ	JJ	_	10	amod	_	NN|08573472-n|FrontFn=
+10	window	window	NOUN	NN	_	7	pobj	_	NN|04587648-n|Window=
+11	in	in	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	house	house	NOUN	NN	_	11	pobj	_	NN|04417809-n|Auditorium+
+14	in	in	ADP	IN	_	13	prep	_	IN|?|?
+15	Asia	asia	NOUN	NNP	_	14	pobj	_	NNS|09207288-n|Asia=
+16	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	t-shirt	t-shirt	NOUN	NN	_	4	dobj	_	NN|03595614-n|Shirt+
+7	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+8	has	have	VERB	VBZ	_	4	conj	_	VBZ|02630189-v|Attribute+
+9	her	her	PRON	PRP$	_	10	poss	_	PRP$|?|?
+10	mouth	mouth	NOUN	NN	_	11	nsubj	_	NN|05302499-n|Mouth+
+11	open	open	ADJ	JJ	_	8	xcomp	_	JJ|01985247-a|SubjectiveStrongPositiveAttribute+
+12	.	.	.	.	_	4	punct	_	Fp|?|?

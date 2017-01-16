@@ -1,0 +1,32 @@
+sentence A = The man is hurling knives at a tree.
+sentence B = The man is throwing knives at a tree.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Hominid=,Entity+,Impelling+,CuttingDevice+,ContentBearingObject+
+CONCEPTS B: Hominid=,Entity+,Impelling+,CuttingDevice+,ContentBearingObject+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	hurling	hurl	VERB	VBG	_	0	ROOT	_	VBG|01507143-v|Impelling+
+5	knives	knife	NOUN	NNS	_	4	dobj	_	NNS|03623556-n|CuttingDevice+
+6	at	at	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	tree	tree	NOUN	NN	_	6	pobj	_	NN|13912260-n|ContentBearingObject+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	throwing	throw	VERB	VBG	_	0	ROOT	_	VBG|01508368-v|Impelling+
+5	knives	knife	NOUN	NNS	_	4	dobj	_	NNS|03623556-n|CuttingDevice+
+6	at	at	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	tree	tree	NOUN	NN	_	6	pobj	_	NN|13912260-n|ContentBearingObject+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

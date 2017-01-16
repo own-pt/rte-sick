@@ -1,0 +1,30 @@
+sentence A = The kid is sliding in the snow.
+sentence B = The kid is still in the snow.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanChild=,Entity+,Translocation+,Snowing=
+CONCEPTS B: HumanChild=,Entity+,Snowing=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	kid	kid	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	sliding	slide	VERB	VBG	_	0	ROOT	_	VBG|02090990-v|Translocation+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	snow	snow	NOUN	NN	_	5	pobj	_	NN|15043763-n|Snowing=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	kid	kid	NOUN	NN	_	3	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+4	still	still	ADV	RB	_	3	advmod	_	RB|00027384-r|?
+5	in	in	ADP	IN	_	3	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	snow	snow	NOUN	NN	_	5	pobj	_	NN|15043763-n|Snowing=
+8	.	.	.	.	_	3	punct	_	Fp|?|?

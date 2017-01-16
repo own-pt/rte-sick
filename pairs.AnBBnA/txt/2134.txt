@@ -1,0 +1,32 @@
+sentence A = A small boy is playing with a dog.
+sentence B = There is no baby playing with a dog.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,DramaticActing+,Canine+
+CONCEPTS B: Entity+,HumanBaby=,DramaticActing+,Canine+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	small	small	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	boy	boy	NOUN	NN	_	5	nsubj	_	NN|10285313-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	dog	dog	NOUN	NN	_	6	pobj	_	NN|02084071-n|Canine+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	baby	baby	NOUN	NN	_	2	nsubj	_	NN|09827683-n|HumanBaby=
+5	playing	play	VERB	VBG	_	4	partmod	_	VBG|01719302-v|DramaticActing+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	dog	dog	NOUN	NN	_	6	pobj	_	NN|02084071-n|Canine+
+9	.	.	.	.	_	2	punct	_	Fp|?|?

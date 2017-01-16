@@ -1,0 +1,43 @@
+sentence A = A man is sitting peacefully on a boat in front of the sunset near a flag.
+sentence B = A man is on a boat in front of the sunset.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,PhysicalAttribute+,SittingDown+,SubjectiveAssessmentAttribute+,WaterVehicle=,FrontFn=,Sunset+,Flag+
+CONCEPTS B: Hominid=,Entity+,WaterVehicle=,FrontFn=,Sunset+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	peacefully	peacefully	ADV	RB	_	4	advmod	_	RB|00109817-r|SubjectiveAssessmentAttribute+
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	boat	boat	NOUN	NN	_	6	pobj	_	NN|02858304-n|WaterVehicle=
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	front	front	NOUN	NN	_	9	pobj	_	NN|08573472-n|FrontFn=
+11	of	of	ADP	IN	_	10	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	sunset	sunset	NOUN	NN	_	11	pobj	_	NN|15169248-n|Sunset+
+14	near	near	ADP	IN	_	13	prep	_	IN|?|?
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	flag	flag	NOUN	NN	_	14	pobj	_	NN|03354903-n|Flag+
+17	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	3	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+4	on	on	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	boat	boat	NOUN	NN	_	4	pobj	_	NN|02858304-n|WaterVehicle=
+7	in	in	ADP	IN	_	3	prep	_	IN|?|?
+8	front	front	NOUN	NN	_	7	pobj	_	NN|08573472-n|FrontFn=
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	sunset	sunset	NOUN	NN	_	9	pobj	_	NN|15169248-n|Sunset+
+12	.	.	.	.	_	3	punct	_	Fp|?|?

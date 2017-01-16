@@ -1,0 +1,32 @@
+sentence A = A person is performing a card trick.
+sentence B = A person is doing a trick with some cards.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Human=,Entity+,IntentionalProcess+,PlayingCard+,RecreationOrExercise+
+CONCEPTS B: Human=,Entity+,IntentionalProcess+,RecreationOrExercise+,PlayingCard+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	card	card	NOUN	NN	_	7	nn	_	NN|02962545-n|PlayingCard+
+7	trick	trick	NOUN	NN	_	4	dobj	_	NN|00427580-n|RecreationOrExercise+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	trick	trick	NOUN	NN	_	4	dobj	_	NN|00427580-n|RecreationOrExercise+
+7	with	with	ADP	IN	_	4	prep	_	IN|?|?
+8	some	some	DET	DT	_	9	det	_	DT|?|?
+9	cards	card	NOUN	NNS	_	7	pobj	_	NNS|02962545-n|PlayingCard+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

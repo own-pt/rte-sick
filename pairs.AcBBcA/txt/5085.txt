@@ -1,0 +1,31 @@
+sentence A = A man is fishing in the river.
+sentence B = There is no man fishing in the river.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Hominid=,Entity+,Pursuing+,River=
+CONCEPTS B: Entity+,Hominid=,FishingSport=,River=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	fishing	fish	VERB	VBG	_	0	ROOT	_	VBG|01140794-v|Pursuing+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	river	river	NOUN	NN	_	5	pobj	_	NN|09411430-n|River=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	fishing	fishing	VERB	VBG	_	4	partmod	_	NN|00453935-n|FishingSport=
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	river	river	NOUN	NN	_	6	pobj	_	NN|09411430-n|River=
+9	.	.	.	.	_	2	punct	_	Fp|?|?

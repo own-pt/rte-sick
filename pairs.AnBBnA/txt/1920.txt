@@ -1,0 +1,32 @@
+sentence A = The man is driving a car.
+sentence B = The man has a window of time to clean himself.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Transportation+,Automobile=
+CONCEPTS B: Hominid=,Damaging+,Window=,IntentionalProcess=,Cleaning=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	driving	drive	VERB	VBG	_	0	ROOT	_	VBG|01930874-v|Transportation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	car	car	NOUN	NN	_	4	dobj	_	NN|02958343-n|Automobile=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	3	nsubj	_	NN|02472293-n|Hominid=
+3	has	have	VERB	VBZ	_	0	ROOT	_	VBZ|00065639-v|Damaging+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	window	window	NOUN	NN	_	3	dobj	_	NN|04587648-n|Window=
+6	of	of	ADP	IN	_	5	prep	_	IN|?|?
+7	time	time	NOUN	NN	_	6	pobj	_	NN|07309599-n|IntentionalProcess=
+8	to	to	PRT	TO	_	9	aux	_	TO|?|?
+9	clean	clean	VERB	VB	_	5	infmod	_	VB|01532589-v|Cleaning=
+10	himself	himself	PRON	PRP	_	9	dobj	_	PRP|?|?
+11	.	.	.	.	_	3	punct	_	Fp|?|?

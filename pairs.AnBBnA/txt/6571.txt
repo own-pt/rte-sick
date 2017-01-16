@@ -1,0 +1,38 @@
+sentence A = The bicyclist is riding on a city street.
+sentence B = A woman is parking a blue bicycle and is wearing lots of riding helmets.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Transportation+,City=,Roadway=
+CONCEPTS B: Woman=,Entity+,Putting+,SubjectiveStrongNegativeAttribute+,Bicycle=,Entity+,CoveringFn=,LandArea+,Carrying=,Clothing+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	bicyclist	bicyclist	NOUN	NN	_	4	nsubj	_	NN|09986189-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	city	city	NOUN	NN	_	8	nn	_	NN|08524735-n|City=
+8	street	street	NOUN	NN	_	5	pobj	_	NN|04334599-n|Roadway=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	parking	park	VERB	VBG	_	0	ROOT	_	VBG|01493380-v|Putting+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	blue	blue	ADJ	JJ	_	7	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+7	bicycle	bicycle	NOUN	NN	_	4	dobj	_	NN|02834778-n|Bicycle=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	wearing	wear	VERB	VBG	_	4	conj	_	VBG|00047745-v|CoveringFn=
+11	lots	lot	NOUN	NNS	_	10	dobj	_	NNS|08674970-n|LandArea+
+12	of	of	ADP	IN	_	11	prep	_	IN|?|?
+13	riding	ride	VERB	VBG	_	12	pcomp	_	VBG|01955984-v|Carrying=
+14	helmets	helmet	NOUN	NNS	_	13	dobj	_	NNS|03513376-n|Clothing+
+15	.	.	.	.	_	4	punct	_	Fp|?|?

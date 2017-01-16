@@ -1,0 +1,28 @@
+sentence A = One man is leading the race.
+sentence B = A man is leading the race.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Hominid=,Entity+,FrontFn+,Racing=
+CONCEPTS B: Hominid=,Entity+,FrontFn+,Racing=
+
+CONLL A:
+
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	leading	lead	VERB	VBG	_	0	ROOT	_	VBG|00198904-a|FrontFn+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	race	race	NOUN	NN	_	4	dobj	_	NN|07458453-n|Racing=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	leading	lead	VERB	VBG	_	0	ROOT	_	VBG|00198904-a|FrontFn+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	race	race	NOUN	NN	_	4	dobj	_	NN|07458453-n|Racing=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

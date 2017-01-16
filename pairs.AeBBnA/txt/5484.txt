@@ -1,0 +1,33 @@
+sentence A = The lady is cracking an egg into a bowl.
+sentence B = The person is cracking eggs into a bowl.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Damaging+,Gland+,Dish+
+CONCEPTS B: Human=,Entity+,Damaging+,Gland+,Dish+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	lady	lady	NOUN	NN	_	4	nsubj	_	NN|09989290-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cracking	crack	VERB	VBG	_	0	ROOT	_	VBG|00336260-v|Damaging+
+5	an	a	DET	DT	_	6	det	_	DT|?|?
+6	egg	egg	NOUN	NN	_	4	dobj	_	NN|05524615-n|Gland+
+7	into	into	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	bowl	bowl	NOUN	NN	_	7	pobj	_	NN|02880940-n|Dish+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cracking	crack	VERB	VBG	_	0	ROOT	_	VBG|00336260-v|Damaging+
+5	eggs	egg	NOUN	NNS	_	4	dobj	_	NNS|05524615-n|Gland+
+6	into	into	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	bowl	bowl	NOUN	NN	_	6	pobj	_	NN|02880940-n|Dish+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

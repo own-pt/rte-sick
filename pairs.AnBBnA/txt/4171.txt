@@ -1,0 +1,37 @@
+sentence A = The man is erasing the other man's work from the board.
+sentence B = The man is erasing the drawing on the board.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Removing+,equal+,Hominid=,Artifact+,Table+
+CONCEPTS B: Hominid=,Entity+,Removing+,Game+,Table+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	erasing	erase	VERB	VBG	_	0	ROOT	_	VBG|01548718-v|Removing+
+5	the	the	DET	DT	_	7	det	_	DT|?|?
+6	other	other	ADJ	JJ	_	7	amod	_	JJ|02069355-a|equal+
+7	man	man	NOUN	NN	_	9	poss	_	NN|02472293-n|Hominid=
+8	's	's	PRT	POS	_	7	possessive	_	POS|?|?
+9	work	work	NOUN	NN	_	4	dobj	_	NN|04599396-n|Artifact+
+10	from	from	ADP	IN	_	4	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	board	board	NOUN	NN	_	10	pobj	_	NN|03201208-n|Table+
+13	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	erasing	erase	VERB	VBG	_	0	ROOT	_	VBG|01548718-v|Removing+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	drawing	drawing	NOUN	NN	_	4	dobj	_	NN|00508091-n|Game+
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	board	board	NOUN	NN	_	7	pobj	_	NN|03201208-n|Table+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

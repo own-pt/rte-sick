@@ -1,0 +1,27 @@
+sentence A = A cat is playing a piano.
+sentence B = A cat is playing keyboards.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Whip+,Entity+,DramaticActing+,Piano=
+CONCEPTS B: Whip+,Entity+,DramaticActing+,ComputerInputDevice+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	4	nsubj	_	NN|02985606-n|Whip+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	piano	piano	NOUN	NN	_	4	dobj	_	NN|03928116-n|Piano=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	4	nsubj	_	NN|02985606-n|Whip+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	keyboards	keyboard	NOUN	NNS	_	4	dobj	_	NNS|03614007-n|ComputerInputDevice+
+6	.	.	.	.	_	4	punct	_	Fp|?|?

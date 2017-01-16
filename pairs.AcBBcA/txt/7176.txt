@@ -1,0 +1,39 @@
+sentence A = A child is holding a camera in front of his face.
+sentence B = There is no child holding a camera in front of his face.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: HumanChild=,Entity+,Process+,Camera=,FrontFn=,Face+
+CONCEPTS B: Entity+,HumanChild=,Process+,Camera=,FrontFn=,Face+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|01217043-v|Process+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	camera	camera	NOUN	NN	_	4	dobj	_	NN|02942699-n|Camera=
+7	in	in	ADP	IN	_	4	prep	_	IN|?|?
+8	front	front	NOUN	NN	_	7	pobj	_	NN|08573472-n|FrontFn=
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	his	his	PRON	PRP$	_	11	poss	_	PRP$|?|?
+11	face	face	NOUN	NN	_	9	pobj	_	NN|05600637-n|Face+
+12	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	child	child	NOUN	NN	_	2	nsubj	_	NN|09917593-n|HumanChild=
+5	holding	hold	VERB	VBG	_	4	partmod	_	VBG|01217043-v|Process+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	camera	camera	NOUN	NN	_	5	dobj	_	NN|02942699-n|Camera=
+8	in	in	ADP	IN	_	5	prep	_	IN|?|?
+9	front	front	NOUN	NN	_	8	pobj	_	NN|08573472-n|FrontFn=
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	his	his	PRON	PRP$	_	12	poss	_	PRP$|?|?
+12	face	face	NOUN	NN	_	10	pobj	_	NN|05600637-n|Face+
+13	.	.	.	.	_	2	punct	_	Fp|?|?

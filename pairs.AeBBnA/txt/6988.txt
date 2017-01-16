@@ -1,0 +1,32 @@
+sentence A = Two twin preteen boys are dueling with sticks.
+sentence B = Two twin preteen kids are dueling with sticks.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Artifact+,Human+,Entity+,ViolentContest+,Attaching+
+CONCEPTS B: Artifact+,HumanChild=,Entity+,ViolentContest+,Attaching+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	4	num	_	Z|?|?
+2	twin	twin	NOUN	NN	_	4	amod	_	NN|03117939-n|Artifact+
+3	preteen	preteen	NOUN	NN	_	4	nn	_	JJ|01649271-a|?
+4	boys	boy	NOUN	NNS	_	6	nsubj	_	NNS|10285313-n|Human+
+5	are	be	VERB	VBP	_	6	aux	_	VBP|02604760-v|Entity+
+6	dueling	duel	VERB	VBG	_	0	ROOT	_	VBG|01121948-v|ViolentContest+
+7	with	with	ADP	IN	_	6	prep	_	IN|?|?
+8	sticks	stick	NOUN	NNS	_	7	pobj	_	VBZ|01614581-v|Attaching+
+9	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	4	num	_	Z|?|?
+2	twin	twin	NOUN	NN	_	4	amod	_	NN|03117939-n|Artifact+
+3	preteen	preteen	ADJ	JJ	_	4	amod	_	JJ|01649271-a|?
+4	kids	kid	NOUN	NNS	_	6	nsubj	_	NNS|09917593-n|HumanChild=
+5	are	be	VERB	VBP	_	6	aux	_	VBP|02604760-v|Entity+
+6	dueling	duel	VERB	VBG	_	0	ROOT	_	VBG|01121948-v|ViolentContest+
+7	with	with	ADP	IN	_	6	prep	_	IN|?|?
+8	sticks	stick	NOUN	NNS	_	7	pobj	_	VBZ|01614581-v|Attaching+
+9	.	.	.	.	_	6	punct	_	Fp|?|?

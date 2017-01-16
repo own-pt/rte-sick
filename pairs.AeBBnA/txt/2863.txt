@@ -1,0 +1,30 @@
+sentence A = Two bikes are being ridden by two people.
+sentence B = Two people are riding a bike.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Bicycle=,Entity+,Entity+,Transportation+,GroupOfPeople=
+CONCEPTS B: GroupOfPeople=,Entity+,Transportation+,Bicycle=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	bikes	bike	NOUN	NNS	_	5	nsubjpass	_	NNS|02834778-n|Bicycle=
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	ridden	ride	VERB	VBN	_	0	ROOT	_	VBN|02102398-v|Transportation+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	two	2	NUM	CD	_	8	num	_	Z|?|?
+8	people	people	NOUN	NNS	_	6	pobj	_	NNS|07942152-n|GroupOfPeople=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	bike	bike	NOUN	NN	_	4	dobj	_	NN|02834778-n|Bicycle=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

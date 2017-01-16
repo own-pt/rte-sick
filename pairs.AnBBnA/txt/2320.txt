@@ -1,0 +1,34 @@
+sentence A = The man is hammering a nail with a camera.
+sentence B = Someone is nailing a camera lens with loud bangs.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,ShapeChange+,Nail=,Camera=
+CONCEPTS B: Entity+,Impacting+,Camera=,Lens+,SubjectiveAssessmentAttribute+,Impacting+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	hammering	hammer	VERB	VBG	_	0	ROOT	_	VBG|01675245-v|ShapeChange+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	nail	nail	NOUN	NN	_	4	dobj	_	NN|03804744-n|Nail=
+7	with	with	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	camera	camera	NOUN	NN	_	7	pobj	_	NN|02942699-n|Camera=
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	nailing	nail	VERB	VBG	_	0	ROOT	_	VBG|01401772-v|Impacting+
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	camera	camera	NOUN	NN	_	6	nn	_	NN|02942699-n|Camera=
+6	lens	lens	NOUN	NN	_	3	dobj	_	NN|03656484-n|Lens+
+7	with	with	ADP	IN	_	3	prep	_	IN|?|?
+8	loud	loud	ADJ	JJ	_	9	amod	_	JJ|01452593-a|SubjectiveAssessmentAttribute+
+9	bangs	bang	NOUN	NNS	_	7	pobj	_	NNS|07410207-n|Impacting+
+10	.	.	.	.	_	3	punct	_	Fp|?|?

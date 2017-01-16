@@ -1,0 +1,50 @@
+sentence A = A man in a shirt dyed purple is looking at a man in a black shirt who is doing a funny face.
+sentence B = A man in a pose is being amusedly watched by another man.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Man=,Shirt=,Coloring+,ColorAttribute+,Entity+,SubjectiveAssessmentAttribute+,Man=,Black=,Shirt=,Entity+,IntentionalProcess+,SubjectiveStrongPositiveAttribute+,FacialExpression=
+CONCEPTS B: Hominid=,Pretending+,Entity+,Entity+,Looking=,Hominid=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	9	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	7	det	_	DT|?|?
+5	shirt	shirt	NOUN	NN	_	6	dep	_	NN|04197391-n|Shirt=
+6	dyed	dye	VERB	VBN	_	7	amod	_	VBN|00283090-v|Coloring+
+7	purple	purple	NOUN	NN	_	3	pobj	_	NN|04970059-n|ColorAttribute+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+10	at	at	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	man	man	NOUN	NN	_	10	pobj	_	NN|10287213-n|Man=
+13	in	in	ADP	IN	_	9	prep	_	IN|?|?
+14	a	a	DET	DT	_	16	det	_	DT|?|?
+15	black	black	ADJ	JJ	_	16	amod	_	JJ|00392812-a|Black=
+16	shirt	shirt	NOUN	NN	_	13	pobj	_	NN|04197391-n|Shirt=
+17	who	who	PRON	WP	_	19	nsubj	_	WP|?|?
+18	is	be	VERB	VBZ	_	19	aux	_	VBZ|02604760-v|Entity+
+19	doing	do	VERB	VBG	_	16	rcmod	_	VBG|01712704-v|IntentionalProcess+
+20	a	a	DET	DT	_	22	det	_	DT|?|?
+21	funny	funny	ADJ	JJ	_	22	amod	_	JJ|01265308-a|SubjectiveStrongPositiveAttribute+
+22	face	face	NOUN	NN	_	19	dobj	_	NN|04679738-n|FacialExpression=
+23	.	.	.	.	_	9	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	9	nsubjpass	_	NN|02472293-n|Hominid=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	pose	pose	NOUN	NN	_	3	pobj	_	NN|00755673-n|Pretending+
+6	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+7	being	be	VERB	VBG	_	9	auxpass	_	VBG|02604760-v|Entity+
+8	amusedly	amusedly	ADV	RB	_	9	advmod	_	RB|?|?
+9	watched	watch	VERB	VBN	_	0	ROOT	_	VBN|02150948-v|Looking=
+10	by	by	ADP	IN	_	9	prep	_	IN|?|?
+11	another	another	DET	DT	_	12	det	_	DT|?|?
+12	man	man	NOUN	NN	_	10	pobj	_	NN|02472293-n|Hominid=
+13	.	.	.	.	_	9	punct	_	Fp|?|?

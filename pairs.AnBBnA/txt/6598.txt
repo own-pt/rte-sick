@@ -1,0 +1,36 @@
+sentence A = A bee is clinging to a yellow flower.
+sentence B = There is no small bee landing on a bunch of yellow flowers.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Bee=,Entity+,Touching+,SubjectiveAssessmentAttribute+,Flower+
+CONCEPTS B: Entity+,SubjectiveStrongNegativeAttribute+,Bee=,Arriving+,Collection+,SubjectiveAssessmentAttribute+,Flower+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	bee	bee	NOUN	NN	_	4	nsubj	_	NN|02206856-n|Bee=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	clinging	cling	VERB	VBG	_	0	ROOT	_	VBG|01220885-v|Touching+
+5	to	to	ADP	IN	_	4	prep	_	TO|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	yellow	yellow	ADJ	JJ	_	8	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+8	flower	flower	NOUN	NN	_	5	pobj	_	NN|11669335-n|Flower+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	6	det	_	DT|?|?
+4	small	small	ADJ	JJ	_	6	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+5	bee	bee	NOUN	NN	_	6	nn	_	NN|02206856-n|Bee=
+6	landing	landing	NOUN	NN	_	2	nsubj	_	NN|00052334-n|Arriving+
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	bunch	bunch	NOUN	NN	_	7	pobj	_	NN|07959943-n|Collection+
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	yellow	yellow	ADJ	JJ	_	12	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+12	flowers	flower	NOUN	NNS	_	10	pobj	_	NNS|11669335-n|Flower+
+13	.	.	.	.	_	2	punct	_	Fp|?|?

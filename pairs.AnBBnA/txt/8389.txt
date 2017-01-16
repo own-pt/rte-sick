@@ -1,0 +1,42 @@
+sentence A = A white man is walking next to a building in a big city.
+sentence B = A black man is walking next to a building in a big city.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: White=,Hominid=,Entity+,Walking=,Position+,Building=,SubjectiveWeakPositiveAttribute+,City=
+CONCEPTS B: Black=,Hominid=,Entity+,Walking=,Position+,Building=,SubjectiveWeakPositiveAttribute+,City=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+6	next	next	ADV	RB	_	5	advmod	_	JJ|01294975-a|Position+
+7	to	to	ADP	IN	_	6	prep	_	TO|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	building	building	NOUN	NN	_	7	pobj	_	NN|02913152-n|Building=
+10	in	in	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	big	big	ADJ	JJ	_	13	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+13	city	city	NOUN	NN	_	10	pobj	_	NN|08524735-n|City=
+14	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+6	next	next	ADV	RB	_	5	advmod	_	JJ|01294975-a|Position+
+7	to	to	ADP	IN	_	6	prep	_	TO|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	building	building	NOUN	NN	_	7	pobj	_	NN|02913152-n|Building=
+10	in	in	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	big	big	ADJ	JJ	_	13	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+13	city	city	NOUN	NN	_	10	pobj	_	NN|08524735-n|City=
+14	.	.	.	.	_	5	punct	_	Fp|?|?

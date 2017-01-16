@@ -1,0 +1,38 @@
+sentence A = Two girls are laughing and other girls are watching them.
+sentence B = There is no girl laughing and there is no other girl watching.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Human+,Entity+,Laughing=,equal+,Human+,Entity+,Looking=
+CONCEPTS B: Entity+,Human+,Laughing=,Entity+,equal+,Human+,Looking=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	girls	girl	NOUN	NNS	_	4	nsubj	_	NNS|10129825-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	laughing	laugh	VERB	VBG	_	0	ROOT	_	VBG|00031820-v|Laughing=
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	other	other	ADJ	JJ	_	7	amod	_	JJ|02069355-a|equal+
+7	girls	girl	NOUN	NNS	_	9	nsubj	_	NNS|10129825-n|Human+
+8	are	be	VERB	VBP	_	9	aux	_	VBP|02604760-v|Entity+
+9	watching	watch	VERB	VBG	_	4	conj	_	VBG|02150948-v|Looking=
+10	them	them	PRON	PRP	_	9	dobj	_	PRP|?|?
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	girl	girl	NOUN	NN	_	2	nsubj	_	NN|10129825-n|Human+
+5	laughing	laugh	VERB	VBG	_	4	partmod	_	VBG|00031820-v|Laughing=
+6	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+7	there	there	DET	EX	_	8	expl	_	EX|?|?
+8	is	be	VERB	VBZ	_	2	conj	_	VBZ|02604760-v|Entity+
+9	no	no	DET	DT	_	11	det	_	DT|?|?
+10	other	other	ADJ	JJ	_	11	amod	_	JJ|02069355-a|equal+
+11	girl	girl	NOUN	NN	_	8	nsubj	_	NN|10129825-n|Human+
+12	watching	watch	VERB	VBG	_	11	partmod	_	VBG|02150948-v|Looking=
+13	.	.	.	.	_	2	punct	_	Fp|?|?

@@ -1,0 +1,24 @@
+sentence A = A jet is flying.
+sentence B = A dog is barking.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: JetAirplane=,Entity+,FlyingAircraft=
+CONCEPTS B: Canine+,Entity+,RadiatingSound+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	jet	jet	NOUN	NN	_	4	nsubj	_	NN|03595860-n|JetAirplane=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	flying	fly	VERB	VBG	_	0	ROOT	_	VBG|01941093-v|FlyingAircraft=
+5	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	barking	bark	VERB	VBG	_	0	ROOT	_	VBG|01047745-v|RadiatingSound+
+5	.	.	.	.	_	4	punct	_	Fp|?|?

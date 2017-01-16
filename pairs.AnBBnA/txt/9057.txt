@@ -1,0 +1,38 @@
+sentence A = Two kids are sticking out blue and green colored tongues.
+sentence B = Two young boys are wearing hats and sticking their colored tongues out.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanChild=,Entity+,Attaching+,Giving+,SubjectiveStrongNegativeAttribute+,Green=,SurfaceChange+,Tongue=
+CONCEPTS B: HumanYouth=,Human+,Entity+,CoveringFn=,Hat+,Attaching+,SurfaceChange+,Tongue=,Giving+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	kids	kid	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	sticking	stick	VERB	VBG	_	0	ROOT	_	VBG|01614581-v|Attaching+
+5	out	out	PRT	RP	_	4	prt	_	RP|00233413-r|Giving+
+6	blue	blue	ADJ	JJ	_	10	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	green	green	ADJ	JJ	_	6	conj	_	JJ|00375969-a|Green=
+9	colored	color	VERB	VBN	_	10	amod	_	VBN|00283911-v|SurfaceChange+
+10	tongues	tongue	NOUN	NNS	_	4	dobj	_	NNS|05301072-n|Tongue=
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	boys	boy	NOUN	NNS	_	5	nsubj	_	NNS|10285313-n|Human+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+6	hats	hat	NOUN	NNS	_	5	dobj	_	NNS|03497657-n|Hat+
+7	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+8	sticking	stick	VERB	VBG	_	5	conj	_	VBG|01614581-v|Attaching+
+9	their	their	PRON	PRP$	_	11	poss	_	PRP$|?|?
+10	colored	color	VERB	VBN	_	11	amod	_	VBN|00283911-v|SurfaceChange+
+11	tongues	tongue	NOUN	NNS	_	8	dobj	_	NNS|05301072-n|Tongue=
+12	out	out	PRT	RP	_	8	prt	_	RP|00233413-r|Giving+
+13	.	.	.	.	_	5	punct	_	Fp|?|?

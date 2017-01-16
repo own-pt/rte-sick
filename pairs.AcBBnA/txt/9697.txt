@@ -1,0 +1,36 @@
+sentence A = A woman is showing a small cat to an infant.
+sentence B = A woman is showing a small dog to an infant.
+entailm AB = A_contradicts_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Expressing=,SubjectiveStrongNegativeAttribute+,Whip+,HumanBaby=
+CONCEPTS B: Woman=,Entity+,Expressing=,SubjectiveStrongNegativeAttribute+,Canine+,HumanBaby=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	showing	show	VERB	VBG	_	0	ROOT	_	VBG|00943837-v|Expressing=
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	small	small	ADJ	JJ	_	7	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+7	cat	cat	NOUN	NN	_	4	dobj	_	NN|02985606-n|Whip+
+8	to	to	ADP	IN	_	4	prep	_	TO|?|?
+9	an	a	DET	DT	_	10	det	_	DT|?|?
+10	infant	infant	NOUN	NN	_	8	pobj	_	NN|09827683-n|HumanBaby=
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	showing	show	VERB	VBG	_	0	ROOT	_	VBG|00943837-v|Expressing=
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	small	small	ADJ	JJ	_	7	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+7	dog	dog	NOUN	NN	_	4	dobj	_	NN|02084071-n|Canine+
+8	to	to	ADP	IN	_	4	prep	_	TO|?|?
+9	an	a	DET	DT	_	10	det	_	DT|?|?
+10	infant	infant	NOUN	NN	_	8	pobj	_	NN|09827683-n|HumanBaby=
+11	.	.	.	.	_	4	punct	_	Fp|?|?

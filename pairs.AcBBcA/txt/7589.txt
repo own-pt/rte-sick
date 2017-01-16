@@ -1,0 +1,56 @@
+sentence A = A person is ignoring the motocross bike that is lying on its side and there is no one is racing by.
+sentence B = A person is looking at a motocross bike that is lying on its side and another is racing by.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Human=,Entity+,IntentionalProcess+,Bicycle=,Entity+,PhysicalAttribute+,Object+,Entity+,PositiveInteger@,Entity+,Motion+
+CONCEPTS B: Human=,Entity+,SubjectiveAssessmentAttribute+,Bicycle=,Entity+,PhysicalAttribute+,Region+,Entity+,Motion+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	ignoring	ignore	VERB	VBG	_	0	ROOT	_	VBG|00800930-v|IntentionalProcess+
+5	the	the	DET	DT	_	7	det	_	DT|?|?
+6	motocross	motocross	NOUN	NN	_	7	nn	_	NN|?|?
+7	bike	bike	NOUN	NN	_	4	dobj	_	NN|02834778-n|Bicycle=
+8	that	that	DET	WDT	_	10	nsubj	_	WDT|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	lying	lie	VERB	VBG	_	7	rcmod	_	VBG|02690708-v|PhysicalAttribute+
+11	on	on	ADP	IN	_	10	prep	_	IN|?|?
+12	its	its	PRON	PRP$	_	13	poss	_	PRP$|?|?
+13	side	side	NOUN	NN	_	11	pobj	_	NN|08510666-n|Object+
+14	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+15	there	there	DET	EX	_	16	expl	_	EX|?|?
+16	is	be	VERB	VBZ	_	4	conj	_	VBZ|02604760-v|Entity+
+17	no	no	DET	DT	_	18	det	_	DT|?|?
+18	one	one	NOUN	NN	_	20	nsubj	_	NN|13742573-n|PositiveInteger@
+19	is	be	VERB	VBZ	_	20	aux	_	VBZ|02604760-v|Entity+
+20	racing	race	VERB	VBG	_	16	ccomp	_	VBG|02058994-v|Motion+
+21	by	by	ADP	IN	_	20	advmod	_	IN|?|?
+22	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	motocross	motocross	ADJ	JJ	_	8	amod	_	NN|?|?
+8	bike	bike	NOUN	NN	_	5	pobj	_	NN|02834778-n|Bicycle=
+9	that	that	DET	WDT	_	11	nsubj	_	WDT|?|?
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	lying	lie	VERB	VBG	_	8	rcmod	_	VBG|02690708-v|PhysicalAttribute+
+12	on	on	ADP	IN	_	11	prep	_	IN|?|?
+13	its	its	PRON	PRP$	_	14	poss	_	PRP$|?|?
+14	side	side	NOUN	NN	_	12	pobj	_	NN|08649345-n|Region+
+15	and	and	CONJ	CC	_	11	cc	_	CC|?|?
+16	another	another	DET	DT	_	18	nsubj	_	DT|?|?
+17	is	be	VERB	VBZ	_	18	aux	_	VBZ|02604760-v|Entity+
+18	racing	race	VERB	VBG	_	11	conj	_	VBG|02058994-v|Motion+
+19	by	by	ADP	IN	_	18	advmod	_	IN|?|?
+20	.	.	.	.	_	4	punct	_	Fp|?|?

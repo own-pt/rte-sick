@@ -1,0 +1,40 @@
+sentence A = People wearing costumes are gathering in a forest and are looking in the same direction.
+sentence B = A little girl in costume looks like a woman.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GroupOfPeople=,Dressing+,Clothing+,Entity+,Meeting+,Forest=,Entity+,Searching=,equal+,DirectionalAttribute=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Clothing+,SubjectiveAssessmentAttribute+,Woman=
+
+CONLL A:
+
+1	People	people	NOUN	NNS	_	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
+2	wearing	wear	VERB	VBG	_	1	partmod	_	VBG|00050652-v|Dressing+
+3	costumes	costume	NOUN	NNS	_	2	dobj	_	NNS|03113657-n|Clothing+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	gathering	gather	VERB	VBG	_	0	ROOT	_	VBG|02428924-v|Meeting+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	forest	forest	NOUN	NN	_	6	pobj	_	NN|09284015-n|Forest=
+9	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+10	are	be	VERB	VBP	_	11	aux	_	VBP|02604760-v|Entity+
+11	looking	look	VERB	VBG	_	5	conj	_	VBG|02153709-v|Searching=
+12	in	in	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	15	det	_	DT|?|?
+14	same	same	ADJ	JJ	_	15	amod	_	JJ|02062670-a|equal+
+15	direction	direction	NOUN	NN	_	12	pobj	_	NN|13827426-n|DirectionalAttribute=
+16	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	_	6	nsubj	_	NN|10129825-n|Human+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	costume	costume	NOUN	NN	_	4	pobj	_	NN|03113657-n|Clothing+
+6	looks	look	VERB	VBZ	_	0	ROOT	_	VBZ|02133435-v|SubjectiveAssessmentAttribute+
+7	like	like	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	woman	woman	NOUN	NN	_	7	pobj	_	NN|10787470-n|Woman=
+10	.	.	.	.	_	6	punct	_	Fp|?|?

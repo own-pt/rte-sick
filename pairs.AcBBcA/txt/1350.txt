@@ -1,0 +1,33 @@
+sentence A = There is no dog rolling from side to side.
+sentence B = A dog is rolling from side to side.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Canine+,Motion+,Object+,Object+
+CONCEPTS B: Canine+,Entity+,Motion+,Object+,Object+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	dog	dog	NOUN	NN	_	2	nsubj	_	NN|02084071-n|Canine+
+5	rolling	roll	VERB	VBG	_	4	partmod	_	VBG|01866192-v|Motion+
+6	from	from	ADP	IN	_	5	prep	_	IN|?|?
+7	side	side	NOUN	NN	_	6	pobj	_	NN|08510666-n|Object+
+8	to	to	ADP	IN	_	5	prep	_	TO|?|?
+9	side	side	NOUN	NN	_	8	pobj	_	NN|08510666-n|Object+
+10	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	rolling	roll	VERB	VBG	_	0	ROOT	_	VBG|01866192-v|Motion+
+5	from	from	ADP	IN	_	4	prep	_	IN|?|?
+6	side	side	NOUN	NN	_	5	pobj	_	NN|08510666-n|Object+
+7	to	to	ADP	IN	_	4	prep	_	TO|?|?
+8	side	side	NOUN	NN	_	7	pobj	_	NN|08510666-n|Object+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

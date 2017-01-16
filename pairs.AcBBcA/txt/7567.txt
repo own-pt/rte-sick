@@ -1,0 +1,37 @@
+sentence A = The person is flying through the air on a bicycle.
+sentence B = The person is not flying through the air on a bicycle.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Human=,Entity+,FlyingAircraft=,AirTransportation+,Bicycle=
+CONCEPTS B: Human=,Entity+,not=,FlyingAircraft=,AirTransportation+,Bicycle=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	flying	fly	VERB	VBG	_	0	ROOT	_	VBG|01941093-v|FlyingAircraft=
+5	through	through	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	air	air	NOUN	NN	_	5	pobj	_	NN|00300441-n|AirTransportation+
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	bicycle	bicycle	NOUN	NN	_	8	pobj	_	NN|02834778-n|Bicycle=
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	5	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	flying	fly	VERB	VBG	_	0	ROOT	_	VBG|01941093-v|FlyingAircraft=
+6	through	through	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	air	air	NOUN	NN	_	6	pobj	_	NN|00300441-n|AirTransportation+
+9	on	on	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	bicycle	bicycle	NOUN	NN	_	9	pobj	_	NN|02834778-n|Bicycle=
+12	.	.	.	.	_	5	punct	_	Fp|?|?

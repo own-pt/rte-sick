@@ -1,0 +1,36 @@
+sentence A = A bubble blew, dyeing the girl's shirt red.
+sentence B = The young girl is blowing a bubble that is huge.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Bubble+,Exhaling+,Coloring+,Human+,Shirt=,Red+
+CONCEPTS B: HumanYouth=,Human+,Entity+,Exhaling+,Bubble+,Entity+,SubjectiveWeakNegativeAttribute+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	bubble	bubble	NOUN	NN	_	3	nsubj	_	NN|09229709-n|Bubble+
+3	blew	blow	VERB	VBD	_	0	ROOT	_	VBD|00007012-v|Exhaling+
+4	,	,	.	,	_	3	punct	_	Fc|?|?
+5	dyeing	dye	VERB	VBG	_	3	xcomp	_	VBG|00283090-v|Coloring+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	girl	girl	NOUN	NN	_	10	poss	_	NN|10129825-n|Human+
+8	's	's	PRT	POS	_	7	possessive	_	POS|?|?
+9	shirt	shirt	NOUN	NN	_	10	nn	_	NN|04197391-n|Shirt=
+10	red	red	ADJ	JJ	_	5	dobj	_	NN|04962784-n|Red+
+11	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	blowing	blow	VERB	VBG	_	0	ROOT	_	VBG|00007012-v|Exhaling+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	bubble	bubble	NOUN	NN	_	5	dobj	_	NN|09229709-n|Bubble+
+8	that	that	DET	WDT	_	10	nsubj	_	WDT|?|?
+9	is	be	VERB	VBZ	_	10	cop	_	VBZ|02604760-v|Entity+
+10	huge	huge	ADJ	JJ	_	7	rcmod	_	JJ|01387319-a|SubjectiveWeakNegativeAttribute+
+11	.	.	.	.	_	5	punct	_	Fp|?|?

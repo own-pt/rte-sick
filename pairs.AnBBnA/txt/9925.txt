@@ -1,0 +1,33 @@
+sentence A = A woman is cracking some eggs into a bowl.
+sentence B = A kid is speeding down a steep slide.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Damaging+,Gland+,Dish+
+CONCEPTS B: HumanChild=,Entity+,Accelerating+,earlier+,LandArea+,Artifact+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cracking	crack	VERB	VBG	_	0	ROOT	_	VBG|00336260-v|Damaging+
+5	some	some	DET	DT	_	6	det	_	DT|?|?
+6	eggs	egg	NOUN	NNS	_	4	dobj	_	NNS|05524615-n|Gland+
+7	into	into	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	bowl	bowl	NOUN	NN	_	7	pobj	_	NN|02880940-n|Dish+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	kid	kid	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	speeding	speed	VERB	VBG	_	0	ROOT	_	VBG|00438178-v|Accelerating+
+5	down	down	PRT	RP	_	4	prt	_	RP|00095320-r|earlier+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	steep	steep	ADJ	JJ	_	8	amod	_	JJ|01144887-a|LandArea+
+8	slide	slide	NOUN	NN	_	4	dobj	_	NN|03029603-n|Artifact+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

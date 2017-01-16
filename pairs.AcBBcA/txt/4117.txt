@@ -1,0 +1,29 @@
+sentence A = A cute panda is lying down.
+sentence B = A cute panda is not lying down.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: SubjectiveStrongPositiveAttribute+,Carnivore+,Entity+,PhysicalAttribute+,earlier+
+CONCEPTS B: SubjectiveStrongPositiveAttribute+,Carnivore+,Entity+,not=,PhysicalAttribute+,earlier+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	cute	cute	ADJ	JJ	_	3	amod	_	JJ|00167278-a|SubjectiveStrongPositiveAttribute+
+3	panda	panda	NOUN	NN	_	5	nsubj	_	NN|02510455-n|Carnivore+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+6	down	down	PRT	RP	_	5	prt	_	RP|00096089-r|earlier+
+7	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	cute	cute	ADJ	JJ	_	3	amod	_	JJ|00167278-a|SubjectiveStrongPositiveAttribute+
+3	panda	panda	NOUN	NN	_	6	nsubj	_	NN|02510455-n|Carnivore+
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	not	not	ADV	RB	_	6	neg	_	RB|00024073-r|not=
+6	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+7	down	down	PRT	RP	_	6	prt	_	RP|00096089-r|earlier+
+8	.	.	.	.	_	6	punct	_	Fp|?|?

@@ -1,0 +1,44 @@
+sentence A = The girl, who is little, is swinging and the woman is standing behind.
+sentence B = A red dog is jumping and catching a tennis ball in its mouth.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,SubjectiveStrongNegativeAttribute+,Entity+,Ambulating=,Woman=,Entity+,PhysicalAttribute+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Red=,Canine+,Entity+,Ambulating=,Grabbing+,Tennis=,Ball=,Mouth+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	9	nsubj	_	NN|10129825-n|Human+
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	_	6	nsubj	_	WP|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	little	little	ADJ	JJ	_	2	rcmod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+7	,	,	.	,	_	2	punct	_	Fc|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	swinging	swing	VERB	VBG	_	0	ROOT	_	VBG|01877355-v|Ambulating=
+10	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	woman	woman	NOUN	NN	_	14	nsubj	_	NN|10787470-n|Woman=
+13	is	be	VERB	VBZ	_	14	aux	_	VBZ|02604760-v|Entity+
+14	standing	stand	VERB	VBG	_	9	conj	_	VBG|01546111-v|PhysicalAttribute+
+15	behind	behind	ADV	RB	_	14	advmod	_	RP|00222479-r|SubjectiveAssessmentAttribute+
+16	.	.	.	.	_	9	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	red	red	ADJ	JJ	_	3	amod	_	JJ|00381097-a|Red=
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	catching	catch	VERB	VBG	_	5	conj	_	VBG|01439190-v|Grabbing+
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	tennis	tennis	NOUN	NN	_	10	nn	_	NN|00482298-n|Tennis=
+10	ball	ball	NOUN	NN	_	7	dobj	_	NN|02778669-n|Ball=
+11	in	in	ADP	IN	_	7	prep	_	IN|?|?
+12	its	its	PRON	PRP$	_	13	poss	_	PRP$|?|?
+13	mouth	mouth	NOUN	NN	_	11	pobj	_	NN|05302499-n|Mouth+
+14	.	.	.	.	_	5	punct	_	Fp|?|?

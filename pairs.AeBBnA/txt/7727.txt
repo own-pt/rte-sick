@@ -1,0 +1,31 @@
+sentence A = A child is amazedly experiencing a new world.
+sentence B = A child is experiencing a new world.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanChild=,Entity+,IntentionalPsychologicalProcess+,Damaging[,SubjectiveAssessmentAttribute+
+CONCEPTS B: HumanChild=,Entity+,IntentionalPsychologicalProcess+,Damaging[,SubjectiveAssessmentAttribute+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	amazedly	amazedly	ADV	RB	_	5	advmod	_	RB|?|?
+5	experiencing	experience	VERB	VBG	_	0	ROOT	_	VBG|02110220-v|IntentionalPsychologicalProcess+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	new	new	ADJ	JJ	_	8	amod	_	JJ|02584699-a|Damaging[
+8	world	world	NOUN	NN	_	5	dobj	_	NN|05809878-n|SubjectiveAssessmentAttribute+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	experiencing	experience	VERB	VBG	_	0	ROOT	_	VBG|02110220-v|IntentionalPsychologicalProcess+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	new	new	ADJ	JJ	_	7	amod	_	JJ|02584699-a|Damaging[
+7	world	world	NOUN	NN	_	4	dobj	_	NN|05809878-n|SubjectiveAssessmentAttribute+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

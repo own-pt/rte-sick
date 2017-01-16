@@ -1,0 +1,30 @@
+sentence A = A man is running down the road.
+sentence B = One man is running down the road.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Hominid=,Entity+,Attribute+,earlier+,Roadway+
+CONCEPTS B: Hominid=,Entity+,Attribute+,earlier+,Roadway+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	down	down	ADP	IN	_	4	prep	_	RP|00096089-r|earlier+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	road	road	NOUN	NN	_	5	pobj	_	NN|04096066-n|Roadway+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	down	down	ADP	IN	_	4	prep	_	RP|00096089-r|earlier+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	road	road	NOUN	NN	_	5	pobj	_	NN|04096066-n|Roadway+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

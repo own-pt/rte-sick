@@ -1,0 +1,28 @@
+sentence A = The doctors are reviving a man.
+sentence B = The doctor is helping the patient.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: MedicalDoctor+,Entity+,OrganismProcess+,Hominid=
+CONCEPTS B: MedicalDoctor+,Entity+,Helping=,Human+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	doctors	doctor	NOUN	NNS	_	4	nsubj	_	NNS|10020890-n|MedicalDoctor+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	reviving	revive	VERB	VBG	_	0	ROOT	_	VBG|00098083-v|OrganismProcess+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	man	man	NOUN	NN	_	4	dobj	_	NN|02472293-n|Hominid=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	doctor	doctor	NOUN	NN	_	4	nsubj	_	NN|10020890-n|MedicalDoctor+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	helping	help	VERB	VBG	_	0	ROOT	_	VBG|02547586-v|Helping=
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	patient	patient	NOUN	NN	_	4	dobj	_	NN|10405694-n|Human+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

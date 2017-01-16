@@ -1,0 +1,44 @@
+sentence A = A group of students in uniforms is listening attentively at the front of the class.
+sentence B = A group of students in uniforms is ignoring the front of the class.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Group=,SocialRole+,UniformClothing=,Entity+,Listening=,SubjectiveAssessmentAttribute+,FrontFn=,Organization+
+CONCEPTS B: Group=,SocialRole+,UniformClothing=,Entity+,IntentionalProcess+,FrontFn=,Organization+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	8	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	students	student	NOUN	NNS	_	3	pobj	_	NNS|10665698-n|SocialRole+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	uniforms	uniform	NOUN	NNS	_	5	pobj	_	NNS|04509592-n|UniformClothing=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	listening	listen	VERB	VBG	_	0	ROOT	_	VBG|02169891-v|Listening=
+9	attentively	attentively	ADV	RB	_	8	advmod	_	RB|00196417-r|SubjectiveAssessmentAttribute+
+10	at	at	ADP	IN	_	8	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	front	front	NOUN	NN	_	10	pobj	_	NN|08573472-n|FrontFn=
+13	of	of	ADP	IN	_	12	prep	_	IN|?|?
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	class	class	NOUN	NN	_	13	pobj	_	NN|08239808-n|Organization+
+16	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	8	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	students	student	NOUN	NNS	_	3	pobj	_	NNS|10665698-n|SocialRole+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	uniforms	uniform	NOUN	NNS	_	5	pobj	_	NNS|04509592-n|UniformClothing=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	ignoring	ignore	VERB	VBG	_	0	ROOT	_	VBG|00800930-v|IntentionalProcess+
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	front	front	NOUN	NN	_	8	dobj	_	NN|08573472-n|FrontFn=
+11	of	of	ADP	IN	_	10	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	class	class	NOUN	NN	_	11	pobj	_	NN|08239808-n|Organization+
+14	.	.	.	.	_	8	punct	_	Fp|?|?

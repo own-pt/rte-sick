@@ -1,0 +1,30 @@
+sentence A = A girl is communicating with sign language.
+sentence B = A young boy is using sign language.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,ReligiousProcess+,Character+,Language=
+CONCEPTS B: HumanYouth=,Human+,Entity+,IntentionalProcess+,Character+,Language=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	communicating	communicate	VERB	VBG	_	0	ROOT	_	VBG|01030678-v|ReligiousProcess+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	sign	sign	NOUN	NN	_	7	nn	_	NN|06811625-n|Character+
+7	language	language	NOUN	NN	_	5	pobj	_	NN|06282651-n|Language=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	boy	boy	NOUN	NN	_	5	nsubj	_	NN|10285313-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	using	use	VERB	VBG	_	0	ROOT	_	VBG|01158872-v|IntentionalProcess+
+6	sign	sign	NOUN	NN	_	7	nn	_	NN|06811625-n|Character+
+7	language	language	NOUN	NN	_	5	dobj	_	NN|06282651-n|Language=
+8	.	.	.	.	_	5	punct	_	Fp|?|?

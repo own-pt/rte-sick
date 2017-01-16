@@ -1,0 +1,33 @@
+sentence A = A waterfall is flowing calmly into a shallow pool.
+sentence B = A waterfall is flowing into a shallow pool.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Waterfall=,Entity+,LiquidMotion+,SubjectiveAssessmentAttribute+,SubjectiveWeakNegativeAttribute+,StaticWaterArea+
+CONCEPTS B: Waterfall=,Entity+,LiquidMotion+,SubjectiveWeakNegativeAttribute+,StaticWaterArea+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	waterfall	waterfall	NOUN	NN	_	4	nsubj	_	NN|09475292-n|Waterfall=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	flowing	flow	VERB	VBG	_	0	ROOT	_	VBG|02066939-v|LiquidMotion+
+5	calmly	calmly	ADV	RB	_	4	advmod	_	RB|00186756-r|SubjectiveAssessmentAttribute+
+6	into	into	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	shallow	shallow	ADJ	JJ	_	9	amod	_	JJ|00691696-a|SubjectiveWeakNegativeAttribute+
+9	pool	pool	NOUN	NN	_	6	pobj	_	NN|09397607-n|StaticWaterArea+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	waterfall	waterfall	NOUN	NN	_	4	nsubj	_	NN|09475292-n|Waterfall=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	flowing	flow	VERB	VBG	_	0	ROOT	_	VBG|02066939-v|LiquidMotion+
+5	into	into	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	shallow	shallow	ADJ	JJ	_	8	amod	_	JJ|00691696-a|SubjectiveWeakNegativeAttribute+
+8	pool	pool	NOUN	NN	_	5	pobj	_	NN|09397607-n|StaticWaterArea+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

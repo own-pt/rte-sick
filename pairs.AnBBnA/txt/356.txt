@@ -1,0 +1,40 @@
+sentence A = Two dogs are running and carrying a toy in their mouths.
+sentence B = A dog is chasing another and is holding a stick in its mouth.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,Publication+,Transportation+,RecreationOrExerciseDevice+,Mouth+
+CONCEPTS B: Canine+,Entity+,Pursuing+,Entity+,Process+,Plant+,Mouth+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01746359-v|Publication+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	carrying	carry	VERB	VBG	_	4	conj	_	VBG|01449974-v|Transportation+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	toy	toy	NOUN	NN	_	6	dobj	_	NN|03964744-n|RecreationOrExerciseDevice+
+9	in	in	ADP	IN	_	6	prep	_	IN|?|?
+10	their	their	PRON	PRP$	_	11	poss	_	PRP$|?|?
+11	mouths	mouth	NOUN	NNS	_	9	pobj	_	NNS|05302499-n|Mouth+
+12	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	chasing	chase	VERB	VBG	_	0	ROOT	_	VBG|02001858-v|Pursuing+
+5	another	another	DET	DT	_	4	dobj	_	DT|?|?
+6	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	holding	hold	VERB	VBG	_	4	conj	_	VBG|01217043-v|Process+
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	stick	stick	NOUN	NN	_	8	dobj	_	NN|04317420-n|Plant+
+11	in	in	ADP	IN	_	8	prep	_	IN|?|?
+12	its	its	PRON	PRP$	_	13	poss	_	PRP$|?|?
+13	mouth	mouth	NOUN	NN	_	11	pobj	_	NN|05302499-n|Mouth+
+14	.	.	.	.	_	4	punct	_	Fp|?|?

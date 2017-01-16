@@ -1,0 +1,27 @@
+sentence A = Someone is peeling a banana.
+sentence B = A man is eating a fruit.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,Removing+,Banana=
+CONCEPTS B: Hominid=,Entity+,Process+,FruitOrVegetable=
+
+CONLL A:
+
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	peeling	peel	VERB	VBG	_	0	ROOT	_	VBG|00049900-v|Removing+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	banana	banana	NOUN	NN	_	3	dobj	_	NN|07753592-n|Banana=
+6	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	fruit	fruit	NOUN	NN	_	4	dobj	_	NN|13134947-n|FruitOrVegetable=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

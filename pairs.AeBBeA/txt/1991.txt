@@ -1,0 +1,30 @@
+sentence A = One man is intensely playing a guitar.
+sentence B = The man is intensely playing the guitar.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Hominid=,Entity+,SubjectiveAssessmentAttribute+,DramaticActing+,Guitar=
+CONCEPTS B: Hominid=,Entity+,SubjectiveAssessmentAttribute+,DramaticActing+,Guitar=
+
+CONLL A:
+
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	intensely	intensely	ADV	RB	_	5	advmod	_	RB|00190959-r|SubjectiveAssessmentAttribute+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	guitar	guitar	NOUN	NN	_	5	dobj	_	NN|03467517-n|Guitar=
+8	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	intensely	intensely	ADV	RB	_	5	advmod	_	RB|00190959-r|SubjectiveAssessmentAttribute+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	guitar	guitar	NOUN	NN	_	5	dobj	_	NN|03467517-n|Guitar=
+8	.	.	.	.	_	5	punct	_	Fp|?|?

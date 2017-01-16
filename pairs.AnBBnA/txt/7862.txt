@@ -1,0 +1,36 @@
+sentence A = A person is riding a dirt bike down a dirt hill.
+sentence B = A person is riding a bike along the trail.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human=,Entity+,Transportation+,Text+,Bicycle=,Text+,Hill=
+CONCEPTS B: Human=,Entity+,Transportation+,Bicycle=,Trail+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	dirt	dirt	NOUN	NN	_	7	nn	_	NN|07223811-n|Text+
+7	bike	bike	NOUN	NN	_	4	dobj	_	NN|02834778-n|Bicycle=
+8	down	down	ADP	IN	_	4	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	dirt	dirt	NOUN	NN	_	11	nn	_	NN|07223811-n|Text+
+11	hill	hill	NOUN	NN	_	8	pobj	_	NN|09303008-n|Hill=
+12	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	bike	bike	NOUN	NN	_	4	dobj	_	NN|02834778-n|Bicycle=
+7	along	along	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	trail	trail	NOUN	NN	_	7	pobj	_	NN|04466613-n|Trail+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

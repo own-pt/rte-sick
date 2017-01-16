@@ -1,0 +1,54 @@
+sentence A = A lady is wearing a black dress and is carrying a white cross.
+sentence B = A woman in a black dress is pulling a cart and is standing in front of two men who are seated on a park bench.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,CoveringFn=,Black=,Clothing+,Entity+,Transportation+,White=,Icon+
+CONCEPTS B: Woman=,Black=,Clothing+,Entity+,Transportation+,Wagon+,Entity+,PhysicalAttribute+,FrontFn=,Man=,Entity+,Communication+,Park+,Seat+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	lady	lady	NOUN	NN	_	4	nsubj	_	NN|09989290-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	black	black	ADJ	JJ	_	7	amod	_	JJ|00392812-a|Black=
+7	dress	dress	NOUN	NN	_	4	dobj	_	NN|02728440-n|Clothing+
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	carrying	carry	VERB	VBG	_	4	conj	_	VBG|01449974-v|Transportation+
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	white	white	ADJ	JJ	_	13	amod	_	JJ|00393105-a|White=
+13	cross	cross	NOUN	NN	_	10	dobj	_	NN|03135152-n|Icon+
+14	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	8	nsubj	_	NN|10787470-n|Woman=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	black	black	ADJ	JJ	_	6	amod	_	JJ|00392812-a|Black=
+6	dress	dress	NOUN	NN	_	3	pobj	_	NN|02728440-n|Clothing+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	pulling	pull	VERB	VBG	_	0	ROOT	_	VBG|02057499-v|Transportation+
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	cart	cart	NOUN	NN	_	8	dobj	_	NN|02970849-n|Wagon+
+11	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+12	is	be	VERB	VBZ	_	13	aux	_	VBZ|02604760-v|Entity+
+13	standing	stand	VERB	VBG	_	8	conj	_	VBG|01546111-v|PhysicalAttribute+
+14	in	in	ADP	IN	_	13	prep	_	IN|?|?
+15	front	front	NOUN	NN	_	14	pobj	_	NN|08573472-n|FrontFn=
+16	of	of	ADP	IN	_	15	prep	_	IN|?|?
+17	two	2	NUM	CD	_	18	num	_	Z|?|?
+18	men	man	NOUN	NNS	_	16	pobj	_	NNS|10287213-n|Man=
+19	who	who	PRON	WP	_	21	nsubjpass	_	WP|?|?
+20	are	be	VERB	VBP	_	21	auxpass	_	VBP|02604760-v|Entity+
+21	seated	seat	VERB	VBN	_	18	rcmod	_	VBN|01543998-v|Communication+
+22	on	on	ADP	IN	_	21	prep	_	IN|?|?
+23	a	a	DET	DT	_	25	det	_	DT|?|?
+24	park	park	NOUN	NN	_	25	nn	_	NN|08615374-n|Park+
+25	bench	bench	NOUN	NN	_	22	pobj	_	NN|02828884-n|Seat+
+26	.	.	.	.	_	8	punct	_	Fp|?|?

@@ -1,0 +1,40 @@
+sentence A = A small brown and white spotted dog is lying on a jacket on the street.
+sentence B = The dog is having a rest in the park.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,White=,SurfaceChange+,Canine+,Entity+,PhysicalAttribute+,Coat=,Roadway=
+CONCEPTS B: Canine+,Entity+,Damaging+,RecreationOrExercise+,Park+
+
+CONLL A:
+
+1	A	a	DET	DT	_	7	det	_	DT|?|?
+2	small	small	ADJ	JJ	_	7	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	brown	brown	ADJ	JJ	_	7	amod	_	JJ|00245112-a|Human+
+4	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+5	white	white	ADJ	JJ	_	3	conj	_	JJ|00393105-a|White=
+6	spotted	spot	VERB	VBN	_	7	amod	_	VBN|00509958-v|SurfaceChange+
+7	dog	dog	NOUN	NN	_	9	nsubj	_	NN|02084071-n|Canine+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	jacket	jacket	NOUN	NN	_	10	pobj	_	NN|03589791-n|Coat=
+13	on	on	ADP	IN	_	9	prep	_	IN|?|?
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	street	street	NOUN	NN	_	13	pobj	_	NN|04334599-n|Roadway=
+16	.	.	.	.	_	9	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	having	have	VERB	VBG	_	0	ROOT	_	VBG|00065639-v|Damaging+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	rest	rest	NOUN	NN	_	4	dobj	_	NN|01064148-n|RecreationOrExercise+
+7	in	in	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	park	park	NOUN	NN	_	7	pobj	_	NN|08615374-n|Park+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

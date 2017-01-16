@@ -1,0 +1,40 @@
+sentence A = A small child is outdoors climbing steps in a grassy area.
+sentence B = There is no small child in a pink sweater climbing a concrete staircase.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,Outdoors+,Increasing+,RadiatingSound+,FloweringPlant+,GeographicArea+
+CONCEPTS B: Entity+,SubjectiveStrongNegativeAttribute+,HumanChild=,Pink+,Clothing+,Increasing+,Physical+,Steps=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	small	small	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	child	child	NOUN	NN	_	6	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	outdoors	outdoors	ADV	RB	_	6	advmod	_	RB|00110659-r|Outdoors+
+6	climbing	climb	VERB	VBG	_	0	ROOT	_	VBG|00433232-v|Increasing+
+7	steps	step	NOUN	NNS	_	6	dobj	_	NNS|07383823-n|RadiatingSound+
+8	in	in	ADP	IN	_	6	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	grassy	grassy	ADJ	JJ	_	11	amod	_	JJ|00209620-a|FloweringPlant+
+11	area	area	NOUN	NN	_	8	pobj	_	NN|08497294-n|GeographicArea+
+12	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	small	small	ADJ	JJ	_	5	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+5	child	child	NOUN	NN	_	2	nsubj	_	NN|09917593-n|HumanChild=
+6	in	in	ADP	IN	_	2	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	pink	pink	ADJ	JJ	_	9	amod	_	JJ|00379595-a|Pink+
+9	sweater	sweater	NOUN	NN	_	6	pobj	_	NN|04370048-n|Clothing+
+10	climbing	climb	VERB	VBG	_	9	partmod	_	VBG|00433232-v|Increasing+
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	concrete	concrete	ADJ	JJ	_	13	amod	_	JJ|00013160-a|Physical+
+13	staircase	staircase	NOUN	NN	_	10	dobj	_	NN|04298308-n|Steps=
+14	.	.	.	.	_	2	punct	_	Fp|?|?

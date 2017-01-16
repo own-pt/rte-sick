@@ -1,0 +1,38 @@
+sentence A = A person is riding the bicycle on one wheel.
+sentence B = There is no man in a black jacket doing tricks on a motorbike.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human=,Entity+,Carrying=,Bicycle=,Bicycle=
+CONCEPTS B: Entity+,Man=,Black=,Coat=,IntentionalProcess+,RecreationOrExercise+,TransportationDevice+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	bicycle	bicycle	NOUN	NN	_	4	dobj	_	NN|02834778-n|Bicycle=
+7	on	on	ADP	IN	_	4	prep	_	IN|?|?
+8	one	1	NUM	CD	_	9	num	_	Z|?|?
+9	wheel	wheel	NOUN	NN	_	7	pobj	_	NN|02834778-n|Bicycle=
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|10287213-n|Man=
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	black	black	ADJ	JJ	_	8	amod	_	JJ|00392812-a|Black=
+8	jacket	jacket	NOUN	NN	_	5	pobj	_	NN|03589791-n|Coat=
+9	doing	do	VERB	VBG	_	4	partmod	_	VBG|01712704-v|IntentionalProcess+
+10	tricks	trick	NOUN	NNS	_	9	dobj	_	NNS|00427580-n|RecreationOrExercise+
+11	on	on	ADP	IN	_	9	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	motorbike	motorbike	NOUN	NN	_	11	pobj	_	NN|03769722-n|TransportationDevice+
+14	.	.	.	.	_	2	punct	_	Fp|?|?

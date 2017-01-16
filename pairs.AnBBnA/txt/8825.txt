@@ -1,0 +1,46 @@
+sentence A = A boy is wearing all black and is sliding down a blow up yellow slide.
+sentence B = A girl is wearing all black and is sliding down a blow up yellow slide.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,RecreationOrExercise+,Black=,Entity+,Translocation+,earlier+,Impacting=,SubjectiveAssessmentAttribute+,Artifact+
+CONCEPTS B: Human+,Entity+,RecreationOrExercise+,Black=,Entity+,Translocation+,earlier+,Impacting=,SubjectiveAssessmentAttribute+,Artifact+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
+5	all	all	DET	DT	_	6	det	_	DT|?|?
+6	black	black	ADJ	JJ	_	4	dobj	_	JJ|00392812-a|Black=
+7	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	sliding	slide	VERB	VBG	_	4	conj	_	VBG|02090990-v|Translocation+
+10	down	down	PRT	RP	_	9	prt	_	RP|00095320-r|earlier+
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	blow	blow	NOUN	NN	_	9	dobj	_	NN|01173038-n|Impacting=
+13	up	up	PRT	RP	_	9	prep	_	IN|?|?
+14	yellow	yellow	ADJ	JJ	_	15	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+15	slide	slide	NOUN	NN	_	13	pobj	_	NN|03029603-n|Artifact+
+16	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
+5	all	all	DET	DT	_	6	det	_	DT|?|?
+6	black	black	ADJ	JJ	_	4	dobj	_	JJ|00392812-a|Black=
+7	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	sliding	slide	VERB	VBG	_	4	conj	_	VBG|02090990-v|Translocation+
+10	down	down	PRT	RP	_	9	prt	_	RP|00095320-r|earlier+
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	blow	blow	NOUN	NN	_	9	dobj	_	NN|01173038-n|Impacting=
+13	up	up	PRT	RP	_	9	prep	_	IN|?|?
+14	yellow	yellow	ADJ	JJ	_	15	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+15	slide	slide	NOUN	NN	_	13	pobj	_	NN|03029603-n|Artifact+
+16	.	.	.	.	_	4	punct	_	Fp|?|?

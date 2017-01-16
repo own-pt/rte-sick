@@ -1,0 +1,38 @@
+sentence A = A woman and a dog are standing near a tree stump.
+sentence B = A woman and a dog are sitting on a tree stump.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Canine+,Entity+,PhysicalAttribute+,ContentBearingObject+,PlantBranch+
+CONCEPTS B: Woman=,Canine+,PhysicalAttribute+,SittingDown+,ContentBearingObject+,PlantBranch+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	7	nsubj	_	NN|10787470-n|Woman=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	dog	dog	NOUN	NN	_	2	conj	_	NN|02084071-n|Canine+
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+8	near	near	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	tree	tree	NOUN	NN	_	11	nn	_	NN|13912260-n|ContentBearingObject+
+11	stump	stump	NOUN	NN	_	8	pobj	_	NN|13111504-n|PlantBranch+
+12	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	7	nsubj	_	NN|10787470-n|Woman=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	dog	dog	NOUN	NN	_	2	conj	_	NN|02084071-n|Canine+
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02655135-v|PhysicalAttribute+
+7	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	tree	tree	NOUN	NN	_	11	nn	_	NN|13912260-n|ContentBearingObject+
+11	stump	stump	NOUN	NN	_	8	pobj	_	NN|13111504-n|PlantBranch+
+12	.	.	.	.	_	7	punct	_	Fp|?|?

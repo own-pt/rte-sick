@@ -1,0 +1,47 @@
+sentence A = A woman is wearing sunglasses of large size and is holding newspapers in both hands.
+sentence B = A newspaper is featuring a woman with large sized hands holding sunglasses and wearing a coat.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,RecreationOrExercise+,Device+,SubjectiveWeakPositiveAttribute+,Attribute+,Entity+,Obligation+,Newspaper=,Hand+
+CONCEPTS B: Newspaper=,Entity+,Attribute+,Woman=,SubjectiveWeakPositiveAttribute+,IntentionalProcess+,Hand+,Obligation+,Device+,CoveringFn=,Coat=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
+5	sunglasses	sunglass	NOUN	NNS	_	4	dobj	_	NNS|04355933-n|Device+
+6	of	of	ADP	IN	_	5	prep	_	IN|?|?
+7	large	large	ADJ	JJ	_	8	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+8	size	size	NOUN	NN	_	6	pobj	_	NN|05098942-n|Attribute+
+9	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	holding	hold	VERB	VBG	_	4	conj	_	VBG|02203362-v|Obligation+
+12	newspapers	newspaper	NOUN	NNS	_	11	dobj	_	NNS|06267145-n|Newspaper=
+13	in	in	ADP	IN	_	11	prep	_	IN|?|?
+14	both	both	DET	DT	_	15	det	_	DT|?|?
+15	hands	hand	NOUN	NNS	_	13	pobj	_	NNS|05564590-n|Hand+
+16	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	newspaper	newspaper	NOUN	NN	_	4	nsubj	_	NN|06267145-n|Newspaper=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	featuring	feature	VERB	VBG	_	0	ROOT	_	VBG|02630189-v|Attribute+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	woman	woman	NOUN	NN	_	4	dobj	_	NN|10787470-n|Woman=
+7	with	with	ADP	IN	_	6	prep	_	IN|?|?
+8	large	large	ADJ	JJ	_	10	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+9	sized	size	ADJ	JJ	_	10	amod	_	VBN|00319214-v|IntentionalProcess+
+10	hands	hand	NOUN	NNS	_	11	nsubj	_	NNS|05564590-n|Hand+
+11	holding	hold	VERB	VBG	_	7	pcomp	_	VBG|02203362-v|Obligation+
+12	sunglasses	sunglass	NOUN	NNS	_	11	dobj	_	NNS|04355933-n|Device+
+13	and	and	CONJ	CC	_	11	cc	_	CC|?|?
+14	wearing	wear	VERB	VBG	_	11	conj	_	VBG|00047745-v|CoveringFn=
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	coat	coat	NOUN	NN	_	14	dobj	_	NN|03057021-n|Coat=
+17	.	.	.	.	_	4	punct	_	Fp|?|?

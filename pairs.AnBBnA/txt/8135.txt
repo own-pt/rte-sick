@@ -1,0 +1,39 @@
+sentence A = Several young people are posing for a photo and holding beers.
+sentence B = A group of people is holding drinks and pointing at the camera.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,GroupOfPeople=,Entity+,Putting=,Photograph=,Process+,Beer=
+CONCEPTS B: Group=,GroupOfPeople=,Entity+,IntentionalProcess+,Beverage+,Indicating=,Camera=
+
+CONLL A:
+
+1	Several	several	ADJ	JJ	_	3	amod	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	people	people	NOUN	NNS	_	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	posing	pose	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+6	for	for	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	photo	photo	NOUN	NN	_	6	pobj	_	NN|03925226-n|Photograph=
+9	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+10	holding	hold	VERB	VBG	_	5	conj	_	VBG|02700867-v|Process+
+11	beers	beer	NOUN	NNS	_	10	dobj	_	NNS|07886849-n|Beer=
+12	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	people	people	NOUN	NNS	_	3	pobj	_	NNS|07942152-n|GroupOfPeople=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|01151753-v|IntentionalProcess+
+7	drinks	drink	NOUN	NNS	_	6	dobj	_	NNS|07885223-n|Beverage+
+8	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+9	pointing	point	VERB	VBG	_	6	conj	_	VBG|00923793-v|Indicating=
+10	at	at	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	camera	camera	NOUN	NN	_	10	pobj	_	NN|02942699-n|Camera=
+13	.	.	.	.	_	6	punct	_	Fp|?|?

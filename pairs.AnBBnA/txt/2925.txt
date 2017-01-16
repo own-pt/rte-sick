@@ -1,0 +1,32 @@
+sentence A = A herd of deer is crossing the street.
+sentence B = The herd of caribous is crossing a road.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GroupOfAnimals+,Deer=,Entity+,Process+,Roadway=
+CONCEPTS B: GroupOfAnimals+,HoofedMammal+,Entity+,Process+,Roadway+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	herd	herd	NOUN	NN	_	6	nsubj	_	NN|07994331-n|GroupOfAnimals+
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	deer	deer	NOUN	NN	_	3	pobj	_	NN|02430045-n|Deer=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	crossing	cross	VERB	VBG	_	0	ROOT	_	VBG|02023396-v|Process+
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	street	street	NOUN	NN	_	6	dobj	_	NN|04334599-n|Roadway=
+9	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	herd	herd	NOUN	NN	_	6	nsubj	_	NN|07994331-n|GroupOfAnimals+
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	caribous	caribou	ADJ	JJ	_	3	pobj	_	NNS|02433925-n|HoofedMammal+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	crossing	cross	VERB	VBG	_	0	ROOT	_	VBG|02023396-v|Process+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	road	road	NOUN	NN	_	6	dobj	_	NN|04096066-n|Roadway+
+9	.	.	.	.	_	6	punct	_	Fp|?|?

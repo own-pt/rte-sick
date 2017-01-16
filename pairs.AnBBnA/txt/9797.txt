@@ -1,0 +1,36 @@
+sentence A = A woman is cutting a vegetable.
+sentence B = A man is inside the house and is throwing blades at a close target.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Decreasing+,Vegetable=
+CONCEPTS B: Man=,Entity+,Auditorium+,Entity+,Impelling+,PlantLeaf+,Near=,Entity+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|00429060-v|Decreasing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	vegetable	vegetable	NOUN	NN	_	4	dobj	_	NN|07707451-n|Vegetable=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	3	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+4	inside	inside	ADP	IN	_	3	prep	_	IN|?|?
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	house	house	NOUN	NN	_	4	pobj	_	NN|04417809-n|Auditorium+
+7	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	throwing	throw	VERB	VBG	_	3	conj	_	VBG|01508368-v|Impelling+
+10	blades	blade	NOUN	NNS	_	9	dobj	_	NNS|13131883-n|PlantLeaf+
+11	at	at	ADP	IN	_	9	prep	_	IN|?|?
+12	a	a	DET	DT	_	14	det	_	DT|?|?
+13	close	close	ADJ	JJ	_	14	amod	_	JJ|00444519-a|Near=
+14	target	target	NOUN	NN	_	11	pobj	_	NN|05981230-n|Entity+
+15	.	.	.	.	_	3	punct	_	Fp|?|?

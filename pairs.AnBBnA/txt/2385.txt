@@ -1,0 +1,32 @@
+sentence A = A person is cutting an onion into pieces.
+sentence B = A person is slicing a carrot into pieces.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human=,Entity+,Cutting+,FruitOrVegetable+,TimeDuration+
+CONCEPTS B: Human=,Entity+,Separating+,Carrot=,PreparedFood+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|01552519-v|Cutting+
+5	an	a	DET	DT	_	6	det	_	DT|?|?
+6	onion	onion	NOUN	NN	_	4	dobj	_	NN|12433081-n|FruitOrVegetable+
+7	into	into	ADP	IN	_	4	prep	_	IN|?|?
+8	pieces	piece	NOUN	NNS	_	7	pobj	_	NNS|15246353-n|TimeDuration+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	carrot	carrot	NOUN	NN	_	4	dobj	_	NN|07730207-n|Carrot=
+7	into	into	ADP	IN	_	4	prep	_	IN|?|?
+8	pieces	piece	NOUN	NNS	_	7	pobj	_	NNS|07654667-n|PreparedFood+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

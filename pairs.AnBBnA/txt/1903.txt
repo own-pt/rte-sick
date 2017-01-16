@@ -1,0 +1,30 @@
+sentence A = Two people are playing ping pong.
+sentence B = A few animals are playing in the water.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GroupOfPeople=,Entity+,DramaticActing+,RadiatingSound+
+CONCEPTS B: Animal=,Entity+,DramaticActing+,Water=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	ping	ping	NOUN	NN	_	6	nn	_	NN|07389569-n|RadiatingSound+
+6	pong	pong	NOUN	NN	_	4	dobj	_	RB|?|?
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	quantmod	_	DT|?|?
+2	few	few	ADJ	JJ	_	3	num	_	DT|?|?
+3	animals	animal	NOUN	NNS	_	5	nsubj	_	NNS|00015388-n|Animal=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	water	water	NOUN	NN	_	6	pobj	_	NN|14845743-n|Water=
+9	.	.	.	.	_	5	punct	_	Fp|?|?

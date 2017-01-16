@@ -1,0 +1,33 @@
+sentence A = The man is pouring some oil on the tomatoes.
+sentence B = One person pours oil on a few tomatoes.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Pouring=,Oil=,Tomato=
+CONCEPTS B: Pouring=,Oil=,Tomato=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	pouring	pour	VERB	VBG	_	0	ROOT	_	VBG|02069551-v|Pouring=
+5	some	some	DET	DT	_	6	det	_	DT|?|?
+6	oil	oil	NOUN	NN	_	4	dobj	_	NN|14966667-n|Oil=
+7	on	on	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	tomatoes	tomato	NOUN	NNS	_	7	pobj	_	NNS|07734017-n|Tomato=
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	person	person	NOUN	NN	_	3	nsubj	_	NN|80000973-n|?
+3	pours	pour	VERB	VBZ	_	0	ROOT	_	VBZ|02069551-v|Pouring=
+4	oil	oil	NOUN	NN	_	3	dobj	_	NN|14966667-n|Oil=
+5	on	on	ADP	IN	_	3	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	few	few	ADJ	JJ	_	8	amod	_	DT|?|?
+8	tomatoes	tomato	NOUN	NNS	_	5	pobj	_	NNS|07734017-n|Tomato=
+9	.	.	.	.	_	3	punct	_	Fp|?|?

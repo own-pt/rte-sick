@@ -1,0 +1,28 @@
+sentence A = A man is carrying a tree.
+sentence B = A man is planting a tree.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Transportation+,ContentBearingObject+
+CONCEPTS B: Hominid=,Entity+,Planting+,ContentBearingObject+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	carrying	carry	VERB	VBG	_	0	ROOT	_	VBG|01449974-v|Transportation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	tree	tree	NOUN	NN	_	4	dobj	_	NN|13912260-n|ContentBearingObject+
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	planting	plant	VERB	VBG	_	0	ROOT	_	VBG|01567275-v|Planting+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	tree	tree	NOUN	NN	_	4	dobj	_	NN|13912260-n|ContentBearingObject+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

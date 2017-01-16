@@ -1,0 +1,29 @@
+sentence A = A few men are cheerfully playing cricket.
+sentence B = A few men are playing cricket.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,EmotionalState+,DramaticActing+,Cricket=
+CONCEPTS B: Hominid=,Entity+,DramaticActing+,Cricket=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	few	few	ADJ	JJ	_	3	amod	_	DT|?|?
+3	men	man	NOUN	NNS	_	6	nsubj	_	NNS|02472293-n|Hominid=
+4	are	be	VERB	VBP	_	6	aux	_	VBP|02604760-v|Entity+
+5	cheerfully	cheerfully	ADV	RB	_	6	advmod	_	RB|00230749-r|EmotionalState+
+6	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+7	cricket	cricket	NOUN	NN	_	6	dobj	_	NN|00476389-n|Cricket=
+8	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	quantmod	_	DT|?|?
+2	few	few	ADJ	JJ	_	3	num	_	DT|?|?
+3	men	man	NOUN	NNS	_	5	nsubj	_	NNS|02472293-n|Hominid=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	cricket	cricket	NOUN	NN	_	5	dobj	_	NN|00476389-n|Cricket=
+7	.	.	.	.	_	5	punct	_	Fp|?|?

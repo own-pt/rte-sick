@@ -1,0 +1,41 @@
+sentence A = A dog is standing on one leg and is waiting for a soccer ball.
+sentence B = There is no black and white dog jumping for a ball.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,PhysicalAttribute+,Limb=,Entity+,PsychologicalProcess+,Soccer=,Ball=
+CONCEPTS B: Entity+,Black=,White=,Canine+,Ambulating=,Ball=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	one	1	NUM	CD	_	7	num	_	Z|?|?
+7	leg	leg	NOUN	NN	_	5	pobj	_	NN|05560787-n|Limb=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	waiting	wait	VERB	VBG	_	4	conj	_	VBG|02637938-v|PsychologicalProcess+
+11	for	for	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	14	det	_	DT|?|?
+13	soccer	soccer	NOUN	NN	_	14	nn	_	NN|00478262-n|Soccer=
+14	ball	ball	NOUN	NN	_	11	pobj	_	NN|02778669-n|Ball=
+15	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	7	det	_	DT|?|?
+4	black	black	ADJ	JJ	_	7	amod	_	JJ|00392812-a|Black=
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	white	white	ADJ	JJ	_	4	conj	_	JJ|00393105-a|White=
+7	dog	dog	NOUN	NN	_	2	nsubj	_	NN|02084071-n|Canine+
+8	jumping	jump	VERB	VBG	_	7	partmod	_	VBG|01963942-v|Ambulating=
+9	for	for	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	ball	ball	NOUN	NN	_	9	pobj	_	NN|02778669-n|Ball=
+12	.	.	.	.	_	2	punct	_	Fp|?|?

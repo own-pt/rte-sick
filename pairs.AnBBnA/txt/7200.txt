@@ -1,0 +1,32 @@
+sentence A = A man is standing on a sidewalk.
+sentence B = There is no man standing next to a bus.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,PhysicalAttribute+,Sidewalk=
+CONCEPTS B: Entity+,Hominid=,SocialRole+,Position+,Conductor+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	sidewalk	sidewalk	NOUN	NN	_	5	pobj	_	NN|04215402-n|Sidewalk=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	standing	standing	VERB	VBG	_	4	partmod	_	NN|13948136-n|SocialRole+
+6	next	next	ADV	RB	_	5	advmod	_	JJ|01294975-a|Position+
+7	to	to	ADP	IN	_	6	prep	_	TO|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	bus	bus	NOUN	NN	_	7	pobj	_	NN|02924713-n|Conductor+
+10	.	.	.	.	_	2	punct	_	Fp|?|?

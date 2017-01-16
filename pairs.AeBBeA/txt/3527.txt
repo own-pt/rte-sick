@@ -1,0 +1,28 @@
+sentence A = A person is jotting something with a pencil.
+sentence B = A person is writing.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Human=,Entity+,Writing+,Pencil=
+CONCEPTS B: Human=,Entity+,WrittenCommunication=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	jotting	jot	VERB	VBG	_	0	ROOT	_	VBG|01006056-v|Writing+
+5	something	something	NOUN	NN	_	4	dobj	_	PRP|?|?
+6	with	with	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	pencil	pencil	NOUN	NN	_	6	pobj	_	NN|03908204-n|Pencil=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	writing	write	VERB	VBG	_	0	ROOT	_	VBG|00993014-v|WrittenCommunication=
+5	.	.	.	.	_	4	punct	_	Fp|?|?

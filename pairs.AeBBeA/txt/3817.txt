@@ -1,0 +1,34 @@
+sentence A = The pepper is being sliced by a woman with a knife.
+sentence B = A woman is slicing a green pepper.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: SpicePepper=,Entity+,Entity+,Separating+,Woman=,CuttingDevice+
+CONCEPTS B: Woman=,Entity+,Separating+,Green=,SpicePepper=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	pepper	pepper	NOUN	NN	_	5	nsubjpass	_	NN|07815588-n|SpicePepper=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	sliced	slice	VERB	VBN	_	0	ROOT	_	VBN|01254477-v|Separating+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	woman	woman	NOUN	NN	_	6	pobj	_	NN|10787470-n|Woman=
+9	with	with	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	knife	knife	NOUN	NN	_	9	pobj	_	NN|03623556-n|CuttingDevice+
+12	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	green	green	ADJ	JJ	_	7	amod	_	JJ|00375969-a|Green=
+7	pepper	pepper	NOUN	NN	_	4	dobj	_	NN|07815588-n|SpicePepper=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

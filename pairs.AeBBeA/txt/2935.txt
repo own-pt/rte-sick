@@ -1,0 +1,33 @@
+sentence A = Two men are fighting in a cattle pen.
+sentence B = Two men are fighting in a pen for cattle.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Hominid=,Entity+,ViolentContest+,Cow=,StationaryArtifact+
+CONCEPTS B: Hominid=,Entity+,ViolentContest+,StationaryArtifact+,Cow=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	fighting	fight	VERB	VBG	_	0	ROOT	_	VBG|01090335-v|ViolentContest+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	cattle	cattle	NOUN	NNS	_	8	nn	_	NNS|02402425-n|Cow=
+8	pen	pen	NOUN	NN	_	5	pobj	_	NN|03907227-n|StationaryArtifact+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	fighting	fight	VERB	VBG	_	0	ROOT	_	VBG|01090335-v|ViolentContest+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	pen	pen	NOUN	NN	_	5	pobj	_	NN|03907227-n|StationaryArtifact+
+8	for	for	ADP	IN	_	4	prep	_	IN|?|?
+9	cattle	cattle	NOUN	NNS	_	8	pobj	_	NNS|02402425-n|Cow=
+10	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,36 @@
+sentence A = The man in the hat is smoking a straw cigarette.
+sentence B = The man in the straw hat is smoking a cigarette.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Man=,Hat+,Entity+,Smoking=,Hay=,CigarOrCigarette+
+CONCEPTS B: Man=,Hay=,Hat+,Entity+,Smoking=,CigarOrCigarette+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	the	the	DET	DT	_	5	det	_	DT|?|?
+5	hat	hat	NOUN	NN	_	3	pobj	_	NN|03497657-n|Hat+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	smoking	smoke	VERB	VBG	_	0	ROOT	_	VBG|01198101-v|Smoking=
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	straw	straw	NOUN	NN	_	10	nn	_	NN|14959939-n|Hay=
+10	cigarette	cigarette	NOUN	NN	_	7	dobj	_	NN|03030663-n|CigarOrCigarette+
+11	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	the	the	DET	DT	_	6	det	_	DT|?|?
+5	straw	straw	NOUN	NN	_	6	nn	_	NN|14959939-n|Hay=
+6	hat	hat	NOUN	NN	_	3	pobj	_	NN|03497657-n|Hat+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	smoking	smoke	VERB	VBG	_	0	ROOT	_	VBG|01198101-v|Smoking=
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	cigarette	cigarette	NOUN	NN	_	8	dobj	_	NN|03030663-n|CigarOrCigarette+
+11	.	.	.	.	_	8	punct	_	Fp|?|?

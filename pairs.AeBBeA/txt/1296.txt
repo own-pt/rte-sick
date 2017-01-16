@@ -1,0 +1,29 @@
+sentence A = A man is making music with a flute.
+sentence B = A man is playing flute.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Hominid=,Entity+,Process+,MakingMusic=,Flute=
+CONCEPTS B: Hominid=,Entity+,DramaticActing+,Flute=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	making	make	VERB	VBG	_	0	ROOT	_	VBG|01617192-v|Process+
+5	music	music	NOUN	NN	_	4	dobj	_	NN|07020895-n|MakingMusic=
+6	with	with	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	flute	flute	NOUN	NN	_	6	pobj	_	NN|03372029-n|Flute=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	flute	flute	NOUN	NN	_	4	dobj	_	NN|03372029-n|Flute=
+6	.	.	.	.	_	4	punct	_	Fp|?|?

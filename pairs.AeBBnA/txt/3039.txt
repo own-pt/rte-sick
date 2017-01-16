@@ -1,0 +1,32 @@
+sentence A = The puppy is playing with a plastic container.
+sentence B = The dog is playing with a plastic container.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SocialRole+,Entity+,DramaticActing+,SubjectiveAssessmentAttribute+,Container+
+CONCEPTS B: Canine+,Entity+,DramaticActing+,SubjectiveAssessmentAttribute+,Container+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	puppy	puppy	NOUN	NN	_	4	nsubj	_	NN|10493835-n|SocialRole+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	plastic	plastic	ADJ	JJ	_	8	amod	_	JJ|02364954-a|SubjectiveAssessmentAttribute+
+8	container	container	NOUN	NN	_	5	pobj	_	NN|03094503-n|Container+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	plastic	plastic	ADJ	JJ	_	8	amod	_	JJ|02364954-a|SubjectiveAssessmentAttribute+
+8	container	container	NOUN	NN	_	5	pobj	_	NN|03094503-n|Container+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

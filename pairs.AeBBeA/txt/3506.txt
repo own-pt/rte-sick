@@ -1,0 +1,28 @@
+sentence A = Garlic is being diced by the woman.
+sentence B = The woman is dicing garlic.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Garlic=,Entity+,Entity+,Cutting+,Woman=
+CONCEPTS B: Woman=,Entity+,Cutting+,Garlic=
+
+CONLL A:
+
+1	Garlic	garlic	NOUN	NNP	_	4	nsubjpass	_	NN|07818277-n|Garlic=
+2	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+3	being	be	VERB	VBG	_	4	auxpass	_	VBG|02604760-v|Entity+
+4	diced	dice	VERB	VBN	_	0	ROOT	_	VBN|01256867-v|Cutting+
+5	by	by	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	woman	woman	NOUN	NN	_	5	pobj	_	NN|10787470-n|Woman=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	5	cop	_	VBZ|02604760-v|Entity+
+4	dicing	dice	VERB	VBG	_	5	amod	_	VBG|01256867-v|Cutting+
+5	garlic	garlic	NOUN	NN	_	0	ROOT	_	NN|07818277-n|Garlic=
+6	.	.	.	.	_	5	punct	_	Fp|?|?

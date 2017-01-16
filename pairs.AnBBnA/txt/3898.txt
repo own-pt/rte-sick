@@ -1,0 +1,25 @@
+sentence A = A girl is exercising.
+sentence B = A man is doing exercise.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,RecreationOrExercise+
+CONCEPTS B: Hominid=,Entity+,Position+,IntentionalProcess+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	exercising	exercise	VERB	VBG	_	0	ROOT	_	VBG|00099721-v|RecreationOrExercise+
+5	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|02568672-v|Position+
+5	exercise	exercise	NOUN	NN	_	4	dobj	_	NN|00947128-n|IntentionalProcess+
+6	.	.	.	.	_	4	punct	_	Fp|?|?

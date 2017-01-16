@@ -1,0 +1,39 @@
+sentence A = There is no person in bike gear standing steadily in front of the mountains.
+sentence B = A group of people is equipped with protective gear.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,Human=,Bicycle=,Gear=,PhysicalAttribute+,SubjectiveAssessmentAttribute+,FrontFn=,SubjectiveAssessmentAttribute+
+CONCEPTS B: Group=,GroupOfPeople=,Entity+,Putting+,Device+,Gear=
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	person	person	NOUN	NN	_	2	nsubj	_	NN|00007846-n|Human=
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	bike	bike	NOUN	NN	_	7	nn	_	NN|02834778-n|Bicycle=
+7	gear	gear	NOUN	NN	_	5	pobj	_	NN|03430551-n|Gear=
+8	standing	stand	VERB	VBG	_	4	partmod	_	VBG|01546111-v|PhysicalAttribute+
+9	steadily	steadily	ADV	RB	_	8	advmod	_	RB|00050186-r|SubjectiveAssessmentAttribute+
+10	in	in	ADP	IN	_	8	prep	_	IN|?|?
+11	front	front	NOUN	NN	_	10	pobj	_	NN|08573472-n|FrontFn=
+12	of	of	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	mountains	mountain	NOUN	NNS	_	12	pobj	_	NNS|13774404-n|SubjectiveAssessmentAttribute+
+15	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	6	nsubjpass	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	people	people	NOUN	NNS	_	3	pobj	_	NNS|07942152-n|GroupOfPeople=
+5	is	be	VERB	VBZ	_	6	auxpass	_	VBZ|02604760-v|Entity+
+6	equipped	equip	VERB	VBN	_	0	ROOT	_	VBN|02339413-v|Putting+
+7	with	with	ADP	IN	_	6	prep	_	IN|?|?
+8	protective	protective	ADJ	JJ	_	9	amod	_	JJ|01887076-a|Device+
+9	gear	gear	NOUN	NN	_	7	pobj	_	NN|03430551-n|Gear=
+10	.	.	.	.	_	6	punct	_	Fp|?|?

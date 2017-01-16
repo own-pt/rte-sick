@@ -1,0 +1,37 @@
+sentence A = A man is shaking a container over a sink in the kitchen.
+sentence B = A man is emptying a container made of plastic.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Motion+,Container+,WashBasin+,Kitchen=
+CONCEPTS B: Hominid=,Entity+,Removing+,Container+,Process+,Substance+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	shaking	shake	VERB	VBG	_	0	ROOT	_	VBG|01889610-v|Motion+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	container	container	NOUN	NN	_	4	dobj	_	NN|03094503-n|Container+
+7	over	over	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	sink	sink	NOUN	NN	_	7	pobj	_	NN|04223580-n|WashBasin+
+10	in	in	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	kitchen	kitchen	NOUN	NN	_	10	pobj	_	NN|03619890-n|Kitchen=
+13	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	emptying	empty	VERB	VBG	_	0	ROOT	_	VBG|00449692-v|Removing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	container	container	NOUN	NN	_	4	dobj	_	NN|03094503-n|Container+
+7	made	make	VERB	VBN	_	6	partmod	_	VBN|00120316-v|Process+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	plastic	plastic	NOUN	NN	_	8	pobj	_	NN|14592610-n|Substance+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

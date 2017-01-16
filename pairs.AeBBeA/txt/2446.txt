@@ -1,0 +1,36 @@
+sentence A = A baby rhino is following an adult rhino.
+sentence B = A rhino, which is little, is following an adult rhino.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: HumanBaby=,HoofedMammal+,SocialRole+,SocialRole+,FullyFormed+,HoofedMammal+
+CONCEPTS B: HoofedMammal+,SocialRole+,SubjectiveStrongNegativeAttribute+,SocialRole+,SocialRole+,FullyFormed+,HoofedMammal+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	baby	baby	NOUN	NN	_	3	nn	_	NN|09827683-n|HumanBaby=
+3	rhino	rhino	NOUN	NN	_	5	nsubj	_	NN|02391994-n|HoofedMammal+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02445925-v|SocialRole+
+5	following	follow	VERB	VBG	_	0	ROOT	_	VBG|02445925-v|SocialRole+
+6	an	a	DET	DT	_	8	det	_	DT|?|?
+7	adult	adult	NOUN	NN	_	8	nn	_	NN|09605289-n|FullyFormed+
+8	rhino	rhino	NOUN	NN	_	5	dobj	_	NN|02391994-n|HoofedMammal+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	rhino	rhino	NOUN	NN	_	9	nsubj	_	NN|02391994-n|HoofedMammal+
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	which	which	DET	WDT	_	6	nsubj	_	WDT|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02445925-v|SocialRole+
+6	little	little	ADJ	JJ	_	2	rcmod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+7	,	,	.	,	_	9	punct	_	Fc|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02445925-v|SocialRole+
+9	following	follow	VERB	VBG	_	0	ROOT	_	VBG|02445925-v|SocialRole+
+10	an	a	DET	DT	_	12	det	_	DT|?|?
+11	adult	adult	NOUN	NN	_	12	nn	_	NN|09605289-n|FullyFormed+
+12	rhino	rhino	NOUN	NN	_	9	dobj	_	NN|02391994-n|HoofedMammal+
+13	.	.	.	.	_	9	punct	_	Fp|?|?

@@ -1,0 +1,34 @@
+sentence A = A girl in a band is playing the flute.
+sentence B = A girl in a band is playing an instrument.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,MusicalGroup+,Entity+,DramaticActing+,Flute=
+CONCEPTS B: Human+,MusicalGroup+,Entity+,DramaticActing+,MusicalInstrument=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	7	nsubj	_	NN|10129825-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	band	band	NOUN	NN	_	3	pobj	_	NN|08249038-n|MusicalGroup+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	flute	flute	NOUN	NN	_	7	dobj	_	NN|03372029-n|Flute=
+10	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	7	nsubj	_	NN|10129825-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	band	band	NOUN	NN	_	3	pobj	_	NN|08249038-n|MusicalGroup+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+8	an	a	DET	DT	_	9	det	_	DT|?|?
+9	instrument	instrument	NOUN	NN	_	7	dobj	_	NN|03800933-n|MusicalInstrument=
+10	.	.	.	.	_	7	punct	_	Fp|?|?

@@ -1,0 +1,38 @@
+sentence A = There is no person riding a bike along a muddy trail.
+sentence B = A person is riding a dirt bike down a dirt hill.
+entailm AB = A_contradicts_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,Human=,Transportation+,Bicycle=,Swamp+,Trail+
+CONCEPTS B: Human=,Entity+,Transportation+,Text+,Bicycle=,Text+,Hill=
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	person	person	NOUN	NN	_	2	nsubj	_	NN|00007846-n|Human=
+5	riding	ride	VERB	VBG	_	4	partmod	_	VBG|02102398-v|Transportation+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	bike	bike	NOUN	NN	_	5	dobj	_	NN|02834778-n|Bicycle=
+8	along	along	ADP	IN	_	5	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	muddy	muddy	ADJ	JJ	_	11	amod	_	JJ|02548066-a|Swamp+
+11	trail	trail	NOUN	NN	_	8	pobj	_	NN|04466613-n|Trail+
+12	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	dirt	dirt	NOUN	NN	_	7	nn	_	NN|07223811-n|Text+
+7	bike	bike	NOUN	NN	_	4	dobj	_	NN|02834778-n|Bicycle=
+8	down	down	ADP	IN	_	4	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	dirt	dirt	NOUN	NN	_	11	nn	_	NN|07223811-n|Text+
+11	hill	hill	NOUN	NN	_	8	pobj	_	NN|09303008-n|Hill=
+12	.	.	.	.	_	4	punct	_	Fp|?|?

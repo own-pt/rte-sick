@@ -5,6 +5,7 @@ import freeling
 import csv
 import subprocess
 import re
+import os
 
 ## Modify this line to be your FreeLing installation directory
 FREELINGDIR = "/home/fcbr/bin/freeling-4.0";
@@ -128,6 +129,10 @@ load(SUMODIR+'/WordNetMappings/WordNetMappings30-adv.txt','r', sumo_dic, glos_di
 load(SUMODIR+'/WordNetMappings/WordNetMappings30-noun.txt','n', sumo_dic, glos_dic)
 load(SUMODIR+'/WordNetMappings/WordNetMappings30-verb.txt','v', sumo_dic, glos_dic)
 
+def summarize(entailment):
+    tmp = entailment.split("_")
+    return "{}{}{}".format(tmp[0], tmp[1][0], tmp[2])
+
 with open('SICK.txt', newline='') as csvfile:
     reader = csv.reader(csvfile, delimiter='\t')
     next(reader,None)
@@ -135,27 +140,32 @@ with open('SICK.txt', newline='') as csvfile:
     for row in reader:
         (pair_ID,sentence_A,sentence_B,entailment_label,relatedness_score,entailment_AB,entailment_BA,sentence_A_original,sentence_B_original,sentence_A_dataset,sentence_B_dataset,SemEval_set) = (row)
         (sentence_A, sentence_B) = (fix_sentence(sentence_A), fix_sentence(sentence_B))
-        
         (txt,lemmas,senses,sumo,tag) = process(sentence_A,sumo_dic,glos_dic)
-        with open('{}-a.tokens'.format(pair_ID),'w') as o:
+
+        dir = "pairs.{}{}".format(summarize(entailment_AB), summarize(entailment_BA))
+
+        if not os.path.exists(dir):
+            os.mkdir(dir)
+
+        with open('{}/{}-a.tokens'.format(dir,pair_ID),'w') as o:
             o.write("{}\n".format(txt))
-        with open('{}-a.lemmas'.format(pair_ID),'w') as o:
+        with open('{}/{}-a.lemmas'.format(dir,pair_ID),'w') as o:
             o.write("{}\n".format("+".join(lemmas)))
-        with open('{}-a.senses'.format(pair_ID),'w') as o:
+        with open('{}/{}-a.senses'.format(dir,pair_ID),'w') as o:
             o.write("{}\n".format(",".join(senses)))
-        with open('{}-a.sumo'.format(pair_ID),'w') as o:
+        with open('{}/{}-a.sumo'.format(dir,pair_ID),'w') as o:
             o.write("{}\n".format(",".join(sumo)))
-        with open('{}-a.tag'.format(pair_ID),'w') as o:
+        with open('{}/{}-a.tag'.format(dir,pair_ID),'w') as o:
             o.write("{}\n".format(",".join(tag)))
 
         (txt,lemmas,senses,sumo,tag) = process(sentence_B,sumo_dic,glos_dic)
-        with open('{}-b.tokens'.format(pair_ID),'w') as o:
+        with open('{}/{}-b.tokens'.format(dir,pair_ID),'w') as o:
             o.write("{}\n".format(txt))
-        with open('{}-b.lemmas'.format(pair_ID),'w') as o:
+        with open('{}/{}-b.lemmas'.format(dir,pair_ID),'w') as o:
             o.write("{}\n".format("+".join(lemmas)))
-        with open('{}-b.senses'.format(pair_ID),'w') as o:
+        with open('{}/{}-b.senses'.format(dir,pair_ID),'w') as o:
             o.write("{}\n".format(",".join(senses)))
-        with open('{}-b.sumo'.format(pair_ID),'w') as o:
+        with open('{}/{}-b.sumo'.format(dir,pair_ID),'w') as o:
             o.write("{}\n".format(",".join(sumo)))
-        with open('{}-b.tag'.format(pair_ID),'w') as o:
+        with open('{}/{}-b.tag'.format(dir,pair_ID),'w') as o:
             o.write("{}\n".format(",".join(tag)))

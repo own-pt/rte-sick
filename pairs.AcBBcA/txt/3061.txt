@@ -1,0 +1,48 @@
+sentence A = A woman is driving a car and is talking to the man who is seated beside her.
+sentence B = There is no woman driving a car and talking to the man seated beside her.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Woman=,Entity+,Transportation+,Automobile=,Entity+,Speaking+,Man=,Entity+,Communication+
+CONCEPTS B: Entity+,Woman=,Transportation+,Automobile=,Speaking+,Man=,Communication+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	driving	drive	VERB	VBG	_	0	ROOT	_	VBG|01930874-v|Transportation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	car	car	NOUN	NN	_	4	dobj	_	NN|02958343-n|Automobile=
+7	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	talking	talk	VERB	VBG	_	4	conj	_	VBG|00941990-v|Speaking+
+10	to	to	ADP	IN	_	9	prep	_	TO|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	man	man	NOUN	NN	_	10	pobj	_	NN|10287213-n|Man=
+13	who	who	PRON	WP	_	15	nsubjpass	_	WP|?|?
+14	is	be	VERB	VBZ	_	15	auxpass	_	VBZ|02604760-v|Entity+
+15	seated	seat	VERB	VBN	_	12	rcmod	_	VBN|01543998-v|Communication+
+16	beside	beside	ADP	IN	_	15	prep	_	IN|?|?
+17	her	her	PRON	PRP	_	16	pobj	_	PRP$|?|?
+18	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	woman	woman	NOUN	NN	_	2	nsubj	_	NN|10787470-n|Woman=
+5	driving	drive	VERB	VBG	_	4	dep	_	VBG|01930874-v|Transportation+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	car	car	NOUN	NN	_	5	dobj	_	NN|02958343-n|Automobile=
+8	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+9	talking	talk	VERB	VBG	_	5	conj	_	VBG|00941990-v|Speaking+
+10	to	to	ADP	IN	_	9	prep	_	TO|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	man	man	NOUN	NN	_	10	pobj	_	NN|10287213-n|Man=
+13	seated	seat	VERB	VBN	_	12	partmod	_	VBN|01543998-v|Communication+
+14	beside	beside	ADP	IN	_	13	prep	_	IN|?|?
+15	her	her	PRON	PRP	_	14	pobj	_	PRP$|?|?
+16	.	.	.	.	_	2	punct	_	Fp|?|?

@@ -1,0 +1,43 @@
+sentence A = A dog that has a brown and white coat is trotting through shallow water.
+sentence B = There is no white and brown dog pacing with through the water difficulty.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Damaging+,Human+,White=,Coat=,Entity+,Running=,SubjectiveWeakNegativeAttribute+,Water=
+CONCEPTS B: Entity+,White=,Human+,Canine+,Ambulating+,Water=,SubjectiveAssessmentAttribute+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	11	nsubj	_	NN|02084071-n|Canine+
+3	that	that	DET	WDT	_	4	nsubj	_	WDT|?|?
+4	has	have	VERB	VBZ	_	2	rcmod	_	VBZ|00065639-v|Damaging+
+5	a	a	DET	DT	_	9	det	_	DT|?|?
+6	brown	brown	ADJ	JJ	_	9	amod	_	JJ|00245112-a|Human+
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	white	white	ADJ	JJ	_	6	conj	_	JJ|00393105-a|White=
+9	coat	coat	NOUN	NN	_	4	dobj	_	NN|03057021-n|Coat=
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	trotting	trot	VERB	VBG	_	0	ROOT	_	VBG|01901447-v|Running=
+12	through	through	ADP	IN	_	11	prep	_	IN|?|?
+13	shallow	shallow	ADJ	JJ	_	14	amod	_	JJ|00691696-a|SubjectiveWeakNegativeAttribute+
+14	water	water	NOUN	NN	_	12	pobj	_	NN|14845743-n|Water=
+15	.	.	.	.	_	11	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	7	det	_	DT|?|?
+4	white	white	ADJ	JJ	_	7	amod	_	JJ|00393105-a|White=
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	brown	brown	ADJ	JJ	_	4	conj	_	JJ|00245112-a|Human+
+7	dog	dog	NOUN	NN	_	2	nsubj	_	NN|02084071-n|Canine+
+8	pacing	pace	VERB	VBG	_	7	partmod	_	VBG|02091165-v|Ambulating+
+9	with	with	ADP	IN	_	8	advmod	_	IN|?|?
+10	through	through	ADP	IN	_	8	prep	_	IN|?|?
+11	the	the	DET	DT	_	13	det	_	DT|?|?
+12	water	water	NOUN	NN	_	13	nn	_	NN|14845743-n|Water=
+13	difficulty	difficulty	NOUN	NN	_	10	pobj	_	NN|00623862-n|SubjectiveAssessmentAttribute+
+14	.	.	.	.	_	2	punct	_	Fp|?|?

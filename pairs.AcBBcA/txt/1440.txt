@@ -1,0 +1,25 @@
+sentence A = A man is spitting.
+sentence B = There is no man spitting.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Hominid=,Entity+,Cutting+
+CONCEPTS B: Entity+,Hominid=,Cutting+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	spitting	spit	VERB	VBG	_	0	ROOT	_	VBG|01444563-v|Cutting+
+5	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	spitting	spit	VERB	VBG	_	4	partmod	_	VBG|01444563-v|Cutting+
+6	.	.	.	.	_	2	punct	_	Fp|?|?

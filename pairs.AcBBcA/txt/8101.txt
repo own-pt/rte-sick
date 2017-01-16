@@ -1,0 +1,32 @@
+sentence A = A topless woman is being covered in mud.
+sentence B = There is no topless woman covered in mud.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: top+,Woman=,Entity+,Entity+,Covering+,Soil=
+CONCEPTS B: Entity+,top+,Woman=,Covering+,Soil=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	topless	topless	ADJ	JJ	_	3	amod	_	JJ|02442082-a|top+
+3	woman	woman	NOUN	NN	_	6	nsubjpass	_	NN|10787470-n|Woman=
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	being	be	VERB	VBG	_	6	auxpass	_	VBG|02604760-v|Entity+
+6	covered	cover	VERB	VBN	_	0	ROOT	_	VBN|01332730-v|Covering+
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	mud	mud	NOUN	NN	_	7	pobj	_	NN|14956325-n|Soil=
+9	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	topless	topless	ADJ	JJ	_	5	amod	_	JJ|02442082-a|top+
+5	woman	woman	NOUN	NN	_	2	nsubj	_	NN|10787470-n|Woman=
+6	covered	cover	VERB	VBN	_	5	partmod	_	VBN|01332730-v|Covering+
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	mud	mud	NOUN	NN	_	7	pobj	_	NN|14956325-n|Soil=
+9	.	.	.	.	_	2	punct	_	Fp|?|?

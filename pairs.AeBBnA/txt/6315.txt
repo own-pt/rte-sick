@@ -1,0 +1,41 @@
+sentence A = A yellow dog is running on white snow on a very sunny day.
+sentence B = A yellow dog is running on white snow on a sunny day.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveAssessmentAttribute+,Canine+,Entity+,Attribute+,White=,Snowing=,SubjectiveAssessmentAttribute+,Happiness+,Day=
+CONCEPTS B: SubjectiveAssessmentAttribute+,Canine+,Entity+,Attribute+,White=,Snowing=,Happiness+,Day=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	yellow	yellow	ADJ	JJ	_	3	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	white	white	ADJ	JJ	_	8	amod	_	JJ|00393105-a|White=
+8	snow	snow	NOUN	NN	_	6	pobj	_	NN|15043763-n|Snowing=
+9	on	on	ADP	IN	_	5	prep	_	IN|?|?
+10	a	a	DET	DT	_	13	det	_	DT|?|?
+11	very	very	ADV	RB	_	12	advmod	_	RB|00031899-r|SubjectiveAssessmentAttribute+
+12	sunny	sunny	ADJ	JJ	_	13	amod	_	JJ|00363938-a|Happiness+
+13	day	day	NOUN	NN	_	9	pobj	_	NN|15155220-n|Day=
+14	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	yellow	yellow	ADJ	JJ	_	3	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	white	white	ADJ	JJ	_	8	amod	_	JJ|00393105-a|White=
+8	snow	snow	NOUN	NN	_	6	pobj	_	NN|15043763-n|Snowing=
+9	on	on	ADP	IN	_	5	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	sunny	sunny	ADJ	JJ	_	12	amod	_	JJ|00363938-a|Happiness+
+12	day	day	NOUN	NN	_	9	pobj	_	NN|15155220-n|Day=
+13	.	.	.	.	_	5	punct	_	Fp|?|?

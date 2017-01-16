@@ -1,0 +1,35 @@
+sentence A = Two young men are cheerfully playing outside near a golden statue.
+sentence B = Two people are looking at a gold statue.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,Hominid=,Entity+,EmotionalState+,DramaticActing+,SubjectiveWeakPositiveAttribute+,Sculpture+
+CONCEPTS B: GroupOfPeople=,Entity+,SubjectiveAssessmentAttribute+,Gold=,Sculpture+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	men	man	NOUN	NNS	_	6	nsubj	_	NNS|02472293-n|Hominid=
+4	are	be	VERB	VBP	_	6	aux	_	VBP|02604760-v|Entity+
+5	cheerfully	cheerfully	ADV	RB	_	6	advmod	_	RB|00230749-r|EmotionalState+
+6	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+7	outside	outside	ADV	RB	_	6	advmod	_	IN|?|?
+8	near	near	ADP	IN	_	6	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	golden	golden	ADJ	JJ	_	11	amod	_	JJ|00670938-a|SubjectiveWeakPositiveAttribute+
+11	statue	statue	NOUN	NN	_	8	pobj	_	NN|04306847-n|Sculpture+
+12	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	gold	gold	ADJ	JJ	_	8	amod	_	NN|14638799-n|Gold=
+8	statue	statue	NOUN	NN	_	5	pobj	_	NN|04306847-n|Sculpture+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

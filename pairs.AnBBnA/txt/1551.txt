@@ -1,0 +1,29 @@
+sentence A = The men are acting on a stage.
+sentence B = Mimes are performing on a stage.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,DramaticActing+,PerformanceStage=
+CONCEPTS B: RecreationOrExercise+,Entity+,IntentionalProcess+,Attribute+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	acting	act	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	stage	stage	NOUN	NN	_	5	pobj	_	NN|04296562-n|PerformanceStage=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Mimes	mime	NOUN	NNS	_	3	nsubj	_	NNS|00550016-n|RecreationOrExercise+
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+4	on	on	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	stage	stage	NOUN	NN	_	4	pobj	_	NN|13939892-n|Attribute+
+7	.	.	.	.	_	3	punct	_	Fp|?|?

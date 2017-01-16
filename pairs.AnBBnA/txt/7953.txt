@@ -1,0 +1,38 @@
+sentence A = Two football players are scrambling for the ball on the court.
+sentence B = Two basketball players are scrambling for the ball on the court.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Football+,Human+,Entity+,Putting+,Ball=,Government+
+CONCEPTS B: Basketball=,Human+,Entity+,Putting+,Ball=,Government+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	football	football	NOUN	NN	_	3	nn	_	NN|00468480-n|Football+
+3	players	player	NOUN	NNS	_	5	nsubj	_	NNS|10439851-n|Human+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	scrambling	scramble	VERB	VBG	_	0	ROOT	_	VBG|01472807-v|Putting+
+6	for	for	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	ball	ball	NOUN	NN	_	6	pobj	_	NN|02778669-n|Ball=
+9	on	on	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	court	court	NOUN	NN	_	9	pobj	_	NN|08329453-n|Government+
+12	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	basketball	basketball	NOUN	NN	_	3	nn	_	NN|00480993-n|Basketball=
+3	players	player	NOUN	NNS	_	5	nsubj	_	NNS|10439851-n|Human+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	scrambling	scramble	VERB	VBG	_	0	ROOT	_	VBG|01472807-v|Putting+
+6	for	for	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	ball	ball	NOUN	NN	_	6	pobj	_	NN|02778669-n|Ball=
+9	on	on	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	court	court	NOUN	NN	_	9	pobj	_	NN|08329453-n|Government+
+12	.	.	.	.	_	5	punct	_	Fp|?|?

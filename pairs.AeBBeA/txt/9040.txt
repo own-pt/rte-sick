@@ -1,0 +1,44 @@
+sentence A = A large white dog is jumping in the air over an area covered by snow.
+sentence B = A large white dog is jumping in the air over a snowy area.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,White=,Canine+,Entity+,Ambulating=,AirTransportation+,SubjectiveAssessmentAttribute+,Covering+,Snowing=
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Covering+,Canine+,Entity+,Ambulating=,AirTransportation+,Covering+,SubjectiveAssessmentAttribute+
+
+CONLL A:
+
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	white	white	ADJ	JJ	_	4	amod	_	JJ|00393105-a|White=
+4	dog	dog	NOUN	NN	_	6	nsubj	_	NN|02084071-n|Canine+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	air	air	NOUN	NN	_	7	pobj	_	NN|00300441-n|AirTransportation+
+10	over	over	ADP	IN	_	6	prep	_	IN|?|?
+11	an	a	DET	DT	_	12	det	_	DT|?|?
+12	area	area	NOUN	NN	_	10	pobj	_	NN|14514039-n|SubjectiveAssessmentAttribute+
+13	covered	cover	VERB	VBN	_	12	partmod	_	VBN|01332730-v|Covering+
+14	by	by	ADP	IN	_	13	prep	_	IN|?|?
+15	snow	snow	NOUN	NN	_	14	pobj	_	NN|15043763-n|Snowing=
+16	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	white	white	ADJ	JJ	_	4	amod	_	JJ|01698231-a|Covering+
+4	dog	dog	NOUN	NN	_	6	nsubj	_	NN|02084071-n|Canine+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	air	air	NOUN	NN	_	7	pobj	_	NN|00300441-n|AirTransportation+
+10	over	over	ADP	IN	_	6	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	snowy	snowy	ADJ	JJ	_	13	amod	_	JJ|01698231-a|Covering+
+13	area	area	NOUN	NN	_	10	pobj	_	NN|14514039-n|SubjectiveAssessmentAttribute+
+14	.	.	.	.	_	6	punct	_	Fp|?|?

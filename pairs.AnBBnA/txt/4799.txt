@@ -1,0 +1,27 @@
+sentence A = A boy is playing an instrument.
+sentence B = A kid is playing guitar.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,DramaticActing+,MusicalInstrument=
+CONCEPTS B: HumanChild=,Entity+,DramaticActing+,Guitar=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	an	a	DET	DT	_	6	det	_	DT|?|?
+6	instrument	instrument	NOUN	NN	_	4	dobj	_	NN|03800933-n|MusicalInstrument=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	kid	kid	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+6	.	.	.	.	_	4	punct	_	Fp|?|?

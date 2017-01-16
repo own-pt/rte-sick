@@ -1,0 +1,37 @@
+sentence A = A big green ball is knocking a potato.
+sentence B = A ball, which is green and big, is knocking a potato.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Green=,Ball=,Entity+,SoundAttribute+,PotatoTuber=
+CONCEPTS B: Ball=,Entity+,Green=,SubjectiveWeakPositiveAttribute+,Entity+,SoundAttribute+,PotatoTuber=
+
+CONLL A:
+
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	big	big	ADJ	JJ	_	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	green	green	ADJ	JJ	_	4	amod	_	JJ|00375969-a|Green=
+4	ball	ball	NOUN	NN	_	6	nsubj	_	NN|02778669-n|Ball=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	knocking	knock	VERB	VBG	_	0	ROOT	_	VBG|02185373-v|SoundAttribute+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	potato	potato	NOUN	NN	_	6	dobj	_	NN|07710616-n|PotatoTuber=
+9	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	ball	ball	NOUN	NN	_	11	nsubj	_	NN|02778669-n|Ball=
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	which	which	DET	WDT	_	6	nsubj	_	WDT|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	green	green	ADJ	JJ	_	2	rcmod	_	JJ|00375969-a|Green=
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	big	big	ADJ	JJ	_	6	conj	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+9	,	,	.	,	_	2	punct	_	Fc|?|?
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	knocking	knock	VERB	VBG	_	0	ROOT	_	VBG|02185373-v|SoundAttribute+
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	potato	potato	NOUN	NN	_	11	dobj	_	NN|07710616-n|PotatoTuber=
+14	.	.	.	.	_	11	punct	_	Fp|?|?

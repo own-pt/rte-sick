@@ -1,0 +1,38 @@
+sentence A = Several people are in front of a building which is covered by colors.
+sentence B = Several people are in front of a colorful building.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: GroupOfPeople=,Entity+,FrontFn=,Building=,Entity+,Covering+,ColorAttribute+
+CONCEPTS B: GroupOfPeople=,Entity+,FrontFn=,ColorAttribute+,Building=
+
+CONLL A:
+
+1	Several	several	ADJ	JJ	_	2	amod	_	DT|?|?
+2	people	people	NOUN	NNS	_	3	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	front	front	NOUN	NN	_	4	pobj	_	NN|08573472-n|FrontFn=
+6	of	of	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	building	building	NOUN	NN	_	6	pobj	_	NN|02913152-n|Building=
+9	which	which	DET	WDT	_	11	nsubjpass	_	WDT|?|?
+10	is	be	VERB	VBZ	_	11	auxpass	_	VBZ|02604760-v|Entity+
+11	covered	cover	VERB	VBN	_	8	rcmod	_	VBN|01332730-v|Covering+
+12	by	by	ADP	IN	_	11	prep	_	IN|?|?
+13	colors	color	NOUN	NNS	_	12	pobj	_	NNS|04956594-n|ColorAttribute+
+14	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Several	several	ADJ	JJ	_	2	amod	_	DT|?|?
+2	people	people	NOUN	NNS	_	3	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	front	front	NOUN	NN	_	4	pobj	_	NN|08573472-n|FrontFn=
+6	of	of	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	colorful	colorful	ADJ	JJ	_	9	amod	_	JJ|00394562-a|ColorAttribute+
+9	building	building	NOUN	NN	_	6	pobj	_	NN|02913152-n|Building=
+10	.	.	.	.	_	3	punct	_	Fp|?|?

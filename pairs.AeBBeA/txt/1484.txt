@@ -1,0 +1,29 @@
+sentence A = The oil is being stirred by a man.
+sentence B = The man is stirring oil.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Oil=,Entity+,Entity+,Stirring+,Hominid=
+CONCEPTS B: Hominid=,Entity+,PsychologicalProcess+,Oil=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	oil	oil	NOUN	NN	_	5	nsubjpass	_	NN|14966667-n|Oil=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	stirred	stir	VERB	VBN	_	0	ROOT	_	VBN|01894320-v|Stirring+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	man	man	NOUN	NN	_	6	pobj	_	NN|02472293-n|Hominid=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	stirring	stir	VERB	VBG	_	0	ROOT	_	VBG|02116118-v|PsychologicalProcess+
+5	oil	oil	NOUN	NN	_	4	dobj	_	NN|14966667-n|Oil=
+6	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,24 @@
+sentence A = A man is speaking.
+sentence B = A man is silent.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Hominid=,Entity+,Speaking+
+CONCEPTS B: Hominid=,Entity+,LinguisticCommunication[
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	speaking	speak	VERB	VBG	_	0	ROOT	_	VBG|00963570-v|Speaking+
+5	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	cop	_	VBZ|02604760-v|Entity+
+4	silent	silent	ADJ	JJ	_	0	ROOT	_	JJ|00942163-a|LinguisticCommunication[
+5	.	.	.	.	_	4	punct	_	Fp|?|?

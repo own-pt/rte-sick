@@ -1,0 +1,44 @@
+sentence A = The Jockeys are racing horses on the field, which is completely green.
+sentence B = The Jockeys are slowing down their horses on the field, which is completely green.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Position+,Entity+,Motion+,Horse=,FieldOfStudy=,Entity+,SubjectiveAssessmentAttribute+,Green=
+CONCEPTS B: Position+,Entity+,Decreasing+,earlier+,Horse=,FieldOfStudy=,Entity+,SubjectiveAssessmentAttribute+,Green=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	Jockeys	jockey	NOUN	NNPS	_	4	nsubj	_	NNS|10223177-n|Position+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	racing	race	VERB	VBG	_	0	ROOT	_	VBG|02058994-v|Motion+
+5	horses	horse	NOUN	NNS	_	4	dobj	_	NNS|02374451-n|Horse=
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	field	field	NOUN	NN	_	6	pobj	_	NN|05996646-n|FieldOfStudy=
+9	,	,	.	,	_	8	punct	_	Fc|?|?
+10	which	which	DET	WDT	_	13	nsubj	_	WDT|?|?
+11	is	be	VERB	VBZ	_	13	cop	_	VBZ|02604760-v|Entity+
+12	completely	completely	ADV	RB	_	13	advmod	_	RB|00008007-r|SubjectiveAssessmentAttribute+
+13	green	green	ADJ	JJ	_	8	rcmod	_	JJ|00375969-a|Green=
+14	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	Jockeys	jockey	NOUN	NNPS	_	4	nsubj	_	NNS|10223177-n|Position+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	slowing	slow	VERB	VBG	_	0	ROOT	_	VBG|00440786-v|Decreasing+
+5	down	down	PRT	RP	_	4	prt	_	RP|00096089-r|earlier+
+6	their	their	PRON	PRP$	_	7	poss	_	PRP$|?|?
+7	horses	horse	NOUN	NNS	_	4	dobj	_	NNS|02374451-n|Horse=
+8	on	on	ADP	IN	_	4	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	field	field	NOUN	NN	_	8	pobj	_	NN|05996646-n|FieldOfStudy=
+11	,	,	.	,	_	10	punct	_	Fc|?|?
+12	which	which	DET	WDT	_	15	nsubj	_	WDT|?|?
+13	is	be	VERB	VBZ	_	15	cop	_	VBZ|02604760-v|Entity+
+14	completely	completely	ADV	RB	_	15	advmod	_	RB|00008007-r|SubjectiveAssessmentAttribute+
+15	green	green	ADJ	JJ	_	10	rcmod	_	JJ|00375969-a|Green=
+16	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,32 @@
+sentence A = A woman is opening a soda and drinking it.
+sentence B = A woman is riding on an elephant.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Process+,Soda=,Drinking+
+CONCEPTS B: Woman=,Entity+,Carrying=,Elephant+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	opening	open	VERB	VBG	_	0	ROOT	_	VBG|00539936-v|Process+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	soda	soda	NOUN	NN	_	4	dobj	_	NN|07927512-n|Soda=
+7	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+8	drinking	drink	VERB	VBG	_	4	conj	_	VBG|01171183-v|Drinking+
+9	it	it	PRON	PRP	_	8	dobj	_	PRP|?|?
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	an	a	DET	DT	_	7	det	_	DT|?|?
+7	elephant	elephant	NOUN	NN	_	5	pobj	_	NN|02503517-n|Elephant+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

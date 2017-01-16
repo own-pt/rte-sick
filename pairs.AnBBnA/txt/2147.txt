@@ -1,0 +1,29 @@
+sentence A = A potato peel is falling over a woman.
+sentence B = The man is slicing potatoes.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: PotatoTuber=,FruitOrVegetable+,Entity+,Getting+,SubjectiveAssessmentAttribute+,Woman=
+CONCEPTS B: Hominid=,Entity+,Separating+,PotatoTuber=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	potato	potato	NOUN	NN	_	3	nn	_	NN|07710616-n|PotatoTuber=
+3	peel	peel	NOUN	NN	_	5	nsubj	_	NN|07738353-n|FruitOrVegetable+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	falling	fall	VERB	VBG	_	0	ROOT	_	VBG|02229828-v|Getting+
+6	over	over	ADP	IN	_	5	prep	_	RP|00226550-r|SubjectiveAssessmentAttribute+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	woman	woman	NOUN	NN	_	6	pobj	_	NN|10787470-n|Woman=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	potatoes	potato	NOUN	NNS	_	4	dobj	_	NNS|07710616-n|PotatoTuber=
+6	.	.	.	.	_	4	punct	_	Fp|?|?

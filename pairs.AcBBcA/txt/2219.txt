@@ -1,0 +1,34 @@
+sentence A = The man is being knocked off of a horse.
+sentence B = The man is not knocked off of a horse.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Hominid=,Entity+,Entity+,SoundAttribute+,Horse=
+CONCEPTS B: Hominid=,Entity+,not=,SoundAttribute+,Horse=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubjpass	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	knocked	knock	VERB	VBN	_	0	ROOT	_	VBN|02185373-v|SoundAttribute+
+6	off	off	PRT	RP	_	5	prt	_	RP|00232936-r|?
+7	of	of	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	horse	horse	NOUN	NN	_	7	pobj	_	NN|02374451-n|Horse=
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubjpass	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	auxpass	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	knocked	knock	VERB	VBN	_	0	ROOT	_	VBN|02185373-v|SoundAttribute+
+6	off	off	PRT	RP	_	5	prep	_	RP|00232936-r|?
+7	of	of	ADP	IN	_	6	pcomp	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	horse	horse	NOUN	NN	_	7	pobj	_	NN|02374451-n|Horse=
+10	.	.	.	.	_	5	punct	_	Fp|?|?

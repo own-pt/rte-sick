@@ -1,0 +1,28 @@
+sentence A = A man is rowing a boat.
+sentence B = A woman is rowing a boat.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Rowing+,WaterVehicle=
+CONCEPTS B: Woman=,Entity+,Rowing+,WaterVehicle=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	rowing	row	VERB	VBG	_	0	ROOT	_	VBG|01946996-v|Rowing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	boat	boat	NOUN	NN	_	4	dobj	_	NN|02858304-n|WaterVehicle=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	rowing	row	VERB	VBG	_	0	ROOT	_	VBG|01946996-v|Rowing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	boat	boat	NOUN	NN	_	4	dobj	_	NN|02858304-n|WaterVehicle=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

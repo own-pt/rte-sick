@@ -1,0 +1,31 @@
+sentence A = A few people are floating on a raft.
+sentence B = People are riding and paddling a raft.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GroupOfPeople=,Entity+,Swimming+,SubjectiveAssessmentAttribute+
+CONCEPTS B: GroupOfPeople=,Entity+,Carrying=,Motion+,SubjectiveAssessmentAttribute+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	quantmod	_	DT|?|?
+2	few	few	ADJ	JJ	_	3	num	_	DT|?|?
+3	people	people	NOUN	NNS	_	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	floating	float	VERB	VBG	_	0	ROOT	_	VBG|01904293-v|Swimming+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	raft	raft	NOUN	NN	_	6	pobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	People	people	NOUN	NNS	_	3	nsubj	_	NNS|07942152-n|GroupOfPeople=
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+4	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+5	paddling	paddle	VERB	VBG	_	3	conj	_	VBG|01419373-v|Motion+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	raft	raft	NOUN	NN	_	5	dobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+8	.	.	.	.	_	3	punct	_	Fp|?|?

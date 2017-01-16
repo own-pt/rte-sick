@@ -1,0 +1,32 @@
+sentence A = Two people are kickboxing and spectators are watching.
+sentence B = Two women are sparring in a kickboxing match.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GroupOfPeople=,Entity+,SocialRole+,Entity+,Looking=
+CONCEPTS B: Woman=,Entity+,Communication+,Sport+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	cop	_	VBP|02604760-v|Entity+
+4	kickboxing	kickboxing	VERB	VBG	_	0	ROOT	_	NN|?|?
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	spectators	spectator	NOUN	NNS	_	8	nsubj	_	NNS|10633450-n|SocialRole+
+7	are	be	VERB	VBP	_	8	aux	_	VBP|02604760-v|Entity+
+8	watching	watch	VERB	VBG	_	4	conj	_	VBG|02150948-v|Looking=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	women	woman	NOUN	NNS	_	4	nsubj	_	NNS|10787470-n|Woman=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	sparring	spar	VERB	VBG	_	0	ROOT	_	VBG|00773922-v|Communication+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	kickboxing	kickboxing	VERB	VBG	_	8	nn	_	NN|?|?
+8	match	match	NOUN	NN	_	5	pobj	_	NN|07470671-n|Sport+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

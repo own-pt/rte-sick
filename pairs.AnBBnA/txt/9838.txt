@@ -1,0 +1,33 @@
+sentence A = Some instruments are being played by a band.
+sentence B = A young, topless woman is covered in paint.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: MusicalInstrument=,Entity+,Entity+,DramaticActing+,MusicalGroup+
+CONCEPTS B: HumanYouth=,top+,Woman=,Entity+,Covering+,Paint+
+
+CONLL A:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	instruments	instrument	NOUN	NNS	_	5	nsubjpass	_	NNS|03800933-n|MusicalInstrument=
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	played	play	VERB	VBN	_	0	ROOT	_	VBN|01719302-v|DramaticActing+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	band	band	NOUN	NN	_	6	pobj	_	NN|08249038-n|MusicalGroup+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	5	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	5	amod	_	JJ|01646941-a|HumanYouth=
+3	,	,	.	,	_	5	punct	_	Fc|?|?
+4	topless	topless	ADJ	JJ	_	5	amod	_	JJ|02442082-a|top+
+5	woman	woman	NOUN	NN	_	7	nsubjpass	_	NN|10787470-n|Woman=
+6	is	be	VERB	VBZ	_	7	auxpass	_	VBZ|02604760-v|Entity+
+7	covered	cover	VERB	VBN	_	0	ROOT	_	VBN|01332730-v|Covering+
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	paint	paint	NOUN	NN	_	8	pobj	_	NN|03875218-n|Paint+
+10	.	.	.	.	_	7	punct	_	Fp|?|?

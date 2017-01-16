@@ -1,0 +1,47 @@
+sentence A = The guitar is being played by the man, who has the guitar case open for donations.
+sentence B = The man is playing the guitar and has the guitar case open for donations.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Guitar=,Entity+,Entity+,DramaticActing+,Hominid=,Damaging+,Guitar=,Character+,SubjectiveStrongPositiveAttribute+,UnilateralGiving+
+CONCEPTS B: Hominid=,Entity+,DramaticActing+,Guitar=,Damaging+,Guitar=,Character+,SubjectiveStrongPositiveAttribute+,UnilateralGiving+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	guitar	guitar	NOUN	NN	_	5	nsubjpass	_	NN|03467517-n|Guitar=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	played	play	VERB	VBN	_	0	ROOT	_	VBN|01719302-v|DramaticActing+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	man	man	NOUN	NN	_	6	pobj	_	NN|02472293-n|Hominid=
+9	,	,	.	,	_	8	punct	_	Fc|?|?
+10	who	who	PRON	WP	_	11	nsubj	_	WP|?|?
+11	has	have	VERB	VBZ	_	8	rcmod	_	VBZ|00065639-v|Damaging+
+12	the	the	DET	DT	_	14	det	_	DT|?|?
+13	guitar	guitar	NOUN	NN	_	14	nn	_	NN|03467517-n|Guitar=
+14	case	case	NOUN	NN	_	15	nsubj	_	NN|06825399-n|Character+
+15	open	open	ADJ	JJ	_	11	xcomp	_	JJ|01985247-a|SubjectiveStrongPositiveAttribute+
+16	for	for	ADP	IN	_	15	prep	_	IN|?|?
+17	donations	donation	NOUN	NNS	_	16	pobj	_	NNS|01089778-n|UnilateralGiving+
+18	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+7	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+8	has	have	VERB	VBZ	_	12	aux	_	VBZ|00065639-v|Damaging+
+9	the	the	DET	DT	_	11	det	_	DT|?|?
+10	guitar	guitar	NOUN	NN	_	11	nn	_	NN|03467517-n|Guitar=
+11	case	case	NOUN	NN	_	12	nsubj	_	NN|06825399-n|Character+
+12	open	open	ADJ	JJ	_	4	conj	_	JJ|01985247-a|SubjectiveStrongPositiveAttribute+
+13	for	for	ADP	IN	_	12	prep	_	IN|?|?
+14	donations	donation	NOUN	NNS	_	13	pobj	_	NNS|01089778-n|UnilateralGiving+
+15	.	.	.	.	_	4	punct	_	Fp|?|?

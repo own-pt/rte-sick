@@ -1,0 +1,36 @@
+sentence A = A man is holding a small animal in one hand.
+sentence B = A man is holding a big animal in one hand.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Obligation+,SubjectiveStrongNegativeAttribute+,Animal=,Hand+
+CONCEPTS B: Hominid=,Entity+,Obligation+,SubjectiveWeakPositiveAttribute+,Animal=,Hand+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|02203362-v|Obligation+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	small	small	ADJ	JJ	_	7	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+7	animal	animal	NOUN	NN	_	4	dobj	_	NN|00015388-n|Animal=
+8	in	in	ADP	IN	_	4	prep	_	IN|?|?
+9	one	1	NUM	CD	_	10	num	_	Z|?|?
+10	hand	hand	NOUN	NN	_	8	pobj	_	NN|05564590-n|Hand+
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|02203362-v|Obligation+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	big	big	ADJ	JJ	_	7	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+7	animal	animal	NOUN	NN	_	4	dobj	_	NN|00015388-n|Animal=
+8	in	in	ADP	IN	_	4	prep	_	IN|?|?
+9	one	1	NUM	CD	_	10	num	_	Z|?|?
+10	hand	hand	NOUN	NN	_	8	pobj	_	NN|05564590-n|Hand+
+11	.	.	.	.	_	4	punct	_	Fp|?|?

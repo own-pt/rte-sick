@@ -1,0 +1,43 @@
+sentence A = Some people are treading through the snow of the landscape which is beautiful and snowy.
+sentence B = Some people are treading through the snow of the beautiful snowy landscape.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: GroupOfPeople=,Entity+,Walking+,Snowing=,ArtWork+,Entity+,SubjectiveStrongPositiveAttribute+,Covering+
+CONCEPTS B: GroupOfPeople=,Entity+,Walking+,Snowing=,SubjectiveStrongPositiveAttribute+,Covering+,ArtWork+
+
+CONLL A:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	treading	tread	VERB	VBG	_	0	ROOT	_	VBG|02091410-v|Walking+
+5	through	through	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	snow	snow	NOUN	NN	_	5	pobj	_	NN|15043763-n|Snowing=
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	landscape	landscape	NOUN	NN	_	8	pobj	_	NN|03640166-n|ArtWork+
+11	which	which	DET	WDT	_	13	nsubj	_	WDT|?|?
+12	is	be	VERB	VBZ	_	13	cop	_	VBZ|02604760-v|Entity+
+13	beautiful	beautiful	ADJ	JJ	_	10	rcmod	_	JJ|00217728-a|SubjectiveStrongPositiveAttribute+
+14	and	and	CONJ	CC	_	13	cc	_	CC|?|?
+15	snowy	snowy	ADJ	JJ	_	13	conj	_	JJ|01698231-a|Covering+
+16	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	treading	tread	VERB	VBG	_	0	ROOT	_	VBG|02091410-v|Walking+
+5	through	through	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	snow	snow	NOUN	NN	_	5	pobj	_	NN|15043763-n|Snowing=
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	12	det	_	DT|?|?
+10	beautiful	beautiful	ADJ	JJ	_	12	amod	_	JJ|00217728-a|SubjectiveStrongPositiveAttribute+
+11	snowy	snowy	ADJ	JJ	_	12	amod	_	JJ|01698231-a|Covering+
+12	landscape	landscape	NOUN	NN	_	8	pobj	_	NN|03640166-n|ArtWork+
+13	.	.	.	.	_	4	punct	_	Fp|?|?

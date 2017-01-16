@@ -1,0 +1,32 @@
+sentence A = The men are fist fighting in a ring.
+sentence B = Two people are fist fighting in a ring.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Fist=,ViolentContest+,Jewelry+
+CONCEPTS B: GroupOfPeople=,Entity+,Fist=,ViolentContest+,Jewelry+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	cop	_	VBP|02604760-v|Entity+
+4	fist	fist	ADJ	JJ	_	0	ROOT	_	NN|05565064-n|Fist=
+5	fighting	fight	VERB	VBG	_	4	partmod	_	VBG|01090335-v|ViolentContest+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	ring	ring	NOUN	NN	_	6	pobj	_	NN|04092609-n|Jewelry+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	cop	_	VBP|02604760-v|Entity+
+4	fist	fist	NOUN	NN	_	0	ROOT	_	NN|05565064-n|Fist=
+5	fighting	fight	VERB	VBG	_	4	partmod	_	VBG|01090335-v|ViolentContest+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	ring	ring	NOUN	NN	_	6	pobj	_	NN|04092609-n|Jewelry+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

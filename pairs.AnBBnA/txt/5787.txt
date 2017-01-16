@@ -1,0 +1,31 @@
+sentence A = A cat is jumping into a box.
+sentence B = A young man is talking to a leaf.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Whip+,Entity+,Ambulating=,Box=
+CONCEPTS B: HumanYouth=,Hominid=,Entity+,Speaking+,Leaf=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	4	nsubj	_	NN|02985606-n|Whip+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	into	into	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	box	box	NOUN	NN	_	5	pobj	_	NN|02883344-n|Box=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+6	to	to	ADP	IN	_	5	prep	_	TO|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	leaf	leaf	NOUN	NN	_	6	pobj	_	NN|13152742-n|Leaf=
+9	.	.	.	.	_	5	punct	_	Fp|?|?

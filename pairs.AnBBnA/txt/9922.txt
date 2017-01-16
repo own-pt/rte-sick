@@ -1,0 +1,32 @@
+sentence A = A man is crouching and holding a camera.
+sentence B = There is no tiger cub making a sound.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Inclining+,Process+,Camera=
+CONCEPTS B: Entity+,Feline+,NonFullyFormed+,Process+,RadiatingSound+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	crouching	crouch	VERB	VBG	_	0	ROOT	_	VBG|02062632-v|Inclining+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	holding	hold	VERB	VBG	_	4	conj	_	VBG|01217043-v|Process+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	camera	camera	NOUN	NN	_	6	dobj	_	NN|02942699-n|Camera=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	tiger	tiger	NOUN	NN	_	5	nn	_	NN|02129604-n|Feline+
+5	cub	cub	NOUN	NN	_	2	nsubj	_	NN|01322685-n|NonFullyFormed+
+6	making	make	VERB	VBG	_	5	partmod	_	VBG|01617192-v|Process+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	sound	sound	NOUN	NN	_	6	dobj	_	NN|07371293-n|RadiatingSound+
+9	.	.	.	.	_	2	punct	_	Fp|?|?

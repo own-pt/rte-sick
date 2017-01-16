@@ -1,0 +1,36 @@
+sentence A = A young girl in blue is jumping in the air.
+sentence B = There is no girl in blue jumping in the air.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: HumanYouth=,Human+,SubjectiveStrongNegativeAttribute+,Entity+,Ambulating=,AirTransportation+
+CONCEPTS B: Entity+,Human+,SubjectiveStrongNegativeAttribute+,Ambulating=,AirTransportation+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	7	nsubj	_	NN|10129825-n|Human+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	blue	blue	NOUN	NN	_	4	pobj	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	air	air	NOUN	NN	_	8	pobj	_	NN|00300441-n|AirTransportation+
+11	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	girl	girl	NOUN	NN	_	2	nsubj	_	NN|10129825-n|Human+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	blue	blue	ADJ	JJ	_	7	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+7	jumping	jump	NOUN	NN	_	5	pobj	_	VBG|01963942-v|Ambulating=
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	air	air	NOUN	NN	_	8	pobj	_	NN|00300441-n|AirTransportation+
+11	.	.	.	.	_	2	punct	_	Fp|?|?

@@ -1,0 +1,39 @@
+sentence A = A child in a red outfit is jumping on a trampoline.
+sentence B = There is no child in a red outfit jumping on a trampoline.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: HumanChild=,Red=,Collection+,Entity+,Ambulating=,Device+
+CONCEPTS B: Entity+,HumanChild=,Red=,Collection+,Ambulating=,Device+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	8	nsubj	_	NN|09917593-n|HumanChild=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	red	red	ADJ	JJ	_	6	amod	_	JJ|00381097-a|Red=
+6	outfit	outfit	NOUN	NN	_	3	pobj	_	NN|03619396-n|Collection+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+9	on	on	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	trampoline	trampoline	NOUN	NN	_	9	pobj	_	NN|04469514-n|Device+
+12	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	child	child	NOUN	NN	_	2	nsubj	_	NN|09917593-n|HumanChild=
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	red	red	ADJ	JJ	_	8	amod	_	JJ|00381097-a|Red=
+8	outfit	outfit	NOUN	NN	_	5	pobj	_	NN|03619396-n|Collection+
+9	jumping	jump	VERB	VBG	_	8	partmod	_	VBG|01963942-v|Ambulating=
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	trampoline	trampoline	NOUN	NN	_	10	pobj	_	NN|04469514-n|Device+
+13	.	.	.	.	_	2	punct	_	Fp|?|?

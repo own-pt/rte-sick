@@ -1,0 +1,42 @@
+sentence A = Two men with bikes are on the side of a snowy road.
+sentence B = Two men are breaking into a car during a trip on a snowy road.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Bicycle=,Entity+,Object+,Covering+,Roadway+
+CONCEPTS B: Hominid=,Entity+,EndFn+,Automobile=,Motion+,Covering+,Roadway+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	5	nsubj	_	NNS|02472293-n|Hominid=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	bikes	bike	NOUN	NNS	_	3	pobj	_	NNS|02834778-n|Bicycle=
+5	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	side	side	NOUN	NN	_	6	pobj	_	NN|08510666-n|Object+
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	snowy	snowy	ADJ	JJ	_	12	amod	_	JJ|01698231-a|Covering+
+12	road	road	NOUN	NN	_	9	pobj	_	NN|04096066-n|Roadway+
+13	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	breaking	break	VERB	VBG	_	0	ROOT	_	VBG|02681524-v|EndFn+
+5	into	into	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	car	car	NOUN	NN	_	5	pobj	_	NN|02958343-n|Automobile=
+8	during	during	ADP	IN	_	4	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	trip	trip	NOUN	NN	_	8	pobj	_	NN|07317519-n|Motion+
+11	on	on	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	14	det	_	DT|?|?
+13	snowy	snowy	ADJ	JJ	_	14	amod	_	JJ|01698231-a|Covering+
+14	road	road	NOUN	NN	_	11	pobj	_	NN|04096066-n|Roadway+
+15	.	.	.	.	_	4	punct	_	Fp|?|?

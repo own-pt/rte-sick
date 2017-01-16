@@ -1,0 +1,31 @@
+sentence A = A young girl is using sign language.
+sentence B = There is no girl communicating with sign language.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: HumanYouth=,Human+,Entity+,IntentionalProcess+,Character+,Language=
+CONCEPTS B: Entity+,Human+,ReligiousProcess+,Character+,Language=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	using	use	VERB	VBG	_	0	ROOT	_	VBG|01158872-v|IntentionalProcess+
+6	sign	sign	NOUN	NN	_	7	nn	_	NN|06811625-n|Character+
+7	language	language	NOUN	NN	_	5	dobj	_	NN|06282651-n|Language=
+8	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	girl	girl	NOUN	NN	_	2	nsubj	_	NN|10129825-n|Human+
+5	communicating	communicate	VERB	VBG	_	4	partmod	_	VBG|01030678-v|ReligiousProcess+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	sign	sign	NOUN	NN	_	8	nn	_	NN|06811625-n|Character+
+8	language	language	NOUN	NN	_	6	pobj	_	NN|06282651-n|Language=
+9	.	.	.	.	_	2	punct	_	Fp|?|?

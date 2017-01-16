@@ -1,0 +1,31 @@
+sentence A = A girl is playing a flute.
+sentence B = A wind instrument is being played by a girl.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,DramaticActing+,Flute=
+CONCEPTS B: Wind=,MusicalInstrument=,Entity+,Entity+,DramaticActing+,Human+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	flute	flute	NOUN	NN	_	4	dobj	_	NN|03372029-n|Flute=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	wind	wind	NOUN	NN	_	3	nn	_	NN|11525955-n|Wind=
+3	instrument	instrument	NOUN	NN	_	6	nsubjpass	_	NN|03800933-n|MusicalInstrument=
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	being	be	VERB	VBG	_	6	auxpass	_	VBG|02604760-v|Entity+
+6	played	play	VERB	VBN	_	0	ROOT	_	VBN|01719302-v|DramaticActing+
+7	by	by	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	girl	girl	NOUN	NN	_	7	pobj	_	NN|10129825-n|Human+
+10	.	.	.	.	_	6	punct	_	Fp|?|?

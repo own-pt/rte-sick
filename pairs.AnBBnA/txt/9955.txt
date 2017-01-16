@@ -1,0 +1,46 @@
+sentence A = Two men are doing a skit, which is very funny, with a boxer in front of a crowd of people.
+sentence B = A rabbit is playing with a toy rabbit.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Man=,Entity+,IntentionalProcess+,Pretending+,Entity+,SubjectiveAssessmentAttribute+,SubjectiveStrongPositiveAttribute+,Boxer=,FrontFn=,SubjectiveAssessmentAttribute=,GroupOfPeople=
+CONCEPTS B: Rabbit=,Entity+,DramaticActing+,RecreationOrExerciseDevice+,Rabbit=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|10287213-n|Man=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	skit	skit	NOUN	NN	_	4	dobj	_	NN|00551508-n|Pretending+
+7	,	,	.	,	_	6	punct	_	Fc|?|?
+8	which	which	DET	WDT	_	11	nsubj	_	WDT|?|?
+9	is	be	VERB	VBZ	_	11	cop	_	VBZ|02604760-v|Entity+
+10	very	very	ADV	RB	_	11	advmod	_	RB|00031899-r|SubjectiveAssessmentAttribute+
+11	funny	funny	ADJ	JJ	_	6	rcmod	_	JJ|01265308-a|SubjectiveStrongPositiveAttribute+
+12	,	,	.	,	_	11	punct	_	Fc|?|?
+13	with	with	ADP	IN	_	11	prep	_	IN|?|?
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	boxer	boxer	NOUN	NN	_	13	pobj	_	NN|09870208-n|Boxer=
+16	in	in	ADP	IN	_	15	prep	_	IN|?|?
+17	front	front	NOUN	NN	_	16	pobj	_	NN|08573472-n|FrontFn=
+18	of	of	ADP	IN	_	17	prep	_	IN|?|?
+19	a	a	DET	DT	_	20	det	_	DT|?|?
+20	crowd	crowd	NOUN	NN	_	18	pobj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+21	of	of	ADP	IN	_	20	prep	_	IN|?|?
+22	people	people	NOUN	NNS	_	21	pobj	_	NNS|07942152-n|GroupOfPeople=
+23	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	rabbit	rabbit	NOUN	NN	_	4	nsubj	_	NN|02324045-n|Rabbit=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	toy	toy	NOUN	NN	_	8	nn	_	NN|03964744-n|RecreationOrExerciseDevice+
+8	rabbit	rabbit	NOUN	NN	_	5	pobj	_	NN|02324045-n|Rabbit=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

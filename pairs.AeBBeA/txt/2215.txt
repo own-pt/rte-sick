@@ -1,0 +1,28 @@
+sentence A = Someone is falling off the horse.
+sentence B = Someone is falling off a horse.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Entity+,Getting+,Horse=
+CONCEPTS B: Entity+,Getting+,Horse=
+
+CONLL A:
+
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	falling	fall	VERB	VBG	_	0	ROOT	_	VBG|02229828-v|Getting+
+4	off	off	ADP	IN	_	3	prep	_	RP|00232936-r|?
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	horse	horse	NOUN	NN	_	4	pobj	_	NN|02374451-n|Horse=
+7	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	falling	fall	VERB	VBG	_	0	ROOT	_	VBG|02229828-v|Getting+
+4	off	off	PRT	RP	_	3	prep	_	RP|00232936-r|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	horse	horse	NOUN	NN	_	4	pobj	_	NN|02374451-n|Horse=
+7	.	.	.	.	_	3	punct	_	Fp|?|?

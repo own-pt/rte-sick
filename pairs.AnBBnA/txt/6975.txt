@@ -1,0 +1,42 @@
+sentence A = A man in a red uniform is racing and making a jump over a bike in the dirt.
+sentence B = A man is participating in a bmx race.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Red=,UniformClothing=,Entity+,Motion+,Defecate=,Transportation+,Bicycle=,Text+
+CONCEPTS B: Hominid=,Entity+,SocialInteraction+,Racing=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|02472293-n|Hominid=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	red	red	ADJ	JJ	_	6	amod	_	JJ|00381097-a|Red=
+6	uniform	uniform	NOUN	NN	_	3	pobj	_	NN|04509592-n|UniformClothing=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	racing	race	VERB	VBG	_	0	ROOT	_	VBG|02058994-v|Motion+
+9	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+10	making	make	VERB	VBG	_	8	conj	_	VBG|00074038-v|Defecate=
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	jump	jump	NOUN	NN	_	10	dobj	_	NN|00303849-n|Transportation+
+13	over	over	ADP	IN	_	12	prep	_	IN|?|?
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	bike	bike	NOUN	NN	_	13	pobj	_	NN|02834778-n|Bicycle=
+16	in	in	ADP	IN	_	15	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	dirt	dirt	NOUN	NN	_	16	pobj	_	NN|07223811-n|Text+
+19	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	participating	participate	VERB	VBG	_	0	ROOT	_	VBG|02450256-v|SocialInteraction+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	bmx	bmx	NOUN	NNP	_	8	nn	_	NN|?|?
+8	race	race	NOUN	NN	_	5	pobj	_	NN|07458453-n|Racing=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

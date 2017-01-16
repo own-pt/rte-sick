@@ -1,0 +1,41 @@
+sentence A = The little girl is swinging and the woman is standing behind her.
+sentence B = A small child is showing excitement on a swing set at the park.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Ambulating=,Woman=,Entity+,PhysicalAttribute+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,IntentionalProcess+,EmotionalState+,SoundAttribute+,Putting=,Park+
+
+CONLL A:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	swinging	swing	VERB	VBG	_	0	ROOT	_	VBG|01877355-v|Ambulating=
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	woman	woman	NOUN	NN	_	10	nsubj	_	NN|10787470-n|Woman=
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	standing	stand	VERB	VBG	_	5	conj	_	VBG|01546111-v|PhysicalAttribute+
+11	behind	behind	ADP	IN	_	10	prep	_	IN|?|?
+12	her	her	PRON	PRP	_	11	pobj	_	PRP$|?|?
+13	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	small	small	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	child	child	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	showing	show	VERB	VBG	_	0	ROOT	_	VBG|02137132-v|IntentionalProcess+
+6	excitement	excitement	NOUN	NN	_	5	dobj	_	NN|14037011-n|EmotionalState+
+7	on	on	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	swing	swing	NOUN	NN	_	7	pobj	_	NN|04992008-n|SoundAttribute+
+10	set	set	VERB	VBN	_	9	partmod	_	VBN|01494310-v|Putting=
+11	at	at	ADP	IN	_	10	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	park	park	NOUN	NN	_	11	pobj	_	NN|08615374-n|Park+
+14	.	.	.	.	_	5	punct	_	Fp|?|?

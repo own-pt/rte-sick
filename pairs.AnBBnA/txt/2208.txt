@@ -1,0 +1,42 @@
+sentence A = Two kids are playing in a swimming pool with a green colored crocodile float.
+sentence B = An inflatable crocodile is being pushed by two kids in a pool.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanChild=,Entity+,DramaticActing+,Swimming+,StaticWaterArea+,Green=,SurfaceChange+,Reptile+,Beverage+
+CONCEPTS B: Reptile+,Entity+,Entity+,Pushing=,HumanChild=,StaticWaterArea+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	kids	kid	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	swimming	swim	NOUN	NN	_	8	nn	_	VBG|01904293-v|Swimming+
+8	pool	pool	NOUN	NN	_	5	pobj	_	NN|09397607-n|StaticWaterArea+
+9	with	with	ADP	IN	_	4	prep	_	IN|?|?
+10	a	a	DET	DT	_	14	det	_	DT|?|?
+11	green	green	ADJ	JJ	_	14	amod	_	JJ|00375969-a|Green=
+12	colored	color	VERB	VBN	_	14	amod	_	VBN|00283911-v|SurfaceChange+
+13	crocodile	crocodile	NOUN	NN	_	14	nn	_	NN|01697178-n|Reptile+
+14	float	float	NOUN	NN	_	9	pobj	_	NN|07923034-n|Beverage+
+15	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	An	a	DET	DT	_	3	det	_	DT|?|?
+2	inflatable	inflatable	ADJ	JJ	_	3	amod	_	NN|?|?
+3	crocodile	crocodile	NOUN	NN	_	6	nsubjpass	_	NN|01697178-n|Reptile+
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	being	be	VERB	VBG	_	6	auxpass	_	VBG|02604760-v|Entity+
+6	pushed	push	VERB	VBN	_	0	ROOT	_	VBN|01871979-v|Pushing=
+7	by	by	ADP	IN	_	6	prep	_	IN|?|?
+8	two	2	NUM	CD	_	9	num	_	Z|?|?
+9	kids	kid	NOUN	NNS	_	7	pobj	_	NNS|09917593-n|HumanChild=
+10	in	in	ADP	IN	_	6	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	pool	pool	NOUN	NN	_	10	pobj	_	NN|09397607-n|StaticWaterArea+
+13	.	.	.	.	_	6	punct	_	Fp|?|?

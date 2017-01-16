@@ -1,0 +1,30 @@
+sentence A = Two children are hanging on a large branch.
+sentence B = Two children are climbing a tree.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanChild=,Entity+,PhysicalAttribute+,SubjectiveWeakPositiveAttribute+,ShapeAttribute+
+CONCEPTS B: HumanChild=,Entity+,Increasing+,ContentBearingObject+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	hanging	hang	VERB	VBG	_	0	ROOT	_	VBG|01482075-v|PhysicalAttribute+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	large	large	ADJ	JJ	_	8	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+8	branch	branch	NOUN	NN	_	5	pobj	_	NN|13913849-n|ShapeAttribute+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	climbing	climb	VERB	VBG	_	0	ROOT	_	VBG|00433232-v|Increasing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	tree	tree	NOUN	NN	_	4	dobj	_	NN|13912260-n|ContentBearingObject+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

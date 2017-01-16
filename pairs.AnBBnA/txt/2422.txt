@@ -1,0 +1,30 @@
+sentence A = Some runners are competing in a race.
+sentence B = The runners are racing around a track.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Contest+,Racing=
+CONCEPTS B: Human+,Entity+,Motion+,StationaryArtifact+
+
+CONLL A:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	runners	runner	NOUN	NNS	_	4	nsubj	_	NNS|10542888-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	competing	compete	VERB	VBG	_	0	ROOT	_	VBG|01072262-v|Contest+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	race	race	NOUN	NN	_	5	pobj	_	NN|07458453-n|Racing=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	runners	runner	NOUN	NNS	_	4	nsubj	_	NNS|10542888-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	racing	race	VERB	VBG	_	0	ROOT	_	VBG|02058994-v|Motion+
+5	around	around	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	track	track	NOUN	NN	_	5	pobj	_	NN|04037625-n|StationaryArtifact+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

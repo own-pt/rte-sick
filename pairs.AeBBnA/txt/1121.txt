@@ -1,0 +1,28 @@
+sentence A = A dog is riding a skateboard.
+sentence B = An animal is riding a skateboard.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,Carrying=,TransportationDevice+
+CONCEPTS B: Animal=,Entity+,Carrying=,TransportationDevice+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	skateboard	skateboard	NOUN	NN	_	4	dobj	_	NN|04225987-n|TransportationDevice+
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	An	a	DET	DT	_	2	det	_	DT|?|?
+2	animal	animal	NOUN	NN	_	4	nsubj	_	NN|00015388-n|Animal=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	skateboard	skateboard	NOUN	NN	_	4	dobj	_	NN|04225987-n|TransportationDevice+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

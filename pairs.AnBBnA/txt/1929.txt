@@ -1,0 +1,32 @@
+sentence A = A chimp is angrily kicking a target.
+sentence B = The woman isn't pouring oil into a skillet.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Ape+,Entity+,EmotionalState+,Expressing+,Entity+
+CONCEPTS B: Woman=,Entity+,not=,Pouring=,Oil=,PotOrPan+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	chimp	chimp	NOUN	NN	_	5	nsubj	_	NN|02481823-n|Ape+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	angrily	angrily	ADV	RB	_	5	advmod	_	RB|00227323-r|EmotionalState+
+5	kicking	kick	VERB	VBG	_	0	ROOT	_	VBG|00907147-v|Expressing+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	target	target	NOUN	NN	_	5	dobj	_	NN|05981230-n|Entity+
+8	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	pouring	pour	VERB	VBG	_	0	ROOT	_	VBG|02069551-v|Pouring=
+6	oil	oil	NOUN	NN	_	5	dobj	_	NN|14966667-n|Oil=
+7	into	into	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	skillet	skillet	NOUN	NN	_	7	pobj	_	NN|03400231-n|PotOrPan+
+10	.	.	.	.	_	5	punct	_	Fp|?|?

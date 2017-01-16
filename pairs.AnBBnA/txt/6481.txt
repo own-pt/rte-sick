@@ -1,0 +1,35 @@
+sentence A = The person is standing dangerously on white ice.
+sentence B = A person is standing in a vast field of glacial ice.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human=,Entity+,PhysicalAttribute+,SubjectiveAssessmentAttribute+,White=,Solid+
+CONCEPTS B: Human=,Entity+,PhysicalAttribute+,SubjectiveWeakNegativeAttribute+,FieldOfStudy=,SubjectiveWeakNegativeAttribute+,Solid+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	dangerously	dangerously	ADV	RB	_	4	advmod	_	RB|00090228-r|SubjectiveAssessmentAttribute+
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	white	white	ADJ	JJ	_	8	amod	_	JJ|00393105-a|White=
+8	ice	ice	NOUN	NN	_	6	pobj	_	NN|14915184-n|Solid+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	vast	vast	ADJ	JJ	_	8	amod	_	JJ|01387319-a|SubjectiveWeakNegativeAttribute+
+8	field	field	NOUN	NN	_	5	pobj	_	NN|05996646-n|FieldOfStudy=
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	glacial	glacial	ADJ	JJ	_	11	amod	_	JJ|01258264-a|SubjectiveWeakNegativeAttribute+
+11	ice	ice	NOUN	NN	_	9	pobj	_	NN|14915184-n|Solid+
+12	.	.	.	.	_	4	punct	_	Fp|?|?

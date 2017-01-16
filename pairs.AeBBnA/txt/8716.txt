@@ -1,0 +1,31 @@
+sentence A = Two white puppies are playing near a pool.
+sentence B = Two white puppies are playing near water.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: White=,SocialRole+,Entity+,DramaticActing+,StaticWaterArea+
+CONCEPTS B: White=,SocialRole+,Entity+,DramaticActing+,Water=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	puppies	puppy	NOUN	NNS	_	5	nsubj	_	NNS|10493835-n|SocialRole+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	near	near	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	pool	pool	NOUN	NN	_	6	pobj	_	NN|09397607-n|StaticWaterArea+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	puppies	puppy	NOUN	NNS	_	5	nsubj	_	NNS|10493835-n|SocialRole+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	near	near	ADP	IN	_	5	prep	_	IN|?|?
+7	water	water	NOUN	NN	_	6	pobj	_	NN|14845743-n|Water=
+8	.	.	.	.	_	5	punct	_	Fp|?|?

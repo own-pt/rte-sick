@@ -1,0 +1,37 @@
+sentence A = One brown and black dog is running through the leaves.
+sentence B = A dog in a colored coat is running across the yard.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Black=,Canine+,Entity+,Attribute+,Leaf=
+CONCEPTS B: Canine+,SurfaceChange+,Coat=,Entity+,Attribute+,LandArea=
+
+CONLL A:
+
+1	One	1	NUM	CD	_	5	num	_	Z|?|?
+2	brown	brown	ADJ	JJ	_	5	amod	_	JJ|00245112-a|Human+
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	black	black	ADJ	JJ	_	2	conj	_	JJ|00392812-a|Black=
+5	dog	dog	NOUN	NN	_	7	nsubj	_	NN|02084071-n|Canine+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+8	through	through	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	leaves	leaf	NOUN	NNS	_	8	pobj	_	NNS|13152742-n|Leaf=
+11	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	8	nsubj	_	NN|02084071-n|Canine+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	colored	color	ADJ	JJ	_	6	amod	_	VBN|00283911-v|SurfaceChange+
+6	coat	coat	NOUN	NN	_	3	pobj	_	NN|03057021-n|Coat=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+9	across	across	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	yard	yard	NOUN	NN	_	9	pobj	_	NN|04610879-n|LandArea=
+12	.	.	.	.	_	8	punct	_	Fp|?|?

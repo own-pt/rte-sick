@@ -1,0 +1,28 @@
+sentence A = A tiger cub is roaring.
+sentence B = A tiger cub is making a sound.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Feline+,NonFullyFormed+,Entity+,Expressing+
+CONCEPTS B: Feline+,NonFullyFormed+,Entity+,Process+,RadiatingSound+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	tiger	tiger	NOUN	NN	_	3	nn	_	NN|02129604-n|Feline+
+3	cub	cub	NOUN	NN	_	5	nsubj	_	NN|01322685-n|NonFullyFormed+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	roaring	roar	VERB	VBG	_	0	ROOT	_	VBG|00029836-v|Expressing+
+6	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	tiger	tiger	NOUN	NN	_	3	nn	_	NN|02129604-n|Feline+
+3	cub	cub	NOUN	NN	_	5	nsubj	_	NN|01322685-n|NonFullyFormed+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	making	make	VERB	VBG	_	0	ROOT	_	VBG|01617192-v|Process+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	sound	sound	NOUN	NN	_	5	dobj	_	NN|07371293-n|RadiatingSound+
+8	.	.	.	.	_	5	punct	_	Fp|?|?

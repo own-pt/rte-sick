@@ -1,0 +1,33 @@
+sentence A = Soccer players are kicking a soccer ball into the goal.
+sentence B = A soccer player is missing a goal.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Soccer=,Human+,Entity+,Impelling+,Soccer=,Ball=,GameGoal=
+CONCEPTS B: Soccer=,Human+,Entity+,Process+,GameGoal=
+
+CONLL A:
+
+1	Soccer	soccer	NOUN	NN	_	2	nn	_	NN|00478262-n|Soccer=
+2	players	player	NOUN	NNS	_	4	nsubj	_	NNS|10439851-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	kicking	kick	VERB	VBG	_	0	ROOT	_	VBG|01112979-v|Impelling+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	soccer	soccer	NOUN	NN	_	7	nn	_	NN|00478262-n|Soccer=
+7	ball	ball	NOUN	NN	_	4	dobj	_	NN|02778669-n|Ball=
+8	into	into	ADP	IN	_	4	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	goal	goal	NOUN	NN	_	8	pobj	_	NN|03442756-n|GameGoal=
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	soccer	soccer	NOUN	NN	_	3	nn	_	NN|00478262-n|Soccer=
+3	player	player	NOUN	NN	_	5	nsubj	_	NN|10439851-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	missing	miss	VERB	VBG	_	0	ROOT	_	VBG|02632353-v|Process+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	goal	goal	NOUN	NN	_	5	dobj	_	NN|03442756-n|GameGoal=
+8	.	.	.	.	_	5	punct	_	Fp|?|?

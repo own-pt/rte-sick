@@ -1,0 +1,27 @@
+sentence A = A white horse is standing.
+sentence B = A woman is cutting an onion.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: White=,Horse=,Entity+,PhysicalAttribute+
+CONCEPTS B: Woman=,Entity+,Decreasing+,FruitOrVegetable+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	horse	horse	NOUN	NN	_	5	nsubj	_	NN|02374451-n|Horse=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+6	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|00429060-v|Decreasing+
+5	an	a	DET	DT	_	6	det	_	DT|?|?
+6	onion	onion	NOUN	NN	_	4	dobj	_	NN|12433081-n|FruitOrVegetable+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

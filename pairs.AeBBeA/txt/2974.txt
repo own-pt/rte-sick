@@ -1,0 +1,32 @@
+sentence A = A large green ball is hitting a potato.
+sentence B = A big green ball is knocking a potato.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Green=,Ball=,Entity+,Impacting+,PotatoTuber=
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Green=,Ball=,Entity+,SoundAttribute+,PotatoTuber=
+
+CONLL A:
+
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	green	green	ADJ	JJ	_	4	amod	_	JJ|00375969-a|Green=
+4	ball	ball	NOUN	NN	_	6	nsubj	_	NN|02778669-n|Ball=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	hitting	hit	VERB	VBG	_	0	ROOT	_	VBG|01236164-v|Impacting+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	potato	potato	NOUN	NN	_	6	dobj	_	NN|07710616-n|PotatoTuber=
+9	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	big	big	ADJ	JJ	_	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	green	green	ADJ	JJ	_	4	amod	_	JJ|00375969-a|Green=
+4	ball	ball	NOUN	NN	_	6	nsubj	_	NN|02778669-n|Ball=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	knocking	knock	VERB	VBG	_	0	ROOT	_	VBG|02185373-v|SoundAttribute+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	potato	potato	NOUN	NN	_	6	dobj	_	NN|07710616-n|PotatoTuber=
+9	.	.	.	.	_	6	punct	_	Fp|?|?

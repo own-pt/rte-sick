@@ -1,0 +1,24 @@
+sentence A = The person is writing.
+sentence B = A person is writing.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Human=,Entity+,WrittenCommunication=
+CONCEPTS B: Human=,Entity+,WrittenCommunication=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	writing	write	VERB	VBG	_	0	ROOT	_	VBG|00993014-v|WrittenCommunication=
+5	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	writing	write	VERB	VBG	_	0	ROOT	_	VBG|00993014-v|WrittenCommunication=
+5	.	.	.	.	_	4	punct	_	Fp|?|?

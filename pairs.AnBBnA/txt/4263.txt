@@ -1,0 +1,32 @@
+sentence A = The horse is being ridden by the girl.
+sentence B = The girl is spraying the plants with water.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Horse=,Entity+,Entity+,Carrying=,Human+
+CONCEPTS B: Human+,Entity+,Spraying=,Plant=,Water=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	horse	horse	NOUN	NN	_	5	nsubjpass	_	NN|02374451-n|Horse=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	ridden	ride	VERB	VBN	_	0	ROOT	_	VBN|01955984-v|Carrying=
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	girl	girl	NOUN	NN	_	6	pobj	_	NN|10129825-n|Human+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	spraying	spray	VERB	VBG	_	0	ROOT	_	VBG|01372682-v|Spraying=
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	plants	plant	NOUN	NNS	_	4	dobj	_	NNS|00017222-n|Plant=
+7	with	with	ADP	IN	_	4	prep	_	IN|?|?
+8	water	water	NOUN	NN	_	7	pobj	_	NN|14845743-n|Water=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

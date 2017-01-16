@@ -1,0 +1,32 @@
+sentence A = Two dogs are playing on a sandy beach.
+sentence B = Two dogs are playing on a rocky beach.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,DramaticActing+,part+,ShoreArea=
+CONCEPTS B: Canine+,Entity+,DramaticActing+,TextureAttribute+,ShoreArea=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	sandy	sandy	ADJ	JJ	_	8	amod	_	JJ|00142040-a|part+
+8	beach	beach	NOUN	NN	_	5	pobj	_	NN|09217230-n|ShoreArea=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	rocky	rocky	ADJ	JJ	_	8	amod	_	JJ|02243567-a|TextureAttribute+
+8	beach	beach	NOUN	NN	_	5	pobj	_	NN|09217230-n|ShoreArea=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

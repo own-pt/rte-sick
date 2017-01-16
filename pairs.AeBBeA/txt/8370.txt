@@ -1,0 +1,34 @@
+sentence A = Two dogs are leaping through snowy grass and rocks.
+sentence B = Two dogs are jumping through snowy grass and rocks.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Canine+,Entity+,Ambulating=,Covering+,Grass=,Rock=
+CONCEPTS B: Canine+,Entity+,Ambulating=,Covering+,Grass=,Rock=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	leaping	leap	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	through	through	ADP	IN	_	4	prep	_	IN|?|?
+6	snowy	snowy	ADJ	JJ	_	7	amod	_	JJ|01698231-a|Covering+
+7	grass	grass	NOUN	NN	_	5	pobj	_	NN|12102133-n|Grass=
+8	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+9	rocks	rock	NOUN	NNS	_	7	conj	_	NNS|09416076-n|Rock=
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	through	through	ADP	IN	_	4	prep	_	IN|?|?
+6	snowy	snowy	ADJ	JJ	_	7	amod	_	JJ|01698231-a|Covering+
+7	grass	grass	NOUN	NN	_	5	pobj	_	NN|12102133-n|Grass=
+8	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+9	rocks	rock	NOUN	NNS	_	7	conj	_	NNS|09416076-n|Rock=
+10	.	.	.	.	_	4	punct	_	Fp|?|?

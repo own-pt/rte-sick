@@ -1,0 +1,40 @@
+sentence A = A top violin player is standing on the roof over a man.
+sentence B = A man is standing on a roof top and playing a violin.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: top=,Violin=,Musician+,Entity+,PhysicalAttribute+,Roof=,Hominid=
+CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,Roof=,PositionalAttribute+,DramaticActing+,Violin=
+
+CONLL A:
+
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	top	top	ADJ	JJ	_	4	amod	_	JJ|02439949-a|top=
+3	violin	violin	NOUN	NN	_	4	nn	_	NN|04536866-n|Violin=
+4	player	player	NOUN	NN	_	6	nsubj	_	NN|10340312-n|Musician+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	roof	roof	NOUN	NN	_	7	pobj	_	NN|04105068-n|Roof=
+10	over	over	ADP	IN	_	6	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	man	man	NOUN	NN	_	10	pobj	_	NN|02472293-n|Hominid=
+13	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	roof	roof	ADJ	JJ	_	8	amod	_	NN|04105068-n|Roof=
+8	top	top	NOUN	NN	_	5	pobj	_	NN|08663354-n|PositionalAttribute+
+9	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+10	playing	play	VERB	VBG	_	4	conj	_	VBG|01719302-v|DramaticActing+
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	violin	violin	NOUN	NN	_	10	dobj	_	NN|04536866-n|Violin=
+13	.	.	.	.	_	4	punct	_	Fp|?|?

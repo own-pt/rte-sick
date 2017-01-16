@@ -1,0 +1,31 @@
+sentence A = A person is eating at a table.
+sentence B = A person is not eating at a table.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Human=,Entity+,Eating=,ContentBearingObject+
+CONCEPTS B: Human=,Entity+,not=,Eating=,ContentBearingObject+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01168468-v|Eating=
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	table	table	NOUN	NN	_	5	pobj	_	NN|08266235-n|ContentBearingObject+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	5	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01168468-v|Eating=
+6	at	at	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	table	table	NOUN	NN	_	6	pobj	_	NN|08266235-n|ContentBearingObject+
+9	.	.	.	.	_	5	punct	_	Fp|?|?

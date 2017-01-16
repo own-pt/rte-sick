@@ -1,0 +1,47 @@
+sentence A = A dark black dog and a light brown dog are playing in the yard in the back.
+sentence B = A dark black dog and a light brown dog are playing in the backyard.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: SubjectiveWeakNegativeAttribute+,SubjectiveWeakNegativeAttribute+,Canine+,SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,DramaticActing+,LandArea=,CorpuscularObject+
+CONCEPTS B: SubjectiveWeakNegativeAttribute+,SubjectiveWeakNegativeAttribute+,Canine+,SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,DramaticActing+,Lawn+
+
+CONLL A:
+
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	dark	dark	ADJ	JJ	_	4	amod	_	JJ|00409440-a|SubjectiveWeakNegativeAttribute+
+3	black	black	ADJ	JJ	_	4	amod	_	JJ|01131935-a|SubjectiveWeakNegativeAttribute+
+4	dog	dog	NOUN	NN	_	11	nsubj	_	NN|02084071-n|Canine+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	a	a	DET	DT	_	9	det	_	DT|?|?
+7	light	light	ADJ	JJ	_	9	amod	_	JJ|01186408-a|SubjectiveWeakPositiveAttribute+
+8	brown	brown	ADJ	JJ	_	9	amod	_	JJ|00245112-a|Human+
+9	dog	dog	NOUN	NN	_	4	conj	_	NN|02084071-n|Canine+
+10	are	be	VERB	VBP	_	11	aux	_	VBP|02604760-v|Entity+
+11	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+12	in	in	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	yard	yard	NOUN	NN	_	12	pobj	_	NN|04610879-n|LandArea=
+15	in	in	ADP	IN	_	11	prep	_	IN|?|?
+16	the	the	DET	DT	_	17	det	_	DT|?|?
+17	back	back	NOUN	NN	_	15	pobj	_	NN|02767433-n|CorpuscularObject+
+18	.	.	.	.	_	11	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	dark	dark	ADJ	JJ	_	4	amod	_	JJ|00409440-a|SubjectiveWeakNegativeAttribute+
+3	black	black	ADJ	JJ	_	4	amod	_	JJ|01131935-a|SubjectiveWeakNegativeAttribute+
+4	dog	dog	NOUN	NN	_	11	nsubj	_	NN|02084071-n|Canine+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	a	a	DET	DT	_	9	det	_	DT|?|?
+7	light	light	ADJ	JJ	_	9	amod	_	JJ|01186408-a|SubjectiveWeakPositiveAttribute+
+8	brown	brown	ADJ	JJ	_	9	amod	_	JJ|00245112-a|Human+
+9	dog	dog	NOUN	NN	_	4	conj	_	NN|02084071-n|Canine+
+10	are	be	VERB	VBP	_	11	aux	_	VBP|02604760-v|Entity+
+11	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+12	in	in	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	backyard	backyard	NOUN	NN	_	12	pobj	_	NN|02772197-n|Lawn+
+15	.	.	.	.	_	11	punct	_	Fp|?|?

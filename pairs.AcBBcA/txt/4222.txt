@@ -1,0 +1,30 @@
+sentence A = The animal with big eyes is sleeping.
+sentence B = The animal with big eyes is eating.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Animal=,SubjectiveWeakPositiveAttribute+,Organ+,Entity+,OrganismProcess+
+CONCEPTS B: Animal=,SubjectiveWeakPositiveAttribute+,Organ+,Entity+,Process+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	animal	animal	NOUN	NN	_	7	nsubj	_	NN|00015388-n|Animal=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	big	big	ADJ	JJ	_	5	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+5	eyes	eye	NOUN	NNS	_	3	pobj	_	NNS|05311054-n|Organ+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	sleeping	sleep	VERB	VBG	_	0	ROOT	_	VBG|00014742-v|OrganismProcess+
+8	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	animal	animal	NOUN	NN	_	7	nsubj	_	NN|00015388-n|Animal=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	big	big	ADJ	JJ	_	5	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+5	eyes	eye	NOUN	NNS	_	3	pobj	_	NNS|05311054-n|Organ+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+8	.	.	.	.	_	7	punct	_	Fp|?|?

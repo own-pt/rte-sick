@@ -1,0 +1,59 @@
+sentence A = The woman is wearing a red jacket and holding a glass in front of the man in a white t-shirt.
+sentence B = The woman is not wearing a red jacket and is not holding a glass in front of the man in a white t-shirt.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Woman=,Entity+,Putting+,Red=,Coat=,PhysicalAttribute+,Cup=,FrontFn=,Man=,White=,Shirt+
+CONCEPTS B: Woman=,Entity+,not=,Putting+,Red=,Coat=,Entity+,not=,PhysicalAttribute+,Cup=,FrontFn=,Man=,White=,Shirt+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	red	red	ADJ	JJ	_	7	amod	_	JJ|00381097-a|Red=
+7	jacket	jacket	NOUN	NN	_	4	dobj	_	NN|03589791-n|Coat=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	holding	hold	VERB	VBG	_	4	conj	_	VBG|02701210-v|PhysicalAttribute+
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	glass	glass	NOUN	NN	_	9	dobj	_	NN|03438257-n|Cup=
+12	in	in	ADP	IN	_	11	prep	_	IN|?|?
+13	front	front	NOUN	NN	_	12	pobj	_	NN|03398467-n|FrontFn=
+14	of	of	ADP	IN	_	13	prep	_	IN|?|?
+15	the	the	DET	DT	_	16	det	_	DT|?|?
+16	man	man	NOUN	NN	_	14	pobj	_	NN|10287213-n|Man=
+17	in	in	ADP	IN	_	9	prep	_	IN|?|?
+18	a	a	DET	DT	_	20	det	_	DT|?|?
+19	white	white	ADJ	JJ	_	20	amod	_	JJ|00393105-a|White=
+20	t-shirt	t-shirt	NOUN	NN	_	17	pobj	_	NN|03595614-n|Shirt+
+21	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	red	red	ADJ	JJ	_	8	amod	_	JJ|00381097-a|Red=
+8	jacket	jacket	NOUN	NN	_	5	dobj	_	NN|03589791-n|Coat=
+9	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+10	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+11	not	not	ADV	RB	_	12	neg	_	RB|00024073-r|not=
+12	holding	hold	VERB	VBG	_	5	conj	_	VBG|02701210-v|PhysicalAttribute+
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	glass	glass	NOUN	NN	_	12	dobj	_	NN|03438257-n|Cup=
+15	in	in	ADP	IN	_	14	prep	_	IN|?|?
+16	front	front	NOUN	NN	_	15	pobj	_	NN|03398467-n|FrontFn=
+17	of	of	ADP	IN	_	16	prep	_	IN|?|?
+18	the	the	DET	DT	_	19	det	_	DT|?|?
+19	man	man	NOUN	NN	_	17	pobj	_	NN|10287213-n|Man=
+20	in	in	ADP	IN	_	12	prep	_	IN|?|?
+21	a	a	DET	DT	_	23	det	_	DT|?|?
+22	white	white	ADJ	JJ	_	23	amod	_	JJ|00393105-a|White=
+23	t-shirt	t-shirt	NOUN	NN	_	20	pobj	_	NN|03595614-n|Shirt+
+24	.	.	.	.	_	5	punct	_	Fp|?|?

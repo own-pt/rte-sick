@@ -1,0 +1,31 @@
+sentence A = An officer is talking to the recruits.
+sentence B = The recruits are barking at the military officer.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: PoliceOfficer=,Entity+,Speaking+,SocialRole+
+CONCEPTS B: SocialRole+,Entity+,RadiatingSound+,MilitaryOrganization=,PoliceOfficer=
+
+CONLL A:
+
+1	An	a	DET	DT	_	2	det	_	DT|?|?
+2	officer	officer	NOUN	NN	_	4	nsubj	_	NN|10448983-n|PoliceOfficer=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+5	to	to	ADP	IN	_	4	prep	_	TO|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	recruits	recruit	NOUN	NNS	_	5	pobj	_	NNS|10512372-n|SocialRole+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	recruits	recruit	NOUN	NNS	_	4	nsubj	_	NNS|10512372-n|SocialRole+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	barking	bark	VERB	VBG	_	0	ROOT	_	VBG|01047745-v|RadiatingSound+
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	8	det	_	DT|?|?
+7	military	military	ADJ	JJ	_	8	amod	_	JJ|01518386-a|MilitaryOrganization=
+8	officer	officer	NOUN	NN	_	5	pobj	_	NN|10448983-n|PoliceOfficer=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

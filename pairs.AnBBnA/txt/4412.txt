@@ -1,0 +1,35 @@
+sentence A = There are no people flipping the tires of a tractor.
+sentence B = Two men are competing in a tire rolling race.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,GroupOfPeople=,Impelling+,Artifact+,Truck+
+CONCEPTS B: Hominid=,Entity+,Contest+,Artifact+,Motion+,Racing=
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	people	people	NOUN	NNS	_	2	nsubj	_	NNS|07942152-n|GroupOfPeople=
+5	flipping	flip	VERB	VBG	_	4	partmod	_	VBG|01893601-v|Impelling+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	tires	tire	NOUN	NNS	_	5	dobj	_	NNS|04440749-n|Artifact+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	tractor	tractor	NOUN	NN	_	8	pobj	_	NN|04465666-n|Truck+
+11	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	competing	compete	VERB	VBG	_	0	ROOT	_	VBG|01072262-v|Contest+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	9	det	_	DT|?|?
+7	tire	tire	NOUN	NN	_	8	nn	_	NN|04440749-n|Artifact+
+8	rolling	roll	VERB	VBG	_	9	nn	_	VBG|01866192-v|Motion+
+9	race	race	NOUN	NN	_	5	pobj	_	NN|07458453-n|Racing=
+10	.	.	.	.	_	4	punct	_	Fp|?|?

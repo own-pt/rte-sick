@@ -1,0 +1,30 @@
+sentence A = Someone is cooking okra in a pan.
+sentence B = Okra is being cooked in a pan.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Entity+,Cooking+,FloweringPlant+,PotOrPan=
+CONCEPTS B: FloweringPlant+,Entity+,Entity+,Cooking+,PotOrPan=
+
+CONLL A:
+
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	cooking	cook	VERB	VBG	_	0	ROOT	_	VBG|00322847-v|Cooking+
+4	okra	okra	NOUN	NN	_	3	dobj	_	NN|12171966-n|FloweringPlant+
+5	in	in	ADP	IN	_	3	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	pan	pan	NOUN	NN	_	5	pobj	_	NN|03880531-n|PotOrPan=
+8	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Okra	okra	NOUN	NNP	_	4	nsubjpass	_	NN|12171966-n|FloweringPlant+
+2	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+3	being	be	VERB	VBG	_	4	auxpass	_	VBG|02604760-v|Entity+
+4	cooked	cook	VERB	VBN	_	0	ROOT	_	VBN|00322847-v|Cooking+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	pan	pan	NOUN	NN	_	5	pobj	_	NN|03880531-n|PotOrPan=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

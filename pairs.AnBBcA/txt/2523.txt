@@ -1,0 +1,31 @@
+sentence A = Four people are floating on a raft.
+sentence B = People are not riding and paddling a raft.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: GroupOfPeople=,Entity+,Swimming+,SubjectiveAssessmentAttribute+
+CONCEPTS B: GroupOfPeople=,Entity+,not=,Carrying=,Motion+,SubjectiveAssessmentAttribute+
+
+CONLL A:
+
+1	Four	4	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	floating	float	VERB	VBG	_	0	ROOT	_	VBG|01904293-v|Swimming+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	raft	raft	NOUN	NN	_	5	pobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	People	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+2	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+3	not	not	ADV	RB	_	4	neg	_	RB|00024073-r|not=
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	paddling	paddle	VERB	VBG	_	4	conj	_	VBG|01419373-v|Motion+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	raft	raft	NOUN	NN	_	6	dobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

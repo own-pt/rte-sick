@@ -1,0 +1,39 @@
+sentence A = There is no white dog standing on the leaves on the ground.
+sentence B = A white dog is standing on the leaves on the ground.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,White=,Canine+,SocialRole+,Leaf=,LandArea=
+CONCEPTS B: White=,Canine+,Entity+,PhysicalAttribute+,Leaf=,LandArea=
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	6	det	_	DT|?|?
+4	white	white	ADJ	JJ	_	5	amod	_	JJ|00393105-a|White=
+5	dog	dog	NOUN	NN	_	6	nn	_	NN|02084071-n|Canine+
+6	standing	standing	NOUN	NN	_	2	nsubj	_	NN|13948136-n|SocialRole+
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	leaves	leaf	NOUN	NNS	_	7	pobj	_	NNS|13152742-n|Leaf=
+10	on	on	ADP	IN	_	6	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	ground	ground	NOUN	NN	_	10	pobj	_	NN|09334396-n|LandArea=
+13	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	leaves	leaf	NOUN	NNS	_	6	pobj	_	NNS|13152742-n|Leaf=
+9	on	on	ADP	IN	_	5	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	ground	ground	NOUN	NN	_	9	pobj	_	NN|09334396-n|LandArea=
+12	.	.	.	.	_	5	punct	_	Fp|?|?

@@ -1,0 +1,32 @@
+sentence A = The cook is sprinkling cheese on the pizza.
+sentence B = The man is sprinkling cheese on the pizza.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Impelling+,Cheese=,PreparedFood+
+CONCEPTS B: Hominid=,Entity+,Impelling+,Cheese=,PreparedFood+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	cook	cook	NOUN	NN	_	4	nsubj	_	NN|09963320-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	sprinkling	sprinkle	VERB	VBG	_	0	ROOT	_	VBG|01376245-v|Impelling+
+5	cheese	cheese	NOUN	NN	_	4	dobj	_	NN|07850329-n|Cheese=
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	pizza	pizza	NOUN	NN	_	6	pobj	_	NN|07873807-n|PreparedFood+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	sprinkling	sprinkle	VERB	VBG	_	0	ROOT	_	VBG|01376245-v|Impelling+
+5	cheese	cheese	NOUN	NN	_	4	dobj	_	NN|07850329-n|Cheese=
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	pizza	pizza	NOUN	NN	_	6	pobj	_	NN|07873807-n|PreparedFood+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

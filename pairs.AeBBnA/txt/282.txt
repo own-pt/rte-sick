@@ -1,0 +1,33 @@
+sentence A = A skilled man is playing a guitar on stage.
+sentence B = A man is playing a guitar on stage.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: hasSkill=,Hominid=,Entity+,DramaticActing+,Guitar=,Attribute+
+CONCEPTS B: Hominid=,Entity+,DramaticActing+,Guitar=,Attribute+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	skilled	skilled	ADJ	JJ	_	3	amod	_	JJ|02225510-a|hasSkill=
+3	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	guitar	guitar	NOUN	NN	_	5	dobj	_	NN|03467517-n|Guitar=
+8	on	on	ADP	IN	_	5	prep	_	IN|?|?
+9	stage	stage	NOUN	NN	_	8	pobj	_	NN|13939892-n|Attribute+
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+7	on	on	ADP	IN	_	4	prep	_	IN|?|?
+8	stage	stage	NOUN	NN	_	7	pobj	_	NN|13939892-n|Attribute+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

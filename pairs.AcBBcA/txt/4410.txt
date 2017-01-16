@@ -1,0 +1,38 @@
+sentence A = There are no people flipping the tires of a tractor.
+sentence B = Two people in a race are flipping the tires of a tractor.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,GroupOfPeople=,Impelling+,Artifact+,Truck+
+CONCEPTS B: GroupOfPeople=,Racing=,Entity+,Impelling+,Artifact+,Truck+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	people	people	NOUN	NNS	_	2	nsubj	_	NNS|07942152-n|GroupOfPeople=
+5	flipping	flip	VERB	VBG	_	4	partmod	_	VBG|01893601-v|Impelling+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	tires	tire	NOUN	NNS	_	5	dobj	_	NNS|04440749-n|Artifact+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	tractor	tractor	NOUN	NN	_	8	pobj	_	NN|04465666-n|Truck+
+11	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	7	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	race	race	NOUN	NN	_	3	pobj	_	NN|07458453-n|Racing=
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	flipping	flip	VERB	VBG	_	0	ROOT	_	VBG|01893601-v|Impelling+
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	tires	tire	NOUN	NNS	_	7	dobj	_	NNS|04440749-n|Artifact+
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	tractor	tractor	NOUN	NN	_	10	pobj	_	NN|04465666-n|Truck+
+13	.	.	.	.	_	7	punct	_	Fp|?|?

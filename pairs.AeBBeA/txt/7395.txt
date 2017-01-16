@@ -1,0 +1,36 @@
+sentence A = A man and a child are kayaking through gentle waters.
+sentence B = The man and the child are kayaking through gentle waters.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Hominid=,HumanChild=,Entity+,SocialRole+,Water=
+CONCEPTS B: Hominid=,HumanChild=,Entity+,SocialRole+,Water=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|02472293-n|Hominid=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	child	child	NOUN	NN	_	2	conj	_	NN|09917593-n|HumanChild=
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	kayaking	kayaking	VERB	VBG	_	0	ROOT	_	VBG|?|?
+8	through	through	ADP	IN	_	7	prep	_	IN|?|?
+9	gentle	gentle	ADJ	JJ	_	10	amod	_	JJ|01590484-a|SocialRole+
+10	waters	water	NOUN	NNS	_	8	pobj	_	NNS|14845743-n|Water=
+11	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|02472293-n|Hominid=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	the	the	DET	DT	_	5	det	_	DT|?|?
+5	child	child	NOUN	NN	_	2	conj	_	NN|09917593-n|HumanChild=
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	kayaking	kayaking	VERB	VBG	_	0	ROOT	_	VBG|?|?
+8	through	through	ADP	IN	_	7	prep	_	IN|?|?
+9	gentle	gentle	ADJ	JJ	_	10	amod	_	JJ|01590484-a|SocialRole+
+10	waters	water	NOUN	NNS	_	8	pobj	_	NNS|14845743-n|Water=
+11	.	.	.	.	_	7	punct	_	Fp|?|?

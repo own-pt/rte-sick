@@ -1,0 +1,36 @@
+sentence A = A black and white dog is jumping for a ball.
+sentence B = The black and white dog is jumping for the ball.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Black=,White=,Canine+,Entity+,Ambulating=,Ball=
+CONCEPTS B: Black=,White=,Canine+,Entity+,Ambulating=,Ball=
+
+CONLL A:
+
+1	A	a	DET	DT	_	5	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	5	amod	_	JJ|00392812-a|Black=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	white	white	ADJ	JJ	_	2	conj	_	JJ|00393105-a|White=
+5	dog	dog	NOUN	NN	_	7	nsubj	_	NN|02084071-n|Canine+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+8	for	for	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	ball	ball	NOUN	NN	_	8	pobj	_	NN|02778669-n|Ball=
+11	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	5	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	5	amod	_	JJ|00392812-a|Black=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	white	white	ADJ	JJ	_	2	conj	_	JJ|00393105-a|White=
+5	dog	dog	NOUN	NN	_	7	nsubj	_	NN|02084071-n|Canine+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+8	for	for	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	ball	ball	NOUN	NN	_	8	pobj	_	NN|02778669-n|Ball=
+11	.	.	.	.	_	7	punct	_	Fp|?|?

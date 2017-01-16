@@ -1,0 +1,35 @@
+sentence A = A group of Asian girls are standing by themselves.
+sentence B = Two girls are laughing and other girls are watching them.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Group=,AsianEthnicity=,Human+,Entity+,PhysicalAttribute+
+CONCEPTS B: Human+,Entity+,Laughing=,equal+,Human+,Entity+,Looking=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	7	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	Asian	asian	ADJ	JJ	_	5	amod	_	JJ|02968525-a|AsianEthnicity=
+5	girls	girl	NOUN	NNS	_	3	pobj	_	NNS|10129825-n|Human+
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+8	by	by	ADP	IN	_	7	prep	_	IN|?|?
+9	themselves	themselves	PRON	PRP	_	8	pobj	_	PRP|?|?
+10	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	girls	girl	NOUN	NNS	_	4	nsubj	_	NNS|10129825-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	laughing	laugh	VERB	VBG	_	0	ROOT	_	VBG|00031820-v|Laughing=
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	other	other	ADJ	JJ	_	7	amod	_	JJ|02069355-a|equal+
+7	girls	girl	NOUN	NNS	_	9	nsubj	_	NNS|10129825-n|Human+
+8	are	be	VERB	VBP	_	9	aux	_	VBP|02604760-v|Entity+
+9	watching	watch	VERB	VBG	_	4	conj	_	VBG|02150948-v|Looking=
+10	them	them	PRON	PRP	_	9	dobj	_	PRP|?|?
+11	.	.	.	.	_	4	punct	_	Fp|?|?

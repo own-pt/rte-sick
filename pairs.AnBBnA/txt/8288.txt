@@ -1,0 +1,41 @@
+sentence A = A soccer player is sitting on the field and is drinking water.
+sentence B = A man is sitting on the grass and drinking from a water bottle.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Soccer=,Human+,PhysicalAttribute+,SittingDown+,FieldOfStudy=,PhysicalAttribute+,Drinking+,Water=
+CONCEPTS B: Hominid=,PhysicalAttribute+,SittingDown+,Grass=,Drinking+,Water=,Bottle=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	soccer	soccer	NOUN	NN	_	3	nn	_	NN|00478262-n|Soccer=
+3	player	player	NOUN	NN	_	5	nsubj	_	NN|10439851-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	field	field	NOUN	NN	_	6	pobj	_	NN|05996646-n|FieldOfStudy=
+9	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02655135-v|PhysicalAttribute+
+11	drinking	drink	VERB	VBG	_	5	conj	_	VBG|01171183-v|Drinking+
+12	water	water	NOUN	NN	_	11	dobj	_	NN|14845743-n|Water=
+13	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	grass	grass	NOUN	NN	_	5	pobj	_	NN|12102133-n|Grass=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	drinking	drink	VERB	VBG	_	4	conj	_	VBG|01171183-v|Drinking+
+10	from	from	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	water	water	NOUN	NN	_	13	nn	_	NN|14845743-n|Water=
+13	bottle	bottle	NOUN	NN	_	10	pobj	_	NN|02876657-n|Bottle=
+14	.	.	.	.	_	4	punct	_	Fp|?|?

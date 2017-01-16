@@ -1,0 +1,38 @@
+sentence A = A white dog is standing on the leaves on the ground.
+sentence B = One white dog is standing on the leaves on the ground.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: White=,Canine+,Entity+,PhysicalAttribute+,Leaf=,LandArea=
+CONCEPTS B: White=,Canine+,Entity+,PhysicalAttribute+,Leaf=,LandArea=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	leaves	leaf	NOUN	NNS	_	6	pobj	_	NNS|13152742-n|Leaf=
+9	on	on	ADP	IN	_	5	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	ground	ground	NOUN	NN	_	9	pobj	_	NN|09334396-n|LandArea=
+12	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	One	1	NUM	CD	_	3	num	_	Z|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	leaves	leaf	NOUN	NNS	_	6	pobj	_	NNS|13152742-n|Leaf=
+9	on	on	ADP	IN	_	5	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	ground	ground	NOUN	NN	_	9	pobj	_	NN|09334396-n|LandArea=
+12	.	.	.	.	_	5	punct	_	Fp|?|?

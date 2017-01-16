@@ -1,0 +1,45 @@
+sentence A = A young boy wearing a red swimsuit is jumping into a blue kiddies pool.
+sentence B = A young boy wearing a red swimsuit is jumping out of a blue kiddies pool.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: HumanYouth=,Human+,CoveringFn=,Red=,Clothing+,Entity+,Ambulating=,SubjectiveStrongNegativeAttribute+,StaticWaterArea+
+CONCEPTS B: HumanYouth=,Human+,CoveringFn=,Red=,Clothing+,Entity+,Ambulating=,Giving+,SubjectiveStrongNegativeAttribute+,StaticWaterArea+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	boy	boy	NOUN	NN	_	9	nsubj	_	NN|10285313-n|Human+
+4	wearing	wear	VERB	VBG	_	3	partmod	_	VBG|00047745-v|CoveringFn=
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	red	red	ADJ	JJ	_	7	amod	_	JJ|00381097-a|Red=
+7	swimsuit	swimsuit	NOUN	NN	_	4	dobj	_	NN|04371563-n|Clothing+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+10	into	into	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	14	det	_	DT|?|?
+12	blue	blue	ADJ	JJ	_	14	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+13	kiddies	kiddies	NOUN	NNS	_	14	nn	_	NNS|?|?
+14	pool	pool	NOUN	NN	_	10	pobj	_	NN|09397607-n|StaticWaterArea+
+15	.	.	.	.	_	9	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	boy	boy	NOUN	NN	_	9	nsubj	_	NN|10285313-n|Human+
+4	wearing	wear	VERB	VBG	_	3	partmod	_	VBG|00047745-v|CoveringFn=
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	red	red	ADJ	JJ	_	7	amod	_	JJ|00381097-a|Red=
+7	swimsuit	swimsuit	NOUN	NN	_	4	dobj	_	NN|04371563-n|Clothing+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+10	out	out	ADP	IN	_	9	prep	_	RP|00233413-r|Giving+
+11	of	of	ADP	IN	_	10	pcomp	_	IN|?|?
+12	a	a	DET	DT	_	15	det	_	DT|?|?
+13	blue	blue	ADJ	JJ	_	14	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+14	kiddies	kiddies	NOUN	NNS	_	15	nn	_	NNS|?|?
+15	pool	pool	NOUN	NN	_	11	pobj	_	NN|09397607-n|StaticWaterArea+
+16	.	.	.	.	_	9	punct	_	Fp|?|?

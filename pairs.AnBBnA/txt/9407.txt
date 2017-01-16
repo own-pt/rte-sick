@@ -1,0 +1,38 @@
+sentence A = Two dogs are running and trying to catch a soccer ball.
+sentence B = Two cats on a lawn are playing with a plastic toy.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,Heating+,IntentionalProcess+,Grabbing+,Soccer=,Ball=
+CONCEPTS B: Whip+,Lawn=,Entity+,DramaticActing+,SubjectiveAssessmentAttribute+,RecreationOrExerciseDevice+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|00444629-v|Heating+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	trying	try	VERB	VBG	_	4	conj	_	VBG|02530167-v|IntentionalProcess+
+7	to	to	PRT	TO	_	8	aux	_	TO|?|?
+8	catch	catch	VERB	VB	_	6	xcomp	_	VB|01439190-v|Grabbing+
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	soccer	soccer	NOUN	NN	_	11	nn	_	NN|00478262-n|Soccer=
+11	ball	ball	NOUN	NN	_	8	dobj	_	NN|02778669-n|Ball=
+12	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	cats	cat	NOUN	NNS	_	7	nsubj	_	NNS|02985606-n|Whip+
+3	on	on	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	lawn	lawn	NOUN	NN	_	3	pobj	_	NN|08591592-n|Lawn=
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+8	with	with	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	plastic	plastic	ADJ	JJ	_	11	amod	_	JJ|02364954-a|SubjectiveAssessmentAttribute+
+11	toy	toy	NOUN	NN	_	8	pobj	_	NN|03964744-n|RecreationOrExerciseDevice+
+12	.	.	.	.	_	7	punct	_	Fp|?|?

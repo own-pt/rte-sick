@@ -1,0 +1,38 @@
+sentence A = A girl is wearing a t-shirt and has her mouth open.
+sentence B = A girl has a t-shirt and is keeping her mouth open.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Human+,Entity+,Putting+,Shirt+,Attribute+,Mouth+,SubjectiveStrongPositiveAttribute+
+CONCEPTS B: Human+,Obligation+,Shirt+,Entity+,Attribute+,Mouth+,SubjectiveStrongPositiveAttribute+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	t-shirt	t-shirt	NOUN	NN	_	4	dobj	_	NN|03595614-n|Shirt+
+7	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+8	has	have	VERB	VBZ	_	4	conj	_	VBZ|02630189-v|Attribute+
+9	her	her	PRON	PRP$	_	10	poss	_	PRP$|?|?
+10	mouth	mouth	NOUN	NN	_	11	nsubj	_	NN|05302499-n|Mouth+
+11	open	open	ADJ	JJ	_	8	xcomp	_	JJ|01985247-a|SubjectiveStrongPositiveAttribute+
+12	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	3	nsubj	_	NN|10129825-n|Human+
+3	has	have	VERB	VBZ	_	0	ROOT	_	VBZ|02203362-v|Obligation+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	t-shirt	t-shirt	NOUN	NN	_	3	dobj	_	NN|03595614-n|Shirt+
+6	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	keeping	keep	VERB	VBG	_	3	conj	_	VBG|02202384-v|Attribute+
+9	her	her	PRON	PRP$	_	10	poss	_	PRP$|?|?
+10	mouth	mouth	NOUN	NN	_	8	dobj	_	NN|05302499-n|Mouth+
+11	open	open	ADJ	JJ	_	8	dep	_	JJ|01985247-a|SubjectiveStrongPositiveAttribute+
+12	.	.	.	.	_	3	punct	_	Fp|?|?

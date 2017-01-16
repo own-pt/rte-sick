@@ -1,0 +1,43 @@
+sentence A = A boy is wearing a white hat and is walking on the beach.
+sentence B = A little kid is wearing a hat and is walking in the wet sand.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,CoveringFn=,White=,Hat+,Entity+,Walking=,ShoreArea=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,CoveringFn=,Hat+,Entity+,Walking=,Wetting=,Sand=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	white	white	ADJ	JJ	_	7	amod	_	JJ|00393105-a|White=
+7	hat	hat	NOUN	NN	_	4	dobj	_	NN|03497657-n|Hat+
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	walking	walk	VERB	VBG	_	4	conj	_	VBG|01904930-v|Walking=
+11	on	on	ADP	IN	_	10	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	beach	beach	NOUN	NN	_	11	pobj	_	NN|09217230-n|ShoreArea=
+14	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	kid	kid	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	hat	hat	NOUN	NN	_	5	dobj	_	NN|03497657-n|Hat+
+8	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	walking	walk	VERB	VBG	_	5	conj	_	VBG|01904930-v|Walking=
+11	in	in	ADP	IN	_	10	prep	_	IN|?|?
+12	the	the	DET	DT	_	14	det	_	DT|?|?
+13	wet	wet	ADJ	JJ	_	14	amod	_	VBN|00214951-v|Wetting=
+14	sand	sand	NOUN	NN	_	11	pobj	_	NN|15019030-n|Sand=
+15	.	.	.	.	_	5	punct	_	Fp|?|?

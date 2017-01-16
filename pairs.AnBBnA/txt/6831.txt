@@ -1,0 +1,32 @@
+sentence A = A large duck is flying over a rocky stream.
+sentence B = A seabird is flying over some rocks.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Duck=,Entity+,FlyingAircraft=,TextureAttribute+,StreamWaterArea=
+CONCEPTS B: Bird+,Entity+,FlyingAircraft=,SubjectiveAssessmentAttribute+,Mineral+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	duck	duck	NOUN	NN	_	5	nsubj	_	NN|01846331-n|Duck=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	flying	fly	VERB	VBG	_	0	ROOT	_	VBG|01941093-v|FlyingAircraft=
+6	over	over	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	rocky	rocky	ADJ	JJ	_	9	amod	_	JJ|02243567-a|TextureAttribute+
+9	stream	stream	NOUN	NN	_	6	pobj	_	NN|09448361-n|StreamWaterArea=
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	seabird	seabird	NOUN	NN	_	4	nsubj	_	NN|02021795-n|Bird+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	flying	fly	VERB	VBG	_	0	ROOT	_	VBG|01941093-v|FlyingAircraft=
+5	over	over	ADP	IN	_	4	prep	_	RP|00226550-r|SubjectiveAssessmentAttribute+
+6	some	some	DET	DT	_	7	det	_	DT|?|?
+7	rocks	rock	NOUN	NNS	_	5	pobj	_	NNS|14696793-n|Mineral+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

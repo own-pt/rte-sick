@@ -1,0 +1,31 @@
+sentence A = The motocross rider is wearing blue and black pants.
+sentence B = The motocross rider is standing naked.
+entailm AB = A_contradicts_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Position+,Entity+,RecreationOrExercise+,SubjectiveStrongNegativeAttribute+,Black=,Trousers+
+CONCEPTS B: Position+,Entity+,PhysicalAttribute+,Clothing[
+
+CONLL A:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	motocross	motocross	NOUN	NN	_	3	nn	_	NN|?|?
+3	rider	rider	NOUN	NN	_	5	nsubj	_	NN|10529965-n|Position+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
+6	blue	blue	ADJ	JJ	_	9	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	black	black	ADJ	JJ	_	6	conj	_	JJ|00392812-a|Black=
+9	pants	pant	NOUN	NNS	_	5	dobj	_	NNS|04489008-n|Trousers+
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	motocross	motocross	NOUN	NN	_	3	nn	_	NN|?|?
+3	rider	rider	NOUN	NN	_	5	nsubj	_	NN|10529965-n|Position+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+6	naked	naked	ADJ	JJ	_	5	acomp	_	JJ|00457998-a|Clothing[
+7	.	.	.	.	_	5	punct	_	Fp|?|?

@@ -1,0 +1,39 @@
+sentence A = A motorcyclist without a helmet is waiting on a blue motorcycle near the road.
+sentence B = A motorcyclist is riding a motorbike along a roadway.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Clothing+,Entity+,PsychologicalProcess+,SubjectiveStrongNegativeAttribute+,PassengerVehicle+,Roadway+
+CONCEPTS B: Human+,Entity+,Transportation+,TransportationDevice+,Roadway=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	motorcyclist	motorcyclist	NOUN	NN	_	7	nsubj	_	NN|10334009-n|Human+
+3	without	without	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	helmet	helmet	NOUN	NN	_	3	pobj	_	NN|03513376-n|Clothing+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	waiting	wait	VERB	VBG	_	0	ROOT	_	VBG|02637938-v|PsychologicalProcess+
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	blue	blue	ADJ	JJ	_	11	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+11	motorcycle	motorcycle	NOUN	NN	_	8	pobj	_	NN|03790512-n|PassengerVehicle+
+12	near	near	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	road	road	NOUN	NN	_	12	pobj	_	NN|04096066-n|Roadway+
+15	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	motorcyclist	motorcyclist	NOUN	NN	_	4	nsubj	_	NN|10334009-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	motorbike	motorbike	NOUN	NN	_	4	dobj	_	NN|03769722-n|TransportationDevice+
+7	along	along	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	roadway	roadway	NOUN	NN	_	7	pobj	_	NN|04097622-n|Roadway=
+10	.	.	.	.	_	4	punct	_	Fp|?|?

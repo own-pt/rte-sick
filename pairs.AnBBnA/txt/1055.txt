@@ -1,0 +1,40 @@
+sentence A = A dog is far from the red ball in the air.
+sentence B = A dog, which is small, is playing on the green grass.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,SubjectiveAssessmentAttribute+,Red=,Ball=,AirTransportation+
+CONCEPTS B: Canine+,Entity+,SubjectiveStrongNegativeAttribute+,Entity+,DramaticActing+,Green=,Grass=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	3	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+4	far	far	ADV	RB	_	3	advmod	_	RB|00101323-r|SubjectiveAssessmentAttribute+
+5	from	from	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	8	det	_	DT|?|?
+7	red	red	ADJ	JJ	_	8	amod	_	JJ|00381097-a|Red=
+8	ball	ball	NOUN	NN	_	5	pobj	_	NN|02778669-n|Ball=
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	air	air	NOUN	NN	_	9	pobj	_	NN|00300441-n|AirTransportation+
+12	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	9	nsubj	_	NN|02084071-n|Canine+
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	which	which	DET	WDT	_	6	nsubj	_	WDT|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	small	small	ADJ	JJ	_	2	rcmod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+7	,	,	.	,	_	2	punct	_	Fc|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	13	det	_	DT|?|?
+12	green	green	ADJ	JJ	_	13	amod	_	JJ|00375969-a|Green=
+13	grass	grass	NOUN	NN	_	10	pobj	_	NN|12102133-n|Grass=
+14	.	.	.	.	_	9	punct	_	Fp|?|?

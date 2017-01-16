@@ -1,0 +1,28 @@
+sentence A = A surfer is riding the wave.
+sentence B = A rider is surfing the wave.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Human+,Entity+,Carrying=,WaterWave+
+CONCEPTS B: Position+,Entity+,Transportation+,WaterWave+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	surfer	surfer	NOUN	NN	_	4	nsubj	_	NN|10679054-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	wave	wave	NOUN	NN	_	4	dobj	_	NN|07352190-n|WaterWave+
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	rider	rider	NOUN	NN	_	4	nsubj	_	NN|10529965-n|Position+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	surfing	surf	VERB	VBG	_	0	ROOT	_	VBG|01948077-v|Transportation+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	wave	wave	NOUN	NN	_	4	dobj	_	NN|07352190-n|WaterWave+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

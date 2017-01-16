@@ -1,0 +1,30 @@
+sentence A = A cat is eating corn on the cob.
+sentence B = A cat is eating some corn.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Whip+,Entity+,Eating=,FruitOrVegetable+,Horse+
+CONCEPTS B: Whip+,Entity+,Eating=,FruitOrVegetable+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	4	nsubj	_	NN|02985606-n|Whip+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01168468-v|Eating=
+5	corn	corn	NOUN	NN	_	4	dobj	_	NN|07731952-n|FruitOrVegetable+
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	cob	cob	NOUN	NN	_	6	pobj	_	NN|02386141-n|Horse+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	4	nsubj	_	NN|02985606-n|Whip+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01168468-v|Eating=
+5	some	some	DET	DT	_	6	det	_	DT|?|?
+6	corn	corn	NOUN	NN	_	4	dobj	_	NN|07731952-n|FruitOrVegetable+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

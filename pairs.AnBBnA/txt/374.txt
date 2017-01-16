@@ -1,0 +1,44 @@
+sentence A = A man with tattoos is lounging on a couch and holding a pencil.
+sentence B = A man with tattoos is lounging on a couch and is looking for a pencil.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,SurfaceChange+,Entity+,IntentionalProcess+,Sofa=,Process+,Pencil=
+CONCEPTS B: Hominid=,SurfaceChange+,Entity+,IntentionalProcess+,Sofa=,Entity+,SubjectiveAssessmentAttribute+,Pencil=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	6	nsubj	_	NN|02472293-n|Hominid=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	tattoos	tattoo	NOUN	NNS	_	3	pobj	_	NNS|00263353-n|SurfaceChange+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	lounging	lounge	VERB	VBG	_	0	ROOT	_	VBG|01528339-v|IntentionalProcess+
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	couch	couch	NOUN	NN	_	7	pobj	_	NN|04256520-n|Sofa=
+10	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+11	holding	hold	VERB	VBG	_	6	conj	_	VBG|02700867-v|Process+
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	pencil	pencil	NOUN	NN	_	11	dobj	_	NN|03908204-n|Pencil=
+14	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	6	nsubj	_	NN|02472293-n|Hominid=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	tattoos	tattoo	NOUN	NNS	_	3	pobj	_	NNS|00263353-n|SurfaceChange+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	lounging	lounge	VERB	VBG	_	0	ROOT	_	VBG|01528339-v|IntentionalProcess+
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	couch	couch	NOUN	NN	_	7	pobj	_	NN|04256520-n|Sofa=
+10	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	looking	look	VERB	VBG	_	6	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+13	for	for	ADP	IN	_	12	prep	_	IN|?|?
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	pencil	pencil	NOUN	NN	_	13	pobj	_	NN|03908204-n|Pencil=
+16	.	.	.	.	_	6	punct	_	Fp|?|?

@@ -1,0 +1,31 @@
+sentence A = A football player is wearing black armbands.
+sentence B = A football player is taking off black armbands.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Football+,Human+,Entity+,RecreationOrExercise+,Black=,Clothing+
+CONCEPTS B: Football+,Human+,Entity+,PhysicalAttribute+,Black=,Clothing+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	football	football	NOUN	NN	_	3	nn	_	NN|00468480-n|Football+
+3	player	player	NOUN	NN	_	5	nsubj	_	NN|10439851-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
+6	black	black	ADJ	JJ	_	7	amod	_	JJ|00392812-a|Black=
+7	armbands	armband	NOUN	NNS	_	5	dobj	_	NNS|07262942-n|Clothing+
+8	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	football	football	NOUN	NN	_	3	nn	_	NN|00468480-n|Football+
+3	player	player	NOUN	NN	_	5	nsubj	_	NN|10439851-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	taking	take	VERB	VBG	_	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
+6	off	off	PRT	RP	_	5	prt	_	RP|00232936-r|?
+7	black	black	ADJ	JJ	_	8	amod	_	JJ|00392812-a|Black=
+8	armbands	armband	NOUN	NNS	_	5	dobj	_	NNS|07262942-n|Clothing+
+9	.	.	.	.	_	5	punct	_	Fp|?|?

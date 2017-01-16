@@ -1,0 +1,29 @@
+sentence A = A badger is shrewdly digging the earth.
+sentence B = The badger is burrowing a hole.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Carnivore+,Entity+,SubjectiveAssessmentAttribute+,Making+,PlanetEarth=
+CONCEPTS B: Carnivore+,Entity+,Translocation+,ConstantQuantity+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	badger	badger	NOUN	NN	_	5	nsubj	_	NN|02447366-n|Carnivore+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	shrewdly	shrewdly	ADV	RB	_	5	advmod	_	RB|00272587-r|SubjectiveAssessmentAttribute+
+5	digging	dig	VERB	VBG	_	0	ROOT	_	VBG|01309701-v|Making+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	earth	earth	NOUN	NN	_	5	dobj	_	NN|09270894-n|PlanetEarth=
+8	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	badger	badger	NOUN	NN	_	4	nsubj	_	NN|02447366-n|Carnivore+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	burrowing	burrow	VERB	VBG	_	0	ROOT	_	VBG|02042067-v|Translocation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	hole	hole	NOUN	NN	_	4	dobj	_	NN|03526805-n|ConstantQuantity+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

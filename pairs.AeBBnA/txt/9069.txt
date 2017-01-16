@@ -1,0 +1,38 @@
+sentence A = Two boys are laying in the ocean close to the beach.
+sentence B = Two boys are laying in the water close to the beach.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Putting=,Ocean=,Near+,ShoreArea=
+CONCEPTS B: Human+,Entity+,Putting=,WaterArea=,Near+,ShoreArea=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	boys	boy	NOUN	NNS	_	4	nsubj	_	NNS|10285313-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	laying	lay	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	ocean	ocean	NOUN	NN	_	5	pobj	_	NN|09376198-n|Ocean=
+8	close	close	ADV	RB	_	4	advmod	_	RB|00409709-r|Near+
+9	to	to	ADP	IN	_	8	prep	_	TO|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	beach	beach	NOUN	NN	_	9	pobj	_	NN|09217230-n|ShoreArea=
+12	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	boys	boy	NOUN	NNS	_	4	nsubj	_	NNS|10285313-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	laying	lay	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	water	water	NOUN	NN	_	5	pobj	_	NN|09225146-n|WaterArea=
+8	close	close	ADV	RB	_	4	advmod	_	RB|00409709-r|Near+
+9	to	to	ADP	IN	_	8	prep	_	TO|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	beach	beach	NOUN	NN	_	9	pobj	_	NN|09217230-n|ShoreArea=
+12	.	.	.	.	_	4	punct	_	Fp|?|?

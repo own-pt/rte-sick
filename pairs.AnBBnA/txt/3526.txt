@@ -1,0 +1,30 @@
+sentence A = The person is writing with a pencil.
+sentence B = The writing is about a person penciling.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human=,Entity+,WrittenCommunication=,Pencil=
+CONCEPTS B: Writing=,Entity+,Human=,ContentDevelopment+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	writing	write	VERB	VBG	_	0	ROOT	_	VBG|00993014-v|WrittenCommunication=
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	pencil	pencil	NOUN	NN	_	5	pobj	_	NN|03908204-n|Pencil=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	writing	writing	NOUN	NN	_	3	nsubj	_	NN|00929718-n|Writing=
+3	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+4	about	about	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	person	person	NOUN	NN	_	7	nn	_	NN|00007846-n|Human=
+7	penciling	pencil	VERB	VBG	_	4	pobj	_	VBG|01688604-v|ContentDevelopment+
+8	.	.	.	.	_	3	punct	_	Fp|?|?

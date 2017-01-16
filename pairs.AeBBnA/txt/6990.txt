@@ -1,0 +1,49 @@
+sentence A = Two boys are wearing brown shirts and are enthusiastically tugging at a rope on a wooden platform.
+sentence B = Two boys are wearing brown shirts and are tugging at a rope on a wooden platform.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Putting+,Human+,Shirt=,Entity+,SubjectiveAssessmentAttribute+,IntentionalProcess+,String+,SubjectiveAssessmentAttribute+,PerformanceStage+
+CONCEPTS B: Human+,Entity+,Putting+,Human+,Shirt=,Entity+,IntentionalProcess+,String+,SubjectiveAssessmentAttribute+,PerformanceStage+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	boys	boy	NOUN	NNS	_	4	nsubj	_	NNS|10285313-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+5	brown	brown	ADJ	JJ	_	6	amod	_	JJ|00245112-a|Human+
+6	shirts	shirt	NOUN	NNS	_	4	dobj	_	NNS|04197391-n|Shirt=
+7	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+8	are	be	VERB	VBP	_	10	aux	_	VBP|02604760-v|Entity+
+9	enthusiastically	enthusiastically	ADV	RB	_	10	advmod	_	RB|00456484-r|SubjectiveAssessmentAttribute+
+10	tugging	tug	VERB	VBG	_	4	conj	_	VBG|01452918-v|IntentionalProcess+
+11	at	at	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	rope	rope	NOUN	NN	_	11	pobj	_	NN|04108268-n|String+
+14	on	on	ADP	IN	_	10	prep	_	IN|?|?
+15	a	a	DET	DT	_	17	det	_	DT|?|?
+16	wooden	wooden	ADJ	JJ	_	17	amod	_	JJ|01141595-a|SubjectiveAssessmentAttribute+
+17	platform	platform	NOUN	NN	_	14	pobj	_	NN|03961939-n|PerformanceStage+
+18	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	boys	boy	NOUN	NNS	_	4	nsubj	_	NNS|10285313-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+5	brown	brown	ADJ	JJ	_	6	amod	_	JJ|00245112-a|Human+
+6	shirts	shirt	NOUN	NNS	_	4	dobj	_	NNS|04197391-n|Shirt=
+7	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+8	are	be	VERB	VBP	_	9	aux	_	VBP|02604760-v|Entity+
+9	tugging	tug	VERB	VBG	_	4	conj	_	VBG|01452918-v|IntentionalProcess+
+10	at	at	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	rope	rope	NOUN	NN	_	10	pobj	_	NN|04108268-n|String+
+13	on	on	ADP	IN	_	9	prep	_	IN|?|?
+14	a	a	DET	DT	_	16	det	_	DT|?|?
+15	wooden	wooden	ADJ	JJ	_	16	amod	_	JJ|01141595-a|SubjectiveAssessmentAttribute+
+16	platform	platform	NOUN	NN	_	13	pobj	_	NN|03961939-n|PerformanceStage+
+17	.	.	.	.	_	4	punct	_	Fp|?|?

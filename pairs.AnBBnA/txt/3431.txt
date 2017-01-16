@@ -1,0 +1,30 @@
+sentence A = A man is playing a violin.
+sentence B = A man is harping on about a play.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,DramaticActing+,Violin=
+CONCEPTS B: Hominid=,Entity+,Communication+,SubjectiveAssessmentAttribute+,DramaticPlay=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	violin	violin	NOUN	NN	_	4	dobj	_	NN|04536866-n|Violin=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	harping	harp	VERB	VBG	_	0	ROOT	_	VBG|00959367-v|Communication+
+5	on	on	ADP	IN	_	4	prt	_	RP|00069346-r|SubjectiveAssessmentAttribute+
+6	about	about	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	play	play	NOUN	NN	_	6	pobj	_	NN|07007945-n|DramaticPlay=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

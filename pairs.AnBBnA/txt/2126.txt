@@ -1,0 +1,30 @@
+sentence A = The cat is licking milk from a saucer.
+sentence B = The cat is hungrily drinking milk.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Whip+,Entity+,Licking+,Milk=,Circle+
+CONCEPTS B: Whip+,Entity+,PerceptualAttribute+,Drinking+,Milk=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	4	nsubj	_	NN|02985606-n|Whip+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	licking	lick	VERB	VBG	_	0	ROOT	_	VBG|01432176-v|Licking+
+5	milk	milk	NOUN	NN	_	4	dobj	_	NN|07844042-n|Milk=
+6	from	from	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	saucer	saucer	NOUN	NN	_	6	pobj	_	NN|13875185-n|Circle+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	5	nsubj	_	NN|02985606-n|Whip+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	hungrily	hungrily	ADV	RB	_	5	advmod	_	RB|00360054-r|PerceptualAttribute+
+5	drinking	drink	VERB	VBG	_	0	ROOT	_	VBG|01171183-v|Drinking+
+6	milk	milk	NOUN	NN	_	5	dobj	_	NN|07844042-n|Milk=
+7	.	.	.	.	_	5	punct	_	Fp|?|?

@@ -1,0 +1,30 @@
+sentence A = Three dogs are resting on a couch.
+sentence B = Three dogs are resting on a sidewalk.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,PastFn=,Sofa=
+CONCEPTS B: Canine+,Entity+,PastFn=,Sidewalk=
+
+CONLL A:
+
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	resting	rest	VERB	VBG	_	0	ROOT	_	VBG|00117985-v|PastFn=
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	couch	couch	NOUN	NN	_	5	pobj	_	NN|04256520-n|Sofa=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	resting	rest	VERB	VBG	_	0	ROOT	_	VBG|00117985-v|PastFn=
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	sidewalk	sidewalk	NOUN	NN	_	5	pobj	_	NN|04215402-n|Sidewalk=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

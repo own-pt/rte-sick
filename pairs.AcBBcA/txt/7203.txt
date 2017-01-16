@@ -1,0 +1,39 @@
+sentence A = A dog with a blue blanket is running through the grass.
+sentence B = There is no dog with a blue blanket running through the grass.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Canine+,SubjectiveStrongNegativeAttribute+,Blanket+,Entity+,Attribute+,Grass=
+CONCEPTS B: Entity+,Canine+,SubjectiveStrongNegativeAttribute+,Blanket+,Attribute+,Grass=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	8	nsubj	_	NN|02084071-n|Canine+
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	blue	blue	ADJ	JJ	_	6	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+6	blanket	blanket	NOUN	NN	_	3	pobj	_	NN|02849154-n|Blanket+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+9	through	through	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	grass	grass	NOUN	NN	_	9	pobj	_	NN|12102133-n|Grass=
+12	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	dog	dog	NOUN	NN	_	2	nsubj	_	NN|02084071-n|Canine+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	blue	blue	ADJ	JJ	_	8	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+8	blanket	blanket	NOUN	NN	_	5	pobj	_	NN|02849154-n|Blanket+
+9	running	run	VERB	VBG	_	8	partmod	_	VBG|01525666-v|Attribute+
+10	through	through	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	grass	grass	NOUN	NN	_	10	pobj	_	NN|12102133-n|Grass=
+13	.	.	.	.	_	2	punct	_	Fp|?|?

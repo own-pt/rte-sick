@@ -1,0 +1,38 @@
+sentence A = There is no man dressed in black and riding a green bike.
+sentence B = A man is performing a trick on a green bicycle.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,Hominid=,Dressing+,Black=,Transportation+,Green=,Bicycle=
+CONCEPTS B: Hominid=,Entity+,IntentionalProcess+,RecreationOrExercise+,Green=,Bicycle=
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	dressed	dress	VERB	VBN	_	4	dep	_	VBN|00046534-v|Dressing+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	black	black	ADJ	JJ	_	6	pobj	_	JJ|00392812-a|Black=
+8	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+9	riding	ride	VERB	VBG	_	5	conj	_	VBG|02102398-v|Transportation+
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	green	green	ADJ	JJ	_	12	amod	_	JJ|00375969-a|Green=
+12	bike	bike	NOUN	NN	_	9	dobj	_	NN|02834778-n|Bicycle=
+13	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	trick	trick	NOUN	NN	_	4	dobj	_	NN|00427580-n|RecreationOrExercise+
+7	on	on	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	green	green	ADJ	JJ	_	10	amod	_	JJ|00375969-a|Green=
+10	bicycle	bicycle	NOUN	NN	_	7	pobj	_	NN|02834778-n|Bicycle=
+11	.	.	.	.	_	4	punct	_	Fp|?|?

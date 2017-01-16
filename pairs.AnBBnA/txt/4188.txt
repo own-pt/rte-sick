@@ -1,0 +1,30 @@
+sentence A = A dog is eating a doll.
+sentence B = A kid is playing with a toy dog.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,Process+,Artifact+
+CONCEPTS B: HumanChild=,Entity+,DramaticActing+,RecreationOrExerciseDevice+,Canine+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	doll	doll	NOUN	NN	_	4	dobj	_	NN|03219135-n|Artifact+
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	kid	kid	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	toy	toy	NOUN	NN	_	8	nn	_	NN|03964744-n|RecreationOrExerciseDevice+
+8	dog	dog	NOUN	NN	_	5	pobj	_	NN|02084071-n|Canine+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,40 @@
+sentence A = A child is running in and out of the waves of the ocean.
+sentence B = A child is running in and out of the ocean waves.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: HumanChild=,Entity+,Attribute+,PositionalAttribute+,Giving+,ShapeAttribute+,Ocean=
+CONCEPTS B: HumanChild=,Entity+,Attribute+,PositionalAttribute+,Giving+,Ocean=,ShapeAttribute+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	in	in	ADP	IN	_	4	prep	_	RP|00501990-r|PositionalAttribute+
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	out	out	ADP	IN	_	5	conj	_	RP|00233413-r|Giving+
+8	of	of	ADP	IN	_	5	pcomp	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	waves	wave	NOUN	NNS	_	8	pobj	_	NNS|13868944-n|ShapeAttribute+
+11	of	of	ADP	IN	_	10	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	ocean	ocean	NOUN	NN	_	11	pobj	_	NN|09376198-n|Ocean=
+14	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	in	in	ADP	IN	_	4	prep	_	RP|00501990-r|PositionalAttribute+
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	out	out	ADP	IN	_	5	conj	_	RP|00233413-r|Giving+
+8	of	of	ADP	IN	_	5	pcomp	_	IN|?|?
+9	the	the	DET	DT	_	11	det	_	DT|?|?
+10	ocean	ocean	NOUN	NN	_	11	nn	_	NN|09376198-n|Ocean=
+11	waves	wave	NOUN	NNS	_	8	pobj	_	NNS|13868944-n|ShapeAttribute+
+12	.	.	.	.	_	4	punct	_	Fp|?|?

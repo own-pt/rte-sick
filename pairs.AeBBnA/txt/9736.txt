@@ -1,0 +1,39 @@
+sentence A = The woman is wearing ear protection and is firing a gun at an indoor shooting range.
+sentence B = A woman is shooting at target practice.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,CoveringFn=,Ear=,Container+,Entity+,Shooting+,Gun=,located+,Shooting=,SubjectiveAssessmentAttribute+
+CONCEPTS B: Woman=,Entity+,Shooting+,Entity+,SubjectiveAssessmentAttribute=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+5	ear	ear	NOUN	NN	_	6	nn	_	NN|05320899-n|Ear=
+6	protection	protection	NOUN	NN	_	4	dobj	_	NN|04014297-n|Container+
+7	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	firing	fire	VERB	VBG	_	4	conj	_	VBG|01133825-v|Shooting+
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	gun	gun	NOUN	NN	_	9	dobj	_	NN|03467984-n|Gun=
+12	at	at	ADP	IN	_	9	prep	_	IN|?|?
+13	an	a	DET	DT	_	16	det	_	DT|?|?
+14	indoor	indoor	ADJ	JJ	_	16	amod	_	JJ|01692786-a|located+
+15	shooting	shooting	NOUN	NN	_	16	nn	_	NN|00122661-n|Shooting=
+16	range	range	NOUN	NN	_	12	pobj	_	NN|05125377-n|SubjectiveAssessmentAttribute+
+17	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	shooting	shoot	VERB	VBG	_	0	ROOT	_	VBG|01134781-v|Shooting+
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	target	target	NOUN	NN	_	7	nn	_	NN|05981230-n|Entity+
+7	practice	practice	NOUN	NN	_	5	pobj	_	NN|00410247-n|SubjectiveAssessmentAttribute=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

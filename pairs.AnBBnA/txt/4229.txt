@@ -1,0 +1,26 @@
+sentence A = Two men are playing guitar.
+sentence B = Two girls are playing guitar.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,DramaticActing+,Guitar=
+CONCEPTS B: Human+,Entity+,DramaticActing+,Guitar=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+6	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	girls	girl	NOUN	NNS	_	4	nsubj	_	NNS|10129825-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+6	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,35 @@
+sentence A = A toddler is making a splash inside a blue paddling pool.
+sentence B = The child is splashing water in a pool.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: NonFullyFormed+,Entity+,Process+,Putting+,SubjectiveStrongNegativeAttribute+,Walking+,StaticWaterArea+
+CONCEPTS B: HumanChild=,Entity+,Wetting+,Water=,StaticWaterArea+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	toddler	toddler	NOUN	NN	_	4	nsubj	_	NN|10714465-n|NonFullyFormed+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	making	make	VERB	VBG	_	0	ROOT	_	VBG|00120316-v|Process+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	splash	splash	NOUN	NN	_	4	dobj	_	NN|00717748-n|Putting+
+7	inside	inside	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	11	det	_	DT|?|?
+9	blue	blue	ADJ	JJ	_	11	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+10	paddling	paddle	VERB	VBG	_	11	nn	_	VBG|01918803-v|Walking+
+11	pool	pool	NOUN	NN	_	7	pobj	_	NN|09397607-n|StaticWaterArea+
+12	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	splashing	splash	VERB	VBG	_	0	ROOT	_	VBG|01374020-v|Wetting+
+5	water	water	NOUN	NN	_	4	dobj	_	NN|14845743-n|Water=
+6	in	in	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	pool	pool	NOUN	NN	_	6	pobj	_	NN|09397607-n|StaticWaterArea+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

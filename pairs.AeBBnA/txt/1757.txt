@@ -1,0 +1,29 @@
+sentence A = One woman is practicing with a flute.
+sentence B = One woman is playing a flute.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Position+,Flute=
+CONCEPTS B: Woman=,Entity+,DramaticActing+,Flute=
+
+CONLL A:
+
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	practicing	practice	VERB	VBG	_	0	ROOT	_	VBG|02568672-v|Position+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	flute	flute	NOUN	NN	_	5	pobj	_	NN|03372029-n|Flute=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	flute	flute	NOUN	NN	_	4	dobj	_	NN|03372029-n|Flute=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

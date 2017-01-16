@@ -1,0 +1,32 @@
+sentence A = A man is making a speech on a podium.
+sentence B = A man is speaking on a podium.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Process+,Speaking+,Artifact+
+CONCEPTS B: Hominid=,Entity+,Speaking+,Artifact+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	making	make	VERB	VBG	_	0	ROOT	_	VBG|01617192-v|Process+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	speech	speech	NOUN	NN	_	4	dobj	_	NN|07109196-n|Speaking+
+7	on	on	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	podium	podium	NOUN	NN	_	7	pobj	_	NN|03159640-n|Artifact+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	speaking	speak	VERB	VBG	_	0	ROOT	_	VBG|00963570-v|Speaking+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	podium	podium	NOUN	NN	_	5	pobj	_	NN|03159640-n|Artifact+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

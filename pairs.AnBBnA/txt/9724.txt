@@ -1,0 +1,32 @@
+sentence A = A woman is leaning on a racing motorcycle.
+sentence B = A man is leaning on a racing motorcycle.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Inclining+,Motion+,PassengerVehicle+
+CONCEPTS B: Hominid=,Entity+,Inclining+,Motion+,PassengerVehicle+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	leaning	lean	VERB	VBG	_	0	ROOT	_	VBG|02038357-v|Inclining+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	racing	race	NOUN	NN	_	8	nn	_	VBG|02058994-v|Motion+
+8	motorcycle	motorcycle	NOUN	NN	_	5	pobj	_	NN|03790512-n|PassengerVehicle+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	leaning	lean	VERB	VBG	_	0	ROOT	_	VBG|02038357-v|Inclining+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	racing	race	NOUN	NN	_	8	nn	_	VBG|02058994-v|Motion+
+8	motorcycle	motorcycle	NOUN	NN	_	5	pobj	_	NN|03790512-n|PassengerVehicle+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

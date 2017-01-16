@@ -1,0 +1,26 @@
+sentence A = The man is doing floor exercises.
+sentence B = A man is lazing.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Hominid=,Entity+,Position+,Floor+,IntentionalProcess+
+CONCEPTS B: Hominid=,Entity+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|02568672-v|Position+
+5	floor	floor	NOUN	NN	_	6	nn	_	NN|03365592-n|Floor+
+6	exercises	exercise	NOUN	NNS	_	4	dobj	_	NNS|00947128-n|IntentionalProcess+
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	lazing	lazing	VERB	VBG	_	0	ROOT	_	VBG|?|?
+5	.	.	.	.	_	4	punct	_	Fp|?|?

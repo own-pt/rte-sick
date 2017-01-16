@@ -1,0 +1,28 @@
+sentence A = A woman is brushing her hand.
+sentence B = A woman is brushing her feet.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Touching+,Hand+
+CONCEPTS B: Woman=,Entity+,Touching+,Foot+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	brushing	brush	VERB	VBG	_	0	ROOT	_	VBG|01243809-v|Touching+
+5	her	her	PRON	PRP$	_	6	poss	_	PRP$|?|?
+6	hand	hand	NOUN	NN	_	4	dobj	_	NN|05564590-n|Hand+
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	brushing	brush	VERB	VBG	_	0	ROOT	_	VBG|01243809-v|Touching+
+5	her	her	PRON	PRP$	_	6	poss	_	PRP$|?|?
+6	feet	foot	NOUN	NNS	_	4	dobj	_	NNS|05563266-n|Foot+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

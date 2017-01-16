@@ -1,0 +1,37 @@
+sentence A = A dog is near a ball colored in red, which is in the air.
+sentence B = A man is playing a guitar.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,Ball=,SurfaceChange+,Red+,Entity+,AirTransportation+
+CONCEPTS B: Hominid=,Entity+,DramaticActing+,Guitar=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	3	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+4	near	near	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	ball	ball	NOUN	NN	_	4	pobj	_	NN|02778669-n|Ball=
+7	colored	color	VERB	VBN	_	6	partmod	_	VBN|00283911-v|SurfaceChange+
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	red	red	ADJ	JJ	_	8	pobj	_	NN|04962784-n|Red+
+10	,	,	.	,	_	9	punct	_	Fc|?|?
+11	which	which	DET	WDT	_	12	nsubj	_	WDT|?|?
+12	is	be	VERB	VBZ	_	9	rcmod	_	VBZ|02604760-v|Entity+
+13	in	in	ADP	IN	_	12	prep	_	IN|?|?
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	air	air	NOUN	NN	_	13	pobj	_	NN|00300441-n|AirTransportation+
+16	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

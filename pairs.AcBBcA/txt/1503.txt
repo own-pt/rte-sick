@@ -1,0 +1,31 @@
+sentence A = Three boys in karate costumes aren't fighting.
+sentence B = Three boys in karate costumes are fighting.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Human+,Karate=,Clothing+,Entity+,not=,ViolentContest+
+CONCEPTS B: Human+,Karate=,Clothing+,Entity+,ViolentContest+
+
+CONLL A:
+
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	boys	boy	NOUN	NNS	_	8	nsubj	_	NNS|10285313-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	karate	karate	NOUN	NN	_	5	nn	_	NN|00826397-n|Karate=
+5	costumes	costume	NOUN	NNS	_	3	pobj	_	NNS|03113657-n|Clothing+
+6	are	be	VERB	VBP	_	8	aux	_	VBP|02604760-v|Entity+
+7	not	not	ADV	RB	_	8	neg	_	RB|00024073-r|not=
+8	fighting	fight	VERB	VBG	_	0	ROOT	_	VBG|01090335-v|ViolentContest+
+9	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	boys	boy	NOUN	NNS	_	7	nsubj	_	NNS|10285313-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	karate	karate	ADJ	JJ	_	5	amod	_	NN|00826397-n|Karate=
+5	costumes	costume	NOUN	NNS	_	3	pobj	_	NNS|03113657-n|Clothing+
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	fighting	fight	VERB	VBG	_	0	ROOT	_	VBG|01090335-v|ViolentContest+
+8	.	.	.	.	_	7	punct	_	Fp|?|?

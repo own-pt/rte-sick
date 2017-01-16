@@ -1,0 +1,45 @@
+sentence A = A young lady with light brown hair is wearing a red necklace, a sweatshirt and earrings and is smiling.
+sentence B = The teenage girl is wearing beads that are red.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,Human+,SubjectiveWeakPositiveAttribute+,Human+,Hair=,Entity+,CoveringFn=,Red=,Jewelry+,Clothing+,Jewelry+,Entity+,Smiling=
+CONCEPTS B: age+,Human+,Entity+,CoveringFn=,ShapeAttribute+,Entity+,Red=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	lady	lady	NOUN	NN	_	9	nsubj	_	NN|09989290-n|Human+
+4	with	with	ADP	IN	_	3	prep	_	IN|?|?
+5	light	light	ADJ	JJ	_	7	amod	_	JJ|01186408-a|SubjectiveWeakPositiveAttribute+
+6	brown	brown	ADJ	JJ	_	7	amod	_	JJ|00245112-a|Human+
+7	hair	hair	NOUN	NN	_	4	pobj	_	NN|05254795-n|Hair=
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	red	red	ADJ	JJ	_	12	amod	_	JJ|00381097-a|Red=
+12	necklace	necklace	NOUN	NN	_	9	dobj	_	NN|03814906-n|Jewelry+
+13	,	,	.	,	_	12	punct	_	Fc|?|?
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	sweatshirt	sweatshirt	NOUN	NN	_	12	conj	_	NN|04370456-n|Clothing+
+16	and	and	CONJ	CC	_	12	cc	_	CC|?|?
+17	earrings	earring	NOUN	NNS	_	12	conj	_	NNS|03262349-n|Jewelry+
+18	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+19	is	be	VERB	VBZ	_	20	aux	_	VBZ|02604760-v|Entity+
+20	smiling	smile	VERB	VBG	_	9	conj	_	VBG|00028565-v|Smiling=
+21	.	.	.	.	_	9	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	teenage	teenage	ADJ	JJ	_	3	amod	_	JJ|01647983-a|age+
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+6	beads	bead	NOUN	NNS	_	5	dobj	_	NNS|13901585-n|ShapeAttribute+
+7	that	that	DET	WDT	_	9	nsubj	_	WDT|?|?
+8	are	be	VERB	VBP	_	9	cop	_	VBP|02604760-v|Entity+
+9	red	red	ADJ	JJ	_	6	rcmod	_	JJ|00381097-a|Red=
+10	.	.	.	.	_	5	punct	_	Fp|?|?

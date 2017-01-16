@@ -1,0 +1,24 @@
+sentence A = Some people are singing.
+sentence B = Some persons are singing.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: GroupOfPeople=,Entity+,MakingVocalMusic=
+CONCEPTS B: Human=,Entity+,MakingVocalMusic=
+
+CONLL A:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+5	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	persons	person	NOUN	NNS	_	4	nsubj	_	NNS|00007846-n|Human=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+5	.	.	.	.	_	4	punct	_	Fp|?|?

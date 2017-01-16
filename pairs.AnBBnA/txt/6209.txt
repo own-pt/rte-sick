@@ -1,0 +1,29 @@
+sentence A = A lone bicyclist is putting down a bike.
+sentence B = A cold cyclist is celebrating.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SocialInteraction[,Human+,Entity+,Putting=,earlier+,Bicycle=
+CONCEPTS B: ColdTemperature=,Human+,Entity+,ReligiousProcess+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	lone	lone	ADJ	JJ	_	3	amod	_	JJ|02251212-a|SocialInteraction[
+3	bicyclist	bicyclist	NOUN	NN	_	5	nsubj	_	NN|09986189-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	putting	put	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+6	down	down	PRT	RP	_	5	prt	_	RP|00096089-r|earlier+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	bike	bike	NOUN	NN	_	5	dobj	_	NN|02834778-n|Bicycle=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	cold	cold	ADJ	JJ	_	3	amod	_	JJ|01251128-a|ColdTemperature=
+3	cyclist	cyclist	NOUN	NN	_	5	nsubj	_	NN|09986189-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	celebrating	celebrate	VERB	VBG	_	0	ROOT	_	VBG|02578510-v|ReligiousProcess+
+6	.	.	.	.	_	5	punct	_	Fp|?|?

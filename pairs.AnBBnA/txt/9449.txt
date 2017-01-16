@@ -1,0 +1,36 @@
+sentence A = A dog is jumping in the shade of some trees.
+sentence B = A dog is jumping on a trees in the shades.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,Ambulating=,ColorAttribute+,ContentBearingObject+
+CONCEPTS B: Canine+,Entity+,Ambulating=,ContentBearingObject+,ColorAttribute+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	shade	shade	NOUN	NN	_	5	pobj	_	NN|04959230-n|ColorAttribute+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	some	some	DET	DT	_	10	det	_	DT|?|?
+10	trees	tree	NOUN	NNS	_	8	pobj	_	NNS|13912260-n|ContentBearingObject+
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	trees	tree	NOUN	NNS	_	5	pobj	_	NNS|13912260-n|ContentBearingObject+
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	shades	shade	NOUN	NNS	_	8	pobj	_	NNS|04959230-n|ColorAttribute+
+11	.	.	.	.	_	4	punct	_	Fp|?|?

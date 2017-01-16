@@ -1,0 +1,34 @@
+sentence A = Two people are looking at a statue made of gold.
+sentence B = Two people are looking at a gold statue.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: GroupOfPeople=,Entity+,SubjectiveAssessmentAttribute+,Sculpture+,Attribute+,Gold=
+CONCEPTS B: GroupOfPeople=,Entity+,SubjectiveAssessmentAttribute+,Gold=,Sculpture+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	statue	statue	NOUN	NN	_	5	pobj	_	NN|04306847-n|Sculpture+
+8	made	make	VERB	VBN	_	7	partmod	_	VBN|02621395-v|Attribute+
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	gold	gold	NOUN	NN	_	9	pobj	_	NN|14638799-n|Gold=
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	gold	gold	ADJ	JJ	_	8	amod	_	NN|14638799-n|Gold=
+8	statue	statue	NOUN	NN	_	5	pobj	_	NN|04306847-n|Sculpture+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

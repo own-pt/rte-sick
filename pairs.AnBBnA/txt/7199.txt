@@ -1,0 +1,32 @@
+sentence A = A man is standing on a sidewalk.
+sentence B = A man is standing tiredly next to a bus.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,PhysicalAttribute+,Sidewalk=
+CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,StateOfMind+,Position+,Conductor+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	sidewalk	sidewalk	NOUN	NN	_	5	pobj	_	NN|04215402-n|Sidewalk=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	tiredly	tiredly	ADV	RB	_	4	advmod	_	RB|00090424-r|StateOfMind+
+6	next	next	ADV	RB	_	4	advmod	_	JJ|01294975-a|Position+
+7	to	to	ADP	IN	_	6	prep	_	TO|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	bus	bus	NOUN	NN	_	7	pobj	_	NN|02924713-n|Conductor+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

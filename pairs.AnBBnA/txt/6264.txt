@@ -1,0 +1,35 @@
+sentence A = Two women are wearing bikinis on the sandy beach.
+sentence B = Two women are naked and are standing on the sand.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,CoveringFn=,Clothing+,part+,ShoreArea=
+CONCEPTS B: Woman=,Entity+,Clothing[,Entity+,PhysicalAttribute+,Sand=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	women	woman	NOUN	NNS	_	4	nsubj	_	NNS|10787470-n|Woman=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+5	bikinis	bikini	NOUN	NNS	_	4	dobj	_	NNS|02837789-n|Clothing+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	9	det	_	DT|?|?
+8	sandy	sandy	ADJ	JJ	_	9	amod	_	JJ|00142040-a|part+
+9	beach	beach	NOUN	NN	_	6	pobj	_	NN|09217230-n|ShoreArea=
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	women	woman	NOUN	NNS	_	4	nsubj	_	NNS|10787470-n|Woman=
+3	are	be	VERB	VBP	_	4	cop	_	VBP|02604760-v|Entity+
+4	naked	naked	ADJ	JJ	_	0	ROOT	_	JJ|00457998-a|Clothing[
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	standing	stand	VERB	VBG	_	4	conj	_	VBG|01546111-v|PhysicalAttribute+
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	sand	sand	NOUN	NN	_	8	pobj	_	NN|15019030-n|Sand=
+11	.	.	.	.	_	4	punct	_	Fp|?|?

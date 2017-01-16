@@ -1,0 +1,31 @@
+sentence A = The players is maneuvering for the soccer ball.
+sentence B = The players is maneuvering for the ball.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Driving+,Soccer=,Ball=
+CONCEPTS B: Actor=,Entity+,Driving+,Ball=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	players	player	NOUN	NNS	_	4	nsubj	_	NNS|10439851-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	maneuvering	maneuver	VERB	VBG	_	0	ROOT	_	VBG|01931768-v|Driving+
+5	for	for	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	8	det	_	DT|?|?
+7	soccer	soccer	NOUN	NN	_	8	nn	_	NN|00478262-n|Soccer=
+8	ball	ball	NOUN	NN	_	5	pobj	_	NN|02778669-n|Ball=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	players	player	NOUN	NNS	_	4	nsubj	_	NNS|09765278-n|Actor=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	maneuvering	maneuver	VERB	VBG	_	0	ROOT	_	VBG|01931768-v|Driving+
+5	for	for	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	ball	ball	NOUN	NN	_	5	pobj	_	NN|02778669-n|Ball=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

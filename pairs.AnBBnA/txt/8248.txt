@@ -1,0 +1,40 @@
+sentence A = A young man is pushing a motocross bike up a dirt hill.
+sentence B = Some young bikers are getting a dirt bike up a sandy hill.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,Hominid=,Entity+,Pushing=,Bicycle=,Text+,Hill=
+CONCEPTS B: HumanYouth=,Entity+,Process+,Text+,Bicycle=,part+,Hill=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	pushing	push	VERB	VBG	_	0	ROOT	_	VBG|01871979-v|Pushing=
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	motocross	motocross	NOUN	NN	_	8	nn	_	JJ|?|?
+8	bike	bike	NOUN	NN	_	5	dobj	_	NN|02834778-n|Bicycle=
+9	up	up	PRT	RP	_	5	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	dirt	dirt	NOUN	NN	_	12	nn	_	NN|07223811-n|Text+
+12	hill	hill	NOUN	NN	_	9	pobj	_	NN|09303008-n|Hill=
+13	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Some	some	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	bikers	biker	NOUN	NNS	_	5	nsubj	_	NNS|?|?
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	getting	get	VERB	VBG	_	0	ROOT	_	VBG|00120316-v|Process+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	dirt	dirt	NOUN	NN	_	8	nn	_	NN|07223811-n|Text+
+8	bike	bike	NOUN	NN	_	5	dobj	_	NN|02834778-n|Bicycle=
+9	up	up	PRT	RP	_	5	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	sandy	sandy	ADJ	JJ	_	12	amod	_	JJ|00142040-a|part+
+12	hill	hill	NOUN	NN	_	9	pobj	_	NN|09303008-n|Hill=
+13	.	.	.	.	_	5	punct	_	Fp|?|?

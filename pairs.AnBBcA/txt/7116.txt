@@ -1,0 +1,38 @@
+sentence A = A little boy in red clothes is jumping onto the ground.
+sentence B = A little boy in red clothes is jumping into the air.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Red=,Clothing+,Entity+,Ambulating=,LandArea=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Red=,Clothing+,Entity+,Ambulating=,AirTransportation+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	boy	boy	NOUN	NN	_	8	nsubj	_	NN|10285313-n|Human+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	red	red	ADJ	JJ	_	6	amod	_	JJ|00381097-a|Red=
+6	clothes	clothes	NOUN	NNS	_	4	pobj	_	NNS|02728440-n|Clothing+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+9	onto	onto	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	ground	ground	NOUN	NN	_	9	pobj	_	NN|09334396-n|LandArea=
+12	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	boy	boy	NOUN	NN	_	8	nsubj	_	NN|10285313-n|Human+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	red	red	ADJ	JJ	_	6	amod	_	JJ|00381097-a|Red=
+6	clothes	clothes	NOUN	NNS	_	4	pobj	_	NNS|02728440-n|Clothing+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+9	into	into	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	air	air	NOUN	NN	_	9	pobj	_	NN|00300441-n|AirTransportation+
+12	.	.	.	.	_	8	punct	_	Fp|?|?

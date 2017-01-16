@@ -1,0 +1,31 @@
+sentence A = A man is riding a motorcycle through the town.
+sentence B = A man is riding a motorcycle.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Transportation+,PassengerVehicle+,City+
+CONCEPTS B: Hominid=,Entity+,Transportation+,PassengerVehicle+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	motorcycle	motorcycle	NOUN	NN	_	4	dobj	_	NN|03790512-n|PassengerVehicle+
+7	through	through	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	town	town	NOUN	NN	_	7	pobj	_	NN|08665504-n|City+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	motorcycle	motorcycle	NOUN	NN	_	4	dobj	_	NN|03790512-n|PassengerVehicle+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

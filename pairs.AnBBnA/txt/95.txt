@@ -1,0 +1,33 @@
+sentence A = A man is jumping into an empty pool.
+sentence B = A biker is jumping in the air, alone.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Ambulating=,ContainerEmpty+,StaticWaterArea+
+CONCEPTS B: Entity+,Ambulating=,AirTransportation+,SocialInteraction[
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	into	into	ADP	IN	_	4	prep	_	IN|?|?
+6	an	a	DET	DT	_	8	det	_	DT|?|?
+7	empty	empty	ADJ	JJ	_	8	amod	_	JJ|01086545-a|ContainerEmpty+
+8	pool	pool	NOUN	NN	_	5	pobj	_	NN|09397607-n|StaticWaterArea+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	biker	biker	NOUN	NN	_	4	nsubj	_	NN|?|?
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	air	air	NOUN	NN	_	5	pobj	_	NN|00300441-n|AirTransportation+
+8	,	,	.	,	_	4	punct	_	Fc|?|?
+9	alone	alone	ADV	RB	_	4	advmod	_	RB|00157967-r|SocialInteraction[
+10	.	.	.	.	_	4	punct	_	Fp|?|?

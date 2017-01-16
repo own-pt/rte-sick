@@ -1,0 +1,38 @@
+sentence A = A golden dog is running through a field of tall grass.
+sentence B = A golden dog is sitting in a field of tall grass.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Attribute+,FieldOfStudy=,SubjectiveWeakNegativeAttribute+,Grass=
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Canine+,PhysicalAttribute+,SittingDown+,FieldOfStudy=,SubjectiveWeakNegativeAttribute+,Grass=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	golden	golden	ADJ	JJ	_	3	amod	_	JJ|00670938-a|SubjectiveWeakPositiveAttribute+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	through	through	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	field	field	NOUN	NN	_	6	pobj	_	NN|05996646-n|FieldOfStudy=
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	tall	tall	ADJ	JJ	_	11	amod	_	JJ|02385102-a|SubjectiveWeakNegativeAttribute+
+11	grass	grass	NOUN	NN	_	9	pobj	_	NN|12102133-n|Grass=
+12	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	golden	golden	ADJ	JJ	_	3	amod	_	JJ|00670938-a|SubjectiveWeakPositiveAttribute+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	field	field	NOUN	NN	_	6	pobj	_	NN|05996646-n|FieldOfStudy=
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	tall	tall	ADJ	JJ	_	11	amod	_	JJ|02385102-a|SubjectiveWeakNegativeAttribute+
+11	grass	grass	NOUN	NN	_	9	pobj	_	NN|12102133-n|Grass=
+12	.	.	.	.	_	5	punct	_	Fp|?|?

@@ -1,0 +1,43 @@
+sentence A = There are no boys kneeling next to each other in front of a ball.
+sentence B = The young boys are posing with a green soccer ball in a park.
+entailm AB = A_contradicts_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,Human+,BodyMotion+,Position+,equal+,FrontFn=,Ball=
+CONCEPTS B: HumanYouth=,Human+,Entity+,Putting=,Green=,Soccer=,Ball=,Park+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	boys	boy	NOUN	NNS	_	2	nsubj	_	NNS|10285313-n|Human+
+5	kneeling	kneel	VERB	VBG	_	4	partmod	_	VBG|01545649-v|BodyMotion+
+6	next	next	ADJ	JJ	_	5	advmod	_	JJ|01294975-a|Position+
+7	to	to	ADP	IN	_	6	prep	_	TO|?|?
+8	each	each	DET	DT	_	9	det	_	DT|?|?
+9	other	other	ADJ	JJ	_	7	pobj	_	JJ|02069355-a|equal+
+10	in	in	ADP	IN	_	5	prep	_	IN|?|?
+11	front	front	NOUN	NN	_	10	pobj	_	NN|08573472-n|FrontFn=
+12	of	of	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	ball	ball	NOUN	NN	_	12	pobj	_	NN|02778669-n|Ball=
+15	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	boys	boy	NOUN	NNS	_	5	nsubj	_	NNS|10285313-n|Human+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	posing	pose	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	10	det	_	DT|?|?
+8	green	green	ADJ	JJ	_	10	amod	_	JJ|00375969-a|Green=
+9	soccer	soccer	NOUN	NN	_	10	nn	_	NN|00478262-n|Soccer=
+10	ball	ball	NOUN	NN	_	6	pobj	_	NN|02778669-n|Ball=
+11	in	in	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	park	park	NOUN	NN	_	11	pobj	_	NN|08615374-n|Park+
+14	.	.	.	.	_	5	punct	_	Fp|?|?

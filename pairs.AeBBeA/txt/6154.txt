@@ -1,0 +1,38 @@
+sentence A = The person in the blue jacket is wearing a colorful helmet.
+sentence B = A person in a blue jacket is wearing a colorful helmet.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Human=,SubjectiveStrongNegativeAttribute+,Coat=,Entity+,CoveringFn=,ColorAttribute+,Clothing+
+CONCEPTS B: Human=,SubjectiveStrongNegativeAttribute+,Coat=,Entity+,CoveringFn=,ColorAttribute+,Clothing+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	8	nsubj	_	NN|00007846-n|Human=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	the	the	DET	DT	_	6	det	_	DT|?|?
+5	blue	blue	ADJ	JJ	_	6	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+6	jacket	jacket	NOUN	NN	_	3	pobj	_	NN|03589791-n|Coat=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	colorful	colorful	ADJ	JJ	_	11	amod	_	JJ|00394562-a|ColorAttribute+
+11	helmet	helmet	NOUN	NN	_	8	dobj	_	NN|03513376-n|Clothing+
+12	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	8	nsubj	_	NN|00007846-n|Human=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	blue	blue	ADJ	JJ	_	6	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+6	jacket	jacket	NOUN	NN	_	3	pobj	_	NN|03589791-n|Coat=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	colorful	colorful	ADJ	JJ	_	11	amod	_	JJ|00394562-a|ColorAttribute+
+11	helmet	helmet	NOUN	NN	_	8	dobj	_	NN|03513376-n|Clothing+
+12	.	.	.	.	_	8	punct	_	Fp|?|?

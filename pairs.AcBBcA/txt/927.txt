@@ -1,0 +1,37 @@
+sentence A = The young girl is blowing a bubble that is huge.
+sentence B = The young girl is blowing a bubble that is very small.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: HumanYouth=,Human+,Entity+,Exhaling+,Bubble+,Entity+,SubjectiveWeakNegativeAttribute+
+CONCEPTS B: HumanYouth=,Human+,Entity+,Exhaling+,Bubble+,Entity+,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+
+
+CONLL A:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	blowing	blow	VERB	VBG	_	0	ROOT	_	VBG|00007012-v|Exhaling+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	bubble	bubble	NOUN	NN	_	5	dobj	_	NN|09229709-n|Bubble+
+8	that	that	DET	WDT	_	10	nsubj	_	WDT|?|?
+9	is	be	VERB	VBZ	_	10	cop	_	VBZ|02604760-v|Entity+
+10	huge	huge	ADJ	JJ	_	7	rcmod	_	JJ|01387319-a|SubjectiveWeakNegativeAttribute+
+11	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	blowing	blow	VERB	VBG	_	0	ROOT	_	VBG|00007012-v|Exhaling+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	bubble	bubble	NOUN	NN	_	5	dobj	_	NN|09229709-n|Bubble+
+8	that	that	DET	WDT	_	11	nsubj	_	WDT|?|?
+9	is	be	VERB	VBZ	_	11	cop	_	VBZ|02604760-v|Entity+
+10	very	very	ADV	RB	_	11	advmod	_	RB|00031899-r|SubjectiveAssessmentAttribute+
+11	small	small	ADJ	JJ	_	7	rcmod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+12	.	.	.	.	_	5	punct	_	Fp|?|?

@@ -1,0 +1,41 @@
+sentence A = Three friends are making faces for the camera.
+sentence B = Two men and a girl in behind of a wood panel wall are posing with funny faces.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveAssessmentAttribute=,Entity+,Process+,DirectionChange+,Camera=
+CONCEPTS B: Man=,Human+,SubjectiveAssessmentAttribute+,Wood=,EngineeringComponent+,Wall=,Entity+,Putting=,SubjectiveStrongPositiveAttribute+,Object+
+
+CONLL A:
+
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	friends	friend	NOUN	NNS	_	4	nsubj	_	NNS|10112591-n|SubjectiveAssessmentAttribute=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	making	make	VERB	VBG	_	0	ROOT	_	VBG|01617192-v|Process+
+5	faces	face	NOUN	NNS	_	4	dobj	_	VBZ|01908365-v|DirectionChange+
+6	for	for	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	camera	camera	NOUN	NN	_	6	pobj	_	NN|02942699-n|Camera=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	14	nsubj	_	NNS|10287213-n|Man=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	girl	girl	NOUN	NN	_	2	conj	_	NN|10129825-n|Human+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	behind	behind	ADP	IN	_	6	pcomp	_	RB|00222479-r|SubjectiveAssessmentAttribute+
+8	of	of	ADP	IN	_	7	pcomp	_	IN|?|?
+9	a	a	DET	DT	_	12	det	_	DT|?|?
+10	wood	wood	NOUN	NN	_	11	nn	_	NN|15098161-n|Wood=
+11	panel	panel	NOUN	NN	_	12	nn	_	NN|03882058-n|EngineeringComponent+
+12	wall	wall	NOUN	NN	_	8	pobj	_	NN|04546855-n|Wall=
+13	are	be	VERB	VBP	_	14	aux	_	VBP|02604760-v|Entity+
+14	posing	pose	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+15	with	with	ADP	IN	_	14	prep	_	IN|?|?
+16	funny	funny	ADJ	JJ	_	17	amod	_	JJ|01265308-a|SubjectiveStrongPositiveAttribute+
+17	faces	face	NOUN	NNS	_	15	pobj	_	NNS|08510666-n|Object+
+18	.	.	.	.	_	14	punct	_	Fp|?|?

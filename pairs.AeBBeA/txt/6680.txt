@@ -1,0 +1,30 @@
+sentence A = Three boys are jumping off a platform.
+sentence B = Some boys are jumping off a platform.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Human+,Entity+,Ambulating=,PerformanceStage+
+CONCEPTS B: Human+,Entity+,Ambulating=,PerformanceStage+
+
+CONLL A:
+
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	boys	boy	NOUN	NNS	_	4	nsubj	_	NNS|10285313-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	off	off	PRT	RP	_	4	prt	_	RP|00232936-r|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	platform	platform	NOUN	NN	_	4	dobj	_	NN|03961939-n|PerformanceStage+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	boys	boy	NOUN	NNS	_	4	nsubj	_	NNS|10285313-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	off	off	ADP	IN	_	4	prep	_	RP|00232936-r|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	platform	platform	NOUN	NN	_	5	pobj	_	NN|03961939-n|PerformanceStage+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

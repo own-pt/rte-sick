@@ -1,0 +1,28 @@
+sentence A = Someone is playing with a toad.
+sentence B = Someone is playing with a frog.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,DramaticActing+,Toad+
+CONCEPTS B: Entity+,DramaticActing+,Toad+
+
+CONLL A:
+
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+4	with	with	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	toad	toad	NOUN	NN	_	4	pobj	_	NN|01639765-n|Toad+
+7	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+4	with	with	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	frog	frog	NOUN	NN	_	4	pobj	_	NN|01639765-n|Toad+
+7	.	.	.	.	_	3	punct	_	Fp|?|?

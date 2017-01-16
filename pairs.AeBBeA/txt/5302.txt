@@ -1,0 +1,30 @@
+sentence A = The man is slicing a potato.
+sentence B = A potato is being sliced by the man.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Hominid=,Entity+,Separating+,PotatoTuber=
+CONCEPTS B: PotatoTuber=,Entity+,Entity+,Separating+,Hominid=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	potato	potato	NOUN	NN	_	4	dobj	_	NN|07710616-n|PotatoTuber=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	potato	potato	NOUN	NN	_	5	nsubjpass	_	NN|07710616-n|PotatoTuber=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	sliced	slice	VERB	VBN	_	0	ROOT	_	VBN|01254477-v|Separating+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	man	man	NOUN	NN	_	6	pobj	_	NN|02472293-n|Hominid=
+9	.	.	.	.	_	5	punct	_	Fp|?|?

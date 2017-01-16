@@ -1,0 +1,34 @@
+sentence A = A little boy is watching a family that is hitting a baseball.
+sentence B = A child is hitting a baseball.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Looking=,FamilyGroup+,Entity+,Impelling+,Baseball=
+CONCEPTS B: HumanChild=,Entity+,Impelling+,Baseball=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	boy	boy	NOUN	NN	_	5	nsubj	_	NN|10285313-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	watching	watch	VERB	VBG	_	0	ROOT	_	VBG|02150948-v|Looking=
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	family	family	NOUN	NN	_	5	dobj	_	NN|07970721-n|FamilyGroup+
+8	that	that	DET	WDT	_	10	nsubj	_	WDT|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	hitting	hit	VERB	VBG	_	7	rcmod	_	VBG|01405044-v|Impelling+
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	baseball	baseball	NOUN	NN	_	10	dobj	_	NN|00471613-n|Baseball=
+13	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	hitting	hit	VERB	VBG	_	0	ROOT	_	VBG|01405044-v|Impelling+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	baseball	baseball	NOUN	NN	_	4	dobj	_	NN|00471613-n|Baseball=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

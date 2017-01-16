@@ -1,0 +1,30 @@
+sentence A = A dog is rolling on the ground.
+sentence B = A dog is sleeping on the ground.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,Motion+,LandArea=
+CONCEPTS B: Canine+,Entity+,OrganismProcess+,LandArea=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	rolling	roll	VERB	VBG	_	0	ROOT	_	VBG|01866192-v|Motion+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	ground	ground	NOUN	NN	_	5	pobj	_	NN|09334396-n|LandArea=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	sleeping	sleep	VERB	VBG	_	0	ROOT	_	VBG|00014742-v|OrganismProcess+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	ground	ground	NOUN	NN	_	5	pobj	_	NN|09334396-n|LandArea=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

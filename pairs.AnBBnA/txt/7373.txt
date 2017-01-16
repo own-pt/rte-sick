@@ -1,0 +1,37 @@
+sentence A = A man is standing behind the rocks with clouds on top of them.
+sentence B = A person is standing on a mountain top.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,PhysicalAttribute+,Mineral+,Cloud=,top=
+CONCEPTS B: Human=,Entity+,PhysicalAttribute+,Mountain=,LandArea+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	behind	behind	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	rocks	rock	NOUN	NNS	_	5	pobj	_	NNS|14696793-n|Mineral+
+8	with	with	ADP	IN	_	4	prep	_	IN|?|?
+9	clouds	cloud	NOUN	NNS	_	8	pobj	_	NNS|09247410-n|Cloud=
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	top	top	NOUN	NN	_	10	pobj	_	JJ|02439949-a|top=
+12	of	of	ADP	IN	_	11	prep	_	IN|?|?
+13	them	them	PRON	PRP	_	12	pobj	_	PRP|?|?
+14	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	mountain	mountain	NOUN	NN	_	8	nn	_	NN|09359803-n|Mountain=
+8	top	top	NOUN	NN	_	5	pobj	_	NN|08617963-n|LandArea+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,47 @@
+sentence A = The girl likes red and isn't wearing beads for teenagers.
+sentence B = A young lady with light brown hair is wearing a red necklace, a sweatshirt and earrings and is smiling.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,EmotionalState+,Red=,Entity+,not=,CoveringFn=,ShapeAttribute+,Teenager=
+CONCEPTS B: HumanYouth=,Human+,SubjectiveWeakPositiveAttribute+,Human+,Hair=,Entity+,CoveringFn=,Red=,Jewelry+,Clothing+,Jewelry+,Entity+,Smiling=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	3	nsubj	_	NN|10129825-n|Human+
+3	likes	like	VERB	VBZ	_	0	ROOT	_	VBZ|01777210-v|EmotionalState+
+4	red	red	ADJ	JJ	_	3	dobj	_	JJ|00381097-a|Red=
+5	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+6	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+7	not	not	ADV	RB	_	8	neg	_	RB|00024073-r|not=
+8	wearing	wear	VERB	VBG	_	3	conj	_	VBG|00047745-v|CoveringFn=
+9	beads	bead	NOUN	NNS	_	8	dobj	_	NNS|13901585-n|ShapeAttribute+
+10	for	for	ADP	IN	_	9	prep	_	IN|?|?
+11	teenagers	teenager	NOUN	NNS	_	10	pobj	_	NNS|09772029-n|Teenager=
+12	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	lady	lady	NOUN	NN	_	9	nsubj	_	NN|09989290-n|Human+
+4	with	with	ADP	IN	_	3	prep	_	IN|?|?
+5	light	light	ADJ	JJ	_	7	amod	_	JJ|01186408-a|SubjectiveWeakPositiveAttribute+
+6	brown	brown	ADJ	JJ	_	7	amod	_	JJ|00245112-a|Human+
+7	hair	hair	NOUN	NN	_	4	pobj	_	NN|05254795-n|Hair=
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	red	red	ADJ	JJ	_	12	amod	_	JJ|00381097-a|Red=
+12	necklace	necklace	NOUN	NN	_	9	dobj	_	NN|03814906-n|Jewelry+
+13	,	,	.	,	_	12	punct	_	Fc|?|?
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	sweatshirt	sweatshirt	NOUN	NN	_	12	conj	_	NN|04370456-n|Clothing+
+16	and	and	CONJ	CC	_	12	cc	_	CC|?|?
+17	earrings	earring	NOUN	NNS	_	12	conj	_	NNS|03262349-n|Jewelry+
+18	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+19	is	be	VERB	VBZ	_	20	aux	_	VBZ|02604760-v|Entity+
+20	smiling	smile	VERB	VBG	_	9	conj	_	VBG|00028565-v|Smiling=
+21	.	.	.	.	_	9	punct	_	Fp|?|?

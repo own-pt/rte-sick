@@ -1,0 +1,32 @@
+sentence A = A man is dangerously throwing knives at the tree.
+sentence B = The man is doing a magic trick.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,SubjectiveAssessmentAttribute+,Impelling+,CuttingDevice+,ContentBearingObject+
+CONCEPTS B: Hominid=,Entity+,Position+,SubjectiveStrongPositiveAttribute+,RecreationOrExercise+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	dangerously	dangerously	ADV	RB	_	5	advmod	_	RB|00090228-r|SubjectiveAssessmentAttribute+
+5	throwing	throw	VERB	VBG	_	0	ROOT	_	VBG|01508368-v|Impelling+
+6	knives	knife	NOUN	NNS	_	5	dobj	_	NNS|03623556-n|CuttingDevice+
+7	at	at	ADP	IN	_	5	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	tree	tree	NOUN	NN	_	7	pobj	_	NN|13912260-n|ContentBearingObject+
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|02568672-v|Position+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	magic	magic	ADJ	JJ	_	7	nn	_	JJ|01576071-a|SubjectiveStrongPositiveAttribute+
+7	trick	trick	NOUN	NN	_	4	dobj	_	NN|00099951-n|RecreationOrExercise+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

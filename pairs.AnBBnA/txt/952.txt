@@ -1,0 +1,32 @@
+sentence A = Two young kids are playing with a man eating corndogs.
+sentence B = Two young kids are eating corndogs.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,HumanChild=,Entity+,DramaticActing+,Hominid=,Process+
+CONCEPTS B: HumanYouth=,HumanChild=,Entity+,Process+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	kids	kid	NOUN	NNS	_	5	nsubj	_	NNS|09917593-n|HumanChild=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	man	man	NOUN	NN	_	9	nsubj	_	NN|02472293-n|Hominid=
+9	eating	eat	VERB	VBG	_	6	pcomp	_	VBG|01157517-v|Process+
+10	corndogs	corndogs	NOUN	NNS	_	9	dobj	_	NNS|?|?
+11	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	kids	kid	NOUN	NNS	_	5	nsubj	_	NNS|09917593-n|HumanChild=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+6	corndogs	corndogs	NOUN	NNS	_	5	dobj	_	NNS|?|?
+7	.	.	.	.	_	5	punct	_	Fp|?|?

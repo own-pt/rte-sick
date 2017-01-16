@@ -1,0 +1,29 @@
+sentence A = A kid is practicing with an instrument.
+sentence B = A kid is playing an instrument.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanChild=,Entity+,Position+,Device+
+CONCEPTS B: HumanChild=,Entity+,DramaticActing+,MusicalInstrument=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	kid	kid	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	practicing	practice	VERB	VBG	_	0	ROOT	_	VBG|02568672-v|Position+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	an	a	DET	DT	_	7	det	_	DT|?|?
+7	instrument	instrument	NOUN	NN	_	5	pobj	_	NN|00173761-n|Device+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	kid	kid	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	an	a	DET	DT	_	6	det	_	DT|?|?
+6	instrument	instrument	NOUN	NN	_	4	dobj	_	NN|03800933-n|MusicalInstrument=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

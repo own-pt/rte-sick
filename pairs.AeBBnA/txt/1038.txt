@@ -1,0 +1,34 @@
+sentence A = The snowboarder is leaping fearlessly over white snow.
+sentence B = A person who is practicing snowboarding jumps into the air.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SportsPosition@,Entity+,Ambulating=,StateOfMind+,White=,Snowing=
+CONCEPTS B: Human=,Entity+,Position+,Transportation+,AirTransportation+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	snowboarder	snowboarder	NOUN	NN	_	4	nsubj	_	NN|10617665-n|SportsPosition@
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	leaping	leap	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	fearlessly	fearlessly	ADV	RB	_	4	advmod	_	RB|00199687-r|StateOfMind+
+6	over	over	ADP	IN	_	4	prep	_	IN|?|?
+7	white	white	ADJ	JJ	_	8	amod	_	JJ|00393105-a|White=
+8	snow	snow	NOUN	NN	_	6	pobj	_	NN|15043763-n|Snowing=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	7	nsubj	_	NN|00007846-n|Human=
+3	who	who	PRON	WP	_	5	nsubj	_	WP|?|?
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	practicing	practice	VERB	VBG	_	2	rcmod	_	VBG|02568672-v|Position+
+6	snowboarding	snowboarding	VERB	VBG	_	5	dobj	_	VBG|?|?
+7	jumps	jump	VERB	VBZ	_	0	ROOT	_	NNS|00303849-n|Transportation+
+8	into	into	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	air	air	NOUN	NN	_	8	pobj	_	NN|00300441-n|AirTransportation+
+11	.	.	.	.	_	7	punct	_	Fp|?|?

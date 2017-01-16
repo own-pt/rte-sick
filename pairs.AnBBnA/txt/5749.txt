@@ -1,0 +1,31 @@
+sentence A = A baby tiger is playing with a ball.
+sentence B = A baby is playing with a doll.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanBaby=,Feline+,Entity+,DramaticActing+,Ball=
+CONCEPTS B: HumanBaby=,Entity+,DramaticActing+,Artifact+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	baby	baby	NOUN	NN	_	3	nn	_	NN|09827683-n|HumanBaby=
+3	tiger	tiger	NOUN	NN	_	5	nsubj	_	NN|02129604-n|Feline+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	ball	ball	NOUN	NN	_	6	pobj	_	NN|02778669-n|Ball=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	baby	baby	NOUN	NN	_	4	nsubj	_	NN|09827683-n|HumanBaby=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	doll	doll	NOUN	NN	_	5	pobj	_	NN|03219135-n|Artifact+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

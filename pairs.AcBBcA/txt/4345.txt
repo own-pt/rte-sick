@@ -1,0 +1,28 @@
+sentence A = Someone is peeling a banana.
+sentence B = There is no one peeling a banana.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Removing+,Banana=
+CONCEPTS B: Entity+,Removing+,Banana=
+
+CONLL A:
+
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	peeling	peel	VERB	VBG	_	0	ROOT	_	VBG|00049900-v|Removing+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	banana	banana	NOUN	NN	_	3	dobj	_	NN|07753592-n|Banana=
+6	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	one	1	NOUN	NN	_	2	nsubj	_	Z|?|?
+5	peeling	peel	VERB	VBG	_	4	partmod	_	VBG|00049900-v|Removing+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	banana	banana	NOUN	NN	_	5	dobj	_	NN|07753592-n|Banana=
+8	.	.	.	.	_	2	punct	_	Fp|?|?

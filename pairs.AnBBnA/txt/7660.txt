@@ -1,0 +1,39 @@
+sentence A = A lady who looks young is lying on the beach.
+sentence B = A girl in a black hat is wearing a bikini at the beach.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,SubjectiveAssessmentAttribute+,HumanYouth=,Entity+,PhysicalAttribute+,ShoreArea=
+CONCEPTS B: Human+,Black=,Hat+,Entity+,CoveringFn=,Clothing+,ShoreArea=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	lady	lady	NOUN	NN	_	7	nsubj	_	NN|09989290-n|Human+
+3	who	who	PRON	WP	_	4	nsubj	_	WP|?|?
+4	looks	look	VERB	VBZ	_	2	rcmod	_	VBZ|02133435-v|SubjectiveAssessmentAttribute+
+5	young	young	ADJ	JJ	_	4	acomp	_	JJ|01646941-a|HumanYouth=
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	beach	beach	NOUN	NN	_	8	pobj	_	NN|09217230-n|ShoreArea=
+11	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	8	nsubj	_	NN|10129825-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	black	black	ADJ	JJ	_	6	amod	_	JJ|00392812-a|Black=
+6	hat	hat	NOUN	NN	_	3	pobj	_	NN|03497657-n|Hat+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	bikini	bikini	NOUN	NN	_	8	dobj	_	NN|02837789-n|Clothing+
+11	at	at	ADP	IN	_	8	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	beach	beach	NOUN	NN	_	11	pobj	_	NN|09217230-n|ShoreArea=
+14	.	.	.	.	_	8	punct	_	Fp|?|?

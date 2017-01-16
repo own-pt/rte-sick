@@ -1,0 +1,26 @@
+sentence A = A man is drawing a picture.
+sentence B = The person is painting.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Removing+,Icon+
+CONCEPTS B: Human=,Entity+,PaintedPicture=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	drawing	draw	VERB	VBG	_	0	ROOT	_	VBG|01854132-v|Removing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	picture	picture	NOUN	NN	_	4	dobj	_	NN|03931044-n|Icon+
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	painting	painting	VERB	VBG	_	0	ROOT	_	NN|03876519-n|PaintedPicture=
+5	.	.	.	.	_	4	punct	_	Fp|?|?

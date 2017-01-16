@@ -1,0 +1,37 @@
+sentence A = There is no lady mixing a meat mixture in a bowl.
+sentence B = A lady is mixing a meat mixture in a bowl.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Human+,IntentionalProcess+,SubjectiveAssessmentAttribute+,Combining+,Dish+
+CONCEPTS B: Human+,Entity+,IntentionalProcess+,SubjectiveAssessmentAttribute+,Combining+,Dish+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	lady	lady	NOUN	NN	_	2	nsubj	_	NN|09989290-n|Human+
+5	mixing	mix	VERB	VBG	_	4	partmod	_	VBG|00394813-v|IntentionalProcess+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	meat	meat	NOUN	NN	_	8	nn	_	NN|05921123-n|SubjectiveAssessmentAttribute+
+8	mixture	mixture	NOUN	NN	_	5	dobj	_	NN|07374756-n|Combining+
+9	in	in	ADP	IN	_	5	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	bowl	bowl	NOUN	NN	_	9	pobj	_	NN|02880940-n|Dish+
+12	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	lady	lady	NOUN	NN	_	4	nsubj	_	NN|09989290-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	mixing	mix	VERB	VBG	_	0	ROOT	_	VBG|00394813-v|IntentionalProcess+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	meat	meat	NOUN	NN	_	7	nn	_	NN|05921123-n|SubjectiveAssessmentAttribute+
+7	mixture	mixture	NOUN	NN	_	4	dobj	_	NN|07374756-n|Combining+
+8	in	in	ADP	IN	_	4	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	bowl	bowl	NOUN	NN	_	8	pobj	_	NN|02880940-n|Dish+
+11	.	.	.	.	_	4	punct	_	Fp|?|?

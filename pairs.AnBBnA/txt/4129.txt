@@ -1,0 +1,31 @@
+sentence A = A dog is jumping on a diving board.
+sentence B = A dog is jumping on a trampoline.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,Ambulating=,Decreasing+,Table+
+CONCEPTS B: Canine+,Entity+,Ambulating=,Device+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	diving	dive	NOUN	NN	_	8	amod	_	VBG|01967373-v|Decreasing+
+8	board	board	NOUN	NN	_	5	pobj	_	NN|03201208-n|Table+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	trampoline	trampoline	NOUN	NN	_	5	pobj	_	NN|04469514-n|Device+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

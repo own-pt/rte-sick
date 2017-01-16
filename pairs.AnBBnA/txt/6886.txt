@@ -1,0 +1,38 @@
+sentence A = The large brown dog is not running outside in the dirt.
+sentence B = A dog is running alongside a fence on a dirt track.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Human+,Canine+,Entity+,not=,Attribute+,Text+
+CONCEPTS B: Canine+,Entity+,Racing+,Device+,Text+,StationaryArtifact+
+
+CONLL A:
+
+1	The	the	DET	DT	_	4	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	brown	brown	ADJ	JJ	_	4	amod	_	JJ|00245112-a|Human+
+4	dog	dog	NOUN	NN	_	7	nsubj	_	NN|02084071-n|Canine+
+5	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+6	not	not	ADV	RB	_	7	neg	_	RB|00024073-r|not=
+7	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+8	outside	outside	ADV	RB	_	7	advmod	_	IN|?|?
+9	in	in	ADP	IN	_	7	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	dirt	dirt	NOUN	NN	_	9	pobj	_	NN|07223811-n|Text+
+12	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01086103-v|Racing+
+5	alongside	alongside	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	fence	fence	NOUN	NN	_	5	pobj	_	NN|03327234-n|Device+
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	dirt	dirt	NOUN	NN	_	11	nn	_	NN|07223811-n|Text+
+11	track	track	NOUN	NN	_	8	pobj	_	NN|04037625-n|StationaryArtifact+
+12	.	.	.	.	_	4	punct	_	Fp|?|?

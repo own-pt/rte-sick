@@ -1,0 +1,41 @@
+sentence A = A young child is barefoot and is walking past a puddle full of mud.
+sentence B = A little boy is jumping into a puddle on the street.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,HumanChild=,Attribute+,Clothing[,Attribute+,Walking=,StaticWaterArea+,ContainerFull+,Soil=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Ambulating=,StaticWaterArea+,Roadway=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	child	child	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	5	cop	_	VBZ|02620587-v|Attribute+
+5	barefoot	barefoot	NOUN	NN	_	0	ROOT	_	RB|00278078-r|Clothing[
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02620587-v|Attribute+
+8	walking	walk	VERB	VBG	_	5	conj	_	VBG|01904930-v|Walking=
+9	past	past	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	puddle	puddle	NOUN	NN	_	9	pobj	_	NN|09397607-n|StaticWaterArea+
+12	full	full	ADJ	JJ	_	11	amod	_	JJ|01083157-a|ContainerFull+
+13	of	of	ADP	IN	_	12	prep	_	IN|?|?
+14	mud	mud	NOUN	NN	_	13	pobj	_	NN|14956325-n|Soil=
+15	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	boy	boy	NOUN	NN	_	5	nsubj	_	NN|10285313-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+6	into	into	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	puddle	puddle	NOUN	NN	_	6	pobj	_	NN|09397607-n|StaticWaterArea+
+9	on	on	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	street	street	NOUN	NN	_	9	pobj	_	NN|04334599-n|Roadway=
+12	.	.	.	.	_	5	punct	_	Fp|?|?

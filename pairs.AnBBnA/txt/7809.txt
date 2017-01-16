@@ -1,0 +1,35 @@
+sentence A = There is no man squatting in brush and taking a photograph.
+sentence B = A man is crouching and holding a camera.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,Hominid=,BodyMotion+,Device+,PhysicalAttribute+,Photograph=
+CONCEPTS B: Hominid=,Entity+,Inclining+,Process+,Camera=
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	squatting	squat	VERB	VBG	_	4	dep	_	VBG|01545314-v|BodyMotion+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	brush	brush	NOUN	NN	_	6	pobj	_	NN|02908217-n|Device+
+8	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+9	taking	take	VERB	VBG	_	5	conj	_	VBG|02267989-v|PhysicalAttribute+
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	photograph	photograph	NOUN	NN	_	9	dobj	_	NN|03925226-n|Photograph=
+12	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	crouching	crouch	VERB	VBG	_	0	ROOT	_	VBG|02062632-v|Inclining+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	holding	hold	VERB	VBG	_	4	conj	_	VBG|01217043-v|Process+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	camera	camera	NOUN	NN	_	6	dobj	_	NN|02942699-n|Camera=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

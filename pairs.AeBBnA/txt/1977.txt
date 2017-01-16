@@ -1,0 +1,33 @@
+sentence A = Some water is being casually drunk by a cat.
+sentence B = Some water is being drunk by a cat.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Water=,Entity+,Entity+,SubjectiveAssessmentAttribute+,Drinking+,Whip+
+CONCEPTS B: Water=,Entity+,Entity+,Drinking+,Whip+
+
+CONLL A:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	water	water	NOUN	NN	_	6	nsubj	_	NN|14845743-n|Water=
+3	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	6	cop	_	VBG|02604760-v|Entity+
+5	casually	casually	ADV	RB	_	6	advmod	_	RB|00243086-r|SubjectiveAssessmentAttribute+
+6	drunk	drink	ADJ	JJ	_	0	ROOT	_	VBN|01171183-v|Drinking+
+7	by	by	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	cat	cat	NOUN	NN	_	7	pobj	_	NN|02985606-n|Whip+
+10	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	water	water	NOUN	NN	_	5	nsubjpass	_	NN|14845743-n|Water=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	drunk	drink	VERB	VBN	_	0	ROOT	_	VBN|01171183-v|Drinking+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	cat	cat	NOUN	NN	_	6	pobj	_	NN|02985606-n|Whip+
+9	.	.	.	.	_	5	punct	_	Fp|?|?

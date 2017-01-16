@@ -1,0 +1,43 @@
+sentence A = Two bmx bikers are jumping dirt ramps in front of a body of water.
+sentence B = Some bikers are doing acrobatics on a track near water and a skyline.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,Ambulating=,Text+,StationaryArtifact+,FrontFn=,Animal=,Water=
+CONCEPTS B: Entity+,IntentionalProcess+,Sport+,StationaryArtifact+,Water=,Region+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	bmx	bmx	NOUN	NNP	_	3	nn	_	NN|?|?
+3	bikers	biker	NOUN	NNS	_	5	nsubj	_	NNS|?|?
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+6	dirt	dirt	NOUN	NN	_	7	nn	_	NN|07223811-n|Text+
+7	ramps	ramp	NOUN	NNS	_	5	dobj	_	NNS|04051549-n|StationaryArtifact+
+8	in	in	ADP	IN	_	5	prep	_	IN|?|?
+9	front	front	NOUN	NN	_	8	pobj	_	NN|08573472-n|FrontFn=
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	body	body	NOUN	NN	_	10	pobj	_	NN|05216365-n|Animal=
+13	of	of	ADP	IN	_	12	prep	_	IN|?|?
+14	water	water	NOUN	NN	_	13	pobj	_	NN|14845743-n|Water=
+15	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	bikers	biker	NOUN	NNS	_	4	nsubj	_	NNS|?|?
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	acrobatics	acrobatics	NOUN	NNS	_	4	dobj	_	NNS|00434075-n|Sport+
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	10	det	_	DT|?|?
+8	track	track	NOUN	NN	_	10	nn	_	NN|04037625-n|StationaryArtifact+
+9	near	near	ADJ	JJ	_	10	amod	_	IN|?|?
+10	water	water	NOUN	NN	_	6	pobj	_	NN|14845743-n|Water=
+11	and	and	CONJ	CC	_	10	cc	_	CC|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	skyline	skyline	NOUN	NN	_	10	conj	_	NN|08585657-n|Region+
+14	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,35 @@
+sentence A = Nobody is practicing water safety and wearing preservers.
+sentence B = This group of people is practicing water safety and wearing preservers.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Position+,Water=,SubjectiveAssessmentAttribute+,RecreationOrExercise+,Clothing+
+CONCEPTS B: Group=,GroupOfPeople=,Entity+,Position+,Water=,SubjectiveAssessmentAttribute+,RecreationOrExercise+,Clothing+
+
+CONLL A:
+
+1	Nobody	nobody	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	practicing	practice	VERB	VBG	_	0	ROOT	_	VBG|02568672-v|Position+
+4	water	water	NOUN	NN	_	5	nn	_	NN|14845743-n|Water=
+5	safety	safety	NOUN	NN	_	3	dobj	_	NN|14538472-n|SubjectiveAssessmentAttribute+
+6	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+7	wearing	wear	VERB	VBG	_	3	conj	_	VBG|00075021-v|RecreationOrExercise+
+8	preservers	preserver	NOUN	NNS	_	7	dobj	_	NNS|03663531-n|Clothing+
+9	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	This	this	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	people	people	NOUN	NNS	_	3	pobj	_	NNS|07942152-n|GroupOfPeople=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	practicing	practice	VERB	VBG	_	0	ROOT	_	VBG|02568672-v|Position+
+7	water	water	NOUN	NN	_	8	nn	_	NN|14845743-n|Water=
+8	safety	safety	NOUN	NN	_	6	dobj	_	NN|14538472-n|SubjectiveAssessmentAttribute+
+9	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+10	wearing	wear	VERB	VBG	_	6	conj	_	VBG|00075021-v|RecreationOrExercise+
+11	preservers	preserver	NOUN	NNS	_	10	dobj	_	NNS|03663531-n|Clothing+
+12	.	.	.	.	_	6	punct	_	Fp|?|?

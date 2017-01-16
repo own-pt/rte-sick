@@ -1,0 +1,33 @@
+sentence A = A child is smiling at the camera and swimming underwater.
+sentence B = An animal is barking at a ball.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanChild=,Entity+,Smiling=,Camera=,Swimming+
+CONCEPTS B: Animal=,Entity+,RadiatingSound+,Ball=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	smiling	smile	VERB	VBG	_	0	ROOT	_	VBG|00028565-v|Smiling=
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	camera	camera	NOUN	NN	_	5	pobj	_	NN|02942699-n|Camera=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	swimming	swim	VERB	VBG	_	4	conj	_	VBG|01960911-v|Swimming+
+10	underwater	underwater	ADV	RB	_	9	advmod	_	NN|?|?
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	An	a	DET	DT	_	2	det	_	DT|?|?
+2	animal	animal	NOUN	NN	_	4	nsubj	_	NN|00015388-n|Animal=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	barking	bark	VERB	VBG	_	0	ROOT	_	VBG|01047745-v|RadiatingSound+
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	ball	ball	NOUN	NN	_	5	pobj	_	NN|02778669-n|Ball=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

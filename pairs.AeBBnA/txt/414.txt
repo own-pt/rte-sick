@@ -1,0 +1,44 @@
+sentence A = Two men are holding bikes and standing on the side of a road covered of snow.
+sentence B = Two men with bikes are on the side of a snowy road.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Process+,Bicycle=,PhysicalAttribute+,Object+,Roadway+,Covering+,Snowing=
+CONCEPTS B: Hominid=,Bicycle=,Entity+,Object+,Covering+,Roadway+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|01217043-v|Process+
+5	bikes	bike	NOUN	NNS	_	4	dobj	_	NNS|02834778-n|Bicycle=
+6	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+7	standing	stand	VERB	VBG	_	4	conj	_	VBG|01546111-v|PhysicalAttribute+
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	side	side	NOUN	NN	_	8	pobj	_	NN|08510666-n|Object+
+11	of	of	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	road	road	NOUN	NN	_	11	pobj	_	NN|04096066-n|Roadway+
+14	covered	cover	VERB	VBN	_	13	partmod	_	VBN|01332730-v|Covering+
+15	of	of	ADP	IN	_	14	prep	_	IN|?|?
+16	snow	snow	NOUN	NN	_	15	pobj	_	NN|15043763-n|Snowing=
+17	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	5	nsubj	_	NNS|02472293-n|Hominid=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	bikes	bike	NOUN	NNS	_	3	pobj	_	NNS|02834778-n|Bicycle=
+5	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	side	side	NOUN	NN	_	6	pobj	_	NN|08510666-n|Object+
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	snowy	snowy	ADJ	JJ	_	12	amod	_	JJ|01698231-a|Covering+
+12	road	road	NOUN	NN	_	9	pobj	_	NN|04096066-n|Roadway+
+13	.	.	.	.	_	5	punct	_	Fp|?|?

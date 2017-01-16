@@ -1,0 +1,40 @@
+sentence A = A dog is fetching a piece of wood out of very clear water.
+sentence B = A dog is fetching a stick out of very clear water.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Canine+,Entity+,Transfer=,MusicalComposition=,Wood=,Giving+,SubjectiveAssessmentAttribute+,SubjectiveAssessmentAttribute+,Water=
+CONCEPTS B: Canine+,Entity+,Transfer=,Attaching+,Giving+,SubjectiveAssessmentAttribute+,SubjectiveAssessmentAttribute+,Water=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	fetching	fetch	VERB	VBG	_	0	ROOT	_	VBG|01433294-v|Transfer=
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	piece	piece	NOUN	NN	_	4	dobj	_	NN|07037465-n|MusicalComposition=
+7	of	of	ADP	IN	_	6	prep	_	IN|?|?
+8	wood	wood	NOUN	NN	_	7	pobj	_	NN|15098161-n|Wood=
+9	out	out	ADP	IN	_	4	prep	_	RP|00233413-r|Giving+
+10	of	of	ADP	IN	_	9	pcomp	_	IN|?|?
+11	very	very	ADV	RB	_	12	advmod	_	RB|00031899-r|SubjectiveAssessmentAttribute+
+12	clear	clear	ADJ	JJ	_	13	amod	_	JJ|00431447-a|SubjectiveAssessmentAttribute+
+13	water	water	NOUN	NN	_	10	pobj	_	NN|14845743-n|Water=
+14	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	fetching	fetch	VERB	VBG	_	0	ROOT	_	VBG|01433294-v|Transfer=
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	stick	stick	NOUN	NN	_	4	dobj	_	VB|01614581-v|Attaching+
+7	out	out	ADP	IN	_	4	prep	_	RP|00233413-r|Giving+
+8	of	of	ADP	IN	_	7	pcomp	_	IN|?|?
+9	very	very	ADV	RB	_	10	advmod	_	RB|00031899-r|SubjectiveAssessmentAttribute+
+10	clear	clear	ADJ	JJ	_	11	amod	_	JJ|00431447-a|SubjectiveAssessmentAttribute+
+11	water	water	NOUN	NN	_	8	pobj	_	NN|14845743-n|Water=
+12	.	.	.	.	_	4	punct	_	Fp|?|?

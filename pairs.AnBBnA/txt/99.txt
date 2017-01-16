@@ -1,0 +1,32 @@
+sentence A = Four children are doing backbends in the gym.
+sentence B = Four children are doing backbends in the park.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanChild=,Entity+,IntentionalProcess+,ExerciseCenter=
+CONCEPTS B: HumanChild=,Entity+,IntentionalProcess+,Park+
+
+CONLL A:
+
+1	Four	4	NUM	CD	_	2	num	_	Z|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	backbends	backbends	NOUN	NNS	_	4	dobj	_	NNS|?|?
+6	in	in	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	gym	gym	NOUN	NN	_	6	pobj	_	NN|03472112-n|ExerciseCenter=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Four	4	NUM	CD	_	2	num	_	Z|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	backbends	backbends	NOUN	NNS	_	4	dobj	_	NNS|?|?
+6	in	in	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	park	park	NOUN	NN	_	6	pobj	_	NN|08615374-n|Park+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

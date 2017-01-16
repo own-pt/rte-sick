@@ -1,0 +1,31 @@
+sentence A = A man is pointing at a silver sedan.
+sentence B = A man is pointing at a car.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Indicating=,Silver=,TransportationDevice+
+CONCEPTS B: Hominid=,Entity+,Indicating=,Automobile=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	pointing	point	VERB	VBG	_	0	ROOT	_	VBG|00923793-v|Indicating=
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	silver	silver	ADJ	JJ	_	8	amod	_	NN|14654954-n|Silver=
+8	sedan	sedan	NOUN	NN	_	5	pobj	_	NN|04166436-n|TransportationDevice+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	pointing	point	VERB	VBG	_	0	ROOT	_	VBG|00923793-v|Indicating=
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	car	car	NOUN	NN	_	5	pobj	_	NN|02958343-n|Automobile=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

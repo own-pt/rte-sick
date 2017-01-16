@@ -1,0 +1,42 @@
+sentence A = Two people are carrying colorful baskets and blankets and walking near a building.
+sentence B = Two people are carrying gray baskets and blankets and walking near a building.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GroupOfPeople=,Entity+,Transportation+,ColorAttribute+,Container+,Blanket+,Walking=,Building=
+CONCEPTS B: GroupOfPeople=,Entity+,Transportation+,Gray+,Container+,Blanket+,Walking=,Building=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	carrying	carry	VERB	VBG	_	0	ROOT	_	VBG|01449974-v|Transportation+
+5	colorful	colorful	ADJ	JJ	_	6	amod	_	JJ|00394562-a|ColorAttribute+
+6	baskets	basket	NOUN	NNS	_	4	dobj	_	NNS|02801938-n|Container+
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	blankets	blanket	NOUN	NNS	_	6	conj	_	NNS|02849154-n|Blanket+
+9	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+10	walking	walk	NOUN	NN	_	6	conj	_	VBG|01904930-v|Walking=
+11	near	near	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	building	building	NOUN	NN	_	11	pobj	_	NN|02913152-n|Building=
+14	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	carrying	carry	VERB	VBG	_	0	ROOT	_	VBG|01449974-v|Transportation+
+5	gray	gray	ADJ	JJ	_	6	amod	_	JJ|00389310-a|Gray+
+6	baskets	basket	NOUN	NNS	_	4	dobj	_	NNS|02801938-n|Container+
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	blankets	blanket	NOUN	NNS	_	6	conj	_	NNS|02849154-n|Blanket+
+9	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+10	walking	walk	NOUN	NN	_	6	conj	_	VBG|01904930-v|Walking=
+11	near	near	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	building	building	NOUN	NN	_	11	pobj	_	NN|02913152-n|Building=
+14	.	.	.	.	_	4	punct	_	Fp|?|?

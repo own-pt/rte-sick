@@ -1,0 +1,46 @@
+sentence A = A woman is crouching down next to a dog and is smiling at a little girl sitting on the sidewalk.
+sentence B = A woman is showing a small cat to an infant.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,PhysicalAttribute+,Inclining+,earlier+,Position+,Canine+,PhysicalAttribute+,Smiling=,SubjectiveStrongNegativeAttribute+,Human+,SittingDown+,Sidewalk=
+CONCEPTS B: Woman=,Entity+,Expressing=,SubjectiveStrongNegativeAttribute+,Whip+,HumanBaby=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	crouching	crouch	VERB	VBG	_	0	ROOT	_	VBG|02062632-v|Inclining+
+5	down	down	ADV	RB	_	4	prt	_	RP|00095320-r|earlier+
+6	next	next	ADV	RB	_	4	advmod	_	JJ|01294975-a|Position+
+7	to	to	ADP	IN	_	6	prep	_	TO|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	dog	dog	NOUN	NN	_	7	pobj	_	NN|02084071-n|Canine+
+10	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02655135-v|PhysicalAttribute+
+12	smiling	smile	VERB	VBG	_	4	conj	_	VBG|00028565-v|Smiling=
+13	at	at	ADP	IN	_	12	prep	_	IN|?|?
+14	a	a	DET	DT	_	16	det	_	DT|?|?
+15	little	little	ADJ	JJ	_	16	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+16	girl	girl	NOUN	NN	_	13	pobj	_	NN|10129825-n|Human+
+17	sitting	sit	VERB	VBG	_	16	partmod	_	VBG|01543123-v|SittingDown+
+18	on	on	ADP	IN	_	17	prep	_	IN|?|?
+19	the	the	DET	DT	_	20	det	_	DT|?|?
+20	sidewalk	sidewalk	NOUN	NN	_	18	pobj	_	NN|04215402-n|Sidewalk=
+21	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	showing	show	VERB	VBG	_	0	ROOT	_	VBG|00943837-v|Expressing=
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	small	small	ADJ	JJ	_	7	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+7	cat	cat	NOUN	NN	_	4	dobj	_	NN|02985606-n|Whip+
+8	to	to	ADP	IN	_	4	prep	_	TO|?|?
+9	an	a	DET	DT	_	10	det	_	DT|?|?
+10	infant	infant	NOUN	NN	_	8	pobj	_	NN|09827683-n|HumanBaby=
+11	.	.	.	.	_	4	punct	_	Fp|?|?

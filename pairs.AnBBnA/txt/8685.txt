@@ -1,0 +1,41 @@
+sentence A = No skateboarder is making a jump off a ramp.
+sentence B = A man dressed in black is wearing inline skates and performing a trick on a rail.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Attribute+,Transportation+,StationaryArtifact+
+CONCEPTS B: Man=,Dressing+,Black=,Entity+,CoveringFn=,Clothing+,IntentionalProcess+,RecreationOrExercise+,Handle+
+
+CONLL A:
+
+1	No	no	DET	DT	_	2	det	_	DT|?|?
+2	skateboarder	skateboarder	NOUN	NN	_	4	nsubj	_	NN|10604380-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	making	make	VERB	VBG	_	0	ROOT	_	VBG|02621395-v|Attribute+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	jump	jump	NOUN	NN	_	4	dobj	_	NN|00303849-n|Transportation+
+7	off	off	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	ramp	ramp	NOUN	NN	_	7	pobj	_	NN|04051549-n|StationaryArtifact+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|10287213-n|Man=
+3	dressed	dress	VERB	VBN	_	2	partmod	_	VBN|00046534-v|Dressing+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	black	black	ADJ	JJ	_	4	pobj	_	JJ|00392812-a|Black=
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+8	inline	inline	NOUN	NN	_	9	nn	_	JJ|?|?
+9	skates	skate	NOUN	NNS	_	7	dobj	_	NNS|04225729-n|Clothing+
+10	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+11	performing	perform	VERB	VBG	_	7	conj	_	VBG|01712704-v|IntentionalProcess+
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	trick	trick	NOUN	NN	_	11	dobj	_	NN|00427580-n|RecreationOrExercise+
+14	on	on	ADP	IN	_	11	prep	_	IN|?|?
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	rail	rail	NOUN	NN	_	14	pobj	_	NN|04047401-n|Handle+
+17	.	.	.	.	_	7	punct	_	Fp|?|?

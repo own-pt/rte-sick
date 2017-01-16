@@ -1,0 +1,29 @@
+sentence A = A chimp is angrily kicking a target.
+sentence B = A chimp is missing the target.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Ape+,Entity+,EmotionalState+,Expressing+,Entity+
+CONCEPTS B: Ape+,Entity+,Process+,Entity+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	chimp	chimp	NOUN	NN	_	5	nsubj	_	NN|02481823-n|Ape+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	angrily	angrily	ADV	RB	_	5	advmod	_	RB|00227323-r|EmotionalState+
+5	kicking	kick	VERB	VBG	_	0	ROOT	_	VBG|00907147-v|Expressing+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	target	target	NOUN	NN	_	5	dobj	_	NN|05981230-n|Entity+
+8	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	chimp	chimp	NOUN	NN	_	4	nsubj	_	NN|02481823-n|Ape+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	missing	miss	VERB	VBG	_	0	ROOT	_	VBG|02632353-v|Process+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	target	target	NOUN	NN	_	4	dobj	_	NN|05981230-n|Entity+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,39 @@
+sentence A = There is no seated woman singing a song and playing the guitar.
+sentence B = A seated woman is singing a song and playing the guitar.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Communication+,Woman=,MakingVocalMusic=,Song=,DramaticActing+,Guitar=
+CONCEPTS B: Communication+,Woman=,Entity+,MakingVocalMusic=,Song=,DramaticActing+,Guitar=
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	seated	seat	ADJ	JJ	_	5	amod	_	VBN|01543998-v|Communication+
+5	woman	woman	NOUN	NN	_	2	nsubj	_	NN|10787470-n|Woman=
+6	singing	sing	VERB	VBG	_	5	dep	_	VBG|01731031-v|MakingVocalMusic=
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	song	song	NOUN	NN	_	6	dobj	_	NN|07048000-n|Song=
+9	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+10	playing	play	VERB	VBG	_	6	conj	_	VBG|01719302-v|DramaticActing+
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	guitar	guitar	NOUN	NN	_	10	dobj	_	NN|03467517-n|Guitar=
+13	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	seated	seat	ADJ	JJ	_	3	amod	_	VBN|01543998-v|Communication+
+3	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	song	song	NOUN	NN	_	5	dobj	_	NN|07048000-n|Song=
+8	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+9	playing	play	VERB	VBG	_	5	conj	_	VBG|01719302-v|DramaticActing+
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	guitar	guitar	NOUN	NN	_	9	dobj	_	NN|03467517-n|Guitar=
+12	.	.	.	.	_	5	punct	_	Fp|?|?

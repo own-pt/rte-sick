@@ -1,0 +1,37 @@
+sentence A = The girl is cheering the man in the blue and white uniform.
+sentence B = A soccer player is being tackled by his opponent.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Communication+,Man=,Blue=,White=,UniformClothing=
+CONCEPTS B: Soccer=,Human+,Entity+,Entity+,Putting+,SocialRole+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cheering	cheer	VERB	VBG	_	0	ROOT	_	VBG|00859153-v|Communication+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	man	man	NOUN	NN	_	4	dobj	_	NN|10287213-n|Man=
+7	in	in	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	12	det	_	DT|?|?
+9	blue	blue	ADJ	JJ	_	12	amod	_	JJ|01606058-a|Blue=
+10	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+11	white	white	ADJ	JJ	_	9	conj	_	JJ|00393105-a|White=
+12	uniform	uniform	NOUN	NN	_	7	pobj	_	NN|04509592-n|UniformClothing=
+13	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	soccer	soccer	NOUN	NN	_	3	nn	_	NN|00478262-n|Soccer=
+3	player	player	NOUN	NN	_	6	nsubjpass	_	NN|10439851-n|Human+
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	being	be	VERB	VBG	_	6	auxpass	_	VBG|02604760-v|Entity+
+6	tackled	tackle	VERB	VBN	_	0	ROOT	_	VBN|01491697-v|Putting+
+7	by	by	ADP	IN	_	6	prep	_	IN|?|?
+8	his	his	PRON	PRP$	_	9	poss	_	PRP$|?|?
+9	opponent	opponent	NOUN	NN	_	7	pobj	_	NN|10379620-n|SocialRole+
+10	.	.	.	.	_	6	punct	_	Fp|?|?

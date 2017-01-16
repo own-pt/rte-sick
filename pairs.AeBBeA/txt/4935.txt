@@ -1,0 +1,32 @@
+sentence A = The military officer is shouting at the recruits.
+sentence B = The military officer is barking at the recruits.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: MilitaryOrganization=,PoliceOfficer=,Entity+,Vocalizing=,SocialRole+
+CONCEPTS B: MilitaryOrganization=,PoliceOfficer=,Entity+,RadiatingSound+,SocialRole+
+
+CONLL A:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	military	military	ADJ	JJ	_	3	amod	_	JJ|01518386-a|MilitaryOrganization=
+3	officer	officer	NOUN	NN	_	5	nsubj	_	NN|10448983-n|PoliceOfficer=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	shouting	shout	VERB	VBG	_	0	ROOT	_	VBG|00913065-v|Vocalizing=
+6	at	at	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	recruits	recruit	NOUN	NNS	_	6	pobj	_	NNS|10512372-n|SocialRole+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	military	military	ADJ	JJ	_	3	amod	_	JJ|01518386-a|MilitaryOrganization=
+3	officer	officer	NOUN	NN	_	5	nsubj	_	NN|10448983-n|PoliceOfficer=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	barking	bark	VERB	VBG	_	0	ROOT	_	VBG|01047745-v|RadiatingSound+
+6	at	at	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	recruits	recruit	NOUN	NNS	_	6	pobj	_	NNS|10512372-n|SocialRole+
+9	.	.	.	.	_	5	punct	_	Fp|?|?

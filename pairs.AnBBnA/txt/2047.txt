@@ -1,0 +1,31 @@
+sentence A = The boy is playing in the mud.
+sentence B = There is no cat playing with a device.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,DramaticActing+,Soil=
+CONCEPTS B: Entity+,Whip+,DramaticActing+,Device=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	mud	mud	NOUN	NN	_	5	pobj	_	NN|14956325-n|Soil=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	cat	cat	NOUN	NN	_	2	nsubj	_	NN|02985606-n|Whip+
+5	playing	play	VERB	VBG	_	4	partmod	_	VBG|01719302-v|DramaticActing+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	device	device	NOUN	NN	_	6	pobj	_	NN|03183080-n|Device=
+9	.	.	.	.	_	2	punct	_	Fp|?|?

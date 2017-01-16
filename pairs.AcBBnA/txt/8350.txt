@@ -1,0 +1,51 @@
+sentence A = A person in a motocross uniform is not wearing a helmet and riding a red motorcycle.
+sentence B = A racer in full gear is wearing a helmet with sponsor logos and is riding a red sport motorcycle.
+entailm AB = A_contradicts_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human=,UniformClothing=,Entity+,not=,CoveringFn=,Clothing+,Transportation+,Red=,PassengerVehicle+
+CONCEPTS B: Automobile+,ContainerFull+,Gear=,Entity+,CoveringFn=,Clothing+,BeliefGroup+,ContentBearingObject+,Entity+,Transportation+,Red=,Sport=,PassengerVehicle+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	9	nsubj	_	NN|00007846-n|Human=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	motocross	motocross	NOUN	NN	_	6	nn	_	NN|?|?
+6	uniform	uniform	NOUN	NN	_	3	pobj	_	NN|04509592-n|UniformClothing=
+7	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+8	not	not	ADV	RB	_	9	neg	_	RB|00024073-r|not=
+9	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	helmet	helmet	NOUN	NN	_	9	dobj	_	NN|03513376-n|Clothing+
+12	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+13	riding	ride	VERB	VBG	_	9	conj	_	VBG|02102398-v|Transportation+
+14	a	a	DET	DT	_	16	det	_	DT|?|?
+15	red	red	ADJ	JJ	_	16	amod	_	JJ|00381097-a|Red=
+16	motorcycle	motorcycle	NOUN	NN	_	13	dobj	_	NN|03790512-n|PassengerVehicle+
+17	.	.	.	.	_	9	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	racer	racer	NOUN	NN	_	7	nsubj	_	NN|04037443-n|Automobile+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	full	full	ADJ	JJ	_	5	amod	_	JJ|01083157-a|ContainerFull+
+5	gear	gear	NOUN	NN	_	3	pobj	_	NN|03430551-n|Gear=
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	helmet	helmet	NOUN	NN	_	7	dobj	_	NN|03513376-n|Clothing+
+10	with	with	ADP	IN	_	9	prep	_	IN|?|?
+11	sponsor	sponsor	NOUN	NN	_	12	nn	_	NN|10407954-n|BeliefGroup+
+12	logos	logo	NOUN	NNS	_	10	pobj	_	NNS|07272084-n|ContentBearingObject+
+13	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+14	is	be	VERB	VBZ	_	15	aux	_	VBZ|02604760-v|Entity+
+15	riding	ride	VERB	VBG	_	7	conj	_	VBG|02102398-v|Transportation+
+16	a	a	DET	DT	_	19	det	_	DT|?|?
+17	red	red	ADJ	JJ	_	19	amod	_	JJ|00381097-a|Red=
+18	sport	sport	NOUN	NN	_	19	nn	_	NN|00523513-n|Sport=
+19	motorcycle	motorcycle	NOUN	NN	_	15	dobj	_	NN|03790512-n|PassengerVehicle+
+20	.	.	.	.	_	7	punct	_	Fp|?|?

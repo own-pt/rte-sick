@@ -1,0 +1,25 @@
+sentence A = A lemur is eating quickly.
+sentence B = A lemur is eating.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Primate+,Entity+,Eating=,SubjectiveAssessmentAttribute+
+CONCEPTS B: Primate+,Entity+,Process+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	lemur	lemur	NOUN	NN	_	4	nsubj	_	NN|02496913-n|Primate+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01168468-v|Eating=
+5	quickly	quickly	ADV	RB	_	4	advmod	_	RB|00085811-r|SubjectiveAssessmentAttribute+
+6	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	lemur	lemur	NOUN	NN	_	4	nsubj	_	NN|02496913-n|Primate+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+5	.	.	.	.	_	4	punct	_	Fp|?|?

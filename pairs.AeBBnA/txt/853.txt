@@ -1,0 +1,46 @@
+sentence A = A black and a white dog are joyfully running on the grass.
+sentence B = A dog, which has a black coat, and a white dog are running on the grass.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Black=,White=,Canine+,Entity+,EmotionalState+,Attribute+,Grass=
+CONCEPTS B: Canine+,Damaging+,Black=,Coat=,White=,Canine+,Entity+,Attribute+,Grass=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	9	nsubj	_	JJ|00392812-a|Black=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	_	6	amod	_	JJ|00393105-a|White=
+6	dog	dog	NOUN	NN	_	2	conj	_	NN|02084071-n|Canine+
+7	are	be	VERB	VBP	_	9	aux	_	VBP|02604760-v|Entity+
+8	joyfully	joyfully	ADV	RB	_	9	advmod	_	RB|00348247-r|EmotionalState+
+9	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	grass	grass	NOUN	NN	_	10	pobj	_	NN|12102133-n|Grass=
+13	.	.	.	.	_	9	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	0	ROOT	_	NN|02084071-n|Canine+
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	which	which	DET	WDT	_	5	nsubj	_	WDT|?|?
+5	has	have	VERB	VBZ	_	2	rcmod	_	VBZ|00065639-v|Damaging+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	black	black	ADJ	JJ	_	8	amod	_	JJ|00392812-a|Black=
+8	coat	coat	NOUN	NN	_	5	dobj	_	NN|03057021-n|Coat=
+9	,	,	.	,	_	5	punct	_	Fc|?|?
+10	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	white	white	ADJ	JJ	_	13	amod	_	JJ|00393105-a|White=
+13	dog	dog	NOUN	NN	_	15	nsubj	_	NN|02084071-n|Canine+
+14	are	be	VERB	VBP	_	15	aux	_	VBP|02604760-v|Entity+
+15	running	run	VERB	VBG	_	5	conj	_	VBG|01525666-v|Attribute+
+16	on	on	ADP	IN	_	15	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	grass	grass	NOUN	NN	_	16	pobj	_	NN|12102133-n|Grass=
+19	.	.	.	.	_	2	punct	_	Fp|?|?

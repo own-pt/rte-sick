@@ -1,0 +1,44 @@
+sentence A = There is no girl with black and orange patches on the cheeks.
+sentence B = A girl is standing in a group and is wearing a black shirt and pink beads.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,Human+,Black=,OrangeColor+,TimeDuration+,TraitAttribute+
+CONCEPTS B: Human+,Entity+,PhysicalAttribute+,Group=,Entity+,Putting+,Black=,Shirt=,Pink+,ShapeAttribute+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	girl	girl	NOUN	NN	_	2	nsubj	_	NN|10129825-n|Human+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	black	black	ADJ	JJ	_	9	amod	_	JJ|00392812-a|Black=
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	orange	orange	NOUN	NN	_	6	conj	_	NN|04965179-n|OrangeColor+
+9	patches	patch	NOUN	NNS	_	5	pobj	_	NNS|15246353-n|TimeDuration+
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	cheeks	cheek	NOUN	NNS	_	10	pobj	_	NNS|04838210-n|TraitAttribute+
+13	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	group	group	NOUN	NN	_	5	pobj	_	NN|00031264-n|Group=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	wearing	wear	VERB	VBG	_	4	conj	_	VBG|00052374-v|Putting+
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	black	black	ADJ	JJ	_	13	amod	_	JJ|00392812-a|Black=
+13	shirt	shirt	NOUN	NN	_	10	dobj	_	NN|04197391-n|Shirt=
+14	and	and	CONJ	CC	_	13	cc	_	CC|?|?
+15	pink	pink	ADJ	JJ	_	16	amod	_	JJ|00379595-a|Pink+
+16	beads	bead	NOUN	NNS	_	13	conj	_	NNS|13901585-n|ShapeAttribute+
+17	.	.	.	.	_	4	punct	_	Fp|?|?

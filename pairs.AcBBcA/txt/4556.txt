@@ -1,0 +1,41 @@
+sentence A = A man is shaking a container over a sink in the kitchen.
+sentence B = There is no man shaking a container over a sink in the kitchen.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Hominid=,Entity+,Motion+,Container+,WashBasin+,Kitchen=
+CONCEPTS B: Entity+,Hominid=,Motion+,Container+,WashBasin+,Kitchen=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	shaking	shake	VERB	VBG	_	0	ROOT	_	VBG|01889610-v|Motion+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	container	container	NOUN	NN	_	4	dobj	_	NN|03094503-n|Container+
+7	over	over	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	sink	sink	NOUN	NN	_	7	pobj	_	NN|04223580-n|WashBasin+
+10	in	in	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	kitchen	kitchen	NOUN	NN	_	10	pobj	_	NN|03619890-n|Kitchen=
+13	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	shaking	shake	VERB	VBG	_	4	partmod	_	VBG|01889610-v|Motion+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	container	container	NOUN	NN	_	5	dobj	_	NN|03094503-n|Container+
+8	over	over	ADP	IN	_	5	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	sink	sink	NOUN	NN	_	8	pobj	_	NN|04223580-n|WashBasin+
+11	in	in	ADP	IN	_	10	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	kitchen	kitchen	NOUN	NN	_	11	pobj	_	NN|03619890-n|Kitchen=
+14	.	.	.	.	_	2	punct	_	Fp|?|?

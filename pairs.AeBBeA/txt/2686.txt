@@ -1,0 +1,36 @@
+sentence A = One person is slicing a clove of garlic into pieces.
+sentence B = The person is slicing a clove of garlic into pieces.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Human=,Entity+,Separating+,FruitOrVegetable+,Garlic=,PreparedFood+
+CONCEPTS B: Human=,Entity+,Separating+,FruitOrVegetable+,Garlic=,PreparedFood+
+
+CONLL A:
+
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	clove	clove	NOUN	NN	_	4	dobj	_	NN|07814487-n|FruitOrVegetable+
+7	of	of	ADP	IN	_	6	prep	_	IN|?|?
+8	garlic	garlic	NOUN	NN	_	7	pobj	_	NN|07818277-n|Garlic=
+9	into	into	ADP	IN	_	4	prep	_	IN|?|?
+10	pieces	piece	NOUN	NNS	_	9	pobj	_	NNS|07654667-n|PreparedFood+
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	clove	clove	NOUN	NN	_	4	dobj	_	NN|07814487-n|FruitOrVegetable+
+7	of	of	ADP	IN	_	6	prep	_	IN|?|?
+8	garlic	garlic	NOUN	NN	_	7	pobj	_	NN|07818277-n|Garlic=
+9	into	into	ADP	IN	_	4	prep	_	IN|?|?
+10	pieces	piece	NOUN	NNS	_	9	pobj	_	NNS|07654667-n|PreparedFood+
+11	.	.	.	.	_	4	punct	_	Fp|?|?

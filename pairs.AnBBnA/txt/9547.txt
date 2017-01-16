@@ -1,0 +1,47 @@
+sentence A = A man on a yellow sport bike is doing a wheelie and a friend on a black bike is catching up.
+sentence B = The orange rider is driving a motorcycle on one wheel.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Man=,SubjectiveAssessmentAttribute+,Sport=,Bicycle=,Entity+,IntentionalProcess+,SubjectiveAssessmentAttribute=,Black=,Bicycle=,Entity+,Grabbing+,Increasing+
+CONCEPTS B: OrangeColor+,Human+,Entity+,Transportation+,PassengerVehicle+,VehicleWheel=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	9	nsubj	_	NN|10287213-n|Man=
+3	on	on	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	7	det	_	DT|?|?
+5	yellow	yellow	ADJ	JJ	_	7	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+6	sport	sport	NOUN	NN	_	7	nn	_	NN|00523513-n|Sport=
+7	bike	bike	NOUN	NN	_	3	pobj	_	NN|02834778-n|Bicycle=
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	wheelie	wheelie	NOUN	NN	_	9	dobj	_	NN|?|?
+12	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	friend	friend	NOUN	NN	_	20	nsubj	_	NN|10112591-n|SubjectiveAssessmentAttribute=
+15	on	on	ADP	IN	_	14	prep	_	IN|?|?
+16	a	a	DET	DT	_	18	det	_	DT|?|?
+17	black	black	ADJ	JJ	_	18	amod	_	JJ|00392812-a|Black=
+18	bike	bike	NOUN	NN	_	15	pobj	_	NN|02834778-n|Bicycle=
+19	is	be	VERB	VBZ	_	20	aux	_	VBZ|02604760-v|Entity+
+20	catching	catch	VERB	VBG	_	9	conj	_	VBG|01439190-v|Grabbing+
+21	up	up	PRT	RP	_	20	prt	_	RP|00097011-r|Increasing+
+22	.	.	.	.	_	9	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	orange	orange	ADJ	JJ	_	3	nn	_	NN|04965179-n|OrangeColor+
+3	rider	rider	NOUN	NN	_	5	nsubj	_	NN|10530150-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	driving	drive	VERB	VBG	_	0	ROOT	_	VBG|01930874-v|Transportation+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	motorcycle	motorcycle	NOUN	NN	_	5	dobj	_	NN|03790512-n|PassengerVehicle+
+8	on	on	ADP	IN	_	5	prep	_	IN|?|?
+9	one	1	NUM	CD	_	10	num	_	Z|?|?
+10	wheel	wheel	NOUN	NN	_	8	pobj	_	NN|04574999-n|VehicleWheel=
+11	.	.	.	.	_	5	punct	_	Fp|?|?

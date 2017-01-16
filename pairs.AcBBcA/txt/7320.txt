@@ -1,0 +1,50 @@
+sentence A = A man is wearing a blue checkered shirt and riding a unicycle in the street.
+sentence B = There is no man wearing a long sleeved blue shirt and jeans and riding a unicycle down a street.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Man=,Entity+,Putting+,SubjectiveStrongNegativeAttribute+,SurfaceChange+,Shirt=,Transportation+,AgentPoweredVehicle+,Roadway=
+CONCEPTS B: Entity+,Man=,Putting+,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,Shirt=,Trousers+,Transportation+,AgentPoweredVehicle+,Roadway=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+5	a	a	DET	DT	_	8	det	_	DT|?|?
+6	blue	blue	ADJ	JJ	_	8	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+7	checkered	checker	VERB	VBN	_	8	amod	_	VBN|01692978-v|SurfaceChange+
+8	shirt	shirt	NOUN	NN	_	4	dobj	_	NN|04197391-n|Shirt=
+9	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+10	riding	ride	VERB	VBG	_	4	conj	_	VBG|02102398-v|Transportation+
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	unicycle	unicycle	NOUN	NN	_	10	dobj	_	NN|04509417-n|AgentPoweredVehicle+
+13	in	in	ADP	IN	_	12	prep	_	IN|?|?
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	street	street	NOUN	NN	_	13	pobj	_	NN|04334599-n|Roadway=
+16	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|10287213-n|Man=
+5	wearing	wear	VERB	VBG	_	4	dep	_	VBG|00052374-v|Putting+
+6	a	a	DET	DT	_	10	det	_	DT|?|?
+7	long	long	ADV	RB	_	8	advmod	_	RB|00166025-r|SubjectiveAssessmentAttribute+
+8	sleeved	sleeved	VERB	VBN	_	10	amod	_	VBN|?|?
+9	blue	blue	ADJ	JJ	_	10	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+10	shirt	shirt	NOUN	NN	_	5	dobj	_	NN|04197391-n|Shirt=
+11	and	and	CONJ	CC	_	10	cc	_	CC|?|?
+12	jeans	jean	NOUN	NNS	_	10	conj	_	NNS|03594734-n|Trousers+
+13	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+14	riding	ride	VERB	VBG	_	5	conj	_	VBG|02102398-v|Transportation+
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	unicycle	unicycle	NOUN	NN	_	14	dobj	_	NN|04509417-n|AgentPoweredVehicle+
+17	down	down	ADP	IN	_	14	prep	_	IN|?|?
+18	a	a	DET	DT	_	19	det	_	DT|?|?
+19	street	street	NOUN	NN	_	17	pobj	_	NN|04334599-n|Roadway=
+20	.	.	.	.	_	2	punct	_	Fp|?|?

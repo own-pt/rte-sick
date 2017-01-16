@@ -1,0 +1,27 @@
+sentence A = A few men are playing cricket.
+sentence B = Some people are playing cricket.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,DramaticActing+,Cricket=
+CONCEPTS B: GroupOfPeople=,Entity+,DramaticActing+,Cricket=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	quantmod	_	DT|?|?
+2	few	few	ADJ	JJ	_	3	num	_	DT|?|?
+3	men	man	NOUN	NNS	_	5	nsubj	_	NNS|02472293-n|Hominid=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	cricket	cricket	NOUN	NN	_	5	dobj	_	NN|00476389-n|Cricket=
+7	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	cricket	cricket	NOUN	NN	_	4	dobj	_	NN|00476389-n|Cricket=
+6	.	.	.	.	_	4	punct	_	Fp|?|?

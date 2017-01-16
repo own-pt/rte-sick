@@ -1,0 +1,30 @@
+sentence A = An interview is being granted by the man.
+sentence B = The man is granting an interview.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Questioning+,Entity+,Entity+,Giving+,Hominid=
+CONCEPTS B: Hominid=,Entity+,Giving+,Questioning+
+
+CONLL A:
+
+1	An	a	DET	DT	_	2	det	_	DT|?|?
+2	interview	interview	NOUN	NN	_	5	nsubjpass	_	NN|07196075-n|Questioning+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	granted	grant	VERB	VBN	_	0	ROOT	_	VBN|02255268-v|Giving+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	man	man	NOUN	NN	_	6	pobj	_	NN|02472293-n|Hominid=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	granting	grant	VERB	VBG	_	0	ROOT	_	VBG|02255268-v|Giving+
+5	an	a	DET	DT	_	6	det	_	DT|?|?
+6	interview	interview	NOUN	NN	_	4	dobj	_	NN|07196075-n|Questioning+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,32 @@
+sentence A = A woman is eating a piece of meat.
+sentence B = A woman is seasoning a piece of meat.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Eating=,TimeDuration+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Woman=,Entity+,Putting+,TimeDuration+,SubjectiveAssessmentAttribute+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01168468-v|Eating=
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	piece	piece	NOUN	NN	_	4	dobj	_	NN|15246353-n|TimeDuration+
+7	of	of	ADP	IN	_	6	prep	_	IN|?|?
+8	meat	meat	NOUN	NN	_	7	pobj	_	NN|05921123-n|SubjectiveAssessmentAttribute+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	seasoning	season	VERB	VBG	_	0	ROOT	_	VBG|02191766-v|Putting+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	piece	piece	NOUN	NN	_	4	dobj	_	NN|15246353-n|TimeDuration+
+7	of	of	ADP	IN	_	6	prep	_	IN|?|?
+8	meat	meat	NOUN	NN	_	7	pobj	_	NN|05921123-n|SubjectiveAssessmentAttribute+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

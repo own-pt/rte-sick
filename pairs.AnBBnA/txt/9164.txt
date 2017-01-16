@@ -1,0 +1,41 @@
+sentence A = There is no boy in a swimsuit sitting on top of a circular fountain.
+sentence B = A boy is standing next to the opening of a fountain.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: PhysicalAttribute+,Human+,Clothing+,SittingDown+,top=,Rotating=,Creek+
+CONCEPTS B: Human+,Entity+,PhysicalAttribute+,Position+,Hole+,Creek+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02655135-v|PhysicalAttribute+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	boy	boy	NOUN	NN	_	2	nsubj	_	NN|10285313-n|Human+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	swimsuit	swimsuit	NOUN	NN	_	5	pobj	_	NN|04371563-n|Clothing+
+8	sitting	sit	VERB	VBG	_	7	partmod	_	VBG|01543123-v|SittingDown+
+9	on	on	ADP	IN	_	8	prep	_	IN|?|?
+10	top	top	NOUN	NN	_	9	pobj	_	JJ|02439949-a|top=
+11	of	of	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	14	det	_	DT|?|?
+13	circular	circular	ADJ	JJ	_	14	amod	_	JJ|00676271-a|Rotating=
+14	fountain	fountain	NOUN	NN	_	11	pobj	_	NN|09443453-n|Creek+
+15	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	next	next	ADV	RB	_	4	advmod	_	JJ|01294975-a|Position+
+6	to	to	ADP	IN	_	5	prep	_	TO|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	opening	opening	NOUN	NN	_	6	pobj	_	NN|09379111-n|Hole+
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	fountain	fountain	NOUN	NN	_	9	pobj	_	NN|09443453-n|Creek+
+12	.	.	.	.	_	4	punct	_	Fp|?|?

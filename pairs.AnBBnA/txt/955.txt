@@ -1,0 +1,39 @@
+sentence A = Two young kids are playing with a man eating corndogs.
+sentence B = Two toddlers are eating corndogs in a wagon, which is really small.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,HumanChild=,Entity+,DramaticActing+,Hominid=,Process+
+CONCEPTS B: NonFullyFormed+,Entity+,Process+,Trailer+,Entity+,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	kids	kid	NOUN	NNS	_	5	nsubj	_	NNS|09917593-n|HumanChild=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	man	man	NOUN	NN	_	9	nsubj	_	NN|02472293-n|Hominid=
+9	eating	eat	VERB	VBG	_	6	pcomp	_	VBG|01157517-v|Process+
+10	corndogs	corndogs	NOUN	NNS	_	9	dobj	_	NNS|?|?
+11	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	toddlers	toddler	NOUN	NNS	_	4	nsubj	_	NNS|10714465-n|NonFullyFormed+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+5	corndogs	corndogs	NOUN	NNS	_	4	dobj	_	NNS|?|?
+6	in	in	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	wagon	wagon	NOUN	NN	_	6	pobj	_	NN|04543158-n|Trailer+
+9	,	,	.	,	_	8	punct	_	Fc|?|?
+10	which	which	DET	WDT	_	13	nsubj	_	WDT|?|?
+11	is	be	VERB	VBZ	_	13	cop	_	VBZ|02604760-v|Entity+
+12	really	really	ADV	RB	_	13	advmod	_	RB|00031899-r|SubjectiveAssessmentAttribute+
+13	small	small	ADJ	JJ	_	8	rcmod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+14	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,35 @@
+sentence A = A bald person is playing a guitar.
+sentence B = A person has blonde and flyaway hair and is playing a guitar.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveAssessmentAttribute+,Human=,Entity+,DramaticActing+,Guitar=
+CONCEPTS B: Human=,Damaging+,Human+,SubjectiveStrongNegativeAttribute+,Hair=,Entity+,DramaticActing+,Guitar=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	bald	bald	ADJ	JJ	_	3	amod	_	JJ|01705088-a|SubjectiveAssessmentAttribute+
+3	person	person	NOUN	NN	_	5	nsubj	_	NN|00007846-n|Human=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	guitar	guitar	NOUN	NN	_	5	dobj	_	NN|03467517-n|Guitar=
+8	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	3	nsubj	_	NN|00007846-n|Human=
+3	has	have	VERB	VBZ	_	0	ROOT	_	VBZ|00065639-v|Damaging+
+4	blonde	blonde	ADJ	JJ	_	7	amod	_	JJ|00243606-a|Human+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	flyaway	flyaway	NOUN	NN	_	4	conj	_	JJ|02121123-a|SubjectiveStrongNegativeAttribute+
+7	hair	hair	NOUN	NN	_	3	dobj	_	NN|05254795-n|Hair=
+8	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	playing	play	VERB	VBG	_	3	conj	_	VBG|01719302-v|DramaticActing+
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	guitar	guitar	NOUN	NN	_	10	dobj	_	NN|03467517-n|Guitar=
+13	.	.	.	.	_	3	punct	_	Fp|?|?

@@ -1,0 +1,31 @@
+sentence A = A thin lady is piecing together oriental carrot cuts.
+sentence B = A woman is slicing a carrot.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Human+,Entity+,Making+,Meeting=,Asia+,Carrot=,Process+
+CONCEPTS B: Woman=,Entity+,Separating+,Carrot=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	thin	thin	ADJ	JJ	_	3	amod	_	JJ|00988232-a|SubjectiveWeakPositiveAttribute+
+3	lady	lady	NOUN	NN	_	5	nsubj	_	NN|09989290-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	piecing	piece	VERB	VBG	_	0	ROOT	_	VBG|01656788-v|Making+
+6	together	together	ADV	RB	_	5	advmod	_	RB|00507927-r|Meeting=
+7	oriental	oriental	ADJ	JJ	_	8	amod	_	JJ|00825807-a|Asia+
+8	carrot	carrot	NOUN	NN	_	9	nn	_	NN|07730207-n|Carrot=
+9	cuts	cut	NOUN	NNS	_	5	dobj	_	NNS|00352331-n|Process+
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	carrot	carrot	NOUN	NN	_	4	dobj	_	NN|07730207-n|Carrot=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

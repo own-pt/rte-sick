@@ -1,0 +1,47 @@
+sentence A = A young child is running down a gravel road that is covered with dead leaves.
+sentence B = A young child is lying down on a gravel road that is covered with dead leaves.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,HumanChild=,Entity+,Attribute+,earlier+,Mineral+,Roadway+,Entity+,Covering+,Dead=,Leaf=
+CONCEPTS B: HumanYouth=,HumanChild=,Entity+,PhysicalAttribute+,earlier+,Mineral+,Roadway+,Entity+,Covering+,Dead=,Leaf=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	child	child	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	down	down	PRT	RP	_	5	prep	_	RP|00096089-r|earlier+
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	gravel	gravel	NOUN	NN	_	9	nn	_	NN|14698884-n|Mineral+
+9	road	road	NOUN	NN	_	6	pobj	_	NN|04096066-n|Roadway+
+10	that	that	DET	WDT	_	12	nsubjpass	_	WDT|?|?
+11	is	be	VERB	VBZ	_	12	auxpass	_	VBZ|02604760-v|Entity+
+12	covered	cover	VERB	VBN	_	9	rcmod	_	VBN|01332730-v|Covering+
+13	with	with	ADP	IN	_	12	prep	_	IN|?|?
+14	dead	dead	ADJ	JJ	_	15	amod	_	JJ|00095280-a|Dead=
+15	leaves	leaf	NOUN	NNS	_	13	pobj	_	NNS|13152742-n|Leaf=
+16	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	child	child	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+6	down	down	PRT	RP	_	5	prt	_	RP|00096089-r|earlier+
+7	on	on	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	gravel	gravel	NOUN	NN	_	10	nn	_	NN|14698884-n|Mineral+
+10	road	road	NOUN	NN	_	7	pobj	_	NN|04096066-n|Roadway+
+11	that	that	DET	WDT	_	13	nsubjpass	_	WDT|?|?
+12	is	be	VERB	VBZ	_	13	auxpass	_	VBZ|02604760-v|Entity+
+13	covered	cover	VERB	VBN	_	10	rcmod	_	VBN|01332730-v|Covering+
+14	with	with	ADP	IN	_	13	prep	_	IN|?|?
+15	dead	dead	ADJ	JJ	_	16	amod	_	JJ|00095280-a|Dead=
+16	leaves	leaf	NOUN	NNS	_	14	pobj	_	NNS|13152742-n|Leaf=
+17	.	.	.	.	_	5	punct	_	Fp|?|?

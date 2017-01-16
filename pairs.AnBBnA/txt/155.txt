@@ -1,0 +1,29 @@
+sentence A = A deer is jumping over the enclosure.
+sentence B = A deer is jumping a fence.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Deer=,Entity+,Ambulating=,SubjectiveAssessmentAttribute+,Region+
+CONCEPTS B: Deer=,Entity+,Ambulating=,Device+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	deer	deer	NOUN	NN	_	4	nsubj	_	NN|02430045-n|Deer=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	over	over	ADP	IN	_	4	prep	_	RP|00226550-r|SubjectiveAssessmentAttribute+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	enclosure	enclosure	NOUN	NN	_	5	pobj	_	NN|03285912-n|Region+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	deer	deer	NOUN	NN	_	4	nsubj	_	NN|02430045-n|Deer=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	fence	fence	NOUN	NN	_	4	dobj	_	NN|03327234-n|Device+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,35 @@
+sentence A = The girl is painting a coverall blue.
+sentence B = The lady is holding the paintbrush next to the artist's easel.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Painting=,Blue+
+CONCEPTS B: Human+,Entity+,Process+,PaintingDevice+,Position+,Artist=,Easel=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	painting	paint	VERB	VBG	_	0	ROOT	_	VBG|01362736-v|Painting=
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	coverall	coverall	NOUN	NN	_	7	nn	_	JJ|?|?
+7	blue	blue	NOUN	NN	_	4	dobj	_	NN|04968895-n|Blue+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	lady	lady	NOUN	NN	_	4	nsubj	_	NN|09989290-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|01217043-v|Process+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	paintbrush	paintbrush	NOUN	NN	_	4	dobj	_	NN|03876231-n|PaintingDevice+
+7	next	next	ADV	RB	_	4	advmod	_	JJ|01294975-a|Position+
+8	to	to	ADP	IN	_	7	prep	_	TO|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	artist	artist	NOUN	NN	_	12	poss	_	NN|09812338-n|Artist=
+11	's	's	PRT	POS	_	10	possessive	_	POS|?|?
+12	easel	easel	NOUN	NN	_	8	pobj	_	NN|03262809-n|Easel=
+13	.	.	.	.	_	4	punct	_	Fp|?|?

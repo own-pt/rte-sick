@@ -1,0 +1,32 @@
+sentence A = The guitar is being sold by a lady.
+sentence B = The guitar is being played by a lady.
+entailm AB = A_contradicts_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Guitar=,Entity+,Entity+,Selling=,Human+
+CONCEPTS B: Guitar=,Entity+,Entity+,DramaticActing+,Human+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	guitar	guitar	NOUN	NN	_	5	nsubjpass	_	NN|03467517-n|Guitar=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	sold	sell	VERB	VBN	_	0	ROOT	_	VBN|02242464-v|Selling=
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	lady	lady	NOUN	NN	_	6	pobj	_	NN|09989290-n|Human+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	guitar	guitar	NOUN	NN	_	5	nsubjpass	_	NN|03467517-n|Guitar=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	played	play	VERB	VBN	_	0	ROOT	_	VBN|01719302-v|DramaticActing+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	lady	lady	NOUN	NN	_	6	pobj	_	NN|09989290-n|Human+
+9	.	.	.	.	_	5	punct	_	Fp|?|?

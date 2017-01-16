@@ -1,0 +1,26 @@
+sentence A = A girl is falling asleep.
+sentence B = A girl is waking up.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Getting+,Asleep=
+CONCEPTS B: Human+,Entity+,OrganismProcess+,Increasing+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	falling	fall	VERB	VBG	_	0	ROOT	_	VBG|02229828-v|Getting+
+5	asleep	asleep	ADJ	JJ	_	4	acomp	_	JJ|00187736-a|Asleep=
+6	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	waking	wake	VERB	VBG	_	0	ROOT	_	VBG|00018813-v|OrganismProcess+
+5	up	up	PRT	RP	_	4	prt	_	RP|00097011-r|Increasing+
+6	.	.	.	.	_	4	punct	_	Fp|?|?

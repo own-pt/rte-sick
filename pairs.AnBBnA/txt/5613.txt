@@ -1,0 +1,29 @@
+sentence A = A man is not playing keyboards.
+sentence B = A man is riding a mechanical bull.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,not=,DramaticActing+,ComputerInputDevice+
+CONCEPTS B: Man=,Entity+,Carrying=,Device+,Region@
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	keyboards	keyboard	NOUN	NNS	_	5	dobj	_	NNS|03614007-n|ComputerInputDevice+
+7	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	mechanical	mechanical	ADJ	JJ	_	7	amod	_	JJ|01499686-a|Device+
+7	bull	bull	NOUN	NN	_	4	dobj	_	NN|08686332-n|Region@
+8	.	.	.	.	_	4	punct	_	Fp|?|?

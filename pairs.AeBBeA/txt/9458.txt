@@ -1,0 +1,42 @@
+sentence A = A man on a green bike is performing tricks on a dirt ramp.
+sentence B = The man on a green bike is performing tricks on the dirt ramp.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Hominid=,Green=,Bicycle=,Entity+,IntentionalProcess+,RecreationOrExercise+,Text+,StationaryArtifact+
+CONCEPTS B: Hominid=,Green=,Bicycle=,Entity+,IntentionalProcess+,RecreationOrExercise+,Text+,StationaryArtifact+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|02472293-n|Hominid=
+3	on	on	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	green	green	ADJ	JJ	_	6	amod	_	JJ|00375969-a|Green=
+6	bike	bike	NOUN	NN	_	3	pobj	_	NN|02834778-n|Bicycle=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+9	tricks	trick	NOUN	NNS	_	8	dobj	_	NNS|00427580-n|RecreationOrExercise+
+10	on	on	ADP	IN	_	8	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	dirt	dirt	NOUN	NN	_	13	nn	_	NN|07223811-n|Text+
+13	ramp	ramp	NOUN	NN	_	10	pobj	_	NN|04051549-n|StationaryArtifact+
+14	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|02472293-n|Hominid=
+3	on	on	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	green	green	ADJ	JJ	_	6	amod	_	JJ|00375969-a|Green=
+6	bike	bike	NOUN	NN	_	3	pobj	_	NN|02834778-n|Bicycle=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+9	tricks	trick	NOUN	NNS	_	8	dobj	_	NNS|00427580-n|RecreationOrExercise+
+10	on	on	ADP	IN	_	8	prep	_	IN|?|?
+11	the	the	DET	DT	_	13	det	_	DT|?|?
+12	dirt	dirt	NOUN	NN	_	13	nn	_	NN|07223811-n|Text+
+13	ramp	ramp	NOUN	NN	_	10	pobj	_	NN|04051549-n|StationaryArtifact+
+14	.	.	.	.	_	8	punct	_	Fp|?|?

@@ -1,0 +1,42 @@
+sentence A = A man is sitting on the beach.
+sentence B = The man is doing a handstand on the wet sand at the edge of the water at the beach.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,PhysicalAttribute+,SittingDown+,ShoreArea=
+CONCEPTS B: Hominid=,Entity+,IntentionalProcess+,BodyMotion+,Wetting=,Sand=,Object+,Water=,ShoreArea=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	beach	beach	NOUN	NN	_	5	pobj	_	NN|09217230-n|ShoreArea=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	handstand	handstand	NOUN	NN	_	4	dobj	_	NN|00436187-n|BodyMotion+
+7	on	on	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	10	det	_	DT|?|?
+9	wet	wet	ADJ	JJ	_	10	amod	_	VBN|00214951-v|Wetting=
+10	sand	sand	NOUN	NN	_	7	pobj	_	NN|15019030-n|Sand=
+11	at	at	ADP	IN	_	4	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	edge	edge	NOUN	NN	_	11	pobj	_	NN|03264136-n|Object+
+14	of	of	ADP	IN	_	13	prep	_	IN|?|?
+15	the	the	DET	DT	_	16	det	_	DT|?|?
+16	water	water	NOUN	NN	_	14	pobj	_	NN|14845743-n|Water=
+17	at	at	ADP	IN	_	13	prep	_	IN|?|?
+18	the	the	DET	DT	_	19	det	_	DT|?|?
+19	beach	beach	NOUN	NN	_	17	pobj	_	NN|09217230-n|ShoreArea=
+20	.	.	.	.	_	4	punct	_	Fp|?|?

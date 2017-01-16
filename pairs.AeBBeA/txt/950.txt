@@ -1,0 +1,28 @@
+sentence A = Two young kids are eating corndogs.
+sentence B = Two young children are eating corndogs.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: HumanYouth=,HumanChild=,Entity+,Process+
+CONCEPTS B: HumanYouth=,HumanChild=,Entity+,Process+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	kids	kid	NOUN	NNS	_	5	nsubj	_	NNS|09917593-n|HumanChild=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+6	corndogs	corndogs	NOUN	NNS	_	5	dobj	_	NNS|?|?
+7	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	children	child	NOUN	NNS	_	5	nsubj	_	NNS|09917593-n|HumanChild=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+6	corndogs	corndogs	NOUN	NNS	_	5	dobj	_	NNS|?|?
+7	.	.	.	.	_	5	punct	_	Fp|?|?

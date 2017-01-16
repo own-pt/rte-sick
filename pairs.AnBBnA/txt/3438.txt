@@ -1,0 +1,31 @@
+sentence A = A person is removing the butter from a tray.
+sentence B = A person is buttering a tray.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human=,Entity+,LeavingAnOrganization+,Butter=,Tray=
+CONCEPTS B: Human=,Entity+,Covering+,Tray=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	removing	remove	VERB	VBG	_	0	ROOT	_	VBG|02404224-v|LeavingAnOrganization+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	butter	butter	NOUN	NN	_	4	dobj	_	NN|07848338-n|Butter=
+7	from	from	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	tray	tray	NOUN	NN	_	7	pobj	_	NN|04476259-n|Tray=
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	buttering	butter	VERB	VBG	_	0	ROOT	_	VBG|01267998-v|Covering+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	tray	tray	NOUN	NN	_	4	dobj	_	NN|04476259-n|Tray=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

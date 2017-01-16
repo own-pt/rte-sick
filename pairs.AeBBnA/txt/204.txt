@@ -1,0 +1,40 @@
+sentence A = A man with a helmet painted red is riding a blue motorcycle down the road.
+sentence B = A motorcyclist is riding a motorbike along a roadway.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Clothing+,Painting=,Red+,Entity+,Transportation+,SubjectiveStrongNegativeAttribute+,PassengerVehicle+,Roadway+
+CONCEPTS B: Human+,Entity+,Transportation+,TransportationDevice+,Roadway=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	9	nsubj	_	NN|02472293-n|Hominid=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	7	det	_	DT|?|?
+5	helmet	helmet	NOUN	NN	_	6	dep	_	NN|03513376-n|Clothing+
+6	painted	paint	VERB	VBN	_	7	amod	_	VBN|01362736-v|Painting=
+7	red	red	NOUN	NN	_	3	pobj	_	NN|04962784-n|Red+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	blue	blue	ADJ	JJ	_	12	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+12	motorcycle	motorcycle	NOUN	NN	_	9	dobj	_	NN|03790512-n|PassengerVehicle+
+13	down	down	ADP	IN	_	9	prep	_	IN|?|?
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	road	road	NOUN	NN	_	13	pobj	_	NN|04096066-n|Roadway+
+16	.	.	.	.	_	9	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	motorcyclist	motorcyclist	NOUN	NN	_	4	nsubj	_	NN|10334009-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	motorbike	motorbike	NOUN	NN	_	4	dobj	_	NN|03769722-n|TransportationDevice+
+7	along	along	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	roadway	roadway	NOUN	NN	_	7	pobj	_	NN|04097622-n|Roadway=
+10	.	.	.	.	_	4	punct	_	Fp|?|?

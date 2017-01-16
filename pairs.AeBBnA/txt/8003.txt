@@ -1,0 +1,31 @@
+sentence A = A blonde girl is hanging by gymnastic ropes.
+sentence B = A girl is hanging by gymnastic ropes.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Human+,Entity+,PhysicalAttribute+,String+
+CONCEPTS B: Human+,Entity+,PhysicalAttribute+,String+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	blonde	blonde	ADJ	JJ	_	3	amod	_	JJ|00243606-a|Human+
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	hanging	hang	VERB	VBG	_	0	ROOT	_	VBG|01482075-v|PhysicalAttribute+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	gymnastic	gymnastic	ADJ	JJ	_	8	amod	_	JJ|02849732-a|?
+8	ropes	rope	NOUN	NNS	_	6	pobj	_	NNS|04108268-n|String+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	hanging	hang	VERB	VBG	_	0	ROOT	_	VBG|01482075-v|PhysicalAttribute+
+5	by	by	ADP	IN	_	4	prep	_	IN|?|?
+6	gymnastic	gymnastic	ADJ	JJ	_	7	amod	_	JJ|02849732-a|?
+7	ropes	rope	NOUN	NNS	_	5	pobj	_	NNS|04108268-n|String+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

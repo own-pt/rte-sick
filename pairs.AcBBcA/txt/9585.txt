@@ -1,0 +1,41 @@
+sentence A = The lady is holding the paintbrush next to the artist's easel.
+sentence B = There is no lady holding the paintbrush next to the artist's easel.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Human+,Entity+,Process+,PaintingDevice+,Position+,Artist=,Easel=
+CONCEPTS B: Entity+,Human+,Process+,PaintingDevice+,Position+,Artist=,Easel=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	lady	lady	NOUN	NN	_	4	nsubj	_	NN|09989290-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|01217043-v|Process+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	paintbrush	paintbrush	NOUN	NN	_	4	dobj	_	NN|03876231-n|PaintingDevice+
+7	next	next	ADV	RB	_	4	advmod	_	JJ|01294975-a|Position+
+8	to	to	ADP	IN	_	7	prep	_	TO|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	artist	artist	NOUN	NN	_	12	poss	_	NN|09812338-n|Artist=
+11	's	's	PRT	POS	_	10	possessive	_	POS|?|?
+12	easel	easel	NOUN	NN	_	8	pobj	_	NN|03262809-n|Easel=
+13	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	lady	lady	NOUN	NN	_	2	nsubj	_	NN|09989290-n|Human+
+5	holding	hold	VERB	VBG	_	4	partmod	_	VBG|01217043-v|Process+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	paintbrush	paintbrush	NOUN	NN	_	5	dobj	_	NN|03876231-n|PaintingDevice+
+8	next	next	ADV	RB	_	5	advmod	_	JJ|01294975-a|Position+
+9	to	to	ADP	IN	_	8	prep	_	TO|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	artist	artist	NOUN	NN	_	13	poss	_	NN|09812338-n|Artist=
+12	's	's	PRT	POS	_	11	possessive	_	POS|?|?
+13	easel	easel	NOUN	NN	_	9	pobj	_	NN|03262809-n|Easel=
+14	.	.	.	.	_	2	punct	_	Fp|?|?

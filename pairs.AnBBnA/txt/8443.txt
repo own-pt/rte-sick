@@ -1,0 +1,38 @@
+sentence A = Two women are standing together and one is looking through binoculars.
+sentence B = Two men are standing together and one is looking through binoculars.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,PhysicalAttribute+,Meeting=,Entity+,SubjectiveAssessmentAttribute+,Device+
+CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,Meeting=,Entity+,SubjectiveAssessmentAttribute+,Device+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	women	woman	NOUN	NNS	_	4	nsubj	_	NNS|10787470-n|Woman=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	together	together	ADV	RB	_	4	advmod	_	RB|00507927-r|Meeting=
+6	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+7	one	one	NUM	CD	_	9	nsubj	_	PRP|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	looking	look	VERB	VBG	_	4	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+10	through	through	ADP	IN	_	9	prep	_	IN|?|?
+11	binoculars	binoculars	NOUN	NNS	_	10	pobj	_	NNS|02841315-n|Device+
+12	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	together	together	ADV	RB	_	4	advmod	_	RB|00507927-r|Meeting=
+6	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+7	one	one	NUM	CD	_	9	nsubj	_	PRP|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	looking	look	VERB	VBG	_	4	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+10	through	through	ADP	IN	_	9	prep	_	IN|?|?
+11	binoculars	binoculars	NOUN	NNS	_	10	pobj	_	NNS|02841315-n|Device+
+12	.	.	.	.	_	4	punct	_	Fp|?|?

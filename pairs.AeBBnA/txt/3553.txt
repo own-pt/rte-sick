@@ -1,0 +1,31 @@
+sentence A = A squirrel is crazily spinning around in circles.
+sentence B = A squirrel is spinning around in circles.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Squirrel+,Entity+,PsychologicalDysfunction+,Rotating+,Circle=
+CONCEPTS B: Squirrel+,Entity+,Rotating+,Circle=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	squirrel	squirrel	NOUN	NN	_	5	nsubj	_	NN|02355227-n|Squirrel+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	crazily	crazily	ADV	RB	_	5	advmod	_	RB|00080890-r|PsychologicalDysfunction+
+5	spinning	spin	VERB	VBG	_	0	ROOT	_	VBG|02046755-v|Rotating+
+6	around	around	ADV	RB	_	5	prt	_	RP|00007015-r|?
+7	in	in	ADP	IN	_	5	prep	_	IN|?|?
+8	circles	circle	NOUN	NNS	_	7	pobj	_	NNS|13873502-n|Circle=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	squirrel	squirrel	NOUN	NN	_	4	nsubj	_	NN|02355227-n|Squirrel+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	spinning	spin	VERB	VBG	_	0	ROOT	_	VBG|02046755-v|Rotating+
+5	around	around	ADV	RB	_	4	prt	_	RP|00007015-r|?
+6	in	in	ADP	IN	_	4	prep	_	IN|?|?
+7	circles	circle	NOUN	NNS	_	6	pobj	_	NNS|13873502-n|Circle=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,31 @@
+sentence A = There is no boy cutting grass with scissors.
+sentence B = A boy is cutting grass with scissors.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Human+,Decreasing+,Grass=
+CONCEPTS B: Human+,Entity+,Decreasing+,Grass=
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	boy	boy	NOUN	NN	_	2	nsubj	_	NN|10285313-n|Human+
+5	cutting	cut	VERB	VBG	_	4	partmod	_	VBG|00429060-v|Decreasing+
+6	grass	grass	NOUN	NN	_	5	dobj	_	NN|12102133-n|Grass=
+7	with	with	ADP	IN	_	5	prep	_	IN|?|?
+8	scissors	scissor	NOUN	NNS	_	7	pobj	_	NNS|?|?
+9	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|00429060-v|Decreasing+
+5	grass	grass	NOUN	NN	_	4	dobj	_	NN|12102133-n|Grass=
+6	with	with	ADP	IN	_	4	prep	_	IN|?|?
+7	scissors	scissor	NOUN	NNS	_	6	pobj	_	NNS|?|?
+8	.	.	.	.	_	4	punct	_	Fp|?|?

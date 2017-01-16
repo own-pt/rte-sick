@@ -1,0 +1,39 @@
+sentence A = The soccer player is not kicking the ball between somebody's legs.
+sentence B = The soccer player is kicking the ball between somebody's legs.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Soccer=,Human+,Entity+,not=,Expressing+,Ball=,Limb=
+CONCEPTS B: Soccer=,Human+,Entity+,Expressing+,Ball=,Limb=
+
+CONLL A:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	soccer	soccer	NOUN	NN	_	3	nn	_	NN|00478262-n|Soccer=
+3	player	player	NOUN	NN	_	6	nsubj	_	NN|10439851-n|Human+
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	not	not	ADV	RB	_	6	neg	_	RB|00024073-r|not=
+6	kicking	kick	VERB	VBG	_	0	ROOT	_	VBG|00907147-v|Expressing+
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	ball	ball	NOUN	NN	_	6	dobj	_	NN|02778669-n|Ball=
+9	between	between	ADP	IN	_	6	prep	_	IN|?|?
+10	somebody	somebody	NOUN	NN	_	12	poss	_	PRP|?|?
+11	's	's	PRT	POS	_	10	possessive	_	POS|?|?
+12	legs	leg	NOUN	NNS	_	9	pobj	_	NNS|05560787-n|Limb=
+13	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	soccer	soccer	NOUN	NN	_	3	nn	_	NN|00478262-n|Soccer=
+3	player	player	NOUN	NN	_	5	nsubj	_	NN|10439851-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	kicking	kick	VERB	VBG	_	0	ROOT	_	VBG|00907147-v|Expressing+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	ball	ball	NOUN	NN	_	5	dobj	_	NN|02778669-n|Ball=
+8	between	between	ADP	IN	_	5	prep	_	IN|?|?
+9	somebody	somebody	NOUN	NN	_	11	poss	_	PRP|?|?
+10	's	's	PRT	POS	_	9	possessive	_	POS|?|?
+11	legs	leg	NOUN	NNS	_	8	pobj	_	NNS|05560787-n|Limb=
+12	.	.	.	.	_	5	punct	_	Fp|?|?

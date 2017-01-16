@@ -1,0 +1,34 @@
+sentence A = Two large dogs are frolicking in a grassy field.
+sentence B = Two large dogs are frolicking in a parking lot.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Motion+,FloweringPlant+,FieldOfStudy=
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Motion+,Region+,SubjectiveAssessmentAttribute+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	large	large	ADJ	JJ	_	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	dogs	dog	NOUN	NNS	_	5	nsubj	_	NNS|02084071-n|Canine+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	frolicking	frolic	VERB	VBG	_	0	ROOT	_	VBG|01883716-v|Motion+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	grassy	grassy	ADJ	JJ	_	9	amod	_	JJ|00209620-a|FloweringPlant+
+9	field	field	NOUN	NN	_	6	pobj	_	NN|05996646-n|FieldOfStudy=
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	large	large	ADJ	JJ	_	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	dogs	dog	NOUN	NNS	_	5	nsubj	_	NNS|02084071-n|Canine+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	frolicking	frolic	VERB	VBG	_	0	ROOT	_	VBG|01883716-v|Motion+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	parking	parking	NOUN	NN	_	9	nn	_	NN|13778671-n|Region+
+9	lot	lot	NOUN	NN	_	6	pobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+10	.	.	.	.	_	5	punct	_	Fp|?|?

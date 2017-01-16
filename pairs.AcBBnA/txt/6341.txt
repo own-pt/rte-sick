@@ -1,0 +1,46 @@
+sentence A = There is no white dog wearing a Christmas reindeer headband and playing with a brown dog in the grass.
+sentence B = The white dog wearing reindeer ears is near a brown dog.
+entailm AB = A_contradicts_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,White=,Canine+,RecreationOrExercise+,TimeInterval+,HoofedMammal+,Clothing+,DramaticActing+,Human+,Canine+,Grass=
+CONCEPTS B: White=,Canine+,RecreationOrExercise+,HoofedMammal+,Ear=,Entity+,Human+,Canine+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	white	white	ADJ	JJ	_	5	amod	_	JJ|00393105-a|White=
+5	dog	dog	NOUN	NN	_	2	nsubj	_	NN|02084071-n|Canine+
+6	wearing	wear	VERB	VBG	_	5	dep	_	VBG|00075021-v|RecreationOrExercise+
+7	a	a	DET	DT	_	10	det	_	DT|?|?
+8	Christmas	christmas	NOUN	NNP	_	10	nn	_	NN|15196537-n|TimeInterval+
+9	reindeer	reindeer	NOUN	NN	_	10	nn	_	NN|02433925-n|HoofedMammal+
+10	headband	headband	NOUN	NN	_	6	dobj	_	NN|03502042-n|Clothing+
+11	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+12	playing	play	VERB	VBG	_	6	conj	_	VBG|01719302-v|DramaticActing+
+13	with	with	ADP	IN	_	12	prep	_	IN|?|?
+14	a	a	DET	DT	_	16	det	_	DT|?|?
+15	brown	brown	ADJ	JJ	_	16	amod	_	JJ|00245112-a|Human+
+16	dog	dog	NOUN	NN	_	13	pobj	_	NN|02084071-n|Canine+
+17	in	in	ADP	IN	_	12	prep	_	IN|?|?
+18	the	the	DET	DT	_	19	det	_	DT|?|?
+19	grass	grass	NOUN	NN	_	17	pobj	_	NN|12102133-n|Grass=
+20	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	dog	dog	NOUN	NN	_	7	nsubj	_	NN|02084071-n|Canine+
+4	wearing	wear	VERB	VBG	_	3	partmod	_	VBG|00075021-v|RecreationOrExercise+
+5	reindeer	reindeer	NOUN	NN	_	6	nn	_	NN|02433925-n|HoofedMammal+
+6	ears	ear	NOUN	NNS	_	4	dobj	_	NNS|05320899-n|Ear=
+7	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+8	near	near	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	brown	brown	ADJ	JJ	_	11	amod	_	JJ|00245112-a|Human+
+11	dog	dog	NOUN	NN	_	8	pobj	_	NN|02084071-n|Canine+
+12	.	.	.	.	_	7	punct	_	Fp|?|?

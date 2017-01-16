@@ -1,0 +1,38 @@
+sentence A = Pedestrians and cars are moving through a traffic jam in a big city.
+sentence B = Some people and vehicles are on a crowded street.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Walking+,Automobile=,Entity+,Transportation=,Group+,Group+,SubjectiveWeakPositiveAttribute+,City=
+CONCEPTS B: GroupOfPeople=,Vehicle=,Entity+,SocialInteraction+,Roadway=
+
+CONLL A:
+
+1	Pedestrians	pedestrian	NOUN	NNPS	_	5	nsubj	_	NNS|10412055-n|Walking+
+2	and	and	CONJ	CC	_	1	cc	_	CC|?|?
+3	cars	car	NOUN	NNS	_	1	conj	_	NNS|02958343-n|Automobile=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	moving	move	VERB	VBG	_	0	ROOT	_	VBG|01835496-v|Transportation=
+6	through	through	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	traffic	traffic	NOUN	NN	_	9	nn	_	NN|08425303-n|Group+
+9	jam	jam	NOUN	NN	_	6	pobj	_	NN|08183398-n|Group+
+10	in	in	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	big	big	ADJ	JJ	_	13	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+13	city	city	NOUN	NN	_	10	pobj	_	NN|08524735-n|City=
+14	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	people	people	NOUN	NNS	_	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	vehicles	vehicle	NOUN	NNS	_	2	conj	_	NNS|04524313-n|Vehicle=
+5	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	crowded	crowd	ADJ	JJ	_	9	amod	_	VBN|02027612-v|SocialInteraction+
+9	street	street	NOUN	NN	_	6	pobj	_	NN|04334599-n|Roadway=
+10	.	.	.	.	_	5	punct	_	Fp|?|?

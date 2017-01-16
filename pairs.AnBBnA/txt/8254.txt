@@ -1,0 +1,46 @@
+sentence A = A middle aged man and woman are riding bikes down a road beside the water.
+sentence B = A middle aged man and woman are riding horses down a road beside the water.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Region+,Growth+,Man=,Woman=,Entity+,Transportation+,Bicycle=,Roadway+,Water=
+CONCEPTS B: Region+,Growth+,Man=,Woman=,Entity+,Carrying=,Horse=,Roadway+,Water=
+
+CONLL A:
+
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	middle	middle	ADJ	JJ	_	4	amod	_	NN|08523483-n|Region+
+3	aged	age	ADJ	JJ	_	4	amod	_	VBN|00248026-v|Growth+
+4	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	woman	woman	NOUN	NN	_	4	conj	_	NN|10787470-n|Woman=
+7	are	be	VERB	VBP	_	8	aux	_	VBP|02604760-v|Entity+
+8	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+9	bikes	bike	NOUN	NNS	_	8	dobj	_	NNS|02834778-n|Bicycle=
+10	down	down	ADP	IN	_	8	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	road	road	NOUN	NN	_	10	pobj	_	NN|04096066-n|Roadway+
+13	beside	beside	ADP	IN	_	12	prep	_	IN|?|?
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	water	water	NOUN	NN	_	13	pobj	_	NN|14845743-n|Water=
+16	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	middle	middle	ADJ	JJ	_	4	amod	_	NN|08523483-n|Region+
+3	aged	age	ADJ	JJ	_	4	amod	_	VBN|00248026-v|Growth+
+4	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	woman	woman	NOUN	NN	_	4	conj	_	NN|10787470-n|Woman=
+7	are	be	VERB	VBP	_	8	aux	_	VBP|02604760-v|Entity+
+8	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+9	horses	horse	NOUN	NNS	_	8	dobj	_	NNS|02374451-n|Horse=
+10	down	down	ADP	IN	_	8	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	road	road	NOUN	NN	_	10	pobj	_	NN|04096066-n|Roadway+
+13	beside	beside	ADP	IN	_	12	prep	_	IN|?|?
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	water	water	NOUN	NN	_	13	pobj	_	NN|14845743-n|Water=
+16	.	.	.	.	_	8	punct	_	Fp|?|?

@@ -1,0 +1,39 @@
+sentence A = A small dog is chasing a large brown cow.
+sentence B = The tail of an animal is being chasing by a dog in the grass.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Pursuing+,SubjectiveWeakPositiveAttribute+,Human+,FemaleCow=
+CONCEPTS B: BodyPart+,Animal=,Entity+,Entity+,Pursuing+,Canine+,Grass=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	small	small	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	chasing	chase	VERB	VBG	_	0	ROOT	_	VBG|02001858-v|Pursuing+
+6	a	a	DET	DT	_	9	det	_	DT|?|?
+7	large	large	ADJ	JJ	_	9	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+8	brown	brown	ADJ	JJ	_	9	amod	_	JJ|00245112-a|Human+
+9	cow	cow	NOUN	NN	_	5	dobj	_	NN|02403454-n|FemaleCow=
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	tail	tail	NOUN	NN	_	8	nsubj	_	NN|02157557-n|BodyPart+
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	an	a	DET	DT	_	5	det	_	DT|?|?
+5	animal	animal	NOUN	NN	_	3	pobj	_	NN|00015388-n|Animal=
+6	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+7	being	be	VERB	VBG	_	8	aux	_	VBG|02604760-v|Entity+
+8	chasing	chase	VERB	VBG	_	0	ROOT	_	VBG|02001858-v|Pursuing+
+9	by	by	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	dog	dog	NOUN	NN	_	9	pobj	_	NN|02084071-n|Canine+
+12	in	in	ADP	IN	_	8	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	grass	grass	NOUN	NN	_	12	pobj	_	NN|12102133-n|Grass=
+15	.	.	.	.	_	8	punct	_	Fp|?|?

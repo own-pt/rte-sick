@@ -1,0 +1,35 @@
+sentence A = There is no surfer leaning on a surfboard.
+sentence B = The man is wearing a wetsuit and is riding a surfboard.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,Human+,EmotionalState+,TransportationDevice+
+CONCEPTS B: Hominid=,Entity+,CoveringFn=,Entity+,Transportation+,TransportationDevice+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	surfer	surfer	NOUN	NN	_	2	nsubj	_	NN|10679054-n|Human+
+5	leaning	leaning	VERB	VBG	_	4	partmod	_	NN|07499113-n|EmotionalState+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	surfboard	surfboard	NOUN	NN	_	6	pobj	_	NN|04363559-n|TransportationDevice+
+9	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	wetsuit	wetsuit	NOUN	NN	_	4	dobj	_	NN|?|?
+7	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	riding	ride	VERB	VBG	_	4	conj	_	VBG|02102398-v|Transportation+
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	surfboard	surfboard	NOUN	NN	_	9	dobj	_	NN|04363559-n|TransportationDevice+
+12	.	.	.	.	_	4	punct	_	Fp|?|?

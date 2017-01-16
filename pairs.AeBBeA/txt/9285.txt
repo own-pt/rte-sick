@@ -1,0 +1,40 @@
+sentence A = A man is skiing down a hill and over a red obstacle.
+sentence B = A man is skiing down a hill and jumping a red obstacle.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Hominid=,Entity+,Transportation+,earlier+,Hill=,Red=,Entity+
+CONCEPTS B: Hominid=,Entity+,Transportation+,earlier+,Hill=,Ambulating=,Red=,Entity+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	skiing	ski	VERB	VBG	_	0	ROOT	_	VBG|01938426-v|Transportation+
+5	down	down	ADP	IN	_	4	prep	_	RP|00096089-r|earlier+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	hill	hill	NOUN	NN	_	5	pobj	_	NN|09303008-n|Hill=
+8	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+9	over	over	ADP	IN	_	5	conj	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	red	red	ADJ	JJ	_	12	amod	_	JJ|00381097-a|Red=
+12	obstacle	obstacle	NOUN	NN	_	9	pobj	_	NN|05690269-n|Entity+
+13	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	skiing	ski	VERB	VBG	_	0	ROOT	_	VBG|01938426-v|Transportation+
+5	down	down	ADP	IN	_	4	prep	_	RP|00096089-r|earlier+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	hill	hill	NOUN	NN	_	5	pobj	_	NN|09303008-n|Hill=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	jumping	jump	VERB	VBG	_	4	conj	_	VBG|01963942-v|Ambulating=
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	red	red	ADJ	JJ	_	12	amod	_	JJ|00381097-a|Red=
+12	obstacle	obstacle	NOUN	NN	_	9	dobj	_	NN|05690269-n|Entity+
+13	.	.	.	.	_	4	punct	_	Fp|?|?

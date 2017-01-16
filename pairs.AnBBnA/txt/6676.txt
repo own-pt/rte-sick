@@ -1,0 +1,44 @@
+sentence A = A group of students in uniforms is ignoring the front of the class.
+sentence B = A classroom full of students is looking in the same direction inside a bamboo structure.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Group=,SocialRole+,UniformClothing=,Entity+,IntentionalProcess+,FrontFn=,Organization+
+CONCEPTS B: Classroom+,ContainerFull+,SocialRole+,Entity+,SubjectiveAssessmentAttribute+,equal+,DirectionalAttribute=,Bamboo=,Artifact+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	8	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	students	student	NOUN	NNS	_	3	pobj	_	NNS|10665698-n|SocialRole+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	uniforms	uniform	NOUN	NNS	_	5	pobj	_	NNS|04509592-n|UniformClothing=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	ignoring	ignore	VERB	VBG	_	0	ROOT	_	VBG|00800930-v|IntentionalProcess+
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	front	front	NOUN	NN	_	8	dobj	_	NN|08573472-n|FrontFn=
+11	of	of	ADP	IN	_	10	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	class	class	NOUN	NN	_	11	pobj	_	NN|08239808-n|Organization+
+14	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	classroom	classroom	NOUN	NN	_	7	nsubj	_	NN|03038685-n|Classroom+
+3	full	full	ADJ	JJ	_	2	amod	_	JJ|01083157-a|ContainerFull+
+4	of	of	ADP	IN	_	3	prep	_	IN|?|?
+5	students	student	NOUN	NNS	_	4	pobj	_	NNS|10665698-n|SocialRole+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	11	det	_	DT|?|?
+10	same	same	ADJ	JJ	_	11	amod	_	JJ|02062670-a|equal+
+11	direction	direction	NOUN	NN	_	8	pobj	_	NN|13827426-n|DirectionalAttribute=
+12	inside	inside	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	15	det	_	DT|?|?
+14	bamboo	bamboo	NOUN	NN	_	15	nn	_	NN|12147226-n|Bamboo=
+15	structure	structure	NOUN	NN	_	12	pobj	_	NN|04341686-n|Artifact+
+16	.	.	.	.	_	7	punct	_	Fp|?|?

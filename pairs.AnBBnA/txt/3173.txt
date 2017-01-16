@@ -1,0 +1,31 @@
+sentence A = A young boy is playing a wind instrument.
+sentence B = A kid is practicing with an instrument.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,Human+,Entity+,DramaticActing+,Wind=,MusicalInstrument=
+CONCEPTS B: HumanChild=,Entity+,Position+,Device+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	boy	boy	NOUN	NN	_	5	nsubj	_	NN|10285313-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	wind	wind	NOUN	NN	_	8	nn	_	NN|11525955-n|Wind=
+8	instrument	instrument	NOUN	NN	_	5	dobj	_	NN|03800933-n|MusicalInstrument=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	kid	kid	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	practicing	practice	VERB	VBG	_	0	ROOT	_	VBG|02568672-v|Position+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	an	a	DET	DT	_	7	det	_	DT|?|?
+7	instrument	instrument	NOUN	NN	_	5	pobj	_	NN|00173761-n|Device+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

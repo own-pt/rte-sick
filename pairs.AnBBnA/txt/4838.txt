@@ -1,0 +1,29 @@
+sentence A = A girl is messing up her hair.
+sentence B = A girl is filing her nails.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Eating+,Increasing+,Hair=
+CONCEPTS B: Human+,Entity+,RegulatoryProcess+,Nail=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	messing	mess	VERB	VBG	_	0	ROOT	_	VBG|01176079-v|Eating+
+5	up	up	PRT	RP	_	4	prt	_	RP|00097011-r|Increasing+
+6	her	her	PRON	PRP$	_	7	poss	_	PRP$|?|?
+7	hair	hair	NOUN	NN	_	4	dobj	_	NN|05254795-n|Hair=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	filing	file	VERB	VBG	_	0	ROOT	_	VBG|01001857-v|RegulatoryProcess+
+5	her	her	PRON	PRP$	_	6	poss	_	PRP$|?|?
+6	nails	nail	NOUN	NNS	_	4	dobj	_	NNS|03804744-n|Nail=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

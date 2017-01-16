@@ -1,0 +1,35 @@
+sentence A = A white bird is swiftly taking off from the water.
+sentence B = A white bird is landing swiftly in the water.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: White=,Bird=,Entity+,SubjectiveAssessmentAttribute+,PhysicalAttribute+,Water=
+CONCEPTS B: White=,Bird=,Entity+,Landing+,SubjectiveAssessmentAttribute+,Water=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	bird	bird	NOUN	NN	_	6	nsubj	_	NN|01503061-n|Bird=
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	swiftly	swiftly	ADV	RB	_	6	advmod	_	RB|00053274-r|SubjectiveAssessmentAttribute+
+6	taking	take	VERB	VBG	_	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
+7	off	off	PRT	RP	_	6	prt	_	RP|00232936-r|?
+8	from	from	ADP	IN	_	6	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	water	water	NOUN	NN	_	8	pobj	_	NN|14845743-n|Water=
+11	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	bird	bird	NOUN	NN	_	5	nsubj	_	NN|01503061-n|Bird=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	landing	land	VERB	VBG	_	0	ROOT	_	VBG|01979901-v|Landing+
+6	swiftly	swiftly	ADV	RB	_	5	advmod	_	RB|00053274-r|SubjectiveAssessmentAttribute+
+7	in	in	ADP	IN	_	5	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	water	water	NOUN	NN	_	7	pobj	_	NN|14845743-n|Water=
+10	.	.	.	.	_	5	punct	_	Fp|?|?

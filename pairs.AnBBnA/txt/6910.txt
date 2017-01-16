@@ -1,0 +1,68 @@
+sentence A = A woman is wearing a shirt, which is blue, with a white vest and a white cap and is talking and marching.
+sentence B = A woman wearing a blue and white uniform with a white and blue hat is keeping her mouth open and is near others dressed in the same fashion.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Putting+,Shirt=,Entity+,SubjectiveStrongNegativeAttribute+,White=,Clothing+,White=,Device+,Entity+,Speaking+,Walking+
+CONCEPTS B: Woman=,CoveringFn=,Blue=,White=,UniformClothing=,White=,Blue=,Hat+,Entity+,Attribute+,Mouth+,SubjectiveWeakPositiveAttribute+,Entity+,Dressing+,equal+,SubjectiveAssessmentAttribute+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	shirt	shirt	NOUN	NN	_	4	dobj	_	NN|04197391-n|Shirt=
+7	,	,	.	,	_	6	punct	_	Fc|?|?
+8	which	which	DET	WDT	_	10	nsubj	_	WDT|?|?
+9	is	be	VERB	VBZ	_	10	cop	_	VBZ|02604760-v|Entity+
+10	blue	blue	ADJ	JJ	_	6	rcmod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+11	,	,	.	,	_	10	punct	_	Fc|?|?
+12	with	with	ADP	IN	_	10	conj	_	IN|?|?
+13	a	a	DET	DT	_	15	det	_	DT|?|?
+14	white	white	ADJ	JJ	_	15	amod	_	JJ|00393105-a|White=
+15	vest	vest	NOUN	NN	_	12	pobj	_	NN|04531873-n|Clothing+
+16	and	and	CONJ	CC	_	15	cc	_	CC|?|?
+17	a	a	DET	DT	_	19	det	_	DT|?|?
+18	white	white	ADJ	JJ	_	19	amod	_	JJ|00393105-a|White=
+19	cap	cap	NOUN	NN	_	15	conj	_	NN|02954938-n|Device+
+20	and	and	CONJ	CC	_	10	cc	_	CC|?|?
+21	is	be	VERB	VBZ	_	22	aux	_	VBZ|02604760-v|Entity+
+22	talking	talk	VERB	VBG	_	10	conj	_	VBG|00941990-v|Speaking+
+23	and	and	CONJ	CC	_	22	cc	_	CC|?|?
+24	marching	march	VERB	VBG	_	22	conj	_	VBG|01919391-v|Walking+
+25	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	16	nsubj	_	NN|10787470-n|Woman=
+3	wearing	wear	VERB	VBG	_	2	partmod	_	VBG|00047745-v|CoveringFn=
+4	a	a	DET	DT	_	8	det	_	DT|?|?
+5	blue	blue	ADJ	JJ	_	8	amod	_	JJ|01606058-a|Blue=
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	white	white	ADJ	JJ	_	5	conj	_	JJ|00393105-a|White=
+8	uniform	uniform	NOUN	NN	_	3	dobj	_	NN|04509592-n|UniformClothing=
+9	with	with	ADP	IN	_	3	prep	_	IN|?|?
+10	a	a	DET	DT	_	14	det	_	DT|?|?
+11	white	white	ADJ	JJ	_	14	amod	_	JJ|00393105-a|White=
+12	and	and	CONJ	CC	_	11	cc	_	CC|?|?
+13	blue	blue	ADJ	JJ	_	11	conj	_	JJ|01606058-a|Blue=
+14	hat	hat	NOUN	NN	_	9	pobj	_	NN|03497657-n|Hat+
+15	is	be	VERB	VBZ	_	16	aux	_	VBZ|02604760-v|Entity+
+16	keeping	keep	VERB	VBG	_	0	ROOT	_	VBG|02202384-v|Attribute+
+17	her	her	PRON	PRP$	_	18	poss	_	PRP$|?|?
+18	mouth	mouth	NOUN	NN	_	16	dobj	_	NN|05302499-n|Mouth+
+19	open	open	ADJ	JJ	_	16	dep	_	JJ|01652902-a|SubjectiveWeakPositiveAttribute+
+20	and	and	CONJ	CC	_	16	cc	_	CC|?|?
+21	is	be	VERB	VBZ	_	23	cop	_	VBZ|02604760-v|Entity+
+22	near	near	ADP	IN	_	23	advmod	_	IN|?|?
+23	others	other	NOUN	NNS	_	16	conj	_	NNS|?|?
+24	dressed	dress	VERB	VBN	_	23	partmod	_	VBN|00046534-v|Dressing+
+25	in	in	ADP	IN	_	24	prep	_	IN|?|?
+26	the	the	DET	DT	_	28	det	_	DT|?|?
+27	same	same	ADJ	JJ	_	28	amod	_	JJ|02062670-a|equal+
+28	fashion	fashion	NOUN	NN	_	25	pobj	_	NN|04928903-n|SubjectiveAssessmentAttribute+
+29	.	.	.	.	_	16	punct	_	Fp|?|?

@@ -1,0 +1,45 @@
+sentence A = A man in a blue jumpsuit is failing to perform a wheelie on a motorcycle.
+sentence B = A man in a blue jumpsuit is courageously performing a wheelie on a motorcycle.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Man=,SubjectiveStrongNegativeAttribute+,Clothing+,Entity+,NormativeAttribute+,IntentionalProcess+,PassengerVehicle+
+CONCEPTS B: Man=,SubjectiveStrongNegativeAttribute+,Clothing+,Entity+,SubjectiveAssessmentAttribute+,IntentionalProcess+,PassengerVehicle+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	blue	blue	ADJ	JJ	_	6	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+6	jumpsuit	jumpsuit	NOUN	NN	_	3	pobj	_	NN|03605598-n|Clothing+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	failing	fail	VERB	VBG	_	0	ROOT	_	VBG|02523521-v|NormativeAttribute+
+9	to	to	PRT	TO	_	10	aux	_	TO|?|?
+10	perform	perform	VERB	VB	_	8	xcomp	_	VB|01712704-v|IntentionalProcess+
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	wheelie	wheelie	NOUN	NN	_	10	dobj	_	NN|?|?
+13	on	on	ADP	IN	_	10	prep	_	IN|?|?
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	motorcycle	motorcycle	NOUN	NN	_	13	pobj	_	NN|03790512-n|PassengerVehicle+
+16	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	9	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	blue	blue	ADJ	JJ	_	6	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+6	jumpsuit	jumpsuit	NOUN	NN	_	3	pobj	_	NN|03605598-n|Clothing+
+7	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+8	courageously	courageously	ADV	RB	_	9	advmod	_	RB|00172980-r|SubjectiveAssessmentAttribute+
+9	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	wheelie	wheelie	NOUN	NN	_	9	dobj	_	NN|?|?
+12	on	on	ADP	IN	_	9	prep	_	IN|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	motorcycle	motorcycle	NOUN	NN	_	12	pobj	_	NN|03790512-n|PassengerVehicle+
+15	.	.	.	.	_	9	punct	_	Fp|?|?

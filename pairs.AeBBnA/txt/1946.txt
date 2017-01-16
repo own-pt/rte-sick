@@ -1,0 +1,35 @@
+sentence A = One small child is greedily drinking water from the cup.
+sentence B = One small child is drinking water from the cup.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,SubjectiveAssessmentAttribute+,Drinking=,Water=,Cup=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,Drinking+,Water=,Cup=
+
+CONLL A:
+
+1	One	1	NUM	CD	_	3	num	_	Z|?|?
+2	small	small	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	child	child	NOUN	NN	_	6	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	greedily	greedily	ADV	RB	_	6	advmod	_	RB|00276391-r|SubjectiveAssessmentAttribute+
+6	drinking	drink	VERB	VBG	_	0	ROOT	_	VBG|01170052-v|Drinking=
+7	water	water	NOUN	NN	_	6	dobj	_	NN|14845743-n|Water=
+8	from	from	ADP	IN	_	6	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	cup	cup	NOUN	NN	_	8	pobj	_	NN|03147509-n|Cup=
+11	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	One	1	NUM	CD	_	3	num	_	Z|?|?
+2	small	small	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	child	child	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	drinking	drink	VERB	VBG	_	0	ROOT	_	VBG|01171183-v|Drinking+
+6	water	water	NOUN	NN	_	5	dobj	_	NN|14845743-n|Water=
+7	from	from	ADP	IN	_	5	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	cup	cup	NOUN	NN	_	7	pobj	_	NN|03147509-n|Cup=
+10	.	.	.	.	_	5	punct	_	Fp|?|?

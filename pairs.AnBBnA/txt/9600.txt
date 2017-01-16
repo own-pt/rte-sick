@@ -1,0 +1,30 @@
+sentence A = A yellow dog is running up a sandy path.
+sentence B = A golden retriever is running.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveAssessmentAttribute+,Canine+,Entity+,Attribute+,Increasing+,part+,Transitway+
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Canine+,Entity+,Hunting+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	yellow	yellow	ADJ	JJ	_	3	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	up	up	PRT	RP	_	5	prt	_	RP|00097011-r|Increasing+
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	sandy	sandy	ADJ	JJ	_	9	amod	_	JJ|00142040-a|part+
+9	path	path	NOUN	NN	_	5	dobj	_	NN|08616311-n|Transitway+
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	golden	golden	ADJ	JJ	_	3	amod	_	JJ|00670938-a|SubjectiveWeakPositiveAttribute+
+3	retriever	retriever	NOUN	NN	_	5	nsubj	_	NN|02099029-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01143838-v|Hunting+
+6	.	.	.	.	_	5	punct	_	Fp|?|?

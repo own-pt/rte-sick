@@ -1,0 +1,32 @@
+sentence A = A tan dog is resting near a brush.
+sentence B = A tan dog is running through the brush.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: ColorAttribute+,Canine+,Entity+,PastFn=,Device+
+CONCEPTS B: ColorAttribute+,Canine+,Entity+,Attribute+,Device+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	tan	tan	ADJ	JJ	_	3	amod	_	JJ|00384533-a|ColorAttribute+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	resting	rest	VERB	VBG	_	0	ROOT	_	VBG|00117985-v|PastFn=
+6	near	near	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	brush	brush	NOUN	NN	_	6	pobj	_	NN|02908217-n|Device+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	tan	tan	ADJ	JJ	_	3	amod	_	JJ|00384533-a|ColorAttribute+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	through	through	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	brush	brush	NOUN	NN	_	6	pobj	_	NN|02908217-n|Device+
+9	.	.	.	.	_	5	punct	_	Fp|?|?

@@ -1,0 +1,35 @@
+sentence A = A woman is being massaged by a man.
+sentence B = A man is screwing a piece of wood to a wall.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Entity+,TherapeuticProcess+,Man=
+CONCEPTS B: GamePiece+,Entity+,Attaching+,GamePiece+,Wood=,Wall=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	5	nsubjpass	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	massaged	massage	VERB	VBN	_	0	ROOT	_	VBN|01232738-v|TherapeuticProcess+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	man	man	NOUN	NN	_	6	pobj	_	NN|10287213-n|Man=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|03716327-n|GamePiece+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	screwing	screw	VERB	VBG	_	0	ROOT	_	VBG|01353169-v|Attaching+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	piece	piece	NOUN	NN	_	4	dobj	_	NN|03716327-n|GamePiece+
+7	of	of	ADP	IN	_	6	prep	_	IN|?|?
+8	wood	wood	NOUN	NN	_	7	pobj	_	NN|15098161-n|Wood=
+9	to	to	ADP	IN	_	4	prep	_	TO|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	wall	wall	NOUN	NN	_	9	pobj	_	NN|04546855-n|Wall=
+12	.	.	.	.	_	4	punct	_	Fp|?|?

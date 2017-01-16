@@ -1,0 +1,40 @@
+sentence A = The rider is biking in the rain and wearing a red jacket.
+sentence B = The rider is biking in the snow and wearing a red jacket.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Position+,Entity+,Raining+,RecreationOrExercise+,Red=,Coat=
+CONCEPTS B: SocialRole+,Entity+,Snowing=,CoveringFn=,Red=,Coat=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	rider	rider	NOUN	NN	_	4	nsubj	_	NN|10529965-n|Position+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	biking	biking	VERB	VBG	_	0	ROOT	_	VBG|?|?
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	rain	rain	NOUN	NN	_	5	pobj	_	NN|11501381-n|Raining+
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	wearing	wear	VERB	VBG	_	4	conj	_	VBG|00075021-v|RecreationOrExercise+
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	red	red	ADJ	JJ	_	12	amod	_	JJ|00381097-a|Red=
+12	jacket	jacket	NOUN	NN	_	9	dobj	_	NN|03589791-n|Coat=
+13	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	rider	rider	NOUN	NN	_	4	nsubj	_	NN|10403876-n|SocialRole+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	biking	biking	VERB	VBG	_	0	ROOT	_	VBG|?|?
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	snow	snow	NOUN	NN	_	5	pobj	_	NN|15043763-n|Snowing=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	wearing	wear	VERB	VBG	_	4	conj	_	VBG|00047745-v|CoveringFn=
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	red	red	ADJ	JJ	_	12	amod	_	JJ|00381097-a|Red=
+12	jacket	jacket	NOUN	NN	_	9	dobj	_	NN|03589791-n|Coat=
+13	.	.	.	.	_	4	punct	_	Fp|?|?

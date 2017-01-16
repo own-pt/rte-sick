@@ -1,0 +1,44 @@
+sentence A = A red and brown dog is digging its nose inside the holiday gift bag.
+sentence B = The red and brown dog is digging its nose inside a holiday gift bag.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Red=,Human+,Canine+,Entity+,Making+,Nose+,Vacationing=,PsychologicalAttribute+,Container+
+CONCEPTS B: Red=,Human+,Canine+,Entity+,Making+,Nose+,Vacationing=,PsychologicalAttribute+,Container+
+
+CONLL A:
+
+1	A	a	DET	DT	_	5	det	_	DT|?|?
+2	red	red	ADJ	JJ	_	5	amod	_	JJ|00381097-a|Red=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	brown	brown	ADJ	JJ	_	2	conj	_	JJ|00245112-a|Human+
+5	dog	dog	NOUN	NN	_	7	nsubj	_	NN|02084071-n|Canine+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	digging	dig	VERB	VBG	_	0	ROOT	_	VBG|01309701-v|Making+
+8	its	its	PRON	PRP$	_	9	poss	_	PRP$|?|?
+9	nose	nose	NOUN	NN	_	7	dobj	_	NN|05598147-n|Nose+
+10	inside	inside	ADP	IN	_	7	prep	_	IN|?|?
+11	the	the	DET	DT	_	14	det	_	DT|?|?
+12	holiday	holiday	NOUN	NN	_	14	nn	_	NN|15137890-n|Vacationing=
+13	gift	gift	NOUN	NN	_	14	nn	_	NN|05624042-n|PsychologicalAttribute+
+14	bag	bag	NOUN	NN	_	10	pobj	_	NN|02773037-n|Container+
+15	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	5	det	_	DT|?|?
+2	red	red	ADJ	JJ	_	5	amod	_	JJ|00381097-a|Red=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	brown	brown	ADJ	JJ	_	2	conj	_	JJ|00245112-a|Human+
+5	dog	dog	NOUN	NN	_	7	nsubj	_	NN|02084071-n|Canine+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	digging	dig	VERB	VBG	_	0	ROOT	_	VBG|01309701-v|Making+
+8	its	its	PRON	PRP$	_	9	poss	_	PRP$|?|?
+9	nose	nose	NOUN	NN	_	7	dobj	_	NN|05598147-n|Nose+
+10	inside	inside	ADP	IN	_	7	prep	_	IN|?|?
+11	a	a	DET	DT	_	14	det	_	DT|?|?
+12	holiday	holiday	NOUN	NN	_	14	nn	_	NN|15137890-n|Vacationing=
+13	gift	gift	NOUN	NN	_	14	nn	_	NN|05624042-n|PsychologicalAttribute+
+14	bag	bag	NOUN	NN	_	10	pobj	_	NN|02773037-n|Container+
+15	.	.	.	.	_	7	punct	_	Fp|?|?

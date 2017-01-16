@@ -1,0 +1,33 @@
+sentence A = There is no girl playing the piano.
+sentence B = A little girl is playing a grand piano on stage.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Human+,DramaticActing+,Piano=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,DramaticActing+,SubjectiveWeakPositiveAttribute+,Piano=,Attribute+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	girl	girl	NOUN	NN	_	2	nsubj	_	NN|10129825-n|Human+
+5	playing	play	VERB	VBG	_	4	partmod	_	VBG|01719302-v|DramaticActing+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	piano	piano	NOUN	NN	_	5	dobj	_	NN|03928116-n|Piano=
+8	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	grand	grand	ADJ	JJ	_	8	amod	_	JJ|02024928-a|SubjectiveWeakPositiveAttribute+
+8	piano	piano	NOUN	NN	_	5	dobj	_	NN|03928116-n|Piano=
+9	on	on	ADP	IN	_	5	prep	_	IN|?|?
+10	stage	stage	NOUN	NN	_	9	pobj	_	NN|13939892-n|Attribute+
+11	.	.	.	.	_	5	punct	_	Fp|?|?

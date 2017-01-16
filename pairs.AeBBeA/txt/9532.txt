@@ -1,0 +1,45 @@
+sentence A = Two race cars are on a road in front of a grassy parking area.
+sentence B = Two cars for racing are on a road in front of a grassy parking area.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Racing=,Automobile=,Entity+,Roadway+,FrontFn=,FloweringPlant+,Region+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Automobile=,Motion+,Entity+,Roadway+,FrontFn=,FloweringPlant+,Region+,SubjectiveAssessmentAttribute+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	race	race	NOUN	NN	_	3	nn	_	NN|07458453-n|Racing=
+3	cars	car	NOUN	NNS	_	4	nsubj	_	NNS|02958343-n|Automobile=
+4	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	road	road	NOUN	NN	_	5	pobj	_	NN|04096066-n|Roadway+
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	front	front	NOUN	NN	_	8	pobj	_	NN|08573472-n|FrontFn=
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	14	det	_	DT|?|?
+12	grassy	grassy	ADJ	JJ	_	14	amod	_	JJ|00209620-a|FloweringPlant+
+13	parking	parking	NOUN	NN	_	14	nn	_	NN|13778671-n|Region+
+14	area	area	NOUN	NN	_	10	pobj	_	NN|14514039-n|SubjectiveAssessmentAttribute+
+15	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	cars	car	NOUN	NNS	_	5	nsubj	_	NNS|02958343-n|Automobile=
+3	for	for	ADP	IN	_	2	prep	_	IN|?|?
+4	racing	race	NOUN	NN	_	3	pobj	_	VBG|02058994-v|Motion+
+5	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	road	road	NOUN	NN	_	6	pobj	_	NN|04096066-n|Roadway+
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	front	front	NOUN	NN	_	9	pobj	_	NN|08573472-n|FrontFn=
+11	of	of	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	15	det	_	DT|?|?
+13	grassy	grassy	ADJ	JJ	_	15	amod	_	JJ|00209620-a|FloweringPlant+
+14	parking	parking	NOUN	NN	_	15	nn	_	NN|13778671-n|Region+
+15	area	area	NOUN	NN	_	11	pobj	_	NN|14514039-n|SubjectiveAssessmentAttribute+
+16	.	.	.	.	_	5	punct	_	Fp|?|?

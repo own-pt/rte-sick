@@ -1,0 +1,40 @@
+sentence A = The south African plane is flying in a blue sky.
+sentence B = The plane, which is south African, is flying in a blue sky.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: South=,Continent@,Airplane=,Entity+,FlyingAircraft=,SubjectiveStrongNegativeAttribute+,SpaceRegion=
+CONCEPTS B: Airplane=,Entity+,South=,Continent@,Entity+,FlyingAircraft=,SubjectiveStrongNegativeAttribute+,SpaceRegion=
+
+CONLL A:
+
+1	The	the	DET	DT	_	4	det	_	DT|?|?
+2	south	south	ADJ	JJ	_	4	amod	_	JJ|01602330-a|South=
+3	African	african	ADJ	JJ	_	4	amod	_	JJ|02941790-a|Continent@
+4	plane	plane	NOUN	NN	_	6	nsubj	_	NN|02691156-n|Airplane=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	flying	fly	VERB	VBG	_	0	ROOT	_	VBG|01941093-v|FlyingAircraft=
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	blue	blue	ADJ	JJ	_	10	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+10	sky	sky	NOUN	NN	_	7	pobj	_	NN|09436708-n|SpaceRegion=
+11	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	plane	plane	NOUN	NN	_	10	nsubj	_	NN|02691156-n|Airplane=
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	which	which	DET	WDT	_	7	nsubj	_	WDT|?|?
+5	is	be	VERB	VBZ	_	7	cop	_	VBZ|02604760-v|Entity+
+6	south	south	ADV	RB	_	7	advmod	_	RB|00243938-r|South=
+7	African	african	ADJ	JJ	_	2	rcmod	_	JJ|02941790-a|Continent@
+8	,	,	.	,	_	2	punct	_	Fc|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	flying	fly	VERB	VBG	_	0	ROOT	_	VBG|01941093-v|FlyingAircraft=
+11	in	in	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	14	det	_	DT|?|?
+13	blue	blue	ADJ	JJ	_	14	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+14	sky	sky	NOUN	NN	_	11	pobj	_	NN|09436708-n|SpaceRegion=
+15	.	.	.	.	_	10	punct	_	Fp|?|?

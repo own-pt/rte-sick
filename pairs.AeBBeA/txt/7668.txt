@@ -1,0 +1,36 @@
+sentence A = A man is performing a handstand on the beach.
+sentence B = A handstand is being performed by a man on the beach.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Hominid=,Entity+,IntentionalProcess+,BodyMotion+,ShoreArea=
+CONCEPTS B: BodyMotion+,Entity+,Entity+,IntentionalProcess+,Hominid=,ShoreArea=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	handstand	handstand	NOUN	NN	_	4	dobj	_	NN|00436187-n|BodyMotion+
+7	on	on	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	beach	beach	NOUN	NN	_	7	pobj	_	NN|09217230-n|ShoreArea=
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	handstand	handstand	NOUN	NN	_	5	nsubjpass	_	NN|00436187-n|BodyMotion+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	performed	perform	VERB	VBN	_	0	ROOT	_	VBN|01712704-v|IntentionalProcess+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	man	man	NOUN	NN	_	6	pobj	_	NN|02472293-n|Hominid=
+9	on	on	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	beach	beach	NOUN	NN	_	9	pobj	_	NN|09217230-n|ShoreArea=
+12	.	.	.	.	_	5	punct	_	Fp|?|?

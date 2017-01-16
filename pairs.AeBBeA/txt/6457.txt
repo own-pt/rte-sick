@@ -1,0 +1,38 @@
+sentence A = The orange rescue boat is rushing across the water.
+sentence B = The rescue boat, which is orange, is rushing across the water.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: OrangeColor+,Removing+,WaterVehicle=,Entity+,Translocation+,Water=
+CONCEPTS B: Removing+,WaterVehicle=,Entity+,OrangeColor+,Entity+,Translocation+,Water=
+
+CONLL A:
+
+1	The	the	DET	DT	_	4	det	_	DT|?|?
+2	orange	orange	ADJ	JJ	_	4	amod	_	NN|04965179-n|OrangeColor+
+3	rescue	rescue	NOUN	NN	_	4	nn	_	NN|00093483-n|Removing+
+4	boat	boat	NOUN	NN	_	6	nsubj	_	NN|02858304-n|WaterVehicle=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	rushing	rush	VERB	VBG	_	0	ROOT	_	VBG|00459498-v|Translocation+
+7	across	across	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	water	water	NOUN	NN	_	7	pobj	_	NN|14845743-n|Water=
+10	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	rescue	rescue	NOUN	NN	_	3	nn	_	NN|00093483-n|Removing+
+3	boat	boat	NOUN	NN	_	10	nsubj	_	NN|02858304-n|WaterVehicle=
+4	,	,	.	,	_	3	punct	_	Fc|?|?
+5	which	which	DET	WDT	_	7	nsubj	_	WDT|?|?
+6	is	be	VERB	VBZ	_	7	cop	_	VBZ|02604760-v|Entity+
+7	orange	orange	ADJ	JJ	_	3	rcmod	_	NN|04965179-n|OrangeColor+
+8	,	,	.	,	_	3	punct	_	Fc|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	rushing	rush	VERB	VBG	_	0	ROOT	_	VBG|00459498-v|Translocation+
+11	across	across	ADP	IN	_	10	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	water	water	NOUN	NN	_	11	pobj	_	NN|14845743-n|Water=
+14	.	.	.	.	_	10	punct	_	Fp|?|?

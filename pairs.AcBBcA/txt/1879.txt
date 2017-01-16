@@ -1,0 +1,32 @@
+sentence A = The food on the trays isn't being eaten by the kittens.
+sentence B = Some kittens are eating.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: SubjectiveAssessmentAttribute+,Tray=,Entity+,not=,Entity+,Eating=,Feline+
+CONCEPTS B: Feline+,Entity+,Process+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	food	food	NOUN	NN	_	9	nsubjpass	_	NN|05811214-n|SubjectiveAssessmentAttribute+
+3	on	on	ADP	IN	_	2	prep	_	IN|?|?
+4	the	the	DET	DT	_	5	det	_	DT|?|?
+5	trays	tray	NOUN	NNS	_	3	pobj	_	NNS|04476259-n|Tray=
+6	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+7	not	not	ADV	RB	_	9	neg	_	RB|00024073-r|not=
+8	being	be	VERB	VBG	_	9	auxpass	_	VBG|02604760-v|Entity+
+9	eaten	eat	VERB	VBN	_	0	ROOT	_	VBN|01168468-v|Eating=
+10	by	by	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	kittens	kitten	NOUN	NNS	_	10	pobj	_	NNS|02122948-n|Feline+
+13	.	.	.	.	_	9	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	kittens	kitten	NOUN	NNS	_	4	nsubj	_	NNS|02122948-n|Feline+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+5	.	.	.	.	_	4	punct	_	Fp|?|?

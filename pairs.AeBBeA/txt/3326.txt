@@ -1,0 +1,28 @@
+sentence A = The man is slicing bread.
+sentence B = Bread is being sliced by the man.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Hominid=,Entity+,Separating+,BreadOrBiscuit+
+CONCEPTS B: BreadOrBiscuit+,Entity+,Entity+,Separating+,Hominid=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	bread	bread	NOUN	NN	_	4	dobj	_	NN|07679356-n|BreadOrBiscuit+
+6	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Bread	bread	NOUN	NNP	_	4	nsubjpass	_	NN|07679356-n|BreadOrBiscuit+
+2	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+3	being	be	VERB	VBG	_	4	auxpass	_	VBG|02604760-v|Entity+
+4	sliced	slice	VERB	VBN	_	0	ROOT	_	VBN|01254477-v|Separating+
+5	by	by	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	man	man	NOUN	NN	_	5	pobj	_	NN|02472293-n|Hominid=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

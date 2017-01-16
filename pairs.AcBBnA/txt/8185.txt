@@ -1,0 +1,36 @@
+sentence A = water from the faucet is being drunk by a yellow dog.
+sentence B = The yellow dog is drinking water from a bottle.
+entailm AB = A_contradicts_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Water=,Device+,Entity+,Entity+,Drinking+,SubjectiveAssessmentAttribute+,Canine+
+CONCEPTS B: SubjectiveAssessmentAttribute+,Canine+,Entity+,Drinking+,Water=,Bottle=
+
+CONLL A:
+
+1	water	water	NOUN	NN	_	7	nsubjpass	_	NN|14845743-n|Water=
+2	from	from	ADP	IN	_	1	prep	_	IN|?|?
+3	the	the	DET	DT	_	4	det	_	DT|?|?
+4	faucet	faucet	NOUN	NN	_	2	pobj	_	NN|03325088-n|Device+
+5	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+6	being	be	VERB	VBG	_	7	auxpass	_	VBG|02604760-v|Entity+
+7	drunk	drink	VERB	VBN	_	0	ROOT	_	VBN|01171183-v|Drinking+
+8	by	by	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	yellow	yellow	ADJ	JJ	_	11	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+11	dog	dog	NOUN	NN	_	8	pobj	_	NN|02084071-n|Canine+
+12	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	yellow	yellow	ADJ	JJ	_	3	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	drinking	drink	VERB	VBG	_	0	ROOT	_	VBG|01171183-v|Drinking+
+6	water	water	NOUN	NN	_	5	dobj	_	NN|14845743-n|Water=
+7	from	from	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	bottle	bottle	NOUN	NN	_	7	pobj	_	NN|02876657-n|Bottle=
+10	.	.	.	.	_	5	punct	_	Fp|?|?

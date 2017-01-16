@@ -1,0 +1,33 @@
+sentence A = There is no rabbit playing with a toy rabbit.
+sentence B = A rabbit is playing with a toy rabbit.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Rabbit=,DramaticActing+,RecreationOrExerciseDevice+,Rabbit=
+CONCEPTS B: Rabbit=,Entity+,DramaticActing+,RecreationOrExerciseDevice+,Rabbit=
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	rabbit	rabbit	NOUN	NN	_	2	nsubj	_	NN|02324045-n|Rabbit=
+5	playing	play	VERB	VBG	_	4	partmod	_	VBG|01719302-v|DramaticActing+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	toy	toy	NOUN	NN	_	9	nn	_	NN|03964744-n|RecreationOrExerciseDevice+
+9	rabbit	rabbit	NOUN	NN	_	6	pobj	_	NN|02324045-n|Rabbit=
+10	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	rabbit	rabbit	NOUN	NN	_	4	nsubj	_	NN|02324045-n|Rabbit=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	toy	toy	NOUN	NN	_	8	nn	_	NN|03964744-n|RecreationOrExerciseDevice+
+8	rabbit	rabbit	NOUN	NN	_	5	pobj	_	NN|02324045-n|Rabbit=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,29 @@
+sentence A = There is no person slicing an onion.
+sentence B = A person is slicing an onion.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Human=,Separating+,FruitOrVegetable+
+CONCEPTS B: Human=,Entity+,Separating+,FruitOrVegetable+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	person	person	NOUN	NN	_	2	nsubj	_	NN|00007846-n|Human=
+5	slicing	slice	VERB	VBG	_	4	partmod	_	VBG|01254477-v|Separating+
+6	an	a	DET	DT	_	7	det	_	DT|?|?
+7	onion	onion	NOUN	NN	_	5	dobj	_	NN|12433081-n|FruitOrVegetable+
+8	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	an	a	DET	DT	_	6	det	_	DT|?|?
+6	onion	onion	NOUN	NN	_	4	dobj	_	NN|12433081-n|FruitOrVegetable+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

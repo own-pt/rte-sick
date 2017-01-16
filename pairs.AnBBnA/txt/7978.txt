@@ -1,0 +1,40 @@
+sentence A = Two poodles are in the snow and one is jumping.
+sentence B = A grey dog is jumping toward a black and white dog in the snow.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,Snowing=,Entity+,Ambulating=
+CONCEPTS B: Gray+,Canine+,Entity+,Ambulating=,Black=,White=,Canine+,Snowing=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	poodles	poodle	NOUN	NNS	_	3	nsubj	_	NNS|02113335-n|Canine+
+3	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	snow	snow	NOUN	NN	_	4	pobj	_	NN|15043763-n|Snowing=
+7	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+8	one	one	NUM	CD	_	10	nsubj	_	PRP|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	jumping	jump	VERB	VBG	_	3	conj	_	VBG|01963942-v|Ambulating=
+11	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	grey	grey	ADJ	JJ	_	3	amod	_	JJ|00389310-a|Gray+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+6	toward	toward	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	11	det	_	DT|?|?
+8	black	black	ADJ	JJ	_	11	amod	_	JJ|00392812-a|Black=
+9	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+10	white	white	ADJ	JJ	_	8	conj	_	JJ|00393105-a|White=
+11	dog	dog	NOUN	NN	_	6	pobj	_	NN|02084071-n|Canine+
+12	in	in	ADP	IN	_	5	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	snow	snow	NOUN	NN	_	12	pobj	_	NN|15043763-n|Snowing=
+15	.	.	.	.	_	5	punct	_	Fp|?|?

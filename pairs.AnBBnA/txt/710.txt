@@ -1,0 +1,42 @@
+sentence A = Two large persons are standing near a park bench and they have nothing between them.
+sentence B = A man and a woman are sitting comfortably on the bench.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,Human=,Entity+,PhysicalAttribute+,Park+,Seat+,Damaging+
+CONCEPTS B: Man=,Woman=,PhysicalAttribute+,SittingDown+,StateOfMind+,Seat+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	large	large	ADJ	JJ	_	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	persons	person	NOUN	NNS	_	5	nsubj	_	NNS|00007846-n|Human=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+6	near	near	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	park	park	NOUN	NN	_	9	nn	_	NN|08615374-n|Park+
+9	bench	bench	NOUN	NN	_	6	pobj	_	NN|02828884-n|Seat+
+10	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+11	they	they	PRON	PRP	_	12	nsubj	_	PRP|?|?
+12	have	have	VERB	VBP	_	5	conj	_	VBP|00065639-v|Damaging+
+13	nothing	nothing	NOUN	NN	_	12	dobj	_	PRP|?|?
+14	between	between	ADP	IN	_	13	prep	_	IN|?|?
+15	them	them	PRON	PRP	_	14	pobj	_	PRP|?|?
+16	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|10287213-n|Man=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	woman	woman	NOUN	NN	_	2	conj	_	NN|10787470-n|Woman=
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02655135-v|PhysicalAttribute+
+7	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+8	comfortably	comfortably	ADV	RB	_	7	advmod	_	RB|00155020-r|StateOfMind+
+9	on	on	ADP	IN	_	7	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	bench	bench	NOUN	NN	_	9	pobj	_	NN|02828884-n|Seat+
+12	.	.	.	.	_	7	punct	_	Fp|?|?

@@ -1,0 +1,29 @@
+sentence A = Two little boys are not wearing tuxedos.
+sentence B = Two little boys are wearing tuxedos.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,not=,Putting+,Clothing+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Putting+,Clothing+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	boys	boy	NOUN	NNS	_	6	nsubj	_	NNS|10285313-n|Human+
+4	are	be	VERB	VBP	_	6	aux	_	VBP|02604760-v|Entity+
+5	not	not	ADV	RB	_	6	neg	_	RB|00024073-r|not=
+6	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+7	tuxedos	tuxedo	NOUN	NNS	_	6	dobj	_	NNS|03201776-n|Clothing+
+8	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	boys	boy	NOUN	NNS	_	5	nsubj	_	NNS|10285313-n|Human+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+6	tuxedos	tuxedo	NOUN	NNS	_	5	dobj	_	NNS|03201776-n|Clothing+
+7	.	.	.	.	_	5	punct	_	Fp|?|?

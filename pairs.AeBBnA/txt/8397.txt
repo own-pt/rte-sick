@@ -1,0 +1,41 @@
+sentence A = A bald man in a band is playing guitar in the spotlight.
+sentence B = A bald man in a band is playing an instrument in the spotlight.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveAssessmentAttribute+,Hominid=,MusicalGroup+,Entity+,DramaticActing+,Guitar=,SubjectiveAssessmentAttribute+
+CONCEPTS B: SubjectiveAssessmentAttribute+,Hominid=,MusicalGroup+,Entity+,DramaticActing+,MusicalInstrument=,SubjectiveAssessmentAttribute+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	bald	bald	ADJ	JJ	_	3	amod	_	JJ|01705088-a|SubjectiveAssessmentAttribute+
+3	man	man	NOUN	NN	_	8	nsubj	_	NN|02472293-n|Hominid=
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	band	band	NOUN	NN	_	4	pobj	_	NN|08249038-n|MusicalGroup+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+9	guitar	guitar	NOUN	NN	_	8	dobj	_	NN|03467517-n|Guitar=
+10	in	in	ADP	IN	_	8	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	spotlight	spotlight	NOUN	NN	_	10	pobj	_	NN|14433769-n|SubjectiveAssessmentAttribute+
+13	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	bald	bald	ADJ	JJ	_	3	amod	_	JJ|01705088-a|SubjectiveAssessmentAttribute+
+3	man	man	NOUN	NN	_	8	nsubj	_	NN|02472293-n|Hominid=
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	band	band	NOUN	NN	_	4	pobj	_	NN|08249038-n|MusicalGroup+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+9	an	a	DET	DT	_	10	det	_	DT|?|?
+10	instrument	instrument	NOUN	NN	_	8	dobj	_	NN|03800933-n|MusicalInstrument=
+11	in	in	ADP	IN	_	8	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	spotlight	spotlight	NOUN	NN	_	11	pobj	_	NN|14433769-n|SubjectiveAssessmentAttribute+
+14	.	.	.	.	_	8	punct	_	Fp|?|?

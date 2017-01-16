@@ -1,0 +1,37 @@
+sentence A = Masked people are looking in the same direction in a forest.
+sentence B = A little girl is looking at a woman in costume.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Pretending+,GroupOfPeople=,Entity+,SubjectiveAssessmentAttribute+,equal+,DirectionalAttribute=,Forest=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,SubjectiveAssessmentAttribute+,Woman=,Clothing+
+
+CONLL A:
+
+1	Masked	mask	ADJ	JJ	_	2	amod	_	VBN|02158587-v|Pretending+
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	8	det	_	DT|?|?
+7	same	same	ADJ	JJ	_	8	amod	_	JJ|02062670-a|equal+
+8	direction	direction	NOUN	NN	_	5	pobj	_	NN|13827426-n|DirectionalAttribute=
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	forest	forest	NOUN	NN	_	9	pobj	_	NN|09284015-n|Forest=
+12	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+6	at	at	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	woman	woman	NOUN	NN	_	6	pobj	_	NN|10787470-n|Woman=
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	costume	costume	NOUN	NN	_	9	pobj	_	NN|03113657-n|Clothing+
+11	.	.	.	.	_	5	punct	_	Fp|?|?

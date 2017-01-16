@@ -1,0 +1,26 @@
+sentence A = Dogs are racing on a track.
+sentence B = A horse is racing.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,Motion+,StationaryArtifact+
+CONCEPTS B: Horse=,Entity+,Motion+
+
+CONLL A:
+
+1	Dogs	dog	NOUN	NNS	_	3	nsubj	_	NNS|02084071-n|Canine+
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	racing	race	VERB	VBG	_	0	ROOT	_	VBG|02058994-v|Motion+
+4	on	on	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	track	track	NOUN	NN	_	4	pobj	_	NN|04037625-n|StationaryArtifact+
+7	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	horse	horse	NOUN	NN	_	4	nsubj	_	NN|02374451-n|Horse=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	racing	race	VERB	VBG	_	0	ROOT	_	VBG|02058994-v|Motion+
+5	.	.	.	.	_	4	punct	_	Fp|?|?

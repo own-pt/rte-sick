@@ -1,0 +1,45 @@
+sentence A = A girl in a uniform, which is blue, is quickly raising her arm.
+sentence B = A girl in a uniform, which is blue, is raising her arm.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,UniformClothing=,Entity+,Blue=,Entity+,SubjectiveAssessmentAttribute+,Increasing+,Sleeve+
+CONCEPTS B: Human+,UniformClothing=,Entity+,Blue=,Entity+,Increasing+,Sleeve+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	13	nsubj	_	NN|10129825-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	uniform	uniform	NOUN	NN	_	3	pobj	_	NN|04509592-n|UniformClothing=
+6	,	,	.	,	_	5	punct	_	Fc|?|?
+7	which	which	DET	WDT	_	9	nsubj	_	WDT|?|?
+8	is	be	VERB	VBZ	_	9	cop	_	VBZ|02604760-v|Entity+
+9	blue	blue	ADJ	JJ	_	5	rcmod	_	JJ|01606058-a|Blue=
+10	,	,	.	,	_	5	punct	_	Fc|?|?
+11	is	be	VERB	VBZ	_	13	aux	_	VBZ|02604760-v|Entity+
+12	quickly	quickly	ADV	RB	_	13	advmod	_	RB|00085811-r|SubjectiveAssessmentAttribute+
+13	raising	raise	VERB	VBG	_	0	ROOT	_	VBG|00229605-v|Increasing+
+14	her	her	PRON	PRP$	_	15	poss	_	PRP$|?|?
+15	arm	arm	NOUN	NN	_	13	dobj	_	NN|04236377-n|Sleeve+
+16	.	.	.	.	_	13	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	12	nsubj	_	NN|10129825-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	uniform	uniform	NOUN	NN	_	3	pobj	_	NN|04509592-n|UniformClothing=
+6	,	,	.	,	_	5	punct	_	Fc|?|?
+7	which	which	DET	WDT	_	9	nsubj	_	WDT|?|?
+8	is	be	VERB	VBZ	_	9	cop	_	VBZ|02604760-v|Entity+
+9	blue	blue	ADJ	JJ	_	5	rcmod	_	JJ|01606058-a|Blue=
+10	,	,	.	,	_	5	punct	_	Fc|?|?
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	raising	raise	VERB	VBG	_	0	ROOT	_	VBG|00229605-v|Increasing+
+13	her	her	PRON	PRP$	_	14	poss	_	PRP$|?|?
+14	arm	arm	NOUN	NN	_	12	dobj	_	NN|04236377-n|Sleeve+
+15	.	.	.	.	_	12	punct	_	Fp|?|?

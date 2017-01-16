@@ -1,0 +1,37 @@
+sentence A = An Asian woman is holding a fur scarf.
+sentence B = An elegant woman is inside a crowd of people and is looking down.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: AsianEthnicity=,Woman=,Entity+,Process+,Fabric+,Clothing+
+CONCEPTS B: SubjectiveStrongPositiveAttribute+,Woman=,Entity+,SubjectiveAssessmentAttribute=,GroupOfPeople=,Entity+,SubjectiveAssessmentAttribute+,earlier+
+
+CONLL A:
+
+1	An	a	DET	DT	_	3	det	_	DT|?|?
+2	Asian	asian	ADJ	JJ	_	3	amod	_	JJ|02968525-a|AsianEthnicity=
+3	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|02700867-v|Process+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	fur	fur	NOUN	NN	_	8	nn	_	NN|14764061-n|Fabric+
+8	scarf	scarf	NOUN	NN	_	5	dobj	_	NN|04143897-n|Clothing+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	An	a	DET	DT	_	3	det	_	DT|?|?
+2	elegant	elegant	ADJ	JJ	_	3	amod	_	JJ|00849357-a|SubjectiveStrongPositiveAttribute+
+3	woman	woman	NOUN	NN	_	7	nsubj	_	NN|10787470-n|Woman=
+4	is	be	VERB	VBZ	_	7	cop	_	VBZ|02604760-v|Entity+
+5	inside	inside	ADP	IN	_	7	advmod	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	crowd	crowd	NOUN	NN	_	0	ROOT	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	people	people	NOUN	NNS	_	8	pobj	_	NNS|07942152-n|GroupOfPeople=
+10	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	looking	look	VERB	VBG	_	7	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+13	down	down	PRT	RP	_	12	advmod	_	RP|00096089-r|earlier+
+14	.	.	.	.	_	7	punct	_	Fp|?|?

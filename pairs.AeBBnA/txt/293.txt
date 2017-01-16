@@ -1,0 +1,31 @@
+sentence A = Two young girls are sitting on the ground.
+sentence B = Two girls are sitting on the ground.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,Human+,PhysicalAttribute+,SittingDown+,LandArea=
+CONCEPTS B: Human+,PhysicalAttribute+,SittingDown+,LandArea=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girls	girl	NOUN	NNS	_	5	nsubj	_	NNS|10129825-n|Human+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	ground	ground	NOUN	NN	_	6	pobj	_	NN|09334396-n|LandArea=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	girls	girl	NOUN	NNS	_	4	nsubj	_	NNS|10129825-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	ground	ground	NOUN	NN	_	5	pobj	_	NN|09334396-n|LandArea=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

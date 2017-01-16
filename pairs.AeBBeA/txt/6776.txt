@@ -1,0 +1,46 @@
+sentence A = A black dog in the snow is jumping off the ground and catching a stick.
+sentence B = A black dog in the snow is leaping off the ground and catching a stick.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Black=,Canine+,Snowing=,Entity+,Ambulating=,LandArea=,Grabbing+,Plant+
+CONCEPTS B: Black=,Canine+,Snowing=,Entity+,Ambulating=,LandArea=,Grabbing+,Plant+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	dog	dog	NOUN	NN	_	8	nsubj	_	NN|02084071-n|Canine+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	snow	snow	NOUN	NN	_	4	pobj	_	NN|15043763-n|Snowing=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+9	off	off	PRT	RP	_	8	prt	_	RP|00232936-r|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	ground	ground	NOUN	NN	_	8	dobj	_	NN|09334396-n|LandArea=
+12	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+13	catching	catch	VERB	VBG	_	8	conj	_	VBG|01439190-v|Grabbing+
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	stick	stick	NOUN	NN	_	13	dobj	_	NN|04317420-n|Plant+
+16	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	dog	dog	NOUN	NN	_	8	nsubj	_	NN|02084071-n|Canine+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	snow	snow	NOUN	NN	_	4	pobj	_	NN|15043763-n|Snowing=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	leaping	leap	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+9	off	off	PRT	RP	_	8	prt	_	RP|00232936-r|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	ground	ground	NOUN	NN	_	8	dobj	_	NN|09334396-n|LandArea=
+12	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+13	catching	catch	VERB	VBG	_	8	conj	_	VBG|01439190-v|Grabbing+
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	stick	stick	NOUN	NN	_	13	dobj	_	NN|04317420-n|Plant+
+16	.	.	.	.	_	8	punct	_	Fp|?|?

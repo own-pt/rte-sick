@@ -1,0 +1,35 @@
+sentence A = A young child is wearing a white coat and playing a game.
+sentence B = The child is playing with toys indoors.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,HumanChild=,Entity+,RecreationOrExercise+,White=,Coat=,DramaticActing+,Game=
+CONCEPTS B: HumanChild=,Entity+,DramaticActing+,RecreationOrExerciseDevice+,Indoors+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	child	child	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	white	white	ADJ	JJ	_	8	amod	_	JJ|00393105-a|White=
+8	coat	coat	NOUN	NN	_	5	dobj	_	NN|03057021-n|Coat=
+9	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+10	playing	play	VERB	VBG	_	5	conj	_	VBG|01719302-v|DramaticActing+
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	game	game	NOUN	NN	_	10	dobj	_	NN|00455599-n|Game=
+13	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	toys	toy	NOUN	NNS	_	5	pobj	_	NNS|03964744-n|RecreationOrExerciseDevice+
+7	indoors	indoors	ADV	RB	_	4	advmod	_	RB|00110533-r|Indoors+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

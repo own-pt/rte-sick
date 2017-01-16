@@ -1,0 +1,45 @@
+sentence A = The game of basketball consists of a ball being dunked by a man with a jersey.
+sentence B = A man with a jersey is dunking the ball at a basketball game.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Game=,Basketball=,Living+,Ball=,Entity+,Wetting+,Man=,HoofedMammal+
+CONCEPTS B: Man=,HoofedMammal+,Entity+,Wetting+,Ball=,Basketball=,Game=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	game	game	NOUN	NN	_	5	nsubj	_	NN|00455599-n|Game=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	basketball	basketball	NOUN	NN	_	3	pobj	_	NN|00480993-n|Basketball=
+5	consists	consist	VERB	VBZ	_	0	ROOT	_	VBZ|02653381-v|Living+
+6	of	of	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	ball	ball	NOUN	NN	_	6	pobj	_	NN|02778669-n|Ball=
+9	being	be	VERB	VBG	_	10	cop	_	VBG|02604760-v|Entity+
+10	dunked	dunk	VERB	VBN	_	8	partmod	_	VBN|01577093-v|Wetting+
+11	by	by	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	man	man	NOUN	NN	_	11	pobj	_	NN|10287213-n|Man=
+14	with	with	ADP	IN	_	13	prep	_	IN|?|?
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	jersey	jersey	NOUN	NN	_	14	pobj	_	NN|08887238-n|HoofedMammal+
+17	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|10287213-n|Man=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	jersey	jersey	NOUN	NN	_	3	pobj	_	NN|08887238-n|HoofedMammal+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	dunking	dunk	VERB	VBG	_	0	ROOT	_	VBG|01577093-v|Wetting+
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	ball	ball	NOUN	NN	_	7	dobj	_	NN|02778669-n|Ball=
+10	at	at	ADP	IN	_	7	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	basketball	basketball	NOUN	NN	_	13	nn	_	NN|00480993-n|Basketball=
+13	game	game	NOUN	NN	_	10	pobj	_	NN|00455599-n|Game=
+14	.	.	.	.	_	7	punct	_	Fp|?|?

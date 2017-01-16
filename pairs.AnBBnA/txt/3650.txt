@@ -1,0 +1,42 @@
+sentence A = The boys are standing in front of the car, which is burning.
+sentence B = Four young men are standing still and a car is exploding behind them.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,PhysicalAttribute+,FrontFn=,Automobile=,Entity+,Destruction+
+CONCEPTS B: HumanYouth=,Hominid=,Entity+,PhysicalAttribute+,Automobile=,Entity+,Destruction+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	boys	boy	NOUN	NNS	_	4	nsubj	_	NNS|10285313-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	front	front	NOUN	NN	_	5	pobj	_	NN|08573472-n|FrontFn=
+7	of	of	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	car	car	NOUN	NN	_	7	pobj	_	NN|02958343-n|Automobile=
+10	,	,	.	,	_	9	punct	_	Fc|?|?
+11	which	which	DET	WDT	_	13	nsubj	_	WDT|?|?
+12	is	be	VERB	VBZ	_	13	aux	_	VBZ|02604760-v|Entity+
+13	burning	burn	VERB	VBG	_	9	rcmod	_	VBG|00378664-v|Destruction+
+14	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Four	4	NUM	CD	_	3	num	_	Z|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	men	man	NOUN	NNS	_	5	nsubj	_	NNS|02472293-n|Hominid=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+6	still	still	ADV	RB	_	5	advmod	_	RB|00027384-r|?
+7	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	car	car	NOUN	NN	_	11	nsubj	_	NN|02958343-n|Automobile=
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	exploding	explode	VERB	VBG	_	5	conj	_	VBG|00306723-v|Destruction+
+12	behind	behind	ADP	IN	_	11	prep	_	IN|?|?
+13	them	them	PRON	PRP	_	12	pobj	_	PRP|?|?
+14	.	.	.	.	_	5	punct	_	Fp|?|?

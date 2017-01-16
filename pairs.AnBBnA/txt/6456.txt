@@ -1,0 +1,40 @@
+sentence A = A little boy is wearing a yellow tank top and is laughing.
+sentence B = A small boy in a yellow shirt is laughing on the beach.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,RecreationOrExercise+,SubjectiveAssessmentAttribute+,FluidContainer+,PositionalAttribute+,Entity+,Laughing=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,SubjectiveAssessmentAttribute+,Shirt=,Entity+,Laughing=,ShoreArea=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	boy	boy	NOUN	NN	_	5	nsubj	_	NN|10285313-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
+6	a	a	DET	DT	_	9	det	_	DT|?|?
+7	yellow	yellow	ADJ	JJ	_	8	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+8	tank	tank	NOUN	NN	_	9	nn	_	NN|04388743-n|FluidContainer+
+9	top	top	NOUN	NN	_	5	dobj	_	NN|08663354-n|PositionalAttribute+
+10	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	laughing	laugh	VERB	VBG	_	5	conj	_	VBG|00031820-v|Laughing=
+13	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	small	small	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	boy	boy	NOUN	NN	_	9	nsubj	_	NN|10285313-n|Human+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	yellow	yellow	ADJ	JJ	_	7	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+7	shirt	shirt	NOUN	NN	_	4	pobj	_	NN|04197391-n|Shirt=
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	laughing	laugh	VERB	VBG	_	0	ROOT	_	VBG|00031820-v|Laughing=
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	beach	beach	NOUN	NN	_	10	pobj	_	NN|09217230-n|ShoreArea=
+13	.	.	.	.	_	9	punct	_	Fp|?|?

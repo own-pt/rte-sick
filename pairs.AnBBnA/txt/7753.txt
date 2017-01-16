@@ -1,0 +1,32 @@
+sentence A = The dog is running into a brown light.
+sentence B = A great dog is climbing a steep hill.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,Attribute+,Human+,RadiatingVisibleLight+
+CONCEPTS B: RadiatingSound+,Canine+,Entity+,Increasing+,LandArea+,Hill=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	into	into	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	brown	brown	ADJ	JJ	_	8	amod	_	JJ|00245112-a|Human+
+8	light	light	NOUN	NN	_	5	pobj	_	NN|11473954-n|RadiatingVisibleLight+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	great	great	ADJ	JJ	_	3	amod	_	JJ|01123879-a|RadiatingSound+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	climbing	climb	VERB	VBG	_	0	ROOT	_	VBG|00433232-v|Increasing+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	steep	steep	ADJ	JJ	_	8	amod	_	JJ|01144887-a|LandArea+
+8	hill	hill	NOUN	NN	_	5	dobj	_	NN|09303008-n|Hill=
+9	.	.	.	.	_	5	punct	_	Fp|?|?

@@ -1,0 +1,29 @@
+sentence A = A band is playing some instruments.
+sentence B = A man is playing an electronic keyboard.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: MusicalGroup+,Entity+,DramaticActing+,MusicalInstrument=
+CONCEPTS B: Hominid=,Entity+,DramaticActing+,ElectricDevice+,ComputerInputDevice+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	band	band	NOUN	NN	_	4	nsubj	_	NN|08249038-n|MusicalGroup+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	some	some	DET	DT	_	6	det	_	DT|?|?
+6	instruments	instrument	NOUN	NNS	_	4	dobj	_	NNS|03800933-n|MusicalInstrument=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	an	a	DET	DT	_	7	det	_	DT|?|?
+6	electronic	electronic	ADJ	JJ	_	7	amod	_	JJ|02718497-a|ElectricDevice+
+7	keyboard	keyboard	NOUN	NN	_	4	dobj	_	NN|03614007-n|ComputerInputDevice+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

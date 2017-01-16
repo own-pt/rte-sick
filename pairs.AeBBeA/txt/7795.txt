@@ -1,0 +1,32 @@
+sentence A = A tennis player is lunging to the left.
+sentence B = A tennis player is jumping to the left.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Tennis=,Human+,Entity+,BodyMotion+,Hand+
+CONCEPTS B: Tennis=,Human+,Entity+,Ambulating=,Hand+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	tennis	tennis	NOUN	NN	_	3	nn	_	NN|00482298-n|Tennis=
+3	player	player	NOUN	NN	_	5	nsubj	_	NN|10439851-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	lunging	lunge	VERB	VBG	_	0	ROOT	_	VBG|02062212-v|BodyMotion+
+6	to	to	ADP	IN	_	5	prep	_	TO|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	left	left	NOUN	NN	_	6	pobj	_	NN|05565548-n|Hand+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	tennis	tennis	NOUN	NN	_	3	nn	_	NN|00482298-n|Tennis=
+3	player	player	NOUN	NN	_	5	nsubj	_	NN|10439851-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+6	to	to	ADP	IN	_	5	prep	_	TO|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	left	left	NOUN	NN	_	6	pobj	_	NN|05565548-n|Hand+
+9	.	.	.	.	_	5	punct	_	Fp|?|?

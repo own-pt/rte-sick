@@ -1,0 +1,29 @@
+sentence A = Some cats are playing with each other.
+sentence B = Two cats are fighting each other.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Whip+,Entity+,DramaticActing+,equal+
+CONCEPTS B: Whip+,Entity+,ViolentContest+,equal+
+
+CONLL A:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	cats	cat	NOUN	NNS	_	4	nsubj	_	NNS|02985606-n|Whip+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	each	each	DET	DT	_	7	det	_	DT|?|?
+7	other	other	ADJ	JJ	_	5	pobj	_	JJ|02069355-a|equal+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	cats	cat	NOUN	NNS	_	4	nsubj	_	NNS|02985606-n|Whip+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	fighting	fight	VERB	VBG	_	0	ROOT	_	VBG|01090335-v|ViolentContest+
+5	each	each	DET	DT	_	6	det	_	DT|?|?
+6	other	other	ADJ	JJ	_	4	dobj	_	JJ|02069355-a|equal+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

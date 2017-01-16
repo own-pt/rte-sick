@@ -1,0 +1,44 @@
+sentence A = A cluster of four brown dogs are playing in a field of brown grass.
+sentence B = A group of four brown dogs are playing in a field of brown grass.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Collection+,Human+,Canine+,Entity+,DramaticActing+,FieldOfStudy=,Human+,Grass=
+CONCEPTS B: Group=,Human+,Canine+,Entity+,DramaticActing+,FieldOfStudy=,Human+,Grass=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cluster	cluster	NOUN	NN	_	8	nsubj	_	NN|07959943-n|Collection+
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	four	4	NUM	CD	_	6	num	_	Z|?|?
+5	brown	brown	ADJ	JJ	_	6	amod	_	JJ|00245112-a|Human+
+6	dogs	dog	NOUN	NNS	_	3	pobj	_	NNS|02084071-n|Canine+
+7	are	be	VERB	VBP	_	8	aux	_	VBP|02604760-v|Entity+
+8	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	field	field	NOUN	NN	_	9	pobj	_	NN|05996646-n|FieldOfStudy=
+12	of	of	ADP	IN	_	11	prep	_	IN|?|?
+13	brown	brown	ADJ	JJ	_	14	amod	_	JJ|00245112-a|Human+
+14	grass	grass	NOUN	NN	_	12	pobj	_	NN|12102133-n|Grass=
+15	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	8	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	four	4	NUM	CD	_	6	num	_	Z|?|?
+5	brown	brown	ADJ	JJ	_	6	amod	_	JJ|00245112-a|Human+
+6	dogs	dog	NOUN	NNS	_	3	pobj	_	NNS|02084071-n|Canine+
+7	are	be	VERB	VBP	_	8	aux	_	VBP|02604760-v|Entity+
+8	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	field	field	NOUN	NN	_	9	pobj	_	NN|05996646-n|FieldOfStudy=
+12	of	of	ADP	IN	_	11	prep	_	IN|?|?
+13	brown	brown	ADJ	JJ	_	14	amod	_	JJ|00245112-a|Human+
+14	grass	grass	NOUN	NN	_	12	pobj	_	NN|12102133-n|Grass=
+15	.	.	.	.	_	8	punct	_	Fp|?|?

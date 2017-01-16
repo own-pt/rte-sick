@@ -1,0 +1,38 @@
+sentence A = One man is talking to a girl with an internet camera.
+sentence B = One man is chatting with a girl with an internet camera.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Man=,Entity+,Speaking+,Human+,Internet+,Camera=
+CONCEPTS B: Man=,Entity+,Communication+,Human+,Internet+,Camera=
+
+CONLL A:
+
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+5	to	to	ADP	IN	_	4	prep	_	TO|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	girl	girl	NOUN	NN	_	5	pobj	_	NN|10129825-n|Human+
+8	with	with	ADP	IN	_	7	prep	_	IN|?|?
+9	an	a	DET	DT	_	11	det	_	DT|?|?
+10	internet	internet	NOUN	NN	_	11	nn	_	NN|03580615-n|Internet+
+11	camera	camera	NOUN	NN	_	8	pobj	_	NN|02942699-n|Camera=
+12	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	chatting	chat	VERB	VBG	_	0	ROOT	_	VBG|01038666-v|Communication+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	girl	girl	NOUN	NN	_	5	pobj	_	NN|10129825-n|Human+
+8	with	with	ADP	IN	_	7	prep	_	IN|?|?
+9	an	a	DET	DT	_	11	det	_	DT|?|?
+10	internet	internet	NOUN	NN	_	11	nn	_	NN|03580615-n|Internet+
+11	camera	camera	NOUN	NN	_	8	pobj	_	NN|02942699-n|Camera=
+12	.	.	.	.	_	4	punct	_	Fp|?|?

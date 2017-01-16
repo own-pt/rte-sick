@@ -1,0 +1,30 @@
+sentence A = Dogs are racing on a track.
+sentence B = There is no dog racing on a track.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Canine+,Entity+,Motion+,StationaryArtifact+
+CONCEPTS B: Entity+,Canine+,Motion+,StationaryArtifact+
+
+CONLL A:
+
+1	Dogs	dog	NOUN	NNS	_	3	nsubj	_	NNS|02084071-n|Canine+
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	racing	race	VERB	VBG	_	0	ROOT	_	VBG|02058994-v|Motion+
+4	on	on	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	track	track	NOUN	NN	_	4	pobj	_	NN|04037625-n|StationaryArtifact+
+7	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	dog	dog	NOUN	NN	_	5	nn	_	NN|02084071-n|Canine+
+5	racing	race	NOUN	NN	_	2	nsubj	_	VBG|02058994-v|Motion+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	track	track	NOUN	NN	_	6	pobj	_	NN|04037625-n|StationaryArtifact+
+9	.	.	.	.	_	2	punct	_	Fp|?|?

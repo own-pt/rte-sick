@@ -1,0 +1,53 @@
+sentence A = A dog, which is large and gray, is carrying a ball in its mouth and running across the grass.
+sentence B = There is no large dog running on the grass with a tennis ball in its mouth.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Canine+,Entity+,SubjectiveWeakPositiveAttribute+,Gray+,Entity+,Transportation+,Ball=,Mouth+,Publication+,Grass=
+CONCEPTS B: Entity+,SubjectiveWeakPositiveAttribute+,Canine+,Attribute+,Grass=,Tennis=,Ball=,Mouth+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	11	nsubj	_	NN|02084071-n|Canine+
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	which	which	DET	WDT	_	6	nsubj	_	WDT|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	large	large	ADJ	JJ	_	2	rcmod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	gray	gray	ADJ	JJ	_	6	conj	_	JJ|00389310-a|Gray+
+9	,	,	.	,	_	2	punct	_	Fc|?|?
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	carrying	carry	VERB	VBG	_	0	ROOT	_	VBG|01449974-v|Transportation+
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	ball	ball	NOUN	NN	_	11	dobj	_	NN|02778669-n|Ball=
+14	in	in	ADP	IN	_	11	prep	_	IN|?|?
+15	its	its	PRON	PRP$	_	16	poss	_	PRP$|?|?
+16	mouth	mouth	NOUN	NN	_	14	pobj	_	NN|05302499-n|Mouth+
+17	and	and	CONJ	CC	_	11	cc	_	CC|?|?
+18	running	run	VERB	VBG	_	11	conj	_	VBG|01746359-v|Publication+
+19	across	across	ADP	IN	_	18	prep	_	IN|?|?
+20	the	the	DET	DT	_	21	det	_	DT|?|?
+21	grass	grass	NOUN	NN	_	19	pobj	_	NN|12102133-n|Grass=
+22	.	.	.	.	_	11	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	large	large	ADJ	JJ	_	5	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+5	dog	dog	NOUN	NN	_	2	nsubj	_	NN|02084071-n|Canine+
+6	running	run	NOUN	NN	_	5	partmod	_	VBG|01525666-v|Attribute+
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	grass	grass	NOUN	NN	_	7	pobj	_	NN|12102133-n|Grass=
+10	with	with	ADP	IN	_	5	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	tennis	tennis	NOUN	NN	_	13	nn	_	NN|00482298-n|Tennis=
+13	ball	ball	NOUN	NN	_	10	pobj	_	NN|02778669-n|Ball=
+14	in	in	ADP	IN	_	13	prep	_	IN|?|?
+15	its	its	PRON	PRP$	_	16	poss	_	PRP$|?|?
+16	mouth	mouth	NOUN	NN	_	14	pobj	_	NN|05302499-n|Mouth+
+17	.	.	.	.	_	2	punct	_	Fp|?|?

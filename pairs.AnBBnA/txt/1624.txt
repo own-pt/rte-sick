@@ -1,0 +1,30 @@
+sentence A = The man is playing a piano.
+sentence B = A guy is cheerfully playing with the footbag.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,DramaticActing+,Piano=
+CONCEPTS B: Device+,Entity+,EmotionalState+,DramaticActing+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	piano	piano	NOUN	NN	_	4	dobj	_	NN|03928116-n|Piano=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	guy	guy	NOUN	NN	_	5	nsubj	_	NN|03471779-n|Device+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	cheerfully	cheerfully	ADV	RB	_	5	advmod	_	RB|00230749-r|EmotionalState+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	footbag	footbag	NOUN	NN	_	6	pobj	_	NN|?|?
+9	.	.	.	.	_	5	punct	_	Fp|?|?

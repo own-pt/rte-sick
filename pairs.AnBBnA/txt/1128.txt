@@ -1,0 +1,33 @@
+sentence A = A fish is hunting for a turtle in the sea.
+sentence B = A sea turtle is hunting for fish.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Region@,Entity+,Hunting+,Clothing+,Sea=
+CONCEPTS B: Sea=,Clothing+,Entity+,Hunting+,Region@
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	fish	fish	NOUN	NN	_	4	nsubj	_	NN|08688076-n|Region@
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	hunting	hunt	VERB	VBG	_	0	ROOT	_	VBG|01143838-v|Hunting+
+5	for	for	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	turtle	turtle	NOUN	NN	_	5	pobj	_	NN|04502197-n|Clothing+
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	sea	sea	NOUN	NN	_	8	pobj	_	NN|09426788-n|Sea=
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	sea	sea	NOUN	NN	_	3	nn	_	NN|09426788-n|Sea=
+3	turtle	turtle	NOUN	NN	_	5	nsubj	_	NN|04502197-n|Clothing+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	hunting	hunting	VERB	VBG	_	0	ROOT	_	NN|00452293-n|Hunting+
+6	for	for	ADP	IN	_	5	prep	_	IN|?|?
+7	fish	fish	NOUN	NNS	_	6	pobj	_	NN|08688076-n|Region@
+8	.	.	.	.	_	5	punct	_	Fp|?|?

@@ -1,0 +1,35 @@
+sentence A = Little kids are playing in a water fountain in front of few people.
+sentence B = A monkey is brushing the dog.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,DramaticActing+,Water=,Creek+,FrontFn=,GroupOfPeople=
+CONCEPTS B: Human+,Entity+,Touching+,Canine+
+
+CONLL A:
+
+1	Little	little	ADJ	JJ	_	2	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+2	kids	kid	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	water	water	NOUN	NN	_	8	nn	_	NN|14845743-n|Water=
+8	fountain	fountain	NOUN	NN	_	5	pobj	_	NN|09443453-n|Creek+
+9	in	in	ADP	IN	_	4	prep	_	IN|?|?
+10	front	front	NOUN	NN	_	9	pobj	_	NN|08573472-n|FrontFn=
+11	of	of	ADP	IN	_	10	prep	_	IN|?|?
+12	few	few	ADJ	JJ	_	13	amod	_	DT|?|?
+13	people	people	NOUN	NNS	_	11	pobj	_	NNS|07942152-n|GroupOfPeople=
+14	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	monkey	monkey	NOUN	NN	_	4	nsubj	_	NN|10200047-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	brushing	brush	VERB	VBG	_	0	ROOT	_	VBG|01243809-v|Touching+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	dog	dog	NOUN	NN	_	4	dobj	_	NN|02084071-n|Canine+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

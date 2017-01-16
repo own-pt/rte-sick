@@ -1,0 +1,36 @@
+sentence A = There is no man skiing down a snowy hill.
+sentence B = A skier in black is catching a tiny bit of air.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,Hominid=,Transportation+,earlier+,Covering+,Hill=
+CONCEPTS B: Human+,Black=,Entity+,Grabbing+,SubjectiveStrongNegativeAttribute+,EngineeringComponent+,AirTransportation+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	skiing	ski	VERB	VBG	_	4	partmod	_	VBG|01938426-v|Transportation+
+6	down	down	PRT	RP	_	5	prep	_	RP|00096089-r|earlier+
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	snowy	snowy	ADJ	JJ	_	9	amod	_	JJ|01698231-a|Covering+
+9	hill	hill	NOUN	NN	_	6	pobj	_	NN|09303008-n|Hill=
+10	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	skier	skier	NOUN	NN	_	6	nsubj	_	NN|10605253-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	black	black	ADJ	JJ	_	3	pobj	_	JJ|00392812-a|Black=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	catching	catch	VERB	VBG	_	0	ROOT	_	VBG|01439190-v|Grabbing+
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	tiny	tiny	ADJ	JJ	_	9	amod	_	JJ|01392249-a|SubjectiveStrongNegativeAttribute+
+9	bit	bit	NOUN	NN	_	6	dobj	_	NN|02844307-n|EngineeringComponent+
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	air	air	NOUN	NN	_	10	pobj	_	NN|00300441-n|AirTransportation+
+12	.	.	.	.	_	6	punct	_	Fp|?|?

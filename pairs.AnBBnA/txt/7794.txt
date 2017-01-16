@@ -1,0 +1,34 @@
+sentence A = A snowboarding man is jumping through the air.
+sentence B = A person wearing grey pants is airborne on a snowboard.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Ambulating=,AirTransportation+
+CONCEPTS B: Human=,CoveringFn=,Gray+,Trousers+,Entity+,AirTransportation+,BoardOrBlock+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	snowboarding	snowboarding	VERB	VBG	_	3	amod	_	VBG|?|?
+3	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+6	through	through	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	air	air	NOUN	NN	_	6	pobj	_	NN|00300441-n|AirTransportation+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	7	nsubj	_	NN|00007846-n|Human=
+3	wearing	wear	VERB	VBG	_	2	partmod	_	VBG|00047745-v|CoveringFn=
+4	grey	grey	ADJ	JJ	_	5	amod	_	NN|04961691-n|Gray+
+5	pants	pant	NOUN	NNS	_	3	dobj	_	NNS|04489008-n|Trousers+
+6	is	be	VERB	VBZ	_	7	cop	_	VBZ|02604760-v|Entity+
+7	airborne	airborne	ADJ	JJ	_	0	ROOT	_	JJ|01522895-a|AirTransportation+
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	snowboard	snowboard	NOUN	NN	_	8	pobj	_	NN|04251791-n|BoardOrBlock+
+11	.	.	.	.	_	7	punct	_	Fp|?|?

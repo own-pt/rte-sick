@@ -1,0 +1,30 @@
+sentence A = Someone is stirring noodles in the water.
+sentence B = Someone is stirring food in the water.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,PsychologicalProcess+,Pasta+,Water=
+CONCEPTS B: Entity+,PsychologicalProcess+,SubjectiveAssessmentAttribute+,Water=
+
+CONLL A:
+
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	stirring	stir	VERB	VBG	_	0	ROOT	_	VBG|02116118-v|PsychologicalProcess+
+4	noodles	noodle	NOUN	NNS	_	3	dobj	_	NNS|07699584-n|Pasta+
+5	in	in	ADP	IN	_	3	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	water	water	NOUN	NN	_	5	pobj	_	NN|14845743-n|Water=
+8	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	stirring	stir	VERB	VBG	_	0	ROOT	_	VBG|02116118-v|PsychologicalProcess+
+4	food	food	NOUN	NN	_	3	dobj	_	NN|05811214-n|SubjectiveAssessmentAttribute+
+5	in	in	ADP	IN	_	3	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	water	water	NOUN	NN	_	5	pobj	_	NN|14845743-n|Water=
+8	.	.	.	.	_	3	punct	_	Fp|?|?

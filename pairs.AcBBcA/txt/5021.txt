@@ -1,0 +1,33 @@
+sentence A = The woman is not putting makeup on the man.
+sentence B = The woman is putting makeup on the man.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Woman=,Entity+,not=,Putting=,Mixture+,Man=
+CONCEPTS B: Woman=,Entity+,Putting=,Mixture+,Man=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	putting	put	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+6	makeup	makeup	NOUN	NN	_	5	dobj	_	NN|03714235-n|Mixture+
+7	on	on	ADP	IN	_	5	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	man	man	NOUN	NN	_	7	pobj	_	NN|10287213-n|Man=
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	putting	put	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+5	makeup	makeup	NOUN	NN	_	4	dobj	_	NN|03714235-n|Mixture+
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	man	man	NOUN	NN	_	6	pobj	_	NN|10287213-n|Man=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

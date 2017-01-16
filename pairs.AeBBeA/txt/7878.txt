@@ -1,0 +1,28 @@
+sentence A = Three people are driving ATVs.
+sentence B = ATVs are being driven by three people.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: GroupOfPeople=,Entity+,Transportation+
+CONCEPTS B: Entity+,Entity+,Transportation+,GroupOfPeople=
+
+CONLL A:
+
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	driving	drive	VERB	VBG	_	0	ROOT	_	VBG|01930874-v|Transportation+
+5	ATVs	atvs	NOUN	NNPS	_	4	dobj	_	NNS|?|?
+6	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	ATVs	atvs	NOUN	NNS	_	4	nsubjpass	_	NNS|?|?
+2	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+3	being	be	VERB	VBG	_	4	auxpass	_	VBG|02604760-v|Entity+
+4	driven	drive	VERB	VBN	_	0	ROOT	_	VBN|01930874-v|Transportation+
+5	by	by	ADP	IN	_	4	prep	_	IN|?|?
+6	three	3	NUM	CD	_	7	num	_	Z|?|?
+7	people	people	NOUN	NNS	_	5	pobj	_	NNS|07942152-n|GroupOfPeople=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

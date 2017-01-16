@@ -1,0 +1,39 @@
+sentence A = A man in blue is riding a horse on a dirt road.
+sentence B = A man is riding a dirty horse on a blue road.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,SubjectiveStrongNegativeAttribute+,Entity+,Carrying=,Horse=,Text+,Roadway+
+CONCEPTS B: Hominid=,Entity+,Carrying=,SubjectiveWeakNegativeAttribute+,Horse=,SubjectiveStrongNegativeAttribute+,Roadway+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	6	nsubj	_	NN|02472293-n|Hominid=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	blue	blue	NOUN	NN	_	3	pobj	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	horse	horse	NOUN	NN	_	6	dobj	_	NN|02374451-n|Horse=
+9	on	on	ADP	IN	_	6	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	dirt	dirt	NOUN	NN	_	12	nn	_	NN|07223811-n|Text+
+12	road	road	NOUN	NN	_	9	pobj	_	NN|04096066-n|Roadway+
+13	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	dirty	dirty	ADJ	JJ	_	7	amod	_	JJ|00424370-a|SubjectiveWeakNegativeAttribute+
+7	horse	horse	NOUN	NN	_	4	dobj	_	NN|02374451-n|Horse=
+8	on	on	ADP	IN	_	4	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	blue	blue	ADJ	JJ	_	11	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+11	road	road	NOUN	NN	_	8	pobj	_	NN|04096066-n|Roadway+
+12	.	.	.	.	_	4	punct	_	Fp|?|?

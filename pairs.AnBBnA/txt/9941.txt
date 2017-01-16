@@ -1,0 +1,34 @@
+sentence A = The man is playing a guitar.
+sentence B = There is no hockey player in a yellow jersey guarding the goal.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,DramaticActing+,Guitar=
+CONCEPTS B: Entity+,IceHockey=,Human+,SubjectiveAssessmentAttribute+,HoofedMammal+,RegulatoryProcess+,GameGoal=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	hockey	hockey	NOUN	NN	_	5	nn	_	NN|00463543-n|IceHockey=
+5	player	player	NOUN	NN	_	2	nsubj	_	NN|10439851-n|Human+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	yellow	yellow	ADJ	JJ	_	9	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+9	jersey	jersey	NOUN	NN	_	6	pobj	_	NN|08887238-n|HoofedMammal+
+10	guarding	guard	VERB	VBG	_	9	partmod	_	VBG|02456031-v|RegulatoryProcess+
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	goal	goal	NOUN	NN	_	10	dobj	_	NN|03442756-n|GameGoal=
+13	.	.	.	.	_	2	punct	_	Fp|?|?

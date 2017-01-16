@@ -1,0 +1,36 @@
+sentence A = Two small children are playing with a toy car in the street.
+sentence B = Two small children are idling in the street.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,DramaticActing+,RecreationOrExerciseDevice+,Automobile=,Roadway=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,Process+,Roadway=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	small	small	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	children	child	NOUN	NNS	_	5	nsubj	_	NNS|09917593-n|HumanChild=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	toy	toy	NOUN	NN	_	9	nn	_	NN|03964744-n|RecreationOrExerciseDevice+
+9	car	car	NOUN	NN	_	6	pobj	_	NN|02958343-n|Automobile=
+10	in	in	ADP	IN	_	5	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	street	street	NOUN	NN	_	10	pobj	_	NN|04334599-n|Roadway=
+13	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	small	small	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	children	child	NOUN	NNS	_	5	nsubj	_	NNS|09917593-n|HumanChild=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	idling	idle	VERB	VBG	_	0	ROOT	_	VBG|01526483-v|Process+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	street	street	NOUN	NN	_	6	pobj	_	NN|04334599-n|Roadway=
+9	.	.	.	.	_	5	punct	_	Fp|?|?

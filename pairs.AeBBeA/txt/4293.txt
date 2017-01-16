@@ -1,0 +1,26 @@
+sentence A = A plane is taking off.
+sentence B = An airplane is taking off.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Device+,Entity+,PhysicalAttribute+
+CONCEPTS B: Airplane=,Entity+,PhysicalAttribute+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	plane	plane	NOUN	NN	_	4	nsubj	_	NN|03954731-n|Device+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	taking	take	VERB	VBG	_	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
+5	off	off	PRT	RP	_	4	prt	_	RP|00232936-r|?
+6	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	An	a	DET	DT	_	2	det	_	DT|?|?
+2	airplane	airplane	NOUN	NN	_	4	nsubj	_	NN|02691156-n|Airplane=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	taking	take	VERB	VBG	_	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
+5	off	off	PRT	RP	_	4	prt	_	RP|00232936-r|?
+6	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,34 @@
+sentence A = A man is being pushed toward the buttons of a microwave.
+sentence B = One man is turning on the microwave.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Entity+,Pushing=,Button+,Radiating+
+CONCEPTS B: Hominid=,Entity+,Process+,Radiating+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubjpass	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	pushed	push	VERB	VBN	_	0	ROOT	_	VBN|01871979-v|Pushing=
+6	toward	toward	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	buttons	button	NOUN	NNS	_	6	pobj	_	NNS|02928608-n|Button+
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	microwave	microwave	NOUN	NN	_	9	pobj	_	NN|11482312-n|Radiating+
+12	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	turning	turn	VERB	VBG	_	0	ROOT	_	VBG|00146138-v|Process+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	microwave	microwave	NOUN	NN	_	5	pobj	_	NN|11482312-n|Radiating+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

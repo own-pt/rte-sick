@@ -1,0 +1,27 @@
+sentence A = A baby is crawling happily.
+sentence B = A baby is cheering another baby.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanBaby=,Entity+,StateOfMind+,Happiness+
+CONCEPTS B: HumanBaby=,Entity+,Communication+,HumanBaby=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	baby	baby	NOUN	NN	_	4	nsubj	_	NN|09827683-n|HumanBaby=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	crawling	crawl	VERB	VBG	_	0	ROOT	_	VBG|02730682-v|StateOfMind+
+5	happily	happily	ADV	RB	_	4	advmod	_	RB|00050297-r|Happiness+
+6	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	baby	baby	NOUN	NN	_	4	nsubj	_	NN|09827683-n|HumanBaby=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cheering	cheer	VERB	VBG	_	0	ROOT	_	VBG|00859153-v|Communication+
+5	another	another	DET	DT	_	6	det	_	DT|?|?
+6	baby	baby	NOUN	NN	_	4	dobj	_	NN|09827683-n|HumanBaby=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

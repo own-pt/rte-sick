@@ -1,0 +1,46 @@
+sentence A = One man is climbing a rock wall and another man is holding a rope.
+sentence B = One man is climbing a wall made of rock and another man is holding a rope.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Hominid=,Entity+,Increasing+,Mineral+,Wall=,Hominid=,Entity+,Process+,String+
+CONCEPTS B: Hominid=,Entity+,Increasing+,Wall=,Attribute+,Mineral+,Hominid=,Entity+,SocialInteraction+,String+
+
+CONLL A:
+
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	climbing	climb	VERB	VBG	_	0	ROOT	_	VBG|00433232-v|Increasing+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	rock	rock	NOUN	NN	_	7	nn	_	NN|14696793-n|Mineral+
+7	wall	wall	NOUN	NN	_	4	dobj	_	NN|04546855-n|Wall=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	another	another	DET	DT	_	10	det	_	DT|?|?
+10	man	man	NOUN	NN	_	12	nsubj	_	NN|02472293-n|Hominid=
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	holding	hold	VERB	VBG	_	4	conj	_	VBG|01217043-v|Process+
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	rope	rope	NOUN	NN	_	12	dobj	_	NN|04108268-n|String+
+15	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	climbing	climb	VERB	VBG	_	0	ROOT	_	VBG|00433232-v|Increasing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	wall	wall	NOUN	NN	_	4	dobj	_	NN|04546855-n|Wall=
+7	made	make	VERB	VBN	_	6	partmod	_	VBN|02621395-v|Attribute+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	rock	rock	NOUN	NN	_	8	pobj	_	NN|14696793-n|Mineral+
+10	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+11	another	another	DET	DT	_	12	det	_	DT|?|?
+12	man	man	NOUN	NN	_	14	nsubj	_	NN|02472293-n|Hominid=
+13	is	be	VERB	VBZ	_	14	aux	_	VBZ|02604760-v|Entity+
+14	holding	hold	VERB	VBG	_	4	conj	_	VBG|01733477-v|SocialInteraction+
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	rope	rope	NOUN	NN	_	14	dobj	_	NN|04108268-n|String+
+17	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,26 @@
+sentence A = A man is doing pull-ups.
+sentence B = A man is doing exercises.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,IntentionalProcess+,RecreationOrExercise+
+CONCEPTS B: Hominid=,Entity+,Position+,IntentionalProcess+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	pull-ups	pull-up	NOUN	NNS	_	4	dobj	_	NNS|00629597-n|RecreationOrExercise+
+6	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|02568672-v|Position+
+5	exercises	exercise	NOUN	NNS	_	4	dobj	_	NNS|00947128-n|IntentionalProcess+
+6	.	.	.	.	_	4	punct	_	Fp|?|?

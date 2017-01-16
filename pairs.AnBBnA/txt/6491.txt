@@ -1,0 +1,45 @@
+sentence A = A blond boy is sliding down a sand dune on a skateboard.
+sentence B = There is no woman snowboarding down an incline and there is no other woman standing behind her.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Human+,Entity+,Translocation+,earlier+,Sand=,Sand+,TransportationDevice+
+CONCEPTS B: Entity+,Woman=,earlier+,TraitAttribute=,Entity+,equal+,Woman=,SocialRole+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	blond	blond	ADJ	JJ	_	3	amod	_	JJ|00243606-a|Human+
+3	boy	boy	NOUN	NN	_	5	nsubj	_	NN|10285313-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	sliding	slide	VERB	VBG	_	0	ROOT	_	VBG|02090990-v|Translocation+
+6	down	down	PRT	RP	_	5	prt	_	RP|00095320-r|earlier+
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	sand	sand	NOUN	NN	_	9	nn	_	NN|15019030-n|Sand=
+9	dune	dune	NOUN	NN	_	5	dobj	_	NN|09270735-n|Sand+
+10	on	on	ADP	IN	_	5	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	skateboard	skateboard	NOUN	NN	_	10	pobj	_	NN|04225987-n|TransportationDevice+
+13	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	woman	woman	NOUN	NN	_	2	nsubj	_	NN|10787470-n|Woman=
+5	snowboarding	snowboarding	VERB	VBG	_	4	partmod	_	VBG|?|?
+6	down	down	PRT	RP	_	5	prep	_	RP|00095320-r|earlier+
+7	an	a	DET	DT	_	8	det	_	DT|?|?
+8	incline	incline	NOUN	NN	_	6	pobj	_	VB|02719399-v|TraitAttribute=
+9	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+10	there	there	DET	EX	_	11	expl	_	EX|?|?
+11	is	be	VERB	VBZ	_	2	conj	_	VBZ|02604760-v|Entity+
+12	no	no	DET	DT	_	14	det	_	DT|?|?
+13	other	other	ADJ	JJ	_	14	amod	_	JJ|02069355-a|equal+
+14	woman	woman	NOUN	NN	_	11	nsubj	_	NN|10787470-n|Woman=
+15	standing	standing	VERB	VBG	_	14	partmod	_	NN|13948136-n|SocialRole+
+16	behind	behind	ADP	IN	_	15	prep	_	IN|?|?
+17	her	her	PRON	PRP	_	16	pobj	_	PRP$|?|?
+18	.	.	.	.	_	2	punct	_	Fp|?|?

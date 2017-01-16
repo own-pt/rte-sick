@@ -1,0 +1,50 @@
+sentence A = A man is talking to the woman who is seated beside him and is driving a car.
+sentence B = A woman is driving a car and is talking to the man who is seated beside her.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Man=,Entity+,Speaking+,Woman=,Entity+,Communication+,Entity+,Transportation+,Automobile=
+CONCEPTS B: Woman=,Entity+,Transportation+,Automobile=,Entity+,Speaking+,Man=,Entity+,Communication+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+5	to	to	ADP	IN	_	4	prep	_	TO|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	woman	woman	NOUN	NN	_	5	pobj	_	NN|10787470-n|Woman=
+8	who	who	PRON	WP	_	10	nsubjpass	_	WP|?|?
+9	is	be	VERB	VBZ	_	10	auxpass	_	VBZ|02604760-v|Entity+
+10	seated	seat	VERB	VBN	_	7	rcmod	_	VBN|01543998-v|Communication+
+11	beside	beside	ADP	IN	_	10	prep	_	IN|?|?
+12	him	him	PRON	PRP	_	11	pobj	_	PRP|?|?
+13	and	and	CONJ	CC	_	10	cc	_	CC|?|?
+14	is	be	VERB	VBZ	_	15	aux	_	VBZ|02604760-v|Entity+
+15	driving	drive	VERB	VBG	_	10	conj	_	VBG|01930874-v|Transportation+
+16	a	a	DET	DT	_	17	det	_	DT|?|?
+17	car	car	NOUN	NN	_	15	dobj	_	NN|02958343-n|Automobile=
+18	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	driving	drive	VERB	VBG	_	0	ROOT	_	VBG|01930874-v|Transportation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	car	car	NOUN	NN	_	4	dobj	_	NN|02958343-n|Automobile=
+7	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	talking	talk	VERB	VBG	_	4	conj	_	VBG|00941990-v|Speaking+
+10	to	to	ADP	IN	_	9	prep	_	TO|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	man	man	NOUN	NN	_	10	pobj	_	NN|10287213-n|Man=
+13	who	who	PRON	WP	_	15	nsubjpass	_	WP|?|?
+14	is	be	VERB	VBZ	_	15	auxpass	_	VBZ|02604760-v|Entity+
+15	seated	seat	VERB	VBN	_	12	rcmod	_	VBN|01543998-v|Communication+
+16	beside	beside	ADP	IN	_	15	prep	_	IN|?|?
+17	her	her	PRON	PRP	_	16	pobj	_	PRP$|?|?
+18	.	.	.	.	_	4	punct	_	Fp|?|?

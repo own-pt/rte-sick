@@ -1,0 +1,39 @@
+sentence A = There is no small guinea pig gnawing and eating a piece of carrot on the floor.
+sentence B = A guinea pig is eating a carrot.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,SubjectiveStrongNegativeAttribute+,Guinea=,Pig=,Damaging+,Eating=,TimeDuration+,Carrot=,Floor+
+CONCEPTS B: Guinea=,Pig=,Entity+,Eating=,Carrot=
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	6	det	_	DT|?|?
+4	small	small	ADJ	JJ	_	6	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+5	guinea	guinea	NOUN	NN	_	6	nn	_	NN|08947319-n|Guinea=
+6	pig	pig	NOUN	NN	_	2	nsubj	_	NN|02395406-n|Pig=
+7	gnawing	gnaw	NOUN	NN	_	6	amod	_	VBG|00275253-v|Damaging+
+8	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+9	eating	eat	VERB	VBG	_	6	conj	_	VBG|01168468-v|Eating=
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	piece	piece	NOUN	NN	_	9	dobj	_	NN|15246353-n|TimeDuration+
+12	of	of	ADP	IN	_	11	prep	_	IN|?|?
+13	carrot	carrot	NOUN	NN	_	12	pobj	_	NN|07730207-n|Carrot=
+14	on	on	ADP	IN	_	9	prep	_	IN|?|?
+15	the	the	DET	DT	_	16	det	_	DT|?|?
+16	floor	floor	NOUN	NN	_	14	pobj	_	NN|03365592-n|Floor+
+17	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	guinea	guinea	NOUN	NN	_	3	nn	_	NN|08947319-n|Guinea=
+3	pig	pig	NOUN	NN	_	5	nsubj	_	NN|02395406-n|Pig=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01168468-v|Eating=
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	carrot	carrot	NOUN	NN	_	5	dobj	_	NN|07730207-n|Carrot=
+8	.	.	.	.	_	5	punct	_	Fp|?|?

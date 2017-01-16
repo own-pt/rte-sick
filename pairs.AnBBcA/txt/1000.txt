@@ -1,0 +1,60 @@
+sentence A = A boy in a red shirt is in front of a long blue wall and is suspiciously raising an eyebrow at the camera.
+sentence B = A boy in a red shirt is behind a long blue wall and is lowering an eyebrow, facing the camera.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Human+,Red=,Shirt=,Entity+,FrontFn=,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,Wall=,Entity+,SubjectiveAssessmentAttribute+,MotionUpward=,BodyPart+,Camera=
+CONCEPTS B: Human+,Red=,Shirt=,Entity+,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,Wall=,Entity+,Decreasing+,BodyPart+,DirectionChange+,Camera=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	7	nsubj	_	NN|10285313-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	red	red	ADJ	JJ	_	6	amod	_	JJ|00381097-a|Red=
+6	shirt	shirt	NOUN	NN	_	3	pobj	_	NN|04197391-n|Shirt=
+7	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	front	front	NOUN	NN	_	8	pobj	_	NN|03398467-n|FrontFn=
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	14	det	_	DT|?|?
+12	long	long	ADJ	JJ	_	14	amod	_	JJ|01433493-a|SubjectiveAssessmentAttribute+
+13	blue	blue	ADJ	JJ	_	14	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+14	wall	wall	NOUN	NN	_	10	pobj	_	NN|04546855-n|Wall=
+15	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+16	is	be	VERB	VBZ	_	18	aux	_	VBZ|02604760-v|Entity+
+17	suspiciously	suspiciously	ADV	RB	_	18	advmod	_	RB|00241272-r|SubjectiveAssessmentAttribute+
+18	raising	raise	VERB	VBG	_	7	conj	_	VBG|01974062-v|MotionUpward=
+19	an	a	DET	DT	_	20	det	_	DT|?|?
+20	eyebrow	eyebrow	NOUN	NN	_	18	dobj	_	NN|05313535-n|BodyPart+
+21	at	at	ADP	IN	_	18	prep	_	IN|?|?
+22	the	the	DET	DT	_	23	det	_	DT|?|?
+23	camera	camera	NOUN	NN	_	21	pobj	_	NN|02942699-n|Camera=
+24	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	7	nsubj	_	NN|10285313-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	red	red	ADJ	JJ	_	6	amod	_	JJ|00381097-a|Red=
+6	shirt	shirt	NOUN	NN	_	3	pobj	_	NN|04197391-n|Shirt=
+7	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+8	behind	behind	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	12	det	_	DT|?|?
+10	long	long	ADJ	JJ	_	12	amod	_	JJ|01433493-a|SubjectiveAssessmentAttribute+
+11	blue	blue	ADJ	JJ	_	12	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+12	wall	wall	NOUN	NN	_	8	pobj	_	NN|04546855-n|Wall=
+13	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+14	is	be	VERB	VBZ	_	15	aux	_	VBZ|02604760-v|Entity+
+15	lowering	lower	VERB	VBG	_	7	conj	_	VBG|01574923-v|Decreasing+
+16	an	a	DET	DT	_	17	det	_	DT|?|?
+17	eyebrow	eyebrow	NOUN	NN	_	15	dobj	_	NN|05313535-n|BodyPart+
+18	,	,	.	,	_	15	punct	_	Fc|?|?
+19	facing	face	VERB	VBG	_	15	partmod	_	VBG|01908365-v|DirectionChange+
+20	the	the	DET	DT	_	21	det	_	DT|?|?
+21	camera	camera	NOUN	NN	_	19	dobj	_	NN|02942699-n|Camera=
+22	.	.	.	.	_	7	punct	_	Fp|?|?

@@ -1,0 +1,39 @@
+sentence A = There is no white dog with beige spots running through a field.
+sentence B = A white dog with beige spots is running through a field.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,White=,Canine+,ColorAttribute+,Region+,Attribute+,FieldOfStudy=
+CONCEPTS B: White=,Canine+,ColorAttribute+,Region+,Entity+,Attribute+,FieldOfStudy=
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	white	white	ADJ	JJ	_	5	amod	_	JJ|00393105-a|White=
+5	dog	dog	NOUN	NN	_	2	nsubj	_	NN|02084071-n|Canine+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	beige	beige	ADJ	JJ	_	8	amod	_	JJ|00370501-a|ColorAttribute+
+8	spots	spot	NOUN	NNS	_	6	pobj	_	NNS|08664443-n|Region+
+9	running	run	VERB	VBG	_	8	partmod	_	VBG|01525666-v|Attribute+
+10	through	through	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	field	field	NOUN	NN	_	10	pobj	_	NN|05996646-n|FieldOfStudy=
+13	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	dog	dog	NOUN	NN	_	8	nsubj	_	NN|02084071-n|Canine+
+4	with	with	ADP	IN	_	3	prep	_	IN|?|?
+5	beige	beige	ADJ	JJ	_	6	amod	_	JJ|00370501-a|ColorAttribute+
+6	spots	spot	NOUN	NNS	_	4	pobj	_	NNS|08664443-n|Region+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+9	through	through	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	field	field	NOUN	NN	_	9	pobj	_	NN|05996646-n|FieldOfStudy=
+12	.	.	.	.	_	8	punct	_	Fp|?|?

@@ -1,0 +1,31 @@
+sentence A = A little cat is drinking fresh milk.
+sentence B = The milk is being drunk by a cat.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Whip+,Entity+,Drinking+,SubjectiveWeakPositiveAttribute+,BodySubstance+
+CONCEPTS B: Milk=,Entity+,Entity+,Drinking+,Whip+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	cat	cat	NOUN	NN	_	5	nsubj	_	NN|02985606-n|Whip+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	drinking	drink	VERB	VBG	_	0	ROOT	_	VBG|01171183-v|Drinking+
+6	fresh	fresh	ADJ	JJ	_	7	amod	_	JJ|01067694-a|SubjectiveWeakPositiveAttribute+
+7	milk	milk	NOUN	NN	_	5	dobj	_	NN|05399034-n|BodySubstance+
+8	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	milk	milk	NOUN	NN	_	5	nsubjpass	_	NN|07844042-n|Milk=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	drunk	drink	VERB	VBN	_	0	ROOT	_	VBN|01171183-v|Drinking+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	cat	cat	NOUN	NN	_	6	pobj	_	NN|02985606-n|Whip+
+9	.	.	.	.	_	5	punct	_	Fp|?|?

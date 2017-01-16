@@ -1,0 +1,35 @@
+sentence A = The young girl is blowing a bubble that is huge.
+sentence B = There is no girl in pink twirling a ribbon.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,Human+,Entity+,Exhaling+,Bubble+,Entity+,SubjectiveWeakNegativeAttribute+
+CONCEPTS B: Entity+,Human+,ColorAttribute+,Transfer+,ArtWork+
+
+CONLL A:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	blowing	blow	VERB	VBG	_	0	ROOT	_	VBG|00007012-v|Exhaling+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	bubble	bubble	NOUN	NN	_	5	dobj	_	NN|09229709-n|Bubble+
+8	that	that	DET	WDT	_	10	nsubj	_	WDT|?|?
+9	is	be	VERB	VBZ	_	10	cop	_	VBZ|02604760-v|Entity+
+10	huge	huge	ADJ	JJ	_	7	rcmod	_	JJ|01387319-a|SubjectiveWeakNegativeAttribute+
+11	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	girl	girl	NOUN	NN	_	2	nsubj	_	NN|10129825-n|Human+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	pink	pink	ADJ	JJ	_	7	advmod	_	NN|04970916-n|ColorAttribute+
+7	twirling	twirl	VERB	VBG	_	5	pcomp	_	VBG|02048051-v|Transfer+
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	ribbon	ribbon	NOUN	NN	_	7	dobj	_	NN|04087899-n|ArtWork+
+10	.	.	.	.	_	2	punct	_	Fp|?|?

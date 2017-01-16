@@ -1,0 +1,36 @@
+sentence A = The girl is sitting on the couch and is crocheting.
+sentence B = There is no girl playing the violin on a beach.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,PhysicalAttribute+,SittingDown+,Sofa=,PhysicalAttribute+,Making+
+CONCEPTS B: Entity+,Human+,DramaticActing+,Violin=,ShoreArea=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	couch	couch	NOUN	NN	_	5	pobj	_	NN|04256520-n|Sofa=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	4	conj	_	VBZ|02655135-v|PhysicalAttribute+
+10	crocheting	crochet	VERB	VBG	_	9	xcomp	_	VBG|01672753-v|Making+
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	girl	girl	NOUN	NN	_	2	nsubj	_	NN|10129825-n|Human+
+5	playing	play	VERB	VBG	_	4	partmod	_	VBG|01719302-v|DramaticActing+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	violin	violin	NOUN	NN	_	5	dobj	_	NN|04536866-n|Violin=
+8	on	on	ADP	IN	_	5	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	beach	beach	NOUN	NN	_	8	pobj	_	NN|09217230-n|ShoreArea=
+11	.	.	.	.	_	2	punct	_	Fp|?|?

@@ -1,0 +1,42 @@
+sentence A = The man in blue is posing for a picture next to a car.
+sentence B = The woman in blue is posing for a picture next to a car.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,SubjectiveStrongNegativeAttribute+,Entity+,Putting=,Icon+,Position+,Automobile=
+CONCEPTS B: Woman=,SubjectiveStrongNegativeAttribute+,Entity+,Putting=,Icon+,Position+,Automobile=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	6	nsubj	_	NN|02472293-n|Hominid=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	blue	blue	NOUN	NN	_	3	pobj	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	posing	pose	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+7	for	for	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	picture	picture	NOUN	NN	_	7	pobj	_	NN|03931044-n|Icon+
+10	next	next	ADV	RB	_	9	advmod	_	JJ|01294975-a|Position+
+11	to	to	ADP	IN	_	10	prep	_	TO|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	car	car	NOUN	NN	_	11	pobj	_	NN|02958343-n|Automobile=
+14	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	6	nsubj	_	NN|10787470-n|Woman=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	blue	blue	NOUN	NN	_	3	pobj	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	posing	pose	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+7	for	for	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	picture	picture	NOUN	NN	_	7	pobj	_	NN|03931044-n|Icon+
+10	next	next	ADV	RB	_	9	advmod	_	JJ|01294975-a|Position+
+11	to	to	ADP	IN	_	10	prep	_	TO|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	car	car	NOUN	NN	_	11	pobj	_	NN|02958343-n|Automobile=
+14	.	.	.	.	_	6	punct	_	Fp|?|?

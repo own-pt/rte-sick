@@ -1,0 +1,41 @@
+sentence A = Various people are eating at red tables in a crowded restaurant with purple lights.
+sentence B = Various customers are eating in a crowded restaurant with purple lights.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,GroupOfPeople=,Entity+,Eating=,Red=,ContentBearingObject+,SocialInteraction+,Restaurant+,SocialRole+,RadiatingVisibleLight+
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Human+,Entity+,Eating=,SocialInteraction+,Restaurant+,SocialRole+,RadiatingVisibleLight+
+
+CONLL A:
+
+1	Various	various	ADJ	JJ	_	2	amod	_	JJ|02507772-a|SubjectiveWeakPositiveAttribute+
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01166351-v|Eating=
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	red	red	ADJ	JJ	_	7	amod	_	JJ|00381097-a|Red=
+7	tables	table	NOUN	NNS	_	5	pobj	_	NNS|08266235-n|ContentBearingObject+
+8	in	in	ADP	IN	_	4	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	crowded	crowd	ADJ	JJ	_	11	amod	_	VBN|02027612-v|SocialInteraction+
+11	restaurant	restaurant	NOUN	NN	_	8	pobj	_	NN|04081281-n|Restaurant+
+12	with	with	ADP	IN	_	11	prep	_	IN|?|?
+13	purple	purple	ADJ	JJ	_	14	amod	_	JJ|01591394-a|SocialRole+
+14	lights	light	NOUN	NNS	_	12	pobj	_	NNS|11473954-n|RadiatingVisibleLight+
+15	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Various	various	ADJ	JJ	_	2	amod	_	JJ|02507772-a|SubjectiveWeakPositiveAttribute+
+2	customers	customer	NOUN	NNS	_	4	nsubj	_	NNS|09984659-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01166351-v|Eating=
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	crowded	crowd	ADJ	JJ	_	8	amod	_	VBN|02027612-v|SocialInteraction+
+8	restaurant	restaurant	NOUN	NN	_	5	pobj	_	NN|04081281-n|Restaurant+
+9	with	with	ADP	IN	_	8	prep	_	IN|?|?
+10	purple	purple	ADJ	JJ	_	11	amod	_	JJ|01591394-a|SocialRole+
+11	lights	light	NOUN	NNS	_	9	pobj	_	NNS|11473954-n|RadiatingVisibleLight+
+12	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,28 @@
+sentence A = A monkey is practicing martial arts.
+sentence B = A chimp is practicing martial arts.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Human+,Entity+,Position+,SubjectiveStrongNegativeAttribute+,ArtWork=
+CONCEPTS B: Ape+,Entity+,Position+,SubjectiveStrongNegativeAttribute+,ArtWork=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	monkey	monkey	NOUN	NN	_	4	nsubj	_	NN|10200047-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	practicing	practice	VERB	VBG	_	0	ROOT	_	VBG|02568672-v|Position+
+5	martial	martial	ADJ	JJ	_	6	amod	_	JJ|01518860-a|SubjectiveStrongNegativeAttribute+
+6	arts	art	NOUN	NNS	_	4	dobj	_	NNS|02743547-n|ArtWork=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	chimp	chimp	NOUN	NN	_	4	nsubj	_	NN|02481823-n|Ape+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	practicing	practice	VERB	VBG	_	0	ROOT	_	VBG|02568672-v|Position+
+5	martial	martial	ADJ	JJ	_	6	amod	_	JJ|01518860-a|SubjectiveStrongNegativeAttribute+
+6	arts	art	NOUN	NNS	_	4	dobj	_	NNS|02743547-n|ArtWork=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

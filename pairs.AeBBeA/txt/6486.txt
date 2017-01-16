@@ -1,0 +1,41 @@
+sentence A = A blond boy is sliding down a dune of sand on a skateboard.
+sentence B = A blond boy is sliding down a sand dune on a skateboard.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Human+,Human+,Entity+,Translocation+,earlier+,Sand+,Sand=,TransportationDevice+
+CONCEPTS B: Human+,Human+,Entity+,Translocation+,earlier+,Sand=,Sand+,TransportationDevice+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	blond	blond	ADJ	JJ	_	3	amod	_	JJ|00243606-a|Human+
+3	boy	boy	NOUN	NN	_	5	nsubj	_	NN|10285313-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	sliding	slide	VERB	VBG	_	0	ROOT	_	VBG|02090990-v|Translocation+
+6	down	down	PRT	RP	_	5	prt	_	RP|00095320-r|earlier+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	dune	dune	NOUN	NN	_	5	dobj	_	NN|09270735-n|Sand+
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	sand	sand	NOUN	NN	_	9	pobj	_	NN|15019030-n|Sand=
+11	on	on	ADP	IN	_	5	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	skateboard	skateboard	NOUN	NN	_	11	pobj	_	NN|04225987-n|TransportationDevice+
+14	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	blond	blond	ADJ	JJ	_	3	amod	_	JJ|00243606-a|Human+
+3	boy	boy	NOUN	NN	_	5	nsubj	_	NN|10285313-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	sliding	slide	VERB	VBG	_	0	ROOT	_	VBG|02090990-v|Translocation+
+6	down	down	PRT	RP	_	5	prt	_	RP|00095320-r|earlier+
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	sand	sand	NOUN	NN	_	9	nn	_	NN|15019030-n|Sand=
+9	dune	dune	NOUN	NN	_	5	dobj	_	NN|09270735-n|Sand+
+10	on	on	ADP	IN	_	5	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	skateboard	skateboard	NOUN	NN	_	10	pobj	_	NN|04225987-n|TransportationDevice+
+13	.	.	.	.	_	5	punct	_	Fp|?|?

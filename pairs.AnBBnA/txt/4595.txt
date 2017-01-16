@@ -1,0 +1,27 @@
+sentence A = A small animal is singing.
+sentence B = A person is slicing some onions.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Animal=,Entity+,MakingVocalMusic=
+CONCEPTS B: Human=,Entity+,Separating+,FruitOrVegetable+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	small	small	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	animal	animal	NOUN	NN	_	5	nsubj	_	NN|00015388-n|Animal=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+6	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	some	some	DET	DT	_	6	det	_	DT|?|?
+6	onions	onion	NOUN	NNS	_	4	dobj	_	NNS|12433081-n|FruitOrVegetable+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

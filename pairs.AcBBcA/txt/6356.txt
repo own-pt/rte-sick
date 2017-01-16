@@ -1,0 +1,37 @@
+sentence A = A woman in a red dress is putting away an instrument.
+sentence B = A woman in a red dress is playing an instrument.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Woman=,Red=,Dress+,Entity+,Putting=,Device+
+CONCEPTS B: Woman=,Red=,Dress+,Entity+,DramaticActing+,MusicalInstrument=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	8	nsubj	_	NN|10787470-n|Woman=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	red	red	ADJ	JJ	_	6	amod	_	JJ|00381097-a|Red=
+6	dress	dress	NOUN	NN	_	3	pobj	_	NN|03236735-n|Dress+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	putting	put	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+9	away	away	PRT	RP	_	8	prt	_	RP|00234951-r|?
+10	an	a	DET	DT	_	11	det	_	DT|?|?
+11	instrument	instrument	NOUN	NN	_	8	dobj	_	NN|00173761-n|Device+
+12	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	8	nsubj	_	NN|10787470-n|Woman=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	red	red	ADJ	JJ	_	6	amod	_	JJ|00381097-a|Red=
+6	dress	dress	NOUN	NN	_	3	pobj	_	NN|03236735-n|Dress+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+9	an	a	DET	DT	_	10	det	_	DT|?|?
+10	instrument	instrument	NOUN	NN	_	8	dobj	_	NN|03800933-n|MusicalInstrument=
+11	.	.	.	.	_	8	punct	_	Fp|?|?

@@ -1,0 +1,41 @@
+sentence A = Two men with bikes are on the side of a snowy road.
+sentence B = Two men are taking a break from a trip on a snowy road.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Bicycle=,Entity+,Object+,Covering+,Roadway+
+CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,TimeInterval+,Motion+,Covering+,Roadway+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	5	nsubj	_	NNS|02472293-n|Hominid=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	bikes	bike	NOUN	NNS	_	3	pobj	_	NNS|02834778-n|Bicycle=
+5	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	side	side	NOUN	NN	_	6	pobj	_	NN|08510666-n|Object+
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	snowy	snowy	ADJ	JJ	_	12	amod	_	JJ|01698231-a|Covering+
+12	road	road	NOUN	NN	_	9	pobj	_	NN|04096066-n|Roadway+
+13	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	taking	take	VERB	VBG	_	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	break	break	NOUN	NN	_	4	dobj	_	NN|15271008-n|TimeInterval+
+7	from	from	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	trip	trip	NOUN	NN	_	7	pobj	_	NN|07317519-n|Motion+
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	snowy	snowy	ADJ	JJ	_	13	amod	_	JJ|01698231-a|Covering+
+13	road	road	NOUN	NN	_	10	pobj	_	NN|04096066-n|Roadway+
+14	.	.	.	.	_	4	punct	_	Fp|?|?

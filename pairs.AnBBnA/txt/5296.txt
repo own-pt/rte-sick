@@ -1,0 +1,29 @@
+sentence A = A man is jumping rope outside.
+sentence B = A woman is not slicing a cucumber.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Ambulating=,String+
+CONCEPTS B: Woman=,Entity+,not=,Separating+,Cucumber=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	rope	rope	NOUN	NN	_	4	dobj	_	NN|04108268-n|String+
+6	outside	outside	ADV	RB	_	4	advmod	_	IN|?|?
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	cucumber	cucumber	NOUN	NN	_	5	dobj	_	NN|07718472-n|Cucumber=
+8	.	.	.	.	_	5	punct	_	Fp|?|?

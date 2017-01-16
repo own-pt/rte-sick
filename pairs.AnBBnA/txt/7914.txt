@@ -1,0 +1,49 @@
+sentence A = A little black dog is wearing a red collar and is in the leaves with a blue ball.
+sentence B = A dog is jumping at dry leaves in a field of shiny blue soccer balls.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Black=,Canine+,Entity+,CoveringFn=,Red=,Collar+,Entity+,Leaf=,SubjectiveStrongNegativeAttribute+,Ball=
+CONCEPTS B: Canine+,Entity+,Ambulating=,Dry=,Leaf=,FieldOfStudy=,SurfaceChange+,SubjectiveStrongNegativeAttribute+,Soccer=,Ball=
+
+CONLL A:
+
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	4	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	black	black	ADJ	JJ	_	4	amod	_	JJ|00392812-a|Black=
+4	dog	dog	NOUN	NN	_	6	nsubj	_	NN|02084071-n|Canine+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	red	red	ADJ	JJ	_	9	amod	_	JJ|00381097-a|Red=
+9	collar	collar	NOUN	NN	_	6	dobj	_	NN|03068181-n|Collar+
+10	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+11	is	be	VERB	VBZ	_	6	conj	_	VBZ|02604760-v|Entity+
+12	in	in	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	leaves	leaf	NOUN	NNS	_	12	pobj	_	NNS|13152742-n|Leaf=
+15	with	with	ADP	IN	_	11	prep	_	IN|?|?
+16	a	a	DET	DT	_	18	det	_	DT|?|?
+17	blue	blue	ADJ	JJ	_	18	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+18	ball	ball	NOUN	NN	_	15	pobj	_	NN|02778669-n|Ball=
+19	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	dry	dry	ADJ	JJ	_	7	amod	_	JJ|02551380-a|Dry=
+7	leaves	leaf	NOUN	NNS	_	5	pobj	_	NNS|13152742-n|Leaf=
+8	in	in	ADP	IN	_	4	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	field	field	NOUN	NN	_	8	pobj	_	NN|05996646-n|FieldOfStudy=
+11	of	of	ADP	IN	_	10	prep	_	IN|?|?
+12	shiny	shiny	ADJ	JJ	_	15	amod	_	JJ|01119421-a|SurfaceChange+
+13	blue	blue	ADJ	JJ	_	15	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+14	soccer	soccer	NOUN	NN	_	15	nn	_	NN|00478262-n|Soccer=
+15	balls	ball	NOUN	NNS	_	11	pobj	_	NNS|02778669-n|Ball=
+16	.	.	.	.	_	4	punct	_	Fp|?|?

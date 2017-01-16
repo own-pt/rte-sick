@@ -1,0 +1,29 @@
+sentence A = A man is not cutting an onion.
+sentence B = A man is opening a door.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,not=,Decreasing+,FruitOrVegetable+
+CONCEPTS B: Hominid=,Entity+,Process+,Door+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|00429060-v|Decreasing+
+6	an	a	DET	DT	_	7	det	_	DT|?|?
+7	onion	onion	NOUN	NN	_	5	dobj	_	NN|12433081-n|FruitOrVegetable+
+8	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	opening	open	VERB	VBG	_	0	ROOT	_	VBG|00539936-v|Process+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	door	door	NOUN	NN	_	4	dobj	_	NN|03224032-n|Door+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

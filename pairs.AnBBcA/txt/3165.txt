@@ -1,0 +1,32 @@
+sentence A = The man is cutting the tape on the box.
+sentence B = There is no man cutting a box.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Hominid=,Entity+,Decreasing+,Device+,Box=
+CONCEPTS B: Entity+,Hominid=,Decreasing+,Box=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|00429060-v|Decreasing+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	tape	tape	NOUN	NN	_	4	dobj	_	NN|03708036-n|Device+
+7	on	on	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	box	box	NOUN	NN	_	7	pobj	_	NN|02883344-n|Box=
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	cutting	cut	VERB	VBG	_	4	partmod	_	VBG|00429060-v|Decreasing+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	box	box	NOUN	NN	_	5	dobj	_	NN|02883344-n|Box=
+8	.	.	.	.	_	2	punct	_	Fp|?|?

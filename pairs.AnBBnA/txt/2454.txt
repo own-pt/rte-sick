@@ -1,0 +1,38 @@
+sentence A = A baby rhino is following an adult rhino.
+sentence B = A mother is giving the baby a pen with a walking rhino on it.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanBaby=,HoofedMammal+,SocialRole+,SocialRole+,FullyFormed+,HoofedMammal+
+CONCEPTS B: BiologicalAttribute+,Entity+,Process+,HumanBaby=,StationaryArtifact+,Walking=,HoofedMammal+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	baby	baby	NOUN	NN	_	3	nn	_	NN|09827683-n|HumanBaby=
+3	rhino	rhino	NOUN	NN	_	5	nsubj	_	NN|02391994-n|HoofedMammal+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02445925-v|SocialRole+
+5	following	follow	VERB	VBG	_	0	ROOT	_	VBG|02445925-v|SocialRole+
+6	an	a	DET	DT	_	8	det	_	DT|?|?
+7	adult	adult	NOUN	NN	_	8	nn	_	NN|09605289-n|FullyFormed+
+8	rhino	rhino	NOUN	NN	_	5	dobj	_	NN|02391994-n|HoofedMammal+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	mother	mother	NOUN	NN	_	4	nsubj	_	NN|10332385-n|BiologicalAttribute+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	giving	give	VERB	VBG	_	0	ROOT	_	VBG|01629000-v|Process+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	baby	baby	NOUN	NN	_	4	iobj	_	NN|09827683-n|HumanBaby=
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	pen	pen	NOUN	NN	_	4	dobj	_	NN|03907227-n|StationaryArtifact+
+9	with	with	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	walking	walk	NOUN	NN	_	12	nn	_	VBG|01904930-v|Walking=
+12	rhino	rhino	NOUN	NN	_	9	pobj	_	NN|02391994-n|HoofedMammal+
+13	on	on	ADP	IN	_	12	prep	_	IN|?|?
+14	it	it	PRON	PRP	_	13	pobj	_	PRP|?|?
+15	.	.	.	.	_	4	punct	_	Fp|?|?

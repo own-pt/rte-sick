@@ -1,0 +1,44 @@
+sentence A = The brown dog is not sniffing the back of a small black dog.
+sentence B = A large brown dog and a small grey dog are standing on a rocky surface.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Canine+,Entity+,not=,Smelling+,CorpuscularObject+,SubjectiveStrongNegativeAttribute+,Black=,Canine+
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Human+,Canine+,SubjectiveStrongNegativeAttribute+,Gray+,Canine+,Entity+,PhysicalAttribute+,TextureAttribute+,Region+
+
+CONLL A:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	dog	dog	NOUN	NN	_	6	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	not	not	ADV	RB	_	6	neg	_	RB|00024073-r|not=
+6	sniffing	sniff	VERB	VBG	_	0	ROOT	_	VBG|02125032-v|Smelling+
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	back	back	NOUN	NN	_	6	dobj	_	NN|02767433-n|CorpuscularObject+
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	13	det	_	DT|?|?
+11	small	small	ADJ	JJ	_	13	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+12	black	black	ADJ	JJ	_	13	amod	_	JJ|00392812-a|Black=
+13	dog	dog	NOUN	NN	_	9	pobj	_	NN|02084071-n|Canine+
+14	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	brown	brown	ADJ	JJ	_	4	amod	_	JJ|00245112-a|Human+
+4	dog	dog	NOUN	NN	_	11	nsubj	_	NN|02084071-n|Canine+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	a	a	DET	DT	_	9	det	_	DT|?|?
+7	small	small	ADJ	JJ	_	9	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+8	grey	grey	ADJ	JJ	_	9	amod	_	NN|04961691-n|Gray+
+9	dog	dog	NOUN	NN	_	4	conj	_	NN|02084071-n|Canine+
+10	are	be	VERB	VBP	_	11	aux	_	VBP|02604760-v|Entity+
+11	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+12	on	on	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	15	det	_	DT|?|?
+14	rocky	rocky	ADJ	JJ	_	15	amod	_	JJ|02243567-a|TextureAttribute+
+15	surface	surface	NOUN	NN	_	12	pobj	_	NN|08660339-n|Region+
+16	.	.	.	.	_	11	punct	_	Fp|?|?

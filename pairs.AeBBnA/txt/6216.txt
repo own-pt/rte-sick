@@ -1,0 +1,43 @@
+sentence A = A man is sitting on a boat in font of the sunset, near a flag.
+sentence B = A man is on a ship in front of the sunset.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,PhysicalAttribute+,SittingDown+,WaterVehicle=,Character+,Sunset+,Flag+
+CONCEPTS B: Hominid=,Entity+,WaterVehicle=,FrontFn=,Sunset+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	boat	boat	NOUN	NN	_	5	pobj	_	NN|02858304-n|WaterVehicle=
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	font	font	NOUN	NN	_	8	pobj	_	NN|06825399-n|Character+
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	sunset	sunset	NOUN	NN	_	10	pobj	_	NN|15169248-n|Sunset+
+13	,	,	.	,	_	12	punct	_	Fc|?|?
+14	near	near	ADP	IN	_	12	prep	_	IN|?|?
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	flag	flag	NOUN	NN	_	14	pobj	_	NN|03354903-n|Flag+
+17	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	3	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+4	on	on	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	ship	ship	NOUN	NN	_	4	pobj	_	NN|04194289-n|WaterVehicle=
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	front	front	NOUN	NN	_	7	pobj	_	NN|08573472-n|FrontFn=
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	sunset	sunset	NOUN	NN	_	9	pobj	_	NN|15169248-n|Sunset+
+12	.	.	.	.	_	3	punct	_	Fp|?|?

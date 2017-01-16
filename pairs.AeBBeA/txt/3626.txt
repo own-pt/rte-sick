@@ -1,0 +1,32 @@
+sentence A = Someone is dropping the meat into a pan.
+sentence B = The meat is being dropped into a pan.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Entity+,MotionDownward=,SubjectiveAssessmentAttribute+,PotOrPan=
+CONCEPTS B: SubjectiveAssessmentAttribute+,Entity+,Entity+,MotionDownward=,PotOrPan=
+
+CONLL A:
+
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	dropping	drop	VERB	VBG	_	0	ROOT	_	VBG|01977701-v|MotionDownward=
+4	the	the	DET	DT	_	5	det	_	DT|?|?
+5	meat	meat	NOUN	NN	_	3	dobj	_	NN|05921123-n|SubjectiveAssessmentAttribute+
+6	into	into	ADP	IN	_	3	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	pan	pan	NOUN	NN	_	6	pobj	_	NN|03880531-n|PotOrPan=
+9	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	meat	meat	NOUN	NN	_	5	nsubjpass	_	NN|05921123-n|SubjectiveAssessmentAttribute+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	dropped	drop	VERB	VBN	_	0	ROOT	_	VBN|01977701-v|MotionDownward=
+6	into	into	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	pan	pan	NOUN	NN	_	6	pobj	_	NN|03880531-n|PotOrPan=
+9	.	.	.	.	_	5	punct	_	Fp|?|?

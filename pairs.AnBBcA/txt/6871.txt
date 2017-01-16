@@ -1,0 +1,30 @@
+sentence A = Two dogs are playing on the beach.
+sentence B = Two dogs are resting on the beach.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Canine+,Entity+,DramaticActing+,ShoreArea=
+CONCEPTS B: Canine+,Entity+,PastFn=,ShoreArea=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	beach	beach	NOUN	NN	_	5	pobj	_	NN|09217230-n|ShoreArea=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	resting	rest	VERB	VBG	_	0	ROOT	_	VBG|00117985-v|PastFn=
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	beach	beach	NOUN	NN	_	5	pobj	_	NN|09217230-n|ShoreArea=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

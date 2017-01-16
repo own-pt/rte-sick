@@ -1,0 +1,28 @@
+sentence A = A chef is preparing some food.
+sentence B = A chef is preparing a meal.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Chef=,Entity+,Cooking+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Chef=,Entity+,Learning+,Meal=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	chef	chef	NOUN	NN	_	4	nsubj	_	NN|09963574-n|Chef=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	preparing	prepare	VERB	VBG	_	0	ROOT	_	VBG|01664172-v|Cooking+
+5	some	some	DET	DT	_	6	det	_	DT|?|?
+6	food	food	NOUN	NN	_	4	dobj	_	NN|05811214-n|SubjectiveAssessmentAttribute+
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	chef	chef	NOUN	NN	_	4	nsubj	_	NN|09963574-n|Chef=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	preparing	prepare	VERB	VBG	_	0	ROOT	_	VBG|00602805-v|Learning+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	meal	meal	NOUN	NN	_	4	dobj	_	NN|07573696-n|Meal=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,41 @@
+sentence A = There is no child lying in the snow and making snow angels.
+sentence B = Two people in snowsuits are lying in the snow and making snow angels.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,HumanChild=,PhysicalAttribute+,Snowing=,Process+,Snowing=,Angel=
+CONCEPTS B: GroupOfPeople=,Entity+,PhysicalAttribute+,Snowing=,Attribute+,Snowing=,Angel=
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	child	child	NOUN	NN	_	2	nsubj	_	NN|09917593-n|HumanChild=
+5	lying	lie	VERB	VBG	_	4	dep	_	VBG|02690708-v|PhysicalAttribute+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	snow	snow	NOUN	NN	_	6	pobj	_	NN|15043763-n|Snowing=
+9	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+10	making	make	VERB	VBG	_	5	conj	_	VBG|00120316-v|Process+
+11	snow	snow	NOUN	NN	_	12	nn	_	NN|15043763-n|Snowing=
+12	angels	angel	NOUN	NNS	_	10	dobj	_	NNS|09538915-n|Angel=
+13	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	6	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	snowsuits	snowsuits	NOUN	NNS	_	3	pobj	_	NNS|?|?
+5	are	be	VERB	VBP	_	6	aux	_	VBP|02604760-v|Entity+
+6	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	snow	snow	NOUN	NN	_	7	pobj	_	NN|15043763-n|Snowing=
+10	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+11	making	make	VERB	VBG	_	6	conj	_	VBG|02621395-v|Attribute+
+12	snow	snow	NOUN	NN	_	13	nn	_	NN|15043763-n|Snowing=
+13	angels	angel	NOUN	NNS	_	11	dobj	_	NNS|09538915-n|Angel=
+14	.	.	.	.	_	6	punct	_	Fp|?|?

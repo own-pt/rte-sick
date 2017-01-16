@@ -1,0 +1,46 @@
+sentence A = A man wearing a dyed black shirt is sitting at the table and laughing.
+sentence B = There is no man wearing a shirt dyed black, sitting at the table and laughing.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Man=,Putting+,Coloring+,Black=,Shirt=,PhysicalAttribute+,SittingDown+,ContentBearingObject+,Laughing=
+CONCEPTS B: PhysicalAttribute+,Man=,Putting+,Shirt=,Coloring+,Black=,SittingDown+,ContentBearingObject+,Laughing=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	9	nsubj	_	NN|10287213-n|Man=
+3	wearing	wear	VERB	VBG	_	2	partmod	_	VBG|00052374-v|Putting+
+4	a	a	DET	DT	_	7	det	_	DT|?|?
+5	dyed	dye	ADJ	JJ	_	7	amod	_	VBN|00283090-v|Coloring+
+6	black	black	ADJ	JJ	_	7	amod	_	JJ|00392812-a|Black=
+7	shirt	shirt	NOUN	NN	_	3	dobj	_	NN|04197391-n|Shirt=
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02655135-v|PhysicalAttribute+
+9	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+10	at	at	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	table	table	NOUN	NN	_	10	pobj	_	NN|08266235-n|ContentBearingObject+
+13	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+14	laughing	laugh	VERB	VBG	_	9	conj	_	VBG|00031820-v|Laughing=
+15	.	.	.	.	_	9	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02655135-v|PhysicalAttribute+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|10287213-n|Man=
+5	wearing	wear	VERB	VBG	_	4	dep	_	VBG|00052374-v|Putting+
+6	a	a	DET	DT	_	9	det	_	DT|?|?
+7	shirt	shirt	NOUN	NN	_	8	dep	_	NN|04197391-n|Shirt=
+8	dyed	dye	VERB	VBN	_	9	amod	_	VBD|00283090-v|Coloring+
+9	black	black	ADJ	JJ	_	5	dobj	_	JJ|00392812-a|Black=
+10	,	,	.	,	_	5	punct	_	Fc|?|?
+11	sitting	sit	VERB	VBG	_	5	conj	_	VBG|01543123-v|SittingDown+
+12	at	at	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	table	table	NOUN	NN	_	12	pobj	_	NN|08266235-n|ContentBearingObject+
+15	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+16	laughing	laugh	VERB	VBG	_	5	conj	_	VBG|00031820-v|Laughing=
+17	.	.	.	.	_	2	punct	_	Fp|?|?

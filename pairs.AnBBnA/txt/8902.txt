@@ -1,0 +1,28 @@
+sentence A = Two people are riding motorbikes.
+sentence B = Dirt bikers are riding on a trail.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GroupOfPeople=,Entity+,Carrying=,TransportationDevice+
+CONCEPTS B: Text+,Entity+,Carrying=,Trail+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+5	motorbikes	motorbike	NOUN	NNS	_	4	dobj	_	NNS|03769722-n|TransportationDevice+
+6	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Dirt	dirt	NOUN	NN	_	2	nn	_	NN|07223811-n|Text+
+2	bikers	biker	NOUN	NNS	_	4	nsubj	_	NNS|?|?
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	trail	trail	NOUN	NN	_	5	pobj	_	NN|04466613-n|Trail+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

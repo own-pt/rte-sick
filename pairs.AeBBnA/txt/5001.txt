@@ -1,0 +1,34 @@
+sentence A = A cat is opening a drawer and jumping inside.
+sentence B = A cat is opening a drawer and climbing inside.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Whip+,Entity+,Process+,Compartment+,Ambulating=,Indoors+
+CONCEPTS B: Whip+,Entity+,Process+,Compartment+,Increasing+,Indoors+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	4	nsubj	_	NN|02985606-n|Whip+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	opening	open	VERB	VBG	_	0	ROOT	_	VBG|00539936-v|Process+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	drawer	drawer	NOUN	NN	_	4	dobj	_	NN|03233905-n|Compartment+
+7	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+8	jumping	jump	VERB	VBG	_	4	conj	_	VBG|01963942-v|Ambulating=
+9	inside	inside	ADV	RB	_	8	advmod	_	RB|00110815-r|Indoors+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	4	nsubj	_	NN|02985606-n|Whip+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	opening	open	VERB	VBG	_	0	ROOT	_	VBG|00539936-v|Process+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	drawer	drawer	NOUN	NN	_	4	dobj	_	NN|03233905-n|Compartment+
+7	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+8	climbing	climb	VERB	VBG	_	4	conj	_	VBG|00433232-v|Increasing+
+9	inside	inside	ADV	RB	_	8	advmod	_	RB|00110815-r|Indoors+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

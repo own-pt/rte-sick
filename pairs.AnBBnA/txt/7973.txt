@@ -1,0 +1,38 @@
+sentence A = Two poodles are in the snow and one is lying down.
+sentence B = Two poodles are in the snow and one is jumping high.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,Snowing=,Entity+,PhysicalAttribute+,earlier+
+CONCEPTS B: Canine+,Entity+,Snowing=,Entity+,Ambulating=,SubjectiveStrongPositiveAttribute+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	poodles	poodle	NOUN	NNS	_	3	nsubj	_	NNS|02113335-n|Canine+
+3	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	snow	snow	NOUN	NN	_	4	pobj	_	NN|15043763-n|Snowing=
+7	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+8	one	one	NUM	CD	_	10	nsubj	_	PRP|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	lying	lie	VERB	VBG	_	3	conj	_	VBG|02690708-v|PhysicalAttribute+
+11	down	down	PRT	RP	_	10	prt	_	RP|00096089-r|earlier+
+12	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	poodles	poodle	NOUN	NNS	_	3	nsubj	_	NNS|02113335-n|Canine+
+3	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	snow	snow	NOUN	NN	_	4	pobj	_	NN|15043763-n|Snowing=
+7	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+8	one	one	NUM	CD	_	10	nsubj	_	PRP|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	jumping	jump	VERB	VBG	_	3	conj	_	VBG|01963942-v|Ambulating=
+11	high	high	ADJ	JJ	_	10	advmod	_	JJ|02339120-a|SubjectiveStrongPositiveAttribute+
+12	.	.	.	.	_	3	punct	_	Fp|?|?

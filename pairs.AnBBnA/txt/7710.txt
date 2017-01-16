@@ -1,0 +1,47 @@
+sentence A = The blonde girl with the pink top is happily smiling and wearing funny glasses with a large nose attached.
+sentence B = A little girl is smiling and wearing a fake nose and glasses.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Human+,Pink+,PositionalAttribute+,Entity+,Happiness+,Smiling=,CoveringFn=,SubjectiveStrongPositiveAttribute+,Cup=,SubjectiveWeakPositiveAttribute+,Nose+,Attaching=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Smiling=,CoveringFn=,SubjectiveAssessmentAttribute+,Nose+,Cup=
+
+CONLL A:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	blonde	blonde	ADJ	JJ	_	3	amod	_	JJ|00243606-a|Human+
+3	girl	girl	NOUN	NN	_	10	nsubj	_	NN|10129825-n|Human+
+4	with	with	ADP	IN	_	3	prep	_	IN|?|?
+5	the	the	DET	DT	_	7	det	_	DT|?|?
+6	pink	pink	ADJ	JJ	_	7	amod	_	JJ|00379595-a|Pink+
+7	top	top	NOUN	NN	_	4	pobj	_	NN|08663354-n|PositionalAttribute+
+8	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+9	happily	happily	ADV	RB	_	10	advmod	_	RB|00050297-r|Happiness+
+10	smiling	smile	VERB	VBG	_	0	ROOT	_	VBG|00028565-v|Smiling=
+11	and	and	CONJ	CC	_	10	cc	_	CC|?|?
+12	wearing	wear	VERB	VBG	_	10	conj	_	VBG|00047745-v|CoveringFn=
+13	funny	funny	ADJ	JJ	_	14	amod	_	JJ|01265308-a|SubjectiveStrongPositiveAttribute+
+14	glasses	glass	NOUN	NNS	_	12	dobj	_	NNS|03438257-n|Cup=
+15	with	with	ADP	IN	_	12	prep	_	IN|?|?
+16	a	a	DET	DT	_	18	det	_	DT|?|?
+17	large	large	ADJ	JJ	_	18	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+18	nose	nose	NOUN	NN	_	15	pobj	_	NN|05598147-n|Nose+
+19	attached	attach	VERB	VBN	_	18	partmod	_	VBN|01290255-v|Attaching=
+20	.	.	.	.	_	10	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	smiling	smile	VERB	VBG	_	0	ROOT	_	VBG|00028565-v|Smiling=
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	wearing	wear	VERB	VBG	_	5	conj	_	VBG|00047745-v|CoveringFn=
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	fake	fake	ADJ	JJ	_	10	amod	_	NN|03318438-n|SubjectiveAssessmentAttribute+
+10	nose	nose	NOUN	NN	_	7	dobj	_	NN|05598147-n|Nose+
+11	and	and	CONJ	CC	_	10	cc	_	CC|?|?
+12	glasses	glass	NOUN	NNS	_	10	conj	_	NNS|03438257-n|Cup=
+13	.	.	.	.	_	5	punct	_	Fp|?|?

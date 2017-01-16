@@ -1,0 +1,43 @@
+sentence A = A woman is sitting and looking at the waterfall.
+sentence B = A rocker is sitting with a t-shirt that has a man over a grey waterfall on the front.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,PhysicalAttribute+,SittingDown+,SubjectiveAssessmentAttribute+,Waterfall=
+CONCEPTS B: Chair+,PhysicalAttribute+,SittingDown+,Shirt+,Damaging+,Man=,Gray+,Waterfall=,FrontFn=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	looking	look	VERB	VBG	_	4	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+7	at	at	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	waterfall	waterfall	NOUN	NN	_	7	pobj	_	NN|09475292-n|Waterfall=
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	rocker	rocker	NOUN	NN	_	4	nsubj	_	NN|04099969-n|Chair+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	t-shirt	t-shirt	NOUN	NN	_	5	pobj	_	NN|03595614-n|Shirt+
+8	that	that	DET	WDT	_	9	nsubj	_	WDT|?|?
+9	has	have	VERB	VBZ	_	7	rcmod	_	VBZ|00065639-v|Damaging+
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	man	man	NOUN	NN	_	9	dobj	_	NN|10287213-n|Man=
+12	over	over	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	15	det	_	DT|?|?
+14	grey	grey	ADJ	JJ	_	15	amod	_	JJ|00389310-a|Gray+
+15	waterfall	waterfall	NOUN	NN	_	12	pobj	_	NN|09475292-n|Waterfall=
+16	on	on	ADP	IN	_	15	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	front	front	NOUN	NN	_	16	pobj	_	NN|08573472-n|FrontFn=
+19	.	.	.	.	_	4	punct	_	Fp|?|?

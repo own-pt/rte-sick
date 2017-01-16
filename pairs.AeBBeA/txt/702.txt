@@ -1,0 +1,54 @@
+sentence A = Two persons of large size are sitting on a park bench and they have a bottle of soda between them.
+sentence B = Two large persons are sitting on a park bench and they have a bottle of soda between them.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Human=,SubjectiveWeakPositiveAttribute+,Attribute+,PhysicalAttribute+,SittingDown+,Park+,Seat+,Damaging+,Bottle=,Soda=
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Human=,PhysicalAttribute+,SittingDown+,Park+,Seat+,Damaging+,Bottle=,Soda=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	persons	person	NOUN	NNS	_	7	nsubj	_	NNS|00007846-n|Human=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	large	large	ADJ	JJ	_	5	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+5	size	size	NOUN	NN	_	3	pobj	_	NN|05098942-n|Attribute+
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02655135-v|PhysicalAttribute+
+7	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	park	park	NOUN	NN	_	11	nn	_	NN|08615374-n|Park+
+11	bench	bench	NOUN	NN	_	8	pobj	_	NN|02828884-n|Seat+
+12	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+13	they	they	PRON	PRP	_	14	nsubj	_	PRP|?|?
+14	have	have	VERB	VBP	_	7	conj	_	VBP|00065639-v|Damaging+
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	bottle	bottle	NOUN	NN	_	14	dobj	_	NN|02876657-n|Bottle=
+17	of	of	ADP	IN	_	16	prep	_	IN|?|?
+18	soda	soda	NOUN	NN	_	17	pobj	_	NN|07927512-n|Soda=
+19	between	between	ADP	IN	_	18	prep	_	IN|?|?
+20	them	them	PRON	PRP	_	19	pobj	_	PRP|?|?
+21	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	large	large	ADJ	JJ	_	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	persons	person	NOUN	NNS	_	5	nsubj	_	NNS|00007846-n|Human=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	park	park	NOUN	NN	_	9	nn	_	NN|08615374-n|Park+
+9	bench	bench	NOUN	NN	_	6	pobj	_	NN|02828884-n|Seat+
+10	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+11	they	they	PRON	PRP	_	12	nsubj	_	PRP|?|?
+12	have	have	VERB	VBP	_	5	conj	_	VBP|00065639-v|Damaging+
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	bottle	bottle	NOUN	NN	_	12	dobj	_	NN|02876657-n|Bottle=
+15	of	of	ADP	IN	_	14	prep	_	IN|?|?
+16	soda	soda	NOUN	NN	_	15	pobj	_	NN|07927512-n|Soda=
+17	between	between	ADP	IN	_	16	prep	_	IN|?|?
+18	them	them	PRON	PRP	_	17	pobj	_	PRP|?|?
+19	.	.	.	.	_	5	punct	_	Fp|?|?

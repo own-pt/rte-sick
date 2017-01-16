@@ -1,0 +1,38 @@
+sentence A = A baby rhino is walking around a pen with its mother.
+sentence B = A baby rhino and its mother are standing in a pen.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: HumanBaby=,HoofedMammal+,Entity+,Walking=,StationaryArtifact+,BiologicalAttribute+
+CONCEPTS B: HumanBaby=,HoofedMammal+,BiologicalAttribute+,Entity+,PhysicalAttribute+,StationaryArtifact+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	baby	baby	NOUN	NN	_	3	nn	_	NN|09827683-n|HumanBaby=
+3	rhino	rhino	NOUN	NN	_	5	nsubj	_	NN|02391994-n|HoofedMammal+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+6	around	around	ADP	IN	_	5	prep	_	RP|00007015-r|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	pen	pen	NOUN	NN	_	6	pobj	_	NN|03907227-n|StationaryArtifact+
+9	with	with	ADP	IN	_	8	prep	_	IN|?|?
+10	its	its	PRON	PRP$	_	11	poss	_	PRP$|?|?
+11	mother	mother	NOUN	NN	_	9	pobj	_	NN|10332385-n|BiologicalAttribute+
+12	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	baby	baby	NOUN	NN	_	3	nn	_	NN|09827683-n|HumanBaby=
+3	rhino	rhino	NOUN	NN	_	8	nsubj	_	NN|02391994-n|HoofedMammal+
+4	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+5	its	its	PRON	PRP$	_	6	poss	_	PRP$|?|?
+6	mother	mother	NOUN	NN	_	3	conj	_	NN|10332385-n|BiologicalAttribute+
+7	are	be	VERB	VBP	_	8	aux	_	VBP|02604760-v|Entity+
+8	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	pen	pen	NOUN	NN	_	9	pobj	_	NN|03907227-n|StationaryArtifact+
+12	.	.	.	.	_	8	punct	_	Fp|?|?

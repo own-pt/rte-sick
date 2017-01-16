@@ -1,0 +1,33 @@
+sentence A = A lion is tiring the whole pen by pacing.
+sentence B = A lion is pacing tiredly in a pen.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Region@,Entity+,RecreationOrExercise+,sibling=,StationaryArtifact+,Ambulating+
+CONCEPTS B: Region@,Entity+,Ambulating+,StateOfMind+,StationaryArtifact+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	lion	lion	NOUN	NN	_	4	nsubj	_	NN|08686821-n|Region@
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	tiring	tire	VERB	VBG	_	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
+5	the	the	DET	DT	_	7	det	_	DT|?|?
+6	whole	whole	ADJ	JJ	_	7	amod	_	JJ|00517916-a|sibling=
+7	pen	pen	NOUN	NN	_	4	dobj	_	NN|03907227-n|StationaryArtifact+
+8	by	by	ADP	IN	_	4	prep	_	IN|?|?
+9	pacing	pace	NOUN	NN	_	8	pobj	_	VBG|02091165-v|Ambulating+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	lion	lion	NOUN	NN	_	4	nsubj	_	NN|08686821-n|Region@
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	pacing	pace	VERB	VBG	_	0	ROOT	_	VBG|02091165-v|Ambulating+
+5	tiredly	tiredly	ADV	RB	_	4	advmod	_	RB|00090424-r|StateOfMind+
+6	in	in	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	pen	pen	NOUN	NN	_	6	pobj	_	NN|03907227-n|StationaryArtifact+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

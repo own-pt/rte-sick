@@ -1,0 +1,40 @@
+sentence A = There is no veteran showing things from a war to some people.
+sentence B = A veteran is showing different things from a war to some people.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Veteran+,IntentionalProcess+,Entity+,War=,GroupOfPeople=
+CONCEPTS B: Veteran+,Entity+,IntentionalProcess+,equal+,Entity+,War=,GroupOfPeople=
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	veteran	veteran	NOUN	NN	_	2	nsubj	_	NN|10749353-n|Veteran+
+5	showing	show	VERB	VBG	_	4	partmod	_	VBG|02137132-v|IntentionalProcess+
+6	things	thing	NOUN	NNS	_	5	dobj	_	NNS|04424418-n|Entity+
+7	from	from	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	war	war	NOUN	NN	_	7	pobj	_	NN|00973077-n|War=
+10	to	to	ADP	IN	_	5	prep	_	TO|?|?
+11	some	some	DET	DT	_	12	det	_	DT|?|?
+12	people	people	NOUN	NNS	_	10	pobj	_	NNS|07942152-n|GroupOfPeople=
+13	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	veteran	veteran	NOUN	NN	_	4	nsubj	_	NN|10749353-n|Veteran+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	showing	show	VERB	VBG	_	0	ROOT	_	VBG|02137132-v|IntentionalProcess+
+5	different	different	ADJ	JJ	_	6	amod	_	JJ|02064745-a|equal+
+6	things	thing	NOUN	NNS	_	4	dobj	_	NNS|04424418-n|Entity+
+7	from	from	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	war	war	NOUN	NN	_	7	pobj	_	NN|00973077-n|War=
+10	to	to	ADP	IN	_	4	prep	_	TO|?|?
+11	some	some	DET	DT	_	12	det	_	DT|?|?
+12	people	people	NOUN	NNS	_	10	pobj	_	NNS|07942152-n|GroupOfPeople=
+13	.	.	.	.	_	4	punct	_	Fp|?|?

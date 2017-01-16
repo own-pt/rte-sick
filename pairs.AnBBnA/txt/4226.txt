@@ -1,0 +1,28 @@
+sentence A = The animal with big eyes is eating.
+sentence B = There is no lemur eating.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Animal=,SubjectiveWeakPositiveAttribute+,Organ+,Entity+,Process+
+CONCEPTS B: Entity+,Primate+,Process+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	animal	animal	NOUN	NN	_	7	nsubj	_	NN|00015388-n|Animal=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	big	big	ADJ	JJ	_	5	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+5	eyes	eye	NOUN	NNS	_	3	pobj	_	NNS|05311054-n|Organ+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+8	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	lemur	lemur	ADV	RB	_	5	amod	_	NN|02496913-n|Primate+
+5	eating	eat	NOUN	NN	_	2	nsubj	_	VBG|01157517-v|Process+
+6	.	.	.	.	_	2	punct	_	Fp|?|?

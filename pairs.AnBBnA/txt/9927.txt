@@ -1,0 +1,27 @@
+sentence A = The lady is dicing onions.
+sentence B = Rugby players are tackling each other.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Cutting+,FruitOrVegetable+
+CONCEPTS B: Rugby=,Human+,Entity+,Putting+,equal+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	lady	lady	NOUN	NN	_	4	nsubj	_	NN|09989290-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	dicing	dice	VERB	VBG	_	0	ROOT	_	VBG|01256867-v|Cutting+
+5	onions	onion	NOUN	NNS	_	4	dobj	_	NNS|12433081-n|FruitOrVegetable+
+6	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Rugby	rugby	NOUN	NN	_	2	nn	_	NN|00470966-n|Rugby=
+2	players	player	NOUN	NNS	_	4	nsubj	_	NNS|10439851-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	tackling	tackle	VERB	VBG	_	0	ROOT	_	VBG|01491697-v|Putting+
+5	each	each	DET	DT	_	6	det	_	DT|?|?
+6	other	other	ADJ	JJ	_	4	dobj	_	JJ|02069355-a|equal+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

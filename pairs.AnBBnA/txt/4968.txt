@@ -1,0 +1,28 @@
+sentence A = A woman is chopping garlic.
+sentence B = There is no woman slicing a fish.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Cutting+,Garlic=
+CONCEPTS B: Entity+,Woman=,Separating+,Region@
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	chopping	chop	VERB	VBG	_	0	ROOT	_	VBG|01258091-v|Cutting+
+5	garlic	garlic	NOUN	NN	_	4	dobj	_	NN|07818277-n|Garlic=
+6	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	woman	woman	NOUN	NN	_	2	nsubj	_	NN|10787470-n|Woman=
+5	slicing	slice	VERB	VBG	_	4	partmod	_	VBG|01254477-v|Separating+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	fish	fish	NOUN	NN	_	5	dobj	_	NN|08688076-n|Region@
+8	.	.	.	.	_	2	punct	_	Fp|?|?

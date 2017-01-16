@@ -1,0 +1,38 @@
+sentence A = A dog is running on the beach and chasing a ball.
+sentence B = A dog is running on the sand and chasing a ball.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,Attribute+,ShoreArea=,Pursuing+,Ball=
+CONCEPTS B: Canine+,Entity+,Hunting+,Sand=,Pursuing+,Ball=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	beach	beach	NOUN	NN	_	5	pobj	_	NN|09217230-n|ShoreArea=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	chasing	chase	VERB	VBG	_	4	conj	_	VBG|02001858-v|Pursuing+
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	ball	ball	NOUN	NN	_	9	dobj	_	NN|02778669-n|Ball=
+12	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01143838-v|Hunting+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	sand	sand	NOUN	NN	_	5	pobj	_	NN|15019030-n|Sand=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	chasing	chase	VERB	VBG	_	4	conj	_	VBG|02001858-v|Pursuing+
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	ball	ball	NOUN	NN	_	9	dobj	_	NN|02778669-n|Ball=
+12	.	.	.	.	_	4	punct	_	Fp|?|?

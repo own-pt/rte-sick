@@ -1,0 +1,33 @@
+sentence A = Four people are performing music outdoors.
+sentence B = A white man is staging a hat and a playing guitar.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GroupOfPeople=,Entity+,IntentionalProcess+,MakingMusic=,Outdoors+
+CONCEPTS B: White=,Man=,Entity+,Planning+,Hat+,DramaticActing+,Guitar=
+
+CONLL A:
+
+1	Four	4	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	music	music	NOUN	NN	_	4	dobj	_	NN|07020895-n|MakingMusic=
+6	outdoors	outdoors	ADV	RB	_	4	advmod	_	RB|00110659-r|Outdoors+
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	man	man	NOUN	NN	_	5	nsubj	_	NN|10287213-n|Man=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	staging	stage	VERB	VBG	_	0	ROOT	_	VBG|01648126-v|Planning+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	hat	hat	NOUN	NN	_	5	dobj	_	NN|03497657-n|Hat+
+8	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	playing	play	VERB	VBG	_	11	nn	_	VBG|01719302-v|DramaticActing+
+11	guitar	guitar	NOUN	NN	_	7	conj	_	NN|03467517-n|Guitar=
+12	.	.	.	.	_	5	punct	_	Fp|?|?

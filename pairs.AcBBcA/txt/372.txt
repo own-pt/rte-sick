@@ -1,0 +1,39 @@
+sentence A = A man is sitting on a chair and rubbing his eyes.
+sentence B = There is no man sitting on a chair and rubbing his eyes.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Hominid=,PhysicalAttribute+,SittingDown+,Chair=,Touching+,Organ+
+CONCEPTS B: PhysicalAttribute+,Hominid=,SittingDown+,Chair=,Touching+,Organ+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	chair	chair	NOUN	NN	_	5	pobj	_	NN|03001627-n|Chair=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	rubbing	rub	VERB	VBG	_	4	conj	_	VBG|01249724-v|Touching+
+10	his	his	PRON	PRP$	_	11	poss	_	PRP$|?|?
+11	eyes	eye	NOUN	NNS	_	9	dobj	_	NNS|05311054-n|Organ+
+12	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02655135-v|PhysicalAttribute+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	sitting	sit	VERB	VBG	_	4	dep	_	VBG|01543123-v|SittingDown+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	chair	chair	NOUN	NN	_	6	pobj	_	NN|03001627-n|Chair=
+9	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+10	rubbing	rub	VERB	VBG	_	5	conj	_	VBG|01249724-v|Touching+
+11	his	his	PRON	PRP$	_	12	poss	_	PRP$|?|?
+12	eyes	eye	NOUN	NNS	_	10	dobj	_	NNS|05311054-n|Organ+
+13	.	.	.	.	_	2	punct	_	Fp|?|?

@@ -1,0 +1,39 @@
+sentence A = Three people are sitting on a bench under some palm trees.
+sentence B = A few people are sitting on a bench under some palm trees.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GroupOfPeople=,PhysicalAttribute+,SittingDown+,Seat+,UnilateralGiving+,ContentBearingObject+
+CONCEPTS B: GroupOfPeople=,PhysicalAttribute+,SittingDown+,Seat+,UnilateralGiving+,ContentBearingObject+
+
+CONLL A:
+
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	bench	bench	NOUN	NN	_	5	pobj	_	NN|02828884-n|Seat+
+8	under	under	ADP	IN	_	4	prep	_	IN|?|?
+9	some	some	DET	DT	_	11	det	_	DT|?|?
+10	palm	palm	NOUN	NN	_	11	nn	_	NN|06706676-n|UnilateralGiving+
+11	trees	tree	NOUN	NNS	_	8	pobj	_	NNS|13912260-n|ContentBearingObject+
+12	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	quantmod	_	DT|?|?
+2	few	few	ADJ	JJ	_	3	num	_	DT|?|?
+3	people	people	NOUN	NNS	_	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	bench	bench	NOUN	NN	_	6	pobj	_	NN|02828884-n|Seat+
+9	under	under	ADP	IN	_	5	prep	_	IN|?|?
+10	some	some	DET	DT	_	12	det	_	DT|?|?
+11	palm	palm	NOUN	NN	_	12	nn	_	NN|06706676-n|UnilateralGiving+
+12	trees	tree	NOUN	NNS	_	9	pobj	_	NNS|13912260-n|ContentBearingObject+
+13	.	.	.	.	_	5	punct	_	Fp|?|?

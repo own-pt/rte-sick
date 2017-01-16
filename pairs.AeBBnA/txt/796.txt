@@ -1,0 +1,40 @@
+sentence A = Two people are in the snow, wearing clothes that provide camouflage.
+sentence B = Some people are in the snow, wearing clothes that provide camouflage.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GroupOfPeople=,Entity+,Snowing=,CoveringFn=,Clothing+,Putting+,Pretending+
+CONCEPTS B: GroupOfPeople=,Entity+,Snowing=,CoveringFn=,Clothing+,Putting+,Pretending+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	3	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	snow	snow	NOUN	NN	_	4	pobj	_	NN|15043763-n|Snowing=
+7	,	,	.	,	_	3	punct	_	Fc|?|?
+8	wearing	wear	VERB	VBG	_	3	xcomp	_	VBG|00047745-v|CoveringFn=
+9	clothes	clothes	NOUN	NNS	_	8	dobj	_	NNS|02728440-n|Clothing+
+10	that	that	DET	WDT	_	11	nsubj	_	WDT|?|?
+11	provide	provide	VERB	VBP	_	9	rcmod	_	VBP|02327200-v|Putting+
+12	camouflage	camouflage	NOUN	NN	_	11	dobj	_	NN|02944459-n|Pretending+
+13	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	people	people	NOUN	NNS	_	3	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	snow	snow	NOUN	NN	_	4	pobj	_	NN|15043763-n|Snowing=
+7	,	,	.	,	_	3	punct	_	Fc|?|?
+8	wearing	wear	VERB	VBG	_	3	xcomp	_	VBG|00047745-v|CoveringFn=
+9	clothes	clothes	NOUN	NNS	_	8	dobj	_	NNS|02728440-n|Clothing+
+10	that	that	DET	WDT	_	11	nsubj	_	WDT|?|?
+11	provide	provide	VERB	VBP	_	9	rcmod	_	VBP|02327200-v|Putting+
+12	camouflage	camouflage	NOUN	NN	_	11	dobj	_	NN|02944459-n|Pretending+
+13	.	.	.	.	_	3	punct	_	Fp|?|?

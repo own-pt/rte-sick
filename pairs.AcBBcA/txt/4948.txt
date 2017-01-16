@@ -1,0 +1,31 @@
+sentence A = There is no little girl peddling a scooter.
+sentence B = A little girl is peddling a scooter.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,SubjectiveStrongNegativeAttribute+,Human+,Selling+,LandVehicle+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Selling+,LandVehicle+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	little	little	ADJ	JJ	_	5	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+5	girl	girl	NOUN	NN	_	2	nsubj	_	NN|10129825-n|Human+
+6	peddling	peddle	VERB	VBG	_	5	partmod	_	VBG|02302817-v|Selling+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	scooter	scooter	NOUN	NN	_	6	dobj	_	NN|03791053-n|LandVehicle+
+9	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	peddling	peddle	VERB	VBG	_	0	ROOT	_	VBG|02302817-v|Selling+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	scooter	scooter	NOUN	NN	_	5	dobj	_	NN|03791053-n|LandVehicle+
+8	.	.	.	.	_	5	punct	_	Fp|?|?

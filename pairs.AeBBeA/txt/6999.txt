@@ -1,0 +1,30 @@
+sentence A = Some people playing rugby are tackling each other.
+sentence B = Rugby players are tackling each other.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: GroupOfPeople=,Game+,Rugby=,Entity+,IntentionalProcess+,equal+
+CONCEPTS B: Rugby=,Human+,Entity+,Putting+,equal+
+
+CONLL A:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	people	people	NOUN	NNS	_	6	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	playing	play	VERB	VBG	_	2	partmod	_	VBG|01079480-v|Game+
+4	rugby	rugby	NOUN	NN	_	3	dobj	_	NN|00470966-n|Rugby=
+5	are	be	VERB	VBP	_	6	aux	_	VBP|02604760-v|Entity+
+6	tackling	tackle	VERB	VBG	_	0	ROOT	_	VBG|02569630-v|IntentionalProcess+
+7	each	each	DET	DT	_	8	det	_	DT|?|?
+8	other	other	ADJ	JJ	_	6	dobj	_	JJ|02069355-a|equal+
+9	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Rugby	rugby	NOUN	NN	_	2	nn	_	NN|00470966-n|Rugby=
+2	players	player	NOUN	NNS	_	4	nsubj	_	NNS|10439851-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	tackling	tackle	VERB	VBG	_	0	ROOT	_	VBG|01491697-v|Putting+
+5	each	each	DET	DT	_	6	det	_	DT|?|?
+6	other	other	ADJ	JJ	_	4	dobj	_	JJ|02069355-a|equal+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

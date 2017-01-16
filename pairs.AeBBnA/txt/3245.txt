@@ -1,0 +1,28 @@
+sentence A = The squirrel is running in circles.
+sentence B = An animal is running in circles.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Squirrel+,Entity+,Attribute+,Circle=
+CONCEPTS B: Animal=,Entity+,Attribute+,Circle=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	squirrel	squirrel	NOUN	NN	_	4	nsubj	_	NN|02355227-n|Squirrel+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	circles	circle	NOUN	NNS	_	5	pobj	_	NNS|13873502-n|Circle=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	An	a	DET	DT	_	2	det	_	DT|?|?
+2	animal	animal	NOUN	NN	_	4	nsubj	_	NN|00015388-n|Animal=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	circles	circle	NOUN	NNS	_	5	pobj	_	NNS|13873502-n|Circle=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

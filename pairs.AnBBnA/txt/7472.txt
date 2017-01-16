@@ -1,0 +1,42 @@
+sentence A = A man and two women are standing in a bright room by a table with candles.
+sentence B = The group of people is sitting in a dim room.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Man=,Woman=,Entity+,PhysicalAttribute+,RadiatingLight+,Room=,ContentBearingObject+,Candle=
+CONCEPTS B: Group=,GroupOfPeople=,PhysicalAttribute+,SittingDown+,Decreasing+,Room=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|10287213-n|Man=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	two	2	NUM	CD	_	5	num	_	Z|?|?
+5	women	woman	NOUN	NNS	_	2	conj	_	NNS|10787470-n|Woman=
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	bright	bright	ADJ	JJ	_	11	amod	_	JJ|00278551-a|RadiatingLight+
+11	room	room	NOUN	NN	_	8	pobj	_	NN|04105893-n|Room=
+12	by	by	ADP	IN	_	7	prep	_	IN|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	table	table	NOUN	NN	_	12	pobj	_	NN|08266235-n|ContentBearingObject+
+15	with	with	ADP	IN	_	14	prep	_	IN|?|?
+16	candles	candle	NOUN	NNS	_	15	pobj	_	NNS|02948072-n|Candle=
+17	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	people	people	NOUN	NNS	_	3	pobj	_	NNS|07942152-n|GroupOfPeople=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02655135-v|PhysicalAttribute+
+6	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	dim	dim	ADJ	JJ	_	10	amod	_	JJ|00284575-a|Decreasing+
+10	room	room	NOUN	NN	_	7	pobj	_	NN|04105893-n|Room=
+11	.	.	.	.	_	6	punct	_	Fp|?|?

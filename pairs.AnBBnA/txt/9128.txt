@@ -1,0 +1,42 @@
+sentence A = A girl with Indian clothing and henna on her hand is going through paperwork.
+sentence B = A man is wearing a colorful shirt and a lot of jewelry.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,LandArea@,Clothing=,Substance+,Hand+,Entity+,WhenFn=,IntentionalProcess+
+CONCEPTS B: Man=,Entity+,Putting+,ColorAttribute+,Shirt=,SubjectiveAssessmentAttribute+,Jewelry=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	12	nsubj	_	NN|10129825-n|Human+
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	Indian	indian	ADJ	JJ	_	5	amod	_	JJ|02928347-a|LandArea@
+5	clothing	clothing	NOUN	NN	_	3	pobj	_	NN|03051540-n|Clothing=
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	henna	henna	NOUN	NN	_	5	conj	_	NN|14988741-n|Substance+
+8	on	on	ADP	IN	_	5	prep	_	IN|?|?
+9	her	her	PRON	PRP$	_	10	poss	_	PRP$|?|?
+10	hand	hand	NOUN	NN	_	8	pobj	_	NN|05564590-n|Hand+
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	going	go	VERB	VBG	_	0	ROOT	_	VBG|02618149-v|WhenFn=
+13	through	through	ADP	IN	_	12	prep	_	IN|?|?
+14	paperwork	paperwork	NOUN	NN	_	13	pobj	_	NN|00582071-n|IntentionalProcess+
+15	.	.	.	.	_	12	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	colorful	colorful	ADJ	JJ	_	7	amod	_	JJ|00394562-a|ColorAttribute+
+7	shirt	shirt	NOUN	NN	_	4	dobj	_	NN|04197391-n|Shirt=
+8	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	lot	lot	NOUN	NN	_	7	conj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+11	of	of	ADP	IN	_	10	prep	_	IN|?|?
+12	jewelry	jewelry	NOUN	NN	_	11	pobj	_	NN|03597469-n|Jewelry=
+13	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,42 @@
+sentence A = The black bird with a yellow beak is standing in the green grass.
+sentence B = A black bird with a yellow beak is standing in the green grass.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Black=,Bird=,SubjectiveAssessmentAttribute+,BodyPart+,Entity+,PhysicalAttribute+,Green=,Grass=
+CONCEPTS B: Black=,Bird=,SubjectiveAssessmentAttribute+,BodyPart+,Entity+,PhysicalAttribute+,Green=,Grass=
+
+CONLL A:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	bird	bird	NOUN	NN	_	9	nsubj	_	NN|01503061-n|Bird=
+4	with	with	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	yellow	yellow	ADJ	JJ	_	7	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+7	beak	beak	NOUN	NN	_	4	pobj	_	NN|01758308-n|BodyPart+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+10	in	in	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	13	det	_	DT|?|?
+12	green	green	ADJ	JJ	_	13	amod	_	JJ|00375969-a|Green=
+13	grass	grass	NOUN	NN	_	10	pobj	_	NN|12102133-n|Grass=
+14	.	.	.	.	_	9	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	bird	bird	NOUN	NN	_	9	nsubj	_	NN|01503061-n|Bird=
+4	with	with	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	yellow	yellow	ADJ	JJ	_	7	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+7	beak	beak	NOUN	NN	_	4	pobj	_	NN|01758308-n|BodyPart+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+10	in	in	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	13	det	_	DT|?|?
+12	green	green	ADJ	JJ	_	13	amod	_	JJ|00375969-a|Green=
+13	grass	grass	NOUN	NN	_	10	pobj	_	NN|12102133-n|Grass=
+14	.	.	.	.	_	9	punct	_	Fp|?|?

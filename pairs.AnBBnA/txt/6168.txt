@@ -1,0 +1,34 @@
+sentence A = The boy and the girl are playing and wearing arm floats.
+sentence B = A boy and a girl are naked.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Human+,Entity+,DramaticActing+,RecreationOrExercise+,Weapon=,Beverage+
+CONCEPTS B: Human+,Human+,Entity+,Clothing[
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	7	nsubj	_	NN|10285313-n|Human+
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	the	the	DET	DT	_	5	det	_	DT|?|?
+5	girl	girl	NOUN	NN	_	2	conj	_	NN|10129825-n|Human+
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+8	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+9	wearing	wear	VERB	VBG	_	7	conj	_	VBG|00075021-v|RecreationOrExercise+
+10	arm	arm	NOUN	NN	_	11	nn	_	NN|04565375-n|Weapon=
+11	floats	float	NOUN	NNS	_	9	dobj	_	NNS|07923034-n|Beverage+
+12	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	7	nsubj	_	NN|10285313-n|Human+
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	girl	girl	NOUN	NN	_	2	conj	_	NN|10129825-n|Human+
+6	are	be	VERB	VBP	_	7	cop	_	VBP|02604760-v|Entity+
+7	naked	naked	ADJ	JJ	_	0	ROOT	_	JJ|00457998-a|Clothing[
+8	.	.	.	.	_	7	punct	_	Fp|?|?

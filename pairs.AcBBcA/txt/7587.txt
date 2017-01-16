@@ -1,0 +1,41 @@
+sentence A = The bike rider is not looking at the accident of another bike rider.
+sentence B = The bike rider is looking at an accident of another bike rider.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Bicycle=,Human+,Entity+,not=,SubjectiveAssessmentAttribute+,Process+,Bicycle=,Human+
+CONCEPTS B: Bicycle=,Human+,Entity+,SubjectiveAssessmentAttribute+,Process+,Bicycle=,Human+
+
+CONLL A:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	bike	bike	NOUN	NN	_	3	nn	_	NN|02834778-n|Bicycle=
+3	rider	rider	NOUN	NN	_	6	nsubj	_	NN|10530150-n|Human+
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	not	not	ADV	RB	_	6	neg	_	RB|00024073-r|not=
+6	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+7	at	at	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	accident	accident	NOUN	NN	_	7	pobj	_	NN|07300960-n|Process+
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	another	another	DET	DT	_	13	det	_	DT|?|?
+12	bike	bike	NOUN	NN	_	13	nn	_	NN|02834778-n|Bicycle=
+13	rider	rider	NOUN	NN	_	10	pobj	_	NN|10530150-n|Human+
+14	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	bike	bike	NOUN	NN	_	3	nn	_	NN|02834778-n|Bicycle=
+3	rider	rider	NOUN	NN	_	5	nsubj	_	NN|10530150-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+6	at	at	ADP	IN	_	5	prep	_	IN|?|?
+7	an	a	DET	DT	_	8	det	_	DT|?|?
+8	accident	accident	NOUN	NN	_	6	pobj	_	NN|07300960-n|Process+
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	another	another	DET	DT	_	12	det	_	DT|?|?
+11	bike	bike	NOUN	NN	_	12	nn	_	NN|02834778-n|Bicycle=
+12	rider	rider	NOUN	NN	_	9	pobj	_	NN|10530150-n|Human+
+13	.	.	.	.	_	5	punct	_	Fp|?|?

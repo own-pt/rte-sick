@@ -1,0 +1,42 @@
+sentence A = People wearing costumes are gathering in a forest and are looking in the same direction.
+sentence B = Masked people are looking in the same direction in a forest.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GroupOfPeople=,Dressing+,Clothing+,Entity+,Meeting+,Forest=,Entity+,Searching=,equal+,DirectionalAttribute=
+CONCEPTS B: Pretending+,GroupOfPeople=,Entity+,SubjectiveAssessmentAttribute+,equal+,DirectionalAttribute=,Forest=
+
+CONLL A:
+
+1	People	people	NOUN	NNS	_	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
+2	wearing	wear	VERB	VBG	_	1	partmod	_	VBG|00050652-v|Dressing+
+3	costumes	costume	NOUN	NNS	_	2	dobj	_	NNS|03113657-n|Clothing+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	gathering	gather	VERB	VBG	_	0	ROOT	_	VBG|02428924-v|Meeting+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	forest	forest	NOUN	NN	_	6	pobj	_	NN|09284015-n|Forest=
+9	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+10	are	be	VERB	VBP	_	11	aux	_	VBP|02604760-v|Entity+
+11	looking	look	VERB	VBG	_	5	conj	_	VBG|02153709-v|Searching=
+12	in	in	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	15	det	_	DT|?|?
+14	same	same	ADJ	JJ	_	15	amod	_	JJ|02062670-a|equal+
+15	direction	direction	NOUN	NN	_	12	pobj	_	NN|13827426-n|DirectionalAttribute=
+16	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Masked	mask	ADJ	JJ	_	2	amod	_	VBN|02158587-v|Pretending+
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	8	det	_	DT|?|?
+7	same	same	ADJ	JJ	_	8	amod	_	JJ|02062670-a|equal+
+8	direction	direction	NOUN	NN	_	5	pobj	_	NN|13827426-n|DirectionalAttribute=
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	forest	forest	NOUN	NN	_	9	pobj	_	NN|09284015-n|Forest=
+12	.	.	.	.	_	4	punct	_	Fp|?|?

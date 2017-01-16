@@ -1,0 +1,34 @@
+sentence A = The children are not wearing black tights and are not hopping.
+sentence B = Two kids are bouncing on colorful balls.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanChild=,Entity+,not=,CoveringFn=,Black=,Clothing+,Entity+,not=,Motion+
+CONCEPTS B: HumanChild=,Entity+,Motion+,ColorAttribute+,Ball=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	children	child	NOUN	NNS	_	5	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+6	black	black	ADJ	JJ	_	7	amod	_	JJ|00392812-a|Black=
+7	tights	tights	NOUN	NNS	_	5	dobj	_	NNS|04434932-n|Clothing+
+8	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+9	are	be	VERB	VBP	_	11	aux	_	VBP|02604760-v|Entity+
+10	not	not	ADV	RB	_	11	neg	_	RB|00024073-r|not=
+11	hopping	hop	VERB	VBG	_	5	conj	_	VBG|02095211-v|Motion+
+12	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	kids	kid	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	bouncing	bounce	VERB	VBG	_	0	ROOT	_	VBG|01892104-v|Motion+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	colorful	colorful	ADJ	JJ	_	7	amod	_	JJ|00394562-a|ColorAttribute+
+7	balls	ball	NOUN	NNS	_	5	pobj	_	NNS|02778669-n|Ball=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

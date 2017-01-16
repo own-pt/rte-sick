@@ -1,0 +1,29 @@
+sentence A = The cat is hungrily drinking milk.
+sentence B = Drinking milk helps a cat's hunger.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Whip+,Entity+,PerceptualAttribute+,Drinking+,Milk=
+CONCEPTS B: Drinking+,Milk=,Helping=,Whip+,Hungry+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	5	nsubj	_	NN|02985606-n|Whip+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	hungrily	hungrily	ADV	RB	_	5	advmod	_	RB|00360054-r|PerceptualAttribute+
+5	drinking	drink	VERB	VBG	_	0	ROOT	_	VBG|01171183-v|Drinking+
+6	milk	milk	NOUN	NN	_	5	dobj	_	NN|07844042-n|Milk=
+7	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Drinking	drink	VERB	VBG	_	3	csubj	_	VBG|01171183-v|Drinking+
+2	milk	milk	NOUN	NN	_	1	dobj	_	NN|07844042-n|Milk=
+3	helps	help	VERB	VBZ	_	0	ROOT	_	VBZ|02547586-v|Helping=
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	cat	cat	NOUN	NN	_	7	poss	_	NN|02985606-n|Whip+
+6	's	's	PRT	POS	_	5	possessive	_	POS|?|?
+7	hunger	hunger	NOUN	NN	_	3	dobj	_	NN|14039534-n|Hungry+
+8	.	.	.	.	_	3	punct	_	Fp|?|?

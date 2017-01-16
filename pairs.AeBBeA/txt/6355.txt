@@ -1,0 +1,38 @@
+sentence A = A woman in a red dress is playing an instrument.
+sentence B = An instrument is being played by a woman in a red dress.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Woman=,Red=,Dress+,Entity+,DramaticActing+,MusicalInstrument=
+CONCEPTS B: MusicalInstrument=,Entity+,Entity+,DramaticActing+,Woman=,Red=,Dress+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	8	nsubj	_	NN|10787470-n|Woman=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	red	red	ADJ	JJ	_	6	amod	_	JJ|00381097-a|Red=
+6	dress	dress	NOUN	NN	_	3	pobj	_	NN|03236735-n|Dress+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+9	an	a	DET	DT	_	10	det	_	DT|?|?
+10	instrument	instrument	NOUN	NN	_	8	dobj	_	NN|03800933-n|MusicalInstrument=
+11	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	An	a	DET	DT	_	2	det	_	DT|?|?
+2	instrument	instrument	NOUN	NN	_	5	nsubjpass	_	NN|03800933-n|MusicalInstrument=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	played	play	VERB	VBN	_	0	ROOT	_	VBN|01719302-v|DramaticActing+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	woman	woman	NOUN	NN	_	6	pobj	_	NN|10787470-n|Woman=
+9	in	in	ADP	IN	_	5	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	red	red	ADJ	JJ	_	12	amod	_	JJ|00381097-a|Red=
+12	dress	dress	NOUN	NN	_	9	pobj	_	NN|03236735-n|Dress+
+13	.	.	.	.	_	5	punct	_	Fp|?|?

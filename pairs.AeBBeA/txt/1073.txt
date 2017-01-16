@@ -1,0 +1,43 @@
+sentence A = The young girl with a shirt dyed pink is peacefully lying on the grass.
+sentence B = The young girl with a pink shirt is peacefully lying on the grass.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: HumanYouth=,Human+,Shirt=,Coloring+,ColorAttribute+,Entity+,SubjectiveAssessmentAttribute+,PhysicalAttribute+,Grass=
+CONCEPTS B: HumanYouth=,Human+,Pink+,Shirt=,Entity+,SubjectiveAssessmentAttribute+,PhysicalAttribute+,Grass=
+
+CONLL A:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	11	nsubj	_	NN|10129825-n|Human+
+4	with	with	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	8	det	_	DT|?|?
+6	shirt	shirt	NOUN	NN	_	7	dep	_	NN|04197391-n|Shirt=
+7	dyed	dye	VERB	VBN	_	8	amod	_	VBN|00283090-v|Coloring+
+8	pink	pink	NOUN	NN	_	4	pobj	_	NN|04970916-n|ColorAttribute+
+9	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+10	peacefully	peacefully	ADV	RB	_	11	advmod	_	RB|00109817-r|SubjectiveAssessmentAttribute+
+11	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+12	on	on	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	grass	grass	NOUN	NN	_	12	pobj	_	NN|12102133-n|Grass=
+15	.	.	.	.	_	11	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	10	nsubj	_	NN|10129825-n|Human+
+4	with	with	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	pink	pink	ADJ	JJ	_	7	amod	_	JJ|00379595-a|Pink+
+7	shirt	shirt	NOUN	NN	_	4	pobj	_	NN|04197391-n|Shirt=
+8	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+9	peacefully	peacefully	ADV	RB	_	10	advmod	_	RB|00109817-r|SubjectiveAssessmentAttribute+
+10	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+11	on	on	ADP	IN	_	10	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	grass	grass	NOUN	NN	_	11	pobj	_	NN|12102133-n|Grass=
+14	.	.	.	.	_	10	punct	_	Fp|?|?

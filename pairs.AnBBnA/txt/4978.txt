@@ -1,0 +1,26 @@
+sentence A = An onion is being chopped.
+sentence B = Someone is holding a hedgehog.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: FruitOrVegetable+,Entity+,Entity+,Cutting+
+CONCEPTS B: Entity+,PhysicalAttribute+,Mammal+
+
+CONLL A:
+
+1	An	a	DET	DT	_	2	det	_	DT|?|?
+2	onion	onion	NOUN	NN	_	5	nsubjpass	_	NN|12433081-n|FruitOrVegetable+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	chopped	chop	VERB	VBN	_	0	ROOT	_	VBN|01258091-v|Cutting+
+6	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|02701210-v|PhysicalAttribute+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	hedgehog	hedgehog	NOUN	NN	_	3	dobj	_	NN|01893825-n|Mammal+
+6	.	.	.	.	_	3	punct	_	Fp|?|?

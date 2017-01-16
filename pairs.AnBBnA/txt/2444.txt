@@ -1,0 +1,35 @@
+sentence A = A man at the keyboard is playing with his nose.
+sentence B = The man is playing the piano with his nose.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,ComputerInputDevice+,Entity+,DramaticActing+,Nose+
+CONCEPTS B: Hominid=,Entity+,DramaticActing+,Piano=,Nose+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|02472293-n|Hominid=
+3	at	at	ADP	IN	_	2	prep	_	IN|?|?
+4	the	the	DET	DT	_	5	det	_	DT|?|?
+5	keyboard	keyboard	NOUN	NN	_	3	pobj	_	NN|03614007-n|ComputerInputDevice+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+8	with	with	ADP	IN	_	7	prep	_	IN|?|?
+9	his	his	PRON	PRP$	_	10	poss	_	PRP$|?|?
+10	nose	nose	NOUN	NN	_	8	pobj	_	NN|05598147-n|Nose+
+11	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	piano	piano	NOUN	NN	_	4	dobj	_	NN|03928116-n|Piano=
+7	with	with	ADP	IN	_	4	prep	_	IN|?|?
+8	his	his	PRON	PRP$	_	9	poss	_	PRP$|?|?
+9	nose	nose	NOUN	NN	_	7	pobj	_	NN|05598147-n|Nose+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

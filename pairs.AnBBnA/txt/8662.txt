@@ -1,0 +1,32 @@
+sentence A = Rollerbladers are rolling in formation down a hill.
+sentence B = Rollerbladers are running in formation down a hill.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,Motion+,SelfConnectedObject+,Hill=
+CONCEPTS B: Entity+,Attribute+,SelfConnectedObject+,Hill=
+
+CONLL A:
+
+1	Rollerbladers	rollerbladers	NOUN	NNS	_	3	nsubj	_	NNS|?|?
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	rolling	roll	VERB	VBG	_	0	ROOT	_	VBG|01866192-v|Motion+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	formation	formation	NOUN	NN	_	4	pobj	_	NN|09287968-n|SelfConnectedObject+
+6	down	down	ADP	IN	_	3	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	hill	hill	NOUN	NN	_	6	pobj	_	NN|09303008-n|Hill=
+9	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Rollerbladers	rollerbladers	NOUN	NNS	_	3	nsubj	_	NNS|?|?
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	formation	formation	NOUN	NN	_	4	pobj	_	NN|09287968-n|SelfConnectedObject+
+6	down	down	ADP	IN	_	3	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	hill	hill	NOUN	NN	_	6	pobj	_	NN|09303008-n|Hill=
+9	.	.	.	.	_	3	punct	_	Fp|?|?

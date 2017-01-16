@@ -1,0 +1,24 @@
+sentence A = The parrot is speaking.
+sentence B = A parrot is speaking.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Bird+,Entity+,Speaking+
+CONCEPTS B: Bird+,Entity+,Speaking+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	parrot	parrot	NOUN	NN	_	4	nsubj	_	NN|01816887-n|Bird+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	speaking	speak	VERB	VBG	_	0	ROOT	_	VBG|00963570-v|Speaking+
+5	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	parrot	parrot	NOUN	NN	_	4	nsubj	_	NN|01816887-n|Bird+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	speaking	speak	VERB	VBG	_	0	ROOT	_	VBG|00963570-v|Speaking+
+5	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,31 @@
+sentence A = The child is delightedly playing with toys outdoors.
+sentence B = The child is playing with toys outdoors.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanChild=,Entity+,EmotionalState+,DramaticActing+,RecreationOrExerciseDevice+,Outdoors+
+CONCEPTS B: HumanChild=,Entity+,DramaticActing+,RecreationOrExerciseDevice+,Outdoors+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	delightedly	delightedly	ADV	RB	_	5	advmod	_	RB|00299334-r|EmotionalState+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	toys	toy	NOUN	NNS	_	6	pobj	_	NNS|03964744-n|RecreationOrExerciseDevice+
+8	outdoors	outdoors	ADV	RB	_	5	advmod	_	RB|00110659-r|Outdoors+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	toys	toy	NOUN	NNS	_	5	pobj	_	NNS|03964744-n|RecreationOrExerciseDevice+
+7	outdoors	outdoors	ADV	RB	_	4	advmod	_	RB|00110659-r|Outdoors+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

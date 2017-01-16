@@ -1,0 +1,35 @@
+sentence A = The man is absently eating a banana by a tree.
+sentence B = The man is eating a banana by a tree.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,StateOfMind+,Process+,Banana=,ContentBearingObject+
+CONCEPTS B: Hominid=,Entity+,Process+,Banana=,ContentBearingObject+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	absently	absently	ADV	RB	_	5	advmod	_	RB|00066190-r|StateOfMind+
+5	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	banana	banana	NOUN	NN	_	5	dobj	_	NN|07753592-n|Banana=
+8	by	by	ADP	IN	_	5	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	tree	tree	NOUN	NN	_	8	pobj	_	NN|13912260-n|ContentBearingObject+
+11	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	banana	banana	NOUN	NN	_	4	dobj	_	NN|07753592-n|Banana=
+7	by	by	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	tree	tree	NOUN	NN	_	7	pobj	_	NN|13912260-n|ContentBearingObject+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

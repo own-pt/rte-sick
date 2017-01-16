@@ -1,0 +1,48 @@
+sentence A = A man who is playing dunks the basketball into the net and a crowd is in background.
+sentence B = The player is dunking the basketball into the net and a crowd is in background.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Hominid=,Entity+,DramaticActing+,Wetting+,Basketball=,Fabric+,SubjectiveAssessmentAttribute=,Entity+,Region+
+CONCEPTS B: Human+,Entity+,Wetting+,Basketball=,Fabric+,SubjectiveAssessmentAttribute=,Entity+,Region+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	6	nsubj	_	NN|02472293-n|Hominid=
+3	who	who	PRON	WP	_	5	nsubj	_	WP|?|?
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	2	rcmod	_	VBG|01719302-v|DramaticActing+
+6	dunks	dunk	NOUN	NNS	_	0	ROOT	_	VBZ|01577093-v|Wetting+
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	basketball	basketball	NOUN	NN	_	6	dobj	_	NN|00480993-n|Basketball=
+9	into	into	ADP	IN	_	6	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	net	net	NOUN	NN	_	9	pobj	_	NN|03819595-n|Fabric+
+12	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	crowd	crowd	NOUN	NN	_	15	nsubj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+15	is	be	VERB	VBZ	_	6	conj	_	VBZ|02604760-v|Entity+
+16	in	in	ADP	IN	_	15	prep	_	IN|?|?
+17	background	background	NOUN	NN	_	16	pobj	_	NN|14513259-n|Region+
+18	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	player	player	NOUN	NN	_	4	nsubj	_	NN|10439851-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	dunking	dunk	VERB	VBG	_	0	ROOT	_	VBG|01577093-v|Wetting+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	basketball	basketball	NOUN	NN	_	4	dobj	_	NN|00480993-n|Basketball=
+7	into	into	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	net	net	NOUN	NN	_	7	pobj	_	NN|03819595-n|Fabric+
+10	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	crowd	crowd	NOUN	NN	_	13	nsubj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+13	is	be	VERB	VBZ	_	4	conj	_	VBZ|02604760-v|Entity+
+14	in	in	ADP	IN	_	13	prep	_	IN|?|?
+15	background	background	NOUN	NN	_	14	pobj	_	NN|14513259-n|Region+
+16	.	.	.	.	_	4	punct	_	Fp|?|?

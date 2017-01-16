@@ -1,0 +1,35 @@
+sentence A = A man is performing tricks with a soccer ball.
+sentence B = A man is doing some tricks with a soccer ball.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Hominid=,Entity+,IntentionalProcess+,RecreationOrExercise+,Soccer=,Ball=
+CONCEPTS B: Hominid=,Entity+,IntentionalProcess+,RecreationOrExercise+,Soccer=,Ball=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	tricks	trick	NOUN	NNS	_	4	dobj	_	NNS|00427580-n|RecreationOrExercise+
+6	with	with	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	soccer	soccer	NOUN	NN	_	9	nn	_	NN|00478262-n|Soccer=
+9	ball	ball	NOUN	NN	_	6	pobj	_	NN|02778669-n|Ball=
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	some	some	DET	DT	_	6	det	_	DT|?|?
+6	tricks	trick	NOUN	NNS	_	4	dobj	_	NNS|00427580-n|RecreationOrExercise+
+7	with	with	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	soccer	soccer	NOUN	NN	_	10	nn	_	NN|00478262-n|Soccer=
+10	ball	ball	NOUN	NN	_	7	pobj	_	NN|02778669-n|Ball=
+11	.	.	.	.	_	4	punct	_	Fp|?|?

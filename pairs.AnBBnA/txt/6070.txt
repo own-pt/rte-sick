@@ -1,0 +1,36 @@
+sentence A = A person is cementing a jacket in a blue tall wall and jumping.
+sentence B = The man is performing a large jump.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human=,Entity+,Attaching+,Coat=,SubjectiveStrongNegativeAttribute+,SubjectiveWeakNegativeAttribute+,Wall=,Ambulating=
+CONCEPTS B: Hominid=,Entity+,IntentionalProcess+,SubjectiveWeakPositiveAttribute+,Transportation+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cementing	cement	VERB	VBG	_	0	ROOT	_	VBG|01366653-v|Attaching+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	jacket	jacket	NOUN	NN	_	4	dobj	_	NN|03589791-n|Coat=
+7	in	in	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	11	det	_	DT|?|?
+9	blue	blue	ADJ	JJ	_	11	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+10	tall	tall	ADJ	JJ	_	11	amod	_	JJ|02385102-a|SubjectiveWeakNegativeAttribute+
+11	wall	wall	NOUN	NN	_	7	pobj	_	NN|04546855-n|Wall=
+12	and	and	CONJ	CC	_	11	cc	_	CC|?|?
+13	jumping	jump	VERB	VBG	_	11	conj	_	VBG|01963942-v|Ambulating=
+14	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	large	large	ADJ	JJ	_	7	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+7	jump	jump	NOUN	NN	_	4	dobj	_	NN|00303849-n|Transportation+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

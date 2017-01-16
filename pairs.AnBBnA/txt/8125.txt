@@ -1,0 +1,34 @@
+sentence A = A female cheerleader is jumping on the knee of a male cheerleader.
+sentence B = Some cheerleaders are taking a break.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Female=,Position+,Entity+,Ambulating=,Knee+,Male=,Position+
+CONCEPTS B: Position+,Entity+,PhysicalAttribute+,TimeInterval+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	female	female	ADJ	JJ	_	3	amod	_	JJ|01477806-a|Female=
+3	cheerleader	cheerleader	NOUN	NN	_	5	nsubj	_	NN|09913455-n|Position+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	knee	knee	NOUN	NN	_	6	pobj	_	NN|05573602-n|Knee+
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	male	male	ADJ	JJ	_	12	amod	_	JJ|01476685-a|Male=
+12	cheerleader	cheerleader	NOUN	NN	_	9	pobj	_	NN|09913455-n|Position+
+13	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	cheerleaders	cheerleader	NOUN	NNS	_	4	nsubj	_	NNS|09913455-n|Position+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	taking	take	VERB	VBG	_	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	break	break	NOUN	NN	_	4	dobj	_	NN|15271008-n|TimeInterval+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

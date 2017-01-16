@@ -1,0 +1,35 @@
+sentence A = A man is emptying a container made of plastic completely.
+sentence B = A man is emptying a container made of plastic.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Hominid=,Entity+,Removing+,Container+,Process+,Substance+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Hominid=,Entity+,Removing+,Container+,Process+,Substance+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	emptying	empty	VERB	VBG	_	0	ROOT	_	VBG|00449692-v|Removing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	container	container	NOUN	NN	_	4	dobj	_	NN|03094503-n|Container+
+7	made	make	VERB	VBN	_	6	partmod	_	VBN|00120316-v|Process+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	plastic	plastic	NOUN	NN	_	8	pobj	_	NN|14592610-n|Substance+
+10	completely	completely	ADV	RB	_	4	advmod	_	RB|00008007-r|SubjectiveAssessmentAttribute+
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	emptying	empty	VERB	VBG	_	0	ROOT	_	VBG|00449692-v|Removing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	container	container	NOUN	NN	_	4	dobj	_	NN|03094503-n|Container+
+7	made	make	VERB	VBN	_	6	partmod	_	VBN|00120316-v|Process+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	plastic	plastic	NOUN	NN	_	8	pobj	_	NN|14592610-n|Substance+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

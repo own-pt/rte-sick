@@ -1,0 +1,37 @@
+sentence A = A boy in a white t-shirt is splashing in shallow water.
+sentence B = A boy is running through the sea at the beach.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,White=,Shirt+,Entity+,Wetting+,SubjectiveWeakNegativeAttribute+,Water=
+CONCEPTS B: Human+,Entity+,Attribute+,Sea=,ShoreArea=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	8	nsubj	_	NN|10285313-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	_	6	amod	_	JJ|00393105-a|White=
+6	t-shirt	t-shirt	NOUN	NN	_	3	pobj	_	NN|03595614-n|Shirt+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	splashing	splash	VERB	VBG	_	0	ROOT	_	VBG|01374767-v|Wetting+
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	shallow	shallow	ADJ	JJ	_	11	amod	_	JJ|00691696-a|SubjectiveWeakNegativeAttribute+
+11	water	water	NOUN	NN	_	9	pobj	_	NN|14845743-n|Water=
+12	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	through	through	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	sea	sea	NOUN	NN	_	5	pobj	_	NN|09426788-n|Sea=
+8	at	at	ADP	IN	_	4	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	beach	beach	NOUN	NN	_	8	pobj	_	NN|09217230-n|ShoreArea=
+11	.	.	.	.	_	4	punct	_	Fp|?|?

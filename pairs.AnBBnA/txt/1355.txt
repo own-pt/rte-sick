@@ -1,0 +1,39 @@
+sentence A = A puppy is repeatedly rolling from side to side on its back.
+sentence B = An animal is rolling from side to side in a garden.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SocialRole+,Entity+,SubjectiveAssessmentAttribute+,Motion+,Region+,Region+,CorpuscularObject+
+CONCEPTS B: Animal=,Entity+,Motion+,Object+,Object+,CultivatedLandArea+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	puppy	puppy	NOUN	NN	_	5	nsubj	_	NN|10493835-n|SocialRole+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	repeatedly	repeatedly	ADV	RB	_	5	advmod	_	RB|00176880-r|SubjectiveAssessmentAttribute+
+5	rolling	roll	VERB	VBG	_	0	ROOT	_	VBG|01866192-v|Motion+
+6	from	from	ADP	IN	_	5	prep	_	IN|?|?
+7	side	side	NOUN	NN	_	6	pobj	_	NN|08649345-n|Region+
+8	to	to	ADP	IN	_	5	prep	_	TO|?|?
+9	side	side	NOUN	NN	_	8	pobj	_	NN|08649345-n|Region+
+10	on	on	ADP	IN	_	5	prep	_	IN|?|?
+11	its	its	PRON	PRP$	_	12	poss	_	PRP$|?|?
+12	back	back	NOUN	NN	_	10	pobj	_	NN|02767433-n|CorpuscularObject+
+13	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	An	a	DET	DT	_	2	det	_	DT|?|?
+2	animal	animal	NOUN	NN	_	4	nsubj	_	NN|00015388-n|Animal=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	rolling	roll	VERB	VBG	_	0	ROOT	_	VBG|01866192-v|Motion+
+5	from	from	ADP	IN	_	4	prep	_	IN|?|?
+6	side	side	NOUN	NN	_	5	pobj	_	NN|08510666-n|Object+
+7	to	to	ADP	IN	_	4	prep	_	TO|?|?
+8	side	side	NOUN	NN	_	7	pobj	_	NN|08510666-n|Object+
+9	in	in	ADP	IN	_	4	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	garden	garden	NOUN	NN	_	9	pobj	_	NN|03417345-n|CultivatedLandArea+
+12	.	.	.	.	_	4	punct	_	Fp|?|?

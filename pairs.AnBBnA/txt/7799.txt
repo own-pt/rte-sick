@@ -1,0 +1,35 @@
+sentence A = A tennis player is lunging to the left.
+sentence B = The tennis player with a green headband is hitting the ball.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Tennis=,Human+,Entity+,BodyMotion+,Hand+
+CONCEPTS B: Tennis=,Human+,Green=,Clothing+,Entity+,Impelling+,Ball=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	tennis	tennis	NOUN	NN	_	3	nn	_	NN|00482298-n|Tennis=
+3	player	player	NOUN	NN	_	5	nsubj	_	NN|10439851-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	lunging	lunge	VERB	VBG	_	0	ROOT	_	VBG|02062212-v|BodyMotion+
+6	to	to	ADP	IN	_	5	prep	_	TO|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	left	left	NOUN	NN	_	6	pobj	_	NN|05565548-n|Hand+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	tennis	tennis	NOUN	NN	_	3	nn	_	NN|00482298-n|Tennis=
+3	player	player	NOUN	NN	_	9	nsubj	_	NN|10439851-n|Human+
+4	with	with	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	green	green	ADJ	JJ	_	7	amod	_	JJ|00375969-a|Green=
+7	headband	headband	NOUN	NN	_	4	pobj	_	NN|03502042-n|Clothing+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	hitting	hit	VERB	VBG	_	0	ROOT	_	VBG|01405044-v|Impelling+
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	ball	ball	NOUN	NN	_	9	dobj	_	NN|02778669-n|Ball=
+12	.	.	.	.	_	9	punct	_	Fp|?|?

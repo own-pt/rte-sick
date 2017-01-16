@@ -1,0 +1,43 @@
+sentence A = A few horses are racing furiously over the green grass and jumping the obstacle.
+sentence B = Some horses are racing furiously over the green grass and jumping an obstacle.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Horse=,Entity+,Motion+,EmotionalState+,Green=,Grass=,Ambulating=,Entity+
+CONCEPTS B: Horse=,Entity+,Motion+,EmotionalState+,Green=,Grass=,Ambulating=,Entity+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	few	few	ADJ	JJ	_	3	amod	_	DT|?|?
+3	horses	horse	NOUN	NNS	_	5	nsubj	_	NNS|02374451-n|Horse=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	racing	race	VERB	VBG	_	0	ROOT	_	VBG|02058994-v|Motion+
+6	furiously	furiously	ADV	RB	_	5	advmod	_	RB|00224280-r|EmotionalState+
+7	over	over	ADP	IN	_	5	prep	_	IN|?|?
+8	the	the	DET	DT	_	10	det	_	DT|?|?
+9	green	green	ADJ	JJ	_	10	amod	_	JJ|00375969-a|Green=
+10	grass	grass	NOUN	NN	_	7	pobj	_	NN|12102133-n|Grass=
+11	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+12	jumping	jump	VERB	VBG	_	5	conj	_	VBG|01963942-v|Ambulating=
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	obstacle	obstacle	NOUN	NN	_	12	dobj	_	NN|05690269-n|Entity+
+15	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	horses	horse	NOUN	NNS	_	4	nsubj	_	NNS|02374451-n|Horse=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	racing	race	VERB	VBG	_	0	ROOT	_	VBG|02058994-v|Motion+
+5	furiously	furiously	ADV	RB	_	4	advmod	_	RB|00224280-r|EmotionalState+
+6	over	over	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	9	det	_	DT|?|?
+8	green	green	ADJ	JJ	_	9	amod	_	JJ|00375969-a|Green=
+9	grass	grass	NOUN	NN	_	6	pobj	_	NN|12102133-n|Grass=
+10	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+11	jumping	jump	VERB	VBG	_	4	conj	_	VBG|01963942-v|Ambulating=
+12	an	a	DET	DT	_	13	det	_	DT|?|?
+13	obstacle	obstacle	NOUN	NN	_	11	dobj	_	NN|05690269-n|Entity+
+14	.	.	.	.	_	4	punct	_	Fp|?|?

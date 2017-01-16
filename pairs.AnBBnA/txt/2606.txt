@@ -1,0 +1,30 @@
+sentence A = The monkey is brushing a bull dog.
+sentence B = A bull dog is brushing the monkey.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Touching+,Region@,Canine+
+CONCEPTS B: Region@,Canine+,Entity+,Touching+,Human+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	monkey	monkey	NOUN	NN	_	4	nsubj	_	NN|10200047-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	brushing	brush	VERB	VBG	_	0	ROOT	_	VBG|01243809-v|Touching+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	bull	bull	NOUN	NN	_	7	nn	_	NN|08686332-n|Region@
+7	dog	dog	NOUN	NN	_	4	dobj	_	NN|02084071-n|Canine+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	bull	bull	NOUN	NN	_	3	nn	_	NN|08686332-n|Region@
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	brushing	brush	VERB	VBG	_	0	ROOT	_	VBG|01243809-v|Touching+
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	monkey	monkey	NOUN	NN	_	5	dobj	_	NN|10200047-n|Human+
+8	.	.	.	.	_	5	punct	_	Fp|?|?

@@ -1,0 +1,35 @@
+sentence A = A snake is being fed a mouse by a man.
+sentence B = One man is feeding a mouse to the snake.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Snake=,Entity+,Entity+,Feeding+,Mouse=,Hominid=
+CONCEPTS B: Hominid=,Entity+,Feeding+,Mouse=,Snake=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	snake	snake	NOUN	NN	_	5	nsubjpass	_	NN|01726692-n|Snake=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	fed	feed	VERB	VBN	_	0	ROOT	_	VBN|01178565-v|Feeding+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	mouse	mouse	NOUN	NN	_	5	dobj	_	NN|10335563-n|Mouse=
+8	by	by	ADP	IN	_	5	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	man	man	NOUN	NN	_	8	pobj	_	NN|02472293-n|Hominid=
+11	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	feeding	feed	VERB	VBG	_	0	ROOT	_	VBG|01178565-v|Feeding+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	mouse	mouse	NOUN	NN	_	4	dobj	_	NN|10335563-n|Mouse=
+7	to	to	ADP	IN	_	4	prep	_	TO|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	snake	snake	NOUN	NN	_	7	pobj	_	NN|01726692-n|Snake=
+10	.	.	.	.	_	4	punct	_	Fp|?|?

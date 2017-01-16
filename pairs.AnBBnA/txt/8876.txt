@@ -1,0 +1,30 @@
+sentence A = A dog is catching a black frisbee.
+sentence B = A dog is biting a black frisbee.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,Grabbing+,Black=,Artifact+
+CONCEPTS B: Canine+,Entity+,SubjectiveStrongNegativeAttribute+,Black=,Artifact+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	catching	catch	VERB	VBG	_	0	ROOT	_	VBG|01439190-v|Grabbing+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	black	black	ADJ	JJ	_	7	amod	_	JJ|00392812-a|Black=
+7	frisbee	frisbee	NOUN	NN	_	4	dobj	_	NN|03397947-n|Artifact+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	biting	bite	VERB	VBG	_	0	ROOT	_	VBG|02079313-a|SubjectiveStrongNegativeAttribute+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	black	black	ADJ	JJ	_	7	amod	_	JJ|00392812-a|Black=
+7	frisbee	frisbee	NOUN	NN	_	4	dobj	_	NN|03397947-n|Artifact+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

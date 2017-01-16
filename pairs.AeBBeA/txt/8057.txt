@@ -1,0 +1,66 @@
+sentence A = A young girl is wearing a blue patterned swim suit, a black and yellow swim cap and has blue swimming goggles on her head.
+sentence B = A little girl is wearing a blue patterned swim suit, a black and yellow swim cap and has blue swimming goggles on the head.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: HumanYouth=,Human+,Entity+,CoveringFn=,SubjectiveStrongNegativeAttribute+,Planning+,Swimming=,ClothingSuit+,Black=,SubjectiveAssessmentAttribute+,Swimming=,Device+,Attribute+,SubjectiveStrongNegativeAttribute+,Swimming+,ProtectiveEyewear=,Head=
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,CoveringFn=,SubjectiveStrongNegativeAttribute+,Planning+,Swimming=,ClothingSuit+,Black=,SubjectiveAssessmentAttribute+,Swimming=,Device+,Attribute+,SubjectiveStrongNegativeAttribute+,Swimming+,ProtectiveEyewear=,Head=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+6	a	a	DET	DT	_	10	det	_	DT|?|?
+7	blue	blue	ADJ	JJ	_	8	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+8	patterned	pattern	ADJ	JJ	_	10	amod	_	VBN|01743784-v|Planning+
+9	swim	swim	NOUN	NN	_	10	nn	_	NN|00442115-n|Swimming=
+10	suit	suit	NOUN	NN	_	5	dobj	_	NN|04350905-n|ClothingSuit+
+11	,	,	.	,	_	10	punct	_	Fc|?|?
+12	a	a	DET	DT	_	17	det	_	DT|?|?
+13	black	black	ADJ	JJ	_	17	amod	_	JJ|00392812-a|Black=
+14	and	and	CONJ	CC	_	13	cc	_	CC|?|?
+15	yellow	yellow	ADJ	JJ	_	13	conj	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+16	swim	swim	NOUN	NN	_	17	nn	_	NN|00442115-n|Swimming=
+17	cap	cap	NOUN	NN	_	10	appos	_	NN|02954938-n|Device+
+18	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+19	has	have	VERB	VBZ	_	5	conj	_	VBZ|02630189-v|Attribute+
+20	blue	blue	ADJ	JJ	_	22	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+21	swimming	swim	NOUN	NN	_	22	nn	_	VBG|01960911-v|Swimming+
+22	goggles	goggles	NOUN	NNS	_	19	dobj	_	NNS|03443912-n|ProtectiveEyewear=
+23	on	on	ADP	IN	_	22	prep	_	IN|?|?
+24	her	her	PRON	PRP$	_	25	poss	_	PRP$|?|?
+25	head	head	NOUN	NN	_	23	pobj	_	NN|05538625-n|Head=
+26	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+6	a	a	DET	DT	_	10	det	_	DT|?|?
+7	blue	blue	ADJ	JJ	_	8	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+8	patterned	pattern	ADJ	JJ	_	10	amod	_	VBN|01743784-v|Planning+
+9	swim	swim	NOUN	NN	_	10	nn	_	NN|00442115-n|Swimming=
+10	suit	suit	NOUN	NN	_	5	dobj	_	NN|04350905-n|ClothingSuit+
+11	,	,	.	,	_	10	punct	_	Fc|?|?
+12	a	a	DET	DT	_	17	det	_	DT|?|?
+13	black	black	ADJ	JJ	_	17	amod	_	JJ|00392812-a|Black=
+14	and	and	CONJ	CC	_	13	cc	_	CC|?|?
+15	yellow	yellow	ADJ	JJ	_	13	conj	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+16	swim	swim	NOUN	NN	_	17	nn	_	NN|00442115-n|Swimming=
+17	cap	cap	NOUN	NN	_	10	appos	_	NN|02954938-n|Device+
+18	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+19	has	have	VERB	VBZ	_	5	conj	_	VBZ|02630189-v|Attribute+
+20	blue	blue	ADJ	JJ	_	22	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+21	swimming	swim	NOUN	NN	_	22	nn	_	VBG|01960911-v|Swimming+
+22	goggles	goggles	NOUN	NNS	_	19	dobj	_	NNS|03443912-n|ProtectiveEyewear=
+23	on	on	ADP	IN	_	22	prep	_	IN|?|?
+24	the	the	DET	DT	_	25	det	_	DT|?|?
+25	head	head	NOUN	NN	_	23	pobj	_	NN|05538625-n|Head=
+26	.	.	.	.	_	5	punct	_	Fp|?|?

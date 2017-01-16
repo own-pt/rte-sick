@@ -1,0 +1,37 @@
+sentence A = A group is not riding the current in a raft.
+sentence B = This group of people is practicing water safety and wearing preservers.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Group=,Entity+,not=,Carrying=,TimePosition+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Group=,GroupOfPeople=,Entity+,Position+,Water=,SubjectiveAssessmentAttribute+,RecreationOrExercise+,Clothing+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	5	nsubj	_	NN|00031264-n|Group=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	current	current	NOUN	NN	_	5	dobj	_	JJ|00666058-a|TimePosition+
+8	in	in	ADP	IN	_	5	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	raft	raft	NOUN	NN	_	8	pobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+11	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	This	this	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	people	people	NOUN	NNS	_	3	pobj	_	NNS|07942152-n|GroupOfPeople=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	practicing	practice	VERB	VBG	_	0	ROOT	_	VBG|02568672-v|Position+
+7	water	water	NOUN	NN	_	8	nn	_	NN|14845743-n|Water=
+8	safety	safety	NOUN	NN	_	6	dobj	_	NN|14538472-n|SubjectiveAssessmentAttribute+
+9	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+10	wearing	wear	VERB	VBG	_	6	conj	_	VBG|00075021-v|RecreationOrExercise+
+11	preservers	preserver	NOUN	NNS	_	10	dobj	_	NNS|03663531-n|Clothing+
+12	.	.	.	.	_	6	punct	_	Fp|?|?

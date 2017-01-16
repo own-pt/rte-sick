@@ -1,0 +1,33 @@
+sentence A = A family is watching a boy who is hitting a baseball.
+sentence B = A child is hitting a baseball.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: FamilyGroup+,Entity+,Looking=,Human+,Entity+,Impelling+,Baseball=
+CONCEPTS B: HumanChild=,Entity+,Impelling+,Baseball=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	family	family	NOUN	NN	_	4	nsubj	_	NN|07970721-n|FamilyGroup+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	watching	watch	VERB	VBG	_	0	ROOT	_	VBG|02150948-v|Looking=
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	boy	boy	NOUN	NN	_	4	dobj	_	NN|10285313-n|Human+
+7	who	who	PRON	WP	_	9	nsubj	_	WP|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	hitting	hit	VERB	VBG	_	6	rcmod	_	VBG|01405044-v|Impelling+
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	baseball	baseball	NOUN	NN	_	9	dobj	_	NN|00471613-n|Baseball=
+12	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	hitting	hit	VERB	VBG	_	0	ROOT	_	VBG|01405044-v|Impelling+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	baseball	baseball	NOUN	NN	_	4	dobj	_	NN|00471613-n|Baseball=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

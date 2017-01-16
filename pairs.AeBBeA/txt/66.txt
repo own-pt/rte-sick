@@ -1,0 +1,40 @@
+sentence A = Two people wearing snowsuits are on the ground making snow angels.
+sentence B = Two people in snowsuits are lying in the snow and making snow angels.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: GroupOfPeople=,CoveringFn=,Entity+,LandArea=,Attribute+,Snowing=,Angel=
+CONCEPTS B: GroupOfPeople=,Entity+,PhysicalAttribute+,Snowing=,Attribute+,Snowing=,Angel=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	wearing	wear	VERB	VBG	_	2	partmod	_	VBG|00047745-v|CoveringFn=
+4	snowsuits	snowsuits	NOUN	NNS	_	3	dobj	_	NNS|?|?
+5	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	ground	ground	NOUN	NN	_	6	pobj	_	NN|09334396-n|LandArea=
+9	making	make	VERB	VBG	_	5	xcomp	_	VBG|02621395-v|Attribute+
+10	snow	snow	NOUN	NN	_	11	nn	_	NN|15043763-n|Snowing=
+11	angels	angel	NOUN	NNS	_	9	dobj	_	NNS|09538915-n|Angel=
+12	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	6	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	snowsuits	snowsuits	NOUN	NNS	_	3	pobj	_	NNS|?|?
+5	are	be	VERB	VBP	_	6	aux	_	VBP|02604760-v|Entity+
+6	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	snow	snow	NOUN	NN	_	7	pobj	_	NN|15043763-n|Snowing=
+10	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+11	making	make	VERB	VBG	_	6	conj	_	VBG|02621395-v|Attribute+
+12	snow	snow	NOUN	NN	_	13	nn	_	NN|15043763-n|Snowing=
+13	angels	angel	NOUN	NNS	_	11	dobj	_	NNS|09538915-n|Angel=
+14	.	.	.	.	_	6	punct	_	Fp|?|?

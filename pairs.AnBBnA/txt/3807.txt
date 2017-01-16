@@ -1,0 +1,32 @@
+sentence A = A man is throwing away a guitar.
+sentence B = A man in a hat is playing a harp.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Transfer+,Guitar=
+CONCEPTS B: Man=,Hat+,Entity+,DramaticActing+,StringInstrument+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	throwing	throw	VERB	VBG	_	0	ROOT	_	VBG|01632897-v|Transfer+
+5	away	away	PRT	RP	_	4	prt	_	RP|00234951-r|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	hat	hat	NOUN	NN	_	3	pobj	_	NN|03497657-n|Hat+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	harp	harp	NOUN	NN	_	7	dobj	_	NN|03495258-n|StringInstrument+
+10	.	.	.	.	_	7	punct	_	Fp|?|?

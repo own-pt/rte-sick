@@ -1,0 +1,53 @@
+sentence A = A woman who is taking off a pink boa is stopping her bicycle on a bridge built for pedestrians.
+sentence B = A woman who is wearing a pink boa is riding a bicycle down a bridge built for pedestrians.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,PhysicalAttribute+,Pink+,ConstrictorSnake+,Entity+,Process+,Bicycle=,Bridge+,Increasing+,Walking+
+CONCEPTS B: Woman=,Entity+,CoveringFn=,Pink+,ConstrictorSnake+,Entity+,Carrying=,Bicycle=,Bridge+,Increasing+,Walking+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	11	nsubj	_	NN|10787470-n|Woman=
+3	who	who	PRON	WP	_	5	nsubj	_	WP|?|?
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	taking	take	VERB	VBG	_	2	rcmod	_	VBG|02267989-v|PhysicalAttribute+
+6	off	off	PRT	RP	_	5	prt	_	RP|00232936-r|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	pink	pink	ADJ	JJ	_	9	amod	_	JJ|00379595-a|Pink+
+9	boa	boa	NOUN	NN	_	5	dobj	_	NN|01741943-n|ConstrictorSnake+
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	stopping	stop	VERB	VBG	_	0	ROOT	_	VBG|02680814-v|Process+
+12	her	her	PRON	PRP$	_	13	poss	_	PRP$|?|?
+13	bicycle	bicycle	NOUN	NN	_	11	dobj	_	NN|02834778-n|Bicycle=
+14	on	on	ADP	IN	_	11	prep	_	IN|?|?
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	bridge	bridge	NOUN	NN	_	14	pobj	_	NN|02898711-n|Bridge+
+17	built	build	VERB	VBN	_	16	partmod	_	VBN|00252990-v|Increasing+
+18	for	for	ADP	IN	_	17	prep	_	IN|?|?
+19	pedestrians	pedestrian	NOUN	NNS	_	18	pobj	_	NNS|10412055-n|Walking+
+20	.	.	.	.	_	11	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	10	nsubj	_	NN|10787470-n|Woman=
+3	who	who	PRON	WP	_	5	nsubj	_	WP|?|?
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	wearing	wear	VERB	VBG	_	2	rcmod	_	VBG|00047745-v|CoveringFn=
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	pink	pink	ADJ	JJ	_	8	amod	_	JJ|00379595-a|Pink+
+8	boa	boa	NOUN	NN	_	5	dobj	_	NN|01741943-n|ConstrictorSnake+
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	bicycle	bicycle	NOUN	NN	_	10	dobj	_	NN|02834778-n|Bicycle=
+13	down	down	ADP	IN	_	10	prep	_	IN|?|?
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	bridge	bridge	NOUN	NN	_	13	pobj	_	NN|02898711-n|Bridge+
+16	built	build	VERB	VBN	_	15	partmod	_	VBN|00252990-v|Increasing+
+17	for	for	ADP	IN	_	16	prep	_	IN|?|?
+18	pedestrians	pedestrian	NOUN	NNS	_	17	pobj	_	NNS|10412055-n|Walking+
+19	.	.	.	.	_	10	punct	_	Fp|?|?

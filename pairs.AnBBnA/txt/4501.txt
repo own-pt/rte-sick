@@ -1,0 +1,28 @@
+sentence A = The doctor is helping the patient.
+sentence B = The patient is helping the doctor.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: MedicalDoctor+,Entity+,Helping=,Human+
+CONCEPTS B: Human+,Entity+,Helping=,MedicalDoctor+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	doctor	doctor	NOUN	NN	_	4	nsubj	_	NN|10020890-n|MedicalDoctor+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	helping	help	VERB	VBG	_	0	ROOT	_	VBG|02547586-v|Helping=
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	patient	patient	NOUN	NN	_	4	dobj	_	NN|10405694-n|Human+
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	patient	patient	NOUN	NN	_	4	nsubj	_	NN|10405694-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	helping	help	VERB	VBG	_	0	ROOT	_	VBG|02547586-v|Helping=
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	doctor	doctor	NOUN	NN	_	4	dobj	_	NN|10020890-n|MedicalDoctor+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

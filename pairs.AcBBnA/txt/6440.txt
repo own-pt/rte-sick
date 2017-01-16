@@ -1,0 +1,40 @@
+sentence A = A couple is standing on a patio and looking at the sky.
+sentence B = A couple is sitting on a patio and looking at the ocean.
+entailm AB = A_contradicts_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,Entity+,PhysicalAttribute+,Patio=,SubjectiveAssessmentAttribute+,SpaceRegion=
+CONCEPTS B: Entity+,PhysicalAttribute+,SittingDown+,Patio=,SubjectiveAssessmentAttribute+,Ocean=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	couple	couple	NOUN	NN	_	4	nsubj	_	NN|13743605-n|Entity+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	patio	patio	NOUN	NN	_	5	pobj	_	NN|03899768-n|Patio=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	looking	look	VERB	VBG	_	4	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+10	at	at	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	sky	sky	NOUN	NN	_	10	pobj	_	NN|09436708-n|SpaceRegion=
+13	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	couple	couple	NOUN	NN	_	4	nsubj	_	NN|13743605-n|Entity+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	patio	patio	NOUN	NN	_	5	pobj	_	NN|03899768-n|Patio=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	looking	look	VERB	VBG	_	4	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+10	at	at	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	ocean	ocean	NOUN	NN	_	10	pobj	_	NN|09376198-n|Ocean=
+13	.	.	.	.	_	4	punct	_	Fp|?|?

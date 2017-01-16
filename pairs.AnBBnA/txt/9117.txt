@@ -1,0 +1,39 @@
+sentence A = There are no little boys playing outside with a soccer ball on the green grass.
+sentence B = Two children are playing soccer in the park.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,SubjectiveStrongNegativeAttribute+,Human+,DramaticActing+,Soccer=,Ball=,Green=,Grass=
+CONCEPTS B: HumanChild=,Entity+,DramaticActing+,Soccer=,Park+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	little	little	ADJ	JJ	_	5	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+5	boys	boy	NOUN	NNS	_	2	nsubj	_	NNS|10285313-n|Human+
+6	playing	play	VERB	VBG	_	5	partmod	_	VBG|01719302-v|DramaticActing+
+7	outside	outside	ADV	RB	_	6	advmod	_	IN|?|?
+8	with	with	ADP	IN	_	6	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	soccer	soccer	NOUN	NN	_	11	nn	_	NN|00478262-n|Soccer=
+11	ball	ball	NOUN	NN	_	8	pobj	_	NN|02778669-n|Ball=
+12	on	on	ADP	IN	_	6	prep	_	IN|?|?
+13	the	the	DET	DT	_	15	det	_	DT|?|?
+14	green	green	ADJ	JJ	_	15	amod	_	JJ|00375969-a|Green=
+15	grass	grass	NOUN	NN	_	12	pobj	_	NN|12102133-n|Grass=
+16	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	soccer	soccer	NOUN	NN	_	4	dobj	_	NN|00478262-n|Soccer=
+6	in	in	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	park	park	NOUN	NN	_	6	pobj	_	NN|08615374-n|Park+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

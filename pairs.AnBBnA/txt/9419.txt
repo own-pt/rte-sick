@@ -1,0 +1,38 @@
+sentence A = People in costumes are walking around in the street.
+sentence B = Two people dressed in green and red costumes are outside on the sidewalk.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GroupOfPeople=,Clothing+,Entity+,Walking=,Roadway=
+CONCEPTS B: GroupOfPeople=,Dressing+,Green=,Red=,Clothing+,Entity+,located+,Sidewalk=
+
+CONLL A:
+
+1	People	people	NOUN	NNS	_	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
+2	in	in	ADP	IN	_	1	prep	_	IN|?|?
+3	costumes	costume	NOUN	NNS	_	2	pobj	_	NNS|03113657-n|Clothing+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+6	around	around	ADV	RB	_	5	advmod	_	RP|00007015-r|?
+7	in	in	ADP	IN	_	5	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	street	street	NOUN	NN	_	7	pobj	_	NN|04334599-n|Roadway=
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	9	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	dressed	dress	VERB	VBN	_	2	partmod	_	VBN|00046534-v|Dressing+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	green	green	ADJ	JJ	_	8	amod	_	JJ|00375969-a|Green=
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	red	red	ADJ	JJ	_	5	conj	_	JJ|00381097-a|Red=
+8	costumes	costume	NOUN	NNS	_	4	pobj	_	NNS|03113657-n|Clothing+
+9	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+10	outside	outside	ADV	RB	_	9	advmod	_	JJ|01692222-a|located+
+11	on	on	ADP	IN	_	9	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	sidewalk	sidewalk	NOUN	NN	_	11	pobj	_	NN|04215402-n|Sidewalk=
+14	.	.	.	.	_	9	punct	_	Fp|?|?

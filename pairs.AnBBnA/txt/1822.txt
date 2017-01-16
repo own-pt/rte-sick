@@ -1,0 +1,33 @@
+sentence A = A cook is slicing some bell peppers.
+sentence B = An orange pepper is being diced up by a person.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Separating+,Bell=,SpicePepper=
+CONCEPTS B: OrangeColor+,Vegetable+,Entity+,Entity+,Cutting+,Increasing+,Human=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cook	cook	NOUN	NN	_	4	nsubj	_	NN|09963320-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	some	some	DET	DT	_	7	det	_	DT|?|?
+6	bell	bell	NOUN	NN	_	7	nn	_	NN|02824448-n|Bell=
+7	peppers	pepper	NOUN	NNS	_	4	dobj	_	NNS|07815588-n|SpicePepper=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	An	a	DET	DT	_	3	det	_	DT|?|?
+2	orange	orange	ADJ	JJ	_	3	amod	_	NN|04965179-n|OrangeColor+
+3	pepper	pepper	NOUN	NN	_	6	nsubjpass	_	NN|07720442-n|Vegetable+
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	being	be	VERB	VBG	_	6	auxpass	_	VBG|02604760-v|Entity+
+6	diced	dice	VERB	VBN	_	0	ROOT	_	VBN|01256867-v|Cutting+
+7	up	up	PRT	RP	_	6	prt	_	RP|00097011-r|Increasing+
+8	by	by	ADP	IN	_	6	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	person	person	NOUN	NN	_	8	pobj	_	NN|00007846-n|Human=
+11	.	.	.	.	_	6	punct	_	Fp|?|?

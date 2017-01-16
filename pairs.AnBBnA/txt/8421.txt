@@ -1,0 +1,32 @@
+sentence A = A little girl is smiling and running outside.
+sentence B = A bride in a white dress is running.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Smiling=,Attribute+,located+
+CONCEPTS B: Human+,White=,Clothing+,Entity+,Attribute+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	smiling	smile	VERB	VBG	_	0	ROOT	_	VBG|00028565-v|Smiling=
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	running	run	VERB	VBG	_	5	conj	_	VBG|01525666-v|Attribute+
+8	outside	outside	ADV	RB	_	7	advmod	_	JJ|01692222-a|located+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	bride	bride	NOUN	NN	_	8	nsubj	_	NN|09874725-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	_	6	amod	_	JJ|00393105-a|White=
+6	dress	dress	NOUN	NN	_	3	pobj	_	NN|02728440-n|Clothing+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+9	.	.	.	.	_	8	punct	_	Fp|?|?

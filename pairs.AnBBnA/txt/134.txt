@@ -1,0 +1,35 @@
+sentence A = A person is sitting in a field and is wearing a hat.
+sentence B = A man is sitting in a field.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human=,PhysicalAttribute+,SittingDown+,FieldOfStudy=,PhysicalAttribute+,CoveringFn=,Hat+
+CONCEPTS B: Hominid=,PhysicalAttribute+,SittingDown+,FieldOfStudy=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	field	field	NOUN	NN	_	5	pobj	_	NN|05996646-n|FieldOfStudy=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02655135-v|PhysicalAttribute+
+10	wearing	wear	VERB	VBG	_	4	conj	_	VBG|00047745-v|CoveringFn=
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	hat	hat	NOUN	NN	_	10	dobj	_	NN|03497657-n|Hat+
+13	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	field	field	NOUN	NN	_	5	pobj	_	NN|05996646-n|FieldOfStudy=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

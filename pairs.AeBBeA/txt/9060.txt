@@ -1,0 +1,36 @@
+sentence A = A white dog is standing on a hill covered by grass.
+sentence B = A white dog is standing on a grassy hillside.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: White=,Canine+,Entity+,PhysicalAttribute+,Hill=,Covering+,Grass=
+CONCEPTS B: White=,Canine+,Entity+,PhysicalAttribute+,FloweringPlant+,SlopedArea+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	hill	hill	NOUN	NN	_	6	pobj	_	NN|09303008-n|Hill=
+9	covered	cover	VERB	VBN	_	8	partmod	_	VBN|01332730-v|Covering+
+10	by	by	ADP	IN	_	9	prep	_	IN|?|?
+11	grass	grass	NOUN	NN	_	10	pobj	_	NN|12102133-n|Grass=
+12	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	grassy	grassy	ADJ	JJ	_	9	amod	_	JJ|00209620-a|FloweringPlant+
+9	hillside	hillside	NOUN	NN	_	6	pobj	_	NN|09303528-n|SlopedArea+
+10	.	.	.	.	_	5	punct	_	Fp|?|?

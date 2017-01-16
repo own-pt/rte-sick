@@ -1,0 +1,37 @@
+sentence A = There is no person wearing grey pants who is airborne on a snowboard.
+sentence B = A snowboarding man is jumping through the air.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,Human=,CoveringFn=,Gray+,Trousers+,Entity+,AirTransportation+,BoardOrBlock+
+CONCEPTS B: Hominid=,Entity+,Ambulating=,AirTransportation+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	person	person	NOUN	NN	_	2	nsubj	_	NN|00007846-n|Human=
+5	wearing	wear	VERB	VBG	_	4	partmod	_	VBG|00047745-v|CoveringFn=
+6	grey	grey	ADJ	JJ	_	7	amod	_	JJ|00389310-a|Gray+
+7	pants	pant	NOUN	NNS	_	5	dobj	_	NNS|04489008-n|Trousers+
+8	who	who	PRON	WP	_	10	nsubj	_	WP|?|?
+9	is	be	VERB	VBZ	_	10	cop	_	VBZ|02604760-v|Entity+
+10	airborne	airborne	ADJ	JJ	_	7	rcmod	_	JJ|01522895-a|AirTransportation+
+11	on	on	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	snowboard	snowboard	NOUN	NN	_	11	pobj	_	NN|04251791-n|BoardOrBlock+
+14	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	snowboarding	snowboarding	VERB	VBG	_	3	amod	_	VBG|?|?
+3	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+6	through	through	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	air	air	NOUN	NN	_	6	pobj	_	NN|00300441-n|AirTransportation+
+9	.	.	.	.	_	5	punct	_	Fp|?|?

@@ -1,0 +1,35 @@
+sentence A = Some people and vehicles are on a crowded street.
+sentence B = Some people and vehicles are on a almost empty street.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: GroupOfPeople=,Vehicle=,Entity+,SocialInteraction+,Roadway=
+CONCEPTS B: GroupOfPeople=,Vehicle=,Entity+,ContainerEmpty+,Roadway=
+
+CONLL A:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	people	people	NOUN	NNS	_	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	vehicles	vehicle	NOUN	NNS	_	2	conj	_	NNS|04524313-n|Vehicle=
+5	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	crowded	crowd	ADJ	JJ	_	9	amod	_	VBN|02027612-v|SocialInteraction+
+9	street	street	NOUN	NN	_	6	pobj	_	NN|04334599-n|Roadway=
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	people	people	NOUN	NNS	_	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	vehicles	vehicle	NOUN	NNS	_	2	conj	_	NNS|04524313-n|Vehicle=
+5	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	10	det	_	DT|?|?
+8	almost	almost	ADV	RB	_	9	advmod	_	RB|00073033-r|?
+9	empty	empty	ADJ	JJ	_	10	amod	_	JJ|01086545-a|ContainerEmpty+
+10	street	street	NOUN	NN	_	6	pobj	_	NN|04334599-n|Roadway=
+11	.	.	.	.	_	5	punct	_	Fp|?|?

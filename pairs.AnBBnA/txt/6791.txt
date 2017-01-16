@@ -1,0 +1,37 @@
+sentence A = A man dressed in black is wearing an elaborate black mask.
+sentence B = A man is holding a mask in his raised hand.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Dressing+,Black=,Entity+,Dressing+,SubjectiveStrongNegativeAttribute+,Black=,Artifact+
+CONCEPTS B: Hominid=,Entity+,Obligation+,Artifact+,Increasing+,Hand+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|02472293-n|Hominid=
+3	dressed	dress	VERB	VBN	_	2	partmod	_	VBN|00046534-v|Dressing+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	black	black	ADJ	JJ	_	4	pobj	_	JJ|00392812-a|Black=
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00050652-v|Dressing+
+8	an	a	DET	DT	_	11	det	_	DT|?|?
+9	elaborate	elaborate	ADJ	JJ	_	11	amod	_	JJ|01795933-a|SubjectiveStrongNegativeAttribute+
+10	black	black	ADJ	JJ	_	11	amod	_	JJ|00392812-a|Black=
+11	mask	mask	NOUN	NN	_	7	dobj	_	NN|03724870-n|Artifact+
+12	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|02203362-v|Obligation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	mask	mask	NOUN	NN	_	4	dobj	_	NN|03724870-n|Artifact+
+7	in	in	ADP	IN	_	4	prep	_	IN|?|?
+8	his	his	PRON	PRP$	_	10	poss	_	PRP$|?|?
+9	raised	raise	VERB	VBN	_	10	amod	_	VBN|00229605-v|Increasing+
+10	hand	hand	NOUN	NN	_	7	pobj	_	NN|05564590-n|Hand+
+11	.	.	.	.	_	4	punct	_	Fp|?|?

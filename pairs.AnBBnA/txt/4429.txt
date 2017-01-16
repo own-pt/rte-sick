@@ -1,0 +1,25 @@
+sentence A = The men are talking.
+sentence B = Some old women are talking.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Speaking+
+CONCEPTS B: SubjectiveAssessmentAttribute+,Woman=,Entity+,Speaking+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+5	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Some	some	DET	DT	_	3	det	_	DT|?|?
+2	old	old	ADJ	JJ	_	3	amod	_	JJ|01643620-a|SubjectiveAssessmentAttribute+
+3	women	woman	NOUN	NNS	_	5	nsubj	_	NNS|10787470-n|Woman=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+6	.	.	.	.	_	5	punct	_	Fp|?|?

@@ -1,0 +1,29 @@
+sentence A = A kitten is drinking fresh milk.
+sentence B = A little cat is drinking fresh milk.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Feline+,Entity+,Drinking+,SubjectiveWeakPositiveAttribute+,BodySubstance+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Whip+,Entity+,Drinking+,SubjectiveWeakPositiveAttribute+,BodySubstance+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	kitten	kitten	NOUN	NN	_	4	nsubj	_	NN|02122948-n|Feline+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	drinking	drink	VERB	VBG	_	0	ROOT	_	VBG|01171183-v|Drinking+
+5	fresh	fresh	ADJ	JJ	_	6	amod	_	JJ|01067694-a|SubjectiveWeakPositiveAttribute+
+6	milk	milk	NOUN	NN	_	4	dobj	_	NN|05399034-n|BodySubstance+
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	cat	cat	NOUN	NN	_	5	nsubj	_	NN|02985606-n|Whip+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	drinking	drink	VERB	VBG	_	0	ROOT	_	VBG|01171183-v|Drinking+
+6	fresh	fresh	ADJ	JJ	_	7	amod	_	JJ|01067694-a|SubjectiveWeakPositiveAttribute+
+7	milk	milk	NOUN	NN	_	5	dobj	_	NN|05399034-n|BodySubstance+
+8	.	.	.	.	_	5	punct	_	Fp|?|?

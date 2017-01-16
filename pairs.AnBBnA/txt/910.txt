@@ -1,0 +1,48 @@
+sentence A = The man is doing a wheelie with a motorcycle on ground which is mostly barren.
+sentence B = A courageous performer is doing a wheelie with a motorcycle over a man in a blue jumpsuit.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,IntentionalProcess+,PassengerVehicle+,LandArea=,Entity+,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+
+CONCEPTS B: SubjectiveStrongPositiveAttribute+,ArtisticProfession+,Entity+,IntentionalProcess+,PassengerVehicle+,Man=,SubjectiveStrongNegativeAttribute+,Clothing+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	wheelie	wheelie	NOUN	NN	_	4	dobj	_	NN|?|?
+7	with	with	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	motorcycle	motorcycle	NOUN	NN	_	7	pobj	_	NN|03790512-n|PassengerVehicle+
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	ground	ground	NOUN	NN	_	10	pobj	_	NN|09334396-n|LandArea=
+12	which	which	DET	WDT	_	15	nsubj	_	WDT|?|?
+13	is	be	VERB	VBZ	_	15	cop	_	VBZ|02604760-v|Entity+
+14	mostly	mostly	ADV	RB	_	15	advmod	_	RB|00155621-r|SubjectiveAssessmentAttribute+
+15	barren	barren	ADJ	JJ	_	9	rcmod	_	JJ|01242750-a|SubjectiveStrongNegativeAttribute+
+16	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	courageous	courageous	ADJ	JJ	_	3	amod	_	JJ|00262792-a|SubjectiveStrongPositiveAttribute+
+3	performer	performer	NOUN	NN	_	5	nsubj	_	NN|10415638-n|ArtisticProfession+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	wheelie	wheelie	NOUN	NN	_	5	dobj	_	NN|?|?
+8	with	with	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	motorcycle	motorcycle	NOUN	NN	_	8	pobj	_	NN|03790512-n|PassengerVehicle+
+11	over	over	ADP	IN	_	5	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	man	man	NOUN	NN	_	11	pobj	_	NN|10287213-n|Man=
+14	in	in	ADP	IN	_	13	prep	_	IN|?|?
+15	a	a	DET	DT	_	17	det	_	DT|?|?
+16	blue	blue	ADJ	JJ	_	17	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+17	jumpsuit	jumpsuit	NOUN	NN	_	14	pobj	_	NN|03605598-n|Clothing+
+18	.	.	.	.	_	5	punct	_	Fp|?|?

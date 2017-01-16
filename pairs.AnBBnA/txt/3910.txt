@@ -1,0 +1,30 @@
+sentence A = A man is packing the guitar.
+sentence B = The man is singing and playing the guitar.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Walking+,Guitar=
+CONCEPTS B: Hominid=,Entity+,MakingVocalMusic=,DramaticActing+,Guitar=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	packing	pack	VERB	VBG	_	0	ROOT	_	VBG|01926031-v|Walking+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	playing	play	VERB	VBG	_	4	conj	_	VBG|01719302-v|DramaticActing+
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,42 @@
+sentence A = Football players in red and white are jumping and hugging each other.
+sentence B = There are no football players in red and white jumping and hugging each other.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Football+,Human+,Red=,White=,Entity+,Ambulating=,Embracing+,equal+
+CONCEPTS B: Entity+,Football+,Human+,Red=,White=,Ambulating=,Embracing+,equal+
+
+CONLL A:
+
+1	Football	football	NOUN	NN	_	2	nn	_	NN|00468480-n|Football+
+2	players	player	NOUN	NNS	_	8	nsubj	_	NNS|10439851-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	red	red	ADJ	JJ	_	3	pobj	_	JJ|00381097-a|Red=
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	white	white	ADJ	JJ	_	4	conj	_	JJ|00393105-a|White=
+7	are	be	VERB	VBP	_	8	aux	_	VBP|02604760-v|Entity+
+8	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+9	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+10	hugging	hug	VERB	VBG	_	8	conj	_	VBG|01424456-v|Embracing+
+11	each	each	DET	DT	_	12	det	_	DT|?|?
+12	other	other	ADJ	JJ	_	10	dobj	_	JJ|02069355-a|equal+
+13	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	football	football	NOUN	NN	_	5	nn	_	NN|00468480-n|Football+
+5	players	player	NOUN	NNS	_	2	nsubj	_	NNS|10439851-n|Human+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	red	red	ADJ	JJ	_	10	amod	_	JJ|00381097-a|Red=
+8	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+9	white	white	ADJ	JJ	_	7	conj	_	JJ|00393105-a|White=
+10	jumping	jump	NOUN	NN	_	6	pobj	_	VBG|01963942-v|Ambulating=
+11	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+12	hugging	hug	VERB	VBG	_	5	conj	_	VBG|01424456-v|Embracing+
+13	each	each	DET	DT	_	14	det	_	DT|?|?
+14	other	other	ADJ	JJ	_	12	dobj	_	JJ|02069355-a|equal+
+15	.	.	.	.	_	2	punct	_	Fp|?|?

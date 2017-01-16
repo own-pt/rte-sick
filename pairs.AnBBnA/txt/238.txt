@@ -1,0 +1,33 @@
+sentence A = There are no children playing and waiting.
+sentence B = Three Asian kids are dancing and a man is looking.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,HumanChild=,DramaticActing+,PsychologicalProcess+
+CONCEPTS B: AsianEthnicity=,HumanChild=,Entity+,Dancing+,Hominid=,Entity+,SubjectiveAssessmentAttribute+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	children	child	NOUN	NNS	_	2	nsubj	_	NNS|09917593-n|HumanChild=
+5	playing	play	VERB	VBG	_	4	dep	_	VBG|01719302-v|DramaticActing+
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	waiting	wait	VERB	VBG	_	5	conj	_	VBG|02637938-v|PsychologicalProcess+
+8	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Three	3	NUM	CD	_	3	num	_	Z|?|?
+2	Asian	asian	ADJ	JJ	_	3	amod	_	JJ|02968525-a|AsianEthnicity=
+3	kids	kid	NOUN	NNS	_	5	nsubj	_	NNS|09917593-n|HumanChild=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	man	man	NOUN	NN	_	10	nsubj	_	NN|02472293-n|Hominid=
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	looking	look	VERB	VBG	_	5	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+11	.	.	.	.	_	5	punct	_	Fp|?|?

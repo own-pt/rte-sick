@@ -1,0 +1,49 @@
+sentence A = The man in a grey t-shirt is sitting on a rock in front of the waterfall.
+sentence B = There is no man in a grey t-shirt sitting on a rock in front of the waterfall.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Man=,Gray+,Shirt+,PhysicalAttribute+,SittingDown+,Mineral+,FrontFn=,Waterfall=
+CONCEPTS B: PhysicalAttribute+,Man=,Gray+,Shirt+,SittingDown+,Mineral+,FrontFn=,Waterfall=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	grey	grey	NOUN	NN	_	6	amod	_	JJ|00389310-a|Gray+
+6	t-shirt	t-shirt	NOUN	NN	_	3	pobj	_	NN|03595614-n|Shirt+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02655135-v|PhysicalAttribute+
+8	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+9	on	on	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	rock	rock	NOUN	NN	_	9	pobj	_	NN|14696793-n|Mineral+
+12	in	in	ADP	IN	_	11	prep	_	IN|?|?
+13	front	front	NOUN	NN	_	12	pobj	_	NN|08573472-n|FrontFn=
+14	of	of	ADP	IN	_	13	prep	_	IN|?|?
+15	the	the	DET	DT	_	16	det	_	DT|?|?
+16	waterfall	waterfall	NOUN	NN	_	14	pobj	_	NN|09475292-n|Waterfall=
+17	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02655135-v|PhysicalAttribute+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|10287213-n|Man=
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	grey	grey	NOUN	NN	_	8	amod	_	JJ|00389310-a|Gray+
+8	t-shirt	t-shirt	NOUN	NN	_	5	pobj	_	NN|03595614-n|Shirt+
+9	sitting	sit	VERB	VBG	_	8	partmod	_	VBG|01543123-v|SittingDown+
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	rock	rock	NOUN	NN	_	10	pobj	_	NN|14696793-n|Mineral+
+13	in	in	ADP	IN	_	12	prep	_	IN|?|?
+14	front	front	NOUN	NN	_	13	pobj	_	NN|08573472-n|FrontFn=
+15	of	of	ADP	IN	_	14	prep	_	IN|?|?
+16	the	the	DET	DT	_	17	det	_	DT|?|?
+17	waterfall	waterfall	NOUN	NN	_	15	pobj	_	NN|09475292-n|Waterfall=
+18	.	.	.	.	_	2	punct	_	Fp|?|?

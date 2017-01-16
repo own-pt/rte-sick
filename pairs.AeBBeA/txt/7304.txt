@@ -1,0 +1,38 @@
+sentence A = The man in the straw hat is smoking a cigarette.
+sentence B = A cigarette is being smoked by the man in the straw hat.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Man=,Hay=,Hat+,Entity+,Smoking=,CigarOrCigarette+
+CONCEPTS B: CigarOrCigarette+,Entity+,Entity+,Smoking=,Man=,Hay=,Hat+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	the	the	DET	DT	_	6	det	_	DT|?|?
+5	straw	straw	NOUN	NN	_	6	nn	_	NN|14959939-n|Hay=
+6	hat	hat	NOUN	NN	_	3	pobj	_	NN|03497657-n|Hat+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	smoking	smoke	VERB	VBG	_	0	ROOT	_	VBG|01198101-v|Smoking=
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	cigarette	cigarette	NOUN	NN	_	8	dobj	_	NN|03030663-n|CigarOrCigarette+
+11	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cigarette	cigarette	NOUN	NN	_	5	nsubjpass	_	NN|03030663-n|CigarOrCigarette+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	smoked	smoke	VERB	VBN	_	0	ROOT	_	VBN|01198101-v|Smoking=
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	man	man	NOUN	NN	_	6	pobj	_	NN|10287213-n|Man=
+9	in	in	ADP	IN	_	5	prep	_	IN|?|?
+10	the	the	DET	DT	_	12	det	_	DT|?|?
+11	straw	straw	NOUN	NN	_	12	nn	_	NN|14959939-n|Hay=
+12	hat	hat	NOUN	NN	_	9	pobj	_	NN|03497657-n|Hat+
+13	.	.	.	.	_	5	punct	_	Fp|?|?

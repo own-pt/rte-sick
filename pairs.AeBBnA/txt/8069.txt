@@ -1,0 +1,33 @@
+sentence A = A white dog is running through a snowy trail.
+sentence B = A dog is running on a snowy path.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Covering+,Canine+,Entity+,Attribute+,Covering+,Trail+
+CONCEPTS B: Canine+,Entity+,Attribute+,Covering+,Transitway+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|01698231-a|Covering+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	through	through	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	snowy	snowy	ADJ	JJ	_	9	amod	_	JJ|01698231-a|Covering+
+9	trail	trail	NOUN	NN	_	6	pobj	_	NN|04466613-n|Trail+
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	snowy	snowy	ADJ	JJ	_	8	amod	_	JJ|01698231-a|Covering+
+8	path	path	NOUN	NN	_	5	pobj	_	NN|08616311-n|Transitway+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,33 @@
+sentence A = A girl is skipping rope on a sidewalk.
+sentence B = A girl is skipping rope on near a street.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Motion+,String+,Sidewalk=
+CONCEPTS B: Human+,Entity+,Motion+,String+,Roadway=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	skipping	skip	VERB	VBG	_	0	ROOT	_	VBG|01892734-v|Motion+
+5	rope	rope	NOUN	NN	_	4	dobj	_	NN|04108268-n|String+
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	sidewalk	sidewalk	NOUN	NN	_	6	pobj	_	NN|04215402-n|Sidewalk=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	skipping	skip	VERB	VBG	_	0	ROOT	_	VBG|01892734-v|Motion+
+5	rope	rope	NOUN	NN	_	4	dobj	_	NN|04108268-n|String+
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	near	near	ADP	IN	_	6	pcomp	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	street	street	NOUN	NN	_	7	pobj	_	NN|04334599-n|Roadway=
+10	.	.	.	.	_	4	punct	_	Fp|?|?

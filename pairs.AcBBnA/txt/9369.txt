@@ -1,0 +1,46 @@
+sentence A = A man in a red jacket and khaki pants is walking through an European state.
+sentence B = A man in a red jacket and khaki pants is walking through an American state.
+entailm AB = A_contradicts_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Man=,Red=,Coat=,Fabric+,Trousers+,Entity+,Walking=,Europe=,Attribute=
+CONCEPTS B: Man=,Red=,Coat=,Fabric+,Trousers+,Entity+,Walking=,LandArea@,Attribute=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	11	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	9	det	_	DT|?|?
+5	red	red	ADJ	JJ	_	9	amod	_	JJ|00381097-a|Red=
+6	jacket	jacket	NOUN	NN	_	9	nn	_	NN|03589791-n|Coat=
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	khaki	khaki	ADJ	JJ	_	6	conj	_	NN|03615406-n|Fabric+
+9	pants	pant	NOUN	NNS	_	3	pobj	_	NNS|04489008-n|Trousers+
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+12	through	through	ADP	IN	_	11	prep	_	IN|?|?
+13	an	a	DET	DT	_	15	det	_	DT|?|?
+14	European	european	ADJ	JJ	_	15	amod	_	JJ|02968325-a|Europe=
+15	state	state	NOUN	NN	_	12	pobj	_	NN|00024720-n|Attribute=
+16	.	.	.	.	_	11	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	11	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	9	det	_	DT|?|?
+5	red	red	ADJ	JJ	_	9	amod	_	JJ|00381097-a|Red=
+6	jacket	jacket	NOUN	NN	_	9	nn	_	NN|03589791-n|Coat=
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	khaki	khaki	ADJ	JJ	_	6	conj	_	NN|03615406-n|Fabric+
+9	pants	pant	NOUN	NNS	_	3	pobj	_	NNS|04489008-n|Trousers+
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+12	through	through	ADP	IN	_	11	prep	_	IN|?|?
+13	an	a	DET	DT	_	15	det	_	DT|?|?
+14	American	american	ADJ	JJ	_	15	amod	_	JJ|02927303-a|LandArea@
+15	state	state	NOUN	NN	_	12	pobj	_	NN|00024720-n|Attribute=
+16	.	.	.	.	_	11	punct	_	Fp|?|?

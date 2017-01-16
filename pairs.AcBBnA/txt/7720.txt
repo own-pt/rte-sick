@@ -1,0 +1,46 @@
+sentence A = There is no man spraying a super soaker into the mouth of a dog.
+sentence B = A man is squirting water into the mouth of a white dog with a squirt gun.
+entailm AB = A_contradicts_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,Man=,Spraying=,SubjectiveAssessmentAttribute+,Process+,Mouth+,Canine+
+CONCEPTS B: Man=,Entity+,Impelling+,Water=,Mouth+,White=,Canine+,Motion+,Gun=
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|10287213-n|Man=
+5	spraying	spray	VERB	VBG	_	4	partmod	_	VBG|01372682-v|Spraying=
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	super	super	ADJ	JJ	_	8	amod	_	JJ|00528761-a|SubjectiveAssessmentAttribute+
+8	soaker	soaker	NOUN	NN	_	5	dobj	_	NN|11502102-n|Process+
+9	into	into	ADP	IN	_	5	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	mouth	mouth	NOUN	NN	_	9	pobj	_	NN|05302499-n|Mouth+
+12	of	of	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	dog	dog	NOUN	NN	_	12	pobj	_	NN|02084071-n|Canine+
+15	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	squirting	squirt	VERB	VBG	_	0	ROOT	_	VBG|01375637-v|Impelling+
+5	water	water	NOUN	NN	_	4	dobj	_	NN|14845743-n|Water=
+6	into	into	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	mouth	mouth	NOUN	NN	_	6	pobj	_	NN|05302499-n|Mouth+
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	white	white	ADJ	JJ	_	12	amod	_	JJ|00393105-a|White=
+12	dog	dog	NOUN	NN	_	9	pobj	_	NN|02084071-n|Canine+
+13	with	with	ADP	IN	_	12	prep	_	IN|?|?
+14	a	a	DET	DT	_	16	det	_	DT|?|?
+15	squirt	squirt	NOUN	NN	_	16	nn	_	NN|07436100-n|Motion+
+16	gun	gun	NOUN	NN	_	13	pobj	_	NN|03467984-n|Gun=
+17	.	.	.	.	_	4	punct	_	Fp|?|?

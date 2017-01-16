@@ -1,0 +1,42 @@
+sentence A = Adults and children standing and playing in front of steps near a wooded area.
+sentence B = The adults and children are being gathered near an outdoor seating arrangement.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: FullyFormed+,HumanChild=,PhysicalAttribute+,Game+,FrontFn=,RadiatingSound+,SubjectiveAssessmentAttribute+
+CONCEPTS B: FullyFormed+,HumanChild=,Entity+,Entity+,Meeting+,located+,Communication+,Designing+
+
+CONLL A:
+
+1	Adults	adult	NOUN	NNS	_	0	ROOT	_	NNS|09605289-n|FullyFormed+
+2	and	and	CONJ	CC	_	1	cc	_	CC|?|?
+3	children	child	NOUN	NNS	_	1	conj	_	NNS|09917593-n|HumanChild=
+4	standing	stand	VERB	VBG	_	1	dep	_	VBG|01546111-v|PhysicalAttribute+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	playing	play	VERB	VBG	_	4	conj	_	VBG|01079480-v|Game+
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	front	front	NOUN	NN	_	7	pobj	_	NN|08573472-n|FrontFn=
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	steps	step	NOUN	NNS	_	9	pobj	_	NNS|07383823-n|RadiatingSound+
+11	near	near	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	14	det	_	DT|?|?
+13	wooded	wood	VERB	VBN	_	14	amod	_	VBN|?|?
+14	area	area	NOUN	NN	_	11	pobj	_	NN|14514039-n|SubjectiveAssessmentAttribute+
+15	.	.	.	.	_	1	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	adults	adult	NOUN	NNS	_	7	nsubjpass	_	NNS|09605289-n|FullyFormed+
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	children	child	NOUN	NNS	_	2	conj	_	NNS|09917593-n|HumanChild=
+5	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+6	being	be	VERB	VBG	_	7	auxpass	_	VBG|02604760-v|Entity+
+7	gathered	gather	VERB	VBN	_	0	ROOT	_	VBN|02428924-v|Meeting+
+8	near	near	ADP	IN	_	7	prep	_	IN|?|?
+9	an	a	DET	DT	_	12	det	_	DT|?|?
+10	outdoor	outdoor	ADJ	JJ	_	12	amod	_	JJ|01692222-a|located+
+11	seating	seat	NOUN	NN	_	12	amod	_	VBG|01543998-v|Communication+
+12	arrangement	arrangement	NOUN	NN	_	8	pobj	_	NN|05075602-n|Designing+
+13	.	.	.	.	_	7	punct	_	Fp|?|?

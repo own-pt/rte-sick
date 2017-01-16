@@ -1,0 +1,36 @@
+sentence A = A man is stopping in the middle of a road.
+sentence B = The man is walking along a path through the wilderness.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Process+,Region+,Roadway+
+CONCEPTS B: Hominid=,Entity+,Walking=,SubjectiveAssessmentAttribute+,Transitway+,LandArea+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	stopping	stop	VERB	VBG	_	0	ROOT	_	VBG|02680814-v|Process+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	middle	middle	NOUN	NN	_	5	pobj	_	NN|08523483-n|Region+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	road	road	NOUN	NN	_	8	pobj	_	NN|04096066-n|Roadway+
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+5	along	along	ADP	IN	_	4	prep	_	RP|00069164-r|SubjectiveAssessmentAttribute+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	path	path	NOUN	NN	_	5	pobj	_	NN|08616311-n|Transitway+
+8	through	through	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	wilderness	wilderness	NOUN	NN	_	8	pobj	_	NN|08683548-n|LandArea+
+11	.	.	.	.	_	4	punct	_	Fp|?|?

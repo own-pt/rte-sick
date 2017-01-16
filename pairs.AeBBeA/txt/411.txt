@@ -1,0 +1,44 @@
+sentence A = Two men are taking a break from a trip on a snowy road.
+sentence B = Two men are taking a break from a trip on a road covered by snow.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Hominid=,Entity+,PhysicalAttribute+,TimeInterval+,Motion+,Covering+,Roadway+
+CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,TimeInterval+,Motion+,Roadway+,Covering+,Snowing=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	taking	take	VERB	VBG	_	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	break	break	NOUN	NN	_	4	dobj	_	NN|15271008-n|TimeInterval+
+7	from	from	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	trip	trip	NOUN	NN	_	7	pobj	_	NN|07317519-n|Motion+
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	snowy	snowy	ADJ	JJ	_	13	amod	_	JJ|01698231-a|Covering+
+13	road	road	NOUN	NN	_	10	pobj	_	NN|04096066-n|Roadway+
+14	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	taking	take	VERB	VBG	_	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	break	break	NOUN	NN	_	4	dobj	_	NN|15271008-n|TimeInterval+
+7	from	from	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	trip	trip	NOUN	NN	_	7	pobj	_	NN|07317519-n|Motion+
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	road	road	NOUN	NN	_	10	pobj	_	NN|04096066-n|Roadway+
+13	covered	cover	VERB	VBN	_	12	partmod	_	VBN|01332730-v|Covering+
+14	by	by	ADP	IN	_	13	prep	_	IN|?|?
+15	snow	snow	NOUN	NN	_	14	pobj	_	NN|15043763-n|Snowing=
+16	.	.	.	.	_	4	punct	_	Fp|?|?

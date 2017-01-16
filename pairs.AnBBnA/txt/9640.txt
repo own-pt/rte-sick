@@ -1,0 +1,41 @@
+sentence A = A man is standing in the water at the base of a waterfall.
+sentence B = The body of a man is in the water near a waterfall.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,PhysicalAttribute+,Water=,Artifact+,Waterfall=
+CONCEPTS B: Animal=,Hominid=,Entity+,Water=,Waterfall=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	water	water	NOUN	NN	_	5	pobj	_	NN|14845743-n|Water=
+8	at	at	ADP	IN	_	4	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	base	base	NOUN	NN	_	8	pobj	_	NN|03569964-n|Artifact+
+11	of	of	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	waterfall	waterfall	NOUN	NN	_	11	pobj	_	NN|09475292-n|Waterfall=
+14	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	body	body	NOUN	NN	_	6	nsubj	_	NN|05216365-n|Animal=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	man	man	NOUN	NN	_	3	pobj	_	NN|02472293-n|Hominid=
+6	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	water	water	NOUN	NN	_	7	pobj	_	NN|14845743-n|Water=
+10	near	near	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	waterfall	waterfall	NOUN	NN	_	10	pobj	_	NN|09475292-n|Waterfall=
+13	.	.	.	.	_	6	punct	_	Fp|?|?

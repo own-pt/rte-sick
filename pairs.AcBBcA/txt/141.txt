@@ -1,0 +1,37 @@
+sentence A = A group of friends are riding the current in a raft.
+sentence B = A group is not riding the current in a raft.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Group=,SubjectiveAssessmentAttribute=,Entity+,Carrying=,TimePosition+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Group=,Entity+,not=,Carrying=,TimePosition+,SubjectiveAssessmentAttribute+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	friends	friend	NOUN	NNS	_	3	pobj	_	NNS|10112591-n|SubjectiveAssessmentAttribute=
+5	are	be	VERB	VBP	_	6	aux	_	VBP|02604760-v|Entity+
+6	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	current	current	NOUN	NN	_	6	dobj	_	JJ|00666058-a|TimePosition+
+9	in	in	ADP	IN	_	6	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	raft	raft	NOUN	NN	_	9	pobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+12	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	5	nsubj	_	NN|00031264-n|Group=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	current	current	NOUN	NN	_	5	dobj	_	JJ|00666058-a|TimePosition+
+8	in	in	ADP	IN	_	5	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	raft	raft	NOUN	NN	_	8	pobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+11	.	.	.	.	_	5	punct	_	Fp|?|?

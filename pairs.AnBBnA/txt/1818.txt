@@ -1,0 +1,32 @@
+sentence A = Some bells are ringing near a cook slicing peppers.
+sentence B = A cook is slicing some bell peppers.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Bell=,Entity+,RadiatingSound=,Human+,Separating+,SpicePepper=
+CONCEPTS B: Human+,Entity+,Separating+,Bell=,SpicePepper=
+
+CONLL A:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	bells	bell	NOUN	NNS	_	4	nsubj	_	NNS|02824448-n|Bell=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	ringing	ring	VERB	VBG	_	0	ROOT	_	VBG|02180898-v|RadiatingSound=
+5	near	near	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	cook	cook	NOUN	NN	_	5	pobj	_	NN|09963320-n|Human+
+8	slicing	slice	VERB	VBG	_	7	partmod	_	VBG|01254477-v|Separating+
+9	peppers	pepper	NOUN	NNS	_	8	dobj	_	NNS|07815588-n|SpicePepper=
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cook	cook	NOUN	NN	_	4	nsubj	_	NN|09963320-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	some	some	DET	DT	_	7	det	_	DT|?|?
+6	bell	bell	NOUN	NN	_	7	nn	_	NN|02824448-n|Bell=
+7	peppers	pepper	NOUN	NNS	_	4	dobj	_	NNS|07815588-n|SpicePepper=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

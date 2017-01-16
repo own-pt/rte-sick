@@ -1,0 +1,56 @@
+sentence A = A man in a white shirt and sunglasses and a man in a black shirt and sunglasses are sitting at a table with four beer bottles.
+sentence B = Two guys are standing by a table and putting some beers down on it.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Man=,White=,Shirt=,Device+,Man=,Black=,Shirt=,Device+,PhysicalAttribute+,SittingDown+,ContentBearingObject+,Beer=,Bottle=
+CONCEPTS B: Device+,Entity+,PhysicalAttribute+,ContentBearingObject+,Putting=,Beer=,earlier+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	19	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	_	6	amod	_	JJ|00393105-a|White=
+6	shirt	shirt	NOUN	NN	_	3	pobj	_	NN|04197391-n|Shirt=
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	sunglasses	sunglass	NOUN	NNS	_	6	conj	_	NNS|04355933-n|Device+
+9	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	man	man	NOUN	NN	_	2	conj	_	NN|10287213-n|Man=
+12	in	in	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	15	det	_	DT|?|?
+14	black	black	ADJ	JJ	_	15	amod	_	JJ|00392812-a|Black=
+15	shirt	shirt	NOUN	NN	_	12	pobj	_	NN|04197391-n|Shirt=
+16	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+17	sunglasses	sunglass	NOUN	NNS	_	2	conj	_	NNS|04355933-n|Device+
+18	are	be	VERB	VBP	_	19	aux	_	VBP|02655135-v|PhysicalAttribute+
+19	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+20	at	at	ADP	IN	_	19	prep	_	IN|?|?
+21	a	a	DET	DT	_	22	det	_	DT|?|?
+22	table	table	NOUN	NN	_	20	pobj	_	NN|08266235-n|ContentBearingObject+
+23	with	with	ADP	IN	_	22	prep	_	IN|?|?
+24	four	4	NUM	CD	_	26	num	_	Z|?|?
+25	beer	beer	NOUN	NN	_	26	nn	_	NN|07886849-n|Beer=
+26	bottles	bottle	NOUN	NNS	_	23	pobj	_	NNS|02876657-n|Bottle=
+27	.	.	.	.	_	19	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	guys	guy	NOUN	NNS	_	4	nsubj	_	NNS|03471779-n|Device+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	by	by	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	table	table	NOUN	NN	_	5	pobj	_	NN|08266235-n|ContentBearingObject+
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	putting	put	VERB	VBG	_	4	conj	_	VBG|01494310-v|Putting=
+10	some	some	DET	DT	_	11	det	_	DT|?|?
+11	beers	beer	NOUN	NNS	_	9	dobj	_	NNS|07886849-n|Beer=
+12	down	down	ADV	RB	_	9	prt	_	RB|00096089-r|earlier+
+13	on	on	ADP	IN	_	9	prep	_	IN|?|?
+14	it	it	PRON	PRP	_	13	pobj	_	PRP|?|?
+15	.	.	.	.	_	4	punct	_	Fp|?|?

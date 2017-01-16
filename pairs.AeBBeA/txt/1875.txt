@@ -1,0 +1,36 @@
+sentence A = The food on the trays is being eaten by the kittens.
+sentence B = The kittens are eating the food on the trays.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: SubjectiveAssessmentAttribute+,Tray=,Entity+,Entity+,Eating=,Feline+
+CONCEPTS B: Feline+,Entity+,Eating=,SubjectiveAssessmentAttribute+,Tray=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	food	food	NOUN	NN	_	8	nsubjpass	_	NN|05811214-n|SubjectiveAssessmentAttribute+
+3	on	on	ADP	IN	_	2	prep	_	IN|?|?
+4	the	the	DET	DT	_	5	det	_	DT|?|?
+5	trays	tray	NOUN	NNS	_	3	pobj	_	NNS|04476259-n|Tray=
+6	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+7	being	be	VERB	VBG	_	8	auxpass	_	VBG|02604760-v|Entity+
+8	eaten	eat	VERB	VBN	_	0	ROOT	_	VBN|01168468-v|Eating=
+9	by	by	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	kittens	kitten	NOUN	NNS	_	9	pobj	_	NNS|02122948-n|Feline+
+12	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	kittens	kitten	NOUN	NNS	_	4	nsubj	_	NNS|02122948-n|Feline+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01168468-v|Eating=
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	food	food	NOUN	NN	_	4	dobj	_	NN|05811214-n|SubjectiveAssessmentAttribute+
+7	on	on	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	trays	tray	NOUN	NNS	_	7	pobj	_	NNS|04476259-n|Tray=
+10	.	.	.	.	_	4	punct	_	Fp|?|?

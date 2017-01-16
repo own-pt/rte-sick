@@ -1,0 +1,45 @@
+sentence A = Someone is on a black and white motorcycle and is standing on the seat.
+sentence B = A rider is on a black and white bike and is standing on the seat.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,Black=,White=,PassengerVehicle+,Entity+,PhysicalAttribute+,Seat=
+CONCEPTS B: Human+,Entity+,Black=,White=,Bicycle=,Entity+,PhysicalAttribute+,Seat=
+
+CONLL A:
+
+1	Someone	someone	NOUN	NN	_	2	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	on	on	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	8	det	_	DT|?|?
+5	black	black	ADJ	JJ	_	8	amod	_	JJ|00392812-a|Black=
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	white	white	ADJ	JJ	_	5	conj	_	JJ|00393105-a|White=
+8	motorcycle	motorcycle	NOUN	NN	_	3	pobj	_	NN|03790512-n|PassengerVehicle+
+9	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	standing	stand	VERB	VBG	_	2	conj	_	VBG|01546111-v|PhysicalAttribute+
+12	on	on	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	seat	seat	NOUN	NN	_	12	pobj	_	NN|04161358-n|Seat=
+15	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	rider	rider	NOUN	NN	_	3	nsubj	_	NN|10530150-n|Human+
+3	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+4	on	on	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	9	det	_	DT|?|?
+6	black	black	ADJ	JJ	_	9	amod	_	JJ|00392812-a|Black=
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	white	white	ADJ	JJ	_	6	conj	_	JJ|00393105-a|White=
+9	bike	bike	NOUN	NN	_	4	pobj	_	NN|02834778-n|Bicycle=
+10	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	standing	stand	VERB	VBG	_	3	conj	_	VBG|01546111-v|PhysicalAttribute+
+13	on	on	ADP	IN	_	12	prep	_	IN|?|?
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	seat	seat	NOUN	NN	_	13	pobj	_	NN|04161358-n|Seat=
+16	.	.	.	.	_	3	punct	_	Fp|?|?

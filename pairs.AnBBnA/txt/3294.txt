@@ -1,0 +1,28 @@
+sentence A = A woman is grating carrots.
+sentence B = A woman is coating a pork chop.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Touching+,Carrot=
+CONCEPTS B: Woman=,Entity+,Covering+,Pork=,Meat+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	grating	grate	VERB	VBG	_	0	ROOT	_	VBG|01308160-v|Touching+
+5	carrots	carrot	NOUN	NNS	_	4	dobj	_	NNS|07730207-n|Carrot=
+6	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	coating	coat	VERB	VBG	_	0	ROOT	_	VBG|01264283-v|Covering+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	pork	pork	NOUN	NN	_	7	nn	_	NN|07668702-n|Pork=
+7	chop	chop	NOUN	NN	_	4	dobj	_	NN|07653982-n|Meat+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

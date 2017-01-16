@@ -1,0 +1,40 @@
+sentence A = A brown and white dog with a brown and black bandanna is running very fast.
+sentence B = A small white dog is running across a lawn.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,White=,Canine+,Human+,Black=,Clothing+,Entity+,Running=,SubjectiveAssessmentAttribute+,SubjectiveAssessmentAttribute+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,White=,Canine+,Entity+,Attribute+,Lawn=
+
+CONLL A:
+
+1	A	a	DET	DT	_	5	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	5	amod	_	JJ|00245112-a|Human+
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	white	white	ADJ	JJ	_	2	conj	_	JJ|00393105-a|White=
+5	dog	dog	NOUN	NN	_	13	nsubj	_	NN|02084071-n|Canine+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	11	det	_	DT|?|?
+8	brown	brown	ADJ	JJ	_	11	amod	_	JJ|00245112-a|Human+
+9	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+10	black	black	ADJ	JJ	_	8	conj	_	JJ|00392812-a|Black=
+11	bandanna	bandanna	NOUN	NN	_	6	pobj	_	NN|02786198-n|Clothing+
+12	is	be	VERB	VBZ	_	13	aux	_	VBZ|02604760-v|Entity+
+13	running	run	VERB	VBG	_	0	ROOT	_	VBG|01926311-v|Running=
+14	very	very	ADV	RB	_	15	advmod	_	RB|00031899-r|SubjectiveAssessmentAttribute+
+15	fast	fast	ADJ	JJ	_	13	advmod	_	RB|00086000-r|SubjectiveAssessmentAttribute+
+16	.	.	.	.	_	13	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	small	small	ADJ	JJ	_	4	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	white	white	ADJ	JJ	_	4	amod	_	JJ|00393105-a|White=
+4	dog	dog	NOUN	NN	_	6	nsubj	_	NN|02084071-n|Canine+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+7	across	across	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	lawn	lawn	NOUN	NN	_	7	pobj	_	NN|08591592-n|Lawn=
+10	.	.	.	.	_	6	punct	_	Fp|?|?

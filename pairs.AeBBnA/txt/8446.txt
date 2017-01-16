@@ -1,0 +1,41 @@
+sentence A = Two men are standing together and one is looking through binoculars.
+sentence B = Two men are looking out and binoculars are being held by one of them.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,PhysicalAttribute+,Meeting=,Entity+,SubjectiveAssessmentAttribute+,Device+
+CONCEPTS B: Hominid=,Entity+,SubjectiveAssessmentAttribute+,Giving+,Device+,Entity+,Entity+,PhysicalAttribute+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	together	together	ADV	RB	_	4	advmod	_	RB|00507927-r|Meeting=
+6	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+7	one	one	NUM	CD	_	9	nsubj	_	PRP|?|?
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	looking	look	VERB	VBG	_	4	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+10	through	through	ADP	IN	_	9	prep	_	IN|?|?
+11	binoculars	binoculars	NOUN	NNS	_	10	pobj	_	NNS|02841315-n|Device+
+12	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+5	out	out	PRT	RP	_	4	prt	_	RP|00233413-r|Giving+
+6	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+7	binoculars	binoculars	NOUN	NNS	_	10	nsubjpass	_	NNS|02841315-n|Device+
+8	are	be	VERB	VBP	_	10	aux	_	VBP|02604760-v|Entity+
+9	being	be	VERB	VBG	_	10	auxpass	_	VBG|02604760-v|Entity+
+10	held	hold	VERB	VBN	_	4	conj	_	VBN|02701210-v|PhysicalAttribute+
+11	by	by	ADP	IN	_	10	prep	_	IN|?|?
+12	one	1	NUM	CD	_	11	pobj	_	Z|?|?
+13	of	of	ADP	IN	_	12	prep	_	IN|?|?
+14	them	them	PRON	PRP	_	13	pobj	_	PRP|?|?
+15	.	.	.	.	_	4	punct	_	Fp|?|?

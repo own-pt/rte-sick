@@ -1,0 +1,33 @@
+sentence A = A married couple is walking down the aisle.
+sentence B = The bride is leaving the groom after the wedding.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Wedding+,Entity+,Entity+,Walking=,earlier+,LandTransitway+
+CONCEPTS B: Human+,Entity+,Process+,SocialRole+,Wedding=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	married	marry	ADJ	JJ	_	3	amod	_	VBN|02488834-v|Wedding+
+3	couple	couple	NOUN	NN	_	5	nsubj	_	NN|13743605-n|Entity+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+6	down	down	PRT	RP	_	5	prep	_	RP|00096089-r|earlier+
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	aisle	aisle	NOUN	NN	_	6	pobj	_	NN|02693860-n|LandTransitway+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	bride	bride	NOUN	NN	_	4	nsubj	_	NN|09874725-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	leaving	leave	VERB	VBG	_	0	ROOT	_	VBG|02635659-v|Process+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	groom	groom	NOUN	NN	_	4	dobj	_	NN|10148035-n|SocialRole+
+7	after	after	ADP	IN	_	4	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	wedding	wedding	NOUN	NN	_	7	pobj	_	NN|07452074-n|Wedding=
+10	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,32 @@
+sentence A = A man is cutting a paper.
+sentence B = A man is cutting himself with a piece of paper.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Decreasing+,Newspaper=
+CONCEPTS B: GamePiece+,Entity+,Cutting+,GamePiece+,Newspaper=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|00429060-v|Decreasing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	paper	paper	NOUN	NN	_	4	dobj	_	NN|06267145-n|Newspaper=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|03716327-n|GamePiece+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|01552519-v|Cutting+
+5	himself	himself	PRON	PRP	_	4	dobj	_	PRP|?|?
+6	with	with	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	piece	piece	NOUN	NN	_	6	pobj	_	NN|03716327-n|GamePiece+
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	paper	paper	NOUN	NN	_	9	pobj	_	NN|06267145-n|Newspaper=
+11	.	.	.	.	_	4	punct	_	Fp|?|?

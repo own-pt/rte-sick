@@ -1,0 +1,34 @@
+sentence A = A white car is being driven by the man.
+sentence B = The interviewer is granting a break to the man.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: White=,Automobile=,Entity+,Entity+,Transportation+,Hominid=
+CONCEPTS B: Human+,Entity+,Giving+,TimeInterval+,Hominid=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	car	car	NOUN	NN	_	6	nsubjpass	_	NN|02958343-n|Automobile=
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	being	be	VERB	VBG	_	6	auxpass	_	VBG|02604760-v|Entity+
+6	driven	drive	VERB	VBN	_	0	ROOT	_	VBN|01930874-v|Transportation+
+7	by	by	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	man	man	NOUN	NN	_	7	pobj	_	NN|02472293-n|Hominid=
+10	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	interviewer	interviewer	NOUN	NN	_	4	nsubj	_	NN|10213319-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	granting	grant	VERB	VBG	_	0	ROOT	_	VBG|02255268-v|Giving+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	break	break	NOUN	NN	_	4	dobj	_	NN|15271008-n|TimeInterval+
+7	to	to	ADP	IN	_	6	prep	_	TO|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	man	man	NOUN	NN	_	7	pobj	_	NN|02472293-n|Hominid=
+10	.	.	.	.	_	4	punct	_	Fp|?|?

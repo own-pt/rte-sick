@@ -1,0 +1,43 @@
+sentence A = A dog is swimming in a lake and the sun is shining on him.
+sentence B = There is no dog swimming in a lake with sunshine shining on him.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Canine+,Entity+,Swimming+,Lake=,Sol=,Entity+,RadiatingLight+
+CONCEPTS B: Entity+,Canine+,Swimming+,Lake=,Sunlight+,RadiatingLight+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	swimming	swim	VERB	VBG	_	0	ROOT	_	VBG|01960911-v|Swimming+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	lake	lake	NOUN	NN	_	5	pobj	_	NN|09328904-n|Lake=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	sun	sun	NOUN	NN	_	12	nsubj	_	NN|09450163-n|Sol=
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	shining	shine	VERB	VBG	_	4	conj	_	VBG|02763740-v|RadiatingLight+
+13	on	on	ADP	IN	_	12	prep	_	IN|?|?
+14	him	him	PRON	PRP	_	13	pobj	_	PRP|?|?
+15	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	dog	dog	NOUN	NN	_	5	nn	_	NN|02084071-n|Canine+
+5	swimming	swim	NOUN	NN	_	2	nsubj	_	VBG|01960911-v|Swimming+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	lake	lake	NOUN	NN	_	6	pobj	_	NN|09328904-n|Lake=
+9	with	with	ADP	IN	_	8	prep	_	IN|?|?
+10	sunshine	sunshine	NOUN	NN	_	11	nsubj	_	NN|11485367-n|Sunlight+
+11	shining	shine	VERB	VBG	_	9	pcomp	_	VBG|02763740-v|RadiatingLight+
+12	on	on	ADP	IN	_	11	prep	_	IN|?|?
+13	him	him	PRON	PRP	_	12	pobj	_	PRP|?|?
+14	.	.	.	.	_	2	punct	_	Fp|?|?

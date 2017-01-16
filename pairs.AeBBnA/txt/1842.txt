@@ -1,0 +1,31 @@
+sentence A = One man is sitting steadily on the chair.
+sentence B = One man is sitting on the chair.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,PhysicalAttribute+,SittingDown+,SubjectiveAssessmentAttribute+,Chair=
+CONCEPTS B: Hominid=,PhysicalAttribute+,SittingDown+,Chair=
+
+CONLL A:
+
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	steadily	steadily	ADV	RB	_	4	advmod	_	RB|00050186-r|SubjectiveAssessmentAttribute+
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	chair	chair	NOUN	NN	_	6	pobj	_	NN|03001627-n|Chair=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	chair	chair	NOUN	NN	_	5	pobj	_	NN|03001627-n|Chair=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

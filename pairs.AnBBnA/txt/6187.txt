@@ -1,0 +1,44 @@
+sentence A = The group of people is sitting on a ledge which is rocky and a scenic view is behind them.
+sentence B = Four people are sitting on a low cement ledge.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Group=,GroupOfPeople=,PhysicalAttribute+,SittingDown+,GeographicArea+,PhysicalAttribute+,TextureAttribute+,StationaryArtifact+,VisualAttribute+,PhysicalAttribute+
+CONCEPTS B: GroupOfPeople=,PhysicalAttribute+,SittingDown+,Motion+,Cement=,GeographicArea+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	people	people	NOUN	NNS	_	3	pobj	_	NNS|07942152-n|GroupOfPeople=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02655135-v|PhysicalAttribute+
+6	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	ledge	ledge	NOUN	NN	_	7	pobj	_	NN|09337253-n|GeographicArea+
+10	which	which	DET	WDT	_	12	nsubj	_	WDT|?|?
+11	is	be	VERB	VBZ	_	12	cop	_	VBZ|02655135-v|PhysicalAttribute+
+12	rocky	rocky	ADJ	JJ	_	9	rcmod	_	JJ|02243567-a|TextureAttribute+
+13	and	and	CONJ	CC	_	12	cc	_	CC|?|?
+14	a	a	DET	DT	_	16	det	_	DT|?|?
+15	scenic	scenic	ADJ	JJ	_	16	amod	_	JJ|02792789-a|StationaryArtifact+
+16	view	view	NOUN	NN	_	17	nsubj	_	NN|05933246-n|VisualAttribute+
+17	is	be	VERB	VBZ	_	12	conj	_	VBZ|02655135-v|PhysicalAttribute+
+18	behind	behind	ADP	IN	_	17	prep	_	IN|?|?
+19	them	them	PRON	PRP	_	18	pobj	_	PRP|?|?
+20	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Four	4	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	9	det	_	DT|?|?
+7	low	low	ADJ	JJ	_	9	amod	_	JJ|01212469-a|Motion+
+8	cement	cement	NOUN	NN	_	9	nn	_	NN|14804175-n|Cement=
+9	ledge	ledge	NOUN	NN	_	5	pobj	_	NN|09337253-n|GeographicArea+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

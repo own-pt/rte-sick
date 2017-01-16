@@ -1,0 +1,34 @@
+sentence A = A woman is dancing on a stage.
+sentence B = The woman is dancing and a man is playing the keyboard.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Dancing+,Attribute+
+CONCEPTS B: Woman=,Entity+,Dancing+,Man=,Entity+,DramaticActing+,ComputerInputDevice+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	stage	stage	NOUN	NN	_	5	pobj	_	NN|13939892-n|Attribute+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	man	man	NOUN	NN	_	9	nsubj	_	NN|10287213-n|Man=
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	playing	play	VERB	VBG	_	4	conj	_	VBG|01719302-v|DramaticActing+
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	keyboard	keyboard	NOUN	NN	_	9	dobj	_	NN|03614007-n|ComputerInputDevice+
+12	.	.	.	.	_	4	punct	_	Fp|?|?

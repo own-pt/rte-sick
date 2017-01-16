@@ -1,0 +1,33 @@
+sentence A = A man is climbing a rope.
+sentence B = There is no man holding a mask in his raised hand.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Increasing+,String+
+CONCEPTS B: Entity+,Hominid=,Obligation+,Artifact+,Increasing+,Hand+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	climbing	climb	VERB	VBG	_	0	ROOT	_	VBG|00433232-v|Increasing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	rope	rope	NOUN	NN	_	4	dobj	_	NN|04108268-n|String+
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	holding	hold	VERB	VBG	_	4	partmod	_	VBG|02203362-v|Obligation+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	mask	mask	NOUN	NN	_	5	dobj	_	NN|03724870-n|Artifact+
+8	in	in	ADP	IN	_	5	prep	_	IN|?|?
+9	his	his	PRON	PRP$	_	11	poss	_	PRP$|?|?
+10	raised	raise	VERB	VBN	_	11	amod	_	VBN|00229605-v|Increasing+
+11	hand	hand	NOUN	NN	_	8	pobj	_	NN|05564590-n|Hand+
+12	.	.	.	.	_	2	punct	_	Fp|?|?

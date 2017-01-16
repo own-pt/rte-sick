@@ -1,0 +1,37 @@
+sentence A = A girl in blue is sliding down a green slide.
+sentence B = The young girl in blue is having fun on a swing.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,SubjectiveStrongNegativeAttribute+,Entity+,Translocation+,earlier+,Green=,Artifact+
+CONCEPTS B: HumanYouth=,Human+,SubjectiveStrongNegativeAttribute+,Entity+,Damaging+,TraitAttribute+,SoundAttribute+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	6	nsubj	_	NN|10129825-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	blue	blue	NOUN	NN	_	3	pobj	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	sliding	slide	VERB	VBG	_	0	ROOT	_	VBG|02090990-v|Translocation+
+7	down	down	PRT	RP	_	6	prt	_	RP|00095320-r|earlier+
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	green	green	ADJ	JJ	_	10	amod	_	JJ|00375969-a|Green=
+10	slide	slide	NOUN	NN	_	6	dobj	_	NN|03029603-n|Artifact+
+11	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	7	nsubj	_	NN|10129825-n|Human+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	blue	blue	NOUN	NN	_	4	pobj	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	having	have	VERB	VBG	_	0	ROOT	_	VBG|00065639-v|Damaging+
+8	fun	fun	NOUN	NN	_	7	dobj	_	NN|04649261-n|TraitAttribute+
+9	on	on	ADP	IN	_	7	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	swing	swing	NOUN	NN	_	9	pobj	_	NN|04992008-n|SoundAttribute+
+12	.	.	.	.	_	7	punct	_	Fp|?|?

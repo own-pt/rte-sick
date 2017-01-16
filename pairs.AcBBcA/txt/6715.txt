@@ -1,0 +1,35 @@
+sentence A = The black bird is not sitting in a leafless tree.
+sentence B = The black bird is sitting in a leafless tree.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Black=,Bird=,PhysicalAttribute+,not=,SittingDown+,Plant+,ContentBearingObject+
+CONCEPTS B: Black=,Bird=,PhysicalAttribute+,SittingDown+,Plant+,ContentBearingObject+
+
+CONLL A:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	bird	bird	NOUN	NN	_	6	nsubj	_	NN|01503061-n|Bird=
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02655135-v|PhysicalAttribute+
+5	not	not	ADV	RB	_	6	neg	_	RB|00024073-r|not=
+6	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	leafless	leafless	NOUN	NN	_	10	nn	_	JJ|01703494-a|Plant+
+10	tree	tree	NOUN	NN	_	7	pobj	_	NN|13912260-n|ContentBearingObject+
+11	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	bird	bird	NOUN	NN	_	5	nsubj	_	NN|01503061-n|Bird=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	leafless	leafless	NOUN	NN	_	9	nn	_	JJ|01703494-a|Plant+
+9	tree	tree	NOUN	NN	_	6	pobj	_	NN|13912260-n|ContentBearingObject+
+10	.	.	.	.	_	5	punct	_	Fp|?|?

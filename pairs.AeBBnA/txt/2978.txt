@@ -1,0 +1,27 @@
+sentence A = Two teams are enthusiastically playing soccer.
+sentence B = Two teams are playing soccer.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Organization=,Entity+,SubjectiveAssessmentAttribute+,DramaticActing+,Soccer=
+CONCEPTS B: Organization=,Entity+,DramaticActing+,Soccer=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	teams	team	NOUN	NNS	_	5	nsubj	_	NNS|08208560-n|Organization=
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	enthusiastically	enthusiastically	ADV	RB	_	5	advmod	_	RB|00456484-r|SubjectiveAssessmentAttribute+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	soccer	soccer	NOUN	NN	_	5	dobj	_	NN|00478262-n|Soccer=
+7	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	teams	team	NOUN	NNS	_	4	nsubj	_	NNS|08208560-n|Organization=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	soccer	soccer	NOUN	NN	_	4	dobj	_	NN|00478262-n|Soccer=
+6	.	.	.	.	_	4	punct	_	Fp|?|?

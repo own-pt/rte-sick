@@ -1,0 +1,44 @@
+sentence A = Two small children are playing with a toy car in the street.
+sentence B = Two children, who are small, are playing with a toy car in the street.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,DramaticActing+,RecreationOrExerciseDevice+,Automobile=,Roadway=
+CONCEPTS B: HumanChild=,Entity+,SubjectiveStrongNegativeAttribute+,Entity+,DramaticActing+,RecreationOrExerciseDevice+,Automobile=,Roadway=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	small	small	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	children	child	NOUN	NNS	_	5	nsubj	_	NNS|09917593-n|HumanChild=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	toy	toy	NOUN	NN	_	9	nn	_	NN|03964744-n|RecreationOrExerciseDevice+
+9	car	car	NOUN	NN	_	6	pobj	_	NN|02958343-n|Automobile=
+10	in	in	ADP	IN	_	5	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	street	street	NOUN	NN	_	10	pobj	_	NN|04334599-n|Roadway=
+13	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	children	child	NOUN	NNS	_	9	nsubj	_	NNS|09917593-n|HumanChild=
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	_	6	nsubj	_	WP|?|?
+5	are	be	VERB	VBP	_	6	cop	_	VBP|02604760-v|Entity+
+6	small	small	ADJ	JJ	_	2	rcmod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+7	,	,	.	,	_	2	punct	_	Fc|?|?
+8	are	be	VERB	VBP	_	9	aux	_	VBP|02604760-v|Entity+
+9	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+10	with	with	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	toy	toy	NOUN	NN	_	13	nn	_	NN|03964744-n|RecreationOrExerciseDevice+
+13	car	car	NOUN	NN	_	10	pobj	_	NN|02958343-n|Automobile=
+14	in	in	ADP	IN	_	9	prep	_	IN|?|?
+15	the	the	DET	DT	_	16	det	_	DT|?|?
+16	street	street	NOUN	NN	_	14	pobj	_	NN|04334599-n|Roadway=
+17	.	.	.	.	_	9	punct	_	Fp|?|?

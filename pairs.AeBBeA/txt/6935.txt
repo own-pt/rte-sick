@@ -1,0 +1,42 @@
+sentence A = A large crowd in warm clothing is posing for a camera.
+sentence B = A crowd, which is large, in warm clothing is posing for a camera.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,SubjectiveAssessmentAttribute=,SubjectiveWeakPositiveAttribute+,Clothing=,Entity+,Putting=,Camera=
+CONCEPTS B: SubjectiveAssessmentAttribute=,Entity+,SubjectiveWeakPositiveAttribute+,SubjectiveWeakPositiveAttribute+,Clothing=,Entity+,Putting=,Camera=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	crowd	crowd	NOUN	NN	_	8	nsubj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	warm	warm	ADJ	JJ	_	6	amod	_	JJ|02530861-a|SubjectiveWeakPositiveAttribute+
+6	clothing	clothing	NOUN	NN	_	4	pobj	_	NN|03051540-n|Clothing=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	posing	pose	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+9	for	for	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	camera	camera	NOUN	NN	_	9	pobj	_	NN|02942699-n|Camera=
+12	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	crowd	crowd	NOUN	NN	_	12	nsubj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	which	which	DET	WDT	_	6	nsubj	_	WDT|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	large	large	ADJ	JJ	_	2	rcmod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+7	,	,	.	,	_	2	punct	_	Fc|?|?
+8	in	in	ADP	IN	_	2	prep	_	IN|?|?
+9	warm	warm	ADJ	JJ	_	10	amod	_	JJ|02530861-a|SubjectiveWeakPositiveAttribute+
+10	clothing	clothing	NOUN	NN	_	8	pobj	_	NN|03051540-n|Clothing=
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	posing	pose	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+13	for	for	ADP	IN	_	12	prep	_	IN|?|?
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	camera	camera	NOUN	NN	_	13	pobj	_	NN|02942699-n|Camera=
+16	.	.	.	.	_	12	punct	_	Fp|?|?

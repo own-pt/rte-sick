@@ -1,0 +1,34 @@
+sentence A = A woman is peeling a potato.
+sentence B = A woman is passionately playing a guitar in front of an audience.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Removing+,PotatoTuber=
+CONCEPTS B: Woman=,Entity+,SubjectiveAssessmentAttribute+,DramaticActing+,Guitar=,FrontFn=,Perception+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	peeling	peel	VERB	VBG	_	0	ROOT	_	VBG|00049900-v|Removing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	potato	potato	NOUN	NN	_	4	dobj	_	NN|07710616-n|PotatoTuber=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	passionately	passionately	ADV	RB	_	5	advmod	_	RB|00209874-r|SubjectiveAssessmentAttribute+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	guitar	guitar	NOUN	NN	_	5	dobj	_	NN|03467517-n|Guitar=
+8	in	in	ADP	IN	_	5	prep	_	IN|?|?
+9	front	front	NOUN	NN	_	8	pobj	_	NN|08573472-n|FrontFn=
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	an	a	DET	DT	_	12	det	_	DT|?|?
+12	audience	audience	NOUN	NN	_	10	pobj	_	NN|08221897-n|Perception+
+13	.	.	.	.	_	5	punct	_	Fp|?|?

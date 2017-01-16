@@ -1,0 +1,40 @@
+sentence A = The young child is riding a three wheeled scooter down the sidewalk.
+sentence B = A young child is riding a three wheeled scooter down the sidewalk.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: HumanYouth=,HumanChild=,Entity+,Carrying=,Transportation+,LandVehicle+,Sidewalk=
+CONCEPTS B: HumanYouth=,HumanChild=,Entity+,Carrying=,Transportation+,LandVehicle+,Sidewalk=
+
+CONLL A:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	child	child	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+6	a	a	DET	DT	_	9	det	_	DT|?|?
+7	three	3	NUM	CD	_	9	num	_	Z|?|?
+8	wheeled	wheel	VERB	VBN	_	9	amod	_	VBN|01935476-v|Transportation+
+9	scooter	scooter	NOUN	NN	_	5	dobj	_	NN|03791053-n|LandVehicle+
+10	down	down	ADP	IN	_	5	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	sidewalk	sidewalk	NOUN	NN	_	10	pobj	_	NN|04215402-n|Sidewalk=
+13	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	child	child	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+6	a	a	DET	DT	_	9	det	_	DT|?|?
+7	three	3	NUM	CD	_	9	num	_	Z|?|?
+8	wheeled	wheel	VERB	VBN	_	9	amod	_	VBN|01935476-v|Transportation+
+9	scooter	scooter	NOUN	NN	_	5	dobj	_	NN|03791053-n|LandVehicle+
+10	down	down	ADP	IN	_	5	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	sidewalk	sidewalk	NOUN	NN	_	10	pobj	_	NN|04215402-n|Sidewalk=
+13	.	.	.	.	_	5	punct	_	Fp|?|?

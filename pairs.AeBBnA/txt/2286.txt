@@ -1,0 +1,31 @@
+sentence A = The cat is playing passionately with a watermelon.
+sentence B = A cat is playing with a watermelon.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Whip+,Entity+,DramaticActing+,SubjectiveAssessmentAttribute+,FruitOrVegetable+
+CONCEPTS B: Whip+,Entity+,DramaticActing+,FruitOrVegetable+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	4	nsubj	_	NN|02985606-n|Whip+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	passionately	passionately	ADV	RB	_	4	advmod	_	RB|00209874-r|SubjectiveAssessmentAttribute+
+6	with	with	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	watermelon	watermelon	NOUN	NN	_	6	pobj	_	NN|07756951-n|FruitOrVegetable+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	4	nsubj	_	NN|02985606-n|Whip+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	watermelon	watermelon	NOUN	NN	_	5	pobj	_	NN|07756951-n|FruitOrVegetable+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

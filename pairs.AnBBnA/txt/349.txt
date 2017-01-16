@@ -1,0 +1,38 @@
+sentence A = An Asian woman in a crowd is carrying a black bag.
+sentence B = A cramped black train is on the bag of a girl.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: AsianEthnicity=,Woman=,SubjectiveAssessmentAttribute=,Entity+,Transportation+,Black=,Container+
+CONCEPTS B: Attaching+,Black=,Train=,Entity+,Container+,Human+
+
+CONLL A:
+
+1	An	a	DET	DT	_	3	det	_	DT|?|?
+2	Asian	asian	ADJ	JJ	_	3	amod	_	JJ|02968525-a|AsianEthnicity=
+3	woman	woman	NOUN	NN	_	8	nsubj	_	NN|10787470-n|Woman=
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	crowd	crowd	NOUN	NN	_	4	pobj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	carrying	carry	VERB	VBG	_	0	ROOT	_	VBG|01449974-v|Transportation+
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	black	black	ADJ	JJ	_	11	amod	_	JJ|00392812-a|Black=
+11	bag	bag	NOUN	NN	_	8	dobj	_	NN|02773037-n|Container+
+12	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	cramped	cramp	ADJ	JJ	_	4	amod	_	VBN|01304466-v|Attaching+
+3	black	black	ADJ	JJ	_	4	amod	_	JJ|00392812-a|Black=
+4	train	train	NOUN	NN	_	5	nsubj	_	NN|04468005-n|Train=
+5	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	bag	bag	NOUN	NN	_	6	pobj	_	NN|02773037-n|Container+
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	girl	girl	NOUN	NN	_	9	pobj	_	NN|10129825-n|Human+
+12	.	.	.	.	_	5	punct	_	Fp|?|?

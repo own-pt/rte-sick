@@ -1,0 +1,27 @@
+sentence A = A woman is playing a flute.
+sentence B = A woman is playing flute.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Woman=,Entity+,DramaticActing+,Flute=
+CONCEPTS B: Woman=,Entity+,DramaticActing+,Flute=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	flute	flute	NOUN	NN	_	4	dobj	_	NN|03372029-n|Flute=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	flute	flute	NOUN	NN	_	4	dobj	_	NN|03372029-n|Flute=
+6	.	.	.	.	_	4	punct	_	Fp|?|?

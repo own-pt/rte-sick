@@ -1,0 +1,28 @@
+sentence A = A baby is sitting.
+sentence B = A baby is sneezing and scaring another baby.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanBaby=,PhysicalAttribute+,SittingDown+
+CONCEPTS B: HumanBaby=,Entity+,Breathing+,IntentionalPsychologicalProcess+,HumanBaby=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	baby	baby	NOUN	NN	_	4	nsubj	_	NN|09827683-n|HumanBaby=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	baby	baby	NOUN	NN	_	4	nsubj	_	NN|09827683-n|HumanBaby=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	sneezing	sneeze	VERB	VBG	_	0	ROOT	_	VBG|00004819-v|Breathing+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	scaring	scare	VERB	VBG	_	4	conj	_	VBG|01779165-v|IntentionalPsychologicalProcess+
+7	another	another	DET	DT	_	8	det	_	DT|?|?
+8	baby	baby	NOUN	NN	_	6	dobj	_	NN|09827683-n|HumanBaby=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

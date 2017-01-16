@@ -1,0 +1,46 @@
+sentence A = Two males are standing on a cliff edge and one is jumping into the sea.
+sentence B = Two males are standing on a cliff edge and one is jumping into the water.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,PhysicalAttribute+,Cliff=,Object+,Entity+,Ambulating=,Sea=
+CONCEPTS B: Human+,Entity+,PhysicalAttribute+,Cliff=,Object+,Entity+,Ambulating=,Water=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	males	male	NOUN	NNS	_	4	nsubj	_	NNS|09624168-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	cliff	cliff	NOUN	NN	_	8	nn	_	NN|09246464-n|Cliff=
+8	edge	edge	NOUN	NN	_	5	pobj	_	NN|03264136-n|Object+
+9	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+10	one	one	NUM	CD	_	12	nsubj	_	PRP|?|?
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	jumping	jump	VERB	VBG	_	4	conj	_	VBG|01963942-v|Ambulating=
+13	into	into	ADP	IN	_	12	prep	_	IN|?|?
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	sea	sea	NOUN	NN	_	13	pobj	_	NN|09426788-n|Sea=
+16	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	males	male	NOUN	NNS	_	4	nsubj	_	NNS|09624168-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	cliff	cliff	NOUN	NN	_	8	nn	_	NN|09246464-n|Cliff=
+8	edge	edge	NOUN	NN	_	5	pobj	_	NN|03264136-n|Object+
+9	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+10	one	one	NUM	CD	_	12	nsubj	_	PRP|?|?
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	jumping	jump	VERB	VBG	_	4	conj	_	VBG|01963942-v|Ambulating=
+13	into	into	ADP	IN	_	12	prep	_	IN|?|?
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	water	water	NOUN	NN	_	13	pobj	_	NN|14845743-n|Water=
+16	.	.	.	.	_	4	punct	_	Fp|?|?

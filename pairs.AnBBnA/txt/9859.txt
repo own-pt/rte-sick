@@ -1,0 +1,36 @@
+sentence A = The men are packing suitcases into the trunk of a car.
+sentence B = The young boy is running through the ocean waves.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Walking+,TravelContainer+,Torso+,Automobile=
+CONCEPTS B: HumanYouth=,Human+,Entity+,Attribute+,Ocean=,ShapeAttribute+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	packing	pack	VERB	VBG	_	0	ROOT	_	VBG|01926031-v|Walking+
+5	suitcases	suitcase	NOUN	NNS	_	4	dobj	_	NNS|02773838-n|TravelContainer+
+6	into	into	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	trunk	trunk	NOUN	NN	_	6	pobj	_	NN|05549830-n|Torso+
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	car	car	NOUN	NN	_	9	pobj	_	NN|02958343-n|Automobile=
+12	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	boy	boy	NOUN	NN	_	5	nsubj	_	NN|10285313-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	through	through	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	9	det	_	DT|?|?
+8	ocean	ocean	NOUN	NN	_	9	nn	_	NN|09376198-n|Ocean=
+9	waves	wave	NOUN	NNS	_	6	pobj	_	NNS|13868944-n|ShapeAttribute+
+10	.	.	.	.	_	5	punct	_	Fp|?|?

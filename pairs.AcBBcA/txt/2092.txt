@@ -1,0 +1,35 @@
+sentence A = There is no white car being driven by the man.
+sentence B = A white car is being driven by the man.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,White=,Automobile=,Entity+,Transportation+,Hominid=
+CONCEPTS B: White=,Automobile=,Entity+,Entity+,Transportation+,Hominid=
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	white	white	ADJ	JJ	_	5	amod	_	JJ|00393105-a|White=
+5	car	car	NOUN	NN	_	2	nsubj	_	NN|02958343-n|Automobile=
+6	being	be	VERB	VBG	_	7	auxpass	_	VBG|02604760-v|Entity+
+7	driven	drive	VERB	VBN	_	5	partmod	_	VBN|01930874-v|Transportation+
+8	by	by	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	man	man	NOUN	NN	_	8	pobj	_	NN|02472293-n|Hominid=
+11	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	car	car	NOUN	NN	_	6	nsubjpass	_	NN|02958343-n|Automobile=
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	being	be	VERB	VBG	_	6	auxpass	_	VBG|02604760-v|Entity+
+6	driven	drive	VERB	VBN	_	0	ROOT	_	VBN|01930874-v|Transportation+
+7	by	by	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	man	man	NOUN	NN	_	7	pobj	_	NN|02472293-n|Hominid=
+10	.	.	.	.	_	6	punct	_	Fp|?|?

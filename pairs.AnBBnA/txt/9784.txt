@@ -1,0 +1,29 @@
+sentence A = The woman is poking a potato.
+sentence B = There is no man riding a motorcycle.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Poking+,PotatoTuber=
+CONCEPTS B: Entity+,Hominid=,Transportation+,PassengerVehicle+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	poking	poke	VERB	VBG	_	0	ROOT	_	VBG|01229976-v|Poking+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	potato	potato	NOUN	NN	_	4	dobj	_	NN|07710616-n|PotatoTuber=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	riding	ride	VERB	VBG	_	4	partmod	_	VBG|02102398-v|Transportation+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	motorcycle	motorcycle	NOUN	NN	_	5	dobj	_	NN|03790512-n|PassengerVehicle+
+8	.	.	.	.	_	2	punct	_	Fp|?|?

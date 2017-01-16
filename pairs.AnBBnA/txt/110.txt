@@ -1,0 +1,32 @@
+sentence A = Two teams are competing in a football match.
+sentence B = Two teams are competing in a baseball game.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Organization=,Entity+,Contest+,Football+,Sport+
+CONCEPTS B: Organization=,Entity+,Contest+,Baseball=,Game=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	teams	team	NOUN	NNS	_	4	nsubj	_	NNS|08208560-n|Organization=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	competing	compete	VERB	VBG	_	0	ROOT	_	VBG|01072262-v|Contest+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	football	football	NOUN	NN	_	8	nn	_	NN|00468480-n|Football+
+8	match	match	NOUN	NN	_	5	pobj	_	NN|07470671-n|Sport+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	teams	team	NOUN	NNS	_	4	nsubj	_	NNS|08208560-n|Organization=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	competing	compete	VERB	VBG	_	0	ROOT	_	VBG|01072262-v|Contest+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	baseball	baseball	NOUN	NN	_	8	nn	_	NN|00471613-n|Baseball=
+8	game	game	NOUN	NN	_	5	pobj	_	NN|00455599-n|Game=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

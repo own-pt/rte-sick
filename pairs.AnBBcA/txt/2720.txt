@@ -1,0 +1,39 @@
+sentence A = The man is kick boxing with a trainer.
+sentence B = There is no karate practitioner kicking at another man who is wearing protective boxing gloves.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Hominid=,Entity+,Expressing+,ViolentContest+,Device+
+CONCEPTS B: Entity+,Karate=,Position+,Expressing+,Hominid=,Entity+,RecreationOrExercise+,Device+,ViolentContest+,Glove+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	3	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+4	kick	kick	VERB	VB	_	3	ccomp	_	VBP|00907147-v|Expressing+
+5	boxing	box	VERB	VBG	_	4	dobj	_	VBG|01419982-v|ViolentContest+
+6	with	with	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	trainer	trainer	NOUN	NN	_	6	pobj	_	NN|03363363-n|Device+
+9	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	karate	karate	NOUN	NN	_	5	nn	_	NN|00826397-n|Karate=
+5	practitioner	practitioner	NOUN	NN	_	2	nsubj	_	NN|10462860-n|Position+
+6	kicking	kick	VERB	VBG	_	5	partmod	_	VBG|00907147-v|Expressing+
+7	at	at	ADP	IN	_	6	prep	_	IN|?|?
+8	another	another	DET	DT	_	9	det	_	DT|?|?
+9	man	man	NOUN	NN	_	7	pobj	_	NN|02472293-n|Hominid=
+10	who	who	PRON	WP	_	12	nsubj	_	WP|?|?
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	wearing	wear	VERB	VBG	_	9	rcmod	_	VBG|00075021-v|RecreationOrExercise+
+13	protective	protective	ADJ	JJ	_	15	amod	_	JJ|01887076-a|Device+
+14	boxing	box	NOUN	NN	_	15	nn	_	VBG|01419982-v|ViolentContest+
+15	gloves	glove	NOUN	NNS	_	12	dobj	_	NNS|03441112-n|Glove+
+16	.	.	.	.	_	2	punct	_	Fp|?|?

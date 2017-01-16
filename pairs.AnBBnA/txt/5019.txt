@@ -1,0 +1,32 @@
+sentence A = A woman is painting a man's face.
+sentence B = A man is painting a woman's face.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Painting=,Man=,Face+
+CONCEPTS B: Man=,Entity+,Painting=,Woman=,Face+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	painting	paint	VERB	VBG	_	0	ROOT	_	VBG|01362736-v|Painting=
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	man	man	NOUN	NN	_	8	poss	_	NN|10287213-n|Man=
+7	's	's	PRT	POS	_	6	possessive	_	POS|?|?
+8	face	face	NOUN	NN	_	4	dobj	_	NN|05600637-n|Face+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	painting	paint	VERB	VBG	_	0	ROOT	_	VBG|01362736-v|Painting=
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	woman	woman	NOUN	NN	_	8	poss	_	NN|10787470-n|Woman=
+7	's	's	PRT	POS	_	6	possessive	_	POS|?|?
+8	face	face	NOUN	NN	_	4	dobj	_	NN|05600637-n|Face+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

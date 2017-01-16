@@ -1,0 +1,31 @@
+sentence A = The girl is painting a coverall blue.
+sentence B = The girl in the blue coverall is painting.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Painting=,Blue+
+CONCEPTS B: Human+,SubjectiveStrongNegativeAttribute+,Entity+,Painting=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	painting	paint	VERB	VBG	_	0	ROOT	_	VBG|01362736-v|Painting=
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	coverall	coverall	NOUN	NN	_	7	nn	_	JJ|?|?
+7	blue	blue	NOUN	NN	_	4	dobj	_	NN|04968895-n|Blue+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	8	nsubj	_	NN|10129825-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	the	the	DET	DT	_	6	det	_	DT|?|?
+5	blue	blue	ADJ	JJ	_	6	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+6	coverall	coverall	NOUN	NN	_	3	pobj	_	JJ|?|?
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	painting	paint	VERB	VBG	_	0	ROOT	_	VBG|01362736-v|Painting=
+9	.	.	.	.	_	8	punct	_	Fp|?|?

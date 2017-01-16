@@ -1,0 +1,69 @@
+sentence A = A dog is in an area full of sand, with the sand that is being stirred up into the air and several plants are in the background.
+sentence B = A dog is in a sandy area with the sand that is being stirred up into the air and several plants are in the background.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Canine+,Entity+,GeographicArea+,ContainerFull+,Sand=,Sand=,Entity+,Entity+,Stirring+,Increasing+,AirTransportation+,Plant=,Entity+,Region+
+CONCEPTS B: Canine+,Entity+,part+,GeographicArea+,Sand=,Entity+,Entity+,Stirring+,Increasing+,AirTransportation+,Plant=,Entity+,Region+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	3	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	an	a	DET	DT	_	6	det	_	DT|?|?
+6	area	area	NOUN	NN	_	4	pobj	_	NN|08497294-n|GeographicArea+
+7	full	full	ADJ	JJ	_	6	amod	_	JJ|01083157-a|ContainerFull+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	sand	sand	NOUN	NN	_	8	pobj	_	NN|15019030-n|Sand=
+10	,	,	.	,	_	3	punct	_	Fc|?|?
+11	with	with	ADP	IN	_	3	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	sand	sand	NOUN	NN	_	11	pobj	_	NN|15019030-n|Sand=
+14	that	that	DET	WDT	_	17	nsubjpass	_	WDT|?|?
+15	is	be	VERB	VBZ	_	17	aux	_	VBZ|02604760-v|Entity+
+16	being	be	VERB	VBG	_	17	auxpass	_	VBG|02604760-v|Entity+
+17	stirred	stir	VERB	VBN	_	13	rcmod	_	VBN|01894320-v|Stirring+
+18	up	up	PRT	RP	_	17	prt	_	RP|00097011-r|Increasing+
+19	into	into	ADP	IN	_	17	prep	_	IN|?|?
+20	the	the	DET	DT	_	21	det	_	DT|?|?
+21	air	air	NOUN	NN	_	19	pobj	_	NN|00300441-n|AirTransportation+
+22	and	and	CONJ	CC	_	17	cc	_	CC|?|?
+23	several	several	ADJ	JJ	_	24	amod	_	DT|?|?
+24	plants	plant	NOUN	NNS	_	25	nsubj	_	NNS|00017222-n|Plant=
+25	are	be	VERB	VBP	_	17	conj	_	VBP|02604760-v|Entity+
+26	in	in	ADP	IN	_	25	prep	_	IN|?|?
+27	the	the	DET	DT	_	28	det	_	DT|?|?
+28	background	background	NOUN	NN	_	26	pobj	_	NN|14513259-n|Region+
+29	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	3	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	sandy	sandy	ADJ	JJ	_	7	amod	_	JJ|00142040-a|part+
+7	area	area	NOUN	NN	_	4	pobj	_	NN|08497294-n|GeographicArea+
+8	with	with	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	sand	sand	NOUN	NN	_	8	pobj	_	NN|15019030-n|Sand=
+11	that	that	DET	WDT	_	14	nsubjpass	_	WDT|?|?
+12	is	be	VERB	VBZ	_	14	aux	_	VBZ|02604760-v|Entity+
+13	being	be	VERB	VBG	_	14	auxpass	_	VBG|02604760-v|Entity+
+14	stirred	stir	VERB	VBN	_	7	rcmod	_	VBN|01894320-v|Stirring+
+15	up	up	PRT	RP	_	14	prt	_	RP|00097011-r|Increasing+
+16	into	into	ADP	IN	_	14	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	air	air	NOUN	NN	_	16	pobj	_	NN|00300441-n|AirTransportation+
+19	and	and	CONJ	CC	_	14	cc	_	CC|?|?
+20	several	several	ADJ	JJ	_	21	amod	_	DT|?|?
+21	plants	plant	NOUN	NNS	_	22	nsubj	_	NNS|00017222-n|Plant=
+22	are	be	VERB	VBP	_	14	conj	_	VBP|02604760-v|Entity+
+23	in	in	ADP	IN	_	22	prep	_	IN|?|?
+24	the	the	DET	DT	_	25	det	_	DT|?|?
+25	background	background	NOUN	NN	_	23	pobj	_	NN|14513259-n|Region+
+26	.	.	.	.	_	3	punct	_	Fp|?|?

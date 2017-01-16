@@ -1,0 +1,38 @@
+sentence A = A group of women is playing with a ball on the beach.
+sentence B = A group of boys is playing soccer on the beach.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Group=,Woman=,Entity+,DramaticActing+,Ball=,ShoreArea=
+CONCEPTS B: Group=,Human+,Entity+,DramaticActing+,Soccer=,ShoreArea=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	women	woman	NOUN	NNS	_	3	pobj	_	NNS|10787470-n|Woman=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+7	with	with	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	ball	ball	NOUN	NN	_	7	pobj	_	NN|02778669-n|Ball=
+10	on	on	ADP	IN	_	6	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	beach	beach	NOUN	NN	_	10	pobj	_	NN|09217230-n|ShoreArea=
+13	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	boys	boy	NOUN	NNS	_	3	pobj	_	NNS|10285313-n|Human+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+7	soccer	soccer	NOUN	NN	_	6	dobj	_	NN|00478262-n|Soccer=
+8	on	on	ADP	IN	_	6	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	beach	beach	NOUN	NN	_	8	pobj	_	NN|09217230-n|ShoreArea=
+11	.	.	.	.	_	6	punct	_	Fp|?|?

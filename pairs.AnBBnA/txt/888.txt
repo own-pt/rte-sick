@@ -1,0 +1,36 @@
+sentence A = A girl is raising a blue uniform with her arm.
+sentence B = The girl in the blue and white uniform is cheering.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Increasing+,Blue=,UniformClothing=,Sleeve+
+CONCEPTS B: Human+,Blue=,White=,UniformClothing=,Entity+,Communication+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	raising	raise	VERB	VBG	_	0	ROOT	_	VBG|00229605-v|Increasing+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	blue	blue	ADJ	JJ	_	7	amod	_	JJ|01606058-a|Blue=
+7	uniform	uniform	NOUN	NN	_	4	dobj	_	NN|04509592-n|UniformClothing=
+8	with	with	ADP	IN	_	4	prep	_	IN|?|?
+9	her	her	PRON	PRP$	_	10	poss	_	PRP$|?|?
+10	arm	arm	NOUN	NN	_	8	pobj	_	NN|04236377-n|Sleeve+
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	10	nsubj	_	NN|10129825-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	the	the	DET	DT	_	8	det	_	DT|?|?
+5	blue	blue	ADJ	JJ	_	8	amod	_	JJ|01606058-a|Blue=
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	white	white	ADJ	JJ	_	5	conj	_	JJ|00393105-a|White=
+8	uniform	uniform	NOUN	NN	_	3	pobj	_	NN|04509592-n|UniformClothing=
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	cheering	cheer	VERB	VBG	_	0	ROOT	_	VBG|00859153-v|Communication+
+11	.	.	.	.	_	10	punct	_	Fp|?|?

@@ -1,0 +1,32 @@
+sentence A = Two children are crouching under some metal bars.
+sentence B = Two children are stretching over some metal bars.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanChild=,Entity+,Inclining+,Mixture+,Metal+
+CONCEPTS B: HumanChild=,Entity+,Stretching+,Mixture+,Metal+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	crouching	crouch	VERB	VBG	_	0	ROOT	_	VBG|02062632-v|Inclining+
+5	under	under	ADP	IN	_	4	prep	_	IN|?|?
+6	some	some	DET	DT	_	8	det	_	DT|?|?
+7	metal	metal	NOUN	NN	_	8	nn	_	NN|14586769-n|Mixture+
+8	bars	bar	NOUN	NNS	_	5	pobj	_	NNS|02788689-n|Metal+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	stretching	stretch	VERB	VBG	_	0	ROOT	_	VBG|00318816-v|Stretching+
+5	over	over	ADP	IN	_	4	prep	_	IN|?|?
+6	some	some	DET	DT	_	8	det	_	DT|?|?
+7	metal	metal	NOUN	NN	_	8	nn	_	NN|14586769-n|Mixture+
+8	bars	bar	NOUN	NNS	_	5	pobj	_	NNS|02788689-n|Metal+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

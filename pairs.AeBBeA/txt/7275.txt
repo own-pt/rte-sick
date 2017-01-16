@@ -1,0 +1,31 @@
+sentence A = The dog with the brown coat is playing outdoors.
+sentence B = The brown dog is playing outdoors.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Canine+,Human+,Coat=,Entity+,DramaticActing+,Outdoors+
+CONCEPTS B: Human+,Canine+,Entity+,DramaticActing+,Outdoors+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	8	nsubj	_	NN|02084071-n|Canine+
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	the	the	DET	DT	_	6	det	_	DT|?|?
+5	brown	brown	ADJ	JJ	_	6	amod	_	JJ|00245112-a|Human+
+6	coat	coat	NOUN	NN	_	3	pobj	_	NN|03057021-n|Coat=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+9	outdoors	outdoors	ADV	RB	_	8	advmod	_	RB|00110659-r|Outdoors+
+10	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	outdoors	outdoors	ADV	RB	_	5	advmod	_	RB|00110659-r|Outdoors+
+7	.	.	.	.	_	5	punct	_	Fp|?|?

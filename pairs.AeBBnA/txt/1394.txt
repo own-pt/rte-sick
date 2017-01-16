@@ -1,0 +1,25 @@
+sentence A = A sad man is crying.
+sentence B = A man is crying.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Unhappiness+,Hominid=,Entity+,Weeping=
+CONCEPTS B: Hominid=,Entity+,Weeping=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	sad	sad	ADJ	JJ	_	3	amod	_	JJ|01361863-a|Unhappiness+
+3	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	crying	cry	VERB	VBG	_	0	ROOT	_	VBG|00066191-v|Weeping=
+6	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	crying	cry	VERB	VBG	_	0	ROOT	_	VBG|00066191-v|Weeping=
+5	.	.	.	.	_	4	punct	_	Fp|?|?

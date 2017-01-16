@@ -1,0 +1,28 @@
+sentence A = Some men are running a race.
+sentence B = Racers are running down a track.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Racing+,Racing=
+CONCEPTS B: Automobile+,Entity+,Racing+,earlier+,StationaryArtifact+
+
+CONLL A:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01086103-v|Racing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	race	race	NOUN	NN	_	4	dobj	_	NN|07458453-n|Racing=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Racers	racer	NOUN	NNS	_	3	nsubj	_	NNS|04037443-n|Automobile+
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	running	run	VERB	VBG	_	0	ROOT	_	VBG|01086103-v|Racing+
+4	down	down	PRT	RP	_	3	prep	_	RP|00096089-r|earlier+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	track	track	NOUN	NN	_	4	pobj	_	NN|04037625-n|StationaryArtifact+
+7	.	.	.	.	_	3	punct	_	Fp|?|?

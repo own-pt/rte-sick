@@ -1,0 +1,41 @@
+sentence A = Two teammates are lifting a football player in a red and white uniform.
+sentence B = Football players in red and white are jumping and hugging each other.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,MotionUpward=,Football+,Human+,Red=,White=,UniformClothing=
+CONCEPTS B: Football+,Human+,Red=,White=,Entity+,Ambulating=,Embracing+,equal+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	teammates	teammate	NOUN	NNS	_	4	nsubj	_	NNS|10695050-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	lifting	lift	VERB	VBG	_	0	ROOT	_	VBG|01974062-v|MotionUpward=
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	football	football	NOUN	NN	_	7	nn	_	NN|00468480-n|Football+
+7	player	player	NOUN	NN	_	4	dobj	_	NN|10439851-n|Human+
+8	in	in	ADP	IN	_	4	prep	_	IN|?|?
+9	a	a	DET	DT	_	13	det	_	DT|?|?
+10	red	red	ADJ	JJ	_	13	amod	_	JJ|00381097-a|Red=
+11	and	and	CONJ	CC	_	10	cc	_	CC|?|?
+12	white	white	ADJ	JJ	_	10	conj	_	JJ|00393105-a|White=
+13	uniform	uniform	NOUN	NN	_	8	pobj	_	NN|04509592-n|UniformClothing=
+14	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Football	football	NOUN	NN	_	2	nn	_	NN|00468480-n|Football+
+2	players	player	NOUN	NNS	_	8	nsubj	_	NNS|10439851-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	red	red	ADJ	JJ	_	3	pobj	_	JJ|00381097-a|Red=
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	white	white	ADJ	JJ	_	4	conj	_	JJ|00393105-a|White=
+7	are	be	VERB	VBP	_	8	aux	_	VBP|02604760-v|Entity+
+8	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+9	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+10	hugging	hug	VERB	VBG	_	8	conj	_	VBG|01424456-v|Embracing+
+11	each	each	DET	DT	_	12	det	_	DT|?|?
+12	other	other	ADJ	JJ	_	10	dobj	_	JJ|02069355-a|equal+
+13	.	.	.	.	_	8	punct	_	Fp|?|?

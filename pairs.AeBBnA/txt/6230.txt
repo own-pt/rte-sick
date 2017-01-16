@@ -1,0 +1,33 @@
+sentence A = Two dogs are cheerfully playing together on the grass.
+sentence B = Two dogs are playing together on the grass.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,EmotionalState+,DramaticActing+,Meeting=,Grass=
+CONCEPTS B: Canine+,Entity+,DramaticActing+,Meeting=,Grass=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	5	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	cheerfully	cheerfully	ADV	RB	_	5	advmod	_	RB|00230749-r|EmotionalState+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	together	together	ADV	RB	_	5	advmod	_	RB|00507927-r|Meeting=
+7	on	on	ADP	IN	_	5	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	grass	grass	NOUN	NN	_	7	pobj	_	NN|12102133-n|Grass=
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	together	together	ADV	RB	_	4	advmod	_	RB|00507927-r|Meeting=
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	grass	grass	NOUN	NN	_	6	pobj	_	NN|12102133-n|Grass=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

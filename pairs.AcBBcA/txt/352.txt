@@ -1,0 +1,42 @@
+sentence A = There is no dog chasing another or holding a stick in its mouth.
+sentence B = A dog is chasing another and is holding a stick in its mouth.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Canine+,Pursuing+,Process+,Plant+,Mouth+
+CONCEPTS B: Canine+,Entity+,Pursuing+,Entity+,Process+,Plant+,Mouth+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	dog	dog	NOUN	NN	_	2	nsubj	_	NN|02084071-n|Canine+
+5	chasing	chase	VERB	VBG	_	4	dep	_	VBG|02001858-v|Pursuing+
+6	another	another	DET	DT	_	5	dobj	_	DT|?|?
+7	or	or	CONJ	CC	_	5	cc	_	CC|?|?
+8	holding	hold	VERB	VBG	_	5	conj	_	VBG|01217043-v|Process+
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	stick	stick	NOUN	NN	_	8	dobj	_	NN|04317420-n|Plant+
+11	in	in	ADP	IN	_	8	prep	_	IN|?|?
+12	its	its	PRON	PRP$	_	13	poss	_	PRP$|?|?
+13	mouth	mouth	NOUN	NN	_	11	pobj	_	NN|05302499-n|Mouth+
+14	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	chasing	chase	VERB	VBG	_	0	ROOT	_	VBG|02001858-v|Pursuing+
+5	another	another	DET	DT	_	4	dobj	_	DT|?|?
+6	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	holding	hold	VERB	VBG	_	4	conj	_	VBG|01217043-v|Process+
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	stick	stick	NOUN	NN	_	8	dobj	_	NN|04317420-n|Plant+
+11	in	in	ADP	IN	_	8	prep	_	IN|?|?
+12	its	its	PRON	PRP$	_	13	poss	_	PRP$|?|?
+13	mouth	mouth	NOUN	NN	_	11	pobj	_	NN|05302499-n|Mouth+
+14	.	.	.	.	_	4	punct	_	Fp|?|?

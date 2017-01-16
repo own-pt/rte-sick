@@ -1,0 +1,37 @@
+sentence A = A child, who has blond hair, is holding a yellow bottle.
+sentence B = A blond child is holding a yellow bottle.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: HumanChild=,Obligation+,Human+,Hair=,Entity+,Obligation+,SubjectiveAssessmentAttribute+,Bottle=
+CONCEPTS B: Human+,HumanChild=,Entity+,Process+,SubjectiveAssessmentAttribute+,Bottle=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	10	nsubj	_	NN|09917593-n|HumanChild=
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	_	5	nsubj	_	WP|?|?
+5	has	have	VERB	VBZ	_	2	rcmod	_	VBZ|02203362-v|Obligation+
+6	blond	blond	ADJ	JJ	_	7	amod	_	JJ|00243606-a|Human+
+7	hair	hair	NOUN	NN	_	5	dobj	_	NN|05254795-n|Hair=
+8	,	,	.	,	_	2	punct	_	Fc|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|02203362-v|Obligation+
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	yellow	yellow	ADJ	JJ	_	13	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+13	bottle	bottle	NOUN	NN	_	10	dobj	_	NN|02876657-n|Bottle=
+14	.	.	.	.	_	10	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	blond	blond	ADJ	JJ	_	3	amod	_	JJ|00243606-a|Human+
+3	child	child	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|02700867-v|Process+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	yellow	yellow	ADJ	JJ	_	8	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+8	bottle	bottle	NOUN	NN	_	5	dobj	_	NN|02876657-n|Bottle=
+9	.	.	.	.	_	5	punct	_	Fp|?|?

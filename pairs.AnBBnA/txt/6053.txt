@@ -1,0 +1,46 @@
+sentence A = A woman is looking curiously at a man.
+sentence B = A man and a woman are in a beige room, wearing dark colored shirts and a monitor is in the background.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Looking=,SubjectiveAssessmentAttribute+,Man=
+CONCEPTS B: Man=,Woman=,Entity+,ColorAttribute+,Room=,Putting+,SubjectiveWeakNegativeAttribute+,SurfaceChange+,Shirt=,SocialRole+,Entity+,Region+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02130524-v|Looking=
+5	curiously	curiously	ADV	RB	_	4	advmod	_	RB|00035491-r|SubjectiveAssessmentAttribute+
+6	at	at	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	man	man	NOUN	NN	_	6	pobj	_	NN|10287213-n|Man=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	19	nsubj	_	NN|10287213-n|Man=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	woman	woman	NOUN	NN	_	2	conj	_	NN|10787470-n|Woman=
+6	are	be	VERB	VBP	_	19	cop	_	VBP|02604760-v|Entity+
+7	in	in	ADP	IN	_	19	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	beige	beige	ADJ	JJ	_	10	amod	_	JJ|00370501-a|ColorAttribute+
+10	room	room	NOUN	NN	_	7	pobj	_	NN|04105893-n|Room=
+11	,	,	.	,	_	19	punct	_	Fc|?|?
+12	wearing	wear	VERB	VBG	_	19	csubj	_	VBG|00052374-v|Putting+
+13	dark	dark	ADJ	JJ	_	15	amod	_	JJ|00409440-a|SubjectiveWeakNegativeAttribute+
+14	colored	color	VERB	VBN	_	15	amod	_	VBN|00283911-v|SurfaceChange+
+15	shirts	shirt	NOUN	NNS	_	12	dobj	_	NNS|04197391-n|Shirt=
+16	and	and	CONJ	CC	_	15	cc	_	CC|?|?
+17	a	a	DET	DT	_	18	det	_	DT|?|?
+18	monitor	monitor	NOUN	NN	_	15	conj	_	NN|10478960-n|SocialRole+
+19	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+20	in	in	ADP	IN	_	19	prep	_	IN|?|?
+21	the	the	DET	DT	_	22	det	_	DT|?|?
+22	background	background	NOUN	NN	_	20	pobj	_	NN|14513259-n|Region+
+23	.	.	.	.	_	19	punct	_	Fp|?|?

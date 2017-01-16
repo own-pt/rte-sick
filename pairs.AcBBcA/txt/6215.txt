@@ -1,0 +1,39 @@
+sentence A = There is no man on a boat in front of the sunset.
+sentence B = A man is on a boat in front of the sunset.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Hominid=,WaterVehicle=,FrontFn=,Sunset+
+CONCEPTS B: Hominid=,Entity+,WaterVehicle=,FrontFn=,Sunset+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	boat	boat	NOUN	NN	_	5	pobj	_	NN|02858304-n|WaterVehicle=
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	front	front	NOUN	NN	_	8	pobj	_	NN|08573472-n|FrontFn=
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	sunset	sunset	NOUN	NN	_	10	pobj	_	NN|15169248-n|Sunset+
+13	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	3	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+4	on	on	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	boat	boat	NOUN	NN	_	4	pobj	_	NN|02858304-n|WaterVehicle=
+7	in	in	ADP	IN	_	3	prep	_	IN|?|?
+8	front	front	NOUN	NN	_	7	pobj	_	NN|08573472-n|FrontFn=
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	sunset	sunset	NOUN	NN	_	9	pobj	_	NN|15169248-n|Sunset+
+12	.	.	.	.	_	3	punct	_	Fp|?|?

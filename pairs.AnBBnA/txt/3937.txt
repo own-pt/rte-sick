@@ -1,0 +1,30 @@
+sentence A = A boy is throwing away a calendar.
+sentence B = A boy is looking at a calendar.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Entity+,Transfer+,ContentBearingObject+
+CONCEPTS B: Human+,Entity+,SubjectiveAssessmentAttribute+,ContentBearingObject+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	throwing	throw	VERB	VBG	_	0	ROOT	_	VBG|01632897-v|Transfer+
+5	away	away	PRT	RP	_	4	prt	_	RP|00234951-r|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	calendar	calendar	NOUN	NN	_	4	dobj	_	NN|08266849-n|ContentBearingObject+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	calendar	calendar	NOUN	NN	_	5	pobj	_	NN|08266849-n|ContentBearingObject+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

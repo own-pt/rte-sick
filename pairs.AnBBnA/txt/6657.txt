@@ -1,0 +1,46 @@
+sentence A = A woman in a white dress and a woman in a blue dress are standing on a stage.
+sentence B = Two girls in their teens are wearing fancy dresses at an event.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,White=,Dress+,Woman=,SubjectiveStrongNegativeAttribute+,Dress+,Entity+,PhysicalAttribute+,Attribute+
+CONCEPTS B: Human+,TimeInterval+,Entity+,Putting+,SubjectiveStrongPositiveAttribute+,Clothing+,Process=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	15	nsubj	_	NN|10787470-n|Woman=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	_	6	amod	_	JJ|00393105-a|White=
+6	dress	dress	NOUN	NN	_	3	pobj	_	NN|03236735-n|Dress+
+7	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	woman	woman	NOUN	NN	_	2	conj	_	NN|10787470-n|Woman=
+10	in	in	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	blue	blue	ADJ	JJ	_	13	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+13	dress	dress	NOUN	NN	_	10	pobj	_	NN|03236735-n|Dress+
+14	are	be	VERB	VBP	_	15	aux	_	VBP|02604760-v|Entity+
+15	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+16	on	on	ADP	IN	_	15	prep	_	IN|?|?
+17	a	a	DET	DT	_	18	det	_	DT|?|?
+18	stage	stage	NOUN	NN	_	16	pobj	_	NN|13939892-n|Attribute+
+19	.	.	.	.	_	15	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	girls	girl	NOUN	NNS	_	7	nsubj	_	NNS|10129825-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	their	their	PRON	PRP$	_	5	poss	_	PRP$|?|?
+5	teens	teens	NOUN	NNS	_	3	pobj	_	NNS|15148467-n|TimeInterval+
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+8	fancy	fancy	ADJ	JJ	_	9	amod	_	JJ|01794340-a|SubjectiveStrongPositiveAttribute+
+9	dresses	dress	NOUN	NNS	_	7	dobj	_	NNS|02728440-n|Clothing+
+10	at	at	ADP	IN	_	7	prep	_	IN|?|?
+11	an	a	DET	DT	_	12	det	_	DT|?|?
+12	event	event	NOUN	NN	_	10	pobj	_	NN|00029378-n|Process=
+13	.	.	.	.	_	7	punct	_	Fp|?|?

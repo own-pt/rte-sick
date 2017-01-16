@@ -1,0 +1,33 @@
+sentence A = A woman is wearing an Egyptian hat on her head.
+sentence B = A woman is wearing an Egyptian headdress.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Woman=,Entity+,CoveringFn=,Nation@,Hat+,Head=
+CONCEPTS B: Woman=,Entity+,Putting+,Nation@,Hat+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+5	an	a	DET	DT	_	7	det	_	DT|?|?
+6	Egyptian	egyptian	ADJ	JJ	_	7	amod	_	JJ|02971469-a|Nation@
+7	hat	hat	NOUN	NN	_	4	dobj	_	NN|03497657-n|Hat+
+8	on	on	ADP	IN	_	4	prep	_	IN|?|?
+9	her	her	PRON	PRP$	_	10	poss	_	PRP$|?|?
+10	head	head	NOUN	NN	_	8	pobj	_	NN|05538625-n|Head=
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+5	an	a	DET	DT	_	7	det	_	DT|?|?
+6	Egyptian	egyptian	ADJ	JJ	_	7	amod	_	JJ|02971469-a|Nation@
+7	headdress	headdress	NOUN	NN	_	4	dobj	_	NN|03502509-n|Hat+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

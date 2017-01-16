@@ -1,0 +1,37 @@
+sentence A = A girl in gold and purple is holding a rainbow afghan.
+sentence B = A man is squatting in brush and taking a photo.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Gold=,ColorAttribute+,Entity+,PhysicalAttribute+,Reasoning+,Nation@
+CONCEPTS B: Hominid=,Entity+,BodyMotion+,Device+,PhysicalAttribute+,Photograph=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	8	nsubj	_	NN|10129825-n|Human+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	gold	gold	NOUN	NN	_	3	pobj	_	NN|14638799-n|Gold=
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	purple	purple	NOUN	NN	_	4	conj	_	NN|04970059-n|ColorAttribute+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|02701210-v|PhysicalAttribute+
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	rainbow	rainbow	NOUN	NN	_	11	amod	_	NN|05950982-n|Reasoning+
+11	afghan	afghan	NOUN	NN	_	8	dobj	_	JJ|03003928-a|Nation@
+12	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	squatting	squat	VERB	VBG	_	0	ROOT	_	VBG|01545314-v|BodyMotion+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	brush	brush	NOUN	NN	_	5	pobj	_	NN|02908217-n|Device+
+7	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+8	taking	take	VERB	VBG	_	4	conj	_	VBG|02267989-v|PhysicalAttribute+
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	photo	photo	NOUN	NN	_	8	dobj	_	NN|03925226-n|Photograph=
+11	.	.	.	.	_	4	punct	_	Fp|?|?

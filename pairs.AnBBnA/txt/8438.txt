@@ -1,0 +1,44 @@
+sentence A = A child is playing slip and slide in the grass.
+sentence B = A child is splashing in a pool for children and no other children are playing in the background.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanChild=,Entity+,DramaticActing+,Motion+,Artifact+,Grass=
+CONCEPTS B: HumanChild=,Entity+,Wetting+,StaticWaterArea+,HumanChild=,equal+,HumanChild=,Entity+,DramaticActing+,Region+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	slip	slip	NOUN	NN	_	4	dobj	_	NN|00329031-n|Motion+
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	slide	slide	NOUN	NN	_	5	conj	_	NN|03029603-n|Artifact+
+8	in	in	ADP	IN	_	4	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	grass	grass	NOUN	NN	_	8	pobj	_	NN|12102133-n|Grass=
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	splashing	splash	VERB	VBG	_	0	ROOT	_	VBG|01374020-v|Wetting+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	pool	pool	NOUN	NN	_	5	pobj	_	NN|09397607-n|StaticWaterArea+
+8	for	for	ADP	IN	_	7	prep	_	IN|?|?
+9	children	child	NOUN	NNS	_	8	pobj	_	NNS|09917593-n|HumanChild=
+10	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+11	no	no	DET	DT	_	13	det	_	DT|?|?
+12	other	other	ADJ	JJ	_	13	amod	_	JJ|02069355-a|equal+
+13	children	child	NOUN	NNS	_	15	nsubj	_	NNS|09917593-n|HumanChild=
+14	are	be	VERB	VBP	_	15	aux	_	VBP|02604760-v|Entity+
+15	playing	play	VERB	VBG	_	4	conj	_	VBG|01719302-v|DramaticActing+
+16	in	in	ADP	IN	_	15	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	background	background	NOUN	NN	_	16	pobj	_	NN|14513259-n|Region+
+19	.	.	.	.	_	4	punct	_	Fp|?|?

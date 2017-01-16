@@ -1,0 +1,30 @@
+sentence A = No dog is emerging from a lake.
+sentence B = A dog is emerging from a lake.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Canine+,Entity+,Process+,Lake=
+CONCEPTS B: Canine+,Entity+,Process+,Lake=
+
+CONLL A:
+
+1	No	no	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	emerging	emerge	VERB	VBG	_	0	ROOT	_	VBG|02625016-v|Process+
+5	from	from	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	lake	lake	NOUN	NN	_	5	pobj	_	NN|09328904-n|Lake=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	emerging	emerge	VERB	VBG	_	0	ROOT	_	VBG|02625016-v|Process+
+5	from	from	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	lake	lake	NOUN	NN	_	5	pobj	_	NN|09328904-n|Lake=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

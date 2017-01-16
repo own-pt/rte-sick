@@ -1,0 +1,37 @@
+sentence A = Two children and an adult are standing next to a tree limb.
+sentence B = Three people are standing next to a tree limb.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanChild=,FullyFormed+,Entity+,PhysicalAttribute+,Position+,ContentBearingObject+,BodyPart+
+CONCEPTS B: GroupOfPeople=,Entity+,PhysicalAttribute+,Position+,ContentBearingObject+,BodyPart+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	children	child	NOUN	NNS	_	7	nsubj	_	NNS|09917593-n|HumanChild=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	an	a	DET	DT	_	5	det	_	DT|?|?
+5	adult	adult	NOUN	NN	_	2	conj	_	NN|09605289-n|FullyFormed+
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+8	next	next	ADV	RB	_	7	advmod	_	JJ|01294975-a|Position+
+9	to	to	ADP	IN	_	8	prep	_	TO|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	tree	tree	NOUN	NN	_	12	nn	_	NN|13912260-n|ContentBearingObject+
+12	limb	limb	NOUN	NN	_	9	pobj	_	NN|13163803-n|BodyPart+
+13	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	next	next	ADV	RB	_	4	advmod	_	JJ|01294975-a|Position+
+6	to	to	ADP	IN	_	5	prep	_	TO|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	tree	tree	NOUN	NN	_	9	nn	_	NN|13912260-n|ContentBearingObject+
+9	limb	limb	NOUN	NN	_	6	pobj	_	NN|13163803-n|BodyPart+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

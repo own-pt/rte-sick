@@ -1,0 +1,31 @@
+sentence A = A man is playing a guitar.
+sentence B = There is no man singing and playing a guitar.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Hominid=,Entity+,DramaticActing+,Guitar=
+CONCEPTS B: Entity+,Hominid=,MakingVocalMusic=,DramaticActing+,Guitar=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	singing	sing	VERB	VBG	_	4	dep	_	VBG|01731031-v|MakingVocalMusic=
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	playing	play	VERB	VBG	_	5	conj	_	VBG|01719302-v|DramaticActing+
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	guitar	guitar	NOUN	NN	_	7	dobj	_	NN|03467517-n|Guitar=
+10	.	.	.	.	_	2	punct	_	Fp|?|?

@@ -1,0 +1,47 @@
+sentence A = A barefoot man in pajamas is looking toward the sky and is standing on the tennis court.
+sentence B = A man is wearing a blue shirt and walking barefoot on a tennis court.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Clothing[,Man=,Entity+,SubjectiveAssessmentAttribute+,SpaceRegion=,Entity+,PhysicalAttribute+,Tennis=,Government+
+CONCEPTS B: Man=,Entity+,Putting+,SubjectiveStrongNegativeAttribute+,Shirt=,Walking=,Clothing[,Tennis=,Government+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	barefoot	barefoot	ADJ	JJ	_	3	amod	_	JJ|02156686-a|Clothing[
+3	man	man	NOUN	NN	_	7	nsubj	_	NN|10287213-n|Man=
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	pajamas	pajamas	NOUN	NNS	_	4	pobj	_	NNS|?|?
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+8	toward	toward	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	sky	sky	NOUN	NN	_	8	pobj	_	NN|09436708-n|SpaceRegion=
+11	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+12	is	be	VERB	VBZ	_	13	aux	_	VBZ|02604760-v|Entity+
+13	standing	stand	VERB	VBG	_	7	conj	_	VBG|01546111-v|PhysicalAttribute+
+14	on	on	ADP	IN	_	13	prep	_	IN|?|?
+15	the	the	DET	DT	_	17	det	_	DT|?|?
+16	tennis	tennis	NOUN	NN	_	17	nn	_	NN|00482298-n|Tennis=
+17	court	court	NOUN	NN	_	14	pobj	_	NN|08329453-n|Government+
+18	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	blue	blue	ADJ	JJ	_	7	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+7	shirt	shirt	NOUN	NN	_	4	dobj	_	NN|04197391-n|Shirt=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	walking	walk	VERB	VBG	_	4	conj	_	VBG|01904930-v|Walking=
+10	barefoot	barefoot	NOUN	NN	_	9	advmod	_	RB|00278078-r|Clothing[
+11	on	on	ADP	IN	_	9	prep	_	IN|?|?
+12	a	a	DET	DT	_	14	det	_	DT|?|?
+13	tennis	tennis	NOUN	NN	_	14	nn	_	NN|00482298-n|Tennis=
+14	court	court	NOUN	NN	_	11	pobj	_	NN|08329453-n|Government+
+15	.	.	.	.	_	4	punct	_	Fp|?|?

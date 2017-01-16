@@ -1,0 +1,28 @@
+sentence A = The piece of paper is being cut.
+sentence B = Some paper is being cut.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: TimeDuration+,Newspaper=,Entity+,Entity+,Cutting+
+CONCEPTS B: Newspaper=,Entity+,Entity+,Decreasing+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	piece	piece	NOUN	NN	_	7	nsubjpass	_	NN|15246353-n|TimeDuration+
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	paper	paper	NOUN	NN	_	3	pobj	_	NN|06267145-n|Newspaper=
+5	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+6	being	be	VERB	VBG	_	7	auxpass	_	VBG|02604760-v|Entity+
+7	cut	cut	VERB	VBN	_	0	ROOT	_	VBN|01552519-v|Cutting+
+8	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	paper	paper	NOUN	NN	_	5	nsubjpass	_	NN|06267145-n|Newspaper=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	cut	cut	VERB	VBN	_	0	ROOT	_	VBN|00429060-v|Decreasing+
+6	.	.	.	.	_	5	punct	_	Fp|?|?

@@ -1,0 +1,29 @@
+sentence A = A person is peeling a banana.
+sentence B = There is no man reading an email.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human=,Entity+,Removing+,Banana=
+CONCEPTS B: Entity+,Hominid=,Reading=,Device+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	peeling	peel	VERB	VBG	_	0	ROOT	_	VBG|00049900-v|Removing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	banana	banana	NOUN	NN	_	4	dobj	_	NN|07753592-n|Banana=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	reading	read	VERB	VBG	_	4	partmod	_	VBG|00625119-v|Reading=
+6	an	a	DET	DT	_	7	det	_	DT|?|?
+7	email	email	NOUN	NN	_	5	dobj	_	NN|06279326-n|Device+
+8	.	.	.	.	_	2	punct	_	Fp|?|?

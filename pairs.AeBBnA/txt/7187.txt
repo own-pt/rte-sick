@@ -1,0 +1,39 @@
+sentence A = Two boys, who look small, dressed in tuxedos are sitting on a red carpeted floor.
+sentence B = Two little boys are wearing tuxedos.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,Dressing+,Clothing+,PhysicalAttribute+,SittingDown+,Red=,Covering+,Floor+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Human+,Entity+,Putting+,Clothing+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	boys	boy	NOUN	NNS	_	12	nsubj	_	NNS|10285313-n|Human+
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	_	5	nsubj	_	WP|?|?
+5	look	look	VERB	VBP	_	2	rcmod	_	VBP|02133435-v|SubjectiveAssessmentAttribute+
+6	small	small	ADJ	JJ	_	5	acomp	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+7	,	,	.	,	_	2	punct	_	Fc|?|?
+8	dressed	dress	VERB	VBN	_	2	partmod	_	VBN|00046534-v|Dressing+
+9	in	in	ADP	IN	_	8	prep	_	IN|?|?
+10	tuxedos	tuxedo	NOUN	NNS	_	9	pobj	_	NNS|03201776-n|Clothing+
+11	are	be	VERB	VBP	_	12	aux	_	VBP|02655135-v|PhysicalAttribute+
+12	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+13	on	on	ADP	IN	_	12	prep	_	IN|?|?
+14	a	a	DET	DT	_	17	det	_	DT|?|?
+15	red	red	ADJ	JJ	_	17	amod	_	JJ|00381097-a|Red=
+16	carpeted	carpet	VERB	VBN	_	17	amod	_	VBN|01235073-v|Covering+
+17	floor	floor	NOUN	NN	_	13	pobj	_	NN|03365592-n|Floor+
+18	.	.	.	.	_	12	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	boys	boy	NOUN	NNS	_	5	nsubj	_	NNS|10285313-n|Human+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+6	tuxedos	tuxedo	NOUN	NNS	_	5	dobj	_	NNS|03201776-n|Clothing+
+7	.	.	.	.	_	5	punct	_	Fp|?|?

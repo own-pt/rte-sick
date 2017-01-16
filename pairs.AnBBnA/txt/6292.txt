@@ -1,0 +1,35 @@
+sentence A = Many cheerleaders are walking in a parade.
+sentence B = The cheerleaders are parading and wearing black, pink and white uniforms.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Position+,Entity+,Walking=,Motion+
+CONCEPTS B: Position+,Entity+,Walking+,CoveringFn=,Black=,Pink+,White=,UniformClothing=
+
+CONLL A:
+
+1	Many	many	ADJ	JJ	_	2	amod	_	DT|?|?
+2	cheerleaders	cheerleader	NOUN	NNS	_	4	nsubj	_	NNS|09913455-n|Position+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	parade	parade	NOUN	NN	_	5	pobj	_	NN|08428485-n|Motion+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	cheerleaders	cheerleader	NOUN	NNS	_	4	nsubj	_	NNS|09913455-n|Position+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	parading	parade	VERB	VBG	_	0	ROOT	_	VBG|01924712-v|Walking+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	wearing	wear	VERB	VBG	_	4	conj	_	VBG|00047745-v|CoveringFn=
+7	black	black	ADJ	JJ	_	12	amod	_	JJ|00392812-a|Black=
+8	,	,	.	,	_	7	punct	_	Fc|?|?
+9	pink	pink	ADJ	JJ	_	7	conj	_	JJ|00379595-a|Pink+
+10	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+11	white	white	ADJ	JJ	_	7	conj	_	JJ|00393105-a|White=
+12	uniforms	uniform	NOUN	NNS	_	6	dobj	_	NNS|04509592-n|UniformClothing=
+13	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,32 @@
+sentence A = Five adults are sitting on stone steps.
+sentence B = Five adults are sitting on steps made of stone.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: FullyFormed+,PhysicalAttribute+,SittingDown+,Mineral+,RadiatingSound+
+CONCEPTS B: FullyFormed+,PhysicalAttribute+,SittingDown+,RadiatingSound+,Attribute+,Mineral+
+
+CONLL A:
+
+1	Five	5	NUM	CD	_	2	num	_	Z|?|?
+2	adults	adult	NOUN	NNS	_	4	nsubj	_	NNS|09605289-n|FullyFormed+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	stone	stone	NOUN	NN	_	7	nn	_	NN|14696793-n|Mineral+
+7	steps	step	NOUN	NNS	_	5	pobj	_	NNS|07383823-n|RadiatingSound+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Five	5	NUM	CD	_	2	num	_	Z|?|?
+2	adults	adult	NOUN	NNS	_	4	nsubj	_	NNS|09605289-n|FullyFormed+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	steps	step	NOUN	NNS	_	5	pobj	_	NNS|07383823-n|RadiatingSound+
+7	made	make	VERB	VBN	_	6	partmod	_	VBN|02621395-v|Attribute+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	stone	stone	NOUN	NN	_	8	pobj	_	NN|14696793-n|Mineral+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

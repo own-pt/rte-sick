@@ -1,0 +1,39 @@
+sentence A = A person is pouring oil made with olives into a pot on the stove.
+sentence B = A person is pouring cooking oil into a pot.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human=,Entity+,Pouring=,FruitOrVegetable+,Cooking+,FloweringPlant+,Pottery+,Stove+
+CONCEPTS B: Human=,Entity+,Pouring=,Cooking+,Oil=,Pottery+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	pouring	pour	VERB	VBG	_	0	ROOT	_	VBG|02069551-v|Pouring=
+5	oil	oil	NOUN	NN	_	4	dobj	_	NN|07673397-n|FruitOrVegetable+
+6	made	make	VERB	VBN	_	5	partmod	_	VBN|01664172-v|Cooking+
+7	with	with	ADP	IN	_	6	prep	_	IN|?|?
+8	olives	olive	NOUN	NNS	_	7	pobj	_	NNS|12301180-n|FloweringPlant+
+9	into	into	ADP	IN	_	4	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	pot	pot	NOUN	NN	_	9	pobj	_	NN|03990474-n|Pottery+
+12	on	on	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	stove	stove	NOUN	NN	_	12	pobj	_	NN|04330340-n|Stove+
+15	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	pouring	pour	VERB	VBG	_	0	ROOT	_	VBG|02069551-v|Pouring=
+5	cooking	cook	NOUN	NN	_	6	nn	_	VBG|00322847-v|Cooking+
+6	oil	oil	NOUN	NN	_	4	dobj	_	NN|14966667-n|Oil=
+7	into	into	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	pot	pot	NOUN	NN	_	7	pobj	_	NN|03990474-n|Pottery+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

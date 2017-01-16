@@ -1,0 +1,38 @@
+sentence A = The black and white dog is sitting on a green yard.
+sentence B = The black and white dog is running in a green yard.
+entailm AB = A_contradicts_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Black=,White=,Canine+,PhysicalAttribute+,SittingDown+,Green=,LandArea=
+CONCEPTS B: Black=,White=,Canine+,Entity+,Attribute+,Green=,LandArea=
+
+CONLL A:
+
+1	The	the	DET	DT	_	5	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	5	amod	_	JJ|00392812-a|Black=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	white	white	ADJ	JJ	_	2	conj	_	JJ|00393105-a|White=
+5	dog	dog	NOUN	NN	_	7	nsubj	_	NN|02084071-n|Canine+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02655135-v|PhysicalAttribute+
+7	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	green	green	ADJ	JJ	_	11	amod	_	JJ|00375969-a|Green=
+11	yard	yard	NOUN	NN	_	8	pobj	_	NN|04610879-n|LandArea=
+12	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	5	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	5	amod	_	JJ|00392812-a|Black=
+3	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+4	white	white	ADJ	JJ	_	2	conj	_	JJ|00393105-a|White=
+5	dog	dog	NOUN	NN	_	7	nsubj	_	NN|02084071-n|Canine+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	green	green	ADJ	JJ	_	11	amod	_	JJ|00375969-a|Green=
+11	yard	yard	NOUN	NN	_	8	pobj	_	NN|04610879-n|LandArea=
+12	.	.	.	.	_	7	punct	_	Fp|?|?

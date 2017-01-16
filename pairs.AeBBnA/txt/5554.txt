@@ -1,0 +1,28 @@
+sentence A = The man is aiming a gun.
+sentence B = The man is handling a gun.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,IntentionalProcess+,Gun=
+CONCEPTS B: Hominid=,Entity+,SocialInteraction+,Gun=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	aiming	aim	VERB	VBG	_	0	ROOT	_	VBG|01150559-v|IntentionalProcess+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	gun	gun	NOUN	NN	_	4	dobj	_	NN|03467984-n|Gun=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	handling	handle	VERB	VBG	_	0	ROOT	_	VBG|02514187-v|SocialInteraction+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	gun	gun	NOUN	NN	_	4	dobj	_	NN|03467984-n|Gun=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

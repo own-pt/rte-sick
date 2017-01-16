@@ -1,0 +1,30 @@
+sentence A = An animal is biting someone's finger.
+sentence B = An animal is biting somebody's hand.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Animal=,Entity+,SubjectiveStrongNegativeAttribute+,Finger=
+CONCEPTS B: Animal=,Entity+,SubjectiveStrongNegativeAttribute+,Hand+
+
+CONLL A:
+
+1	An	a	DET	DT	_	2	det	_	DT|?|?
+2	animal	animal	NOUN	NN	_	4	nsubj	_	NN|00015388-n|Animal=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	biting	bite	VERB	VBG	_	0	ROOT	_	VBG|02079313-a|SubjectiveStrongNegativeAttribute+
+5	someone	someone	NOUN	NN	_	7	poss	_	PRP|?|?
+6	's	's	PRT	POS	_	5	possessive	_	POS|?|?
+7	finger	finger	NOUN	NN	_	4	dobj	_	NN|05566504-n|Finger=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	An	a	DET	DT	_	2	det	_	DT|?|?
+2	animal	animal	NOUN	NN	_	4	nsubj	_	NN|00015388-n|Animal=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	biting	bite	VERB	VBG	_	0	ROOT	_	VBG|02079313-a|SubjectiveStrongNegativeAttribute+
+5	somebody	somebody	NOUN	NN	_	7	poss	_	PRP|?|?
+6	's	's	PRT	POS	_	5	possessive	_	POS|?|?
+7	hand	hand	NOUN	NN	_	4	dobj	_	NN|05564590-n|Hand+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

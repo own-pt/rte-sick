@@ -1,0 +1,31 @@
+sentence A = A chimp is angrily kicking a target.
+sentence B = An angry man is targeting a kicking chimp.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Ape+,Entity+,EmotionalState+,Expressing+,Entity+
+CONCEPTS B: Anger=,Hominid=,Entity+,IntentionalProcess+,Expressing+,Ape+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	chimp	chimp	NOUN	NN	_	5	nsubj	_	NN|02481823-n|Ape+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	angrily	angrily	ADV	RB	_	5	advmod	_	RB|00227323-r|EmotionalState+
+5	kicking	kick	VERB	VBG	_	0	ROOT	_	VBG|00907147-v|Expressing+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	target	target	NOUN	NN	_	5	dobj	_	NN|05981230-n|Entity+
+8	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	An	a	DET	DT	_	3	det	_	DT|?|?
+2	angry	angry	ADJ	JJ	_	3	amod	_	JJ|00113818-a|Anger=
+3	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	targeting	target	VERB	VBG	_	0	ROOT	_	VBG|01150559-v|IntentionalProcess+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	kicking	kick	VERB	VBG	_	8	nn	_	VBG|00907147-v|Expressing+
+8	chimp	chimp	NOUN	NN	_	5	dobj	_	NN|02481823-n|Ape+
+9	.	.	.	.	_	5	punct	_	Fp|?|?

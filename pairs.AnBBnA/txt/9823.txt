@@ -1,0 +1,30 @@
+sentence A = Mimes are performing on a stage.
+sentence B = No little dog is running on the sand.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: RecreationOrExercise+,Entity+,IntentionalProcess+,Attribute+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Attribute+,Sand=
+
+CONLL A:
+
+1	Mimes	mime	NOUN	NNS	_	3	nsubj	_	NNS|00550016-n|RecreationOrExercise+
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+4	on	on	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	stage	stage	NOUN	NN	_	4	pobj	_	NN|13939892-n|Attribute+
+7	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	No	no	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	sand	sand	NOUN	NN	_	6	pobj	_	NN|15019030-n|Sand=
+9	.	.	.	.	_	5	punct	_	Fp|?|?

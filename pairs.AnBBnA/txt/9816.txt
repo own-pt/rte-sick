@@ -1,0 +1,37 @@
+sentence A = A white car is being driven by the man.
+sentence B = A person playing football is running past an official carrying a football.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: White=,Automobile=,Entity+,Entity+,Transportation+,Hominid=
+CONCEPTS B: Human=,IntentionalProcess+,Football+,Entity+,IntentionalProcess+,Human+,Transportation+,Football+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	car	car	NOUN	NN	_	6	nsubjpass	_	NN|02958343-n|Automobile=
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	being	be	VERB	VBG	_	6	auxpass	_	VBG|02604760-v|Entity+
+6	driven	drive	VERB	VBN	_	0	ROOT	_	VBN|01930874-v|Transportation+
+7	by	by	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	man	man	NOUN	NN	_	7	pobj	_	NN|02472293-n|Hominid=
+10	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	6	nsubj	_	NN|00007846-n|Human=
+3	playing	play	VERB	VBG	_	2	partmod	_	VBG|01717169-v|IntentionalProcess+
+4	football	football	NOUN	NN	_	3	dobj	_	NN|00468480-n|Football+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	running	run	VERB	VBG	_	0	ROOT	_	VBG|01717169-v|IntentionalProcess+
+7	past	past	ADP	IN	_	6	prep	_	IN|?|?
+8	an	a	DET	DT	_	9	det	_	DT|?|?
+9	official	official	NOUN	NN	_	7	pobj	_	NN|10372373-n|Human+
+10	carrying	carry	VERB	VBG	_	9	partmod	_	VBG|01449974-v|Transportation+
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	football	football	NOUN	NN	_	10	dobj	_	NN|00468480-n|Football+
+13	.	.	.	.	_	6	punct	_	Fp|?|?

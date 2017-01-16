@@ -1,0 +1,34 @@
+sentence A = Two young girls are sitting on the ground.
+sentence B = Several children are sitting down and have their knees raised.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,Human+,PhysicalAttribute+,SittingDown+,LandArea=
+CONCEPTS B: HumanChild=,PhysicalAttribute+,SittingDown+,earlier+,Damaging+,Knee+,MotionUpward=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girls	girl	NOUN	NNS	_	5	nsubj	_	NNS|10129825-n|Human+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	ground	ground	NOUN	NN	_	6	pobj	_	NN|09334396-n|LandArea=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Several	several	ADJ	JJ	_	2	amod	_	DT|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	down	down	PRT	RP	_	4	advmod	_	RP|00096089-r|earlier+
+6	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+7	have	have	VERB	VBP	_	4	conj	_	VB|00065639-v|Damaging+
+8	their	their	PRON	PRP$	_	9	poss	_	PRP$|?|?
+9	knees	knee	NOUN	NNS	_	10	nsubj	_	NNS|05573602-n|Knee+
+10	raised	raise	VERB	VBN	_	7	ccomp	_	VBD|01974062-v|MotionUpward=
+11	.	.	.	.	_	4	punct	_	Fp|?|?

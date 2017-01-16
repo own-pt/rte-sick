@@ -1,0 +1,32 @@
+sentence A = The man is performing a large jump.
+sentence B = A large jump is being performed by a man.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Hominid=,Entity+,IntentionalProcess+,SubjectiveWeakPositiveAttribute+,Transportation+
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,Transportation+,Entity+,Entity+,IntentionalProcess+,Hominid=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	large	large	ADJ	JJ	_	7	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+7	jump	jump	NOUN	NN	_	4	dobj	_	NN|00303849-n|Transportation+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	jump	jump	NOUN	NN	_	6	nsubjpass	_	NN|00303849-n|Transportation+
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	being	be	VERB	VBG	_	6	auxpass	_	VBG|02604760-v|Entity+
+6	performed	perform	VERB	VBN	_	0	ROOT	_	VBN|01712704-v|IntentionalProcess+
+7	by	by	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	man	man	NOUN	NN	_	7	pobj	_	NN|02472293-n|Hominid=
+10	.	.	.	.	_	6	punct	_	Fp|?|?

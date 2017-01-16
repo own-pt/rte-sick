@@ -1,0 +1,41 @@
+sentence A = A couple is sitting on a patio and is staring at the ocean.
+sentence B = Two adults are sitting in the chairs and are watching the ocean.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,PhysicalAttribute+,SittingDown+,Patio=,PhysicalAttribute+,Looking=,Ocean=
+CONCEPTS B: FullyFormed+,PhysicalAttribute+,SittingDown+,Chair=,PhysicalAttribute+,Looking=,Ocean=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	couple	couple	NOUN	NN	_	4	nsubj	_	NN|13743605-n|Entity+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	patio	patio	NOUN	NN	_	5	pobj	_	NN|03899768-n|Patio=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02655135-v|PhysicalAttribute+
+10	staring	stare	VERB	VBG	_	4	conj	_	VBG|02132745-v|Looking=
+11	at	at	ADP	IN	_	10	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	ocean	ocean	NOUN	NN	_	11	pobj	_	NN|09376198-n|Ocean=
+14	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	adults	adult	NOUN	NNS	_	4	nsubj	_	NNS|09605289-n|FullyFormed+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	chairs	chair	NOUN	NNS	_	5	pobj	_	NNS|03001627-n|Chair=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	are	be	VERB	VBP	_	10	aux	_	VBP|02655135-v|PhysicalAttribute+
+10	watching	watch	VERB	VBG	_	4	conj	_	VBG|02150948-v|Looking=
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	ocean	ocean	NOUN	NN	_	10	dobj	_	NN|09376198-n|Ocean=
+13	.	.	.	.	_	4	punct	_	Fp|?|?

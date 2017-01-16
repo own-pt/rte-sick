@@ -1,0 +1,50 @@
+sentence A = A middle eastern woman is standing with her back against a lamp post near to other people.
+sentence B = A middle eastern man is standing with the back against a lamp post near to other people.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Region+,East+,Woman=,Entity+,PhysicalAttribute+,CorpuscularObject+,Device+,Position=,equal+,GroupOfPeople=
+CONCEPTS B: Region+,East+,Man=,Entity+,PhysicalAttribute+,CorpuscularObject+,Device+,Position=,equal+,GroupOfPeople=
+
+CONLL A:
+
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	middle	middle	ADJ	JJ	_	4	amod	_	NN|08523483-n|Region+
+3	eastern	eastern	ADJ	JJ	_	4	amod	_	JJ|00823665-a|East+
+4	woman	woman	NOUN	NN	_	6	nsubj	_	NN|10787470-n|Woman=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+7	with	with	ADP	IN	_	6	prep	_	IN|?|?
+8	her	her	PRON	PRP$	_	9	poss	_	PRP$|?|?
+9	back	back	NOUN	NN	_	7	pobj	_	NN|02767433-n|CorpuscularObject+
+10	against	against	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	lamp	lamp	NOUN	NN	_	13	nn	_	NN|03636649-n|Device+
+13	post	post	NOUN	NN	_	10	pobj	_	NN|00586262-n|Position=
+14	near	near	ADP	IN	_	13	prep	_	IN|?|?
+15	to	to	ADP	IN	_	14	pcomp	_	TO|?|?
+16	other	other	ADJ	JJ	_	17	amod	_	JJ|02069355-a|equal+
+17	people	people	NOUN	NNS	_	15	pobj	_	NNS|07942152-n|GroupOfPeople=
+18	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	middle	middle	ADJ	JJ	_	4	amod	_	NN|08523483-n|Region+
+3	eastern	eastern	ADJ	JJ	_	4	amod	_	JJ|00823665-a|East+
+4	man	man	NOUN	NN	_	6	nsubj	_	NN|10287213-n|Man=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+7	with	with	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	back	back	NOUN	NN	_	7	pobj	_	NN|02767433-n|CorpuscularObject+
+10	against	against	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	lamp	lamp	NOUN	NN	_	13	nn	_	NN|03636649-n|Device+
+13	post	post	NOUN	NN	_	10	pobj	_	NN|00586262-n|Position=
+14	near	near	ADP	IN	_	13	prep	_	IN|?|?
+15	to	to	ADP	IN	_	14	pcomp	_	TO|?|?
+16	other	other	ADJ	JJ	_	17	amod	_	JJ|02069355-a|equal+
+17	people	people	NOUN	NNS	_	15	pobj	_	NNS|07942152-n|GroupOfPeople=
+18	.	.	.	.	_	6	punct	_	Fp|?|?

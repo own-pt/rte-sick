@@ -1,0 +1,25 @@
+sentence A = A horse is standing.
+sentence B = Someone is holding a hedgehog.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Horse=,Entity+,PhysicalAttribute+
+CONCEPTS B: Entity+,PhysicalAttribute+,Mammal+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	horse	horse	NOUN	NN	_	4	nsubj	_	NN|02374451-n|Horse=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|02701210-v|PhysicalAttribute+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	hedgehog	hedgehog	NOUN	NN	_	3	dobj	_	NN|01893825-n|Mammal+
+6	.	.	.	.	_	3	punct	_	Fp|?|?

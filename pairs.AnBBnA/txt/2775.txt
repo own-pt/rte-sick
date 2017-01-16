@@ -1,0 +1,37 @@
+sentence A = A person is cleaning a pot of cooking oil.
+sentence B = A person is pouring olive oil into a pot on the stove.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human=,Entity+,Cleaning=,Pottery+,Cooking+,Oil=
+CONCEPTS B: Human=,Entity+,Pouring=,ColorAttribute+,Oil=,Pottery+,Stove+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cleaning	clean	VERB	VBG	_	0	ROOT	_	VBG|01532589-v|Cleaning=
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	pot	pot	NOUN	NN	_	4	dobj	_	NN|03990474-n|Pottery+
+7	of	of	ADP	IN	_	6	prep	_	IN|?|?
+8	cooking	cook	VERB	VBG	_	7	pcomp	_	VBG|00322847-v|Cooking+
+9	oil	oil	NOUN	NN	_	8	dobj	_	NN|14966667-n|Oil=
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	pouring	pour	VERB	VBG	_	0	ROOT	_	VBG|02069551-v|Pouring=
+5	olive	olive	ADJ	JJ	_	6	amod	_	JJ|00378782-a|ColorAttribute+
+6	oil	oil	NOUN	NN	_	4	dobj	_	NN|14966667-n|Oil=
+7	into	into	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	pot	pot	NOUN	NN	_	7	pobj	_	NN|03990474-n|Pottery+
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	stove	stove	NOUN	NN	_	10	pobj	_	NN|04330340-n|Stove+
+13	.	.	.	.	_	4	punct	_	Fp|?|?

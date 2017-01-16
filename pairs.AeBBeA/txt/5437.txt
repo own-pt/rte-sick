@@ -1,0 +1,27 @@
+sentence A = Two pandas are lying together.
+sentence B = Two panda bears are lying together.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Carnivore+,Entity+,PhysicalAttribute+,Meeting=
+CONCEPTS B: Carnivore+,Mammal+,Entity+,PhysicalAttribute+,Meeting=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	pandas	panda	NOUN	NNS	_	4	nsubj	_	NNS|02510455-n|Carnivore+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+5	together	together	ADV	RB	_	4	advmod	_	RB|00507927-r|Meeting=
+6	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	panda	panda	NOUN	NN	_	3	nn	_	NN|02510455-n|Carnivore+
+3	bears	bear	NOUN	NNS	_	5	nsubj	_	NNS|02131653-n|Mammal+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+6	together	together	ADV	RB	_	5	advmod	_	RB|00507927-r|Meeting=
+7	.	.	.	.	_	5	punct	_	Fp|?|?

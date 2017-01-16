@@ -1,0 +1,54 @@
+sentence A = A young girl in a coat made for winter is jumping off a boulder into the sand at a beach.
+sentence B = A young girl in a winter coat is jumping off a boulder into the sand at a beach.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: HumanYouth=,Human+,BodyPart+,Attribute+,WinterSeason+,Entity+,Ambulating=,Mineral+,Sand=,ShoreArea=
+CONCEPTS B: HumanYouth=,Human+,WinterSeason+,BodyPart+,Entity+,Ambulating=,Mineral+,Sand=,ShoreArea=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	11	nsubj	_	NN|10129825-n|Human+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	coat	coat	NOUN	NN	_	4	pobj	_	NN|01898731-n|BodyPart+
+7	made	make	VERB	VBN	_	6	partmod	_	VBN|02621395-v|Attribute+
+8	for	for	ADP	IN	_	7	prep	_	IN|?|?
+9	winter	winter	NOUN	NN	_	8	pobj	_	NN|15237782-n|WinterSeason+
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+12	off	off	PRT	RP	_	11	prt	_	RP|00232936-r|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	boulder	boulder	NOUN	NN	_	11	dobj	_	NN|09227839-n|Mineral+
+15	into	into	ADP	IN	_	14	prep	_	IN|?|?
+16	the	the	DET	DT	_	17	det	_	DT|?|?
+17	sand	sand	NOUN	NN	_	15	pobj	_	NN|15019030-n|Sand=
+18	at	at	ADP	IN	_	11	prep	_	IN|?|?
+19	a	a	DET	DT	_	20	det	_	DT|?|?
+20	beach	beach	NOUN	NN	_	18	pobj	_	NN|09217230-n|ShoreArea=
+21	.	.	.	.	_	11	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	9	nsubj	_	NN|10129825-n|Human+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	winter	winter	NOUN	NN	_	7	nn	_	NN|15237782-n|WinterSeason+
+7	coat	coat	NOUN	NN	_	4	pobj	_	NN|01898731-n|BodyPart+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+10	off	off	PRT	RP	_	9	prt	_	RP|00232936-r|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	boulder	boulder	NOUN	NN	_	9	dobj	_	NN|09227839-n|Mineral+
+13	into	into	ADP	IN	_	12	prep	_	IN|?|?
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	sand	sand	NOUN	NN	_	13	pobj	_	NN|15019030-n|Sand=
+16	at	at	ADP	IN	_	9	prep	_	IN|?|?
+17	a	a	DET	DT	_	18	det	_	DT|?|?
+18	beach	beach	NOUN	NN	_	16	pobj	_	NN|09217230-n|ShoreArea=
+19	.	.	.	.	_	9	punct	_	Fp|?|?

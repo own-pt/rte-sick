@@ -1,0 +1,31 @@
+sentence A = A lemur is hanging on a cord.
+sentence B = A woman is buttering a piece of bread.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Primate+,Entity+,PhysicalAttribute+,String+
+CONCEPTS B: Woman=,Entity+,Covering+,TimeDuration+,BreadOrBiscuit+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	lemur	lemur	NOUN	NN	_	4	nsubj	_	NN|02496913-n|Primate+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	hanging	hang	VERB	VBG	_	0	ROOT	_	VBG|01482075-v|PhysicalAttribute+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	cord	cord	NOUN	NN	_	5	pobj	_	NN|03106110-n|String+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	buttering	butter	VERB	VBG	_	0	ROOT	_	VBG|01267998-v|Covering+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	piece	piece	NOUN	NN	_	4	dobj	_	NN|15246353-n|TimeDuration+
+7	of	of	ADP	IN	_	6	prep	_	IN|?|?
+8	bread	bread	NOUN	NN	_	7	pobj	_	NN|07679356-n|BreadOrBiscuit+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

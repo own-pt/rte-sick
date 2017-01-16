@@ -1,0 +1,33 @@
+sentence A = There is no child hanging on a large branch.
+sentence B = Two children are hanging on a large branch.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,HumanChild=,PhysicalAttribute+,SubjectiveWeakPositiveAttribute+,ShapeAttribute+
+CONCEPTS B: HumanChild=,Entity+,PhysicalAttribute+,SubjectiveWeakPositiveAttribute+,ShapeAttribute+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	child	child	NOUN	NN	_	2	nsubj	_	NN|09917593-n|HumanChild=
+5	hanging	hang	VERB	VBG	_	4	partmod	_	VBG|01482075-v|PhysicalAttribute+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	large	large	ADJ	JJ	_	9	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+9	branch	branch	NOUN	NN	_	6	pobj	_	NN|13913849-n|ShapeAttribute+
+10	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	hanging	hang	VERB	VBG	_	0	ROOT	_	VBG|01482075-v|PhysicalAttribute+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	large	large	ADJ	JJ	_	8	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+8	branch	branch	NOUN	NN	_	5	pobj	_	NN|13913849-n|ShapeAttribute+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

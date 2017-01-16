@@ -1,0 +1,44 @@
+sentence A = A person in a black jacket is doing tricks on a motorbike.
+sentence B = The girl, who is little, is carefully combing her hair into a pony tail.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human=,Black=,Coat=,Entity+,IntentionalProcess+,RecreationOrExercise+,TransportationDevice+
+CONCEPTS B: Human+,Entity+,SubjectiveStrongNegativeAttribute+,Entity+,SubjectiveAssessmentAttribute+,ShapeChange+,Hair=,Horse+,BodyPart+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	8	nsubj	_	NN|00007846-n|Human=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	black	black	ADJ	JJ	_	6	amod	_	JJ|00392812-a|Black=
+6	jacket	jacket	NOUN	NN	_	3	pobj	_	NN|03589791-n|Coat=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+9	tricks	trick	NOUN	NNS	_	8	dobj	_	NNS|00427580-n|RecreationOrExercise+
+10	on	on	ADP	IN	_	8	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	motorbike	motorbike	NOUN	NN	_	10	pobj	_	NN|03769722-n|TransportationDevice+
+13	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	10	nsubj	_	NN|10129825-n|Human+
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	_	6	nsubj	_	WP|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	little	little	ADJ	JJ	_	2	rcmod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+7	,	,	.	,	_	10	punct	_	Fc|?|?
+8	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+9	carefully	carefully	ADV	RB	_	10	advmod	_	RB|00153568-r|SubjectiveAssessmentAttribute+
+10	combing	comb	VERB	VBG	_	0	ROOT	_	VBG|01596645-v|ShapeChange+
+11	her	her	PRON	PRP$	_	12	poss	_	PRP$|?|?
+12	hair	hair	NOUN	NN	_	10	dobj	_	NN|05254795-n|Hair=
+13	into	into	ADP	IN	_	10	prep	_	IN|?|?
+14	a	a	DET	DT	_	16	det	_	DT|?|?
+15	pony	pony	NOUN	NN	_	16	nn	_	NN|02382437-n|Horse+
+16	tail	tail	NOUN	NN	_	13	pobj	_	NN|02157557-n|BodyPart+
+17	.	.	.	.	_	10	punct	_	Fp|?|?

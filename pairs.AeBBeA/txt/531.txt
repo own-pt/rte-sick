@@ -1,0 +1,41 @@
+sentence A = A black helmet is being worn by a man who is pushing a bicycle.
+sentence B = One man is wearing a black helmet and pushing a bicycle.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Black=,Clothing+,Entity+,Entity+,CoveringFn=,Hominid=,Entity+,Pushing=,Bicycle=
+CONCEPTS B: Hominid=,Entity+,CoveringFn=,Black=,Clothing+,Pushing=,Bicycle=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	helmet	helmet	NOUN	NN	_	6	nsubjpass	_	NN|03513376-n|Clothing+
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	being	be	VERB	VBG	_	6	auxpass	_	VBG|02604760-v|Entity+
+6	worn	wear	VERB	VBN	_	0	ROOT	_	VBN|00047745-v|CoveringFn=
+7	by	by	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	man	man	NOUN	NN	_	7	pobj	_	NN|02472293-n|Hominid=
+10	who	who	PRON	WP	_	12	nsubj	_	WP|?|?
+11	is	be	VERB	VBZ	_	12	aux	_	VBZ|02604760-v|Entity+
+12	pushing	push	VERB	VBG	_	9	rcmod	_	VBG|01871979-v|Pushing=
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	bicycle	bicycle	NOUN	NN	_	12	dobj	_	NN|02834778-n|Bicycle=
+15	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	black	black	ADJ	JJ	_	7	amod	_	JJ|00392812-a|Black=
+7	helmet	helmet	NOUN	NN	_	4	dobj	_	NN|03513376-n|Clothing+
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	pushing	push	VERB	VBG	_	4	conj	_	VBG|01871979-v|Pushing=
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	bicycle	bicycle	NOUN	NN	_	9	dobj	_	NN|02834778-n|Bicycle=
+12	.	.	.	.	_	4	punct	_	Fp|?|?

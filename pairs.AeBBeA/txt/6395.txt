@@ -1,0 +1,42 @@
+sentence A = A dog is herding a group of white sheep on a dusty farm.
+sentence B = A dog is herding a pack of white sheep on a dusty farm.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Canine+,Entity+,Guiding+,Group=,White=,Sheep=,SubjectiveWeakNegativeAttribute+,Farm=
+CONCEPTS B: Canine+,Entity+,Guiding+,Group+,White=,Sheep=,SubjectiveWeakNegativeAttribute+,Farm=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	herding	herd	VERB	VBG	_	0	ROOT	_	VBG|02028722-v|Guiding+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	group	group	NOUN	NN	_	4	dobj	_	NN|00031264-n|Group=
+7	of	of	ADP	IN	_	6	prep	_	IN|?|?
+8	white	white	ADJ	JJ	_	9	amod	_	JJ|00393105-a|White=
+9	sheep	sheep	NOUN	NN	_	7	pobj	_	NN|02411705-n|Sheep=
+10	on	on	ADP	IN	_	4	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	dusty	dusty	ADJ	JJ	_	13	amod	_	JJ|01689580-a|SubjectiveWeakNegativeAttribute+
+13	farm	farm	NOUN	NN	_	10	pobj	_	NN|03322099-n|Farm=
+14	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	herding	herd	VERB	VBG	_	0	ROOT	_	VBG|02028722-v|Guiding+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	pack	pack	NOUN	NN	_	4	dobj	_	NN|08240633-n|Group+
+7	of	of	ADP	IN	_	6	prep	_	IN|?|?
+8	white	white	ADJ	JJ	_	9	amod	_	JJ|00393105-a|White=
+9	sheep	sheep	NOUN	NN	_	7	pobj	_	NN|02411705-n|Sheep=
+10	on	on	ADP	IN	_	4	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	dusty	dusty	ADJ	JJ	_	13	amod	_	JJ|01689580-a|SubjectiveWeakNegativeAttribute+
+13	farm	farm	NOUN	NN	_	10	pobj	_	NN|03322099-n|Farm=
+14	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,31 @@
+sentence A = A player is running with the ball.
+sentence B = Football is being played by two competing teams.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Actor=,Entity+,Attribute+,Ball=
+CONCEPTS B: Football+,Entity+,Entity+,Game+,Contest+,Organization=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	player	player	NOUN	NN	_	4	nsubj	_	NN|09765278-n|Actor=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	ball	ball	NOUN	NN	_	5	pobj	_	NN|02778669-n|Ball=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Football	football	NOUN	NN	_	4	nsubjpass	_	NN|00468480-n|Football+
+2	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+3	being	be	VERB	VBG	_	4	auxpass	_	VBG|02604760-v|Entity+
+4	played	play	VERB	VBN	_	0	ROOT	_	VBN|01072949-v|Game+
+5	by	by	ADP	IN	_	4	prep	_	IN|?|?
+6	two	2	NUM	CD	_	8	num	_	Z|?|?
+7	competing	compete	VERB	VBG	_	8	amod	_	VBG|01072262-v|Contest+
+8	teams	team	NOUN	NNS	_	5	pobj	_	NNS|08208560-n|Organization=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

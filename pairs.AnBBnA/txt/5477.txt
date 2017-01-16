@@ -1,0 +1,30 @@
+sentence A = A person is frying food in a pan.
+sentence B = A person is holding a skunk.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human=,Entity+,Frying=,SubjectiveAssessmentAttribute+,PotOrPan=
+CONCEPTS B: Human=,Entity+,PsychologicalProcess+,Plant+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	frying	fry	VERB	VBG	_	0	ROOT	_	VBG|00325328-v|Frying=
+5	food	food	NOUN	NN	_	4	dobj	_	NN|05811214-n|SubjectiveAssessmentAttribute+
+6	in	in	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	pan	pan	NOUN	NN	_	6	pobj	_	NN|03880531-n|PotOrPan=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|00693780-v|PsychologicalProcess+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	skunk	skunk	NOUN	NN	_	4	dobj	_	NN|03990834-n|Plant+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

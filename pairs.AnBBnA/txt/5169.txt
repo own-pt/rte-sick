@@ -1,0 +1,32 @@
+sentence A = A man is pouring cleaner into the sink.
+sentence B = The drums are being played by the man.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Pouring=,Clean=,WashBasin+
+CONCEPTS B: Drum=,Entity+,Entity+,DramaticActing+,Hominid=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	pouring	pour	VERB	VBG	_	0	ROOT	_	VBG|02069551-v|Pouring=
+5	cleaner	clean	ADJ	JJR	_	4	dobj	_	JJR|00417413-a|Clean=
+6	into	into	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	sink	sink	NOUN	NN	_	6	pobj	_	NN|04223580-n|WashBasin+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	drums	drum	NOUN	NNS	_	5	nsubjpass	_	NNS|03249569-n|Drum=
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	played	play	VERB	VBN	_	0	ROOT	_	VBN|01719302-v|DramaticActing+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	man	man	NOUN	NN	_	6	pobj	_	NN|02472293-n|Hominid=
+9	.	.	.	.	_	5	punct	_	Fp|?|?

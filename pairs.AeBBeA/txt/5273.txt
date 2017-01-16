@@ -1,0 +1,29 @@
+sentence A = A girl is using sign language.
+sentence B = A girl is communicating with sign language.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Human+,Entity+,IntentionalProcess+,Character+,Language=
+CONCEPTS B: Human+,Entity+,ReligiousProcess+,Character+,Language=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	using	use	VERB	VBG	_	0	ROOT	_	VBG|01158872-v|IntentionalProcess+
+5	sign	sign	NOUN	NN	_	6	nn	_	NN|06811625-n|Character+
+6	language	language	NOUN	NN	_	4	dobj	_	NN|06282651-n|Language=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	communicating	communicate	VERB	VBG	_	0	ROOT	_	VBG|01030678-v|ReligiousProcess+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	sign	sign	NOUN	NN	_	7	nn	_	NN|06811625-n|Character+
+7	language	language	NOUN	NN	_	5	pobj	_	NN|06282651-n|Language=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

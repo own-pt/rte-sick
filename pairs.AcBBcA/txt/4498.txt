@@ -1,0 +1,29 @@
+sentence A = The doctors are reviving a man.
+sentence B = The doctors are not reviving a man.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: MedicalDoctor+,Entity+,OrganismProcess+,Hominid=
+CONCEPTS B: MedicalDoctor+,Entity+,not=,OrganismProcess+,Hominid=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	doctors	doctor	NOUN	NNS	_	4	nsubj	_	NNS|10020890-n|MedicalDoctor+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	reviving	revive	VERB	VBG	_	0	ROOT	_	VBG|00098083-v|OrganismProcess+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	man	man	NOUN	NN	_	4	dobj	_	NN|02472293-n|Hominid=
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	doctors	doctor	NOUN	NNS	_	5	nsubj	_	NNS|10020890-n|MedicalDoctor+
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	reviving	revive	VERB	VBG	_	0	ROOT	_	VBG|00098083-v|OrganismProcess+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	man	man	NOUN	NN	_	5	dobj	_	NN|02472293-n|Hominid=
+8	.	.	.	.	_	5	punct	_	Fp|?|?

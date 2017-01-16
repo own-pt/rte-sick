@@ -1,0 +1,49 @@
+sentence A = An elderly woman is sitting on a bench and is wearing a gray jacket and black pants.
+sentence B = The woman is sitting on a bench and is wearing a gray jacket and black pants.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveAssessmentAttribute+,Woman=,PhysicalAttribute+,SittingDown+,Seat+,PhysicalAttribute+,RecreationOrExercise+,ColorAttribute+,Coat=,Black=,Trousers+
+CONCEPTS B: Woman=,PhysicalAttribute+,SittingDown+,Seat+,PhysicalAttribute+,CoveringFn=,Gray+,Coat=,Black=,Trousers+
+
+CONLL A:
+
+1	An	a	DET	DT	_	3	det	_	DT|?|?
+2	elderly	elderly	ADJ	JJ	_	3	amod	_	JJ|01644225-a|SubjectiveAssessmentAttribute+
+3	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	bench	bench	NOUN	NN	_	6	pobj	_	NN|02828884-n|Seat+
+9	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02655135-v|PhysicalAttribute+
+11	wearing	wear	VERB	VBG	_	5	conj	_	VBG|00075021-v|RecreationOrExercise+
+12	a	a	DET	DT	_	14	det	_	DT|?|?
+13	gray	gray	ADJ	JJ	_	14	amod	_	JJ|01645678-a|ColorAttribute+
+14	jacket	jacket	NOUN	NN	_	11	dobj	_	NN|03589791-n|Coat=
+15	and	and	CONJ	CC	_	14	cc	_	CC|?|?
+16	black	black	ADJ	JJ	_	17	amod	_	JJ|00392812-a|Black=
+17	pants	pant	NOUN	NNS	_	14	conj	_	NNS|04489008-n|Trousers+
+18	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	bench	bench	NOUN	NN	_	5	pobj	_	NN|02828884-n|Seat+
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02655135-v|PhysicalAttribute+
+10	wearing	wear	VERB	VBG	_	4	conj	_	VBG|00047745-v|CoveringFn=
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	gray	gray	ADJ	JJ	_	13	amod	_	JJ|00389310-a|Gray+
+13	jacket	jacket	NOUN	NN	_	10	dobj	_	NN|03589791-n|Coat=
+14	and	and	CONJ	CC	_	13	cc	_	CC|?|?
+15	black	black	ADJ	JJ	_	16	amod	_	JJ|00392812-a|Black=
+16	pants	pant	NOUN	NNS	_	13	conj	_	NNS|04489008-n|Trousers+
+17	.	.	.	.	_	4	punct	_	Fp|?|?

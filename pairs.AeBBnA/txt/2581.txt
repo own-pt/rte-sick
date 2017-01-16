@@ -1,0 +1,29 @@
+sentence A = A man is playing a bamboo flute.
+sentence B = The man is playing a flute.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,DramaticActing+,Bamboo=,Flute=
+CONCEPTS B: Hominid=,Entity+,DramaticActing+,Flute=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	bamboo	bamboo	NOUN	NN	_	7	nn	_	NN|12147226-n|Bamboo=
+7	flute	flute	NOUN	NN	_	4	dobj	_	NN|03372029-n|Flute=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	flute	flute	NOUN	NN	_	4	dobj	_	NN|03372029-n|Flute=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,40 @@
+sentence A = A woman is being smeared with brown substance and a blurry crowd is in the background.
+sentence B = A topless woman is being covered in mud.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Entity+,SurfaceChange+,Human+,SubjectiveAssessmentAttribute+,VisualAttribute+,SubjectiveAssessmentAttribute=,Entity+,Region+
+CONCEPTS B: top+,Woman=,Entity+,Entity+,Covering+,Soil=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	5	nsubjpass	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	smeared	smear	VERB	VBN	_	0	ROOT	_	VBN|01252425-v|SurfaceChange+
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	brown	brown	ADJ	JJ	_	8	amod	_	JJ|00245112-a|Human+
+8	substance	substance	NOUN	NN	_	6	pobj	_	NN|05921123-n|SubjectiveAssessmentAttribute+
+9	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	blurry	blurry	NOUN	NN	_	12	amod	_	JJ|00781644-a|VisualAttribute+
+12	crowd	crowd	NOUN	NN	_	13	nsubj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+13	is	be	VERB	VBZ	_	5	conj	_	VBZ|02604760-v|Entity+
+14	in	in	ADP	IN	_	13	prep	_	IN|?|?
+15	the	the	DET	DT	_	16	det	_	DT|?|?
+16	background	background	NOUN	NN	_	14	pobj	_	NN|14513259-n|Region+
+17	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	topless	topless	ADJ	JJ	_	3	amod	_	JJ|02442082-a|top+
+3	woman	woman	NOUN	NN	_	6	nsubjpass	_	NN|10787470-n|Woman=
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	being	be	VERB	VBG	_	6	auxpass	_	VBG|02604760-v|Entity+
+6	covered	cover	VERB	VBN	_	0	ROOT	_	VBN|01332730-v|Covering+
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	mud	mud	NOUN	NN	_	7	pobj	_	NN|14956325-n|Soil=
+9	.	.	.	.	_	6	punct	_	Fp|?|?

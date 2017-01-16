@@ -1,0 +1,45 @@
+sentence A = There is no boy hanging a fishing rod and running in front of a fish.
+sentence B = A boy is hanging a fishing rod and running in front of a fish.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Human+,PhysicalAttribute+,FishingSport=,LengthMeasure@,Hunting+,FrontFn=,Fish=
+CONCEPTS B: Human+,Entity+,PhysicalAttribute+,FishingSport=,LengthMeasure@,Hunting+,FrontFn=,Fish=
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	boy	boy	NOUN	NN	_	2	nsubj	_	NN|10285313-n|Human+
+5	hanging	hang	VERB	VBG	_	4	dep	_	VBG|01482075-v|PhysicalAttribute+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	fishing	fishing	NOUN	NN	_	8	nn	_	NN|00453935-n|FishingSport=
+8	rod	rod	NOUN	NN	_	5	dobj	_	NN|13650921-n|LengthMeasure@
+9	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+10	running	run	VERB	VBG	_	5	conj	_	VBG|01143838-v|Hunting+
+11	in	in	ADP	IN	_	10	prep	_	IN|?|?
+12	front	front	NOUN	NN	_	11	pobj	_	NN|08573472-n|FrontFn=
+13	of	of	ADP	IN	_	12	prep	_	IN|?|?
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	fish	fish	NOUN	NN	_	13	pobj	_	NN|02512053-n|Fish=
+16	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	hanging	hang	VERB	VBG	_	0	ROOT	_	VBG|01482075-v|PhysicalAttribute+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	fishing	fishing	NOUN	NN	_	7	nn	_	NN|00453935-n|FishingSport=
+7	rod	rod	NOUN	NN	_	4	dobj	_	NN|13650921-n|LengthMeasure@
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	running	run	VERB	VBG	_	4	conj	_	VBG|01143838-v|Hunting+
+10	in	in	ADP	IN	_	9	prep	_	IN|?|?
+11	front	front	NOUN	NN	_	10	pobj	_	NN|08573472-n|FrontFn=
+12	of	of	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	fish	fish	NOUN	NN	_	12	pobj	_	NN|02512053-n|Fish=
+15	.	.	.	.	_	4	punct	_	Fp|?|?

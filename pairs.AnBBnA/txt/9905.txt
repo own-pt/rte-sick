@@ -1,0 +1,33 @@
+sentence A = Three small dogs are sniffing at something.
+sentence B = Butter is being chopped into a container by a man.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Smelling+
+CONCEPTS B: Butter=,Entity+,Entity+,Cutting+,Container+,Hominid=
+
+CONLL A:
+
+1	Three	3	NUM	CD	_	3	num	_	Z|?|?
+2	small	small	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	dogs	dog	NOUN	NNS	_	5	nsubj	_	NNS|02084071-n|Canine+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	sniffing	sniff	VERB	VBG	_	0	ROOT	_	VBG|02125032-v|Smelling+
+6	at	at	ADP	IN	_	5	prep	_	IN|?|?
+7	something	something	NOUN	NN	_	6	pobj	_	PRP|?|?
+8	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Butter	butter	NOUN	NNP	_	4	nsubjpass	_	NN|07848338-n|Butter=
+2	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+3	being	be	VERB	VBG	_	4	auxpass	_	VBG|02604760-v|Entity+
+4	chopped	chop	VERB	VBN	_	0	ROOT	_	VBN|01258091-v|Cutting+
+5	into	into	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	container	container	NOUN	NN	_	5	pobj	_	NN|03094503-n|Container+
+8	by	by	ADP	IN	_	4	prep	_	IN|?|?
+9	a	a	DET	DT	_	10	det	_	DT|?|?
+10	man	man	NOUN	NN	_	8	pobj	_	NN|02472293-n|Hominid=
+11	.	.	.	.	_	4	punct	_	Fp|?|?

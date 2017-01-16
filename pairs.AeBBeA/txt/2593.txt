@@ -1,0 +1,30 @@
+sentence A = A tiger is walking around with no aim.
+sentence B = A tiger is walking around aimlessly.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Feline+,Entity+,Walking=,PsychologicalAttribute+
+CONCEPTS B: Feline+,Entity+,Walking=,hasPurposeForAgent+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	tiger	tiger	NOUN	NN	_	4	nsubj	_	NN|02129604-n|Feline+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+5	around	around	ADP	IN	_	4	advmod	_	RP|00007015-r|?
+6	with	with	ADP	IN	_	4	prep	_	IN|?|?
+7	no	no	DET	DT	_	8	det	_	DT|?|?
+8	aim	aim	NOUN	NN	_	6	pobj	_	NN|05982152-n|PsychologicalAttribute+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	tiger	tiger	NOUN	NN	_	4	nsubj	_	NN|02129604-n|Feline+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+5	around	around	ADP	IN	_	6	advmod	_	RP|00007015-r|?
+6	aimlessly	aimlessly	ADV	RB	_	4	advmod	_	RB|00205808-r|hasPurposeForAgent+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

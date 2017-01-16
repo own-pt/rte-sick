@@ -1,0 +1,30 @@
+sentence A = A man is working on the laptop.
+sentence B = A man is working on the computer.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Attribute+,Computer+
+CONCEPTS B: Hominid=,Entity+,Attribute+,Computer=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	working	work	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	laptop	laptop	NOUN	NN	_	5	pobj	_	NN|03642806-n|Computer+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	working	work	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	computer	computer	NOUN	NN	_	5	pobj	_	NN|03082979-n|Computer=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

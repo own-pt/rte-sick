@@ -1,0 +1,54 @@
+sentence A = A man in blue jeans is standing in front of a group of children beside a stone built house.
+sentence B = A woman in blue jeans is standing in front of a group of children beside a stone built house.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Man=,SubjectiveStrongNegativeAttribute+,Trousers+,Entity+,PhysicalAttribute+,FrontFn=,Group=,HumanChild=,Mineral+,Increasing+,Auditorium+
+CONCEPTS B: Woman=,SubjectiveStrongNegativeAttribute+,Trousers+,Entity+,PhysicalAttribute+,FrontFn=,Group=,HumanChild=,Mineral+,Increasing+,Auditorium+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	blue	blue	ADJ	JJ	_	5	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+5	jeans	jean	NOUN	NNS	_	3	pobj	_	NNS|03594734-n|Trousers+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	front	front	NOUN	NN	_	8	pobj	_	NN|08573472-n|FrontFn=
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	group	group	NOUN	NN	_	10	pobj	_	NN|00031264-n|Group=
+13	of	of	ADP	IN	_	12	prep	_	IN|?|?
+14	children	child	NOUN	NNS	_	13	pobj	_	NNS|09917593-n|HumanChild=
+15	beside	beside	ADP	IN	_	14	prep	_	IN|?|?
+16	a	a	DET	DT	_	19	det	_	DT|?|?
+17	stone	stone	NOUN	NN	_	18	dep	_	NN|14696793-n|Mineral+
+18	built	build	VERB	VBN	_	19	amod	_	VBN|00252990-v|Increasing+
+19	house	house	NOUN	NN	_	15	pobj	_	NN|04417809-n|Auditorium+
+20	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	7	nsubj	_	NN|10787470-n|Woman=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	blue	blue	ADJ	JJ	_	5	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+5	jeans	jean	NOUN	NNS	_	3	pobj	_	NNS|03594734-n|Trousers+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+8	in	in	ADP	IN	_	7	prep	_	IN|?|?
+9	front	front	NOUN	NN	_	8	pobj	_	NN|08573472-n|FrontFn=
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	group	group	NOUN	NN	_	10	pobj	_	NN|00031264-n|Group=
+13	of	of	ADP	IN	_	12	prep	_	IN|?|?
+14	children	child	NOUN	NNS	_	13	pobj	_	NNS|09917593-n|HumanChild=
+15	beside	beside	ADP	IN	_	14	prep	_	IN|?|?
+16	a	a	DET	DT	_	19	det	_	DT|?|?
+17	stone	stone	NOUN	NN	_	18	dep	_	NN|14696793-n|Mineral+
+18	built	build	VERB	VBN	_	19	amod	_	VBN|00252990-v|Increasing+
+19	house	house	NOUN	NN	_	15	pobj	_	NN|04417809-n|Auditorium+
+20	.	.	.	.	_	7	punct	_	Fp|?|?

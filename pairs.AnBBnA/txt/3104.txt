@@ -1,0 +1,35 @@
+sentence A = A man is sitting on the floor and is playing a guitar.
+sentence B = The man is pacing around a room.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,PhysicalAttribute+,SittingDown+,Floor+,PhysicalAttribute+,DramaticActing+,Guitar=
+CONCEPTS B: Hominid=,Entity+,Ambulating+,Room=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	the	the	DET	DT	_	7	det	_	DT|?|?
+7	floor	floor	NOUN	NN	_	5	pobj	_	NN|03365592-n|Floor+
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02655135-v|PhysicalAttribute+
+10	playing	play	VERB	VBG	_	4	conj	_	VBG|01719302-v|DramaticActing+
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	guitar	guitar	NOUN	NN	_	10	dobj	_	NN|03467517-n|Guitar=
+13	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	pacing	pace	VERB	VBG	_	0	ROOT	_	VBG|02091165-v|Ambulating+
+5	around	around	ADP	IN	_	4	prep	_	RP|00007015-r|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	room	room	NOUN	NN	_	5	pobj	_	NN|04105893-n|Room=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

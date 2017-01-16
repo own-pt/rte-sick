@@ -1,0 +1,33 @@
+sentence A = A girl is cutting butter into two pieces.
+sentence B = A girl is melting two pieces of butter together.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Human+,Entity+,Cutting+,Butter=,TimeDuration+
+CONCEPTS B: Human+,Entity+,Heating+,TimeDuration+,Butter=,Meeting=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|01552519-v|Cutting+
+5	butter	butter	NOUN	NN	_	4	dobj	_	NN|07848338-n|Butter=
+6	into	into	ADP	IN	_	4	prep	_	IN|?|?
+7	two	2	NUM	CD	_	8	num	_	Z|?|?
+8	pieces	piece	NOUN	NNS	_	6	pobj	_	NNS|15246353-n|TimeDuration+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	melting	melt	VERB	VBG	_	0	ROOT	_	VBG|00444629-v|Heating+
+5	two	2	NUM	CD	_	6	num	_	Z|?|?
+6	pieces	piece	NOUN	NNS	_	4	dobj	_	NNS|15246353-n|TimeDuration+
+7	of	of	ADP	IN	_	6	prep	_	IN|?|?
+8	butter	butter	NOUN	NN	_	7	pobj	_	NN|07848338-n|Butter=
+9	together	together	ADV	RB	_	4	advmod	_	RB|00507927-r|Meeting=
+10	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,49 @@
+sentence A = A cat with a white coat, perched on a small wooden cabinet, is looking outside the window.
+sentence B = A white cat perched on a small wooden cabinet is looking outside the window.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Feline+,White=,Coat=,Process+,SubjectiveStrongNegativeAttribute+,SubjectiveAssessmentAttribute+,ChestOrCabinet+,Entity+,SubjectiveAssessmentAttribute+,Window=
+CONCEPTS B: White=,Whip+,Process+,SubjectiveStrongNegativeAttribute+,SubjectiveAssessmentAttribute+,ChestOrCabinet+,Entity+,SubjectiveAssessmentAttribute+,Window=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	16	nsubj	_	NN|02121620-n|Feline+
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	_	6	amod	_	JJ|00393105-a|White=
+6	coat	coat	NOUN	NN	_	3	pobj	_	NN|03057021-n|Coat=
+7	,	,	.	,	_	16	punct	_	Fc|?|?
+8	perched	perch	VERB	VBN	_	16	partmod	_	VBN|01978700-v|Process+
+9	on	on	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	13	det	_	DT|?|?
+11	small	small	ADJ	JJ	_	13	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+12	wooden	wooden	ADJ	JJ	_	13	amod	_	JJ|01141595-a|SubjectiveAssessmentAttribute+
+13	cabinet	cabinet	NOUN	NN	_	9	pobj	_	NN|02933112-n|ChestOrCabinet+
+14	,	,	.	,	_	16	punct	_	Fc|?|?
+15	is	be	VERB	VBZ	_	16	aux	_	VBZ|02604760-v|Entity+
+16	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+17	outside	outside	ADP	IN	_	16	prep	_	IN|?|?
+18	the	the	DET	DT	_	19	det	_	DT|?|?
+19	window	window	NOUN	NN	_	17	pobj	_	NN|04587648-n|Window=
+20	.	.	.	.	_	16	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	cat	cat	NOUN	NN	_	11	nsubj	_	NN|02985606-n|Whip+
+4	perched	perch	VERB	VBN	_	3	partmod	_	VBN|01978700-v|Process+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	9	det	_	DT|?|?
+7	small	small	ADJ	JJ	_	9	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+8	wooden	wooden	ADJ	JJ	_	9	amod	_	JJ|01141595-a|SubjectiveAssessmentAttribute+
+9	cabinet	cabinet	NOUN	NN	_	5	pobj	_	NN|02933112-n|ChestOrCabinet+
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+12	outside	outside	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	window	window	NOUN	NN	_	12	pobj	_	NN|04587648-n|Window=
+15	.	.	.	.	_	11	punct	_	Fp|?|?

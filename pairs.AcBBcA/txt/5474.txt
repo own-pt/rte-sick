@@ -1,0 +1,29 @@
+sentence A = A person is not holding a skunk.
+sentence B = A person is holding a skunk.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Human=,Entity+,not=,PsychologicalProcess+,Plant+
+CONCEPTS B: Human=,Entity+,PsychologicalProcess+,Plant+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	5	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|00693780-v|PsychologicalProcess+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	skunk	skunk	NOUN	NN	_	5	dobj	_	NN|03990834-n|Plant+
+8	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|00693780-v|PsychologicalProcess+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	skunk	skunk	NOUN	NN	_	4	dobj	_	NN|03990834-n|Plant+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

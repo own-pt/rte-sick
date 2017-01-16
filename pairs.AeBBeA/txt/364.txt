@@ -1,0 +1,38 @@
+sentence A = A person who plays soccer is kicking a ball into the goal.
+sentence B = A soccer player is kicking a ball into the goal.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Human=,DramaticActing+,Soccer=,Entity+,Impelling+,Ball=,GameGoal=
+CONCEPTS B: Soccer=,Human+,Entity+,Impelling+,Ball=,GameGoal=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	7	nsubj	_	NN|00007846-n|Human=
+3	who	who	PRON	WP	_	4	nsubj	_	WP|?|?
+4	plays	play	VERB	VBZ	_	2	rcmod	_	VBZ|01719302-v|DramaticActing+
+5	soccer	soccer	NOUN	NN	_	4	dobj	_	NN|00478262-n|Soccer=
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	kicking	kick	VERB	VBG	_	0	ROOT	_	VBG|01112979-v|Impelling+
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	ball	ball	NOUN	NN	_	7	dobj	_	NN|02778669-n|Ball=
+10	into	into	ADP	IN	_	7	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	goal	goal	NOUN	NN	_	10	pobj	_	NN|03442756-n|GameGoal=
+13	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	soccer	soccer	NOUN	NN	_	3	nn	_	NN|00478262-n|Soccer=
+3	player	player	NOUN	NN	_	5	nsubj	_	NN|10439851-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	kicking	kick	VERB	VBG	_	0	ROOT	_	VBG|01112979-v|Impelling+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	ball	ball	NOUN	NN	_	5	dobj	_	NN|02778669-n|Ball=
+8	into	into	ADP	IN	_	5	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	goal	goal	NOUN	NN	_	8	pobj	_	NN|03442756-n|GameGoal=
+11	.	.	.	.	_	5	punct	_	Fp|?|?

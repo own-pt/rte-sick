@@ -1,0 +1,33 @@
+sentence A = A man is making a call on a cell phone.
+sentence B = A man is making a phone call.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,IntentionalProcess+,TelephoneCommunication=,Cell=,Telephone=
+CONCEPTS B: Hominid=,Entity+,IntentionalProcess+,Telephone=,TelephoneCommunication=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	making	make	VERB	VBG	_	0	ROOT	_	VBG|01755816-v|IntentionalProcess+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	call	call	NOUN	NN	_	4	dobj	_	NN|06272803-n|TelephoneCommunication=
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	cell	cell	NOUN	NN	_	10	nn	_	NN|00006484-n|Cell=
+10	phone	phone	NOUN	NN	_	7	pobj	_	NN|04401088-n|Telephone=
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	making	make	VERB	VBG	_	0	ROOT	_	VBG|01755816-v|IntentionalProcess+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	phone	phone	NOUN	NN	_	7	nn	_	NN|04401088-n|Telephone=
+7	call	call	NOUN	NN	_	4	dobj	_	NN|06272803-n|TelephoneCommunication=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

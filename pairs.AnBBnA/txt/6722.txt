@@ -1,0 +1,35 @@
+sentence A = A black bird is sitting on a dead tree.
+sentence B = The black bird is sitting comfortably in a leafless tree.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Black=,Bird=,PhysicalAttribute+,SittingDown+,Dead=,ContentBearingObject+
+CONCEPTS B: Black=,Bird=,PhysicalAttribute+,SittingDown+,StateOfMind+,Plant+,ContentBearingObject+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	bird	bird	NOUN	NN	_	5	nsubj	_	NN|01503061-n|Bird=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	dead	dead	ADJ	JJ	_	9	amod	_	JJ|00095280-a|Dead=
+9	tree	tree	NOUN	NN	_	6	pobj	_	NN|13912260-n|ContentBearingObject+
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	bird	bird	NOUN	NN	_	5	nsubj	_	NN|01503061-n|Bird=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	comfortably	comfortably	ADV	RB	_	5	advmod	_	RB|00155020-r|StateOfMind+
+7	in	in	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	leafless	leafless	NOUN	NN	_	10	nn	_	JJ|01703494-a|Plant+
+10	tree	tree	NOUN	NN	_	7	pobj	_	NN|13912260-n|ContentBearingObject+
+11	.	.	.	.	_	5	punct	_	Fp|?|?

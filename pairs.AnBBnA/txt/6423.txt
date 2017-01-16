@@ -1,0 +1,39 @@
+sentence A = A bike is being ridden by a person.
+sentence B = A bike rider in a black and red uniform is standing on a dirt bike.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Bicycle=,Entity+,Entity+,Transportation+,Human=
+CONCEPTS B: Bicycle=,Human+,Black=,Red=,UniformClothing=,Entity+,PhysicalAttribute+,Text+,Bicycle=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	bike	bike	NOUN	NN	_	5	nsubjpass	_	NN|02834778-n|Bicycle=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	ridden	ride	VERB	VBN	_	0	ROOT	_	VBN|02102398-v|Transportation+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	person	person	NOUN	NN	_	6	pobj	_	NN|00007846-n|Human=
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	bike	bike	NOUN	NN	_	3	nn	_	NN|02834778-n|Bicycle=
+3	rider	rider	NOUN	NN	_	11	nsubj	_	NN|10530150-n|Human+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	9	det	_	DT|?|?
+6	black	black	ADJ	JJ	_	9	amod	_	JJ|00392812-a|Black=
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	red	red	ADJ	JJ	_	6	conj	_	JJ|00381097-a|Red=
+9	uniform	uniform	NOUN	NN	_	4	pobj	_	NN|04509592-n|UniformClothing=
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+12	on	on	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	15	det	_	DT|?|?
+14	dirt	dirt	NOUN	NN	_	15	nn	_	NN|07223811-n|Text+
+15	bike	bike	NOUN	NN	_	12	pobj	_	NN|02834778-n|Bicycle=
+16	.	.	.	.	_	11	punct	_	Fp|?|?

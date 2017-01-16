@@ -1,0 +1,27 @@
+sentence A = Two baby pandas are playing.
+sentence B = Two pandas are not lying together.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanBaby=,Carnivore+,Entity+,DramaticActing+
+CONCEPTS B: Carnivore+,Entity+,not=,PhysicalAttribute+,Meeting=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	baby	baby	NOUN	NN	_	3	nn	_	NN|09827683-n|HumanBaby=
+3	pandas	panda	NOUN	NNS	_	5	nsubj	_	NNS|02510455-n|Carnivore+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	pandas	panda	NOUN	NNS	_	5	nsubj	_	NNS|02510455-n|Carnivore+
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+6	together	together	ADV	RB	_	5	advmod	_	RB|00507927-r|Meeting=
+7	.	.	.	.	_	5	punct	_	Fp|?|?

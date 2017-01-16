@@ -4,6 +4,7 @@ import sys
 import csv
 import subprocess
 import re
+import os
 
 def fix_sentence(s):
     s = s.strip()
@@ -32,7 +33,7 @@ def fix_conll(raw_conll, lemmas, senses, sumo,pos):
         conll[i][9] = "{}|{}|{}".format(pos[i],senses[i],sumo[i])
     return conll
 
-with open('SICK.txt', newline='') as csvfile:
+with open('../SICK.txt', newline='') as csvfile:
     reader = csv.reader(csvfile, delimiter='\t')
     next(reader,None)
 
@@ -40,6 +41,9 @@ with open('SICK.txt', newline='') as csvfile:
     for row in reader:
         (pair_ID,sentence_A,sentence_B,entailment_label,relatedness_score,entailment_AB,entailment_BA,sentence_A_original,sentence_B_original,sentence_A_dataset,sentence_B_dataset,SemEval_set) = (row)
         (sentence_A, sentence_B) = (fix_sentence(sentence_A), fix_sentence(sentence_B))
+
+        if not os.path.exists('{}-a.senses'.format(pair_ID)):
+            continue
 
         senses_a = read_file('{}-a.senses'.format(pair_ID))[0].split(',')
         sumo_a = read_file('{}-a.sumo'.format(pair_ID))[0].split(',')
@@ -71,7 +75,10 @@ with open('SICK.txt', newline='') as csvfile:
                 o.write("{}\n".format("\t".join(t)))
             o.write('\n')
 
-        with open("{}.txt".format(pair_ID), 'w') as o:
+        if not os.path.exists("txt"):
+            os.mkdir("txt")
+
+        with open("txt/{}.txt".format(pair_ID), 'w') as o:
             o.write("sentence A = {}\n".format(sentence_A))
             o.write("sentence B = {}\n".format(sentence_B))
             o.write("entailm AB = {}.\n".format(entailment_AB))
@@ -91,3 +98,20 @@ with open('SICK.txt', newline='') as csvfile:
             o.write("\n\nCONLL B:\n\n")
             for t in conllb:
                 o.write("{}\n".format("\t".join(t)))
+
+        with open("sentences.conllu", 'a') as o:
+            o.write('# pair_id = {}\n'.format(pair_ID))
+            o.write('# sent_id = {}a\n'.format(pair_ID))
+            o.write('# text = {}\n'.format(sentence_A))
+
+            for t in conlla:
+                o.write("{}\n".format("\t".join(t)))
+
+            o.write('\n')
+
+            o.write('# pair_id = {}\n'.format(pair_ID))
+            o.write('# sent_id = {}b\n'.format(pair_ID))
+            o.write('# text = {}\n'.format(sentence_B))
+            for t in conllb:
+                o.write("{}\n".format("\t".join(t)))
+            o.write('\n')

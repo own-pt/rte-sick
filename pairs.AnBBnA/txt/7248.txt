@@ -1,0 +1,59 @@
+sentence A = A woman is speaking on her cell phone and is keeping a purse and a yellow bag on the near ledge.
+sentence B = A woman is speaking from a ledge and is keeping her cell phone inside a purse that is inside a yellow bag.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,Speaking+,Cell=,RadiatingSound+,Entity+,Keeping+,Bag+,SubjectiveAssessmentAttribute+,Bag+,Near=,GeographicArea+
+CONCEPTS B: Woman=,Entity+,Speaking+,GeographicArea+,Entity+,Keeping+,Cell=,RadiatingSound+,Bag+,Entity+,SubjectiveAssessmentAttribute+,Bag+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	speaking	speak	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	her	her	PRON	PRP$	_	8	poss	_	PRP$|?|?
+7	cell	cell	NOUN	NN	_	8	nn	_	NN|00006484-n|Cell=
+8	phone	phone	NOUN	NN	_	5	pobj	_	NN|07111047-n|RadiatingSound+
+9	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	keeping	keep	VERB	VBG	_	4	conj	_	VBG|02681795-v|Keeping+
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	purse	purse	NOUN	NN	_	11	dobj	_	NN|02774152-n|Bag+
+14	and	and	CONJ	CC	_	13	cc	_	CC|?|?
+15	a	a	DET	DT	_	17	det	_	DT|?|?
+16	yellow	yellow	ADJ	JJ	_	17	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+17	bag	bag	NOUN	NN	_	13	conj	_	NN|02774152-n|Bag+
+18	on	on	ADP	IN	_	11	prep	_	IN|?|?
+19	the	the	DET	DT	_	21	det	_	DT|?|?
+20	near	near	ADJ	JJ	_	21	amod	_	JJ|00444519-a|Near=
+21	ledge	ledge	NOUN	NN	_	18	pobj	_	NN|09337253-n|GeographicArea+
+22	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	speaking	speak	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+5	from	from	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	ledge	ledge	NOUN	NN	_	5	pobj	_	NN|09337253-n|GeographicArea+
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	keeping	keep	VERB	VBG	_	4	conj	_	VBG|02681795-v|Keeping+
+11	her	her	PRON	PRP$	_	13	poss	_	PRP$|?|?
+12	cell	cell	NOUN	NN	_	13	nn	_	NN|00006484-n|Cell=
+13	phone	phone	NOUN	NN	_	10	dobj	_	NN|07111047-n|RadiatingSound+
+14	inside	inside	ADP	IN	_	10	prep	_	IN|?|?
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	purse	purse	NOUN	NN	_	14	pobj	_	NN|02774152-n|Bag+
+17	that	that	DET	WDT	_	18	nsubj	_	WDT|?|?
+18	is	be	VERB	VBZ	_	16	rcmod	_	VBZ|02604760-v|Entity+
+19	inside	inside	ADP	IN	_	18	prep	_	IN|?|?
+20	a	a	DET	DT	_	22	det	_	DT|?|?
+21	yellow	yellow	ADJ	JJ	_	22	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+22	bag	bag	NOUN	NN	_	19	pobj	_	NN|02774152-n|Bag+
+23	.	.	.	.	_	4	punct	_	Fp|?|?

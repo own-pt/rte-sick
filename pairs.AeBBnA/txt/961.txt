@@ -1,0 +1,59 @@
+sentence A = A man in a shirt dyed purple is walking away from a man in a black shirt, who is serious.
+sentence B = A man in a shirt dyed purple is looking at a man in a black shirt who is doing a funny face.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Man=,Shirt=,Coloring+,ColorAttribute+,Entity+,Walking=,Man=,Black=,Shirt=,Entity+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Man=,Shirt=,Coloring+,ColorAttribute+,Entity+,SubjectiveAssessmentAttribute+,Man=,Black=,Shirt=,Entity+,IntentionalProcess+,SubjectiveStrongPositiveAttribute+,FacialExpression=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	9	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	7	det	_	DT|?|?
+5	shirt	shirt	NOUN	NN	_	6	dep	_	NN|04197391-n|Shirt=
+6	dyed	dye	VERB	VBN	_	7	amod	_	VBN|00283090-v|Coloring+
+7	purple	purple	NOUN	NN	_	3	pobj	_	NN|04970059-n|ColorAttribute+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+10	away	away	ADV	RB	_	9	advmod	_	RP|00234951-r|?
+11	from	from	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	man	man	NOUN	NN	_	11	pobj	_	NN|10287213-n|Man=
+14	in	in	ADP	IN	_	13	prep	_	IN|?|?
+15	a	a	DET	DT	_	17	det	_	DT|?|?
+16	black	black	ADJ	JJ	_	17	amod	_	JJ|00392812-a|Black=
+17	shirt	shirt	NOUN	NN	_	14	pobj	_	NN|04197391-n|Shirt=
+18	,	,	.	,	_	13	punct	_	Fc|?|?
+19	who	who	PRON	WP	_	21	nsubj	_	WP|?|?
+20	is	be	VERB	VBZ	_	21	cop	_	VBZ|02604760-v|Entity+
+21	serious	serious	ADJ	JJ	_	13	rcmod	_	JJ|02118379-a|SubjectiveAssessmentAttribute+
+22	.	.	.	.	_	9	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	9	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	7	det	_	DT|?|?
+5	shirt	shirt	NOUN	NN	_	6	dep	_	NN|04197391-n|Shirt=
+6	dyed	dye	VERB	VBN	_	7	amod	_	VBN|00283090-v|Coloring+
+7	purple	purple	NOUN	NN	_	3	pobj	_	NN|04970059-n|ColorAttribute+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+10	at	at	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	man	man	NOUN	NN	_	10	pobj	_	NN|10287213-n|Man=
+13	in	in	ADP	IN	_	9	prep	_	IN|?|?
+14	a	a	DET	DT	_	16	det	_	DT|?|?
+15	black	black	ADJ	JJ	_	16	amod	_	JJ|00392812-a|Black=
+16	shirt	shirt	NOUN	NN	_	13	pobj	_	NN|04197391-n|Shirt=
+17	who	who	PRON	WP	_	19	nsubj	_	WP|?|?
+18	is	be	VERB	VBZ	_	19	aux	_	VBZ|02604760-v|Entity+
+19	doing	do	VERB	VBG	_	16	rcmod	_	VBG|01712704-v|IntentionalProcess+
+20	a	a	DET	DT	_	22	det	_	DT|?|?
+21	funny	funny	ADJ	JJ	_	22	amod	_	JJ|01265308-a|SubjectiveStrongPositiveAttribute+
+22	face	face	NOUN	NN	_	19	dobj	_	NN|04679738-n|FacialExpression=
+23	.	.	.	.	_	9	punct	_	Fp|?|?

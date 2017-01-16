@@ -1,0 +1,35 @@
+sentence A = Nobody is practicing water safety and wearing preservers.
+sentence B = A group of friends are riding the current in a raft.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,Position+,Water=,SubjectiveAssessmentAttribute+,RecreationOrExercise+,Clothing+
+CONCEPTS B: Group=,SubjectiveAssessmentAttribute=,Entity+,Carrying=,TimePosition+,SubjectiveAssessmentAttribute+
+
+CONLL A:
+
+1	Nobody	nobody	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	practicing	practice	VERB	VBG	_	0	ROOT	_	VBG|02568672-v|Position+
+4	water	water	NOUN	NN	_	5	nn	_	NN|14845743-n|Water=
+5	safety	safety	NOUN	NN	_	3	dobj	_	NN|14538472-n|SubjectiveAssessmentAttribute+
+6	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+7	wearing	wear	VERB	VBG	_	3	conj	_	VBG|00075021-v|RecreationOrExercise+
+8	preservers	preserver	NOUN	NNS	_	7	dobj	_	NNS|03663531-n|Clothing+
+9	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	friends	friend	NOUN	NNS	_	3	pobj	_	NNS|10112591-n|SubjectiveAssessmentAttribute=
+5	are	be	VERB	VBP	_	6	aux	_	VBP|02604760-v|Entity+
+6	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	current	current	NOUN	NN	_	6	dobj	_	JJ|00666058-a|TimePosition+
+9	in	in	ADP	IN	_	6	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	raft	raft	NOUN	NN	_	9	pobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+12	.	.	.	.	_	6	punct	_	Fp|?|?

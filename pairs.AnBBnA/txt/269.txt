@@ -1,0 +1,39 @@
+sentence A = A cowgirl is riding a brown horse and is cornering a barrel.
+sentence B = The brown horse is near a red barrel at the rodeo.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Position+,Entity+,Carrying=,Human+,Horse=,Entity+,DirectionChange+,Cask=
+CONCEPTS B: Human+,Horse=,Entity+,Red=,Cask=,RecreationOrExercise+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cowgirl	cowgirl	NOUN	NN	_	4	nsubj	_	NN|09973422-n|Position+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	brown	brown	ADJ	JJ	_	7	amod	_	JJ|00245112-a|Human+
+7	horse	horse	NOUN	NN	_	4	dobj	_	NN|02374451-n|Horse=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	cornering	corner	VERB	VBG	_	4	conj	_	VBG|01909275-v|DirectionChange+
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	barrel	barrel	NOUN	NN	_	10	dobj	_	NN|02795169-n|Cask=
+13	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	horse	horse	NOUN	NN	_	4	nsubj	_	NN|02374451-n|Horse=
+4	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+5	near	near	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	red	red	ADJ	JJ	_	8	amod	_	JJ|00381097-a|Red=
+8	barrel	barrel	NOUN	NN	_	5	pobj	_	NN|02795169-n|Cask=
+9	at	at	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	rodeo	rodeo	NOUN	NN	_	9	pobj	_	NN|00522939-n|RecreationOrExercise+
+12	.	.	.	.	_	4	punct	_	Fp|?|?

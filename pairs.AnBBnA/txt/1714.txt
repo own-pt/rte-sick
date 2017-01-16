@@ -1,0 +1,28 @@
+sentence A = A man is eating onion slices.
+sentence B = A man is slicing an onion.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Eating=,FruitOrVegetable+,PreparedFood+
+CONCEPTS B: Hominid=,Entity+,Separating+,FruitOrVegetable+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01168468-v|Eating=
+5	onion	onion	NOUN	NN	_	6	nn	_	NN|12433081-n|FruitOrVegetable+
+6	slices	slice	NOUN	NNS	_	4	dobj	_	NNS|07654667-n|PreparedFood+
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	an	a	DET	DT	_	6	det	_	DT|?|?
+6	onion	onion	NOUN	NN	_	4	dobj	_	NN|12433081-n|FruitOrVegetable+
+7	.	.	.	.	_	4	punct	_	Fp|?|?

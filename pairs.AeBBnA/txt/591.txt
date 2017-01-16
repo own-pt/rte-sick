@@ -1,0 +1,51 @@
+sentence A = A woman is taking off a cloak, which is very large, and revealing an extravagant dress.
+sentence B = A woman is taking off a cloak, which is very large, and revealing extravagant apparel.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,PhysicalAttribute+,Clothing+,Entity+,SubjectiveAssessmentAttribute+,SubjectiveWeakPositiveAttribute+,Disseminating=,SubjectiveStrongNegativeAttribute+,Clothing+
+CONCEPTS B: Woman=,Entity+,PhysicalAttribute+,Clothing+,Entity+,SubjectiveAssessmentAttribute+,SubjectiveWeakPositiveAttribute+,Disseminating=,SubjectiveStrongNegativeAttribute+,Clothing+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	taking	take	VERB	VBG	_	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
+5	off	off	PRT	RP	_	4	prt	_	RP|00232936-r|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	cloak	cloak	NOUN	NN	_	4	dobj	_	NN|03045337-n|Clothing+
+8	,	,	.	,	_	7	punct	_	Fc|?|?
+9	which	which	DET	WDT	_	12	nsubj	_	WDT|?|?
+10	is	be	VERB	VBZ	_	12	cop	_	VBZ|02604760-v|Entity+
+11	very	very	ADV	RB	_	12	advmod	_	RB|00031899-r|SubjectiveAssessmentAttribute+
+12	large	large	ADJ	JJ	_	7	rcmod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+13	,	,	.	,	_	4	punct	_	Fc|?|?
+14	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+15	revealing	reveal	VERB	VBG	_	4	conj	_	VBG|00933821-v|Disseminating=
+16	an	a	DET	DT	_	18	det	_	DT|?|?
+17	extravagant	extravagant	ADJ	JJ	_	18	amod	_	JJ|02422242-a|SubjectiveStrongNegativeAttribute+
+18	dress	dress	NOUN	NN	_	15	dobj	_	NN|02728440-n|Clothing+
+19	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	taking	take	VERB	VBG	_	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
+5	off	off	PRT	RP	_	4	prt	_	RP|00232936-r|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	cloak	cloak	NOUN	NN	_	4	dobj	_	NN|03045337-n|Clothing+
+8	,	,	.	,	_	7	punct	_	Fc|?|?
+9	which	which	DET	WDT	_	12	nsubj	_	WDT|?|?
+10	is	be	VERB	VBZ	_	12	cop	_	VBZ|02604760-v|Entity+
+11	very	very	ADV	RB	_	12	advmod	_	RB|00031899-r|SubjectiveAssessmentAttribute+
+12	large	large	ADJ	JJ	_	7	rcmod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+13	,	,	.	,	_	4	punct	_	Fc|?|?
+14	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+15	revealing	reveal	VERB	VBG	_	4	conj	_	VBG|00933821-v|Disseminating=
+16	extravagant	extravagant	ADJ	JJ	_	17	amod	_	JJ|02422242-a|SubjectiveStrongNegativeAttribute+
+17	apparel	apparel	NOUN	NN	_	15	dobj	_	NN|02728440-n|Clothing+
+18	.	.	.	.	_	4	punct	_	Fp|?|?

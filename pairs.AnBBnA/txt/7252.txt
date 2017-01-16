@@ -1,0 +1,53 @@
+sentence A = A woman in a shirt dyed in black is sitting next to a fluorescent green bag.
+sentence B = A woman is speaking on her cell phone and is keeping a purse and a yellow bag on the near ledge.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Shirt=,Coloring+,Black=,PhysicalAttribute+,SittingDown+,Position+,RadiatingLight+,Green=,Container+
+CONCEPTS B: Woman=,Entity+,Speaking+,Cell=,RadiatingSound+,Entity+,Keeping+,Bag+,SubjectiveAssessmentAttribute+,Bag+,Near=,GeographicArea+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	10	nsubj	_	NN|10787470-n|Woman=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	shirt	shirt	NOUN	NN	_	3	pobj	_	NN|04197391-n|Shirt=
+6	dyed	dye	VERB	VBN	_	5	partmod	_	VBN|00283090-v|Coloring+
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	black	black	ADJ	JJ	_	7	pobj	_	JJ|00392812-a|Black=
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02655135-v|PhysicalAttribute+
+10	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+11	next	next	ADJ	JJ	_	10	advmod	_	JJ|01294975-a|Position+
+12	to	to	ADP	IN	_	11	prep	_	TO|?|?
+13	a	a	DET	DT	_	16	det	_	DT|?|?
+14	fluorescent	fluorescent	ADJ	JJ	_	16	amod	_	JJ|00271419-a|RadiatingLight+
+15	green	green	ADJ	JJ	_	16	amod	_	JJ|00375969-a|Green=
+16	bag	bag	NOUN	NN	_	12	pobj	_	NN|02773037-n|Container+
+17	.	.	.	.	_	10	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	speaking	speak	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	her	her	PRON	PRP$	_	8	poss	_	PRP$|?|?
+7	cell	cell	NOUN	NN	_	8	nn	_	NN|00006484-n|Cell=
+8	phone	phone	NOUN	NN	_	5	pobj	_	NN|07111047-n|RadiatingSound+
+9	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	keeping	keep	VERB	VBG	_	4	conj	_	VBG|02681795-v|Keeping+
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	purse	purse	NOUN	NN	_	11	dobj	_	NN|02774152-n|Bag+
+14	and	and	CONJ	CC	_	13	cc	_	CC|?|?
+15	a	a	DET	DT	_	17	det	_	DT|?|?
+16	yellow	yellow	ADJ	JJ	_	17	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+17	bag	bag	NOUN	NN	_	13	conj	_	NN|02774152-n|Bag+
+18	on	on	ADP	IN	_	11	prep	_	IN|?|?
+19	the	the	DET	DT	_	21	det	_	DT|?|?
+20	near	near	ADJ	JJ	_	21	amod	_	JJ|00444519-a|Near=
+21	ledge	ledge	NOUN	NN	_	18	pobj	_	NN|09337253-n|GeographicArea+
+22	.	.	.	.	_	4	punct	_	Fp|?|?

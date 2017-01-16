@@ -1,0 +1,34 @@
+sentence A = A man dressed in black is riding a bike.
+sentence B = A man is performing stunts on a green bicycle.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Dressing+,Black=,Entity+,Transportation+,Bicycle=
+CONCEPTS B: Hominid=,Entity+,IntentionalProcess+,SubjectiveAssessmentAttribute+,Green=,Bicycle=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|02472293-n|Hominid=
+3	dressed	dress	VERB	VBN	_	2	partmod	_	VBN|00046534-v|Dressing+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	black	black	ADJ	JJ	_	4	pobj	_	JJ|00392812-a|Black=
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	bike	bike	NOUN	NN	_	7	dobj	_	NN|02834778-n|Bicycle=
+10	.	.	.	.	_	7	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	stunts	stunt	NOUN	NNS	_	4	dobj	_	NNS|00046344-n|SubjectiveAssessmentAttribute+
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	green	green	ADJ	JJ	_	9	amod	_	JJ|00375969-a|Green=
+9	bicycle	bicycle	NOUN	NN	_	6	pobj	_	NN|02834778-n|Bicycle=
+10	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,41 @@
+sentence A = A child in light colored clothing is standing with his arms extended outward.
+sentence B = A child in light colored clothing is lying with his arms crossed.
+entailm AB = A_neutral_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: HumanChild=,SubjectiveWeakPositiveAttribute+,SurfaceChange+,Clothing=,Entity+,PhysicalAttribute+,Weapon=,Increasing+,PositionalAttribute+
+CONCEPTS B: HumanChild=,SubjectiveWeakPositiveAttribute+,SurfaceChange+,Clothing=,Entity+,PhysicalAttribute+,Weapon=,Process+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	8	nsubj	_	NN|09917593-n|HumanChild=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	light	light	NOUN	NN	_	6	amod	_	JJ|01186408-a|SubjectiveWeakPositiveAttribute+
+5	colored	color	ADJ	JJ	_	6	amod	_	VBN|00283911-v|SurfaceChange+
+6	clothing	clothing	NOUN	NN	_	3	pobj	_	NN|03051540-n|Clothing=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+9	with	with	ADP	IN	_	12	mark	_	IN|?|?
+10	his	his	PRON	PRP$	_	11	poss	_	PRP$|?|?
+11	arms	arm	NOUN	NNS	_	12	nsubj	_	NNS|04565375-n|Weapon=
+12	extended	extend	VERB	VBN	_	8	advcl	_	VBD|00317888-v|Increasing+
+13	outward	outward	ADV	RB	_	12	advmod	_	RB|00258677-r|PositionalAttribute+
+14	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	8	nsubj	_	NN|09917593-n|HumanChild=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	light	light	NOUN	NN	_	6	amod	_	JJ|01186408-a|SubjectiveWeakPositiveAttribute+
+5	colored	color	ADJ	JJ	_	6	amod	_	VBN|00283911-v|SurfaceChange+
+6	clothing	clothing	NOUN	NN	_	3	pobj	_	NN|03051540-n|Clothing=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+9	with	with	ADP	IN	_	12	mark	_	IN|?|?
+10	his	his	PRON	PRP$	_	11	poss	_	PRP$|?|?
+11	arms	arm	NOUN	NNS	_	12	nsubj	_	NNS|04565375-n|Weapon=
+12	crossed	cross	VERB	VBN	_	8	advcl	_	VBD|02023396-v|Process+
+13	.	.	.	.	_	8	punct	_	Fp|?|?

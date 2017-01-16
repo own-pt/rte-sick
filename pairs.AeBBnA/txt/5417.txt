@@ -1,0 +1,40 @@
+sentence A = A man is passionately playing a guitar in front of an audience.
+sentence B = A person is passionately playing a guitar in front of an audience.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,SubjectiveAssessmentAttribute+,DramaticActing+,Guitar=,FrontFn=,Perception+
+CONCEPTS B: Human=,Entity+,SubjectiveAssessmentAttribute+,DramaticActing+,Guitar=,FrontFn=,Perception+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	passionately	passionately	ADV	RB	_	5	advmod	_	RB|00209874-r|SubjectiveAssessmentAttribute+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	guitar	guitar	NOUN	NN	_	5	dobj	_	NN|03467517-n|Guitar=
+8	in	in	ADP	IN	_	5	prep	_	IN|?|?
+9	front	front	NOUN	NN	_	8	pobj	_	NN|08573472-n|FrontFn=
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	an	a	DET	DT	_	12	det	_	DT|?|?
+12	audience	audience	NOUN	NN	_	10	pobj	_	NN|08221897-n|Perception+
+13	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	5	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	passionately	passionately	ADV	RB	_	5	advmod	_	RB|00209874-r|SubjectiveAssessmentAttribute+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	guitar	guitar	NOUN	NN	_	5	dobj	_	NN|03467517-n|Guitar=
+8	in	in	ADP	IN	_	5	prep	_	IN|?|?
+9	front	front	NOUN	NN	_	8	pobj	_	NN|08573472-n|FrontFn=
+10	of	of	ADP	IN	_	9	prep	_	IN|?|?
+11	an	a	DET	DT	_	12	det	_	DT|?|?
+12	audience	audience	NOUN	NN	_	10	pobj	_	NN|08221897-n|Perception+
+13	.	.	.	.	_	5	punct	_	Fp|?|?

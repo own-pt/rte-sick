@@ -1,0 +1,31 @@
+sentence A = The snowboarder is leaping fearlessly over white snow.
+sentence B = The snowboarder is leaping over white snow.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SportsPosition@,Entity+,Ambulating=,StateOfMind+,White=,Snowing=
+CONCEPTS B: SportsPosition@,Entity+,Ambulating=,SubjectiveAssessmentAttribute+,White=,Snowing=
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	snowboarder	snowboarder	NOUN	NN	_	4	nsubj	_	NN|10617665-n|SportsPosition@
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	leaping	leap	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	fearlessly	fearlessly	ADV	RB	_	4	advmod	_	RB|00199687-r|StateOfMind+
+6	over	over	ADP	IN	_	4	prep	_	IN|?|?
+7	white	white	ADJ	JJ	_	8	amod	_	JJ|00393105-a|White=
+8	snow	snow	NOUN	NN	_	6	pobj	_	NN|15043763-n|Snowing=
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	snowboarder	snowboarder	NOUN	NN	_	4	nsubj	_	NN|10617665-n|SportsPosition@
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	leaping	leap	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	over	over	ADP	IN	_	4	prep	_	RP|00226550-r|SubjectiveAssessmentAttribute+
+6	white	white	ADJ	JJ	_	7	amod	_	JJ|00393105-a|White=
+7	snow	snow	NOUN	NN	_	5	pobj	_	NN|15043763-n|Snowing=
+8	.	.	.	.	_	4	punct	_	Fp|?|?

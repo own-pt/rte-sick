@@ -1,0 +1,32 @@
+sentence A = A girl is applying makeup to her face.
+sentence B = The girl is applying makeup to her face.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Human+,Entity+,Covering+,Mixture+,Face+
+CONCEPTS B: Human+,Entity+,Covering+,Mixture+,Face+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	applying	apply	VERB	VBG	_	0	ROOT	_	VBG|01363648-v|Covering+
+5	makeup	makeup	NOUN	NN	_	4	dobj	_	NN|03714235-n|Mixture+
+6	to	to	ADP	IN	_	4	prep	_	TO|?|?
+7	her	her	PRON	PRP$	_	8	poss	_	PRP$|?|?
+8	face	face	NOUN	NN	_	6	pobj	_	NN|05600637-n|Face+
+9	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	applying	apply	VERB	VBG	_	0	ROOT	_	VBG|01363648-v|Covering+
+5	makeup	makeup	NOUN	NN	_	4	dobj	_	NN|03714235-n|Mixture+
+6	to	to	ADP	IN	_	4	prep	_	TO|?|?
+7	her	her	PRON	PRP$	_	8	poss	_	PRP$|?|?
+8	face	face	NOUN	NN	_	6	pobj	_	NN|05600637-n|Face+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

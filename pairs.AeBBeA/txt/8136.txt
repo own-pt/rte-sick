@@ -1,0 +1,37 @@
+sentence A = A girl with red hair and red eyebrows is talking.
+sentence B = A girl with red hair and red eyebrows is in midspeech.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Human+,Red=,Hair=,Red=,BodyPart+,Entity+,Speaking+
+CONCEPTS B: Human+,Red=,Hair=,Red=,BodyPart+,Entity+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	10	nsubj	_	NN|10129825-n|Human+
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	red	red	ADJ	JJ	_	5	amod	_	JJ|00381097-a|Red=
+5	hair	hair	NOUN	NN	_	3	pobj	_	NN|05254795-n|Hair=
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	red	red	ADJ	JJ	_	8	amod	_	JJ|00381097-a|Red=
+8	eyebrows	eyebrow	NOUN	NNS	_	5	conj	_	NNS|05313535-n|BodyPart+
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+11	.	.	.	.	_	10	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	9	nsubj	_	NN|10129825-n|Human+
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	red	red	ADJ	JJ	_	5	amod	_	JJ|00381097-a|Red=
+5	hair	hair	NOUN	NN	_	3	pobj	_	NN|05254795-n|Hair=
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	red	red	ADJ	JJ	_	8	amod	_	JJ|00381097-a|Red=
+8	eyebrows	eyebrow	NOUN	NNS	_	5	conj	_	NNS|05313535-n|BodyPart+
+9	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+10	in	in	ADP	IN	_	9	prep	_	IN|?|?
+11	midspeech	midspeech	NOUN	NN	_	10	pobj	_	NN|?|?
+12	.	.	.	.	_	9	punct	_	Fp|?|?

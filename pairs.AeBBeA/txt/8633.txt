@@ -1,0 +1,38 @@
+sentence A = A man is rock climbing, pausing and calculating the route.
+sentence B = A man is rock climbing, stopping and calculating the route.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Hominid=,Entity+,Mineral+,Increasing+,IntentionalProcess+,Calculating=,Roadway+
+CONCEPTS B: Hominid=,Entity+,Mineral+,Increasing+,Process+,Calculating=,Roadway+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	rock	rock	NOUN	NN	_	5	nn	_	NN|14696793-n|Mineral+
+5	climbing	climb	VERB	VBG	_	0	ROOT	_	VBG|00433232-v|Increasing+
+6	,	,	.	,	_	5	punct	_	Fc|?|?
+7	pausing	pause	VERB	VBG	_	5	conj	_	VBG|00779061-v|IntentionalProcess+
+8	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+9	calculating	calculate	VERB	VBG	_	5	conj	_	VBG|00637259-v|Calculating=
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	route	route	NOUN	NN	_	9	dobj	_	NN|04096066-n|Roadway+
+12	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	cop	_	VBZ|02604760-v|Entity+
+4	rock	rock	NOUN	NN	_	5	nn	_	NN|14696793-n|Mineral+
+5	climbing	climb	NOUN	NN	_	0	ROOT	_	VBG|00433232-v|Increasing+
+6	,	,	.	,	_	5	punct	_	Fc|?|?
+7	stopping	stop	VERB	VBG	_	5	conj	_	VBG|02680814-v|Process+
+8	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+9	calculating	calculate	VERB	VBG	_	5	conj	_	VBG|00637259-v|Calculating=
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	route	route	NOUN	NN	_	9	dobj	_	NN|04096066-n|Roadway+
+12	.	.	.	.	_	5	punct	_	Fp|?|?

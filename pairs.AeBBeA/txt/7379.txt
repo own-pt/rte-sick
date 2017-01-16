@@ -1,0 +1,41 @@
+sentence A = A child, who is young, dressed for cold weather, is standing outside.
+sentence B = A young child dressed for cold weather is standing outside.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: HumanChild=,Entity+,HumanYouth=,Dressing+,ColdTemperature=,WeatherProcess+,Entity+,PhysicalAttribute+
+CONCEPTS B: HumanYouth=,HumanChild=,Dressing+,ColdTemperature=,WeatherProcess+,Entity+,PhysicalAttribute+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	14	nsubj	_	NN|09917593-n|HumanChild=
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	_	6	nsubj	_	WP|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	young	young	ADJ	JJ	_	2	rcmod	_	JJ|01646941-a|HumanYouth=
+7	,	,	.	,	_	2	punct	_	Fc|?|?
+8	dressed	dress	VERB	VBN	_	2	partmod	_	VBN|00046534-v|Dressing+
+9	for	for	ADP	IN	_	8	prep	_	IN|?|?
+10	cold	cold	ADJ	JJ	_	11	amod	_	JJ|01251128-a|ColdTemperature=
+11	weather	weather	NOUN	NN	_	9	pobj	_	NN|11524662-n|WeatherProcess+
+12	,	,	.	,	_	2	punct	_	Fc|?|?
+13	is	be	VERB	VBZ	_	14	aux	_	VBZ|02604760-v|Entity+
+14	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+15	outside	outside	ADV	RB	_	14	advmod	_	IN|?|?
+16	.	.	.	.	_	14	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	child	child	NOUN	NN	_	9	nsubj	_	NN|09917593-n|HumanChild=
+4	dressed	dress	VERB	VBN	_	3	partmod	_	VBN|00046534-v|Dressing+
+5	for	for	ADP	IN	_	4	prep	_	IN|?|?
+6	cold	cold	ADJ	JJ	_	7	amod	_	JJ|01251128-a|ColdTemperature=
+7	weather	weather	NOUN	NN	_	5	pobj	_	NN|11524662-n|WeatherProcess+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+10	outside	outside	ADV	RB	_	9	advmod	_	IN|?|?
+11	.	.	.	.	_	9	punct	_	Fp|?|?

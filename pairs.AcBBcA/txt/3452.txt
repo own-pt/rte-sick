@@ -1,0 +1,35 @@
+sentence A = A man is chopping a log with an axe.
+sentence B = There is no man chopping a log with an axe.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Hominid=,Entity+,Cutting+,LogFn=,CuttingDevice+
+CONCEPTS B: Entity+,Hominid=,Cutting+,LogFn=,CuttingDevice+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	chopping	chop	VERB	VBG	_	0	ROOT	_	VBG|01257173-v|Cutting+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	log	log	NOUN	NN	_	4	dobj	_	NN|06812631-n|LogFn=
+7	with	with	ADP	IN	_	4	prep	_	IN|?|?
+8	an	a	DET	DT	_	9	det	_	DT|?|?
+9	axe	axe	NOUN	NN	_	7	pobj	_	NN|02764044-n|CuttingDevice+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	chopping	chop	VERB	VBG	_	4	partmod	_	VBG|01257173-v|Cutting+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	log	log	NOUN	NN	_	5	dobj	_	NN|06812631-n|LogFn=
+8	with	with	ADP	IN	_	5	prep	_	IN|?|?
+9	an	a	DET	DT	_	10	det	_	DT|?|?
+10	axe	axe	NOUN	NN	_	8	pobj	_	NN|02764044-n|CuttingDevice+
+11	.	.	.	.	_	2	punct	_	Fp|?|?

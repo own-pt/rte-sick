@@ -1,0 +1,40 @@
+sentence A = A colored toy is being carried by a brown dog in the grass.
+sentence B = A brown dog is carrying a colored toy in the grass.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: SurfaceChange+,RecreationOrExerciseDevice+,Entity+,Entity+,Transportation+,Human+,Canine+,Grass=
+CONCEPTS B: Human+,Canine+,Entity+,Transportation+,SurfaceChange+,RecreationOrExerciseDevice+,Grass=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	colored	color	VERB	VBN	_	3	amod	_	VBN|00283911-v|SurfaceChange+
+3	toy	toy	NOUN	NN	_	6	nsubjpass	_	NN|03964744-n|RecreationOrExerciseDevice+
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	being	be	VERB	VBG	_	6	auxpass	_	VBG|02604760-v|Entity+
+6	carried	carry	VERB	VBN	_	0	ROOT	_	VBN|01449974-v|Transportation+
+7	by	by	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	brown	brown	ADJ	JJ	_	10	amod	_	JJ|00245112-a|Human+
+10	dog	dog	NOUN	NN	_	7	pobj	_	NN|02084071-n|Canine+
+11	in	in	ADP	IN	_	6	prep	_	IN|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	grass	grass	NOUN	NN	_	11	pobj	_	NN|12102133-n|Grass=
+14	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	carrying	carry	VERB	VBG	_	0	ROOT	_	VBG|01449974-v|Transportation+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	colored	color	ADJ	JJ	_	8	amod	_	VBN|00283911-v|SurfaceChange+
+8	toy	toy	NOUN	NN	_	5	dobj	_	NN|03964744-n|RecreationOrExerciseDevice+
+9	in	in	ADP	IN	_	5	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	grass	grass	NOUN	NN	_	9	pobj	_	NN|12102133-n|Grass=
+12	.	.	.	.	_	5	punct	_	Fp|?|?

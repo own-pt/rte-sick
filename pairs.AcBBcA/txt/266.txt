@@ -1,0 +1,39 @@
+sentence A = The brown horse is near a red barrel at the rodeo.
+sentence B = The brown horse is far from a red barrel at the rodeo.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Human+,Horse=,Entity+,Red=,Cask=,RecreationOrExercise+
+CONCEPTS B: Human+,Horse=,Entity+,SubjectiveAssessmentAttribute+,Red=,Cask=,RecreationOrExercise+
+
+CONLL A:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	horse	horse	NOUN	NN	_	4	nsubj	_	NN|02374451-n|Horse=
+4	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+5	near	near	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	red	red	ADJ	JJ	_	8	amod	_	JJ|00381097-a|Red=
+8	barrel	barrel	NOUN	NN	_	5	pobj	_	NN|02795169-n|Cask=
+9	at	at	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	rodeo	rodeo	NOUN	NN	_	9	pobj	_	NN|00522939-n|RecreationOrExercise+
+12	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	horse	horse	NOUN	NN	_	4	nsubj	_	NN|02374451-n|Horse=
+4	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+5	far	far	ADV	RB	_	4	advmod	_	RB|00101323-r|SubjectiveAssessmentAttribute+
+6	from	from	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	red	red	ADJ	JJ	_	9	amod	_	JJ|00381097-a|Red=
+9	barrel	barrel	NOUN	NN	_	6	pobj	_	NN|02795169-n|Cask=
+10	at	at	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	rodeo	rodeo	NOUN	NN	_	10	pobj	_	NN|00522939-n|RecreationOrExercise+
+13	.	.	.	.	_	4	punct	_	Fp|?|?

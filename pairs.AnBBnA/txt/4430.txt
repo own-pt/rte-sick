@@ -1,0 +1,25 @@
+sentence A = Some women are not talking.
+sentence B = The men are talking.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,not=,Speaking+
+CONCEPTS B: Hominid=,Entity+,Speaking+
+
+CONLL A:
+
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	women	woman	NOUN	NNS	_	5	nsubj	_	NNS|10787470-n|Woman=
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+6	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+5	.	.	.	.	_	4	punct	_	Fp|?|?

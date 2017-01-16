@@ -1,0 +1,47 @@
+sentence A = The man is on ground which is mostly barren, filming a wheelie done with a motorcycle.
+sentence B = A man in a blue jumpsuit is courageously performing a wheelie on a motorcycle.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,LandArea=,Entity+,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,Photographing+,IntentionalProcess+,PassengerVehicle+
+CONCEPTS B: Man=,SubjectiveStrongNegativeAttribute+,Clothing+,Entity+,SubjectiveAssessmentAttribute+,IntentionalProcess+,PassengerVehicle+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	3	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+4	on	on	ADP	IN	_	3	prep	_	IN|?|?
+5	ground	ground	NOUN	NN	_	4	pobj	_	NN|09334396-n|LandArea=
+6	which	which	DET	WDT	_	9	nsubj	_	WDT|?|?
+7	is	be	VERB	VBZ	_	9	cop	_	VBZ|02604760-v|Entity+
+8	mostly	mostly	ADV	RB	_	9	advmod	_	RB|00155621-r|SubjectiveAssessmentAttribute+
+9	barren	barren	ADJ	JJ	_	5	rcmod	_	JJ|01242750-a|SubjectiveStrongNegativeAttribute+
+10	,	,	.	,	_	9	punct	_	Fc|?|?
+11	filming	film	VERB	VBG	_	9	xcomp	_	VBG|01002740-v|Photographing+
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	wheelie	wheelie	NOUN	NN	_	11	dobj	_	NN|?|?
+14	done	do	VERB	VBN	_	13	partmod	_	VBN|01712704-v|IntentionalProcess+
+15	with	with	ADP	IN	_	14	prep	_	IN|?|?
+16	a	a	DET	DT	_	17	det	_	DT|?|?
+17	motorcycle	motorcycle	NOUN	NN	_	15	pobj	_	NN|03790512-n|PassengerVehicle+
+18	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	9	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	blue	blue	ADJ	JJ	_	6	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+6	jumpsuit	jumpsuit	NOUN	NN	_	3	pobj	_	NN|03605598-n|Clothing+
+7	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+8	courageously	courageously	ADV	RB	_	9	advmod	_	RB|00172980-r|SubjectiveAssessmentAttribute+
+9	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	wheelie	wheelie	NOUN	NN	_	9	dobj	_	NN|?|?
+12	on	on	ADP	IN	_	9	prep	_	IN|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	motorcycle	motorcycle	NOUN	NN	_	12	pobj	_	NN|03790512-n|PassengerVehicle+
+15	.	.	.	.	_	9	punct	_	Fp|?|?

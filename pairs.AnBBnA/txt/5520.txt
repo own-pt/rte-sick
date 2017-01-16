@@ -1,0 +1,32 @@
+sentence A = A man is drawing on a digital dry erase board.
+sentence B = A person is drawing some figures.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,Entity+,Removing+,Device+,Dry=,Removing+,Table+
+CONCEPTS B: Human=,Entity+,Removing+,Human=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	drawing	draw	VERB	VBG	_	0	ROOT	_	VBG|01854132-v|Removing+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	10	det	_	DT|?|?
+7	digital	digital	ADJ	JJ	_	10	amod	_	JJ|00110701-a|Device+
+8	dry	dry	ADJ	JJ	_	9	amod	_	JJ|02551380-a|Dry=
+9	erase	erase	NOUN	NN	_	10	nn	_	VB|01548718-v|Removing+
+10	board	board	NOUN	NN	_	5	pobj	_	NN|03201208-n|Table+
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	drawing	draw	VERB	VBG	_	0	ROOT	_	VBG|01854132-v|Removing+
+5	some	some	DET	DT	_	6	det	_	DT|?|?
+6	figures	figure	NOUN	NNS	_	4	dobj	_	NNS|05217168-n|Human=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

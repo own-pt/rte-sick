@@ -1,0 +1,31 @@
+sentence A = The little kid is singing and playing the guitar.
+sentence B = A baby is playing a guitar.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveStrongNegativeAttribute+,HumanChild=,Entity+,MakingVocalMusic=,DramaticActing+,Guitar=
+CONCEPTS B: HumanBaby=,Entity+,DramaticActing+,Guitar=
+
+CONLL A:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	kid	kid	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	playing	play	VERB	VBG	_	5	conj	_	VBG|01719302-v|DramaticActing+
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	guitar	guitar	NOUN	NN	_	5	dobj	_	NN|03467517-n|Guitar=
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	baby	baby	NOUN	NN	_	4	nsubj	_	NN|09827683-n|HumanBaby=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+7	.	.	.	.	_	4	punct	_	Fp|?|?

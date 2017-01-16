@@ -1,0 +1,37 @@
+sentence A = Several young people are posing for a photo and holding beers.
+sentence B = Drinks are being held by people pointing at the camera.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanYouth=,GroupOfPeople=,Entity+,Putting=,Photograph=,Process+,Beer=
+CONCEPTS B: Beverage+,Entity+,Entity+,IntentionalProcess+,GroupOfPeople=,Indicating=,Camera=
+
+CONLL A:
+
+1	Several	several	ADJ	JJ	_	3	amod	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	people	people	NOUN	NNS	_	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	posing	pose	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+6	for	for	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	photo	photo	NOUN	NN	_	6	pobj	_	NN|03925226-n|Photograph=
+9	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+10	holding	hold	VERB	VBG	_	5	conj	_	VBG|02700867-v|Process+
+11	beers	beer	NOUN	NNS	_	10	dobj	_	NNS|07886849-n|Beer=
+12	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Drinks	drink	NOUN	NNS	_	4	nsubjpass	_	NNS|07885223-n|Beverage+
+2	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+3	being	be	VERB	VBG	_	4	auxpass	_	VBG|02604760-v|Entity+
+4	held	hold	VERB	VBN	_	0	ROOT	_	VBN|01151753-v|IntentionalProcess+
+5	by	by	ADP	IN	_	4	prep	_	IN|?|?
+6	people	people	NOUN	NNS	_	5	pobj	_	NNS|07942152-n|GroupOfPeople=
+7	pointing	point	VERB	VBG	_	6	partmod	_	VBG|00923793-v|Indicating=
+8	at	at	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	camera	camera	NOUN	NN	_	8	pobj	_	NN|02942699-n|Camera=
+11	.	.	.	.	_	4	punct	_	Fp|?|?

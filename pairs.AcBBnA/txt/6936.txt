@@ -1,0 +1,39 @@
+sentence A = A large crowd in warm clothing is walking away from a camera.
+sentence B = A large crowd in warm clothing is posing for a camera.
+entailm AB = A_contradicts_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveWeakPositiveAttribute+,SubjectiveAssessmentAttribute=,SubjectiveWeakPositiveAttribute+,Clothing=,Entity+,Walking=,Camera=
+CONCEPTS B: SubjectiveWeakPositiveAttribute+,SubjectiveAssessmentAttribute=,SubjectiveWeakPositiveAttribute+,Clothing=,Entity+,Putting=,Camera=
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	crowd	crowd	NOUN	NN	_	8	nsubj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	warm	warm	ADJ	JJ	_	6	amod	_	JJ|02530861-a|SubjectiveWeakPositiveAttribute+
+6	clothing	clothing	NOUN	NN	_	4	pobj	_	NN|03051540-n|Clothing=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+9	away	away	ADV	RB	_	8	advmod	_	RP|00234951-r|?
+10	from	from	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	camera	camera	NOUN	NN	_	10	pobj	_	NN|02942699-n|Camera=
+13	.	.	.	.	_	8	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	large	large	ADJ	JJ	_	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	crowd	crowd	NOUN	NN	_	8	nsubj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	warm	warm	ADJ	JJ	_	6	amod	_	JJ|02530861-a|SubjectiveWeakPositiveAttribute+
+6	clothing	clothing	NOUN	NN	_	4	pobj	_	NN|03051540-n|Clothing=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	posing	pose	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+9	for	for	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	camera	camera	NOUN	NN	_	9	pobj	_	NN|02942699-n|Camera=
+12	.	.	.	.	_	8	punct	_	Fp|?|?

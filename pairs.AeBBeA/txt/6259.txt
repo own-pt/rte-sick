@@ -1,0 +1,36 @@
+sentence A = Two women are wearing bikinis on the sandy beach.
+sentence B = Two women are wearing bikinis on the beach which is sandy.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Woman=,Entity+,CoveringFn=,Clothing+,part+,ShoreArea=
+CONCEPTS B: Woman=,Entity+,CoveringFn=,Clothing+,ShoreArea=,Entity+,part+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	women	woman	NOUN	NNS	_	4	nsubj	_	NNS|10787470-n|Woman=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+5	bikinis	bikini	NOUN	NNS	_	4	dobj	_	NNS|02837789-n|Clothing+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	9	det	_	DT|?|?
+8	sandy	sandy	ADJ	JJ	_	9	amod	_	JJ|00142040-a|part+
+9	beach	beach	NOUN	NN	_	6	pobj	_	NN|09217230-n|ShoreArea=
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	women	woman	NOUN	NNS	_	4	nsubj	_	NNS|10787470-n|Woman=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+5	bikinis	bikini	NOUN	NNS	_	4	dobj	_	NNS|02837789-n|Clothing+
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	beach	beach	NOUN	NN	_	6	pobj	_	NN|09217230-n|ShoreArea=
+9	which	which	DET	WDT	_	11	nsubj	_	WDT|?|?
+10	is	be	VERB	VBZ	_	11	cop	_	VBZ|02604760-v|Entity+
+11	sandy	sandy	ADJ	JJ	_	8	rcmod	_	JJ|00142040-a|part+
+12	.	.	.	.	_	4	punct	_	Fp|?|?

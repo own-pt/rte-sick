@@ -1,0 +1,45 @@
+sentence A = The brown dog is spotting a black dog lying in the dry grass.
+sentence B = A grey silky dog is sleeping in the grass and a brown dog is looking on.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Canine+,Entity+,SurfaceChange+,Black=,Canine+,PhysicalAttribute+,Dry=,Grass=
+CONCEPTS B: Gray+,TextureAttribute+,Canine+,Entity+,OrganismProcess+,Grass=,Human+,Canine+,Entity+,SubjectiveAssessmentAttribute+
+
+CONLL A:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	spotting	spot	VERB	VBG	_	0	ROOT	_	VBG|00509958-v|SurfaceChange+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	black	black	ADJ	JJ	_	8	amod	_	JJ|00392812-a|Black=
+8	dog	dog	NOUN	NN	_	5	dobj	_	NN|02084071-n|Canine+
+9	lying	lie	VERB	VBG	_	8	partmod	_	VBG|02690708-v|PhysicalAttribute+
+10	in	in	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	13	det	_	DT|?|?
+12	dry	dry	ADJ	JJ	_	13	amod	_	JJ|02551380-a|Dry=
+13	grass	grass	NOUN	NN	_	10	pobj	_	NN|12102133-n|Grass=
+14	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	grey	grey	ADJ	JJ	_	4	amod	_	JJ|00389310-a|Gray+
+3	silky	silky	ADJ	JJ	_	4	amod	_	JJ|00282675-a|TextureAttribute+
+4	dog	dog	NOUN	NN	_	6	nsubj	_	NN|02084071-n|Canine+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	sleeping	sleep	VERB	VBG	_	0	ROOT	_	VBG|00014742-v|OrganismProcess+
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	grass	grass	NOUN	NN	_	7	pobj	_	NN|12102133-n|Grass=
+10	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	brown	brown	ADJ	JJ	_	13	amod	_	JJ|00245112-a|Human+
+13	dog	dog	NOUN	NN	_	15	nsubj	_	NN|02084071-n|Canine+
+14	is	be	VERB	VBZ	_	15	aux	_	VBZ|02604760-v|Entity+
+15	looking	look	VERB	VBG	_	6	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+16	on	on	ADV	RB	_	15	advmod	_	IN|?|?
+17	.	.	.	.	_	6	punct	_	Fp|?|?

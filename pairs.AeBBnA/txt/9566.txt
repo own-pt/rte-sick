@@ -1,0 +1,32 @@
+sentence A = An elderly man is sitting on a bench.
+sentence B = An old person is sitting on a bench.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SubjectiveAssessmentAttribute+,Hominid=,PhysicalAttribute+,SittingDown+,Seat+
+CONCEPTS B: SubjectiveAssessmentAttribute+,Human=,PhysicalAttribute+,SittingDown+,Seat+
+
+CONLL A:
+
+1	An	a	DET	DT	_	3	det	_	DT|?|?
+2	elderly	elderly	ADJ	JJ	_	3	amod	_	JJ|01644225-a|SubjectiveAssessmentAttribute+
+3	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	bench	bench	NOUN	NN	_	6	pobj	_	NN|02828884-n|Seat+
+9	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	An	a	DET	DT	_	3	det	_	DT|?|?
+2	old	old	ADJ	JJ	_	3	amod	_	JJ|01643620-a|SubjectiveAssessmentAttribute+
+3	person	person	NOUN	NN	_	5	nsubj	_	NN|00007846-n|Human=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	bench	bench	NOUN	NN	_	6	pobj	_	NN|02828884-n|Seat+
+9	.	.	.	.	_	5	punct	_	Fp|?|?

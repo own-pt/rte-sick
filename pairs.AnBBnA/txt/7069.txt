@@ -1,0 +1,36 @@
+sentence A = A rollerblader is performing a trick on a ramp.
+sentence B = A man on inline skates is resting at a skate park.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: SocialRole+,Entity+,IntentionalProcess+,RecreationOrExercise+,StationaryArtifact+
+CONCEPTS B: Hominid=,Clothing+,Entity+,PastFn=,Clothing+,Park+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	rollerblader	rollerblader	NOUN	NN	_	4	nsubj	_	NN|10537018-n|SocialRole+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	trick	trick	NOUN	NN	_	4	dobj	_	NN|00427580-n|RecreationOrExercise+
+7	on	on	ADP	IN	_	4	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	ramp	ramp	NOUN	NN	_	7	pobj	_	NN|04051549-n|StationaryArtifact+
+10	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	7	nsubj	_	NN|02472293-n|Hominid=
+3	on	on	ADP	IN	_	2	prep	_	IN|?|?
+4	inline	inline	NOUN	NN	_	5	nn	_	JJ|?|?
+5	skates	skate	NOUN	NNS	_	3	pobj	_	NNS|04225729-n|Clothing+
+6	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+7	resting	rest	VERB	VBG	_	0	ROOT	_	VBG|00117985-v|PastFn=
+8	at	at	ADP	IN	_	7	prep	_	IN|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	skate	skate	NOUN	NN	_	11	nn	_	NN|04225729-n|Clothing+
+11	park	park	NOUN	NN	_	8	pobj	_	NN|08615374-n|Park+
+12	.	.	.	.	_	7	punct	_	Fp|?|?

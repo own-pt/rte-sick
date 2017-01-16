@@ -1,0 +1,33 @@
+sentence A = The man's jumper is in the empty pool.
+sentence B = A lone biker is jumping in the air.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Hominid=,SocialRole+,Entity+,ContainerEmpty+,StaticWaterArea+
+CONCEPTS B: SocialInteraction[,Entity+,Ambulating=,AirTransportation+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	poss	_	NN|02472293-n|Hominid=
+3	's	's	PRT	POS	_	2	possessive	_	POS|?|?
+4	jumper	jumper	NOUN	NN	_	5	nsubj	_	NN|10226803-n|SocialRole+
+5	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	9	det	_	DT|?|?
+8	empty	empty	ADJ	JJ	_	9	amod	_	JJ|01086545-a|ContainerEmpty+
+9	pool	pool	NOUN	NN	_	6	pobj	_	NN|09397607-n|StaticWaterArea+
+10	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	lone	lone	ADJ	JJ	_	3	amod	_	JJ|02251212-a|SocialInteraction[
+3	biker	biker	NOUN	NN	_	5	nsubj	_	NN|?|?
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	air	air	NOUN	NN	_	6	pobj	_	NN|00300441-n|AirTransportation+
+9	.	.	.	.	_	5	punct	_	Fp|?|?

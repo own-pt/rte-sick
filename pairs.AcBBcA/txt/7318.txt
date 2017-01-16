@@ -1,0 +1,54 @@
+sentence A = There is no man wearing a long sleeved blue shirt and jeans and riding a unicycle down a street.
+sentence B = A man is wearing a long sleeved blue shirt and jeans and is riding a unicycle down a street.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Man=,Putting+,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,Shirt=,Trousers+,Transportation+,AgentPoweredVehicle+,Roadway=
+CONCEPTS B: Man=,Entity+,Putting+,SubjectiveAssessmentAttribute+,SubjectiveStrongNegativeAttribute+,Shirt=,Trousers+,Entity+,Transportation+,AgentPoweredVehicle+,Roadway=
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|10287213-n|Man=
+5	wearing	wear	VERB	VBG	_	4	dep	_	VBG|00052374-v|Putting+
+6	a	a	DET	DT	_	10	det	_	DT|?|?
+7	long	long	ADV	RB	_	8	advmod	_	RB|00166025-r|SubjectiveAssessmentAttribute+
+8	sleeved	sleeved	VERB	VBN	_	10	amod	_	VBN|?|?
+9	blue	blue	ADJ	JJ	_	10	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+10	shirt	shirt	NOUN	NN	_	5	dobj	_	NN|04197391-n|Shirt=
+11	and	and	CONJ	CC	_	10	cc	_	CC|?|?
+12	jeans	jean	NOUN	NNS	_	10	conj	_	NNS|03594734-n|Trousers+
+13	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+14	riding	ride	VERB	VBG	_	5	conj	_	VBG|02102398-v|Transportation+
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	unicycle	unicycle	NOUN	NN	_	14	dobj	_	NN|04509417-n|AgentPoweredVehicle+
+17	down	down	ADP	IN	_	14	prep	_	IN|?|?
+18	a	a	DET	DT	_	19	det	_	DT|?|?
+19	street	street	NOUN	NN	_	17	pobj	_	NN|04334599-n|Roadway=
+20	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+5	a	a	DET	DT	_	9	det	_	DT|?|?
+6	long	long	ADJ	JJ	_	9	amod	_	RB|00166025-r|SubjectiveAssessmentAttribute+
+7	sleeved	sleeved	VERB	VBN	_	9	amod	_	VBN|?|?
+8	blue	blue	ADJ	JJ	_	9	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+9	shirt	shirt	NOUN	NN	_	4	dobj	_	NN|04197391-n|Shirt=
+10	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+11	jeans	jean	NOUN	NNS	_	9	conj	_	NNS|03594734-n|Trousers+
+12	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+13	is	be	VERB	VBZ	_	14	aux	_	VBZ|02604760-v|Entity+
+14	riding	ride	VERB	VBG	_	4	conj	_	VBG|02102398-v|Transportation+
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	unicycle	unicycle	NOUN	NN	_	14	dobj	_	NN|04509417-n|AgentPoweredVehicle+
+17	down	down	ADP	IN	_	14	prep	_	IN|?|?
+18	a	a	DET	DT	_	19	det	_	DT|?|?
+19	street	street	NOUN	NN	_	17	pobj	_	NN|04334599-n|Roadway=
+20	.	.	.	.	_	4	punct	_	Fp|?|?

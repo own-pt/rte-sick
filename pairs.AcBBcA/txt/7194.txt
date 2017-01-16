@@ -1,0 +1,33 @@
+sentence A = There is no man standing next to a bus.
+sentence B = A man is standing next to a bus.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Entity+,Hominid=,SocialRole+,Position+,Conductor+
+CONCEPTS B: Hominid=,Entity+,PhysicalAttribute+,Position+,Conductor+
+
+CONLL A:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	standing	standing	VERB	VBG	_	4	partmod	_	NN|13948136-n|SocialRole+
+6	next	next	ADV	RB	_	5	advmod	_	JJ|01294975-a|Position+
+7	to	to	ADP	IN	_	6	prep	_	TO|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	bus	bus	NOUN	NN	_	7	pobj	_	NN|02924713-n|Conductor+
+10	.	.	.	.	_	2	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	next	next	ADV	RB	_	4	advmod	_	JJ|01294975-a|Position+
+6	to	to	ADP	IN	_	5	prep	_	TO|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	bus	bus	NOUN	NN	_	6	pobj	_	NN|02924713-n|Conductor+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

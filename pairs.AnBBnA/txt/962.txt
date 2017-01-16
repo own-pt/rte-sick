@@ -1,0 +1,65 @@
+sentence A = A man in a shirt dyed purple is looking at a man in a black shirt who is doing a funny face.
+sentence B = A man in a purple shirt is dying another shirt black, which has a man looking at a dog doing a funny face painted on it.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Man=,Shirt=,Coloring+,ColorAttribute+,Entity+,SubjectiveAssessmentAttribute+,Man=,Black=,Shirt=,Entity+,IntentionalProcess+,SubjectiveStrongPositiveAttribute+,FacialExpression=
+CONCEPTS B: Man=,SocialRole+,Shirt=,Entity+,Death+,Shirt=,Black=,Damaging+,Man=,SubjectiveAssessmentAttribute+,Canine+,IntentionalProcess+,SubjectiveStrongPositiveAttribute+,FacialExpression=,Painting=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	9	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	7	det	_	DT|?|?
+5	shirt	shirt	NOUN	NN	_	6	dep	_	NN|04197391-n|Shirt=
+6	dyed	dye	VERB	VBN	_	7	amod	_	VBN|00283090-v|Coloring+
+7	purple	purple	NOUN	NN	_	3	pobj	_	NN|04970059-n|ColorAttribute+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+10	at	at	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	man	man	NOUN	NN	_	10	pobj	_	NN|10287213-n|Man=
+13	in	in	ADP	IN	_	9	prep	_	IN|?|?
+14	a	a	DET	DT	_	16	det	_	DT|?|?
+15	black	black	ADJ	JJ	_	16	amod	_	JJ|00392812-a|Black=
+16	shirt	shirt	NOUN	NN	_	13	pobj	_	NN|04197391-n|Shirt=
+17	who	who	PRON	WP	_	19	nsubj	_	WP|?|?
+18	is	be	VERB	VBZ	_	19	aux	_	VBZ|02604760-v|Entity+
+19	doing	do	VERB	VBG	_	16	rcmod	_	VBG|01712704-v|IntentionalProcess+
+20	a	a	DET	DT	_	22	det	_	DT|?|?
+21	funny	funny	ADJ	JJ	_	22	amod	_	JJ|01265308-a|SubjectiveStrongPositiveAttribute+
+22	face	face	NOUN	NN	_	19	dobj	_	NN|04679738-n|FacialExpression=
+23	.	.	.	.	_	9	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	purple	purple	ADJ	JJ	_	6	amod	_	JJ|01591394-a|SocialRole+
+6	shirt	shirt	NOUN	NN	_	3	pobj	_	NN|04197391-n|Shirt=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	dying	die	VERB	VBG	_	0	ROOT	_	VBG|00358431-v|Death+
+9	another	another	DET	DT	_	10	det	_	DT|?|?
+10	shirt	shirt	NOUN	NN	_	8	dobj	_	NN|04197391-n|Shirt=
+11	black	black	ADJ	JJ	_	10	amod	_	JJ|00392812-a|Black=
+12	,	,	.	,	_	10	punct	_	Fc|?|?
+13	which	which	DET	WDT	_	14	nsubj	_	WDT|?|?
+14	has	have	VERB	VBZ	_	10	rcmod	_	VBZ|00065639-v|Damaging+
+15	a	a	DET	DT	_	16	det	_	DT|?|?
+16	man	man	NOUN	NN	_	14	dobj	_	NN|10287213-n|Man=
+17	looking	look	VERB	VBG	_	16	partmod	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+18	at	at	ADP	IN	_	17	prep	_	IN|?|?
+19	a	a	DET	DT	_	20	det	_	DT|?|?
+20	dog	dog	NOUN	NN	_	18	pobj	_	NN|02084071-n|Canine+
+21	doing	do	VERB	VBG	_	20	partmod	_	VBG|01712704-v|IntentionalProcess+
+22	a	a	DET	DT	_	24	det	_	DT|?|?
+23	funny	funny	ADJ	JJ	_	24	amod	_	JJ|01265308-a|SubjectiveStrongPositiveAttribute+
+24	face	face	NOUN	NN	_	21	dobj	_	NN|04679738-n|FacialExpression=
+25	painted	paint	VERB	VBN	_	24	partmod	_	VBN|01362736-v|Painting=
+26	on	on	ADP	IN	_	25	prep	_	IN|?|?
+27	it	it	PRON	PRP	_	26	pobj	_	PRP|?|?
+28	.	.	.	.	_	8	punct	_	Fp|?|?

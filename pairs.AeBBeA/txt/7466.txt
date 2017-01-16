@@ -1,0 +1,38 @@
+sentence A = The group of people is sitting in a dim room.
+sentence B = The group of people is sitting in a room which is dim.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Group=,GroupOfPeople=,PhysicalAttribute+,SittingDown+,Decreasing+,Room=
+CONCEPTS B: Group=,GroupOfPeople=,PhysicalAttribute+,SittingDown+,Room=,PhysicalAttribute+,Decreasing+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	people	people	NOUN	NNS	_	3	pobj	_	NNS|07942152-n|GroupOfPeople=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02655135-v|PhysicalAttribute+
+6	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	dim	dim	ADJ	JJ	_	10	amod	_	JJ|00284575-a|Decreasing+
+10	room	room	NOUN	NN	_	7	pobj	_	NN|04105893-n|Room=
+11	.	.	.	.	_	6	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	people	people	NOUN	NNS	_	3	pobj	_	NNS|07942152-n|GroupOfPeople=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02655135-v|PhysicalAttribute+
+6	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	room	room	NOUN	NN	_	7	pobj	_	NN|04105893-n|Room=
+10	which	which	DET	WDT	_	12	nsubj	_	WDT|?|?
+11	is	be	VERB	VBZ	_	12	cop	_	VBZ|02655135-v|PhysicalAttribute+
+12	dim	dim	ADJ	JJ	_	9	rcmod	_	JJ|00284575-a|Decreasing+
+13	.	.	.	.	_	6	punct	_	Fp|?|?

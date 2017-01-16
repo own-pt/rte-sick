@@ -1,0 +1,35 @@
+sentence A = A dog is running towards a ball.
+sentence B = A dog is running through a field and is chasing a toy.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Canine+,Entity+,Attribute+,Ball=
+CONCEPTS B: Canine+,Entity+,Attribute+,FieldOfStudy=,Entity+,Pursuing+,RecreationOrExerciseDevice+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	towards	towards	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	ball	ball	NOUN	NN	_	5	pobj	_	NN|02778669-n|Ball=
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	through	through	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	field	field	NOUN	NN	_	5	pobj	_	NN|05996646-n|FieldOfStudy=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	chasing	chase	VERB	VBG	_	4	conj	_	VBG|02001858-v|Pursuing+
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	toy	toy	NOUN	NN	_	10	dobj	_	NN|03964744-n|RecreationOrExerciseDevice+
+13	.	.	.	.	_	4	punct	_	Fp|?|?

@@ -1,0 +1,31 @@
+sentence A = People are sitting against a wall.
+sentence B = Five adults are sitting on steps made of stone.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: GroupOfPeople=,PhysicalAttribute+,SittingDown+,Wall=
+CONCEPTS B: FullyFormed+,PhysicalAttribute+,SittingDown+,RadiatingSound+,Attribute+,Mineral+
+
+CONLL A:
+
+1	People	people	NOUN	NNS	_	3	nsubj	_	NNS|07942152-n|GroupOfPeople=
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02655135-v|PhysicalAttribute+
+3	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+4	against	against	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	wall	wall	NOUN	NN	_	4	pobj	_	NN|04546855-n|Wall=
+7	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Five	5	NUM	CD	_	2	num	_	Z|?|?
+2	adults	adult	NOUN	NNS	_	4	nsubj	_	NNS|09605289-n|FullyFormed+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	steps	step	NOUN	NNS	_	5	pobj	_	NNS|07383823-n|RadiatingSound+
+7	made	make	VERB	VBN	_	6	partmod	_	VBN|02621395-v|Attribute+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	stone	stone	NOUN	NN	_	8	pobj	_	NN|14696793-n|Mineral+
+10	.	.	.	.	_	4	punct	_	Fp|?|?

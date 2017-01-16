@@ -1,0 +1,44 @@
+sentence A = A black person is running along a white stand and a dog barks behind him.
+sentence B = A little dog is sprinting and its owner is trying to catch it.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Black=,Human=,Entity+,Attribute+,SubjectiveAssessmentAttribute+,White=,SubjectiveAssessmentAttribute=,Canine+,RadiatingSound+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Canine+,Entity+,Walking+,Human+,Entity+,IntentionalProcess+,Grabbing+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	person	person	NOUN	NN	_	5	nsubj	_	NN|00007846-n|Human=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+6	along	along	ADP	IN	_	5	prep	_	RP|00069164-r|SubjectiveAssessmentAttribute+
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	white	white	ADJ	JJ	_	9	amod	_	JJ|00393105-a|White=
+9	stand	stand	NOUN	NN	_	6	pobj	_	NN|06210363-n|SubjectiveAssessmentAttribute=
+10	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	dog	dog	NOUN	NN	_	13	nn	_	NN|02084071-n|Canine+
+13	barks	bark	NOUN	NNS	_	9	conj	_	NNS|07376621-n|RadiatingSound+
+14	behind	behind	ADP	IN	_	13	prep	_	IN|?|?
+15	him	him	PRON	PRP	_	14	pobj	_	PRP|?|?
+16	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	sprinting	sprint	VERB	VBG	_	0	ROOT	_	VBG|01928579-v|Walking+
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	its	its	PRON	PRP$	_	8	poss	_	PRP$|?|?
+8	owner	owner	NOUN	NN	_	10	nsubj	_	NN|10388924-n|Human+
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	trying	try	VERB	VBG	_	5	conj	_	VBG|02530167-v|IntentionalProcess+
+11	to	to	PRT	TO	_	12	aux	_	TO|?|?
+12	catch	catch	VERB	VB	_	10	xcomp	_	VB|01439190-v|Grabbing+
+13	it	it	PRON	PRP	_	12	dobj	_	PRP|?|?
+14	.	.	.	.	_	5	punct	_	Fp|?|?

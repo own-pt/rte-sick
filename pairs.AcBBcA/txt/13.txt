@@ -1,0 +1,29 @@
+sentence A = Two dogs are wrestling and hugging.
+sentence B = There is no dog wrestling and hugging.
+entailm AB = A_contradicts_B.
+entailm BA = B_contradicts_A.
+
+CONCEPTS A: Canine+,Entity+,Wrestling+,Embracing+
+CONCEPTS B: Entity+,Canine+,Wrestling+,Embracing+
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	wrestling	wrestle	VERB	VBG	_	0	ROOT	_	VBG|01504699-v|Wrestling+
+5	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+6	hugging	hug	VERB	VBG	_	4	conj	_	VBG|01424456-v|Embracing+
+7	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	dog	dog	NOUN	NN	_	5	nn	_	NN|02084071-n|Canine+
+5	wrestling	wrestle	NOUN	NN	_	2	nsubj	_	VBG|01504699-v|Wrestling+
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	hugging	hug	NOUN	NN	_	5	conj	_	VBG|01424456-v|Embracing+
+8	.	.	.	.	_	2	punct	_	Fp|?|?

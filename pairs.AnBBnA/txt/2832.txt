@@ -1,0 +1,33 @@
+sentence A = The woman is not penciling on eyeshadow.
+sentence B = The girl is using an eye pencil on her eyelid.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Woman=,Entity+,not=,ContentDevelopment+,Mixture+
+CONCEPTS B: Human+,Entity+,IntentionalProcess+,Organ+,Pencil=,Eyelid+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	penciling	pencil	VERB	VBG	_	0	ROOT	_	VBG|01688604-v|ContentDevelopment+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	eyeshadow	eyeshadow	NOUN	NN	_	6	pobj	_	NN|03309687-n|Mixture+
+8	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	using	use	VERB	VBG	_	0	ROOT	_	VBG|01158872-v|IntentionalProcess+
+5	an	a	DET	DT	_	7	det	_	DT|?|?
+6	eye	eye	NOUN	NN	_	7	nn	_	NN|05311054-n|Organ+
+7	pencil	pencil	NOUN	NN	_	4	dobj	_	NN|03908204-n|Pencil=
+8	on	on	ADP	IN	_	4	prep	_	IN|?|?
+9	her	her	PRON	PRP$	_	10	poss	_	PRP$|?|?
+10	eyelid	eyelid	NOUN	NN	_	8	pobj	_	NN|05313822-n|Eyelid+
+11	.	.	.	.	_	4	punct	_	Fp|?|?

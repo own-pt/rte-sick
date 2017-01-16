@@ -1,0 +1,30 @@
+sentence A = A wild deer is jumping a fence.
+sentence B = A deer is jumping over a fence.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Organism+,Deer=,Entity+,Ambulating=,Device+
+CONCEPTS B: Deer=,Entity+,Ambulating=,SubjectiveAssessmentAttribute+,Device+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	wild	wild	ADJ	JJ	_	3	amod	_	JJ|02389220-a|Organism+
+3	deer	deer	NOUN	NN	_	5	nsubj	_	NN|02430045-n|Deer=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	fence	fence	NOUN	NN	_	5	dobj	_	NN|03327234-n|Device+
+8	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	deer	deer	NOUN	NN	_	4	nsubj	_	NN|02430045-n|Deer=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+5	over	over	ADP	IN	_	4	prep	_	RP|00226550-r|SubjectiveAssessmentAttribute+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	fence	fence	NOUN	NN	_	5	pobj	_	NN|03327234-n|Device+
+8	.	.	.	.	_	4	punct	_	Fp|?|?

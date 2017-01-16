@@ -1,0 +1,30 @@
+sentence A = Two teams are enthusiastically playing soccer.
+sentence B = Different teams are playing football on a field.
+entailm AB = A_entails_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Organization=,Entity+,SubjectiveAssessmentAttribute+,DramaticActing+,Soccer=
+CONCEPTS B: equal+,Organization=,Entity+,Game+,Football+,FieldOfStudy=
+
+CONLL A:
+
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	teams	team	NOUN	NNS	_	5	nsubj	_	NNS|08208560-n|Organization=
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	enthusiastically	enthusiastically	ADV	RB	_	5	advmod	_	RB|00456484-r|SubjectiveAssessmentAttribute+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	soccer	soccer	NOUN	NN	_	5	dobj	_	NN|00478262-n|Soccer=
+7	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Different	different	ADJ	JJ	_	2	amod	_	JJ|02064745-a|equal+
+2	teams	team	NOUN	NNS	_	4	nsubj	_	NNS|08208560-n|Organization=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01072949-v|Game+
+5	football	football	NOUN	NN	_	4	dobj	_	NN|00468480-n|Football+
+6	on	on	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	field	field	NOUN	NN	_	6	pobj	_	NN|05996646-n|FieldOfStudy=
+9	.	.	.	.	_	4	punct	_	Fp|?|?

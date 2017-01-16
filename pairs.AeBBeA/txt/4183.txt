@@ -1,0 +1,31 @@
+sentence A = A dog is playing with a toy.
+sentence B = A dog is having fun with a toy.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Canine+,Entity+,DramaticActing+,RecreationOrExerciseDevice+
+CONCEPTS B: Canine+,Entity+,Damaging+,TraitAttribute+,RecreationOrExerciseDevice+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	toy	toy	NOUN	NN	_	5	pobj	_	NN|03964744-n|RecreationOrExerciseDevice+
+8	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	having	have	VERB	VBG	_	0	ROOT	_	VBG|00065639-v|Damaging+
+5	fun	fun	NOUN	NN	_	4	dobj	_	NN|04649261-n|TraitAttribute+
+6	with	with	ADP	IN	_	4	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	toy	toy	NOUN	NN	_	6	pobj	_	NN|03964744-n|RecreationOrExerciseDevice+
+9	.	.	.	.	_	4	punct	_	Fp|?|?

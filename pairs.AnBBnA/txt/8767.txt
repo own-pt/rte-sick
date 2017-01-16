@@ -1,0 +1,37 @@
+sentence A = A child is wearing a yellow jacket and is jumping down from a rock.
+sentence B = A young boy is jumping into water.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: HumanChild=,Entity+,RecreationOrExercise+,SubjectiveAssessmentAttribute+,Coat=,Entity+,Ambulating=,earlier+,Mineral+
+CONCEPTS B: HumanYouth=,Human+,Entity+,Ambulating=,Water=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	yellow	yellow	ADJ	JJ	_	7	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+7	jacket	jacket	NOUN	NN	_	4	dobj	_	NN|03589791-n|Coat=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	jumping	jump	VERB	VBG	_	4	conj	_	VBG|01963942-v|Ambulating=
+11	down	down	ADV	RB	_	10	advmod	_	RP|00096089-r|earlier+
+12	from	from	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	rock	rock	NOUN	NN	_	12	pobj	_	NN|14696793-n|Mineral+
+15	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	boy	boy	NOUN	NN	_	5	nsubj	_	NN|10285313-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+6	into	into	ADP	IN	_	5	prep	_	IN|?|?
+7	water	water	NOUN	NN	_	6	pobj	_	NN|14845743-n|Water=
+8	.	.	.	.	_	5	punct	_	Fp|?|?

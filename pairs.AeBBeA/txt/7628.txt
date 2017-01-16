@@ -1,0 +1,58 @@
+sentence A = A man is wearing a red jacket and standing beside a yellow canoe on some rocks with water in the background.
+sentence B = A man is wearing a red jacket and standing beside a yellow canoe on some boulders with water in the background.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Man=,Entity+,CoveringFn=,Red=,Coat=,SocialRole+,SubjectiveAssessmentAttribute+,TransportationDevice+,Mineral+,Water=,Region+
+CONCEPTS B: Man=,Entity+,CoveringFn=,Red=,Coat=,SocialRole+,SubjectiveAssessmentAttribute+,TransportationDevice+,Mineral+,Water=,Region+
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	red	red	ADJ	JJ	_	7	amod	_	JJ|00381097-a|Red=
+7	jacket	jacket	NOUN	NN	_	4	dobj	_	NN|03589791-n|Coat=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	standing	standing	VERB	VBG	_	4	conj	_	NN|13948136-n|SocialRole+
+10	beside	beside	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	yellow	yellow	ADJ	JJ	_	13	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+13	canoe	canoe	NOUN	NN	_	10	pobj	_	NN|02951358-n|TransportationDevice+
+14	on	on	ADP	IN	_	9	prep	_	IN|?|?
+15	some	some	DET	DT	_	16	det	_	DT|?|?
+16	rocks	rock	NOUN	NNS	_	14	pobj	_	NNS|14696793-n|Mineral+
+17	with	with	ADP	IN	_	9	prep	_	IN|?|?
+18	water	water	NOUN	NN	_	17	pobj	_	NN|14845743-n|Water=
+19	in	in	ADP	IN	_	9	prep	_	IN|?|?
+20	the	the	DET	DT	_	21	det	_	DT|?|?
+21	background	background	NOUN	NN	_	19	pobj	_	NN|14513259-n|Region+
+22	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	red	red	ADJ	JJ	_	7	amod	_	JJ|00381097-a|Red=
+7	jacket	jacket	NOUN	NN	_	4	dobj	_	NN|03589791-n|Coat=
+8	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+9	standing	standing	VERB	VBG	_	4	conj	_	NN|13948136-n|SocialRole+
+10	beside	beside	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	yellow	yellow	ADJ	JJ	_	13	amod	_	JJ|02101942-a|SubjectiveAssessmentAttribute+
+13	canoe	canoe	NOUN	NN	_	10	pobj	_	NN|02951358-n|TransportationDevice+
+14	on	on	ADP	IN	_	9	prep	_	IN|?|?
+15	some	some	DET	DT	_	16	det	_	DT|?|?
+16	boulders	boulder	NOUN	NNS	_	14	pobj	_	NNS|09227839-n|Mineral+
+17	with	with	ADP	IN	_	16	prep	_	IN|?|?
+18	water	water	NOUN	NN	_	17	pobj	_	NN|14845743-n|Water=
+19	in	in	ADP	IN	_	18	prep	_	IN|?|?
+20	the	the	DET	DT	_	21	det	_	DT|?|?
+21	background	background	NOUN	NN	_	19	pobj	_	NN|14513259-n|Region+
+22	.	.	.	.	_	4	punct	_	Fp|?|?

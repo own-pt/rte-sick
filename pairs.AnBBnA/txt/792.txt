@@ -1,0 +1,37 @@
+sentence A = A man is watering the grass and excitedly playing with a dog.
+sentence B = The dog is snapping at some droplets of water.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Man=,Entity+,Wetting+,Grass=,SubjectiveAssessmentAttribute+,DramaticActing+,Canine+
+CONCEPTS B: Canine+,Entity+,SoundAttribute+,SubjectiveAssessmentAttribute+,Water=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	watering	water	VERB	VBG	_	0	ROOT	_	VBG|00228236-v|Wetting+
+5	the	the	DET	DT	_	6	det	_	DT|?|?
+6	grass	grass	NOUN	NN	_	4	dobj	_	NN|12102133-n|Grass=
+7	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+8	excitedly	excitedly	ADV	RB	_	4	advmod	_	RB|00153977-r|SubjectiveAssessmentAttribute+
+9	playing	play	VERB	VBG	_	4	conj	_	VBG|01719302-v|DramaticActing+
+10	with	with	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	dog	dog	NOUN	NN	_	10	pobj	_	NN|02084071-n|Canine+
+13	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	snapping	snap	VERB	VBG	_	0	ROOT	_	VBG|02182851-v|SoundAttribute+
+5	at	at	ADP	IN	_	4	prep	_	IN|?|?
+6	some	some	DET	DT	_	7	det	_	DT|?|?
+7	droplets	droplet	NOUN	NNS	_	5	pobj	_	NNS|13771828-n|SubjectiveAssessmentAttribute+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	water	water	NOUN	NN	_	8	pobj	_	NN|14845743-n|Water=
+10	.	.	.	.	_	4	punct	_	Fp|?|?

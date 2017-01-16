@@ -1,0 +1,39 @@
+sentence A = A brown dog is staring attentively at a brown and white dog.
+sentence B = The little dog is dropping the bedroom slipper from its mouth.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Human+,Canine+,Entity+,Looking=,SubjectiveAssessmentAttribute+,Human+,White=,Canine+
+CONCEPTS B: SubjectiveStrongNegativeAttribute+,Canine+,Entity+,MotionDownward=,Bedroom+,Shoe+,Mouth+
+
+CONLL A:
+
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	brown	brown	ADJ	JJ	_	3	amod	_	JJ|00245112-a|Human+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	staring	stare	VERB	VBG	_	0	ROOT	_	VBG|02132745-v|Looking=
+6	attentively	attentively	ADV	RB	_	5	advmod	_	RB|00196417-r|SubjectiveAssessmentAttribute+
+7	at	at	ADP	IN	_	5	prep	_	IN|?|?
+8	a	a	DET	DT	_	12	det	_	DT|?|?
+9	brown	brown	ADJ	JJ	_	12	amod	_	JJ|00245112-a|Human+
+10	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+11	white	white	ADJ	JJ	_	9	conj	_	JJ|00393105-a|White=
+12	dog	dog	NOUN	NN	_	7	pobj	_	NN|02084071-n|Canine+
+13	.	.	.	.	_	5	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	dropping	drop	VERB	VBG	_	0	ROOT	_	VBG|01977701-v|MotionDownward=
+6	the	the	DET	DT	_	8	det	_	DT|?|?
+7	bedroom	bedroom	NOUN	NN	_	8	nn	_	NN|02821627-n|Bedroom+
+8	slipper	slipper	NOUN	NN	_	5	dobj	_	NN|04241394-n|Shoe+
+9	from	from	ADP	IN	_	5	prep	_	IN|?|?
+10	its	its	PRON	PRP$	_	11	poss	_	PRP$|?|?
+11	mouth	mouth	NOUN	NN	_	9	pobj	_	NN|05302499-n|Mouth+
+12	.	.	.	.	_	5	punct	_	Fp|?|?

@@ -1,0 +1,28 @@
+sentence A = A boat is anchored.
+sentence B = The guitar is being played by the man.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: WaterVehicle=,Entity+,Attaching+
+CONCEPTS B: Guitar=,Entity+,Entity+,DramaticActing+,Hominid=
+
+CONLL A:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boat	boat	NOUN	NN	_	4	nsubjpass	_	NN|02858304-n|WaterVehicle=
+3	is	be	VERB	VBZ	_	4	auxpass	_	VBZ|02604760-v|Entity+
+4	anchored	anchor	VERB	VBN	_	0	ROOT	_	VBN|01304716-v|Attaching+
+5	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	guitar	guitar	NOUN	NN	_	5	nsubjpass	_	NN|03467517-n|Guitar=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	played	play	VERB	VBN	_	0	ROOT	_	VBN|01719302-v|DramaticActing+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	man	man	NOUN	NN	_	6	pobj	_	NN|02472293-n|Hominid=
+9	.	.	.	.	_	5	punct	_	Fp|?|?

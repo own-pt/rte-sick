@@ -1,0 +1,32 @@
+sentence A = Someone is taking the okra out of a pot.
+sentence B = Someone is boiling okra in a pot.
+entailm AB = A_neutral_B.
+entailm BA = B_neutral_A.
+
+CONCEPTS A: Entity+,PhysicalAttribute+,FloweringPlant+,Giving+,SubjectiveAssessmentAttribute+
+CONCEPTS B: Entity+,Boiling=,FloweringPlant+,SubjectiveAssessmentAttribute+
+
+CONLL A:
+
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	taking	take	VERB	VBG	_	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
+4	the	the	DET	DT	_	5	det	_	DT|?|?
+5	okra	okra	NOUN	NN	_	3	dobj	_	NN|12171966-n|FloweringPlant+
+6	out	out	ADP	IN	_	3	prep	_	RP|00233413-r|Giving+
+7	of	of	ADP	IN	_	6	pcomp	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	pot	pot	NOUN	NN	_	7	pobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+10	.	.	.	.	_	3	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	boiling	boil	VERB	VBG	_	0	ROOT	_	VBG|00375021-v|Boiling=
+4	okra	okra	NOUN	NNP	_	3	dobj	_	NN|12171966-n|FloweringPlant+
+5	in	in	ADP	IN	_	3	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	pot	pot	NOUN	NN	_	5	pobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+8	.	.	.	.	_	3	punct	_	Fp|?|?

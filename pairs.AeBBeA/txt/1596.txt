@@ -1,0 +1,36 @@
+sentence A = The man is typing on a machine used for stenography.
+sentence B = A man is typing on a machine used for stenography.
+entailm AB = A_entails_B.
+entailm BA = B_entails_A.
+
+CONCEPTS A: Hominid=,Entity+,Writing+,Automobile=,IntentionalProcess+,Procedure+
+CONCEPTS B: Hominid=,Entity+,Writing+,Automobile=,IntentionalProcess+,Procedure+
+
+CONLL A:
+
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	typing	type	VERB	VBG	_	0	ROOT	_	VBG|01004692-v|Writing+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	machine	machine	NOUN	NN	_	5	pobj	_	NN|02958343-n|Automobile=
+8	used	use	VERB	VBN	_	7	partmod	_	VBN|01158872-v|IntentionalProcess+
+9	for	for	ADP	IN	_	8	prep	_	IN|?|?
+10	stenography	stenography	NOUN	NN	_	9	pobj	_	NN|06350127-n|Procedure+
+11	.	.	.	.	_	4	punct	_	Fp|?|?
+
+
+CONLL B:
+
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	typing	type	VERB	VBG	_	0	ROOT	_	VBG|01004692-v|Writing+
+5	on	on	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	machine	machine	NOUN	NN	_	5	pobj	_	NN|02958343-n|Automobile=
+8	used	use	VERB	VBN	_	7	partmod	_	VBN|01158872-v|IntentionalProcess+
+9	for	for	ADP	IN	_	8	prep	_	IN|?|?
+10	stenography	stenography	NOUN	NN	_	9	pobj	_	NN|06350127-n|Procedure+
+11	.	.	.	.	_	4	punct	_	Fp|?|?
