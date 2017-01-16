@@ -3,6 +3,13 @@ sentence B = Two teams are competing in a football match.
 entailm AB = A_entails_B.
 entailm BA = B_entails_A.
 
+Lambda A:
+(lambda $0:<a,e> (exists:ex $1:<a,e> (and:c (exists:ex $2:<a,e> (and:c (p_EVENT_w-6-playing:u $0) (p_TYPE_w-7-football:u $2) (p_EVENT.ENTITY_arg2:b $0 $2))) (exists:ex $3:<a,e> (and:c (exists:ex $4:<a,e> (and:c (and:c (p_TYPE_w-2-groups:u $1) (p_EVENT_w-2-groups:u $1) (p_EVENT.ENTITY_arg0:b $1 $1)) (and:c (p_TYPE_w-4-people:u $4) (p_EVENT_w-4-people:u $4) (p_EVENT.ENTITY_arg0:b $4 $4)) (p_EVENT.ENTITY_l-nmod.w-3-of:b $1 $4))) (p_TYPEMOD_w-1-two:u $3) (p_EVENT.ENTITY_l-nummod:b $1 $3))) (p_EVENT.ENTITY_arg1:b $0 $1)))) 
+
+Lambda B:
+(lambda $0:<a,e> (exists:ex $1:<a,e> (and:c (exists:ex $2:<a,e> (and:c (p_EVENT_w-4-competing:u $0) (and:c (and:c (and:c (p_TYPE_w-8-match:u $2) (p_EVENT_w-8-match:u $2) (p_EVENT.ENTITY_arg0:b $2 $2)) (p_TYPEMOD_w-7-football.w-8-match:u $2)) (p_EMPTY:u $2)) (p_EVENT.ENTITY_l-nmod.w-5-in:b $0 $2))) (exists:ex $3:<a,e> (and:c (and:c (p_TYPE_w-2-teams:u $1) (p_EVENT_w-2-teams:u $1) (p_EVENT.ENTITY_arg0:b $1 $1)) (p_TYPEMOD_w-1-two:u $3) (p_EVENT.ENTITY_l-nummod:b $1 $3))) (p_EVENT.ENTITY_arg1:b $0 $1))))
+
+
 CONCEPTS A: Group=,GroupOfPeople=,Entity+,Game+,Football+
 CONCEPTS B: Organization=,Entity+,Contest+,Football+,Sport+
 
