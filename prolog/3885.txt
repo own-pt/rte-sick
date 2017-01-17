@@ -9,6 +9,12 @@ Lambda A:
 Lambda B:
 (lambda $0:<a,e> (exists:ex $1:<a,e> (and:c (p_EVENT_w-4-dancing:u $0) (and:c (and:c (p_TYPE_w-2-male:u $1) (p_EVENT_w-2-male:u $1) (p_EVENT.ENTITY_arg0:b $1 $1)) (p_EMPTY:u $1)) (p_EVENT.ENTITY_arg2:b $0 $1))))
 
+Props A:
+dancing(subj:A man)
+
+Props B:
+dancing:(subj:A male)
+
 
 CONCEPTS A: Hominid=,Entity+,Dancing+
 CONCEPTS B: Human+,Entity+,Dancing+
