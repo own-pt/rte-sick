@@ -1,0 +1,774 @@
+# text = A man is racing
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	racing	race	VERB	VBG	_	0	ROOT	_	VBG|02058994-v|Motion+
+
+# text = Some people are silent
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	cop	_	VBP|02604760-v|Entity+
+4	silent	silent	ADJ	JJ	_	0	ROOT	_	JJ|00942163-a|LinguisticCommunication[
+
+# text = A child is talking
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+
+# text = Some people are walking
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+
+# text = A dog is running
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+
+# text = A horse is racing
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	horse	horse	NOUN	NN	_	4	nsubj	_	NN|02374451-n|Horse=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	racing	race	VERB	VBG	_	0	ROOT	_	VBG|02058994-v|Motion+
+
+# text = Some people are standing
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+
+# text = A woman is exercising
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	exercising	exercise	VERB	VBG	_	0	ROOT	_	VBG|00099721-v|RecreationOrExercise+
+
+# text = Some kittens are eating
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	kittens	kitten	NOUN	NNS	_	4	nsubj	_	NNS|02122948-n|Feline+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+
+# text = The person is eating
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+
+# text = One panda is climbing
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	panda	panda	NOUN	NN	_	4	nsubj	_	NN|02510455-n|Carnivore+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	climbing	climb	VERB	VBG	_	0	ROOT	_	VBG|00433232-v|Increasing+
+
+# text = A man is singing
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+
+# text = A baby is laughing
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	baby	baby	NOUN	NN	_	4	nsubj	_	NN|09827683-n|HumanBaby=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	laughing	laugh	VERB	VBG	_	0	ROOT	_	VBG|00031820-v|Laughing=
+
+# text = Two men are hugging
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	hugging	hug	VERB	VBG	_	0	ROOT	_	VBG|01424456-v|Embracing+
+
+# text = Two men are fighting
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	fighting	fight	VERB	VBG	_	0	ROOT	_	VBG|01090335-v|ViolentContest+
+
+# text = The child is silent
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	cop	_	VBZ|02604760-v|Entity+
+4	silent	silent	ADJ	JJ	_	0	ROOT	_	JJ|00942163-a|LinguisticCommunication[
+
+# text = The person is drawing
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	drawing	draw	VERB	VBG	_	0	ROOT	_	VBG|01854132-v|Removing+
+
+# text = The man is eating
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+
+# text = The man is drawing
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	drawing	draw	VERB	VBG	_	0	ROOT	_	VBG|01854132-v|Removing+
+
+# text = Two children are playing
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+
+# text = Some men are resting
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	resting	rest	VERB	VBG	_	0	ROOT	_	VBG|00117985-v|PastFn=
+
+# text = A fish is swimming
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	fish	fish	NOUN	NN	_	4	nsubj	_	NN|02512053-n|Fish=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	swimming	swim	VERB	VBG	_	0	ROOT	_	VBG|01960911-v|Swimming+
+
+# text = The parrot is speaking
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	parrot	parrot	NOUN	NN	_	4	nsubj	_	NN|01816887-n|Bird+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	speaking	speak	VERB	VBG	_	0	ROOT	_	VBG|00963570-v|Speaking+
+
+# text = Two boys are studying
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	boys	boy	NOUN	NNS	_	4	nsubj	_	NNS|10285313-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	studying	study	VERB	VBG	_	0	ROOT	_	VBG|02166460-v|Investigating+
+
+# text = A panda is climbing
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	panda	panda	NOUN	NN	_	4	nsubj	_	NN|02510455-n|Carnivore+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	climbing	climb	VERB	VBG	_	0	ROOT	_	VBG|00433232-v|Increasing+
+
+# text = The speaker likes parrots
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	speaker	speaker	NOUN	NN	_	3	nsubj	_	NN|10631309-n|SocialRole+
+3	likes	like	VERB	VBZ	_	0	ROOT	_	VBZ|01777210-v|EmotionalState+
+4	parrots	parrot	NOUN	NNS	_	3	dobj	_	NNS|01816887-n|Bird+
+
+# text = The man is exercising
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	exercising	exercise	VERB	VBG	_	0	ROOT	_	VBG|00099721-v|RecreationOrExercise+
+
+# text = A man is dancing
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = A parrot is speaking
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	parrot	parrot	NOUN	NN	_	4	nsubj	_	NN|01816887-n|Bird+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	speaking	speak	VERB	VBG	_	0	ROOT	_	VBG|00963570-v|Speaking+
+
+# text = A man is talking
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+
+# text = A dog is barking
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	barking	bark	VERB	VBG	_	0	ROOT	_	VBG|01047745-v|RadiatingSound+
+
+# text = A person is writing
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	writing	write	VERB	VBG	_	0	ROOT	_	VBG|00993014-v|WrittenCommunication=
+
+# text = A woman is sleeping
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	sleeping	sleep	VERB	VBG	_	0	ROOT	_	VBG|00014742-v|OrganismProcess+
+
+# text = The woman is drinking
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	drinking	drink	VERB	VBG	_	0	ROOT	_	VBG|01171183-v|Drinking+
+
+# text = The men are talking
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+
+# text = A clown is singing
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	clown	clown	NOUN	NN	_	4	nsubj	_	NN|09930876-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+
+# text = A man is praying
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	praying	pray	VERB	VBG	_	0	ROOT	_	VBG|00759269-v|Requesting+
+
+# text = Some men are idling
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	idling	idle	VERB	VBG	_	0	ROOT	_	VBG|01526483-v|Process+
+
+# text = Some fish are swimming
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	fish	fish	NOUN	NNS	_	4	nsubj	_	NN|02512053-n|Fish=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	swimming	swim	VERB	VBG	_	0	ROOT	_	VBG|01960911-v|Swimming+
+
+# text = Two men are talking
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+
+# text = A person is spitting
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	spitting	spit	VERB	VBG	_	0	ROOT	_	VBG|01444563-v|Cutting+
+
+# text = A man is speaking
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	speaking	speak	VERB	VBG	_	0	ROOT	_	VBG|00963570-v|Speaking+
+
+# text = A jet is flying
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	jet	jet	NOUN	NN	_	4	nsubj	_	NN|03595860-n|JetAirplane=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	flying	fly	VERB	VBG	_	0	ROOT	_	VBG|01941093-v|FlyingAircraft=
+
+# text = A horse is standing
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	horse	horse	NOUN	NN	_	4	nsubj	_	NN|02374451-n|Horse=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+
+# text = Some persons are singing
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	persons	person	NOUN	NNS	_	4	nsubj	_	NNS|00007846-n|Human=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+
+# text = Two women are talking
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	women	woman	NOUN	NNS	_	4	nsubj	_	NNS|10787470-n|Woman=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+
+# text = Men are sawing logs
+1	Men	man	NOUN	NNS	_	3	nsubj	_	NNS|02472293-n|Hominid=
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	sawing	saw	VERB	VBG	_	0	ROOT	_	VBG|01559590-v|Cutting+
+4	logs	log	NOUN	NNS	_	3	dobj	_	NNS|06812631-n|LogFn=
+
+# text = A man is laughing
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	laughing	laugh	VERB	VBG	_	0	ROOT	_	VBG|00031820-v|Laughing=
+
+# text = The person is walking
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+
+# text = Three women are dancing
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	women	woman	NOUN	NNS	_	4	nsubj	_	NNS|10787470-n|Woman=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = People are playing cricket
+1	People	people	NOUN	NNS	_	3	nsubj	_	NNS|07942152-n|GroupOfPeople=
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+4	cricket	cricket	NOUN	NN	_	3	dobj	_	NN|00476389-n|Cricket=
+
+# text = A classroom is empty
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	classroom	classroom	NOUN	NN	_	4	nsubj	_	NN|03038685-n|Classroom+
+3	is	be	VERB	VBZ	_	4	cop	_	VBZ|02604760-v|Entity+
+4	empty	empty	ADJ	JJ	_	0	ROOT	_	JJ|01086545-a|ContainerEmpty+
+
+# text = A man is lazing
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	lazing	lazing	VERB	VBG	_	0	ROOT	_	VBG|?|?
+
+# text = A plane is flying
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	plane	plane	NOUN	NN	_	4	nsubj	_	NN|02691156-n|Airplane=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	flying	fly	VERB	VBG	_	0	ROOT	_	VBG|01941093-v|FlyingAircraft=
+
+# text = Some men are sawing
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	sawing	saw	VERB	VBG	_	0	ROOT	_	VBG|01559590-v|Cutting+
+
+# text = A baby is talking
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	baby	baby	NOUN	NN	_	4	nsubj	_	NN|09827683-n|HumanBaby=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+
+# text = Men are cutting wood
+1	Men	man	NOUN	NNS	_	3	nsubj	_	NNS|02472293-n|Hominid=
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|00429060-v|Decreasing+
+4	wood	wood	NOUN	NN	_	3	dobj	_	NN|15098161-n|Wood=
+
+# text = Women are sawing logs
+1	Women	woman	NOUN	NNS	_	3	nsubj	_	NNS|10787470-n|Woman=
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	sawing	saw	VERB	VBG	_	0	ROOT	_	VBG|01559590-v|Cutting+
+4	logs	log	NOUN	NNS	_	3	dobj	_	NNS|06812631-n|LogFn=
+
+# text = A man is thinking
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	thinking	think	VERB	VBG	_	0	ROOT	_	VBG|00628491-v|Reasoning+
+
+# text = An animal is resting
+1	An	a	DET	DT	_	2	det	_	DT|?|?
+2	animal	animal	NOUN	NN	_	4	nsubj	_	NN|00015388-n|Animal=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	resting	rest	VERB	VBG	_	0	ROOT	_	VBG|00117985-v|PastFn=
+
+# text = A cow is grazing
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cow	cow	NOUN	NN	_	4	nsubj	_	NN|02403454-n|FemaleCow=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	grazing	graze	VERB	VBG	_	0	ROOT	_	VBG|01240514-v|Touching+
+
+# text = The woman is eating
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+
+# text = A plane is landing
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	plane	plane	NOUN	NN	_	4	nsubj	_	NN|03954731-n|Device+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	landing	land	VERB	VBG	_	0	ROOT	_	VBG|01979901-v|Landing+
+
+# text = Someone is playing piano
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+4	piano	piano	NOUN	NN	_	3	dobj	_	NN|03928116-n|Piano=
+
+# text = A man is eating
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+
+# text = A man is screaming
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	screaming	scream	VERB	VBG	_	0	ROOT	_	VBG|00913065-v|Vocalizing=
+
+# text = A man is spitting
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	spitting	spit	VERB	VBG	_	0	ROOT	_	VBG|01444563-v|Cutting+
+
+# text = A person is dancing
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = A person is sitting
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+
+# text = Some women are dancing
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	women	woman	NOUN	NNS	_	4	nsubj	_	NNS|10787470-n|Woman=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = Three men are dancing
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = A man is sitting
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+
+# text = Some cheerleaders are relaxing
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	cheerleaders	cheerleader	NOUN	NNS	_	4	nsubj	_	NNS|09913455-n|Position+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	relaxing	relax	VERB	VBG	_	0	ROOT	_	VBG|01922227-a|SubjectiveWeakPositiveAttribute+
+
+# text = The woman is dancing
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = A horse is running
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	horse	horse	NOUN	NN	_	4	nsubj	_	NN|02374451-n|Horse=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+
+# text = A girl is exercising
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	exercising	exercise	VERB	VBG	_	0	ROOT	_	VBG|00099721-v|RecreationOrExercise+
+
+# text = A man is phoning
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	phoning	phone	VERB	VBG	_	0	ROOT	_	VBG|00789448-v|Telephoning=
+
+# text = Two men are boxing
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	boxing	box	VERB	VBG	_	0	ROOT	_	VBG|01419982-v|ViolentContest+
+
+# text = One fish is swimming
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	fish	fish	NOUN	NN	_	4	nsubj	_	NN|02512053-n|Fish=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	swimming	swim	VERB	VBG	_	0	ROOT	_	VBG|01960911-v|Swimming+
+
+# text = A man is puking
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	puking	puke	VERB	VBG	_	0	ROOT	_	VBG|00076400-v|Impelling+
+
+# text = A baby is sitting
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	baby	baby	NOUN	NN	_	4	nsubj	_	NN|09827683-n|HumanBaby=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+
+# text = A man is crying
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	crying	cry	VERB	VBG	_	0	ROOT	_	VBG|00066191-v|Weeping=
+
+# text = No person is hiking
+1	No	no	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	hiking	hike	VERB	VBG	_	0	ROOT	_	VBG|01920932-v|Walking+
+
+# text = A man is idling
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	idling	idle	VERB	VBG	_	0	ROOT	_	VBG|01526483-v|Process+
+
+# text = Two cubs are playing
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	cubs	cub	NOUN	NNS	_	4	nsubj	_	NNS|01322685-n|NonFullyFormed+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+
+# text = The person is hiking
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	hiking	hike	VERB	VBG	_	0	ROOT	_	VBG|01920932-v|Walking+
+
+# text = The lady is dancing
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	lady	lady	NOUN	NN	_	4	nsubj	_	NN|09989290-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = The man is dancing
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = The plane is landing
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	plane	plane	NOUN	NN	_	4	nsubj	_	NN|03954731-n|Device+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	landing	land	VERB	VBG	_	0	ROOT	_	VBG|01979901-v|Landing+
+
+# text = A tiger is sitting
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	tiger	tiger	NOUN	NN	_	4	nsubj	_	NN|02129604-n|Feline+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+
+# text = Some men are fighting
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	fighting	fight	VERB	VBG	_	0	ROOT	_	VBG|01090335-v|ViolentContest+
+
+# text = A lemur is eating
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	lemur	lemur	NOUN	NN	_	4	nsubj	_	NN|02496913-n|Primate+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+
+# text = The person is painting
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	painting	paint	VERB	VBG	_	0	ROOT	_	VBG|01362736-v|Painting=
+
+# text = The person is writing
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	writing	write	VERB	VBG	_	0	ROOT	_	VBG|00993014-v|WrittenCommunication=
+
+# text = A man is drawing
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	drawing	draw	VERB	VBG	_	0	ROOT	_	VBG|01854132-v|Removing+
+
+# text = One man is dancing
+1	One	1	NUM	CD	_	2	num	_	Z|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = A woman is dancing
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = Some people are singing
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+
+# text = A man is mixing
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	mixing	mix	VERB	VBG	_	0	ROOT	_	VBG|00394813-v|IntentionalProcess+
+
+# text = A hamster is singing
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	hamster	hamster	NOUN	NN	_	4	nsubj	_	NN|02342885-n|Rodent+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+
+# text = A man is motionless
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	cop	_	VBZ|02604760-v|Entity+
+4	motionless	motionless	ADJ	JJ	_	0	ROOT	_	JJ|01564315-a|Motion[
+
+# text = The man is fasting
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	fasting	fast	VERB	VBG	_	0	ROOT	_	VBG|01189427-v|IntentionalProcess+
+
+# text = Some women are talking
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	women	woman	NOUN	NNS	_	4	nsubj	_	NNS|10787470-n|Woman=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+
+# text = Two people are talking
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+
+# text = A man is scared
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	4	cop	_	VBZ|02604760-v|Entity+
+4	scared	scare	ADJ	JJ	_	0	ROOT	_	VBN|01779165-v|IntentionalPsychologicalProcess+
+
+# text = The fish are immobile
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	fish	fish	NOUN	NN	_	4	nsubj	_	NN|08688076-n|Region@
+3	are	be	VERB	VBP	_	4	cop	_	VBP|02604760-v|Entity+
+4	immobile	immobile	ADJ	JJ	_	0	ROOT	_	JJ|01525116-a|capability+
+
+# text = The man is thinking
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	thinking	think	VERB	VBG	_	0	ROOT	_	VBG|00628491-v|Reasoning+
+
+# text = Two men are battling
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	battling	battle	VERB	VBG	_	0	ROOT	_	VBG|01092366-v|ViolentContest+
+
+# text = The girl is exercising
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	exercising	exercise	VERB	VBG	_	0	ROOT	_	VBG|00099721-v|RecreationOrExercise+
+
+# text = A man is exercising
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	exercising	exercise	VERB	VBG	_	0	ROOT	_	VBG|00099721-v|RecreationOrExercise+
+
+# text = A man is silent
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	cop	_	VBZ|02604760-v|Entity+
+4	silent	silent	ADJ	JJ	_	0	ROOT	_	JJ|00942163-a|LinguisticCommunication[
+
+# text = A biker is naked
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	biker	biker	NOUN	NN	_	4	nsubj	_	NN|?|?
+3	is	be	VERB	VBZ	_	4	cop	_	VBZ|02604760-v|Entity+
+4	naked	naked	ADJ	JJ	_	0	ROOT	_	JJ|00457998-a|Clothing[
+
+# text = Two women are dancing
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	women	woman	NOUN	NNS	_	4	nsubj	_	NNS|10787470-n|Woman=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = A man is resting
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	resting	rest	VERB	VBG	_	0	ROOT	_	VBG|00117985-v|PastFn=
+
+# text = A man is running
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+
+# text = A baby is crying
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	baby	baby	NOUN	NN	_	4	nsubj	_	NN|09827683-n|HumanBaby=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	crying	cry	VERB	VBG	_	0	ROOT	_	VBG|00066191-v|Weeping=
+
+# text = A person is exercising
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	exercising	exercise	VERB	VBG	_	0	ROOT	_	VBG|00099721-v|RecreationOrExercise+
+
+# text = The band is singing
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	band	band	NOUN	NN	_	4	nsubj	_	NN|08249038-n|MusicalGroup+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+
+# text = Two dogs are fighting
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	fighting	fight	VERB	VBG	_	0	ROOT	_	VBG|01090335-v|ViolentContest+
+
+# text = The man is painting
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	painting	paint	VERB	VBG	_	0	ROOT	_	VBG|01362736-v|Painting=
+
+# text = The woman is waterskiing
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	waterskiing	waterskiing	VERB	VBG	_	0	ROOT	_	NN|?|?
+
+# text = Some cheerleaders are dancing
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	cheerleaders	cheerleader	NOUN	NNS	_	4	nsubj	_	NNS|09913455-n|Position+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = A male is dancing
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	male	male	NOUN	NN	_	4	nsubj	_	NN|09624168-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = The girl is lounging
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	lounging	lounge	VERB	VBG	_	0	ROOT	_	VBG|02639075-v|SubjectiveAssessmentAttribute+
+
+# text = The man is training
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	cop	_	VBZ|02604760-v|Entity+
+4	training	train	NOUN	NN	_	0	ROOT	_	VBG|00602805-v|Learning+
+
+# text = Some kittens are hungry
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	kittens	kitten	NOUN	NNS	_	4	nsubj	_	NNS|02122948-n|Feline+
+3	are	be	VERB	VBP	_	4	cop	_	VBP|02604760-v|Entity+
+4	hungry	hungry	ADJ	JJ	_	0	ROOT	_	JJ|01269073-a|PerceptualAttribute+
+
+# text = A woman is surfing
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	surfing	surf	VERB	VBG	_	0	ROOT	_	VBG|01315333-v|Investigating+
+
+# text = A girl is awakening
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	awakening	awaken	VERB	VBG	_	0	ROOT	_	VBG|00018813-v|OrganismProcess+
+
+# text = A boat is anchored
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boat	boat	NOUN	NN	_	4	nsubjpass	_	NN|02858304-n|WaterVehicle=
+3	is	be	VERB	VBZ	_	4	auxpass	_	VBZ|02604760-v|Entity+
+4	anchored	anchor	VERB	VBN	_	0	ROOT	_	VBN|01304716-v|Attaching+
+

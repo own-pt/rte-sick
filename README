@@ -1,4 +1,3 @@
-
 The idea is to run the sentences A and B from the SICK.txt corpus
 through FreeLing, and use its tokenization to feed SynaxNet to obtain
 the UD dependencies.  We generate a CONLL file with the SynaxNet
@@ -34,10 +33,6 @@ https://github.com/ontologyportal/sumo
 6. Fix the paths in env.sh, process-freeling.py, and parse.sh to point
    to your local installation paths.
 
-Execute: run-all.sh
+7. Run the stats.sh script
 
-7. The relevant files are the [1-9]*-{a,b}.conll and [1-9]*.txt;
-   all others can be removed if needed. 
-
-
-8. Run the stats.sh script
+See README in pairs/ and derivated/ for more information.

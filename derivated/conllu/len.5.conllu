@@ -1,0 +1,1799 @@
+# text = A woman is slicing potatoes
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	potatoes	potato	NOUN	NNS	_	4	dobj	_	NNS|07710616-n|PotatoTuber=
+
+# text = A blonds girl is surfing
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	blonds	blonds	NOUN	NNS	_	3	nn	_	NNS|?|?
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	surfing	surf	VERB	VBG	_	0	ROOT	_	VBG|01315333-v|Investigating+
+
+# text = Some old women are talking
+1	Some	some	DET	DT	_	3	det	_	DT|?|?
+2	old	old	ADJ	JJ	_	3	amod	_	JJ|01643620-a|SubjectiveAssessmentAttribute+
+3	women	woman	NOUN	NNS	_	5	nsubj	_	NNS|10787470-n|Woman=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+
+# text = Some fish are swimming quickly
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	fish	fish	NOUN	NNS	_	4	nsubj	_	NN|02512053-n|Fish=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	swimming	swim	VERB	VBG	_	0	ROOT	_	VBG|01960911-v|Swimming+
+5	quickly	quickly	ADV	RB	_	4	advmod	_	RB|00085811-r|SubjectiveAssessmentAttribute+
+
+# text = A pencil is being sharpened
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	pencil	pencil	NOUN	NN	_	5	nsubjpass	_	NN|03908204-n|Pencil=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	sharpened	sharpen	VERB	VBN	_	0	ROOT	_	VBN|00392314-v|Increasing+
+
+# text = Nobody is holding a hedgehog
+1	Nobody	nobody	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|02701210-v|PhysicalAttribute+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	hedgehog	hedgehog	NOUN	NN	_	3	dobj	_	NN|01893825-n|Mammal+
+
+# text = A baby is toddling happily
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	baby	baby	NOUN	NN	_	4	nsubj	_	NN|09827683-n|HumanBaby=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	toddling	toddle	VERB	VBG	_	0	ROOT	_	VBG|01918803-v|Walking+
+5	happily	happily	ADV	RB	_	4	advmod	_	RB|00050297-r|Happiness+
+
+# text = A woman is frying something
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	frying	fry	VERB	VBG	_	0	ROOT	_	VBG|02484957-v|Killing+
+5	something	something	NOUN	NN	_	4	dobj	_	PRP|?|?
+
+# text = A boy is wearing sunglasses
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
+5	sunglasses	sunglass	NOUN	NNS	_	4	dobj	_	NNS|04355933-n|Device+
+
+# text = The man is eating cereal
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01168468-v|Eating=
+5	cereal	cereal	NOUN	NN	_	4	dobj	_	NN|07802417-n|CerealGrain=
+
+# text = A man is slicing tomatoes
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	tomatoes	tomato	NOUN	NNS	_	4	dobj	_	NNS|07734017-n|Tomato=
+
+# text = A fish is not swimming
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	fish	fish	NOUN	NN	_	5	nsubj	_	NN|02512053-n|Fish=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	swimming	swim	VERB	VBG	_	0	ROOT	_	VBG|01960911-v|Swimming+
+
+# text = The man is lifting barbells
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	lifting	lift	VERB	VBG	_	0	ROOT	_	VBG|01974062-v|MotionUpward=
+5	barbells	barbell	NOUN	NNS	_	4	dobj	_	NNS|02790996-n|AnaerobicExerciseDevice+
+
+# text = A man is slicing onions
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	onions	onion	NOUN	NNS	_	4	dobj	_	NNS|12433081-n|FruitOrVegetable+
+
+# text = Two baby pandas are playing
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	baby	baby	NOUN	NN	_	3	nn	_	NN|09827683-n|HumanBaby=
+3	pandas	panda	NOUN	NNS	_	5	nsubj	_	NNS|02510455-n|Carnivore+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+
+# text = A cartoon airplane is landing
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	cartoon	cartoon	NOUN	NN	_	3	nn	_	NN|06780678-n|Icon+
+3	airplane	airplane	NOUN	NN	_	5	nsubj	_	NN|02691156-n|Airplane=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	landing	land	VERB	VBG	_	0	ROOT	_	VBG|01979901-v|Landing+
+
+# text = There are no men fighting
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	men	man	NOUN	NNS	_	2	nsubj	_	NNS|02472293-n|Hominid=
+5	fighting	fight	VERB	VBG	_	4	partmod	_	VBG|01090335-v|ViolentContest+
+
+# text = Two baby pandas are sleeping
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	baby	baby	NOUN	NN	_	3	nn	_	NN|09827683-n|HumanBaby=
+3	pandas	panda	NOUN	NNS	_	5	nsubj	_	NNS|02510455-n|Carnivore+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	sleeping	sleep	VERB	VBG	_	0	ROOT	_	VBG|00014742-v|OrganismProcess+
+
+# text = Two men are not fighting
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	5	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	fighting	fight	VERB	VBG	_	0	ROOT	_	VBG|01090335-v|ViolentContest+
+
+# text = A few kittens are eating
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	few	few	ADJ	JJ	_	3	amod	_	DT|?|?
+3	kittens	kitten	NOUN	NNS	_	5	nsubj	_	NNS|02122948-n|Feline+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+
+# text = There is no man speaking
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+5	speaking	speak	VERB	VBG	_	2	dep	_	VBG|00963570-v|Speaking+
+
+# text = A woman is breaking eggs
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	breaking	break	VERB	VBG	_	0	ROOT	_	VBG|02681524-v|EndFn+
+5	eggs	egg	NOUN	NNS	_	4	dobj	_	NNS|05524615-n|Gland+
+
+# text = Two cats are lying together
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	cats	cat	NOUN	NNS	_	4	nsubj	_	NNS|02985606-n|Whip+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+5	together	together	ADV	RB	_	4	advmod	_	RB|00507927-r|Meeting=
+
+# text = Nobody is feeding an animal
+1	Nobody	nobody	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	feeding	feed	VERB	VBG	_	0	ROOT	_	VBG|01178565-v|Feeding+
+4	an	a	DET	DT	_	5	det	_	DT|?|?
+5	animal	animal	NOUN	NN	_	3	dobj	_	NN|00015388-n|Animal=
+
+# text = Two dogs are playing inside
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	inside	inside	ADP	IN	_	4	advmod	_	IN|?|?
+
+# text = There is no man drawing
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	drawing	draw	VERB	VBG	_	4	partmod	_	VBG|01854132-v|Removing+
+
+# text = Three women are standing still
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	women	woman	NOUN	NNS	_	4	nsubj	_	NNS|10787470-n|Woman=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	still	still	ADV	RB	_	4	advmod	_	RB|00027384-r|?
+
+# text = There is no dog barking
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	dog	dog	NOUN	NN	_	5	nn	_	NN|02084071-n|Canine+
+5	barking	bark	NOUN	NN	_	2	nsubj	_	VBG|01047745-v|RadiatingSound+
+
+# text = A woman is chopping broccoli
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	chopping	chop	VERB	VBG	_	0	ROOT	_	VBG|01258091-v|Cutting+
+5	broccoli	broccoli	NOUN	NN	_	4	dobj	_	NN|11876803-n|FloweringPlant+
+
+# text = Someone is reading the email
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	reading	read	VERB	VBG	_	0	ROOT	_	VBG|00625119-v|Reading=
+4	the	the	DET	DT	_	5	det	_	DT|?|?
+5	email	email	NOUN	NN	_	3	dobj	_	NN|06279326-n|Device+
+
+# text = A man is playing soccer
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	soccer	soccer	NOUN	NN	_	4	dobj	_	NN|00478262-n|Soccer=
+
+# text = A man is walking outside
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+5	outside	outside	ADP	IN	_	4	advmod	_	IN|?|?
+
+# text = A girl is wearing sunglasses
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
+5	sunglasses	sunglass	NOUN	NNS	_	4	dobj	_	NNS|04355933-n|Device+
+
+# text = A boy is saying something
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	saying	say	VERB	VBG	_	0	ROOT	_	VBG|00928959-v|Process+
+5	something	something	NOUN	NN	_	4	dobj	_	PRP|?|?
+
+# text = A man is doing exercise
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|02568672-v|Position+
+5	exercise	exercise	NOUN	NN	_	4	dobj	_	NN|00947128-n|IntentionalProcess+
+
+# text = A plane is taking off
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	plane	plane	NOUN	NN	_	4	nsubj	_	NN|03954731-n|Device+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	taking	take	VERB	VBG	_	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
+5	off	off	PRT	RP	_	4	prt	_	RP|00232936-r|?
+
+# text = Someone is drawing a person
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	drawing	draw	VERB	VBG	_	0	ROOT	_	VBG|01854132-v|Removing+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	person	person	NOUN	NN	_	3	dobj	_	NN|00007846-n|Human=
+
+# text = The men are not dancing
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	men	man	NOUN	NNS	_	5	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = A woman is dancing alone
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+5	alone	alone	ADV	RB	_	4	advmod	_	RB|00157967-r|SocialInteraction[
+
+# text = A woman is slicing herbs
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	herbs	herb	NOUN	NNS	_	4	dobj	_	NNS|12205694-n|FloweringPlant+
+
+# text = A woman is peeling food
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	peeling	peel	VERB	VBG	_	0	ROOT	_	VBG|00049900-v|Removing+
+5	food	food	NOUN	NN	_	4	dobj	_	NN|05811214-n|SubjectiveAssessmentAttribute+
+
+# text = A person is not frying
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	5	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	frying	fry	VERB	VBG	_	0	ROOT	_	VBG|02484957-v|Killing+
+
+# text = Two dogs are playing outside
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	dogs	dog	NOUN	NNS	_	4	nsubj	_	NNS|02084071-n|Canine+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	outside	outside	ADP	IN	_	4	advmod	_	IN|?|?
+
+# text = Someone is peeling a banana
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	peeling	peel	VERB	VBG	_	0	ROOT	_	VBG|00049900-v|Removing+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	banana	banana	NOUN	NN	_	3	dobj	_	NN|07753592-n|Banana=
+
+# text = Two animals are playing outside
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	animals	animal	NOUN	NNS	_	4	nsubj	_	NNS|00015388-n|Animal=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	outside	outside	ADP	IN	_	4	advmod	_	IN|?|?
+
+# text = A woman is storing broccoli
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	storing	store	VERB	VBG	_	0	ROOT	_	VBG|02281093-v|Keeping=
+5	broccoli	broccoli	NOUN	NN	_	4	dobj	_	NN|11876803-n|FloweringPlant+
+
+# text = A person is tearing paper
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	tearing	tear	VERB	VBG	_	0	ROOT	_	VBG|01573515-v|Separating+
+5	paper	paper	NOUN	NN	_	4	dobj	_	NN|06267145-n|Newspaper=
+
+# text = A woman is drying eggs
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	drying	dry	VERB	VBG	_	0	ROOT	_	VBG|00218475-v|Drying+
+5	eggs	egg	NOUN	NNS	_	4	dobj	_	NNS|05524615-n|Gland+
+
+# text = There is no person writing
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	person	person	NOUN	NN	_	2	nsubj	_	NN|00007846-n|Human=
+5	writing	write	VERB	VBG	_	4	partmod	_	VBG|00993014-v|WrittenCommunication=
+
+# text = A woman is receiving volleyballs
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	receiving	receive	VERB	VBG	_	0	ROOT	_	VBG|01470225-v|Communication+
+5	volleyballs	volleyball	NOUN	NNS	_	4	dobj	_	NNS|00480211-n|Volleyball=
+
+# text = There is no man spitting
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	spitting	spit	VERB	VBG	_	4	partmod	_	VBG|01444563-v|Cutting+
+
+# text = A man is doing exercises
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|02568672-v|Position+
+5	exercises	exercise	NOUN	NNS	_	4	dobj	_	NNS|00947128-n|IntentionalProcess+
+
+# text = There is no band playing
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	band	band	NOUN	NN	_	5	nn	_	NN|08249038-n|MusicalGroup+
+5	playing	play	VERB	VBG	_	2	nsubj	_	VBG|01719302-v|DramaticActing+
+
+# text = The man is lowering barbells
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	lowering	lower	VERB	VBG	_	0	ROOT	_	VBG|01574923-v|Decreasing+
+5	barbells	barbell	NOUN	NNS	_	4	dobj	_	NNS|02790996-n|AnaerobicExerciseDevice+
+
+# text = A man is lifting barbells
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	lifting	lift	VERB	VBG	_	0	ROOT	_	VBG|01974062-v|MotionUpward=
+5	barbells	barbell	NOUN	NNS	_	4	dobj	_	NNS|02790996-n|AnaerobicExerciseDevice+
+
+# text = A young female is dancing
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	female	female	NOUN	NN	_	5	nsubj	_	NN|09619168-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = A man is playing guitar
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+
+# text = Someone is strumming the guitar
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	strumming	strum	VERB	VBG	_	0	ROOT	_	VBG|02180362-v|SoundAttribute+
+4	the	the	DET	DT	_	5	det	_	DT|?|?
+5	guitar	guitar	NOUN	NN	_	3	dobj	_	NN|03467517-n|Guitar=
+
+# text = A woman is boiling eggs
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	boiling	boil	VERB	VBG	_	0	ROOT	_	VBG|00375021-v|Boiling=
+5	eggs	egg	NOUN	NNS	_	4	dobj	_	NNS|05524615-n|Gland+
+
+# text = The woman is slicing herbs
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	herbs	herb	NOUN	NNS	_	4	dobj	_	NNS|12205694-n|FloweringPlant+
+
+# text = There is no parrot speaking
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	parrot	parrot	NOUN	NN	_	2	nsubj	_	NN|01816887-n|Bird+
+5	speaking	speak	VERB	VBG	_	4	partmod	_	VBG|00963570-v|Speaking+
+
+# text = Somebody is playing the guitar
+1	Somebody	somebody	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+4	the	the	DET	DT	_	5	det	_	DT|?|?
+5	guitar	guitar	NOUN	NN	_	3	dobj	_	NN|03467517-n|Guitar=
+
+# text = The man is slicing vegetables
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	vegetables	vegetable	NOUN	NNS	_	4	dobj	_	NNS|07707451-n|Vegetable=
+
+# text = An animal is looking around
+1	An	a	DET	DT	_	2	det	_	DT|?|?
+2	animal	animal	NOUN	NN	_	4	nsubj	_	NN|00015388-n|Animal=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+5	around	around	ADP	IN	_	4	advmod	_	RP|00007015-r|?
+
+# text = Somebody is beating an egg
+1	Somebody	somebody	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	beating	beat	VERB	VBG	_	0	ROOT	_	VBG|01398919-v|Impacting+
+4	an	a	DET	DT	_	5	det	_	DT|?|?
+5	egg	egg	NOUN	NN	_	3	dobj	_	NN|05524615-n|Gland+
+
+# text = The man is dancing frantically
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+5	frantically	frantically	ADV	RB	_	4	advmod	_	RB|00503370-r|SubjectiveAssessmentAttribute+
+
+# text = A woman is slicing butter
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	butter	butter	NOUN	NN	_	4	dobj	_	NN|07848338-n|Butter=
+
+# text = A child is falling asleep
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	falling	fall	VERB	VBG	_	0	ROOT	_	VBG|02229828-v|Getting+
+5	asleep	asleep	ADJ	JJ	_	4	acomp	_	JJ|00187736-a|Asleep=
+
+# text = There is no man exercising
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	exercising	exercise	VERB	VBG	_	4	partmod	_	VBG|00099721-v|RecreationOrExercise+
+
+# text = The woman is cooking something
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cooking	cook	VERB	VBG	_	0	ROOT	_	VBG|00322847-v|Cooking+
+5	something	something	NOUN	NN	_	4	dobj	_	PRP|?|?
+
+# text = A man is having lunch
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	having	have	VERB	VBG	_	0	ROOT	_	VBG|00065639-v|Damaging+
+5	lunch	lunch	NOUN	NN	_	4	dobj	_	NN|07575076-n|Lunch=
+
+# text = A man is standing still
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	still	still	ADV	RB	_	4	advmod	_	RB|00027384-r|?
+
+# text = Someone is on a horse
+1	Someone	someone	NOUN	NN	_	2	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	on	on	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	horse	horse	NOUN	NN	_	3	pobj	_	NN|02374451-n|Horse=
+
+# text = Someone is holding a hedgehog
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|02701210-v|PhysicalAttribute+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	hedgehog	hedgehog	NOUN	NN	_	3	dobj	_	NN|01893825-n|Mammal+
+
+# text = A man is slicing butter
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	butter	butter	NOUN	NN	_	4	dobj	_	NN|07848338-n|Butter=
+
+# text = A woman is cooking eggs
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cooking	cook	VERB	VBG	_	0	ROOT	_	VBG|00322847-v|Cooking+
+5	eggs	egg	NOUN	NNS	_	4	dobj	_	NNS|05524615-n|Gland+
+
+# text = An onion is being chopped
+1	An	a	DET	DT	_	2	det	_	DT|?|?
+2	onion	onion	NOUN	NN	_	5	nsubjpass	_	NN|12433081-n|FruitOrVegetable+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	chopped	chop	VERB	VBN	_	0	ROOT	_	VBN|01258091-v|Cutting+
+
+# text = The lady is dicing onions
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	lady	lady	NOUN	NN	_	4	nsubj	_	NN|09989290-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	dicing	dice	VERB	VBG	_	0	ROOT	_	VBG|01256867-v|Cutting+
+5	onions	onion	NOUN	NNS	_	4	dobj	_	NNS|12433081-n|FruitOrVegetable+
+
+# text = A band is playing onstage
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	band	band	NOUN	NN	_	4	nsubj	_	NN|08249038-n|MusicalGroup+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	onstage	onstage	NOUN	NN	_	4	dobj	_	RB|00259775-r|located+
+
+# text = A man is slicing bread
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	bread	bread	NOUN	NN	_	4	dobj	_	NN|07679356-n|BreadOrBiscuit+
+
+# text = There is no baby talking
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	baby	baby	NOUN	NN	_	5	nn	_	NN|09827683-n|HumanBaby=
+5	talking	talk	NOUN	NN	_	2	nsubj	_	VBG|00941990-v|Speaking+
+
+# text = A woman is cutting potatoes
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|00429060-v|Decreasing+
+5	potatoes	potato	NOUN	NNS	_	4	dobj	_	NNS|07710616-n|PotatoTuber=
+
+# text = A woman is chopping onions
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	chopping	chop	VERB	VBG	_	0	ROOT	_	VBG|01258091-v|Cutting+
+5	onions	onion	NOUN	NNS	_	4	dobj	_	NNS|12433081-n|FruitOrVegetable+
+
+# text = A woman is dancing gracefully
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+5	gracefully	gracefully	ADV	RB	_	4	advmod	_	RB|00194156-r|SubjectiveAssessmentAttribute+
+
+# text = A man is frying food
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	frying	fry	VERB	VBG	_	0	ROOT	_	VBG|02484957-v|Killing+
+5	food	food	NOUN	NN	_	4	dobj	_	NN|05811214-n|SubjectiveAssessmentAttribute+
+
+# text = The man is rock climbing
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	cop	_	VBZ|02604760-v|Entity+
+4	rock	rock	NOUN	NN	_	5	nn	_	NN|14696793-n|Mineral+
+5	climbing	climb	NOUN	NN	_	0	ROOT	_	VBG|00433232-v|Increasing+
+
+# text = There is no man mixing
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	mixing	mix	VERB	VBG	_	4	partmod	_	VBG|00394813-v|IntentionalProcess+
+
+# text = A woman is mixing eggs
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	mixing	mix	VERB	VBG	_	0	ROOT	_	VBG|00394813-v|IntentionalProcess+
+5	eggs	egg	NOUN	NNS	_	4	dobj	_	NNS|05524615-n|Gland+
+
+# text = The man is doing exercises
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|02568672-v|Position+
+5	exercises	exercise	NOUN	NNS	_	4	dobj	_	NNS|00947128-n|IntentionalProcess+
+
+# text = There is no man dancing
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	man	man	NOUN	NN	_	5	nn	_	NN|02472293-n|Hominid=
+5	dancing	dance	VERB	VBG	_	2	nsubj	_	VBG|01708676-v|Dancing+
+
+# text = There is no panda climbing
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	panda	panda	NOUN	NN	_	5	nn	_	NN|02510455-n|Carnivore+
+5	climbing	climb	NOUN	NN	_	2	nsubj	_	VBG|00433232-v|Increasing+
+
+# text = A man is mowing grass
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	mowing	mow	VERB	VBG	_	0	ROOT	_	VBG|00034758-v|BodyMotion+
+5	grass	grass	NOUN	NN	_	4	dobj	_	NN|12102133-n|Grass=
+
+# text = A man is playing flute
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	flute	flute	NOUN	NN	_	4	dobj	_	NN|03372029-n|Flute=
+
+# text = A woman is cutting tofu
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|00429060-v|Decreasing+
+5	tofu	tofu	NOUN	NN	_	4	dobj	_	NN|07709881-n|Tofu=
+
+# text = A few women are dancing
+1	A	a	DET	DT	_	2	quantmod	_	DT|?|?
+2	few	few	ADJ	JJ	_	3	num	_	DT|?|?
+3	women	woman	NOUN	NNS	_	5	nsubj	_	NNS|10787470-n|Woman=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = Two teams are playing soccer
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	teams	team	NOUN	NNS	_	4	nsubj	_	NNS|08208560-n|Organization=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	soccer	soccer	NOUN	NN	_	4	dobj	_	NN|00478262-n|Soccer=
+
+# text = The panda is eating bamboo
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	panda	panda	NOUN	NN	_	4	nsubj	_	NN|02510455-n|Carnivore+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+5	bamboo	bamboo	NOUN	NN	_	4	dobj	_	NN|12147226-n|Bamboo=
+
+# text = An aircraft is taking off
+1	An	a	DET	DT	_	2	det	_	DT|?|?
+2	aircraft	aircraft	NOUN	NN	_	4	nsubj	_	NN|02686568-n|Aircraft=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	taking	take	VERB	VBG	_	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
+5	off	off	PRT	RP	_	4	prt	_	RP|00232936-r|?
+
+# text = People are not playing cricket
+1	People	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+2	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+3	not	not	ADV	RB	_	4	neg	_	RB|00024073-r|not=
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	cricket	cricket	NOUN	NN	_	4	dobj	_	NN|00476389-n|Cricket=
+
+# text = A woman is cooking prawns
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cooking	cook	VERB	VBG	_	0	ROOT	_	VBG|00322847-v|Cooking+
+5	prawns	prawn	NOUN	NNS	_	4	dobj	_	NNS|01987545-n|Prawn=
+
+# text = Somebody is cutting a tomato
+1	Somebody	somebody	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|00429060-v|Decreasing+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	tomato	tomato	NOUN	NN	_	3	dobj	_	NN|07734017-n|Tomato=
+
+# text = Someone is checking the email
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	checking	check	VERB	VBG	_	0	ROOT	_	VBG|02657219-v|SubjectiveAssessmentAttribute+
+4	the	the	DET	DT	_	5	det	_	DT|?|?
+5	email	email	NOUN	NN	_	3	dobj	_	NN|06279326-n|Device+
+
+# text = A lion is slowly walking
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	lion	lion	NOUN	NN	_	5	nsubj	_	NN|08686821-n|Region@
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	slowly	slowly	ADV	RB	_	5	advmod	_	RB|00161630-r|NormativeAttribute+
+5	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+
+# text = There is no lion walking
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	lion	lion	NOUN	NN	_	5	nn	_	NN|08686821-n|Region@
+5	walking	walk	NOUN	NN	_	2	nsubj	_	VBG|01904930-v|Walking=
+
+# text = Someone is slicing a tomato
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	tomato	tomato	NOUN	NN	_	3	dobj	_	NN|07734017-n|Tomato=
+
+# text = A woman is cutting fruit
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|00429060-v|Decreasing+
+5	fruit	fruit	NOUN	NN	_	4	dobj	_	NN|13134947-n|FruitOrVegetable=
+
+# text = Somebody is playing the piano
+1	Somebody	somebody	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+4	the	the	DET	DT	_	5	det	_	DT|?|?
+5	piano	piano	NOUN	NN	_	3	dobj	_	NN|03928116-n|Piano=
+
+# text = A woman is playing flute
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	flute	flute	NOUN	NN	_	4	dobj	_	NN|03372029-n|Flute=
+
+# text = Two young kids are fasting
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	kids	kid	NOUN	NNS	_	5	nsubj	_	NNS|09917593-n|HumanChild=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	fasting	fast	VERB	VBG	_	0	ROOT	_	VBG|01189427-v|IntentionalProcess+
+
+# text = The men are not talking
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	men	man	NOUN	NNS	_	5	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+
+# text = The band isn't singing
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	band	band	NOUN	NN	_	5	nsubj	_	NN|08249038-n|MusicalGroup+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+
+# text = There is no hamster singing
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	hamster	hamster	NOUN	NN	_	5	nn	_	NN|02342885-n|Rodent+
+5	singing	sing	NOUN	NN	_	2	nsubj	_	VBG|01731031-v|MakingVocalMusic=
+
+# text = Paper and scissors both cut
+1	Paper	paper	NOUN	NN	_	5	nsubj	_	NN|06267145-n|Newspaper=
+2	and	and	CONJ	CC	_	1	cc	_	CC|?|?
+3	scissors	scissor	NOUN	NNS	_	1	conj	_	NNS|?|?
+4	both	both	DET	DT	_	1	dep	_	DT|?|?
+5	cut	cut	VERB	VBD	_	0	ROOT	_	NN|00352331-n|Process+
+
+# text = There is no lemur eating
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	lemur	lemur	ADV	RB	_	5	amod	_	NN|02496913-n|Primate+
+5	eating	eat	NOUN	NN	_	2	nsubj	_	VBG|01157517-v|Process+
+
+# text = Nobody is slicing a tomato
+1	Nobody	nobody	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	tomato	tomato	NOUN	NN	_	3	dobj	_	NN|07734017-n|Tomato=
+
+# text = Someone is playing a piano
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	piano	piano	NOUN	NN	_	3	dobj	_	NN|03928116-n|Piano=
+
+# text = There is no woman exercising
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	woman	woman	NOUN	NN	_	2	nsubj	_	NN|10787470-n|Woman=
+5	exercising	exercise	VERB	VBG	_	4	partmod	_	VBG|00099721-v|RecreationOrExercise+
+
+# text = The person is not drawing
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	5	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	drawing	draw	VERB	VBG	_	0	ROOT	_	VBG|01854132-v|Removing+
+
+# text = A man is playing keyboards
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	keyboards	keyboard	NOUN	NNS	_	4	dobj	_	NNS|03614007-n|ComputerInputDevice+
+
+# text = A man is shooting guns
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	shooting	shoot	VERB	VBG	_	0	ROOT	_	VBG|01134781-v|Shooting+
+5	guns	gun	NOUN	NNS	_	4	dobj	_	NNS|03467984-n|Gun=
+
+# text = A squirrel is lying down
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	squirrel	squirrel	NOUN	NN	_	4	nsubj	_	NN|02355227-n|Squirrel+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+5	down	down	PRT	RP	_	4	prt	_	RP|00096089-r|earlier+
+
+# text = A man is spreading dough
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	spreading	spread	VERB	VBG	_	0	ROOT	_	VBG|00968211-v|Disseminating+
+5	dough	dough	NOUN	NN	_	4	dobj	_	NN|07860988-n|Dough+
+
+# text = There is no clown singing
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	clown	clown	NOUN	NN	_	5	nn	_	NN|09930876-n|Human+
+5	singing	sing	NOUN	NN	_	2	nsubj	_	VBG|01731031-v|MakingVocalMusic=
+
+# text = The man is slicing potatoes
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	potatoes	potato	NOUN	NNS	_	4	dobj	_	NNS|07710616-n|PotatoTuber=
+
+# text = The cat is playing keyboards
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	4	nsubj	_	NN|02985606-n|Whip+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	keyboards	keyboard	NOUN	NNS	_	4	dobj	_	NNS|03614007-n|ComputerInputDevice+
+
+# text = A man is not dancing
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = A kitten is getting bored
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	kitten	kitten	NOUN	NN	_	5	nsubj	_	NN|02122948-n|Feline+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	getting	get	VERB	VBG	_	5	dep	_	VBG|00120316-v|Process+
+5	bored	bore	ADJ	JJ	_	0	ROOT	_	VBN|01443021-v|Drilling=
+
+# text = Some people are playing cricket
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	cricket	cricket	NOUN	NN	_	4	dobj	_	NN|00476389-n|Cricket=
+
+# text = Someone is dismantling a piano
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	dismantling	dismantle	VERB	VBG	_	0	ROOT	_	VBG|01657977-v|Separating+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	piano	piano	NOUN	NN	_	3	dobj	_	NN|03928116-n|Piano=
+
+# text = There is no one typing
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	one	1	NOUN	NN	_	5	amod	_	Z|?|?
+5	typing	type	NOUN	NN	_	2	nsubj	_	VBG|01004692-v|Writing+
+
+# text = A woman is slicing tofu
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	tofu	tofu	NOUN	NN	_	4	dobj	_	NN|07709881-n|Tofu=
+
+# text = The man is not dancing
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = A man is moving gracefully
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	moving	move	VERB	VBG	_	0	ROOT	_	VBG|01767949-v|PsychologicalProcess+
+5	gracefully	gracefully	ADV	RB	_	4	advmod	_	RB|00194156-r|SubjectiveAssessmentAttribute+
+
+# text = Two sumo ringers are fighting
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	sumo	sumo	NOUN	NN	_	3	nn	_	NN|00448232-n|Wrestling+
+3	ringers	ringer	NOUN	NNS	_	5	nsubj	_	NNS|10714851-n|SocialRole+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	fighting	fight	VERB	VBG	_	0	ROOT	_	VBG|01090335-v|ViolentContest+
+
+# text = A woman is cutting shrimps
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|00429060-v|Decreasing+
+5	shrimps	shrimp	NOUN	NNS	_	4	dobj	_	NNS|07794159-n|PrawnMeat=
+
+# text = Someone is dirtying an animal
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	dirtying	dirty	VERB	VBG	_	0	ROOT	_	VBG|01534147-v|Combining+
+4	an	a	DET	DT	_	5	det	_	DT|?|?
+5	animal	animal	NOUN	NN	_	3	dobj	_	NN|00015388-n|Animal=
+
+# text = A woman is slicing carrots
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	carrots	carrot	NOUN	NNS	_	4	dobj	_	NNS|07730207-n|Carrot=
+
+# text = A toddler is sitting down
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	toddler	toddler	NOUN	NN	_	4	nsubj	_	NN|10714465-n|NonFullyFormed+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	down	down	PRT	RP	_	4	prt	_	RP|00096089-r|earlier+
+
+# text = A baby is crawling happily
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	baby	baby	NOUN	NN	_	4	nsubj	_	NN|09827683-n|HumanBaby=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	crawling	crawl	VERB	VBG	_	0	ROOT	_	VBG|02730682-v|StateOfMind+
+5	happily	happily	ADV	RB	_	4	advmod	_	RB|00050297-r|Happiness+
+
+# text = A woman is cutting garlic
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|00429060-v|Decreasing+
+5	garlic	garlic	NOUN	NN	_	4	dobj	_	NN|07818277-n|Garlic=
+
+# text = A cow is eating grass
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cow	cow	NOUN	NN	_	4	nsubj	_	NN|02403454-n|FemaleCow=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+5	grass	grass	NOUN	NN	_	4	dobj	_	NN|12102133-n|Grass=
+
+# text = The man is wildly dancing
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	wildly	wildly	ADV	RB	_	5	advmod	_	RB|00174987-r|SubjectiveAssessmentAttribute+
+5	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = There is no woman dancing
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	woman	woman	NOUN	NN	_	5	nn	_	NN|10787470-n|Woman=
+5	dancing	dance	VERB	VBG	_	2	nsubj	_	VBG|01708676-v|Dancing+
+
+# text = The person is boiling noodles
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	boiling	boil	VERB	VBG	_	0	ROOT	_	VBG|00375021-v|Boiling=
+5	noodles	noodle	NOUN	NNS	_	4	dobj	_	NNS|07699584-n|Pasta+
+
+# text = Three people are driving ATVs
+1	Three	3	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	driving	drive	VERB	VBG	_	0	ROOT	_	VBG|01930874-v|Transportation+
+5	ATVs	atvs	NOUN	NNS	_	4	dobj	_	NNS|?|?
+
+# text = A girl is falling asleep
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	falling	fall	VERB	VBG	_	0	ROOT	_	VBG|02229828-v|Getting+
+5	asleep	asleep	ADJ	JJ	_	4	acomp	_	JJ|00187736-a|Asleep=
+
+# text = Two women are happily dancing
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	women	woman	NOUN	NNS	_	5	nsubj	_	NNS|10787470-n|Woman=
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	happily	happily	ADV	RB	_	5	advmod	_	RB|00050297-r|Happiness+
+5	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = There is no puppy rolling
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	puppy	puppy	NOUN	NN	_	5	nn	_	NN|10493835-n|SocialRole+
+5	rolling	roll	NOUN	NN	_	2	nsubj	_	VBG|01866192-v|Motion+
+
+# text = A cold cyclist is celebrating
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	cold	cold	ADJ	JJ	_	3	amod	_	JJ|01251128-a|ColdTemperature=
+3	cyclist	cyclist	NOUN	NN	_	5	nsubj	_	NN|09986189-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	celebrating	celebrate	VERB	VBG	_	0	ROOT	_	VBG|02578510-v|ReligiousProcess+
+
+# text = A man is slicing potatoes
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	potatoes	potato	NOUN	NNS	_	4	dobj	_	NNS|07710616-n|PotatoTuber=
+
+# text = A person is doing exercises
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|02568672-v|Position+
+5	exercises	exercise	NOUN	NNS	_	4	dobj	_	NNS|00947128-n|IntentionalProcess+
+
+# text = Nobody is brushing a cat
+1	Nobody	nobody	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	brushing	brush	VERB	VBG	_	0	ROOT	_	VBG|01243809-v|Touching+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	cat	cat	NOUN	NN	_	3	dobj	_	NN|02985606-n|Whip+
+
+# text = A happy baby is laughing
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	happy	happy	ADJ	JJ	_	3	amod	_	JJ|01148283-a|Happiness=
+3	baby	baby	NOUN	NN	_	5	nsubj	_	NN|09827683-n|HumanBaby=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	laughing	laugh	VERB	VBG	_	0	ROOT	_	VBG|00031820-v|Laughing=
+
+# text = Two pandas are lying together
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	pandas	panda	NOUN	NNS	_	4	nsubj	_	NNS|02510455-n|Carnivore+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	lying	lie	VERB	VBG	_	0	ROOT	_	VBG|02690708-v|PhysicalAttribute+
+5	together	together	ADV	RB	_	4	advmod	_	RB|00507927-r|Meeting=
+
+# text = Nobody is beating an egg
+1	Nobody	nobody	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	beating	beat	VERB	VBG	_	0	ROOT	_	VBG|01398919-v|Impacting+
+4	an	a	DET	DT	_	5	det	_	DT|?|?
+5	egg	egg	NOUN	NN	_	3	dobj	_	NN|05524615-n|Gland+
+
+# text = The band is singing loudly
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	band	band	NOUN	NN	_	4	nsubj	_	NN|08249038-n|MusicalGroup+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01729431-v|MakingVocalMusic=
+5	loudly	loudly	ADV	RB	_	4	advmod	_	RB|00069901-r|SubjectiveAssessmentAttribute+
+
+# text = A woman is cutting butter
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|00429060-v|Decreasing+
+5	butter	butter	NOUN	NN	_	4	dobj	_	NN|07848338-n|Butter=
+
+# text = The women are dancing outside
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	women	woman	NOUN	NNS	_	4	nsubj	_	NNS|10787470-n|Woman=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+5	outside	outside	ADP	IN	_	4	advmod	_	IN|?|?
+
+# text = A few people are dancing
+1	A	a	DET	DT	_	2	quantmod	_	DT|?|?
+2	few	few	ADJ	JJ	_	3	num	_	DT|?|?
+3	people	people	NOUN	NNS	_	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = The man is not exercising
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	exercising	exercise	VERB	VBG	_	0	ROOT	_	VBG|00099721-v|RecreationOrExercise+
+
+# text = A girl is waking up
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	waking	wake	VERB	VBG	_	0	ROOT	_	VBG|00018813-v|OrganismProcess+
+5	up	up	PRT	RP	_	4	prt	_	RP|00097011-r|Increasing+
+
+# text = A dog is barking noisily
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	barking	bark	VERB	VBG	_	0	ROOT	_	VBG|01047745-v|RadiatingSound+
+5	noisily	noisily	ADV	RB	_	4	advmod	_	RB|00229255-r|SubjectiveAssessmentAttribute+
+
+# text = An onion is being sliced
+1	An	a	DET	DT	_	2	det	_	DT|?|?
+2	onion	onion	NOUN	NN	_	5	nsubjpass	_	NN|12433081-n|FruitOrVegetable+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	sliced	slice	VERB	VBN	_	0	ROOT	_	VBN|01254477-v|Separating+
+
+# text = Someone is cleansing an animal
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	cleansing	cleanse	VERB	VBG	_	0	ROOT	_	VBG|00035758-v|Cleaning+
+4	an	a	DET	DT	_	5	det	_	DT|?|?
+5	animal	animal	NOUN	NN	_	3	dobj	_	NN|00015388-n|Animal=
+
+# text = A man is cutting tomatoes
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|00429060-v|Decreasing+
+5	tomatoes	tomato	NOUN	NNS	_	4	dobj	_	NNS|07734017-n|Tomato=
+
+# text = A toddler is standing up
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	toddler	toddler	NOUN	NN	_	4	nsubj	_	NN|10714465-n|NonFullyFormed+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	up	up	PRT	RP	_	4	prt	_	RP|00097011-r|Increasing+
+
+# text = A man is singing passionately
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+5	passionately	passionately	ADV	RB	_	4	advmod	_	RB|00209874-r|SubjectiveAssessmentAttribute+
+
+# text = A child is waking up
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	waking	wake	VERB	VBG	_	0	ROOT	_	VBG|00018813-v|OrganismProcess+
+5	up	up	PRT	RP	_	4	prt	_	RP|00097011-r|Increasing+
+
+# text = The woman is not waterskiing
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	waterskiing	waterskiing	VERB	VBG	_	0	ROOT	_	NN|?|?
+
+# text = A woman is cracking eggs
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cracking	crack	VERB	VBG	_	0	ROOT	_	VBG|00336260-v|Damaging+
+5	eggs	egg	NOUN	NNS	_	4	dobj	_	NNS|05524615-n|Gland+
+
+# text = A woman is boiling shrimps
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	boiling	boil	VERB	VBG	_	0	ROOT	_	VBG|00375021-v|Boiling=
+5	shrimps	shrimp	NOUN	NNS	_	4	dobj	_	NNS|07794159-n|PrawnMeat=
+
+# text = The woman is not dancing
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = Someone is not playing piano
+1	Someone	someone	NOUN	NN	_	4	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+3	not	not	ADV	RB	_	4	neg	_	RB|00024073-r|not=
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	piano	piano	NOUN	NN	_	4	dobj	_	NN|03928116-n|Piano=
+
+# text = Someone is cleaning an animal
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	cleaning	clean	VERB	VBG	_	0	ROOT	_	VBG|01532589-v|Cleaning=
+4	an	a	DET	DT	_	5	det	_	DT|?|?
+5	animal	animal	NOUN	NN	_	3	dobj	_	NN|00015388-n|Animal=
+
+# text = A tiger cub is roaring
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	tiger	tiger	NOUN	NN	_	3	nn	_	NN|02129604-n|Feline+
+3	cub	cub	NOUN	NN	_	5	nsubj	_	NN|01322685-n|NonFullyFormed+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	roaring	roar	VERB	VBG	_	0	ROOT	_	VBG|00029836-v|Expressing+
+
+# text = A young girl is dancing
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = The woman is chopping garlic
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	chopping	chop	VERB	VBG	_	0	ROOT	_	VBG|01258091-v|Cutting+
+5	garlic	garlic	NOUN	NN	_	4	dobj	_	NN|07818277-n|Garlic=
+
+# text = There is no man praying
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	praying	pray	VERB	VBG	_	4	partmod	_	VBG|00759269-v|Requesting+
+
+# text = Two sumo wrestlers are fighting
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	sumo	sumo	NOUN	NN	_	3	nn	_	NN|00448232-n|Wrestling+
+3	wrestlers	wrestler	NOUN	NNS	_	5	nsubj	_	NNS|10793168-n|SocialRole+
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	fighting	fight	VERB	VBG	_	0	ROOT	_	VBG|01090335-v|ViolentContest+
+
+# text = A band is performing onstage
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	band	band	NOUN	NN	_	4	nsubj	_	NN|08249038-n|MusicalGroup+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	performing	perform	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	onstage	onstage	NOUN	NN	_	4	dobj	_	RB|00259775-r|located+
+
+# text = A woman is slicing vegetables
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	vegetables	vegetable	NOUN	NNS	_	4	dobj	_	NNS|07707451-n|Vegetable=
+
+# text = Some women are not talking
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	women	woman	NOUN	NNS	_	5	nsubj	_	NNS|10787470-n|Woman=
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	talking	talk	VERB	VBG	_	0	ROOT	_	VBG|00941990-v|Speaking+
+
+# text = A few people are singing
+1	A	a	DET	DT	_	2	quantmod	_	DT|?|?
+2	few	few	ADJ	JJ	_	3	num	_	DT|?|?
+3	people	people	NOUN	NNS	_	5	nsubj	_	NNS|07942152-n|GroupOfPeople=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+
+# text = Someone is feeding an animal
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	feeding	feed	VERB	VBG	_	0	ROOT	_	VBG|01178565-v|Feeding+
+4	an	a	DET	DT	_	5	det	_	DT|?|?
+5	animal	animal	NOUN	NN	_	3	dobj	_	NN|00015388-n|Animal=
+
+# text = A dog is running downhill
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	downhill	downhill	ADV	RB	_	4	advmod	_	RB|00322423-r|SubjectiveAssessmentAttribute+
+
+# text = A white horse is standing
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	horse	horse	NOUN	NN	_	5	nsubj	_	NN|02374451-n|Horse=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+
+# text = The person is slicing onions
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	onions	onion	NOUN	NNS	_	4	dobj	_	NNS|12433081-n|FruitOrVegetable+
+
+# text = A woman is grating carrots
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	5	cop	_	VBZ|02604760-v|Entity+
+4	grating	grate	VERB	VBG	_	5	amod	_	VBG|01308160-v|Touching+
+5	carrots	carrot	NOUN	NNS	_	0	ROOT	_	NNS|07730207-n|Carrot=
+
+# text = A woman is frying meat
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	frying	fry	VERB	VBG	_	0	ROOT	_	VBG|02484957-v|Killing+
+5	meat	meat	NOUN	NN	_	4	dobj	_	NN|05921123-n|SubjectiveAssessmentAttribute+
+
+# text = The woman is slicing garlic
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	garlic	garlic	NOUN	NN	_	4	dobj	_	NN|07818277-n|Garlic=
+
+# text = The man is stirring oil
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	stirring	stir	VERB	VBG	_	0	ROOT	_	VBG|02116118-v|PsychologicalProcess+
+5	oil	oil	NOUN	NN	_	4	dobj	_	NN|14966667-n|Oil=
+
+# text = A man is lumping dough
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	lumping	lump	VERB	VBG	_	0	ROOT	_	VBG|01385920-v|Putting+
+5	dough	dough	NOUN	NN	_	4	dobj	_	NN|07860988-n|Dough+
+
+# text = Some women are cheerfully dancing
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	women	woman	NOUN	NNS	_	5	nsubj	_	NNS|10787470-n|Woman=
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	cheerfully	cheerfully	ADV	RB	_	5	advmod	_	RB|00230749-r|EmotionalState+
+5	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = A boy is playing guitar
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+
+# text = Two persons are shaking hands
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	persons	person	NOUN	NNS	_	4	nsubj	_	NNS|00007846-n|Human=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	shaking	shake	VERB	VBG	_	0	ROOT	_	VBG|01889610-v|Motion+
+5	hands	hand	NOUN	NNS	_	4	dobj	_	NNS|05564590-n|Hand+
+
+# text = The woman is dicing onions
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	dicing	dice	VERB	VBG	_	0	ROOT	_	VBG|01256867-v|Cutting+
+5	onions	onion	NOUN	NNS	_	4	dobj	_	NNS|12433081-n|FruitOrVegetable+
+
+# text = A woman is amalgamating eggs
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	amalgamating	amalgamate	VERB	VBG	_	0	ROOT	_	VBG|01462005-v|Combining+
+5	eggs	egg	NOUN	NNS	_	4	dobj	_	NNS|05524615-n|Gland+
+
+# text = A horse is not racing
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	horse	horse	NOUN	NN	_	5	nsubj	_	NN|02374451-n|Horse=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	racing	race	VERB	VBG	_	0	ROOT	_	VBG|02058994-v|Motion+
+
+# text = A tiger is strolling around
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	tiger	tiger	NOUN	NN	_	4	nsubj	_	NN|02129604-n|Feline+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	strolling	stroll	VERB	VBG	_	0	ROOT	_	VBG|01917980-v|Walking+
+5	around	around	ADP	IN	_	4	advmod	_	RP|00007015-r|?
+
+# text = A cat is playing keyboards
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cat	cat	NOUN	NN	_	4	nsubj	_	NN|02985606-n|Whip+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	keyboards	keyboard	NOUN	NNS	_	4	dobj	_	NNS|03614007-n|ComputerInputDevice+
+
+# text = Several children are standing up
+1	Several	several	ADJ	JJ	_	2	amod	_	DT|?|?
+2	children	child	NOUN	NNS	_	4	nsubj	_	NNS|09917593-n|HumanChild=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+5	up	up	PRT	RP	_	4	prt	_	RP|00097011-r|Increasing+
+
+# text = An airplane is taking off
+1	An	a	DET	DT	_	2	det	_	DT|?|?
+2	airplane	airplane	NOUN	NN	_	4	nsubj	_	NN|02691156-n|Airplane=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	taking	take	VERB	VBG	_	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
+5	off	off	PRT	RP	_	4	prt	_	RP|00232936-r|?
+
+# text = Nobody is playing the guitar
+1	Nobody	nobody	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+4	the	the	DET	DT	_	5	det	_	DT|?|?
+5	guitar	guitar	NOUN	NN	_	3	dobj	_	NN|03467517-n|Guitar=
+
+# text = There is no man screaming
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+5	screaming	scream	VERB	VBG	_	2	dep	_	VBG|00913065-v|Vocalizing=
+
+# text = A woman is slicing garlic
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	garlic	garlic	NOUN	NN	_	4	dobj	_	NN|07818277-n|Garlic=
+
+# text = A cow is eating hay
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	cow	cow	NOUN	NN	_	4	nsubj	_	NN|02403454-n|FemaleCow=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01157517-v|Process+
+5	hay	hay	NOUN	NN	_	4	dobj	_	NN|07802026-n|Hay=
+
+# text = A tiger is walking around
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	tiger	tiger	NOUN	NN	_	4	nsubj	_	NN|02129604-n|Feline+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+5	around	around	ADP	IN	_	4	advmod	_	RP|00007015-r|?
+
+# text = Two women are not dancing
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	women	woman	NOUN	NNS	_	5	nsubj	_	NNS|10787470-n|Woman=
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = The woman is cooking eggs
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cooking	cook	VERB	VBG	_	0	ROOT	_	VBG|00322847-v|Cooking+
+5	eggs	egg	NOUN	NNS	_	4	dobj	_	NNS|05524615-n|Gland+
+
+# text = A person is tearing sheets
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	tearing	tear	VERB	VBG	_	0	ROOT	_	VBG|01573515-v|Separating+
+5	sheets	sheet	NOUN	NNS	_	4	dobj	_	NNS|04127904-n|Sail=
+
+# text = The man is lifting weights
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	lifting	lift	VERB	VBG	_	0	ROOT	_	VBG|01974062-v|MotionUpward=
+5	weights	weight	NOUN	NNS	_	4	dobj	_	NNS|05026843-n|MassMeasure+
+
+# text = The man is sitting indoors
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	indoors	indoors	ADV	RB	_	4	advmod	_	RB|00110533-r|Indoors+
+
+# text = The woman is dicing garlic
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	5	cop	_	VBZ|02604760-v|Entity+
+4	dicing	dice	VERB	VBG	_	5	amod	_	VBG|01256867-v|Cutting+
+5	garlic	garlic	NOUN	NN	_	0	ROOT	_	NN|07818277-n|Garlic=
+
+# text = The woman is waterskiing fearlessly
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	waterskiing	waterskiing	VERB	VBG	_	0	ROOT	_	NN|?|?
+5	fearlessly	fearlessly	ADV	RB	_	4	advmod	_	RB|00199687-r|StateOfMind+
+
+# text = A man is praying fervently
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	praying	pray	VERB	VBG	_	0	ROOT	_	VBG|00759269-v|Requesting+
+5	fervently	fervently	ADV	RB	_	4	advmod	_	RB|00339599-r|SubjectiveAssessmentAttribute+
+
+# text = Some paper is being cut
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	paper	paper	NOUN	NN	_	5	nsubjpass	_	NN|06267145-n|Newspaper=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	cut	cut	VERB	VBN	_	0	ROOT	_	VBN|00429060-v|Decreasing+
+
+# text = A woman is cutting meat
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|00429060-v|Decreasing+
+5	meat	meat	NOUN	NN	_	4	dobj	_	NN|05921123-n|SubjectiveAssessmentAttribute+
+
+# text = A sad man is crying
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	sad	sad	ADJ	JJ	_	3	amod	_	JJ|01361863-a|Unhappiness+
+3	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	crying	cry	VERB	VBG	_	0	ROOT	_	VBG|00066191-v|Weeping=
+
+# text = There are no mimes performing
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	mimes	mime	NOUN	NNS	_	2	nsubj	_	NNS|00550016-n|RecreationOrExercise+
+5	performing	perform	VERB	VBG	_	4	partmod	_	VBG|01712704-v|IntentionalProcess+
+
+# text = Nobody is riding a bike
+1	Nobody	nobody	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	bike	bike	NOUN	NN	_	3	dobj	_	NN|02834778-n|Bicycle=
+
+# text = Someone is beating an egg
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	beating	beat	VERB	VBG	_	0	ROOT	_	VBG|01398919-v|Impacting+
+4	an	a	DET	DT	_	5	det	_	DT|?|?
+5	egg	egg	NOUN	NN	_	3	dobj	_	NN|05524615-n|Gland+
+
+# text = The hungry woman is eating
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	hungry	hungry	ADJ	JJ	_	3	amod	_	JJ|01269073-a|PerceptualAttribute+
+3	woman	woman	NOUN	NN	_	5	nsubj	_	NN|10787470-n|Woman=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01168468-v|Eating=
+
+# text = There are no men sawing
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	men	man	NOUN	NNS	_	5	nn	_	NNS|02472293-n|Hominid=
+5	sawing	saw	VERB	VBG	_	2	nsubj	_	VBG|01559590-v|Cutting+
+
+# text = A golden retriever is running
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	golden	golden	ADJ	JJ	_	3	amod	_	JJ|00670938-a|SubjectiveWeakPositiveAttribute+
+3	retriever	retriever	NOUN	NN	_	5	nsubj	_	NN|02099029-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	running	run	VERB	VBG	_	0	ROOT	_	VBG|01143838-v|Hunting+
+
+# text = A few men are dancing
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	few	few	ADJ	JJ	_	3	amod	_	DT|?|?
+3	men	man	NOUN	NNS	_	5	nsubj	_	NNS|02472293-n|Hominid=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+5	dancing	dance	VERB	VBG	_	0	ROOT	_	VBG|01708676-v|Dancing+
+
+# text = A dog is running uphill
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+5	uphill	uphill	ADV	RB	_	4	advmod	_	JJ|02484530-a|PositionalAttribute+
+
+# text = A kid is playing guitar
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	kid	kid	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+
+# text = A man is cutting onions
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|00429060-v|Decreasing+
+5	onions	onion	NOUN	NNS	_	4	dobj	_	NNS|12433081-n|FruitOrVegetable+
+
+# text = Some men are playing rugby
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01079480-v|Game+
+5	rugby	rugby	NOUN	NN	_	4	dobj	_	NN|00470966-n|Rugby=
+
+# text = A woman is cutting broccoli
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|00429060-v|Decreasing+
+5	broccoli	broccoli	NOUN	NN	_	4	dobj	_	NN|11876803-n|FloweringPlant+
+
+# text = A woman is frying food
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	frying	fry	VERB	VBG	_	0	ROOT	_	VBG|02484957-v|Killing+
+5	food	food	NOUN	NN	_	4	dobj	_	NN|05811214-n|SubjectiveAssessmentAttribute+
+
+# text = The baby is crawling happily
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	baby	baby	NOUN	NN	_	4	nsubj	_	NN|09827683-n|HumanBaby=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	crawling	crawl	VERB	VBG	_	0	ROOT	_	VBG|02730682-v|StateOfMind+
+5	happily	happily	ADV	RB	_	4	advmod	_	RB|00050297-r|Happiness+
+
+# text = A woman is chopping garlic
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	chopping	chop	VERB	VBG	_	0	ROOT	_	VBG|01258091-v|Cutting+
+5	garlic	garlic	NOUN	NN	_	4	dobj	_	NN|07818277-n|Garlic=
+
+# text = Someone is cutting a tomato
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|00429060-v|Decreasing+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	tomato	tomato	NOUN	NN	_	3	dobj	_	NN|07734017-n|Tomato=
+
+# text = Nobody is playing ping pong
+1	Nobody	nobody	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+4	ping	ping	NOUN	NN	_	5	nn	_	NN|07389569-n|RadiatingSound+
+5	pong	pong	NOUN	NN	_	3	dobj	_	JJ|?|?
+
+# text = A woman is cooking fish
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cooking	cook	VERB	VBG	_	0	ROOT	_	VBG|00322847-v|Cooking+
+5	fish	fish	NOUN	NN	_	4	dobj	_	NN|08688076-n|Region@
+
+# text = A man is cracking eggs
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cracking	crack	VERB	VBG	_	0	ROOT	_	VBG|00336260-v|Damaging+
+5	eggs	egg	NOUN	NNS	_	4	dobj	_	NNS|05524615-n|Gland+
+
+# text = A woman is frying fish
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	frying	fry	VERB	VBG	_	0	ROOT	_	VBG|02484957-v|Killing+
+5	fish	fish	NOUN	NN	_	4	dobj	_	NN|08688076-n|Region@
+
+# text = A dog is looking around
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	4	nsubj	_	NN|02084071-n|Canine+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+5	around	around	ADP	IN	_	4	advmod	_	RP|00007015-r|?
+
+# text = Two girls are playing guitar
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	girls	girl	NOUN	NNS	_	4	nsubj	_	NNS|10129825-n|Human+
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+
+# text = An animated airplane is landing
+1	An	a	DET	DT	_	3	det	_	DT|?|?
+2	animated	animate	ADJ	JJ	_	3	amod	_	VBN|01812720-v|IntentionalPsychologicalProcess+
+3	airplane	airplane	NOUN	NN	_	5	nsubj	_	NN|02691156-n|Airplane=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	landing	land	VERB	VBG	_	0	ROOT	_	VBG|01979901-v|Landing+
+
+# text = Someone is playing the guitar
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
+2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
+3	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+4	the	the	DET	DT	_	5	det	_	DT|?|?
+5	guitar	guitar	NOUN	NN	_	3	dobj	_	NN|03467517-n|Guitar=
+
+# text = A person is boiling noodles
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	4	nsubj	_	NN|00007846-n|Human=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	boiling	boil	VERB	VBG	_	0	ROOT	_	VBG|00375021-v|Boiling=
+5	noodles	noodle	NOUN	NNS	_	4	dobj	_	NNS|07699584-n|Pasta+
+
+# text = A jet is not flying
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	jet	jet	NOUN	NN	_	5	nsubj	_	NN|03595860-n|JetAirplane=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	flying	fly	VERB	VBG	_	0	ROOT	_	VBG|01941093-v|FlyingAircraft=
+
+# text = A woman is drying noodles
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	drying	dry	VERB	VBG	_	0	ROOT	_	VBG|00218475-v|Drying+
+5	noodles	noodle	NOUN	NNS	_	4	dobj	_	NNS|07699584-n|Pasta+
+
+# text = Two men are playing guitar
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	guitar	guitar	NOUN	NN	_	4	dobj	_	NN|03467517-n|Guitar=
+
+# text = The men are playing soccer
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	men	man	NOUN	NNS	_	4	nsubj	_	NNS|02472293-n|Hominid=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+5	soccer	soccer	NOUN	NN	_	4	dobj	_	NN|00478262-n|Soccer=
+
+# text = The man is not drawing
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	drawing	draw	VERB	VBG	_	0	ROOT	_	VBG|01854132-v|Removing+
+
+# text = There is no man thinking
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	man	man	NOUN	NN	_	2	nsubj	_	NN|02472293-n|Hominid=
+5	thinking	think	VERB	VBG	_	4	amod	_	VBG|00628491-v|Reasoning+
+
+# text = The woman is removing make-up
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	removing	remove	VERB	VBG	_	0	ROOT	_	VBG|02404224-v|LeavingAnOrganization+
+5	make-up	make-up	.	.	_	4	punct	_	NN|03714235-n|Mixture+
+
+# text = Two people are riding motorbikes
+1	Two	2	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+5	motorbikes	motorbike	NOUN	NNS	_	4	dobj	_	NNS|03769722-n|TransportationDevice+
+
+# text = Men are running a race
+1	Men	man	NOUN	NNS	_	3	nsubj	_	NNS|02472293-n|Hominid=
+2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
+3	running	run	VERB	VBG	_	0	ROOT	_	VBG|01086103-v|Racing+
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	race	race	NOUN	NN	_	3	dobj	_	NN|07458453-n|Racing=
+
+# text = A man is doing pull-ups
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	doing	do	VERB	VBG	_	0	ROOT	_	VBG|01712704-v|IntentionalProcess+
+5	pull-ups	pull-up	NOUN	NNS	_	4	dobj	_	NNS|00629597-n|RecreationOrExercise+
+
+# text = A woman is cutting onions
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	cutting	cut	VERB	VBG	_	0	ROOT	_	VBG|00429060-v|Decreasing+
+5	onions	onion	NOUN	NNS	_	4	dobj	_	NNS|12433081-n|FruitOrVegetable+
+
+# text = The man is slicing bread
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	4	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	slicing	slice	VERB	VBG	_	0	ROOT	_	VBG|01254477-v|Separating+
+5	bread	bread	NOUN	NN	_	4	dobj	_	NN|07679356-n|BreadOrBiscuit+
+
+# text = A small animal is singing
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	small	small	ADJ	JJ	_	3	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	animal	animal	NOUN	NN	_	5	nsubj	_	NN|00015388-n|Animal=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	singing	sing	VERB	VBG	_	0	ROOT	_	VBG|01731031-v|MakingVocalMusic=
+
+# text = A lemur is eating quickly
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	lemur	lemur	NOUN	NN	_	4	nsubj	_	NN|02496913-n|Primate+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	eating	eat	VERB	VBG	_	0	ROOT	_	VBG|01168468-v|Eating=
+5	quickly	quickly	ADV	RB	_	4	advmod	_	RB|00085811-r|SubjectiveAssessmentAttribute+
+

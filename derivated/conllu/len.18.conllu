@@ -1,0 +1,1320 @@
+# text = Two large persons are sitting on a park bench and they have a bottle of soda between them
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	large	large	ADJ	JJ	_	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	persons	person	NOUN	NNS	_	5	nsubj	_	NNS|00007846-n|Human=
+4	are	be	VERB	VBP	_	5	aux	_	VBP|02655135-v|PhysicalAttribute+
+5	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	park	park	NOUN	NN	_	9	nn	_	NN|08615374-n|Park+
+9	bench	bench	NOUN	NN	_	6	pobj	_	NN|02828884-n|Seat+
+10	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+11	they	they	PRON	PRP	_	12	nsubj	_	PRP|?|?
+12	have	have	VERB	VBP	_	5	conj	_	VBP|00065639-v|Damaging+
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	bottle	bottle	NOUN	NN	_	12	dobj	_	NN|02876657-n|Bottle=
+15	of	of	ADP	IN	_	14	prep	_	IN|?|?
+16	soda	soda	NOUN	NN	_	15	pobj	_	NN|07927512-n|Soda=
+17	between	between	ADP	IN	_	16	prep	_	IN|?|?
+18	them	them	PRON	PRP	_	17	pobj	_	PRP|?|?
+
+# text = A black rally car is throwing mud into the air and is approaching a bend in the track
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	black	black	ADJ	JJ	_	3	amod	_	JJ|00392812-a|Black=
+3	rally	rally	NOUN	NN	_	4	nn	_	NN|00045646-n|PsychologicalProcess+
+4	car	car	NOUN	NN	_	6	nsubj	_	NN|02958343-n|Automobile=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	throwing	throw	VERB	VBG	_	0	ROOT	_	VBG|01508368-v|Impelling+
+7	mud	mud	NOUN	NN	_	6	dobj	_	NN|14956325-n|Soil=
+8	into	into	ADP	IN	_	6	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	air	air	NOUN	NN	_	8	pobj	_	NN|00300441-n|AirTransportation+
+11	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+12	is	be	VERB	VBZ	_	13	aux	_	VBZ|02604760-v|Entity+
+13	approaching	approach	VERB	VBG	_	6	conj	_	VBG|02053941-v|Arriving=
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	bend	bend	NOUN	NN	_	13	dobj	_	NN|02829696-n|Transitway+
+16	in	in	ADP	IN	_	15	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	track	track	NOUN	NN	_	16	pobj	_	NN|04463679-n|RailroadTrack+
+
+# text = A woman wearing a blue shirt and high heels is standing on the sidewalk next to the man
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	11	nsubj	_	NN|10787470-n|Woman=
+3	wearing	wear	VERB	VBG	_	2	partmod	_	VBG|00052374-v|Putting+
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	blue	blue	ADJ	JJ	_	6	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+6	shirt	shirt	NOUN	NN	_	3	dobj	_	NN|04197391-n|Shirt=
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	high	high	ADJ	JJ	_	9	amod	_	JJ|02339120-a|SubjectiveStrongPositiveAttribute+
+9	heels	heel	NOUN	NNS	_	6	conj	_	NNS|03511426-n|Artifact+
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|02734488-v|Attribute+
+12	on	on	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	sidewalk	sidewalk	NOUN	NN	_	12	pobj	_	NN|04215402-n|Sidewalk=
+15	next	next	ADV	RB	_	11	advmod	_	JJ|01294975-a|Position+
+16	to	to	ADP	IN	_	15	prep	_	TO|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	man	man	NOUN	NN	_	16	pobj	_	NN|10287213-n|Man=
+
+# text = A girl is wearing a pink shirt with white writing on it and is lying in the grass
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	girl	girl	NOUN	NN	_	4	nsubj	_	NN|10129825-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	pink	pink	ADJ	JJ	_	7	amod	_	JJ|00379595-a|Pink+
+7	shirt	shirt	NOUN	NN	_	4	dobj	_	NN|04197391-n|Shirt=
+8	with	with	ADP	IN	_	4	prep	_	IN|?|?
+9	white	white	ADJ	JJ	_	10	amod	_	JJ|00393105-a|White=
+10	writing	write	NOUN	NN	_	8	pobj	_	VBG|00993014-v|WrittenCommunication=
+11	on	on	ADP	IN	_	10	prep	_	IN|?|?
+12	it	it	PRON	PRP	_	11	pobj	_	PRP|?|?
+13	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+14	is	be	VERB	VBZ	_	15	aux	_	VBZ|02604760-v|Entity+
+15	lying	lie	VERB	VBG	_	4	conj	_	VBG|02690708-v|PhysicalAttribute+
+16	in	in	ADP	IN	_	15	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	grass	grass	NOUN	NN	_	16	pobj	_	NN|12102133-n|Grass=
+
+# text = Some people at a drag race are looking at the flames that are coming out of the cars
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	people	people	NOUN	NNS	_	8	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	at	at	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	drag	drag	NOUN	NN	_	6	nn	_	NN|11504898-n|Process+
+6	race	race	NOUN	NN	_	3	pobj	_	NN|07458453-n|Racing=
+7	are	be	VERB	VBP	_	8	aux	_	VBP|02604760-v|Entity+
+8	looking	look	VERB	VBG	_	0	ROOT	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+9	at	at	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	flames	flame	NOUN	NNS	_	9	pobj	_	NNS|13480848-n|Combustion=
+12	that	that	DET	WDT	_	14	nsubj	_	WDT|?|?
+13	are	be	VERB	VBP	_	14	aux	_	VBP|02604760-v|Entity+
+14	coming	come	VERB	VBG	_	11	rcmod	_	VBG|02005948-v|Arriving=
+15	out	out	ADP	IN	_	14	prep	_	RP|00233413-r|Giving+
+16	of	of	ADP	IN	_	15	pcomp	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	cars	car	NOUN	NNS	_	16	pobj	_	NNS|02958343-n|Automobile=
+
+# text = Women are not wearing bunny ears and race numbers and are not pointing at something in the distance
+1	Women	woman	NOUN	NNS	_	4	nsubj	_	NNS|10787470-n|Woman=
+2	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+3	not	not	ADV	RB	_	4	neg	_	RB|00024073-r|not=
+4	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+5	bunny	bunny	NOUN	NN	_	6	nn	_	NN|09880189-n|Position+
+6	ears	ear	NOUN	NNS	_	4	dobj	_	NNS|05323889-n|Ear+
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	race	race	NOUN	NN	_	9	nn	_	NN|07458453-n|Racing=
+9	numbers	number	NOUN	NNS	_	6	conj	_	NNS|13582013-n|Number=
+10	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+11	are	be	VERB	VBP	_	13	aux	_	VBP|02604760-v|Entity+
+12	not	not	ADV	RB	_	13	neg	_	RB|00024073-r|not=
+13	pointing	point	VERB	VBG	_	4	conj	_	VBG|00923793-v|Indicating=
+14	at	at	ADP	IN	_	13	prep	_	IN|?|?
+15	something	something	NOUN	NN	_	14	pobj	_	PRP|?|?
+16	in	in	ADP	IN	_	15	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	distance	distance	NOUN	NN	_	16	pobj	_	NN|05084201-n|LengthMeasure+
+
+# text = A child is splashing in a pool for children and no other children are playing in the background
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	4	nsubj	_	NN|09917593-n|HumanChild=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	splashing	splash	VERB	VBG	_	0	ROOT	_	VBG|01374020-v|Wetting+
+5	in	in	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	pool	pool	NOUN	NN	_	5	pobj	_	NN|09397607-n|StaticWaterArea+
+8	for	for	ADP	IN	_	7	prep	_	IN|?|?
+9	children	child	NOUN	NNS	_	8	pobj	_	NNS|09917593-n|HumanChild=
+10	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+11	no	no	DET	DT	_	13	det	_	DT|?|?
+12	other	other	ADJ	JJ	_	13	amod	_	JJ|02069355-a|equal+
+13	children	child	NOUN	NNS	_	15	nsubj	_	NNS|09917593-n|HumanChild=
+14	are	be	VERB	VBP	_	15	aux	_	VBP|02604760-v|Entity+
+15	playing	play	VERB	VBG	_	4	conj	_	VBG|01719302-v|DramaticActing+
+16	in	in	ADP	IN	_	15	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	background	background	NOUN	NN	_	16	pobj	_	NN|14513259-n|Region+
+
+# text = Two large dogs, a light colored one and a dark one, are running through snowy terrain
+1	Two	2	NUM	CD	_	3	num	_	Z|?|?
+2	large	large	ADJ	JJ	_	3	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	dogs	dog	NOUN	NNS	_	15	nsubj	_	NNS|02084071-n|Canine+
+4	,	,	.	,	_	3	punct	_	Fc|?|?
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	light	light	NOUN	NN	_	3	appos	_	NN|11473954-n|RadiatingVisibleLight+
+7	colored	color	VERB	VBN	_	6	partmod	_	VBD|00283911-v|SurfaceChange+
+8	one	1	NUM	CD	_	7	dobj	_	Z|?|?
+9	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+10	a	a	DET	DT	_	12	det	_	DT|?|?
+11	dark	dark	ADJ	JJ	_	12	amod	_	JJ|00409440-a|SubjectiveWeakNegativeAttribute+
+12	one	1	NUM	CD	_	8	conj	_	Z|?|?
+13	,	,	.	,	_	3	punct	_	Fc|?|?
+14	are	be	VERB	VBP	_	15	aux	_	VBP|02604760-v|Entity+
+15	running	run	VERB	VBG	_	0	ROOT	_	VBG|01525666-v|Attribute+
+16	through	through	ADP	IN	_	15	prep	_	IN|?|?
+17	snowy	snowy	ADJ	JJ	_	18	amod	_	JJ|01698231-a|Covering+
+18	terrain	terrain	NOUN	NN	_	16	pobj	_	NN|08674563-n|LandArea+
+
+# text = A woman in a white dress and a woman in a blue dress are standing on a stage
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	15	nsubj	_	NN|10787470-n|Woman=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	_	6	amod	_	JJ|00393105-a|White=
+6	dress	dress	NOUN	NN	_	3	pobj	_	NN|03236735-n|Dress+
+7	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	woman	woman	NOUN	NN	_	2	conj	_	NN|10787470-n|Woman=
+10	in	in	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	blue	blue	ADJ	JJ	_	13	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+13	dress	dress	NOUN	NN	_	10	pobj	_	NN|03236735-n|Dress+
+14	are	be	VERB	VBP	_	15	aux	_	VBP|02604760-v|Entity+
+15	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+16	on	on	ADP	IN	_	15	prep	_	IN|?|?
+17	a	a	DET	DT	_	18	det	_	DT|?|?
+18	stage	stage	NOUN	NN	_	16	pobj	_	NN|13939892-n|Attribute+
+
+# text = The white rally car is throwing mud into the air and is approaching a bend in the track
+1	The	the	DET	DT	_	4	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	rally	rally	NOUN	NN	_	4	nn	_	NN|00045646-n|PsychologicalProcess+
+4	car	car	NOUN	NN	_	6	nsubj	_	NN|02958343-n|Automobile=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	throwing	throw	VERB	VBG	_	0	ROOT	_	VBG|01508368-v|Impelling+
+7	mud	mud	NOUN	NN	_	6	dobj	_	NN|14956325-n|Soil=
+8	into	into	ADP	IN	_	6	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	air	air	NOUN	NN	_	8	pobj	_	NN|00300441-n|AirTransportation+
+11	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+12	is	be	VERB	VBZ	_	13	aux	_	VBZ|02604760-v|Entity+
+13	approaching	approach	VERB	VBG	_	6	conj	_	VBG|02053941-v|Arriving=
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	bend	bend	NOUN	NN	_	13	dobj	_	NN|02829696-n|Transitway+
+16	in	in	ADP	IN	_	15	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	track	track	NOUN	NN	_	16	pobj	_	NN|04463679-n|RailroadTrack+
+
+# text = A man with a white moustache is sitting on a balcony and is looking at the road below
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	_	6	amod	_	JJ|00393105-a|White=
+6	moustache	moustache	NOUN	NN	_	3	pobj	_	NN|05262185-n|FacialHair+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02655135-v|PhysicalAttribute+
+8	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+9	on	on	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	balcony	balcony	NOUN	NN	_	9	pobj	_	NN|02777927-n|StationaryArtifact+
+12	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+13	is	be	VERB	VBZ	_	14	aux	_	VBZ|02655135-v|PhysicalAttribute+
+14	looking	look	VERB	VBG	_	8	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+15	at	at	ADP	IN	_	14	prep	_	IN|?|?
+16	the	the	DET	DT	_	17	det	_	DT|?|?
+17	road	road	NOUN	NN	_	15	pobj	_	NN|04096066-n|Roadway+
+18	below	below	ADP	IN	_	17	advmod	_	IN|?|?
+
+# text = Four people are walking along a city sidewalk and the one in the green hat is phoning someone
+1	Four	4	NUM	CD	_	2	num	_	Z|?|?
+2	people	people	NOUN	NNS	_	4	nsubj	_	NNS|07942152-n|GroupOfPeople=
+3	are	be	VERB	VBP	_	4	aux	_	VBP|02604760-v|Entity+
+4	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+5	along	along	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	city	city	NOUN	NN	_	8	nn	_	NN|08524735-n|City=
+8	sidewalk	sidewalk	NOUN	NN	_	5	pobj	_	NN|04215402-n|Sidewalk=
+9	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	one	one	NOUN	NN	_	17	nsubj	_	NN|13742573-n|PositiveInteger@
+12	in	in	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	15	det	_	DT|?|?
+14	green	green	ADJ	JJ	_	15	amod	_	JJ|00375969-a|Green=
+15	hat	hat	NOUN	NN	_	12	pobj	_	NN|03497657-n|Hat+
+16	is	be	VERB	VBZ	_	17	aux	_	VBZ|02604760-v|Entity+
+17	phoning	phone	VERB	VBG	_	4	conj	_	VBG|00789448-v|Telephoning=
+18	someone	someone	NOUN	NN	_	17	dobj	_	PRP|?|?
+
+# text = People at a drag race are running away from the flames that are coming out of the cars
+1	People	people	NOUN	NNS	_	7	nsubj	_	NNS|07942152-n|GroupOfPeople=
+2	at	at	ADP	IN	_	1	prep	_	IN|?|?
+3	a	a	DET	DT	_	5	det	_	DT|?|?
+4	drag	drag	NOUN	NN	_	5	nn	_	NN|11504898-n|Process+
+5	race	race	NOUN	NN	_	2	pobj	_	NN|07458453-n|Racing=
+6	are	be	VERB	VBP	_	7	aux	_	VBP|02604760-v|Entity+
+7	running	run	VERB	VBG	_	0	ROOT	_	VBG|02685951-v|PhysicalAttribute+
+8	away	away	ADV	RB	_	7	advmod	_	RP|00233295-r|?
+9	from	from	ADP	IN	_	8	prep	_	IN|?|?
+10	the	the	DET	DT	_	11	det	_	DT|?|?
+11	flames	flame	NOUN	NNS	_	9	pobj	_	NNS|13480848-n|Combustion=
+12	that	that	DET	WDT	_	14	nsubj	_	WDT|?|?
+13	are	be	VERB	VBP	_	14	aux	_	VBP|02604760-v|Entity+
+14	coming	come	VERB	VBG	_	11	rcmod	_	VBG|02005948-v|Arriving=
+15	out	out	ADP	IN	_	14	prep	_	RP|00233295-r|?
+16	of	of	ADP	IN	_	15	pcomp	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	cars	car	NOUN	NNS	_	16	pobj	_	NNS|02958343-n|Automobile=
+
+# text = A bunch of boys are playing with a ball in front of a large door made of wood
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	bunch	bunch	NOUN	NN	_	6	nsubj	_	NN|07959943-n|Collection+
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	boys	boy	NOUN	NNS	_	3	pobj	_	NNS|10285313-n|Human+
+5	are	be	VERB	VBP	_	6	aux	_	VBP|02604760-v|Entity+
+6	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+7	with	with	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	ball	ball	NOUN	NN	_	7	pobj	_	NN|02778669-n|Ball=
+10	in	in	ADP	IN	_	6	prep	_	IN|?|?
+11	front	front	NOUN	NN	_	10	pobj	_	NN|08573472-n|FrontFn=
+12	of	of	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	15	det	_	DT|?|?
+14	large	large	ADJ	JJ	_	15	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+15	door	door	NOUN	NN	_	12	pobj	_	NN|03224032-n|Door+
+16	made	make	VERB	VBN	_	15	partmod	_	VBN|02621395-v|Attribute+
+17	of	of	ADP	IN	_	16	prep	_	IN|?|?
+18	wood	wood	NOUN	NN	_	17	pobj	_	NN|15098161-n|Wood=
+
+# text = A person with a red hooded jacket and a black backpack is not walking near a rocky wall
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	person	person	NOUN	NN	_	14	nsubj	_	NN|00007846-n|Human=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	7	det	_	DT|?|?
+5	red	red	ADJ	JJ	_	7	amod	_	JJ|00381097-a|Red=
+6	hooded	hooded	ADJ	JJ	_	7	amod	_	JJ|?|?
+7	jacket	jacket	NOUN	NN	_	3	pobj	_	NN|03589791-n|Coat=
+8	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	black	black	ADJ	JJ	_	11	amod	_	JJ|00392812-a|Black=
+11	backpack	backpack	NOUN	NN	_	7	conj	_	NN|02769748-n|Bag+
+12	is	be	VERB	VBZ	_	14	aux	_	VBZ|02604760-v|Entity+
+13	not	not	ADV	RB	_	14	neg	_	RB|00024073-r|not=
+14	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+15	near	near	ADP	IN	_	14	prep	_	IN|?|?
+16	a	a	DET	DT	_	18	det	_	DT|?|?
+17	rocky	rocky	ADJ	JJ	_	18	amod	_	JJ|02243567-a|TextureAttribute+
+18	wall	wall	NOUN	NN	_	15	pobj	_	NN|04546855-n|Wall=
+
+# text = A man in a purple colored suit is standing by a purple case and is playing a guitar
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	9	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	7	det	_	DT|?|?
+5	purple	purple	ADJ	JJ	_	7	amod	_	JJ|01591394-a|SocialRole+
+6	colored	color	VERB	VBN	_	7	amod	_	VBN|00283911-v|SurfaceChange+
+7	suit	suit	NOUN	NN	_	3	pobj	_	NN|01182654-n|LegalAction=
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+10	by	by	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	purple	purple	ADJ	JJ	_	13	amod	_	JJ|01591394-a|SocialRole+
+13	case	case	NOUN	NN	_	10	pobj	_	NN|01182654-n|LegalAction=
+14	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+15	is	be	VERB	VBZ	_	16	aux	_	VBZ|02604760-v|Entity+
+16	playing	play	VERB	VBG	_	9	conj	_	VBG|01719302-v|DramaticActing+
+17	a	a	DET	DT	_	18	det	_	DT|?|?
+18	guitar	guitar	NOUN	NN	_	16	dobj	_	NN|03467517-n|Guitar=
+
+# text = A stone woman and bicycle are on top of two purple columns, between which people are walking
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	stone	stone	NOUN	NN	_	3	nn	_	NN|09416076-n|Rock=
+3	woman	woman	NOUN	NN	_	6	nsubj	_	NN|10787470-n|Woman=
+4	and	and	CONJ	CC	_	3	cc	_	CC|?|?
+5	bicycle	bicycle	NOUN	NN	_	3	conj	_	NN|02834778-n|Bicycle=
+6	are	be	VERB	VBP	_	0	ROOT	_	VBP|02604760-v|Entity+
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	top	top	NOUN	NN	_	7	pobj	_	JJ|02439949-a|top=
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	two	2	NUM	CD	_	12	num	_	Z|?|?
+11	purple	purple	ADJ	JJ	_	12	amod	_	JJ|01591394-a|SocialRole+
+12	columns	column	NOUN	NNS	_	9	pobj	_	NNS|03073977-n|StationaryArtifact+
+13	,	,	.	,	_	12	punct	_	Fc|?|?
+14	between	between	ADP	IN	_	18	prep	_	IN|?|?
+15	which	which	DET	WDT	_	14	pobj	_	WDT|?|?
+16	people	people	NOUN	NNS	_	18	nsubj	_	NNS|07942152-n|GroupOfPeople=
+17	are	be	VERB	VBP	_	18	aux	_	VBP|02604760-v|Entity+
+18	walking	walk	VERB	VBG	_	12	rcmod	_	VBG|01904930-v|Walking=
+
+# text = A woman is putting on a cloak, which is very large, and concealing an extravagant dress
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	putting	put	VERB	VBG	_	0	ROOT	_	VBG|01494310-v|Putting=
+5	on	on	PRT	RP	_	4	prt	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	cloak	cloak	NOUN	NN	_	4	dobj	_	NN|03045337-n|Clothing+
+8	,	,	.	,	_	7	punct	_	Fc|?|?
+9	which	which	DET	WDT	_	12	nsubj	_	WDT|?|?
+10	is	be	VERB	VBZ	_	12	cop	_	VBZ|02604760-v|Entity+
+11	very	very	ADV	RB	_	12	advmod	_	RB|00031899-r|SubjectiveAssessmentAttribute+
+12	large	large	ADJ	JJ	_	7	rcmod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+13	,	,	.	,	_	4	punct	_	Fc|?|?
+14	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+15	concealing	conceal	VERB	VBG	_	4	conj	_	VBG|02144835-v|Concealing=
+16	an	a	DET	DT	_	18	det	_	DT|?|?
+17	extravagant	extravagant	ADJ	JJ	_	18	amod	_	JJ|02422242-a|SubjectiveStrongNegativeAttribute+
+18	dress	dress	NOUN	NN	_	15	dobj	_	NN|02728440-n|Clothing+
+
+# text = A little black dog is wearing a red collar and is in the leaves with a blue ball
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	little	little	ADJ	JJ	_	4	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	black	black	ADJ	JJ	_	4	amod	_	JJ|00392812-a|Black=
+4	dog	dog	NOUN	NN	_	6	nsubj	_	NN|02084071-n|Canine+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	red	red	ADJ	JJ	_	9	amod	_	JJ|00381097-a|Red=
+9	collar	collar	NOUN	NN	_	6	dobj	_	NN|03068181-n|Collar+
+10	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+11	is	be	VERB	VBZ	_	6	conj	_	VBZ|02604760-v|Entity+
+12	in	in	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	leaves	leaf	NOUN	NNS	_	12	pobj	_	NNS|13152742-n|Leaf=
+15	with	with	ADP	IN	_	11	prep	_	IN|?|?
+16	a	a	DET	DT	_	18	det	_	DT|?|?
+17	blue	blue	ADJ	JJ	_	18	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+18	ball	ball	NOUN	NN	_	15	pobj	_	NN|02778669-n|Ball=
+
+# text = A fully dressed person is behind a pile of rocks and a clear sky is in the background
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	fully	fully	ADV	RB	_	3	advmod	_	RB|00178909-r|SubjectiveAssessmentAttribute+
+3	dressed	dress	VERB	VBN	_	4	amod	_	VBN|00046534-v|Dressing+
+4	person	person	NOUN	NN	_	5	nsubj	_	NN|00007846-n|Human=
+5	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+6	behind	behind	ADP	IN	_	5	prep	_	IN|?|?
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	pile	pile	NOUN	NN	_	6	pobj	_	NN|13774404-n|SubjectiveAssessmentAttribute+
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	rocks	rock	NOUN	NNS	_	9	pobj	_	NNS|09416076-n|Rock=
+11	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+12	a	a	DET	DT	_	14	det	_	DT|?|?
+13	clear	clear	ADJ	JJ	_	14	amod	_	JJ|00431447-a|SubjectiveAssessmentAttribute+
+14	sky	sky	NOUN	NN	_	15	nsubj	_	NN|09436708-n|SpaceRegion=
+15	is	be	VERB	VBZ	_	5	conj	_	VBZ|02604760-v|Entity+
+16	in	in	ADP	IN	_	15	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	background	background	NOUN	NN	_	16	pobj	_	NN|14513259-n|Region+
+
+# text = There is no boy standing in front of the blue building in the space reserved for handicapped people
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	4	det	_	DT|?|?
+4	boy	boy	NOUN	NN	_	2	nsubj	_	NN|10285313-n|Human+
+5	standing	standing	VERB	VBG	_	4	partmod	_	NN|13948136-n|SocialRole+
+6	in	in	ADP	IN	_	5	prep	_	IN|?|?
+7	front	front	NOUN	NN	_	6	pobj	_	NN|08573472-n|FrontFn=
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	11	det	_	DT|?|?
+10	blue	blue	ADJ	JJ	_	11	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+11	building	building	NOUN	NN	_	8	pobj	_	NN|02913152-n|Building=
+12	in	in	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	space	space	NOUN	NN	_	12	pobj	_	NN|08500433-n|OuterSpaceRegion+
+15	reserved	reserve	VERB	VBN	_	14	partmod	_	VBN|02498320-v|Reserving=
+16	for	for	ADP	IN	_	15	prep	_	IN|?|?
+17	handicapped	handicap	ADJ	JJ	_	18	amod	_	VBN|01085474-v|RegulatoryProcess+
+18	people	people	NOUN	NNS	_	16	pobj	_	NNS|07942152-n|GroupOfPeople=
+
+# text = A man in a red uniform is racing and making a jump over a bike in the dirt
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|02472293-n|Hominid=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	red	red	ADJ	JJ	_	6	amod	_	JJ|00381097-a|Red=
+6	uniform	uniform	NOUN	NN	_	3	pobj	_	NN|04509592-n|UniformClothing=
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	racing	race	VERB	VBG	_	0	ROOT	_	VBG|02058994-v|Motion+
+9	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+10	making	make	VERB	VBG	_	8	conj	_	VBG|00074038-v|Defecate=
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	jump	jump	NOUN	NN	_	10	dobj	_	NN|00303849-n|Transportation+
+13	over	over	ADP	IN	_	12	prep	_	IN|?|?
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	bike	bike	NOUN	NN	_	13	pobj	_	NN|02834778-n|Bicycle=
+16	in	in	ADP	IN	_	15	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	dirt	dirt	NOUN	NN	_	16	pobj	_	NN|07223811-n|Text+
+
+# text = A topless woman is being smeared with a brown substance and a blurry crowd is in the background
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	topless	topless	ADJ	JJ	_	3	amod	_	JJ|02442082-a|top+
+3	woman	woman	NOUN	NN	_	6	nsubjpass	_	NN|10787470-n|Woman=
+4	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+5	being	be	VERB	VBG	_	6	auxpass	_	VBG|02604760-v|Entity+
+6	smeared	smear	VERB	VBN	_	0	ROOT	_	VBN|01252425-v|SurfaceChange+
+7	with	with	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	10	det	_	DT|?|?
+9	brown	brown	ADJ	JJ	_	10	amod	_	JJ|00245112-a|Human+
+10	substance	substance	NOUN	NN	_	7	pobj	_	NN|05921123-n|SubjectiveAssessmentAttribute+
+11	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+12	a	a	DET	DT	_	14	det	_	DT|?|?
+13	blurry	blurry	NOUN	NN	_	14	amod	_	JJ|00781644-a|VisualAttribute+
+14	crowd	crowd	NOUN	NN	_	15	nsubj	_	NN|08182379-n|SubjectiveAssessmentAttribute=
+15	is	be	VERB	VBZ	_	6	conj	_	VBZ|02604760-v|Entity+
+16	in	in	ADP	IN	_	15	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	background	background	NOUN	NN	_	16	pobj	_	NN|14513259-n|Region+
+
+# text = A woman who is wearing a pink scarf is riding a bike down a bridge built for pedestrians
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	10	nsubj	_	NN|10787470-n|Woman=
+3	who	who	PRON	WP	_	5	nsubj	_	WP|?|?
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	wearing	wear	VERB	VBG	_	2	rcmod	_	VBG|00050652-v|Dressing+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	pink	pink	ADJ	JJ	_	8	amod	_	JJ|00379595-a|Pink+
+8	scarf	scarf	NOUN	NN	_	5	dobj	_	NN|04143897-n|Clothing+
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|02102398-v|Transportation+
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	bike	bike	NOUN	NN	_	10	dobj	_	NN|02834778-n|Bicycle=
+13	down	down	PRT	RP	_	10	prep	_	IN|?|?
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	bridge	bridge	NOUN	NN	_	13	pobj	_	NN|02898711-n|Bridge+
+16	built	build	VERB	VBN	_	15	partmod	_	VBN|00252990-v|Increasing+
+17	for	for	ADP	IN	_	16	prep	_	IN|?|?
+18	pedestrians	pedestrian	NOUN	NNS	_	17	pobj	_	NNS|10412055-n|Walking+
+
+# text = A woman wearing a blue shirt and high heels is standing on the sidewalk next to a man
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	11	nsubj	_	NN|10787470-n|Woman=
+3	wearing	wear	VERB	VBG	_	2	partmod	_	VBG|00052374-v|Putting+
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	blue	blue	ADJ	JJ	_	6	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+6	shirt	shirt	NOUN	NN	_	3	dobj	_	NN|04197391-n|Shirt=
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	high	high	ADJ	JJ	_	9	amod	_	JJ|02339120-a|SubjectiveStrongPositiveAttribute+
+9	heels	heel	NOUN	NNS	_	6	conj	_	NNS|03511426-n|Artifact+
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|02734488-v|Attribute+
+12	on	on	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	sidewalk	sidewalk	NOUN	NN	_	12	pobj	_	NN|04215402-n|Sidewalk=
+15	next	next	ADV	RB	_	11	advmod	_	JJ|01294975-a|Position+
+16	to	to	ADP	IN	_	15	prep	_	TO|?|?
+17	a	a	DET	DT	_	18	det	_	DT|?|?
+18	man	man	NOUN	NN	_	16	pobj	_	NN|10287213-n|Man=
+
+# text = A child, who is small, is outdoors climbing steps outdoors in an area full of grass
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	child	child	NOUN	NN	_	10	nsubj	_	NN|09917593-n|HumanChild=
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	who	who	PRON	WP	_	6	nsubj	_	WP|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02620587-v|Attribute+
+6	small	small	ADJ	JJ	_	2	rcmod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+7	,	,	.	,	_	2	punct	_	Fc|?|?
+8	is	be	VERB	VBZ	_	10	aux	_	VBZ|02620587-v|Attribute+
+9	outdoors	outdoors	ADV	RB	_	10	advmod	_	RB|00110659-r|Outdoors+
+10	climbing	climb	VERB	VBG	_	0	ROOT	_	VBG|00433232-v|Increasing+
+11	steps	step	NOUN	NNS	_	10	dobj	_	NNS|07383823-n|RadiatingSound+
+12	outdoors	outdoors	ADV	RB	_	10	advmod	_	RB|00110659-r|Outdoors+
+13	in	in	ADP	IN	_	10	prep	_	IN|?|?
+14	an	a	DET	DT	_	15	det	_	DT|?|?
+15	area	area	NOUN	NN	_	13	pobj	_	NN|14514039-n|SubjectiveAssessmentAttribute+
+16	full	full	ADJ	JJ	_	15	amod	_	JJ|01083157-a|ContainerFull+
+17	of	of	ADP	IN	_	16	prep	_	IN|?|?
+18	grass	grass	NOUN	NN	_	17	pobj	_	NN|12102133-n|Grass=
+
+# text = There is no young man with brown hair and sunglasses sitting in front of some cans of soda
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02655135-v|PhysicalAttribute+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	young	young	ADJ	JJ	_	5	amod	_	JJ|01646941-a|HumanYouth=
+5	man	man	NOUN	NN	_	2	nsubj	_	NN|10287213-n|Man=
+6	with	with	ADP	IN	_	5	prep	_	IN|?|?
+7	brown	brown	ADJ	JJ	_	8	amod	_	JJ|00245112-a|Human+
+8	hair	hair	NOUN	NN	_	11	nsubj	_	NN|05254795-n|Hair=
+9	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+10	sunglasses	sunglass	NOUN	NNS	_	8	conj	_	NNS|04355933-n|Device+
+11	sitting	sit	VERB	VBG	_	6	pcomp	_	VBG|01543123-v|SittingDown+
+12	in	in	ADP	IN	_	11	prep	_	IN|?|?
+13	front	front	NOUN	NN	_	12	pobj	_	NN|08573472-n|FrontFn=
+14	of	of	ADP	IN	_	13	prep	_	IN|?|?
+15	some	some	DET	DT	_	16	det	_	DT|?|?
+16	cans	can	NOUN	NNS	_	14	pobj	_	NNS|04446521-n|Toilet+
+17	of	of	ADP	IN	_	16	prep	_	IN|?|?
+18	soda	soda	NOUN	NN	_	17	pobj	_	NN|07927512-n|Soda=
+
+# text = A man dressed in black and white is dropping the tennis racket and is waiting for the ball
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	9	nsubj	_	NN|10287213-n|Man=
+3	dressed	dress	VERB	VBN	_	2	partmod	_	VBN|00046534-v|Dressing+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	black	black	ADJ	JJ	_	4	pobj	_	JJ|00392812-a|Black=
+6	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+7	white	white	ADJ	JJ	_	5	conj	_	JJ|00393105-a|White=
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	dropping	drop	VERB	VBG	_	0	ROOT	_	VBG|01977701-v|MotionDownward=
+10	the	the	DET	DT	_	12	det	_	DT|?|?
+11	tennis	tennis	NOUN	NN	_	12	nn	_	NN|00482298-n|Tennis=
+12	racket	racket	NOUN	NN	_	9	dobj	_	NN|04039381-n|Device+
+13	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+14	is	be	VERB	VBZ	_	15	aux	_	VBZ|02604760-v|Entity+
+15	waiting	wait	VERB	VBG	_	9	conj	_	VBG|02637938-v|PsychologicalProcess+
+16	for	for	ADP	IN	_	15	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	ball	ball	NOUN	NN	_	16	pobj	_	NN|02778669-n|Ball=
+
+# text = The blonde girl with the pink top is smiling and wearing funny glasses with a large nose attached
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	blonde	blonde	ADJ	JJ	_	3	amod	_	JJ|00243606-a|Human+
+3	girl	girl	NOUN	NN	_	9	nsubj	_	NN|10129825-n|Human+
+4	with	with	ADP	IN	_	3	prep	_	IN|?|?
+5	the	the	DET	DT	_	7	det	_	DT|?|?
+6	pink	pink	ADJ	JJ	_	7	amod	_	JJ|00379595-a|Pink+
+7	top	top	NOUN	NN	_	4	pobj	_	NN|08663354-n|PositionalAttribute+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	smiling	smile	VERB	VBG	_	0	ROOT	_	VBG|00028565-v|Smiling=
+10	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+11	wearing	wear	VERB	VBG	_	9	conj	_	VBG|00047745-v|CoveringFn=
+12	funny	funny	ADJ	JJ	_	13	amod	_	JJ|01265308-a|SubjectiveStrongPositiveAttribute+
+13	glasses	glass	NOUN	NNS	_	11	dobj	_	NNS|03438257-n|Cup=
+14	with	with	ADP	IN	_	11	prep	_	IN|?|?
+15	a	a	DET	DT	_	17	det	_	DT|?|?
+16	large	large	ADJ	JJ	_	17	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+17	nose	nose	NOUN	NN	_	14	pobj	_	NN|05598147-n|Nose+
+18	attached	attach	VERB	VBN	_	17	partmod	_	VBN|01290255-v|Attaching=
+
+# text = A boy is coming down a wall artificially built for climbing and isn't attached to the rope
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	4	nsubj	_	NN|10285313-n|Human+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	coming	come	VERB	VBG	_	0	ROOT	_	VBG|02005948-v|Arriving=
+5	down	down	ADP	IN	_	4	prep	_	RP|00095320-r|earlier+
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	wall	wall	NOUN	NN	_	5	pobj	_	NN|04546855-n|Wall=
+8	artificially	artificially	ADV	RB	_	9	advmod	_	RB|00140566-r|NormativeAttribute+
+9	built	build	VERB	VBN	_	7	partmod	_	VBN|01654628-v|Making+
+10	for	for	ADP	IN	_	9	prep	_	IN|?|?
+11	climbing	climb	NOUN	NN	_	10	pobj	_	VBG|00433232-v|Increasing+
+12	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+13	is	be	VERB	VBZ	_	15	auxpass	_	VBZ|02604760-v|Entity+
+14	not	not	ADV	RB	_	15	neg	_	RB|00024073-r|not=
+15	attached	attach	VERB	VBN	_	4	conj	_	VBN|01290255-v|Attaching=
+16	to	to	ADP	IN	_	15	prep	_	TO|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	rope	rope	NOUN	NN	_	16	pobj	_	NN|04108268-n|String+
+
+# text = A group of boys are playing with a ball in front of a large door made of wood
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	boys	boy	NOUN	NNS	_	3	pobj	_	NNS|10285313-n|Human+
+5	are	be	VERB	VBP	_	6	aux	_	VBP|02604760-v|Entity+
+6	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+7	with	with	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	ball	ball	NOUN	NN	_	7	pobj	_	NN|02778669-n|Ball=
+10	in	in	ADP	IN	_	6	prep	_	IN|?|?
+11	front	front	NOUN	NN	_	10	pobj	_	NN|08573472-n|FrontFn=
+12	of	of	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	15	det	_	DT|?|?
+14	large	large	ADJ	JJ	_	15	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+15	door	door	NOUN	NN	_	12	pobj	_	NN|03224032-n|Door+
+16	made	make	VERB	VBN	_	15	partmod	_	VBN|02621395-v|Attribute+
+17	of	of	ADP	IN	_	16	prep	_	IN|?|?
+18	wood	wood	NOUN	NN	_	17	pobj	_	NN|15098161-n|Wood=
+
+# text = A group of kids is playing in a yard and an old man is standing in the background
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	kids	kid	NOUN	NNS	_	3	pobj	_	NNS|09917593-n|HumanChild=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	yard	yard	NOUN	NN	_	7	pobj	_	NN|04610879-n|LandArea=
+10	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+11	an	a	DET	DT	_	13	det	_	DT|?|?
+12	old	old	ADJ	JJ	_	13	amod	_	JJ|01643620-a|SubjectiveAssessmentAttribute+
+13	man	man	NOUN	NN	_	15	nsubj	_	NN|02472293-n|Hominid=
+14	is	be	VERB	VBZ	_	15	aux	_	VBZ|02604760-v|Entity+
+15	standing	stand	VERB	VBG	_	6	conj	_	VBG|01546111-v|PhysicalAttribute+
+16	in	in	ADP	IN	_	15	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	background	background	NOUN	NN	_	16	pobj	_	NN|14513259-n|Region+
+
+# text = A young white child is not standing on the edge of a body of water near some buckets
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	4	amod	_	JJ|01646941-a|HumanYouth=
+3	white	white	ADJ	JJ	_	4	amod	_	JJ|00393105-a|White=
+4	child	child	NOUN	NN	_	7	nsubj	_	NN|09917593-n|HumanChild=
+5	is	be	VERB	VBZ	_	7	aux	_	VBZ|02604760-v|Entity+
+6	not	not	ADV	RB	_	7	neg	_	RB|00024073-r|not=
+7	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+8	on	on	ADP	IN	_	7	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	edge	edge	NOUN	NN	_	8	pobj	_	NN|03264136-n|Object+
+11	of	of	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	body	body	NOUN	NN	_	11	pobj	_	NN|05216365-n|Animal=
+14	of	of	ADP	IN	_	13	prep	_	IN|?|?
+15	water	water	NOUN	NN	_	14	pobj	_	NN|14845743-n|Water=
+16	near	near	ADP	IN	_	15	prep	_	IN|?|?
+17	some	some	DET	DT	_	18	det	_	DT|?|?
+18	buckets	bucket	NOUN	NNS	_	16	pobj	_	NNS|02909870-n|Container+
+
+# text = A dress, which is black, red, white and pink is being worn by a woman
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dress	dress	NOUN	NN	_	0	ROOT	_	NN|02728440-n|Clothing+
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	which	which	DET	WDT	_	6	nsubj	_	WDT|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	black	black	ADJ	JJ	_	2	rcmod	_	JJ|00392812-a|Black=
+7	,	,	.	,	_	6	punct	_	Fc|?|?
+8	red	red	ADJ	JJ	_	6	conj	_	JJ|00381097-a|Red=
+9	,	,	.	,	_	6	punct	_	Fc|?|?
+10	white	white	ADJ	JJ	_	6	conj	_	JJ|00393105-a|White=
+11	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+12	pink	pink	ADJ	JJ	_	15	nsubjpass	_	JJ|00379595-a|Pink+
+13	is	be	VERB	VBZ	_	15	aux	_	VBZ|02604760-v|Entity+
+14	being	be	VERB	VBG	_	15	auxpass	_	VBG|02604760-v|Entity+
+15	worn	wear	VERB	VBN	_	6	conj	_	VBN|00052374-v|Putting+
+16	by	by	ADP	IN	_	15	prep	_	IN|?|?
+17	a	a	DET	DT	_	18	det	_	DT|?|?
+18	woman	woman	NOUN	NN	_	16	pobj	_	NN|10787470-n|Woman=
+
+# text = A woman is taking off a cloak, which is very large, and revealing an extravagant dress
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	taking	take	VERB	VBG	_	0	ROOT	_	VBG|02267989-v|PhysicalAttribute+
+5	off	off	PRT	RP	_	4	prt	_	RP|00232936-r|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	cloak	cloak	NOUN	NN	_	4	dobj	_	NN|03045337-n|Clothing+
+8	,	,	.	,	_	7	punct	_	Fc|?|?
+9	which	which	DET	WDT	_	12	nsubj	_	WDT|?|?
+10	is	be	VERB	VBZ	_	12	cop	_	VBZ|02604760-v|Entity+
+11	very	very	ADV	RB	_	12	advmod	_	RB|00031899-r|SubjectiveAssessmentAttribute+
+12	large	large	ADJ	JJ	_	7	rcmod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+13	,	,	.	,	_	4	punct	_	Fc|?|?
+14	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+15	revealing	reveal	VERB	VBG	_	4	conj	_	VBG|00933821-v|Disseminating=
+16	an	a	DET	DT	_	18	det	_	DT|?|?
+17	extravagant	extravagant	ADJ	JJ	_	18	amod	_	JJ|02422242-a|SubjectiveStrongNegativeAttribute+
+18	dress	dress	NOUN	NN	_	15	dobj	_	NN|02728440-n|Clothing+
+
+# text = A man is not wearing a purple shirt and black leather chaps and is posing for the camera
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	5	nsubj	_	NN|10287213-n|Man=
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	not	not	ADV	RB	_	5	neg	_	RB|00024073-r|not=
+5	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00052374-v|Putting+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	purple	purple	ADJ	JJ	_	8	amod	_	JJ|01591394-a|SocialRole+
+8	shirt	shirt	NOUN	NN	_	5	dobj	_	NN|04197391-n|Shirt=
+9	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+10	black	black	ADJ	JJ	_	12	amod	_	JJ|00392812-a|Black=
+11	leather	leather	NOUN	NN	_	12	nn	_	NN|14759722-n|Leather=
+12	chaps	chap	NOUN	NNS	_	8	conj	_	NNS|09908025-n|Human+
+13	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+14	is	be	VERB	VBZ	_	15	aux	_	VBZ|02604760-v|Entity+
+15	posing	pose	VERB	VBG	_	5	conj	_	VBG|01494310-v|Putting=
+16	for	for	ADP	IN	_	15	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	camera	camera	NOUN	NN	_	16	pobj	_	NN|02942699-n|Camera=
+
+# text = A boy under an umbrella is being let go by his father who is wearing a blue coat
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	8	nsubjpass	_	NN|10285313-n|Human+
+3	under	under	ADP	IN	_	2	prep	_	IN|?|?
+4	an	a	DET	DT	_	5	det	_	DT|?|?
+5	umbrella	umbrella	NOUN	NN	_	3	pobj	_	NN|04507155-n|Device+
+6	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+7	being	be	VERB	VBG	_	8	auxpass	_	VBG|02604760-v|Entity+
+8	let	let	VERB	VBN	_	0	ROOT	_	VB|00802318-v|Permission+
+9	go	go	VERB	VB	_	8	ccomp	_	VB|02618149-v|WhenFn=
+10	by	by	ADP	IN	_	9	prep	_	IN|?|?
+11	his	his	PRON	PRP$	_	12	poss	_	PRP$|?|?
+12	father	father	NOUN	NN	_	10	pobj	_	NN|10107303-n|SocialRole+
+13	who	who	PRON	WP	_	15	nsubj	_	WP|?|?
+14	is	be	VERB	VBZ	_	15	aux	_	VBZ|02604760-v|Entity+
+15	wearing	wear	VERB	VBG	_	12	rcmod	_	VBG|00047745-v|CoveringFn=
+16	a	a	DET	DT	_	18	det	_	DT|?|?
+17	blue	blue	ADJ	JJ	_	18	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+18	coat	coat	NOUN	NN	_	15	dobj	_	NN|03057021-n|Coat=
+
+# text = A man with a white moustache is standing on a balcony and is looking at the road below
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+3	with	with	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	_	6	amod	_	JJ|00393105-a|White=
+6	moustache	moustache	NOUN	NN	_	3	pobj	_	NN|05262185-n|FacialHair+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+9	on	on	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	balcony	balcony	NOUN	NN	_	9	pobj	_	NN|02777927-n|StationaryArtifact+
+12	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+13	is	be	VERB	VBZ	_	14	aux	_	VBZ|02604760-v|Entity+
+14	looking	look	VERB	VBG	_	8	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+15	at	at	ADP	IN	_	14	prep	_	IN|?|?
+16	the	the	DET	DT	_	17	det	_	DT|?|?
+17	road	road	NOUN	NN	_	15	pobj	_	NN|04096066-n|Roadway+
+18	below	below	ADP	IN	_	17	advmod	_	IN|?|?
+
+# text = A white rally car is throwing mud into the air and is approaching a bend in the track
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	white	white	ADJ	JJ	_	3	amod	_	JJ|00393105-a|White=
+3	rally	rally	NOUN	NN	_	4	nn	_	NN|00045646-n|PsychologicalProcess+
+4	car	car	NOUN	NN	_	6	nsubj	_	NN|02958343-n|Automobile=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	throwing	throw	VERB	VBG	_	0	ROOT	_	VBG|01508368-v|Impelling+
+7	mud	mud	NOUN	NN	_	6	dobj	_	NN|14956325-n|Soil=
+8	into	into	ADP	IN	_	6	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	air	air	NOUN	NN	_	8	pobj	_	NN|00300441-n|AirTransportation+
+11	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+12	is	be	VERB	VBZ	_	13	aux	_	VBZ|02604760-v|Entity+
+13	approaching	approach	VERB	VBG	_	6	conj	_	VBG|02053941-v|Arriving=
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	bend	bend	NOUN	NN	_	13	dobj	_	NN|02829696-n|Transitway+
+16	in	in	ADP	IN	_	15	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	track	track	NOUN	NN	_	16	pobj	_	NN|04463679-n|RailroadTrack+
+
+# text = A small black dog is wearing a red collar and is in the leaves with a blue ball
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	small	small	ADJ	JJ	_	4	amod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+3	black	black	ADJ	JJ	_	4	amod	_	JJ|00392812-a|Black=
+4	dog	dog	NOUN	NN	_	6	nsubj	_	NN|02084071-n|Canine+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	red	red	ADJ	JJ	_	9	amod	_	JJ|00381097-a|Red=
+9	collar	collar	NOUN	NN	_	6	dobj	_	NN|03068181-n|Collar+
+10	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+11	is	be	VERB	VBZ	_	6	conj	_	VBZ|02604760-v|Entity+
+12	in	in	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	leaves	leaf	NOUN	NNS	_	12	pobj	_	NNS|13152742-n|Leaf=
+15	with	with	ADP	IN	_	11	prep	_	IN|?|?
+16	a	a	DET	DT	_	18	det	_	DT|?|?
+17	blue	blue	ADJ	JJ	_	18	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+18	ball	ball	NOUN	NN	_	15	pobj	_	NN|02778669-n|Ball=
+
+# text = Water is being squirted by a man into the mouth of a white dog with a squirt gun
+1	Water	water	NOUN	NN	_	4	nsubjpass	_	NN|14845743-n|Water=
+2	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+3	being	be	VERB	VBG	_	4	auxpass	_	VBG|02604760-v|Entity+
+4	squirted	squirt	VERB	VBN	_	0	ROOT	_	VBN|01375637-v|Impelling+
+5	by	by	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	man	man	NOUN	NN	_	5	pobj	_	NN|10287213-n|Man=
+8	into	into	ADP	IN	_	4	prep	_	IN|?|?
+9	the	the	DET	DT	_	10	det	_	DT|?|?
+10	mouth	mouth	NOUN	NN	_	8	pobj	_	NN|05302499-n|Mouth+
+11	of	of	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	14	det	_	DT|?|?
+13	white	white	ADJ	JJ	_	14	amod	_	JJ|00393105-a|White=
+14	dog	dog	NOUN	NN	_	11	pobj	_	NN|02084071-n|Canine+
+15	with	with	ADP	IN	_	14	prep	_	IN|?|?
+16	a	a	DET	DT	_	18	det	_	DT|?|?
+17	squirt	squirt	NOUN	NN	_	18	nn	_	NN|07436100-n|Motion+
+18	gun	gun	NOUN	NN	_	15	pobj	_	NN|03467984-n|Gun=
+
+# text = Some corndogs are being eaten by two toddlers who are in a wagon, which is really small
+1	Some	some	DET	DT	_	2	det	_	DT|?|?
+2	corndogs	corndogs	NOUN	NNS	_	5	nsubjpass	_	NNS|?|?
+3	are	be	VERB	VBP	_	5	aux	_	VBP|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	eaten	eat	VERB	VBN	_	0	ROOT	_	VBN|01157517-v|Process+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	two	2	NUM	CD	_	8	num	_	Z|?|?
+8	toddlers	toddler	NOUN	NNS	_	6	pobj	_	NNS|10714465-n|NonFullyFormed+
+9	who	who	PRON	WP	_	10	nsubj	_	WP|?|?
+10	are	be	VERB	VBP	_	8	rcmod	_	VBP|02604760-v|Entity+
+11	in	in	ADP	IN	_	10	prep	_	IN|?|?
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	wagon	wagon	NOUN	NN	_	11	pobj	_	NN|04543158-n|Trailer+
+14	,	,	.	,	_	13	punct	_	Fc|?|?
+15	which	which	DET	WDT	_	18	nsubj	_	WDT|?|?
+16	is	be	VERB	VBZ	_	18	cop	_	VBZ|02604760-v|Entity+
+17	really	really	ADV	RB	_	18	advmod	_	RB|00031899-r|SubjectiveAssessmentAttribute+
+18	small	small	ADJ	JJ	_	13	rcmod	_	JJ|01391351-a|SubjectiveStrongNegativeAttribute+
+
+# text = The woman in a red costume is leaning against a wall made of bricks and playing an instrument
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	8	nsubj	_	NN|10787470-n|Woman=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	red	red	ADJ	JJ	_	6	amod	_	JJ|00381097-a|Red=
+6	costume	costume	NOUN	NN	_	3	pobj	_	NN|03113657-n|Clothing+
+7	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+8	leaning	lean	VERB	VBG	_	0	ROOT	_	VBG|02038357-v|Inclining+
+9	against	against	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	wall	wall	NOUN	NN	_	9	pobj	_	NN|04546855-n|Wall=
+12	made	make	VERB	VBN	_	11	partmod	_	VBN|02621395-v|Attribute+
+13	of	of	ADP	IN	_	12	prep	_	IN|?|?
+14	bricks	brick	NOUN	NNS	_	13	pobj	_	NNS|02897820-n|Brick+
+15	and	and	CONJ	CC	_	8	cc	_	CC|?|?
+16	playing	play	VERB	VBG	_	8	conj	_	VBG|01719302-v|DramaticActing+
+17	an	a	DET	DT	_	18	det	_	DT|?|?
+18	instrument	instrument	NOUN	NN	_	16	dobj	_	NN|03800933-n|MusicalInstrument=
+
+# text = A dog, which is black, and a white one are ignoring each other in the street
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	0	ROOT	_	NN|02084071-n|Canine+
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	which	which	DET	WDT	_	6	nsubj	_	WDT|?|?
+5	is	be	VERB	VBZ	_	6	cop	_	VBZ|02604760-v|Entity+
+6	black	black	ADJ	JJ	_	2	rcmod	_	JJ|00392812-a|Black=
+7	,	,	.	,	_	6	punct	_	Fc|?|?
+8	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+9	a	a	DET	DT	_	11	det	_	DT|?|?
+10	white	white	ADJ	JJ	_	11	amod	_	JJ|00393105-a|White=
+11	one	1	NUM	CD	_	13	nsubj	_	Z|?|?
+12	are	be	VERB	VBP	_	13	aux	_	VBP|02604760-v|Entity+
+13	ignoring	ignore	VERB	VBG	_	6	conj	_	VBG|00800930-v|IntentionalProcess+
+14	each	each	DET	DT	_	15	det	_	DT|?|?
+15	other	other	ADJ	JJ	_	13	dobj	_	JJ|02069355-a|equal+
+16	in	in	ADP	IN	_	13	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	street	street	NOUN	NN	_	16	pobj	_	NN|04334599-n|Roadway=
+
+# text = The man is on ground which is mostly barren, filming a wheelie done with a motorcycle.
+1	The	the	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	3	nsubj	_	NN|02472293-n|Hominid=
+3	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+4	on	on	ADP	IN	_	3	prep	_	IN|?|?
+5	ground	ground	NOUN	NN	_	4	pobj	_	NN|09334396-n|LandArea=
+6	which	which	DET	WDT	_	9	nsubj	_	WDT|?|?
+7	is	be	VERB	VBZ	_	9	cop	_	VBZ|02604760-v|Entity+
+8	mostly	mostly	ADV	RB	_	9	advmod	_	RB|00155621-r|SubjectiveAssessmentAttribute+
+9	barren	barren	ADJ	JJ	_	5	rcmod	_	JJ|01242750-a|SubjectiveStrongNegativeAttribute+
+10	,	,	.	,	_	9	punct	_	Fc|?|?
+11	filming	film	VERB	VBG	_	9	xcomp	_	VBG|01002740-v|Photographing+
+12	a	a	DET	DT	_	13	det	_	DT|?|?
+13	wheelie	wheelie	NOUN	NN	_	11	dobj	_	NN|?|?
+14	done	do	VERB	VBN	_	13	partmod	_	VBN|01712704-v|IntentionalProcess+
+15	with	with	ADP	IN	_	14	prep	_	IN|?|?
+16	a	a	DET	DT	_	17	det	_	DT|?|?
+17	motorcycle	motorcycle	NOUN	NN	_	15	pobj	_	NN|03790512-n|PassengerVehicle+
+18	.	.	.	.	_	3	punct	_	Fp|?|?
+
+# text = A woman in a white dress and a woman in a blue dress are standing beside a stage
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	15	nsubj	_	NN|10787470-n|Woman=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	white	white	ADJ	JJ	_	6	amod	_	JJ|00393105-a|White=
+6	dress	dress	NOUN	NN	_	3	pobj	_	NN|03236735-n|Dress+
+7	and	and	CONJ	CC	_	2	cc	_	CC|?|?
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	woman	woman	NOUN	NN	_	2	conj	_	NN|10787470-n|Woman=
+10	in	in	ADP	IN	_	9	prep	_	IN|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	blue	blue	ADJ	JJ	_	13	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+13	dress	dress	NOUN	NN	_	10	pobj	_	NN|03236735-n|Dress+
+14	are	be	VERB	VBP	_	15	aux	_	VBP|02604760-v|Entity+
+15	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+16	beside	beside	ADP	IN	_	15	prep	_	IN|?|?
+17	a	a	DET	DT	_	18	det	_	DT|?|?
+18	stage	stage	NOUN	NN	_	16	pobj	_	NN|13939892-n|Attribute+
+
+# text = A woman is driving a car and is animatedly talking to the man who is seated beside her
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	driving	drive	VERB	VBG	_	0	ROOT	_	VBG|01930874-v|Transportation+
+5	a	a	DET	DT	_	6	det	_	DT|?|?
+6	car	car	NOUN	NN	_	4	dobj	_	NN|02958343-n|Automobile=
+7	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+8	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+9	animatedly	animatedly	ADV	RB	_	10	advmod	_	RB|00263323-r|SubjectiveAssessmentAttribute+
+10	talking	talk	VERB	VBG	_	4	conj	_	VBG|00941990-v|Speaking+
+11	to	to	ADP	IN	_	10	prep	_	TO|?|?
+12	the	the	DET	DT	_	13	det	_	DT|?|?
+13	man	man	NOUN	NN	_	11	pobj	_	NN|10287213-n|Man=
+14	who	who	PRON	WP	_	16	nsubjpass	_	WP|?|?
+15	is	be	VERB	VBZ	_	16	auxpass	_	VBZ|02604760-v|Entity+
+16	seated	seat	VERB	VBN	_	13	rcmod	_	VBN|01543998-v|Communication+
+17	beside	beside	ADP	IN	_	16	prep	_	IN|?|?
+18	her	her	PRON	PRP$	_	17	pobj	_	PRP$|?|?
+
+# text = There is no pet dog standing on the bank and looking at another brown dog in the pond
+1	There	there	DET	EX	_	2	expl	_	EX|?|?
+2	is	be	VERB	VBZ	_	0	ROOT	_	VBZ|02604760-v|Entity+
+3	no	no	DET	DT	_	5	det	_	DT|?|?
+4	pet	pet	NOUN	NN	_	5	nn	_	NN|09991867-n|Favorite+
+5	dog	dog	NOUN	NN	_	2	nsubj	_	NN|02084071-n|Canine+
+6	standing	standing	NOUN	NN	_	5	dep	_	NN|13948136-n|SocialRole+
+7	on	on	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	bank	bank	NOUN	NN	_	7	pobj	_	NN|08420278-n|Bank-FinancialOrganization=
+10	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+11	looking	look	VERB	VBG	_	6	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+12	at	at	ADP	IN	_	11	prep	_	IN|?|?
+13	another	another	DET	DT	_	15	det	_	DT|?|?
+14	brown	brown	ADJ	JJ	_	15	amod	_	JJ|00245112-a|Human+
+15	dog	dog	NOUN	NN	_	12	pobj	_	NN|02084071-n|Canine+
+16	in	in	ADP	IN	_	15	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	pond	pond	NOUN	NN	_	16	pobj	_	NN|09397391-n|Lake+
+
+# text = A boy is effortlessly climbing up a wall artificially built for climbing and is attached to a rope
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	boy	boy	NOUN	NN	_	5	nsubj	_	NN|10285313-n|Human+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	effortlessly	effortlessly	ADV	RB	_	5	advmod	_	RB|00196999-r|SubjectiveAssessmentAttribute+
+5	climbing	climb	VERB	VBG	_	0	ROOT	_	VBG|00433232-v|Increasing+
+6	up	up	PRT	RP	_	5	prt	_	RP|00097011-r|Increasing+
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	wall	wall	NOUN	NN	_	5	dobj	_	NN|04546855-n|Wall=
+9	artificially	artificially	ADV	RB	_	10	advmod	_	RB|00140566-r|NormativeAttribute+
+10	built	build	VERB	VBN	_	8	partmod	_	VBN|01654628-v|Making+
+11	for	for	ADP	IN	_	10	prep	_	IN|?|?
+12	climbing	climb	NOUN	NN	_	11	pobj	_	VBG|00433232-v|Increasing+
+13	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+14	is	be	VERB	VBZ	_	15	auxpass	_	VBZ|02604760-v|Entity+
+15	attached	attach	VERB	VBN	_	5	conj	_	VBN|01290255-v|Attaching=
+16	to	to	ADP	IN	_	15	prep	_	TO|?|?
+17	a	a	DET	DT	_	18	det	_	DT|?|?
+18	rope	rope	NOUN	NN	_	16	pobj	_	NN|04108268-n|String+
+
+# text = A young girl in a winter coat is jumping off a boulder into the sand at a beach
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	9	nsubj	_	NN|10129825-n|Human+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	winter	winter	NOUN	NN	_	7	nn	_	NN|15237782-n|WinterSeason+
+7	coat	coat	NOUN	NN	_	4	pobj	_	NN|01898731-n|BodyPart+
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	jumping	jump	VERB	VBG	_	0	ROOT	_	VBG|01963942-v|Ambulating=
+10	off	off	PRT	RP	_	9	prt	_	RP|00232936-r|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	boulder	boulder	NOUN	NN	_	9	dobj	_	NN|09227839-n|Mineral+
+13	into	into	ADP	IN	_	9	prep	_	IN|?|?
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	sand	sand	NOUN	NN	_	13	pobj	_	NN|15019030-n|Sand=
+16	at	at	ADP	IN	_	9	prep	_	IN|?|?
+17	a	a	DET	DT	_	18	det	_	DT|?|?
+18	beach	beach	NOUN	NN	_	16	pobj	_	NN|09217230-n|ShoreArea=
+
+# text = A young child is wearing boots made of green rubber and playing in a puddle full of mud
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	child	child	NOUN	NN	_	5	nsubj	_	NN|09917593-n|HumanChild=
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00075021-v|RecreationOrExercise+
+6	boots	boot	NOUN	NNS	_	5	dobj	_	NNS|02872752-n|Shoe=
+7	made	make	VERB	VBN	_	6	partmod	_	VBN|02621395-v|Attribute+
+8	of	of	ADP	IN	_	7	prep	_	IN|?|?
+9	green	green	ADJ	JJ	_	10	amod	_	JJ|00375969-a|Green=
+10	rubber	rubber	NOUN	NN	_	8	pobj	_	NN|15006258-n|Rubber+
+11	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+12	playing	play	VERB	VBG	_	5	conj	_	VBG|01719302-v|DramaticActing+
+13	in	in	ADP	IN	_	12	prt	_	IN|?|?
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	puddle	puddle	NOUN	NN	_	12	dobj	_	NN|09397607-n|StaticWaterArea+
+16	full	full	ADJ	JJ	_	15	amod	_	JJ|01083157-a|ContainerFull+
+17	of	of	ADP	IN	_	16	prep	_	IN|?|?
+18	mud	mud	NOUN	NN	_	17	pobj	_	NN|14956325-n|Soil=
+
+# text = A pet dog is standing on the bank and is looking at another brown dog in the pond
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	pet	pet	ADJ	JJ	_	3	amod	_	NN|09991867-n|Favorite+
+3	dog	dog	NOUN	NN	_	5	nsubj	_	NN|02084071-n|Canine+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|01546111-v|PhysicalAttribute+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	bank	bank	NOUN	NN	_	6	pobj	_	NN|08420278-n|Bank-FinancialOrganization=
+9	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	looking	look	VERB	VBG	_	5	conj	_	VBG|02133435-v|SubjectiveAssessmentAttribute+
+12	at	at	ADP	IN	_	11	prep	_	IN|?|?
+13	another	another	DET	DT	_	15	det	_	DT|?|?
+14	brown	brown	ADJ	JJ	_	15	amod	_	JJ|00245112-a|Human+
+15	dog	dog	NOUN	NN	_	12	pobj	_	NN|02084071-n|Canine+
+16	in	in	ADP	IN	_	11	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	pond	pond	NOUN	NN	_	16	pobj	_	NN|09397391-n|Lake+
+
+# text = A woman who is wearing a pink boa is riding a bicycle down a bridge built for pedestrians
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	10	nsubj	_	NN|10787470-n|Woman=
+3	who	who	PRON	WP	_	5	nsubj	_	WP|?|?
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	wearing	wear	VERB	VBG	_	2	rcmod	_	VBG|00047745-v|CoveringFn=
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	pink	pink	ADJ	JJ	_	8	amod	_	JJ|00379595-a|Pink+
+8	boa	boa	NOUN	NN	_	5	dobj	_	NN|01741943-n|ConstrictorSnake+
+9	is	be	VERB	VBZ	_	10	aux	_	VBZ|02604760-v|Entity+
+10	riding	ride	VERB	VBG	_	0	ROOT	_	VBG|01955984-v|Carrying=
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	bicycle	bicycle	NOUN	NN	_	10	dobj	_	NN|02834778-n|Bicycle=
+13	down	down	ADP	IN	_	10	prep	_	IN|?|?
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	bridge	bridge	NOUN	NN	_	13	pobj	_	NN|02898711-n|Bridge+
+16	built	build	VERB	VBN	_	15	partmod	_	VBN|00252990-v|Increasing+
+17	for	for	ADP	IN	_	16	prep	_	IN|?|?
+18	pedestrians	pedestrian	NOUN	NNS	_	17	pobj	_	NNS|10412055-n|Walking+
+
+# text = A dog, which has a black coat, and a white dog are running on the grass
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	0	ROOT	_	NN|02084071-n|Canine+
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	which	which	DET	WDT	_	5	nsubj	_	WDT|?|?
+5	has	have	VERB	VBZ	_	2	rcmod	_	VBZ|00065639-v|Damaging+
+6	a	a	DET	DT	_	8	det	_	DT|?|?
+7	black	black	ADJ	JJ	_	8	amod	_	JJ|00392812-a|Black=
+8	coat	coat	NOUN	NN	_	5	dobj	_	NN|03057021-n|Coat=
+9	,	,	.	,	_	5	punct	_	Fc|?|?
+10	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+11	a	a	DET	DT	_	13	det	_	DT|?|?
+12	white	white	ADJ	JJ	_	13	amod	_	JJ|00393105-a|White=
+13	dog	dog	NOUN	NN	_	15	nsubj	_	NN|02084071-n|Canine+
+14	are	be	VERB	VBP	_	15	aux	_	VBP|02604760-v|Entity+
+15	running	run	VERB	VBG	_	5	conj	_	VBG|01525666-v|Attribute+
+16	on	on	ADP	IN	_	15	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	grass	grass	NOUN	NN	_	16	pobj	_	NN|12102133-n|Grass=
+
+# text = A big black dog is wearing a red collar and is in the leaves with a blue ball
+1	A	a	DET	DT	_	4	det	_	DT|?|?
+2	big	big	ADJ	JJ	_	4	amod	_	JJ|01382086-a|SubjectiveWeakPositiveAttribute+
+3	black	black	ADJ	JJ	_	4	amod	_	JJ|00392812-a|Black=
+4	dog	dog	NOUN	NN	_	6	nsubj	_	NN|02084071-n|Canine+
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	wearing	wear	VERB	VBG	_	0	ROOT	_	VBG|00047745-v|CoveringFn=
+7	a	a	DET	DT	_	9	det	_	DT|?|?
+8	red	red	ADJ	JJ	_	9	amod	_	JJ|00381097-a|Red=
+9	collar	collar	NOUN	NN	_	6	dobj	_	NN|03068181-n|Collar+
+10	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+11	is	be	VERB	VBZ	_	6	conj	_	VBZ|02604760-v|Entity+
+12	in	in	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	leaves	leaf	NOUN	NNS	_	12	pobj	_	NNS|13152742-n|Leaf=
+15	with	with	ADP	IN	_	11	prep	_	IN|?|?
+16	a	a	DET	DT	_	18	det	_	DT|?|?
+17	blue	blue	ADJ	JJ	_	18	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+18	ball	ball	NOUN	NN	_	15	pobj	_	NN|02778669-n|Ball=
+
+# text = A rocker is sitting with a t-shirt that has a man over a grey waterfall on the front
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	rocker	rocker	NOUN	NN	_	4	nsubj	_	NN|04099969-n|Chair+
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02655135-v|PhysicalAttribute+
+4	sitting	sit	VERB	VBG	_	0	ROOT	_	VBG|01543123-v|SittingDown+
+5	with	with	ADP	IN	_	4	prep	_	IN|?|?
+6	a	a	DET	DT	_	7	det	_	DT|?|?
+7	t-shirt	t-shirt	NOUN	NN	_	5	pobj	_	NN|03595614-n|Shirt+
+8	that	that	DET	WDT	_	9	nsubj	_	WDT|?|?
+9	has	have	VERB	VBZ	_	7	rcmod	_	VBZ|00065639-v|Damaging+
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	man	man	NOUN	NN	_	9	dobj	_	NN|10287213-n|Man=
+12	over	over	ADP	IN	_	11	prep	_	IN|?|?
+13	a	a	DET	DT	_	15	det	_	DT|?|?
+14	grey	grey	ADJ	JJ	_	15	amod	_	JJ|00389310-a|Gray+
+15	waterfall	waterfall	NOUN	NN	_	12	pobj	_	NN|09475292-n|Waterfall=
+16	on	on	ADP	IN	_	15	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	front	front	NOUN	NN	_	16	pobj	_	NN|08573472-n|FrontFn=
+
+# text = A dog, which has a brown and white coat, is holding a baseball in its mouth
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	dog	dog	NOUN	NN	_	13	nsubj	_	NN|02084071-n|Canine+
+3	,	,	.	,	_	2	punct	_	Fc|?|?
+4	which	which	DET	WDT	_	5	nsubj	_	WDT|?|?
+5	has	have	VERB	VBZ	_	2	rcmod	_	VBZ|02203362-v|Obligation+
+6	a	a	DET	DT	_	10	det	_	DT|?|?
+7	brown	brown	ADJ	JJ	_	10	amod	_	JJ|00245112-a|Human+
+8	and	and	CONJ	CC	_	7	cc	_	CC|?|?
+9	white	white	ADJ	JJ	_	7	conj	_	JJ|00393105-a|White=
+10	coat	coat	NOUN	NN	_	5	dobj	_	NN|03057021-n|Coat=
+11	,	,	.	,	_	2	punct	_	Fc|?|?
+12	is	be	VERB	VBZ	_	13	aux	_	VBZ|02604760-v|Entity+
+13	holding	hold	VERB	VBG	_	0	ROOT	_	VBG|02203362-v|Obligation+
+14	a	a	DET	DT	_	15	det	_	DT|?|?
+15	baseball	baseball	NOUN	NN	_	13	dobj	_	NN|00471613-n|Baseball=
+16	in	in	ADP	IN	_	13	prep	_	IN|?|?
+17	its	its	PRON	PRP$	_	18	poss	_	PRP$|?|?
+18	mouth	mouth	NOUN	NN	_	16	pobj	_	NN|05302499-n|Mouth+
+
+# text = A woman is picking up and holding a kangaroo, which is a baby, in her arms
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	4	nsubj	_	NN|10787470-n|Woman=
+3	is	be	VERB	VBZ	_	4	aux	_	VBZ|02604760-v|Entity+
+4	picking	pick	VERB	VBG	_	0	ROOT	_	VBG|01452546-v|Pulling+
+5	up	up	PRT	RP	_	4	prt	_	RP|00097011-r|Increasing+
+6	and	and	CONJ	CC	_	4	cc	_	CC|?|?
+7	holding	hold	VERB	VBG	_	4	conj	_	VBG|01217043-v|Process+
+8	a	a	DET	DT	_	9	det	_	DT|?|?
+9	kangaroo	kangaroo	NOUN	NN	_	7	dobj	_	NN|01877134-n|Marsupial+
+10	,	,	.	,	_	9	punct	_	Fc|?|?
+11	which	which	DET	WDT	_	14	nsubj	_	WDT|?|?
+12	is	be	VERB	VBZ	_	14	cop	_	VBZ|02604760-v|Entity+
+13	a	a	DET	DT	_	14	det	_	DT|?|?
+14	baby	baby	NOUN	NN	_	9	rcmod	_	NN|09827683-n|HumanBaby=
+15	,	,	.	,	_	14	punct	_	Fc|?|?
+16	in	in	ADP	IN	_	14	prep	_	IN|?|?
+17	her	her	PRON	PRP$	_	18	poss	_	PRP$|?|?
+18	arms	arm	NOUN	NNS	_	16	pobj	_	NNS|04565375-n|Weapon=
+
+# text = A young girl in a blue shirt is walking on the sidewalk and holding up a pink sign
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	9	nsubj	_	NN|10129825-n|Human+
+4	in	in	ADP	IN	_	3	prep	_	IN|?|?
+5	a	a	DET	DT	_	7	det	_	DT|?|?
+6	blue	blue	ADJ	JJ	_	7	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+7	shirt	shirt	NOUN	NN	_	4	pobj	_	NN|04197391-n|Shirt=
+8	is	be	VERB	VBZ	_	9	aux	_	VBZ|02604760-v|Entity+
+9	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
+10	on	on	ADP	IN	_	9	prep	_	IN|?|?
+11	the	the	DET	DT	_	12	det	_	DT|?|?
+12	sidewalk	sidewalk	NOUN	NN	_	10	pobj	_	NN|04215402-n|Sidewalk=
+13	and	and	CONJ	CC	_	9	cc	_	CC|?|?
+14	holding	hold	VERB	VBG	_	9	conj	_	VBG|01217043-v|Process+
+15	up	up	PRT	RP	_	14	prt	_	RP|00097011-r|Increasing+
+16	a	a	DET	DT	_	18	det	_	DT|?|?
+17	pink	pink	ADJ	JJ	_	18	amod	_	JJ|00379595-a|Pink+
+18	sign	sign	NOUN	NN	_	14	dobj	_	NN|06811625-n|Character+
+
+# text = A woman wearing a blue shirt and high heels is standing on the sidewalk next to a dog
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	woman	woman	NOUN	NN	_	11	nsubj	_	NN|10787470-n|Woman=
+3	wearing	wear	VERB	VBG	_	2	partmod	_	VBG|00052374-v|Putting+
+4	a	a	DET	DT	_	6	det	_	DT|?|?
+5	blue	blue	ADJ	JJ	_	6	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+6	shirt	shirt	NOUN	NN	_	3	dobj	_	NN|04197391-n|Shirt=
+7	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+8	high	high	ADJ	JJ	_	9	amod	_	JJ|02339120-a|SubjectiveStrongPositiveAttribute+
+9	heels	heel	NOUN	NNS	_	6	conj	_	NNS|09886220-n|Human+
+10	is	be	VERB	VBZ	_	11	aux	_	VBZ|02604760-v|Entity+
+11	standing	stand	VERB	VBG	_	0	ROOT	_	VBG|02734488-v|Attribute+
+12	on	on	ADP	IN	_	11	prep	_	IN|?|?
+13	the	the	DET	DT	_	14	det	_	DT|?|?
+14	sidewalk	sidewalk	NOUN	NN	_	12	pobj	_	NN|04215402-n|Sidewalk=
+15	next	next	ADV	RB	_	11	advmod	_	JJ|01294975-a|Position+
+16	to	to	ADP	IN	_	15	prep	_	TO|?|?
+17	a	a	DET	DT	_	18	det	_	DT|?|?
+18	dog	dog	NOUN	NN	_	16	pobj	_	NN|09886220-n|Human+
+
+# text = A racer in full gear wears a helmet with sponsor logos and is riding a blue sport motorcycle
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	racer	racer	NOUN	NN	_	6	nsubj	_	NN|04037443-n|Automobile+
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	full	full	ADJ	JJ	_	5	amod	_	JJ|01083157-a|ContainerFull+
+5	gear	gear	NOUN	NN	_	3	pobj	_	NN|03430551-n|Gear=
+6	wears	wear	VERB	VBZ	_	0	ROOT	_	VBZ|00047745-v|CoveringFn=
+7	a	a	DET	DT	_	8	det	_	DT|?|?
+8	helmet	helmet	NOUN	NN	_	6	dobj	_	NN|03513376-n|Clothing+
+9	with	with	ADP	IN	_	8	prep	_	IN|?|?
+10	sponsor	sponsor	NOUN	NN	_	11	nn	_	NN|10407954-n|BeliefGroup+
+11	logos	logo	NOUN	NNS	_	9	pobj	_	NNS|07272084-n|ContentBearingObject+
+12	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+13	is	be	VERB	VBZ	_	14	aux	_	VBZ|02604760-v|Entity+
+14	riding	ride	VERB	VBG	_	6	conj	_	VBG|02102398-v|Transportation+
+15	a	a	DET	DT	_	18	det	_	DT|?|?
+16	blue	blue	ADJ	JJ	_	18	amod	_	JJ|00425002-a|SubjectiveStrongNegativeAttribute+
+17	sport	sport	NOUN	NN	_	18	nn	_	NN|00523513-n|Sport=
+18	motorcycle	motorcycle	NOUN	NN	_	14	dobj	_	NN|03790512-n|PassengerVehicle+
+
+# text = The young girl is playing on the edge of a fountain and an older woman is watching her
+1	The	the	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	edge	edge	NOUN	NN	_	6	pobj	_	NN|03264136-n|Object+
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	fountain	fountain	NOUN	NN	_	9	pobj	_	NN|09443453-n|Creek+
+12	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+13	an	a	DET	DT	_	15	det	_	DT|?|?
+14	older	old	ADJ	JJR	_	15	amod	_	JJR|01643620-a|SubjectiveAssessmentAttribute+
+15	woman	woman	NOUN	NN	_	17	nsubj	_	NN|10787470-n|Woman=
+16	is	be	VERB	VBZ	_	17	aux	_	VBZ|02604760-v|Entity+
+17	watching	watch	VERB	VBG	_	5	conj	_	VBG|02150948-v|Looking=
+18	her	her	PRON	PRP$	_	17	dobj	_	PRP$|?|?
+
+# text = A tattoo is being drawn by the woman in the white sweater on the hand of a teenager
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	tattoo	tattoo	NOUN	NN	_	5	nsubjpass	_	NN|00263353-n|SurfaceChange+
+3	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+4	being	be	VERB	VBG	_	5	auxpass	_	VBG|02604760-v|Entity+
+5	drawn	draw	VERB	VBN	_	0	ROOT	_	VBN|01854132-v|Removing+
+6	by	by	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	woman	woman	NOUN	NN	_	6	pobj	_	NN|10787470-n|Woman=
+9	in	in	ADP	IN	_	5	prep	_	IN|?|?
+10	the	the	DET	DT	_	12	det	_	DT|?|?
+11	white	white	ADJ	JJ	_	12	amod	_	JJ|00393105-a|White=
+12	sweater	sweater	NOUN	NN	_	9	pobj	_	NN|04370048-n|Clothing+
+13	on	on	ADP	IN	_	5	prep	_	IN|?|?
+14	the	the	DET	DT	_	15	det	_	DT|?|?
+15	hand	hand	NOUN	NN	_	13	pobj	_	NN|05564590-n|Hand+
+16	of	of	ADP	IN	_	15	prep	_	IN|?|?
+17	a	a	DET	DT	_	18	det	_	DT|?|?
+18	teenager	teenager	NOUN	NN	_	16	pobj	_	NN|09772029-n|Teenager=
+
+# text = A group of children is playing in the house and there is no man standing in the background
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	group	group	NOUN	NN	_	6	nsubj	_	NN|00031264-n|Group=
+3	of	of	ADP	IN	_	2	prep	_	IN|?|?
+4	children	child	NOUN	NNS	_	3	pobj	_	NNS|09917593-n|HumanChild=
+5	is	be	VERB	VBZ	_	6	aux	_	VBZ|02604760-v|Entity+
+6	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+7	in	in	ADP	IN	_	6	prep	_	IN|?|?
+8	the	the	DET	DT	_	9	det	_	DT|?|?
+9	house	house	NOUN	NN	_	7	pobj	_	NN|04417809-n|Auditorium+
+10	and	and	CONJ	CC	_	6	cc	_	CC|?|?
+11	there	there	DET	EX	_	12	expl	_	EX|?|?
+12	is	be	VERB	VBZ	_	6	conj	_	VBZ|02604760-v|Entity+
+13	no	no	DET	DT	_	14	det	_	DT|?|?
+14	man	man	NOUN	NN	_	12	nsubj	_	NN|02472293-n|Hominid=
+15	standing	standing	VERB	VBG	_	14	partmod	_	NN|13948136-n|SocialRole+
+16	in	in	ADP	IN	_	15	prep	_	IN|?|?
+17	the	the	DET	DT	_	18	det	_	DT|?|?
+18	background	background	NOUN	NN	_	16	pobj	_	NN|14513259-n|Region+
+
+# text = A man in a car is not pulling up beside a woman who is walking along a road
+1	A	a	DET	DT	_	2	det	_	DT|?|?
+2	man	man	NOUN	NN	_	8	nsubj	_	NN|10287213-n|Man=
+3	in	in	ADP	IN	_	2	prep	_	IN|?|?
+4	a	a	DET	DT	_	5	det	_	DT|?|?
+5	car	car	NOUN	NN	_	3	pobj	_	NN|02958343-n|Automobile=
+6	is	be	VERB	VBZ	_	8	aux	_	VBZ|02604760-v|Entity+
+7	not	not	ADV	RB	_	8	neg	_	RB|00024073-r|not=
+8	pulling	pull	VERB	VBG	_	0	ROOT	_	VBG|02057499-v|Transportation+
+9	up	up	PRT	RP	_	8	prt	_	RP|00097011-r|Increasing+
+10	beside	beside	ADP	IN	_	8	prep	_	IN|?|?
+11	a	a	DET	DT	_	12	det	_	DT|?|?
+12	woman	woman	NOUN	NN	_	10	pobj	_	NN|10787470-n|Woman=
+13	who	who	PRON	WP	_	15	nsubj	_	WP|?|?
+14	is	be	VERB	VBZ	_	15	aux	_	VBZ|02604760-v|Entity+
+15	walking	walk	VERB	VBG	_	12	rcmod	_	VBG|01904930-v|Walking=
+16	along	along	ADP	IN	_	15	prep	_	RP|00069164-r|SubjectiveAssessmentAttribute+
+17	a	a	DET	DT	_	18	det	_	DT|?|?
+18	road	road	NOUN	NN	_	16	pobj	_	NN|04096066-n|Roadway+
+
+# text = A young girl is playing on the edge of a fountain and an older woman is watching her
+1	A	a	DET	DT	_	3	det	_	DT|?|?
+2	young	young	ADJ	JJ	_	3	amod	_	JJ|01646941-a|HumanYouth=
+3	girl	girl	NOUN	NN	_	5	nsubj	_	NN|10129825-n|Human+
+4	is	be	VERB	VBZ	_	5	aux	_	VBZ|02604760-v|Entity+
+5	playing	play	VERB	VBG	_	0	ROOT	_	VBG|01719302-v|DramaticActing+
+6	on	on	ADP	IN	_	5	prep	_	IN|?|?
+7	the	the	DET	DT	_	8	det	_	DT|?|?
+8	edge	edge	NOUN	NN	_	6	pobj	_	NN|03264136-n|Object+
+9	of	of	ADP	IN	_	8	prep	_	IN|?|?
+10	a	a	DET	DT	_	11	det	_	DT|?|?
+11	fountain	fountain	NOUN	NN	_	9	pobj	_	NN|09443453-n|Creek+
+12	and	and	CONJ	CC	_	5	cc	_	CC|?|?
+13	an	a	DET	DT	_	15	det	_	DT|?|?
+14	older	old	ADJ	JJR	_	15	amod	_	JJR|01643620-a|SubjectiveAssessmentAttribute+
+15	woman	woman	NOUN	NN	_	17	nsubj	_	NN|10787470-n|Woman=
+16	is	be	VERB	VBZ	_	17	aux	_	VBZ|02604760-v|Entity+
+17	watching	watch	VERB	VBG	_	5	conj	_	VBG|02150948-v|Looking=
+18	her	her	PRON	PRP$	_	17	dobj	_	PRP$|?|?
+

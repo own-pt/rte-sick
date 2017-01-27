@@ -1,0 +1,18 @@
+This directory contains aggregated information obtained by processing
+all pairs from columns 2 and 3 from the SICK.txt corpus through
+Freeling and SyntaxNet.  Next, we generate a txt file for each pair
+containing the sentences, their entailment, their SUMO summary, and
+the CONLLs.  Sentences are separated by entailment type.
+
+pairs.AcBBcA - A contradicts B, B contradicts A
+pairs.AcBBnA - A contradicts B, B neutral A
+pairs.AeBBcA - A entails B, B contradicts A
+pairs.AeBBeA - A entails B, B entails A
+pairs.AeBBnA - A entails B, B neutral A
+pairs.AnBBcA - A neutral B, B contradicts A
+pairs.AnBBnA - A neutral B, B neutral A
+
+To reproduce: run-all.sh
+
+The relevant files are the [1-9]*-{a,b}.conll and [1-9]*.txt;
+all others can be removed if needed. 

@@ -1,0 +1,9 @@
+This directory contains CONLL files for the sentences in columns 2 and
+3 of the SICK.txt file.
+
+It is separated in small/ and large/ by sentence size (<= 25 tokens
+and > 25 tokens).
+
+It uses the similar process (Freeling+SyntaxNet) as in ../pairs/.
+
+To reproduce, execute run-all.sh.
