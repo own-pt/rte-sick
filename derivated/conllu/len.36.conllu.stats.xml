@@ -5,18 +5,37 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>0</sentences><tokens>1</tokens><words>1</words><fused>0</fused></total>
+    <total><sentences>1</sentences><tokens>36</tokens><words>36</words><fused>0</fused></total>
   </size>
-  <lemmas unique="0" /><!--  -->
-  <forms unique="0" /><!--  -->
+  <lemmas unique="17" /><!-- be, ,, a, big, bread, butter, by, man, of, piece, spread, which, have, it, or -->
+  <forms unique="18" /><!-- ,, a, is, big, bread, butter, by, man, of, piece, spread, which, OR, being, having -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
-  <tags unique="0">
+  <tags unique="7">
+    <tag name=".">4</tag><!-- , -->
+    <tag name="ADJ">2</tag><!-- big -->
+    <tag name="ADP">7</tag><!-- by, of, or, upon, with -->
+    <tag name="DET">6</tag><!-- a, which -->
+    <tag name="NOUN">8</tag><!-- bread, butter, man, piece -->
+    <tag name="PRON">1</tag><!-- it -->
+    <tag name="VERB">8</tag><!-- be, spread, have -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
   <feats unique="0">
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="0">
+  <deps unique="12">
+    <dep name="ROOT">1</dep>
+    <dep name="aux">2</dep>
+    <dep name="auxpass">1</dep>
+    <dep name="ccomp">1</dep>
+    <dep name="cop">2</dep>
+    <dep name="dep">1</dep>
+    <dep name="det">4</dep>
+    <dep name="nsubj">4</dep>
+    <dep name="pobj">7</dep>
+    <dep name="prep">7</dep>
+    <dep name="punct">4</dep>
+    <dep name="rcmod">2</dep>
   </deps>
 </treebank>

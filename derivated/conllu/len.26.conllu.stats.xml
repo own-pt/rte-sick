@@ -5,18 +5,36 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>0</sentences><tokens>1</tokens><words>1</words><fused>0</fused></total>
+    <total><sentences>2</sentences><tokens>52</tokens><words>52</words><fused>0</fused></total>
   </size>
-  <lemmas unique="0" /><!--  -->
-  <forms unique="0" /><!--  -->
+  <lemmas unique="30" /><!-- a, and, in, be, the, black, boy, man, shirt, short, sunglass, water, 1, 4, at -->
+  <forms unique="31" /><!-- a, and, in, the, black, boy, is, man, shirt, shorts, sunglasses, water, One, are, at -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
-  <tags unique="0">
+  <tags unique="7">
+    <tag name="ADJ">5</tag><!-- black, orange, other, white -->
+    <tag name="ADP">9</tag><!-- in, at, into, on, over, with -->
+    <tag name="CONJ">4</tag><!-- and -->
+    <tag name="DET">9</tag><!-- a, the -->
+    <tag name="NOUN">17</tag><!-- boy, man, shirt, short, sunglass, water, beer, bottle, cliff, rock -->
+    <tag name="NUM">2</tag><!-- 1, 4 -->
+    <tag name="VERB">6</tag><!-- be, dive, sit, stand -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
   <feats unique="0">
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="0">
+  <deps unique="11">
+    <dep name="ROOT">2</dep>
+    <dep name="amod">5</dep>
+    <dep name="aux">3</dep>
+    <dep name="cc">4</dep>
+    <dep name="conj">4</dep>
+    <dep name="det">9</dep>
+    <dep name="nn">2</dep>
+    <dep name="nsubj">3</dep>
+    <dep name="num">2</dep>
+    <dep name="pobj">9</dep>
+    <dep name="prep">9</dep>
   </deps>
 </treebank>

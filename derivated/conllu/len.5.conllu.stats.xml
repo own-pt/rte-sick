@@ -5,18 +5,52 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>0</sentences><tokens>1</tokens><words>1</words><fused>0</fused></total>
+    <total><sentences>257</sentences><tokens>1285</tokens><words>1285</words><fused>0</fused></total>
   </size>
-  <lemmas unique="0" /><!--  -->
-  <forms unique="0" /><!--  -->
+  <lemmas unique="242" /><!-- be, a, man, woman, the, play, no, there, slice, dance, not, 2, someone, cut, egg -->
+  <forms unique="265" /><!-- is, a, woman, man, the, are, playing, There, no, slicing, dancing, not, Someone, Two, an -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
-  <tags unique="0">
+  <tags unique="10">
+    <tag name=".">1</tag><!-- make-up -->
+    <tag name="ADJ">21</tag><!-- few, young, asleep, animate, bore, cold, golden, happy, hungry, old -->
+    <tag name="ADP">10</tag><!-- around, outside, inside, on -->
+    <tag name="ADV">45</tag><!-- not, happily, gracefully, quickly, still, together, alone, cheerfully, downhill, fearlessly -->
+    <tag name="CONJ">1</tag><!-- and -->
+    <tag name="DET">259</tag><!-- a, the, no, there, some, both -->
+    <tag name="NOUN">413</tag><!-- man, woman, someone, egg, person, guitar, onion, animal, nobody, baby -->
+    <tag name="NUM">20</tag><!-- 2, 3 -->
+    <tag name="PRT">9</tag><!-- up, off, down -->
+    <tag name="VERB">506</tag><!-- be, play, slice, dance, cut, eat, fry, chop, cook, do -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
   <feats unique="0">
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="0">
+  <deps unique="24">
+    <dep name="ROOT">257</dep>
+    <dep name="acomp">2</dep>
+    <dep name="advmod">34</dep>
+    <dep name="amod">20</dep>
+    <dep name="aux">226</dep>
+    <dep name="auxpass">4</dep>
+    <dep name="cc">1</dep>
+    <dep name="conj">1</dep>
+    <dep name="cop">3</dep>
+    <dep name="dep">4</dep>
+    <dep name="det">229</dep>
+    <dep name="dobj">134</dep>
+    <dep name="expl">26</dep>
+    <dep name="neg">19</dep>
+    <dep name="nn">20</dep>
+    <dep name="nsubj">253</dep>
+    <dep name="nsubjpass">4</dep>
+    <dep name="num">23</dep>
+    <dep name="partmod">10</dep>
+    <dep name="pobj">1</dep>
+    <dep name="prep">1</dep>
+    <dep name="prt">9</dep>
+    <dep name="punct">1</dep>
+    <dep name="quantmod">3</dep>
   </deps>
 </treebank>

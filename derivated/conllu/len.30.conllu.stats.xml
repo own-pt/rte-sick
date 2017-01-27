@@ -5,18 +5,41 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>0</sentences><tokens>1</tokens><words>1</words><fused>0</fused></total>
+    <total><sentences>1</sentences><tokens>30</tokens><words>30</words><fused>0</fused></total>
   </size>
-  <lemmas unique="0" /><!--  -->
-  <forms unique="0" /><!--  -->
+  <lemmas unique="22" /><!-- and, be, the, blue, white, a, dress, fashion, hat, her, in, keep, mouth, near, open -->
+  <forms unique="23" /><!-- and, the, blue, is, white, a, are, dressed, fashion, hat, her, in, keeping, mouth, near -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
-  <tags unique="0">
+  <tags unique="7">
+    <tag name="ADJ">6</tag><!-- blue, white, open, same -->
+    <tag name="ADP">3</tag><!-- in, near, with -->
+    <tag name="CONJ">3</tag><!-- and -->
+    <tag name="DET">4</tag><!-- the, a -->
+    <tag name="NOUN">6</tag><!-- fashion, hat, mouth, other, uniform, woman -->
+    <tag name="PRON">2</tag><!-- her, who -->
+    <tag name="VERB">6</tag><!-- be, dress, keep, wear -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
   <feats unique="0">
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="0">
+  <deps unique="16">
+    <dep name="ROOT">1</dep>
+    <dep name="amod">3</dep>
+    <dep name="aux">1</dep>
+    <dep name="auxpass">1</dep>
+    <dep name="cc">3</dep>
+    <dep name="conj">3</dep>
+    <dep name="dep">1</dep>
+    <dep name="det">4</dep>
+    <dep name="dobj">2</dep>
+    <dep name="nsubj">1</dep>
+    <dep name="nsubjpass">1</dep>
+    <dep name="partmod">1</dep>
+    <dep name="pobj">3</dep>
+    <dep name="poss">1</dep>
+    <dep name="prep">3</dep>
+    <dep name="rcmod">1</dep>
   </deps>
 </treebank>

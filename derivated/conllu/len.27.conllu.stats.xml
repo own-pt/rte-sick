@@ -5,18 +5,45 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>0</sentences><tokens>1</tokens><words>1</words><fused>0</fused></total>
+    <total><sentences>3</sentences><tokens>81</tokens><words>81</words><fused>0</fused></total>
   </size>
-  <lemmas unique="0" /><!--  -->
-  <forms unique="0" /><!--  -->
+  <lemmas unique="44" /><!-- a, and, be, in, the, shirt, ,, at, black, girl, man, short, sunglass, water, 1 -->
+  <forms unique="46" /><!-- a, and, in, is, the, shirt, ,, at, black, girl, man, shorts, sunglasses, water, One -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
-  <tags unique="0">
+  <tags unique="10">
+    <tag name=".">2</tag><!-- , -->
+    <tag name="ADJ">8</tag><!-- black, blue, front, long, other, red, white -->
+    <tag name="ADP">13</tag><!-- in, at, into, of, on, over, with -->
+    <tag name="ADV">1</tag><!-- suspiciously -->
+    <tag name="CONJ">6</tag><!-- and -->
+    <tag name="DET">15</tag><!-- a, the, which -->
+    <tag name="NOUN">23</tag><!-- shirt, girl, man, short, sunglass, water, beer, bottle, boy, camera -->
+    <tag name="NUM">2</tag><!-- 1, 4 -->
+    <tag name="PRT">1</tag><!-- off -->
+    <tag name="VERB">10</tag><!-- be, jump, raise, sit, stand -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
   <feats unique="0">
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="0">
+  <deps unique="17">
+    <dep name="ROOT">3</dep>
+    <dep name="advmod">1</dep>
+    <dep name="amod">5</dep>
+    <dep name="aux">4</dep>
+    <dep name="cc">6</dep>
+    <dep name="conj">6</dep>
+    <dep name="cop">2</dep>
+    <dep name="det">14</dep>
+    <dep name="dobj">1</dep>
+    <dep name="nn">2</dep>
+    <dep name="nsubj">5</dep>
+    <dep name="num">2</dep>
+    <dep name="pobj">13</dep>
+    <dep name="prep">13</dep>
+    <dep name="prt">1</dep>
+    <dep name="punct">2</dep>
+    <dep name="rcmod">1</dep>
   </deps>
 </treebank>

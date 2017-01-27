@@ -5,18 +5,45 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>0</sentences><tokens>1</tokens><words>1</words><fused>0</fused></total>
+    <total><sentences>7</sentences><tokens>168</tokens><words>168</words><fused>0</fused></total>
   </size>
-  <lemmas unique="0" /><!--  -->
-  <forms unique="0" /><!--  -->
+  <lemmas unique="58" /><!-- a, be, and, ,, of, wear, with, black, brown, man, woman, bloom, hat, in, long -->
+  <forms unique="61" /><!-- a, is, and, ,, of, wearing, with, black, brown, woman, blooming, hat, in, long, lot -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
-  <tags unique="0">
+  <tags unique="10">
+    <tag name=".">7</tag><!-- , -->
+    <tag name="ADJ">20</tag><!-- black, brown, long, white, young, blue, funny, large, light, red -->
+    <tag name="ADP">19</tag><!-- of, with, in, past, at, outside -->
+    <tag name="ADV">1</tag><!-- aimlessly -->
+    <tag name="CONJ">12</tag><!-- and -->
+    <tag name="DET">32</tag><!-- a, which -->
+    <tag name="NOUN">41</tag><!-- man, woman, hat, lot, park, shirt, tree, jacket, age, boy -->
+    <tag name="NUM">2</tag><!-- 2 -->
+    <tag name="PRON">1</tag><!-- who -->
+    <tag name="VERB">33</tag><!-- be, wear, bloom, walk, look, do, dye, march, smile, stand -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
   <feats unique="0">
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="0">
+  <deps unique="17">
+    <dep name="ROOT">7</dep>
+    <dep name="acomp">1</dep>
+    <dep name="advmod">1</dep>
+    <dep name="amod">22</dep>
+    <dep name="aux">13</dep>
+    <dep name="cc">12</dep>
+    <dep name="conj">14</dep>
+    <dep name="cop">1</dep>
+    <dep name="dep">2</dep>
+    <dep name="det">30</dep>
+    <dep name="dobj">6</dep>
+    <dep name="nsubj">10</dep>
+    <dep name="num">2</dep>
+    <dep name="pobj">19</dep>
+    <dep name="prep">19</dep>
+    <dep name="punct">7</dep>
+    <dep name="rcmod">2</dep>
   </deps>
 </treebank>

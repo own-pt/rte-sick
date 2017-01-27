@@ -5,18 +5,60 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>0</sentences><tokens>1</tokens><words>1</words><fused>0</fused></total>
+    <total><sentences>220</sentences><tokens>3300</tokens><words>3300</words><fused>0</fused></total>
   </size>
-  <lemmas unique="0" /><!--  -->
-  <forms unique="0" /><!--  -->
+  <lemmas unique="510" /><!-- a, be, the, and, in, dog, on, man, with, of, wear, brown, white, ,, black -->
+  <forms unique="557" /><!-- a, is, the, and, in, on, dog, man, are, with, of, brown, white, ,, wearing -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
-  <tags unique="0">
+  <tags unique="11">
+    <tag name=".">32</tag><!-- ,, . -->
+    <tag name="ADJ">321</tag><!-- brown, white, black, red, large, little, young, green, small, blue -->
+    <tag name="ADP">415</tag><!-- in, on, with, of, by, at, for, near, over, through -->
+    <tag name="ADV">39</tag><!-- not, outside, next, very, right, abruptly, amusedly, attentively, breathlessly, clumsily -->
+    <tag name="CONJ">150</tag><!-- and -->
+    <tag name="DET">654</tag><!-- a, the, no, there, another, which, that, both, all, some -->
+    <tag name="NOUN">894</tag><!-- dog, man, woman, boy, grass, ball, girl, water, bike, person -->
+    <tag name="NUM">40</tag><!-- 2, 1, one, 4 -->
+    <tag name="PRON">57</tag><!-- its, who, her, his, their, him, them, they -->
+    <tag name="PRT">26</tag><!-- down, up, off, out, to, away -->
+    <tag name="VERB">672</tag><!-- be, wear, stand, run, jump, play, ride, walk, look, hold -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
   <feats unique="0">
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="0">
+  <deps unique="31">
+    <dep name="ROOT">220</dep>
+    <dep name="acomp">1</dep>
+    <dep name="advcl">1</dep>
+    <dep name="advmod">37</dep>
+    <dep name="amod">276</dep>
+    <dep name="aux">254</dep>
+    <dep name="auxpass">14</dep>
+    <dep name="cc">150</dep>
+    <dep name="conj">156</dep>
+    <dep name="cop">18</dep>
+    <dep name="dep">15</dep>
+    <dep name="det">610</dep>
+    <dep name="dobj">146</dep>
+    <dep name="expl">19</dep>
+    <dep name="infmod">1</dep>
+    <dep name="mark">1</dep>
+    <dep name="neg">11</dep>
+    <dep name="nn">91</dep>
+    <dep name="npadvmod">1</dep>
+    <dep name="nsubj">263</dep>
+    <dep name="nsubjpass">11</dep>
+    <dep name="num">32</dep>
+    <dep name="partmod">29</dep>
+    <dep name="pcomp">6</dep>
+    <dep name="pobj">405</dep>
+    <dep name="poss">38</dep>
+    <dep name="prep">407</dep>
+    <dep name="prt">21</dep>
+    <dep name="punct">32</dep>
+    <dep name="rcmod">31</dep>
+    <dep name="xcomp">3</dep>
   </deps>
 </treebank>
