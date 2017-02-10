@@ -76,14 +76,14 @@ def process (lin,sumo,glos):
             pos.append(w.get_tag())
             ss = w.get_senses()
             if (ss): 
-                if ss[0][0] in sumo:
-                    concepts.append(sumo[ss[0][0]])
-                else:
-                    concepts.append("?")
-                senses.append(ss[0][0])
-            else:
-                concepts.append("?")
-                senses.append("?")
+                local_senses = []
+                local_concepts = []
+                for (sense,score) in ss:
+                    if sense in sumo:
+                        local_concepts.append(sumo[sense])
+                    local_senses.append(sense)
+                concepts.append(list(set(local_concepts)))
+                senses.append(list(set(local_senses)))
 
     tokenized_string = (" ".join(words))
 
@@ -156,8 +156,8 @@ with open('sentences.tokens', 'w') as senf:
         with open('{}.lemmas'.format(id),'w') as o:
             o.write("{}\n".format("+".join(lemmas)))
         with open('{}.senses'.format(id),'w') as o:
-            o.write("{}\n".format(",".join(senses)))
+            o.write("{}\n".format(",".join([".".join(x) for x in senses])))
         with open('{}.sumo'.format(id),'w') as o:
-            o.write("{}\n".format(",".join(sumo)))
+            o.write("{}\n".format(",".join([".".join(x) for x in sumo])))
         with open('{}.tag'.format(id),'w') as o:
             o.write("{}\n".format(",".join(tag)))

@@ -31,7 +31,7 @@ def fix_conll(raw_conll, lemmas, senses, sumo,pos):
     assert (len(conll) == len(lemmas) == len(senses) == len(sumo)), "{} {} {} {}".format(len(conll), len(lemmas), len(senses), len(sumo))
     for i in range(0, len(lemmas)):
         conll[i][2] = lemmas[i]
-        conll[i][9] = "{}|{}|{}".format(pos[i],senses[i],sumo[i])
+        conll[i][9] = "FlPos={}|FlSenses={}|Sumo={}".format(pos[i],senses[i].replace(".",","),sumo[i].replace(".",","))
     return conll
 
 sentences = []
