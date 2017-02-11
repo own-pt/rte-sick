@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>390</sentences><tokens>1813</tokens><words>1813</words><fused>0</fused></total>
+  </size>
+  <lemmas unique="275" /><!-- be, a, man, woman, the, play, dance, 2, no, there, person, some, slice, someone, not -->
+  <forms unique="301" /><!-- is, a, man, are, the, woman, playing, dancing, Two, no, There, men, Some, person, Someone -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
+  <tags unique="10">
+    <tag name=".">1</tag><!-- make-up -->
+    <tag name="ADJ">30</tag><!-- few, silent, young, asleep, hungry, animate, bore, cold, empty, golden -->
+    <tag name="ADP">10</tag><!-- around, outside, inside, on -->
+    <tag name="ADV">45</tag><!-- not, happily, gracefully, quickly, still, together, alone, cheerfully, downhill, fearlessly -->
+    <tag name="CONJ">1</tag><!-- and -->
+    <tag name="DET">366</tag><!-- a, the, no, there, some, both -->
+    <tag name="NOUN">553</tag><!-- man, woman, person, someone, people, egg, baby, dog, girl, animal -->
+    <tag name="NUM">37</tag><!-- 2, 3, 1 -->
+    <tag name="PRT">9</tag><!-- up, off, down -->
+    <tag name="VERB">761</tag><!-- be, play, dance, slice, cut, eat, sing, talk, exercise, draw -->
+  </tags>
+  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
+  <feats unique="0">
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="24">
+    <dep name="ROOT">390</dep>
+    <dep name="acomp">2</dep>
+    <dep name="advmod">34</dep>
+    <dep name="amod">20</dep>
+    <dep name="aux">347</dep>
+    <dep name="auxpass">5</dep>
+    <dep name="cc">1</dep>
+    <dep name="conj">1</dep>
+    <dep name="cop">13</dep>
+    <dep name="dep">4</dep>
+    <dep name="det">336</dep>
+    <dep name="dobj">140</dep>
+    <dep name="expl">26</dep>
+    <dep name="neg">19</dep>
+    <dep name="nn">20</dep>
+    <dep name="nsubj">385</dep>
+    <dep name="nsubjpass">5</dep>
+    <dep name="num">40</dep>
+    <dep name="partmod">10</dep>
+    <dep name="pobj">1</dep>
+    <dep name="prep">1</dep>
+    <dep name="prt">9</dep>
+    <dep name="punct">1</dep>
+    <dep name="quantmod">3</dep>
+  </deps>
+</treebank>
