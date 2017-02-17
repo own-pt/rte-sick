@@ -5,24 +5,24 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>6076</sentences><tokens>60404</tokens><words>60404</words><fused>0</fused></total>
+    <total><sentences>6466</sentences><tokens>62217</tokens><words>62217</words><fused>0</fused></total>
   </size>
   <lemmas unique="1814" /><!-- a, be, the, man, in, and, on, woman, dog, of, play, with, no, there, 2 -->
-  <forms unique="2311" /><!-- a, is, the, in, man, and, are, on, woman, of, dog, with, playing, no, there -->
+  <forms unique="2311" /><!-- a, is, the, man, in, and, are, on, woman, of, dog, with, playing, no, there -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="12">
-    <tag name=".">331</tag><!-- ,, ., make-up -->
-    <tag name="ADJ">3692</tag><!-- black, white, brown, young, red, blue, little, small, green, yellow -->
-    <tag name="ADP">6679</tag><!-- in, on, of, with, by, at, into, to, through, near -->
-    <tag name="ADV">1093</tag><!-- not, next, together, outdoors, outside, quickly, still, away, carefully, very -->
-    <tag name="CONJ">1429</tag><!-- and, or -->
-    <tag name="DET">13495</tag><!-- a, the, no, there, some, which, that, another, each, both -->
-    <tag name="NOUN">17556</tag><!-- man, woman, dog, boy, person, girl, people, water, child, ball -->
-    <tag name="NUM">776</tag><!-- 2, 1, 3, 4, 5, one -->
+    <tag name=".">332</tag><!-- ,, ., make-up -->
+    <tag name="ADJ">3722</tag><!-- black, white, brown, young, red, blue, little, small, green, yellow -->
+    <tag name="ADP">6689</tag><!-- in, on, of, with, by, at, into, to, through, near -->
+    <tag name="ADV">1138</tag><!-- not, next, together, outdoors, outside, quickly, still, happily, away, carefully -->
+    <tag name="CONJ">1430</tag><!-- and, or -->
+    <tag name="DET">13861</tag><!-- a, the, no, there, some, which, that, another, each, both -->
+    <tag name="NOUN">18109</tag><!-- man, woman, dog, person, boy, girl, people, water, child, ball -->
+    <tag name="NUM">813</tag><!-- 2, 1, 3, 4, 5, one -->
     <tag name="PRON">465</tag><!-- who, its, her, his, it, their, them, him, himself, she -->
-    <tag name="PRT">419</tag><!-- up, down, off, 's, away, to, out, on, around, be -->
-    <tag name="VERB">14467</tag><!-- be, play, stand, wear, run, sit, ride, jump, walk, look -->
+    <tag name="PRT">428</tag><!-- up, down, off, 's, away, to, out, on, around, be -->
+    <tag name="VERB">15228</tag><!-- be, play, stand, wear, run, sit, ride, jump, walk, slice -->
     <tag name="X">2</tag><!-- /, backwards -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
@@ -30,41 +30,41 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="38">
-    <dep name="ROOT">6076</dep>
-    <dep name="acomp">19</dep>
+    <dep name="ROOT">6466</dep>
+    <dep name="acomp">21</dep>
     <dep name="advcl">8</dep>
-    <dep name="advmod">729</dep>
-    <dep name="amod">3352</dep>
+    <dep name="advmod">763</dep>
+    <dep name="amod">3372</dep>
     <dep name="appos">7</dep>
-    <dep name="aux">5781</dep>
-    <dep name="auxpass">484</dep>
-    <dep name="cc">1429</dep>
+    <dep name="aux">6128</dep>
+    <dep name="auxpass">489</dep>
+    <dep name="cc">1430</dep>
     <dep name="ccomp">7</dep>
-    <dep name="conj">1469</dep>
-    <dep name="cop">223</dep>
+    <dep name="conj">1470</dep>
+    <dep name="cop">236</dep>
     <dep name="csubj">5</dep>
-    <dep name="dep">119</dep>
-    <dep name="det">12711</dep>
-    <dep name="dobj">3266</dep>
-    <dep name="expl">539</dep>
+    <dep name="dep">123</dep>
+    <dep name="det">13047</dep>
+    <dep name="dobj">3406</dep>
+    <dep name="expl">565</dep>
     <dep name="infmod">3</dep>
     <dep name="iobj">2</dep>
     <dep name="mark">7</dep>
-    <dep name="neg">436</dep>
-    <dep name="nn">1148</dep>
+    <dep name="neg">455</dep>
+    <dep name="nn">1168</dep>
     <dep name="npadvmod">1</dep>
-    <dep name="nsubj">6144</dep>
-    <dep name="nsubjpass">449</dep>
-    <dep name="num">748</dep>
-    <dep name="partmod">645</dep>
+    <dep name="nsubj">6529</dep>
+    <dep name="nsubjpass">454</dep>
+    <dep name="num">788</dep>
+    <dep name="partmod">655</dep>
     <dep name="pcomp">77</dep>
-    <dep name="pobj">6556</dep>
+    <dep name="pobj">6557</dep>
     <dep name="poss">321</dep>
     <dep name="possessive">41</dep>
-    <dep name="prep">6578</dep>
-    <dep name="prt">324</dep>
-    <dep name="punct">335</dep>
-    <dep name="quantmod">10</dep>
+    <dep name="prep">6579</dep>
+    <dep name="prt">333</dep>
+    <dep name="punct">336</dep>
+    <dep name="quantmod">13</dep>
     <dep name="rcmod">317</dep>
     <dep name="tmod">1</dep>
     <dep name="xcomp">37</dep>

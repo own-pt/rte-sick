@@ -29,6 +29,7 @@ def read_conll(s):
 def fix_conll(raw_conll, lemmas, senses, sumo,pos):
     conll = [l.split('\t') for l in raw_conll.split('\n')]
     assert (len(conll) == len(lemmas) == len(senses) == len(sumo)), "{} {} {} {}".format(len(conll), len(lemmas), len(senses), len(sumo))
+
     for i in range(0, len(lemmas)):
         conll[i][2] = lemmas[i]
         conll[i][9] = "FlPos={}|FlSenses={}|Sumo={}".format(pos[i],senses[i].replace(".",","),sumo[i].replace(".",","))
@@ -57,7 +58,7 @@ for sentence in sentences:
 
     d = "len.{}".format(len(conlla))
 
-    with open("{}.conllu".format(d,id), 'a') as o:
+    with open("conllu/{}.conllu".format(d,id), 'a') as o:
         o.write("# text = {}\n".format(sentence));
         for t in conlla:
             o.write("{}\n".format("\t".join(t)))

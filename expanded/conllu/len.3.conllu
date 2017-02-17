@@ -1,20 +1,20 @@
-# text = People are walking
-1	People	people	NOUN	NNS	_	3	nsubj	_	NNS|07942152-n|GroupOfPeople=
-2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
-3	walking	walk	VERB	VBG	_	0	ROOT	_	VBG|01904930-v|Walking=
-
-# text = Someone is writing
-1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
-2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
-3	writing	write	VERB	VBG	_	0	ROOT	_	VBG|00993014-v|WrittenCommunication=
-
 # text = Men are sawing
-1	Men	man	NOUN	NNS	_	3	nsubj	_	NNS|02472293-n|Hominid=
-2	are	be	VERB	VBP	_	3	aux	_	VBP|02604760-v|Entity+
-3	sawing	saw	VERB	VBG	_	0	ROOT	_	VBG|01559590-v|Cutting+
+1	Men	man	NOUN	NNS	_	3	nsubj	_	FlPos=NNS|FlSenses=02472293-n,10287213-n,08887716-n,10745332-n,10582746-n,03716327-n,10289039-n,10288763-n,10288516-n,10289176-n,02472987-n|Sumo=Hominid=,Man=,Island@,Position+,Soldier+,GamePiece+,Human=,FullyFormed+,SocialRole+,Man=,Human=
+2	are	be	VERB	VBP	_	3	aux	_	FlPos=VBP|FlSenses=02604760-v,02655135-v,02702508-v,02603699-v,02445925-v,02620587-v,02744820-v,02664769-v,02268246-v,02614181-v,02697725-v,02749904-v,02616386-v|Sumo=Entity+,PhysicalAttribute+,Attribute+,Entity+,SocialRole+,Attribute+,PastFn+,Attribute+,Process+,Living=,DramaticActing+,Process+,Attribute+
+3	sawing	saw	VERB	VBG	_	0	ROOT	_	FlPos=VBG|FlSenses=01559590-v|Sumo=Cutting+
 
 # text = Someone is typing
-1	Someone	someone	NOUN	NN	_	3	nsubj	_	PRP|?|?
-2	is	be	VERB	VBZ	_	3	aux	_	VBZ|02604760-v|Entity+
-3	typing	type	VERB	VBG	_	0	ROOT	_	VBG|01004692-v|Writing+
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	FlPos=PRP|FlSenses=?|Sumo=?
+2	is	be	VERB	VBZ	_	3	aux	_	FlPos=VBZ|FlSenses=02604760-v,02655135-v,02702508-v,02603699-v,02445925-v,02620587-v,02744820-v,02664769-v,02697725-v,02268246-v,02614181-v,02749904-v,02616386-v|Sumo=Entity+,PhysicalAttribute+,Attribute+,Entity+,SocialRole+,Attribute+,PastFn+,Attribute+,DramaticActing+,Process+,Living=,Process+,Attribute+
+3	typing	type	VERB	VBG	_	0	ROOT	_	FlPos=VBG|FlSenses=01004692-v,00618682-v|Sumo=Writing+,Classifying+
+
+# text = Someone is writing
+1	Someone	someone	NOUN	NN	_	3	nsubj	_	FlPos=PRP|FlSenses=?|Sumo=?
+2	is	be	VERB	VBZ	_	3	aux	_	FlPos=VBZ|FlSenses=02604760-v,02655135-v,02702508-v,02603699-v,02445925-v,02620587-v,02744820-v,02664769-v,02268246-v,02614181-v,02697725-v,02749904-v,02616386-v|Sumo=Entity+,PhysicalAttribute+,Attribute+,Entity+,SocialRole+,Attribute+,PastFn+,Attribute+,Process+,Living=,DramaticActing+,Process+,Attribute+
+3	writing	write	VERB	VBG	_	0	ROOT	_	FlPos=VBG|FlSenses=00993014-v,01007027-v,01031966-v,01698271-v,01691057-v,01699896-v,01744611-v,01705494-v,00998886-v,01692834-v|Sumo=WrittenCommunication=,WrittenCommunication=,WrittenCommunication=,Writing+,Writing+,Writing+,Publication+,ComposingMusic+,Encoding+,ComposingMusic+
+
+# text = People are walking
+1	People	people	NOUN	NNS	_	3	nsubj	_	FlPos=NNS|FlSenses=07942152-n,08160276-n,08180190-n,07971141-n|Sumo=GroupOfPeople=,GroupOfPeople+,SubjectiveAssessmentAttribute=,FamilyGroup+
+2	are	be	VERB	VBP	_	3	aux	_	FlPos=VBP|FlSenses=02604760-v,02655135-v,02702508-v,02603699-v,02445925-v,02620587-v,02744820-v,02664769-v,02268246-v,02614181-v,02697725-v,02749904-v,02616386-v|Sumo=Entity+,PhysicalAttribute+,Attribute+,Entity+,SocialRole+,Attribute+,PastFn+,Attribute+,Process+,Living=,DramaticActing+,Process+,Attribute+
+3	walking	walk	VERB	VBG	_	0	ROOT	_	FlPos=VBG|FlSenses=01904930-v,01113473-v,01906823-v,01907076-v,01140654-v,01912893-v,01882170-v,01959776-v,02470518-v,02518839-v,00450402-a|Sumo=Walking=,BaseballWalk=,Walking+,IntentionalProcess+,Game+,Walking+,Walking=,Walking+,Cooperation+,IntentionalProcess+,Near+
 

@@ -78,12 +78,18 @@ def process (lin,sumo,glos):
             if (ss): 
                 local_senses = []
                 local_concepts = []
+
                 for (sense,score) in ss:
                     if sense in sumo:
                         local_concepts.append(sumo[sense])
+                    else:
+                        local_concepts.append('?')
                     local_senses.append(sense)
-                concepts.append(list(set(local_concepts)))
-                senses.append(list(set(local_senses)))
+                concepts.append(local_concepts)
+                senses.append(local_senses)
+            else:
+                concepts.append('?')
+                senses.append('?')
 
     tokenized_string = (" ".join(words))
 
@@ -143,9 +149,9 @@ with open('sentences.tokens', 'w') as senf:
 
         id = hashlib.sha1(sentence.encode('utf-8')).hexdigest()
 
-        if (os.path.exists('{}.tokens'.format(id))):
-            print ("Collision!")
-            sys.exit(1)
+        # if (os.path.exists('{}.tokens'.format(id))):
+        #     print ("Collision!")
+        #     sys.exit(1)
 
         (txt,lemmas,senses,sumo,tag) = process(sentence,sumo_dic,glos_dic)
             
