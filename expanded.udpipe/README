@@ -1,0 +1,8 @@
+This is a CoNLL-U with the same tokenization as in experiment.ud, but
+processed using UDPipe so we can compare the trees.
+
+This version uses UDPipe 1.0.0 https://github.com/ufal/udpipe using
+the pre-trained model English UD model (v1.2)
+https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-1659
+
+To reproduce, execute run-all.sh.
