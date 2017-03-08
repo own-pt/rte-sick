@@ -40,6 +40,7 @@ mf=freeling.maco(op);
 
 # defaults
 # (umap,num,pun,dat,dic,aff,comp,rtk,mw,ner,qt,prb)=(False,True,True,True,True,True,False,True,True,True,True,True)
+
 (umap,num,pun,dat,dic,aff,comp,rtk,mw,ner,qt,prb)=(False,True,True,True,True,True,False,True,False,False,False,True)
 # activate mmorpho odules to be used in next call
 mf.set_active_options(umap,num,pun,dat,dic,aff,comp,rtk,mw,ner,qt,prb)

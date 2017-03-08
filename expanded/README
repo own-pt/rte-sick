@@ -1,8 +1,10 @@
 This directory contains CONLL files for the sentences in columns 2 and
 3 of the SICK.txt file.
 
-It is separated by sentence size.
+It is separated by sentence size in the directory conllu/.
 
 It uses the similar process (Freeling+SyntaxNet) as in ../pairs/.
+
+This version uses Parsey McParseface: https://github.com/tensorflow/models/tree/master/syntaxnet
 
 To reproduce, execute run-all.sh.
