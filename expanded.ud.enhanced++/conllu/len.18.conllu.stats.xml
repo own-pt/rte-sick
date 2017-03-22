@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>66</sentences><tokens>1188</tokens><words>1188</words><fused>0</fused></total>
+  </size>
+  <lemmas unique="278" /><!-- a, be, the, and, in, of, ,, woman, on, with, man, wear, white, dog, blue -->
+  <forms unique="294" /><!-- a, is, the, and, in, of, ,, woman, are, on, with, man, white, wearing, dog -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
+  <tags unique="14">
+    <tag name="ADJ">99</tag><!-- blue, white, black, large, young, brown, collar, high, old, pink -->
+    <tag name="ADP">166</tag><!-- in, of, on, with, at, for, by, to, into, up -->
+    <tag name="ADV">21</tag><!-- rally, artificially, below, very, along, away, barren, beside, effortlessly, fully -->
+    <tag name="AUX">90</tag><!-- be -->
+    <tag name="CONJ">52</tag><!-- and -->
+    <tag name="DET">231</tag><!-- a, the, no, some, another, each -->
+    <tag name="NOUN">317</tag><!-- woman, man, dog, child, dress, ball, boy, girl, shirt, background -->
+    <tag name="NUM">3</tag><!-- 2 -->
+    <tag name="PART">7</tag><!-- not -->
+    <tag name="PRON">37</tag><!-- which, who, her, there, that, 1, 4, his, it, its -->
+    <tag name="PROPN">1</tag><!-- water -->
+    <tag name="PUNCT">23</tag><!-- ,, . -->
+    <tag name="SCONJ">1</tag><!-- between -->
+    <tag name="VERB">140</tag><!-- be, wear, play, stand, look, walk, have, red, approach, attach -->
+  </tags>
+  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
+  <feats unique="53">
+    <feat name="Case" value="Acc" upos="PRON">5</feat><!-- her, it, them -->
+    <feat name="Case" value="Nom" upos="PRON">1</feat><!-- they -->
+    <feat name="Definite" value="Def" upos="DET">59</feat><!-- the -->
+    <feat name="Definite" value="Ind" upos="DET">160</feat><!-- a, an -->
+    <feat name="Degree" value="Pos" upos="ADJ,NOUN,PRON,VERB">88</feat><!-- blue, black, white, large, red, brown, high, small, throwing, young -->
+    <feat name="fPOS" value="ADJ++JJ" upos="ADJ,NOUN,PRON,VERB">88</feat><!-- blue, black, white, large, red, brown, high, small, throwing, young -->
+    <feat name="fPOS" value="ADP++IN" upos="ADP,ADV,SCONJ">159</feat><!-- in, of, on, with, at, for, by, to, into, along -->
+    <feat name="fPOS" value="ADP++RP" upos="ADP">8</feat><!-- up, down, off -->
+    <feat name="fPOS" value="ADV++RB" upos="ADJ,ADV">18</feat><!-- rally, artificially, below, very, animatedly, away, barren, effortlessly, fully, mostly -->
+    <feat name="fPOS" value="AUX++VBG" upos="AUX">6</feat><!-- being -->
+    <feat name="fPOS" value="AUX++VBP" upos="AUX">18</feat><!-- are -->
+    <feat name="fPOS" value="AUX++VBZ" upos="AUX,VERB">62</feat><!-- is -->
+    <feat name="fPOS" value="CONJ++CC" upos="CONJ">52</feat><!-- and -->
+    <feat name="fPOS" value="DET++DT" upos="DET">231</feat><!-- a, the, an, no, some, another, each -->
+    <feat name="fPOS" value="NOUN++NN" upos="ADJ,ADV,NOUN,PRON,PROPN,VERB">291</feat><!-- woman, man, dog, dress, white, ball, girl, shirt, background, front -->
+    <feat name="fPOS" value="NOUN++NNS" upos="NOUN,VERB">43</feat><!-- people, children, heels, leaves, boys, cars, flames, pedestrians, arms, boots -->
+    <feat name="fPOS" value="NUM++CD" upos="ADP,NOUN,NUM,PRON">7</feat><!-- two, one, Four -->
+    <feat name="fPOS" value="PART++RB" upos="PART">7</feat><!-- not -->
+    <feat name="fPOS" value="PRON++EX" upos="PRON">4</feat><!-- there -->
+    <feat name="fPOS" value="PRON++PRP" upos="PRON">6</feat><!-- her, it, them, they -->
+    <feat name="fPOS" value="PRON++PRP$" upos="PRON">3</feat><!-- her, his, its -->
+    <feat name="fPOS" value="PRON++WDT" upos="PRON">12</feat><!-- which, that -->
+    <feat name="fPOS" value="PRON++WP" upos="PRON">7</feat><!-- who -->
+    <feat name="fPOS" value="PROPN++NNP" upos="NOUN">1</feat><!-- sidewalk -->
+    <feat name="fPOS" value="PUNCT++," upos="PUNCT">22</feat><!-- , -->
+    <feat name="fPOS" value="PUNCT++." upos="PUNCT">1</feat><!-- . -->
+    <feat name="fPOS" value="VERB++VB" upos="ADP">1</feat><!-- beside -->
+    <feat name="fPOS" value="VERB++VBD" upos="ADJ">1</feat><!-- colored -->
+    <feat name="fPOS" value="VERB++VBG" upos="NOUN,VERB">89</feat><!-- wearing, standing, playing, looking, walking, sitting, approaching, coming, holding, riding -->
+    <feat name="fPOS" value="VERB++VBN" upos="ADJ,VERB">17</feat><!-- attached, dressed, colored, drawn, eaten, go, let, red, reserved, seated -->
+    <feat name="fPOS" value="VERB++VBP" upos="ADJ,VERB">4</feat><!-- are, car, have -->
+    <feat name="fPOS" value="VERB++VBZ" upos="AUX,VERB">29</feat><!-- is, has -->
+    <feat name="fPOS" value="X++LS" upos="PRON">1</feat><!-- Women -->
+    <feat name="Gender" value="Fem" upos="PRON">4</feat><!-- her -->
+    <feat name="Gender" value="Masc" upos="PRON">1</feat><!-- his -->
+    <feat name="Gender" value="Neut" upos="PRON">2</feat><!-- it, its -->
+    <feat name="Mood" value="Ind" upos="ADJ,AUX,VERB">114</feat><!-- is, are, has, car, colored, have -->
+    <feat name="Number" value="Plur" upos="NOUN,PRON,VERB">45</feat><!-- people, children, heels, leaves, boys, cars, flames, pedestrians, arms, boots -->
+    <feat name="Number" value="Sing" upos="ADJ,ADV,AUX,NOUN,PRON,PROPN,VERB">390</feat><!-- is, woman, man, dog, dress, white, ball, girl, shirt, background -->
+    <feat name="NumType" value="Card" upos="ADP,NOUN,NUM,PRON">7</feat><!-- two, one, Four -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB">100</feat><!-- is, her, has, his, it, its, them, they -->
+    <feat name="Poss" value="Yes" upos="PRON">3</feat><!-- her, his, its -->
+    <feat name="PronType" value="Art" upos="DET">219</feat><!-- a, the, an -->
+    <feat name="PronType" value="Int" upos="PRON">1</feat><!-- who -->
+    <feat name="PronType" value="Prs" upos="PRON">9</feat><!-- her, his, it, its, them, they -->
+    <feat name="PronType" value="Rel" upos="PRON">18</feat><!-- which, who, that -->
+    <feat name="Tense" value="Past" upos="ADJ,VERB">18</feat><!-- attached, colored, dressed, drawn, eaten, go, let, red, reserved, seated -->
+    <feat name="Tense" value="Pres" upos="ADJ,AUX,NOUN,VERB">183</feat><!-- is, are, standing, wearing, playing, walking, looking, approaching, coming, has -->
+    <feat name="VerbForm" value="Fin" upos="ADJ,AUX,VERB">114</feat><!-- is, are, has, car, colored, have -->
+    <feat name="VerbForm" value="Ger" upos="AUX,NOUN,VERB">25</feat><!-- being, wearing, standing, holding, playing, concealing, filming, looking, making, posing -->
+    <feat name="VerbForm" value="Inf" upos="ADP">1</feat><!-- beside -->
+    <feat name="VerbForm" value="Part" upos="ADJ,NOUN,VERB">87</feat><!-- standing, wearing, playing, walking, looking, approaching, attached, coming, riding, running -->
+    <feat name="Voice" value="Pass" upos="VERB">8</feat><!-- drawn, eaten, go, let, seated, smeared, squirted, worn -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="52">
+    <dep name="acl">9</dep>
+    <dep name="acl:relcl">21</dep>
+    <dep name="advcl">1</dep>
+    <dep name="advmod">14</dep>
+    <dep name="amod">94</dep>
+    <dep name="appos">1</dep>
+    <dep name="aux">83</dep>
+    <dep name="auxpass">9</dep>
+    <dep name="case">155</dep>
+    <dep name="cc">52</dep>
+    <dep name="compound">28</dep>
+    <dep name="compound:prt">5</dep>
+    <dep name="conj:and">54</dep>
+    <dep name="cop">18</dep>
+    <dep name="det">225</dep>
+    <dep name="det:qmod">1</dep>
+    <dep name="dobj">47</dep>
+    <dep name="expl">4</dep>
+    <dep name="mwe">15</dep>
+    <dep name="neg">12</dep>
+    <dep name="nmod">4</dep>
+    <dep name="nmod:against">1</dep>
+    <dep name="nmod:agent">4</dep>
+    <dep name="nmod:along">2</dep>
+    <dep name="nmod:at">9</dep>
+    <dep name="nmod:away_from">1</dep>
+    <dep name="nmod:beside">3</dep>
+    <dep name="nmod:between">1</dep>
+    <dep name="nmod:by">1</dep>
+    <dep name="nmod:down">3</dep>
+    <dep name="nmod:for">8</dep>
+    <dep name="nmod:in">33</dep>
+    <dep name="nmod:in_front_of">4</dep>
+    <dep name="nmod:into">5</dep>
+    <dep name="nmod:near">2</dep>
+    <dep name="nmod:of">18</dep>
+    <dep name="nmod:off">1</dep>
+    <dep name="nmod:on">18</dep>
+    <dep name="nmod:out_of">2</dep>
+    <dep name="nmod:over">2</dep>
+    <dep name="nmod:poss">3</dep>
+    <dep name="nmod:through">1</dep>
+    <dep name="nmod:to">6</dep>
+    <dep name="nmod:under">1</dep>
+    <dep name="nmod:with">16</dep>
+    <dep name="nsubj">69</dep>
+    <dep name="nsubjpass">6</dep>
+    <dep name="nummod">5</dep>
+    <dep name="punct">23</dep>
+    <dep name="ref">20</dep>
+    <dep name="root">66</dep>
+    <dep name="xcomp">2</dep>
+  </deps>
+</treebank>

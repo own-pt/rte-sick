@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>257</sentences><tokens>1285</tokens><words>1285</words><fused>0</fused></total>
+  </size>
+  <lemmas unique="242" /><!-- be, a, man, woman, the, play, no, there, slice, dance, not, 2, someone, cut, egg -->
+  <forms unique="265" /><!-- is, a, woman, man, the, are, playing, There, no, slicing, dancing, not, Someone, Two, an -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
+  <tags unique="12">
+    <tag name="ADJ">58</tag><!-- slice, garlic, man, few, bread, dice, land, young, animate, cereal -->
+    <tag name="ADP">6</tag><!-- up, blonds, on -->
+    <tag name="ADV">45</tag><!-- around, happily, outside, off, asleep, down, gracefully, guitar, quickly, still -->
+    <tag name="AUX">202</tag><!-- be -->
+    <tag name="CONJ">1</tag><!-- and -->
+    <tag name="DET">234</tag><!-- a, the, no, some, 3, both -->
+    <tag name="NOUN">380</tag><!-- woman, man, egg, person, onion, animal, baby, dog, guitar, girl -->
+    <tag name="NUM">15</tag><!-- 2, 3 -->
+    <tag name="PART">19</tag><!-- not -->
+    <tag name="PRON">26</tag><!-- there -->
+    <tag name="PROPN">23</tag><!-- someone, nobody, somebody, atvs, man, paper -->
+    <tag name="VERB">276</tag><!-- be, play, dance, cut, slice, eat, fry, sing, chop, cook -->
+  </tags>
+  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
+  <feats unique="42">
+    <feat name="Case" value="Acc" upos="NOUN">1</feat><!-- herbs -->
+    <feat name="Definite" value="Def" upos="DET">49</feat><!-- the, Three -->
+    <feat name="Definite" value="Ind" upos="DET">151</feat><!-- a, an -->
+    <feat name="Degree" value="Cmp" upos="ADP">1</feat><!-- blonds -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV,NOUN,NUM,VERB">124</feat><!-- playing, man, slicing, garlic, few, eating, frying, dancing, lifting, outside -->
+    <feat name="fPOS" value="ADJ++JJ" upos="ADJ,ADV,NOUN,NUM,VERB">124</feat><!-- playing, man, slicing, garlic, few, eating, frying, dancing, lifting, outside -->
+    <feat name="fPOS" value="ADJ++JJR" upos="ADP">1</feat><!-- blonds -->
+    <feat name="fPOS" value="ADP++IN" upos="ADP,ADV,NOUN">4</feat><!-- tofu, lemur, on -->
+    <feat name="fPOS" value="ADP++RP" upos="ADP,ADV">7</feat><!-- up, off -->
+    <feat name="fPOS" value="ADV++RB" upos="ADJ,ADV,DET,NOUN">33</feat><!-- around, happily, down, gracefully, quickly, still, together, Some, downhill, fearlessly -->
+    <feat name="fPOS" value="AUX++VBG" upos="AUX,VERB">4</feat><!-- being, getting -->
+    <feat name="fPOS" value="AUX++VBP" upos="AUX">33</feat><!-- are -->
+    <feat name="fPOS" value="AUX++VBZ" upos="AUX,VERB">117</feat><!-- is -->
+    <feat name="fPOS" value="CONJ++CC" upos="CONJ">1</feat><!-- and -->
+    <feat name="fPOS" value="DET++DT" upos="DET">232</feat><!-- a, the, no, an, Some, Three, both -->
+    <feat name="fPOS" value="NOUN++NN" upos="ADJ,ADV,NOUN,NUM,PROPN,VERB">313</feat><!-- woman, man, Someone, dancing, person, Nobody, animal, baby, guitar, Two -->
+    <feat name="fPOS" value="NOUN++NNS" upos="NOUN">86</feat><!-- eggs, men, women, onions, people, barbells, exercises, keyboards, noodles, pandas -->
+    <feat name="fPOS" value="NUM++CD" upos="NOUN,NUM,PART">14</feat><!-- Two, Three, not, one -->
+    <feat name="fPOS" value="PART++RB" upos="PART">18</feat><!-- not -->
+    <feat name="fPOS" value="PRON++EX" upos="PRON">26</feat><!-- There -->
+    <feat name="fPOS" value="PRON++PRP" upos="NOUN">2</feat><!-- herbs -->
+    <feat name="fPOS" value="PROPN++NNP" upos="PROPN">3</feat><!-- ATVs, Men, Somebody -->
+    <feat name="fPOS" value="PUNCT++." upos="NOUN">1</feat><!-- bamboo -->
+    <feat name="fPOS" value="VERB++VBG" upos="ADJ,VERB">152</feat><!-- playing, cutting, slicing, dancing, singing, cooking, doing, standing, beating, chopping -->
+    <feat name="fPOS" value="VERB++VBN" upos="ADJ,VERB">5</feat><!-- animated, bored, chopped, sharpened, sliced -->
+    <feat name="fPOS" value="VERB++VBP" upos="AUX,VERB">8</feat><!-- are -->
+    <feat name="fPOS" value="VERB++VBZ" upos="AUX,NOUN,VERB">101</feat><!-- is, potatoes, shrimps, tomatoes -->
+    <feat name="Mood" value="Ind" upos="AUX,NOUN,VERB">259</feat><!-- is, are, potatoes, shrimps, tomatoes -->
+    <feat name="Number" value="Plur" upos="NOUN">87</feat><!-- eggs, men, women, onions, people, barbells, exercises, keyboards, noodles, pandas -->
+    <feat name="Number" value="Sing" upos="ADJ,ADV,AUX,NOUN,NUM,PROPN,VERB">534</feat><!-- is, woman, man, Someone, dancing, person, Nobody, animal, baby, guitar -->
+    <feat name="NumType" value="Card" upos="NOUN,NUM,PART">14</feat><!-- Two, Three, not, one -->
+    <feat name="Person" value="2" upos="NOUN">1</feat><!-- herbs -->
+    <feat name="Person" value="3" upos="AUX,NOUN,VERB">218</feat><!-- is, potatoes, shrimps, tomatoes -->
+    <feat name="PronType" value="Art" upos="DET">200</feat><!-- a, the, an, Three -->
+    <feat name="PronType" value="Prs" upos="NOUN">1</feat><!-- herbs -->
+    <feat name="Reflex" value="Yes" upos="NOUN">1</feat><!-- herbs -->
+    <feat name="Tense" value="Past" upos="ADJ,VERB">5</feat><!-- animated, bored, chopped, sharpened, sliced -->
+    <feat name="Tense" value="Pres" upos="ADJ,AUX,NOUN,VERB">408</feat><!-- is, are, playing, cutting, slicing, dancing, cooking, doing, singing, standing -->
+    <feat name="VerbForm" value="Fin" upos="AUX,NOUN,VERB">259</feat><!-- is, are, potatoes, shrimps, tomatoes -->
+    <feat name="VerbForm" value="Ger" upos="AUX,VERB">7</feat><!-- being, frying, getting, ping, singing -->
+    <feat name="VerbForm" value="Part" upos="ADJ,VERB">154</feat><!-- playing, cutting, slicing, dancing, cooking, doing, singing, standing, beating, chopping -->
+    <feat name="Voice" value="Pass" upos="ADJ,VERB">4</feat><!-- bored, chopped, sharpened, sliced -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="23">
+    <dep name="acl">12</dep>
+    <dep name="advcl">2</dep>
+    <dep name="advmod">43</dep>
+    <dep name="amod">66</dep>
+    <dep name="aux">181</dep>
+    <dep name="auxpass">5</dep>
+    <dep name="case">1</dep>
+    <dep name="cc">1</dep>
+    <dep name="cc:preconj">1</dep>
+    <dep name="compound">14</dep>
+    <dep name="compound:prt">4</dep>
+    <dep name="conj:and">2</dep>
+    <dep name="cop">49</dep>
+    <dep name="det">207</dep>
+    <dep name="dobj">76</dep>
+    <dep name="expl">26</dep>
+    <dep name="neg">45</dep>
+    <dep name="nmod:npmod">1</dep>
+    <dep name="nsubj">251</dep>
+    <dep name="nsubjpass">5</dep>
+    <dep name="nummod">16</dep>
+    <dep name="root">257</dep>
+    <dep name="xcomp">20</dep>
+  </deps>
+</treebank>

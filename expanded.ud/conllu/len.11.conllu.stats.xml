@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>501</sentences><tokens>5511</tokens><words>5511</words><fused>0</fused></total>
+  </size>
+  <lemmas unique="723" /><!-- a, be, the, in, and, man, on, of, dog, with, woman, 2, by, play, boy -->
+  <forms unique="819" /><!-- a, is, the, in, and, are, man, on, of, dog, with, woman, by, two, playing -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
+  <tags unique="14">
+    <tag name="ADJ">340</tag><!-- white, black, young, little, yellow, green, red, blue, large, small -->
+    <tag name="ADP">725</tag><!-- in, on, of, with, by, into, through, at, for, to -->
+    <tag name="ADV">66</tag><!-- together, around, still, outside, down, only, pebbly, very, afghan, away -->
+    <tag name="AUX">494</tag><!-- be, do, like -->
+    <tag name="CONJ">140</tag><!-- and -->
+    <tag name="DET">1163</tag><!-- a, the, no, some, another, each, that, this -->
+    <tag name="NOUN">1691</tag><!-- man, dog, woman, boy, water, girl, person, people, grass, ball -->
+    <tag name="NUM">62</tag><!-- 2, 1, 3, one -->
+    <tag name="PART">54</tag><!-- not, to, 's, be -->
+    <tag name="PRON">76</tag><!-- there, his, its, that, her, who, which, hat, one, their -->
+    <tag name="PROPN">6</tag><!-- blue, asia, christmas, jockey, somebody -->
+    <tag name="PUNCT">14</tag><!-- ,, . -->
+    <tag name="SCONJ">2</tag><!-- for, in -->
+    <tag name="VERB">678</tag><!-- be, play, run, stand, wear, jump, ride, hold, sit, walk -->
+  </tags>
+  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
+  <feats unique="62">
+    <feat name="Case" value="Acc" upos="PRON">2</feat><!-- himself, them -->
+    <feat name="Case" value="Nom" upos="DET">2</feat><!-- A -->
+    <feat name="Definite" value="Def" upos="ADP,DET">308</feat><!-- the, Three -->
+    <feat name="Definite" value="Ind" upos="DET">792</feat><!-- a, an -->
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV,NOUN">6</feat><!-- rainbow, wet, breathlessly, erase -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADP,ADV,NOUN,VERB">355</feat><!-- white, black, little, young, brown, red, yellow, dirt, green, blue -->
+    <feat name="fPOS" value="ADJ++JJ" upos="ADJ,ADP,ADV,NOUN,VERB">354</feat><!-- white, black, little, young, brown, red, yellow, dirt, green, blue -->
+    <feat name="fPOS" value="ADJ++JJR" upos="ADJ,ADV,NOUN">6</feat><!-- rainbow, wet, breathlessly, erase -->
+    <feat name="fPOS" value="ADP++IN" upos="ADP,ADV,NOUN,SCONJ">710</feat><!-- in, on, of, with, by, into, through, at, for, to -->
+    <feat name="fPOS" value="ADP++RP" upos="ADP,ADV">8</feat><!-- out, up, down, off -->
+    <feat name="fPOS" value="ADV++RB" upos="ADJ,ADP,ADV,DET,NOUN,PRON,VERB">63</feat><!-- together, around, still, away, only, outside, pebbly, very, in, rhino -->
+    <feat name="fPOS" value="AUX++VBG" upos="AUX,VERB">43</feat><!-- being -->
+    <feat name="fPOS" value="AUX++VBP" upos="AUX,VERB">108</feat><!-- are -->
+    <feat name="fPOS" value="AUX++VBZ" upos="AUX,VERB">330</feat><!-- is, does -->
+    <feat name="fPOS" value="CONJ++CC" upos="CONJ">140</feat><!-- and -->
+    <feat name="fPOS" value="DET++DT" upos="ADP,DET,NOUN,NUM">1163</feat><!-- a, the, no, an, some, Three, another, each, One, This -->
+    <feat name="fPOS" value="NOUN++NN" upos="ADJ,ADP,ADV,NOUN,NUM,PRON,VERB">1459</feat><!-- man, dog, woman, boy, water, person, girl, grass, ball, beach -->
+    <feat name="fPOS" value="NOUN++NNS" upos="AUX,NOUN,NUM,VERB">231</feat><!-- people, men, dogs, boys, kids, pieces, women, eggs, children, games -->
+    <feat name="fPOS" value="NUM++CD" upos="ADJ,NOUN,NUM,PRON">58</feat><!-- two, one, three, hot -->
+    <feat name="fPOS" value="PART++POS" upos="PART">4</feat><!-- 's -->
+    <feat name="fPOS" value="PART++RB" upos="PART">46</feat><!-- not -->
+    <feat name="fPOS" value="PART++TO" upos="PART">4</feat><!-- to -->
+    <feat name="fPOS" value="PRON++EX" upos="PRON">32</feat><!-- there -->
+    <feat name="fPOS" value="PRON++PRP" upos="DET,PRON">4</feat><!-- A, himself, them -->
+    <feat name="fPOS" value="PRON++PRP$" upos="PRON">23</feat><!-- his, its, her, their -->
+    <feat name="fPOS" value="PRON++WDT" upos="DET,NOUN,PRON">15</feat><!-- hat, that, which -->
+    <feat name="fPOS" value="PRON++WP" upos="PRON">4</feat><!-- who -->
+    <feat name="fPOS" value="PROPN++NNP" upos="ADJ,NOUN,PROPN">18</feat><!-- beach, blue, Christmas, dark, Asia, Frisbee, Jockeys, Somebody, past, rope -->
+    <feat name="fPOS" value="PUNCT++," upos="PUNCT">12</feat><!-- , -->
+    <feat name="fPOS" value="PUNCT++." upos="PUNCT">2</feat><!-- . -->
+    <feat name="fPOS" value="SCONJ++IN" upos="ADP,SCONJ">3</feat><!-- in, through, with -->
+    <feat name="fPOS" value="VERB++VB" upos="ADJ,ADP,NOUN,VERB">10</feat><!-- past, alongside, away, blue, catch, contain, fire, marry, perform -->
+    <feat name="fPOS" value="VERB++VBD" upos="ADJ,VERB">4</feat><!-- red, cramped -->
+    <feat name="fPOS" value="VERB++VBG" upos="ADJ,NOUN,VERB">487</feat><!-- playing, running, standing, wearing, jumping, riding, sitting, walking, holding, looking -->
+    <feat name="fPOS" value="VERB++VBN" upos="ADJ,ADP,ADV,NOUN,VERB">64</feat><!-- covered, down, chased, darkened, dressed, mixed, performed, played, poured, pushed -->
+    <feat name="fPOS" value="VERB++VBP" upos="AUX,VERB">16</feat><!-- are, Five -->
+    <feat name="fPOS" value="VERB++VBZ" upos="AUX,VERB">90</feat><!-- is, has, rescues -->
+    <feat name="Gender" value="Fem" upos="PRON">4</feat><!-- her -->
+    <feat name="Gender" value="Masc" upos="PRON">10</feat><!-- his -->
+    <feat name="Gender" value="Neut" upos="PRON">7</feat><!-- its -->
+    <feat name="Mood" value="Imp" upos="ADP">1</feat><!-- away -->
+    <feat name="Mood" value="Ind" upos="ADJ,AUX,VERB">548</feat><!-- is, are, has, red, Five, cramped, does, rescues -->
+    <feat name="Number" value="Plur" upos="AUX,NOUN,NUM,PRON,VERB">234</feat><!-- people, men, dogs, boys, kids, pieces, women, eggs, children, games -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">1922</feat><!-- is, man, dog, woman, water, boy, person, girl, grass, ball -->
+    <feat name="NumType" value="Card" upos="ADJ,NOUN,NUM,PRON">58</feat><!-- two, one, three, hot -->
+    <feat name="NumType" value="Mult" upos="ADP">1</feat><!-- outside -->
+    <feat name="Person" value="1" upos="DET,PRON">3</feat><!-- A, himself -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB">444</feat><!-- is, his, its, has, her, their, does, rescues, them -->
+    <feat name="Poss" value="Yes" upos="PRON">23</feat><!-- his, its, her, their -->
+    <feat name="PronType" value="Art" upos="ADP,DET">1100</feat><!-- a, the, an, Three -->
+    <feat name="PronType" value="Dem" upos="DET">1</feat><!-- This -->
+    <feat name="PronType" value="Int" upos="PRON">2</feat><!-- which, who -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">27</feat><!-- his, its, her, A, their, himself, them -->
+    <feat name="PronType" value="Rel" upos="DET,NOUN,PRON">17</feat><!-- hat, that, who, which -->
+    <feat name="Reflex" value="Yes" upos="PRON">1</feat><!-- himself -->
+    <feat name="Tense" value="Past" upos="ADJ,ADP,ADV,NOUN,VERB">68</feat><!-- red, covered, down, chased, darkened, dressed, mixed, performed, played, poured -->
+    <feat name="Tense" value="Pres" upos="ADJ,AUX,NOUN,VERB">896</feat><!-- is, are, running, standing, playing, jumping, wearing, riding, sitting, looking -->
+    <feat name="VerbForm" value="Fin" upos="ADJ,ADP,AUX,VERB">549</feat><!-- is, are, has, red, Five, away, cramped, does, rescues -->
+    <feat name="VerbForm" value="Ger" upos="ADJ,AUX,NOUN,VERB">178</feat><!-- being, playing, holding, walking, wearing, carrying, jumping, chasing, climbing, riding -->
+    <feat name="VerbForm" value="Inf" upos="ADJ,ADP,NOUN,VERB">9</feat><!-- past, alongside, blue, catch, contain, fire, marry, perform -->
+    <feat name="VerbForm" value="Part" upos="ADJ,ADP,ADV,NOUN,VERB">416</feat><!-- running, standing, playing, jumping, wearing, riding, sitting, looking, walking, holding -->
+    <feat name="Voice" value="Pass" upos="ADJ,ADV,VERB">45</feat><!-- chased, down, mixed, performed, played, poured, pushed, sliced, surrounded, watched -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="28">
+    <dep name="ROOT">501</dep>
+    <dep name="acl">55</dep>
+    <dep name="acl:relcl">16</dep>
+    <dep name="advcl">10</dep>
+    <dep name="advmod">64</dep>
+    <dep name="amod">338</dep>
+    <dep name="aux">451</dep>
+    <dep name="auxpass">44</dep>
+    <dep name="case">714</dep>
+    <dep name="cc">140</dep>
+    <dep name="ccomp">1</dep>
+    <dep name="compound">156</dep>
+    <dep name="compound:prt">12</dep>
+    <dep name="conj">144</dep>
+    <dep name="cop">52</dep>
+    <dep name="det">1131</dep>
+    <dep name="dobj">236</dep>
+    <dep name="expl">32</dep>
+    <dep name="mark">6</dep>
+    <dep name="neg">80</dep>
+    <dep name="nmod">683</dep>
+    <dep name="nmod:npmod">3</dep>
+    <dep name="nmod:poss">27</dep>
+    <dep name="nsubj">483</dep>
+    <dep name="nsubjpass">44</dep>
+    <dep name="nummod">64</dep>
+    <dep name="punct">15</dep>
+    <dep name="xcomp">9</dep>
+  </deps>
+</treebank>

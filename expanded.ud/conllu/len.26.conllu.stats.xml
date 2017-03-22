@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>2</sentences><tokens>52</tokens><words>52</words><fused>0</fused></total>
+  </size>
+  <lemmas unique="30" /><!-- a, and, in, be, the, black, boy, man, shirt, short, sunglass, water, 1, 4, at -->
+  <forms unique="31" /><!-- a, and, in, the, black, boy, is, man, shirt, shorts, sunglasses, water, One, are, at -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
+  <tags unique="8">
+    <tag name="ADJ">5</tag><!-- black, orange, other, white -->
+    <tag name="ADP">9</tag><!-- in, at, into, on, over, with -->
+    <tag name="AUX">3</tag><!-- be -->
+    <tag name="CONJ">4</tag><!-- and -->
+    <tag name="DET">9</tag><!-- a, the -->
+    <tag name="NOUN">17</tag><!-- boy, man, shirt, short, sunglass, water, beer, bottle, cliff, rock -->
+    <tag name="NUM">2</tag><!-- 1, 4 -->
+    <tag name="VERB">3</tag><!-- dive, sit, stand -->
+  </tags>
+  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
+  <feats unique="22">
+    <feat name="Definite" value="Def" upos="DET">3</feat><!-- the -->
+    <feat name="Definite" value="Ind" upos="DET">6</feat><!-- a -->
+    <feat name="Degree" value="Pos" upos="ADJ,NOUN">6</feat><!-- black, orange, other, table, white -->
+    <feat name="fPOS" value="ADJ++JJ" upos="ADJ,NOUN">6</feat><!-- black, orange, other, table, white -->
+    <feat name="fPOS" value="ADP++IN" upos="ADP">9</feat><!-- in, at, into, on, over, with -->
+    <feat name="fPOS" value="AUX++VBP" upos="AUX">1</feat><!-- are -->
+    <feat name="fPOS" value="AUX++VBZ" upos="AUX">2</feat><!-- is -->
+    <feat name="fPOS" value="CONJ++CC" upos="CONJ">4</feat><!-- and -->
+    <feat name="fPOS" value="DET++DT" upos="DET">9</feat><!-- a, the -->
+    <feat name="fPOS" value="NOUN++NN" upos="NOUN">11</feat><!-- boy, man, shirt, water, beer, cliff, rock -->
+    <feat name="fPOS" value="NOUN++NNS" upos="NOUN">5</feat><!-- shorts, sunglasses, bottles -->
+    <feat name="fPOS" value="NUM++CD" upos="NUM">2</feat><!-- One, four -->
+    <feat name="fPOS" value="VERB++VBG" upos="VERB">3</feat><!-- diving, sitting, standing -->
+    <feat name="Mood" value="Ind" upos="AUX">3</feat><!-- is, are -->
+    <feat name="Number" value="Plur" upos="NOUN">5</feat><!-- shorts, sunglasses, bottles -->
+    <feat name="Number" value="Sing" upos="AUX,NOUN">13</feat><!-- boy, is, man, shirt, water, beer, cliff, rock -->
+    <feat name="NumType" value="Card" upos="NUM">2</feat><!-- One, four -->
+    <feat name="Person" value="3" upos="AUX">2</feat><!-- is -->
+    <feat name="PronType" value="Art" upos="DET">9</feat><!-- a, the -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">6</feat><!-- is, are, diving, sitting, standing -->
+    <feat name="VerbForm" value="Fin" upos="AUX">3</feat><!-- is, are -->
+    <feat name="VerbForm" value="Part" upos="VERB">3</feat><!-- diving, sitting, standing -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="11">
+    <dep name="ROOT">2</dep>
+    <dep name="amod">5</dep>
+    <dep name="aux">3</dep>
+    <dep name="case">9</dep>
+    <dep name="cc">4</dep>
+    <dep name="compound">2</dep>
+    <dep name="conj">4</dep>
+    <dep name="det">9</dep>
+    <dep name="nmod">9</dep>
+    <dep name="nsubj">3</dep>
+    <dep name="nummod">2</dep>
+  </deps>
+</treebank>

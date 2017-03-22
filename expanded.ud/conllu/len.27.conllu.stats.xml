@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>3</sentences><tokens>81</tokens><words>81</words><fused>0</fused></total>
+  </size>
+  <lemmas unique="44" /><!-- a, and, be, in, the, shirt, ,, at, black, girl, man, short, sunglass, water, 1 -->
+  <forms unique="46" /><!-- a, and, in, is, the, shirt, ,, at, black, girl, man, shorts, sunglasses, water, One -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
+  <tags unique="11">
+    <tag name="ADJ">7</tag><!-- black, long, orange, other, red, white -->
+    <tag name="ADP">15</tag><!-- in, at, front, into, of, off, on, over, with -->
+    <tag name="ADV">1</tag><!-- suspiciously -->
+    <tag name="AUX">4</tag><!-- be -->
+    <tag name="CONJ">6</tag><!-- and -->
+    <tag name="DET">14</tag><!-- a, the -->
+    <tag name="NOUN">23</tag><!-- shirt, girl, man, short, sunglass, water, beer, blue, bottle, boy -->
+    <tag name="NUM">2</tag><!-- 1, 4 -->
+    <tag name="PRON">1</tag><!-- which -->
+    <tag name="PUNCT">2</tag><!-- , -->
+    <tag name="VERB">6</tag><!-- be, jump, raise, sit, stand -->
+  </tags>
+  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
+  <feats unique="29">
+    <feat name="Definite" value="Def" upos="DET">4</feat><!-- the -->
+    <feat name="Definite" value="Ind" upos="DET">10</feat><!-- a, an -->
+    <feat name="Degree" value="Pos" upos="ADJ,NOUN">8</feat><!-- black, long, orange, other, red, table, white -->
+    <feat name="fPOS" value="ADJ++JJ" upos="ADJ,NOUN">8</feat><!-- black, long, orange, other, red, table, white -->
+    <feat name="fPOS" value="ADP++IN" upos="ADP">13</feat><!-- in, at, front, into, of, on, over, with -->
+    <feat name="fPOS" value="ADP++RP" upos="ADP">1</feat><!-- off -->
+    <feat name="fPOS" value="ADV++RB" upos="ADP,ADV">2</feat><!-- in, suspiciously -->
+    <feat name="fPOS" value="AUX++VBP" upos="AUX">1</feat><!-- are -->
+    <feat name="fPOS" value="AUX++VBZ" upos="AUX">3</feat><!-- is -->
+    <feat name="fPOS" value="CONJ++CC" upos="CONJ">6</feat><!-- and -->
+    <feat name="fPOS" value="DET++DT" upos="DET">14</feat><!-- a, the, an -->
+    <feat name="fPOS" value="NOUN++NN" upos="NOUN">17</feat><!-- shirt, girl, man, water, beer, blue, boy, camera, cliff, eyebrow -->
+    <feat name="fPOS" value="NOUN++NNS" upos="NOUN">5</feat><!-- shorts, sunglasses, bottles -->
+    <feat name="fPOS" value="NUM++CD" upos="NUM">2</feat><!-- One, four -->
+    <feat name="fPOS" value="PRON++WDT" upos="PRON">1</feat><!-- which -->
+    <feat name="fPOS" value="PUNCT++," upos="PUNCT">2</feat><!-- , -->
+    <feat name="fPOS" value="VERB++VBG" upos="VERB">4</feat><!-- jumping, raising, sitting, standing -->
+    <feat name="fPOS" value="VERB++VBZ" upos="VERB">2</feat><!-- is -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">6</feat><!-- is, are -->
+    <feat name="Number" value="Plur" upos="NOUN">5</feat><!-- shorts, sunglasses, bottles -->
+    <feat name="Number" value="Sing" upos="AUX,NOUN,VERB">22</feat><!-- is, shirt, girl, man, water, beer, blue, boy, camera, cliff -->
+    <feat name="NumType" value="Card" upos="NUM">2</feat><!-- One, four -->
+    <feat name="Person" value="3" upos="AUX,VERB">5</feat><!-- is -->
+    <feat name="PronType" value="Art" upos="DET">14</feat><!-- a, the, an -->
+    <feat name="PronType" value="Rel" upos="PRON">1</feat><!-- which -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">9</feat><!-- is, are, jumping, sitting, standing -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">6</feat><!-- is, are -->
+    <feat name="VerbForm" value="Ger" upos="VERB">1</feat><!-- raising -->
+    <feat name="VerbForm" value="Part" upos="VERB">3</feat><!-- jumping, sitting, standing -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="17">
+    <dep name="ROOT">3</dep>
+    <dep name="acl:relcl">1</dep>
+    <dep name="advmod">2</dep>
+    <dep name="amod">5</dep>
+    <dep name="aux">3</dep>
+    <dep name="auxpass">1</dep>
+    <dep name="case">14</dep>
+    <dep name="cc">6</dep>
+    <dep name="compound">2</dep>
+    <dep name="conj">6</dep>
+    <dep name="cop">2</dep>
+    <dep name="det">14</dep>
+    <dep name="dobj">1</dep>
+    <dep name="nmod">12</dep>
+    <dep name="nsubj">5</dep>
+    <dep name="nummod">2</dep>
+    <dep name="punct">2</dep>
+  </deps>
+</treebank>
