@@ -1,4 +1,6 @@
 
+Selecting only the manually edited translations:
+
 #+BEGIN_SRC lisp :results table :cache yes
   (defparameter *dados* (with-open-file (in "sentences-4.lisp")
 			  (list (read in) (read in))))
