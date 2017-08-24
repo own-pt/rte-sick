@@ -1,0 +1,69 @@
+
+#+BEGIN_SRC lisp :results table :cache yes
+  (defparameter *dados* (with-open-file (in "sentences-4.lisp")
+			  (list (read in) (read in))))
+
+  (mapcar (lambda (n) (subseq n 0 3))
+	  (remove-if-not (lambda (n) (null (nth 3 n)))
+			 (loop for p1 in (car  *dados*)
+			       for p2 in (cadr *dados*)
+			       collect (list (car p1) (cadr p2) (cadr p1)
+					     (equal (cadr p1) (cadr p2))))))
+
+  ; (format t "~{~{~a~% O: ~a~% E: ~a ~a~% ~}~^~% ~}" *)
+#+END_SRC
+
+#+RESULTS[8154edd1a7bcf8b71d2dacbc23285ea1cdf970aa]:
+| A man is running.               | Um homem está em execução.       | Um homem está correndo.                     |
+| A man is mixing.                | Um homem é mistura.              | Um homem está misturando.                   |
+| Some kittens are hungry.        | Alguns filhotes estão famintos.  | Alguns gatinhos estão famintos.             |
+| The lady is dancing.            | Ela está dançando.               | A mulher está dançando.                     |
+| Two children are playing.       | Duas crianças estão jogando.     | Duas crianças estão brincando.              |
+| Some cheerleaders are relaxing. | Alguns líderes estão relaxando.  | Algumas líderes de torcida estão relaxando. |
+| Men are sawing logs.            | Homens são serrando logs.        | Homens são serrando troncos.                |
+| The man is fasting.             | O homem está em jejum.           | O homem está jejuando.                      |
+| Women are sawing logs.          | As mulheres estão serrando logs. | As mulheres estão serrando troncos.         |
+| Two men are boxing.             | Dois homens estão lutando.       | Dois homens estão lutando boxe.             |
+| The speaker likes parrots.      | O presidente gosta de papagaios. | O porta-voz gosta de papagaios.             |
+| A woman is exercising.          | Uma mulher está exercendo.       | Uma mulher está fazendo exercício.          |
+| Some cheerleaders are dancing.  | Alguns líderes estão dançando.   | Algumas líderes de torcida estão dançando.  |
+| A man is exercising.            | Um homem está exercendo.         | Um homem está fazendo exercício.            |
+| The woman is eating.            | Ela está comendo.                | A mulher está comendo.                      |
+| A girl is awakening.            | Uma garota é despertar.          | Uma garota está acordando.                  |
+| A biker is naked.               | Um motociclista está nua.        | Um motociclista está nu.                    |
+| Some men are idling.            | Alguns homens são inativo.       | Alguns homens estão inativos.               |
+| The woman is waterskiing.       | A mulher é esqui.                | A mulher está esquiando.                    |
+| A person is exercising.         | Uma pessoa é exercício.          | Uma pessoa está fazendo exercício.          |
+| Two cubs are playing.           | Dois filhotes estão jogando.     | Dois filhotes estão brincando.              |
+| A man is racing.                | Um homem está acelerado.         | Um homem está correndo.                     |
+| A man is spitting.              | Um homem é cuspir.               | Um homem está cuspindo.                     |
+| The man is exercising.          | O homem está exercendo.          | O homem está fazendo exercício.             |
+| A man is silent.                | Um homem é mudo.                 | Um homem está silencioso.                   |
+| The person is writing.          | A pessoa está gravando.          | A pessoa está escrevendo.                   |
+| A person is spitting.           | Uma pessoa é cuspir.             | Uma pessoa está cuspindo.                   |
+| A horse is running.             | Um cavalo está em execução.      | Um cavalo está correndo.                    |
+| A dog is running.               | Um cão está em execução.         | Um cão está correndo.                       |
+| The girl is exercising.         | Ela está exercendo.              | Ela está fazendo exercício.                 |
+| The men are talking.            | Os homens estão falando.         | Os homens estão conversando.                |
+| A girl is exercising.           | Uma garota está exercendo.       | Uma garota está fazendo exercício.          |
+| A person is writing.            | Uma pessoa está gravando.        | Uma pessoa está escrevendo.                 |
+| The man is painting.            | Ele está pintando.               | O homem está pintando.                      |
+| Two women are talking.          | Duas mulheres estão falando.     | Duas mulheres estão conversando.            |
+| The man is drawing.             | Ele está desenhando.             | O homem está desenhando.                    |
+| Two men are talking.            | Dois homens estão falando.       | Dois homens estão conversando.              |
+| A horse is racing.              | Um cavalo está acelerado.        | Um cavalo está correndo.                    |
+| Two people are talking.         | Duas pessoas estão falando.      | Duas pessoas estão conversando.             |
+| The child is silent.            | A criança é mudo.                | A criança está silenciosa.                  |
+
+
+** Comentários
+
+1. em ingles talk=falar com complemento ou sem, em PT com complemento
+   a gente diz falar, sem complemento a gente usa "conversar".
+
+2. em EN "run" serve pra correr/executar, em PT a gente so executa
+   programa, pessoas, gatos, etc estao correndo.
+
+3. battle=fight=lutar em OpenWN-PT, a inferencia do SICK é feita pela
+   tradução, os dois já acabam no mesmo lugar.
+
