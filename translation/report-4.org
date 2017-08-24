@@ -4,14 +4,15 @@
 			  (list (read in) (read in))))
 
   (mapcar (lambda (n) (subseq n 0 3))
-	  (remove-if-not (lambda (n) (null (nth 3 n)))
-			 (loop for p1 in (car  *dados*)
-			       for p2 in (cadr *dados*)
-			       collect (list (car p1) (cadr p2) (cadr p1)
-					     (equal (cadr p1) (cadr p2))))))
+	  (remove-if (lambda (n) (nth 3 n))
+		     (loop for p1 in (car  *dados*)
+			   for p2 in (cadr *dados*)
+			   collect (list (car p1) (cadr p2) (cadr p1)
+					 (equal (cadr p1) (cadr p2))))))
+	
 #+END_SRC
 
-#+RESULTS[8154edd1a7bcf8b71d2dacbc23285ea1cdf970aa]:
+#+RESULTS[d12a4d54b38391ec0f85f11137d3f264856e60a4]:
 | A man is running.               | Um homem está em execução.       | Um homem está correndo.                     |
 | A man is mixing.                | Um homem é mistura.              | Um homem está misturando.                   |
 | Some kittens are hungry.        | Alguns filhotes estão famintos.  | Alguns gatinhos estão famintos.             |
