@@ -9,8 +9,6 @@
 			       for p2 in (cadr *dados*)
 			       collect (list (car p1) (cadr p2) (cadr p1)
 					     (equal (cadr p1) (cadr p2))))))
-
-  ; (format t "~{~{~a~% O: ~a~% E: ~a ~a~% ~}~^~% ~}" *)
 #+END_SRC
 
 #+RESULTS[8154edd1a7bcf8b71d2dacbc23285ea1cdf970aa]:

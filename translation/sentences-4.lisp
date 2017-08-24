@@ -1,3 +1,4 @@
+;; edited
 (("Some men are fighting." "Alguns homens estão lutando." t)
  ("A man is thinking." "Um homem está pensando." t)
  ("Some men are sawing." "Alguns homens estão serrando." t)
@@ -128,7 +129,7 @@
  ("A jet is flying." "Um avião está voando." t)
  ("The child is silent." "A criança está silenciosa." nil))
 
-
+;; original
 (("Some men are fighting." "Alguns homens estão lutando.")
  ("A man is thinking." "Um homem está pensando.")
  ("Some men are sawing." "Alguns homens estão serrando.")
