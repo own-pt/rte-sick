@@ -1,0 +1,378 @@
+#+Title: Data Processing SICK+ERG
+#+Author: Alexandre Rademaker
+
+* Fixing data with spreadsheet corrections 
+
+#+begin_src lisp
+  (defparameter *fixes* (make-hash-table :test #'equal))
+
+  (defmacro with-open-files (args &body body)
+    (case (length args)
+      ((0)
+       `(progn ,@body))
+      ((1)
+       `(with-open-file ,(first args) ,@body))
+      (t `(with-open-file ,(first args)
+	    (with-open-files
+		,(rest args) ,@body)))))
+
+  (defun tr (string)
+    (string-trim '(#\Space #\Tab) string))
+
+  (with-open-file (in "ungrammatical.txt")
+    (loop for line = (read-line in nil nil)
+	  while line
+	  do (let ((data (cl-ppcre:split "\\t" line)))
+	       (if (gethash (car data) *fixes*)
+		   (error "already presented")
+		   (if (and (> (length data) 1) (not (equal "" (nth 1 data))))
+		       (setf (gethash (car data) *fixes*)
+			     (tr (nth 1 data))))))))
+
+  (with-open-files ((in  "expanded.txt")
+		    (out "expanded-fixed.txt" :direction :output :if-exists :supersede))
+    (loop for line = (read-line in nil nil)
+	  while line
+	  do (write-line (or (gethash (tr line) *fixes*) (tr line)) out)))
+#+end_src
+
+* treebanking
+
+Produzing the jsonlines file from the txt file. 
+
+: python3 parsing.py expanded-fixed.txt expanded-fixed.jl
+
+This is an alternative to:
+
+: ~/hpsg/ace/ace -g ~/hpsg/ace/erg.dat -1Tf --timeout=60 --max-words=150 --rooted-derivations --udx --disable-generalization expanded.txt > expanded.erg 2> expanded.log
+
+ff (old ERG)
+
+#+begin_src shell
+~/hpsg/art-0.1.9/mkprof -r ~/hpsg/logon/lingo/erg/tsdb/gold/mrs/relations -i expanded-fixed.txt sick-ff
+~/hpsg/art-0.1.9/art -a "~/hpsg/ace-0.9.19/ace -g ~/hpsg/ace-0.9.19/erg.dat -O --disable-generalization" -f sick-ff
+#+end_src
+
+top-500 (current ERG, not compatible with LKB?)
+
+#+begin_src shell
+~/hpsg/art-0.1.9/mkprof -r ~/hpsg/logon/lingo/erg/tsdb/gold/mrs/relations -i expanded-fixed.txt sick-500
+~/hpsg/art-0.1.9/art -a "~/hpsg/ace/ace -g ~/hpsg/ace/erg.dat -n 500 --timeout=60 --max-words=200 --max-chart-megabytes=4000 --max-unpack-megabytes=5000 --rooted-derivations --udx --disable-generalization" sick-500
+#+end_src
+* Statistics
+
+** Sentences
+
+The goal is to produce a visual indication of the covarage, that is
+why I am using the zeros and ones.
+
+#+begin_src lisp :results raw
+  (defun stat-sentence (json-string)
+    (let ((data (yason:parse json-string)))
+      (if (gethash "parsed" data) 1 0)))
+
+  (defun summarize-sentences (filename)
+    (with-open-file (in filename)
+      (let* ((dado (loop for line = (read-line in nil nil)
+		      while line
+		      collect (stat-sentence line)))
+	     (sum (apply #'+ dado))
+	     (len (length dado))
+	     (per (/ (* 1.0 sum) len)))
+	(list sum len per))))
+
+  (summarize-sentences #P"expanded-fixed.jl")
+#+end_src
+
+#+RESULTS:
+(6050 6076 0.99572086)
+
+We still have 26 sentences that were not parsed:
+
+#+begin_src lisp :results list
+  (ql:quickload :alexandria)
+
+  (defun read-jl (filename)
+    (with-open-file (in filename)
+      (loop for line = (read-line in nil nil)
+	    while line
+	    collect (yason:parse line))))
+
+  (mapcar (lambda (tb) (gethash "sent" tb))
+	  (remove-if (lambda (tb) (gethash "parsed" tb))
+		     (read-jl #P"expanded-fixed.jl")))
+#+end_src
+
+#+RESULTS:
+- A daughter is being pushed by her father on a go-kart and another girl is watching
+- A father is pulling his daughter on a go-kart and another girl is looking away
+- A father is pushing his daughter on a go-kart and another girl is watching
+- A girl is pushing a go-kart and a daughter is watching her father
+- A hole is being burrowed by the badger
+- A hurdle is being leapt by a horse that has a rider on its back
+- A man is drawing on a digital dry erase board
+- A man is not drawing on a digital dry erase board
+- A man is packing away the guitar
+- A nearby throng of people are kissing two by two
+- A person is jotting something with a pencil
+- A policeman is getting off of a motorcycle
+- A prey is quickly running behind the cheetah
+- A topless woman is being smeared with a brown substance and a blurry crowd is in the background
+- A topless woman is being smeared with a brown substance and nobody is in the background
+- A woman is being smeared with brown substance and a blurry crowd is in the background
+- A yellow flower is being clung to by a bee
+- An woman that is old is shaking hands with a man
+- The ball is being dunked by a man with a jersey at a basketball game
+- The boy in blue shirt is looking at his hand near the stack of blocks on table
+- The lady is penciling on eyeshadow
+- The orange colored dices are being cast by a cook to win the pepper
+- The players is maneuvering for the soccer ball
+- The woman is not penciling on eyeshadow
+- The woman is penciling on eyeshadow
+- Two men are looking out and one is holding a spyglass
+
+* Predicates
+
+#+begin_src lisp :results raw
+  (defun print-preds (json-string stream)
+    (let ((data (yason:parse json-string)))
+      (if (gethash "parsed" data)
+	  (mapcar (lambda (pred)
+		    (format stream "~a ~a ~a~%" (gethash "form" pred) (gethash "lemma" pred) (gethash "pos" pred)))
+		  (gethash "preds" data)))))
+
+
+  (defun words (filename outfile)
+    (with-open-file (out outfile :direction :output :if-exists :supersede)
+      (with-open-file (in filename)
+	(loop for line = (read-line in nil nil)
+	      while line
+	      do (print-preds line out))
+	(values))))
+
+  (words #P"expanded-fixed.jl" #P"predicates.out")
+#+end_src
+
+#+RESULTS:
+
+#+begin_src shell :results table
+awk '{print $3}' predicates.out | sort | uniq -c 
+#+end_src
+
+#+RESULTS:
+|  3899 | NIL |
+|  3894 | a   |
+|  1422 | c   |
+| 16631 | n   |
+|  5766 | p   |
+| 18502 | q   |
+|   624 | u   |
+|  8035 | v   |
+|    61 | x   |
+
+#+begin_src sh :results table
+sort predicates.out | uniq -c  | sort -nr | head -200
+#+end_src
+
+#+RESULTS:
+| 8397 | _a_q                 | a           | q   |
+| 4752 | udef_q               | NIL         | q   |
+| 3312 | _the_q               | the         | q   |
+| 1736 | _man_n_1             | man         | n   |
+| 1414 | _and_c               | and         | c   |
+| 1215 | compound             | NIL         | NIL |
+|  933 | _woman_n_1           | woman       | n   |
+|  884 | _dog_n_1             | dog         | n   |
+|  741 | _on_p_state          | on          | p   |
+|  719 | _in_p_state          | in          | p   |
+|  690 | _play_v_1            | play        | v   |
+|  674 | _in_p_loc            | in          | p   |
+|  667 | _with_p              | with        | p   |
+|  610 | _no_q                | no          | q   |
+|  538 | _be_v_there          | be          | v   |
+|  476 | card                 | 2           | NIL |
+|  432 | neg                  | NIL         | NIL |
+|  420 | pronoun_q            | NIL         | q   |
+|  416 | _boy_n_1             | boy         | n   |
+|  398 | _person_n_1          | person      | n   |
+|  378 | _on_p_loc            | on          | p   |
+|  372 | _girl_n_1            | girl        | n   |
+|  371 | pron                 | NIL         | NIL |
+|  362 | _some_q              | some        | q   |
+|  357 | _stand_v_1           | stand       | v   |
+|  334 | _white_a_1           | white       | a   |
+|  332 | _black_a_1           | black       | a   |
+|  321 | _wear_v_1            | wear        | v   |
+|  311 | poss                 | NIL         | NIL |
+|  311 | def_explicit_q       | NIL         | q   |
+|  310 | _of_p                | of          | p   |
+|  305 | _people_n_of         | people      | n   |
+|  285 | _water_n_1           | water       | n   |
+|  269 | _run_v_1             | run         | v   |
+|  266 | _sit_v_1             | sit         | v   |
+|  265 | _ride_v_1            | ride        | v   |
+|  250 | _child_n_1           | child       | n   |
+|  249 | _jump_v_1            | jump        | v   |
+|  229 | _young_a_1           | young       | a   |
+|  229 | _brown_a_1           | brown       | a   |
+|  225 | _walk_v_1            | walk        | v   |
+|  224 | nominalization       | NIL         | NIL |
+|  201 | _ball_n_of           | ball        | n   |
+|  190 | _grass_n_1           | grass       | n   |
+|  185 | _red_a_1             | red         | a   |
+|  184 | _at_p_loc            | at          | p   |
+|  179 | _blue_a_1            | blue        | a   |
+|  172 | _guitar_n_1          | guitar      | n   |
+|  153 | _slice_v_1           | slice       | v   |
+|  145 | person               | NIL         | NIL |
+|  143 | _shirt_n_1           | shirt       | n   |
+|  137 | _bike_n_1            | bike        | n   |
+|  136 | card                 | 1           | NIL |
+|  136 | _little_a_1          | little      | a   |
+|  130 | _green_a_2           | green       | a   |
+|  128 | _cut_v_1             | cut         | v   |
+|  127 | _small_a_1           | small       | a   |
+|  126 | _hold_v_1            | hold        | v   |
+|  123 | _group_n_of          | group       | n   |
+|  121 | _cat_n_1             | cat         | n   |
+|  119 | def_implicit_q       | NIL         | q   |
+|  117 | _dance_v_1           | dance       | v   |
+|  115 | _for_p               | for         | p   |
+|  110 | _kid_n_1             | kid         | n   |
+|  105 | _yellow_a_1          | yellow      | a   |
+|  104 | place_n              | NIL         | n   |
+|  104 | loc_nonsp            | NIL         | NIL |
+|  104 | _snow_n_1            | snow        | n   |
+|  104 | _horse_n_1           | horse       | n   |
+|  102 | _car_n_1             | car         | n   |
+|  101 | _into_p_state        | into        | p   |
+|  101 | _by_p_state          | by          | p   |
+|  100 | _through_p_dir       | through     | p   |
+|  100 | _large_a_1           | large       | a   |
+|   99 | _eat_v_1             | eat         | v   |
+|   98 | _in+front+of_p_state | in+front+of | p   |
+|   94 | card                 | 3           | NIL |
+|   94 | _beach_n_1           | beach       | n   |
+|   93 | _hat_n_1             | hat         | n   |
+|   91 | _field_n_of          | field       | n   |
+|   89 | _from_p_state        | from        | p   |
+|   87 | _near_p_state        | near        | p   |
+|   85 | _rock_n_1            | rock        | n   |
+|   84 | _climb_v_1           | climb       | v   |
+|   83 | _camera_n_1          | camera      | n   |
+|   82 | proper_q             | NIL         | q   |
+|   81 | _air_n_1             | air         | n   |
+|   80 | _do_v_1              | do          | v   |
+|   78 | _look_v_at           | look        | v   |
+|   77 | _tree_n_of           | tree        | n   |
+|   76 | _down_p_state        | down        | p   |
+|   76 | _bowl_n_1            | bowl        | n   |
+|   75 | _player_n_of         | player      | n   |
+|   73 | _lady_n_1            | lady        | n   |
+|   72 | _street_n_1          | street      | n   |
+|   72 | _into_p              | into        | p   |
+|   71 | _toy_n_1             | toy         | n   |
+|   71 | _potato_n_1          | potato      | n   |
+|   70 | _wall_n_of           | wall        | n   |
+|   69 | _soccer_n_1          | soccer      | n   |
+|   69 | _piece_n_of-2        | piece       | n   |
+|   69 | _another_q           | another     | q   |
+|   68 | _road_n_1            | road        | n   |
+|   68 | _onion_n_1           | onion       | n   |
+|   67 | _egg_n_1             | egg         | n   |
+|   64 | _lie_v_2             | lie         | v   |
+|   64 | _hand_n_1            | hand        | n   |
+|   64 | _dirt_n_1            | dirt        | n   |
+|   63 | _mouth_n_1           | mouth       | n   |
+|   63 | _animal_n_1          | animal      | n   |
+|   61 | _park_n_1            | park        | n   |
+|   61 | _motorcycle_n_1      | motorcycle  | n   |
+|   60 | _into_p_dir          | into        | p   |
+|   60 | _baby_n_1            | baby        | n   |
+|   59 | _talk_v_about        | talk        | v   |
+|   59 | _have_v_1            | have        | v   |
+|   58 | _over_p_state        | over        | p   |
+|   58 | _bicycle_n_1         | bicycle     | n   |
+|   57 | _perform_v_1         | perform     | v   |
+|   57 | _hair_n_1            | hair        | n   |
+|   57 | _be_v_id             | be          | v   |
+|   56 | generic_entity       | NIL         | NIL |
+|   56 | _through_p_state     | through     | p   |
+|   56 | _rope_n_1            | rope        | n   |
+|   55 | _trick_n_1           | trick       | n   |
+|   55 | _piano_n_1           | piano       | n   |
+|   55 | _jacket_n_1          | jacket      | n   |
+|   53 | _pink_a_1            | pink        | a   |
+|   53 | _big_a_1             | big         | a   |
+|   52 | _watch_v_1           | watch       | v   |
+|   52 | _swim_v_1            | swim        | v   |
+|   51 | _outside_p           | outside     | p   |
+|   51 | _flute_n_1           | flute       | n   |
+|   51 | _coat_n_of           | coat        | n   |
+|   51 | _carry_v_1           | carry       | v   |
+|   50 | _pool_n_of           | pool        | n   |
+|   49 | implicit_conj        | NIL         | NIL |
+|   48 | _sand_n_1            | sand        | n   |
+|   48 | _football_n_1        | football    | n   |
+|   47 | _meat_n_1            | meat        | n   |
+|   46 | _purple_a_1          | purple      | a   |
+|   46 | _next+to_p_state     | next+to     | p   |
+|   45 | _uniform_n_1         | uniform     | n   |
+|   45 | _pour_v_1            | pour        | v   |
+|   45 | _make_v_1            | make        | v   |
+|   45 | _hill_n_1            | hill        | n   |
+|   43 | _tennis_n_1          | tennis      | n   |
+|   43 | _ground_n_1          | ground      | n   |
+|   43 | _face_n_1            | face        | n   |
+|   43 | _dress_v_in          | dress       | v   |
+|   43 | _chase_v_1           | chase       | v   |
+|   42 | card                 | 4           | NIL |
+|   42 | _table_n_1           | table       | n   |
+|   42 | _pot_n_1             | pot         | n   |
+|   42 | _grey_a_1            | grey        | a   |
+|   42 | _down_p_dir          | down        | p   |
+|   41 | _top_n_1             | top         | n   |
+|   41 | _sing_v_1            | sing        | v   |
+|   41 | _near_p              | near        | p   |
+|   41 | _monkey_n_1          | monkey      | n   |
+|   41 | _look_v_1            | look        | v   |
+|   40 | _race_v_1            | race        | v   |
+|   40 | _put_v_1             | put         | v   |
+|   40 | _ocean_n_1           | ocean       | n   |
+|   40 | _drink_v_1           | drink       | v   |
+|   39 | _fight_v_1           | fight       | v   |
+|   38 | _track_n_1           | track       | n   |
+|   38 | _race_n_of-for       | race        | n   |
+|   38 | _kick_v_1            | kick        | v   |
+|   38 | _crowd_n_of          | crowd       | n   |
+|   37 | _take_v_1            | take        | v   |
+|   37 | _several_a_1         | several     | a   |
+|   37 | _make_v_of           | make        | v   |
+|   37 | _food_n_1            | food        | n   |
+|   37 | _fish_n_1            | fish        | n   |
+|   37 | _area_n_of           | area        | n   |
+|   36 | idiom_q_i            | NIL         | q   |
+|   36 | _to_p                | to          | p   |
+|   36 | _sidewalk_n_1        | sidewalk    | n   |
+|   36 | _oil_n_1             | oil         | n   |
+|   36 | _keyboard_n_1        | keyboard    | n   |
+|   36 | _drive_v_1           | drive       | v   |
+|   36 | _building_n_1        | building    | n   |
+|   35 | _knife_n_1           | knife       | n   |
+|   35 | _in+front+of_p       | in+front+of | p   |
+|   35 | _cover_v_1           | cover       | v   |
+|   35 | _chop_v_1            | chop        | v   |
+|   34 | subord               | NIL         | NIL |
+|   34 | recip_pro            | NIL         | NIL |
+|   34 | _rider_n_1           | rider       | n   |
+|   34 | _pose_v_as           | pose        | v   |
+|   34 | _catch_v_1           | catch       | v   |
+|   34 | _carrot_n_1          | carrot      | n   |
+|   33 | _rocky_a_1           | rocky       | a   |
+|   33 | _leaf_n_1            | leaf        | n   |
+|   33 | _game_n_1            | game        | n   |
+|   33 | _dress_n_1           | dress       | n   |
+|   32 | _old_a_1             | old         | a   |
+|   32 | _full_a_of           | full        | a   |
+|   32 | _fall_v_1            | fall        | v   |
+
