@@ -36,6 +36,9 @@
 	  do (write-line (or (gethash (tr line) *fixes*) (tr line)) out)))
 #+end_src
 
+#+RESULTS:
+: NIL
+
 * treebanking
 
 Produzing the jsonlines file from the txt file. 
@@ -59,6 +62,7 @@ top-500 (current ERG, not compatible with LKB?)
 ~/hpsg/art-0.1.9/mkprof -r ~/hpsg/logon/lingo/erg/tsdb/gold/mrs/relations -i expanded-fixed.txt sick-500
 ~/hpsg/art-0.1.9/art -a "~/hpsg/ace/ace -g ~/hpsg/ace/erg.dat -n 500 --timeout=60 --max-words=200 --max-chart-megabytes=4000 --max-unpack-megabytes=5000 --rooted-derivations --udx --disable-generalization" sick-500
 #+end_src
+
 * Statistics
 
 ** Sentences
@@ -85,7 +89,7 @@ why I am using the zeros and ones.
 #+end_src
 
 #+RESULTS:
-(6050 6076 0.99572086)
+(6051 6076 0.99588543)
 
 We still have 26 sentences that were not parsed:
 
@@ -118,7 +122,6 @@ We still have 26 sentences that were not parsed:
 - A policeman is getting off of a motorcycle
 - A prey is quickly running behind the cheetah
 - A topless woman is being smeared with a brown substance and a blurry crowd is in the background
-- A topless woman is being smeared with a brown substance and nobody is in the background
 - A woman is being smeared with brown substance and a blurry crowd is in the background
 - A yellow flower is being clung to by a bee
 - An woman that is old is shaking hands with a man
@@ -130,7 +133,6 @@ We still have 26 sentences that were not parsed:
 - The woman is not penciling on eyeshadow
 - The woman is penciling on eyeshadow
 - Two men are looking out and one is holding a spyglass
-
 
 ** Predicates
 
@@ -161,14 +163,14 @@ awk '{print $3}' predicates.out | sort | uniq -c
 #+end_src
 
 #+RESULTS:
-|  3899 | NIL |
-|  3894 | a   |
-|  1422 | c   |
-| 16631 | n   |
-|  5766 | p   |
-| 18502 | q   |
-|   624 | u   |
-|  8035 | v   |
+|  3901 | NIL |
+|  3896 | a   |
+|  1423 | c   |
+| 16635 | n   |
+|  5768 | p   |
+| 18507 | q   |
+|   626 | u   |
+|  8036 | v   |
 |    61 | x   |
 
 #+begin_src sh :results table :export both
@@ -176,20 +178,20 @@ sort predicates.out | uniq -c  | sort -nr | head -200
 #+end_src
 
 #+RESULTS:
-| 8397 | _a_q                 | a           | q   |
+| 8399 | _a_q                 | a           | q   |
 | 4752 | udef_q               | NIL         | q   |
-| 3312 | _the_q               | the         | q   |
+| 3313 | _the_q               | the         | q   |
 | 1736 | _man_n_1             | man         | n   |
-| 1414 | _and_c               | and         | c   |
+| 1415 | _and_c               | and         | c   |
 | 1215 | compound             | NIL         | NIL |
-|  933 | _woman_n_1           | woman       | n   |
+|  934 | _woman_n_1           | woman       | n   |
 |  884 | _dog_n_1             | dog         | n   |
 |  741 | _on_p_state          | on          | p   |
 |  719 | _in_p_state          | in          | p   |
 |  690 | _play_v_1            | play        | v   |
-|  674 | _in_p_loc            | in          | p   |
-|  667 | _with_p              | with        | p   |
-|  610 | _no_q                | no          | q   |
+|  675 | _in_p_loc            | in          | p   |
+|  668 | _with_p              | with        | p   |
+|  611 | _no_q                | no          | q   |
 |  538 | _be_v_there          | be          | v   |
 |  476 | card                 | 2           | NIL |
 |  432 | neg                  | NIL         | NIL |
@@ -214,8 +216,8 @@ sort predicates.out | uniq -c  | sort -nr | head -200
 |  265 | _ride_v_1            | ride        | v   |
 |  250 | _child_n_1           | child       | n   |
 |  249 | _jump_v_1            | jump        | v   |
+|  230 | _brown_a_1           | brown       | a   |
 |  229 | _young_a_1           | young       | a   |
-|  229 | _brown_a_1           | brown       | a   |
 |  225 | _walk_v_1            | walk        | v   |
 |  224 | nominalization       | NIL         | NIL |
 |  201 | _ball_n_of           | ball        | n   |
@@ -225,7 +227,7 @@ sort predicates.out | uniq -c  | sort -nr | head -200
 |  179 | _blue_a_1            | blue        | a   |
 |  172 | _guitar_n_1          | guitar      | n   |
 |  153 | _slice_v_1           | slice       | v   |
-|  145 | person               | NIL         | NIL |
+|  146 | person               | NIL         | NIL |
 |  143 | _shirt_n_1           | shirt       | n   |
 |  137 | _bike_n_1            | bike        | n   |
 |  136 | card                 | 1           | NIL |
@@ -236,13 +238,13 @@ sort predicates.out | uniq -c  | sort -nr | head -200
 |  126 | _hold_v_1            | hold        | v   |
 |  123 | _group_n_of          | group       | n   |
 |  121 | _cat_n_1             | cat         | n   |
-|  119 | def_implicit_q       | NIL         | q   |
+|  120 | def_implicit_q       | NIL         | q   |
 |  117 | _dance_v_1           | dance       | v   |
 |  115 | _for_p               | for         | p   |
 |  110 | _kid_n_1             | kid         | n   |
+|  105 | place_n              | NIL         | n   |
+|  105 | loc_nonsp            | NIL         | NIL |
 |  105 | _yellow_a_1          | yellow      | a   |
-|  104 | place_n              | NIL         | n   |
-|  104 | loc_nonsp            | NIL         | NIL |
 |  104 | _snow_n_1            | snow        | n   |
 |  104 | _horse_n_1           | horse       | n   |
 |  102 | _car_n_1             | car         | n   |
