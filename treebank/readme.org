@@ -66,7 +66,7 @@ top-500 (current ERG, not compatible with LKB?)
 The goal is to produce a visual indication of the covarage, that is
 why I am using the zeros and ones.
 
-#+begin_src lisp :results raw
+#+begin_src lisp :results raw :export both
   (defun stat-sentence (json-string)
     (let ((data (yason:parse json-string)))
       (if (gethash "parsed" data) 1 0)))
@@ -89,7 +89,7 @@ why I am using the zeros and ones.
 
 We still have 26 sentences that were not parsed:
 
-#+begin_src lisp :results list
+#+begin_src lisp :results list :export both
   (ql:quickload :alexandria)
 
   (defun read-jl (filename)
@@ -131,7 +131,8 @@ We still have 26 sentences that were not parsed:
 - The woman is penciling on eyeshadow
 - Two men are looking out and one is holding a spyglass
 
-* Predicates
+
+** Predicates
 
 #+begin_src lisp :results raw
   (defun print-preds (json-string stream)
@@ -155,7 +156,7 @@ We still have 26 sentences that were not parsed:
 
 #+RESULTS:
 
-#+begin_src shell :results table
+#+begin_src shell :results table :export both
 awk '{print $3}' predicates.out | sort | uniq -c 
 #+end_src
 
@@ -170,7 +171,7 @@ awk '{print $3}' predicates.out | sort | uniq -c
 |  8035 | v   |
 |    61 | x   |
 
-#+begin_src sh :results table
+#+begin_src sh :results table :export both
 sort predicates.out | uniq -c  | sort -nr | head -200
 #+end_src
 
