@@ -1,7 +1,9 @@
 #+Title: Data Processing SICK+ERG
 #+Author: Alexandre Rademaker
 
-* Fixing data with spreadsheet corrections 
+* fixing data with spreadsheet corrections 
+
+Using for processing Valeria's spreadsheet for fixing the corpus.
 
 #+begin_src lisp
   (defparameter *fixes* (make-hash-table :test #'equal))
@@ -35,9 +37,6 @@
 	  while line
 	  do (write-line (or (gethash (tr line) *fixes*) (tr line)) out)))
 #+end_src
-
-#+RESULTS:
-: NIL
 
 * treebanking
 
@@ -85,13 +84,13 @@ why I am using the zeros and ones.
 	     (per (/ (* 1.0 sum) len)))
 	(list sum len per))))
 
-  (summarize-sentences #P"expanded-fixed.jl")
+  (summarize-sentences #P"expanded.jl")
 #+end_src
 
 #+RESULTS:
-(6051 6076 0.99588543)
+(6055 6076 0.99654377)
 
-We still have 26 sentences that were not parsed:
+We still have 21 sentences that were not parsed:
 
 #+begin_src lisp :results list :export both
   (ql:quickload :alexandria)
@@ -104,35 +103,31 @@ We still have 26 sentences that were not parsed:
 
   (mapcar (lambda (tb) (gethash "sent" tb))
 	  (remove-if (lambda (tb) (gethash "parsed" tb))
-		     (read-jl #P"expanded-fixed.jl")))
+		     (read-jl #P"expanded.jl")))
 #+end_src
 
 #+RESULTS:
-- A daughter is being pushed by her father on a go-kart and another girl is watching
-- A father is pulling his daughter on a go-kart and another girl is looking away
-- A father is pushing his daughter on a go-kart and another girl is watching
-- A girl is pushing a go-kart and a daughter is watching her father
-- A hole is being burrowed by the badger
-- A hurdle is being leapt by a horse that has a rider on its back
-- A man is drawing on a digital dry erase board
-- A man is not drawing on a digital dry erase board
-- A man is packing away the guitar
-- A nearby throng of people are kissing two by two
-- A person is jotting something with a pencil
-- A policeman is getting off of a motorcycle
-- A prey is quickly running behind the cheetah
-- A topless woman is being smeared with a brown substance and a blurry crowd is in the background
-- A woman is being smeared with brown substance and a blurry crowd is in the background
-- A yellow flower is being clung to by a bee
-- An woman that is old is shaking hands with a man
-- The ball is being dunked by a man with a jersey at a basketball game
-- The boy in blue shirt is looking at his hand near the stack of blocks on table
-- The lady is penciling on eyeshadow
-- The orange colored dices are being cast by a cook to win the pepper
-- The players is maneuvering for the soccer ball
-- The woman is not penciling on eyeshadow
-- The woman is penciling on eyeshadow
-- Two men are looking out and one is holding a spyglass
+1. A daughter is being pushed by her father on a go-kart and another girl is watching
+2. A father is pulling his daughter on a go-kart and another girl is looking away
+3. A father is pushing his daughter on a go-kart and another girl is watching
+4. A girl is pushing a go-kart and a daughter is watching her father
+5. A hole is being burrowed by the badger
+6. A hurdle is being leapt by a horse that has a rider on its back
+7. A man is drawing on a digital dry erase board
+8. A man is not drawing on a digital dry erase board
+9. A man is packing away the guitar
+10. A person is jotting something with a pencil
+11. A prey is quickly running behind the cheetah
+12. A topless woman is being smeared with a brown substance and a blurry crowd is in the background
+13. A woman is being smeared with a brown substance and a blurry crowd is in the background
+14. A yellow flower is being clung to by a bee 
+15. The ball is being dunked by a man with a jersey at a basketball game
+16. The boy in a blue shirt is looking at his hand near the stack of blocks on table
+17. The lady is penciling on eyeshadow
+18. The orange colored dices are being cast by a cook to win the pepper
+19. The woman is not penciling on eyeshadow
+20. The woman is penciling on eyeshadow
+21. Two men are looking out and one is holding a spyglass
 
 ** Predicates
 
@@ -153,7 +148,7 @@ We still have 26 sentences that were not parsed:
 	      do (print-preds line out))
 	(values))))
 
-  (words #P"expanded-fixed.jl" #P"predicates.out")
+  (words #P"expanded.jl" #P"predicates.out")
 #+end_src
 
 #+RESULTS:
@@ -163,14 +158,14 @@ awk '{print $3}' predicates.out | sort | uniq -c
 #+end_src
 
 #+RESULTS:
-|  3901 | NIL |
-|  3896 | a   |
+|  3903 | NIL |
+|  3898 | a   |
 |  1423 | c   |
-| 16635 | n   |
-|  5768 | p   |
-| 18507 | q   |
+| 16645 | n   |
+|  5774 | p   |
+| 18519 | q   |
 |   626 | u   |
-|  8036 | v   |
+|  8040 | v   |
 |    61 | x   |
 
 #+begin_src sh :results table :export both
@@ -178,19 +173,19 @@ sort predicates.out | uniq -c  | sort -nr | head -200
 #+end_src
 
 #+RESULTS:
-| 8399 | _a_q                 | a           | q   |
-| 4752 | udef_q               | NIL         | q   |
-| 3313 | _the_q               | the         | q   |
-| 1736 | _man_n_1             | man         | n   |
+| 8404 | _a_q                 | a           | q   |
+| 4755 | udef_q               | NIL         | q   |
+| 3315 | _the_q               | the         | q   |
+| 1737 | _man_n_1             | man         | n   |
 | 1415 | _and_c               | and         | c   |
 | 1215 | compound             | NIL         | NIL |
-|  934 | _woman_n_1           | woman       | n   |
+|  935 | _woman_n_1           | woman       | n   |
 |  884 | _dog_n_1             | dog         | n   |
 |  741 | _on_p_state          | on          | p   |
 |  719 | _in_p_state          | in          | p   |
 |  690 | _play_v_1            | play        | v   |
 |  675 | _in_p_loc            | in          | p   |
-|  668 | _with_p              | with        | p   |
+|  670 | _with_p              | with        | p   |
 |  611 | _no_q                | no          | q   |
 |  538 | _be_v_there          | be          | v   |
 |  476 | card                 | 2           | NIL |
@@ -209,7 +204,7 @@ sort predicates.out | uniq -c  | sort -nr | head -200
 |  311 | poss                 | NIL         | NIL |
 |  311 | def_explicit_q       | NIL         | q   |
 |  310 | _of_p                | of          | p   |
-|  305 | _people_n_of         | people      | n   |
+|  306 | _people_n_of         | people      | n   |
 |  285 | _water_n_1           | water       | n   |
 |  269 | _run_v_1             | run         | v   |
 |  266 | _sit_v_1             | sit         | v   |
@@ -220,7 +215,7 @@ sort predicates.out | uniq -c  | sort -nr | head -200
 |  229 | _young_a_1           | young       | a   |
 |  225 | _walk_v_1            | walk        | v   |
 |  224 | nominalization       | NIL         | NIL |
-|  201 | _ball_n_of           | ball        | n   |
+|  202 | _ball_n_of           | ball        | n   |
 |  190 | _grass_n_1           | grass       | n   |
 |  185 | _red_a_1             | red         | a   |
 |  184 | _at_p_loc            | at          | p   |
@@ -237,10 +232,10 @@ sort predicates.out | uniq -c  | sort -nr | head -200
 |  127 | _small_a_1           | small       | a   |
 |  126 | _hold_v_1            | hold        | v   |
 |  123 | _group_n_of          | group       | n   |
+|  122 | def_implicit_q       | NIL         | q   |
 |  121 | _cat_n_1             | cat         | n   |
-|  120 | def_implicit_q       | NIL         | q   |
 |  117 | _dance_v_1           | dance       | v   |
-|  115 | _for_p               | for         | p   |
+|  116 | _for_p               | for         | p   |
 |  110 | _kid_n_1             | kid         | n   |
 |  105 | place_n              | NIL         | n   |
 |  105 | loc_nonsp            | NIL         | NIL |
@@ -258,7 +253,7 @@ sort predicates.out | uniq -c  | sort -nr | head -200
 |   94 | _beach_n_1           | beach       | n   |
 |   93 | _hat_n_1             | hat         | n   |
 |   91 | _field_n_of          | field       | n   |
-|   89 | _from_p_state        | from        | p   |
+|   90 | _from_p_state        | from        | p   |
 |   87 | _near_p_state        | near        | p   |
 |   85 | _rock_n_1            | rock        | n   |
 |   84 | _climb_v_1           | climb       | v   |
@@ -268,28 +263,28 @@ sort predicates.out | uniq -c  | sort -nr | head -200
 |   80 | _do_v_1              | do          | v   |
 |   78 | _look_v_at           | look        | v   |
 |   77 | _tree_n_of           | tree        | n   |
+|   76 | _player_n_of         | player      | n   |
 |   76 | _down_p_state        | down        | p   |
 |   76 | _bowl_n_1            | bowl        | n   |
-|   75 | _player_n_of         | player      | n   |
 |   73 | _lady_n_1            | lady        | n   |
 |   72 | _street_n_1          | street      | n   |
 |   72 | _into_p              | into        | p   |
 |   71 | _toy_n_1             | toy         | n   |
 |   71 | _potato_n_1          | potato      | n   |
 |   70 | _wall_n_of           | wall        | n   |
-|   69 | _soccer_n_1          | soccer      | n   |
+|   70 | _soccer_n_1          | soccer      | n   |
 |   69 | _piece_n_of-2        | piece       | n   |
 |   69 | _another_q           | another     | q   |
 |   68 | _road_n_1            | road        | n   |
 |   68 | _onion_n_1           | onion       | n   |
 |   67 | _egg_n_1             | egg         | n   |
+|   65 | _hand_n_1            | hand        | n   |
 |   64 | _lie_v_2             | lie         | v   |
-|   64 | _hand_n_1            | hand        | n   |
 |   64 | _dirt_n_1            | dirt        | n   |
 |   63 | _mouth_n_1           | mouth       | n   |
 |   63 | _animal_n_1          | animal      | n   |
+|   62 | _motorcycle_n_1      | motorcycle  | n   |
 |   61 | _park_n_1            | park        | n   |
-|   61 | _motorcycle_n_1      | motorcycle  | n   |
 |   60 | _into_p_dir          | into        | p   |
 |   60 | _baby_n_1            | baby        | n   |
 |   59 | _talk_v_about        | talk        | v   |
@@ -372,10 +367,10 @@ sort predicates.out | uniq -c  | sort -nr | head -200
 |   34 | _catch_v_1           | catch       | v   |
 |   34 | _carrot_n_1          | carrot      | n   |
 |   33 | _rocky_a_1           | rocky       | a   |
+|   33 | _old_a_1             | old         | a   |
 |   33 | _leaf_n_1            | leaf        | n   |
 |   33 | _game_n_1            | game        | n   |
 |   33 | _dress_n_1           | dress       | n   |
-|   32 | _old_a_1             | old         | a   |
 |   32 | _full_a_of           | full        | a   |
 |   32 | _fall_v_1            | fall        | v   |
 
