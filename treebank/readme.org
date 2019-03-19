@@ -88,7 +88,7 @@ why I am using the zeros and ones.
 #+end_src
 
 #+RESULTS:
-(6055 6076 0.99654377)
+(6056 6076 0.99670833)
 
 We still have 21 sentences that were not parsed:
 
@@ -120,14 +120,13 @@ We still have 21 sentences that were not parsed:
 11. A prey is quickly running behind the cheetah
 12. A topless woman is being smeared with a brown substance and a blurry crowd is in the background
 13. A woman is being smeared with a brown substance and a blurry crowd is in the background
-14. A yellow flower is being clung to by a bee 
+14. A yellow flower is being clung to by a bee
 15. The ball is being dunked by a man with a jersey at a basketball game
-16. The boy in a blue shirt is looking at his hand near the stack of blocks on table
-17. The lady is penciling on eyeshadow
-18. The orange colored dices are being cast by a cook to win the pepper
-19. The woman is not penciling on eyeshadow
-20. The woman is penciling on eyeshadow
-21. Two men are looking out and one is holding a spyglass
+16. The lady is penciling on eyeshadow
+17. The orange colored dices are being cast by a cook to win the pepper
+18. The woman is not penciling on eyeshadow
+19. The woman is penciling on eyeshadow
+20. Two men are looking out and one is holding a spyglass
 
 ** Predicates
 
@@ -158,14 +157,14 @@ awk '{print $3}' predicates.out | sort | uniq -c
 #+end_src
 
 #+RESULTS:
-|  3903 | NIL |
-|  3898 | a   |
+|  3905 | NIL |
+|  3899 | a   |
 |  1423 | c   |
-| 16645 | n   |
-|  5774 | p   |
-| 18519 | q   |
+| 16651 | n   |
+|  5778 | p   |
+| 18526 | q   |
 |   626 | u   |
-|  8040 | v   |
+|  8041 | v   |
 |    61 | x   |
 
 #+begin_src sh :results table :export both
@@ -173,9 +172,9 @@ sort predicates.out | uniq -c  | sort -nr | head -200
 #+end_src
 
 #+RESULTS:
-| 8404 | _a_q                 | a           | q   |
-| 4755 | udef_q               | NIL         | q   |
-| 3315 | _the_q               | the         | q   |
+| 8405 | _a_q                 | a           | q   |
+| 4756 | udef_q               | NIL         | q   |
+| 3318 | _the_q               | the         | q   |
 | 1737 | _man_n_1             | man         | n   |
 | 1415 | _and_c               | and         | c   |
 | 1215 | compound             | NIL         | NIL |
@@ -184,26 +183,26 @@ sort predicates.out | uniq -c  | sort -nr | head -200
 |  741 | _on_p_state          | on          | p   |
 |  719 | _in_p_state          | in          | p   |
 |  690 | _play_v_1            | play        | v   |
-|  675 | _in_p_loc            | in          | p   |
+|  676 | _in_p_loc            | in          | p   |
 |  670 | _with_p              | with        | p   |
 |  611 | _no_q                | no          | q   |
 |  538 | _be_v_there          | be          | v   |
 |  476 | card                 | 2           | NIL |
 |  432 | neg                  | NIL         | NIL |
-|  420 | pronoun_q            | NIL         | q   |
-|  416 | _boy_n_1             | boy         | n   |
+|  421 | pronoun_q            | NIL         | q   |
+|  417 | _boy_n_1             | boy         | n   |
 |  398 | _person_n_1          | person      | n   |
-|  378 | _on_p_loc            | on          | p   |
+|  379 | _on_p_loc            | on          | p   |
+|  372 | pron                 | NIL         | NIL |
 |  372 | _girl_n_1            | girl        | n   |
-|  371 | pron                 | NIL         | NIL |
 |  362 | _some_q              | some        | q   |
 |  357 | _stand_v_1           | stand       | v   |
 |  334 | _white_a_1           | white       | a   |
 |  332 | _black_a_1           | black       | a   |
 |  321 | _wear_v_1            | wear        | v   |
-|  311 | poss                 | NIL         | NIL |
-|  311 | def_explicit_q       | NIL         | q   |
-|  310 | _of_p                | of          | p   |
+|  312 | poss                 | NIL         | NIL |
+|  312 | def_explicit_q       | NIL         | q   |
+|  311 | _of_p                | of          | p   |
 |  306 | _people_n_of         | people      | n   |
 |  285 | _water_n_1           | water       | n   |
 |  269 | _run_v_1             | run         | v   |
@@ -219,11 +218,11 @@ sort predicates.out | uniq -c  | sort -nr | head -200
 |  190 | _grass_n_1           | grass       | n   |
 |  185 | _red_a_1             | red         | a   |
 |  184 | _at_p_loc            | at          | p   |
-|  179 | _blue_a_1            | blue        | a   |
+|  180 | _blue_a_1            | blue        | a   |
 |  172 | _guitar_n_1          | guitar      | n   |
 |  153 | _slice_v_1           | slice       | v   |
 |  146 | person               | NIL         | NIL |
-|  143 | _shirt_n_1           | shirt       | n   |
+|  144 | _shirt_n_1           | shirt       | n   |
 |  137 | _bike_n_1            | bike        | n   |
 |  136 | card                 | 1           | NIL |
 |  136 | _little_a_1          | little      | a   |
@@ -254,14 +253,14 @@ sort predicates.out | uniq -c  | sort -nr | head -200
 |   93 | _hat_n_1             | hat         | n   |
 |   91 | _field_n_of          | field       | n   |
 |   90 | _from_p_state        | from        | p   |
-|   87 | _near_p_state        | near        | p   |
+|   88 | _near_p_state        | near        | p   |
 |   85 | _rock_n_1            | rock        | n   |
 |   84 | _climb_v_1           | climb       | v   |
 |   83 | _camera_n_1          | camera      | n   |
 |   82 | proper_q             | NIL         | q   |
 |   81 | _air_n_1             | air         | n   |
 |   80 | _do_v_1              | do          | v   |
-|   78 | _look_v_at           | look        | v   |
+|   79 | _look_v_at           | look        | v   |
 |   77 | _tree_n_of           | tree        | n   |
 |   76 | _player_n_of         | player      | n   |
 |   76 | _down_p_state        | down        | p   |
@@ -278,7 +277,7 @@ sort predicates.out | uniq -c  | sort -nr | head -200
 |   68 | _road_n_1            | road        | n   |
 |   68 | _onion_n_1           | onion       | n   |
 |   67 | _egg_n_1             | egg         | n   |
-|   65 | _hand_n_1            | hand        | n   |
+|   66 | _hand_n_1            | hand        | n   |
 |   64 | _lie_v_2             | lie         | v   |
 |   64 | _dirt_n_1            | dirt        | n   |
 |   63 | _mouth_n_1           | mouth       | n   |
@@ -320,12 +319,12 @@ sort predicates.out | uniq -c  | sort -nr | head -200
 |   45 | _make_v_1            | make        | v   |
 |   45 | _hill_n_1            | hill        | n   |
 |   43 | _tennis_n_1          | tennis      | n   |
+|   43 | _table_n_1           | table       | n   |
 |   43 | _ground_n_1          | ground      | n   |
 |   43 | _face_n_1            | face        | n   |
 |   43 | _dress_v_in          | dress       | v   |
 |   43 | _chase_v_1           | chase       | v   |
 |   42 | card                 | 4           | NIL |
-|   42 | _table_n_1           | table       | n   |
 |   42 | _pot_n_1             | pot         | n   |
 |   42 | _grey_a_1            | grey        | a   |
 |   42 | _down_p_dir          | down        | p   |
