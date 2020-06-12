@@ -1,0 +1,154 @@
+#+Title: Debug ACE/PyDelphin 
+#+Author: Alexandre Rademaker
+
+
+#+begin_src lisp :results list
+  (ql:quickload :yason)
+  (with-open-file (in #P"expanded.jl")
+    (loop for line = (read-line in nil nil)
+	  while line
+	  for data = (yason:parse line)
+	  when (and (search "nominalization" (gethash "simplemrs" data))
+		    (< (length (gethash "sent" data)) 120))
+	  collect (gethash "sent" data)))
+#+end_src
+
+#+begin_src python :results output
+  from delphin.interfaces import ace
+  from delphin.mrs import simplemrs, mrx, dmrx, simpledmrs, eds
+
+  sent = 'A man is untying a shoe'
+  res  = ace.parse('/Users/ar/hpsg/ace/erg-2018-osx-0.9.30.dat', sent,
+		   cmdargs = ['--timeout', '60', '--max-words', '150', '-n', '1',
+			      '--max-chart-megabytes', '6000', '--max-unpack-megabytes', '6000',
+			      '--rooted-derivations', '--udx', '--disable-generalization'])
+
+  if len(res['results']) > 0:
+      x = res.result(0).mrs()
+      root = x.ep(x.nodeid(x.index))
+      print(root.pred)
+      print(simplemrs.dumps([x], pretty_print=True, properties = False))
+      print(simpledmrs.dumps([x], pretty_print=True))
+      print(eds.dumps([x], pretty_print=True))
+#+end_src
+
+#+RESULTS:
+#+begin_example
+_un-_a_rvrs
+[ TOP: h0
+  INDEX: e2
+  RELS: < [ _a_q<0:1> LBL: h4 ARG0: x3 RSTR: h5 BODY: h6 ]
+          [ _man_n_1<2:5> LBL: h7 ARG0: x3 ]
+          [ _tie_v_1<9:16> LBL: h1 ARG0: e8 ARG1: i9 ARG2: x10 ]
+          [ _un-_a_rvrs<9:16> LBL: h1 ARG0: e2 ARG1: e8 ]
+          [ _a_q<17:18> LBL: h11 ARG0: x10 RSTR: h12 BODY: h13 ]
+          [ _shoe_n_1<19:23> LBL: h14 ARG0: x10 ] >
+  HCONS: < h0 qeq h1 h5 qeq h7 h12 qeq h14 > ]
+dmrs {
+  [top=10002 index=10003]
+  10000 [_a_q<0:1> x PERS=3 NUM=sg IND=+];
+  10001 [_man_n_1<2:5> x PERS=3 NUM=sg IND=+];
+  10002 [_tie_v_1<9:16> e SF=prop TENSE=pres MOOD=indicative PROG=+ PERF=-];
+  10003 [_un-_a_rvrs<9:16> e SF=prop TENSE=pres MOOD=indicative PROG=+ PERF=-];
+  10004 [_a_q<17:18> x PERS=3 NUM=sg IND=+];
+  10005 [_shoe_n_1<19:23> x PERS=3 NUM=sg IND=+];
+  10000:RSTR/H -> 10001;
+  10002:ARG2/NEQ -> 10005;
+  10003:ARG1/EQ -> 10002;
+  10004:RSTR/H -> 10005;
+}
+{e8:
+ _1:_a_q<0:1>[BV x3]
+ x3:_man_n_1<2:5>[]
+ e8:_tie_v_1<9:16>[ARG2 x10]
+ e2:_un-_a_rvrs<9:16>[ARG1 e8]
+ _2:_a_q<17:18>[BV x10]
+ x10:_shoe_n_1<19:23>[]
+}
+#+end_example
+
+#+begin_src python :results output
+  from delphin.interfaces import ace
+  from delphin.mrs import simplemrs, mrx, dmrx, simpledmrs, eds
+  import json_lines
+
+  fout = open("dump-preds.txt", "w")
+  with open('expanded.jl', 'rb') as f:
+      for item in json_lines.reader(f):
+          if item['parsed']:
+              x = simplemrs.loads(item['simplemrs'], single=True)
+              root = x.ep(x.nodeid(x.index))
+              fout.write("%s\n" % root.pred.string)
+  print("done!")
+
+  #print(simplemrs.dumps([x], pretty_print=True, properties = False))
+  #print(simpledmrs.dumps([x], pretty_print=True))
+  #print(eds.dumps([x], pretty_print=True))
+#+end_src
+
+#+RESULTS: roots
+: done!
+
+#+begin_src shell 
+sort dump-preds.txt | uniq -c | sort -nr 
+#+end_src
+
+
+
+#+begin_src python :results output
+  from delphin.interfaces import ace
+  from delphin.mrs import simplemrs, mrx, dmrx, simpledmrs, eds
+  from delphin.mrs.components import Pred
+  import json_lines
+
+  with open('expanded.jl', 'rb') as f:
+      for item in json_lines.reader(f):
+          if item['parsed']:
+              x = simplemrs.loads(item['simplemrs'], single=True)
+              root = x.ep(x.nodeid(x.index))
+              #print(root.pred.short_form())
+              #break
+              if root.pred.short_form() == 'implicit_conj':
+                  print("SENT: %s" % item["sent"])
+                  print(simplemrs.dumps([x], pretty_print=True, properties = False))
+                  break
+#+end_src
+
+#+RESULTS:
+#+begin_example
+SENT: A boy is playing slip and slide in the grass
+
+[ TOP: h0
+  INDEX: e2
+  RELS: < [ _a_q<0:1> LBL: h4 ARG0: x5 RSTR: h6 BODY: h7 ]
+          [ _boy_n_1<2:5> LBL: h8 ARG0: x5 ]
+          [ _play_v_1<9:16> LBL: h1 ARG0: e9 ARG1: x5 ARG2: i10 ]
+          [ implicit_conj<17:44> LBL: h1 ARG0: e2 ARG1: e9 ARG2: e11 ]
+          [ pronoun_q<17:21> LBL: h12 ARG0: x13 RSTR: h14 BODY: h15 ]
+          [ pron<17:21> LBL: h16 ARG0: x13 ]
+          [ _slip_v_2<17:21> LBL: h1 ARG0: e17 ARG1: x13 ]
+          [ _and_c<22:25> LBL: h1 ARG0: e11 ARG1: e17 ARG2: e18 ]
+          [ pronoun_q<26:44> LBL: h19 ARG0: x20 RSTR: h21 BODY: h22 ]
+          [ pron<26:44> LBL: h23 ARG0: x20 ]
+          [ _slide_v_1<26:31> LBL: h1 ARG0: e18 ARG1: x20 ]
+          [ _in_p_loc<32:34> LBL: h1 ARG0: e24 ARG1: e18 ARG2: x25 ]
+          [ _the_q<35:38> LBL: h26 ARG0: x25 RSTR: h27 BODY: h28 ]
+          [ _grass_n_1<39:44> LBL: h29 ARG0: x25 ] >
+  HCONS: < h0 qeq h1 h6 qeq h8 h14 qeq h16 h21 qeq h23 h27 qeq h29 > ]
+#+end_example
+
+#+begin_src python :results output
+  from delphin.interfaces import ace
+  from delphin.mrs import simplemrs, mrx, dmrx, simpledmrs, eds
+  from delphin.mrs.components import Pred
+  import json_lines
+
+  with open('expanded.jl', 'rb') as f:
+      for item in json_lines.reader(f):
+          if item['parsed']:
+              x = simplemrs.loads(item['simplemrs'], single=True)
+              root = x.ep(x.nodeid(x.index))
+#+end_src
+
+#+RESULTS:
+

@@ -1,0 +1,43 @@
+%% John composed a sonata.
+
+%%   John(e1,x1)
+%% compose(e2,x2,x1,x4,u) vpast(e2)
+%%     a(e3,e4)
+%%   sonata(e4,x4,u,u,u)
+
+fof(john, axiom, ? [E1,X1,E2,X2,E3,E4,X4] :
+		 john(E1,X1) & compose(E2,X2,X1,X4) & a(E3,A4) & sonata(E4,X4)).
+
+%% nomlex result(compose) => composition
+fof(compose_result, axiom, ! [EWORK] : ? [E,X,AUTHOR,WORK] :
+			   compose(E,X,AUTHOR,WORK) => composition(EWORK, WORK)).
+
+%% nomlex agent(compose) => composer
+fof(compose_agent, axiom, ! [EAUTHOR] : ? [E,X,AUTHOR,WORK] :
+			  compose(E,X,AUTHOR,WORK) => composer(EAUTHOR, AUTHOR)).
+
+%% hyperonym(sonata) => classical_music
+fof(hyper_sonata, axiom, ? [E,X] :
+			 sonata(E,X) => classical_music(E,X)).
+
+%% hyperonym(classical_music) ... music
+fof(hyper_sonata, axiom, ? [E,X] :
+			 classical_music(E,X) => classical_music(E,X)).
+fof(hyper_classical_music, axiom, ? [E,X] : classical_music(E,X) => genre(E,X)).
+fof(hyper_genre, axiom, ? [E,X] : genre(E,X) => music(E,X)).
+
+%% hyperonym(composer) = musician
+fof(hyper_composer, axiom, ? [E,X] : composer(E,X) => musician(E,X)).
+
+% Is John a composer?
+% fof(is_john_composer, conjecture, john(E,X) & composer(E,X)).
+
+% Is sonata a composition?
+% fof(is_sonata_composition, conjecture, sonata(E,X) & composition(X)).
+
+% Did John compose music?
+fof(john_compose_music, conjecture, ? [EJ,XJ,EC,XC,EM,XM] :
+				    john(EJ,XJ) & compose(EC,XC,XJ,XM) & music(EM,XM)).
+
+% Is John a musician?
+% fof(john_musician, conjecture, john(E,X) & musician(E,X)).

@@ -1,0 +1,8 @@
+
+
+%fof(a0,axiom, (? [X] : man(X) & old(X))).
+%fof(a1,axiom, (? [X] : man(X))).
+
+fof(a3,conjecture,((? [X] : man(X) & old(X)) => (? [X] : man(X)))).
+%fof(a4,conjecture,((? [X] : man(X)) => (? [X] : man(X) & old(X)))).
+
